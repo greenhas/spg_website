@@ -1,0 +1,5 @@
+---
+date: 2021-08-12T17:36:31-04:00
+title: "Small sample size (and very non-representative), but my summer students seem to be on board with treating internet access as a public good. Hope for the future!"
+tags: ["micro"]
+---
