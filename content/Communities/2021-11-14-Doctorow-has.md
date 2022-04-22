@@ -5,4 +5,4 @@ tags: ["link"]
 ---
 Doctorow has some good thoughts on surveillance capitalism here.
  
-[link to 'Pluralistic: 14 Nov 2021 – Pluralistic: Daily links from Cory Doctorow'](https://pluralistic.net/2021/11/14/still-the-product/
+[link to 'Pluralistic: 14 Nov 2021 – Pluralistic: Daily links from Cory Doctorow'](https://pluralistic.net/2021/11/14/still-the-product/)
