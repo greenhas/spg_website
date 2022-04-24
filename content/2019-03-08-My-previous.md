@@ -1,5 +1,0 @@
----
-date: 2019-03-08T10:53:47-05:00
-title: "My previous planner post is only half-joking. I spent a lot of time last summer setting up productivity systems, and this semester is showing their weak spots. Eager to revisit."
-tags: ["micro"]
----
