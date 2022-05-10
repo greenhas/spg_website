@@ -1,8 +1,19 @@
 library(tidyverse)
 
-file_list <- list.files("/Users/spencergreenhalgh/Desktop/", pattern = ".md", full.names = TRUE)
+file_list <- list.files("/Users/spencergreenhalgh/hugo-testing/content/Communities", pattern = ".md", full.names = TRUE)
 
-for(i in 1:length(file_list)){
+file_list[2]
+
+temp_file <- read_lines(file_list[2])
+
+temp_file
+
+temp_file[4] <- "tags: [\"micro\",\"Communities\"]"
+
+write_lines(temp_file,paste0("/Users/spencergreenhalgh/hugo-testing/content/Communities/",write_name))
+
+
+for(i in 2:length(file_list)){
   
   temp_file <- read_lines(file_list[i])
   
