@@ -1,4 +1,4 @@
-baseURL = 'https://neon-eclair-368db5.netlify.app'
+baseURL = 'spencergreenhalgh.com'
 languageCode = 'en-us'
 title = 'Spencer Greenhalgh'
 theme = "ananke"
