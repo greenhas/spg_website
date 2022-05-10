@@ -1,4 +1,4 @@
-baseURL = 'spencergreenhalgh.com'
+baseURL = 'https://spencergreenhalgh.com'
 languageCode = 'en-us'
 title = 'Spencer Greenhalgh'
 theme = "ananke"
