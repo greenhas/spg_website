@@ -1,7 +1,7 @@
 ---
 date: 2021-11-14T12:48:33-05:00
 title: "linkblog: just read 'Vizio’s profit on ads, subscriptions, and data is double the money it makes selling TVs - The Verge'"
-tags: ["link"]
+tags: ["micro","Communities"]
 ---
 Terrifying stuff. I know "Orwellian" gets overused these days, but TVs that watch us are straight out of 1984.
  

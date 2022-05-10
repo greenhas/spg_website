@@ -1,5 +1,6 @@
 ---
 date: 2019-03-25T13:03:52-04:00
-title: "Getting in touch with my BYU roots in educational technology by applying for a grant to move to alternative textbooks for my Fall 2019 course."
-tags: ["micro"]
+title: ""
+tags: ["micro","Work"]
 ---
+Getting in touch with my BYU roots in educational technology by applying for a grant to move to alternative textbooks for my Fall 2019 course.

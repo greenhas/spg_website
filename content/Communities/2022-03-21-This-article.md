@@ -1,7 +1,7 @@
 ---
 date: 2022-03-21T12:12:55-04:00
 title: "linkblog: my thoughts on 'So how do Russian cosmonauts feel about Russia’s war on Ukraine? | Ars Technica'"
-tags: ["link"]
+tags: ["micro","Communities"]
 ---
 This article is the most helpful thing I've seen on the cosmonauts' uniform choice so far.
  

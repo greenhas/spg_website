@@ -1,5 +1,6 @@
 ---
 date: 2020-12-08T22:39:08-05:00
-title: "Reading about the Dreyfus Affair is spookier in December 2020 than it was back as an undergrad in French Civ II."
-tags: ["micro"]
+title: ""
+tags: ["micro","Myself"]
 ---
+Reading about the Dreyfus Affair is spookier in December 2020 than it was back as an undergrad in French Civ II.

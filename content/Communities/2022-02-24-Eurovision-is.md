@@ -1,7 +1,7 @@
 ---
 date: 2022-02-24T16:57:19-05:00
 title: "linkblog: my thoughts on 'Russia's still eligible for the 2022 Eurovision Song Contest : NPR'"
-tags: ["link"]
+tags: ["micro","Communities"]
 ---
 Eurovision is not supposed to be political, but it always sneaks in. My money is on a lot of sympathy votes for Ukraine's entry, and a very low score for Russia.
  

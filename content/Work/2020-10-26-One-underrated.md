@@ -1,5 +1,6 @@
 ---
 date: 2020-10-26T13:58:25-04:00
-title: "One underrated affordance of writing a journal manuscript in Google Docs is being able to have two identical copies of the manuscript open simultaneously. Really helps for checking consistency across paper or comparing two sections."
-tags: ["micro"]
+title: ""
+tags: ["micro","Work"]
 ---
+One underrated affordance of writing a journal manuscript in Google Docs is being able to have two identical copies of the manuscript open simultaneously. Really helps for checking consistency across paper or comparing two sections.

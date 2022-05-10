@@ -1,6 +1,6 @@
 library(tidyverse)
 
-file_list <- list.files("/Users/spencergreenhalgh/hugo-testing/content/Communities", pattern = ".md", full.names = TRUE)
+file_list <- list.files("/Users/spencergreenhalgh/hugo-testing/content/Myself", pattern = ".md", full.names = TRUE)
 
 for(i in 2:length(file_list)){
   
@@ -9,9 +9,9 @@ for(i in 2:length(file_list)){
   
   if(temp_file[4] == "tags: [\"micro\"]"){
     
-    temp_file[6] <- temp_file[3] %>% str_replace("title: \"","") %>% str_replace("title: \"","\"")    
+    temp_file[6] <- temp_file[3] %>% str_replace("title: \"","") %>% str_replace("\"","")    
     temp_file[3] <- "title: \"\""
-    temp_file[4] <- "tags: [\"micro\",\"Communities\"]"
+    temp_file[4] <- "tags: [\"micro\",\"Myself\"]"
     
     write_lines(temp_file, file_list[i])
     # write_lines(temp_file,paste0("/Users/spencergreenhalgh/hugo-testing/content/",file_list[i]))
@@ -20,7 +20,7 @@ for(i in 2:length(file_list)){
   
   if(temp_file[4] == "tags: [\"link\"]"){
     
-    temp_file[4] <- "tags: [\"micro\",\"Communities\"]"
+    temp_file[4] <- "tags: [\"micro\",\"Myself\"]"
     write_lines(temp_file, file_list[i])
     # write_lines(temp_file,paste0("/Users/spencergreenhalgh/hugo-testing/content/",file_list[i]))
   }

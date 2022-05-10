@@ -1,7 +1,7 @@
 ---
 date: 2022-04-14T19:43:06-04:00
 title: "linkblog: my thoughts on 'Elon Musk, After Toying With Twitter, Now Wants It All - The New York Times'"
-tags: ["link"]
+tags: ["micro","Communities"]
 ---
 Content moderation is a necessity, and Musk's take here is wildly irresponsible.
  

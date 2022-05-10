@@ -1,5 +1,6 @@
 ---
 date: 2021-12-03T17:47:08-05:00
-title: "Initial Dungeons and Dragons pizza plans have fallen through. I have pointed out that there's a LaRosa's nearby and am now swelling with an unexpected amount of Northern Kentucky pride."
-tags: ["micro"]
+title: ""
+tags: ["micro","Myself"]
 ---
+Initial Dungeons and Dragons pizza plans have fallen through. I have pointed out that there's a LaRosa's nearby and am now swelling with an unexpected amount of Northern Kentucky pride.

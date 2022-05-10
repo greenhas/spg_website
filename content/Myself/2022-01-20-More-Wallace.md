@@ -1,7 +1,7 @@
 ---
 date: 2022-01-20T12:01:09-05:00
 title: "linkblog: just finished 'Netflix Reveals New Wallace & Gromit Movie, Chicken Run 2 Cast'"
-tags: ["link"]
+tags: ["micro","Myself"]
 ---
 More Wallace and Gromit is always welcome.
  

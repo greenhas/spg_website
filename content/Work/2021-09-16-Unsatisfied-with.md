@@ -1,5 +1,6 @@
 ---
 date: 2021-09-16T08:36:01-04:00
-title: "Unsatisfied with the Intro to Data Science textbook I’ve inherited. Fortunately, an earlier version is Creative Commons-licensed, as are some other fantastic resources. Guess who’s going to remix himself a new textbook for next Fall!"
-tags: ["micro"]
+title: ""
+tags: ["micro","Work"]
 ---
+Unsatisfied with the Intro to Data Science textbook I’ve inherited. Fortunately, an earlier version is Creative Commons-licensed, as are some other fantastic resources. Guess who’s going to remix himself a new textbook for next Fall!

@@ -1,7 +1,7 @@
 ---
 date: 2021-11-10T07:27:30-05:00
 title: "linkblog: just read 'Supreme Court conservatives are skeptical on spiritual advisers in death chamber : NPR'"
-tags: ["link"]
+tags: ["micro","Communities"]
 ---
 Religious freedom only counts as such when it's applied across the board and not just for conservative talking points.
  

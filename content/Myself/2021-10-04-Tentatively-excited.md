@@ -1,7 +1,7 @@
 ---
 date: 2021-10-04T16:51:23-04:00
 title: "linkblog: just read 'Shang Chi Director: American Born Chinese Series for Disney+'"
-tags: ["link"]
+tags: ["micro","Myself"]
 ---
 Tentatively excited! Such a great comic—they’d better do it justice.
  

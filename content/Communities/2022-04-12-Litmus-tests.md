@@ -1,7 +1,7 @@
 ---
 date: 2022-04-12T15:30:10-04:00
 title: "linkblog: my thoughts on 'House G.O.P. Kills Bid to Honor Pioneering Black Judge - The New York Times'"
-tags: ["link"]
+tags: ["micro","Communities"]
 ---
 Litmus tests like this are making me even more worried about the future.
  

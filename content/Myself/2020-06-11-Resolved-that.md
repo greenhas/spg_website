@@ -1,5 +1,6 @@
 ---
 date: 2020-06-11T22:51:19-04:00
-title: "Resolved, that watching a clip of the first Enterprise vs. Reliant fight from Wrath of Khan shall be accepted as a legitimate reason for staying up too late."
-tags: ["micro"]
+title: ""
+tags: ["micro","Myself"]
 ---
+Resolved, that watching a clip of the first Enterprise vs. Reliant fight from Wrath of Khan shall be accepted as a legitimate reason for staying up too late.
