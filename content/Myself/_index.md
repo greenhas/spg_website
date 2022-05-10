@@ -3,5 +3,5 @@ title: "Myself"
 featured_image: "/train_CFF_cropped.jpg"
 weight: 1
 
-description: "test test"
+description: "I like French, comics, books, podcasts, (board and roleplaying) games, biking, and trains. I try to stay organized and in good (physical and mental) shape.<br><br>Moi, j'aime le français, les BD, les livres, les podcasts, les jeux (de plateau et de rôle), le cyclisme, et les trains. Je fais de mon mieux de rester organisé et en forme (physiquement et mentalement)."
 ---
