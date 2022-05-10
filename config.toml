@@ -2,8 +2,8 @@ baseURL = 'https://spencergreenhalgh.com/'
 languageCode = 'en-us'
 title = 'Spencer Greenhalgh'
 theme = "ananke"
-themesDir = "../.."
-resourceDir = "../resources"
+# themesDir = "../.."
+# resourceDir = "../resources"
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
