@@ -1,1 +1,0 @@
----date: 2022-05-10T12:05:24-04:00title: ""tags: ["Myself","automation“,” Siri Shortcuts“,” Hugo“,” static site"]---Testing an updated Siri Shortcut for remote posting to Hugo.
