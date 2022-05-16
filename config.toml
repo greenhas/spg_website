@@ -1,7 +1,7 @@
 baseURL = 'https://spencergreenhalgh.com/'
 languageCode = 'en-us'
 title = 'Spencer Greenhalgh'
-theme = "ananke"
+theme = "ananke_custom"
 # themesDir = "../.."
 # resourceDir = "../resources"
 
