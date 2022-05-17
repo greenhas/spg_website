@@ -1,7 +1,7 @@
 ---
 date: 2021-08-24T13:59:20-04:00
 title: "linkblog: just read 'The Giftschrank offers a path for social media companies on content moderation transparency.'"
-tags: ["micro","Communities"]
+tags: ["link","Communities"]
 ---
 Interesting proposal for a difficult issue.
  

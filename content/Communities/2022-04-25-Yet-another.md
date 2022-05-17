@@ -1,7 +1,7 @@
 ---
 date: 2022-04-25T07:46:14-04:00
 title: "linkblog: my thoughts on 'Twitter in talks with Musk over bid to buy platform, according to reports : NPR'"
-tags: ["micro","Communities"]
+tags: ["link","Communities"]
 ---
 Yet another reason to revisit my social media presence.
  

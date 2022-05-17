@@ -1,7 +1,7 @@
 ---
 date: 2021-11-12T12:37:59-05:00
 title: "linkblog: just read '24 UK employees placed on leave for breaking COVID policy | Lexington Herald Leader'"
-tags: ["micro","Communities"]
+tags: ["link","Communities"]
 ---
 Glad local reporters are looking into this; when the measures were announced, I was wondering what responses would be.
  

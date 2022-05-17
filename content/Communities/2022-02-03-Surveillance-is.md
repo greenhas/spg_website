@@ -1,7 +1,7 @@
 ---
 date: 2022-02-03T15:24:33-05:00
 title: "linkblog: just finished 'Senator Wyden: EARN IT Will Make Children Less Safe | Techdirt'"
-tags: ["micro","Communities"]
+tags: ["link","Communities"]
 ---
 Surveillance is not going to help kids.
  

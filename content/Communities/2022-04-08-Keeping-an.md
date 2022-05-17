@@ -1,7 +1,7 @@
 ---
 date: 2022-04-08T07:20:46-04:00
 title: "linkblog: my thoughts on 'Extremist Republicans like Ammon Bundy face opposition from moderates : NPR'"
-tags: ["micro","Communities"]
+tags: ["link","Communities"]
 ---
 Keeping an eye on France's elections in April and then Idaho's in May, I guess.
  

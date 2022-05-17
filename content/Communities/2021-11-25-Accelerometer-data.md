@@ -1,7 +1,7 @@
 ---
 date: 2021-11-25T07:32:02-05:00
 title: "linkblog: just finished 'Security Researcher Finds Facebook App Tracking iPhone Movements'"
-tags: ["micro","Communities"]
+tags: ["link","Communities"]
 ---
 Accelerometer data can be used for invasive tracking, and Facebook seems to be doing so. This is truly scary stuff.
  

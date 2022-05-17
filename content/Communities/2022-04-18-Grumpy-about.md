@@ -1,7 +1,7 @@
 ---
 date: 2022-04-18T07:27:44-04:00
 title: "linkblog: my thoughts on 'KY lawmakers reverse vote, give politicians control of libraries | Lexington Herald Leader'"
-tags: ["micro","Communities"]
+tags: ["link","Communities"]
 ---
 Grumpy about this this morning.
  

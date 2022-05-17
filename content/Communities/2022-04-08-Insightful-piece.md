@@ -1,7 +1,7 @@
 ---
 date: 2022-04-08T14:11:58-04:00
 title: "linkblog: my thoughts on 'GOP Social Media Experiments Fail (In Part) Because They Break The Troll/Amplification Cycle | Techdirt'"
-tags: ["micro","Communities"]
+tags: ["link","Communities"]
 ---
 Insightful piece on trolling and feeding trolls.
  

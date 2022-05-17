@@ -1,7 +1,7 @@
 ---
 date: 2021-10-05T17:55:11-04:00
 title: "linkblog: just read 'Facebook whistleblower hearing: France Haugen finally got Republicans to stop yapping about anti-conservative bias.'"
-tags: ["micro","Communities"]
+tags: ["link","Communities"]
 ---
 Interesting article. I’m particularly interested in the idea of focusing on algorithms rather than content.
  

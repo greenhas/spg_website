@@ -1,7 +1,7 @@
 ---
 date: 2022-01-01T12:36:51-05:00
 title: "linkblog: just finished 'Winnie-the-Pooh and early sound recordings enter public domain - The Verge'"
-tags: ["micro","Communities"]
+tags: ["link","Communities"]
 ---
 Happy public domain day!
  

@@ -1,7 +1,7 @@
 ---
 date: 2022-04-14T19:29:39-04:00
 title: "linkblog: my thoughts on 'It’s Still Stupidly, Ridiculously Difficult To Buy A ‘Dumb’ TV | Techdirt'"
-tags: ["micro","Communities"]
+tags: ["link","Communities"]
 ---
 Losing dumb TVs is not an acceptable option.
  

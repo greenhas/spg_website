@@ -1,7 +1,7 @@
 ---
 date: 2022-01-02T08:19:07-05:00
 title: "linkblog: just finished 'Smartphones Are a New Tax on the Poor | WIRED'"
-tags: ["micro","Communities"]
+tags: ["link","Communities"]
 ---
 Important and enlightening read.
  

@@ -1,7 +1,7 @@
 ---
 date: 2021-11-15T14:26:01-05:00
 title: "linkblog: just read 'After Facebook Leaks, Here Is What Should Come Next | Electronic Frontier Foundation'"
-tags: ["micro","Communities"]
+tags: ["link","Communities"]
 ---
 Always appreciate the EFF's perspective.
  
