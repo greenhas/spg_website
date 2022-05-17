@@ -27,16 +27,22 @@ enableRobotsTXT = true
   recent_posts_number = 2
 
 [[params.ananke_socials]]
-name = "keybase"
-url = "https://keybase.io/spgreenhalgh"
+name = "rss"
+url = "/rss"
 [[params.ananke_socials]]
-name = "twitter"
-url = "https://twitter.com/spgreenhalgh"
+name = "scholar"
+url = "https://scholar.google.com/citations?user=o3JQjpcAAAAJ&hl=en&oi=sra"
 [[params.ananke_socials]]
 name = "microdotblog"
 url = "https://micro.blog/spgreenhalgh"
 [[params.ananke_socials]]
 name = "mastodon"
 url = "/mastodon"
+[[params.ananke_socials]]
+name = "keybase"
+url = "https://keybase.io/spgreenhalgh"
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/spgreenhalgh"
 
 
