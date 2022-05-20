@@ -1,7 +1,7 @@
 ---
 date: 2022-05-20T07:48:54-04:00
 title: "Book of Mormon dependence on the King James Version"
-tags: ["macro","Communities","Book of Mormon","Bible","King James Version","Abinadi","rereading the Book of Mormon","World English Bible","New Revised Standard Version", "Robert Alter","French","Louis Segond]
+tags: ["macro","Communities","Book of Mormon","Bible","King James Version","Abinadi","rereading the Book of Mormon","World English Bible","New Revised Standard Version", "Robert Alter","French","Louis Segond"]
 ---
 
 It's a bit of a truism to say that the Book of Mormon is dependent on Biblical language, but one thing that's been on my mind for the past few years (especially since reading Thomas Wayment's excellent *The New Testament: A Translation for Latter-day Saints*) is how specifically dependent it is on the particular language of the King James Version of the Bible. 
