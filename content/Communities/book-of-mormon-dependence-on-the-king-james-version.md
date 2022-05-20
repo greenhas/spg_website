@@ -20,4 +20,4 @@ That's a very interesting choice. It corresponds with Paul C. Gutjahr's observat
 
 > Of paramount importance for Church leaders is that any new translation of the Book of Mormon attempt to render as closely as possible the currently Church- authorized English edition of the text. (p. 126)
 
-At the same time, though, it demonstrates a Latter-day Saint commitment to keeping the Book of Mormon dependent not just on Biblical language but on English, King James Language.
+At the same time, though, it demonstrates a Latter-day Saint commitment to keeping the Book of Mormon dependent not just on Biblical language but on English, King James Language—even if that means changing how Francophone Latter-day Saints usually read Isaiah.
