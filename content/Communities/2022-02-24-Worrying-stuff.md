@@ -1,7 +1,7 @@
 ---
 date: 2022-02-24T07:43:57-05:00
 title: "linkblog: my thoughts on 'QAnon Isn’t Dead, It’s Growing'"
-tags: ["link","Communities"]
+tags: ["link","Communities","QAnon","far right"]
 ---
 Worrying stuff here. Right-wing media consumption appears to be the big predictor for QAnon beliefs.
  

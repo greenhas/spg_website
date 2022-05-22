@@ -1,7 +1,7 @@
 ---
 date: 2022-02-23T18:36:57-05:00
 title: "linkblog: my thoughts on 'Peloton Outage Prevents Customers From Using $2,500 Exercise Bikes | Techdirt'"
-tags: ["link","Communities"]
+tags: ["link","Communities","bikes","platforms","networks"]
 ---
 Happy that my much cheaper bike does not rely on servers to function properly.
  
