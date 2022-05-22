@@ -1,7 +1,7 @@
 ---
 date: 2021-11-15T07:29:30-05:00
 title: "linkblog: just read 'How Republicans Have an Edge in the Emerging 2022 Congressional Maps - The New York Times'"
-tags: ["link","Communities"]
+tags: ["link","Communities","gerrymandering","voting","elections"]
 ---
 Gerrymandering is gross and wrong, no matter who's doing it.
  

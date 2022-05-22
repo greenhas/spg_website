@@ -1,7 +1,7 @@
 ---
 date: 2022-02-03T21:05:08-05:00
 title: "linkblog: just finished 'SHOP SAFE Will Stomp Out Online Sales of Used and Homemade Goods | Electronic Frontier Foundation'"
-tags: ["link","Communities"]
+tags: ["link","Communities","intellectual property"]
 ---
 Intellectual property is important, but overreach is a real problem. We should be liberalizing IP, not cracking down on it.
  

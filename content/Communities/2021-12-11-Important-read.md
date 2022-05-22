@@ -1,7 +1,7 @@
 ---
 date: 2021-12-11T18:47:25-05:00
 title: "linkblog: just finished 'Western Kentucky tornadoes: How to help, donate money, blood | Lexington Herald Leader'"
-tags: ["link","Communities"]
+tags: ["link","Communities","2021 Kentucky tornadoes"]
 ---
 Important read for folks looking to help.
  

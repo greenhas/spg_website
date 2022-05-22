@@ -1,7 +1,7 @@
 ---
 date: 2021-11-12T16:04:25-05:00
 title: "linkblog: just read 'Apple Has Listened And Will Retract Some Harmful Phone-Scanning'"
-tags: ["link","Communities"]
+tags: ["link","Communities","Apple","surveillance","privacy"]
 ---
 Good progress but need more.
  

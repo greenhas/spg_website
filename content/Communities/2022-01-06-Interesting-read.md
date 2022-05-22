@@ -1,7 +1,7 @@
 ---
 date: 2022-01-06T16:14:28-05:00
 title: "linkblog: just finished 'Banned from Facebook and Twitter, far right groups are still a presence online. : NPR'"
-tags: ["link","Communities"]
+tags: ["link","Communities","far right","content moderation"]
 ---
 Interesting read on a subject I expect to be following for a while.
  

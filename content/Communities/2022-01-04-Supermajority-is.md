@@ -1,7 +1,7 @@
 ---
 date: 2022-01-04T20:16:23-05:00
 title: "linkblog: just finished 'Republicans limit debate on first day of Ky. legislative session – 89.3 WFPL News Louisville'"
-tags: ["link","Communities"]
+tags: ["link","Communities","Kentucky","Kentucky General Assembly"]
 ---
 Supermajority is not enough for some folks, it seems.
  

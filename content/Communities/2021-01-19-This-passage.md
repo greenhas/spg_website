@@ -1,7 +1,7 @@
 ---
 date: 2021-01-19T13:04:11-05:00
 title: "Thinking about the Dreyfus Affair"
-tags: ["macro"]
+tags: ["macro","Dreyfus Affair","far right","France","reading"]
 ---
 
 This passage about the anti-Semitic Dreyfus Affair (from a book I’m reading on the French Third Republic) is coming to mind today: 
