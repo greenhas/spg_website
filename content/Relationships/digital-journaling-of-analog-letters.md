@@ -1,7 +1,7 @@
 ---
 date: 2022-05-24T07:52:00-04:00
 title: "reflections on digital journaling of analog letters"
-tags: ["macro","Relationships","digital","analog","analog vs. digital","Day One","journals","letters","ICT","ICT program","teaching"]
+tags: ["macro","Relationships","digital","analog","analog vs. digital","Day One","journaling","letters","ICT","ICT program","teaching"]
 ---
 
 One of the most interesting parts of teaching information communication technology classes despite not being formally trained in that field is picking up terms and concepts that I never learned as part of my degrees. One of the most interesting concepts I've picked up along the way is the formal distinction between digital and analog phenomena. I often use clocks or thermometers as examples of this in class: Analog phenomena can take on any number of values within certain bounds, whereas digital phenomena are limited to discrete values within those bounds. Thus, an analog clock technically displays **every** fraction of a second between two seconds, whereas even the most precise digital clock is going to limit its representation to particular fractions (and same goes with thermometers). 
