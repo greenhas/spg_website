@@ -45,4 +45,13 @@ url = "https://keybase.io/spgreenhalgh"
 name = "twitter"
 url = "https://twitter.com/spgreenhalgh"
 
+[[menu.main]]
+  identifier = "CV"
+  name = "CV"
+  url = "/CV/"
+  weight = 5
+
+
+
+
 
