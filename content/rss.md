@@ -11,9 +11,9 @@ If you want to subscribe to any of my content through RSS, here are some helpful
 * [all long-form blog posts](/tags/macro/index.xml)
 * [all microblog posts](/tags/micro/index.xml)
 * [all linkblog posts](/tags/link/index.xml)
-* [all **Myself** content](/myself/index.xml)
-* [all **Relationships** content](/relationships/index.xml)
-* [all **Work** content](/work/index.xml)
-* [all **Communities** content](/communities/index.xml)
+* [all **Myself** content](/myself/index.xml) (i.e., personal interests and projects)
+* [all **Relationships** content](/relationships/index.xml) (i.e., family life and friendships)
+* [all **Work** content](/work/index.xml) (i.e., teaching and research)
+* [all **Communities** content](/communities/index.xml) (i.e., politics and religion)
 
 You can even get more specific than this! I try to use consistent and regular tags in my writing. If you're interested in a particular subject, head to the [tags](/tags/) page of this website and bring up one of the tags. Then add `index.xml` to the end of the URL and pop that into a feedreader to subscribe to only the posts on that subject.
