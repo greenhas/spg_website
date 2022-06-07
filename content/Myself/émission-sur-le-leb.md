@@ -1,5 +1,5 @@
 ---
-date: 2022-06-07T09:14:06-04:00
+date: 2022-06-07T11:22:32-04:00
 title: "émission sur le LEB"
 tags: ["macro","Myself","trains","Switzerland","Vaud","Renens","LEB"]
 ---
