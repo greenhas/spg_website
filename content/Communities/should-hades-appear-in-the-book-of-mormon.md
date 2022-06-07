@@ -1,6 +1,6 @@
 ---
 date: 2022-06-07T07:56:46-04:00
-title: "should "Hades" appear in the Book of Mormon?"
+title: "should 'Hades' appear in the Book of Mormon?"
 tags: ["macro","Communities","Bible","rereading the Book of Mormon","King James Version","World English Bible"]
 ---
 
