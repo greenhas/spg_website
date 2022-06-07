@@ -4,7 +4,7 @@ title: "should 'Hades' appear in the Book of Mormon?"
 tags: ["macro","Communities","Bible","rereading the Book of Mormon","King James Version","World English Bible"]
 ---
 
-A few weeks ago, I [posted]("https://spencergreenhalgh.com/communities/book-of-mormon-dependence-on-the-king-james-version/") about Book of Mormon dependence on the King James Version and the way that that sometimes raises interesting questions about how the text should be understood. As I continue my project of what a modern-language version of the Book of Mormon might look like, I've run into another example. 
+A few weeks ago, I [posted](https://spencergreenhalgh.com/communities/book-of-mormon-dependence-on-the-king-james-version/) about Book of Mormon dependence on the King James Version and the way that that sometimes raises interesting questions about how the text should be understood. As I continue my project of what a modern-language version of the Book of Mormon might look like, I've run into another example. 
 
 1 Corinthians 15:55 is referenced three times in the Book of Mormon, including in Mosiah 8 (Mosiah 16 LDS), where I'm currently working my way through the text. The KJV take on this verse reads: 
 
