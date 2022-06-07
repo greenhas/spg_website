@@ -1,0 +1,1 @@
+---date: 2022-06-07T14:50:27-04:00title: "linkblog: my thoughts on ''"tags: ["Work","parenting","tenure","tenure dossier","research"]---Kiddo catches a glimpse of the ref list for the research statement I'm preparing for tenure: "Why does it say Greenhalgh so many times?" [link to '']()
