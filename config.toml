@@ -30,6 +30,9 @@ enableRobotsTXT = true
 name = "rss"
 url = "/rss"
 [[params.ananke_socials]]
+name = "hypothesis"
+url = "/hypothesis"
+[[params.ananke_socials]]
 name = "scholar"
 url = "https://scholar.google.com/citations?user=o3JQjpcAAAAJ&hl=en&oi=sra"
 [[params.ananke_socials]]
