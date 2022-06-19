@@ -1,8 +1,0 @@
----
-title: "Relationships"
-featured_image: "/LEGO_face_cropped.jpg"
-weight: 2
----
-Anxious but trying spouse and dad. Trying (and sometimes even succeeding!) to introduce my kid to bikes, games, books, French, and more.
-
-You can subscribe to this content through <a href="https://spencergreenhalgh.com/relationships/index.xml">this RSS feed</a> or <a rel="me" href="https://dads.cool/@spgreenhalgh">this Mastodon account</a>. 
