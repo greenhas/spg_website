@@ -1,7 +1,7 @@
 ---
 date: 2022-06-07T07:56:46-04:00
 title: "should 'Hades' appear in the Book of Mormon?"
-tags: ["macro","Communities","Bible","rereading the Book of Mormon","King James Version","World English Bible"]
+tags: ["macro","Communities","Bible","rereading the Book of Mormon project","King James Version","World English Bible","Book of Mormon"]
 ---
 
 A few weeks ago, I [posted](https://spencergreenhalgh.com/communities/book-of-mormon-dependence-on-the-king-james-version/) about Book of Mormon dependence on the King James Version and the way that that sometimes raises interesting questions about how the text should be understood. As I continue my project of what a modern-language version of the Book of Mormon might look like, I've run into another example. 
