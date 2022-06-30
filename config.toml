@@ -30,6 +30,12 @@ enableRobotsTXT = true
 name = "rss"
 url = "/rss"
 [[params.ananke_socials]]
+name = "email"
+url = "/newsletter"
+[[params.ananke_socials]]
+name = "keybase"
+url = "https://keybase.io/spgreenhalgh"
+[[params.ananke_socials]]
 name = "hypothesis"
 url = "/hypothesis"
 [[params.ananke_socials]]
@@ -41,12 +47,6 @@ url = "https://micro.blog/spgreenhalgh"
 [[params.ananke_socials]]
 name = "mastodon"
 url = "/mastodon"
-[[params.ananke_socials]]
-name = "keybase"
-url = "https://keybase.io/spgreenhalgh"
-[[params.ananke_socials]]
-name = "twitter"
-url = "https://twitter.com/spgreenhalgh"
 
 [[menu.main]]
   identifier = "CV"
