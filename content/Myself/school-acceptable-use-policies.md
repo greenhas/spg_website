@@ -12,4 +12,4 @@ I went over to Amazon to make sure it's still being sold and see how much it cos
 
 ![](https://spencergreenhalgh.com/TDKR_Jobs.png)
 
-There are a couple of homages to TDKR in *The Unbeatable Squirrel Girl* that I think will always be my favorite shout-outs to the comic, but seeing Jobs and Carrie Kelly on the same page literally made me laugh out loud. Time to get this book sooner rather than later—more importantly, though, time to read through the docs from kiddo's school without Sikoryak's help.
+There are a couple of homages to TDKR in *The Unbeatable Squirrel Girl* that I think will always be my favorite shout-outs to the comic, but seeing Jobs and Carrie Kelley on the same page literally made me laugh out loud. Time to get this book sooner rather than later—more importantly, though, time to read through the docs from kiddo's school without Sikoryak's help.
