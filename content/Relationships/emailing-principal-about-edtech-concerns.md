@@ -3,7 +3,7 @@ date: 2022-08-10T09:40:38-04:00
 title: "emailing principal about edtech concerns"
 tags: ["macro","Relationships","edtech","parenting","surveillance","privacy","Chromebooks","ClassDojo"]
 ---
-I really will get back to blogging on other subjects sometime soon, but here's an email I just sent to kiddo's principal raising some concerns I have going into the school year.
+I really will get back to blogging on other subjects sometime soon, but here's an email I just sent to kiddo's principal raising some concerns I have going into the school year. I'm not sure what will come of this—and I'm not at all sure this was the right email to write—but in the off-chance it's helpful for someone, I thought I'd post about it here.
 
 > Dear Principal [so-and-so],
 > 
