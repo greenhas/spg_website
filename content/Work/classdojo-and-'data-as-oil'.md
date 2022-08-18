@@ -21,7 +21,7 @@ I don't know what *Percentage Positive* is, for example, but apparently if I wan
 
 Here's a wild one: If I want to see my kid's point history further back than 14 days, I'm also going to have to pay for it. Seriously? 
 
-![](https://spencergreenhalgh.com/ClassDojoPlus_Point_History.jpg)
+![](https://spencergreenhalgh.com/ClassDojoPlus_Point_History.png)
 
 Please also note the inclusion of French months in an otherwise-English interface. This is partly my fault, since my iOS system language is set to French but my ClassDojo interface is set to English. However, ClassDojo advertises translation features as one of its selling points, and the crudeness with which these languages have been mashed together makes me more skeptical about that advertising than I already was. 
 
