@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 302 2.1</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 302: Content Management Systems</h1>
+<h2 style=color:white>29 August 2022</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+
+background-color: grey
+
+class: center, middle
+
+# announcements
+
+---
+
+class: center, middle
+
+"The Department of Civil Engineering is [looking for a student](https://ukjobs.uky.edu/postings/418765), preferably in Communications or ISC to re-design/update our webpage and create a more prominent digital footprint on social media websites."
+
+---
+
+class: center, middle
+
+# please make sure you're annotating—and in our private class group! 
+
+# my late policy is generous—but has limits!
+
+---
+
+background-color: grey
+
+class: center, middle
+
+#what is content?
+
+---
+
+# two defining characteristics of content
+
+According to [Barker](https://flyingsquirrelbook.com/glossary/term/content/), content is information that is:
+
+--
+
+* created by editorial process, and
+
+--
+
+* intended for consumption by a human audience
+
+--
+
+Why does this matter? 
+
+--
+
+> *These two characteristics differentiate content from other types of data which might be created through more [derivative] processes (swiping a credit card on a terminal, for instance), and intended for other types of audiences (machine processing, or instance) or usages.*
+
+Deane Barker
+
+---
+
+# this gets fuzzy fast
+
+--
+
+According to [Barker](https://flyingsquirrelbook.com/glossary/term/editorial-process/), the editorial process is: 
+
+--
+
+> *The process by which content is created.*
+
+---
+
+# this gets fuzzy fast
+
+ According to [Barker](https://flyingsquirrelbook.com/glossary/term/editorial-process/), the editorial process is: 
+ 
+ > *The process by which content is created. The editorial process is iterative and highly subjective. Editorial process is what separates content from simple data or information.*
+
+---
+
+# a better approach to editorial process
+
+--
+
+> *I think this is the hardest part concerning content production as well. Anyone can shoot video but editing it down to something that people want to watch is difficult. This applies to other mediums as well.*
+
+Caleb Faris
+
+--
+
+> *I've met with developers that say they can get stuck in a cycle of never putting something out because there is just one more thing that can be done to it to make it better.*
+
+Becca Araiza
+
+---
+ 
+# how does technology fit in with the editorial process?
+
+Horgan, C. (2021, August 29). We used to write: How to keep writing human in a world of A.I. tools. *OneZero*. https://onezero.medium.com/we-used-to-write-bfed4d4eefca
+
+--
+
+> *Worries about how technology affects writing — that is to say, handwriting — are older than personal computers and word processors. In a short 1938 editorial, the New York Times briefly contemplated the history of the lead pencil, concluding that “writing with one’s own hand seems to be disappearing, and the universal typewriter may swallow all.” As far as [the] typewriter’s QWERTY keyboard is concerned, this proved to be an accurate prediction. That arrangement of keys remains the standard for desktop, laptop, and mobile keyboards.*
+
+---
+
+# how does technology fit in with the editorial process?
+
+Horgan, C. (2021, August 29). We used to write: How to keep writing human in a world of A.I. tools. *OneZero*. https://onezero.medium.com/we-used-to-write-bfed4d4eefca
+
+> *“Apps like these aim to bring our text in line with an algorithmic norm,” Crystal Chokshi [wrote](https://reallifemag.com/recommended-writing/) at RealLife in January. “They define ‘good’ writing as efficient writing; and according to their marketing campaigns, writing can be efficient because its hallmarks are pattern and repetition.” Computer-generated writing, in other words, assumes Heidegger’s fear as foundational: that everyone’s writing should look the same.*
+
+---
+
+# how does technology fit in with the editorial process?
+
+Horgan, C. (2021, August 29). We used to write: How to keep writing human in a world of A.I. tools. *OneZero*. https://onezero.medium.com/we-used-to-write-bfed4d4eefca
+
+> *Computer-assisted writing tools in the form of things like spell check or auto-correct have been standard for years, available to anyone using a word processing program like Microsoft’s Word, Apple’s Pages, or Google Docs. Lately, those companies have expanded their offerings to their email services, scanning text and offering up pre-composed responses to messages. When Google’s Gmail hit 15, the company noted the apparent popularity of its artificial writing assistant, SmartCompose. “It’s already saved people from typing over 1 billion characters each week — that’s enough to fill the pages of 1,000 copies of ‘Lord of the Rings,’ Google boasted.*
+
+---
+
+# how does technology fit in with the editorial process?
+
+Horgan, C. (2021, August 29). We used to write: How to keep writing human in a world of A.I. tools. *OneZero*. https://onezero.medium.com/we-used-to-write-bfed4d4eefca
+
+> *What is the difference between what a computer writes and what a human creates?*
+
+---
+
+# what does it mean to be intended for a human audience?
+
+--
+
+BoardGameGeek
+* game page: https://boardgamegeek.com/boardgame/191004/my-first-stone-age
+* API call: https://www.boardgamegeek.com/xmlapi/boardgame/[number]
+
+--
+
+**UK**Now
+* [homepage](https://uknow.uky.edu/)
+* [RSS file](https://uknow.uky.edu/feeds)
+
+--
+
+`academictwitteR` package for R programming language
+* [get_all_tweets function](https://github.com/cjbarrie/academictwitteR/blob/master/R/get_all_tweets.R)
+* [README file](https://github.com/cjbarrie/academictwitteR#readme)
+
+--
+
+these slides!
+
+---
+
+class: middle, center
+
+# content or not? 
+
+---
+
+background-color: grey
+
+class: center, middle
+
+# is content creation a good thing?
+
+---
+
+# many of you took issue with Anil, Cindy, and Danny's criticisms
+
+--
+
+that's a good thing!
+
+--
+
+here are some of your counter-criticisms: 
+
+--
+
+> *I disagree completely with Anil Dash's opinion that the term "Content Creator" or "User Generated Content" is dehumanizing or some sort of terrible way to frame what these people do.*
+
+Jacob Hunt
+
+--
+
+> *I also did not like how the host and guest compared artists with the content creators.* 
+
+Kusmira Pandey
+
+--
+
+> *Anil Dash uses Content Creator as almost an insult, even though many younger people will not see it in this way. A generation who grew up with content creators will hold it in much higher regard.*
+
+Taylor Biggs
+
+---
+
+# why do definitions matter? 
+
+--
+
+> *In todays online world, content is anything created, and content creators are the ones doing the creating.*
+
+Mathea Kumic
+
+--
+
+> *Steven Spielberg is not a content creator for a movie studio.*
+
+Anil Dash
+
+--
+
+according to Barker's definition, is Spielberg a content creator? 
+
+--
+
+* created by editorial process
+
+--
+
+* intended for a human audience
+
+---
+
+# so, then, why critique "content creation"? 
+
+--
+
+> *I get their criticism of content creation, where it now seems that everyone who wants to create content and share it has to do it in a certain way and through a certain widely accepted platform in a specific format.*
+
+Chris Frondal
+
+--
+
+> *In an ideal world the old youtube where creators were center stage would allow for the creativity and variety of content we used to see flourish.*
+
+Whitman Joyner
+
+--
+
+> *Today there is a hidden agenda for almost every app, software, link, webpage or anything regarding technology.*
+
+Gin Grizzell-Justice
+
+--
+
+> *I definitely agree that Big Tech needs to be reigned in a bit. The internet certainly has lost a lot of its former glory with how all-consuming everything seems to be these days.*
+
+Griff
+
+---
+
+class: center, middle
+
+# what role do platforms play? for better and for worse?
+
+---
+
+> *Yet social media rely on users spending considerable amounts of time and effort to consume *and* produce content. Whether they see themselves as working or not, most social media users are therefore engaged in cognitive, communicative and cooperative activites that lead to the creation of new "immaterial" products*
+
+Neil Selwyn, *What is digital sociology?*
+
+--
+
+> *an overwhelming 81% of total TPT sales were attributed to the top 1% of educator-sellers*
+
+Koehler et al. (2020), *Where does all the money go? Free and paid transactions on TeachersPayTeachers.com.*
+
+--
+
+Selwyn argues that it's helpful to move
+
+> *debates over digital labor beyond simplistic questions of whether these forms of work are "good" or "bad." Any criticism is tempered by the fact that... unpaid content creation and social media influencing appear to be practices in which some individuals engage by choice.*
+
+---
+
+background-color: grey
+
+class: center, middle
+
+# what is involved in content management?
+
+---
+
+# content management as "emergent"
+
+--
+
+> *Most people do claim they can cook, but how? What? It isn't a single skill, but as Barker alludes, an amalgamation of different skills and abilities—typically time-proven and tested.*
+
+Jared Hyde
+
+--
+
+> *There are multiple aspects within the whole task.*
+
+Mathea Kumic
+
+--
+
+> *it is a lot of work actually taking a concept and coordinating to create all the aspects of the design.*
+
+Mathea Kumic
+
+--
+
+> *You can be really good at the technical part of your job, but if you can't work well or communicate with your team members, you may not be seen as "good" at your job.*
+
+Taylor Biggs
+
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		},
+     		slideNumberFormat:'',
+  		});
+    </script>
+  </body>
+</html>
