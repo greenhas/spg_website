@@ -1,0 +1,1 @@
+---date: 2022-09-22T14:53:03-04:00title: "linkblog: my thoughts on ''"tags: ["link","Relationships","bikes","parenting"]---Kiddo's classmate thinks our ridealong setup (which attaches a third wheel and second seat for kiddo to my normal bike) should be called a tricycle. I love it, but it enrages kiddo for reasons I don't get. [link to '']()
