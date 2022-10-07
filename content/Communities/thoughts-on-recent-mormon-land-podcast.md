@@ -1,7 +1,7 @@
 ---
 date: 2022-10-07T12:55:21-04:00
 title: "thoughts on recent Mormon Land podcast"
-tags: ["macro","Communities","Salt Lake Tribune","Mormon Land","The Church of Jesus Christ of Latter-day Saints","Thomas Monson","Russell Nelson","Greg Prince","fallibility"]
+tags: ["macro","Communities","Salt Lake Tribune","Mormon Land","The Church of Jesus Christ of Latter-day Saints","Thomas Monson","Greg Prince","fallibility","Ezra Taft Benson"]
 ---
 The Salt Lake Tribune's *Mormon Land* podcast is one of my favorites—I've gone so far as to support it [on Patreon](https://www.patreon.com/mormonland/posts) so that I can get all the Tribune's religion coverage without having to subscribe to the entire newspaper. Mormon news interests me a lot, but Utah news doesn't interest me at all. Yesterday's episode on age and Latter-day Saint leadership was one of the most interesting episodes that I've listened to. In particular, two of Greg Prince's comments during his interview stood out to me. 
 
