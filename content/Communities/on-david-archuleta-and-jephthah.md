@@ -5,7 +5,7 @@ tags: ["macro","Communities","sacrifice","Abraham","Isaac","Thomas Römer","Robe
 ---
 Some of the most troubling passages in the Christian canon have to do with the sacrifice of children in the name of God. Abraham's near sacrifice of Isaac is perhaps the most obvious example of this, but there are other examples that (ought to) raise as much concern in the mind of the believer. Perhaps the most interesting (to me) story along these lines is found in Judges 11:31 (I'm using Robert Alter's fantastic translation throughout this post), where one of the eponymous judges, a man by the name of Jephthah:
 
-> made a vow to the LORD and said, "If You indeed give the Ammonites into my hand, it shall be that whatever comes out of the door fo my house to meet me when I return safe and sound from the Ammonites shall be the LORD's, and I shall offer it up as a burnt offering."
+> made a vow to the LORD and said, "If You indeed give the Ammonites into my hand, it shall be that whatever comes out of the door of my house to meet me when I return safe and sound from the Ammonites shall be the LORD's, and I shall offer it up as a burnt offering."
 
 Perhaps unsurprisingly, this story goes horribly wrong. Jephthah is victorious against the Ammonites, so he comes home ready to make good on his half of the bargain. However, as we read in verse 34:
 
