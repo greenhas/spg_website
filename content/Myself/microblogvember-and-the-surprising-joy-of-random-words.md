@@ -9,7 +9,7 @@ Recently, I was listening to [a podcast episode](https://thebiblefornormalpeople
 
 This was a fun episode for me. I'd been passingly familiar with this concept since high school; there's an entry in my journal in 2005 explaining that the reason I've been so bad at writing in my journal is because as I'd learned from Derrida: 
 
->  words don’t mean anything,,, language is not an effective way to communicate because they cannot truly express ideas
+>  words don’t mean anything... language is not an effective way to communicate because they cannot truly express ideas
 
 I don't know if I had deconstructionism right 17 years ago, but I think my basic interest in it then has survived and matured until now. I understand it better after this podcast episode, and I'm all the more interested in it.
 
