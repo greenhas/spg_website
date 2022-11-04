@@ -3,7 +3,7 @@ date: 2022-11-04T08:28:38-04:00
 title: "microblogvember and the surprising joy of random words"
 tags: ["macro","Myself","mbnov2022","deconstruction","The Bible for Normal People","podcasts","French","music"]
 ---
-Recently, I was listening to [a podcast episode](https://thebiblefornormalpeople.com/episode-223-jared-byas-misconceptions-about-deconstruction-the-bible/) that was touching on deconstruction. It was chiefly concerned with the term as its used in religious contexts, but to do so, it was going back to its intellectual roots, with Jacques Derrida and Ferdinand de Saussure. As the host, Jared Byas, summarized the ideas of deconstruction:
+Recently, I was listening to [a podcast episode](https://thebiblefornormalpeople.com/episode-223-jared-byas-misconceptions-about-deconstruction-the-bible/) that was touching on deconstruction. It was chiefly concerned with the term as it's used in religious contexts, but to do so, it was going back to its intellectual roots, with Jacques Derrida and Ferdinand de Saussure. As the host, Jared Byas, summarized the ideas of deconstruction:
 
 > we can’t ever escape language and the meaning of language depends on other parts of that language. Ugh! It’s so frustrating. In other words, all language is a metaphor, or it’s a symbol that stands in for other language. When I say “bike,” there’s a sense in which that’s a shorthand for that thing over there with the two wheels and the handlebar. The problem, of course, is that when I say that, that’s also words. So when I say “wheels,” we could say that’s a shorthand for the round thing with the spokes and the rubber on the outside. And then we can say, “spokes” that’s shorthand for, on and on, and on, right, you get the point.
 
