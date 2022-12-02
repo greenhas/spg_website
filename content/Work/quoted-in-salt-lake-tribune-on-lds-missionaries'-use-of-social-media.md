@@ -1,7 +1,7 @@
 ---
 date: 2022-05-17T15:20:10-04:00
 title: "quoted in Salt Lake Tribune on LDS missionaries' use of social media"
-tags: ["macro","Work","online Mormonism","social media","platforms","religious authority", "Salt Lake Tribune"]
+tags: ["macro","Work","online Mormonism","social media","platforms","religious authority", "Salt Lake Tribune","media appearances"]
 ---
 
 Last week, I got the chance to chat with Salt Lake Tribune religion reporter Peggy Fletcher Stack about Latter-day Saint missionaries use of social media videos, and I was pleased to see [the article](https://www.sltrib.com/religion/2022/05/15/tiktok-or-tracting-lds/) published on Sunday. I hadn't been paying attention to online missionary videos, but the subject fit nicely with the reading I've been doing on platform and platform values recently: 
