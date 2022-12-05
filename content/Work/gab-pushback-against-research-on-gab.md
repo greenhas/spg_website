@@ -9,7 +9,7 @@ I'm not going to link to it, but I am fascinated by a recent post on the Gab blo
 
 Torba uses several phrases meant to depict researchers (or at least some researchers) as too dumb to get it and unhealthily obsessed with what is happening on Gab. He uses scarequotes around the word "studies" and describes their authors as "dopey academic types who are obsessed with studying the things people are talking about on Gab" or even as "[reee](https://knowyourmeme.com/memes/reeeeeee)searchers." This comes off as a kind of ad hominem attack questioning the very existence of social science research (or at least the kind that examines Gab). 
 
-It reminded me in particular of some tweets directed at Amy and when we were quoted in the Salt Lake Tribune related to our work on DezNat: 
+It reminded me in particular of some tweets directed at Amy and me when we were quoted in the Salt Lake Tribune related to our work on DezNat: 
 
 > If you are an "academic and your "research" is recording and analysing the jokes my friends and I make on the internet then LMAO @ your life. 
 > 
