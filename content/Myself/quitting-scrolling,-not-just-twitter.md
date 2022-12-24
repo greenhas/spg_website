@@ -3,7 +3,7 @@ date: 2022-12-24T08:40:59-05:00
 title: "quitting scrolling, not just Twitter"
 tags: ["macro","Myself","Twitter","blogging","RSS","Mastodon","Elon Musk","Micro.blog"]
 ---
-Although it's been a real delight to see so many people joining Mastodon over the past few weeks, I've found that there's also a disadvantage that I hadn't expected: I'm spending a lot more time scrolling through Mastodon these days than I ever have since setting up my Mastodon accounts back.
+Although it's been a real delight to see so many people joining Mastodon over the past few weeks, I've found that there's also a disadvantage that I hadn't expected: I'm spending a lot more time scrolling through Mastodon these days than I ever have since setting up my Mastodon accounts.
 
 When I began setting up Mastodon accounts and shifting away from Twitter back in April, I felt like I had made a big leap forward in terms of my online consumption. One thing that I'd always struggled with on Twitter was the feeling that I needed to see every single post from every single account. I'd eventually helped with that by consuming Twitter via RSS and narrowing my followed accounts down to the ones that I really, really wanted to follow. By virtue of converting Twitter to RSS, I was still consuming all the posts from those accounts, but it also forced me to only pick those accounts that wouldn't overwhelm my RSS reader with posts I didn't really care about.
 
