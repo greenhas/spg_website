@@ -1,0 +1,1 @@
+---date: 2022-12-24T21:29:33-05:00title: ""tags: ["micro","Myself","Christmas","Geoguessr","traditions"]---Doing some Christmas Eve Geoguessr, and I think I ought to make this a tradition.
