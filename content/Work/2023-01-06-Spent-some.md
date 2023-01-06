@@ -1,0 +1,1 @@
+---date: 2023-01-06T10:19:21-05:00title: "📝 writeblog: spent 0:35:36 on 'publish Dojo and platforms study'"tags: ["write","Work","research","ClassDojo","platforms"]---Spent some more time this morning going through survey data and matching software mentioned in survey data with actual software categories.
