@@ -1,10 +1,10 @@
 library(tidyverse)
 
-file_list <- list.files("/Users/spencergreenhalgh/spg_website/content/Communities", pattern = ".md", full.names = TRUE)
+file_list <- list.files("/Users/spencergreenhalgh/spg_website/content/Relationships", pattern = ".md", full.names = TRUE)
 
-file_list
+# file_list
 
-for(i in 2:length(file_list)){
+for(i in 1:length(file_list)){
   
   temp_file <- read_lines(file_list[i])
   

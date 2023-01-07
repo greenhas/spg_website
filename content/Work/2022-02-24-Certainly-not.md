@@ -1,6 +1,6 @@
 ---
 date: 2022-02-24T07:39:00-05:00
-title: "linkblog: my thoughts on 'George Washington University apologizes for tracking locations of students, faculty | TheHill'"
+title: "🔗linkblog: my thoughts on 'George Washington University apologizes for tracking locations of students, faculty | TheHill'"
 tags: ["link","Work","surveillance"]
 ---
 Certainly not the worst news I've read this morning, but still tremendously worrying.

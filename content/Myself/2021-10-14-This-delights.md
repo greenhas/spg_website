@@ -1,6 +1,6 @@
 ---
 date: 2021-10-14T13:00:29-04:00
-title: "linkblog: just read 'A squeaky glove compartment accidentally sounds like light jazz | Boing Boing'"
+title: "🔗linkblog: just read 'A squeaky glove compartment accidentally sounds like light jazz | Boing Boing'"
 tags: ["link","Myself"]
 ---
 This delights me to no end.

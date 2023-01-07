@@ -1,6 +1,6 @@
 ---
 date: 2021-12-02T08:15:39-05:00
-title: "linkblog: just finished 'Report - Sharing Student Data Across Public Sectors: Importance of Community Engagement to Support Responsible and Equitable Use - Center for Democracy and Technology'"
+title: "🔗linkblog: just finished 'Report - Sharing Student Data Across Public Sectors: Importance of Community Engagement to Support Responsible and Equitable Use - Center for Democracy and Technology'"
 tags: ["link","Work"]
 ---
 Looking forward to reading—and citing—this full report.

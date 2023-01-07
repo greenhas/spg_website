@@ -1,6 +1,6 @@
 ---
 date: 2021-09-20T07:37:02-04:00
-title: "linkblog: just read 'Pfizer Says Vaccine Trials For Kids Show Its Shots Are Safe : Coronavirus Updates : NPR'"
+title: "🔗linkblog: just read 'Pfizer Says Vaccine Trials For Kids Show Its Shots Are Safe : Coronavirus Updates : NPR'"
 tags: ["link","Relationships","COVID-19","parenting"]
 ---
 Crossing fingers!
