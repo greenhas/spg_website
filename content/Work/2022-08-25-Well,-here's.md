@@ -1,6 +1,6 @@
 ---
 date: 2022-08-25T06:38:09-04:00
-title: "🔗linkblog: my thoughts on 'Scanning student rooms during remote tests is unconstitutional, judge rules : NPR'"
+title: "🔗 linkblog: my thoughts on 'Scanning student rooms during remote tests is unconstitutional, judge rules : NPR'"
 tags: ["link","Work","exam proctoring","surveillance","privacy"]
 ---
 Well, here's some happy news! I hope this ruling sticks.

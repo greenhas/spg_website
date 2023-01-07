@@ -1,6 +1,6 @@
 ---
 date: 2022-06-21T12:32:19-04:00
-title: "🔗linkblog: my thoughts on 'Researcher Hacks Into Backend for Network of Smart Jacuzzis'"
+title: "🔗 linkblog: my thoughts on 'Researcher Hacks Into Backend for Network of Smart Jacuzzis'"
 tags: ["link","Communities","IoT","smart devices"]
 ---
 Yet another example of why I'm wary of smart devices.

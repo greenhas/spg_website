@@ -1,6 +1,6 @@
 ---
 date: 2022-04-25T07:46:14-04:00
-title: "🔗linkblog: my thoughts on 'Twitter in talks with Musk over bid to buy platform, according to reports : NPR'"
+title: "🔗 linkblog: my thoughts on 'Twitter in talks with Musk over bid to buy platform, according to reports : NPR'"
 tags: ["link","Communities","Elon Musk","Twitter"]
 ---
 Yet another reason to revisit my social media presence.

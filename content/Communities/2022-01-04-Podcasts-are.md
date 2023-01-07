@@ -1,6 +1,6 @@
 ---
 date: 2022-01-04T20:20:21-05:00
-title: "🔗linkblog: just finished 'Election Falsehoods Surged on Podcasts Before Capitol Riots, Researchers Find - The New York Times'"
+title: "🔗 linkblog: just finished 'Election Falsehoods Surged on Podcasts Before Capitol Riots, Researchers Find - The New York Times'"
 tags: ["link","Communities","podcasts","2020 election","Capitol riot","platforms","content moderation"]
 ---
 Podcasts are one of the last bastions of the open internet, but that evidently comes at a cost. So long as Apple and Spotify are trying to corner the podcast market, they should be moderating their content.

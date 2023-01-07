@@ -1,6 +1,6 @@
 ---
 date: 2022-02-11T17:53:57-05:00
-title: "🔗linkblog: just finished 'Declassified Documents Shows The CIA Is Using A 1981 Executive Order To Engage In Domestic Surveillance | Techdirt'"
+title: "🔗 linkblog: just finished 'Declassified Documents Shows The CIA Is Using A 1981 Executive Order To Engage In Domestic Surveillance | Techdirt'"
 tags: ["link","Communities","surveillance"]
 ---
 Surveillance is a bigger problem than we think.

@@ -1,6 +1,6 @@
 ---
 date: 2021-11-02T20:27:30-04:00
-title: "🔗linkblog: just read 'Texas' governor wants 'pornographic' school library books removed : NPR'"
+title: "🔗 linkblog: just read 'Texas' governor wants 'pornographic' school library books removed : NPR'"
 tags: ["link","Communities","Greg Abbott","John Le Carré"]
 ---
 To paraphrase George Smiley, you can learn a lot about how those in power will treat people by the way they treat books.

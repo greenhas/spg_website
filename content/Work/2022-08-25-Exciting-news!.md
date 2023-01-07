@@ -1,6 +1,6 @@
 ---
 date: 2022-08-25T19:11:25-04:00
-title: "🔗linkblog: my thoughts on 'US government to make all research it funds open access on publication | Ars Technica'"
+title: "🔗 linkblog: my thoughts on 'US government to make all research it funds open access on publication | Ars Technica'"
 tags: ["link","Work","publishing","journals","open access"]
 ---
 Exciting news! This still leaves a lot of research behind paywalls, though.

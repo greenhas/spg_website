@@ -1,6 +1,6 @@
 ---
 date: 2022-08-29T08:00:26-04:00
-title: "🔗linkblog: my thoughts on 'Jefferson St: Villain themed bar, restaurant, game club open | Lexington Herald Leader'"
+title: "🔗 linkblog: my thoughts on 'Jefferson St: Villain themed bar, restaurant, game club open | Lexington Herald Leader'"
 tags: ["link","Myself","Lexington","TTRPGs","tabletop games","gaming pub"]
 ---
 Looks like a fun local gaming pub.

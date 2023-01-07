@@ -1,6 +1,6 @@
 ---
 date: 2021-09-01T07:18:05-04:00
-title: "🔗linkblog: just read '“Sharenting” Is a Threat to Children’s Health and Personal Development | by Michele DeMarco | Aug, 2021 | OneZero'"
+title: "🔗 linkblog: just read '“Sharenting” Is a Threat to Children’s Health and Personal Development | by Michele DeMarco | Aug, 2021 | OneZero'"
 tags: ["link","Relationships","datafication"]
 ---
 Datafying yourself is one thing, datafying your kids is another.

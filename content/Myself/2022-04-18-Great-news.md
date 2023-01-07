@@ -1,6 +1,6 @@
 ---
 date: 2022-04-18T12:57:16-04:00
-title: "🔗linkblog: my thoughts on 'Marvel Unbeatable Squirrel Girl Podcast Milana Vayntrub Ryan North'"
+title: "🔗 linkblog: my thoughts on 'Marvel Unbeatable Squirrel Girl Podcast Milana Vayntrub Ryan North'"
 tags: ["link","Myself","Squirrel Girl","comics","podcasts"]
 ---
 Great news for a tough Monday! This is one of my favorite comics, I love podcasts, and North is writing scripts. Perfect combination.

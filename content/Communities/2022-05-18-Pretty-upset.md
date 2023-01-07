@@ -1,6 +1,6 @@
 ---
 date: 2022-05-18T22:04:19-04:00
-title: "🔗linkblog: my thoughts on 'Beshear, KDP will not back Democratic candidate for U.S. House seat'"
+title: "🔗 linkblog: my thoughts on 'Beshear, KDP will not back Democratic candidate for U.S. House seat'"
 tags: ["link","Communities","Geoff Young","Kentucky"]
 ---
 Pretty upset about these results from the primary. I voted for the other candidate and was shocked to find Young won. At least I have a few months to figure out who to write in.

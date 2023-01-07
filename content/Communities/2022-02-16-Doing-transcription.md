@@ -1,6 +1,6 @@
 ---
 date: 2022-02-16T22:19:45-05:00
-title: "🔗linkblog: my thoughts on 'This journalist’s Otter.ai scare is a reminder that cloud transcription isn’t completely private - The Verge'"
+title: "🔗 linkblog: my thoughts on 'This journalist’s Otter.ai scare is a reminder that cloud transcription isn’t completely private - The Verge'"
 tags: ["link","Communities","privacy"]
 ---
 Doing transcription yourself sucks. It's long and tedious, and the final product never feels worth all the effort you put into it. For all that, though, this is exactly why services like Otter have never sat well with me.

@@ -1,6 +1,6 @@
 ---
 date: 2022-02-25T12:07:39-05:00
-title: "🔗linkblog: my thoughts on 'Ukrainian Websites Are Going Dark. Archivists Are Trying To Save Them'"
+title: "🔗 linkblog: my thoughts on 'Ukrainian Websites Are Going Dark. Archivists Are Trying To Save Them'"
 tags: ["link","Communities","Ukraine"]
 ---
 Because the Web feels new to us, it's easy to forget how important it is to preserve it for the future.

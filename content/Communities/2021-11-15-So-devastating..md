@@ -1,6 +1,6 @@
 ---
 date: 2021-11-15T07:32:42-05:00
-title: "🔗linkblog: just read 'How sexual assault survivors are harmed by the Texas abortion law : Shots - Health News : NPR'"
+title: "🔗 linkblog: just read 'How sexual assault survivors are harmed by the Texas abortion law : Shots - Health News : NPR'"
 tags: ["link","Communities","Texas","sexual assault"]
 ---
 So devastating.

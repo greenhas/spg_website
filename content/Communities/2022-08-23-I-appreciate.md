@@ -1,6 +1,6 @@
 ---
 date: 2022-08-23T15:36:27-04:00
-title: "🔗linkblog: my thoughts on 'Twitter Removes Florida Political Candidate Advocating Shooting Federal Agents; If DeSantis Won His Lawsuit, Twitter Would Need To Leave It Up | Techdirt'"
+title: "🔗 linkblog: my thoughts on 'Twitter Removes Florida Political Candidate Advocating Shooting Federal Agents; If DeSantis Won His Lawsuit, Twitter Would Need To Leave It Up | Techdirt'"
 tags: ["link","Communities","Mike Masnick","Florida","Ron DeSantis","far right","FBI","content moderation"]
 ---
 I appreciate the way that Masnick uses examples from the news to call out how dumb some of these laws are.

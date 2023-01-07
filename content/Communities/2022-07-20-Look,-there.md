@@ -1,6 +1,6 @@
 ---
 date: 2022-07-20T07:27:04-05:00
-title: "🔗linkblog: my thoughts on 'With midterms in sight, few Republicans are defending Trump as they did in 2019 : NPR'"
+title: "🔗 linkblog: my thoughts on 'With midterms in sight, few Republicans are defending Trump as they did in 2019 : NPR'"
 tags: ["link","Communities","Capitol riot","2020 election","GOP","Donald Trump"]
 ---
 Look, there may be less of a coordinated defense, but ignoring the Jan. 6th hearings is almost as bad as defending Trump from them.

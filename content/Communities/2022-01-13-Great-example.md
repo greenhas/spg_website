@@ -1,6 +1,6 @@
 ---
 date: 2022-01-13T16:01:49-05:00
-title: "🔗linkblog: just finished 'Want the ‘TLDR’ on a site’s terms of service? There’s a bill for that - The Verge'"
+title: "🔗 linkblog: just finished 'Want the ‘TLDR’ on a site’s terms of service? There’s a bill for that - The Verge'"
 tags: ["link","Communities","tech policy","Terms of Service"]
 ---
 Great example of a forced acronym here.

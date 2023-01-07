@@ -1,6 +1,6 @@
 ---
 date: 2022-08-24T18:40:07-04:00
-title: "🔗linkblog: my thoughts on 'Erik Prince wants to sell you a secure smartphone that's too good to be true | MIT Technology Review'"
+title: "🔗 linkblog: my thoughts on 'Erik Prince wants to sell you a secure smartphone that's too good to be true | MIT Technology Review'"
 tags: ["link","Communities","Erik Prince","privacy","smartphone","Blackwater"]
 ---
 Interesting read on privacy-focused phones—and related scams.

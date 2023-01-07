@@ -1,6 +1,6 @@
 ---
 date: 2022-08-03T14:38:05-04:00
-title: "🔗linkblog: my thoughts on 'Pearson says NFT textbooks will let it profit off secondhand sales - The Verge'"
+title: "🔗 linkblog: my thoughts on 'Pearson says NFT textbooks will let it profit off secondhand sales - The Verge'"
 tags: ["link","Work","blockchain","NFTs","open textbooks","OER","alternative textbooks"]
 ---
 Ugh, Pearson. Why do we keep thinking about ways to make digital textbooks worse than physical ones?

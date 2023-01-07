@@ -1,6 +1,6 @@
 ---
 date: 2022-06-29T12:12:59-04:00
-title: "🔗linkblog: my thoughts on 'Facebook Bans People For Simply Saying Abortion Pills Exist | Techdirt'"
+title: "🔗 linkblog: my thoughts on 'Facebook Bans People For Simply Saying Abortion Pills Exist | Techdirt'"
 tags: ["link","Communities","content moderation","Facebook","reproductive rights"]
 ---
 A terrifying teminder that content moderation can easily overreach.

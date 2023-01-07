@@ -1,6 +1,6 @@
 ---
 date: 2022-01-27T15:03:25-05:00
-title: "🔗linkblog: just finished 'Belgium's new passport features comic faves | Boing Boing'"
+title: "🔗 linkblog: just finished 'Belgium's new passport features comic faves | Boing Boing'"
 tags: ["link","Myself","BD"]
 ---
 Anyone know an easy way to get Belgian citizenship?

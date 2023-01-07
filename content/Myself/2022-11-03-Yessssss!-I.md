@@ -1,6 +1,6 @@
 ---
 date: 2022-11-03T15:15:54-04:00
-title: "🔗linkblog: my thoughts on 'Disney+ Releases Complete Version of The Muppet Christmas Carol'"
+title: "🔗 linkblog: my thoughts on 'Disney+ Releases Complete Version of The Muppet Christmas Carol'"
 tags: ["link","Myself","Disney+","Muppet Christmas Carol"]
 ---
 Yessssss! I grew up watching the version with this song and was really confused when I watched it with my kid and the song was missing.

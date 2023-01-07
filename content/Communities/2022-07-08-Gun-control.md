@@ -1,6 +1,6 @@
 ---
 date: 2022-07-08T11:50:12-04:00
-title: "🔗linkblog: my thoughts on 'New York gun applicants will have to submit their social accounts for review : NPR'"
+title: "🔗 linkblog: my thoughts on 'New York gun applicants will have to submit their social accounts for review : NPR'"
 tags: ["link","Communities","social media","surveillance","gun control"]
 ---
 Gun control is good, but surveillance isn't. I don't think this is the answer.

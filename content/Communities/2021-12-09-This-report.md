@@ -1,6 +1,6 @@
 ---
 date: 2021-12-09T07:39:02-05:00
-title: "🔗linkblog: just finished 'Report - Legal Loopholes and Data for Dollars: How Law Enforcement and Intelligence Agencies Are Buying Your Data from Brokers - Center for Democracy and Technology'"
+title: "🔗 linkblog: just finished 'Report - Legal Loopholes and Data for Dollars: How Law Enforcement and Intelligence Agencies Are Buying Your Data from Brokers - Center for Democracy and Technology'"
 tags: ["link","Communities","Capitol riot","data","surveillance"]
 ---
 This report sounds terrifying. Even the Capitol rioters deserve some freedom from this kind of surveillance.

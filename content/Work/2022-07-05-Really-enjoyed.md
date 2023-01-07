@@ -1,6 +1,6 @@
 ---
 date: 2022-07-05T14:11:53-04:00
-title: "🔗linkblog: my thoughts on 'Coverage in EdWeek of a recent article on uncertainty in science | Joshua M. Rosenberg, Ph.D.'"
+title: "🔗 linkblog: my thoughts on 'Coverage in EdWeek of a recent article on uncertainty in science | Joshua M. Rosenberg, Ph.D.'"
 tags: ["link","Work","Josh Rosenberg","research paradigms","positivism"]
 ---
 Really enjoyed this coverage of Josh's work! I haven't ever done Bayesian work, so it surprised me how closely the ideas in the article resembled thoughts I've been having about positivism and other research paradigms.

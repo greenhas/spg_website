@@ -1,6 +1,6 @@
 ---
 date: 2021-10-28T20:53:23-04:00
-title: "🔗linkblog: just read 'Inequitable Access: An Anti-Competitive Scheme by Textbook Publishers | Electronic Frontier Foundation'"
+title: "🔗 linkblog: just read 'Inequitable Access: An Anti-Competitive Scheme by Textbook Publishers | Electronic Frontier Foundation'"
 tags: ["link","Work","EFF","OER"]
 ---
 OER forever. This article makes me sad.
