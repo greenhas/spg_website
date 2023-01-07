@@ -1,6 +1,6 @@
 ---
 date: 2021-11-12T14:51:56-05:00
-title: "linkblog: just read 'Menace, as a Political Tool, Enters the Republican Mainstream - The New York Times'"
+title: "🔗linkblog: just read 'Menace, as a Political Tool, Enters the Republican Mainstream - The New York Times'"
 tags: ["link","Communities","far right"]
 ---
 Truly frightening.

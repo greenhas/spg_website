@@ -1,6 +1,6 @@
 ---
 date: 2021-10-25T21:21:09-04:00
-title: "linkblog: just read 'Viewing website HTML code is not illegal or “hacking,” prof. tells Missouri gov. | Ars Technica'"
+title: "🔗linkblog: just read 'Viewing website HTML code is not illegal or “hacking,” prof. tells Missouri gov. | Ars Technica'"
 tags: ["link","Communities","Missouri"]
 ---
 This story just gets more and more ridiculous.

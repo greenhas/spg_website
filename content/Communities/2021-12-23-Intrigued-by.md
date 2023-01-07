@@ -1,6 +1,6 @@
 ---
 date: 2021-12-23T16:29:55-05:00
-title: "linkblog: just finished 'Internet Archive Supports the Maryland’s Library eBook Fairness Law - Internet Archive Blogs'"
+title: "🔗linkblog: just finished 'Internet Archive Supports the Maryland’s Library eBook Fairness Law - Internet Archive Blogs'"
 tags: ["link","Communities","Internet Archive","libraries"]
 ---
 Intrigued by this idea.

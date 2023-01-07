@@ -1,6 +1,6 @@
 ---
 date: 2022-02-14T14:49:00-05:00
-title: "linkblog: just finished 'Missouri's Governor Still Insists Reporter Is A Hacker, Even As Prosecutors Decline To Press Charges | Techdirt'"
+title: "🔗linkblog: just finished 'Missouri's Governor Still Insists Reporter Is A Hacker, Even As Prosecutors Decline To Press Charges | Techdirt'"
 tags: ["link","Communities","Missouri"]
 ---
 This continues to be a dumb and worrying story.
