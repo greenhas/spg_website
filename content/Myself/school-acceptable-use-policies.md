@@ -1,7 +1,7 @@
 ---
 date: 2022-08-08T10:13:25-04:00
 title: "schools' Acceptable Use Policies and R. Sikoryak's 'Terms and Conditions'"
-tags: ["macro","Myself","parenting","Terms of Service","comics","edtech","Amazon","independent bookstores","Batman","The Dark Knight Returns","Squirrel Girl"]
+tags: ["macro","Myself","parenting","Terms of Service","comics","edtech","Amazon","independent bookstores","Batman","The Dark Knight Returns","Squirrel Girl","R. Sikoryak","Terms and Conditions (comic)"]
 ---
 
 Kiddo starts at a new school on Wednesday, and I've been putting off signing the Acceptable Use Policy and Chromebook Policy because I want to read them carefully. I don't know how much I can do about anything that I'm really concerned with, but I'm a tech researcher when I'm not being kiddo's dad, so I feel an obligation to be informed and raise a fuss when something is fussworthy. 
