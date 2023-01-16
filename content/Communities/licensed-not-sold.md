@@ -3,7 +3,7 @@ date: 2023-01-15T22:00:00-05:00
 title: "'licensed, not sold, to you'"
 tags: ["macro","Communities","Apple","R. Sikoryak","Terms and Conditions","terms of service","alienation of ownership","Amazon","Kindle"]
 ---
-As I've [blogged about](https://spencergreenhalgh.com/tags/terms-and-conditions) a couple of times recently, I'm currently reading R. Sikoryak's *Terms and Conditions*, a graphic novel adaptation of the 2015 iTunes Terms and Conditions document, which no one ever reads.
+As I've [blogged about](https://spencergreenhalgh.com/tags/terms-and-conditions-comic/) a couple of times recently, I'm currently reading R. Sikoryak's *Terms and Conditions*, a graphic novel adaptation of the 2015 iTunes Terms and Conditions document, which no one ever reads.
 
 I was struck (if not surprised) by something stated explicitly in the document, which appears on p. 59 of Sikoryak's volume:
 
