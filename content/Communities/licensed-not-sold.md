@@ -1,5 +1,5 @@
 ---
-date: 2023-01-06T09:00:00-05:00
+date: 2023-01-15T22:00:00-05:00
 title: "'licensed, not sold, to you'"
 tags: ["macro","Communities","Apple","R. Sikoryak","Terms and Conditions","terms of service","alienation of ownership","Amazon","Kindle"]
 ---
