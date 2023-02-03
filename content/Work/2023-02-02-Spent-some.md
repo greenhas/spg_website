@@ -1,0 +1,1 @@
+---date: 2023-02-02T13:23:26-05:00title: "📝 writeblog: spent 3:01:14 on 'publish teachers on far-right social media study'"tags: ["write","Work","research"]---Spent some time polishing the front end and some other finished bits of the paper.
