@@ -1,6 +1,6 @@
 ---
 date: 2023-02-21T20:02:43-05:00
-title: "a surprising non-apology"
+title: "a surprising (but ultimately damning) non-apology"
 tags: ["macro","Communities","The Church of Jesus Christ of Latter-day Saints"]
 ---
 Earlier today, The Church of Jesus Christ of Latter-day Saints released a statemnt announcing that:
