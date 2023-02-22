@@ -1,7 +1,7 @@
 ---
 date: 2022-06-01T12:34:01-04:00
 title: "Dallin Oaks and Marjorie Taylor Greene on heterosexual extinction"
-tags: ["macro","Communities","Mormonism","Dallin Oaks","LGBTQ","Marjorie Taylor Greene","heterosexual extinction","Mark E. Peterson","racism","queerphobia","DezNat","Church of Jesus Christ of Latter-day Saints","research","Ezra Taft Benson"]
+tags: ["macro","Communities","Mormonism","Dallin Oaks","LGBTQ","Marjorie Taylor Greene","heterosexual extinction","Mark E. Peterson","racism","queerphobia","DezNat","The Church of Jesus Christ of Latter-day Saints","research","Ezra Taft Benson"]
 ---
 
 Thanks to a recommendation from [BoingBoing](https://boingboing.net/2022/06/01/marjorie-taylor-green-says-heterosexuals-will-be-extinct-in-about-four-or-five-generations.html), I just finished reading a [Business Insider article](https://www.businessinsider.com/mtg-says-straight-people-will-go-extinct-thanks-lgbtq-visibility-2022-6) describing a recent video in which Marjorie Taylor Greene:
