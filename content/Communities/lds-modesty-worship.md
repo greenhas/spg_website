@@ -9,7 +9,7 @@ Thanks to this Patreon perk, I read a lot of news about The Church of Jesus Chri
 
 Here's a before and after of the painting in question:
 
-![](https://c10.patreonusercontent.com/4/patreon-media/p/post/76486805/0543da0b2e1149479dfd5be77307c791/eyJ3Ijo2MjB9/1.jpg?token-time=1673568000&token-hash=ZDsdgQaULIZ_ZUU0bhBBqeH7FTnM724XKbCKdM22qHQ%3D)
+![](https://www.sltrib.com/resizer/pWhSpwDlBZcZjdhTXZ5Hsv8IFFY=/1024x650/cloudfront-us-east-1.images.arcpublishing.com/sltrib/UUJW4E6ESFB3ZJX2EW7KZRHYOI.jpg)
 
 And here's the first few paragraphs of the Tribune's coverage:
 
