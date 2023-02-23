@@ -1,0 +1,1 @@
+---date: 2023-02-23T12:12:16-05:00title: "📝 writeblog: spent 2:02:16 on 'publish teachers on far-right social media study'"tags: ["write","Work","research","AECT","Dan Krutka"]---Put together a conference proposal while my co-author kept working on his part of the findings.
