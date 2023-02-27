@@ -1,0 +1,1 @@
+---date: 2023-02-27T13:01:35-05:00title: "📝 writeblog: spent 0:54:37 on 'publish religion in Gab communication study'"tags: ["write","Work","research","Gab","Andrew Torba","Christian nationalism","2020 election"]---Spent some time reading through Torba's posts. It's interesting how the pivot to hardcore Christian nationalism happened right around the 2020 election.
