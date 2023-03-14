@@ -1,12 +1,11 @@
 ---
 date: 2022-05-20T07:48:54-04:00
 title: "Book of Mormon dependence on the King James Version"
-tags: ["macro","Communities","Book of Mormon","Bible","King James Version","Abinadi","rereading the Book of Mormon project","World English Bible","New Revised Standard Version", "Robert Alter","French","Louis Segond"]
+tags: ["macro","Communities","Book of Mormon","Bible","King James Version","Abinadi","rereading the Book of Mormon project","World English Bible","New Revised Standard Version", "Robert Alter","French","Louis Segond","Thomas Wayment"]
 ---
-
 It's a bit of a truism to say that the Book of Mormon is dependent on Biblical language, but one thing that's been on my mind for the past few years (especially since reading Thomas Wayment's excellent *The New Testament: A Translation for Latter-day Saints*) is how specifically dependent it is on the particular language of the King James Version of the Bible. 
 
-Over the past year or so, as a personal project, I've been toying around with what a modern-language version of the Book of Mormon would look like. In short, I found a document complaining the complete text of the Book of Mormon, and chapter by chapter, I've been tweaking the language. The current version of the project can be found [here](https://loving-mclean-afcc19.netlify.app/), and I'm currently working on Mosiah 8 (as measured by the original chapter breaks; also, I should specify that I started with Mosiah 1—a story for another time).
+Over the past year or so, as a personal project, I've been toying around with what a modern-language version of the Book of Mormon would look like. In short, I found a document complaining the complete text of the Book of Mormon, and chapter by chapter, I've been tweaking the language. I'm currently working on Mosiah 8 (as measured by the original chapter breaks; also, I should specify that I started with Mosiah 1—a story for another time).
 
 One of the things that I've done as part of this updating is to try to identify language specific to the King James Version and replace it with the equivalent language from the World English Bible (a translation that I've chosen more for its public domain status than for any particular strength of the translation—again, a story for another time). Mosiah 7 and 8 are the first chapters where I've run into significant quoting from the Bible, which has made all of this more interesting than usual; this is particularly true because Abinadi quotes extensively from Isaiah before weaving the language from that extensive quote into a kind of sermon. 
 
