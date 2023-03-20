@@ -1,7 +1,7 @@
 ---
 date: 2023-01-29T20:12:05-05:00
 title: "Doctrine & Covenants feat. Doctorow: An unexpected paired text"
-tags: ["macro","Communities","Cory Doctorow","Walkaway","Grant McMurray","Zion","kingdom of God","Doctrine & Covenants","Ministry of the Disciple course","Graceland CIMM","hope","radical hope"]
+tags: ["macro","Communities","Cory Doctorow","Walkaway","Grant McMurray","Zion","kingdom of God","Doctrine & Covenants","Ministry of the Disciple course","Graceland CIMM","hope","radical hope","Gérard Siegwalt","La réinvention du nom de Dieu"]
 ---
 As I've [written elsewhere](https://spencergreenhalgh.com/work/cory-doctorow-on-behaviorism/), I am currently giving Cory Doctorow's *Walkaway* another try after bouncing off of it a while ago. Because I bounced off of it so hard the last time, I'm surprised by how much it's resonating off of me as I give it another go. This past week, I've been listening to a lot of *Walkaway* on top of doing a lot of religious reading: assignments for the *Ministry of the Disciple* class I'm taking through the Community of Christ Seminary's [Center for Innovation in Ministry and Missino](https://www.graceland.edu/academics/community-of-christ-seminary/center-for-innovation-in-ministry-and-mission/), Gérard Siegwalt's *Reinventing God's name* [*La réinvention du nom de Dieu*], and various scriptures for today's liturgical readings. 
 
@@ -11,7 +11,7 @@ Here's the Doctrine and Covenants passage in question, taken from a document sub
 
 > Listen, O people of the Restoration—you who would become a prophetic people, embodying in your life together the ministries of the Temple. Listen to the Voice that speaks from beyond the farthest hills, from the infinite heavens above, and the vast seas below.
 
-> Listen to the Voice that echoes across the eons of time and yet speaks anew in teis moment. Listen to the Voice, for it cannot be stilled, and it calls you once again to the great and marvelous work of building the peaceable kingdom, even Zion, on behalf of the One whose name you claim. 
+> Listen to the Voice that echoes across the eons of time and yet speaks anew in this moment. Listen to the Voice, for it cannot be stilled, and it calls you once again to the great and marvelous work of building the peaceable kingdom, even Zion, on behalf of the One whose name you claim. 
 
 "Prophetic people," "ministries of the Temple," and "peaceable kingdom" all echo Community of Christ's emphasis on peace, social justice, and wholeness in the entire world. The titular "walkaways" of Doctorow's novel are after something similar. It's hard to find a single passage in the book that summarizes all of this, but here's one conversation between two characters reconciling after a dispute described earlier in the book. Limpopo (the "she" in the dialogue) is after something very similar to the Community of Christ/Restoration vision of Zion. Earlier in the book, an antagonistic Jimmy (the "he" in the dialogue) took a tavern she'd put together with other walkaways by force, convinced that he could improve it with gamification and leaderboards rather than with an idealistic vision of everyone contributes what they can, everyone takes what they need. Rather than fight, Limpopo and the other tavern crew walked away in the faith and hope that there was sufficient for everyone to have what they needed—that they could build back better and stronger without having to fight. Jimmy is now humbled and repentant, reconciling with Limpopo after seeing the error of his ways:
 
