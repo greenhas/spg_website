@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ICT 202 12.2</title>
+    <title>ICT 202 13.2</title>
     <meta charset="utf-8">
     <style>
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -27,7 +27,7 @@ background-color: black
 
 <h1 style=color:white>ICT 202: Technologies for Information Services</h1>
 <h2 style=color:white>A+, Chapter 17: Display Technologies</h2>
-<h2 style=color:white>30 Mar 2022</h2>
+<h2 style=color:white>5 Apr 2022</h2>
 <h2 style=color:white>Dr. Spencer Greenhalgh</h2>
 
 ---
@@ -39,7 +39,7 @@ class: center, middle
 
 ---
 
-# next week
+# this week
 
 ## Monday: readings and lecture
 
@@ -57,23 +57,130 @@ class: center, middle
 
 ---
 
+background-color: gray
+
 class: center, middle
 
-# [recording of Global Perspectives in the Workplace Panel](https://www.youtube.com/watch?v=yjDho4Dt6Lk)
+# chapter 15 catchup!
 
 ---
 
 class: center, middle
 
-# Monday's office hours are now from 12pm to 1pm, not 12pm to 2pm
+# file formats and file extensions
 
 ---
+
+class: center, middle
+
+# "Catherine Garland, an astrophysicist, started seeing the problem in 2017. ... She’d laid out the assignment clearly, but student after student was calling her over for help. They were all getting the same error message: The program couldn’t find their files." 
+
+Chin, M. (2021, September 22). File not found. *The Verge*. https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z
+
+---
+
+class: center, middle
+
+# "Garland thought it would be an easy fix. She asked each student where they’d saved their project. Could they be on the desktop? Perhaps in the shared drive? ... Not only did they not know where their files were saved — they didn’t understand the question."
+
+Chin, M. (2021, September 22). File not found. *The Verge*. https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z
+
+---
+
+class: center, middle
+
+# "Gradually, Garland came to the same realization that many of her fellow educators have reached in the past four years: the concept of file folders and directories, essential to previous generations’ understanding of computers, is gibberish to many modern students."
+
+Chin, M. (2021, September 22). File not found. *The Verge*. https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z
+
+---
+
+class: center, middle
+
+# "Changing the extension of a data file does not affect the format of its contents, but without the proper extension, your operating system won't know which program uses it."
+
+(Meyers, 2019, p. 633)
+
+---
+
+class: center, middle
+
+# let's try this with [a CSV spreadsheet](https://github.com/greenhas/spg_website/blob/master/static/Twitter_hashtags.csv)
+
+# let's try this with [the 202 syllabus](https://uk.instructure.com/courses/2062015/assignments/syllabus#)
+
+---
+
+class: center, middle
+
+# filepaths (and CLIs) have specific conventions
+
+# `C:\Users\spgreenhalgh\Desktop`
+
+# `~/Desktop`
+
+---
+
+class: center, middle
+
+# filenames and folder names have rules, depending on the OS/software
+
+---
+
+class: center, middle
+
+# wildcards
+
+---
+
+class: center, middle
+
+# "Visualize having 273 files in one directory. A few of these files have the extension .docx, but most do not. You are looking only for files with the .docx extension."
+
+(Meyers, 2019, p. 661)
+
+---
+
+class: center, middle
+
+# *.docx
+
+---
+
+class: center, middle
+
+# `grep` and [regular expressions](https://regexr.com/) in Unix CLIs
+
+---
+
+class: center, middle
+
+<img src="https://imgs.xkcd.com/comics/regular_expressions.png" width = "600">
+
+---
+
+class: center, middle
+
+# "Deleting files is simple—maybe too simple."
+
+(Meyers, 2019, p. 653)
+
+---
+
 
 background-color: gray
 
 class: center, middle
 
 # A+, Chapter 17: Display Technologies
+
+---
+
+class: center, middle
+
+# "The term *video* encompasses a complex interaction among numerous parts of personal computing devices, all designed to put a picture on the screen." 
+
+(Meyers, 2019, p. 737)
 
 ---
 class: center, middle
@@ -88,25 +195,11 @@ class: center, middle
 
 ---
 
-class: center, middle
-
-<a title="Yaohua2000, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:20020811203148_-_NOI_2002.jpg"><img width="512" alt="20020811203148 - NOI 2002" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/20020811203148_-_NOI_2002.jpg/512px-20020811203148_-_NOI_2002.jpg"></a>
-
----
-
-class: center, middle
-
-# "The term *video* encompasses a complex interaction among numerous parts of personal computing devices, all designed to put a picture on the screen." 
-
-(Meyers, 2019, p. 737)
-
----
-
 background-color: gray
 
 class: center, middle
 
-# *video display* (monitor)
+# monitors
 
 ---
 
@@ -275,13 +368,27 @@ class: center, middle
 
 class: center, middle
 
-# projectors
+# Web colors
+
+<iframe width = "800", height = "500" src="https://en.wikipedia.org/wiki/Web_colors#Basic_colors">
 
 ---
 
 class: center, middle
 
-# VR headests
+# why do these numbers go from `0` to `F`?
+
+---
+
+class: center, middle
+
+# how hexadecimal works
+
+---
+
+class: center, middle
+
+# Web colors = 6 base-16 digits = 16,777,216 colors
 
 ---
 
@@ -291,17 +398,33 @@ class: center, middle
 
 ---
 
-class: center, middle 
-
 background-color: gray
 
-# *display adapter* (video card)
+class: center, middle
+
+# projectors
 
 ---
 
 class: center, middle
 
-# traditionally an expansion card plugged into the nmotherboard
+background-color: gray
+
+# VR headests
+
+---
+
+class: center, middle 
+
+background-color: gray
+
+# video cards
+
+---
+
+class: center, middle
+
+# traditionally an expansion card plugged into the motherboard
 
 ---
 
@@ -333,7 +456,7 @@ class: center, middle
 
 class: center, middle
 
-<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="256" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/256px-Von_Neumann_Architecture.svg.png"></a>
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="600" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
 
 ---
 
@@ -342,6 +465,23 @@ class: center, middle
 # "But the rise of cryptocurrency mining has created an unprecedented global shortage of graphics cards. If you go to your local retailer, you're likely to find bare shelves where the beefier cards used to be. Instead of trading at a discount, used cards routinely sell for well above MSRP on sites like eBay and Craigslist."
 
 Lee, T. B. (2018, January 18). Here's why you can't buy a high-end graphics card at Best Buy. *Ars Technica*. https://arstechnica.com/tech-policy/2018/01/cryptocurrency-boom-creates-insane-global-graphics-card-shortage/ 
+
+---
+
+class: center, middle
+
+## "Cryptocurrency has had a rough year. Bitcoin has fallen by more than 50 percent since the start of the year, from nearly $48,000 in January to just over $20,000 as of publication. Celsius, a major cryptocurrency 'bank,' suspended withdrawals earlier this week, and the Coinbase crypto exchange announced a round of layoffs this past Tuesday after pausing hiring last month."
+
+Cunningham, A. (2022, June 17). As cryptocurrency tumbles, prices for new and used GPUs continue to fall. *Ars Technica*. https://arstechnica.com/gadgets/2022/06/as-cryptocurrency-tumbles-prices-for-new-and-used-gpus-continue-to-fall/
+
+---
+
+class: center, middle
+
+## "It may be small comfort to anyone who wanted to work at Coinbase or spent hard-earned money on an ugly picture of an ape because a celebrity told them to, but there's some good news for PC builders and gamers in all of this. As tracked by Tom's Hardware, prices for new and used graphics cards continue to fall, coming down from their peak prices in late 2021 and early 2022. "
+
+Cunningham, A. (2022, June 17). As cryptocurrency tumbles, prices for new and used GPUs continue to fall. *Ars Technica*. https://arstechnica.com/gadgets/2022/06/as-cryptocurrency-tumbles-prices-for-new-and-used-gpus-continue-to-fall/
+
 
 
 </textarea>
