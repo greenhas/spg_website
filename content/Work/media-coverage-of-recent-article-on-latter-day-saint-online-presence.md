@@ -1,7 +1,7 @@
 ---
 date: 2023-04-20T09:53:15-04:00
 title: "media coverage of recent article on Latter-day Saint online presence"
-tags: ["macro","Work","The Church of Jesus Christ of Latter-day Saints","research","technology","Mormon Studies","digital religion","Dialogue journal","Peggy Fletcher Stack","Mormon Land"]
+tags: ["macro","Work","The Church of Jesus Christ of Latter-day Saints","research","technology","Mormon Studies","digital religion","Dialogue journal","Peggy Fletcher Stack","Mormon Land","media appearances"]
 ---
 I recently [wrote](https://spencergreenhalgh.com/work/new-publication-technology-naming-and-legitimacy-in-the-latter-day-saint-tradition/) about a new article of mine in *Dialogue: A Journal of Mormon Thought* where I trace the history of the official domain names of The Church of Jesus Christ of Latter-day Saints. This past week, I was lucky enough for the fine folks at the Salt Lake Tribune to take interest in the article. Peggy Fletcher Stack wrote a summary of my findings in this (unfortunately paywalled) [article](https://www.sltrib.com/religion/2023/04/16/how-lds-church-worked-worked-paid/), which appeared on Sunday. Later in the week, I got to sit down with Peggy and Dave Noyce for their excellent *Mormon Land* podcast. That episode is freely available (i.e., no paywall), and can be listened to [here](https://www.sltrib.com/religion/2023/04/19/mormon-land-churchs-internet/).
 
