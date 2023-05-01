@@ -1,7 +1,7 @@
 ---
 date: 2023-04-30T10:52:37-04:00
 title: "affirming worship services and queerphobic campuses"
-tags: ["macro","Communities","affirming church","affirming congregation","lgbtq","Community of Christ","World Conference","2023 World Conference","BYU","Mike Lee","Harmony"]
+tags: ["macro","Communities","affirming church","lgbtq","Community of Christ","World Conference","2023 World Conference","BYU","Mike Lee","Harmony"]
 ---
 I was disappointed this morning to see [this article](https://www.sltrib.com/religion/2023/04/30/byu-prof-becomes-bullying-target/) in the Salt Lake Tribune. The article reports that BYU professor Sarah Coyne "became the target of online bullying and hostile emails" after discussing "her child’s years of wrestling with gender dysphoria, including suicidal thoughts and agonizing mental health issues" in a class she was teaching. According to the article, this is something that she has done for several semesters, but this time, her action "made it into a critical article in a conservative off-campus newspaper... which was retweeted by Utah Sen[ator] Mike Lee on his personal Twitter account."
 
