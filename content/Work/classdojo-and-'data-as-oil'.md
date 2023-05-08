@@ -1,7 +1,7 @@
 ---
 date: 2022-08-18T10:22:23-04:00
 title: "ClassDojo and 'data as oil'"
-tags: ["macro","Work","Data Feminism","Catherine D'Ignazio","Lauren Klein","data science","ClassDojo","ICT 661","OER","alternative textbook","Ben Williamson","Alasdair Rutherford","edtech","data as oil"]
+tags: ["macro","Work","Data Feminism","Catherine D'Ignazio","Lauren Klein","data science","ClassDojo","ICT 661","OER","alternative textbooks","Ben Williamson","Alasdair Rutherford","edtech","data as oil"]
 ---
 The new semester at the University of Kentucky starts on Monday, and I am flailing to try to get my data science course ready to go—including putting together an open, alternative textbook for my students. I've been borrowing heavily from Catherine D'Ignazio and Lauren Klein's *[Data Feminism](https://data-feminism.mitpress.mit.edu)* for my textbook: It's a fantastic resource, and I'm hoping my students take a lot from it.
 
