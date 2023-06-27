@@ -1,6 +1,6 @@
 ---
 date: 2023-06-23T14:47:04-04:00
-title: "rejecting one fundamentalism to replace another"
+title: "rejecting one fundamentalism to accept another"
 tags: ["macro","Communities","Gospel Tangents","podcasts","fundamentalism","Mormonism","Book of Mormon","Wallace Smith","Val Larsen","Dan McClellan","Trinity","W. Grant McMurray"]
 ---
 Nearly a year ago, I wrote [a post](https://spencergreenhalgh.com/communities/joseph-jesus-and-fundamentalism/) about an important part of RLDS history that I mostly love but also get slightly annoyed by. In short, Wallace Smith, who was then prophet-president of the RLDS Church, was put on the spot by a local seminary professor, who asked the following question:
