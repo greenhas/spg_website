@@ -1,7 +1,7 @@
 ---
 date: 2022-11-03T09:38:25-04:00
 title: "further thoughts on Jephthah's daughter"
-tags: ["macro","Communities","Jepthah","LGBTQ","Mormonism","The Church of Jesus Christ of Latter-day Saints","affirming church","Robert Alter","Abraham","Job","sacrifice"]
+tags: ["macro","Communities","Jepthah","LGBTQ","Mormonism","The Church of Jesus Christ of Latter-day Saints","affirming church","Robert Alter","Abraham","Job","sacrifice","Binding of Isaac"]
 ---
 Yesterday, I wrote [a post](https://spencergreenhalgh.com/communities/on-david-archuleta-and-jephthah/) on Jephthah, a figure in the book of Judges who makes a commitment that if God helps him out in battle, he'll sacrifice the first thing that exits the door of his house when he returns home. Robert Alter notes that there's been a lot of rabbinic and scholarly effort to make sense of this but that in "any case, it is a rash vow." Indeed, the vow goes wrong, and Jephthah winds up in a situation where's he believes he's committed to offer up his daughter in sacrifice. One remarkable thing about the story is that Jephthah does not turn to God to bargain (as Abraham did for Sodom—though not, if memory serves, for his son, which is another interesting contrast). Nor does he rail against God in grief at the propsect of losing a child (as Job did after the fact). Rather, he accepts it as what needs to be done, and he goes through with it.
 

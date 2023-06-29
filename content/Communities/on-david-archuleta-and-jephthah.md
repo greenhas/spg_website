@@ -1,7 +1,7 @@
 ---
 date: 2022-11-02T08:15:52-04:00
 title: "on Jephthah, Jeremiah, and David Archuleta"
-tags: ["macro","Communities","sacrifice","Abraham","Isaac","Thomas Römer","Robert Alter","Mormonism","The Church of Jesus Christ of Latter-day Saints","affirming church","LGBTQ","affirming church","David Archuleta"]
+tags: ["macro","Communities","sacrifice","Abraham","Isaac","Thomas Römer","Robert Alter","Mormonism","The Church of Jesus Christ of Latter-day Saints","affirming church","LGBTQ","affirming church","David Archuleta","Binding of Isaac"]
 ---
 Some of the most troubling passages in the Christian canon have to do with the sacrifice of children in the name of God. Abraham's near sacrifice of Isaac is perhaps the most obvious example of this, but there are other examples that (ought to) raise as much concern in the mind of the believer. Perhaps the most interesting (to me) story along these lines is found in Judges 11:31 (I'm using Robert Alter's fantastic translation throughout this post), where one of the eponymous judges, a man by the name of Jephthah:
 
