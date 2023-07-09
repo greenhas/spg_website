@@ -1,7 +1,7 @@
 ---
 date: 2022-09-14T19:28:09-04:00
 title: "Oaks and Benson on love of God and neighbor"
-tags: ["macro","Communities","Dallin Oaks","Ezra Taft Benson","The Church of Jesus Christ of Latter-day Saints","Brigham Young University","By Common Consent","two great commandments","golden rule","Grant Hardy","Kierkegaard","priesthood and temple ban","Brigham Young","John G. Turner"]
+tags: ["macro","Communities","Dallin Oaks","Ezra Taft Benson","The Church of Jesus Christ of Latter-day Saints","Brigham Young University","By Common Consent","two great commandments","golden rule","Grant Hardy","Kierkegaard","priesthood and temple ban","Brigham Young","John G. Turner","Abraham","Binding of Isaac"]
 ---
 Dallin Oaks, the second highest-ranking apostle in The Church of Jesus Christ of Latter-day Saints, gave a speech at Brigham Young University yesterday where he touched on the "two great commandments" identified by Jesus in the Book of Mark. Unsurprisingly for anyone who's been following recent signals of retrenchment at BYU (or anyone familiar with the apostle for that matter), Oaks put the two commandments in a particular order. Here's how the Salt Lake Tribune [quotes him](https://www.sltrib.com/religion/2022/09/13/byu-wont-cave-ways-world-lds/): 
 
