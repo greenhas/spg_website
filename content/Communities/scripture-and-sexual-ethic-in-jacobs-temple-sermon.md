@@ -32,7 +32,7 @@ Yet, careful readings of Jacob's temple sermon suggest that its sexual ethic is 
 
 [^6]: Salleh, F., & Olsen Hemming, M. (2020). *The Book of Mormon for the Least of These: 1 Nephi - Words of Mormon*. BCC Press.
 
-Inspired by these kinds of readings, my goal in this essay is to offer further nuance to Jacob's 
+Inspired by these kinds of readings, my goal in this essay is to offer further nuance to Jacob's temple sermon and to ask how that nuance might inform the sexual ethic that individuals and denominations that read the Book of Mormon draw from this passage of scripture and (as we shall see) other passages of scripture.
 
 ## My Perspectives
 
