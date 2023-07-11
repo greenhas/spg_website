@@ -58,7 +58,7 @@ Thus, when LDS prophet-president Russell Nelson referenced God's weeping in this
 
 [^12]: The subjectivity involved in this example is particularly noteworthy given the way that members of Restoration denominations have frequently praised the scripture that Joseph Smith, Jr. has produced as more trustworthy than, say, the Bible. 
 
-Yet, the subjectivity of scripture does not mean that there are no limits to how we may interpret a passage. For example, although devotional and scholarly approaches to the Bible are distinct and have different purposes, scholarly observations related to language, history, and archaeology can establish important guidelines for—and limitations on—our devotional interpretations of scripture. For example
+Yet, the subjectivity of scripture does not mean that there are no limits to how we may interpret a passage. In particular, scholarly observations related to language, history, and archaeology may help guide our interpretation in productive ways. For example, the Gospel of Matthew points to a passage in Isaiah as prophecy of the virgin birth; although the Greek translation of the Hebrew Bible referenced by the author of this Gospel *does* use the word "virgin,"
 
 
 
