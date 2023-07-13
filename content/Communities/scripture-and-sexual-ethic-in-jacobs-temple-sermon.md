@@ -12,9 +12,9 @@ This is a piece that I've literally been meaning to write for years; the best I'
 
 > Jacob 2:32 [LDS 2:23][^1]
 
-[^1]: Throughout this essay, my quotes and verse numbers will come from Community of Christ's 1966 *Revised Authorized Version*. This reflects my current denominational affiliation, [my belief in the value of a modern-language edition](https://spencergreenhalgh.com/tags/rereading-the-book-of-mormon-project/) of the Book of Mormon (though the RAV is very conservative in its modernization), and my agreement with a number of writers on the Book of Mormon that there is value in respecting the original chapter divisions of the Book of Mormon (which survive in Community of Christ editions but have been replaced by shorter chapters in LDS editions).
+[^1]: Throughout this essay, my quotes and verse numbers will come from Community of Christ's 1966 *Revised Authorized Version*. This reflects my current denominational affiliation, [my belief in the value of a modern-language edition](https://spencergreenhalgh.com/tags/rereading-the-book-of-mormon-project/) of the Book of Mormon (though the RAV is very conservative in its modernization), and my agreement with a number of writers on the Book of Mormon that there is significance to the original chapter divisions of the Book of Mormon (which survive in Community of Christ editions but have been replaced by shorter chapters in LDS editions).
 
-	I also regretfully use the acronym "LDS" as a reference to The Church of Jesus Christ of Latter-day Saints even though I know that is discouraged by that church. I would use the preferred adjective "Latter-day Saint" except for the fact that members of the RLDS Church and Community of Christ have historically also referred to themselves as "Latter Day Saints," and I'm not confident that the difference in capitalization and punctuation will be enough to clearly distinguish whom I am referring to.
+	I also regretfully use the acronym "LDS" as a reference to The Church of Jesus Christ of Latter-day Saints even though I know it is discouraged by that church. I would use the preferred adjective "Latter-day Saint" except for the fact that members of the RLDS Church and Community of Christ have also referred to themselves as "Latter Day Saints," and I'm not confident that the difference in capitalization and punctuation will be enough to clearly distinguish whom I am referring to.
 
 Someone turning to the Book of Mormon to develop a sexual ethic would likely consult the sermon given by the Nephite prophet Jacob in the second chapter of the book bearing his name[^2]. Indeed, LDS and RLDS figures have often referred to Jacob 2 when making arguments about the nature of sexual ethics. For example, Jacob's teaching that God delights "in the chastity of women" (2:36; LDS 2:28) was cited by LDS apostle Mark E. Petersen [in a 1969 address](https://scriptures.byu.edu/#0cf0228:t694$25858:c0cf0228) entitled *The Dangers of the So-called Sex Revolution*. Likewise, Jacob's condemnation of polygamy has been a favorite resource for RLDS critics of not only 19th century LDS polygamy but also their own church's 20th century policies (and, with D&C 150, scripture) allowing polygamous men to be baptized so long as they committed to take no more wives[^3].
 
@@ -58,9 +58,27 @@ Thus, when LDS prophet-president Russell Nelson referenced God's weeping in this
 
 [^12]: The subjectivity involved in this example is particularly noteworthy given the way that members of Restoration denominations have frequently praised the scripture that Joseph Smith, Jr. has produced as more trustworthy than, say, the Bible. 
 
-Yet, the subjectivity of scripture does not mean that there are no limits to how we may interpret a passage. In particular, scholarly observations related to language, history, and archaeology may help guide our interpretation in productive ways. For example, the Gospel of Matthew points to a passage in Isaiah as prophecy of the virgin birth; although the Greek translation of the Hebrew Bible referenced by the author of this Gospel *does* use the word "virgin,"
+Yet, the subjectivity of scripture does not mean that there are no limits to how we may interpret a passage—especially when we insist that others adopt that interpretation. Scholarly observations related to language, history, and archaeology may help guide our interpretation in productive ways. For example, Matthew 1:22-23 describes Isaiah 7:14 as prophecy of the virgin birth of Jesus Christ; although the Greek translation of the Hebrew Bible referenced by the author of this Gospel *does* use the word "virgin," the Hebrew Bible itself uses a word meaning "young woman"—not the word that the Hebrew Bible uses to indicate virginity[^13]. This need not prevent Christians from holding to the doctrine of Jesus's virgin birth, but it should constrain them from insisting that Jewish or other readers see this passage of Isaiah as fulfilled in Christian scripture. Similarly, Thomas Wayment's translation of the New Testament[^14] respectfully but clearly draws attentions to distinctly LDS interpretations of specific New Testament verses that are dependent on the exact words of the King James Version of the Bible and do not hold up to more accurate translations of the original Greek. Once again, there is (usually) no harm in adopting those interpretations, but there is little room for imposing those interpretations on others.
 
+[^13]: For a more thorough (but still brief) overview of this, I recommend:
 
+	Enns, P. (2022, December 19). The "Pete ruins Christmas" series, part 3: The virgin shall conceive [blog post]. *The Bible for Normal People*. [https://thebiblefornormalpeople.com/virgin-shall-conceive/](https://thebiblefornormalpeople.com/virgin-shall-conceive/)
+
+[^14]: Wayment, T. A. (2019). *The New Testament: A Translation for Latter-day Saints*. Religious Studies Center, Brigham Young University.
+
+	There is also an updated second edition of this translation.
+	
+Unfortunately, these productive contraints are difficult to come by for the Book of Mormon. As Bruce Lindgren[^15] has noted, despite many efforts to the contrary, we simply do not have access to the purported original language of the Book of Mormon or to any historical or archaeological data related to its narrative. How, then, can we ensure that we read its stories with responsible rigor? Some authors have suggested that we use the 19th century American context of the Book of Mormon's emergence—including associated history and language—to guide our reading[^16]. While I agree that this approach can be productive, my personal preference is for an approach that sets aside questions of the origin of the text in order to focus more fully on what is in the text. 
+
+[^15]: Lindgren, A. B. (1986). Sign or scripture: Approaches to the Book of Mormon. *Dialogue: A Journal of Mormon Thought*, *19*(1), 69-75. 
+
+[^16]: See, for example:
+
+	Luffman, D. E. (2013). *The Book of Mormon's witness to its first readers*. Community of Christ Seminary Press.
+	
+	McClellan, D. O. (2020). 2 Nephi 25:23 in literary and rhetorical context. *Journal of Book of Mormon Studies*, *29*, 1-19. 
+	
+	McClellan's approach will be particularly interesting for some in that he suggests that one can use 19th century English to gain insights into the meaning of particular Book of Mormon passages without necessarily arguing that the text is a product of the 19th century.
 
 ## Jacob's Temple Sermon is About Interpreting Scripture
 
