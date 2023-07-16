@@ -1,50 +1,52 @@
 ---
 draft: true
-date: 2023-07-09T15:53:03-04:00
+date: 2023-07-16T14:53:03-04:00
 title: "scripture and sexual ethic in Jacob's temple sermon"
 tags: ["macro","Communities","Book of Mormon","sexual ethics","Grant Hardy"]
 ---
-This is a piece that I've been meaning to write for years, but the best I've gotten is only a Twitter thread or two. A recent conversation with Elray Henriksen encouraged me to put pen to paper (or fingers to keyboard) and write out something more complete. I've toyed around with the idea of submitting it for publication, and I may yet do so in the future, but for the moment, my priority is getting it done and out there. In that same vein, I'm using a hacked-together blend of APA and Markdown footnotes for this; it's not a real citation style, but it's what came most naturally.
+This is a piece that I've been meaning to write for years, but the best I've gotten is only a Twitter thread or two. A recent conversation with Elray Henriksen encouraged me to try writing my thoughts out more completely. I've toyed around with the idea of submitting it for publication, and I may yet do so in the future, but for the moment, my priority is getting it done and out there. In that same vein, I'm using a hacked-together blend of APA and Markdown footnotes for this; it's not a real citation style, but it's what came most naturally.
 
 ## Introduction
 
-> "For, behold, thus says the Lord, 'This people begin to wax in iniquity; they understand not the scriptures; for they seek to excuse themselves in committing whoredoms because of the things which were written concerning David and Solomon his son.'"
+> "Wherefore, my brethren, hear me, and hearken to the word of the Lord: 'For there shall not any man among you have, save it be one wife; and concubines he shall have none; for I, the Lord God, delighteth in the chastity of women."
 
-> Jacob 2:32 [LDS 2:23][^1]
+> Jacob 2:36 [LDS 2:27-28][^1]
 
-[^1]: Throughout this essay, my quotes and verse numbers will come from Community of Christ's 1966 *Revised Authorized Version*. This reflects my current denominational affiliation, [my belief in the value of a modern-language edition](https://spencergreenhalgh.com/tags/rereading-the-book-of-mormon-project/) of the Book of Mormon (though the RAV is very conservative in its modernization), and my agreement with a number of writers on the Book of Mormon that there is significance to the original chapter divisions of the Book of Mormon (which survive in Community of Christ editions but have been replaced by shorter chapters in LDS editions).
+[^1]: Throughout this essay, quotes and verse numbers from the Book of Mormon will be based on Community of Christ's 1966 *Revised Authorized Version*. This reflects my current denominational affiliation, [my belief in the value of a modern-language edition](https://spencergreenhalgh.com/tags/rereading-the-book-of-mormon-project/) of the Book of Mormon (though I personally think the RAV is too conservative in its modernization), and my agreement with a number of writers on the Book of Mormon that there is significance to the original chapter divisions of that book (which survive in Community of Christ editions but have been replaced by shorter chapters in LDS editions).
 
-	I also regretfully use the acronym "LDS" as a reference to The Church of Jesus Christ of Latter-day Saints even though I know it is discouraged by that church. I would use the preferred adjective "Latter-day Saint" except for the fact that members of the RLDS Church and Community of Christ have also referred to themselves as "Latter Day Saints," and I'm not confident that the difference in capitalization and punctuation will be enough to clearly distinguish whom I am referring to.
+	I also regretfully use the acronym "LDS" when referencing people, teachings, and beliefs of The Church of Jesus Christ of Latter-day Saints. I would use the preferred adjective "Latter-day Saint" except for the fact that members of the RLDS Church and Community of Christ have also referred to themselves as "Latter Day Saints," and I'm not confident that the difference in capitalization and punctuation will be enough to clearly distinguish whom I am referring to.
 
-Someone turning to the Book of Mormon to develop a sexual ethic would likely consult the sermon given by the Nephite prophet Jacob in the second chapter of the book bearing his name[^2]. Indeed, LDS and RLDS figures have often referred to Jacob 2 when making arguments about the nature of sexual ethics. For example, Jacob's teaching that God delights "in the chastity of women" (2:36; LDS 2:28) was cited by LDS apostle Mark E. Petersen [in a 1969 address](https://scriptures.byu.edu/#0cf0228:t694$25858:c0cf0228) entitled *The Dangers of the So-called Sex Revolution*. Likewise, Jacob's condemnation of polygamy was a favorite resource for RLDS critics of not only 19th century LDS polygamy but also their own church's 20th century policies (and, with D&C 150, scripture) allowing polygamous men to be baptized so long as they committed to take no more wives[^3].
+Someone turning to the Book of Mormon to develop a sexual ethic would likely consult the sermon given by the Nephite prophet Jacob in the second chapter of the book bearing his name[^2]. Indeed, LDS and RLDS figures have often referred to Jacob 2 when making arguments about the nature of sexual ethics. For example, LDS apostle Mark E. Petersen[^3] quoted the above passage [in a 1969 address](https://scriptures.byu.edu/#0cf0228:t694$25858:c0cf0228) entitled *The Dangers of the So-called Sex Revolution*. Likewise, Jacob's condemnation of polygamy was a favorite resource for RLDS critics of both 19th century LDS polygamy as well as their own church's 20th century policies (and, with D&C 150, scripture) allowing polygamous men to be baptized so long as they committed to take no more wives[^4].
 
 [^2]: Conveniently, Jacob's temple sermon appears in Jacob 2 for both LDS and Community of Christ readers.
 
-[^3]: For more on D&C 150 and preceding policies, I recommend:  
+[^3]: Petersen, M. E. (1969). The dangers of the so-called sex revolution. *April 1969 Conference Report*, 62-66. 
+
+	Other references to Jacob's temple sermon in LDS teachings can be found in the [BYU Scripture Citation Index](https://scriptures.byu.edu/#::c0cf02).
+
+[^4]: For more on D&C 150 and preceding policies, I recommend:  
   
-	Howlett, D. J. (2020). Why denominations can climb hills: RLDS conversions in highland tribal India and midwestern America, 1964-2000. *Church History*, *89*, 633-658. [https://doi.org/10.1017/S000964072000133X](https://doi.org/10.1017/S000964072000133X)
+	Howlett, D. J. (2020). Why denominations can climb hills: RLDS conversions in highland tribal India and midwestern America, 1964-2000. *Church History*, *89*, 633-658. https://doi.org/10.1017/S000964072000133X
 	
 	Scherer, M. A. (2016). *The journey of a people: The era of worldwide community, 1946 to 2016*. Community of Christ Seminary Press.
 
-Yet, careful readings of Jacob's temple sermon suggest that its sexual ethic is more nuanced than a generic call to chastity (or even a simple condemnation of polygamy). For example, a number of writers have found feminist themes in Jacob's sermon. Carol Lynn Pearson[^4] points to the polygamous husbands of this passage as one piece of evidence (among many others) of an "anti-female bias evident among the Nephites" that may have been "one of the numerous causes of their downfall" (p. 223). Similarly, Deidre Nicole Green[^5] interprets "Jacob's references to women's chastity" as a reference "to women's sexual agency" (p. 88), and Fatimah Salleh and Margaret Olsen Hemming[^6] describe Jacob's sermon as containing "some of the most overtly feminist messages of the Book of Mormon" (p. 111). These readings invite us to see Jacob's sexual ethic as the consequence of a deeper commitment to gender equality rather than a self-evident list of sexual prohibitions. 
+Yet, careful readings of Jacob's temple sermon suggest that its sexual ethic is more nuanced than a generic call to chastity (or even a simple condemnation of polygamy). For example, a number of writers have found feminist themes in Jacob's sermon. Indeed, Fatimah Salleh and Margaret Olsen Hemming[^5] describe Jacob's sermon as containing "some of the most overtly feminist messages of the Book of Mormon" (p. 111). Carol Lynn Pearson[^6] points to the polygamous husbands of this passage as one piece of evidence (among many others) of an "anti-female bias evident among the Nephites" that may have been "one of the numerous causes of their downfall" (p. 223). Similarly, Deidre Nicole Green[^7] interprets "Jacob's references to women's chastity" as a reference "to women's sexual agency" (p. 88).  These readings invite us to see Jacob's sexual ethic as the outgrowth of a deeper commitment to gender equality rather than a self-evident list of sexual prohibitions. 
 
-[^4]: Pearson, C. L. (2015). Could feminism have saved the Nephites? In J. Brooks, R. Hunt Steenblik, & Hannah Wheelwright (Eds.), *Mormon feminism: Essential writings* (pp. 219-225). Oxford University Press.
+[^5]: Salleh, F., & Olsen Hemming, M. (2020). *The Book of Mormon for the Least of These: 1 Nephi - Words of Mormon*. BCC Press.
 
-[^5]: Green, D. N. (2020). *Jacob: A brief theological introduction*. Neal A. Maxwell Institute for Religious Scholarship
+[^6]: Pearson, C. L. (2015). Could feminism have saved the Nephites? In J. Brooks, R. Hunt Steenblik, & Hannah Wheelwright (Eds.), *Mormon feminism: Essential writings* (pp. 219-225). Oxford University Press.
 
-[^6]: Salleh, F., & Olsen Hemming, M. (2020). *The Book of Mormon for the Least of These: 1 Nephi - Words of Mormon*. BCC Press.
+[^7]: Green, D. N. (2020). *Jacob: A brief theological introduction*. Neal A. Maxwell Institute for Religious Scholarship
 
-Inspired by these kinds of readings, my goal in this essay is to offer further nuance to Jacob's temple sermon and to ask how that nuance might inform the sexual ethic that individuals and denominations that read the Book of Mormon draw from it. I will begin by describing the inherent subjectivity involved in the interpretation of scripture. This is important for making clear the perspective I bring to reading the Book of Mormon. Perhaps more importantly, it also sets the stage for my first argument: that to understand Jacob's sexual ethic, we must first understand *Jacob's own* approach to scripture. Finally, I will place Jacob's sexual ethic within his approach to scripture and comment on how this placement may affect how Jacob 2 is interpreted today.
+Inspired by these kinds of readings, my goal in this essay is to offer further nuance to Jacob's temple sermon and to ask how that nuance might inform the sexual ethic that individuals and denominations that read the Book of Mormon draw from it. I will begin by describing the inherent subjectivity involved in the interpretation of scripture. This is important for making clear the perspective *I bring* to reading the Book of Mormon. Perhaps more importantly, it also sets the stage for my first argument: that to understand Jacob's sexual ethic, we must first understand *Jacob's own* approach to scripture. Finally, I will place Jacob's sexual ethic within his approach to scripture and comment on how this placement may affect how Jacob 2 is interpreted today.
 
 ## On Scripture and Subjectivity
 
-I write this essay as someone who long practiced in The Church of Jesus Christ of Latter-day Saints but who now practices in Community of Christ. I am doubtful of the Book of Mormon's historicity in the same way I am doubtful of the historicity of much of the Hebrew Bible[^7]; yet, I strongly believe the Book of Mormon—like the Hebrew Bible—has much to teach us and is therefore valuable as scripture. To borrow a phrase often applied to the Bible, I take the Book of Mormon seriously but not literally. 
+In this section, I argue that the interpretation of scripture is an inherently subjective process—but that some interpretations are better than others. I conclude by acknowledging the subjectivity that I bring to the Book of Mormon text.
 
-[^7]: That is, what Christians have typically referred to as the Old Testament.
+### Subjective Scripture
 
-It is important for me to acknowledge my approach to the Book of Mormon because there is no such thing as an objective interpretation of scripture. To illustrate this point, let us consider the case of the vision of Enoch recorded by Joseph Smith Jr. and recorded in D&C 36 by Community of Christ and Moses 7 by The Church of Jesus Christ of Latter-day Saints. This passage contains a reference to God weeping, an idea that (at least in LDS circles) has captured a fair amount of attention in recent years[^8]. However, as RLDS historian emeritus Richard Howard has noted[^9], the current version of D&C 36 (and, thus, Moses 7) is based on an 1867 RLDS committee's efforts to bring together two different drafts of this vision composed by Joseph Smith Jr. throughout his lifetime. In the later of the two drafts, Joseph replaced the reference to *God* weeping with a reference to *Enoch* weeping. By Joseph's murder in 1844, he had not fully completed his revision of the Bible, leaving a number of ambiguities and contradictions for the 1867 RLDS committee to do their best to resolve. 
-
-Thus, when LDS prophet-president Russell Nelson referenced God's weeping in this vision as part of an April 2019 sermon[^10] asserting the necessity of certain sacraments[^11], this was not necessarily the straightforward prooftext he may have been hoping for. Rather, Nelson was referencing a version of this passage of scripture that was cobbled together by: 1) a committee of individuals 2) who did not share Nelson's faith who were faced with 3) contradictory versions of the passage and 4) made the curious decision to prioritize Joseph Smith Jr.'s earlier draft of the passage over an obvious, deliberate revision of that draft. If there is this level of subjectivity involved in the *production* of scripture[^12], how much more subjectivity should we expect in the *interpretation* of scripture? If it is next to impossible to say what the authoritative version of Enoch's vision is, it must be outright impossible to limit ourselves to a single, objective interpretation of the same vision.
+There is no such thing as an objective interpretation of scripture. To illustrate this point, consider the case of Enoch's vision, composed by Joseph Smith Jr. and recorded in D&C 36 by Community of Christ and Moses 7 by The Church of Jesus Christ of Latter-day Saints. This passage contains a reference to God weeping, an idea that (at least in LDS circles) has captured a fair amount of attention in recent years[^8]. However, as RLDS historian emeritus Richard Howard has noted[^9],  D&C 36 (and, thus, Moses 7[^10]) is based on an 1867 RLDS committee's efforts to bring together two different drafts of this vision composed by Joseph Smith Jr. throughout his lifetime. In the later of the two drafts, Joseph replaced the reference to *God* weeping with a reference to *Enoch* weeping. By Joseph's murder in 1844, he had not fully completed his revision of the Bible, leaving a number of ambiguities and contradictions for the 1867 RLDS committee to do their best to resolve.
 
 [^8]: See, for example:
 
@@ -52,21 +54,42 @@ Thus, when LDS prophet-president Russell Nelson referenced God's weeping in this
 	
 [^9]: Howard, R. P. (1995). *Restoration scriptures: A study of their textual development*. Herald Publishing House
 
-[^10]: Nelson, R. M. (2019, April). "'Come, Follow Me.'" [https://www.churchofjesuschrist.org/study/general-conference/2019/04/46nelson](https://www.churchofjesuschrist.org/study/general-conference/2019/04/46nelson)
+[^10]: This article from the LDS periodical *The Ensign* concludes that the text of the Book of Moses found in the Pearl of Great Price was taken from the RLDS-printed Inspired Version of the Bible:
 
-[^11]: I have adopted the Community of Christ (and broader Christian) terminology of "sacraments" for what members of The Church of Jesus Christ of Latter-day Saints more commonly refer to as "ordinances."
+	Matthews, R. J. (1986, January). How we got the Book of Moses. *The Ensign*. https://www.churchofjesuschrist.org/study/ensign/1986/01/how-we-got-the-book-of-moses?lang=eng
 
-[^12]: The subjectivity involved in this example is particularly noteworthy given the way that members of Restoration denominations have frequently praised the scripture that Joseph Smith, Jr. has produced as more trustworthy than, say, the Bible. 
+Thus, when LDS prophet-president Russell Nelson referenced God's weeping in this vision as part of an April 2019 sermon[^11] asserting the necessity of certain sacraments[^12], this was not necessarily the straightforward prooftext he may have been hoping for. Rather, Nelson was referencing a version of this passage of scripture that was cobbled together by: 
 
-Yet, the subjectivity of scripture does not mean that there are no limits to how we may interpret a passage—especially when we insist that others adopt that interpretation. Scholarly observations related to language, history, and archaeology may help guide our interpretation in productive ways. For example, Matthew 1:22-23 describes Isaiah 7:14 as prophecy of the virgin birth of Jesus Christ; although the Greek translation of the Hebrew Bible referenced by the author of this Gospel *does* use the word "virgin," the Hebrew Bible itself uses a word meaning "young woman"—not the word that the Hebrew Bible uses to indicate virginity[^13]. This need not prevent Christians from holding to the doctrine of Jesus's virgin birth, but it should constrain them from insisting that Jewish or other readers see this passage of Isaiah as fulfilled in Christian scripture. Similarly, Thomas Wayment's translation of the New Testament[^14] respectfully but clearly draws attentions to distinctly LDS interpretations of specific New Testament verses that are dependent on the exact words of the King James Version of the Bible and do not hold up to more accurate translations of the original Greek. Once again, there is (usually) no harm in adopting those interpretations, but there is little room for imposing those interpretations on others.
+1. a committee of individuals (who may have disagreed among themselves),
+2. who did not share Nelson's faith (and could have brought RLDS biases into their decisions),
+3. who were faced with contradictory versions of the passage (making it difficult to know what Joseph Smith Jr. intended), and
+4. who made the curious decision to prioritize the earlier draft of the passage (as opposed to the later draft, which appears to be an intentional revision)
 
-[^13]: For a more thorough (but still brief) overview of this, I recommend:
+If there is this level of subjectivity involved in the *production* of scripture[^13], how much more subjectivity should we expect in the *interpretation* of scripture? If it is next to impossible to say what the authoritative version of Enoch's vision is, it must be outright impossible to limit ourselves to a single, objective interpretation of the same vision.
 
-	Enns, P. (2022, December 19). The "Pete ruins Christmas" series, part 3: The virgin shall conceive [blog post]. *The Bible for Normal People*. [https://thebiblefornormalpeople.com/virgin-shall-conceive/](https://thebiblefornormalpeople.com/virgin-shall-conceive/)
+[^11]: Nelson, R. M. (2019, April). "'Come, Follow Me.'" https://www.churchofjesuschrist.org/study/general-conference/2019/04/46nelson
 
-[^14]: Wayment, T. A. (2019). *The New Testament: A Translation for Latter-day Saints*. Religious Studies Center, Brigham Young University.
+[^12]: I use the Community of Christ (and broader Christian) terminology of "sacraments" for what members of The Church of Jesus Christ of Latter-day Saints more commonly refer to as "ordinances."
+
+[^13]: The subjectivity involved in this example is particularly noteworthy given the way that members of Restoration denominations have frequently praised the scripture that Joseph Smith, Jr. has produced as more trustworthy than, say, the Bible. 
+
+### Productive Constraints
+
+Although the interpretation of scripture is inherently subjective, our interpretations can be stronger when we impose productive constraints on them. Some of these constraints take the form of theological commitments. For example, the Community of Christ Statement on Scripture[^14] encourages members of this denomination to interpret scripture through a Christ-focused lens with statements like "It is to Christ that scripture points" and "It is Christ whom we must hear" (Affirmation One). Furthermore, Community of Christ believes that scripture must be read through a particular understanding of Christ: "Scripture’s authority is derived from the model of Christ, who came to be a servant (Mark 10:45). Therefore, the authority of scripture is not the authority to oppress, control, or dominate" (Affirmation Four). Although there are passages of scripture that are seemingly unrelated to Christ—or that seem to promote oppression, control, or domination—a member of Community of Christ might craft their interpretation of (or response to) those passages based primarily on those theological commitments.
+
+[^14]: This statement can be accessed at https://cofchrist.org/scripture/
+
+Yet, it is also productive to recognize the ways in which scripture may not conform with our theological commitments. In particular, scholarly observations related to language, history, and archaeology may also constrain our interpretation. For example, Matthew 1:22-23 describes Isaiah 7:14 as prophecy of the virgin birth of Jesus Christ; although the Greek translation of the Hebrew Bible referenced by the author of this Gospel *does* use the word "virgin," the Hebrew Bible itself uses a word meaning "young woman"—not the word that the Hebrew Bible uses to indicate virginity[^15]. This need not prevent Christians from holding to the doctrine of Jesus's virgin birth, but it should constrain them from insisting that Jewish readers, for example, read Isaiah through a Christ-focused lens in the same way a member of Community of Christ or The Church of Jesus Christ of Latter-day Saints would. Similarly, Thomas Wayment's translation of the New Testament[^16] respectfully notes that distinctly LDS interpretations of specific New Testament verses are often dependent on the exact words of the King James Version of the Bible and do not hold up to more accurate translations of the original Greek. Once again, there is (usually) no harm in adopting those interpretations, but there is little room for imposing those interpretations on others.
+
+[^15]: For a more thorough (but still brief) overview of this, I recommend:
+
+	Enns, P. (2022, December 19). The "Pete ruins Christmas" series, part 3: The virgin shall conceive [blog post]. *The Bible for Normal People*. https://thebiblefornormalpeople.com/virgin-shall-conceive/
+
+[^16]: Wayment, T. A. (2019). *The New Testament: A Translation for Latter-day Saints*. Religious Studies Center, Brigham Young University.
 
 	There is also an updated second edition of this translation.
+	
+### Personal Perspective
 	
 Unfortunately, these productive contraints are difficult to come by for the Book of Mormon. As Bruce Lindgren[^15] has noted, despite many efforts to the contrary, we simply do not have access to the purported original language of the Book of Mormon or to any historical or archaeological data related to its narrative. How, then, can we ensure that we read its stories with responsible rigor? Some authors have suggested that we use the 19th century American context of the Book of Mormon's emergence—including associated history and language—to guide our reading[^16]. While I agree that this approach can be productive, my personal preference is for an approach that sets aside questions of the origin of the text in order to focus more fully on what is in the text. 
 
@@ -79,7 +102,13 @@ Unfortunately, these productive contraints are difficult to come by for the Book
 	McClellan, D. O. (2020). 2 Nephi 25:23 in literary and rhetorical context. *Journal of Book of Mormon Studies*, *29*, 1-19. 
 	
 	McClellan's approach will be particularly interesting for some in that he suggests that one can use 19th century English to gain insights into the meaning of particular Book of Mormon passages without necessarily arguing that the text is a product of the 19th century.
+	
+I write this essay as someone who long practiced in The Church of Jesus Christ of Latter-day Saints but who now practices in Community of Christ. I am doubtful of the Book of Mormon's historicity in the same way I am doubtful of the historicity of much of the Hebrew Bible[^7]; yet, I strongly believe the Book of Mormon—like the Hebrew Bible—has much to teach us and is therefore valuable as scripture. To borrow a phrase often applied to the Bible, I take the Book of Mormon seriously but not literally. 
+
+[^7]: That is, what Christians have typically referred to as the Old Testament.
 
 ## Jacob's Temple Sermon is About Interpreting Scripture
 
+> "For, behold, thus says the Lord, 'This people begin to wax in iniquity; they understand not the scriptures; for they seek to excuse themselves in committing whoredoms because of the things which were written concerning David and Solomon his son.'"
 
+> Jacob 2:32 [LDS 2:23]
