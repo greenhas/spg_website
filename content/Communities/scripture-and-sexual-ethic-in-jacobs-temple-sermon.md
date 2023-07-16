@@ -90,10 +90,39 @@ Yet, it is also productive to recognize the ways in which scripture may not conf
 	There is also an updated second edition of this translation.
 	
 ### Personal Perspective
-	
-Unfortunately, these productive contraints are difficult to come by for the Book of Mormon. As Bruce Lindgren[^15] has noted, despite many efforts to the contrary, we simply do not have access to the purported original language of the Book of Mormon or to any historical or archaeological data related to its narrative. How, then, can we ensure that we read its stories with responsible rigor? Some authors have suggested that we use the 19th century American context of the Book of Mormon's emergence—including associated history and language—to guide our reading[^16]. While I agree that this approach can be productive, my personal preference is for an approach that sets aside questions of the origin of the text in order to focus more fully on what is in the text. 
 
-[^15]: Lindgren, A. B. (1986). Sign or scripture: Approaches to the Book of Mormon. *Dialogue: A Journal of Mormon Thought*, *19*(1), 69-75. 
+The subjectivity of scripture interpretation and the productive constraints we impose on our own interpretations will become important later in this essay, as we consider how Jacob approaches scripture (and how that affects his sexual ethic). However, they also highlight the importance of acknowledging the subjectivity that I bring to this essay.
+
+I write from the perspective of someone who long practiced in The Church of Jesus Christ of Latter-day Saints but who now practices in Community of Christ. Thus, I am familiar with and sympathetic to LDS approaches to the Book of Mormon. Furthermore, there is no getting around the fact that there has been more writing on the Book of Mormon (especially in recent years) from LDS perspectives than from RLDS/Community of Christ perspectives; I have not read all of the interesting writing on the Book of Mormon, but my thinking is largely shaped by LDS writers (if not institutional perspectives). That said, my core theological commitments are presently closer to Community of Christ than they are to The Church of Jesus Christ of Latter-day Saints. Especially relevant here is my firm belief in what prophet-president Stephen Veazey expressed in D&C 163:7[^17] (which is also expressed in the Community of Christ Statement on Scripture referenced above): 
+
+> 7 a. Scripture is an indispensable witness to the Eternal Source of light and truth, which cannot be fully contained in any finite vessel or language. Scripture has been written and shaped by human authors through experiences of revelation and ongoing inspiration of the Holy Spirit in the midst of time and culture.
+>
+> b. Scripture is not to be worshiped or idolized. Only God, the Eternal One of whom scripture testifies, is worthy of worship. God’s nature, as revealed in Jesus Christ and affirmed by the Holy Spirit, provides the ultimate standard by which any portion of scripture should be interpreted and applied.
+> 
+> c. It is not pleasing to God when any passage of scripture is used to diminish or oppress races, genders, or classes of human beings. Much physical and emotional violence has been done to some of God’s beloved children through the misuse of scripture. The church is called to confess and repent of such attitudes and practices.
+
+[^17]: Which can be accessed here: https://cofchrist.org/doctrine-and-covenants/
+
+In terms of the productive constraints I bring to bear on the Book of Mormon, I am doubtful of the Book of Mormon's historicity in the same way I am doubtful of the historicity of much of the Hebrew Bible[^18]. Furthermore, even when I did believe that Nephites and Lamanites really existed, I likely would have agreed with Bruce Lindgren's[^19] observation that despite many efforts to the contrary, we simply do not have access to the purported original language of the Book of Mormon or to any conclusive historical or archaeological data related to its narrative—the very context that is necessary for responsible interpretation of scripture.
+
+[^18]: That is, what Christians have typically referred to as the Old Testament.
+
+[^19]: Lindgren, A. B. (1986). Sign or scripture: Approaches to the Book of Mormon. *Dialogue: A Journal of Mormon Thought*, *19*(1), 69-75. 
+
+Despite these obstacles, I strongly believe the Book of Mormon—like the Hebrew Bible—has much to teach us and is therefore valuable as scripture. To borrow a phrase often applied to the Bible, I take the Book of Mormon seriously but not literally. Indeed, Lindgren[^19] argues that:
+
+> The most significant threat to the Book of Mormon... is not questions of its historicity. The most significant threat is that it will be ignored by the faithful. If we refuse to ask questions and listen to its responses, we will have an artifact which has no scriptural function despite our reverence for it. (p. 74)
+
+I believe that we can ask questions of the Book of Mormon and that it will provide responses. Like Lindgren[^19], I expect that "we will find ourselves arguing with the book's answers much of the time" (p. 75), but I have also found that careful reading of the Book of Mormon often provides answers that inform my faith. In particular, Grant Hardy[^20] has provided an important model for my reading of the Book of Mormon: one that focuses primarily on what the text has to say about religion (rather than anything that it "proves" or "disproves" about religion), one that treats the narrators as real people (without going so far as to say they were historical figures), and 
+
+[^20]: Hardy, G. (2010). *Understanding the Book of Mormon: A reader's guide*. Oxford University Press.
+
+	
+
+
+Some authors have suggested that we use the 19th century American context of the Book of Mormon's emergence—including associated history and language—to guide our reading[^16]. While I agree that this approach can be productive, my personal preference is for an approach that sets aside questions of the origin of the text in order to focus more fully on what is in the text. 
+
+
 
 [^16]: See, for example:
 
@@ -103,9 +132,7 @@ Unfortunately, these productive contraints are difficult to come by for the Book
 	
 	McClellan's approach will be particularly interesting for some in that he suggests that one can use 19th century English to gain insights into the meaning of particular Book of Mormon passages without necessarily arguing that the text is a product of the 19th century.
 	
-I write this essay as someone who long practiced in The Church of Jesus Christ of Latter-day Saints but who now practices in Community of Christ. I am doubtful of the Book of Mormon's historicity in the same way I am doubtful of the historicity of much of the Hebrew Bible[^7]; yet, I strongly believe the Book of Mormon—like the Hebrew Bible—has much to teach us and is therefore valuable as scripture. To borrow a phrase often applied to the Bible, I take the Book of Mormon seriously but not literally. 
 
-[^7]: That is, what Christians have typically referred to as the Old Testament.
 
 ## Jacob's Temple Sermon is About Interpreting Scripture
 
