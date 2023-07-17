@@ -113,9 +113,11 @@ Despite these obstacles, I strongly believe the Book of Mormon—like the Hebrew
 
 > The most significant threat to the Book of Mormon... is not questions of its historicity. The most significant threat is that it will be ignored by the faithful. If we refuse to ask questions and listen to its responses, we will have an artifact which has no scriptural function despite our reverence for it. (p. 74)
 
-I believe that we can ask questions of the Book of Mormon and that it will provide responses. Like Lindgren[^19], I expect that "we will find ourselves arguing with the book's answers much of the time" (p. 75), but I have also found that careful reading of the Book of Mormon often provides answers that inform my faith. In particular, Grant Hardy[^20] has provided an important model for my reading of the Book of Mormon: one that focuses primarily on what the text has to say about religion (rather than anything that it "proves" or "disproves" about religion), one that treats the narrators as real people (without going so far as to say they were historical figures), and 
+I believe that we can ask questions of the Book of Mormon and that it will provide responses. Like Lindgren[^19], I expect that "we will find ourselves arguing with the book's answers much of the time" (p. 75)[^20], but I have also found that careful reading of the Book of Mormon often provides answers that inform my faith. In particular, Grant Hardy[^21] has provided an important model for my reading of the Book of Mormon: one that focuses primarily on what the text has to say about religion (rather than anything that it "proves" or "disproves" about religion), one that treats the narrators as real people (without going so far as to say they were historical figures), and 
 
-[^20]: Hardy, G. (2010). *Understanding the Book of Mormon: A reader's guide*. Oxford University Press.
+[^20]: Lindgren notes that this should be expected, considering how often scripture argues **with itself** (providing examples of disputes between Paul and James in the New Testament and between the authors of Jonah and Ezra-Nehemiah in the Hebrew Bible)
+
+[^21]: Hardy, G. (2010). *Understanding the Book of Mormon: A reader's guide*. Oxford University Press.
 
 	
 
