@@ -113,31 +113,34 @@ Despite these obstacles, I strongly believe the Book of Mormon—like the Hebrew
 
 > The most significant threat to the Book of Mormon... is not questions of its historicity. The most significant threat is that it will be ignored by the faithful. If we refuse to ask questions and listen to its responses, we will have an artifact which has no scriptural function despite our reverence for it. (p. 74)
 
-I believe that we can ask questions of the Book of Mormon and that it will provide responses. Like Lindgren[^19], I expect that "we will find ourselves arguing with the book's answers much of the time" (p. 75)[^20], but I have also found that careful reading of the Book of Mormon often provides answers that inform my faith. In particular, Grant Hardy[^21] has provided an important model for my reading of the Book of Mormon: one that focuses primarily on what the text has to say about religion (rather than anything that it "proves" or "disproves" about religion), one that treats the narrators as real people (without going so far as to say they were historical figures), and 
+I believe that we can ask questions of the Book of Mormon and that it will provide responses. Like Lindgren[^19], I expect that "we will find ourselves arguing with the book's answers much of the time" (p. 75)[^20], but I have also found that careful reading of the Book of Mormon often provides answers that inform my faith. In particular, Grant Hardy[^21] has provided an important model for my reading of the Book of Mormon: one that focuses primarily on what the text has to say about religion (rather than anything that it "proves" or "disproves" about religion), one that treats the narrators as real people (without going so far as to say they were historical figures), and reads between the lines to consider whether there is a story behind the story. This is not the only way of approaching the Book of Mormon productively[^22], and it is not without its downsides[^23], but it is my preferred approach and the perspective I bring to this essay.
 
 [^20]: Lindgren notes that this should be expected, considering how often scripture argues **with itself** (providing examples of disputes between Paul and James in the New Testament and between the authors of Jonah and Ezra-Nehemiah in the Hebrew Bible)
 
 [^21]: Hardy, G. (2010). *Understanding the Book of Mormon: A reader's guide*. Oxford University Press.
 
-	
-
-
-Some authors have suggested that we use the 19th century American context of the Book of Mormon's emergence—including associated history and language—to guide our reading[^16]. While I agree that this approach can be productive, my personal preference is for an approach that sets aside questions of the origin of the text in order to focus more fully on what is in the text. 
-
-
-
-[^16]: See, for example:
+[^22]: For example, some authors have suggested that we use the 19th century American context of the Book of Mormon's emergence—including associated history and language—to guide our reading. Here are two models of that approach that I find helpful.
 
 	Luffman, D. E. (2013). *The Book of Mormon's witness to its first readers*. Community of Christ Seminary Press.
 	
 	McClellan, D. O. (2020). 2 Nephi 25:23 in literary and rhetorical context. *Journal of Book of Mormon Studies*, *29*, 1-19. 
 	
-	McClellan's approach will be particularly interesting for some in that he suggests that one can use 19th century English to gain insights into the meaning of particular Book of Mormon passages without necessarily arguing that the text is a product of the 19th century.
+	It is also noteworthy that neither of these authors argues that using 19th-century contexts necessarily means rejecting the purported origins of the Book of Mormon. After all, the text itself suggests that it is meant for a 19th-century American audience, and as readers of the Book of Mormon resemble that audience less and less, there is value in understanding how its "first readers" would have received its message.
 	
-
+[^23]: In my view, the most important downside of taking the Book of Mormon text seriously while bracketing its claims to historicity is the way that the text imposes an identity and history on indigenous peoples of the Americas. A narrative approach to the Book of Mormon **can** offer interesting, more nuanced readings of the text's approach to indigenous peoples, as evidenced by:
+	
+	Hickman, J. (2014). The Book of Mormon as Amerindian apocalypse. *American Literature*, *86*(3), 429-461. https://doi.org/10.1215/00029831-2717371
+	
+	However, I've also heard Hickman acknowledge that *if* the Book of Mormon provides a path to postcolonialism, it is at best a "janky bridge" at risk of collapse. In that same conference presentation, he also argued that it is ultimately up to indigenous readers to decide whether his reading is appropriate.
+	
+	Thus, while this narrative perspective can change how we understand what the Book of Mormon says about indigenous peoples of the Americas, it does not respond to the fact that the Book of Mormon **does** say something about indigenous peoples that purports to overwrite those peoples' own identities and histories.
 
 ## Jacob's Temple Sermon is About Interpreting Scripture
 
 > "For, behold, thus says the Lord, 'This people begin to wax in iniquity; they understand not the scriptures; for they seek to excuse themselves in committing whoredoms because of the things which were written concerning David and Solomon his son.'"
 
 > Jacob 2:32 [LDS 2:23]
+
+Discussing the interpretation of scripture is an important first step for this essay because Jacob begins the portion of his sermon addressing sexual ethics by accusing his audience of misinterpreting scripture. Likewise, he tries to correct this misinterpretation *before* he proposes a sexual ethic. Yes, Jacob is talking about sex, but it's clear that scripture is also on his mind.
+
+However, this observation is complicated by the fact that Jacob's reading of scripture seems—at face value at least—
