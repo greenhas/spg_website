@@ -14,7 +14,7 @@ This is a piece that I've been meaning to write for years, but the best I've got
 
 [^1]: Throughout this essay, quotes and verse numbers from the Book of Mormon will be based on Community of Christ's 1966 *Revised Authorized Version*. This reflects my current denominational affiliation, [my belief in the value of a modern-language edition](https://spencergreenhalgh.com/tags/rereading-the-book-of-mormon-project/) of the Book of Mormon (though I personally think the RAV is too conservative in its modernization), and my agreement with a number of writers on the Book of Mormon that there is significance to the original chapter divisions of that book (which survive in Community of Christ editions but have been replaced by shorter chapters in LDS editions).
 
-	I also regretfully use the acronym "LDS" when referencing people, teachings, and beliefs of The Church of Jesus Christ of Latter-day Saints. I would use the preferred adjective "Latter-day Saint" except for the fact that members of the RLDS Church and Community of Christ have also referred to themselves as "Latter Day Saints," and I'm not confident that the difference in capitalization and punctuation will be enough to clearly distinguish whom I am referring to.
+	I also regretfully use the acronym "LDS" when referencing people, teachings, and beliefs associated with The Church of Jesus Christ of Latter-day Saints. I would use the preferred adjective "Latter-day Saint" except for the fact that members of the RLDS Church and Community of Christ have also referred to themselves as "Latter Day Saints," and I'm not confident that all readers will pick up on the telling difference in capitalization and punctuation, undermining my abililty to distinguish between these two denominations.
 
 Someone turning to the Book of Mormon to develop a sexual ethic would likely consult the sermon given by the Nephite prophet Jacob in the second chapter of the book bearing his name[^2]. Indeed, LDS and RLDS figures have often referred to Jacob 2 when making arguments about the nature of sexual ethics. For example, LDS apostle Mark E. Petersen[^3] quoted the above passage [in a 1969 address](https://scriptures.byu.edu/#0cf0228:t694$25858:c0cf0228) entitled *The Dangers of the So-called Sex Revolution*. Likewise, Jacob's condemnation of polygamy was a favorite resource for RLDS critics of both 19th century LDS polygamy as well as their own church's 20th century policies (and, with D&C 150, scripture) allowing polygamous men to be baptized so long as they committed to take no more wives[^4].
 
@@ -79,7 +79,7 @@ Although the interpretation of scripture is inherently subjective, our interpret
 
 [^14]: This statement can be accessed at https://cofchrist.org/scripture/
 
-Yet, it is also productive to recognize the ways in which scripture may not conform with our theological commitments. In particular, scholarly observations related to language, history, and archaeology may also constrain our interpretation. For example, Matthew 1:22-23 describes Isaiah 7:14 as prophecy of the virgin birth of Jesus Christ; although the Greek translation of the Hebrew Bible referenced by the author of this Gospel *does* use the word "virgin," the Hebrew Bible itself uses a word meaning "young woman"—not the word that the Hebrew Bible uses to indicate virginity[^15]. This need not prevent Christians from holding to the doctrine of Jesus's virgin birth, but it should constrain them from insisting that Jewish readers, for example, read Isaiah through a Christ-focused lens in the same way a member of Community of Christ or The Church of Jesus Christ of Latter-day Saints would. Similarly, Thomas Wayment's translation of the New Testament[^16] respectfully notes that distinctly LDS interpretations of specific New Testament verses are often dependent on the exact words of the King James Version of the Bible and do not hold up to more accurate translations of the original Greek. Once again, there is (usually) no harm in adopting those interpretations, but there is little room for imposing those interpretations on others.
+Yet, it is also productive to recognize the ways in which scripture may not conform with our theological commitments. In particular, scholarly observations related to language, history, and archaeology may also constrain our interpretation. For example, Matthew 1:22-23 describes Isaiah 7:14 as prophecy of the virgin birth of Jesus Christ; although the Greek translation of the Hebrew Bible referenced by the author of this Gospel *does* use the word "virgin," the Hebrew Bible itself uses a word meaning "young woman"—not the word that the Hebrew Bible uses to indicate virginity[^15]. This need not prevent Christians from holding to the doctrine of Jesus's virgin birth, but it should constrain them from insisting that Jewish readers, for example, read Isaiah through a Christ-focused lens. Similarly, Thomas Wayment's translation of the New Testament[^16] respectfully notes that distinctly LDS interpretations of specific New Testament verses are often dependent on the exact words of the King James Version of the Bible and do not hold up to more accurate translations of the original Greek. Once again, there is (usually) no harm in adopting those interpretations, but there is little room for imposing those interpretations on others.
 
 [^15]: For a more thorough (but still brief) overview of this, I recommend:
 
@@ -93,7 +93,7 @@ Yet, it is also productive to recognize the ways in which scripture may not conf
 
 The subjectivity of scripture interpretation and the productive constraints we impose on our own interpretations will become important later in this essay, as we consider how Jacob approaches scripture (and how that affects his sexual ethic). However, they also highlight the importance of acknowledging the subjectivity that I bring to this essay.
 
-I write from the perspective of someone who long practiced in The Church of Jesus Christ of Latter-day Saints but who now practices in Community of Christ. Thus, I am familiar with and sympathetic to LDS approaches to the Book of Mormon. Furthermore, there is no getting around the fact that there has been more writing on the Book of Mormon (especially in recent years) from LDS perspectives than from RLDS/Community of Christ perspectives; I have not read all of the interesting writing on the Book of Mormon, but my thinking is largely shaped by LDS writers (if not institutional perspectives). That said, my core theological commitments are presently closer to Community of Christ than they are to The Church of Jesus Christ of Latter-day Saints. Especially relevant here is my firm belief in what prophet-president Stephen Veazey expressed in D&C 163:7[^17] (which is also expressed in the Community of Christ Statement on Scripture referenced above): 
+I write from the perspective of someone who long practiced in The Church of Jesus Christ of Latter-day Saints but who now practices in Community of Christ. Thus, I am familiar with and sympathetic to LDS approaches to the Book of Mormon. Furthermore, there is no getting around the fact that there has been more writing on the Book of Mormon (especially in recent years) from LDS perspectives than from RLDS/Community of Christ perspectives; I have not read all of the interesting writing on the Book of Mormon, but my thinking is largely shaped by LDS writers (if not institutional perspectives). That said, my core theological commitments are presently closer to Community of Christ than they are to The Church of Jesus Christ of Latter-day Saints. Especially relevant here is my firm belief in what prophet-president Stephen Veazey expressed in D&C 163:7[^17] (which resembles my previous references to the Community of Christ Statement on Scripture): 
 
 > 7 a. Scripture is an indispensable witness to the Eternal Source of light and truth, which cannot be fully contained in any finite vessel or language. Scripture has been written and shaped by human authors through experiences of revelation and ongoing inspiration of the Holy Spirit in the midst of time and culture.
 >
@@ -143,4 +143,34 @@ I believe that we can ask questions of the Book of Mormon and that it will provi
 
 Discussing the interpretation of scripture is an important first step for this essay because Jacob begins the portion of his sermon addressing sexual ethics by accusing his audience of misinterpreting scripture. Likewise, he tries to correct this misinterpretation *before* he proposes a sexual ethic. Yes, Jacob is talking about sex, but it's clear that scripture is also on his mind.
 
-However, this observation is complicated by the fact that Jacob's reading of scripture seems—at face value at least—
+However, this observation is complicated by the fact Jacob's audience actually has more of scripture on its side than Jacob himself does. In the following sections, I will discuss where Jacob appears to get things wrong—but what that tells us about his approach to scripture.
+
+### Jacob is Wrong...
+
+In their treatment of this portion of Jacob's temple sermon, Fatimah Salleh and Margaret Olsen Hemming[^5], describe Jacob as explaining:
+
+> what is even worse than what went before [i.e., Jacob's critique of seeking for wealth and oppressing the poor]: the Nephites are manipulating scripture to excuse their own selfish behavior. They are weaponizing holy text in order to justify committing evil. (p. 110)
+
+In broad terms, I agree with this argument; however, I would not describe the Nephite men as "manipulating scripture" to justify the taking of concubines and additional wives. Indeed, Wil Gafney[^24] writes that after Lamech takes two wives in Genesis 4:19:
+
+> From this point forward in the Scriptures, Lamech-style partnership (polygamy), rather than Eve/Adam-style monogamy, becomes normative. (p. 28)
+
+At best, Gafney continues, God is silent on the subject of polygamy. Despite Jacob's insistence that God condemns the Nephite men's misinterpretation of scripture, commands monogamy as a general rule[^25], and that David and Solomon's polygamy was an abomination[^26] 
+
+[^24]: Gafney, W. C. (2017) *Womanist midrash: A reintroduction to the women of the Torah and the throne*. Westminster John Knox Press.
+
+[^25]: Jacob 2:39 [LDS 2:30] suggests that God can authorize polygamy in specific caases, but without explicit instructions, believers should stick to monogamy. 
+
+[^26]: This particular rhetorical flourish poses a particular dilemma for LDS readers of the Book of Mormon. Critics of LDS polygamy have often noted the irony that Jacob's anti-polygamy screed appears in the faith's founding text; however, whereas Jacob leaves open the possibility of God-ordained polygamy, he is very clear that David and Solomon's actions were abominable. However, D&C 132 (for perhaps obvious reasons, there is no Community of Christ equivalent to this passage)
+
+While Jacob specifically critiques these men's reference of biblical passages related to David and Solomon, there are many others 
+
+Rather, Nephite men 
+
+
+ misleading , but I think it's misleading to describe 
+
+I'm also not sure that scripture needs much manipulation to excuse the Nephite men's behavior in this case. 
+
+### ...But Is Jacob Right?
+
