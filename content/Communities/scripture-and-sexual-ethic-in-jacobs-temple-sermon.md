@@ -153,17 +153,23 @@ In their treatment of this portion of Jacob's temple sermon, Fatimah Salleh and 
 
 In broad terms, I agree with this argument; however, I would not describe the Nephite men as "manipulating scripture" to justify the taking of concubines and additional wives. Indeed, Wil Gafney[^24] writes that after Lamech takes two wives in Genesis 4:19:
 
-> From this point forward in the Scriptures, Lamech-style partnership (polygamy), rather than Eve/Adam-style monogamy, becomes normative. (p. 28)
+> From this point forward in the Scriptures, Lamech-style partnership (polygamy), rather than Eve/Adam-style monogamy, becomes normative. (p. 28)^[25]
 
-At best, Gafney continues, God is silent on the subject of polygamy. Despite Jacob's insistence that God condemns the Nephite men's misinterpretation of scripture, commands monogamy as a general rule[^25], and that David and Solomon's polygamy was an abomination[^26] 
+At best, Gafney continues, God is silent on the subject of polygamy. Thus, despite Jacob's insistence that God condemns the Nephite men's interpretation of scripture, commands monogamy as a general rule[^26], and sees David and Solomon's polygamy as an abomination[^27], there is considerable evidence to the contrary. In fact, while Jacob implies that Nephite advocates for polygamy have been referencing David and Solomon in particular, there are more compelling passages that they could have turned to in order to make their case. 
 
 [^24]: Gafney, W. C. (2017) *Womanist midrash: A reintroduction to the women of the Torah and the throne*. Westminster John Knox Press.
 
-[^25]: Jacob 2:39 [LDS 2:30] suggests that God can authorize polygamy in specific caases, but without explicit instructions, believers should stick to monogamy. 
+[^25]: Although it is not directly related to this essay, Gafney's comments occur in the context of an important discussion of how marriages and families in the Bible **do not** conform to the models of marriage and family that conservative Christians appeal to the Bible to promote.
 
-[^26]: This particular rhetorical flourish poses a particular dilemma for LDS readers of the Book of Mormon. Critics of LDS polygamy have often noted the irony that Jacob's anti-polygamy screed appears in the faith's founding text; however, whereas Jacob leaves open the possibility of God-ordained polygamy, he is very clear that David and Solomon's actions were abominable. However, D&C 132 (for perhaps obvious reasons, there is no Community of Christ equivalent to this passage)
+[^26]: Jacob 2:39 [LDS 2:30] suggests that God can authorize polygamy in specific caases, but without explicit instructions, believers should stick to monogamy. 
 
-While Jacob specifically critiques these men's reference of biblical passages related to David and Solomon, there are many others 
+[^27]: This particular reference poses a particular dilemma for LDS readers of the Book of Mormon. Critics of LDS polygamy have often noted the irony that Jacob's anti-polygamy screed appears in the faith's founding text, to which defenders have responded (accurately) that Jacob leaves open the possibility of God-ordained polygamy. However, Jacob is also clear that in God's sight, David and Solomon's actions were abominable. In contrast, Section 132 in the LDS Doctrine and Covenants (for perhaps obvious reasons, there is no Community of Christ equivalent to this passage) explicitly argues that except in the case of Bathsheba, all of David's polygamy received divine approval. Thus, in two passages of LDS scripture coming from Joseph Smith Jr., we find two clearly different interpretations of the same Bible story, further emphasizing the impossibility of objective interpretation of scripture.
+
+Indeed, just after Moses receives the Ten Commandments, God's next conversation with him is to establish laws that govern (not forbid!) slavery (see Exodus 21:1-11). Implicit in these laws is divine permission for men to purchase women as slaves to whom they have sexual access—and to purchase additional women if, as described in Robert Alter's footnotes[^28], "he finds anything about her that disinclines him to keep her as a sexual partner" (p. 301)[^29]. Nothing in Jacob 2 explicitly suggests that Nephite men were also advocating for sex slavery—though note the command in 2:42 [LDS 2:33] that "they shall not lead away captive the daughers of my people"—but if they had wanted to, they would have had a scriptural foundation to support their argument.
+
+[^28]: Alter, R. (2019). *The Hebrew Bible: A Translation with Commentary. Volume 1: The Five Books of Moses*. W. W. Norton & Company.
+
+[^29]: In the interest of heading off possible objections to my interpretation of these passages, I acknowledge that at least some of these laws regarding sex slaves are meant to make their treatment less severe; however, "less severe sex slavery" is still inexcusably awful. Likewise, I invite in particular any member of The Church of Jesus Christ of Latter-day Saints who wants to defend a divine allowance of sex slavery as yielding to the culture of the time to consider whether *The Family: A Proclamation to the World* is likewise yielding to the mid-20th century culture in which its authors were raised.
 
 Rather, Nephite men 
 
