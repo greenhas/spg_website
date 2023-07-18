@@ -165,18 +165,12 @@ At best, Gafney continues, God is silent on the subject of polygamy. Thus, despi
 
 [^27]: This particular reference poses a particular dilemma for LDS readers of the Book of Mormon. Critics of LDS polygamy have often noted the irony that Jacob's anti-polygamy screed appears in the faith's founding text, to which defenders have responded (accurately) that Jacob leaves open the possibility of God-ordained polygamy. However, Jacob is also clear that in God's sight, David and Solomon's actions were abominable. In contrast, Section 132 in the LDS Doctrine and Covenants (for perhaps obvious reasons, there is no Community of Christ equivalent to this passage) explicitly argues that except in the case of Bathsheba, all of David's polygamy received divine approval. Thus, in two passages of LDS scripture coming from Joseph Smith Jr., we find two clearly different interpretations of the same Bible story, further emphasizing the impossibility of objective interpretation of scripture.
 
-Indeed, just after Moses receives the Ten Commandments, God's next conversation with him is to establish laws that govern (not forbid!) slavery (see Exodus 21:1-11). Implicit in these laws is divine permission for men to purchase women as slaves to whom they have sexual access—and to purchase additional women if, as described in Robert Alter's footnotes[^28], "he finds anything about her that disinclines him to keep her as a sexual partner" (p. 301)[^29]. Nothing in Jacob 2 explicitly suggests that Nephite men were also advocating for sex slavery—though note the command in 2:42 [LDS 2:33] that "they shall not lead away captive the daughers of my people"—but if they had wanted to, they would have had a scriptural foundation to support their argument.
+Indeed, just after Moses receives the Ten Commandments, God's next conversation with him is to establish laws that govern—not forbid!—slavery (see Exodus 21:1-11). Implicit in these laws is divine permission for a man to purchase a woman as a slave to whom he has sexual access—and to purchase additional women if, as described in Robert Alter's footnotes[^28], "he finds anything about her that disinclines him to keep her as a sexual partner" (p. 301)[^29]. Nothing in Jacob 2 explicitly suggests that Nephite men were also advocating for sex slavery—though note the command in 2:42 [LDS 2:33] that "they shall not lead away captive the daughers of my people"—but if they had wanted to, they would have had a scriptural foundation to support their argument.
 
 [^28]: Alter, R. (2019). *The Hebrew Bible: A Translation with Commentary. Volume 1: The Five Books of Moses*. W. W. Norton & Company.
 
 [^29]: In the interest of heading off possible objections to my interpretation of these passages, I acknowledge that at least some of these laws regarding sex slaves are meant to make their treatment less severe; however, "less severe sex slavery" is still inexcusably awful. Likewise, I invite in particular any member of The Church of Jesus Christ of Latter-day Saints who wants to defend a divine allowance of sex slavery as yielding to the culture of the time to consider whether *The Family: A Proclamation to the World* is likewise yielding to the mid-20th century culture in which its authors were raised.
 
-Rather, Nephite men 
-
-
- misleading , but I think it's misleading to describe 
-
-I'm also not sure that scripture needs much manipulation to excuse the Nephite men's behavior in this case. 
 
 ### ...But Is Jacob Right?
 
