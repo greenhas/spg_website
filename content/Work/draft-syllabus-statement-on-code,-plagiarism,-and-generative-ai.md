@@ -1,7 +1,7 @@
 ---
 date: 2023-07-19T13:08:14-04:00
 title: "draft syllabus statement on code, plagiarism, and generative AI"
-tags: ["macro","Work","programming","plagiarism","academic offenses","generative AI","data science","ICT 661","Josh Rosenberg","ChatGPT","]
+tags: ["macro","Work","programming","plagiarism","academic offenses","generative AI","data science","ICT 661","Josh Rosenberg","ChatGPT"]
 ---
 I'm spending a chunk of today starting on revisions to my *Intro to Data Science* course for my unit's LIS and ICT graduate prograrms. I'd expected to spend most of the time shuffling around the content and assessment for particular weeks, but I quickly realized that I was going to need to update what I had to say in the syllabus about plagiarism and academic offenses. Last year's offering of the course involved a case of potential plagiarism, so I wanted to include more explicit instruction that encourages students to borrow code while making it clear that there are right and wrong ways of doing so. Likewise, my colleague Josh Rosenberg [posted earlier today](https://joshuamrosenberg.com/post/2023/07/19/on-chatgpt-s-code-interpreter/) about ChatGPT's Code Interpreter, and while I don't know that my students will even know that's an option, I wanted to get out ahead of that possibility, too.
 
