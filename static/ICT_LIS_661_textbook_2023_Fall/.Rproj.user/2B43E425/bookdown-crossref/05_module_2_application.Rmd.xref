@@ -1,2 +1,24 @@
-h1:module-2-application Module 2 Application
+h1:getting-started M2A: Getting Started with Data in R
+h2:introduction Introduction
+h2:r-rstudio What are R and RStudio?
+fig:R-vs-RStudio-1 Analogy of difference between R and RStudio.
+h3:using-r-via-rstudio Using R via RStudio
+fig:R-vs-RStudio-2 Icons of R versus RStudio on your computer.
+fig:RStudio-interface RStudio interface to R.
+h2:code How do I code in R?
+h3:programming-concepts Basic programming concepts and terminology
+h3:messages Errors, warnings, and messages
+h3:tips-code Tips on learning to code
+h2:packages What are R packages?
+fig:R-vs-R-packages Analogy of R versus R packages.
+h3:package-installation Package installation
+fig:easy-way-install Installing packages in R the easy way.
+h3:package-loading Package loading
+h3:package-use Package use
+h2:nycflights13 Explore your first datasets
+h3:nycflights13-package  package
+h3:flights-data-frame  data frame
+h3:exploredataframes Exploring data frames
+h3:identification-vs-measurement-variables Identification and measurement variables
+h2:conclusion Conclusion
 
