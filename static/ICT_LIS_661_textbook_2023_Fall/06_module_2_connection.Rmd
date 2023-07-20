@@ -6,6 +6,8 @@ This chapter draws on material from:
 
 Changes to the source material include addition of new material; light editing; rearranging and removing original material; adding and changing links; and adding first-person language from current author.
 
+The resulting content is licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/)
+
 ## Introduction
 
 [Git](https://git-scm.com/) is a *version control system*. Its original purpose was to help groups of developers work collaboratively on big software projects. Git manages the evolution of a set of files—called a *repository*—in a sane, highly structured way. Think of it as the more powerful cousin of the “Track Changes” features from Microsoft Word.
