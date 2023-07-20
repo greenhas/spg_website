@@ -76,7 +76,7 @@ Pay attention to the Local Path option. By default, GitHub Desktop will create t
 
 * either a Documents folder or the main user folder of your computer
 
-You're free to change this, but I strongly recommend sticking with the default folder name, and unless you have strong opinions about where to keep your files, it's probably a good idea to stick with the default filepath, too. Wherever you end up storing your project folder, **pay close attention**—you'll be navigating back to it to complete your work throughout the semester.
+You're free to change this, but I strongly recommend sticking with the default folder name, and unless you have strong opinions about where to keep your files, it's probably a good idea to stick with the default filepath, too. Wherever you end up storing your repository folder, **pay close attention**—you'll be navigating back to it to complete your work throughout the semester.
 
 ## Moving Forward
 
