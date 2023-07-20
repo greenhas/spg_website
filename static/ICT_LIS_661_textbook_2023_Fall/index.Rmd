@@ -5,7 +5,9 @@ author: "Spencer P. Greenhalgh, PhD"
 site: bookdown::bookdown_site
 documentclass: book
 output:
-  bookdown::gitbook: default
+  bookdown::gitbook:
+    includes:
+      after_body: hypothesis.html
   #bookdown::pdf_book: default
 ---
 

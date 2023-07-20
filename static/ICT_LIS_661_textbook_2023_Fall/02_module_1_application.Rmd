@@ -1,4 +1,4 @@
-# Module 1 Application: Install R and RStudio
+# M1A: Install R and RStudio
 
 This content draws on material from [STAT 545](https://stat545.com/) by [Jenny Bryan](https://jennybryan.org/), licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
