@@ -78,6 +78,6 @@ Pay attention to the Local Path option. By default, GitHub Desktop will create t
 
 You're free to change this, but I strongly recommend sticking with the default folder name, and unless you have strong opinions about where to keep your files, it's probably a good idea to stick with the default filepath, too. Wherever you end up storing your project folder, **pay close attention**—you'll be navigating back to it to complete your work throughout the semester.
 
-### Moving Forward
+## Moving Forward
 
 As things currently stand, your repository isn't really doing a whole lot, but that's okay. We'll return to GitHub in a couple of weeks as we learn some more about file and project management in RStudio, and we'll work on developing some good habits for backing up those files and projects using GitHub.
