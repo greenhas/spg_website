@@ -46,7 +46,10 @@ creating-a-github-account
 setting-up-a-github-repository-for-class
 installing-github-desktop
 moving-forward
-module-3-understanding
+m3u-research-paradigms-and-reproducibility
+introduction-4
+reproducibility-and-paradigms
+an-example-paradigm
 module-3-application
 module-3-connection
 module-4-understanding
@@ -86,3 +89,11 @@ module-15-understanding
 module-15-application
 module-15-connection
 help-files
+another-example-paradigm
+why-do-paradigms-matter
+supporting-reproducibility
+open-design
+open-analysis
+open-publication
+references-2
+conclusion-1

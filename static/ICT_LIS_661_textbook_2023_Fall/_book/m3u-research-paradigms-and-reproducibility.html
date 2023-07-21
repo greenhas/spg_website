@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>8 M3U: Research Paradigms and Reproducibility | Introduction to Data Science</title>
+  <meta name="description" content="8 M3U: Research Paradigms and Reproducibility | Introduction to Data Science" />
+  <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="8 M3U: Research Paradigms and Reproducibility | Introduction to Data Science" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="8 M3U: Research Paradigms and Reproducibility | Introduction to Data Science" />
+  
+  
+  
+
+<meta name="author" content="Spencer P. Greenhalgh, PhD" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="m2c-set-up-github.html"/>
+<link rel="next" href="module-3-application.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="module-1-understanding.html"><a href="module-1-understanding.html"><i class="fa fa-check"></i><b>2</b> Module 1 Understanding</a></li>
+<li class="chapter" data-level="3" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html"><i class="fa fa-check"></i><b>3</b> M1A: Install R and RStudio</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#introduction-1"><i class="fa fa-check"></i><b>3.1</b> Introduction</a></li>
+<li class="chapter" data-level="3.2" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#r"><i class="fa fa-check"></i><b>3.2</b> R</a></li>
+<li class="chapter" data-level="3.3" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#rstudio"><i class="fa fa-check"></i><b>3.3</b> RStudio</a></li>
+<li class="chapter" data-level="3.4" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#references"><i class="fa fa-check"></i><b>3.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="m1c-introduce-yourself-to-the-class.html"><a href="m1c-introduce-yourself-to-the-class.html"><i class="fa fa-check"></i><b>4</b> M1C: Introduce Yourself to the Class</a></li>
+<li class="chapter" data-level="5" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html"><i class="fa fa-check"></i><b>5</b> M2U: The New(?) and Shiny(?) Science of Data</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data-data-science-and-big-data"><i class="fa fa-check"></i><b>5.1</b> Data, Data Science, and Big Data</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data"><i class="fa fa-check"></i><b>5.1.1</b> Data</a></li>
+<li class="chapter" data-level="5.1.2" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data-science"><i class="fa fa-check"></i><b>5.1.2</b> Data Science</a></li>
+<li class="chapter" data-level="5.1.3" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#big-data"><i class="fa fa-check"></i><b>5.1.3</b> Big Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#the-many-skills-of-data-science"><i class="fa fa-check"></i><b>5.2</b> The Many Skills of Data Science</a></li>
+<li class="chapter" data-level="5.3" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#references-1"><i class="fa fa-check"></i><b>5.3</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>6</b> M2A: Getting Started with Data in R</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="getting-started.html"><a href="getting-started.html#introduction-2"><i class="fa fa-check"></i><b>6.1</b> Introduction</a></li>
+<li class="chapter" data-level="6.2" data-path="getting-started.html"><a href="getting-started.html#r-rstudio"><i class="fa fa-check"></i><b>6.2</b> What are R and RStudio?</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="getting-started.html"><a href="getting-started.html#using-r-via-rstudio"><i class="fa fa-check"></i><b>6.2.1</b> Using R via RStudio</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="getting-started.html"><a href="getting-started.html#code"><i class="fa fa-check"></i><b>6.3</b> How do I code in R?</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="getting-started.html"><a href="getting-started.html#programming-concepts"><i class="fa fa-check"></i><b>6.3.1</b> Basic programming concepts and terminology</a></li>
+<li class="chapter" data-level="6.3.2" data-path="getting-started.html"><a href="getting-started.html#messages"><i class="fa fa-check"></i><b>6.3.2</b> Errors, warnings, and messages</a></li>
+<li class="chapter" data-level="6.3.3" data-path="getting-started.html"><a href="getting-started.html#tips-code"><i class="fa fa-check"></i><b>6.3.3</b> Tips on learning to code</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="getting-started.html"><a href="getting-started.html#packages"><i class="fa fa-check"></i><b>6.4</b> What are R packages?</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="getting-started.html"><a href="getting-started.html#package-installation"><i class="fa fa-check"></i><b>6.4.1</b> Package installation</a></li>
+<li class="chapter" data-level="6.4.2" data-path="getting-started.html"><a href="getting-started.html#package-loading"><i class="fa fa-check"></i><b>6.4.2</b> Package loading</a></li>
+<li class="chapter" data-level="6.4.3" data-path="getting-started.html"><a href="getting-started.html#package-use"><i class="fa fa-check"></i><b>6.4.3</b> Package use</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="getting-started.html"><a href="getting-started.html#nycflights13"><i class="fa fa-check"></i><b>6.5</b> Explore your first datasets</a>
+<ul>
+<li class="chapter" data-level="6.5.1" data-path="getting-started.html"><a href="getting-started.html#nycflights13-package"><i class="fa fa-check"></i><b>6.5.1</b> <code>nycflights13</code> package</a></li>
+<li class="chapter" data-level="6.5.2" data-path="getting-started.html"><a href="getting-started.html#flights-data-frame"><i class="fa fa-check"></i><b>6.5.2</b> <code>flights</code> data frame</a></li>
+<li class="chapter" data-level="6.5.3" data-path="getting-started.html"><a href="getting-started.html#exploredataframes"><i class="fa fa-check"></i><b>6.5.3</b> Exploring data frames</a></li>
+<li class="chapter" data-level="6.5.4" data-path="getting-started.html"><a href="getting-started.html#identification-vs-measurement-variables"><i class="fa fa-check"></i><b>6.5.4</b> Identification and measurement variables</a></li>
+<li class="chapter" data-level="6.5.5" data-path="getting-started.html"><a href="getting-started.html#help-files"><i class="fa fa-check"></i><b>6.5.5</b> Help files</a></li>
+</ul></li>
+<li class="chapter" data-level="6.6" data-path="getting-started.html"><a href="getting-started.html#conclusion"><i class="fa fa-check"></i><b>6.6</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html"><i class="fa fa-check"></i><b>7</b> M2C: Set up GitHub</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#introduction-3"><i class="fa fa-check"></i><b>7.1</b> Introduction</a></li>
+<li class="chapter" data-level="7.2" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#gitand-githubin-data-science"><i class="fa fa-check"></i><b>7.2</b> Git—and GitHub—in Data Science</a></li>
+<li class="chapter" data-level="7.3" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#github-in-ictlis-661"><i class="fa fa-check"></i><b>7.3</b> GitHub in ICT/LIS 661</a></li>
+<li class="chapter" data-level="7.4" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#setting-up-github"><i class="fa fa-check"></i><b>7.4</b> Setting Up GitHub</a>
+<ul>
+<li class="chapter" data-level="7.4.1" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#creating-a-github-account"><i class="fa fa-check"></i><b>7.4.1</b> Creating a GitHub Account</a></li>
+<li class="chapter" data-level="7.4.2" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#setting-up-a-github-repository-for-class"><i class="fa fa-check"></i><b>7.4.2</b> Setting up a GitHub Repository for Class</a></li>
+<li class="chapter" data-level="7.4.3" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#installing-github-desktop"><i class="fa fa-check"></i><b>7.4.3</b> Installing GitHub Desktop</a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#moving-forward"><i class="fa fa-check"></i><b>7.5</b> Moving Forward</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html"><i class="fa fa-check"></i><b>8</b> M3U: Research Paradigms and Reproducibility</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#introduction-4"><i class="fa fa-check"></i><b>8.1</b> Introduction</a></li>
+<li class="chapter" data-level="8.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#reproducibility-and-paradigms"><i class="fa fa-check"></i><b>8.2</b> Reproducibility and Paradigms</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#an-example-paradigm"><i class="fa fa-check"></i><b>8.2.1</b> An Example Paradigm</a></li>
+<li class="chapter" data-level="8.2.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#another-example-paradigm"><i class="fa fa-check"></i><b>8.2.2</b> Another Example Paradigm</a></li>
+<li class="chapter" data-level="8.2.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#why-do-paradigms-matter"><i class="fa fa-check"></i><b>8.2.3</b> Why Do Paradigms Matter?</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#supporting-reproducibility"><i class="fa fa-check"></i><b>8.3</b> Supporting Reproducibility</a>
+<ul>
+<li class="chapter" data-level="8.3.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-design"><i class="fa fa-check"></i><b>8.3.1</b> Open Design</a></li>
+<li class="chapter" data-level="8.3.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-analysis"><i class="fa fa-check"></i><b>8.3.2</b> Open Analysis</a></li>
+<li class="chapter" data-level="8.3.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-publication"><i class="fa fa-check"></i><b>8.3.3</b> Open Publication</a></li>
+</ul></li>
+<li class="chapter" data-level="8.4" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#conclusion-1"><i class="fa fa-check"></i><b>8.4</b> Conclusion</a></li>
+<li class="chapter" data-level="8.5" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#references-2"><i class="fa fa-check"></i><b>8.5</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="module-3-application.html"><a href="module-3-application.html"><i class="fa fa-check"></i><b>9</b> Module 3 Application</a></li>
+<li class="chapter" data-level="10" data-path="module-3-connection.html"><a href="module-3-connection.html"><i class="fa fa-check"></i><b>10</b> Module 3 Connection</a></li>
+<li class="chapter" data-level="11" data-path="module-4-understanding.html"><a href="module-4-understanding.html"><i class="fa fa-check"></i><b>11</b> Module 4 Understanding</a></li>
+<li class="chapter" data-level="12" data-path="module-4-application.html"><a href="module-4-application.html"><i class="fa fa-check"></i><b>12</b> Module 4 Application</a></li>
+<li class="chapter" data-level="13" data-path="module-4-connection.html"><a href="module-4-connection.html"><i class="fa fa-check"></i><b>13</b> Module 4 Connection</a></li>
+<li class="chapter" data-level="14" data-path="module-5-understanding.html"><a href="module-5-understanding.html"><i class="fa fa-check"></i><b>14</b> Module 5 Understanding</a></li>
+<li class="chapter" data-level="15" data-path="module-5-application.html"><a href="module-5-application.html"><i class="fa fa-check"></i><b>15</b> Module 5 Application</a></li>
+<li class="chapter" data-level="16" data-path="module-5-connection.html"><a href="module-5-connection.html"><i class="fa fa-check"></i><b>16</b> Module 5 Connection</a></li>
+<li class="chapter" data-level="17" data-path="module-6-understanding.html"><a href="module-6-understanding.html"><i class="fa fa-check"></i><b>17</b> Module 6 Understanding</a></li>
+<li class="chapter" data-level="18" data-path="module-6-application.html"><a href="module-6-application.html"><i class="fa fa-check"></i><b>18</b> Module 6 Application</a></li>
+<li class="chapter" data-level="19" data-path="module-6-connection.html"><a href="module-6-connection.html"><i class="fa fa-check"></i><b>19</b> Module 6 Connection</a></li>
+<li class="chapter" data-level="20" data-path="module-7-understanding.html"><a href="module-7-understanding.html"><i class="fa fa-check"></i><b>20</b> Module 7 Understanding</a></li>
+<li class="chapter" data-level="21" data-path="module-7-application.html"><a href="module-7-application.html"><i class="fa fa-check"></i><b>21</b> Module 7 Application</a></li>
+<li class="chapter" data-level="22" data-path="module-7-connection.html"><a href="module-7-connection.html"><i class="fa fa-check"></i><b>22</b> Module 7 Connection</a></li>
+<li class="chapter" data-level="23" data-path="module-8-understanding.html"><a href="module-8-understanding.html"><i class="fa fa-check"></i><b>23</b> Module 8 Understanding</a></li>
+<li class="chapter" data-level="24" data-path="module-8-application.html"><a href="module-8-application.html"><i class="fa fa-check"></i><b>24</b> Module 8 Application</a></li>
+<li class="chapter" data-level="25" data-path="module-8-connection.html"><a href="module-8-connection.html"><i class="fa fa-check"></i><b>25</b> Module 8 Connection</a></li>
+<li class="chapter" data-level="26" data-path="module-9-understanding.html"><a href="module-9-understanding.html"><i class="fa fa-check"></i><b>26</b> Module 9 Understanding</a></li>
+<li class="chapter" data-level="27" data-path="module-9-application.html"><a href="module-9-application.html"><i class="fa fa-check"></i><b>27</b> Module 9 Application</a></li>
+<li class="chapter" data-level="28" data-path="module-9-connection.html"><a href="module-9-connection.html"><i class="fa fa-check"></i><b>28</b> Module 9 Connection</a></li>
+<li class="chapter" data-level="29" data-path="module-10-understanding.html"><a href="module-10-understanding.html"><i class="fa fa-check"></i><b>29</b> Module 10 Understanding</a></li>
+<li class="chapter" data-level="30" data-path="module-10-application.html"><a href="module-10-application.html"><i class="fa fa-check"></i><b>30</b> Module 10 Application</a></li>
+<li class="chapter" data-level="31" data-path="module-10-connection.html"><a href="module-10-connection.html"><i class="fa fa-check"></i><b>31</b> Module 10 Connection</a></li>
+<li class="chapter" data-level="32" data-path="module-11-understanding.html"><a href="module-11-understanding.html"><i class="fa fa-check"></i><b>32</b> Module 11 Understanding</a></li>
+<li class="chapter" data-level="33" data-path="module-11-application.html"><a href="module-11-application.html"><i class="fa fa-check"></i><b>33</b> Module 11 Application</a></li>
+<li class="chapter" data-level="34" data-path="module-11-connection.html"><a href="module-11-connection.html"><i class="fa fa-check"></i><b>34</b> Module 11 Connection</a></li>
+<li class="chapter" data-level="35" data-path="module-12-understanding.html"><a href="module-12-understanding.html"><i class="fa fa-check"></i><b>35</b> Module 12 Understanding</a></li>
+<li class="chapter" data-level="36" data-path="module-12-application.html"><a href="module-12-application.html"><i class="fa fa-check"></i><b>36</b> Module 12 Application</a></li>
+<li class="chapter" data-level="37" data-path="module-12-connection.html"><a href="module-12-connection.html"><i class="fa fa-check"></i><b>37</b> Module 12 Connection</a></li>
+<li class="chapter" data-level="38" data-path="module-13-understanding.html"><a href="module-13-understanding.html"><i class="fa fa-check"></i><b>38</b> Module 13 Understanding</a></li>
+<li class="chapter" data-level="39" data-path="module-13-application.html"><a href="module-13-application.html"><i class="fa fa-check"></i><b>39</b> Module 13 Application</a></li>
+<li class="chapter" data-level="40" data-path="module-13-connection.html"><a href="module-13-connection.html"><i class="fa fa-check"></i><b>40</b> Module 13 Connection</a></li>
+<li class="chapter" data-level="41" data-path="module-14-understanding.html"><a href="module-14-understanding.html"><i class="fa fa-check"></i><b>41</b> Module 14 Understanding</a></li>
+<li class="chapter" data-level="42" data-path="module-14-application.html"><a href="module-14-application.html"><i class="fa fa-check"></i><b>42</b> Module 14 Application</a></li>
+<li class="chapter" data-level="43" data-path="module-14-connection.html"><a href="module-14-connection.html"><i class="fa fa-check"></i><b>43</b> Module 14 Connection</a></li>
+<li class="chapter" data-level="44" data-path="module-15-understanding.html"><a href="module-15-understanding.html"><i class="fa fa-check"></i><b>44</b> Module 15 Understanding</a></li>
+<li class="chapter" data-level="45" data-path="module-15-application.html"><a href="module-15-application.html"><i class="fa fa-check"></i><b>45</b> Module 15 Application</a></li>
+<li class="chapter" data-level="46" data-path="module-15-connection.html"><a href="module-15-connection.html"><i class="fa fa-check"></i><b>46</b> Module 15 Connection</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduction to Data Science</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="m3u-research-paradigms-and-reproducibility" class="section level1 hasAnchor" number="8">
+<h1><span class="header-section-number">8</span> M3U: Research Paradigms and Reproducibility<a href="m3u-research-paradigms-and-reproducibility.html#m3u-research-paradigms-and-reproducibility" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This chapter draws on material from:</p>
+<ul>
+<li><p><em><a href="https://moderndive.com/">Statistical Inference via Data Science: A ModernDive into R and the Tidyverse</a></em> by <a href="https://chester.rbind.io/">Chester Ismay</a> and <a href="https://rudeboybert.rbind.io/">Albert Y. Kim</a>, licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p></li>
+<li><p><a href="https://doi.org/10.1177/2332858418787466">Open Education Science</a> by <a href="https://scholar.google.com/citations?user=vsuJSN0AAAAJ">Tim van der Zee</a> and <a href="https://tsl.mit.edu/team/justin-reich/">Justin Reich</a>, licensed under <a href="https://www.creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a></p></li>
+</ul>
+<p>Changes to the source material include removal of original material, the addition of new material, combining of sources, editing of original material for a different audience, and addition of first-person language from current author..</p>
+<p>The resulting content is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
+<div id="introduction-4" class="section level2 hasAnchor" number="8.1">
+<h2><span class="header-section-number">8.1</span> Introduction<a href="m3u-research-paradigms-and-reproducibility.html#introduction-4" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>One goal of this reading is helping readers understand the importance of <em>reproducible analyses</em>. The hope is to get readers into the habit of making their data science analyses <em>reproducible</em> from the very beginning. Reproducibility means a lot of things in terms of different scientific fields, but they are all concerned with a common goal: Is research conducted in a way that another researcher could follow the steps and get similar results? The importance placed on reproducibility comes in part from a growing belief that a substantial portion of published research findings may actually report false positives—or, at the very least, overestimate the importance of a study’s findings (Simmons et al., 2011). Ioannidis (2005) went so far as to title an article “Why Most Published Research Findings Are False,” describing several problems in medical research that lead to false positive rates.</p>
+<p>If you can reproduce someone else’s research and get the same results, that suggests that the findings of the original study are on solid ground. However, if you try to follow their steps and get different results, there may be reason to question what the original researchers had to say. This is pretty straight forward, but reproducing someone else’s work isn’t as easy as it might seem. Most researchers in training eventually realize that short summaries of research methods in journal articles tidy over much of the complexity and messiness in research—especially research that involves humans. These summaries spare readers from trivial details, but they can also misrepresent important elements of the research process. However, if our goal is to provide practitioners, policymakers, and other researchers with data, theory, and explanations that lead to practical improvements, we need to provide them with a way to judge the quality and contextual relevance of research. That judgment depends in tern on how researchers choose to share the methods and processes behind their work.</p>
+<p>In data science, there is a particular emphasis on what is known as <em>computational reproducibility</em>. This refers to being able to pass all of one’s data analysis, datasets, and conclusions to someone else and have them get exactly the same results on their machine. This has obvious benefits for scientific concerns about reproducibility! In fact, one of my friends in graduate school had a job doing reproducibility for a political science journal. Anyone submitting research to be published in the journal also had to submit all of their data analysis, datasets, and conclusions. The paper to be published would be submitted to traditional peer review, but my friend would also review all of the submitted materials to make sure that there weren’t any discrepancies or errors in the data, analysis, and results described in the paper.</p>
+<p>However, there are also practical and personal benefits to computational reproducibility. In a traditional scientific workflow, you might do your statistical work and data visualization in RStudio and then write up your results in a word processor, pasting in helpful plots that you’d generated in RStudio. This isn’t a terrible demand on your time, but what if you discover a mistake partway through? Or what if someone gives you good advice on a late draft of your paper that leads you to make some changes to your data analysis? In a traditional workflow, you’d need to step through the entire process again: redo the analyses, redo the data visualization, rewrite the paper, repaste the plots. This is error prone and a frustrating use of time. In contrast, with the right software—and, more importantly, the right mindset—there are ways to include analysis and writing in the same document. Not only does this allow a colleague to easily reproduce all of the steps you’ve taken, but it might actually save you from having to redo work! This allows for data scientists to spend more time interpreting results and considering assumptions instead of spending time restarting an analysis from scratch or following a list of steps that may be different from machine to machine.</p>
+<p>Really committing to reproducibility means building new habits; it takes practice and will be difficult at times. Hopefully, though, you’ll see just why it is so important for you to keep track of your code and document it well to help yourself later and any potential collaborators as well.</p>
+</div>
+<div id="reproducibility-and-paradigms" class="section level2 hasAnchor" number="8.2">
+<h2><span class="header-section-number">8.2</span> Reproducibility and Paradigms<a href="m3u-research-paradigms-and-reproducibility.html#reproducibility-and-paradigms" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>I should make it clear from the beginning that I am an imperfect example of reproducibility. Part of this is because this is a difficult process—I’m still developing necessary habits and trying to get rid of bad habits. However, I also have philosophical differences with reproducibility as I’ve described it here. This isn’t to say that I disagree with the importance of reproducibility itself—I think it’s a fine idea, and I’m even going to enforce a certain level of it in this class! However, the reasons that reproducibility <em>is</em> important are often tied to basic assumptions that data scientists typically make about how the world works. While I draw heavily from data science techniques in my research, I also draw from research traditions that do not share the same assumptions as data science.</p>
+<div id="an-example-paradigm" class="section level3 hasAnchor" number="8.2.1">
+<h3><span class="header-section-number">8.2.1</span> An Example Paradigm<a href="m3u-research-paradigms-and-reproducibility.html#an-example-paradigm" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>To explain more what I mean by this, let’s think about some of the assumptions that are implicitly present in my description of reproducibility in the previous section:</p>
+<p><strong>Everyone ought to get the same results every time</strong>: As described above, reproducibility is related to a belief that different scientists should get similar results if individually performing the same analysis. If two scientists don’t come to the same answer when asking similar questions, that’s seen as a problem. People who work separately ought to come to the same conclusions.</p>
+<p><strong>Research should be a series of nice, neat decisions</strong>: The basic idea of reproducibility is that it should be possible to provide a clear checklist that describes the steps that scientists took when carrying out an analysis. This only works if individual decisions can be clearly distinguished from each other and then communicated to another in a methodical way.</p>
+<p><strong>Research is meant to inform practitioners and policymakers</strong>: Part of the reasoning behind making a research study reproducible is giving people confidence in the study’s findings; part of the reasoning behind giving people confidence in the study’s findings is so that other people can act on those findings. This perspective sees research as useful when it translates into specific actions that other stakeholders can take.</p>
+<p>Each of these three assumptions about research can be understood as connecting to a deeper assumption about how the world works and the resulting role of research: <strong>The world—including things and people in it—work in consistent, predictable ways; the point of research (including data science) is to figure out how the world works so that we can get the outcomes we want</strong>. In research settings, these collections of assumptions (and underlying worldview) are often referred to as a paradigm.</p>
+<p>These aren’t terrible assumptions, and this isn’t a bad paradigm! They’ve driven most of scientific progress and a lot of effective decision-making over the past couple of centuries. However, they’re not the only way of thinking about the world. Let me provide a recent example from my data science-adjacent research that rejects these assumptions in favor of a different set of assumptions.</p>
+</div>
+<div id="another-example-paradigm" class="section level3 hasAnchor" number="8.2.2">
+<h3><span class="header-section-number">8.2.2</span> Another Example Paradigm<a href="m3u-research-paradigms-and-reproducibility.html#another-example-paradigm" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In mid-2019, I used R (and other software) to collect screenshots of about 1,400 tweets associated with a specific Twitter hashtag. The organizers of the hashtag claim that people who use the hashtag are simply members of a particular church and that their goal is to defend that church against its critics. However, outside observers have argued that participants in the hashtag are heavily influenced by toxic, far-right online communities and believe that these tweets are more motivated by white nationalism than religious beliefs. Over the course of a couple of years, I worked with a colleague to carefully study each of these tweets so that we could come to some conclusions about what’s happening in this hashtag. Here are some of the assumptions that we had about our research:</p>
+<p><strong>Different people might come to different conclusions</strong>: My co-researcher and I understood while studying these tweets that we might understand them differently. I grew up in the church that this hashtag is associated with, so I pick up on a lot of subtle references that my colleague doesn’t. However, as a woman, she picks up on subtle misogyny that sometimes sails right over my (masculine) head. We have different lived experiences, and we know that if we analyzed this data separately, we would probably come to different conclusions—that’s exactly why we’re working together.</p>
+<p><strong>Research involves complex, messy decisions</strong>: What’s the point at which two researchers become confident that a 280-character post on Twitter includes a reference to white nationalism? The group that my colleague and I are studying is skilled at ambiguity and subtle references, so it’s not often the case that they clearly embrace extreme political views. It would be a mistake to ignore these views just because they’re not always easy to pin down, but it would also be irresponsible to exaggerate our conclusions. There’s no clear checklist for determining whether a tweet includes references to white nationalism—instead, we have to engage in lengthy discussions and make difficult calls.</p>
+<p><strong>The goal of research is to develop understanding</strong>: I hope that our research makes some kind of difference in the world, and I know that my colleague does too. However, after reviewing our data and our conclusions, it’s not as if we have a list of specific actions that someone can take in response to our research. Who is that “someone” anyway? Twitter users? The church that this group claims to be loyal to? The group itself? Any of those populations could hypothetically learn something from what we have to say, but it would be a stretch to say that there’s a clear and immediate takeaway from our research. Our goal is to simply to document our findings in the hopes of increasing readers’ understanding of this kind of phenomenon.</p>
+<p>Each of our three assumptions about researchers can be understood as connecting to a paradigm we share: <strong>The world—including things and people in it—are rich, complex, and difficult to perfectly summarize; the point of research is to try to capture some of that richness so that we can better appreciate details and context</strong>.</p>
+<p>Some scientists are hostile to the idea of any paradigm except the first one and would be dismissive of the kind of research that I’ve just described. However, I’m confident that many data scientists acknowledge the existence and value of different research paradigms. Their response might be that the first paradigm works particularly well for data science, but that there’s no harm in using the second paradigm in other kinds of research. In fact, they might suggest, even if I did use R for that research project, it doesn’t really count as data science (to be honest, I’d agree with this evaluation, but remember what we’ve already read about what gets to count as data science!).</p>
+</div>
+<div id="why-do-paradigms-matter" class="section level3 hasAnchor" number="8.2.3">
+<h3><span class="header-section-number">8.2.3</span> Why Do Paradigms Matter?<a href="m3u-research-paradigms-and-reproducibility.html#why-do-paradigms-matter" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In that case, what’s the point of making a big deal about paradigms here? If reproducibility is based on a paradigm about the predictability of the world, and if data science embraces that paradigm, why emphasize the existence of other paradigms? That’s a good question, but there’s an answer that’s just as good. In short, while it’s very useful to assume that the world is neatly ordered and predictable (remember all of those scientific and technological developments over the past couple of centuries?), it’s also possible to overemphasize that assumption—and overemphasis carries with it important ethical consequences.</p>
+<p>Let’s consider a concrete example related to data scientist. In recent years, there’s been considerable interest in <em>sentencing algorithms</em>. In other words, human judges are fallible and biased and might hand out different sentences for the same crime based not on an objective interpretation of the law but on their subjective responses to the accused. Wouldn’t it be great if we could come up with a computer program that would take in the facts of a case and information about the criminal and spit out an appropriate, fair sentence that a potentially biased judge couldn’t interfere with? The influence of the first paradigm ought to be clear here: Decisions ought to be <em>consistent</em>, so let’s boil down sentencing to a neat checklist-like <em>algorithm</em> that uses data to make a <em>recommendation</em> and make a practical difference.</p>
+<p>In theory, this sounds great—an application of data science that could make a real difference in the world. However, there are plenty of critics of this approach (including me). No one disputes that human judges are fallible and biased, and it would be fantastic to come up with a way of sentencing criminals that wouldn’t be as influenced by personal prejudices. The issue isn’t with the intent, it’s with the underlying paradigm. Critics of sentencing algorithms argue that in valuing consistency, predictable algorithms, and clear-cut recommendations, they overlook ways in which the world doesn’t actually work like that!</p>
+<p>For example, a sentencing algorithm would likely be trained on sentences given by human judges, and use those as the basis for the supposedly objective decision. However, as we’ve already established, human judges are fallible and biased; for example, we might (and almost certainly would!) find that judges give harsher sentences to criminals of color than white criminals. A sentencing algorithm that used race as a factor in determining sentences would therefore treat “non-white” as a statistically-valid reason to recommend a harsher sentence, simply because that’s the pattern that it was trained on. Rather than replace human bias, the algorithm would learn from it—but because humans tend to believe computers are more objective than humans, that bias would be harder to argue against! In a sense, this is a <em>worse</em> outcome, because it inherits bias but disguises it as an objective measure.</p>
+<p>This criticism implicitly adopts the second paradigm that I’ve described in this sentence: The process of sentencing a criminal is too rich and complex to distill down to a computational decision. More importantly, it points out a weakness of the first paradigm: A belief that the world <em>is</em> consistent and predictable is actually sometimes just a preference for things that <em>seem</em> consistent and predictable. That is, data scientists sometimes fall into the trap of believing that a consistent and predictable solution to a problem is better, when a solution that acknowledges complexity and nuance might feel less efficient but would do better at avoiding harm.</p>
+</div>
+</div>
+<div id="supporting-reproducibility" class="section level2 hasAnchor" number="8.3">
+<h2><span class="header-section-number">8.3</span> Supporting Reproducibility<a href="m3u-research-paradigms-and-reproducibility.html#supporting-reproducibility" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>If I am sometimes resistant to calls for reproducibility, it is because I think the paradigm that these calls assume doesn’t always hold up. However, there’s nothing half-hearted about my teaching you about reproducibility in this class—it’s impossible to deny that there are amazing benefits to making your data science work reproducible (so long as data scientists critically examine their own paradigms).</p>
+<p>Let’s consider an example that I like a lot. <a href="https://joshuamrosenberg.com/">Josh Rosenberg</a> is one of my data science heroes. We went to grad school together, and 90% of what I know about R is thanks to him; if I have questions about R or data science, Josh is the first person I go to. When we were still in grad school, Josh participated in a study in which:</p>
+<blockquote>
+<p>independent analysts used the same dataset to test two hypotheses regarding the effects of scientists’ gender and professional status on verbosity during group meetings (Schweinsberg et al., 2021, p. 230)</p>
+</blockquote>
+<p>In other words, Josh and dozens of other researchers (the list of contributors to this study is literally a page long) were all given the same data and encouraged to test the same hypotheses. However, apart from the data and the hypotheses, the organizers of the study were intentionally skimpy on details. For example, it was up to individual researchers to determine how to best measure “professional status” using the available data, what statistical tests to use, etc. As a result,</p>
+<blockquote>
+<p>Researchers reported radically different analyses and dispersed empirical outcomes, in a number of cases obtaining significant effects in opposite directions for the same research question. (Schweinsberg et al., 2021, p. 230)</p>
+</blockquote>
+<p>In short, even though they were all given the same prompts and the same data, researchers made very different analytical decisions and came to very different results, sometimes producing conflicting (but individually compelling) findings. The article reports that</p>
+<blockquote>
+<p>Subjective researcher decisions play a critical role in driving the reported empirical results, underscoring the need for open data, systematic robustness checks, and transparency regarding both analytic paths taken and not taken. (Schweinsberg et al., 2021, p. 230)</p>
+</blockquote>
+<p>That is, scientists make <em>lots</em> of decisions when analyzing data. Even if they’re using the same data and asking the same questions, different, equally-qualified scientists might make wildly different decisions. In theory, any research article is supposed to contain a detailed section of how any analysis was completed, but as we’ve already determined, word limits and researchers’ attention spans are too short for articles to cover every decision that could potentially make a difference.</p>
+<p><em>This</em> is why reproducibility is important. If you can carefully document every decision you made, every line of code you wrote, and every other aspect of your analysis, other people will know not just what data you used and what questions you asked, but how—in very specific terms—you asked those questions. This is an undeniably good thing.</p>
+<p>So, how do we support reproducibility in practical terms? Here are a few—with a focus on how they play out in traditional academic research:</p>
+<div id="open-design" class="section level3 hasAnchor" number="8.3.1">
+<h3><span class="header-section-number">8.3.1</span> Open Design<a href="m3u-research-paradigms-and-reproducibility.html#open-design" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Research design is essential to any study as it dictates the scope and use of the study. This phase includes formulating the key research question(s), designing methods to address these questions, and making decisions about practical and technical aspects of the study. Typically, this entire phase is the private affair of the involved researchers. In many studies, the hypotheses are obscured or even unspecified until the authors are preparing an article for publication. Readers often cannot determine how hypotheses and other aspects of the research design have changed over the course of a study since usually only the final version of a study design is published.</p>
+<p>Moreover, there is compelling evidence that much of what does get published is misleading or incomplete in important ways. A meta-analysis (that is, research on other research) found that 33% of authors admitted to questionable research practices, such as “dropping data points based on a gut feeling,” “concealment of relevant findings,” and/or “withholding details of methodology” (Fanelli, 2009). Given that these numbers are based on self-reports and thus suspect to social desirability bias, it is plausible that these numbers are underestimates.</p>
+<p>For <em>Open Design</em>, researchers make every reasonable effort to give readers access to a truthful account of the design of a study and how that design changed over the duration of the study. Since study designs can be complex, this often means publishing different elements of a study design in different places. For instance, many academic journals publish short methodological summaries in the full text of an article and allow more detailed supplementary materials of unlimited length online. In addition, analytic code might be published in a linked GitHub account, and data might be published in an online repository. These various approaches allow for more detail about methods to be published, with convenient summaries for general readers and more complete specifics for specialists and those interested in replication and reproduction. There are also a variety of approaches for increasing transparency by publishing a time-stamped record of methodological decisions before publication: a strategy known as preregistration. <em>Preregistration</em> is the practice of documenting and sharing the hypotheses, methodology, analytic plans, and other relevant aspects of a study before it is conducted (Gehlbach &amp; Robinson, 2018; Nosek et al., 2015).</p>
+</div>
+<div id="open-analysis" class="section level3 hasAnchor" number="8.3.2">
+<h3><span class="header-section-number">8.3.2</span> Open Analysis<a href="m3u-research-paradigms-and-reproducibility.html#open-analysis" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Open Analysis</em> is the systematic reproduction of analytic methods conducted by other researchers—it’s the main support for reproducibility that has come up in this reading. Reproducing research is central to scientific progress because any individual study is generally insufficient to make robust or generalizable claims—the kinds that others could clearly act on. It is only after ideas are tested and replicated in various conditions and contexts and results “meta-analyzed” across studies that more durable scientific principles and precepts can be established.</p>
+<p>One form of replication is a reproduction study, where researchers attempt to faithfully reproduce the results of a study using the same data and analyses. Such studies are dependent on <em>Open Design</em>, so that replication researchers can use the same methodological techniques but also the same exclusion criteria, coding schemes, and other analytic steps that allow for faithful replication. In recent years, perhaps the most famous reproduction study was by Thomas Herndon, a graduate student at UMass Amherst who discovered that two Harvard economists, Carmen Reinhart and Kenneth Rogoff, had failed to include five columns in an averaging operation in an Excel spreadsheet (The Data Team, 2016). After averaging across the full data set, the claims in the study had a much weaker empirical basis. Ouch!</p>
+<p>In data science, where statistical code is central to conducting analyses, the sharing of that code is one way to make analytic methods more transparent. GitHub and similar repositories allow researchers to store code, track revisions, and share with others—GitHub’s importance for reproducibility is a major reason that we’re using it in this course. At a minimum, these repositories allow researchers to publicly post analytic code in a transferable, machine-readable platform. Used more fully, GitHub repositories can allow researchers to share preregistered codebases that present a proposed implementation of hypotheses, final code as used in publication, and all of the changes in between. Simply making code “available on request” will not be as powerful as creating additional mechanisms that encourage researchers to proactively share their analytic code: as a requirement for journal or conference submissions, as an option within study preregistrations, or in other venues. Reinhart and Rogoff’s politically consequential error might have been discovered much sooner if their analyses had been made available along with publication rather than after the idiosyncratic query of an individual researcher.</p>
+</div>
+<div id="open-publication" class="section level3 hasAnchor" number="8.3.3">
+<h3><span class="header-section-number">8.3.3</span> Open Publication<a href="m3u-research-paradigms-and-reproducibility.html#open-publication" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Open Access (OA) literature is digital, online, available to read free of charge, and free of most copyright and licensing restrictions (Suber, 2004). Most for-profit publishers obtain all the rights to a scholarly work and give back limited rights to the authors. With Open Access, the authors retain copyright for their article and the right to allow anyone to download and reprint provided that the authors and source are cited, for example under a Creative Commons Attribution License (CC BY 4.0). Opening access increases the ability of researchers, policymakers, and practitioners to leverage scientific findings for the public good.</p>
+<p>Sharing a publicly accessible <em>preprint</em> can also be used to receive comments and feedback from fellow scientists, a form of informal peer review. <em>Preprints</em> are publicly shared manuscripts that have not (yet) been peer reviewed. A variety of peer-reviewed journals acknowledge the benefits of preprints. Across the physical and computer sciences, repositories such as ArXiv have dramatically changed publication practices and instituted a new form of public peer review across blogs and social media. In the social sciences, the Social Science Research Network and SocArXiv offer additional repositories for preprints and white papers. Preprints enable more iterative feedback from the scientific community and provide public venues for work that address timely issues or otherwise would not benefit from formal peer review.</p>
+<p>Whereas historically peer review has been considered a major advantage over these forms of nonreviewed publishing, the limited amount of available evidence suggests that the typically closed peer-review process has no to limited benefits (Bruce et al., 2016; Jefferson et al., 2002). Public scholarly scrutiny may prove to be an excellent complement, or perhaps even an alternative, to formal peer review.</p>
+</div>
+</div>
+<div id="conclusion-1" class="section level2 hasAnchor" number="8.4">
+<h2><span class="header-section-number">8.4</span> Conclusion<a href="m3u-research-paradigms-and-reproducibility.html#conclusion-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Data science is a field that values <em>reproducibility</em>, and we’re going to practice being reproducible as part of this course. It’s important to recognize that the value of reproducibility is based off of certain assumptions about what good research is and how the world works; those assumptions do not always hold up, and they can even be dangerous if we’re not careful about them. However, that doesn’t change the fact that there are real, powerful benefits to reproducibility.</p>
+</div>
+<div id="references-2" class="section level2 hasAnchor" number="8.5">
+<h2><span class="header-section-number">8.5</span> References<a href="m3u-research-paradigms-and-reproducibility.html#references-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Bruce, R., Chauvin, A., Trinquart, L., Ravaud, P., &amp; Boutron, I. (2016). Impact of interventions to improve the quality of peer review of biomedical journals: A systematic review and meta- analysis. <em>BMC Medicine</em>, <em>14</em>(1), 85. <a href="https://doi.org/10.1186/s12916-016-0631-5" class="uri">https://doi.org/10.1186/s12916-016-0631-5</a></p>
+<p>The Data Team. (2016, September 7). Excel Errors and science papers. <em>The Economist</em>. Retrieved from <a href="https://www.economist" class="uri">https://www.economist</a> .com/blogs/graphicdetail/2016/09/daily-chart-3</p>
+<p>Fanelli, D. (2009). How many scientists fabricate and falsify research? A systematic review and meta-analysis of survey data. <em>PloS One</em>, <em>4</em>(5), e5738. <a href="https://doi.org/10.1371/journal.pone.0005738" class="uri">https://doi.org/10.1371/journal.pone.0005738</a></p>
+<p>Gehlbach, H., &amp; Robinson, C. D. (2018). Mitigating illusory results through preregistration in education. <em>Journal of Research on Educational Effectiveness</em>, <em>11</em>, 296–315. <a href="https://doi.org/10.1080/1934574" class="uri">https://doi.org/10.1080/1934574</a> 7.2017.1387950</p>
+<p>Ioannidis, J. P. (2005). Why most published research findings are false. <em>PLoS Medicine</em>, <em>2</em>(8), e124. <a href="https://doi.org/10.1371/journal.pmed.0020124" class="uri">https://doi.org/10.1371/journal.pmed.0020124</a></p>
+<p>Jefferson, T., Alderson, P., Wager, E., &amp; Davidoff, F. (2002). Effects of editorial peer review: A systematic review. <em>JAMA</em>, <em>287</em>(21), 2784–2786. <a href="https://doi.org/10.1001/jama.287.21.2784" class="uri">https://doi.org/10.1001/jama.287.21.2784</a></p>
+<p>Nosek, B. A., &amp; Lakens, D. (2014). Registered reports: A method to increase the credibility of published results. <em>Social Psychology</em>, <em>45</em>, 137–141. <a href="https://doi.org/10.1027/1864-9335/a000192" class="uri">https://doi.org/10.1027/1864-9335/a000192</a></p>
+<p>Schweinsberg, M., Feldman, M., Staub, N., van den Akker, O. R., van Aert, R. C. M., van Assen, M. A. L. M., Liu, Y., Althoff, T., Heer, J., Kale, A., Mohamed, Z., Amireh, H., Prasad, V. V., Bernstein, A., Robinson, E., Snellman, K., Sommer, S. A., Otner, S. M. G., … Ulhmann, E. L. (2021). Same data, different conclusions: Radical dispersion in empirical results when independent analysts operationalize and test the same hypothesis. <em>Organizational Behavior and Human Decision Processes</em>, <em>165</em>, 228-249. <a href="https://doi.org/10.1016/j.obhdp.2021.02.003" class="uri">https://doi.org/10.1016/j.obhdp.2021.02.003</a></p>
+<p>Simmons, J. P., Nelson, L. D., &amp; Simonsohn, U. (2011). False-positive psychology: Undisclosed flexibility in data collection and analysis allows presenting anything as significant. <em>Psychological Science</em>, <em>22</em>(11), 1359–1366. <a href="https://doi.org/10.1177/0956797611417632" class="uri">https://doi.org/10.1177/0956797611417632</a></p>
+<p>Suber, P. (2004, June 21). Open Access overview. Retrieved from <a href="https://legacy.earlham.edu/~peters/fos/overview.htm" class="uri">https://legacy.earlham.edu/~peters/fos/overview.htm</a></p>
+
+</div>
+</div>
+<script src="https://hypothes.is/embed.js" async></script>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="m2c-set-up-github.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="module-3-application.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
