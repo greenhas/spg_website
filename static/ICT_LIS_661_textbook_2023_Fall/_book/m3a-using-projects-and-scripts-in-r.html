@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>17 Module 6 Understanding | Introduction to Data Science</title>
-  <meta name="description" content="17 Module 6 Understanding | Introduction to Data Science" />
+  <title>9 M3A: Using Projects and Scripts in R | Introduction to Data Science</title>
+  <meta name="description" content="9 M3A: Using Projects and Scripts in R | Introduction to Data Science" />
   <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="17 Module 6 Understanding | Introduction to Data Science" />
+  <meta property="og:title" content="9 M3A: Using Projects and Scripts in R | Introduction to Data Science" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="17 Module 6 Understanding | Introduction to Data Science" />
+  <meta name="twitter:title" content="9 M3A: Using Projects and Scripts in R | Introduction to Data Science" />
   
   
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="module-5-connection.html"/>
-<link rel="next" href="module-6-application.html"/>
+<link rel="prev" href="m3u-research-paradigms-and-reproducibility.html"/>
+<link rel="next" href="module-3-connection.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -281,9 +281,130 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="module-6-understanding" class="section level1 hasAnchor" number="17">
-<h1><span class="header-section-number">17</span> Module 6 Understanding<a href="module-6-understanding.html#module-6-understanding" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="m3a-using-projects-and-scripts-in-r" class="section level1 hasAnchor" number="9">
+<h1><span class="header-section-number">9</span> M3A: Using Projects and Scripts in R<a href="m3a-using-projects-and-scripts-in-r.html#m3a-using-projects-and-scripts-in-r" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This content draws on material from:
+* <a href="https://stat545.com/">STAT 545</a> by <a href="https://jennybryan.org/">Jenny Bryan</a>, licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
+<em><a href="https://moderndive.com/">Statistical Inference via Data Science: A ModernDive into R and the Tidyverse</a></em> by <a href="https://chester.rbind.io/">Chester Ismay</a> and <a href="https://rudeboybert.rbind.io/">Albert Y. Kim</a>, licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
+<p>Changes to the source material include addition of new material; light editing; rearranging, removing, and combining original material; adding and changing links; and adding first-person language from current author.</p>
+<p>The resulting content is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
+<div id="introduction-5" class="section level2 hasAnchor" number="9.1">
+<h2><span class="header-section-number">9.1</span> Introduction<a href="m3a-using-projects-and-scripts-in-r.html#introduction-5" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>A couple of years ago, I had to make an official correction to my most-cited research study. My co-author and I were revisiting some of the calculations in the study as part of a separate project, and we found some discrepancies between the published results and the results that my co-author was getting. It turned out that back in 2017, we hadn’t been working off of the same data file when working on separate parts of the paper, and that created small-but-embarrassing inconsistencies between what we had published and what the actual results were. When you’re doing data science work, it’s very important to keep things organized!</p>
+<p>We’ve run some code in R already, but how we manage that code can be really important. In this walkthrough, we’ll learn some more R and RStudio features before learning more about <em>scripts</em> and <em>Projects</em> in R. By way of reminder, whenever you see a “code chunk,” you should type (or copy) the code and run it on your own; however, remember also that output looks a lot like code chunks but doesn’t need to be run! Any box that follows a code chunk and whose lines begin with <code>##</code> is just output: It’s there for you to compare your results against, not for you to copy and paste. Likewise, text that is marked as code but is in the middle of a paragraph doesn’t need to be run; it’s just a way of showing that something <em>is</em> code.</p>
+</div>
+<div id="more-about-r-and-rstudio" class="section level2 hasAnchor" number="9.2">
+<h2><span class="header-section-number">9.2</span> More About R and RStudio<a href="m3a-using-projects-and-scripts-in-r.html#more-about-r-and-rstudio" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Begin this walkthrough by starting RStudio. By way of reminder, as you open up the program, you should see something similar to Figure <a href="m3a-using-projects-and-scripts-in-r.html#fig:RStudio-interface-2">9.1</a>.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:RStudio-interface-2"></span>
+<img src="images/rstudio_screenshots/rstudio.png" alt="RStudio interface to R." width="93%" />
+<p class="caption">
+Figure 9.1: RStudio interface to R.
+</p>
+</div>
+<p>Note again the three <em>panes</em> (that is, the three panels dividing the screen):</p>
+<ul>
+<li>the <em>console pane</em>,</li>
+<li>the <em>files pane</em>,</li>
+<li>and the <em>environment pane</em>.</li>
+</ul>
+<p>Let’s spend some more time in the Console, which is where we interact with the live R process.</p>
+<p>The following code tells R to assign the result of <code>3 * 4</code> (that is, 3 times 4) to an <em>object</em> called <code>x</code> and then asks R to “inspect” the object (that is, retrieve its contents). Go ahead and run it on your own:</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb14-1" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="dv">3</span> <span class="sc">*</span> <span class="dv">4</span></span>
+<span id="cb14-2"><a href="m3a-using-projects-and-scripts-in-r.html#cb14-2" tabindex="-1"></a>x</span></code></pre></div>
+<pre><code>[1] 12</code></pre>
+<p>All R statements where you create object —“assignments”—have this form: <code>objectName &lt;- value</code>. It is technically possible to use <code>=</code> to make assignments, too, but it’s a pretty bad idea, for reasons we don’t need to go into here. Yes, it takes a bit more effort, but always make assignments with <code>&lt;-</code>.</p>
+<p>Object names cannot start with a digit and cannot contain certain other characters such as a comma or a space. It’s important to get into good habits with naming your objects. Many people use some kind of regular pattern in naming objects with multiple words: <code>i_use_snake_case</code>, <code>other.people.use.periods</code>, and <code>evenOthersUseCamelCase</code></p>
+<p>Make another assignment by running this code:</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb16-1" tabindex="-1"></a>this_is_a_really_long_name <span class="ot">&lt;-</span> <span class="fl">2.5</span></span></code></pre></div>
+<p>To inspect this object, try out RStudio’s completion facility: type the first few characters of <code>this_is_a_really_long_name</code>, press TAB, add characters until you disambiguate, then press return.</p>
+<p>Now, make another assignment:</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb17-1" tabindex="-1"></a>stromae_rocks <span class="ot">&lt;-</span> <span class="dv">2</span> <span class="sc">^</span> <span class="dv">3</span></span></code></pre></div>
+<p>What happens if we try to run the following code to inspect our new object?</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb18-1" tabindex="-1"></a>stromaerocks</span></code></pre></div>
+<pre><code>Error in eval(expr, envir, enclos): object &#39;stromaerocks&#39; not found</code></pre>
+<p>There’s an implicit contract when you work with a scripting language like R: The computer will do tedious computation for you, but you must be completely precise in your instructions. Typos matter. Case matters. Details matter. I am always happy to help you troubleshoot, but <em>please</em> make sure that you’ve checked the details of your code first. It’s amazing how often errors come down to mistyping something.</p>
+<p>R has a mind-blowing collection of built-in functions that are accessed like so: <code>functionName(argument1 = value1, argument2 = value2, and so on)</code>. The details look different from function to function, but they typically follow this pattern.</p>
+<p>Let’s try functions using <code>seq()</code>, which makes regular sequences of numbers. While we’re at it, we’ll demo more helpful features of RStudio.</p>
+<p>Type <code>se</code> and hit TAB. A pop up shows you possible completions. Specify <code>seq()</code> by typing more to disambiguate or using the up/down arrows to select. Notice the floating tool-tip-type help that pops up, reminding you of a function’s arguments. If you want even more help, press F1 as directed to get the full documentation in the help tab of the lower right pane. As we saw earlier, you can also run a function with a <code>?</code> in front of it (for example, <code>?seq()</code>) to bring up the same help documentation.</p>
+<p>Now type the open parenthesis (<code>(</code>) and notice the automatic addition of the closing parenthesis and the placement of cursor in the middle. Type the arguments <code>1, 10</code> and hit return. RStudio also exits the parenthetical expression for you. These little features are the things that can make RStudio really useful (though I’ll also admit that they sometimes get in the way, too).</p>
+<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb20-1" tabindex="-1"></a><span class="fu">seq</span>(<span class="dv">1</span>, <span class="dv">10</span>)</span></code></pre></div>
+<pre><code> [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+<p>Note that even though we ran this function, we didn’t assign the results to an object. That means that we can see the results in the Console, but we won’t be able to retrieve them later! If we want to hold onto the results of a function, we need to assign it to an object.</p>
+<p>Make this assignment and notice that RStudio helps with quotation marks in the same way that it helps with parentheses.</p>
+<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb22-1" tabindex="-1"></a>yo <span class="ot">&lt;-</span> <span class="st">&quot;hello world&quot;</span></span></code></pre></div>
+<p>If you just make an assignment, you don’t get to see the value, so then you’re tempted to immediately inspect.</p>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb23-1" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">1</span>, <span class="dv">10</span>)</span>
+<span id="cb23-2"><a href="m3a-using-projects-and-scripts-in-r.html#cb23-2" tabindex="-1"></a>y</span></code></pre></div>
+<pre><code> [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+<p>This common action can be shortened by surrounding the assignment with parentheses, which causes assignment and “print to screen” to happen.</p>
+<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb25-1" tabindex="-1"></a>(y <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">1</span>, <span class="dv">10</span>))</span></code></pre></div>
+<pre><code> [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+<p>Not all functions have (or require) arguments:</p>
+<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb27-1" tabindex="-1"></a><span class="fu">date</span>()</span></code></pre></div>
+<pre><code>[1] &quot;Fri Jul 21 13:44:50 2023&quot;</code></pre>
+<p>Now look at your workspace in the upper right Environment pane. The workspace is where user-defined objects accumulate. You ought to see all of the objects that we’ve created so far in this walkthrough. You can also get a listing of these objects with commands:</p>
+<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb29-1" tabindex="-1"></a><span class="fu">objects</span>()</span></code></pre></div>
+<pre><code> [1] &quot;chap&quot;                       &quot;flights_cols&quot;              
+ [3] &quot;flights_rows&quot;               &quot;lc&quot;                        
+ [5] &quot;needed_CRAN_pkgs&quot;           &quot;new_pkgs&quot;                  
+ [7] &quot;stromae_rocks&quot;              &quot;this_is_a_really_long_name&quot;
+ [9] &quot;x&quot;                          &quot;y&quot;                         
+[11] &quot;yo&quot;                        </code></pre>
+<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb31-1" tabindex="-1"></a><span class="fu">ls</span>()</span></code></pre></div>
+<pre><code> [1] &quot;chap&quot;                       &quot;flights_cols&quot;              
+ [3] &quot;flights_rows&quot;               &quot;lc&quot;                        
+ [5] &quot;needed_CRAN_pkgs&quot;           &quot;new_pkgs&quot;                  
+ [7] &quot;stromae_rocks&quot;              &quot;this_is_a_really_long_name&quot;
+ [9] &quot;x&quot;                          &quot;y&quot;                         
+[11] &quot;yo&quot;                        </code></pre>
+<p>If you want to remove the object named <code>y</code>, you can do this:</p>
+<div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb33-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb33-1" tabindex="-1"></a><span class="fu">rm</span>(y)</span></code></pre></div>
+<p>To remove everything:</p>
+<div class="sourceCode" id="cb34"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb34-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb34-1" tabindex="-1"></a><span class="fu">rm</span>(<span class="at">list =</span> <span class="fu">ls</span>())</span></code></pre></div>
+<p>You can also click the broom in RStudio’s Environment pane to remove everything. Sometimes this is helpful when troubleshooting code.</p>
+</div>
+<div id="the-console-and-the-workspace" class="section level2 hasAnchor" number="9.3">
+<h2><span class="header-section-number">9.3</span> The Console and the Workspace<a href="m3a-using-projects-and-scripts-in-r.html#the-console-and-the-workspace" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>One day you will need to quit R, go do something else and return to your analysis later. One day you will have multiple analyses going that use R and you want to keep them separate. One day you will need to bring data from the outside world into R and send numerical results and figures from R back out into the world.</p>
+<p>To handle these real life situations, you need to make two decisions:</p>
+<ul>
+<li>What from your analysis needs to be saved?</li>
+<li>Where does your analysis need to be saved?</li>
+</ul>
+<p>In the R code that we’ve written so far, we’ve run all of our code in the Console, and it’s been saved to the workspace. This has been sufficient for how we’ve done things so far, but it’s not a great long-term solution.</p>
+<p>Anything that we type into the Console gets saved into your “R history.” You <em>can</em> retrieve code from your R history by pressing the up arrow when your cursor is in the Console. This can be helpful for something you just typed, but it’s also a hassle to go all the way through your R history to find something that you typed hours (or even just minutes) ago.</p>
+<p>When you quit RStudio, it will generally prompt you to save your workspace; if you do, it will load it back automatically for you when you next open RStudio. This is also handy, but even though you have the <em>results</em> of your work, you don’t have easy access to the <em>process</em> that you took to get there. (That is, objects in your workspace are not easily <em>reproducible</em>). If you need to redo analysis, you’re going to either redo a lot of typing (making mistakes all the way) or will have to mine your R history (using those arrow keys in the console) for the commands you used.</p>
+<p>A better use of your time and psychic energy is to keep your “good” R code in a <em>script</em> for future reuse—and to keep your related scripts bundled together into a <em>project</em>. In other words, you can do one-off, temporary, or unimportant things in the Console, but most of your code is worth saving—especially if you need help troubleshooting it!</p>
+</div>
+<div id="holding-onto-code" class="section level2 hasAnchor" number="9.4">
+<h2><span class="header-section-number">9.4</span> Holding Onto Code<a href="m3a-using-projects-and-scripts-in-r.html#holding-onto-code" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The rest of this walkthrough will demonstrate how to write code in a way that lets you hold onto it later. This can be really helpful for you (for example, when you want to adapt code from a class activity for one of your projects), and it’s also really helpful for me (for example, when I want to see all the code you ran when helping you troubleshoot an activity).</p>
+</div>
+<div id="rstudio-projects" class="section level2 hasAnchor" number="9.5">
+<h2><span class="header-section-number">9.5</span> RStudio Projects<a href="m3a-using-projects-and-scripts-in-r.html#rstudio-projects" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Keeping all the files associated with a project organized together—input data, R scripts, analytical results, figures—is such a wise and common practice that RStudio has built-in support for this.</p>
+<p>Let’s make a project for you to use during the rest of this semester. In RStudio, navigate to <em>File</em> and then <em>New Project</em>. When prompted, click on <em>Existing Directory</em> and then navigate to the folder for the GitHub repository that you created last week. Then, quit RStudio, open up the file interface for your operating system, and make your way to that folder. You should now see a <code>.Rproj</code> file within that folder (with the same name as the foler). If you click on that <code>.Rproj</code> file,it will open up a project-specific window for RStudio, including an interface in the bottom-right corner that shows all the files and folders associated with your project. Since all of your work for this class will all be stored in this single project, it may not be clear during this semester just how useful this can be—trust me, it’s darn useful.</p>
+<p>Now that you’ve created this project file, I <strong>always</strong> recommend opening it instead of just RStudio. This is the only project file that you need to create for this class!</p>
+<div id="using-scripts" class="section level3 hasAnchor" number="9.5.1">
+<h3><span class="header-section-number">9.5.1</span> Using Scripts<a href="m3a-using-projects-and-scripts-in-r.html#using-scripts" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The point of a project is to keep multiple files together. Any file that contains code is what we call a <em>script</em>. Again, holding onto your code (instead of just running it through the console) will make your life easier and make it easier for me to help you when you need it.</p>
+<p>Unless I tell you otherwise, whenever you’re starting a new activity in R, you should navigate through <em>File</em>, <em>New File</em>, and <em>New R Script</em> in RStudio, give that file a clear name, and save that file to your project folder. It is traditional to save R scripts with a <code>.R</code> or <code>.r</code> suffix. Follow this convention unless you have some extraordinary reason not to. Use helpful names for your scripts so that you can find them afterward!</p>
+<p>Running code within a script file works differently than running it in the console, so you ought to get familiar with these extra steps: to execute code within a script, you should highlight the code you want to execute and either click the Run button at the top of script window or use the keyboard shortcut Ctrl+Enter (Windows) or CMD+Enter (macOS). In theory, scripts are meant to be run all at once, and if you click the Run button without highlighting code, that’s what it will do. However, I (and many other R users) frequently use scripts in this kind of piecemeal way, running bits of code at a time, but keeping the whole script as a backup.</p>
+</div>
+<div id="backing-up-your-project-folder" class="section level3 hasAnchor" number="9.5.2">
+<h3><span class="header-section-number">9.5.2</span> Backing Up Your Project Folder<a href="m3a-using-projects-and-scripts-in-r.html#backing-up-your-project-folder" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Make sure to save your scripts and other files regularly! However, unlike cloud services like Dropbox or Google Drive, simply saving a file to your project folder is not sufficient to sync it to GitHub. At regular intervals, you should open GitHub Desktop, navigate to your project repository, and click the button in the top right corner (which will read either <em>Fetch origin</em> or <em>Pull origin</em>—if, after clicking <em>Fetch origin</em>, it now reads <em>Pull origin</em>, you’ll want to click it again). If I’ve made changes to your repository, those changes will now sync to your local files. Then, if there are changed files in the appropriate window of the interface, you should enter a <em>Summary</em> in the appropriate field, click the <em>Commit</em> button, and then click <em>Push</em> origin in the top-right corner. It’s not until you’ve successfully pushed your files to GitHub that they are backed up and available for me to request and review!</p>
+<p>When helping you figure out an issue you’re having with code, I will usually <em>insist</em> on getting access to your data and scripts through your GitHub repository and will usually <em>not</em> look over scripts and data that you send me via email. This means that you need to be in the habit of:</p>
+<ul>
+<li>saving your code to scripts,</li>
+<li>saving your scripts to your project folder, and</li>
+<li>backing up your project folder through GitHub.</li>
+</ul>
+<p>It’s important to note Git and GitHub are notorious for running into syncing issues. We are using it lightly enough that I don’t expect to run into anything major, but please don’t hesitate to reach out if you run into something you can’t solve on your own!</p>
 
+</div>
+</div>
 </div>
 <script src="https://hypothes.is/embed.js" async></script>
             </section>
@@ -291,8 +412,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-<a href="module-5-connection.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="module-6-application.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="m3u-research-paradigms-and-reproducibility.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="module-3-connection.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

@@ -82,4 +82,4 @@ You're free to change this, but I strongly recommend sticking with the default f
 
 ## Moving Forward
 
-As things currently stand, your repository isn't really doing a whole lot, but that's okay. We'll return to GitHub in a couple of weeks as we learn some more about file and project management in RStudio, and we'll work on developing some good habits for backing up those files and projects using GitHub.
+As things currently stand, your repository isn't really doing a whole lot, but that's okay. We'll return to GitHub next week as we learn some more about file and project management in RStudio, and practice good GitHub habits throughout the semester.
