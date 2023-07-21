@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>10 M3C: Writing in R Markdown | Introduction to Data Science</title>
   <meta name="description" content="10 M3C: Writing in R Markdown | Introduction to Data Science" />
-  <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
 
   <meta property="og:title" content="10 M3C: Writing in R Markdown | Introduction to Data Science" />
   <meta property="og:type" content="book" />
@@ -30,7 +30,7 @@
   
   
 <link rel="prev" href="m3a-using-projects-and-scripts-in-r.html"/>
-<link rel="next" href="module-4-understanding.html"/>
+<link rel="next" href="m4u-the-value-of-open-data.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -118,10 +118,6 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
-<style type="text/css">
-  
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-</style>
 
 </head>
 
@@ -181,7 +177,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="6.5.2" data-path="getting-started.html"><a href="getting-started.html#flights-data-frame"><i class="fa fa-check"></i><b>6.5.2</b> <code>flights</code> data frame</a></li>
 <li class="chapter" data-level="6.5.3" data-path="getting-started.html"><a href="getting-started.html#exploredataframes"><i class="fa fa-check"></i><b>6.5.3</b> Exploring data frames</a></li>
 <li class="chapter" data-level="6.5.4" data-path="getting-started.html"><a href="getting-started.html#identification-vs-measurement-variables"><i class="fa fa-check"></i><b>6.5.4</b> Identification and measurement variables</a></li>
-<li class="chapter" data-level="6.5.5" data-path="getting-started.html"><a href="getting-started.html#help-files"><i class="fa fa-check"></i><b>6.5.5</b> Help files</a></li>
 </ul></li>
 <li class="chapter" data-level="6.6" data-path="getting-started.html"><a href="getting-started.html#conclusion"><i class="fa fa-check"></i><b>6.6</b> Conclusion</a></li>
 </ul></li>
@@ -240,7 +235,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="10.3" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#trying-out-r-markdown"><i class="fa fa-check"></i><b>10.3</b> Trying out R Markdown</a></li>
 </ul></li>
-<li class="chapter" data-level="11" data-path="module-4-understanding.html"><a href="module-4-understanding.html"><i class="fa fa-check"></i><b>11</b> Module 4 Understanding</a></li>
+<li class="chapter" data-level="11" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html"><i class="fa fa-check"></i><b>11</b> M4U: The Value of Open Data</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#introduction-7"><i class="fa fa-check"></i><b>11.1</b> Introduction</a></li>
+<li class="chapter" data-level="11.2" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#positivism-and-the-need-for-data"><i class="fa fa-check"></i><b>11.2</b> Positivism and the Need for Data</a></li>
+</ul></li>
 <li class="chapter" data-level="12" data-path="module-4-application.html"><a href="module-4-application.html"><i class="fa fa-check"></i><b>12</b> Module 4 Application</a></li>
 <li class="chapter" data-level="13" data-path="module-4-connection.html"><a href="module-4-connection.html"><i class="fa fa-check"></i><b>13</b> Module 4 Connection</a></li>
 <li class="chapter" data-level="14" data-path="module-5-understanding.html"><a href="module-5-understanding.html"><i class="fa fa-check"></i><b>14</b> Module 5 Understanding</a></li>
@@ -319,20 +318,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="block-level-elements" class="section level3 hasAnchor" number="10.2.2">
 <h3><span class="header-section-number">10.2.2</span> Block-level elements<a href="m3c-writing-in-r-markdown.html#block-level-elements" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Section headers can be written after a number of pound signs, e.g.,</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb1-1"><a href="m3c-writing-in-r-markdown.html#cb1-1" tabindex="-1"></a><span class="fu"># First-level header</span></span>
-<span id="cb1-2"><a href="m3c-writing-in-r-markdown.html#cb1-2" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="m3c-writing-in-r-markdown.html#cb1-3" tabindex="-1"></a><span class="fu">## Second-level header</span></span>
-<span id="cb1-4"><a href="m3c-writing-in-r-markdown.html#cb1-4" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="m3c-writing-in-r-markdown.html#cb1-5" tabindex="-1"></a><span class="fu">### Third-level header</span></span></code></pre></div>
+<div class="sourceCode" id="cb35"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb35-1"><a href="m3c-writing-in-r-markdown.html#cb35-1" tabindex="-1"></a><span class="fu"># First-level header</span></span>
+<span id="cb35-2"><a href="m3c-writing-in-r-markdown.html#cb35-2" tabindex="-1"></a></span>
+<span id="cb35-3"><a href="m3c-writing-in-r-markdown.html#cb35-3" tabindex="-1"></a><span class="fu">## Second-level header</span></span>
+<span id="cb35-4"><a href="m3c-writing-in-r-markdown.html#cb35-4" tabindex="-1"></a></span>
+<span id="cb35-5"><a href="m3c-writing-in-r-markdown.html#cb35-5" tabindex="-1"></a><span class="fu">### Third-level header</span></span></code></pre></div>
 <p>If you do not want a certain heading to be numbered, you can add <code>{-}</code> or <code>{.unnumbered}</code> after the heading, e.g.,</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb2-1"><a href="m3c-writing-in-r-markdown.html#cb2-1" tabindex="-1"></a><span class="fu"># Preface {-}</span></span></code></pre></div>
+<div class="sourceCode" id="cb36"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb36-1"><a href="m3c-writing-in-r-markdown.html#cb36-1" tabindex="-1"></a><span class="fu"># Preface {-}</span></span></code></pre></div>
 <p>Unordered list items start with <code>*</code>, <code>-</code>, or <code>+</code>, and you can nest one list within another list by indenting the sub-list, e.g.,</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb3-1"><a href="m3c-writing-in-r-markdown.html#cb3-1" tabindex="-1"></a><span class="ss">- </span>one item</span>
-<span id="cb3-2"><a href="m3c-writing-in-r-markdown.html#cb3-2" tabindex="-1"></a><span class="ss">- </span>one item</span>
-<span id="cb3-3"><a href="m3c-writing-in-r-markdown.html#cb3-3" tabindex="-1"></a><span class="ss">- </span>one item</span>
-<span id="cb3-4"><a href="m3c-writing-in-r-markdown.html#cb3-4" tabindex="-1"></a><span class="ss">    - </span>one more item</span>
-<span id="cb3-5"><a href="m3c-writing-in-r-markdown.html#cb3-5" tabindex="-1"></a><span class="ss">    - </span>one more item</span>
-<span id="cb3-6"><a href="m3c-writing-in-r-markdown.html#cb3-6" tabindex="-1"></a><span class="ss">    - </span>one more item</span></code></pre></div>
+<div class="sourceCode" id="cb37"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb37-1"><a href="m3c-writing-in-r-markdown.html#cb37-1" tabindex="-1"></a><span class="ss">- </span>one item</span>
+<span id="cb37-2"><a href="m3c-writing-in-r-markdown.html#cb37-2" tabindex="-1"></a><span class="ss">- </span>one item</span>
+<span id="cb37-3"><a href="m3c-writing-in-r-markdown.html#cb37-3" tabindex="-1"></a><span class="ss">- </span>one item</span>
+<span id="cb37-4"><a href="m3c-writing-in-r-markdown.html#cb37-4" tabindex="-1"></a><span class="ss">    - </span>one more item</span>
+<span id="cb37-5"><a href="m3c-writing-in-r-markdown.html#cb37-5" tabindex="-1"></a><span class="ss">    - </span>one more item</span>
+<span id="cb37-6"><a href="m3c-writing-in-r-markdown.html#cb37-6" tabindex="-1"></a><span class="ss">    - </span>one more item</span></code></pre></div>
 <p>The output is:</p>
 <ul>
 <li>one item</li>
@@ -345,11 +344,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 </ul>
 <p>Ordered list items start with numbers (you can also nest lists within lists), e.g.,</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb4-1"><a href="m3c-writing-in-r-markdown.html#cb4-1" tabindex="-1"></a><span class="ss">1. </span>the first item</span>
-<span id="cb4-2"><a href="m3c-writing-in-r-markdown.html#cb4-2" tabindex="-1"></a><span class="ss">2. </span>the second item</span>
-<span id="cb4-3"><a href="m3c-writing-in-r-markdown.html#cb4-3" tabindex="-1"></a><span class="ss">3. </span>the third item</span>
-<span id="cb4-4"><a href="m3c-writing-in-r-markdown.html#cb4-4" tabindex="-1"></a><span class="ss">    - </span>one unordered item</span>
-<span id="cb4-5"><a href="m3c-writing-in-r-markdown.html#cb4-5" tabindex="-1"></a><span class="ss">    - </span>one unordered item</span></code></pre></div>
+<div class="sourceCode" id="cb38"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb38-1"><a href="m3c-writing-in-r-markdown.html#cb38-1" tabindex="-1"></a><span class="ss">1. </span>the first item</span>
+<span id="cb38-2"><a href="m3c-writing-in-r-markdown.html#cb38-2" tabindex="-1"></a><span class="ss">2. </span>the second item</span>
+<span id="cb38-3"><a href="m3c-writing-in-r-markdown.html#cb38-3" tabindex="-1"></a><span class="ss">3. </span>the third item</span>
+<span id="cb38-4"><a href="m3c-writing-in-r-markdown.html#cb38-4" tabindex="-1"></a><span class="ss">    - </span>one unordered item</span>
+<span id="cb38-5"><a href="m3c-writing-in-r-markdown.html#cb38-5" tabindex="-1"></a><span class="ss">    - </span>one unordered item</span></code></pre></div>
 <p>The output does not look too much different with the Markdown source:</p>
 <ol style="list-style-type: decimal">
 <li>the first item</li>
@@ -361,11 +360,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 </ol>
 <p>Blockquotes are written after <code>&gt;</code>, e.g.,</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb5-1"><a href="m3c-writing-in-r-markdown.html#cb5-1" tabindex="-1"></a><span class="at">&gt; &quot;I thoroughly disapprove of duels. If a man should challenge me,</span></span>
-<span id="cb5-2"><a href="m3c-writing-in-r-markdown.html#cb5-2" tabindex="-1"></a><span class="at">  I would take him kindly and forgivingly by the hand and lead him</span></span>
-<span id="cb5-3"><a href="m3c-writing-in-r-markdown.html#cb5-3" tabindex="-1"></a><span class="at">  to a quiet place and kill him.&quot;</span></span>
-<span id="cb5-4"><a href="m3c-writing-in-r-markdown.html#cb5-4" tabindex="-1"></a><span class="at">&gt;</span></span>
-<span id="cb5-5"><a href="m3c-writing-in-r-markdown.html#cb5-5" tabindex="-1"></a><span class="at">&gt; --- Mark Twain</span></span></code></pre></div>
+<div class="sourceCode" id="cb39"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb39-1"><a href="m3c-writing-in-r-markdown.html#cb39-1" tabindex="-1"></a><span class="at">&gt; &quot;I thoroughly disapprove of duels. If a man should challenge me,</span></span>
+<span id="cb39-2"><a href="m3c-writing-in-r-markdown.html#cb39-2" tabindex="-1"></a><span class="at">  I would take him kindly and forgivingly by the hand and lead him</span></span>
+<span id="cb39-3"><a href="m3c-writing-in-r-markdown.html#cb39-3" tabindex="-1"></a><span class="at">  to a quiet place and kill him.&quot;</span></span>
+<span id="cb39-4"><a href="m3c-writing-in-r-markdown.html#cb39-4" tabindex="-1"></a><span class="at">&gt;</span></span>
+<span id="cb39-5"><a href="m3c-writing-in-r-markdown.html#cb39-5" tabindex="-1"></a><span class="at">&gt; --- Mark Twain</span></span></code></pre></div>
 <p>The actual output:</p>
 <blockquote>
 <p>“I thoroughly disapprove of duels. If a man should challenge me,
@@ -374,11 +373,11 @@ to a quiet place and kill him.”</p>
 <p>— Mark Twain</p>
 </blockquote>
 <p>In general, you’d better leave at least one empty line between adjacent but different elements, e.g., a header and a paragraph. This is to avoid ambiguity to the Markdown renderer. For example, does “<code>#</code>” indicate a header below?</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb6-1"><a href="m3c-writing-in-r-markdown.html#cb6-1" tabindex="-1"></a>In R, the character</span>
-<span id="cb6-2"><a href="m3c-writing-in-r-markdown.html#cb6-2" tabindex="-1"></a><span class="fu"># indicates a comment.</span></span></code></pre></div>
+<div class="sourceCode" id="cb40"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb40-1"><a href="m3c-writing-in-r-markdown.html#cb40-1" tabindex="-1"></a>In R, the character</span>
+<span id="cb40-2"><a href="m3c-writing-in-r-markdown.html#cb40-2" tabindex="-1"></a><span class="fu"># indicates a comment.</span></span></code></pre></div>
 <p>And does “<code>-</code>” mean a bullet point below?</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb7-1"><a href="m3c-writing-in-r-markdown.html#cb7-1" tabindex="-1"></a>The result of 5</span>
-<span id="cb7-2"><a href="m3c-writing-in-r-markdown.html#cb7-2" tabindex="-1"></a><span class="ss">- </span>3 is 2.</span></code></pre></div>
+<div class="sourceCode" id="cb41"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb41-1"><a href="m3c-writing-in-r-markdown.html#cb41-1" tabindex="-1"></a>The result of 5</span>
+<span id="cb41-2"><a href="m3c-writing-in-r-markdown.html#cb41-2" tabindex="-1"></a><span class="ss">- </span>3 is 2.</span></code></pre></div>
 <p>Different flavors of Markdown may produce different results if there are no blank lines.</p>
 </div>
 <div id="r-code-chunks" class="section level3 hasAnchor" number="10.2.3">
@@ -401,7 +400,7 @@ to a quiet place and kill him.”</p>
         </div>
       </div>
 <a href="m3a-using-projects-and-scripts-in-r.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="module-4-understanding.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="m4u-the-value-of-open-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -455,6 +454,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

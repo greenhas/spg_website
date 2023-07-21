@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>11 M4U: The Value of Open Data | Introduction to Data Science</title>
+  <meta name="description" content="11 M4U: The Value of Open Data | Introduction to Data Science" />
+  <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="11 M4U: The Value of Open Data | Introduction to Data Science" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="11 M4U: The Value of Open Data | Introduction to Data Science" />
+  
+  
+  
+
+<meta name="author" content="Spencer P. Greenhalgh, PhD" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="m3c-writing-in-r-markdown.html"/>
+<link rel="next" href="module-4-application.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="module-1-understanding.html"><a href="module-1-understanding.html"><i class="fa fa-check"></i><b>2</b> Module 1 Understanding</a></li>
+<li class="chapter" data-level="3" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html"><i class="fa fa-check"></i><b>3</b> M1A: Install R and RStudio</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#introduction-1"><i class="fa fa-check"></i><b>3.1</b> Introduction</a></li>
+<li class="chapter" data-level="3.2" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#r"><i class="fa fa-check"></i><b>3.2</b> R</a></li>
+<li class="chapter" data-level="3.3" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#rstudio"><i class="fa fa-check"></i><b>3.3</b> RStudio</a></li>
+<li class="chapter" data-level="3.4" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#references"><i class="fa fa-check"></i><b>3.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="m1c-introduce-yourself-to-the-class.html"><a href="m1c-introduce-yourself-to-the-class.html"><i class="fa fa-check"></i><b>4</b> M1C: Introduce Yourself to the Class</a></li>
+<li class="chapter" data-level="5" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html"><i class="fa fa-check"></i><b>5</b> M2U: The New(?) and Shiny(?) Science of Data</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data-data-science-and-big-data"><i class="fa fa-check"></i><b>5.1</b> Data, Data Science, and Big Data</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data"><i class="fa fa-check"></i><b>5.1.1</b> Data</a></li>
+<li class="chapter" data-level="5.1.2" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data-science"><i class="fa fa-check"></i><b>5.1.2</b> Data Science</a></li>
+<li class="chapter" data-level="5.1.3" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#big-data"><i class="fa fa-check"></i><b>5.1.3</b> Big Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#the-many-skills-of-data-science"><i class="fa fa-check"></i><b>5.2</b> The Many Skills of Data Science</a></li>
+<li class="chapter" data-level="5.3" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#references-1"><i class="fa fa-check"></i><b>5.3</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>6</b> M2A: Getting Started with Data in R</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="getting-started.html"><a href="getting-started.html#introduction-2"><i class="fa fa-check"></i><b>6.1</b> Introduction</a></li>
+<li class="chapter" data-level="6.2" data-path="getting-started.html"><a href="getting-started.html#r-rstudio"><i class="fa fa-check"></i><b>6.2</b> What are R and RStudio?</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="getting-started.html"><a href="getting-started.html#using-r-via-rstudio"><i class="fa fa-check"></i><b>6.2.1</b> Using R via RStudio</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="getting-started.html"><a href="getting-started.html#code"><i class="fa fa-check"></i><b>6.3</b> How do I code in R?</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="getting-started.html"><a href="getting-started.html#programming-concepts"><i class="fa fa-check"></i><b>6.3.1</b> Basic programming concepts and terminology</a></li>
+<li class="chapter" data-level="6.3.2" data-path="getting-started.html"><a href="getting-started.html#messages"><i class="fa fa-check"></i><b>6.3.2</b> Errors, warnings, and messages</a></li>
+<li class="chapter" data-level="6.3.3" data-path="getting-started.html"><a href="getting-started.html#tips-code"><i class="fa fa-check"></i><b>6.3.3</b> Tips on learning to code</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="getting-started.html"><a href="getting-started.html#packages"><i class="fa fa-check"></i><b>6.4</b> What are R packages?</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="getting-started.html"><a href="getting-started.html#package-installation"><i class="fa fa-check"></i><b>6.4.1</b> Package installation</a></li>
+<li class="chapter" data-level="6.4.2" data-path="getting-started.html"><a href="getting-started.html#package-loading"><i class="fa fa-check"></i><b>6.4.2</b> Package loading</a></li>
+<li class="chapter" data-level="6.4.3" data-path="getting-started.html"><a href="getting-started.html#package-use"><i class="fa fa-check"></i><b>6.4.3</b> Package use</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="getting-started.html"><a href="getting-started.html#nycflights13"><i class="fa fa-check"></i><b>6.5</b> Explore your first datasets</a>
+<ul>
+<li class="chapter" data-level="6.5.1" data-path="getting-started.html"><a href="getting-started.html#nycflights13-package"><i class="fa fa-check"></i><b>6.5.1</b> <code>nycflights13</code> package</a></li>
+<li class="chapter" data-level="6.5.2" data-path="getting-started.html"><a href="getting-started.html#flights-data-frame"><i class="fa fa-check"></i><b>6.5.2</b> <code>flights</code> data frame</a></li>
+<li class="chapter" data-level="6.5.3" data-path="getting-started.html"><a href="getting-started.html#exploredataframes"><i class="fa fa-check"></i><b>6.5.3</b> Exploring data frames</a></li>
+<li class="chapter" data-level="6.5.4" data-path="getting-started.html"><a href="getting-started.html#identification-vs-measurement-variables"><i class="fa fa-check"></i><b>6.5.4</b> Identification and measurement variables</a></li>
+<li class="chapter" data-level="6.5.5" data-path="getting-started.html"><a href="getting-started.html#help-files"><i class="fa fa-check"></i><b>6.5.5</b> Help files</a></li>
+</ul></li>
+<li class="chapter" data-level="6.6" data-path="getting-started.html"><a href="getting-started.html#conclusion"><i class="fa fa-check"></i><b>6.6</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html"><i class="fa fa-check"></i><b>7</b> M2C: Set up GitHub</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#introduction-3"><i class="fa fa-check"></i><b>7.1</b> Introduction</a></li>
+<li class="chapter" data-level="7.2" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#gitand-githubin-data-science"><i class="fa fa-check"></i><b>7.2</b> Git—and GitHub—in Data Science</a></li>
+<li class="chapter" data-level="7.3" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#github-in-ictlis-661"><i class="fa fa-check"></i><b>7.3</b> GitHub in ICT/LIS 661</a></li>
+<li class="chapter" data-level="7.4" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#setting-up-github"><i class="fa fa-check"></i><b>7.4</b> Setting Up GitHub</a>
+<ul>
+<li class="chapter" data-level="7.4.1" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#creating-a-github-account"><i class="fa fa-check"></i><b>7.4.1</b> Creating a GitHub Account</a></li>
+<li class="chapter" data-level="7.4.2" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#setting-up-a-github-repository-for-class"><i class="fa fa-check"></i><b>7.4.2</b> Setting up a GitHub Repository for Class</a></li>
+<li class="chapter" data-level="7.4.3" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#installing-github-desktop"><i class="fa fa-check"></i><b>7.4.3</b> Installing GitHub Desktop</a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#moving-forward"><i class="fa fa-check"></i><b>7.5</b> Moving Forward</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html"><i class="fa fa-check"></i><b>8</b> M3U: Research Paradigms and Reproducibility</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#introduction-4"><i class="fa fa-check"></i><b>8.1</b> Introduction</a></li>
+<li class="chapter" data-level="8.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#reproducibility-and-paradigms"><i class="fa fa-check"></i><b>8.2</b> Reproducibility and Paradigms</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#an-example-paradigm"><i class="fa fa-check"></i><b>8.2.1</b> An Example Paradigm</a></li>
+<li class="chapter" data-level="8.2.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#another-example-paradigm"><i class="fa fa-check"></i><b>8.2.2</b> Another Example Paradigm</a></li>
+<li class="chapter" data-level="8.2.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#why-do-paradigms-matter"><i class="fa fa-check"></i><b>8.2.3</b> Why Do Paradigms Matter?</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#supporting-reproducibility"><i class="fa fa-check"></i><b>8.3</b> Supporting Reproducibility</a>
+<ul>
+<li class="chapter" data-level="8.3.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-design"><i class="fa fa-check"></i><b>8.3.1</b> Open Design</a></li>
+<li class="chapter" data-level="8.3.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-analysis"><i class="fa fa-check"></i><b>8.3.2</b> Open Analysis</a></li>
+<li class="chapter" data-level="8.3.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-publication"><i class="fa fa-check"></i><b>8.3.3</b> Open Publication</a></li>
+</ul></li>
+<li class="chapter" data-level="8.4" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#conclusion-1"><i class="fa fa-check"></i><b>8.4</b> Conclusion</a></li>
+<li class="chapter" data-level="8.5" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#references-2"><i class="fa fa-check"></i><b>8.5</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html"><i class="fa fa-check"></i><b>9</b> M3A: Using Projects and Scripts in R</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#introduction-5"><i class="fa fa-check"></i><b>9.1</b> Introduction</a></li>
+<li class="chapter" data-level="9.2" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#more-about-r-and-rstudio"><i class="fa fa-check"></i><b>9.2</b> More About R and RStudio</a></li>
+<li class="chapter" data-level="9.3" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#the-console-and-the-workspace"><i class="fa fa-check"></i><b>9.3</b> The Console and the Workspace</a></li>
+<li class="chapter" data-level="9.4" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#holding-onto-code"><i class="fa fa-check"></i><b>9.4</b> Holding Onto Code</a>
+<ul>
+<li class="chapter" data-level="9.4.1" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#rstudio-projects"><i class="fa fa-check"></i><b>9.4.1</b> RStudio Projects</a></li>
+<li class="chapter" data-level="9.4.2" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#using-scripts"><i class="fa fa-check"></i><b>9.4.2</b> Using Scripts</a></li>
+<li class="chapter" data-level="9.4.3" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#backing-up-your-project-folder"><i class="fa fa-check"></i><b>9.4.3</b> Backing Up Your Project Folder</a></li>
+</ul></li>
+<li class="chapter" data-level="9.5" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#conclusion-2"><i class="fa fa-check"></i><b>9.5</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html"><i class="fa fa-check"></i><b>10</b> M3C: Writing in R Markdown</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#introduction-6"><i class="fa fa-check"></i><b>10.1</b> Introduction</a></li>
+<li class="chapter" data-level="10.2" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#markdown-syntax"><i class="fa fa-check"></i><b>10.2</b> Markdown syntax</a>
+<ul>
+<li class="chapter" data-level="10.2.1" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#inline-formatting"><i class="fa fa-check"></i><b>10.2.1</b> Inline formatting</a></li>
+<li class="chapter" data-level="10.2.2" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#block-level-elements"><i class="fa fa-check"></i><b>10.2.2</b> Block-level elements</a></li>
+<li class="chapter" data-level="10.2.3" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#r-code-chunks"><i class="fa fa-check"></i><b>10.2.3</b> R code chunks</a></li>
+</ul></li>
+<li class="chapter" data-level="10.3" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#trying-out-r-markdown"><i class="fa fa-check"></i><b>10.3</b> Trying out R Markdown</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html"><i class="fa fa-check"></i><b>11</b> M4U: The Value of Open Data</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#introduction-7"><i class="fa fa-check"></i><b>11.1</b> Introduction</a></li>
+<li class="chapter" data-level="11.2" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#positivism-and-the-need-for-data"><i class="fa fa-check"></i><b>11.2</b> Positivism and the Need for Data</a></li>
+<li class="chapter" data-level="11.3" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#sharing-data"><i class="fa fa-check"></i><b>11.3</b> Sharing Data</a></li>
+<li class="chapter" data-level="11.4" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#sharing-data-and-privacy"><i class="fa fa-check"></i><b>11.4</b> Sharing Data and Privacy</a></li>
+<li class="chapter" data-level="11.5" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#how-to-share-data"><i class="fa fa-check"></i><b>11.5</b> How to Share Data</a></li>
+<li class="chapter" data-level="11.6" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#benefits-of-sharing-data"><i class="fa fa-check"></i><b>11.6</b> Benefits of Sharing Data</a></li>
+<li class="chapter" data-level="11.7" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#downsides-of-sharing-data"><i class="fa fa-check"></i><b>11.7</b> Downsides of Sharing Data</a></li>
+<li class="chapter" data-level="11.8" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#incentives-for-sharing-data"><i class="fa fa-check"></i><b>11.8</b> Incentives for Sharing Data</a></li>
+<li class="chapter" data-level="11.9" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#conclusion-3"><i class="fa fa-check"></i><b>11.9</b> Conclusion</a></li>
+<li class="chapter" data-level="11.10" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#references-3"><i class="fa fa-check"></i><b>11.10</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="module-4-application.html"><a href="module-4-application.html"><i class="fa fa-check"></i><b>12</b> Module 4 Application</a></li>
+<li class="chapter" data-level="13" data-path="module-4-connection.html"><a href="module-4-connection.html"><i class="fa fa-check"></i><b>13</b> Module 4 Connection</a></li>
+<li class="chapter" data-level="14" data-path="module-5-understanding.html"><a href="module-5-understanding.html"><i class="fa fa-check"></i><b>14</b> Module 5 Understanding</a></li>
+<li class="chapter" data-level="15" data-path="module-5-application.html"><a href="module-5-application.html"><i class="fa fa-check"></i><b>15</b> Module 5 Application</a></li>
+<li class="chapter" data-level="16" data-path="module-5-connection.html"><a href="module-5-connection.html"><i class="fa fa-check"></i><b>16</b> Module 5 Connection</a></li>
+<li class="chapter" data-level="17" data-path="module-6-understanding.html"><a href="module-6-understanding.html"><i class="fa fa-check"></i><b>17</b> Module 6 Understanding</a></li>
+<li class="chapter" data-level="18" data-path="module-6-application.html"><a href="module-6-application.html"><i class="fa fa-check"></i><b>18</b> Module 6 Application</a></li>
+<li class="chapter" data-level="19" data-path="module-6-connection.html"><a href="module-6-connection.html"><i class="fa fa-check"></i><b>19</b> Module 6 Connection</a></li>
+<li class="chapter" data-level="20" data-path="module-7-understanding.html"><a href="module-7-understanding.html"><i class="fa fa-check"></i><b>20</b> Module 7 Understanding</a></li>
+<li class="chapter" data-level="21" data-path="module-7-application.html"><a href="module-7-application.html"><i class="fa fa-check"></i><b>21</b> Module 7 Application</a></li>
+<li class="chapter" data-level="22" data-path="module-7-connection.html"><a href="module-7-connection.html"><i class="fa fa-check"></i><b>22</b> Module 7 Connection</a></li>
+<li class="chapter" data-level="23" data-path="module-8-understanding.html"><a href="module-8-understanding.html"><i class="fa fa-check"></i><b>23</b> Module 8 Understanding</a></li>
+<li class="chapter" data-level="24" data-path="module-8-application.html"><a href="module-8-application.html"><i class="fa fa-check"></i><b>24</b> Module 8 Application</a></li>
+<li class="chapter" data-level="25" data-path="module-8-connection.html"><a href="module-8-connection.html"><i class="fa fa-check"></i><b>25</b> Module 8 Connection</a></li>
+<li class="chapter" data-level="26" data-path="module-9-understanding.html"><a href="module-9-understanding.html"><i class="fa fa-check"></i><b>26</b> Module 9 Understanding</a></li>
+<li class="chapter" data-level="27" data-path="module-9-application.html"><a href="module-9-application.html"><i class="fa fa-check"></i><b>27</b> Module 9 Application</a></li>
+<li class="chapter" data-level="28" data-path="module-9-connection.html"><a href="module-9-connection.html"><i class="fa fa-check"></i><b>28</b> Module 9 Connection</a></li>
+<li class="chapter" data-level="29" data-path="module-10-understanding.html"><a href="module-10-understanding.html"><i class="fa fa-check"></i><b>29</b> Module 10 Understanding</a></li>
+<li class="chapter" data-level="30" data-path="module-10-application.html"><a href="module-10-application.html"><i class="fa fa-check"></i><b>30</b> Module 10 Application</a></li>
+<li class="chapter" data-level="31" data-path="module-10-connection.html"><a href="module-10-connection.html"><i class="fa fa-check"></i><b>31</b> Module 10 Connection</a></li>
+<li class="chapter" data-level="32" data-path="module-11-understanding.html"><a href="module-11-understanding.html"><i class="fa fa-check"></i><b>32</b> Module 11 Understanding</a></li>
+<li class="chapter" data-level="33" data-path="module-11-application.html"><a href="module-11-application.html"><i class="fa fa-check"></i><b>33</b> Module 11 Application</a></li>
+<li class="chapter" data-level="34" data-path="module-11-connection.html"><a href="module-11-connection.html"><i class="fa fa-check"></i><b>34</b> Module 11 Connection</a></li>
+<li class="chapter" data-level="35" data-path="module-12-understanding.html"><a href="module-12-understanding.html"><i class="fa fa-check"></i><b>35</b> Module 12 Understanding</a></li>
+<li class="chapter" data-level="36" data-path="module-12-application.html"><a href="module-12-application.html"><i class="fa fa-check"></i><b>36</b> Module 12 Application</a></li>
+<li class="chapter" data-level="37" data-path="module-12-connection.html"><a href="module-12-connection.html"><i class="fa fa-check"></i><b>37</b> Module 12 Connection</a></li>
+<li class="chapter" data-level="38" data-path="module-13-understanding.html"><a href="module-13-understanding.html"><i class="fa fa-check"></i><b>38</b> Module 13 Understanding</a></li>
+<li class="chapter" data-level="39" data-path="module-13-application.html"><a href="module-13-application.html"><i class="fa fa-check"></i><b>39</b> Module 13 Application</a></li>
+<li class="chapter" data-level="40" data-path="module-13-connection.html"><a href="module-13-connection.html"><i class="fa fa-check"></i><b>40</b> Module 13 Connection</a></li>
+<li class="chapter" data-level="41" data-path="module-14-understanding.html"><a href="module-14-understanding.html"><i class="fa fa-check"></i><b>41</b> Module 14 Understanding</a></li>
+<li class="chapter" data-level="42" data-path="module-14-application.html"><a href="module-14-application.html"><i class="fa fa-check"></i><b>42</b> Module 14 Application</a></li>
+<li class="chapter" data-level="43" data-path="module-14-connection.html"><a href="module-14-connection.html"><i class="fa fa-check"></i><b>43</b> Module 14 Connection</a></li>
+<li class="chapter" data-level="44" data-path="module-15-understanding.html"><a href="module-15-understanding.html"><i class="fa fa-check"></i><b>44</b> Module 15 Understanding</a></li>
+<li class="chapter" data-level="45" data-path="module-15-application.html"><a href="module-15-application.html"><i class="fa fa-check"></i><b>45</b> Module 15 Application</a></li>
+<li class="chapter" data-level="46" data-path="module-15-connection.html"><a href="module-15-connection.html"><i class="fa fa-check"></i><b>46</b> Module 15 Connection</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduction to Data Science</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="m4u-the-value-of-open-data" class="section level1 hasAnchor" number="11">
+<h1><span class="header-section-number">11</span> M4U: The Value of Open Data<a href="m4u-the-value-of-open-data.html#m4u-the-value-of-open-data" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This chapter draws on material from <a href="https://doi.org/10.1177/2332858418787466">Open Education Science</a> by <a href="https://scholar.google.com/citations?user=vsuJSN0AAAAJ">Tim van der Zee</a> and <a href="https://tsl.mit.edu/team/justin-reich/">Justin Reich</a>, licensed under <a href="https://www.creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.</p>
+<p>Changes to the source material include removal of original material, the addition of new material, combining of sources, and editing of original material for a different audience.</p>
+<p>The resulting content is licensed under <a href="https://www.creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.</p>
+<div id="introduction-7" class="section level2 hasAnchor" number="11.1">
+<h2><span class="header-section-number">11.1</span> Introduction<a href="m4u-the-value-of-open-data.html#introduction-7" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>This reading’s focus on open data is closely related to a previous reading’s focus on reproducibility, which means that there’s value in revisiting the idea of <em>paradigms</em>. I’ll use some different examples and language here, but you ought to be able to see how what I’ve written here connects with our previous discussion.</p>
+<p>A great way to remember what paradigms are and how they differ is to compare molecular biology (my spouse’s major in college) and French (my major in college). A professor of molecular biology (or of any of the other “hard sciences”) assumes that there is a predictable reality behind what they’re studying. That is, organic molecules work in particular, quasi-universal ways, and if you can figure that out, you can introduce established causes to bring about desired effects. This is often called a <em>positivist</em> paradigm, with “positivist” having connotations of “rational” and “data-driven.”</p>
+<p>In contrast, a professor of French (or any of the other disciplines in the humanities) assumes that what they’re studying is important, but largely arbitrary. French is decidedly not universal—it’s something that humans made up instead of discovered. Plus, it doesn’t apply to most humans and isn’t consistent across the humans that it does apply to (for example, French-speaking people from Switzerland count differently than French-speaking people from Canada—they can’t even agree on numbers). Thus, while you could try to talk about French in terms of cause and effect, most French professors are more interested in understanding and describing French than in predicting it. This is often called an <em>interpretivist</em> paradigm, underlining its focus on trying to understand humans’ semi-arbitrary meaning-making.</p>
+<p>In between the hard sciences and the humanities, there’s a large, important mega-discipline we can call the social sciences, which includes library and information sciences, technology studies, education research, and many applications of data science. There’s a fair bit of dispute within the social sciences about whether they ought to be modeled after the hard sciences (with a positivist paradigm) or the humanities (with an interpretivist paradigm—or one of a few others we haven’t covered here). That is, when we’re studying people and people-related phenomena, can we assume that there are quasi-universal laws that govern and therefore predict human behavior in the same way we can of atoms, chemicals, and molecules? Or, is it safer to assume that people’s behavior is context-dependent rather than universal and something to be understood rather than predicted?</p>
+<p>Based on what I’ve already shared, it shouldn’t surprise you that I am more of an interpretivist than a positivist—my research is much more interested in describing and understanding phenomena because I’m skeptical about the possibility or value of predicting human behavior. That said, I have a healthy respect for positivism, and I’ll be the first to admit that trying to determine cause and effect is more directly “useful” than trying to document contextual variations in human behavior. I prefer the interpretivist paradigm, but the fact is that we need positivist views, too.</p>
+</div>
+<div id="positivism-and-the-need-for-data" class="section level2 hasAnchor" number="11.2">
+<h2><span class="header-section-number">11.2</span> Positivism and the Need for Data<a href="m4u-the-value-of-open-data.html#positivism-and-the-need-for-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Even the most committed positivist will acknowledge that even if there are universal laws governing the behavior of atoms, bacteria, humans, or organizations, it can be tremendously difficult to determine what those laws are, especially since a lot of the easy stuff was figured out centuries or decades ago by folks like Newton, Mendel, and Curie.</p>
+<p>To identify a cause and effect relationship with a great degree of confidence requires a few things, including access to appropriate data. Appropriate data can cost a lot of money to gather, be difficult to gather, take a lot of time to gather, or all of the above. As we’ve touched on previously, modern information and communication technologies make it a lot easier to collect data than ever before, but just because one researcher has collected data doesn’t necessarily mean that they will share it with others. Many researchers—understandably—take the stance that “if I put all the effort into gathering this data, I’m not going to give it to others to analyze for free.”</p>
+<p>Nonetheless, governments and research funding agencies are increasingly requiring the scientists they fund to share their data as a condition of that funding. In parallel, work is being done to think more comprehensively about how to collect, manage, and share data in appropriate, responsible ways. These open science efforts overlap considerably with the push for reproducibility that we’ve already discussed; if there is a difference, I would describe it as a difference between quality and quantity.</p>
+<p>Reproducibility largely argues that:</p>
+<ol style="list-style-type: decimal">
+<li>testable science leads to better science,</li>
+<li>sharing scientific materials allows for testing science, and</li>
+<li>sharing scientific materials therefore makes for better science.</li>
+</ol>
+<p>Open science largely argues that</p>
+<ol style="list-style-type: decimal">
+<li>more science leads to better science,</li>
+<li>sharing data allows for more science, and</li>
+<li>sharing data therefore makes for better science.</li>
+</ol>
+<p>In general terms, I think that both of these arguments are sound and that locking down scientific data is morally questionable—however, we’ll see later that there are privacy issues closely connected with data sharing.</p>
+</div>
+<div id="sharing-data" class="section level2 hasAnchor" number="11.3">
+<h2><span class="header-section-number">11.3</span> Sharing Data<a href="m4u-the-value-of-open-data.html#sharing-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In this chapter, I will use the term <em>Open Data</em> to the practice of proactively sharing the data associated with a study (often along with materials, analysis code, and other important elements of a study, in the spirit of reproducibility) on a public repository such as GitHub, the <a href="https://osf.io/">Open Science Framework</a>, or others. Research data include all data that are collected or generated during scientific (or other) research. Although data science is chiefly concerned with <em>quantitative</em> data (that is, data in the form of numbers), many scientists will also share non-numeric <em>qualitative</em> data that they have collected, including texts, visual stimuli, interview transcripts, log data, diaries, and any other materials that were used or produced in a study.</p>
+<p>I mentioned above that there’s a great deal of overlap between open science efforts and reproducibility efforts, so there shouldn’t be any surprise that Open Data supports both! In line with the statement that scholarly work should be verifiable, Open Data is the philosophy that authors should, as much as is practical, make all the relevant data publicly available so they can be inspected, verified, reused, and further built on. That is, you might use someone else’s research data in order to check their work—or you might be researching something similar, so the fact that they’ve already collected relevant data is going to save you time and effort. There are strong scientific ideals underpinning both: The U.S. National Research Council (1997) stated that “Freedom of inquiry, the full and open availability of scientific data on an international basis, and the open publication of results are cornerstones of basic research” (p. 2).</p>
+</div>
+<div id="sharing-data-and-privacy" class="section level2 hasAnchor" number="11.4">
+<h2><span class="header-section-number">11.4</span> Sharing Data and Privacy<a href="m4u-the-value-of-open-data.html#sharing-data-and-privacy" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Sharing data is not a dichotomous issue: That is, it’s not a simple decision of “yes, I’m sharing my data” or “no, I’m not sharing my data.” Rather, researchers have to decide 1) what data to share 2) with whom and 3) when. Let’s look at some examples from the discipline of education, which is my professional background.</p>
+<p>In the U.S., the National Center for Education Statistics (NCES) makes a wide variety of data sets publicly available for policymakers and researchers. This is good news! For several years, I’ve done research on how teachers use social media, and a few years ago, I put my head together with some other researchers to collectively ask whether teachers’ Twitter use in different U.S. states might have a connection with what education looks like in those states. We had the Twitter data, but it would have been really difficult for the three of us (especially with our barely existent budget) to come up with meaningful measures of what education policy looked like across different states. Luckly, there were gobs of data just waiting for us to download and consider on the NCES website!</p>
+<p>However, it’s not hard to imagine educational data that shouldn’t be available for any researcher who wants it. Examples related to the National Assessment of Education Progress (a regular assessment of what students in the United States know) demonstrate the need to balance privacy and opennness.</p>
+<p>For example, school-level data (which contain no personally identifiable information) are made easily accessible through public data sets. In contrast, student-level data are maintained with far stricter guidelines for accessibility and use—as they should be. However, statistical summaries, documentation of data collection methods, and codebooks of data are made easily and widely available.</p>
+</div>
+<div id="how-to-share-data" class="section level2 hasAnchor" number="11.5">
+<h2><span class="header-section-number">11.5</span> How to Share Data<a href="m4u-the-value-of-open-data.html#how-to-share-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The most common approach to open data is simply making data “available on request.” A scientist mentions somewhere that they’ve collected some interesting data and asks people to get in touch with them if they want access to it.</p>
+<p>However, this approach simply doesn’t work. In one study, researchers requested data from 140 authors with articles published in journals that required authors to share data on request, but only 25.7% of these data sets were actually shared (Wicherts, Borsboom, Kats, &amp; Molenaar, 2006). What is even more worrying is that reluctance to share data is associated with weaker evidence and a higher prevalence of apparent errors in the reporting of statistical results (Wicherts, Bakker, &amp; Molenaar, 2011). To increase the transparency of research, data should be shared proactively on a publicly accessible repository. GitHub can—and is—used for this, but other services are better equipped for it.</p>
+<p>Long-term and discoverable storage is advisable for data that are unique (i.e., can be produced just once) or that involved a considerable amount of resources to generate. These features are often true for qualitative and quantitative data alike. The value of shared data depends on quality of its documentation. Simply placing a data set online somewhere, without any explanation of its content, structure, and origin, is of limited value. A critical aspect of Open Data is ensuring that research data are findable (in a certified repository) as well as clearly documented by metadata and process documents (this is why GitHub, which doesn’t explicitly support this, isn’t as good for this sort of thing).</p>
+<p>In case research data cannot be shared at all, due to privacy issues or legal requirements, it is typically still possible to at least share metadata: information about the scope, structure, and content of the data set. For example, even though I’m generally excited about the idea of open science, I’m generally reluctant to share my Twitter data. For example, in the study I described above, we didn’t ask teachers for permission to collect their tweets before I studied them; that seems to me like a (perhaps justifiable) violation of privacy, so it’s important to me to protect these teachers’ privacy in other ways. So, I would never share the full set of data that I have, but when my co-authors and I did publish on this, we shared a summary of the data that leaves out any individual-level considerations.</p>
+<p>In addition, researchers can share “process documents,” which outline how, when, and where the data were collected and processed. In both cases (metadata and process documentation), transparency can be increased even when the research data themselves are not shared. New data-sharing repositories like <a href="https://dataverse.org/">Dataverse</a> allow institutions or individual researchers to create data projects and share different elements of that project under different requirements so that some elements are accessible publicly and others require data use agreements (King, 2007).</p>
+</div>
+<div id="benefits-of-sharing-data" class="section level2 hasAnchor" number="11.6">
+<h2><span class="header-section-number">11.6</span> Benefits of Sharing Data<a href="m4u-the-value-of-open-data.html#benefits-of-sharing-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Open Data can improve the scientific process both during and after publication, in keeping with the connections to reproducibility and open science that we’ve made earlier.</p>
+<p>Without access to the data underlying a paper that is to be reviewed, peer reviewers are substantially hindered in their ability to assess the evidential value of the claims. Allowing reviewers to audit statistical calculations will have a positive effect on reducing the number of calculation errors, unsupported claims, and erroneous descriptive statistics that are later found in the published literature (Nuijten, Hartgerink, van Assen, Epskamp, &amp; Wicherts, 2016; Van der Zee, Anaya, &amp; Brown, 2017).</p>
+<p>Open Data also enables secondhand analyses and increases the value of gathering data, which require direct access to the data and cannot be performed using only the summary statistics typically presented in a paper. Data collection can be a lengthy and costly process, which makes it economically wasteful to not share this valuable commodity. Open Data is a research accelerator that can speed up the process of establishing new important findings (Pisani et al., 2016; Woelfle, Olliaro, &amp; Todd, 2011).</p>
+</div>
+<div id="downsides-of-sharing-data" class="section level2 hasAnchor" number="11.7">
+<h2><span class="header-section-number">11.7</span> Downsides of Sharing Data<a href="m4u-the-value-of-open-data.html#downsides-of-sharing-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Perhaps the strongest objection to Open Data sharing concerns issues of privacy protection. Safeguarding the identity and other valuable information of research participants is of utmost importance and takes priority over data sharing, but these are not mutually exclusive endeavors. Sharing data is not a binary decision, and there is a growing body of research around differential privacy that suggests a variegated approach to data sharing (Daries et al., 2014; Gaboardi et al., 2016; Wood et al., 2014).</p>
+<p>Even when a data set cannot be shared publicly in its entirety, it may be possible to share de-identified data or, as a minimum, information about the shape and structure of the data (i.e., meta-data). Daries et al. (2014) provided one case study of a de-identified data set from MOOC learners, which was too “blurred” for accurately estimating distributions or correlations about the population but could provide useful insights about the structure of the data set and opportunities for hypothesis generation. However, it should also be noted that it is sometimes easier to “re-identify” data than people think—especially in the world of big data</p>
+<blockquote>
+<p>According to a paper … in Scientific Reports … <a href="m1a-install-r-and-rstudio.html#r">r</a>esearchers at MIT and the Université Catholique de Louvain, in Belgium, analyzed data on 1.5 million cellphone users in a small European country over a span of 15 months and found that just four points of reference, with fairly low spatial and temporal resolution, was enough to uniquely identify 95 percent of them.</p>
+<p>In other words, to extract the complete location information for a single person from an “anonymized” data set of more than a million people, all you would need to do is place him or her within a couple of hundred yards of a cellphone transmitter, sometime over the course of an hour, four times in one year. A few Twitter posts would probably provide all the information you needed, if they contained specific information about the person’s whereabouts. (Hardesty, 2013)</p>
+</blockquote>
+<p>For textual data, such as transcripts from interviews and other forms of qualitative research, there are tools that allow researchers to quickly de-identify large bodies of texts, but textual data can also be deeply personal, so I’d personally have misgivings about sharing that data with others.</p>
+<p>Even when a whole data set cannot be shared, subsets might be shareable to provide more insight into coding techniques or other analytic approaches. Privacy concerns should absolutely shape decisions about what researchers choose to share, and researchers should pay particular attention to implications for informed consent and data collection practices, but research into differential privacy shows that openness and privacy can be balanced in thoughtful ways.</p>
+<p>Another concern with data sharing is “scooping” and problems with how research production is incentivized. Researchers are often under a lot of pressure to produce a lot of research, and research is nearly always judged on whether it contributes something new to human understanding. So, sharing your own data could potentially allow someone else to do an analysis that you were hoping to publish, and I don’t blame people for worrying about that. Furthermore, data scientists often work in the corporate world, and companies are probably even more protective of their data, since they don’t want competitors to see it.</p>
+<p>However, it’s also possible to go too far with this concern. For example, in an editorial in the New England Journal of Medicine, Longo and Drazen (2016) stated that: “There is concern among some front-line researchers that the system will be taken over by what some researchers have characterized as ‘research parasites’” (para. 3). Specifically, these authors were concerned that scholars might “parasitically” use data gathered by others; they suggested that data should instead be shared “symbiotically,” for example by demanding that the original researchers will be given co-author status on all papers that use data gathered by them. This editorial, and especially the framing of scholars as “parasites” for reusing valuable data, sparked considerable discussion. In fact, this discussion resulted in the “Research Parasite Award,” which reclaimed the derisive reference in the service of genuinely celebrating rigorous secondary analysis.</p>
+</div>
+<div id="incentives-for-sharing-data" class="section level2 hasAnchor" number="11.8">
+<h2><span class="header-section-number">11.8</span> Incentives for Sharing Data<a href="m4u-the-value-of-open-data.html#incentives-for-sharing-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>These concerns—and their connection to how scientific research works—demonstrates the need to provide incentives for sharing data. The U.S. National Research Council (1997) has argued: “The value of data lies in their use. Full and open access to scientific data should be adopted as the international norm for the exchange of scientific data derived from publicly funded research” (p. 10).</p>
+<p>There are various ways to make better use of the data that we have already generated, such as data sets with persistent identifiers, so they can be properly cited by whoever has reused the data. This way, the data collectors continue to benefit from sharing their data as they will be repeatedly cited and have proof of how their data have been fundamental to others’ research. There is evidence that Open Data increase citation rates (Piwowar, Day, &amp; Fridsma, 2007), and other institutional actors could play a role in elevating the status of Open Data.</p>
+<p>An increasing number of academic journals have started to award special badges that will be shown on a paper that is accompanied by publicly available data in an Open Access repository. Journal policies can also have a strong positive effect on the prevalence of Open Data (Nuijten et al., 2017). Scholarly societies and research foundations could create new awards for the contribution of valuable data sets in education research. Perhaps most importantly, promotion and tenure committees in universities should recognize the value of contributing data sets to the public good and ensure that young scholars can be recognized for those contributions.</p>
+</div>
+<div id="conclusion-3" class="section level2 hasAnchor" number="11.9">
+<h2><span class="header-section-number">11.9</span> Conclusion<a href="m4u-the-value-of-open-data.html#conclusion-3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Open data is an important component of the data science community, and it’s also important for supporting reproducibility and advancing science. Like other components of reproducibility, the value of open data emerges from a particular set of assumptions about how science works, and other scientific perspectives can help raise concerns about privacy and other issues. Nonetheless, so long as it is done responsibly, sharing data is a good and important thing.</p>
+</div>
+<div id="references-3" class="section level2 hasAnchor" number="11.10">
+<h2><span class="header-section-number">11.10</span> References<a href="m4u-the-value-of-open-data.html#references-3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Daries, J. P., Reich, J., Waldo, J., Young, E. M., Whittinghill, J., Ho, A. D., . . . Chuang, I. (2014). Privacy, anonymity, and big data in the social sciences. <em>Communications of the ACM</em>, <em>57</em>(9),
+56–63. <a href="https://doi.org/10.1145/2643132" class="uri">https://doi.org/10.1145/2643132</a></p>
+<p>Gaboardi, M., Honaker, J., King, G., Nissim, K., Ullman, J., &amp; Vadhan, S. (2016). <em>PSI: A private data sharing interface</em>. Retrieved from <a href="https://arxiv.org/abs/1609.04340" class="uri">https://arxiv.org/abs/1609.04340</a></p>
+<p>Hardesty, L. (2013). How hard is it to ‘de-anonymize’ cellphone data? <em>MIT News</em>. <a href="https://news.mit.edu/2013/how-hard-it-de-anonymize-cellphone-data" class="uri">https://news.mit.edu/2013/how-hard-it-de-anonymize-cellphone-data</a></p>
+<p>King, G. (2007). An introduction to the dataverse network as an infrastructure for data sharing. <em>Sociological Methods &amp; Research</em>, <em>36</em>(2), 173-199. <a href="https://doi.org/10.1177/0049124107306660" class="uri">https://doi.org/10.1177/0049124107306660</a></p>
+<p>Longo, D. L., &amp; Drazen, J. M. (2016). Data sharing. <em>New England Journal of Medicine</em>, <em>374</em>(3). <a href="https://doi.org/10.1056/NEJMe1516564" class="uri">https://doi.org/10.1056/NEJMe1516564</a></p>
+<p>National Research Council. (1997). <em>Bits of power: Issues in global access to scientific data</em>. Washington, DC: National Academy Press.</p>
+<p>Nuijten, M. B., Borghuis, J., Veldkamp, C. L. S., Alvarez, L. D., van Assen, M. A. L. M., &amp; Wicherts, J. M. (2017, July 13). <em>Journal data sharing policies and statistical reporting inconsistencies in psychology</em>. Retrieved from <a href="https://osf.io/preprints/psyarxiv/sgbta" class="uri">https://osf.io/preprints/psyarxiv/sgbta</a></p>
+<p>Nuijten, M. B., Hartgerink, C. H., van Assen, M. A., Epskamp, S., &amp; Wicherts, J. M. (2016). The prevalence of statistical reporting errors in psychology (1985–2013). <em>Behavior Research Methods</em>, <em>48</em>(4), 1205–1226. <a href="https://doi.org/10.3758/s13428-015-0664-2" class="uri">https://doi.org/10.3758/s13428-015-0664-2</a></p>
+<p>Piwowar, H. A., Day, R. S., &amp; Fridsma, D. B. (2007). Sharing detailed research data is associated with increased citation rate. <em>PloS One</em>, <em>2</em>(3), e308. <a href="https://doi.org/10.1371/journal.pone.0000308" class="uri">https://doi.org/10.1371/journal.pone.0000308</a></p>
+<p>Pisani, E., Aaby, P., Breugelmans, J. G., Carr, D., Groves, T., Helinski, M., . . . Mboup, S. (2016). Beyond open data: Realising the health benefits of sharing data. <em>BMJ</em>, 355. <a href="https://doi.org/10.1136/bmj.i5295" class="uri">https://doi.org/10.1136/bmj.i5295</a></p>
+<p>Van der Zee, T., Anaya, J., &amp; Brown, N. J. L. (2017). Statistical heartburn: An attempt to digest four pizza publications from the Cornell Food and Brand Lab. <em>BMC Nutrition</em>, <em>3</em>(54). <a href="https://doi.org/10.1186/s40795-017-0167-x" class="uri">https://doi.org/10.1186/s40795-017-0167-x</a></p>
+<p>Wicherts, J. M., Bakker, M., &amp; Molenaar, D. (2011). Willingness to share research data is related to the strength of the evidence and the quality of reporting of statistical results. <em>PloS One</em>, <em>6</em>(11), e26828. <a href="https://doi.org/10.1371/journal.pone.0026828" class="uri">https://doi.org/10.1371/journal.pone.0026828</a></p>
+<p>Wicherts, J. M., Borsboom, D., Kats, J., &amp; Molenaar, D. (2006). The poor availability of psychological research data for reanalysis. <em>American Psychologist</em>, <em>61</em>(7), 726–728. <a href="https://doi.org/10.1037/0003-066X.61.7.726" class="uri">https://doi.org/10.1037/0003-066X.61.7.726</a></p>
+<p>Woelfle, M., Olliaro, P., &amp; Todd, M. H. (2011). Open science is a research accelerator. <em>Nature Chemistry</em>, <em>3</em>(10), 745–748. <a href="https://doi.org/10.1038/nchem.1149" class="uri">https://doi.org/10.1038/nchem.1149</a></p>
+<p>Wood, A., O’Brien, D., Altman, M., Karr, A., Gasser, U., Bar- Sinai, M., . . . Wojcik, M. J. (2014). <em>Integrating approaches to privacy across the research lifecycle: Long-term longitudinal studies</em>. Retrieved from <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2469848" class="uri">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2469848</a></p>
+
+</div>
+</div>
+<script src="https://hypothes.is/embed.js" async></script>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="m3c-writing-in-r-markdown.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="module-4-application.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

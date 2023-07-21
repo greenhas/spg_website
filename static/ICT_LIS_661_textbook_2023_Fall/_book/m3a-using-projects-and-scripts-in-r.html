@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>9 M3A: Using Projects and Scripts in R | Introduction to Data Science</title>
   <meta name="description" content="9 M3A: Using Projects and Scripts in R | Introduction to Data Science" />
-  <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
 
   <meta property="og:title" content="9 M3A: Using Projects and Scripts in R | Introduction to Data Science" />
   <meta property="og:type" content="book" />
@@ -118,10 +118,6 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
-<style type="text/css">
-  
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-</style>
 
 </head>
 
@@ -181,7 +177,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="6.5.2" data-path="getting-started.html"><a href="getting-started.html#flights-data-frame"><i class="fa fa-check"></i><b>6.5.2</b> <code>flights</code> data frame</a></li>
 <li class="chapter" data-level="6.5.3" data-path="getting-started.html"><a href="getting-started.html#exploredataframes"><i class="fa fa-check"></i><b>6.5.3</b> Exploring data frames</a></li>
 <li class="chapter" data-level="6.5.4" data-path="getting-started.html"><a href="getting-started.html#identification-vs-measurement-variables"><i class="fa fa-check"></i><b>6.5.4</b> Identification and measurement variables</a></li>
-<li class="chapter" data-level="6.5.5" data-path="getting-started.html"><a href="getting-started.html#help-files"><i class="fa fa-check"></i><b>6.5.5</b> Help files</a></li>
 </ul></li>
 <li class="chapter" data-level="6.6" data-path="getting-started.html"><a href="getting-started.html#conclusion"><i class="fa fa-check"></i><b>6.6</b> Conclusion</a></li>
 </ul></li>
@@ -232,8 +227,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="10" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html"><i class="fa fa-check"></i><b>10</b> M3C: Writing in R Markdown</a>
 <ul>
 <li class="chapter" data-level="10.1" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#introduction-6"><i class="fa fa-check"></i><b>10.1</b> Introduction</a></li>
+<li class="chapter" data-level="10.2" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#markdown-syntax"><i class="fa fa-check"></i><b>10.2</b> Markdown syntax</a>
+<ul>
+<li class="chapter" data-level="10.2.1" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#inline-formatting"><i class="fa fa-check"></i><b>10.2.1</b> Inline formatting</a></li>
+<li class="chapter" data-level="10.2.2" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#block-level-elements"><i class="fa fa-check"></i><b>10.2.2</b> Block-level elements</a></li>
+<li class="chapter" data-level="10.2.3" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#r-code-chunks"><i class="fa fa-check"></i><b>10.2.3</b> R code chunks</a></li>
 </ul></li>
-<li class="chapter" data-level="11" data-path="module-4-understanding.html"><a href="module-4-understanding.html"><i class="fa fa-check"></i><b>11</b> Module 4 Understanding</a></li>
+<li class="chapter" data-level="10.3" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#trying-out-r-markdown"><i class="fa fa-check"></i><b>10.3</b> Trying out R Markdown</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html"><i class="fa fa-check"></i><b>11</b> M4U: The Value of Open Data</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#introduction-7"><i class="fa fa-check"></i><b>11.1</b> Introduction</a></li>
+<li class="chapter" data-level="11.2" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#positivism-and-the-need-for-data"><i class="fa fa-check"></i><b>11.2</b> Positivism and the Need for Data</a></li>
+</ul></li>
 <li class="chapter" data-level="12" data-path="module-4-application.html"><a href="module-4-application.html"><i class="fa fa-check"></i><b>12</b> Module 4 Application</a></li>
 <li class="chapter" data-level="13" data-path="module-4-connection.html"><a href="module-4-connection.html"><i class="fa fa-check"></i><b>13</b> Module 4 Connection</a></li>
 <li class="chapter" data-level="14" data-path="module-5-understanding.html"><a href="module-5-understanding.html"><i class="fa fa-check"></i><b>14</b> Module 5 Understanding</a></li>
@@ -301,7 +307,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="more-about-r-and-rstudio" class="section level2 hasAnchor" number="9.2">
 <h2><span class="header-section-number">9.2</span> More About R and RStudio<a href="m3a-using-projects-and-scripts-in-r.html#more-about-r-and-rstudio" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Begin this walkthrough by starting RStudio. By way of reminder, as you open up the program, you should see something similar to Figure <a href="m3a-using-projects-and-scripts-in-r.html#fig:RStudio-interface-2">9.1</a>.</p>
-<div class="figure"><span style="display:block;" id="fig:RStudio-interface-2"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:RStudio-interface-2"></span>
 <img src="images/rstudio_screenshots/rstudio.png" alt="RStudio interface to R." width="93%" />
 <p class="caption">
 Figure 9.1: RStudio interface to R.
@@ -315,52 +321,58 @@ Figure 9.1: RStudio interface to R.
 </ul>
 <p>Let’s spend some more time in the Console, which is where we interact with the live R process.</p>
 <p>The following code tells R to assign the result of <code>3 * 4</code> (that is, 3 times 4) to an <em>object</em> called <code>x</code> and then asks R to “inspect” the object (that is, retrieve its contents). Go ahead and run it on your own:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb1-1" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="dv">3</span> <span class="sc">*</span> <span class="dv">4</span></span>
-<span id="cb1-2"><a href="m3a-using-projects-and-scripts-in-r.html#cb1-2" tabindex="-1"></a>x</span></code></pre></div>
-<pre><code>## [1] 12</code></pre>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb14-1" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="dv">3</span> <span class="sc">*</span> <span class="dv">4</span></span>
+<span id="cb14-2"><a href="m3a-using-projects-and-scripts-in-r.html#cb14-2" tabindex="-1"></a>x</span></code></pre></div>
+<pre><code>[1] 12</code></pre>
 <p>All R statements where you create object —“assignments”—have this form: <code>objectName &lt;- value</code>. It is technically possible to use <code>=</code> to make assignments, too, but it’s a pretty bad idea, for reasons we don’t need to go into here. Yes, it takes a bit more effort, but always make assignments with <code>&lt;-</code>.</p>
 <p>Object names cannot start with a digit and cannot contain certain other characters such as a comma or a space. It’s important to get into good habits with naming your objects. Many people use some kind of regular pattern in naming objects with multiple words: <code>i_use_snake_case</code>, <code>other.people.use.periods</code>, and <code>evenOthersUseCamelCase</code></p>
 <p>Make another assignment by running this code:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb3-1" tabindex="-1"></a>this_is_a_really_long_name <span class="ot">&lt;-</span> <span class="fl">2.5</span></span></code></pre></div>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb16-1" tabindex="-1"></a>this_is_a_really_long_name <span class="ot">&lt;-</span> <span class="fl">2.5</span></span></code></pre></div>
 <p>To inspect this object, try out RStudio’s completion facility: type the first few characters of <code>this_is_a_really_long_name</code>, press TAB, add characters until you disambiguate, then press return.</p>
 <p>Now, make another assignment:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb4-1" tabindex="-1"></a>stromae_rocks <span class="ot">&lt;-</span> <span class="dv">2</span> <span class="sc">^</span> <span class="dv">3</span></span></code></pre></div>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb17-1" tabindex="-1"></a>stromae_rocks <span class="ot">&lt;-</span> <span class="dv">2</span> <span class="sc">^</span> <span class="dv">3</span></span></code></pre></div>
 <p>What happens if we try to run the following code to inspect our new object?</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb5-1" tabindex="-1"></a>stromaerocks</span></code></pre></div>
-<pre><code>## Error in eval(expr, envir, enclos): object &#39;stromaerocks&#39; not found</code></pre>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb18-1" tabindex="-1"></a>stromaerocks</span></code></pre></div>
+<pre><code>Error in eval(expr, envir, enclos): object &#39;stromaerocks&#39; not found</code></pre>
 <p>There’s an implicit contract when you work with a scripting language like R: The computer will do tedious computation for you, but you must be completely precise in your instructions. Typos matter. Case matters. Details matter. I am always happy to help you troubleshoot, but <em>please</em> make sure that you’ve checked the details of your code first. It’s amazing how often errors come down to mistyping something.</p>
 <p>R has a mind-blowing collection of built-in functions that are accessed like so: <code>functionName(argument1 = value1, argument2 = value2, and so on)</code>. The details look different from function to function, but they typically follow this pattern.</p>
 <p>Let’s try functions using <code>seq()</code>, which makes regular sequences of numbers. While we’re at it, we’ll demo more helpful features of RStudio.</p>
 <p>Type <code>se</code> and hit TAB. A pop up shows you possible completions. Specify <code>seq()</code> by typing more to disambiguate or using the up/down arrows to select. Notice the floating tool-tip-type help that pops up, reminding you of a function’s arguments. If you want even more help, press F1 as directed to get the full documentation in the help tab of the lower right pane. As we saw earlier, you can also run a function with a <code>?</code> in front of it (for example, <code>?seq()</code>) to bring up the same help documentation.</p>
 <p>Now type the open parenthesis (<code>(</code>) and notice the automatic addition of the closing parenthesis and the placement of cursor in the middle. Type the arguments <code>1, 10</code> and hit return. RStudio also exits the parenthetical expression for you. These little features are the things that can make RStudio really useful (though I’ll also admit that they sometimes get in the way, too).</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb7-1" tabindex="-1"></a><span class="fu">seq</span>(<span class="dv">1</span>, <span class="dv">10</span>)</span></code></pre></div>
-<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb20-1" tabindex="-1"></a><span class="fu">seq</span>(<span class="dv">1</span>, <span class="dv">10</span>)</span></code></pre></div>
+<pre><code> [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
 <p>Note that even though we ran this function, we didn’t assign the results to an object. That means that we can see the results in the Console, but we won’t be able to retrieve them later! If we want to hold onto the results of a function, we need to assign it to an object.</p>
 <p>Make this assignment and notice that RStudio helps with quotation marks in the same way that it helps with parentheses.</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb9-1" tabindex="-1"></a>yo <span class="ot">&lt;-</span> <span class="st">&quot;hello world&quot;</span></span></code></pre></div>
+<div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb22-1" tabindex="-1"></a>yo <span class="ot">&lt;-</span> <span class="st">&quot;hello world&quot;</span></span></code></pre></div>
 <p>If you just make an assignment, you don’t get to see the value, so then you’re tempted to immediately inspect.</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb10-1" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">1</span>, <span class="dv">10</span>)</span>
-<span id="cb10-2"><a href="m3a-using-projects-and-scripts-in-r.html#cb10-2" tabindex="-1"></a>y</span></code></pre></div>
-<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb23-1" tabindex="-1"></a>y <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">1</span>, <span class="dv">10</span>)</span>
+<span id="cb23-2"><a href="m3a-using-projects-and-scripts-in-r.html#cb23-2" tabindex="-1"></a>y</span></code></pre></div>
+<pre><code> [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
 <p>This common action can be shortened by surrounding the assignment with parentheses, which causes assignment and “print to screen” to happen.</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb12-1" tabindex="-1"></a>(y <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">1</span>, <span class="dv">10</span>))</span></code></pre></div>
-<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb25-1" tabindex="-1"></a>(y <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">1</span>, <span class="dv">10</span>))</span></code></pre></div>
+<pre><code> [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
 <p>Not all functions have (or require) arguments:</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb14-1" tabindex="-1"></a><span class="fu">date</span>()</span></code></pre></div>
-<pre><code>## [1] &quot;Fri Jul 21 14:00:18 2023&quot;</code></pre>
+<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb27-1" tabindex="-1"></a><span class="fu">date</span>()</span></code></pre></div>
+<pre><code>[1] &quot;Fri Jul 21 16:45:48 2023&quot;</code></pre>
 <p>Now look at your workspace in the upper right Environment pane. The workspace is where user-defined objects accumulate. You ought to see all of the objects that we’ve created so far in this walkthrough. You can also get a listing of these objects with commands:</p>
-<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb16-1" tabindex="-1"></a><span class="fu">objects</span>()</span></code></pre></div>
-<pre><code>## [1] &quot;stromae_rocks&quot;              &quot;this_is_a_really_long_name&quot;
-## [3] &quot;x&quot;                          &quot;y&quot;                         
-## [5] &quot;yo&quot;</code></pre>
-<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb18-1" tabindex="-1"></a><span class="fu">ls</span>()</span></code></pre></div>
-<pre><code>## [1] &quot;stromae_rocks&quot;              &quot;this_is_a_really_long_name&quot;
-## [3] &quot;x&quot;                          &quot;y&quot;                         
-## [5] &quot;yo&quot;</code></pre>
+<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb29-1" tabindex="-1"></a><span class="fu">objects</span>()</span></code></pre></div>
+<pre><code> [1] &quot;chap&quot;                       &quot;flights_cols&quot;              
+ [3] &quot;flights_rows&quot;               &quot;lc&quot;                        
+ [5] &quot;needed_CRAN_pkgs&quot;           &quot;new_pkgs&quot;                  
+ [7] &quot;stromae_rocks&quot;              &quot;this_is_a_really_long_name&quot;
+ [9] &quot;x&quot;                          &quot;y&quot;                         
+[11] &quot;yo&quot;                        </code></pre>
+<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb31-1" tabindex="-1"></a><span class="fu">ls</span>()</span></code></pre></div>
+<pre><code> [1] &quot;chap&quot;                       &quot;flights_cols&quot;              
+ [3] &quot;flights_rows&quot;               &quot;lc&quot;                        
+ [5] &quot;needed_CRAN_pkgs&quot;           &quot;new_pkgs&quot;                  
+ [7] &quot;stromae_rocks&quot;              &quot;this_is_a_really_long_name&quot;
+ [9] &quot;x&quot;                          &quot;y&quot;                         
+[11] &quot;yo&quot;                        </code></pre>
 <p>If you want to remove the object named <code>y</code>, you can do this:</p>
-<div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb20-1" tabindex="-1"></a><span class="fu">rm</span>(y)</span></code></pre></div>
+<div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb33-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb33-1" tabindex="-1"></a><span class="fu">rm</span>(y)</span></code></pre></div>
 <p>To remove everything:</p>
-<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb21-1" tabindex="-1"></a><span class="fu">rm</span>(<span class="at">list =</span> <span class="fu">ls</span>())</span></code></pre></div>
+<div class="sourceCode" id="cb34"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb34-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb34-1" tabindex="-1"></a><span class="fu">rm</span>(<span class="at">list =</span> <span class="fu">ls</span>())</span></code></pre></div>
 <p>You can also click the broom in RStudio’s Environment pane to remove everything. Sometimes this is helpful when troubleshooting code.</p>
 </div>
 <div id="the-console-and-the-workspace" class="section level2 hasAnchor" number="9.3">
@@ -470,6 +482,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
