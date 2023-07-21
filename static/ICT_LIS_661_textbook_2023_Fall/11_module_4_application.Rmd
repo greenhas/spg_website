@@ -1,1 +1,25 @@
-# Module 4 Application
+# M4A: Find a Dataset Relevant To You
+
+## Introduction
+
+*Connection* activities play a big part in this class. Understanding and application of data science are both great, but neither is very useful if you can't bring them into a specific situation and make them work for you. With that in mind, most future connection activities (and all of your projects) are going to expect that you have access to a data set that you feel a personal or professional connection to. Ideally, you'd find a data set that is connected to your (present, past, or hoped-for future) professional context, whether that's retrieved from your workplace (with permission, of course) or at least contextually relevant. However, I've also enjoyed seeing 661 students work with personally meaningful datasets related to Pokémon, Spotify, sports, or other interests. While I'm going to encourage you to pick something professionally relevant, the most important thing is that you work with something interesting. 
+
+This activity is all about finding one such relevant data set. If you find a solid data set today (one that meets the explicit and implicit requirements of projects and activities), you may be able to stick with it throughout the rest of the semester. However, if you get bored with a data set—or realize that your go-to data set won't work for a particular activity—you can always find something else. 
+
+## Signs of a Good Dataset
+
+Before we get into the details, here are some important characteristics you'll want to look for in data sets:
+
+* at least 100 observations and 5 variables
+  * depending on the activity, you'll probably want at least 5 quantitative variables (i.e., numbers); other variables are great, but they aren't compatible with a lot of the statistical techniques we'll be talking about
+  * although we challenge this idea in our class, more data is often better from a statistical point of view; if you can find a dataset with at least 1,000 observations and 10 variables, that will probably make things easier for you
+* stored in a spreadsheet file format
+  * personally, I prefer `.csv`; I find it easier to work with, and it's standard in data science circles
+  * `.xsl` and `.xslx` Excel spreadsheets are also common and supported by data import functions; however, I'll be focusing on `.csv` when providing assistance, so you will either have to do some extra research to adapt my code, or you'll want to convert your spreadsheet to `.csv` 
+* "tidy" data
+  * if you can find datasets that advertise themselves as tidy (1 observation per row, 1 variable per column), that will probably save you some hassle
+  
+## Finding a Good Dataset
+
+Okay, now for the finding! There are plenty of sources for interesting data on the internet. The [Kaggle collection of datasets](https://www.kaggle.com/datasets) is full of freely-available data ranging from the serious to the silly. It's a great place to look if you don't know where else to go. Governments of all kinds and sizes also collect data: You might search for federal, state, or local collections of "open data" if you think there might be something interesting for you there. A workplace is a good place to check for data so long as you can be sure that you have permission to do so. Finally, there are a lot of datasets associated with R packages. You can do some searching for one of those right now or pay close attention to the ones that we meet over the next few weeks; you might find one that you want to return to!
+
