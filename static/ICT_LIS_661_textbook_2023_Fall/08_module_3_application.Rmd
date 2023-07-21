@@ -140,7 +140,7 @@ A better use of your time and psychic energy is to keep your "good" R code in a 
 
 The rest of this walkthrough will demonstrate how to write code in a way that lets you hold onto it later. This can be really helpful for you (for example, when you want to adapt code from a class activity for one of your projects), and it's also really helpful for me (for example, when I want to see all the code you ran when helping you troubleshoot an activity).
 
-## RStudio Projects
+### RStudio Projects
 
 Keeping all the files associated with a project organized together—input data, R scripts, analytical results, figures—is such a wise and common practice that RStudio has built-in support for this.
 
@@ -160,10 +160,14 @@ Running code within a script file works differently than running it in the conso
 
 Make sure to save your scripts and other files regularly! However, unlike cloud services like Dropbox or Google Drive, simply saving a file to your project folder is not sufficient to sync it to GitHub. At regular intervals, you should open GitHub Desktop, navigate to your project repository, and click the button in the top right corner (which will read either *Fetch origin* or *Pull origin*—if, after clicking *Fetch origin*, it now reads *Pull origin*, you'll want to click it again). If I've made changes to your repository, those changes will now sync to your local files. Then, if there are changed files in the appropriate window of the interface, you should enter a *Summary* in the appropriate field, click the *Commit* button, and then click *Push* origin in the top-right corner. It's not until you've successfully pushed your files to GitHub that they are backed up and available for me to request and review!
 
+It's important to note Git and GitHub are notorious for running into syncing issues. We are using it lightly enough that I don't expect to run into anything major, but please don't hesitate to reach out if you run into something you can't solve on your own!
+
+## Conclusion 
+
 When helping you figure out an issue you're having with code, I will usually *insist* on getting access to your data and scripts through your GitHub repository and will usually *not* look over scripts and data that you send me via email. This means that you need to be in the habit of:
 
 * saving your code to scripts,
 * saving your scripts to your project folder, and
 * backing up your project folder through GitHub.
 
-It's important to note Git and GitHub are notorious for running into syncing issues. We are using it lightly enough that I don't expect to run into anything major, but please don't hesitate to reach out if you run into something you can't solve on your own!
+Please get into this habit early—it will be helpful for you throughout the semester and *even more* helpful for any data science work you do after this class.

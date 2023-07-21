@@ -104,3 +104,14 @@ module-14-connection
 module-15-understanding
 module-15-application
 module-15-connection
+help-files
+conclusion-2
+m3c
+m3c-writing-in-r-markdown
+introduction-6
+markdown-syntax
+inline-formatting
+block-level-elements
+r-code-chunks
+section
+trying-out-r-markdown

@@ -1,1 +1,135 @@
-# Module 3 Connection
+# M3C: Writing in R Markdown
+
+This content draws on material from:
+* [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) by [Yihui Xie](https://yihui.org/), [J. J. Allaire](https://github.com/jjallaire), and [Garrett Grolemund](https://scholar.google.com/citations?user=wgdI_m4AAAAJ), licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+Changes to the source material include addition of new material; light editing; removing original material; and adding first-person language from current author.
+
+The resulting content is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+## Introduction
+
+Scripts are helpful for saving code for later, but to be truly reproducible, we often need to save more than just code. An *R Markdown* document can help us write a combination of text and code and then export it as a single document. This can be helpful for when you want to share your code, your results, and your thoughts on your results all together. This is helpful for this class in a number of ways!
+
+First, *this entire textbook* is written in R Markdown. *Understanding* chapters typically don't have any code to go with them, but I can write text just fine. As we'll see shortly, formatting the text requires me to use code rather than the kind of buttons that we'd use in Microsoft Word or Google Docs, but otherwise, it's not that much different than writing in another kind of word processor. For walkthroughs, though, I not only need to write out instructions, but I also need to show you what code to run and what output you should expect to see. I tried doing that in another platform for the first edition of this textbook, and it was miserable; R Markdown is making me a much happier camper!
+
+Second, *your class projects* will all be submitted in R Markdown documents. It does mean asking you to learn a little bit about R Markdown, but it's really useful for submitting and grading your assessments. Imagine that for each project, I asked you to submit your code, your data, and a separate Word file that contained your reflections. That would just be a hassle for both of us! With an R Markdown file, you can include your code, automatically show your results, and comment on what you found, all in a single document that you submit through Canvas. 
+
+*R Markdown* builds on *Markdown*, a simple markup language (notice the pun?) that is popular in many ICT communities, including data scientists. A markup language is a way of using code to format text—HTML and XML are markup languages that you may be familiar with. Precisely speaking, R Markdown is based on Pandoc-flavored Markdown. There are many "flavors" of Markdown invented by different people, and Pandoc's flavor is the best suited for data science work for a number of reasons. You can find the full documentation of Pandoc's Markdown at https://pandoc.org/MANUAL.html. If you really want to learn about R Markdown, you ought to consult that document; however, the truth is that we're using it pretty lightly this semester, so this short walkthrough ought to do the trick.
+
+## Markdown syntax
+
+*Syntax* is a programming term that refers to what code needs to be used how in order to produce a desired result. Of course, syntax is also used to refer to human languages—this is one of the many ways that learning to program resembles learning a new language.
+
+R syntax and Markdown syntax are two different things, and an R script and an R Markdown (`.Rmd`) document work in two different ways. In an `.Rmd` document, RStudio will expect that you are writing normal text (not code) unless and until you specify that you want to write some code. In the rest of the document, it's assumed that you're writing with Markdown.
+
+The following sections go over some of the options that you have available when writing with Markdown. Pay close attention to syntax—we established earlier in this module that programming in R requires paying close attention to detail. There is often no room for typos or doing things "slightly differently." That is also true of Markdown, but if you pay very close attention to the examples and advice below, things should go pretty smoothly.
+
+### Inline formatting
+
+Inline text will be _italic_ if surrounded by underscores or asterisks, e.g., `_text_` or `*text*`. **Bold** text is produced using a pair of double asterisks (`**text**`). A pair of tildes (`~`) turn text to a subscript (e.g., `H~3~PO~4~` renders H~3~PO~4~). A pair of carets (`^`) produce a superscript (e.g., `Cu^2+^` renders Cu^2+^). To mark text as `inline code`, use a pair of backticks, e.g., `` `code` ``.
+
+Hyperlinks are created using the syntax `[text](link)`; for example, `[here's a link to our Canvas](https://uk.instructure.com/courses/2074926/)`. The syntax for images is similar: just add an exclamation mark, e.g., `![alt text or image title](path/to/image)`. Footnotes are put inside the square brackets after a caret `^[]`, e.g., `^[This is a footnote.]`.
+
+### Block-level elements
+
+Section headers can be written after a number of pound signs, e.g.,
+
+```markdown
+# First-level header
+
+## Second-level header
+
+### Third-level header
+```
+
+If you do not want a certain heading to be numbered, you can add `{-}` or `{.unnumbered}` after the heading, e.g.,
+
+```markdown
+# Preface {-}
+```
+
+Unordered list items start with `*`, `-`, or `+`, and you can nest one list within another list by indenting the sub-list, e.g.,
+
+```markdown
+- one item
+- one item
+- one item
+    - one more item
+    - one more item
+    - one more item
+```
+
+The output is:
+
+- one item
+- one item
+- one item
+    - one more item
+    - one more item
+    - one more item
+
+Ordered list items start with numbers (you can also nest lists within lists), e.g.,
+
+```markdown
+1. the first item
+2. the second item
+3. the third item
+    - one unordered item
+    - one unordered item
+```
+
+The output does not look too much different with the Markdown source:
+
+1. the first item
+2. the second item
+3. the third item
+    - one unordered item
+    - one unordered item
+
+Blockquotes are written after `>`, e.g.,
+
+```markdown
+> "I thoroughly disapprove of duels. If a man should challenge me,
+  I would take him kindly and forgivingly by the hand and lead him
+  to a quiet place and kill him."
+>
+> --- Mark Twain
+```
+
+The actual output:
+
+> "I thoroughly disapprove of duels. If a man should challenge me,
+  I would take him kindly and forgivingly by the hand and lead him
+  to a quiet place and kill him."
+>
+> --- Mark Twain
+
+
+In general, you'd better leave at least one empty line between adjacent but different elements, e.g., a header and a paragraph. This is to avoid ambiguity to the Markdown renderer. For example, does "`#`" indicate a header below?
+
+```markdown
+In R, the character
+# indicates a comment.
+```
+
+And does "`-`" mean a bullet point below?
+
+```markdown
+The result of 5
+- 3 is 2.
+```
+
+Different flavors of Markdown may produce different results if there are no blank lines. 
+
+### R code chunks
+
+You can insert an R code chunk\index{code chunk} either using the RStudio toolbar (the `Insert` button) or the keyboard shortcut `Ctrl + Alt + I` (`Cmd + Option + I` on macOS). That will create a little block in your document that begins with ```` ```{r}````  and ends with  ```` ``` ````. You can also manually type those characters onto two separate lines to create the code chunk. Once the code chunk is in place, you can type regular R code in there, run it, and see the output. 
+
+There are a lot of things you can do in a code chunk, and you have fine control over all these output via chunk options. However, we don't need to worry about those here—or even later on, since I have your code chunks set up for you in your project files.
+
+## Trying out R Markdown
+
+This walkthrough hasn't been very interactive thus far! Let's fix that by trying out some of the Markdown that we've been reading about. In RStudio, navigate to *File*, *New File*, and then *R Markdown*. On the next interface, just click on *Create Empty Document* in the bottom left corner.
+
+Once you have that file open, try writing a document that incorporates some of the formatting above. At regular intervals, click the *Knit* button to ask RStudio to transform your Markdown code into a formatted document. If something didn't work as you expected, go back to the documentation above and pay close attention to details!

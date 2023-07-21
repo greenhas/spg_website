@@ -4,7 +4,8 @@ h2:more-about-r-and-rstudio More About R and RStudio
 fig:RStudio-interface-2 RStudio interface to R.
 h2:the-console-and-the-workspace The Console and the Workspace
 h2:holding-onto-code Holding Onto Code
-h2:rstudio-projects RStudio Projects
+h3:rstudio-projects RStudio Projects
 h3:using-scripts Using Scripts
 h3:backing-up-your-project-folder Backing Up Your Project Folder
+h2:conclusion Conclusion
 
