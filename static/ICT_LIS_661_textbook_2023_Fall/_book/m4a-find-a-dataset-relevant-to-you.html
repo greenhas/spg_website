@@ -53,6 +53,70 @@
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 
 </head>
@@ -190,6 +254,7 @@
 <li class="chapter" data-level="12.1" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#introduction-8"><i class="fa fa-check"></i><b>12.1</b> Introduction</a></li>
 <li class="chapter" data-level="12.2" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#signs-of-a-good-dataset"><i class="fa fa-check"></i><b>12.2</b> Signs of a Good Dataset</a></li>
 <li class="chapter" data-level="12.3" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#finding-a-good-dataset"><i class="fa fa-check"></i><b>12.3</b> Finding a Good Dataset</a></li>
+<li class="chapter" data-level="12.4" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#loading-your-dataset"><i class="fa fa-check"></i><b>12.4</b> Loading Your Dataset</a></li>
 </ul></li>
 <li class="chapter" data-level="13" data-path="module-4-connection.html"><a href="module-4-connection.html"><i class="fa fa-check"></i><b>13</b> Module 4 Connection</a></li>
 <li class="chapter" data-level="14" data-path="module-5-understanding.html"><a href="module-5-understanding.html"><i class="fa fa-check"></i><b>14</b> Module 5 Understanding</a></li>
@@ -266,12 +331,50 @@
 <li>“tidy” data
 <ul>
 <li>if you can find datasets that advertise themselves as tidy (1 observation per row, 1 variable per column), that will probably save you some hassle</li>
+<li>that said, we won’t cover tidy data until later in the semester, and it’s not always easy to tell whether another party’s dataset is tidy, so don’t stress too much about this</li>
 </ul></li>
 </ul>
 </div>
 <div id="finding-a-good-dataset" class="section level2 hasAnchor" number="12.3">
 <h2><span class="header-section-number">12.3</span> Finding a Good Dataset<a href="m4a-find-a-dataset-relevant-to-you.html#finding-a-good-dataset" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Okay, now for the finding! There are plenty of sources for interesting data on the internet. The <a href="https://www.kaggle.com/datasets">Kaggle collection of datasets</a> is full of freely-available data ranging from the serious to the silly. It’s a great place to look if you don’t know where else to go. Governments of all kinds and sizes also collect data: You might search for federal, state, or local collections of “open data” if you think there might be something interesting for you there. A workplace is a good place to check for data so long as you can be sure that you have permission to do so. Finally, there are a lot of datasets associated with R packages. You can do some searching for one of those right now or pay close attention to the ones that we meet over the next few weeks; you might find one that you want to return to!</p>
+<p>Once you’ve found the dataset you want to work with (at least for now), give it a short-but-descriptive name. If it’s a file format other than a <code>.csv</code>, you should either convert it into a <code>.csv</code> or be ready to look up how to load a file in another format into R, since I won’t be providing those directions. Once the file is ready to be used, move it to the <code>activity_data</code> folder inside the project folder that you previously created for this class. Then, open up GitHub Desktop to <em>commit</em> this change to your project and <em>push</em> the changes so that they sync with the GitHub website.</p>
+<p>I mentioned above that you’re free to stick with this data throughout the rest of the semester or that you can switch to new datasets whenever you feel like it. If you ever switch to a new dataset, make sure that you follow the steps above (giving it a short-but-descriptive name, ensuring it’s a <code>.csv</code> or that you know how to load other data types, placing it in your <code>activity_data</code> folder, and committing and pushing your changes in GitHub Desktop) every time.</p>
+</div>
+<div id="loading-your-dataset" class="section level2 hasAnchor" number="12.4">
+<h2><span class="header-section-number">12.4</span> Loading Your Dataset<a href="m4a-find-a-dataset-relevant-to-you.html#loading-your-dataset" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>I’ve already emphasized in a couple of walkthroughs up to this point that it’s important to be attentive to details when working in R. This is especially true when it comes to loading data into R. Up to this point, we have only worked with data that is preloaded in R packages; so long as you’ve properly loaded the package in question, you’ve loaded the data as well. A lot of our walkthroughs will only ever ask you to work with this data. However, later in the course, you’ll be adapting code from the walkthroughs to work with your own data; more importantly, you’ll be working with your own data when completing course projects.</p>
+<p>When you’re working with your own data, you need to make sure it gets loaded into RStudio before your code can work with it. Let’s practice doing that now. We’re going to learn to do this through code. There is also a way to do this through the RStudio interface instead of typing out the code, but I’m not going to cover it here. My reasons for doing so are multiple: First, I always load my data through code, so I honestly don’t know how to do it the other way off the top of my head. Now, I could look it up, but I also have other strong reasons for not covering this. Loading your data through the interface may be more straightforward when you’re completing walkthroughs and one-off activities, but:</p>
+<ul>
+<li>it is <em>not reproducible</em>, and it makes it harder for me to troubleshoot your code if you need any help, and</li>
+<li>it <em>does not play nice</em> with the <code>.Rmd</code> documents that you will use to submit your class projects, so you will <em>have to</em> load through code for the projects</li>
+</ul>
+<p>To practice loading data, start by creating a new script in RStudio. Last week, we emphasized that saving your code in scripts is <em>really</em> helpful for referencing it later. You might want to give this script a name like <code>data_loading.R</code> or something like that, to make it easy to reference in the future in case you need a refresher on how to load your own data. Please note that with future activities, I’m going to assume that you’re creating a new script for each activity and that you’re giving it a descriptive name—you won’t get advice like this in all walkthroughs! However, we’re still in the early stages of working with R, so a reminder here might be helpful!</p>
+<p>We’re going to use two packages as part of our loading process: <code>tidyverse</code> and <code>here</code>. Chances are that you don’t have these packages installed yet, so you can do that now by running <code>install.packages("tidyverse")</code> and <code>install.packages("here")</code>. I recommend running this code in the Console. I’ve put a lot of emphasis on saving code in a script, but there’s always code that is so unimportant that it doesn’t need to be saved. This includes installing packages, which is almost always a one-and-done thing and doesn’t need to be repeated; besides, if you include installation code in the <code>.Rmd</code> files for your class projects, it creates all sorts of problems.</p>
+<p>Now, let’s go ahead and load those packages:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb1-1" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a href="m4a-find-a-dataset-relevant-to-you.html#cb1-2" tabindex="-1"></a><span class="fu">library</span>(here)</span></code></pre></div>
+<p>We’re going to cover the <code>tidyverse</code> package in more detail in a couple of weeks, so for now, just trust me that it’s important and necessary. The <code>here</code> package, on the other hand, is worth getting into now. For any program on a computer to work with a file, it has to know where that file is so that it can access it. Modern programs on modern computers make this process so easy for us that we often don’t have to pay attention to the details of where a file is. R, on the other hand, is not so generous; it usually needs specific instructions for where to find a file before it can load it.</p>
+<p>The point of the <code>here</code> package is to make giving those specific instructions a bit easier for us. Let’s see what I mean by running the function <code>here()</code> now that we have the package of the same name loaded:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb2-1" tabindex="-1"></a><span class="fu">here</span>()</span></code></pre></div>
+<pre><code>## [1] &quot;/Users/spencergreenhalgh/spg_website/static/ICT_LIS_661_textbook_2023_Fall&quot;</code></pre>
+<p>Now, this is one case where the output that you see in the book is different than the output you’ll see where you run this code—and that’s the point of <code>here()</code>! What this function does is to figure out the <em>filepath</em> for the folder that contains the R project you’re working in. So, the output that I get when I run <code>here()</code> is the location of the R project associated with this textbook; it’s also formatted the way that macOS (the operating system I’m currently using) formats locations. You ought to get output that tells you the location of the R project that you set up for this class and that formats it in the way that your operating system formats locations. Think of <code>here()</code> as a shortcut that takes you to the main folder that you’re working in; that way, you only have to provide the extra detail beyond that.</p>
+<p>For example, if you’ve followed the directions in the previous section, you should have your dataset for this activity saved in the <code>activity_data</code> folder. I also have a dataset—called <code>Twitter_hashtags.csv</code>—saved in my <code>activity_data</code> folder. If I run the following code, it tells R that I I’m looking inside my project folder (what the <code>here()</code> function figures out on its own) to find a subfolder called <code>activity_data</code> inside that project folder, to find a file called <code>Twitter_hashtags.csv</code> inside that subfolder. The result is the exact location of the file on my computer, providing a lot more information that I didn’t have to type out on my own!</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb4-1" tabindex="-1"></a><span class="fu">here</span>(<span class="st">&quot;activity_data&quot;</span>,<span class="st">&quot;Twitter_hashtags.csv&quot;</span>)</span></code></pre></div>
+<pre><code>## [1] &quot;/Users/spencergreenhalgh/spg_website/static/ICT_LIS_661_textbook_2023_Fall/activity_data/Twitter_hashtags.csv&quot;</code></pre>
+<p>When you run this code, it’s unlikely that your dataset is named <code>Twitter_hashtags.csv</code>, so you should replace that with the name of your file. Likewise, as we saw above, your output should also look different because the location of your project folder is different than the location of mine! No matter how different your output looks, though, you ought to notice how much shorter your <code>here()</code> argument is than the exact location that you might otherwise have to type out. That’s why <code>here()</code> is useful!</p>
+<p>In fact, let’s get to the good stuff. Now that I have the exact location of my dataset on my computer, I can put that inside the <code>read_csv()</code> function, which (as the name suggests), loads <code>.csv</code> files into RStudio. With the following code, I’m going to read my data in and save it as an object called <code>df</code> (short for dataframe—it’s a handy default name for the object containing your data).</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb6-1" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="fu">here</span>(<span class="st">&quot;activity_data&quot;</span>,<span class="st">&quot;Twitter_hashtags.csv&quot;</span>))</span></code></pre></div>
+<pre><code>## Rows: 60 Columns: 22
+## ── Column specification ──────────────────────────────────────────────────────────────────────────────────
+## Delimiter: &quot;,&quot;
+## chr  (1): hashtags
+## dbl (21): avg_hashtags_per_tweet, avg_mentions_per_tweet, proportion_original_tweet, proportion_retwee...
+## 
+## ℹ Use `spec()` to retrieve the full column specification for this data.
+## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+<p>You should run this code yourself. You can give your object a more descriptive name than <code>df</code> if you want, but you absolutely have to change <code>Twitter_hashtags.csv</code> to the name of your file if you want this to work! Once again, you should expect your output to look different than mine; <em>my output</em> is a quick summary of <em>my data</em>; <em>your output</em> will be a quick summary of <em>your data</em>.</p>
+<p>The explanation-to-code ratio of this walkthrough is pretty high—higher than is ideal. The important part is that you remember this last line of code that you ran; so long as you save your data to the <code>activity_data</code> subfolder in your project folder and replace <code>Twitter_hashtags.csv</code> with the name of <em>your</em> dataset, this code will be a reliable way for you to load data into R. Knowing how to do this will be very useful for you for class projects and other activities. The rest of the explanation is just to emphasize how important this line of code is!</p>
 
 </div>
 </div>
