@@ -30,7 +30,7 @@
   
   
 <link rel="prev" href="m4u-the-value-of-open-data.html"/>
-<link rel="next" href="module-4-connection.html"/>
+<link rel="next" href="m4c-show-your-work.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -177,7 +177,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="6.5.2" data-path="getting-started.html"><a href="getting-started.html#flights-data-frame"><i class="fa fa-check"></i><b>6.5.2</b> <code>flights</code> data frame</a></li>
 <li class="chapter" data-level="6.5.3" data-path="getting-started.html"><a href="getting-started.html#exploredataframes"><i class="fa fa-check"></i><b>6.5.3</b> Exploring data frames</a></li>
 <li class="chapter" data-level="6.5.4" data-path="getting-started.html"><a href="getting-started.html#identification-vs-measurement-variables"><i class="fa fa-check"></i><b>6.5.4</b> Identification and measurement variables</a></li>
-<li class="chapter" data-level="6.5.5" data-path="getting-started.html"><a href="getting-started.html#help-files"><i class="fa fa-check"></i><b>6.5.5</b> Help files</a></li>
 </ul></li>
 <li class="chapter" data-level="6.6" data-path="getting-started.html"><a href="getting-started.html#conclusion"><i class="fa fa-check"></i><b>6.6</b> Conclusion</a></li>
 </ul></li>
@@ -256,7 +255,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="12.3" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#finding-a-good-dataset"><i class="fa fa-check"></i><b>12.3</b> Finding a Good Dataset</a></li>
 <li class="chapter" data-level="12.4" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#loading-your-dataset"><i class="fa fa-check"></i><b>12.4</b> Loading Your Dataset</a></li>
 </ul></li>
-<li class="chapter" data-level="13" data-path="module-4-connection.html"><a href="module-4-connection.html"><i class="fa fa-check"></i><b>13</b> Module 4 Connection</a></li>
+<li class="chapter" data-level="13" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html"><i class="fa fa-check"></i><b>13</b> M4C: Show Your Work</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#introduction-9"><i class="fa fa-check"></i><b>13.1</b> Introduction</a></li>
+<li class="chapter" data-level="13.2" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#invisible-labor"><i class="fa fa-check"></i><b>13.2</b> Invisible Labor</a></li>
+<li class="chapter" data-level="13.3" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#the-invisible-labor-of-data-science"><i class="fa fa-check"></i><b>13.3</b> The Invisible Labor of Data Science</a></li>
+<li class="chapter" data-level="13.4" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#time-and-money"><i class="fa fa-check"></i><b>13.4</b> Time and Money</a></li>
+<li class="chapter" data-level="13.5" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#crediting-data-work"><i class="fa fa-check"></i><b>13.5</b> Crediting Data Work</a></li>
+<li class="chapter" data-level="13.6" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#crediting-emotional-labor-and-care-work"><i class="fa fa-check"></i><b>13.6</b> Crediting Emotional Labor and Care Work</a></li>
+<li class="chapter" data-level="13.7" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#show-your-work"><i class="fa fa-check"></i><b>13.7</b> Show Your Work</a></li>
+<li class="chapter" data-level="13.8" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#references-4"><i class="fa fa-check"></i><b>13.8</b> References</a></li>
+</ul></li>
 <li class="chapter" data-level="14" data-path="module-5-understanding.html"><a href="module-5-understanding.html"><i class="fa fa-check"></i><b>14</b> Module 5 Understanding</a></li>
 <li class="chapter" data-level="15" data-path="module-5-application.html"><a href="module-5-application.html"><i class="fa fa-check"></i><b>15</b> Module 5 Application</a></li>
 <li class="chapter" data-level="16" data-path="module-5-connection.html"><a href="module-5-connection.html"><i class="fa fa-check"></i><b>16</b> Module 5 Connection</a></li>
@@ -352,27 +361,27 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>To practice loading data, start by creating a new script in RStudio. Last week, we emphasized that saving your code in scripts is <em>really</em> helpful for referencing it later. You might want to give this script a name like <code>data_loading.R</code> or something like that, to make it easy to reference in the future in case you need a refresher on how to load your own data. Please note that with future activities, I’m going to assume that you’re creating a new script for each activity and that you’re giving it a descriptive name—you won’t get advice like this in all walkthroughs! However, we’re still in the early stages of working with R, so a reminder here might be helpful!</p>
 <p>We’re going to use two packages as part of our loading process: <code>tidyverse</code> and <code>here</code>. Chances are that you don’t have these packages installed yet, so you can do that now by running <code>install.packages("tidyverse")</code> and <code>install.packages("here")</code>. I recommend running this code in the Console. I’ve put a lot of emphasis on saving code in a script, but there’s always code that is so unimportant that it doesn’t need to be saved. This includes installing packages, which is almost always a one-and-done thing and doesn’t need to be repeated; besides, if you include installation code in the <code>.Rmd</code> files for your class projects, it creates all sorts of problems.</p>
 <p>Now, let’s go ahead and load those packages:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb1-1" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb1-2"><a href="m4a-find-a-dataset-relevant-to-you.html#cb1-2" tabindex="-1"></a><span class="fu">library</span>(here)</span></code></pre></div>
+<div class="sourceCode" id="cb42"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb42-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb42-1" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb42-2"><a href="m4a-find-a-dataset-relevant-to-you.html#cb42-2" tabindex="-1"></a><span class="fu">library</span>(here)</span></code></pre></div>
 <p>We’re going to cover the <code>tidyverse</code> package in more detail in a couple of weeks, so for now, just trust me that it’s important and necessary. The <code>here</code> package, on the other hand, is worth getting into now. For any program on a computer to work with a file, it has to know where that file is so that it can access it. Modern programs on modern computers make this process so easy for us that we often don’t have to pay attention to the details of where a file is. R, on the other hand, is not so generous; it usually needs specific instructions for where to find a file before it can load it.</p>
 <p>The point of the <code>here</code> package is to make giving those specific instructions a bit easier for us. Let’s see what I mean by running the function <code>here()</code> now that we have the package of the same name loaded:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb2-1" tabindex="-1"></a><span class="fu">here</span>()</span></code></pre></div>
-<pre><code>## [1] &quot;/Users/spencergreenhalgh/spg_website/static/ICT_LIS_661_textbook_2023_Fall&quot;</code></pre>
+<div class="sourceCode" id="cb43"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb43-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb43-1" tabindex="-1"></a><span class="fu">here</span>()</span></code></pre></div>
+<pre><code>[1] &quot;/Users/spencergreenhalgh/spg_website/static/ICT_LIS_661_textbook_2023_Fall&quot;</code></pre>
 <p>Now, this is one case where the output that you see in the book is different than the output you’ll see where you run this code—and that’s the point of <code>here()</code>! What this function does is to figure out the <em>filepath</em> for the folder that contains the R project you’re working in. So, the output that I get when I run <code>here()</code> is the location of the R project associated with this textbook; it’s also formatted the way that macOS (the operating system I’m currently using) formats locations. You ought to get output that tells you the location of the R project that you set up for this class and that formats it in the way that your operating system formats locations. Think of <code>here()</code> as a shortcut that takes you to the main folder that you’re working in; that way, you only have to provide the extra detail beyond that.</p>
 <p>For example, if you’ve followed the directions in the previous section, you should have your dataset for this activity saved in the <code>activity_data</code> folder. I also have a dataset—called <code>Twitter_hashtags.csv</code>—saved in my <code>activity_data</code> folder. If I run the following code, it tells R that I I’m looking inside my project folder (what the <code>here()</code> function figures out on its own) to find a subfolder called <code>activity_data</code> inside that project folder, to find a file called <code>Twitter_hashtags.csv</code> inside that subfolder. The result is the exact location of the file on my computer, providing a lot more information that I didn’t have to type out on my own!</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb4-1" tabindex="-1"></a><span class="fu">here</span>(<span class="st">&quot;activity_data&quot;</span>,<span class="st">&quot;Twitter_hashtags.csv&quot;</span>)</span></code></pre></div>
-<pre><code>## [1] &quot;/Users/spencergreenhalgh/spg_website/static/ICT_LIS_661_textbook_2023_Fall/activity_data/Twitter_hashtags.csv&quot;</code></pre>
+<div class="sourceCode" id="cb45"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb45-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb45-1" tabindex="-1"></a><span class="fu">here</span>(<span class="st">&quot;activity_data&quot;</span>,<span class="st">&quot;Twitter_hashtags.csv&quot;</span>)</span></code></pre></div>
+<pre><code>[1] &quot;/Users/spencergreenhalgh/spg_website/static/ICT_LIS_661_textbook_2023_Fall/activity_data/Twitter_hashtags.csv&quot;</code></pre>
 <p>When you run this code, it’s unlikely that your dataset is named <code>Twitter_hashtags.csv</code>, so you should replace that with the name of your file. Likewise, as we saw above, your output should also look different because the location of your project folder is different than the location of mine! No matter how different your output looks, though, you ought to notice how much shorter your <code>here()</code> argument is than the exact location that you might otherwise have to type out. That’s why <code>here()</code> is useful!</p>
 <p>In fact, let’s get to the good stuff. Now that I have the exact location of my dataset on my computer, I can put that inside the <code>read_csv()</code> function, which (as the name suggests), loads <code>.csv</code> files into RStudio. With the following code, I’m going to read my data in and save it as an object called <code>df</code> (short for dataframe—it’s a handy default name for the object containing your data).</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb6-1" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="fu">here</span>(<span class="st">&quot;activity_data&quot;</span>,<span class="st">&quot;Twitter_hashtags.csv&quot;</span>))</span></code></pre></div>
-<pre><code>## Rows: 60 Columns: 22
-## ── Column specification ──────────────────────────────────────────────────────────────────────────────────
-## Delimiter: &quot;,&quot;
-## chr  (1): hashtags
-## dbl (21): avg_hashtags_per_tweet, avg_mentions_per_tweet, proportion_original_tweet, proportion_retwee...
-## 
-## ℹ Use `spec()` to retrieve the full column specification for this data.
-## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+<div class="sourceCode" id="cb47"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb47-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb47-1" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="fu">here</span>(<span class="st">&quot;activity_data&quot;</span>,<span class="st">&quot;Twitter_hashtags.csv&quot;</span>))</span></code></pre></div>
+<pre><code>Rows: 60 Columns: 22
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: &quot;,&quot;
+chr  (1): hashtags
+dbl (21): avg_hashtags_per_tweet, avg_mentions_per_tweet, proportion_origina...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
 <p>You should run this code yourself. You can give your object a more descriptive name than <code>df</code> if you want, but you absolutely have to change <code>Twitter_hashtags.csv</code> to the name of your file if you want this to work! Once again, you should expect your output to look different than mine; <em>my output</em> is a quick summary of <em>my data</em>; <em>your output</em> will be a quick summary of <em>your data</em>.</p>
 <p>The explanation-to-code ratio of this walkthrough is pretty high—higher than is ideal. The important part is that you remember this last line of code that you ran; so long as you save your data to the <code>activity_data</code> subfolder in your project folder and replace <code>Twitter_hashtags.csv</code> with the name of <em>your</em> dataset, this code will be a reliable way for you to load data into R. Knowing how to do this will be very useful for you for class projects and other activities. The rest of the explanation is just to emphasize how important this line of code is!</p>
 
@@ -385,7 +394,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
         </div>
       </div>
 <a href="m4u-the-value-of-open-data.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="module-4-connection.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="m4c-show-your-work.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -439,6 +448,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>

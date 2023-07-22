@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>13 M4C: Show Your Work | Introduction to Data Science</title>
+  <meta name="description" content="13 M4C: Show Your Work | Introduction to Data Science" />
+  <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="13 M4C: Show Your Work | Introduction to Data Science" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="13 M4C: Show Your Work | Introduction to Data Science" />
+  
+  
+  
+
+<meta name="author" content="Spencer P. Greenhalgh, PhD" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="m4a-find-a-dataset-relevant-to-you.html"/>
+<link rel="next" href="module-5-understanding.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="module-1-understanding.html"><a href="module-1-understanding.html"><i class="fa fa-check"></i><b>2</b> Module 1 Understanding</a></li>
+<li class="chapter" data-level="3" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html"><i class="fa fa-check"></i><b>3</b> M1A: Install R and RStudio</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#introduction-1"><i class="fa fa-check"></i><b>3.1</b> Introduction</a></li>
+<li class="chapter" data-level="3.2" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#r"><i class="fa fa-check"></i><b>3.2</b> R</a></li>
+<li class="chapter" data-level="3.3" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#rstudio"><i class="fa fa-check"></i><b>3.3</b> RStudio</a></li>
+<li class="chapter" data-level="3.4" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#references"><i class="fa fa-check"></i><b>3.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="m1c-introduce-yourself-to-the-class.html"><a href="m1c-introduce-yourself-to-the-class.html"><i class="fa fa-check"></i><b>4</b> M1C: Introduce Yourself to the Class</a></li>
+<li class="chapter" data-level="5" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html"><i class="fa fa-check"></i><b>5</b> M2U: The New(?) and Shiny(?) Science of Data</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data-data-science-and-big-data"><i class="fa fa-check"></i><b>5.1</b> Data, Data Science, and Big Data</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data"><i class="fa fa-check"></i><b>5.1.1</b> Data</a></li>
+<li class="chapter" data-level="5.1.2" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data-science"><i class="fa fa-check"></i><b>5.1.2</b> Data Science</a></li>
+<li class="chapter" data-level="5.1.3" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#big-data"><i class="fa fa-check"></i><b>5.1.3</b> Big Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#the-many-skills-of-data-science"><i class="fa fa-check"></i><b>5.2</b> The Many Skills of Data Science</a></li>
+<li class="chapter" data-level="5.3" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#references-1"><i class="fa fa-check"></i><b>5.3</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>6</b> M2A: Getting Started with Data in R</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="getting-started.html"><a href="getting-started.html#introduction-2"><i class="fa fa-check"></i><b>6.1</b> Introduction</a></li>
+<li class="chapter" data-level="6.2" data-path="getting-started.html"><a href="getting-started.html#r-rstudio"><i class="fa fa-check"></i><b>6.2</b> What are R and RStudio?</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="getting-started.html"><a href="getting-started.html#using-r-via-rstudio"><i class="fa fa-check"></i><b>6.2.1</b> Using R via RStudio</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="getting-started.html"><a href="getting-started.html#code"><i class="fa fa-check"></i><b>6.3</b> How do I code in R?</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="getting-started.html"><a href="getting-started.html#programming-concepts"><i class="fa fa-check"></i><b>6.3.1</b> Basic programming concepts and terminology</a></li>
+<li class="chapter" data-level="6.3.2" data-path="getting-started.html"><a href="getting-started.html#messages"><i class="fa fa-check"></i><b>6.3.2</b> Errors, warnings, and messages</a></li>
+<li class="chapter" data-level="6.3.3" data-path="getting-started.html"><a href="getting-started.html#tips-code"><i class="fa fa-check"></i><b>6.3.3</b> Tips on learning to code</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="getting-started.html"><a href="getting-started.html#packages"><i class="fa fa-check"></i><b>6.4</b> What are R packages?</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="getting-started.html"><a href="getting-started.html#package-installation"><i class="fa fa-check"></i><b>6.4.1</b> Package installation</a></li>
+<li class="chapter" data-level="6.4.2" data-path="getting-started.html"><a href="getting-started.html#package-loading"><i class="fa fa-check"></i><b>6.4.2</b> Package loading</a></li>
+<li class="chapter" data-level="6.4.3" data-path="getting-started.html"><a href="getting-started.html#package-use"><i class="fa fa-check"></i><b>6.4.3</b> Package use</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="getting-started.html"><a href="getting-started.html#nycflights13"><i class="fa fa-check"></i><b>6.5</b> Explore your first datasets</a>
+<ul>
+<li class="chapter" data-level="6.5.1" data-path="getting-started.html"><a href="getting-started.html#nycflights13-package"><i class="fa fa-check"></i><b>6.5.1</b> <code>nycflights13</code> package</a></li>
+<li class="chapter" data-level="6.5.2" data-path="getting-started.html"><a href="getting-started.html#flights-data-frame"><i class="fa fa-check"></i><b>6.5.2</b> <code>flights</code> data frame</a></li>
+<li class="chapter" data-level="6.5.3" data-path="getting-started.html"><a href="getting-started.html#exploredataframes"><i class="fa fa-check"></i><b>6.5.3</b> Exploring data frames</a></li>
+<li class="chapter" data-level="6.5.4" data-path="getting-started.html"><a href="getting-started.html#identification-vs-measurement-variables"><i class="fa fa-check"></i><b>6.5.4</b> Identification and measurement variables</a></li>
+</ul></li>
+<li class="chapter" data-level="6.6" data-path="getting-started.html"><a href="getting-started.html#conclusion"><i class="fa fa-check"></i><b>6.6</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html"><i class="fa fa-check"></i><b>7</b> M2C: Set up GitHub</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#introduction-3"><i class="fa fa-check"></i><b>7.1</b> Introduction</a></li>
+<li class="chapter" data-level="7.2" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#gitand-githubin-data-science"><i class="fa fa-check"></i><b>7.2</b> Git—and GitHub—in Data Science</a></li>
+<li class="chapter" data-level="7.3" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#github-in-ictlis-661"><i class="fa fa-check"></i><b>7.3</b> GitHub in ICT/LIS 661</a></li>
+<li class="chapter" data-level="7.4" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#setting-up-github"><i class="fa fa-check"></i><b>7.4</b> Setting Up GitHub</a>
+<ul>
+<li class="chapter" data-level="7.4.1" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#creating-a-github-account"><i class="fa fa-check"></i><b>7.4.1</b> Creating a GitHub Account</a></li>
+<li class="chapter" data-level="7.4.2" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#setting-up-a-github-repository-for-class"><i class="fa fa-check"></i><b>7.4.2</b> Setting up a GitHub Repository for Class</a></li>
+<li class="chapter" data-level="7.4.3" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#installing-github-desktop"><i class="fa fa-check"></i><b>7.4.3</b> Installing GitHub Desktop</a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#moving-forward"><i class="fa fa-check"></i><b>7.5</b> Moving Forward</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html"><i class="fa fa-check"></i><b>8</b> M3U: Research Paradigms and Reproducibility</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#introduction-4"><i class="fa fa-check"></i><b>8.1</b> Introduction</a></li>
+<li class="chapter" data-level="8.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#reproducibility-and-paradigms"><i class="fa fa-check"></i><b>8.2</b> Reproducibility and Paradigms</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#an-example-paradigm"><i class="fa fa-check"></i><b>8.2.1</b> An Example Paradigm</a></li>
+<li class="chapter" data-level="8.2.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#another-example-paradigm"><i class="fa fa-check"></i><b>8.2.2</b> Another Example Paradigm</a></li>
+<li class="chapter" data-level="8.2.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#why-do-paradigms-matter"><i class="fa fa-check"></i><b>8.2.3</b> Why Do Paradigms Matter?</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#supporting-reproducibility"><i class="fa fa-check"></i><b>8.3</b> Supporting Reproducibility</a>
+<ul>
+<li class="chapter" data-level="8.3.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-design"><i class="fa fa-check"></i><b>8.3.1</b> Open Design</a></li>
+<li class="chapter" data-level="8.3.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-analysis"><i class="fa fa-check"></i><b>8.3.2</b> Open Analysis</a></li>
+<li class="chapter" data-level="8.3.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-publication"><i class="fa fa-check"></i><b>8.3.3</b> Open Publication</a></li>
+</ul></li>
+<li class="chapter" data-level="8.4" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#conclusion-1"><i class="fa fa-check"></i><b>8.4</b> Conclusion</a></li>
+<li class="chapter" data-level="8.5" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#references-2"><i class="fa fa-check"></i><b>8.5</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html"><i class="fa fa-check"></i><b>9</b> M3A: Using Projects and Scripts in R</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#introduction-5"><i class="fa fa-check"></i><b>9.1</b> Introduction</a></li>
+<li class="chapter" data-level="9.2" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#more-about-r-and-rstudio"><i class="fa fa-check"></i><b>9.2</b> More About R and RStudio</a></li>
+<li class="chapter" data-level="9.3" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#the-console-and-the-workspace"><i class="fa fa-check"></i><b>9.3</b> The Console and the Workspace</a></li>
+<li class="chapter" data-level="9.4" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#holding-onto-code"><i class="fa fa-check"></i><b>9.4</b> Holding Onto Code</a>
+<ul>
+<li class="chapter" data-level="9.4.1" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#rstudio-projects"><i class="fa fa-check"></i><b>9.4.1</b> RStudio Projects</a></li>
+<li class="chapter" data-level="9.4.2" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#using-scripts"><i class="fa fa-check"></i><b>9.4.2</b> Using Scripts</a></li>
+<li class="chapter" data-level="9.4.3" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#backing-up-your-project-folder"><i class="fa fa-check"></i><b>9.4.3</b> Backing Up Your Project Folder</a></li>
+</ul></li>
+<li class="chapter" data-level="9.5" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#conclusion-2"><i class="fa fa-check"></i><b>9.5</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html"><i class="fa fa-check"></i><b>10</b> M3C: Writing in R Markdown</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#introduction-6"><i class="fa fa-check"></i><b>10.1</b> Introduction</a></li>
+<li class="chapter" data-level="10.2" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#markdown-syntax"><i class="fa fa-check"></i><b>10.2</b> Markdown syntax</a>
+<ul>
+<li class="chapter" data-level="10.2.1" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#inline-formatting"><i class="fa fa-check"></i><b>10.2.1</b> Inline formatting</a></li>
+<li class="chapter" data-level="10.2.2" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#block-level-elements"><i class="fa fa-check"></i><b>10.2.2</b> Block-level elements</a></li>
+<li class="chapter" data-level="10.2.3" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#r-code-chunks"><i class="fa fa-check"></i><b>10.2.3</b> R code chunks</a></li>
+</ul></li>
+<li class="chapter" data-level="10.3" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#trying-out-r-markdown"><i class="fa fa-check"></i><b>10.3</b> Trying out R Markdown</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html"><i class="fa fa-check"></i><b>11</b> M4U: The Value of Open Data</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#introduction-7"><i class="fa fa-check"></i><b>11.1</b> Introduction</a></li>
+<li class="chapter" data-level="11.2" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#positivism-and-the-need-for-data"><i class="fa fa-check"></i><b>11.2</b> Positivism and the Need for Data</a></li>
+<li class="chapter" data-level="11.3" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#sharing-data"><i class="fa fa-check"></i><b>11.3</b> Sharing Data</a></li>
+<li class="chapter" data-level="11.4" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#sharing-data-and-privacy"><i class="fa fa-check"></i><b>11.4</b> Sharing Data and Privacy</a></li>
+<li class="chapter" data-level="11.5" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#how-to-share-data"><i class="fa fa-check"></i><b>11.5</b> How to Share Data</a></li>
+<li class="chapter" data-level="11.6" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#benefits-of-sharing-data"><i class="fa fa-check"></i><b>11.6</b> Benefits of Sharing Data</a></li>
+<li class="chapter" data-level="11.7" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#downsides-of-sharing-data"><i class="fa fa-check"></i><b>11.7</b> Downsides of Sharing Data</a></li>
+<li class="chapter" data-level="11.8" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#incentives-for-sharing-data"><i class="fa fa-check"></i><b>11.8</b> Incentives for Sharing Data</a></li>
+<li class="chapter" data-level="11.9" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#conclusion-3"><i class="fa fa-check"></i><b>11.9</b> Conclusion</a></li>
+<li class="chapter" data-level="11.10" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#references-3"><i class="fa fa-check"></i><b>11.10</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html"><i class="fa fa-check"></i><b>12</b> M4A: Find a Dataset Relevant To You</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#introduction-8"><i class="fa fa-check"></i><b>12.1</b> Introduction</a></li>
+<li class="chapter" data-level="12.2" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#signs-of-a-good-dataset"><i class="fa fa-check"></i><b>12.2</b> Signs of a Good Dataset</a></li>
+<li class="chapter" data-level="12.3" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#finding-a-good-dataset"><i class="fa fa-check"></i><b>12.3</b> Finding a Good Dataset</a></li>
+<li class="chapter" data-level="12.4" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#loading-your-dataset"><i class="fa fa-check"></i><b>12.4</b> Loading Your Dataset</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html"><i class="fa fa-check"></i><b>13</b> M4C: Show Your Work</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#introduction-9"><i class="fa fa-check"></i><b>13.1</b> Introduction</a></li>
+<li class="chapter" data-level="13.2" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#invisible-labor"><i class="fa fa-check"></i><b>13.2</b> Invisible Labor</a></li>
+<li class="chapter" data-level="13.3" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#the-invisible-labor-of-data-science"><i class="fa fa-check"></i><b>13.3</b> The Invisible Labor of Data Science</a></li>
+<li class="chapter" data-level="13.4" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#time-and-money"><i class="fa fa-check"></i><b>13.4</b> Time and Money</a></li>
+<li class="chapter" data-level="13.5" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#crediting-data-work"><i class="fa fa-check"></i><b>13.5</b> Crediting Data Work</a></li>
+<li class="chapter" data-level="13.6" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#crediting-emotional-labor-and-care-work"><i class="fa fa-check"></i><b>13.6</b> Crediting Emotional Labor and Care Work</a></li>
+<li class="chapter" data-level="13.7" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#show-your-work"><i class="fa fa-check"></i><b>13.7</b> Show Your Work</a></li>
+<li class="chapter" data-level="13.8" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#references-4"><i class="fa fa-check"></i><b>13.8</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="module-5-understanding.html"><a href="module-5-understanding.html"><i class="fa fa-check"></i><b>14</b> Module 5 Understanding</a></li>
+<li class="chapter" data-level="15" data-path="module-5-application.html"><a href="module-5-application.html"><i class="fa fa-check"></i><b>15</b> Module 5 Application</a></li>
+<li class="chapter" data-level="16" data-path="module-5-connection.html"><a href="module-5-connection.html"><i class="fa fa-check"></i><b>16</b> Module 5 Connection</a></li>
+<li class="chapter" data-level="17" data-path="module-6-understanding.html"><a href="module-6-understanding.html"><i class="fa fa-check"></i><b>17</b> Module 6 Understanding</a></li>
+<li class="chapter" data-level="18" data-path="module-6-application.html"><a href="module-6-application.html"><i class="fa fa-check"></i><b>18</b> Module 6 Application</a></li>
+<li class="chapter" data-level="19" data-path="module-6-connection.html"><a href="module-6-connection.html"><i class="fa fa-check"></i><b>19</b> Module 6 Connection</a></li>
+<li class="chapter" data-level="20" data-path="module-7-understanding.html"><a href="module-7-understanding.html"><i class="fa fa-check"></i><b>20</b> Module 7 Understanding</a></li>
+<li class="chapter" data-level="21" data-path="module-7-application.html"><a href="module-7-application.html"><i class="fa fa-check"></i><b>21</b> Module 7 Application</a></li>
+<li class="chapter" data-level="22" data-path="module-7-connection.html"><a href="module-7-connection.html"><i class="fa fa-check"></i><b>22</b> Module 7 Connection</a></li>
+<li class="chapter" data-level="23" data-path="module-8-understanding.html"><a href="module-8-understanding.html"><i class="fa fa-check"></i><b>23</b> Module 8 Understanding</a></li>
+<li class="chapter" data-level="24" data-path="module-8-application.html"><a href="module-8-application.html"><i class="fa fa-check"></i><b>24</b> Module 8 Application</a></li>
+<li class="chapter" data-level="25" data-path="module-8-connection.html"><a href="module-8-connection.html"><i class="fa fa-check"></i><b>25</b> Module 8 Connection</a></li>
+<li class="chapter" data-level="26" data-path="module-9-understanding.html"><a href="module-9-understanding.html"><i class="fa fa-check"></i><b>26</b> Module 9 Understanding</a></li>
+<li class="chapter" data-level="27" data-path="module-9-application.html"><a href="module-9-application.html"><i class="fa fa-check"></i><b>27</b> Module 9 Application</a></li>
+<li class="chapter" data-level="28" data-path="module-9-connection.html"><a href="module-9-connection.html"><i class="fa fa-check"></i><b>28</b> Module 9 Connection</a></li>
+<li class="chapter" data-level="29" data-path="module-10-understanding.html"><a href="module-10-understanding.html"><i class="fa fa-check"></i><b>29</b> Module 10 Understanding</a></li>
+<li class="chapter" data-level="30" data-path="module-10-application.html"><a href="module-10-application.html"><i class="fa fa-check"></i><b>30</b> Module 10 Application</a></li>
+<li class="chapter" data-level="31" data-path="module-10-connection.html"><a href="module-10-connection.html"><i class="fa fa-check"></i><b>31</b> Module 10 Connection</a></li>
+<li class="chapter" data-level="32" data-path="module-11-understanding.html"><a href="module-11-understanding.html"><i class="fa fa-check"></i><b>32</b> Module 11 Understanding</a></li>
+<li class="chapter" data-level="33" data-path="module-11-application.html"><a href="module-11-application.html"><i class="fa fa-check"></i><b>33</b> Module 11 Application</a></li>
+<li class="chapter" data-level="34" data-path="module-11-connection.html"><a href="module-11-connection.html"><i class="fa fa-check"></i><b>34</b> Module 11 Connection</a></li>
+<li class="chapter" data-level="35" data-path="module-12-understanding.html"><a href="module-12-understanding.html"><i class="fa fa-check"></i><b>35</b> Module 12 Understanding</a></li>
+<li class="chapter" data-level="36" data-path="module-12-application.html"><a href="module-12-application.html"><i class="fa fa-check"></i><b>36</b> Module 12 Application</a></li>
+<li class="chapter" data-level="37" data-path="module-12-connection.html"><a href="module-12-connection.html"><i class="fa fa-check"></i><b>37</b> Module 12 Connection</a></li>
+<li class="chapter" data-level="38" data-path="module-13-understanding.html"><a href="module-13-understanding.html"><i class="fa fa-check"></i><b>38</b> Module 13 Understanding</a></li>
+<li class="chapter" data-level="39" data-path="module-13-application.html"><a href="module-13-application.html"><i class="fa fa-check"></i><b>39</b> Module 13 Application</a></li>
+<li class="chapter" data-level="40" data-path="module-13-connection.html"><a href="module-13-connection.html"><i class="fa fa-check"></i><b>40</b> Module 13 Connection</a></li>
+<li class="chapter" data-level="41" data-path="module-14-understanding.html"><a href="module-14-understanding.html"><i class="fa fa-check"></i><b>41</b> Module 14 Understanding</a></li>
+<li class="chapter" data-level="42" data-path="module-14-application.html"><a href="module-14-application.html"><i class="fa fa-check"></i><b>42</b> Module 14 Application</a></li>
+<li class="chapter" data-level="43" data-path="module-14-connection.html"><a href="module-14-connection.html"><i class="fa fa-check"></i><b>43</b> Module 14 Connection</a></li>
+<li class="chapter" data-level="44" data-path="module-15-understanding.html"><a href="module-15-understanding.html"><i class="fa fa-check"></i><b>44</b> Module 15 Understanding</a></li>
+<li class="chapter" data-level="45" data-path="module-15-application.html"><a href="module-15-application.html"><i class="fa fa-check"></i><b>45</b> Module 15 Application</a></li>
+<li class="chapter" data-level="46" data-path="module-15-connection.html"><a href="module-15-connection.html"><i class="fa fa-check"></i><b>46</b> Module 15 Connection</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduction to Data Science</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="m4c-show-your-work" class="section level1 hasAnchor" number="13">
+<h1><span class="header-section-number">13</span> M4C: Show Your Work<a href="m4c-show-your-work.html#m4c-show-your-work" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This chapter draws on material from <a href="https://data-feminism.mitpress.mit.edu/pub/0vgzaln4/release/3">7. Show Your Work</a> by <a href="http://www.kanarinka.com/">Catherine D’Ignazio</a> and <a href="https://lklein.com/">Lauren Klein</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+<p>Changes to the source material include light editing, adding new material, deleting original material, rearranging material, changing the citation style, adding links, replacing images, changing original authors’ voice to third person, and adding first-person language from current author.</p>
+<p>The resulting content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+<div id="introduction-9" class="section level2 hasAnchor" number="13.1">
+<h2><span class="header-section-number">13.1</span> Introduction<a href="m4c-show-your-work.html#introduction-9" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Earlier this semester, each of you set up an account with GitHub. As of June 2018, this online code-management platform had over twenty-eight million users worldwide. By allowing users to create web-based repositories of source code (among other forms of content) to which project teams of any size can then contribute, GitHub makes collaborating on a single piece of software or a website or even a book much easier than it has ever been before (this book is hosted in GitHub, as is a book on <a href="https://datascienceineducation.com/">data science in education</a> written by my friend Josh and his co-authors).</p>
+<p>Well, at least if you’re a man. A 2016 study found that female GitHub users were less likely to have their contributions accepted if they identified themselves in their user profiles as women. The authors do not appear to have considered nonbinary genders, although they do maintain a category for “gender-neutral” usernames that cannot be categorized as either men’s or women’s names (Terrell et al,. 2017). Critics of GitHub’s commitment to inclusivity, or the lack thereof, also point to the company’s internal politics. In 2014, GitHub’s cofounder was forced to resign after allegations of sexual harassment were brought to light (Miller, 2014). More recently, in 2018, Agnes Pak, a former top attorney at GitHub, sued the company for allegedly altering her performance reviews after she complained about her gender and race contributing to a lower compensation package, giving them the grounds to fire her (Baron, 2018). Pak’s suit came only shortly after transgender software developer Coraline Ada Ehmke, in 2017, declined a significant severance package so that she could talk publicly about her negative experience of working at GitHub (Ehmke, 2017). Clearly, GitHub has several major issues of corporate culture that it must address.</p>
+<p>But a corporate culture that is hostile to women does not necessarily preclude other feminist interventions, and GitHub makes one important one: its platform helps show the work of writing collaborative code. In addition to basic project management tools, like bug tracking and feature requests, the GitHub platform also generates visualizations of each team member’s contributions to a project’s codebase. Area charts, arranged in small multiples, allow viewers to compare the quantity, frequency, and duration of any particular member’s contributions. A line graph reveals patterns in the day of the week when those contributions took place. And a flowchart-like diagram of the relationships between various branches of the project’s code helps to acknowledge any sources for the project that might otherwise go uncredited, as well as any additional projects that might build upon the project’s initial work.</p>
+<p>Coding is work, as anyone who’s ever programmed anything knows well. But it’s not always work that is easy to see. The same is true for collecting, analyzing, and visualizing data. We tend to marvel at the scale and complexity of an interactive visualization like the <a href="https://www.shipmap.org/">Ship Map</a>, which plots the paths of the global merchant fleet over the course of the 2012 calendar year. By showing every single sea voyage, the Ship Map exposes the networks of waterways that constitute our global product supply chain. However, we are less often exposed to the networks of processes and people that help constitute the visualization itself—from the seventy-five corporate researchers at Clarksons Research UK who assembled and validated the underlying dataset, to the academic research team at University College London’s Institute that developed the data model, to the design team at Kiln that transformed the data model into the visualization that we see. And that is to say nothing of the tens of thousands of commercial ships that served as the source of data in the first place. Visualizations like the Ship Map involve the work of many hands.</p>
+<p>Unfortunately, however, when releasing a data product to the public, we tend not to credit the many hands who perform this work. We often cite the source of the dataset, and the names of the people who designed and implemented the code and graphic elements. But we rarely dig deeper to discover who created the data in first place, who collected the data and processed them for use, and who else might have labored to make creations like the Ship Map possible. Admittedly, this information is sometimes hard to find. Likewise, when project teams (or individuals) are already operating at full capacity, or under budgetary strain, this information can—ironically—simply be too much additional work to pursue (see Martin, 2010). Even in cases in which there are both resources and desire, information about the range of the contributors to any particular project sometimes can’t be found at all.</p>
+</div>
+<div id="invisible-labor" class="section level2 hasAnchor" number="13.2">
+<h2><span class="header-section-number">13.2</span> Invisible Labor<a href="m4c-show-your-work.html#invisible-labor" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>But the various difficulties we encounter when trying to acknowledge this work reflects a larger problem in what information studies scholar Miriam Posner (2018) calls our data supply chain. Like the contents of the ships visualized on the Ship Map, about which we only know sparse details—the map can tell us if a shipping container was loaded onto the boat, but not what the shipping container contains—the invisible labor involved in data work, as Posner argues, is something that corporations have an interest in keeping out of public view.</p>
+<p>To put it more simply, it’s not a coincidence that much of the work that goes into designing a data product—visualization, algorithm, model, app—remains invisible and uncredited. In our capitalist society, we tend to value work that we can see. This is the result of a system in which the cultural worth of any particular form of work is directly connected to the price we pay for it; because a service costs money, we recognize its larger value. More often than not, though, the reverse also holds true: We fail to recognize the larger value of the services we get for free.</p>
+<p>When, in the early 1970s, the International Feminist Collective launched the Wages for Housework campaign, it was this phenomenon of <em>invisible labor</em>—labor that was unpaid and therefore unvalued—that the group was trying to expose (see Federici, 1975). The precise term they used to describe this work was <em>reproductive labor</em>, which comes from the classical economic distinction between the paid and therefore economically <em>productive</em> labor of the marketplace, and the unpaid and therefore economically <em>unproductive</em> labor of everything else. By reframing this latter category of work as <em>reproductive</em> labor, rather than simply (and inaccurately) unproductive labor, groups like the International Feminist Collective sought to emphasize how the range of tasks that the term encompassed, like cooking and cleaning and child-rearing, were precisely the tasks that enabled those who performed “productive” labor, like office or factory work, to continue to do so.</p>
+<p>The Wages for Housework movement began in Italy and migrated to the United States with the help of labor organizer and theorist Silvia Federici. It eventually claimed chapters in several American cities, and did important consciousness-raising work. Still, as prominent feminists like Angela Davis pointed out, while housework might have been unpaid for white women, women of color—especially Black women in the United States—had long been paid, albeit not well, for their housework in other people’s homes: “Because of the added intrusion of racism, vast numbers of Black women have had to do their own housekeeping and other women’s home chores as well” (Davis, 1983).</p>
+<p>Here, Davis is making an important point about racialized labor: just as housework is structured along the lines of gender, it is also structured along the lines of race and class. The domestic labor of women of color was and remains underwaged labor, as feminist labor theorists would call it, and its low cost was what permitted (and continues to permit) many white middle- and upper-class women to participate in the more lucrative waged labor market instead.</p>
+<p>Since the 1970s, the term <em>invisible labor</em> has come to encompass the various forms of labor, unwaged, underwaged, and even waged, that are rendered invisible because they take place inside of the home, because they take place out of sight, or because they lack physical form altogether. Visit <a href="WagesforFacebook.com">WagesforFacebook.com</a> and you’ll find a version of the Wages for Housework argument updated for a new form of invisible work.</p>
+<p>This invisible labor can be found all over the web, as digital labor theorists such as Tiziana Terranova (2000) have helped us to understand. “They call it sharing. We call it stealing,” is one of the statements that scrolls down the screen in large black type. The word <em>it</em> refers to work that most of us perform every day, in the form of our Facebook likes, Instagram posts, and Twitter tweets. The point made by Laurel Ptak, the artist behind Wages for Facebook—a point also made by Terranova—is that the invisible unpaid labor of our likes and tweets is precisely what enables the Facebooks and Twitters of the world to profit and thrive.</p>
+</div>
+<div id="the-invisible-labor-of-data-science" class="section level2 hasAnchor" number="13.3">
+<h2><span class="header-section-number">13.3</span> The Invisible Labor of Data Science<a href="m4c-show-your-work.html#the-invisible-labor-of-data-science" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The world of data science is able to profit and thrive because of unpaid invisible labor as well. Perhaps my “favorite” example of this is from the very geeky xkcd webcomic, which once ran the following comic:</p>
+<p><img src="https://imgs.xkcd.com/comics/self_driving.png" /></p>
+<p><a href="https://xkcd.com/1897/">Self Driving</a> by <a href="https://xkcd.com/">Randall Munroe</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/2.5/">CC BY-NC 2.5</a></p>
+<p>Have you ever wondered why these distinctive <a href="https://en.wikipedia.org/wiki/CAPTCHA">CAPTCHA</a> tests require you to do image identification? Or why they’re so often related to roads, signs, and vehicles? The idea behind a CAPTCHA test is to require a human to do a task that an automated system can’t do; ironically, though, those aggregated human tasks are often used to train automated systems to work better. Google (who owns the popular <a href="https://en.wikipedia.org/wiki/ReCAPTCHA">reCAPTCHA</a> system) uses CAPTCHA tests to train systems for automated image recognition—which has obvious benefits if you’re developing self-driving cars.</p>
+<p>Ever since reading this comic, I’ve gotten angry whenever I complete one of these. Not only does such-and-such a website believe that I’m a robot, but the only way to prove my humanity is to do free work for Google. All I get out of it is to continue to the website I want, but Google is in a position to make gobs of money based on my (and millions of others’) free labor.</p>
+<p>Other <em>crowdsourcing</em> projects (helping Netflix with its recommendation algorithm, helping a newspaper go through interesting documents, etc.) are framed as acts of benevolence (and, in the case of Netflix, an opportunity to win a million-dollar prize). People should want to contribute to these projects, their proponents claimed, since their labor would further the public good. It’s also worth pointing out, though, that when he coined the term in the mid-2000s, Jeff Howe argued that crowdsourcing was a powerful way to tap networked knowledge for corporate use. “The labor isn’t always free, but it costs a lot less than paying traditional employees,” he wrote (Howe, 2006).</p>
+<p>Plus, Ashe Dryden, the software developer and diversity consultant, points out that people can only help crowdsource if they have the inclination and the time (Dryden, 2014). Think back to that study of GitHub. If you were a woman and you knew your contributions to a programming project were less likely to be accepted than if you were a man, would that motivate you to contribute the project?</p>
+<p>Or, for another example, consider Wikipedia. Although the exact gender demographics of Wikipedia contributors are unknown, numerous surveys have indicated that those who contribute content to the crowdsourced encyclopedia are between 84 percent and 91.5 percent men (Hills &amp; Shaw, 2013; Wikimedia, n.d.). Why? It could be that there, too, edits are less likely to be accepted if they come from women editors (Whose Knowledge, n.d.). It could also be attributed to Wikipedia’s exclusionary editing culture and technological infrastructure, as science and technology studies (STS) scholars Heather Ford and Judy Wajcman (2017) have argued. And there is also reason to go back to the housework argument. Dryden cites a 2011 study showing that women in twenty-nine countries spend more than twice as much time on household tasks than men do, even when controlling for women who hold full-time jobs (Miranda, 2011). Like the other estimates of gender cited here, the study did not consider nonbinary genders or same-sex (or other non-heterotypical) households. But even as a rough estimate, it seems that women simply don’t have as much time.</p>
+</div>
+<div id="time-and-money" class="section level2 hasAnchor" number="13.4">
+<h2><span class="header-section-number">13.4</span> Time and Money<a href="m4c-show-your-work.html#time-and-money" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In capitalist societies, it’s very often the case that time is money. But it’s also important to remember to ask whose time is being spent and whose money is being saved. The premise behind Amazon’s Mechanical Turk—or MTurk, as the crowdsourcing platform is more commonly known—is that data scientists want to save their own time and their own bottom line. The MTurk website touts its access to a global marketplace of “on-demand Workers,” who are advertised as being more “scalable and cost-effective” than the “time consuming [and] expensive” process of hiring actual employees (Amazon Mechanical Turk, n.d.)</p>
+<p>Thus, MTurk is a marketplace for crowdsourced human labor—individuals and businesses that have “human intelligence tasks” can set up jobs for online workers to complete. Often repetitive, like describing images or taking surveys, the jobs are compensated in tiny financial increments that don’t add up to a minimum hourly wage—not to mention a living wage. However, a recent study by the Pew Research Center showed that 51 percent of US-based Turkers, as they are known, hold college degrees, and 88 percent are below the age of fifty, among other metrics that would otherwise rank them among the most desired demographic for salaried employees (Hitlin, 2016).</p>
+<p>This form of underwaged work is also increasingly outsourced from the United States to countries with fewer (or worse) labor laws and fewer (or worse) opportunities for economic advancement. A 2010 University of California, Irvine study measured a 20 percent drop in the number of US-based Turkers over the eighteen months that it monitored (Ross et al., 2010). This trend has continued, the real-time MTurk tracker shows. (The gender split, interestingly, has evened out over time.)</p>
+<p>Even at resource-rich companies like Amazon and Google, the work of data entry is profoundly undervalued in proportion to the knowledge it helps to create. Andrew Norman Wilson’s 2011 documentary <a href="https://vimeo.com/15852288">Workers Leaving the Googleplex</a> exposes how the workers tasked with scanning the books for the Google Books database are hired as a separate but unequal class of employee, with ID cards that restrict their access to most of the Google campus and that prevent them from enjoying the company’s famed employee perks.</p>
+</div>
+<div id="crediting-data-work" class="section level2 hasAnchor" number="13.5">
+<h2><span class="header-section-number">13.5</span> Crediting Data Work<a href="m4c-show-your-work.html#crediting-data-work" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The emphasis on giving formal credit for a broad range of work derives from feminist practices of citation. Feminist theorist Sara Ahmed describes this practice as a way of resisting how certain types of people—usually cis and white and male—“take up spaces by screening out others” (Ahmed, 2013). When those other people are screened out, they become invisible, and their contributions go unrecognized. The <em>screening techniques</em> (as Ahmed terms them) that lead to their erasure are not always intentional, but they are, unfortunately, self-perpetuating. Ahmed gives the example of sinking into a leather armchair that is comfortable because it’s molded to the shape of your body over time. You probably wouldn’t notice how the chair would be uncomfortable for those who haven’t spent time sitting in it—those with different bodies or with different demands on their time. Which is why those of us who occupy those comfortable leather seats—or, more likely in the design world, molded plastic Eames chairs—must remain vigilant in reminding ourselves of the additional forms of labor, and the additional people, that our own data work rests upon.</p>
+<p>This gets complicated quickly even on the scale of a single data science project. The names of all the people and the work they perform are not always easy to locate—if they can be located at all. But taking steps to document all the people who work on a particular project at the time that it is taking place can help to ensure that a record of that work remains after the project has been completed. In fact, this is among the four core principles that comprise the Collaborators’ Bill of Rights, a document developed by an interdisciplinary team of librarians, staff technologists, scholars, and postdoctoral fellows in 2011 in response to the proliferation of types of positions, at widely divergent ranks, that were being asked to contribute to data-based (and other digital) projects (“Collaborators’ Bill of Rights”, 2011; see also Di Pressi et al., 2018).</p>
+<p>When designing data products from a feminist perspective, we must similarly aspire to show the work involved in the entire lifecycle of the project. This remains true even as it can be difficult to name each individual involved or when the work may be collective in nature and not able to be attributed to a single source. In these cases, we might take inspiration from the Next System Project, a research group aimed at documenting and visualizing alternative economic systems (Gibson-Graham &amp; the Community Economies Collective, 2017). In one report, the group compiled information on the diversity of community economies operating in locations as far-ranging as Negros Island, in the Philippines; Québec province, in Canada; and the state of Kerala, in India. The report employs the visual metaphor of an iceberg, in which wage labor is positioned at the tip of the iceberg, floating above the water, while dozens of other forms of labor—informal lending, consumer cooperatives, and work within families, among others—are positioned below the water, providing essential economic ballast but remaining out of sight.</p>
+<p>But in more instances than you might think, the labor associated with data work can
+be surfaced through the data themselves. For instance, historian Benjamin Schmidt (2017), whose research centers on the role of government agencies in shaping public knowledge, decided to visualize the metadata associated with the digital catalog of the US Library of Congress, the largest library in the world. Schmidt’s initial goal was to understand the collection and the classification system that structured the catalog. But in the process of visualizing the catalog records, he discovered something else: a record of the labor of the cataloguers themselves. When he plotted the year that each book’s record was created against the year that the book was published (you can see the plot <a href="https://4.bp.blogspot.com/-d38P9An3g80/WRt7LiGNGjI/AAAAAAAAIdM/B7Tne8WH3C0ch3Vn35TChvSQ9SwllMSQwCLcB/s1600/MARC.png">here</a>, he saw some unusual patterns in the image: shaded vertical lines, step-like structures, and dark vertical bands that didn’t match up with what one might otherwise assume would be a basic two-step process of (1) acquire a book and (2) enter it in.</p>
+<p>The shaded vertical lines, Schmidt soon realized, showed the point at which the cataloguers began to turn back to the books that had been published before the library went digital, filling in the online catalogue with older books. The step-like patterns indicated the periods of time, later in the process, when the cataloguers returned to specific subcollections of the library, entering in the data for the entire set of books in a short period of time. And the horizontal lines? Well, given that they appear only in the years 1800 and 1900, Schmidt inferred that they indicated missing publication information, as best practices for library cataloguing dictate that the first year of the century be entered when the exact publication date is unknown.</p>
+<p>With an emphasis on showing the work, these visual artifacts should also prompt us to consider just how much physical work was involved in converting the library’s paper records to digital form. The darker areas of the chart don’t just indicate a larger number of books entered into the catalog, after all. They also indicate the people who typed them all in. (Schmidt estimates the total number of records at ten million and growing.) Similarly, the step-like formations don’t just indicate a higher volume of data entry. They indicate strategic decisions made by library staff to return to specific parts of the collection and reflect those staff members’ prior knowledge of the gaps that needed to be filled—in other words, their intellectual labor as well. Schmidt’s visualization helps to show how the dataset always points back to the <em>data setting</em>—to use Yanni Loukissas’s helpful phrase—as well as to the people who labored in that setting to produce the data that we see.</p>
+</div>
+<div id="crediting-emotional-labor-and-care-work" class="section level2 hasAnchor" number="13.6">
+<h2><span class="header-section-number">13.6</span> Crediting Emotional Labor and Care Work<a href="m4c-show-your-work.html#crediting-emotional-labor-and-care-work" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In addition to the invisible labor of data work, there is also labor that remains hidden because we are not trained to think of it as labor at all. This is what is known as emotional labor, and it’s another form of work that feminist theory has helped to bring to light. As described by feminist sociologist Arlie Hochschild (2012), <em>emotional labor</em> describes the work involved in managing one’s feelings, or someone else’s, in response to the demands of society or a particular job. Hochschild coined the term in the late 1970s to describe the labor required of service industry workers, such as flight attendants, who are required to manage their own fear while also calming passengers during adverse flight conditions, and generally work to ensure that flight passengers feel cared for and content. In the decades that followed, the notion of emotional labor was supplemented by a related concept, <em>affective labor</em>, so that the work of projecting a feeling (the definition of emotion) could be distinguished from the work of experiencing the feeling itself (the definition of affect).</p>
+<p>We can see both emotional and affective labor at work all across the technology industry today. Consider, for instance, how call center workers and other technical support specialists must exert a combination of affective and emotional labor, as well as technical expertise, to absorb the rage of irate customers (affective labor), reflect back their sympathy (emotional labor), and then help them with—for instance—the configuration of their wireless router (technical expertise; see Brophy &amp; Woodcock, 2019). In the workplace, we might also consider the affective labor required by women and minoritized groups, in all situations, who must take steps to disprove (or simply ignore) the sexist, racist, or otherist assumptions they face—about their technical ability or about anything else. And they must do so while also performing the emotional labor that ensures that they do not threaten those who hold those assumptions, who often also hold positions of power over them. Are there ways to visualize these forms of labor, giving visual presence—and therefore acknowledgement and credit—to these outlays of work?</p>
+</div>
+<div id="show-your-work" class="section level2 hasAnchor" number="13.7">
+<h2><span class="header-section-number">13.7</span> Show Your Work<a href="m4c-show-your-work.html#show-your-work" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Data work is part of a larger ecology of knowledge, one that must be both sustainable and socially just. Like the ship paths visualized on the Ship Map or the source code stored on GitHub, the network of people who contribute to data projects is vast and complex. Showing this work is an essential component of feminist data science. An emphasis on labor opens the door to the interdisciplinary area of data production studies: taking a data visualization, model, or product and tracing it back to its material conditions and contexts, as well as to the quality and character of the work and the people required to make it. This kind of careful excavation can be undertaken in academic, journalistic, or general contexts, in all cases helping to make more clearly visible—and therefore to value—the work that data science rests upon.</p>
+<p>We can also look to the data themselves in order to honor the range of forms of invisible labor involved in data science. Who is credited on each project? Whose work has been “screened out”? While one strategy is to show the work behind making data products themselves, another strategy for honoring work of all forms is to use data science to show the work of people (mostly women) who labor in other sectors of the economy, those that involve emotional labor, domestic work, and care work. Designing in solidarity with domestic workers can begin to challenge the structural inequalities that relegate their work to the margins in the first place.</p>
+<p>This point brings us back to ideas about power that we will read about throughout this semester. Power imbalances are everywhere in data science: in our datasets, in our data products, and in the environments that enable our data work. Showing the work is crucial to ensure that undervalued and invisible labor receives the credit it deserves, as well as to understand the true cost and planetary consequences of data work.</p>
+</div>
+<div id="references-4" class="section level2 hasAnchor" number="13.8">
+<h2><span class="header-section-number">13.8</span> References<a href="m4c-show-your-work.html#references-4" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Ahmed, S. (2013, September 11). Making feminist points. <em>Feministkilljoys</em> [blog]. <a href="https://feministkilljoys.com/2013/09/11/making-feminist-points/" class="uri">https://feministkilljoys.com/2013/09/11/making-feminist-points/</a></p>
+<p>Amazon Mechanical Turk. (n.d.). <a href="https://www.mturk.com/" class="uri">https://www.mturk.com/</a> (accessed April 22, 2019).</p>
+<p>Baron, E. (2018, October 1) GitHub paid executive less because she’s Asian and female, fired her for complaining: Lawsuit. <em>Mercury News</em>. <a href="https://www.mercurynews.com/2018/10/01/github-paid-executive-less-because-shes-asian-and-female-fired-her-for-complaining-lawsuit/" class="uri">https://www.mercurynews.com/2018/10/01/github-paid-executive-less-because-shes-asian-and-female-fired-her-for-complaining-lawsuit/</a></p>
+<p>Brophy, E., &amp; Woodcock, J. (2019, February 14). The call centre seen from below: Issue 4.3 editorial. <em>Notes from Below</em>. <a href="https://notesfrombelow.org/article/call-centre-seen-below-issue-43-editorial" class="uri">https://notesfrombelow.org/article/call-centre-seen-below-issue-43-editorial</a></p>
+<p>“Collaborators’ Bill of Rights.” (2011). In <em>Off the tracks: Laying new lines for digital humanities scholars</em>. MediaCommons.</p>
+<p>Davis, A. (1983). <em>Women, race, &amp; class</em>. Penguin Random House.</p>
+<p>Di Pressi, H., Gorman, S., Posner, M., Sasayma, R., &amp; Schmitt (with contributions from R. Crooks, M. Driscoll, A. Earhart, S. Keralis, T. Naiman, &amp; T. Presner). (2018, June 8). <em>A student collaborators’ bill of rights</em>. <a href="https://humtech.ucla.edu/news/a-student-collaborators-bill-of-rights/" class="uri">https://humtech.ucla.edu/news/a-student-collaborators-bill-of-rights/</a></p>
+<p>Dryden, A. (2014, April 29). <em>Programming diversity</em>. Talk at Mix-IT, Lyon, France. <a href="https://www.ashedryden.com/mixit-programming-diversity" class="uri">https://www.ashedryden.com/mixit-programming-diversity</a></p>
+<p>Ehmke, C. A. (2017, July 5). Antisocial coding: My year at GitHub. <em>Coraline Ada Ehmke</em> [blog]. <a href="https://where.coraline.codes/blog/my-year-at-github/" class="uri">https://where.coraline.codes/blog/my-year-at-github/</a></p>
+<p>Federici, S. (1975). <em>Wages against housework</em>. Power of Women Collective and Falling Water Press.</p>
+<p>Ford, H., &amp; Wajcman, J. (2017). “Anyone can edit”, not everyone does: Wikipedia’s infrastructure and the gender gap. <em>Social Studies of Science</em>, <em>47</em>(4), 511-527.</p>
+<p>Gibson-Graham, J. K., &amp; the Community Economies Collective. (2017, February 27). <em>Cultivating Community Economies</em>. Next System Project. <a href="https://thenextsystem.org/cultivating-community-economies" class="uri">https://thenextsystem.org/cultivating-community-economies</a></p>
+<p>Hill, B. M., &amp; Shaw, A. (2013). The Wikipedia gender gap revisited: Characterizing survey response bias with propensity score estimation. <em>PLOS One</em>, <em>8</em>(6), 1-5.</p>
+<p>Hitlin, P. (2016, July 11). Research in the crowdsourcing age, a case study. <em>Pew Research Center: Internet &amp; Technology</em>. <a href="https://www.pewresearch.org/internet/2016/07/11/research-in-the-crowdsourcing-age-a-case-study/" class="uri">https://www.pewresearch.org/internet/2016/07/11/research-in-the-crowdsourcing-age-a-case-study/</a></p>
+<p>Hochschild, A. R. (2012). <em>The managed heart: Commercialization of human feeling</em> (3rd ed.). University of California Press.</p>
+<p>Howe, J. (2006, January 6). The rise of crowdsourcing. <em>WIRED</em>. <a href="https://www.wired.com/2006/06/crowds/" class="uri">https://www.wired.com/2006/06/crowds/</a></p>
+<p>Martin, J. L. (2010). Life’s a beach but you’re an ant, and other unwelcome news for the sociology of culture. <em>Poetics</em>, <em>38</em>(2), 229-244.</p>
+<p>Miller, C. C. (2014, April 21). Github founder resigns after investigation. New York Times. <a href="https://archive.nytimes.com/bits.blogs.nytimes.com/2014/04/21/github-founder-resigns-after-investigation/" class="uri">https://archive.nytimes.com/bits.blogs.nytimes.com/2014/04/21/github-founder-resigns-after-investigation/</a></p>
+<p>Miranda, V. (2011). Cooking, caring and volunteering: Unpaid work around the world. <em>OECD Social, Employment and Migration Papers</em>, <em>116</em>. <a href="https://www.oecd.org/berlin/47258230.pdf" class="uri">https://www.oecd.org/berlin/47258230.pdf</a></p>
+<p>Posner, M. (2018, April). See no evil. <em>Logic Magazine</em>. <a href="https://logicmag.io/scale/see-no-evil/" class="uri">https://logicmag.io/scale/see-no-evil/</a></p>
+<p>Ross, J., Irani, L., Silberman, M. S., Zaldivar, A., &amp; Tomlinson, B. Who are the crowdworkers? Shifting demographics in Mechanical Turk. In <em>CHI 2010: Imagine All the People</em> (pp. 2863-2872).</p>
+<p>Schmidt, B. M. (2017, May 16). A brief visual history of MARC cataloging at the Library of Congress. <em>Sapping Attention</em> [blog]. <a href="http://sappingattention.blogspot.com/2017/05/a-brief-visual-history-of-marc.html" class="uri">http://sappingattention.blogspot.com/2017/05/a-brief-visual-history-of-marc.html</a></p>
+<p>Terranova, T. (2000). Free labor: Producing culture for the digital economy. <em>Social Text</em>, <em>18</em>(2), 33-58.</p>
+<p>Terrell, J., Kofink, A., Middleton, J., Rainear, C., Murphy-Hill, E., Parnin, C., &amp; Stallings, J. (2017). Gender differences and bias in open source: Pull request acceptance of women versus men. <em>PeerJ Computer Science</em>, <em>3</em>(e111).</p>
+<p>Whose Knowledge. (n.d.). <em>#VisibleWikiWomen 2019</em>. <a href="https://whoseknowledge.org/initiatives/visiblewikiwomen-2019/" class="uri">https://whoseknowledge.org/initiatives/visiblewikiwomen-2019/</a></p>
+<p>Wikimedia. (n.d.). <em>Editor Survey 2011/Executive Summary</em>. <a href="https://meta.wikimedia.org/wiki/Editor_Survey_2011/Executive_Summary" class="uri">https://meta.wikimedia.org/wiki/Editor_Survey_2011/Executive_Summary</a></p>
+
+</div>
+</div>
+<script src="https://hypothes.is/embed.js" async></script>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="m4a-find-a-dataset-relevant-to-you.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="module-5-understanding.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
