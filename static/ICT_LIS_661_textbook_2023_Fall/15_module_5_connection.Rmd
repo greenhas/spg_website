@@ -1,1 +1,11 @@
-# Module 5 Connection
+# M5C: Reflect on Theoretical and Philosophical Constraints
+
+You will complete the Module 5 Connection activity on Canvas. Please navigate to the corresponding discussion board and respond to the following prompt:
+
+> Earlier in this module, we established that theory and philosophy can play a helpfully constraining role in data science. To be clear, data is tremendously helpful for re-evaluating theory and philosophy, and if the data are telling us something different than our theory and philosophy, that's something worth paying attention to. Much of the history of science is letting data tell us when and where our philosophical commitments are wrong—the data show that the earth revolves around the sun no matter how committed our philosophy is to keeping the earth at the center of the universe. However, we've also established that numbers don't speak for themselves, and we must also use theory and philosophy to ground and question our findings. For example, even if we found that installing government-run cameras inside citizens' homes was very helpful for catching criminals, our philosophical commitments to human privacy and dignity ought to tell us that this isn't an acceptable policy solution.
+> 
+> Knowing when to let data override theory and philosophy and when to let theory and philosophy override what the data seem to be telling us is a tricky balance—but we have to be committed to both. In a world where data is increasingly seen as having all the answers, it is especially important that we use theory and philosophy to keep data in check.
+> 
+> Think about a professional context—a current job, past job, or hoped-for future job—where you could potentially apply your data science or other research skills. What are the theoretical or philosophical commitments that are widely held in that context? Then think about the ways that those commitments could constrain what data you collect, how you interpret data analysis, and how you would act on data. Are some "data-driven decisions" out of the picture? Is that a good thing? A bad thing? Both?
+> 
+> After thinking about these questions, write a short response to this discussion post that addresses some of the answers that you came up with. Focus in particular on how theory and philosophy might provide a helpful constraint when deciding how to use or act on data.

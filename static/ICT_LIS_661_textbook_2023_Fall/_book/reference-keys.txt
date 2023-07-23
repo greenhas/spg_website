@@ -120,7 +120,7 @@ data-science-lacks-a-thorough-definition-of-good
 pursuing-an-incremental-good-can-reinforce-oppression
 conclusion-5
 references-6
-module-5-connection
+m5c-reflect-on-theoretical-and-philosophical-constraints
 module-6-understanding
 module-6-application
 module-6-connection
