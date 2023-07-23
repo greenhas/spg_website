@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>14 M5U: Numbers Don’t Speak for Themselves | Introduction to Data Science</title>
+  <meta name="description" content="14 M5U: Numbers Don’t Speak for Themselves | Introduction to Data Science" />
+  <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="14 M5U: Numbers Don’t Speak for Themselves | Introduction to Data Science" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="14 M5U: Numbers Don’t Speak for Themselves | Introduction to Data Science" />
+  
+  
+  
+
+<meta name="author" content="Spencer P. Greenhalgh, PhD" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="m4c-show-your-work.html"/>
+<link rel="next" href="module-5-application.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="module-1-understanding.html"><a href="module-1-understanding.html"><i class="fa fa-check"></i><b>2</b> Module 1 Understanding</a></li>
+<li class="chapter" data-level="3" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html"><i class="fa fa-check"></i><b>3</b> M1A: Install R and RStudio</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#introduction-1"><i class="fa fa-check"></i><b>3.1</b> Introduction</a></li>
+<li class="chapter" data-level="3.2" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#r"><i class="fa fa-check"></i><b>3.2</b> R</a></li>
+<li class="chapter" data-level="3.3" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#rstudio"><i class="fa fa-check"></i><b>3.3</b> RStudio</a></li>
+<li class="chapter" data-level="3.4" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#references"><i class="fa fa-check"></i><b>3.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="m1c-introduce-yourself-to-the-class.html"><a href="m1c-introduce-yourself-to-the-class.html"><i class="fa fa-check"></i><b>4</b> M1C: Introduce Yourself to the Class</a></li>
+<li class="chapter" data-level="5" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html"><i class="fa fa-check"></i><b>5</b> M2U: The New(?) and Shiny(?) Science of Data</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data-data-science-and-big-data"><i class="fa fa-check"></i><b>5.1</b> Data, Data Science, and Big Data</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data"><i class="fa fa-check"></i><b>5.1.1</b> Data</a></li>
+<li class="chapter" data-level="5.1.2" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data-science"><i class="fa fa-check"></i><b>5.1.2</b> Data Science</a></li>
+<li class="chapter" data-level="5.1.3" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#big-data"><i class="fa fa-check"></i><b>5.1.3</b> Big Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#the-many-skills-of-data-science"><i class="fa fa-check"></i><b>5.2</b> The Many Skills of Data Science</a></li>
+<li class="chapter" data-level="5.3" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#references-1"><i class="fa fa-check"></i><b>5.3</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>6</b> M2A: Getting Started with Data in R</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="getting-started.html"><a href="getting-started.html#introduction-2"><i class="fa fa-check"></i><b>6.1</b> Introduction</a></li>
+<li class="chapter" data-level="6.2" data-path="getting-started.html"><a href="getting-started.html#r-rstudio"><i class="fa fa-check"></i><b>6.2</b> What are R and RStudio?</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="getting-started.html"><a href="getting-started.html#using-r-via-rstudio"><i class="fa fa-check"></i><b>6.2.1</b> Using R via RStudio</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="getting-started.html"><a href="getting-started.html#code"><i class="fa fa-check"></i><b>6.3</b> How do I code in R?</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="getting-started.html"><a href="getting-started.html#programming-concepts"><i class="fa fa-check"></i><b>6.3.1</b> Basic programming concepts and terminology</a></li>
+<li class="chapter" data-level="6.3.2" data-path="getting-started.html"><a href="getting-started.html#messages"><i class="fa fa-check"></i><b>6.3.2</b> Errors, warnings, and messages</a></li>
+<li class="chapter" data-level="6.3.3" data-path="getting-started.html"><a href="getting-started.html#tips-code"><i class="fa fa-check"></i><b>6.3.3</b> Tips on learning to code</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="getting-started.html"><a href="getting-started.html#packages"><i class="fa fa-check"></i><b>6.4</b> What are R packages?</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="getting-started.html"><a href="getting-started.html#package-installation"><i class="fa fa-check"></i><b>6.4.1</b> Package installation</a></li>
+<li class="chapter" data-level="6.4.2" data-path="getting-started.html"><a href="getting-started.html#package-loading"><i class="fa fa-check"></i><b>6.4.2</b> Package loading</a></li>
+<li class="chapter" data-level="6.4.3" data-path="getting-started.html"><a href="getting-started.html#package-use"><i class="fa fa-check"></i><b>6.4.3</b> Package use</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="getting-started.html"><a href="getting-started.html#nycflights13"><i class="fa fa-check"></i><b>6.5</b> Explore your first datasets</a>
+<ul>
+<li class="chapter" data-level="6.5.1" data-path="getting-started.html"><a href="getting-started.html#nycflights13-package"><i class="fa fa-check"></i><b>6.5.1</b> <code>nycflights13</code> package</a></li>
+<li class="chapter" data-level="6.5.2" data-path="getting-started.html"><a href="getting-started.html#flights-data-frame"><i class="fa fa-check"></i><b>6.5.2</b> <code>flights</code> data frame</a></li>
+<li class="chapter" data-level="6.5.3" data-path="getting-started.html"><a href="getting-started.html#exploredataframes"><i class="fa fa-check"></i><b>6.5.3</b> Exploring data frames</a></li>
+<li class="chapter" data-level="6.5.4" data-path="getting-started.html"><a href="getting-started.html#identification-vs-measurement-variables"><i class="fa fa-check"></i><b>6.5.4</b> Identification and measurement variables</a></li>
+</ul></li>
+<li class="chapter" data-level="6.6" data-path="getting-started.html"><a href="getting-started.html#conclusion"><i class="fa fa-check"></i><b>6.6</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html"><i class="fa fa-check"></i><b>7</b> M2C: Set up GitHub</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#introduction-3"><i class="fa fa-check"></i><b>7.1</b> Introduction</a></li>
+<li class="chapter" data-level="7.2" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#gitand-githubin-data-science"><i class="fa fa-check"></i><b>7.2</b> Git—and GitHub—in Data Science</a></li>
+<li class="chapter" data-level="7.3" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#github-in-ictlis-661"><i class="fa fa-check"></i><b>7.3</b> GitHub in ICT/LIS 661</a></li>
+<li class="chapter" data-level="7.4" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#setting-up-github"><i class="fa fa-check"></i><b>7.4</b> Setting Up GitHub</a>
+<ul>
+<li class="chapter" data-level="7.4.1" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#creating-a-github-account"><i class="fa fa-check"></i><b>7.4.1</b> Creating a GitHub Account</a></li>
+<li class="chapter" data-level="7.4.2" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#setting-up-a-github-repository-for-class"><i class="fa fa-check"></i><b>7.4.2</b> Setting up a GitHub Repository for Class</a></li>
+<li class="chapter" data-level="7.4.3" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#installing-github-desktop"><i class="fa fa-check"></i><b>7.4.3</b> Installing GitHub Desktop</a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#moving-forward"><i class="fa fa-check"></i><b>7.5</b> Moving Forward</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html"><i class="fa fa-check"></i><b>8</b> M3U: Research Paradigms and Reproducibility</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#introduction-4"><i class="fa fa-check"></i><b>8.1</b> Introduction</a></li>
+<li class="chapter" data-level="8.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#reproducibility-and-paradigms"><i class="fa fa-check"></i><b>8.2</b> Reproducibility and Paradigms</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#an-example-paradigm"><i class="fa fa-check"></i><b>8.2.1</b> An Example Paradigm</a></li>
+<li class="chapter" data-level="8.2.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#another-example-paradigm"><i class="fa fa-check"></i><b>8.2.2</b> Another Example Paradigm</a></li>
+<li class="chapter" data-level="8.2.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#why-do-paradigms-matter"><i class="fa fa-check"></i><b>8.2.3</b> Why Do Paradigms Matter?</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#supporting-reproducibility"><i class="fa fa-check"></i><b>8.3</b> Supporting Reproducibility</a>
+<ul>
+<li class="chapter" data-level="8.3.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-design"><i class="fa fa-check"></i><b>8.3.1</b> Open Design</a></li>
+<li class="chapter" data-level="8.3.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-analysis"><i class="fa fa-check"></i><b>8.3.2</b> Open Analysis</a></li>
+<li class="chapter" data-level="8.3.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-publication"><i class="fa fa-check"></i><b>8.3.3</b> Open Publication</a></li>
+</ul></li>
+<li class="chapter" data-level="8.4" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#conclusion-1"><i class="fa fa-check"></i><b>8.4</b> Conclusion</a></li>
+<li class="chapter" data-level="8.5" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#references-2"><i class="fa fa-check"></i><b>8.5</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html"><i class="fa fa-check"></i><b>9</b> M3A: Using Projects and Scripts in R</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#introduction-5"><i class="fa fa-check"></i><b>9.1</b> Introduction</a></li>
+<li class="chapter" data-level="9.2" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#more-about-r-and-rstudio"><i class="fa fa-check"></i><b>9.2</b> More About R and RStudio</a></li>
+<li class="chapter" data-level="9.3" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#the-console-and-the-workspace"><i class="fa fa-check"></i><b>9.3</b> The Console and the Workspace</a></li>
+<li class="chapter" data-level="9.4" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#holding-onto-code"><i class="fa fa-check"></i><b>9.4</b> Holding Onto Code</a>
+<ul>
+<li class="chapter" data-level="9.4.1" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#rstudio-projects"><i class="fa fa-check"></i><b>9.4.1</b> RStudio Projects</a></li>
+<li class="chapter" data-level="9.4.2" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#using-scripts"><i class="fa fa-check"></i><b>9.4.2</b> Using Scripts</a></li>
+<li class="chapter" data-level="9.4.3" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#backing-up-your-project-folder"><i class="fa fa-check"></i><b>9.4.3</b> Backing Up Your Project Folder</a></li>
+</ul></li>
+<li class="chapter" data-level="9.5" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#conclusion-2"><i class="fa fa-check"></i><b>9.5</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html"><i class="fa fa-check"></i><b>10</b> M3C: Writing in R Markdown</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#introduction-6"><i class="fa fa-check"></i><b>10.1</b> Introduction</a></li>
+<li class="chapter" data-level="10.2" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#markdown-syntax"><i class="fa fa-check"></i><b>10.2</b> Markdown syntax</a>
+<ul>
+<li class="chapter" data-level="10.2.1" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#inline-formatting"><i class="fa fa-check"></i><b>10.2.1</b> Inline formatting</a></li>
+<li class="chapter" data-level="10.2.2" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#block-level-elements"><i class="fa fa-check"></i><b>10.2.2</b> Block-level elements</a></li>
+<li class="chapter" data-level="10.2.3" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#r-code-chunks"><i class="fa fa-check"></i><b>10.2.3</b> R code chunks</a></li>
+</ul></li>
+<li class="chapter" data-level="10.3" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#trying-out-r-markdown"><i class="fa fa-check"></i><b>10.3</b> Trying out R Markdown</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html"><i class="fa fa-check"></i><b>11</b> M4U: The Value of Open Data</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#introduction-7"><i class="fa fa-check"></i><b>11.1</b> Introduction</a></li>
+<li class="chapter" data-level="11.2" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#positivism-and-the-need-for-data"><i class="fa fa-check"></i><b>11.2</b> Positivism and the Need for Data</a></li>
+<li class="chapter" data-level="11.3" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#sharing-data"><i class="fa fa-check"></i><b>11.3</b> Sharing Data</a></li>
+<li class="chapter" data-level="11.4" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#sharing-data-and-privacy"><i class="fa fa-check"></i><b>11.4</b> Sharing Data and Privacy</a></li>
+<li class="chapter" data-level="11.5" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#how-to-share-data"><i class="fa fa-check"></i><b>11.5</b> How to Share Data</a></li>
+<li class="chapter" data-level="11.6" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#benefits-of-sharing-data"><i class="fa fa-check"></i><b>11.6</b> Benefits of Sharing Data</a></li>
+<li class="chapter" data-level="11.7" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#downsides-of-sharing-data"><i class="fa fa-check"></i><b>11.7</b> Downsides of Sharing Data</a></li>
+<li class="chapter" data-level="11.8" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#incentives-for-sharing-data"><i class="fa fa-check"></i><b>11.8</b> Incentives for Sharing Data</a></li>
+<li class="chapter" data-level="11.9" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#conclusion-3"><i class="fa fa-check"></i><b>11.9</b> Conclusion</a></li>
+<li class="chapter" data-level="11.10" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#references-3"><i class="fa fa-check"></i><b>11.10</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html"><i class="fa fa-check"></i><b>12</b> M4A: Find a Dataset Relevant To You</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#introduction-8"><i class="fa fa-check"></i><b>12.1</b> Introduction</a></li>
+<li class="chapter" data-level="12.2" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#signs-of-a-good-dataset"><i class="fa fa-check"></i><b>12.2</b> Signs of a Good Dataset</a></li>
+<li class="chapter" data-level="12.3" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#finding-a-good-dataset"><i class="fa fa-check"></i><b>12.3</b> Finding a Good Dataset</a></li>
+<li class="chapter" data-level="12.4" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#loading-your-dataset"><i class="fa fa-check"></i><b>12.4</b> Loading Your Dataset</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html"><i class="fa fa-check"></i><b>13</b> M4C: Show Your Work</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#introduction-9"><i class="fa fa-check"></i><b>13.1</b> Introduction</a></li>
+<li class="chapter" data-level="13.2" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#invisible-labor"><i class="fa fa-check"></i><b>13.2</b> Invisible Labor</a></li>
+<li class="chapter" data-level="13.3" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#the-invisible-labor-of-data-science"><i class="fa fa-check"></i><b>13.3</b> The Invisible Labor of Data Science</a></li>
+<li class="chapter" data-level="13.4" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#time-and-money"><i class="fa fa-check"></i><b>13.4</b> Time and Money</a></li>
+<li class="chapter" data-level="13.5" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#crediting-data-work"><i class="fa fa-check"></i><b>13.5</b> Crediting Data Work</a></li>
+<li class="chapter" data-level="13.6" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#crediting-emotional-labor-and-care-work"><i class="fa fa-check"></i><b>13.6</b> Crediting Emotional Labor and Care Work</a></li>
+<li class="chapter" data-level="13.7" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#show-your-work"><i class="fa fa-check"></i><b>13.7</b> Show Your Work</a></li>
+<li class="chapter" data-level="13.8" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#references-4"><i class="fa fa-check"></i><b>13.8</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html"><i class="fa fa-check"></i><b>14</b> M5U: Numbers Don’t Speak for Themselves</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#introduction-10"><i class="fa fa-check"></i><b>14.1</b> Introduction</a></li>
+<li class="chapter" data-level="14.2" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#bigger-is-not-always-better"><i class="fa fa-check"></i><b>14.2</b> Bigger is not Always Better</a></li>
+<li class="chapter" data-level="14.3" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#theory"><i class="fa fa-check"></i><b>14.3</b> Theory</a></li>
+<li class="chapter" data-level="14.4" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#the-importance-of-theory"><i class="fa fa-check"></i><b>14.4</b> The Importance of Theory</a></li>
+<li class="chapter" data-level="14.5" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#research-isnt-just-empirical"><i class="fa fa-check"></i><b>14.5</b> Research isn’t Just Empirical</a></li>
+<li class="chapter" data-level="14.6" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#the-importance-of-context"><i class="fa fa-check"></i><b>14.6</b> The Importance of Context</a></li>
+<li class="chapter" data-level="14.7" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#conclusion-4"><i class="fa fa-check"></i><b>14.7</b> Conclusion</a></li>
+<li class="chapter" data-level="14.8" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#references-5"><i class="fa fa-check"></i><b>14.8</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="15" data-path="module-5-application.html"><a href="module-5-application.html"><i class="fa fa-check"></i><b>15</b> Module 5 Application</a></li>
+<li class="chapter" data-level="16" data-path="module-5-connection.html"><a href="module-5-connection.html"><i class="fa fa-check"></i><b>16</b> Module 5 Connection</a></li>
+<li class="chapter" data-level="17" data-path="module-6-understanding.html"><a href="module-6-understanding.html"><i class="fa fa-check"></i><b>17</b> Module 6 Understanding</a></li>
+<li class="chapter" data-level="18" data-path="module-6-application.html"><a href="module-6-application.html"><i class="fa fa-check"></i><b>18</b> Module 6 Application</a></li>
+<li class="chapter" data-level="19" data-path="module-6-connection.html"><a href="module-6-connection.html"><i class="fa fa-check"></i><b>19</b> Module 6 Connection</a></li>
+<li class="chapter" data-level="20" data-path="module-7-understanding.html"><a href="module-7-understanding.html"><i class="fa fa-check"></i><b>20</b> Module 7 Understanding</a></li>
+<li class="chapter" data-level="21" data-path="module-7-application.html"><a href="module-7-application.html"><i class="fa fa-check"></i><b>21</b> Module 7 Application</a></li>
+<li class="chapter" data-level="22" data-path="module-7-connection.html"><a href="module-7-connection.html"><i class="fa fa-check"></i><b>22</b> Module 7 Connection</a></li>
+<li class="chapter" data-level="23" data-path="module-8-understanding.html"><a href="module-8-understanding.html"><i class="fa fa-check"></i><b>23</b> Module 8 Understanding</a></li>
+<li class="chapter" data-level="24" data-path="module-8-application.html"><a href="module-8-application.html"><i class="fa fa-check"></i><b>24</b> Module 8 Application</a></li>
+<li class="chapter" data-level="25" data-path="module-8-connection.html"><a href="module-8-connection.html"><i class="fa fa-check"></i><b>25</b> Module 8 Connection</a></li>
+<li class="chapter" data-level="26" data-path="module-9-understanding.html"><a href="module-9-understanding.html"><i class="fa fa-check"></i><b>26</b> Module 9 Understanding</a></li>
+<li class="chapter" data-level="27" data-path="module-9-application.html"><a href="module-9-application.html"><i class="fa fa-check"></i><b>27</b> Module 9 Application</a></li>
+<li class="chapter" data-level="28" data-path="module-9-connection.html"><a href="module-9-connection.html"><i class="fa fa-check"></i><b>28</b> Module 9 Connection</a></li>
+<li class="chapter" data-level="29" data-path="module-10-understanding.html"><a href="module-10-understanding.html"><i class="fa fa-check"></i><b>29</b> Module 10 Understanding</a></li>
+<li class="chapter" data-level="30" data-path="module-10-application.html"><a href="module-10-application.html"><i class="fa fa-check"></i><b>30</b> Module 10 Application</a></li>
+<li class="chapter" data-level="31" data-path="module-10-connection.html"><a href="module-10-connection.html"><i class="fa fa-check"></i><b>31</b> Module 10 Connection</a></li>
+<li class="chapter" data-level="32" data-path="module-11-understanding.html"><a href="module-11-understanding.html"><i class="fa fa-check"></i><b>32</b> Module 11 Understanding</a></li>
+<li class="chapter" data-level="33" data-path="module-11-application.html"><a href="module-11-application.html"><i class="fa fa-check"></i><b>33</b> Module 11 Application</a></li>
+<li class="chapter" data-level="34" data-path="module-11-connection.html"><a href="module-11-connection.html"><i class="fa fa-check"></i><b>34</b> Module 11 Connection</a></li>
+<li class="chapter" data-level="35" data-path="module-12-understanding.html"><a href="module-12-understanding.html"><i class="fa fa-check"></i><b>35</b> Module 12 Understanding</a></li>
+<li class="chapter" data-level="36" data-path="module-12-application.html"><a href="module-12-application.html"><i class="fa fa-check"></i><b>36</b> Module 12 Application</a></li>
+<li class="chapter" data-level="37" data-path="module-12-connection.html"><a href="module-12-connection.html"><i class="fa fa-check"></i><b>37</b> Module 12 Connection</a></li>
+<li class="chapter" data-level="38" data-path="module-13-understanding.html"><a href="module-13-understanding.html"><i class="fa fa-check"></i><b>38</b> Module 13 Understanding</a></li>
+<li class="chapter" data-level="39" data-path="module-13-application.html"><a href="module-13-application.html"><i class="fa fa-check"></i><b>39</b> Module 13 Application</a></li>
+<li class="chapter" data-level="40" data-path="module-13-connection.html"><a href="module-13-connection.html"><i class="fa fa-check"></i><b>40</b> Module 13 Connection</a></li>
+<li class="chapter" data-level="41" data-path="module-14-understanding.html"><a href="module-14-understanding.html"><i class="fa fa-check"></i><b>41</b> Module 14 Understanding</a></li>
+<li class="chapter" data-level="42" data-path="module-14-application.html"><a href="module-14-application.html"><i class="fa fa-check"></i><b>42</b> Module 14 Application</a></li>
+<li class="chapter" data-level="43" data-path="module-14-connection.html"><a href="module-14-connection.html"><i class="fa fa-check"></i><b>43</b> Module 14 Connection</a></li>
+<li class="chapter" data-level="44" data-path="module-15-understanding.html"><a href="module-15-understanding.html"><i class="fa fa-check"></i><b>44</b> Module 15 Understanding</a></li>
+<li class="chapter" data-level="45" data-path="module-15-application.html"><a href="module-15-application.html"><i class="fa fa-check"></i><b>45</b> Module 15 Application</a></li>
+<li class="chapter" data-level="46" data-path="module-15-connection.html"><a href="module-15-connection.html"><i class="fa fa-check"></i><b>46</b> Module 15 Connection</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduction to Data Science</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="m5u-numbers-dont-speak-for-themselves" class="section level1 hasAnchor" number="14">
+<h1><span class="header-section-number">14</span> M5U: Numbers Don’t Speak for Themselves<a href="m5u-numbers-dont-speak-for-themselves.html#m5u-numbers-dont-speak-for-themselves" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This chapter draws on material from <a href="https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/3">6. The Numbers Don’t Speak for Themselves</a> by <a href="http://www.kanarinka.com/">Catherine D’Ignazio</a> and <a href="https://lklein.com/">Lauren Klein</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+<p>Changes to the source material include light editing, adding new material, deleting original material, rearranging material, changing the citation style, adding links, replacing images, changing original authors’ voice to third person, and adding first-person language from current author.</p>
+<p>The resulting content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+<div id="introduction-10" class="section level2 hasAnchor" number="14.1">
+<h2><span class="header-section-number">14.1</span> Introduction<a href="m5u-numbers-dont-speak-for-themselves.html#introduction-10" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In April 2014, 276 young women were kidnapped from their high school in the town of Chibok in northern Nigeria. Boko Haram, a militant terrorist group, claimed responsibility for the attacks. The press coverage, both in Nigeria and around the world, was fast and furious. <a href="https://saharareporters.com/">SaharaReporters.com</a> challenged the government’s ability to keep its students safe. CNN covered parents’ anguish. The Japan Times connected the kidnappings to the increasing unrest in Nigeria’s northern states. And the BBC told the story of a girl who had managed to evade the kidnappers. Several weeks after this initial reporting, the popular blog FiveThirtyEight published its own data-driven story about the event, titled “Kidnapping of Girls in Nigeria Is Part of a Worsening Problem” (Chalabi, 2014). The story reported skyrocketing rates of kidnappings. It asserted that in 2013 alone there had been more than 3,608 kidnappings of young women. Charts and maps accompanied the story to visually make the case that abduction was at an all-time high—here’s <a href="https://fivethirtyeight.com/wp-content/uploads/2014/05/chalabi-datalab-kidnap.png?w=610">a link</a> to one prominent one.</p>
+<p>Shortly thereafter, the news website had to issue an apologetic retraction because its numbers were just plain wrong. The outlet had used the Global Database of Events, Language and Tone (GDELT) as its data source. GDELT is a big data project led by computational social scientist Kalev Leetaru. It collects news reports about events around the world and parses the news reports for actors, events, and geography with the aim of providing a comprehensive set of data for researchers, governments, and civil society. GDELT tries to focus on conflict—for example, whether conflict is likely between two countries or whether unrest is sparking a civil war—by analyzing media reports.</p>
+<p>However, as political scientist Erin Simpson pointed out to FiveThirtyEight in a widely cited Twitter thread (archived <a href="https://web.archive.org/web/20140528062637/https://storify.com/AthertonKD/if-a-data-point-has-no-context-does-it-have-any-me">here</a>, GDELT’s primary data source is media reports. The project is not at a stage at which its data can be used to make reliable claims about independent cases of kidnapping. The kidnapping of schoolgirls in Nigeria was a single event. There were thousands of global media stories about it. Although GDELT de-duplicated some of those stories to a single event, it still logged, erroneously, that hundreds of kidnapping events had happened that day. The FiveThirtyEight report had counted each of those GDELT pseudoevents as a separate kidnapping incident.</p>
+<p>The error was embarrassing for FiveThirtyEight, not to mention for the reporter, but it also helps to illustrate some of the larger problems related to data found “in the wild.” First, the hype around “big data” leads to projects like GDELT wildly overstating the completeness and accuracy of its data and algorithms. On the website and in publications, the project leads have stated that GDELT is “an initiative to construct a catalog of human societal-scale behavior and beliefs across all countries of the world, connecting every person, organization, location, count, theme, news source, and event across the planet into a single massive network that captures what’s happening around the world, what its context is and who’s involved, and how the world is feeling about it, every single day” (Leetaru, n.d.).</p>
+</div>
+<div id="bigger-is-not-always-better" class="section level2 hasAnchor" number="14.2">
+<h2><span class="header-section-number">14.2</span> Bigger is not Always Better<a href="m5u-numbers-dont-speak-for-themselves.html#bigger-is-not-always-better" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>This boasting by GDELT is typical of projects that ignore context, fetishize size, and inflate their technical and scientific capabilities. In doing so, they tap into patriarchial, cis-masculinist, totalizing fantasies of world domination as enacted through data capture and analysis. In fact, D’Ignazio and Klein (the original authors of this material) make a pointed comparison between masculinity and data science in terms of obsession with… size… that I have edited out here. You can read their comparison at the link in the attributions above—or review Gieseking (2018), which uses similar wordplay to make an important critique of big data.</p>
+<p>In GDELT’s case, the question is whether we should take its claims of big data at face value or whether the emphasis on size is trying to trick funding organizations into giving the project massive amounts of research funding. (This trick has worked many times before.) The GDELT technical documentation does not provide any more clarity as to whether it is counting media reports (as Simpson asserts) or single events.</p>
+<p>The database FiveThirtyEight used is called the GDELT Event Database, which certainly makes it sound like it’s counting events. The GDELT documentation states that “if an event has been seen before it will not be included again,” which also makes it sound like it’s counting events. And a 2013 research paper related to the project confirms that GDELT is indeed counting events, but only events that are unique to specific publications. So it’s counting events, but with an asterisk. Compounding the matter, the documentation offers no guidance as to what kinds of research questions are appropriate to ask the database or what the limitations might be. People like Simpson who are familiar with the area of research known as event detection may know to not believe (1) the title of the database, (2) the documentation, and (3) the marketing hype. But how would outsiders, let alone newcomers to the platform, ever know that?</p>
+<p>Here, we’re focusing on GDELT, but the truth is that it’s not very different from any number of other data repositories out there on the web. There are a proliferating number of portals, observatories, and websites that make it possible to download all manner of government, corporate, and scientific data. Consider application programming interfaces (APIs): programs that serve as go-betweens allowing individual users to access data stored by digital platforms. There are APIs that make it possible to write little programs to query massive datasets (like, for instance, all of Twitter) and download them in a structured way.</p>
+<p>There are test datasets for network analysis, machine learning, social media, and image recognition. There are fun datasets, curious datasets, and newsletters that inform readers of datasets to explore for journalism or analysis: You may enjoy exploring datasets about <a href="https://www.kaggle.com/datasets/kmader/dogs-of-zurich">dogs in Zurich</a>, <a href="https://www.kaggle.com/datasets/NUFORC/ufo-sightings">UFO sightings</a>, or <a href="https://www.data.gov.uk/dataset/452bee2c-28ea-4a2f-8005-16b9afdd8ba9/abandoned-shopping-trolleys-in-bristol-rivers">a list of abandoned shopping carts in Bristol rivers</a>. My favorite is perhaps <a href="https://data.gov.be/en/dataset/comic-book-route">this dataset</a> of all the murals in Brussels inspired by the proud Franco-Belgian comics tradition; in fact, this is such a perfect combination of my personal interests in French, comics, and data that I feel obligated to specify that the original authors of this material included this reference—I didn’t add it after the fact.</p>
+<p>In our current moment, we tend to think of this unfettered access to information as an inherent good. And in many ways, it is kind of amazing that one can just google and download data on, for instance, pigeon racing, the length of guinea pig teeth, or <a href="https://data.world/history/scottish-witchcraft">every single person accused of witchcraft in Scotland between 1562 and 1736</a>. Personally, I’ve benefited tremendously from this! I’m not exaggerating when I say I owe my career in great part to the ability to download truckloads and truckloads of tweets. (Though under current Twitter leadership, this ability has disappeared for me and many other researchers.)</p>
+<p>However, it’s also easy to let this convenient access to data distract us from other important commitments in data science.</p>
+</div>
+<div id="theory" class="section level2 hasAnchor" number="14.3">
+<h2><span class="header-section-number">14.3</span> Theory<a href="m5u-numbers-dont-speak-for-themselves.html#theory" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The word <em>theory</em> gets tossed around a lot when discussing science and scientific research, but sometimes people attribute different meanings or values to it. You may have heard someone disparage some scientific conclusion as “just a theory,” suggesting that the word has a flavor of “less than fact.” That’s not entirely wrong, but it’s easy to see how the word <em>theory</em> can—and has—been abused by over-emphasizing that flavor. In response, some scientists and science educators will emphasize that a theory is actually the result of tremendous amounts of scientific inquiry, and theories related to evolution and climate change are much more trustworthy than their detractors would have you believe. This is an appropriate and accurate response, but all of this talk about the truth values associated with <em>theory</em> (as compared to <em>fact</em>) actually sidesteps an important component of what theory actually is—and that component is key to our understanding and use of theory as it pertains to data science.</p>
+<p>Let’s take a look at a definition from one of my old textbooks to bring our attention to the elements of theory that we care about. Maxwell (2013) suggests that we can understand theory as:</p>
+<blockquote>
+<p>a conception or model of what is out there that you plan to study, and of what is going on with these things and why (p. 39)</p>
+</blockquote>
+<p>That is, if a <em>phenomenon</em> is a thing we want to study (likely in relationship to other phenomena—that is, other things we want to study), a <em>theory</em> is a description of the relationship between all of those different things. For example, one of my preferred theoretical <em>perspectives</em> is that of literacies (as those of you who have taken my LIS 618 class will remember). In short, this theoretical perspective suggests that people in different contexts use different technologies (or the same technologies in different ways) to express and understand meaning. Thus, when I began my dissertation research and started working with data from 60ish different Twitter hashtags used by teachers in different U.S. states and Canadian provinces or territories, my <em>literacies</em> perspective suggested that there ought to be differences in the activity in those hashtags based on contextual differences. By trying to describe the differences between hashtags, I could get a glimpse at how teachers in different contexts valued different features of Twitter.</p>
+<p>This example is a good start, but you might notice that this study was pretty descriptive and exploratory—it wasn’t interested in determining a clear cause-effect relationship. In positivist sciences, like data science, a theory isn’t just a relationship between phenomena, it’s a <em>causal</em> relationship between phenomena. More X causes more Y. More X causes more Y, but only if Z remains steady. More X causes more Y, and a combination of more Y and more Z causes more A. Remember that positivist sciences are concerned largely with predictions—<em>theories</em> give us the means by which to make and test predictions. In the context of research, Maxwell (2013) writes that</p>
+<blockquote>
+<p>The function of this theory is to inform the rest of your design—to help you to assess and refine your goals, develop realistic and relevant research questions, select appropriate methods, and identify potential validity threats to your conclusions. It also helps you justify your research… (pp. 39-40)</p>
+</blockquote>
+<p>In short, if a given theory suggests that more X causes more Y, then as a researcher, your job is to figure out how to measure X, how to measure Y, and what statistical tests can help you determine if more X does indeed cause more Y in the context that you’re doing research in. Your results will then add to our collective understanding of that theory. After all, it is true that a theory isn’t quite the same as fact—especially in the social sciences, theories are always being poked, prodded, tested, challenged, and refined. Theories are necessarily abstract and necessarily make particular assumptions—it’s worth asking (always in good faith) if something important has been abstracted out, or if a given assumption actually holds true.</p>
+<p>That said, if there’s been a lot of research about a particular theory, then professionals may find it trustworthy enough to make practical decisions based on that theory. If researchers have compellingly demonstrated that more X causes more Y, and if more Y is desired in a particular workplace, then the obvious solution is more X.</p>
+</div>
+<div id="the-importance-of-theory" class="section level2 hasAnchor" number="14.4">
+<h2><span class="header-section-number">14.4</span> The Importance of Theory<a href="m5u-numbers-dont-speak-for-themselves.html#the-importance-of-theory" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>To oversimplify things a bit (okay, a lot), the traditional (positivist) research process involves two main phases. In the first phase, researchers collect some data, explore that data, and then use that data to generate a theory. In the second phase, other researchers ask a question, identify a theory that ought to predict the answer to that question, collect data to test that prediction, and publish their results, offering new insights into the theory. In the traditional research process, data is assumed to be difficult to come by, so—as we read earlier—researchers focus their efforts on collecting only that data that the theory directs them to.</p>
+<p>However, as we’ve discussed in previous weeks, we live in a world in which data is not sparse. In a 2008 <em>Wired</em> article, “The End of Theory,” editor Chris Anderson made the now-infamous claim that “the numbers speak for themselves” (Anderson, 2008). His main assertion was that the advent of big data would soon allow data scientists to conduct analyses at the scale of the entire human population, without needing to restrict their analysis to a smaller sample. To understand his claim, you need to understand one of the basic premises of statistics, which we’ll revisit (though not uncritically) later in the semester.</p>
+<p>Statistical inference is based on the idea of sampling: that you can infer things about a large-scale phenomenon by studying a random and/or representative sample of people or things making up that phenomenon and then mapping those findings back on the phenomenon as a whole. Say that you want to know who all of the voters in the US will vote for in a coming presidential election. You couldn’t contact all of them, of course, but you could call three thousand of them on the phone and then use those results to predict how the rest of the people would likely vote. There would also need to be some statistical modeling and theory involved, because how do you know that those three thousand people are an accurate representation of the whole population? This is where Anderson made his intervention: at the point at which we have data collected on the entire population, we no longer need modeling or any other “theory” to first test and then prove. We can look directly at the data themselves.</p>
+<p>Now, you can’t write an article claiming that the basic structure of scientific inquiry is obsolete and not expect some pushback. Anderson wrote the piece to be provocative, and sure enough, it prompted numerous responses and debates, including those that challenge the idea that this argument is a “new” way of thinking in the first place (for example, in the early seventeenth century, Francis Bacon argued for a form of inductive reasoning, in which the scientist gathers data, analyzes them, and only thereafter forms a hypothesis; see Mazzocchi, 2015).</p>
+<p>Lack of novelty was not the only critique, though. One of Anderson’s major examples is Google Search. Google’s search algorithms don’t need to have a hypothesis about why some websites have more incoming links—other pages that link to the site—than others; they just need a way to determine the number of links so they can use that number to determine the popularity and relevance of the site in search results. We no longer need causation, Anderson (2008) insists: “Correlation is enough.” But what happens when the number of links is also highly correlated with sexist, racist, and pornographic results?</p>
+<p>The influence of racism, sexism, and colonialism is precisely what we see described in <em>Algorithms of Oppression</em>, information studies scholar Safiya Umoja Noble’s study of the harmful stereotypes about Black and Latinx women perpetuated by search algorithms such as Google’s. Noble demonstrates that Google Search results do not simply correlate with our racist, sexist, and colonialist society; that society causes the racist and sexist results. More than that, Google Search <em>reinforces</em> these oppressive views by ranking results according to how many other sites link to them. The rank order, in turn, encourages users to continue to click on those same sites.</p>
+<p>Here, correlation without context is clearly not enough because it recirculates racism and sexism and perpetuates inequality. In fact, not only does correlation fail to capture the whole picture, but we can actually <em>use theory</em> to account for the racism, sexism, and colonialism that are associated with Google results! A theoretical perspective that sees technological platforms (like Google) as having specific values (rather than being neutral tools; see van Dijck, 2013) gives us the conceptual tools we need to ask ourselves what the Google software values (say, popularity in the form of hyperlinks) and what it doesn’t actively value (say, anti-racism and feminism). Taking the data at face value—like Anderson would have us do—misses a huge part of what’s going on here.</p>
+</div>
+<div id="research-isnt-just-empirical" class="section level2 hasAnchor" number="14.5">
+<h2><span class="header-section-number">14.5</span> Research isn’t Just Empirical<a href="m5u-numbers-dont-speak-for-themselves.html#research-isnt-just-empirical" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Let’s continue along these lines. One of the things that sets scientific research apart is its <em>empiricism.</em> That is, research is empirical—it’s based on data. However, it’s easy to forget that research isn’t <em>just</em> empirical. Scientific research represents a particular branch of philosophy, so to be done properly, we need to have our philosophical caps on, not just our data ones. Berry (2011) argues that the sources of big data we now have access to:</p>
+<blockquote>
+<p>provide destabilising amounts of knowledge and information that lack the regulating force of philosophy (p. 8)</p>
+</blockquote>
+<p>When we use theory as a guiding force—instead of just relying on data—this helps us consider research from a philosophical point of view. It forces us to state our assumptions out loud and gives us additional means of evaluating research. To give a specific example, let’s consider a Sheriff’s Office in the Tampa, Florida area that received criticism for collecting student information from schools, matching it up with other data, and using data science techniques to predict which students “could ‘fall into a life of crime’” (Bedi &amp; McGrory, 2020).</p>
+<p>I admittedly don’t know all the details about what this Sheriff’s Office is doing, and I have a number of objections to this project based on what I do know, but let’s use this story as a starting point for a hypothetical situation. You’ll notice that some of the details I include in this hypothetical example are similar to those I raised when discussing a hypothetical example of an algorithm that makes sentencing recommendations for criminals. This isn’t to be redundant but rather to emphasize how widespread these issues are.</p>
+<p>More data is generally more helpful for making predictions, so if I had the job of predicting future criminals (and I didn’t immediately resign from the job), I would use all the school, county, and other data I could find to start making these predictions. One of the first things I’d do is look at current criminals, collect all the data I could about them, and use that data to determine what to look for in students that might serve as a red flag.</p>
+<p>Now, let’s imagine that people of color are disproportionately represented among the criminal population of the county I’m in. This could be due to a number of factors, including a relationship between race and socioeconomic status (that is, race predicts socioeconomic status because of centuries of white people enriching themselves at the expense of people of color, and socioeconomic status predicts criminal activity). Alternatively, the local police could more likely to arrest a person of color for something that they would give a white person a pass for. In short, it would be irresponsible and disgustingly racist to argue that there is something inherent to race that makes a person more likely to be a criminal.</p>
+<p>Let’s say that these additional factors <em>aren’t</em> accounted for in my data but that my data <em>do</em> say that there are proportionally more people of color in the criminal records that I have access to. As a result, in my number crunching, it’s possible that I come up with a statistically-defensible argument that race predicts criminal activity. If I’m committed to theory, I’m going to have to explicitly argue to my supervisors that I’m operating off of a theoretical perspective that race causes criminal activity. At that point, I would hope that my supervisors would recognize that theory as inexcusably racist, dismiss that as a valid way of predicting future criminal activity, and send me back to the drawing board.</p>
+<p>However, if I have Anderson-like faith that the data will tell me everything I need to know, that intermediary step of evaluating and justifying the theory may not be necessary. There’s no philosophical oversight of the causal and other relationships that I’m proposing, and it’s easy for terrible decisions to be rubber stamped in the name of objective data.</p>
+<p>In fact, things get worse: With advanced data science techniques like machine learning, it’s possible to develop a tool that makes predictions but is not transparent about the criteria that it uses to make those predictions and therefore does not allow its “theory” to be evaluated. It’s entirely possible that these tools are based on racist “theory” that is not (or cannot be!) properly evaluated. This ought to worry us.</p>
+</div>
+<div id="the-importance-of-context" class="section level2 hasAnchor" number="14.6">
+<h2><span class="header-section-number">14.6</span> The Importance of Context<a href="m5u-numbers-dont-speak-for-themselves.html#the-importance-of-context" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>We should also consider the ways that the importance of context pushes back on Anderson’s argument. One of the central tenets of feminist thinking is that all knowledge is <em>situated</em>. A less academic way to put this is that <em>context matters</em>. When approaching any new source of knowledge, whether it be a dataset or dinner menu (or a dataset of dinner menus; see Muñoz &amp; Rawson, 2019), it’s essential to ask questions about the social, cultural, historical, institutional, and material conditions under which that knowledge was produced, as well as about the identities of the people who created it.</p>
+<p>Rather than seeing knowledge artifacts, like datasets, as raw input that can be simply fed into a statistical analysis or data visualization, a feminist approach insists on connecting data back to the context in which they were produced. This context allows us, as data scientists, to better understand any functional limitations of the data and any associated ethical obligations, as well as how the power and privilege that contributed to their making may be obscuring the truth.</p>
+<p>The major issue with much of the data that can be downloaded from web portals or through APIs is that they come without context or metadata. If you are lucky you might get a paragraph about where the data are from or a data dictionary that describes what each column in a particular spreadsheet means, but more often than not, you don’t even get that.</p>
+<p>Let’s consider an example of data about government procurement. The data not look very technically complicated, but you still have to figure out how the business process behind them works. How does the government run the bidding process? How does it decide who gets awarded a contract? Are all the bids published here, or just the ones that were awarded contracts? What do terms like competition, cooperation agreement, and terms of collaboration mean to the data publisher? Without answers to even some of these questions—to say nothing of the local knowledge required to understand how power is operating in this particular ecosystem—it would be difficult to even begin a data exploration or analysis project, even if the data are easily accessible and seem straightforward.</p>
+<p>This scenario is not uncommon. Most data arrive on our computational doorstep context-free. And this lack of context becomes even more of a liability when accompanied by the kind of marketing hype we see in GDELT and similar projects. In fact, the 1980s version of these claims is what led Donna Haraway to propose the concept of situated knowledge in the first place (see Haraway, 1988).</p>
+<p>Subsequent feminist work has drawn on the concept of situated knowledge to elaborate ideas about ethics and responsibility in relation to knowledge-making. Along this line of thinking, it becomes the responsibility of the person evaluating that knowledge, or building upon it, to ensure that its “situatedness” is taken into account. For example, information studies scholar Christine Borgman advocates for understanding data in relation to the “knowledge infrastructure” from which they originate. As Borgman (2015) defines it, a knowledge infrastructure is “an ecology of people, practices, technologies, institutions, material objects, and relationships.” In short, it is the context that makes the data possible.</p>
+<p>There’s another reason that context is necessary for making sense of correlation, and it has to do with how racism, sexism, and other forces of oppression enter into the environments in which data are collected. The next example has to do with sexual assault and violence. If you do not want to read about these topics, you may want to wrap up your reading here.</p>
+<p>In April 1986, Jeanne Clery, a student at Lehigh University, was sexually assaulted and murdered in her dorm room. Her parents later found out that there had been thirty- eight violent crimes at Lehigh in the prior three years, but nobody had viewed that as important data that should be made available to parents or to the public. The Clerys mounted a campaign to improve data collection and communication efforts related to crimes on college campuses, and it was successful: the Jeanne Clery Act was passed in 1990, requiring all US colleges and universities to make on-campus crime statistics available to the public.</p>
+<p>So we have an ostensibly comprehensive national dataset about an important public topic. In 2016, three students in Catherine’s D’Ignazio data journalism class at Emerson College —Patrick Torphy, Michaela Halnon, and Jillian Meehan—downloaded the Clery Act data and began to explore it, hoping to better understand the <em>rape culture</em> that has become pervasive on college campuses across the United States. The term rape culture was coined by second-wave feminists in the 1970s to denote a society in which male sexual violence is normalized and pervasive, victims are blamed, and the media exacerbates the problem. Rape culture includes jokes, music, advertising, laws, words, and images that normalize sexual violence. In 2017, following the election of a US president who joked about sexual assault on the campaign trail and the exposé of Harvey Weinstein’s predatory behavior in Hollywood, high-profile women began speaking out against rape culture with the #MeToo hashtag. #MeToo, a movement started over a decade ago by activist Tarana Burke, encourages survivors to break their silence and build solidarity to end sexual violence.</p>
+<p>These students soon became puzzled, however. Williams College, a small, wealthy liberal arts college in rural Massachusetts, seemed to have an epidemic of sexual assault, whereas Boston University (BU), a large research institution in the center of the city, seemed to have strikingly few cases relative to its size and population (not to mention that several high-profile sexual assault cases at BU had made the news in recent years). The students were suspicious of these numbers, and investigated further. After comparing the Clery Act data with anonymous campus climate surveys, consulting with experts, and interviewing survivors, they discovered, paradoxically, that the truth was closer to the reverse of the picture that the Clery Act data suggest. The students were suspicious of these numbers, and investigated further. After comparing the Clery Act data with anonymous campus climate surveys, consulting with experts, and interviewing survivors, they discovered, paradoxically, that the truth was closer to the reverse of the picture that the Clery Act data suggest.</p>
+<p>For example, many of the colleges with higher reported rates of sexual assault were actually places where more institutional resources were being devoted to support for survivors. This is important context, and clearly adds considerations that the original data did not cover. Note, though that we still need “the regulating force of philosophy” (Berry, 2011, p. 8) to help us puzzle this out. Even with additional context, this data could be interpreted in a number of ways, and philosophy and theory are key for helping us figure out what’s going on here. For example, a bad faith actor might argue that “more support for survivors leads to more sexual assault” and conclude that universities should actually provide less support for survivors. This theory strikes me as unlikely (and irresponsible)—it doesn’t stand up to philosophical inquiry. Rather, it seems <em>much</em> more likely to me that providing more support for survivors creates an environment where people are more comfortable reporting sexual assault. In short, in a faint echo of the GDELT controversy, we have to understand reports of sexual assault as just that—not as actual instances of sexual assault. Context, theory, and data are all critical parts of coming to the right conclusion.</p>
+<p>Indeed, the context and theory that we’ve considered also helps explain the colleges with lower numbers. The Clery Act requires colleges and universities to provide annual reports of sexual assault and other campus crimes, and there are stiff financial penalties for not reporting. But the numbers are self-reported, and there are also strong financial incentives for colleges not to report. No college wants to tell the government—let alone parents of prospective students—that it has a high rate of sexual assault on campus. This is compounded by the fact that survivors of sexual assault often do not want to come forward—because of social stigma, the trauma of reliving their experience, or the resulting lack of social and psychological support.</p>
+<p>Mainstream culture has taught survivors that their experiences will not be treated with care and that they may in fact face more harm, blame, and trauma if they do come forward. In fact, my undergraduate alma mater—a conservative, religious university—has sometimes interpreted reports of sexual assault as admissions of sexual relations outside of marriage and disciplined survivors instead of supporting them. Is it any surprise that some students might hesitate to report sexual assault?</p>
+<p>There are further power differentials reflected in the data when race and sexuality are taken into account. For example, in 2014, twenty-three students filed a complaint against Columbia University, alleging that Columbia was systematically mishandling cases of rape and sexual violence reported by LGBTQ students. Zoe Ridolfi-Starr, the lead student named in the complaint, told the <em>Daily Beast</em>, “We see complete lack of knowledge about the specific dynamics of sexual violence in the queer community, even from people who really should be trained in those issues” (Golden, 2014).</p>
+</div>
+<div id="conclusion-4" class="section level2 hasAnchor" number="14.7">
+<h2><span class="header-section-number">14.7</span> Conclusion<a href="m5u-numbers-dont-speak-for-themselves.html#conclusion-4" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Data alone clearly do not show the whole picture, and even context without theory can be misleading. We need all three, and we must not fall into the trap of believing that numbers don’t speak for themselves.</p>
+</div>
+<div id="references-5" class="section level2 hasAnchor" number="14.8">
+<h2><span class="header-section-number">14.8</span> References<a href="m5u-numbers-dont-speak-for-themselves.html#references-5" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Anderson, C. (2008). The end of theory: The data deluge makes the scientific method obsolete. <em>Wired</em>. <a href="https://www.wired.com/2008/06/pb-theory/" class="uri">https://www.wired.com/2008/06/pb-theory/</a></p>
+<p>Bedi, N., &amp; McGrory, K. (2020, November 19). Pasco’s sheriff uses grades and abuse histories to label schoolchildren potential criminals. The kids and their parents don’t know. <em>Tampa Bay Times</em>. <a href="https://projects.tampabay.com/projects/2020/investigations/police-pasco-sheriff-targeted/school-data/" class="uri">https://projects.tampabay.com/projects/2020/investigations/police-pasco-sheriff-targeted/school-data/</a></p>
+<p>Berry, D. M. (2011). The computational turn: Thinking about the digital humanities. <em>Culture Machine</em>, <em>12(</em>.</p>
+<p>Borgman, C. L. (2015). <em>Big data, little data, no data: Scholarship in the networked world</em>. MIT Press.</p>
+<p>Chalabi, M. (2014, May 8). Kidnapping of girls in Nigeria is part of a worsening problem. <em>FiveThirtyEight</em>. <a href="https://fivethirtyeight.com/features/nigeria-kidnapping/" class="uri">https://fivethirtyeight.com/features/nigeria-kidnapping/</a></p>
+<p>Gieseking, J. J. (2018). Size matters to lesbians, too: Queer feminist interventions into the scale of big data. <em>Professional Geographer</em>, <em>70(</em>(1), 150-156.</p>
+<p>Golden, A. (2014, April 30). Is Columbia University mishandling LGBT rape cases? <em>Daily Beast</em>. <a href="https://www.thedailybeast.com/is-columbia-university-mishandling-lgbt-rape-cases?ref=scroll" class="uri">https://www.thedailybeast.com/is-columbia-university-mishandling-lgbt-rape-cases?ref=scroll</a></p>
+<p>Haraway, D. (1988). Situated knowledges: The science question in feminism and the privilege of partial perspective. <em>Feminist Studies</em>, <em>14</em>(3), 575-599.</p>
+<p>Leetaru, K. (n.d.). <em>The GDELT Project</em>. GDELT. <a href="https://www.gdeltproject.org/" class="uri">https://www.gdeltproject.org/</a></p>
+<p>Maxwell, J. A. (2013). <em>Qualitative research design: An interactive approach</em> (3rd edition). SAGE Publications, Inc.</p>
+<p>Mazzocchi, F. (2015). Could big data be the end of theory in science? <em>EMBO Reports</em>, <em>16</em>(10), 1250-1255.</p>
+<p>Muñoz, T., &amp; Rawson, K. (2016). Data dictionary. <em>Curating Menus</em>. <a href="http://curatingmenus.org/data_dictionary/" class="uri">http://curatingmenus.org/data_dictionary/</a></p>
+<p>van Dijck, J. (2013). <em>The culture of connectivity: A critical history of social media</em>. Oxford University Press.</p>
+
+</div>
+</div>
+<script src="https://hypothes.is/embed.js" async></script>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="m4c-show-your-work.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="module-5-application.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

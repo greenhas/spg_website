@@ -100,7 +100,15 @@ crediting-data-work
 crediting-emotional-labor-and-care-work
 show-your-work
 references-4
-module-5-understanding
+m5u-numbers-dont-speak-for-themselves
+introduction-10
+bigger-is-not-always-better
+theory
+the-importance-of-theory
+research-isnt-just-empirical
+the-importance-of-context
+conclusion-4
+references-5
 module-5-application
 module-5-connection
 module-6-understanding
