@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>15 M5A: Are Ethics Enough in Data Science? | Introduction to Data Science</title>
+  <meta name="description" content="15 M5A: Are Ethics Enough in Data Science? | Introduction to Data Science" />
+  <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="15 M5A: Are Ethics Enough in Data Science? | Introduction to Data Science" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="15 M5A: Are Ethics Enough in Data Science? | Introduction to Data Science" />
+  
+  
+  
+
+<meta name="author" content="Spencer P. Greenhalgh, PhD" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="m5u-numbers-dont-speak-for-themselves.html"/>
+<link rel="next" href="module-5-connection.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="module-1-understanding.html"><a href="module-1-understanding.html"><i class="fa fa-check"></i><b>2</b> Module 1 Understanding</a></li>
+<li class="chapter" data-level="3" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html"><i class="fa fa-check"></i><b>3</b> M1A: Install R and RStudio</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#introduction-1"><i class="fa fa-check"></i><b>3.1</b> Introduction</a></li>
+<li class="chapter" data-level="3.2" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#r"><i class="fa fa-check"></i><b>3.2</b> R</a></li>
+<li class="chapter" data-level="3.3" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#rstudio"><i class="fa fa-check"></i><b>3.3</b> RStudio</a></li>
+<li class="chapter" data-level="3.4" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#references"><i class="fa fa-check"></i><b>3.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="m1c-introduce-yourself-to-the-class.html"><a href="m1c-introduce-yourself-to-the-class.html"><i class="fa fa-check"></i><b>4</b> M1C: Introduce Yourself to the Class</a></li>
+<li class="chapter" data-level="5" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html"><i class="fa fa-check"></i><b>5</b> M2U: The New(?) and Shiny(?) Science of Data</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data-data-science-and-big-data"><i class="fa fa-check"></i><b>5.1</b> Data, Data Science, and Big Data</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data"><i class="fa fa-check"></i><b>5.1.1</b> Data</a></li>
+<li class="chapter" data-level="5.1.2" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data-science"><i class="fa fa-check"></i><b>5.1.2</b> Data Science</a></li>
+<li class="chapter" data-level="5.1.3" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#big-data"><i class="fa fa-check"></i><b>5.1.3</b> Big Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#the-many-skills-of-data-science"><i class="fa fa-check"></i><b>5.2</b> The Many Skills of Data Science</a></li>
+<li class="chapter" data-level="5.3" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#references-1"><i class="fa fa-check"></i><b>5.3</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>6</b> M2A: Getting Started with Data in R</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="getting-started.html"><a href="getting-started.html#introduction-2"><i class="fa fa-check"></i><b>6.1</b> Introduction</a></li>
+<li class="chapter" data-level="6.2" data-path="getting-started.html"><a href="getting-started.html#r-rstudio"><i class="fa fa-check"></i><b>6.2</b> What are R and RStudio?</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="getting-started.html"><a href="getting-started.html#using-r-via-rstudio"><i class="fa fa-check"></i><b>6.2.1</b> Using R via RStudio</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="getting-started.html"><a href="getting-started.html#code"><i class="fa fa-check"></i><b>6.3</b> How do I code in R?</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="getting-started.html"><a href="getting-started.html#programming-concepts"><i class="fa fa-check"></i><b>6.3.1</b> Basic programming concepts and terminology</a></li>
+<li class="chapter" data-level="6.3.2" data-path="getting-started.html"><a href="getting-started.html#messages"><i class="fa fa-check"></i><b>6.3.2</b> Errors, warnings, and messages</a></li>
+<li class="chapter" data-level="6.3.3" data-path="getting-started.html"><a href="getting-started.html#tips-code"><i class="fa fa-check"></i><b>6.3.3</b> Tips on learning to code</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="getting-started.html"><a href="getting-started.html#packages"><i class="fa fa-check"></i><b>6.4</b> What are R packages?</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="getting-started.html"><a href="getting-started.html#package-installation"><i class="fa fa-check"></i><b>6.4.1</b> Package installation</a></li>
+<li class="chapter" data-level="6.4.2" data-path="getting-started.html"><a href="getting-started.html#package-loading"><i class="fa fa-check"></i><b>6.4.2</b> Package loading</a></li>
+<li class="chapter" data-level="6.4.3" data-path="getting-started.html"><a href="getting-started.html#package-use"><i class="fa fa-check"></i><b>6.4.3</b> Package use</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="getting-started.html"><a href="getting-started.html#nycflights13"><i class="fa fa-check"></i><b>6.5</b> Explore your first datasets</a>
+<ul>
+<li class="chapter" data-level="6.5.1" data-path="getting-started.html"><a href="getting-started.html#nycflights13-package"><i class="fa fa-check"></i><b>6.5.1</b> <code>nycflights13</code> package</a></li>
+<li class="chapter" data-level="6.5.2" data-path="getting-started.html"><a href="getting-started.html#flights-data-frame"><i class="fa fa-check"></i><b>6.5.2</b> <code>flights</code> data frame</a></li>
+<li class="chapter" data-level="6.5.3" data-path="getting-started.html"><a href="getting-started.html#exploredataframes"><i class="fa fa-check"></i><b>6.5.3</b> Exploring data frames</a></li>
+<li class="chapter" data-level="6.5.4" data-path="getting-started.html"><a href="getting-started.html#identification-vs-measurement-variables"><i class="fa fa-check"></i><b>6.5.4</b> Identification and measurement variables</a></li>
+</ul></li>
+<li class="chapter" data-level="6.6" data-path="getting-started.html"><a href="getting-started.html#conclusion"><i class="fa fa-check"></i><b>6.6</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html"><i class="fa fa-check"></i><b>7</b> M2C: Set up GitHub</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#introduction-3"><i class="fa fa-check"></i><b>7.1</b> Introduction</a></li>
+<li class="chapter" data-level="7.2" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#gitand-githubin-data-science"><i class="fa fa-check"></i><b>7.2</b> Git—and GitHub—in Data Science</a></li>
+<li class="chapter" data-level="7.3" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#github-in-ictlis-661"><i class="fa fa-check"></i><b>7.3</b> GitHub in ICT/LIS 661</a></li>
+<li class="chapter" data-level="7.4" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#setting-up-github"><i class="fa fa-check"></i><b>7.4</b> Setting Up GitHub</a>
+<ul>
+<li class="chapter" data-level="7.4.1" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#creating-a-github-account"><i class="fa fa-check"></i><b>7.4.1</b> Creating a GitHub Account</a></li>
+<li class="chapter" data-level="7.4.2" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#setting-up-a-github-repository-for-class"><i class="fa fa-check"></i><b>7.4.2</b> Setting up a GitHub Repository for Class</a></li>
+<li class="chapter" data-level="7.4.3" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#installing-github-desktop"><i class="fa fa-check"></i><b>7.4.3</b> Installing GitHub Desktop</a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#moving-forward"><i class="fa fa-check"></i><b>7.5</b> Moving Forward</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html"><i class="fa fa-check"></i><b>8</b> M3U: Research Paradigms and Reproducibility</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#introduction-4"><i class="fa fa-check"></i><b>8.1</b> Introduction</a></li>
+<li class="chapter" data-level="8.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#reproducibility-and-paradigms"><i class="fa fa-check"></i><b>8.2</b> Reproducibility and Paradigms</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#an-example-paradigm"><i class="fa fa-check"></i><b>8.2.1</b> An Example Paradigm</a></li>
+<li class="chapter" data-level="8.2.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#another-example-paradigm"><i class="fa fa-check"></i><b>8.2.2</b> Another Example Paradigm</a></li>
+<li class="chapter" data-level="8.2.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#why-do-paradigms-matter"><i class="fa fa-check"></i><b>8.2.3</b> Why Do Paradigms Matter?</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#supporting-reproducibility"><i class="fa fa-check"></i><b>8.3</b> Supporting Reproducibility</a>
+<ul>
+<li class="chapter" data-level="8.3.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-design"><i class="fa fa-check"></i><b>8.3.1</b> Open Design</a></li>
+<li class="chapter" data-level="8.3.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-analysis"><i class="fa fa-check"></i><b>8.3.2</b> Open Analysis</a></li>
+<li class="chapter" data-level="8.3.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-publication"><i class="fa fa-check"></i><b>8.3.3</b> Open Publication</a></li>
+</ul></li>
+<li class="chapter" data-level="8.4" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#conclusion-1"><i class="fa fa-check"></i><b>8.4</b> Conclusion</a></li>
+<li class="chapter" data-level="8.5" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#references-2"><i class="fa fa-check"></i><b>8.5</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html"><i class="fa fa-check"></i><b>9</b> M3A: Using Projects and Scripts in R</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#introduction-5"><i class="fa fa-check"></i><b>9.1</b> Introduction</a></li>
+<li class="chapter" data-level="9.2" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#more-about-r-and-rstudio"><i class="fa fa-check"></i><b>9.2</b> More About R and RStudio</a></li>
+<li class="chapter" data-level="9.3" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#the-console-and-the-workspace"><i class="fa fa-check"></i><b>9.3</b> The Console and the Workspace</a></li>
+<li class="chapter" data-level="9.4" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#holding-onto-code"><i class="fa fa-check"></i><b>9.4</b> Holding Onto Code</a>
+<ul>
+<li class="chapter" data-level="9.4.1" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#rstudio-projects"><i class="fa fa-check"></i><b>9.4.1</b> RStudio Projects</a></li>
+<li class="chapter" data-level="9.4.2" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#using-scripts"><i class="fa fa-check"></i><b>9.4.2</b> Using Scripts</a></li>
+<li class="chapter" data-level="9.4.3" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#backing-up-your-project-folder"><i class="fa fa-check"></i><b>9.4.3</b> Backing Up Your Project Folder</a></li>
+</ul></li>
+<li class="chapter" data-level="9.5" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#conclusion-2"><i class="fa fa-check"></i><b>9.5</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html"><i class="fa fa-check"></i><b>10</b> M3C: Writing in R Markdown</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#introduction-6"><i class="fa fa-check"></i><b>10.1</b> Introduction</a></li>
+<li class="chapter" data-level="10.2" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#markdown-syntax"><i class="fa fa-check"></i><b>10.2</b> Markdown syntax</a>
+<ul>
+<li class="chapter" data-level="10.2.1" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#inline-formatting"><i class="fa fa-check"></i><b>10.2.1</b> Inline formatting</a></li>
+<li class="chapter" data-level="10.2.2" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#block-level-elements"><i class="fa fa-check"></i><b>10.2.2</b> Block-level elements</a></li>
+<li class="chapter" data-level="10.2.3" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#r-code-chunks"><i class="fa fa-check"></i><b>10.2.3</b> R code chunks</a></li>
+</ul></li>
+<li class="chapter" data-level="10.3" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#trying-out-r-markdown"><i class="fa fa-check"></i><b>10.3</b> Trying out R Markdown</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html"><i class="fa fa-check"></i><b>11</b> M4U: The Value of Open Data</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#introduction-7"><i class="fa fa-check"></i><b>11.1</b> Introduction</a></li>
+<li class="chapter" data-level="11.2" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#positivism-and-the-need-for-data"><i class="fa fa-check"></i><b>11.2</b> Positivism and the Need for Data</a></li>
+<li class="chapter" data-level="11.3" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#sharing-data"><i class="fa fa-check"></i><b>11.3</b> Sharing Data</a></li>
+<li class="chapter" data-level="11.4" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#sharing-data-and-privacy"><i class="fa fa-check"></i><b>11.4</b> Sharing Data and Privacy</a></li>
+<li class="chapter" data-level="11.5" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#how-to-share-data"><i class="fa fa-check"></i><b>11.5</b> How to Share Data</a></li>
+<li class="chapter" data-level="11.6" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#benefits-of-sharing-data"><i class="fa fa-check"></i><b>11.6</b> Benefits of Sharing Data</a></li>
+<li class="chapter" data-level="11.7" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#downsides-of-sharing-data"><i class="fa fa-check"></i><b>11.7</b> Downsides of Sharing Data</a></li>
+<li class="chapter" data-level="11.8" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#incentives-for-sharing-data"><i class="fa fa-check"></i><b>11.8</b> Incentives for Sharing Data</a></li>
+<li class="chapter" data-level="11.9" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#conclusion-3"><i class="fa fa-check"></i><b>11.9</b> Conclusion</a></li>
+<li class="chapter" data-level="11.10" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#references-3"><i class="fa fa-check"></i><b>11.10</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html"><i class="fa fa-check"></i><b>12</b> M4A: Find a Dataset Relevant To You</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#introduction-8"><i class="fa fa-check"></i><b>12.1</b> Introduction</a></li>
+<li class="chapter" data-level="12.2" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#signs-of-a-good-dataset"><i class="fa fa-check"></i><b>12.2</b> Signs of a Good Dataset</a></li>
+<li class="chapter" data-level="12.3" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#finding-a-good-dataset"><i class="fa fa-check"></i><b>12.3</b> Finding a Good Dataset</a></li>
+<li class="chapter" data-level="12.4" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#loading-your-dataset"><i class="fa fa-check"></i><b>12.4</b> Loading Your Dataset</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html"><i class="fa fa-check"></i><b>13</b> M4C: Show Your Work</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#introduction-9"><i class="fa fa-check"></i><b>13.1</b> Introduction</a></li>
+<li class="chapter" data-level="13.2" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#invisible-labor"><i class="fa fa-check"></i><b>13.2</b> Invisible Labor</a></li>
+<li class="chapter" data-level="13.3" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#the-invisible-labor-of-data-science"><i class="fa fa-check"></i><b>13.3</b> The Invisible Labor of Data Science</a></li>
+<li class="chapter" data-level="13.4" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#time-and-money"><i class="fa fa-check"></i><b>13.4</b> Time and Money</a></li>
+<li class="chapter" data-level="13.5" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#crediting-data-work"><i class="fa fa-check"></i><b>13.5</b> Crediting Data Work</a></li>
+<li class="chapter" data-level="13.6" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#crediting-emotional-labor-and-care-work"><i class="fa fa-check"></i><b>13.6</b> Crediting Emotional Labor and Care Work</a></li>
+<li class="chapter" data-level="13.7" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#show-your-work"><i class="fa fa-check"></i><b>13.7</b> Show Your Work</a></li>
+<li class="chapter" data-level="13.8" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#references-4"><i class="fa fa-check"></i><b>13.8</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html"><i class="fa fa-check"></i><b>14</b> M5U: Numbers Don’t Speak for Themselves</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#introduction-10"><i class="fa fa-check"></i><b>14.1</b> Introduction</a></li>
+<li class="chapter" data-level="14.2" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#bigger-is-not-always-better"><i class="fa fa-check"></i><b>14.2</b> Bigger is not Always Better</a></li>
+<li class="chapter" data-level="14.3" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#theory"><i class="fa fa-check"></i><b>14.3</b> Theory</a></li>
+<li class="chapter" data-level="14.4" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#the-importance-of-theory"><i class="fa fa-check"></i><b>14.4</b> The Importance of Theory</a></li>
+<li class="chapter" data-level="14.5" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#research-isnt-just-empirical"><i class="fa fa-check"></i><b>14.5</b> Research isn’t Just Empirical</a></li>
+<li class="chapter" data-level="14.6" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#the-importance-of-context"><i class="fa fa-check"></i><b>14.6</b> The Importance of Context</a></li>
+<li class="chapter" data-level="14.7" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#conclusion-4"><i class="fa fa-check"></i><b>14.7</b> Conclusion</a></li>
+<li class="chapter" data-level="14.8" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#references-5"><i class="fa fa-check"></i><b>14.8</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="15" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html"><i class="fa fa-check"></i><b>15</b> M5A: Are Ethics Enough in Data Science?</a>
+<ul>
+<li class="chapter" data-level="15.1" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#introduction-11"><i class="fa fa-check"></i><b>15.1</b> Introduction</a></li>
+<li class="chapter" data-level="15.2" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#ethics-vs.-politics"><i class="fa fa-check"></i><b>15.2</b> Ethics vs. Politics</a></li>
+<li class="chapter" data-level="15.3" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#why-politics"><i class="fa fa-check"></i><b>15.3</b> Why Politics?</a>
+<ul>
+<li class="chapter" data-level="15.3.1" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#argument-1-i-am-just-an-engineer"><i class="fa fa-check"></i><b>15.3.1</b> Argument 1: “I am Just an Engineer”</a></li>
+<li class="chapter" data-level="15.3.2" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#argument-2-we-shouldnt-take-political-stances"><i class="fa fa-check"></i><b>15.3.2</b> Argument 2: “We Shouldn’t Take Political Stances”</a></li>
+<li class="chapter" data-level="15.3.3" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#argument-3-dont-let-the-perfect-be-the-enemy-of-the-good"><i class="fa fa-check"></i><b>15.3.3</b> Argument 3: “Don’t Let the Perfect Be the Enemy of the Good”</a></li>
+</ul></li>
+<li class="chapter" data-level="15.4" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#conclusion-5"><i class="fa fa-check"></i><b>15.4</b> Conclusion</a></li>
+<li class="chapter" data-level="15.5" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#references-6"><i class="fa fa-check"></i><b>15.5</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="16" data-path="module-5-connection.html"><a href="module-5-connection.html"><i class="fa fa-check"></i><b>16</b> Module 5 Connection</a></li>
+<li class="chapter" data-level="17" data-path="module-6-understanding.html"><a href="module-6-understanding.html"><i class="fa fa-check"></i><b>17</b> Module 6 Understanding</a></li>
+<li class="chapter" data-level="18" data-path="module-6-application.html"><a href="module-6-application.html"><i class="fa fa-check"></i><b>18</b> Module 6 Application</a></li>
+<li class="chapter" data-level="19" data-path="module-6-connection.html"><a href="module-6-connection.html"><i class="fa fa-check"></i><b>19</b> Module 6 Connection</a></li>
+<li class="chapter" data-level="20" data-path="module-7-understanding.html"><a href="module-7-understanding.html"><i class="fa fa-check"></i><b>20</b> Module 7 Understanding</a></li>
+<li class="chapter" data-level="21" data-path="module-7-application.html"><a href="module-7-application.html"><i class="fa fa-check"></i><b>21</b> Module 7 Application</a></li>
+<li class="chapter" data-level="22" data-path="module-7-connection.html"><a href="module-7-connection.html"><i class="fa fa-check"></i><b>22</b> Module 7 Connection</a></li>
+<li class="chapter" data-level="23" data-path="module-8-understanding.html"><a href="module-8-understanding.html"><i class="fa fa-check"></i><b>23</b> Module 8 Understanding</a></li>
+<li class="chapter" data-level="24" data-path="module-8-application.html"><a href="module-8-application.html"><i class="fa fa-check"></i><b>24</b> Module 8 Application</a></li>
+<li class="chapter" data-level="25" data-path="module-8-connection.html"><a href="module-8-connection.html"><i class="fa fa-check"></i><b>25</b> Module 8 Connection</a></li>
+<li class="chapter" data-level="26" data-path="module-9-understanding.html"><a href="module-9-understanding.html"><i class="fa fa-check"></i><b>26</b> Module 9 Understanding</a></li>
+<li class="chapter" data-level="27" data-path="module-9-application.html"><a href="module-9-application.html"><i class="fa fa-check"></i><b>27</b> Module 9 Application</a></li>
+<li class="chapter" data-level="28" data-path="module-9-connection.html"><a href="module-9-connection.html"><i class="fa fa-check"></i><b>28</b> Module 9 Connection</a></li>
+<li class="chapter" data-level="29" data-path="module-10-understanding.html"><a href="module-10-understanding.html"><i class="fa fa-check"></i><b>29</b> Module 10 Understanding</a></li>
+<li class="chapter" data-level="30" data-path="module-10-application.html"><a href="module-10-application.html"><i class="fa fa-check"></i><b>30</b> Module 10 Application</a></li>
+<li class="chapter" data-level="31" data-path="module-10-connection.html"><a href="module-10-connection.html"><i class="fa fa-check"></i><b>31</b> Module 10 Connection</a></li>
+<li class="chapter" data-level="32" data-path="module-11-understanding.html"><a href="module-11-understanding.html"><i class="fa fa-check"></i><b>32</b> Module 11 Understanding</a></li>
+<li class="chapter" data-level="33" data-path="module-11-application.html"><a href="module-11-application.html"><i class="fa fa-check"></i><b>33</b> Module 11 Application</a></li>
+<li class="chapter" data-level="34" data-path="module-11-connection.html"><a href="module-11-connection.html"><i class="fa fa-check"></i><b>34</b> Module 11 Connection</a></li>
+<li class="chapter" data-level="35" data-path="module-12-understanding.html"><a href="module-12-understanding.html"><i class="fa fa-check"></i><b>35</b> Module 12 Understanding</a></li>
+<li class="chapter" data-level="36" data-path="module-12-application.html"><a href="module-12-application.html"><i class="fa fa-check"></i><b>36</b> Module 12 Application</a></li>
+<li class="chapter" data-level="37" data-path="module-12-connection.html"><a href="module-12-connection.html"><i class="fa fa-check"></i><b>37</b> Module 12 Connection</a></li>
+<li class="chapter" data-level="38" data-path="module-13-understanding.html"><a href="module-13-understanding.html"><i class="fa fa-check"></i><b>38</b> Module 13 Understanding</a></li>
+<li class="chapter" data-level="39" data-path="module-13-application.html"><a href="module-13-application.html"><i class="fa fa-check"></i><b>39</b> Module 13 Application</a></li>
+<li class="chapter" data-level="40" data-path="module-13-connection.html"><a href="module-13-connection.html"><i class="fa fa-check"></i><b>40</b> Module 13 Connection</a></li>
+<li class="chapter" data-level="41" data-path="module-14-understanding.html"><a href="module-14-understanding.html"><i class="fa fa-check"></i><b>41</b> Module 14 Understanding</a></li>
+<li class="chapter" data-level="42" data-path="module-14-application.html"><a href="module-14-application.html"><i class="fa fa-check"></i><b>42</b> Module 14 Application</a></li>
+<li class="chapter" data-level="43" data-path="module-14-connection.html"><a href="module-14-connection.html"><i class="fa fa-check"></i><b>43</b> Module 14 Connection</a></li>
+<li class="chapter" data-level="44" data-path="module-15-understanding.html"><a href="module-15-understanding.html"><i class="fa fa-check"></i><b>44</b> Module 15 Understanding</a></li>
+<li class="chapter" data-level="45" data-path="module-15-application.html"><a href="module-15-application.html"><i class="fa fa-check"></i><b>45</b> Module 15 Application</a></li>
+<li class="chapter" data-level="46" data-path="module-15-connection.html"><a href="module-15-connection.html"><i class="fa fa-check"></i><b>46</b> Module 15 Connection</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduction to Data Science</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="m5a-are-ethics-enough-in-data-science" class="section level1 hasAnchor" number="15">
+<h1><span class="header-section-number">15</span> M5A: Are Ethics Enough in Data Science?<a href="m5a-are-ethics-enough-in-data-science.html#m5a-are-ethics-enough-in-data-science" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This chapter draws on material from:</p>
+<ul>
+<li><p><a href="https://doi.org/10.23919/JSC.2021.0029">Data Science as Political Action: Grounding Data Science in a Politics of Justice</a> by <a href="https://www.benzevgreen.com/">Ben Green</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p></li>
+<li><p><a href="https://data-feminism.mitpress.mit.edu/pub/ei7cogfn/release/4">2. Collect, Analyze, Imagine, Teach</a> by <a href="http://www.kanarinka.com/">Catherine D’Ignazio</a> and <a href="https://lklein.com/">Lauren Klein</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p></li>
+</ul>
+<p>Changes to the source material include removal of original material, reformatting original material, addition of new material, combining of sources, and editing of original material for a different audience.</p>
+<p>The resulting content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
+<div id="introduction-11" class="section level2 hasAnchor" number="15.1">
+<h2><span class="header-section-number">15.1</span> Introduction<a href="m5a-are-ethics-enough-in-data-science.html#introduction-11" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The field of data science has entered a period of reflection and reevaluation. Alongside its rapid growth in both size and stature in recent years, data science has become beset by controversies and scrutiny. Machine learning algorithms that guide decisions in areas such as hiring, healthcare, criminal sentencing, and welfare are often biased, inscrutable, and proprietary (Anwin et al., 2016; Buolamwini &amp; Gebru, 2018; Eubanks, 2018; Obermeyer et al., 2019; O’Neil, 2017; Wexler, 2018). Algorithms that drive social media feeds manipulate people’s emotions (Kramer et al., 2014), spread misinformation (Vosoughi et al., 2018), and amplify political extremism (Nicas, 2018). Facilitating these and other algorithms are massive datasets, often gained illicitly or without meaningful consent, that reveal sensitive and intimate information about people (de Montjoye et al., 2015; Kosinski et al., 2013; Rosenberg et al., 2018; Thompson &amp; Warzel, 2019)</p>
+<p>Many individuals and organizations responded to these controversies by advocating for a focus on ethics in training and practice (Green, 2021). Data ethics represents a growing interdisciplinary effort—both critical and computational—to ensure that the ethical issues brought about by our increasing reliance on data-driven systems are identified and addressed. Thus far, the major trend has been to emphasize the issue of “bias,” and the values of “fairness, accountability, and transparency” in mitigating its effects. The broad motivation behind these efforts is the assumption that, if only data scientists were more attuned to the ethical implications of their work, many harms associated with data science could be avoided.</p>
+<p>This is a promising development, especially for technical fields that have not historically foregrounded ethical issues, and as funding mechanisms for research on data and ethics proliferate. However, addressing bias in a dataset is a tiny technological Band-Aid for a much larger problem. Even the values of “fairness, accountability, and transparency,” which seek to address instances of bias in data-driven systems, are themselves non-neutral, as they locate the source of the bias in individual people and specific design decisions.</p>
+<p>In short, these concepts may do good work, but they ultimately keep the roots of the problem in place. In other words, they maintain the current structure of power, even if they don’t intend to, because they let structural issues off the hook They direct data scientists’ attention toward seeking technological fixes instead of social and political solutions. Sometimes those fixes are necessary and important. But as technology scholars Julia Powles and Helen Nissenbaum (2018) assert, “Bias is real, but it’s also a captivating diversion.” There is a more fundamental problem that must also be addressed: we do not all arrive in the present with equal power or privilege. Hundreds of years of history and politics and culture have brought us to the present moment. This is a reality of our lives as well as our data.</p>
+</div>
+<div id="ethics-vs.-politics" class="section level2 hasAnchor" number="15.2">
+<h2><span class="header-section-number">15.2</span> Ethics vs. Politics<a href="m5a-are-ethics-enough-in-data-science.html#ethics-vs.-politics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In practice, technology ethics suffer from four significant limitations (Green, 2021):</p>
+<ul>
+<li>First, technology ethics principles are abstract and lack mechanisms to ensure that engineers follow ethical principles.</li>
+<li>Second, technology ethics has a myopic focus on individual engineers and on technology design, overlooking the structural sources of technological harms.</li>
+<li>Third, technology ethics is subsumed into corporate logics and practices rather than substantively altering behavior.</li>
+</ul>
+<p>All told, the rise of technology ethics often reflects a practice dubbed “ethics-washing”: tech companies deploying the language of ethics to resist more structural reforms that would curb their power and profits.</p>
+<p>Thus, while ethics provides useful frameworks to help data scientists reflect on their practice and the impacts of their work, these approaches are insufficient for generating a data science that avoids social harms and that promotes social justice. The normative responsibilities of data scientists cannot be managed through a narrow professional ethics that lacks normative weight and supposes that, with some reflection and a commitment to best practices, data scientists will make the “right” decisions that lead to “good” technology. Instead of relying on vague moral principles that obscure the structural drivers of injustice, data scientists must engage in politics: the process of negotiating between competing perspectives, values, and goals.</p>
+<p>In other words, we must recognize data science as a form of political action. Data scientists must recognize themselves as political actors engaged in normative constructions of society. In turn, data scientists must evaluate their efforts according to the downstream impacts on people’s lives.</p>
+<p>In this context, <em>politics</em> and <em>political</em> do not refer to partisan or electoral debates about specific parties and candidates. Instead, these terms have a broader meaning that transcends activity directly pertaining to the government, its laws, and its representatives. Two aspects of politics are particularly important:</p>
+<ul>
+<li>First, politics is everywhere in the social world. As defined by politics professor Adrian Leftwich (1984), “politics is at the heart of all collective social activity, formal and informal, public and private, in all human groups, institutions, and societies”.</li>
+<li>Second, politics has a broad reach. Political scientist Harold Lasswell (1936) describes politics as “who gets what, when, how.” The “what” here could mean many things: money, goods, status, influence, respect, rights, and so on.</li>
+</ul>
+<p>Understood in these terms, politics comprises any activities that affect or make claims about the who, what, when, and how in social groups, both small and large.</p>
+<p>Data scientists are political actors in that they play an increasingly powerful role in determining the distribution of rights, status, and goods across many social contexts. As data scientists develop tools that inform important social and political decisions—who receives a job offer, what news people see, where police patrols—they shape social outcomes around the world. Data scientists are some of today’s most powerful (and obscured) political actors, structuring how institutions conceive of problems and make decisions.</p>
+</div>
+<div id="why-politics" class="section level2 hasAnchor" number="15.3">
+<h2><span class="header-section-number">15.3</span> Why Politics?<a href="m5a-are-ethics-enough-in-data-science.html#why-politics" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>This section responds to three arguments that are commonly invoked by data scientists when they are challenged to take political stances regarding their work. These arguments have been expressed in a variety of public and private settings and will be familiar to anyone who has engaged in discussions about the social responsibilities of data scientists.</p>
+<p>These are by no means the only arguments proffered in this larger debate, nor do they represent any sort of unified position among data scientists. Nonetheless, the three positions considered here are among the most common and compelling arguments made against a politically oriented data science. Any promotion of a more politically engaged data science must contend with them.</p>
+<div id="argument-1-i-am-just-an-engineer" class="section level3 hasAnchor" number="15.3.1">
+<h3><span class="header-section-number">15.3.1</span> Argument 1: “I am Just an Engineer”<a href="m5a-are-ethics-enough-in-data-science.html#argument-1-i-am-just-an-engineer" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>This first argument represents a common attitude among engineers. In this view, although engineers develop new tools, their work does not determine how a tool will be used. Artifacts are seen as neutral objects that lack any inherent normative character and that can simply be used in good or bad ways. By this logic, engineers bear no responsibility for the impacts of their creations.</p>
+<p>It is common for data scientists to argue that the impacts of technology are unknowable. However, by articulating their limited role as neutral researchers, data scientists provide themselves with an excuse to abdicate responsibility for the social and political impacts of their work. When a paper that used neural networks to classify crimes as gang-related was challenged for its potentially harmful effects on minority communities, a senior author on the paper deflected responsibility by arguing, “It’s basic research” (Hutson, 2018).</p>
+<p>Although it is common for engineers to see themselves as separate from politics, many scholars have thoroughly articulated how technology embeds politics and shapes social outcomes. As political theorist Langdon Winner (1986) describes:</p>
+<blockquote>
+<p>“technological innovations are similar to legislative acts or political foundings that establish a framework for public order that will endure over many generations. For that reason, the same careful attention one would give to the rules, roles, and relationships of politics must also be given to such things as the building of highways, the creation of television networks, and the tailoring of seemingly insignificant features on new machines. The issues that divide or unite people in society are settled not only in the institutions and practices of politics proper, but also, and less obviously, in tangible arrangements of steel and concrete, wires and semiconductors, and nuts and bolts.”</p>
+</blockquote>
+<p>Even though technology does not conform to conventional notions of politics, it often shapes society in much the same way as laws, elections, and judicial opinions. In this sense, “the scientific workplace functions as a key site for the production of social and political order” (Jasanoff, 2003). Thus, as with many other types of scientists, data scientists possess “a source of fresh power that escapes the routine and easy definition of a stated political power” (Latour, 1983).</p>
+<p>There are many examples of engineers developing and deploying technologies that, by structuring behavior and shifting power, shape aspects of society. As one example, when automobiles were introduced onto city streets in the 1920s, they created chaos and conflict in the existing social order (Norton, 2011). Many cities turned to traffic engineers as “disinterested experts” whose scientific methods could provide a neutral and optimal solution. But the engineers’ solution contained unexamined assumptions and values, namely, that “traffic efficiency worked for the benefit of all”. As traffic engineers changed the timings of traffic signals to enable cars to flow freely, their so-called solution “helped to redefine streets as motor thoroughfares where pedestrians did not belong”. These actions by traffic engineers helped shape the next several decades of automobile-focused urban development in US cities.</p>
+<p>Although these particular outcomes could be chalked up to unthoughtful design, any decisions that the traffic engineers made would have had some such impact: determining how to time streetlights requires judgments about what outcomes and whose interests to prioritize. Whatever they and the public may have believed, traffic engineers were never “just” engineers optimizing society “for the benefit of all”. Instead, they were engaged in the process—via formulas and signal timings—of defining which street uses should be supported and which should be constrained. The traffic engineers may not have decreed by law that streets were for cars, but their technological intervention assured this outcome by other means.</p>
+<p>Data scientists today risk repeating this pattern of designing tools with inherently political characters yet largely overlooking their own agency and responsibility. By imagining an artificially limited role for themselves, engineers create an environment of scientific development that requires few moral or political responsibilities. But this conception of engineering has always been a mirage. Developing any technology contributes to the particular “social contract implied by building that technological system in a particular form” (Winner, 1986).</p>
+<p>Of course, we must also resist placing too much responsibility on data scientists. The point is not that, if only they recognized their social impacts, engineers could themselves solve social issues. Technology is at best just one tool among many for addressing complex social problems (Green, 2019). Nor should we uncritically accept the social influence that data scientists have. Having unelected and unaccountable technical experts make core decisions about governance away from the public eye imperils essential notions of how a democratic society ought to function. As Science, Technology, and Society (STS) scholar Sheila Jasanoff (2006) argues, “The very meaning of democracy increasingly hinges on negotiating the limits of the expert’s power in relation to that of the publics served by technology.”</p>
+<p>Nonetheless, the design and implementation of technology does rely, at some level, on trained practitioners. This raises several questions that animate the rest of this article. What responsibilities should data scientists bear? How must data scientists reconceptualize their scientific and societal roles in light of these responsibilities?</p>
+</div>
+<div id="argument-2-we-shouldnt-take-political-stances" class="section level3 hasAnchor" number="15.3.2">
+<h3><span class="header-section-number">15.3.2</span> Argument 2: “We Shouldn’t Take Political Stances”<a href="m5a-are-ethics-enough-in-data-science.html#argument-2-we-shouldnt-take-political-stances" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Data scientists adhering to this second argument likely accept the response to Argument 1 but feel stuck, unsure how to appropriately act as more than “just” an engineer. “Sure, I am developing tools that impact people’s lives”, they may acknowledge, before asking, “But is not the best thing to just be as neutral as possible?”</p>
+<p>Although it is understandable how data scientists come to this position, their desire for neutrality suffers from two important failings. First, neutrality is an unachievable goal, as it is impossible to engage in science or politics without being influenced by one’s background, values, and interests. Second, striving to be neutral is not itself a politically neutral position. Instead, it is a fundamentally conservative one—not in a partisan sense, but in the sense that it is committed to maintaining the status quo.</p>
+<p>An ethos of objectivity has long been prevalent among scientists. Since the nineteenth century, objectivity has evolved into a set of widespread ethical and normative scientific practices. Conducting good science—and being a good scientist—meant suppressing one’s own perspective so that it would not contaminate the interpretations of observations (Daston &amp; Galison, 2007).</p>
+<p>Yet this conception of science was always rife with contradictions and oversights. Knowledge is shaped and bounded by the social contexts that generated it. This insight forms the backbone of standpoint theory, which articulates that “nothing in science can be protected from cultural influence—not its methods, its research technologies, its conceptions of nature’s fundamental ordering principles, its other concepts, metaphors, models, narrative structures, or even formal languages” (Harding, 1998). Although scientific standards of objectivity account for certain kinds of individual subjectivity, they are too narrowly construed: “methods for maximizing objectivism have no way of detecting values, interests, discursive resources, and ways of organizing the production of knowledge that first constitute scientific problems, and then select central concepts, hypotheses to be tested, and research designs” (Harding, 1998).</p>
+<p>Every aspect of science is imbued with the characteristics and interests of those who produce it. This does not invalidate every scientific finding as arbitrary, but it points to science’s contingency and reliance on its practitioners. All research and engineering are developed within particular institutions and cultures and with particular problems and purposes in mind.</p>
+<p>Just as it is impossible to conduct science in any truly neutral way, there is no such thing as a neutral (or apolitical) approach to politics. As philosopher Roberto Unger (1987) writes, political neutrality is an “illusory and ultimately idolatrous goal” because “no set of practices and institutions can be neutral among conceptions of the good.”</p>
+<p>Instead of being neutral and apolitical, attempts to be neutral and apolitical embody an implicitly conservative (that is, status quo-preserving) politics. Because neutrality does not mean value-free—it means acquiescence to dominant social and political values, freezing the status quo in place. Neutrality may appear to be apolitical, but that is only because the status quo is taken as a neutral default. Anything that challenges the status quo—which efforts to promote social justice must do by definition—will therefore be seen as political. But efforts for reform are no more political than efforts to resist reform or even the choice simply to not act, both of which preserve existing systems.</p>
+<p>Although surely not the intent of every scientist and engineer who strives for neutrality, broad cultural conceptions of science as neutral entrench the perspectives of dominant social groups, who are the only ones entitled to legitimate claims of neutrality. For example, many scholars have noted that neutrality is defined by a masculine perspective, making it impossible for women to be seen as objective or for neutral positions to consider female standpoints (Harding, 1998; Lloyd, 1993; Keller, 1985; MacKinnon, 1982). The voices of Black women are particularly subjugated as partisan and anecdotal (Collins, 2000). Because of these perceptions, when people from marginalized groups critique scientific findings, they are cast off as irrational, political, and representing a particular perspective (Haraway, 1988). In contrast, the practices of science and the perspectives of the dominant groups that uphold it are rarely considered to suffer from the same maladies.</p>
+<p>Data science exists on this political landscape. Whether articulated by their developers or not, machine learning systems already embed political stances. Overlooking this reality merely allows these political judgments to pass without scrutiny, in turn granting data science systems with more credence and legitimacy than they deserve.</p>
+<p>Predictive policing algorithms offer a particularly pointed example of how striving to remain neutral entrenches and legitimize existing political conditions. The issue is not simply that the training data behind predictive policing algorithms are biased due to a history of overenforcement in minority neighborhoods. In addition, our very definitions of crime and how to address it are the product of racist and classist historical processes. Dating back to the eras of slavery and reconstruction, cultural associations of Black men with criminality have justified extensive police forces with broad powers (Butler, 2017). The War on Drugs, often identified as a significant cause of mass incarceration, emerged out of an explicit agenda by the Nixon administration to target people of color (Alexander, 2012; Baum, 2016). Meanwhile, crimes like wage theft (when employers deny employees wages or benefits to which they are legally entitled) are systemically underenforced by police and do not even register as relevant to conversations about predictive policing—even though wage theft steals more value than other kinds of theft combined (Meixell &amp; Eisenbrey, 2014).</p>
+<p>Moreover, predictive policing rests on a model of policing that is itself unjust. Predictive policing software could exist only in a society that deploys vast punitive resources to prevent social disorder, following “broken windows” tactics. Policing has always been far from neutral: “the basic nature of the law and the police, since its earliest origins, is to be a tool for managing inequality and maintaining the status quo” (Vitale, 2017). The issues with policing are not flaws of training or methods or “bad apple” officers, but are endemic to policing itself (Butler, 2017; Vitale, 2017).</p>
+<p>Against this backdrop, choosing to develop predictive policing algorithms is not neutral. Accepting common definitions of crime and how to address it may seem to allow data scientists to remove themselves from politics, but instead upholds historical politics of social hierarchy.</p>
+<p>Although predictive policing represents a notably salient example of how data science cannot be neutral, the same could be said of all applied data science. Biased data are certainly one piece of the story, but so are existing social and political conditions, definitions and classifications of social problems, and the set of institutions that respond to those problems. None of these factors are neutral and removed from politics. And while data scientists are of course not responsible for creating these aspects of society, they are responsible for choosing how to interact with them. Neutrality in the face of injustice only reinforces that injustice. When engaging with aspects of the world steeped in history and politics, in other words, it is impossible for data scientists to not take political stances.</p>
+<p>I do not mean to suggest that every data scientist should share a singular political vision—that would be wildly unrealistic. It is precisely because the field (and world) hosts a diversity of normative perspectives that we must surface political debates and recognize the role they play in shaping data science practice. Nor is my argument meant to suggest that articulating one’s political commitments is a simple task. Normative ideals can be complex and conflicting, and one’s own principles can evolve over time. Data scientists need not have precise answers about every political question. However, they must act in light of articulated principles and grapple with the uncertainty that surrounds these ideals.</p>
+</div>
+<div id="argument-3-dont-let-the-perfect-be-the-enemy-of-the-good" class="section level3 hasAnchor" number="15.3.3">
+<h3><span class="header-section-number">15.3.3</span> Argument 3: “Don’t Let the Perfect Be the Enemy of the Good”<a href="m5a-are-ethics-enough-in-data-science.html#argument-3-dont-let-the-perfect-be-the-enemy-of-the-good" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Following the responses to Arguments 1 and 2, data scientists asserting this third argument likely acknowledge that their creations will unavoidably have social impacts and that neutrality is not possible. Yet still holding out against a thorough political engagement, they fall back on a seemingly pragmatic position: because data science tools can improve society in incremental but important ways, we should support their development rather than argue about what a perfect solution might be.</p>
+<p>Despite being the most sophisticated of the three arguments, this position suffers from several underdeveloped principles. First, data science lacks robust theories regarding what “perfect” and “good” actually entail. As a result, the field typically adopts a superficial approach to reform that involves making vague (almost tautological) claims about what social conditions are desirable. Second, this argument fails to articulate how to evaluate or navigate the relationship between the perfect and the good. Efforts to promote social good thus tend to take for granted that technology-centric incremental reform is an appropriate strategy for social progress. Yet, considered from a perspective of substantive equality and anti-oppression, many data science efforts to do good are not, in fact, consistently doing good.</p>
+<div id="data-science-lacks-a-thorough-definition-of-good" class="section level4 hasAnchor" number="15.3.3.1">
+<h4><span class="header-section-number">15.3.3.1</span> Data Science Lacks a Thorough Definition of “Good”<a href="m5a-are-ethics-enough-in-data-science.html#data-science-lacks-a-thorough-definition-of-good" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Across the broad world of data science, from academic institutes to conferences to companies to volunteer organizations, “social good” (or just “good”) has become a popular term. While this is both commendable and exciting, the field has not developed (nor even much debated) any working definitions of the term “social good” to guide its efforts. Instead, the field seems to operate on a “know it when you see it” approach, relying on rough proxies such as crime = bad, poverty = bad, and so on. There is, of course, extensive literature (spanning philosophy, STS, and other fields) that considers what is socially desirable, yet data science efforts to promote “social good” rarely reference this literature.</p>
+<p>This lack of definition leads to “data science for social good” projects that span a wide range of conflicting political orientations. For example, some work under the “social good” umbrella is explicitly developed to enhance police accountability and promote non-punitive alternatives to incarceration (Bauman et al., 2018; Carton et al., 2016). In contrast, other work under the “social good” label aims to enhance police operations. One such paper aimed to classify gang crimes in Los Angeles (Hutson, 2018; Seo et al., 2018) This project involved taking for granted the legitimacy of the Los Angeles Police Department’s gang data—a notoriously biased type of data (Felton, 2018) from a police department that has a long history of abusing minorities in the name of gang suppression (Vitale, 2017). That such politically disparate and conflicting work could be similarly characterized as “social good” should prompt a reconsideration of the core terms and principles. When the term encompasses everything, it means nothing.</p>
+<p>The point is not that there exists a single optimal definition of “social good”, nor that every data scientist should agree on one set of principles. Instead, there is a multiplicity of perspectives that must be openly acknowledged to surface debates about what “good” actually entails. Currently, however, the field lacks the language and perspective to sufficiently evaluate and debate differing visions of what is “good”. By framing their notions of “good” in such vague and undefined terms, data scientists get to have their cake and eat it too: They can receive praise and publications based on broad claims about solving social challenges while avoiding substantive engagement with social and political impacts.</p>
+<p>Most dangerously, data science’s vague framing of social good allows those already in power to present their normative judgments about what is “good” as neutral facts that are difficult to challenge. As discussed earlier, neutrality is an impossible goal and attempts to be neutral tend to reinforce the status quo. If the field does not openly debate definitions of “perfect” and “good”, the assumptions and values of dominant groups will tend to win out. Projects that purport to enhance social good but fail to reflexively engage with the political context are likely to reproduce the exact forms of social oppression that many working towards “social good” seek to dismantle.</p>
+</div>
+<div id="pursuing-an-incremental-good-can-reinforce-oppression" class="section level4 hasAnchor" number="15.3.3.2">
+<h4><span class="header-section-number">15.3.3.2</span> Pursuing an Incremental “Good” Can Reinforce Oppression<a href="m5a-are-ethics-enough-in-data-science.html#pursuing-an-incremental-good-can-reinforce-oppression" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Even if data scientists acknowledge that “social good” is often poorly defined, they may still adhere to the argument that “we should not let the perfect be the enemy of the good”. “After all”, they might say, “is not some solution, however imperfect, better than nothing?” As one paper asserts, “we should not delay solutions over concerns of optimal” outcomes (Sylvester &amp; Raff, 2018).</p>
+<p>At this point the second failure of Argument 3 becomes clear: It tells us nothing about the relationship between the perfect and the good. Although data scientists generally acknowledge that data science cannot provide perfect solutions to social problems, the field typically takes for granted that incremental reforms using data science contribute to the “social good”. On this logic, we should applaud any attempts to alleviate issues such as crime, poverty, and discrimination. Meanwhile, because “the perfect” represents an unrealizable utopia we should not waste time and energy debating the ideal solution.</p>
+<p>Although efforts to promote “social good” using data science can be productive, pursuing such applications without a rigorous theory of social change can lead to harmful consequences. A reform that seems desirable from a narrow perspective focused on immediate improvements can be undesirable from a broader perspective focused on long-term, structural reforms. Understood in these terms, the dichotomy between the idealized “perfect” and the incremental “good” is a false one: articulating visions of an ideal society is an essential step for developing and evaluating incremental reforms. In order to rigorously conceive of and compare potential incremental reforms, we must first debate and refine our conceptions of the society we want to create; following those ideals, we can then evaluate whether potential incremental reforms push society in the desired direction. Because there is a multiplicity of imagined “perfects”, which in turn suggest an even larger multiplicity of incremental “goods,” reforms must be evaluated based on what type of society they promote in both the short and long term. In other words, rather than treating any incremental reform as desirable, data scientists must recognize that different incremental reforms can push society down drastically different paths.</p>
+<p>When attempting to achieve reform, an essential task is to evaluate the relationship between incremental changes and long-term agendas for a more just society. As social philosopher André Gorz (1961) proposes, we must distinguish between “reformist reforms” and “non- reformist reforms.” Gorz explains, “A reformist reform is one which subordinates its objectives to the criteria of rationality and practicability of a given system and policy.” In contrast, a non-reformist reform “is conceived not in terms of what is possible within the framework of a given system and administration, but in view of what should be made possible in terms of human needs and demands.”</p>
+<p>Reformist and non-reformist reforms are both categories of incremental reform, but they are conceived through distinct processes. Reformist reformers start within existing systems, looking for ways to improve them. In contrast, non-reformist reformers start beyond existing systems, looking for ways to achieve emancipatory social conditions. Because of the distinct ways that these two types of reforms are conceived, the pursuit of one versus the other can lead to widely divergent social and political outcomes.</p>
+<p>The solutions proposed by data scientists are almost entirely reformist reforms. The standard logic of data science—grounded in accuracy and efficiency—tends toward accepting and working within the parameters of existing systems. Data science interventions are therefore typically proposed to improve the performance of a system rather than to substantively alter it. And while these types of reforms have value under certain conditions, such an ethos of reformist reforms is unequipped to identify and pursue the larger changes that are necessary across many institutions. This approach may even serve to entrench and legitimize the status quo. From the standpoint of existing systems, it is impossible to imagine alternative ways of structuring society—when reform is conceived in this way, “only the most narrow parameters of change are possible and allowable” (Lorde, 1984).</p>
+<p>In this sense, data science’s dominant strategy of pursuing a reformist, incremental good resembles a algorithm pursuing the strategy of making immediate improvements in the <em>local</em> vicinity of the status quo. Although this strategy can be useful for simple problems, it is unreliable in complex search spaces: We may quickly find a local maximum but will never reach a further-afield terrain of far better solutions. Moves that are immediately beneficial can be counterproductive for finding the global optimum. Similarly, although reformist reforms can lead to certain improvements, a strategy limited to reformist reforms cannot guide robust responses to complex political problems. Reforms that appear desirable within the narrow scope of a reformist strategy can be counterproductive for achieving structural reforms. Even though the optimal political solution is rarely achievable (and is often subject to significant debate), it is necessary to fully characterize the space of possible reforms and to evaluate how reliably different approaches can generate more egalitarian outcomes.</p>
+<p>The point is not that data science is incapable of improving society. However, data science interventions must be evaluated against alternative reforms as just one of many options, rather than compared merely against the status quo as the only possible reform. There should not a default presumption that machine learning provides an appropriate reform for every problem.</p>
+<p>The point is not that data science is incapable of improving society. However, data science interventions must be evaluated against alternative reforms as just one of many options, rather than compared merely against the status quo as the only possible reform. There should not a default presumption that machine learning provides an appropriate reform for every problem.</p>
+</div>
+</div>
+</div>
+<div id="conclusion-5" class="section level2 hasAnchor" number="15.4">
+<h2><span class="header-section-number">15.4</span> Conclusion<a href="m5a-are-ethics-enough-in-data-science.html#conclusion-5" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In sum, attempts by data scientists to avoid politics overlook technology’s social impacts, privilege the status quo, and narrow the range of possible reforms. The field of data science will be unable to meaningfully advance social justice without accepting itself as political.</p>
+</div>
+<div id="references-6" class="section level2 hasAnchor" number="15.5">
+<h2><span class="header-section-number">15.5</span> References<a href="m5a-are-ethics-enough-in-data-science.html#references-6" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Alexander, M. (2012). <em>The new Jim Crow: Mass incarceration in the age of colorblindness</em>. The New Press.</p>
+<p>Anwin, J., Larson, J., Mattu, S., &amp; Kirchner, L. (2016). Machine bias. <em>ProPublica</em>. <a href="https://www.propublica.org/article/machine-bias-" class="uri">https://www.propublica.org/article/machine-bias-</a> risk-assessments-in-criminal-sentencing</p>
+<p>Baum, D. (2016). Legalize it all. <em>Harper’s Magazine</em>. <a href="https://harpers.org/archive/2016/04/legalize-it-all/" class="uri">https://harpers.org/archive/2016/04/legalize-it-all/</a></p>
+<p>Bauman, M. J., Boxer, K. S., Lin, T.-Y., Salmon, E., Naveed, H., Haynes, L., Walsh, J., Helsby, J., Yoder, S., Sullivan, R., et al. (2018). Reducing incarceration through prioritized interventions. <em>Proceedings of the 1st ACM SIGCAS conference on computing and sustainable societies</em>. Association for Computing Machinery.</p>
+<p>Buolamwini, J., &amp; Gebru, T. (2018). Gender shades: Intersectional accuracy disparities in commercial gender classification. <em>Proceedings of the 1st Conference on Fairness, Accountability and Transparency</em>, <em>81</em>, 77-91.</p>
+<p>Butler, P. (2017). <em>Chokehold: Policing Black men</em>. The New Press.</p>
+<p>Carton, S., Helsby, J., Joseph, K., Mahmud, A., Park, Y., Walsh, J., Cody, C., Patterson, E., Haynes, L., &amp; Ghani, R. (2016). Identifying police officers at risk of adverse events. <em>Proceedings of the 22nd ACM SIGKDD international conference on knowledge discovery and data mining</em>. Association for Computing Machinery.</p>
+<p>Collins, P. H. (2000). <em>Black feminist thought: Knowledge, consciouness, and the politics of empowerment</em>. Routledge.</p>
+<p>Daston, L., &amp; Galison, P. (2007). <em>Objectivity</em>. Zone Books.</p>
+<p>de Montjoye, Y.-A., Radaelli, L., Singh, V. K., &amp; Pentland, A. S. (2015). Unique in the shopping mall: On the reidentifiability of credit card metadata. <em>Science</em>, <em>347</em>(6221), 536-539.</p>
+<p>Felton, E. (2018, March 15). Gang databases are a life sentence for Black and Latino communities. <em>Pacific Standard</em>. <a href="https://psmag.com/social-justice/gang-databases-life-sentence-for-black-and-latino-communities" class="uri">https://psmag.com/social-justice/gang-databases-life-sentence-for-black-and-latino-communities</a></p>
+<p>Gorz, A. (1967). <em>Strategy for labor</em>. Beacon Press.</p>
+<p>Green, B. (2021). The contestation of tech ethics: A sociotechnical approach to technology ethics in practice. <em>Journal of Social Computing</em>, <em>2</em>(3), 209-225 <a href="https://doi.org/10.23919/JSC.2021.0018" class="uri">https://doi.org/10.23919/JSC.2021.0018</a>.</p>
+<p>Green, B. (2020). The false promise of risk assessments: Epistemic reform and the limits of fairness. In <em>Proceedings of the 2020 conference on fairness, accountability, and transparency</em> (pp. 594-606).</p>
+<p>Green, B. (2019). <em>The smart enough city: Putting technology in its place to reclaim our urban future</em>. MIT Press.</p>
+<p>Eubanks, V. (2018). <em>Automating inequality: How high-tech tools profile, polics, and punish the poor</em>. St. Martin’s Press.</p>
+<p>Haraway, D. (1988). Situated knowledges: The science question in feminism and the privilege of partial perspective. <em>Feminist Studies</em>, <em>14</em>(3), 575-599.</p>
+<p>Harding, S. (1998). <em>Is science multicultural? Postcolonialisms, feminisms, and epistemologies.</em> Indiana University Press.</p>
+<p>Hutson, M. (2018, February 28). Artificial intelligence could identify gang crimes—and ignite an ethical firestorm. <em>Science</em>. <a href="https://edtechbooks.org/-uYJu" class="uri">https://edtechbooks.org/-uYJu</a></p>
+<p>Jasanoff, S. (2003). In a constitutional moment: Science and social order at the millennium. In B. Joerges &amp; H. Nowotny (Eds.), <em>Social studies of science and technology: Looking back, ahead</em> (p. 155-180). Springer.</p>
+<p>Jasanoff, S. (2006). Technology as a site and object of politics. In R. E. Goodin &amp; C. Tilly (Eds.), <em>The Oxford handbook of contextual political analysis</em> (pp. 745-763). Oxford University Press.</p>
+<p>Karakatsanis, A. (2019). The punishment bureaucracy: How to think about “criminal justice reform.” <em>The Yale Law Journal Forum</em>, <em>128</em>, 848-935.</p>
+<p>Keller, E. F. (1985). <em>Reflections on gender and science</em>. Yale University Press.</p>
+<p>Kosinski, M., Stillwell, D., &amp; Graepel, T. (2013). Private traits and attributes are predictable from digital records of human behavior. <em>Proceedings of the National Academy of Sciences of the United States of America</em>, <em>110</em>(15), 5802-5805.</p>
+<p>Kramer, A. D. I., Guillory, J. E., &amp; Hancock, J. T. (2014). Experimental evidence of massive-scale emotional contagion through social networks. <em>Proceedings of the National Academy of Sciences</em>, <em>111</em>(24), 8788-8790.</p>
+<p>Lasswell, H. D. (1936). <em>Politics: Who gets what, when, how</em>. Whittlesey House.</p>
+<p>Latour, B. (1983). Give me a laboratory and I will raise the world. In K. Knorr-Cetina &amp; M. J. Mulkay (Eds.), <em>Science Observed: Perspectives on the social study of science</em> (pp 141-170). Sage.</p>
+<p>Leftwich, A. (1984). Politics: people, resources, and power. In A. Leftwich (Ed.), <em>What is politics? The activity and its study</em> (pp. 62-84). Basil Blackwell.</p>
+<p>Lloyd, G. (1993). Maleness, metaphor, and the “crisis” of reason. In L. M. Antony &amp; C. E. Witt (Eds.), <em>A mind of one’s own: Feminist essays on reason and objectivity</em>. Westview Press.</p>
+<p>Lorde, A. (1984). <em>Sister outsider: Essays &amp; speeches</em>. Crossing Press.</p>
+<p>MacKinnon, C. A. (1982). Feminism, Marxism, method, and the state: An agenda for theory. <em>Signs: Journal of Women in Culture and Society</em>, <em>7</em>(3), 515-544.</p>
+<p>McLeod, A. M. (2013). Confronting criminal law’s violence: The possibilities of unfinished alternatives. <em>Unbound: Harvard Journal of the Legal Left</em>, <em>8</em>, 109-132.</p>
+<p>Meixell, B., &amp; Eisenbrey, R. (2014, September 11). An epidemic of wage theft is costing workers hundreds of millions of dollars a year. <em>Economic Policy Institute</em>. <a href="https://www.epi.org/publication/epidemic-wage-theft-costing-workers-hundreds/" class="uri">https://www.epi.org/publication/epidemic-wage-theft-costing-workers-hundreds/</a></p>
+<p>Nicas, J. (2018, February 7). How YouTube drives people to the internet’s darkest corners. <em>Wall Street Journal</em>. <a href="https://www.wsj.com/articles/how-youtube-drives-viewers-to-the-internets-darkest-corners-1518020478" class="uri">https://www.wsj.com/articles/how-youtube-drives-viewers-to-the-internets-darkest-corners-1518020478</a></p>
+<p>Norton, P. D. (2011). <em>Fighting traffic: The dawn of the motor age in the American city</em>. MIT Press.</p>
+<p>Obermeyer, Z., Powers, B., Vogeli, C., &amp; Mullainathan, S. (2019). Dissecting racial bias in an algorithm used to manage the health of populations. <em>Science</em>, <em>366</em>(6464), 447-453.</p>
+<p>O’Neil, C. (2017) <em>Weapons of math destruction: How big data increases inequality and threatens democracy</em>. Broadway Books.</p>
+<p>Powles, J. (2018, December 7). The seductive diversion of ‘solving’ bias in artifical intelligence. <em>Medium</em>. <a href="https://medium.com/s/story/the-seductive-diversion-of-solving-bias-in-artificial-intelligence-890df5e5ef53" class="uri">https://medium.com/s/story/the-seductive-diversion-of-solving-bias-in-artificial-intelligence-890df5e5ef53</a></p>
+<p>Rosenberg, M., Confessore, N., &amp; Cadwalladr, C. (2018, March 17). How Trump consultants exploited the Facebook data of millions. <em>New York Times</em>. <a href="https://edtechbooks.org/-RJPW" class="uri">https://edtechbooks.org/-RJPW</a></p>
+<p>Seo, S., Chan, H., Brantingham, P. J., Leap, J., Vayanos, P., Tambe, M., &amp; Liu, Y. (2018). Partially generative neural networks for gang crime classification with partial information. <em>Proceedings of the 2018 AAAI/ACM conference on AI, ethics and society (AIES)</em>. Association for the Advancement of Artificial Intelligence.</p>
+<p>Sylvester &amp; Raff (2018). What about applied fairness? Paper presented at <em>The 35th International Conference on Machine Learning</em>. Stockholm, Sweden.</p>
+<p>Thompson, S. A., &amp; Warzel, C. (2019, December 20). How to track President Trump. <em>New York Times</em>. <a href="https://www.nytimes.com/interactive/2019/12/20/opinion/location-data-national-security.html" class="uri">https://www.nytimes.com/interactive/2019/12/20/opinion/location-data-national-security.html</a></p>
+<p>Unger, R. M. (1987). <em>False necessity: Anti-necessitarian social theory in the service of radical democracy</em>. Cambridge University Press.</p>
+<p>Vitale, A. S. (2017). <em>The end of policing</em>. Verso Books.</p>
+<p>Vosoughi, S., Roy, D., &amp; Aral, S. (2018). The spread of true and false news online. <em>Science</em>, <em>359</em>(6380), 1146-1151.</p>
+<p>Wexler, R. (2018). Life, liberty, and trade secrets: Intellectual property in the criminal justice system. <em>Stanford Law Review</em>, <em>70</em>(5), 1343-1429.</p>
+<p>Winner, L. (1986). <em>The whale and the reactor: A search for limits in an age of high technology</em>. University of Chicago Press.</p>
+
+</div>
+</div>
+<script src="https://hypothes.is/embed.js" async></script>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="m5u-numbers-dont-speak-for-themselves.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="module-5-connection.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

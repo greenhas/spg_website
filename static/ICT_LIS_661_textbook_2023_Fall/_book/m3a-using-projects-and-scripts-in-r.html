@@ -277,7 +277,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="14.7" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#conclusion-4"><i class="fa fa-check"></i><b>14.7</b> Conclusion</a></li>
 <li class="chapter" data-level="14.8" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#references-5"><i class="fa fa-check"></i><b>14.8</b> References</a></li>
 </ul></li>
-<li class="chapter" data-level="15" data-path="module-5-application.html"><a href="module-5-application.html"><i class="fa fa-check"></i><b>15</b> Module 5 Application</a></li>
+<li class="chapter" data-level="15" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html"><i class="fa fa-check"></i><b>15</b> M5A: Are Ethics Enough in Data Science?</a>
+<ul>
+<li class="chapter" data-level="15.1" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#introduction-11"><i class="fa fa-check"></i><b>15.1</b> Introduction</a></li>
+<li class="chapter" data-level="15.2" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#ethics-vs.-politics"><i class="fa fa-check"></i><b>15.2</b> Ethics vs. Politics</a></li>
+<li class="chapter" data-level="15.3" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#why-politics"><i class="fa fa-check"></i><b>15.3</b> Why Politics?</a>
+<ul>
+<li class="chapter" data-level="15.3.1" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#argument-1-i-am-just-an-engineer"><i class="fa fa-check"></i><b>15.3.1</b> Argument 1: “I am Just an Engineer”</a></li>
+<li class="chapter" data-level="15.3.2" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#argument-2-we-shouldnt-take-political-stances"><i class="fa fa-check"></i><b>15.3.2</b> Argument 2: “We Shouldn’t Take Political Stances”</a></li>
+<li class="chapter" data-level="15.3.3" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#argument-3-dont-let-the-perfect-be-the-enemy-of-the-good"><i class="fa fa-check"></i><b>15.3.3</b> Argument 3: “Don’t Let the Perfect Be the Enemy of the Good”</a></li>
+</ul></li>
+<li class="chapter" data-level="15.4" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#conclusion-5"><i class="fa fa-check"></i><b>15.4</b> Conclusion</a></li>
+<li class="chapter" data-level="15.5" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#references-6"><i class="fa fa-check"></i><b>15.5</b> References</a></li>
+</ul></li>
 <li class="chapter" data-level="16" data-path="module-5-connection.html"><a href="module-5-connection.html"><i class="fa fa-check"></i><b>16</b> Module 5 Connection</a></li>
 <li class="chapter" data-level="17" data-path="module-6-understanding.html"><a href="module-6-understanding.html"><i class="fa fa-check"></i><b>17</b> Module 6 Understanding</a></li>
 <li class="chapter" data-level="18" data-path="module-6-application.html"><a href="module-6-application.html"><i class="fa fa-check"></i><b>18</b> Module 6 Application</a></li>
@@ -387,22 +399,22 @@ Figure 9.1: RStudio interface to R.
 <pre><code> [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
 <p>Not all functions have (or require) arguments:</p>
 <div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb27-1" tabindex="-1"></a><span class="fu">date</span>()</span></code></pre></div>
-<pre><code>[1] &quot;Sun Jul 23 13:45:46 2023&quot;</code></pre>
+<pre><code>[1] &quot;Sun Jul 23 14:09:53 2023&quot;</code></pre>
 <p>Now look at your workspace in the upper right Environment pane. The workspace is where user-defined objects accumulate. You ought to see all of the objects that we’ve created so far in this walkthrough. You can also get a listing of these objects with commands:</p>
 <div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb29-1" tabindex="-1"></a><span class="fu">objects</span>()</span></code></pre></div>
-<pre><code> [1] &quot;chap&quot;                       &quot;flights_cols&quot;              
- [3] &quot;flights_rows&quot;               &quot;lc&quot;                        
- [5] &quot;needed_CRAN_pkgs&quot;           &quot;new_pkgs&quot;                  
- [7] &quot;stromae_rocks&quot;              &quot;this_is_a_really_long_name&quot;
- [9] &quot;x&quot;                          &quot;y&quot;                         
-[11] &quot;yo&quot;                        </code></pre>
+<pre><code> [1] &quot;chap&quot;                       &quot;df&quot;                        
+ [3] &quot;flights_cols&quot;               &quot;flights_rows&quot;              
+ [5] &quot;lc&quot;                         &quot;needed_CRAN_pkgs&quot;          
+ [7] &quot;new_pkgs&quot;                   &quot;stromae_rocks&quot;             
+ [9] &quot;this_is_a_really_long_name&quot; &quot;x&quot;                         
+[11] &quot;y&quot;                          &quot;yo&quot;                        </code></pre>
 <div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb31-1" tabindex="-1"></a><span class="fu">ls</span>()</span></code></pre></div>
-<pre><code> [1] &quot;chap&quot;                       &quot;flights_cols&quot;              
- [3] &quot;flights_rows&quot;               &quot;lc&quot;                        
- [5] &quot;needed_CRAN_pkgs&quot;           &quot;new_pkgs&quot;                  
- [7] &quot;stromae_rocks&quot;              &quot;this_is_a_really_long_name&quot;
- [9] &quot;x&quot;                          &quot;y&quot;                         
-[11] &quot;yo&quot;                        </code></pre>
+<pre><code> [1] &quot;chap&quot;                       &quot;df&quot;                        
+ [3] &quot;flights_cols&quot;               &quot;flights_rows&quot;              
+ [5] &quot;lc&quot;                         &quot;needed_CRAN_pkgs&quot;          
+ [7] &quot;new_pkgs&quot;                   &quot;stromae_rocks&quot;             
+ [9] &quot;this_is_a_really_long_name&quot; &quot;x&quot;                         
+[11] &quot;y&quot;                          &quot;yo&quot;                        </code></pre>
 <p>If you want to remove the object named <code>y</code>, you can do this:</p>
 <div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb33-1"><a href="m3a-using-projects-and-scripts-in-r.html#cb33-1" tabindex="-1"></a><span class="fu">rm</span>(y)</span></code></pre></div>
 <p>To remove everything:</p>
