@@ -121,7 +121,14 @@ pursuing-an-incremental-good-can-reinforce-oppression
 conclusion-5
 references-6
 m5c-reflect-on-theoretical-and-philosophical-constraints
-module-6-understanding
+m6u-unicorns-janitors-and-rock-stars
+introduction-12
+intentionally-challenging-data-visualization
+sexy-scientists-and-drab-janitors
+strangers-in-the-dataset
+sharing-work-and-sharing-credit
+conclusion-6
+references-7
 module-6-application
 module-6-connection
 module-7-understanding
