@@ -1,7 +1,5 @@
 # M5A: Are Ethics Enough in Data Science?
 
-
-
 This chapter draws on material from:
 
 * [Data Science as Political Action: Grounding Data Science in a Politics of Justice](https://doi.org/10.23919/JSC.2021.0029) by [Ben Green](https://www.benzevgreen.com/), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
