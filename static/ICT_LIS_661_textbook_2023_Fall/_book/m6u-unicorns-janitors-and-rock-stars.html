@@ -30,7 +30,7 @@
   
   
 <link rel="prev" href="m5c-reflect-on-theoretical-and-philosophical-constraints.html"/>
-<link rel="next" href="module-6-application.html"/>
+<link rel="next" href="m6a-wrangling-and-tidying-data.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -51,6 +51,8 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
 
 <style type="text/css">
@@ -301,7 +303,61 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="17.6" data-path="m6u-unicorns-janitors-and-rock-stars.html"><a href="m6u-unicorns-janitors-and-rock-stars.html#conclusion-6"><i class="fa fa-check"></i><b>17.6</b> Conclusion</a></li>
 <li class="chapter" data-level="17.7" data-path="m6u-unicorns-janitors-and-rock-stars.html"><a href="m6u-unicorns-janitors-and-rock-stars.html#references-7"><i class="fa fa-check"></i><b>17.7</b> References</a></li>
 </ul></li>
-<li class="chapter" data-level="18" data-path="module-6-application.html"><a href="module-6-application.html"><i class="fa fa-check"></i><b>18</b> Module 6 Application</a></li>
+<li class="chapter" data-level="18" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html"><i class="fa fa-check"></i><b>18</b> M6A: Wrangling and Tidying Data</a>
+<ul>
+<li class="chapter" data-level="18.1" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#introduction-13"><i class="fa fa-check"></i><b>18.1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#wrangling-packages"><i class="fa fa-check"></i>Needed packages</a></li>
+</ul></li>
+<li class="chapter" data-level="18.2" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#piping"><i class="fa fa-check"></i><b>18.2</b> The pipe operator: <code>%&gt;%</code></a></li>
+<li class="chapter" data-level="18.3" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#filter"><i class="fa fa-check"></i><b>18.3</b> <code>filter</code> rows</a></li>
+<li class="chapter" data-level="18.4" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#summarize"><i class="fa fa-check"></i><b>18.4</b> <code>summarize</code> variables</a></li>
+<li class="chapter" data-level="18.5" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#groupby"><i class="fa fa-check"></i><b>18.5</b> <code>group_by</code> rows</a>
+<ul>
+<li class="chapter" data-level="18.5.1" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#grouping-by-more-than-one-variable"><i class="fa fa-check"></i><b>18.5.1</b> Grouping by more than one variable</a></li>
+</ul></li>
+<li class="chapter" data-level="18.6" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#mutate"><i class="fa fa-check"></i><b>18.6</b> <code>mutate</code> existing variables</a></li>
+<li class="chapter" data-level="18.7" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#arrange"><i class="fa fa-check"></i><b>18.7</b> <code>arrange</code> and sort rows</a></li>
+<li class="chapter" data-level="18.8" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#joins"><i class="fa fa-check"></i><b>18.8</b> <code>join</code> data frames</a>
+<ul>
+<li class="chapter" data-level="18.8.1" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#matching-key-variable-names"><i class="fa fa-check"></i><b>18.8.1</b> Matching “key” variable names</a></li>
+<li class="chapter" data-level="18.8.2" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#diff-key"><i class="fa fa-check"></i><b>18.8.2</b> Different “key” variable names</a></li>
+<li class="chapter" data-level="18.8.3" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#multiple-key-variables"><i class="fa fa-check"></i><b>18.8.3</b> Multiple “key” variables</a></li>
+<li class="chapter" data-level="18.8.4" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#normal-forms"><i class="fa fa-check"></i><b>18.8.4</b> Normal forms</a></li>
+</ul></li>
+<li class="chapter" data-level="18.9" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#other-verbs"><i class="fa fa-check"></i><b>18.9</b> Other verbs</a>
+<ul>
+<li class="chapter" data-level="18.9.1" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#select"><i class="fa fa-check"></i><b>18.9.1</b> <code>select</code> variables</a></li>
+<li class="chapter" data-level="18.9.2" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#rename"><i class="fa fa-check"></i><b>18.9.2</b> <code>rename</code> variables</a></li>
+<li class="chapter" data-level="18.9.3" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#top_n-values-of-a-variable"><i class="fa fa-check"></i><b>18.9.3</b> <code>top_n</code> values of a variable</a></li>
+</ul></li>
+<li class="chapter" data-level="18.10" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#wrangling-conclusion"><i class="fa fa-check"></i><b>18.10</b> Conclusion</a>
+<ul>
+<li class="chapter" data-level="18.10.1" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#summary-table"><i class="fa fa-check"></i><b>18.10.1</b> Summary table</a></li>
+<li class="chapter" data-level="18.10.2" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#whats-to-come"><i class="fa fa-check"></i><b>18.10.2</b> What’s to come?</a></li>
+</ul></li>
+<li class="chapter" data-level="18.11" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#tidying-data"><i class="fa fa-check"></i><b>18.11</b> Tidying Data</a>
+<ul>
+<li class="chapter" data-level="" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#tidy-packages"><i class="fa fa-check"></i>Needed packages</a></li>
+</ul></li>
+<li class="chapter" data-level="18.12" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#csv"><i class="fa fa-check"></i><b>18.12</b> Importing data</a>
+<ul>
+<li class="chapter" data-level="18.12.1" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#using-the-console"><i class="fa fa-check"></i><b>18.12.1</b> Using the console</a></li>
+<li class="chapter" data-level="18.12.2" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#using-rstudios-interface"><i class="fa fa-check"></i><b>18.12.2</b> Using RStudio’s interface</a></li>
+</ul></li>
+<li class="chapter" data-level="18.13" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#tidy-data-ex"><i class="fa fa-check"></i><b>18.13</b> “Tidy” data</a>
+<ul>
+<li class="chapter" data-level="18.13.1" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#tidy-definition"><i class="fa fa-check"></i><b>18.13.1</b> Definition of “tidy” data</a></li>
+<li class="chapter" data-level="18.13.2" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#converting-to-tidy-data"><i class="fa fa-check"></i><b>18.13.2</b> Converting to “tidy” data</a></li>
+<li class="chapter" data-level="18.13.3" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#nycflights13-package-1"><i class="fa fa-check"></i><b>18.13.3</b> <code>nycflights13</code> package</a></li>
+</ul></li>
+<li class="chapter" data-level="18.14" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#case-study-tidy"><i class="fa fa-check"></i><b>18.14</b> Case study: Democracy in Guatemala</a></li>
+<li class="chapter" data-level="18.15" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#tidyverse-package"><i class="fa fa-check"></i><b>18.15</b> <code>tidyverse</code> package</a></li>
+<li class="chapter" data-level="18.16" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#tidy-data-conclusion"><i class="fa fa-check"></i><b>18.16</b> Conclusion</a>
+<ul>
+<li class="chapter" data-level="18.16.1" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#whats-to-come-1"><i class="fa fa-check"></i><b>18.16.1</b> What’s to come?</a></li>
+</ul></li>
+</ul></li>
 <li class="chapter" data-level="19" data-path="module-6-connection.html"><a href="module-6-connection.html"><i class="fa fa-check"></i><b>19</b> Module 6 Connection</a></li>
 <li class="chapter" data-level="20" data-path="module-7-understanding.html"><a href="module-7-understanding.html"><i class="fa fa-check"></i><b>20</b> Module 7 Understanding</a></li>
 <li class="chapter" data-level="21" data-path="module-7-application.html"><a href="module-7-application.html"><i class="fa fa-check"></i><b>21</b> Module 7 Application</a></li>
@@ -445,7 +501,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
         </div>
       </div>
 <a href="m5c-reflect-on-theoretical-and-philosophical-constraints.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="module-6-application.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="m6a-wrangling-and-tidying-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
