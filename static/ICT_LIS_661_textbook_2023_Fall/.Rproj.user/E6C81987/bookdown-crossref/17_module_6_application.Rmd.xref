@@ -1,59 +1,30 @@
 h1:m6a-wrangling-and-tidying-data M6A: Wrangling and Tidying Data
 h2:introduction Introduction
+h2:wrangling Wrangling
 h3:wrangling-packages Needed packages
-h2:piping The pipe operator: 
-h2:filter  rows
+h3:piping The pipe operator: 
+h3:filter  rows
 fig:filter Diagram of filter() rows operation.
-h2:summarize  variables
-fig:summary-function Diagram illustrating a summary function in R.
-fig:sum1 Diagram of summarize() rows.
-h2:groupby  rows
-(ref:groupby) Diagram of group_by() and summarize().
-fig:groupsummarize (ref:groupby)
-h3:grouping-by-more-than-one-variable Grouping by more than one variable
-h2:mutate  existing variables
+h3:mutate  existing variables
 fig:select Diagram of mutate() columns.
 tab:first-five-flights First five rows of departure/arrival delay and gain variables
-fig:gain-hist Histogram of gain variable.
-h2:arrange  and sort rows
-h2:joins  data frames
-fig:reldiagram (ref:relationships-nycflights13)
-h3:matching-key-variable-names Matching  variable names
-fig:ijdiagram (ref:inner-join-r4ds)
-h3:diff-key Different  variable names
-h3:multiple-key-variables Multiple  variables
-h3:normal-forms Normal forms
-h2:other-verbs Other verbs
+h3:arrange  and sort rows
 h3:select  variables
 fig:selectfig Diagram of select() columns.
 h3:rename  variables
 h3:top_n-values-of-a-variable  values of a variable
-h2:wrangling-conclusion Conclusion
-h3:summary-table Summary table
-tab:wrangle-summary-table Summary of data wrangling verbs
-h3:whats-to-come What’s to come?
 h2:tidying-data Tidying Data
 h3:tidy-packages Needed packages
-h2:csv Importing data
-h3:using-the-console Using the console
-h3:using-rstudios-interface Using RStudio’s interface
-fig:read-excel Importing an Excel file to R.
-h2:tidy-data-ex  data
-fig:drinks-smaller Comparing alcohol consumption in 4 countries.
+h3:csv Importing data
+h3:tidy-data-ex  data
 h3:tidy-definition Definition of  data
 fig:tidyfig (ref:tidy-r4ds)
 tab:non-tidy-stocks Stock prices (non-tidy format)
 tab:tidy-stocks Stock prices (tidy format)
 tab:tidy-stocks-2 Example of tidy data
 h3:converting-to-tidy-data Converting to  data
-fig:drinks-smaller-tidy-barplot (ref:drinks-col)
-h3:nycflights13-package  package
-h2:case-study-tidy Case study: Democracy in Guatemala
-fig:guat-dem-tidy Democracy scores in Guatemala 1952-1992.
+h4:nycflights13-package  package
+h3:case-study-tidy Case study: Democracy in Guatemala
 h2:tidyverse-package  package
-h2:tidy-data-conclusion Conclusion
-fig:import-cheatsheet Data Import cheatsheet (first page): readr package.
-fig:tidyr-cheatsheet Data Import cheatsheet (second page): tidyr package.
-h3:whats-to-come-1 What’s to come?
-fig:part2 (ref:flowchart-partii)
+h2:references References
 

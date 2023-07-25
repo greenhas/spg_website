@@ -28,7 +28,7 @@ Once you've found the dataset you want to work with (at least for now), give it 
 
 I mentioned above that you're free to stick with this data throughout the rest of the semester or that you can switch to new datasets whenever you feel like it. If you ever switch to a new dataset, make sure that you follow the steps above (giving it a short-but-descriptive name, ensuring it's a `.csv` or that you know how to load other data types, placing it in your `activity_data` folder, and committing and pushing your changes in GitHub Desktop) every time.  
 
-## Loading Your Dataset
+## Loading Your Dataset {#loading-dataset}
 
 I've already emphasized in a couple of walkthroughs up to this point that it's important to be attentive to details when working in R. This is especially true when it comes to loading data into R. Up to this point, we have only worked with data that is preloaded in R packages; so long as you've properly loaded the package in question, you've loaded the data as well. A lot of our walkthroughs will only ever ask you to work with this data. However, later in the course, you'll be adapting code from the walkthroughs to work with your own data; more importantly, you'll be working with your own data when completing course projects.
 
