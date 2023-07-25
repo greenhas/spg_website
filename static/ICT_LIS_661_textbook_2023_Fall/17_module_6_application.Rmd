@@ -78,13 +78,11 @@ You would read this sequence as:
 1. Use this output as the input to the next function `g()` *then*
 1. Use this output as the input to the next function `h()`
 
-While both approaches (nested parentheses and pipes) achieve the same goal, the latter is much more human-readable because you can clearly read the sequence of operations line-by-line. But what are the hypothetical `x`, `f()`, `g()`, and `h()`?  Throughout this chapter on data wrangling:
+While both approaches (nested parentheses and pipes) achieve the same goal, the latter is much more human-readable because you can clearly read the sequence of operations line-by-line. But what are the hypothetical `x`, `f()`, `g()`, and `h()`?  Throughout this walkthrough on data wrangling:
 
 1. The starting value `x` will be a data frame. For example, the \index{R packages!nycflights13} `flights` data frame we explored in Section \@ref(nycflights13).
-1. The sequence of functions, here `f()`, `g()`, and `h()`, will mostly be a sequence of any number of the six data wrangling verb-named functions we listed in the introduction to this chapter.
+1. The sequence of functions, here `f()`, `g()`, and `h()`, will mostly be a sequence of any number of the data wrangling verb-named functions we listed in the introduction to this walkthrough
 1. The result will be the transformed/modified data frame that you want.
-
-There are many more advanced data wrangling functions than just the six listed in the introduction to this chapter; you'll see some examples of these in Section \@ref(other-verbs). However, just with these six verb-named functions you'll be able to perform a broad array of data wrangling tasks for the rest of this book.
 
 ### `filter` rows {#filter}
 
@@ -372,13 +370,14 @@ set.seed(76)
 ```
 
 In Subsection \@ref(programming-concepts), I introduced the concept of a \index{data frame} data frame in R: a rectangular spreadsheet-like representation of data where the rows correspond to observations and the columns correspond to variables describing each observation.  In Section \@ref(nycflights13), we started exploring our first data frame: the `flights` data frame included in the `nycflights13` package. 
+
 In the first section of this walkthrough, we learned how to take existing data frames and transform/modify them to suit our ends. In this second section, we extend some of these ideas by discussing a type of data formatting called "tidy" data. You will see that having data stored in "tidy" format is about more than just what the everyday definition of the term "tidy" might suggest: having your data "neatly organized." Instead, we define the term "tidy" as it's used by data scientists who use R, outlining a set of rules by which data is saved.
 
-Knowing about tidy data was not necessary earlier because all the data we used were already in "tidy" format. In this chapter, we'll now see that this format is essential to using the tools we've covered. Furthermore, it will also be useful for future walkthroughs as we cover future ideas.
+Knowing about tidy data was not necessary earlier because all the data we used were already in "tidy" format. In this walkthrough, we'll now see that this format is essential to using the tools we've covered. Furthermore, it will also be useful for future walkthroughs as we cover future ideas.
 
 ### Needed packages {-#tidy-packages}
 
-Let's load all the packages needed for this chapter (this assumes you've already installed them). If needed, read Section \@ref(packages) for information on how to install and load R packages.
+Let's load all the packages needed for this walkthrough (this assumes you've already installed them). If needed, read Section \@ref(packages) for information on how to install and load R packages.
 
 ```{r message=FALSE}
 library(dplyr)
@@ -698,9 +697,9 @@ library(stringr)
 library(forcats)
 ```
 
-We'll cover `ggplot2` in a future chapter, and the `purrr`, `tibble`, `stringr`, and `forcats` are left for a more advanced book; check out [*R for Data Science*](http://r4ds.had.co.nz/) to learn about these packages.
+We'll cover `ggplot2` in a future walkthrough, and the `purrr`, `tibble`, `stringr`, and `forcats` are left for a more advanced book; check out [*R for Data Science*](http://r4ds.had.co.nz/) to learn about these packages.
 
-For the remainder of this book, we'll start every chapter by running `library(tidyverse)`, instead of loading the various component packages individually. The `tidyverse` "umbrella" package gets its name from the fact that all the functions in all its packages are designed to have common inputs and outputs: data frames are in "tidy" format. This standardization of input and output data frames makes transitions between different functions in the different packages as seamless as possible. For more information, check out the [tidyverse.org](https://www.tidyverse.org/) webpage for the package.
+For the remainder of this book, we'll start every walkthrough by running `library(tidyverse)`, instead of loading the various component packages individually. The `tidyverse` "umbrella" package gets its name from the fact that all the functions in all its packages are designed to have common inputs and outputs: data frames are in "tidy" format. This standardization of input and output data frames makes transitions between different functions in the different packages as seamless as possible. For more information, check out the [tidyverse.org](https://www.tidyverse.org/) webpage for the package.
 
 ## References
 
