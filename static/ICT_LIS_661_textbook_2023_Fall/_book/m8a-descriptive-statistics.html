@@ -330,7 +330,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="18.5" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#references-8"><i class="fa fa-check"></i><b>18.5</b> References</a></li>
 </ul></li>
 <li class="chapter" data-level="19" data-path="m6c-practice-wrangling-and-tidying-your-own-data.html"><a href="m6c-practice-wrangling-and-tidying-your-own-data.html"><i class="fa fa-check"></i><b>19</b> M6C: Practice Wrangling and Tidying Your Own Data</a></li>
-<li class="chapter" data-level="20" data-path="module-7-understanding.html"><a href="module-7-understanding.html"><i class="fa fa-check"></i><b>20</b> Module 7 Understanding</a></li>
+<li class="chapter" data-level="20" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html"><i class="fa fa-check"></i><b>20</b> M7U: Subjectivity in Data Visualization</a>
+<ul>
+<li class="chapter" data-level="20.1" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#introduction-14"><i class="fa fa-check"></i><b>20.1</b> Introduction</a></li>
+<li class="chapter" data-level="20.2" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#persuasion-and-the-god-trick"><i class="fa fa-check"></i><b>20.2</b> Persuasion and the God Trick</a></li>
+<li class="chapter" data-level="20.3" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#visualization-as-rhetoric"><i class="fa fa-check"></i><b>20.3</b> Visualization as Rhetoric</a></li>
+<li class="chapter" data-level="20.4" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#editorial-choices-in-visualization"><i class="fa fa-check"></i><b>20.4</b> Editorial Choices in Visualization</a></li>
+<li class="chapter" data-level="20.5" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#visualization-as-ideological-work"><i class="fa fa-check"></i><b>20.5</b> Visualization as Ideological Work</a></li>
+<li class="chapter" data-level="20.6" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#feminist-objectivity"><i class="fa fa-check"></i><b>20.6</b> Feminist Objectivity</a></li>
+<li class="chapter" data-level="20.7" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#data-visceralization"><i class="fa fa-check"></i><b>20.7</b> Data Visceralization</a></li>
+<li class="chapter" data-level="20.8" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#conclusion-7"><i class="fa fa-check"></i><b>20.8</b> Conclusion</a></li>
+<li class="chapter" data-level="20.9" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#references-9"><i class="fa fa-check"></i><b>20.9</b> References</a></li>
+</ul></li>
 <li class="chapter" data-level="21" data-path="m7a-data-visualization.html"><a href="m7a-data-visualization.html"><i class="fa fa-check"></i><b>21</b> M7A: Data Visualization</a></li>
 <li class="part"><span><b>I Data Science with tidyverse</b></span></li>
 <li class="chapter" data-level="22" data-path="viz.html"><a href="viz.html"><i class="fa fa-check"></i><b>22</b> Data Visualization</a>
@@ -660,9 +671,9 @@ Figure 25.2: Diagram of summarize() rows.
 </p>
 </div>
 <p>We’ll save the results in a new data frame called <code>summary_temp</code> that will have two columns/variables: the <code>mean</code> and the <code>std_dev</code>:</p>
-<div class="sourceCode" id="cb133"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb133-1"><a href="m8a-descriptive-statistics.html#cb133-1" tabindex="-1"></a>summary_temp <span class="ot">&lt;-</span> weather <span class="sc">%&gt;%</span> </span>
-<span id="cb133-2"><a href="m8a-descriptive-statistics.html#cb133-2" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(temp), <span class="at">std_dev =</span> <span class="fu">sd</span>(temp))</span>
-<span id="cb133-3"><a href="m8a-descriptive-statistics.html#cb133-3" tabindex="-1"></a>summary_temp</span></code></pre></div>
+<div class="sourceCode" id="cb136"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb136-1"><a href="m8a-descriptive-statistics.html#cb136-1" tabindex="-1"></a>summary_temp <span class="ot">&lt;-</span> weather <span class="sc">%&gt;%</span> </span>
+<span id="cb136-2"><a href="m8a-descriptive-statistics.html#cb136-2" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(temp), <span class="at">std_dev =</span> <span class="fu">sd</span>(temp))</span>
+<span id="cb136-3"><a href="m8a-descriptive-statistics.html#cb136-3" tabindex="-1"></a>summary_temp</span></code></pre></div>
 <pre><code># A tibble: 1 × 2
    mean std_dev
   &lt;dbl&gt;   &lt;dbl&gt;
@@ -670,10 +681,10 @@ Figure 25.2: Diagram of summarize() rows.
 <p>Why are the values returned <code>NA</code>? As we saw in Subsection <a href="viz.html#geompoint">22.3.1</a> when creating the scatterplot of departure and arrival delays for <code>alaska_flights</code>, <code>NA</code> is how R encodes <em>missing values</em> where <code>NA</code> indicates “not available” or “not applicable.” If a value for a particular row and a particular column does not exist, <code>NA</code> is stored instead. Values can be missing for many reasons. Perhaps the data was collected but someone forgot to enter it? Perhaps the data was not collected at all because it was too difficult to do so? Perhaps there was an erroneous value that someone entered that has been corrected to read as missing? You’ll often encounter issues with missing values when working with real data.</p>
 <p>Going back to our <code>summary_temp</code> output, by default any time you try to calculate a summary statistic of a variable that has one or more <code>NA</code> missing values in R, <code>NA</code> is returned. To work around this fact, you can set the <code>na.rm</code> argument to <code>TRUE</code>, where <code>rm</code> is short for “remove”; this will ignore any <code>NA</code> missing values and only return the summary value for all non-missing values.</p>
 <p>The code that follows computes the mean and standard deviation of all non-missing values of <code>temp</code>:</p>
-<div class="sourceCode" id="cb135"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb135-1"><a href="m8a-descriptive-statistics.html#cb135-1" tabindex="-1"></a>summary_temp <span class="ot">&lt;-</span> weather <span class="sc">%&gt;%</span> </span>
-<span id="cb135-2"><a href="m8a-descriptive-statistics.html#cb135-2" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), </span>
-<span id="cb135-3"><a href="m8a-descriptive-statistics.html#cb135-3" tabindex="-1"></a>            <span class="at">std_dev =</span> <span class="fu">sd</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb135-4"><a href="m8a-descriptive-statistics.html#cb135-4" tabindex="-1"></a>summary_temp</span></code></pre></div>
+<div class="sourceCode" id="cb138"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb138-1"><a href="m8a-descriptive-statistics.html#cb138-1" tabindex="-1"></a>summary_temp <span class="ot">&lt;-</span> weather <span class="sc">%&gt;%</span> </span>
+<span id="cb138-2"><a href="m8a-descriptive-statistics.html#cb138-2" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), </span>
+<span id="cb138-3"><a href="m8a-descriptive-statistics.html#cb138-3" tabindex="-1"></a>            <span class="at">std_dev =</span> <span class="fu">sd</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb138-4"><a href="m8a-descriptive-statistics.html#cb138-4" tabindex="-1"></a>summary_temp</span></code></pre></div>
 <pre><code># A tibble: 1 × 2
    mean std_dev
   &lt;dbl&gt;   &lt;dbl&gt;
@@ -697,9 +708,9 @@ Figure 25.2: Diagram of summarize() rows.
 <p><strong>(LC2.38)</strong> Say a doctor is studying the effect of smoking on lung cancer for a large number of patients who have records measured at five-year intervals. She notices that a large number of patients have missing data points because the patient has died, so she chooses to ignore these patients in her analysis. What is wrong with this doctor’s approach?</p>
 <p><strong>(LC2.39)</strong> Modify the earlier <code>summarize()</code> function code that creates the <code>summary_temp</code> data frame to also use the <code>n()</code> summary function: <code>summarize(... , count = n())</code>. What does the returned value correspond to?</p>
 <p><strong>(LC2.40)</strong> Why doesn’t the following code work? Run the code line-by-line instead of all at once, and then look at the data. In other words, run <code>summary_temp &lt;- weather %&gt;% summarize(mean = mean(temp, na.rm = TRUE))</code> first.</p>
-<div class="sourceCode" id="cb137"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb137-1"><a href="m8a-descriptive-statistics.html#cb137-1" tabindex="-1"></a>summary_temp <span class="ot">&lt;-</span> weather <span class="sc">%&gt;%</span>   </span>
-<span id="cb137-2"><a href="m8a-descriptive-statistics.html#cb137-2" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)) <span class="sc">%&gt;%</span> </span>
-<span id="cb137-3"><a href="m8a-descriptive-statistics.html#cb137-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">std_dev =</span> <span class="fu">sd</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span></code></pre></div>
+<div class="sourceCode" id="cb140"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb140-1"><a href="m8a-descriptive-statistics.html#cb140-1" tabindex="-1"></a>summary_temp <span class="ot">&lt;-</span> weather <span class="sc">%&gt;%</span>   </span>
+<span id="cb140-2"><a href="m8a-descriptive-statistics.html#cb140-2" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb140-3"><a href="m8a-descriptive-statistics.html#cb140-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">std_dev =</span> <span class="fu">sd</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span></code></pre></div>
 <div class="learncheck">
 
 </div>
@@ -725,11 +736,11 @@ options(dplyr.summarise.inform = FALSE) in index.Rmd
 
 v2 TODO: Address this warning message explicitly in text and fix index.Rmd
 -->
-<div class="sourceCode" id="cb138"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb138-1"><a href="m8a-descriptive-statistics.html#cb138-1" tabindex="-1"></a>summary_monthly_temp <span class="ot">&lt;-</span> weather <span class="sc">%&gt;%</span> </span>
-<span id="cb138-2"><a href="m8a-descriptive-statistics.html#cb138-2" tabindex="-1"></a>  <span class="fu">group_by</span>(month) <span class="sc">%&gt;%</span> </span>
-<span id="cb138-3"><a href="m8a-descriptive-statistics.html#cb138-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), </span>
-<span id="cb138-4"><a href="m8a-descriptive-statistics.html#cb138-4" tabindex="-1"></a>            <span class="at">std_dev =</span> <span class="fu">sd</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb138-5"><a href="m8a-descriptive-statistics.html#cb138-5" tabindex="-1"></a>summary_monthly_temp</span></code></pre></div>
+<div class="sourceCode" id="cb141"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb141-1"><a href="m8a-descriptive-statistics.html#cb141-1" tabindex="-1"></a>summary_monthly_temp <span class="ot">&lt;-</span> weather <span class="sc">%&gt;%</span> </span>
+<span id="cb141-2"><a href="m8a-descriptive-statistics.html#cb141-2" tabindex="-1"></a>  <span class="fu">group_by</span>(month) <span class="sc">%&gt;%</span> </span>
+<span id="cb141-3"><a href="m8a-descriptive-statistics.html#cb141-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), </span>
+<span id="cb141-4"><a href="m8a-descriptive-statistics.html#cb141-4" tabindex="-1"></a>            <span class="at">std_dev =</span> <span class="fu">sd</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb141-5"><a href="m8a-descriptive-statistics.html#cb141-5" tabindex="-1"></a>summary_monthly_temp</span></code></pre></div>
 <pre><code># A tibble: 12 × 3
    month  mean std_dev
    &lt;int&gt; &lt;dbl&gt;   &lt;dbl&gt;
@@ -748,7 +759,7 @@ v2 TODO: Address this warning message explicitly in text and fix index.Rmd
 <p>This code is identical to the previous code that created <code>summary_temp</code>, but with an extra <code>group_by(month)</code> added before the <code>summarize()</code>. Grouping the <code>weather</code> dataset by <code>month</code> and then applying the <code>summarize()</code> functions yields a data frame that displays the mean and standard deviation temperature split by the 12 months of the year.</p>
 <p>It is important to note that the <code>group_by()</code> function doesn’t change data frames by itself. Rather it changes the <em>meta-data</em>, or data about the data, specifically the grouping structure. It is only after we apply the <code>summarize()</code> function that the data frame changes.</p>
 <p>For example, let’s consider the <code>diamonds</code> data frame included in the <code>ggplot2</code> package. Run this code:</p>
-<div class="sourceCode" id="cb140"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb140-1"><a href="m8a-descriptive-statistics.html#cb140-1" tabindex="-1"></a>diamonds</span></code></pre></div>
+<div class="sourceCode" id="cb143"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb143-1"><a href="m8a-descriptive-statistics.html#cb143-1" tabindex="-1"></a>diamonds</span></code></pre></div>
 <pre><code># A tibble: 53,940 × 10
    carat cut       color clarity depth table price     x     y     z
    &lt;dbl&gt; &lt;ord&gt;     &lt;ord&gt; &lt;ord&gt;   &lt;dbl&gt; &lt;dbl&gt; &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
@@ -764,8 +775,8 @@ v2 TODO: Address this warning message explicitly in text and fix index.Rmd
 10  0.23 Very Good H     VS1      59.4    61   338  4     4.05  2.39
 # ℹ 53,930 more rows</code></pre>
 <p>Observe that the first line of the output reads <code># A tibble: 53,940 x 10</code>. This is an example of meta-data, in this case the number of observations/rows and variables/columns in <code>diamonds</code>. The actual data itself are the subsequent table of values. Now let’s pipe the <code>diamonds</code> data frame into <code>group_by(cut)</code>:</p>
-<div class="sourceCode" id="cb142"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb142-1"><a href="m8a-descriptive-statistics.html#cb142-1" tabindex="-1"></a>diamonds <span class="sc">%&gt;%</span> </span>
-<span id="cb142-2"><a href="m8a-descriptive-statistics.html#cb142-2" tabindex="-1"></a>  <span class="fu">group_by</span>(cut)</span></code></pre></div>
+<div class="sourceCode" id="cb145"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb145-1"><a href="m8a-descriptive-statistics.html#cb145-1" tabindex="-1"></a>diamonds <span class="sc">%&gt;%</span> </span>
+<span id="cb145-2"><a href="m8a-descriptive-statistics.html#cb145-2" tabindex="-1"></a>  <span class="fu">group_by</span>(cut)</span></code></pre></div>
 <pre><code># A tibble: 53,940 × 10
 # Groups:   cut [5]
    carat cut       color clarity depth table price     x     y     z
@@ -783,9 +794,9 @@ v2 TODO: Address this warning message explicitly in text and fix index.Rmd
 # ℹ 53,930 more rows</code></pre>
 <p>Observe that now there is additional meta-data: <code># Groups: cut [5]</code> indicating that the grouping structure meta-data has been set based on the 5 possible levels of the categorical variable <code>cut</code>: <code>"Fair"</code>, <code>"Good"</code>, <code>"Very Good"</code>, <code>"Premium"</code>, and <code>"Ideal"</code>. On the other hand, observe that the data has not changed: it is still a table of 53,940 <span class="math inline">\(\times\)</span> 10 values.</p>
 <p>Only by combining a <code>group_by()</code> with another data wrangling operation, in this case <code>summarize()</code>, will the data actually be transformed.</p>
-<div class="sourceCode" id="cb144"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb144-1"><a href="m8a-descriptive-statistics.html#cb144-1" tabindex="-1"></a>diamonds <span class="sc">%&gt;%</span> </span>
-<span id="cb144-2"><a href="m8a-descriptive-statistics.html#cb144-2" tabindex="-1"></a>  <span class="fu">group_by</span>(cut) <span class="sc">%&gt;%</span> </span>
-<span id="cb144-3"><a href="m8a-descriptive-statistics.html#cb144-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">avg_price =</span> <span class="fu">mean</span>(price))</span></code></pre></div>
+<div class="sourceCode" id="cb147"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb147-1"><a href="m8a-descriptive-statistics.html#cb147-1" tabindex="-1"></a>diamonds <span class="sc">%&gt;%</span> </span>
+<span id="cb147-2"><a href="m8a-descriptive-statistics.html#cb147-2" tabindex="-1"></a>  <span class="fu">group_by</span>(cut) <span class="sc">%&gt;%</span> </span>
+<span id="cb147-3"><a href="m8a-descriptive-statistics.html#cb147-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">avg_price =</span> <span class="fu">mean</span>(price))</span></code></pre></div>
 <pre><code># A tibble: 5 × 2
   cut       avg_price
   &lt;ord&gt;         &lt;dbl&gt;
@@ -795,9 +806,9 @@ v2 TODO: Address this warning message explicitly in text and fix index.Rmd
 4 Premium       4584.
 5 Ideal         3458.</code></pre>
 <p>If you would like to remove this grouping structure meta-data, we can pipe the resulting data frame into the <code>ungroup()</code> function:</p>
-<div class="sourceCode" id="cb146"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb146-1"><a href="m8a-descriptive-statistics.html#cb146-1" tabindex="-1"></a>diamonds <span class="sc">%&gt;%</span> </span>
-<span id="cb146-2"><a href="m8a-descriptive-statistics.html#cb146-2" tabindex="-1"></a>  <span class="fu">group_by</span>(cut) <span class="sc">%&gt;%</span> </span>
-<span id="cb146-3"><a href="m8a-descriptive-statistics.html#cb146-3" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb149"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb149-1"><a href="m8a-descriptive-statistics.html#cb149-1" tabindex="-1"></a>diamonds <span class="sc">%&gt;%</span> </span>
+<span id="cb149-2"><a href="m8a-descriptive-statistics.html#cb149-2" tabindex="-1"></a>  <span class="fu">group_by</span>(cut) <span class="sc">%&gt;%</span> </span>
+<span id="cb149-3"><a href="m8a-descriptive-statistics.html#cb149-3" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span></code></pre></div>
 <pre><code># A tibble: 53,940 × 10
    carat cut       color clarity depth table price     x     y     z
    &lt;dbl&gt; &lt;ord&gt;     &lt;ord&gt; &lt;ord&gt;   &lt;dbl&gt; &lt;dbl&gt; &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
@@ -814,10 +825,10 @@ v2 TODO: Address this warning message explicitly in text and fix index.Rmd
 # ℹ 53,930 more rows</code></pre>
 <p>Observe how the <code># Groups: cut [5]</code> meta-data is no longer present.</p>
 <p>Let’s now revisit the <code>n()</code> counting summary function we briefly introduced previously. Recall that the <code>n()</code> function counts rows. This is opposed to the <code>sum()</code> summary function that returns the sum of a numerical variable. For example, suppose we’d like to count how many flights departed each of the three airports in New York City:</p>
-<div class="sourceCode" id="cb148"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb148-1"><a href="m8a-descriptive-statistics.html#cb148-1" tabindex="-1"></a>by_origin <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
-<span id="cb148-2"><a href="m8a-descriptive-statistics.html#cb148-2" tabindex="-1"></a>  <span class="fu">group_by</span>(origin) <span class="sc">%&gt;%</span> </span>
-<span id="cb148-3"><a href="m8a-descriptive-statistics.html#cb148-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>())</span>
-<span id="cb148-4"><a href="m8a-descriptive-statistics.html#cb148-4" tabindex="-1"></a>by_origin</span></code></pre></div>
+<div class="sourceCode" id="cb151"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb151-1"><a href="m8a-descriptive-statistics.html#cb151-1" tabindex="-1"></a>by_origin <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
+<span id="cb151-2"><a href="m8a-descriptive-statistics.html#cb151-2" tabindex="-1"></a>  <span class="fu">group_by</span>(origin) <span class="sc">%&gt;%</span> </span>
+<span id="cb151-3"><a href="m8a-descriptive-statistics.html#cb151-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>())</span>
+<span id="cb151-4"><a href="m8a-descriptive-statistics.html#cb151-4" tabindex="-1"></a>by_origin</span></code></pre></div>
 <pre><code># A tibble: 3 × 2
   origin  count
   &lt;chr&gt;   &lt;int&gt;
@@ -828,10 +839,10 @@ v2 TODO: Address this warning message explicitly in text and fix index.Rmd
 <div id="grouping-by-more-than-one-variable" class="section level3 hasAnchor" number="25.2.1">
 <h3><span class="header-section-number">25.2.1</span> Grouping by more than one variable<a href="m8a-descriptive-statistics.html#grouping-by-more-than-one-variable" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>You are not limited to grouping by one variable. Say you want to know the number of flights leaving each of the three New York City airports <em>for each month</em>. We can also group by a second variable <code>month</code> using <code>group_by(origin, month)</code>:</p>
-<div class="sourceCode" id="cb150"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb150-1"><a href="m8a-descriptive-statistics.html#cb150-1" tabindex="-1"></a>by_origin_monthly <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
-<span id="cb150-2"><a href="m8a-descriptive-statistics.html#cb150-2" tabindex="-1"></a>  <span class="fu">group_by</span>(origin, month) <span class="sc">%&gt;%</span> </span>
-<span id="cb150-3"><a href="m8a-descriptive-statistics.html#cb150-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>())</span>
-<span id="cb150-4"><a href="m8a-descriptive-statistics.html#cb150-4" tabindex="-1"></a>by_origin_monthly</span></code></pre></div>
+<div class="sourceCode" id="cb153"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb153-1"><a href="m8a-descriptive-statistics.html#cb153-1" tabindex="-1"></a>by_origin_monthly <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
+<span id="cb153-2"><a href="m8a-descriptive-statistics.html#cb153-2" tabindex="-1"></a>  <span class="fu">group_by</span>(origin, month) <span class="sc">%&gt;%</span> </span>
+<span id="cb153-3"><a href="m8a-descriptive-statistics.html#cb153-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>())</span>
+<span id="cb153-4"><a href="m8a-descriptive-statistics.html#cb153-4" tabindex="-1"></a>by_origin_monthly</span></code></pre></div>
 <pre><code># A tibble: 36 × 3
 # Groups:   origin [3]
    origin month count
@@ -849,11 +860,11 @@ v2 TODO: Address this warning message explicitly in text and fix index.Rmd
 # ℹ 26 more rows</code></pre>
 <p>Observe that there are 36 rows to <code>by_origin_monthly</code> because there are 12 months for 3 airports (<code>EWR</code>, <code>JFK</code>, and <code>LGA</code>).</p>
 <p>Why do we <code>group_by(origin, month)</code> and not <code>group_by(origin)</code> and then <code>group_by(month)</code>? Let’s investigate:</p>
-<div class="sourceCode" id="cb152"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb152-1"><a href="m8a-descriptive-statistics.html#cb152-1" tabindex="-1"></a>by_origin_monthly_incorrect <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
-<span id="cb152-2"><a href="m8a-descriptive-statistics.html#cb152-2" tabindex="-1"></a>  <span class="fu">group_by</span>(origin) <span class="sc">%&gt;%</span> </span>
-<span id="cb152-3"><a href="m8a-descriptive-statistics.html#cb152-3" tabindex="-1"></a>  <span class="fu">group_by</span>(month) <span class="sc">%&gt;%</span> </span>
-<span id="cb152-4"><a href="m8a-descriptive-statistics.html#cb152-4" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>())</span>
-<span id="cb152-5"><a href="m8a-descriptive-statistics.html#cb152-5" tabindex="-1"></a>by_origin_monthly_incorrect</span></code></pre></div>
+<div class="sourceCode" id="cb155"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb155-1"><a href="m8a-descriptive-statistics.html#cb155-1" tabindex="-1"></a>by_origin_monthly_incorrect <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
+<span id="cb155-2"><a href="m8a-descriptive-statistics.html#cb155-2" tabindex="-1"></a>  <span class="fu">group_by</span>(origin) <span class="sc">%&gt;%</span> </span>
+<span id="cb155-3"><a href="m8a-descriptive-statistics.html#cb155-3" tabindex="-1"></a>  <span class="fu">group_by</span>(month) <span class="sc">%&gt;%</span> </span>
+<span id="cb155-4"><a href="m8a-descriptive-statistics.html#cb155-4" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>())</span>
+<span id="cb155-5"><a href="m8a-descriptive-statistics.html#cb155-5" tabindex="-1"></a>by_origin_monthly_incorrect</span></code></pre></div>
 <pre><code># A tibble: 12 × 2
    month count
    &lt;int&gt; &lt;int&gt;

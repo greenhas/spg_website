@@ -355,7 +355,16 @@ case-study-tidy
 tidyverse-package
 references-8
 m6c-practice-wrangling-and-tidying-your-own-data
-module-7-understanding
+m7u-subjectivity-in-data-visualization
+introduction-14
+persuasion-and-the-god-trick
+visualization-as-rhetoric
+editorial-choices-in-visualization
+visualization-as-ideological-work
+feminist-objectivity
+data-visceralization
+conclusion-7
+references-9
 m7a-data-visualization
 viz
 grammarofgraphics
