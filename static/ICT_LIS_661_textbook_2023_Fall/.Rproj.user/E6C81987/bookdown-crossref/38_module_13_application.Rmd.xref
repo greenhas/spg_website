@@ -1,2 +1,68 @@
-h1:module-13-application Module 13 Application
+h1:m13a-hypothesis-testing M13A: Hypothesis Testing
+h3:nhst-packages Needed packages
+h2:ht-activity Promotions activity
+h3:does-gender-affect-promotions-at-a-bank Does gender affect promotions at a bank?
+fig:promotions-barplot Barplot relating gender to promotion decision.
+h3:shuffling-once Shuffling once
+tab:compare-six One example of shuffling gender variable
+fig:deck-of-cards Standard deck of 52 playing cards.
+fig:shuffling Shuffling a deck of cards.
+fig:promotions-barplot-permuted Barplots of relationship of promotion with gender (left) and shuffled gender (right).
+h3:shuffling-r-n_shuffle-times Shuffling  times
+fig:tactile-shuffling Snapshot of shared spreadsheet of shuffling results (m for male, f for female).
+fig:null-distribution-1 Distribution of shuffled differences in promotions.
+h3:ht-what-did-we-just-do What did we just do?
+tab:table-diff-prop Scenarios of sampling for inference
+h2:understanding-ht Understanding hypothesis tests
+fig:null-distribution-2 Null distribution and observed test statistic.
+h2:ht-infer Conducting hypothesis tests
+fig:infer-ci Confidence intervals with the infer package.
+fig:inferht Hypothesis testing with the infer package.
+h3:infer-workflow-ht  package workflow
+h4:specify-variables 1.  variables
+h4:hypothesize-the-null 2.  the null
+h4:generate-replicates 3.  replicates
+h4:calculate-summary-statistics 4.  summary statistics
+h4:visualize-the-p-value 5.  the p-value
+fig:null-distribution-infer Null distribution.
+fig:null-distribution-infer-2 Shaded histogram to show $p$-value.
+h3:comparing-infer-workflows Comparison with confidence intervals
+fig:bootstrap-distribution-two-prop-percentile Percentile-based 95\\% confidence interval.
+fig:bootstrap-distribution-two-prop-se Standard error-based 95\\% confidence interval.
+h3:only-one-test 
+fig:htdowney Allen Downey
+h2:ht-interpretation Interpreting hypothesis tests
+h3:trial Two possible outcomes
+h3:types-of-errors Types of errors
+fig:trial-errors-table Type I and Type II errors in criminal trials.
+fig:trial-errors-table-ht Type I and Type II errors in hypothesis tests.
+h3:choosing-alpha How do we choose alpha?
+h2:ht-case-study Case study: Are action or romance movies rated higher?
+h3:imdb-data IMDb ratings data
+fig:action-romance-boxplot Boxplot of IMDb rating vs. genre.
+h3:sampling-scenario Sampling scenario
+tab:summarytable-ch10 Scenarios of sampling for inference
+h3:conducting-the-hypothesis-test Conducting the hypothesis test
+h4:specify-variables-1 1.  variables
+h4:hypothesize-the-null-1 2.  the null
+h4:generate-replicates-1 3.  replicates
+h4:calculate-summary-statistics-1 4.  summary statistics
+h4:visualize-the-p-value-1 5.  the p-value
+fig:null-distribution-movies-2 Null distribution, observed test statistic, and $p$-value.
+h2:nhst-conclusion Conclusion
+h3:theory-hypo Theory-based hypothesis tests
+h4:two-sample-t-statistic Two-sample t-statistic
+fig:zcurve Standard normal z curve.
+fig:t-distributions Examples of t-distributions and the z curve.
+h4:null-distribution Null distribution
+fig:comparing-diff-means-t-stat Comparing the null distributions of two test statistics.
+fig:t-stat-3 Null distribution using t-statistic and t-distribution.
+fig:t-stat-4 Null distribution using t-statistic and t-distribution with $p$-value shaded.
+h3:when-inference-is-not-needed When inference is not needed
+fig:ha-as-flights-boxplot Air time for Hawaiian and Alaska Airlines flights departing NYC in 2013.
+h3:problems-with-p-values Problems with p-values
+h3:additional-resources Additional resources
+h3:whats-to-come What’s to come
+fig:infer-workflow-ht infer package workflow for hypothesis testing.
+tab:regression-table-inference Linear regression table
 

@@ -1,1 +1,9 @@
-# Module 10 Connection
+# M10C: Perform a Multiple Regression With Your Own Data
+
+You will complete the Module 10 Connection activity on Canvas. Please navigate to the corresponding discussion board and respond to the following prompt:
+
+> We've hit a point in the semester where our connection activities will turn toward repeating the application activities with an eye on your own data. This is helpful for practicing these data science tasks—and for ensuring that you feel comfortable carrying them out for your data for the upcoming projects.
+> 
+> To get credit for this assignment, please repeat at least one significant portion of this week's application activity, adapting the code to work for your own data. It's ultimately up to you how much of the activity you choose to repeat with your data. On one hand, the more that you do, the better prepared you'll be for upcoming projects. On the other hand, sometimes a particular part of a walkthrough just isn't relevant for your data—or you run into some issues early on that get in the way of completing the later stuff. In balancing these two "hands," think of this connection activity as an opportunity to get ready for the next project.
+> 
+When you're ready, take a screenshot of your work (you can visit [take-a-screenshot.org](https://www.take-a-screenshot.org)) for instructions on how to do this—please do not take a picture of your screen with a camera). Upload your screenshot to this discussion board along with a brief reflection on how the activity went. You can also post questions or concerns about the activity to this discussion board—they will not count as completing the activity, but I check this board regularly and will chime in with help. If you see a classmate who needs help and know how to provide that help, feel free to answer their question before I get there!

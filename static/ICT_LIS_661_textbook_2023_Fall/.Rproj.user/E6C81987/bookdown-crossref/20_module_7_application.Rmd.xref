@@ -1,2 +1,68 @@
-h1:module-7-application Module 7 Application
+h1:m7a-data-visualization M7A: Data Visualization
+h1:viz Data Visualization
+h3:needed-packages Needed packages
+h2:grammarofgraphics The grammar of graphics
+h3:components-of-the-grammar Components of the grammar
+h3:gapminder Gapminder data
+tab:gapminder-2007 Gapminder 2007 Data: First 3 of 142 countries
+fig:gapminder Life expectancy over GDP per capita in 2007.
+tab:summary-table-gapminder Summary of the grammar of graphics for this plot
+h3:other-components Other components
+h3:ggplot2-package ggplot2 package
+h2:FiveNG Five named graphs - the 5NG
+h2:scatterplots 5NG#1: Scatterplots
+h3:geompoint Scatterplots via 
+fig:noalpha Arrival delays versus departure delays for Alaska Airlines flights from NYC in 2013.
+fig:nolayers A plot with no layers.
+h3:overplotting Overplotting
+fig:alpha Arrival vs. departure delays scatterplot with alpha = 0.2.
+fig:jitter-example-plot-1 Regular and jittered scatterplot.
+fig:jitter Arrival versus departure delays jittered scatterplot.
+h3:summary Summary
+h2:linegraphs 5NG#2: Linegraphs
+h3:geomline Linegraphs via 
+fig:hourlytemp Hourly temperature in Newark for January 1-15, 2013.
+h3:summary-1 Summary
+h2:histograms 5NG#3: Histograms
+fig:temp-on-line Plot of hourly temperature recordings from NYC in 2013.
+fig:histogramexample Example histogram.
+h3:geomhistogram Histograms via 
+fig:weather-histogram Histogram of hourly temperatures at three NYC airports.
+fig:weather-histogram-2 Histogram of hourly temperatures at three NYC airports with white borders.
+h3:adjustbins Adjusting the bins
+fig:hist-bins Setting histogram bins in two ways.
+h3:summary-2 Summary
+h2:facets Facets
+fig:facethistogram Faceted histogram of hourly temperatures by month.
+fig:facethistogram2 Faceted histogram with 4 instead of 3 rows.
+h2:boxplots 5NG#4: Boxplots
+fig:nov1 November temperatures represented as jittered points.
+fig:nov2 Building up a boxplot of November temperatures.
+h3:geomboxplot Boxplots via 
+fig:badbox Invalid boxplot specification.
+fig:monthtempbox Side-by-side boxplot of temperature split by month.
+h3:summary-3 Summary
+h2:geombar 5NG#5: Barplots
+h3:barplots-via-geom_bar-or-geom_col Barplots via  or 
+fig:geombar Barplot when counts are not pre-counted.
+fig:geomcol Barplot when counts are pre-counted.
+(ref:geombar) Number of flights departing NYC in 2013 by airline using geom_bar().
+fig:flightsbar (ref:geombar)
+tab:flights-counted Number of flights pre-counted for each carrier
+h3:must-avoid-pie-charts Must avoid pie charts!
+fig:carrierpie The dreaded pie chart.
+h3:two-categ-barplot Two categorical variables
+fig:flights-stacked-bar Stacked barplot of flight amount by carrier and origin.
+fig:flights-stacked-bar-color Stacked barplot with color aesthetic used instead of fill.
+fig:flights-dodged-bar-color Side-by-side barplot comparing number of flights by carrier and origin.
+fig:flights-dodged-bar-color-tweak Side-by-side barplot comparing number of flights by carrier and origin (with formatting tweak).
+fig:facet-bar-vert Faceted barplot comparing the number of flights by carrier and origin.
+h3:summary-4 Summary
+h2:data-vis-conclusion Conclusion
+h3:summary-table Summary table
+tab:viz-summary-table Summary of Five Named Graphs
+h3:function-argument-specification Function argument specification
+h3:additional-resources Additional resources
+fig:ggplot-cheatsheet Data Visualization with ggplot2 cheatsheet.
+h3:whats-to-come-3 What’s to come
 

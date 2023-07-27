@@ -1,2 +1,9 @@
-h1:module-8-application Module 8 Application
+h1:m8a-descriptive-statistics M8A: Descriptive Statistics
+h2:summarize  variables
+fig:summary-function Diagram illustrating a summary function in R.
+fig:sum1 Diagram of summarize() rows.
+h2:groupby  rows
+(ref:groupby) Diagram of group_by() and summarize().
+fig:groupsummarize (ref:groupby)
+h3:grouping-by-more-than-one-variable Grouping by more than one variable
 
