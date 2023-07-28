@@ -1,5 +1,5 @@
-h1:m7a-data-visualization M7A: Data Visualization
-h1:viz Data Visualization
+h1:viz M7A: Data Visualization
+h2:introduction Introduction
 h3:needed-packages Needed packages
 h2:grammarofgraphics The grammar of graphics
 h3:components-of-the-grammar Components of the grammar
@@ -49,7 +49,7 @@ fig:geomcol Barplot when counts are pre-counted.
 (ref:geombar) Number of flights departing NYC in 2013 by airline using geom_bar().
 fig:flightsbar (ref:geombar)
 tab:flights-counted Number of flights pre-counted for each carrier
-h3:must-avoid-pie-charts Must avoid pie charts!
+h3:avoid-pie-charts Avoid pie charts!
 fig:carrierpie The dreaded pie chart.
 h3:two-categ-barplot Two categorical variables
 fig:flights-stacked-bar Stacked barplot of flight amount by carrier and origin.
@@ -64,5 +64,5 @@ tab:viz-summary-table Summary of Five Named Graphs
 h3:function-argument-specification Function argument specification
 h3:additional-resources Additional resources
 fig:ggplot-cheatsheet Data Visualization with ggplot2 cheatsheet.
-h3:whats-to-come-3 What’s to come
+h2:references References
 
