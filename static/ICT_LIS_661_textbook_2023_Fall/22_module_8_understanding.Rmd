@@ -1,1 +1,108 @@
-# Module 8 Understanding
+# M8U: Statistics and Scientific Racism
+
+This chapter draws on material from:
+* [3. On Rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/50) by [Catherine D'Ignazio](http://www.kanarinka.com/) and [Lauren Klein](https://lklein.com/), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+* [Version 3: An Introduction to Data Science](https://surface.syr.edu/istpub/165/) by Jeffrey Stanton, licensed under [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/)
+* [Introduction to Sociology 3e](https://openstax.org/details/books/introduction-sociology-3e) by [OpenStax](https://openstax.org/), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+Changes to the source material include light editing, adding new material, deleting original material, combining material, changing the citation style, changing original authors' voice to third person, and adding first-person language from current author.
+
+The resulting content is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+## Introduction
+
+A human *race* is a grouping of humankind based on shared physical or social qualities that can vary from one society to another. Historically, the concept of race has changed across cultures and eras, and has eventually become less connected with ancestral and familial ties and more concerned with superficial physical characteristics.
+
+In the past, theorists developed categories of race based on various geographic regions, ethnicities, skin colors, and more. Their labels for racial groups have connoted regions or skin tones, for example. German physician, zoologist, and anthropologist Johann Friedrich Blumenbach (1752-1840) introduced one of the famous groupings by studying human skulls. Blumenbach divided humans into five races (MacCord, 2014):
+
+* Caucasian or White race: people of European, Middle Eastern, and North African origin
+* Ethiopian or Black race: people of sub-Saharan Africans origin (sometimes spelled Aethiopian)
+* Malayan or Brown race: people of Southeast Asian origin and Pacific Islanders
+* Mongolian or Yellow race: people of all East Asian and some Central Asian origin
+* American or Red race: people of North American origin or American Indians
+
+As is probably obvious, this approach to race has fallen into disuse since Blumenbach's time, and the social construction of race is a more accepted way of understanding racial categories. One compelling example of the social construction of race is how societies have talked about race over time. While many of the historical considerations of race have been corrected in favor of more accurate and sensitive descriptions, some of the older terms remain. For example, it is generally unacceptable and insulting to refer to Asian people or Native American people with color-based terminology, but it is acceptable to refer to White and Black people in that way.
+
+To provide a recent example of changing descriptions, a number of publications announced in 2020 that they would begin capitalizing the names of races, though not everyone used the same approach (Seipel 2020). It is also worth noting that some members of racial and ethnic groups "reclaim" terms previously used to insult them (Rao 2018).
+
+Social scientists have also widely accepted socially constructed views of race. Organizations including the American Association of Anthropologists, the American Sociological Association, and the American Psychological Association have all officially rejected suggestions that biologically identifiable. This position argues that previous racial categories were based on pseudoscience used to justify racist practices (Omi & Winant 1994; Graves 2003).
+
+Why bring this up in a course on data science? Well, it turns out that statistics are a powerful tool for both data scientists *and* pseudoscientists. To embrace statistics responsibly, it's important that we understand not only how they can be misused in the present but how their very past is tied up with scientific racism—attempts to prove racial superiority or inferiority through scientific techniques.
+
+## The Origins of Statistics
+
+Scientific racism is particularly important for us to acknowledge this week, since there are close connections with the idea of statistics. Many of the simplest and most practical methods for summarizing and describing data come to us from four English men born in the 1800s, at the start of the industrial revolution. A considerable amount of the work they did was focused on solving real world problems in manufacturing and agriculture by using data to describe and draw inferences from what they observed.
+
+The end of the 1800s and the early 1900s were a time of astonishing progress in mathematics and science. Given enough time, paper, and pencils, scientists and mathematicians of that age imagined that just about any problem facing humankind—including the limitations of people themselves—could be measured, broken down, analyzed, and rebuilt to become more efficient. Four Englishmen who epitomized both this scientific progress and these idealistic beliefs were Francis Galton, Karl Pearson, William Sealy Gosset, and Ronald Fisher.
+
+First on the scene was Francis Galton, a half-cousin to the more widely known Charles Darwin, but quite the intellectual force himself. Galton was an English gentleman of independent means who studied Latin, Greek, medicine, and mathematics. Galton made several notable and valuable contributions to mathematics and statistics, in particular illuminating two basic techniques that are widely used today (and that we'll study later in the semester): correlation and regression. For all his studying and theorizing, Galton was not an outstanding mathematician, but he had a junior partner, Karl Pearson, who is often credited with founding the field of mathematical statistics.
+
+Pearson refined the math behind correlation and regression and did a lot else besides to contribute to our modern abilities to manage numbers. Pearson is credited with inspiring some of Einstein’s thoughts about relativity and was an early advocate of women’s rights—though we should also balance that against what we learn about him later.
+
+Next to the statistical party was William Sealy Gosset, a wizard at both math and chemistry. It was probably the latter expertise that led the Guinness Brewery in Dublin Ireland to hire Gosset after college. As a forward looking business, the Guinness brewery was on the lookout for ways of making batches of beer more consistent in quality. Gosset stepped in and developed what we now refer to as small sample statistical techniques—ways of generalizing from the results of a relatively few observations. Of course, brewing a batch of beer is a time consuming and expensive process, so in order to draw conclusions from experimental methods applied to just a few batches, Gosset had to figure out the role of chance in determining how a batch of beer had turned out. Gosset developed the t-test, another statistical technique we'll learn later on.
+
+Last but not least among the born-in-the-1800s bunch was Ronald Fisher, another mathematician who also studied the natural sciences, in his case biology and genetics. Unlike Galton, Fisher was not a gentleman of independent means, in fact, during his early married life he and his wife struggled as subsistence farmers. One of Fisher’s professional postings was to an agricultural research farm called Rothhamsted Experimental Station. Here, he had access to data about variations in crop yield that led to his development of an essential statistical technique known as the analysis of variance. Fisher also pioneered the area of experimental design, which includes matters of factors, levels, experimental groups, and control groups that we noted in the previous chapter.
+
+Of course, these four are certainly not the only 19th and 20th century mathematicians to have made substantial contributions to practical statistics, but they are notable with respect to the applications of mathematics and statistics to the other sciences.
+
+## The Importance of Statistical Humility
+
+One of the critical distinctions woven throughout the work of these four is between the *sample* of data that you have available to analyze and the larger *population* of possible cases that may or do exist. When Gosset ran batches of beer at the brewery, he knew that it was impractical to run every possible batch of beer with every possible variation in recipe and preparation. Gosset knew that he had to run a few batches, describe what he had found and then generalize or infer what might happen in future batches.
+
+This is a fundamental aspect of working with all types and amounts of data. Over the next three weeks, we'll be focusing on *descriptive statistics*. As the name suggests, descriptive statistics are focused on *describing* a *sample* of data—that is, the data that we have immediately available to us. However, they cannot tell us anything about all the possible cases that may or do exist (the *population*).
+
+For most statisticians and data scientists, though, the real trick is to infer what the data may mean when generalized to the larger population of data that we don’t have. This is the purpose of *inferential statistics*, which we haven't gotten into yet. In Week 11, we'll explore in greater depth the concepts of *samples* and *populations* and spend the rest of the semester working with inferential statistics.
+
+This distinction between samples and populations ought to inspire some statistical humility: Whatever data you have, there’s always more out there. There’s data that you might have collected by changing the way things are done or the way things are measured. There’s future data that hasn’t been collected yet and might never be collected. There’s even data that we might have gotten using the exact same strategies we did use, but that would have come out subtly different just due to randomness. Whatever data you have, it is just a snapshot or "sample" of what might be out there.
+
+This leads us to the conclusion that we can never, ever 100% trust the data we have. We must always hold back and keep in mind that there is always uncertainty in data. A lot of the power and goodness in statistics comes from the capabilities that people like Fisher developed to help us characterize and quantify that uncertainty and for us to know when to guard against putting too much stock in what a sample of data have to say.
+
+## Eugenics: A Failure of Statistical Humility
+
+Many of the critiques of data science that I have written (or repeated) come down to a failure to embrace this kind of statistical humility. In my opinion, most of the greatest wrongs that have been done by data scientists (and that will yet be done by data scientists) come from *putting too much trust in data* and failing to recognize *the inherent uncertainty in data*.
+
+Indeed despite all of early statisticians' commitments to making distinctions between samples and populations, they were wildly—and recklessly—overconfident about what they could learn from statistics and science. In short, the wrongs done by data scientists have clear ancestors in the realm of statistics more broadly.
+
+Let's consider eugenics: the idea that the human race could be improved through selective breeding. Many of the men often cited as the earliest statistical luminaries—including those we learned about above—were also leaders in the eugenics movement (Spade & Rohlfs, 2016). In fact, Francis Galton is probably better known as a proponent of eugenics (and perhaps as coining the term) than he is as a statistical pioneer. Galton studied heredity in peas, rabbits, and people and concluded that certain people should be paid to get married and have children because their offspring would improve the human race. Galton's collaborator Karl Pearson held the first eugenics chair at the University of London, where he developed many of the statistical concepts and methods still in use today. Ronald Fisher also embraced eugenic ideas.
+
+There are consequences to the co-development of statistical techniques and the eugenics movement. In her book *Ghost Stories for Darwin: The Science of Variation and the Politics of Diversity*, postcolonial science studies scholar Banu Subramaniam (2014) details how over the course of the late nineteenth and early twentieth centuries, as statistics became the preferred language of communication between biologists and social scientists, certain ideas from the eugenics movement also carried over into this broader scientific conversation. While the most odious aspects of these ideas have been largely (and thankfully) stripped away, certain core principles—like a generalized belief in the benefit of control and cleanliness—remain. We've run into this generalized belief before, when we were discussing the role of data cleaning in data science, but it's only now that we're making a connection with eugenics. To be clear: the point here is not that anyone who cleans their data is perpetuating eugenics (though Chun [2018] has provided a detailed critique suggesting that certain statistical techniques are inherently racist). The point, rather, is that the ideas underlying the belief that data should always be clean and controlled have tainted historical roots. As data scientists, we cannot forget these roots, even as the ideas themselves have been tidied up over time.
+
+## The Continuing Legacy of Eugenics and Scientific Racism
+
+Eugenics is a troubling idea: It's a view that humans should control the evolution of their species by encouraging the reproduction of “superior” kinds of people (namely, White ones) and discouraging the reproduction of all others (where “discouraging” took the form of forced sterilization and, in its worst instantiations, murder and death). Eugenic ideas were most notably embraced by the Nazis as a justification for killing people because they belonged to supposedly inferior races. We should feel tremendous relief that the worst of eugenics are firmly in the past.
+
+However, scholars point out—rightly—that certain eugenic assumptions have never gone away. There is a long history of the United States employing sterilization programs in prisons, for example (see Perry, 2017). Likewise, scientific racism continues to live on in some circles. The idea that "biological race" influenced intelligence was mostly put to rest in the later 20th century, but it has resurged several times in the past 50 years, including the widely read and cited 1994 book, *The Bell Curve*. I can say from experience as a social media researcher that in certain extreme spaces of the internet, it is taken as scientific fact that White people are inherently more intelligent than people of other races. Eugenics and scientific racism are not behind us, and statistics continue to be used to defend them.
+
+How, then, should we respond to the use of statistics to bolster racist ideas? Let's use the racist idea that some races are inherently more intelligent than others to consider some possible responses. Some researchers would prefer to fight statistical fire with statistical fire: For example, researchers have provided substantial evidence that refutes a biological-racial basis for intelligence, including the widespread closing of IQ gaps as Black people gained more access to education (Dickens, 2006). This approach has considerable appeal to it: Let's use good applications of statistics (bolstered by appropriate use of theory) to challenge bad applications of statistics (which advance racist theory).
+
+However, for some folks, this doesn't go far enough. IQ tests as we know them owe their development in part to eugenicists, including Stanford professor Lewis Terman, who was confident that the test would "prove" racial differences of intelligence (see Kendi, 2016). In fact, the very logic of the IQ test (that intelligence is an innate characteristic of individuals and that society benefits from knowing who has higher or lower intelligence) has dangerous overlap with eugenic assumptions (that some individuals are innately "better" than others and that society benefits from knowing which individuals are "better" or "worse"). So, it's good news that racial IQ gaps close with schooling, but the very fact that schooling affects IQ challenges the entire premise of the concept in the first place—and if IQ tests were built on eugenics-friendly concepts in the first place, can we even trust the statistics that come from them?
+
+This gets even more complicated when we consider that the IQ test is the ancestor of the modernized standardized test: Au (2016) has argued that although high-stakes testing in U.S. schools are intended to be anti-racist, the entire project of measuring learning through statistics derived from standardized tests is built on assumptions that exacerbate structural racism. This is a complex example, which makes it a good one to end on. There's no denying that quantitative data and statistical analyses are helpful for learning more about education—but we must, must, must not let the natural allure of the power of statistics make us overconfident or lead us down racist paths.
+
+## Conclusion
+
+Data science owes a lot to statistical pioneers of the late 19th and early 20th centuries. However, data scientists cannot afford to forget that those statistical pioneers were often gung-ho proponents of scientific racism. As we buid on their work today, we must embrace statistical humility and be committed to checking our own assumptions about the world. Statistics can go a long way toward fighting against scientific racism, but our commitment to fight against racism of all flavors must also shape how we think about and employ statistics.
+
+## References
+
+Chun, W. H. K. (2018, September 25). On patterns and proxies, or the perils of reconstructing the unknown. *Accumulation.* https://www.e-flux.com/architecture/accumulation/212275/on-patterns-and-proxies/
+
+Dickens, W. T., & Flynn, J. R (2006). Black Americans reduce the racial IQ gap. *Psychological Science*, *17*(10). http://www.iapsych.com/iqmr/fe/LinkedDocuments/dickens2006a.pdf
+
+Graves, J. (2003). *The emperor's new clothes: Biological theories of race at the millennium*. Rutgers University Press.
+
+Kendi, I. X. (2016). *Stamped from the beginning*. Bold Type Books.
+
+MacCord, K. (2014). Johann Friedrich Blumenbach (1752-1840). *Embryo Project Encyclopedia*. https://embryo.asu.edu/handle/10776/7512
+
+Omi, M., and Winant, H. (1994). *Racial formation in the United States: from the 1960s to the 1990s* (2nd ed.). Routledge.
+
+Perry, D. M. (2017, July 26). Our long, troubling history of sterilizing the incarcerated. *The Marshall Project* [blog]. https://www.themarshallproject.org/2017/07/26/our-long-troubling- history-of-sterilizing-the-incarcerated
+
+Rao, S. (2018, September 28). Can East Asian Americans reclaim 'Yellow' for Themselves?" *Color Lines*. https://www.colorlines.com/articles/read-can-east-asian-americans-reclaim-yellow-themselves)
+
+Subramaniam, B. (2014). *Ghost stories for Darwin: The science of variation and the politics of diversity*. University of Illinois Press.
+
+Seipel, B. (2020, June 19). Why the AP and others are now capitalizing the 'B' in Black. *The Hill*. https://thehill.com/homenews/media/503642-why-the-ap-and-others-are-now-capitalizing-the-b-in-black
+
+Spade, D., & Rohlfs, R. (2016). Legal equality, gay numbers, and the (after?)math of eugenics. *The Scholar & Feminist Online*, *13*(2). https://ssrn.com/abstract=2872953

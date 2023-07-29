@@ -399,7 +399,14 @@ function-argument-specification
 additional-resources
 references-10
 m7c-practice-visualizing-your-own-data
-module-8-understanding
+m8u-statistics-and-scientific-racism
+introduction-16
+the-origins-of-statistics
+the-importance-of-statistical-humility
+eugenics-a-failure-of-statistical-humility
+the-continuing-legacy-of-eugenics-and-scientific-racism
+conclusion-8
+references-11
 m8a-descriptive-statistics
 summarize
 groupby
