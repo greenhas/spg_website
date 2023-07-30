@@ -407,10 +407,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="24" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html"><i class="fa fa-check"></i><b>24</b> M8A: Descriptive Statistics</a>
 <ul>
-<li class="chapter" data-level="24.1" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#summarize"><i class="fa fa-check"></i><b>24.1</b> <code>summarize</code> variables</a></li>
-<li class="chapter" data-level="24.2" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#groupby"><i class="fa fa-check"></i><b>24.2</b> <code>group_by</code> rows</a>
+<li class="chapter" data-level="24.1" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#introduction-17"><i class="fa fa-check"></i><b>24.1</b> Introduction</a>
 <ul>
-<li class="chapter" data-level="24.2.1" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#grouping-by-more-than-one-variable"><i class="fa fa-check"></i><b>24.2.1</b> Grouping by more than one variable</a></li>
+<li class="chapter" data-level="" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#wrangling-packages-2"><i class="fa fa-check"></i>Needed packages</a></li>
+</ul></li>
+<li class="chapter" data-level="24.2" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#summarize"><i class="fa fa-check"></i><b>24.2</b> <code>summarize</code> variables</a>
+<ul>
+<li class="chapter" data-level="24.2.1" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#mean"><i class="fa fa-check"></i><b>24.2.1</b> Mean</a></li>
+<li class="chapter" data-level="24.2.2" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#standard-deviation"><i class="fa fa-check"></i><b>24.2.2</b> Standard Deviation</a></li>
+<li class="chapter" data-level="24.2.3" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#calculating-mean-with-mean-and-standard-deviation-with-sd"><i class="fa fa-check"></i><b>24.2.3</b> Calculating Mean with <code>mean()</code> and Standard Deviation with <code>sd()</code></a></li>
+<li class="chapter" data-level="24.2.4" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#percentiles-quartiles-and-iqr"><i class="fa fa-check"></i><b>24.2.4</b> Percentiles, Quartiles and <code>IQR()</code></a></li>
+</ul></li>
+<li class="chapter" data-level="24.3" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#groupby"><i class="fa fa-check"></i><b>24.3</b> <code>group_by</code> rows</a>
+<ul>
+<li class="chapter" data-level="24.3.1" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#grouping-by-more-than-one-variable"><i class="fa fa-check"></i><b>24.3.1</b> Grouping by more than one variable</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="25" data-path="m8c-calculate-descriptive-statistics-for-your-own-data.html"><a href="m8c-calculate-descriptive-statistics-for-your-own-data.html"><i class="fa fa-check"></i><b>25</b> M8C: Calculate Descriptive Statistics for Your Own Data</a></li>
@@ -662,11 +672,72 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="m8a-descriptive-statistics" class="section level1 hasAnchor" number="24">
 <h1><span class="header-section-number">24</span> M8A: Descriptive Statistics<a href="m8a-descriptive-statistics.html#m8a-descriptive-statistics" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>[DOES THIS ALSO NEED SOME STUFF FROM OPENSTAX???]</p>
-<div id="summarize" class="section level2 hasAnchor" number="24.1">
-<h2><span class="header-section-number">24.1</span> <code>summarize</code> variables<a href="m8a-descriptive-statistics.html#summarize" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>The next common task when working with data frames is to compute <em>summary statistics</em>. Summary statistics are single numerical values that summarize a large number of values. Commonly known examples of summary statistics include the mean (also called the average) and the median (the middle value). Other examples of summary statistics that might not immediately come to mind include the <em>sum</em>, the smallest value also called the <em>minimum</em>, the largest value also called the <em>maximum</em>, and the <em>standard deviation</em>. See Appendix <a href="#appendix-stat-terms"><strong>??</strong></a> for a glossary of such summary statistics.</p>
-<p>Let’s calculate two summary statistics of the <code>temp</code> temperature variable in the <code>weather</code> data frame: the mean and standard deviation (recall from Section <a href="getting-started.html#nycflights13">6.5</a> that the <code>weather</code> data frame is included in the <code>nycflights13</code> package). To compute these summary statistics, we need the <code>mean()</code> and <code>sd()</code> <em>summary functions</em> in R. Summary functions in R take in many values and return a single value, as illustrated in Figure <a href="m8a-descriptive-statistics.html#fig:summary-function">24.1</a>.</p>
+<p>This content draws on material from:</p>
+<ul>
+<li><em><a href="https://moderndive.com/">Statistical Inference via Data Science: A ModernDive into R and the Tidyverse</a></em> by <a href="https://chester.rbind.io/">Chester Ismay</a> and <a href="https://rudeboybert.rbind.io/">Albert Y. Kim</a>, licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</li>
+<li><em><a href="https://openstax.org/details/books/introductory-statistics">Introductory Statistics</a></em> by <a href="https://openstax.org/">OpenStax</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</li>
+</ul>
+<p>Changes to the source material include addition of new material; light editing; rearranging, removing, and combining original material; adding and changing links; and adding first-person language from current author.</p>
+<p>The resulting content is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
+<div id="introduction-17" class="section level2 hasAnchor" number="24.1">
+<h2><span class="header-section-number">24.1</span> Introduction<a href="m8a-descriptive-statistics.html#introduction-17" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Although this week’s focus is on the concept of descriptive statistics, our <em>application</em> walkthrough is in most ways a sequel to our Week 6 discussion of data wrangling. Indeed, we’ll be returning the the <code>dplyr</code> package (though, you’ll see below that we’ll load it as part of <code>tidyverse</code>) and to some of its wrangling functions as a way of getting some experience with descriptive statistics.</p>
+<div id="wrangling-packages-2" class="section level3 unnumbered hasAnchor">
+<h3>Needed packages<a href="m8a-descriptive-statistics.html#wrangling-packages-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Let’s load all the packages needed for our wrangling practice (this assumes you’ve already installed them). If needed, read Section <a href="getting-started.html#packages">6.4</a> for information on how to install and load R packages.</p>
+<div class="sourceCode" id="cb131"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb131-1"><a href="m8a-descriptive-statistics.html#cb131-1" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb131-2"><a href="m8a-descriptive-statistics.html#cb131-2" tabindex="-1"></a><span class="fu">library</span>(nycflights13)</span></code></pre></div>
+</div>
+</div>
+<div id="summarize" class="section level2 hasAnchor" number="24.2">
+<h2><span class="header-section-number">24.2</span> <code>summarize</code> variables<a href="m8a-descriptive-statistics.html#summarize" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>One common task when working with data frames is to compute <em>summary statistics</em>. Summary statistics are single numerical values that summarize a large number of values. As such, they are among the most common descriptive statistics that we work with; if I ask you something about “descriptive statistics” in a class project, I’m generally asking you about summary statistics.</p>
+<p>Commonly known examples of summary statistics include the mean (also called the average) and the median (the middle value). Other examples of summary statistics that might not immediately come to mind include the <em>sum</em>, the smallest value also called the <em>minimum</em>, the largest value also called the <em>maximum</em>, and the <em>standard deviation</em>. In fact, the boxplots we worked with in Section <a href="viz.html#boxplots">21.8</a> are a visual summary of some key descriptive statistics, and you may want to revisit that walkthrough after completing this one.</p>
+<p>Let’s calculate two summary statistics of the <code>temp</code> temperature variable in the <code>weather</code> data frame (recall from Section <a href="getting-started.html#nycflights13">6.5</a> that the <code>weather</code> data frame is included in the <code>nycflights13</code> package). In particular, we’ll calculate the mean and standard deviation.</p>
+<div id="mean" class="section level3 hasAnchor" number="24.2.1">
+<h3><span class="header-section-number">24.2.1</span> Mean<a href="m8a-descriptive-statistics.html#mean" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>The <em>mean</em> is the most commonly reported measure of center. It is commonly called the <em>average</em> though this term can be a little ambiguous. The mean is the sum of all of the data elements divided by how many elements there are. If we have <span class="math inline">\(n\)</span> data points, the mean is given by:</p>
+<p><span class="math display">\[Mean = \frac{x_1 + x_2 + \cdots + x_n}{n}\]</span></p>
+</div>
+<div id="standard-deviation" class="section level3 hasAnchor" number="24.2.2">
+<h3><span class="header-section-number">24.2.2</span> Standard Deviation<a href="m8a-descriptive-statistics.html#standard-deviation" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>An important characteristic of any set of data is the variation in the data. In some data sets, the data values are concentrated closely near the mean; in other data sets, the data values are more widely spread out from the mean. The most common measure of variation, or spread, is the <em>standard deviation</em>. The standard deviation is a number that measures how far data values are from their mean.</p>
+<p>The standard deviation:
+* provides a numerical measure of the overall amount of variation in a data set, and
+* can be used to determine whether a particular data value is close to or far from the mean.</p>
+<div id="measure-of-overall-variation" class="section level4 hasAnchor" number="24.2.2.1">
+<h4><span class="header-section-number">24.2.2.1</span> Measure of Overall Variation<a href="m8a-descriptive-statistics.html#measure-of-overall-variation" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>The standard deviation is always positive or zero. The standard deviation is small when the data are all concentrated close to the mean, exhibiting little variation or spread. The standard deviation is larger when the data values are more spread out from the mean, exhibiting more variation.</p>
+<p>Suppose that we are studying the amount of time customers wait in line at the checkout at supermarket A and supermarket B. the average wait time at both supermarkets is five minutes. At supermarket A, the standard deviation for the wait time is two minutes; at supermarket B the standard deviation for the wait time is four minutes.</p>
+<p>Because supermarket B has a higher standard deviation, we know that there is more variation in the wait times at supermarket B. Overall, wait times at supermarket B are more spread out from the average; wait times at supermarket A are more concentrated near the average.</p>
+</div>
+<div id="determining-whether-a-data-value-is-close-to-or-far-from-the-mean" class="section level4 hasAnchor" number="24.2.2.2">
+<h4><span class="header-section-number">24.2.2.2</span> Determining Whether a Data Value is Close To or Far From the Mean<a href="m8a-descriptive-statistics.html#determining-whether-a-data-value-is-close-to-or-far-from-the-mean" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Suppose that Rosa and Binh both shop at supermarket A. Rosa waits at the checkout counter for seven minutes and Binh waits for one minute. At supermarket A, the mean waiting time is five minutes and the standard deviation is two minutes. The standard deviation can be used to determine whether a data value is close to or far from the mean.</p>
+<p>Rosa waits for seven minutes:
+* Seven is two minutes longer than the average of five; two minutes is equal to one standard deviation.
+* Rosa’s wait time of seven minutes is <em>two minutes longer than the average of five minutes</em>.
+* Rosa’s wait time of seven minutes is <em>one standard deviation above the average</em> of five minutes.</p>
+<p>Binh waits for one minute.
+* One is four minutes less than the average of five; four minutes is equal to two standard deviations.
+* Binh’s wait time of one minute is <em>four minutes less than the average of five minutes</em>.
+* Binh’s wait time of one minute is <em>(two standard deviations below the average of five minutes</em>.</p>
+<p>As we’ll discuss later on in the semester, a data value that is two standard deviations from the average is just on the borderline for what many data scientists would consider to be far from the average. Considering data to be far from the mean if it is more than two standard deviations away is more of an approximate “rule of thumb” than a rigid rule.</p>
+</div>
+<div id="calculating-the-standard-deviation" class="section level4 hasAnchor" number="24.2.2.3">
+<h4><span class="header-section-number">24.2.2.3</span> Calculating the Standard Deviation<a href="m8a-descriptive-statistics.html#calculating-the-standard-deviation" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>If x is a number, then the difference “x – mean” is called its <em>deviation</em>. In a data set, there are as many deviations as there are items in the data set. The deviations are used to calculate the standard deviation. The procedure to calculate the standard deviation depends on whether the numbers are the entire <em>population</em> or are data from a <em>sample</em>. The calculations are similar, but not identical.</p>
+<p>To calculate the standard deviation, we need to calculate the <em>variance</em> first. The variance is the <em>average of the squares of the deviations</em> (the x – mean values). You can think of the standard deviation as a special average of the deviations. If the numbers come from a census of the entire population and not a sample, when we calculate the average of the squared deviations to find the variance, we divide by N, the number of items in the population. If the data are from a sample rather than a population, when we calculate the average of the squared deviations, we divide by n – 1, one less than the number of items in the sample.</p>
+<p>The formula can be a little intimidating at first but it is important to remember that it is essentially a measure of how far we expect a given data value will be from its mean:</p>
+<p><span class="math display">\[sd = \sqrt{\frac{(x_1 - Mean)^2 + (x_2 - Mean)^2 + \cdots + (x_n - Mean)^2}{n - 1}}\]</span></p>
+<p>The <em>variance</em> of a variable is merely the standard deviation squared.</p>
+<p><span class="math display">\[variance = sd^2 = \frac{(x_1 - Mean)^2 + (x_2 - Mean)^2 + \cdots + (x_n - Mean)^2}{n - 1}\]</span></p>
+<p>Of course, while understanding how mean and standard deviation are calculated is important, one of the advantages of using software like R is that it will do the calculations for us!</p>
+</div>
+</div>
+<div id="calculating-mean-with-mean-and-standard-deviation-with-sd" class="section level3 hasAnchor" number="24.2.3">
+<h3><span class="header-section-number">24.2.3</span> Calculating Mean with <code>mean()</code> and Standard Deviation with <code>sd()</code><a href="m8a-descriptive-statistics.html#calculating-mean-with-mean-and-standard-deviation-with-sd" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>To compute these summary statistics, we need the <code>mean()</code> and <code>sd()</code> <em>summary functions</em> in R. Summary functions in R take in many values and return a single value, as illustrated in Figure <a href="m8a-descriptive-statistics.html#fig:summary-function">24.1</a>.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:summary-function"></span>
 <img src="images/cheatsheets/summary.png" alt="Diagram illustrating a summary function in R." width="\textwidth" />
 <p class="caption">
@@ -681,9 +752,9 @@ Figure 24.2: Diagram of summarize() rows.
 </p>
 </div>
 <p>We’ll save the results in a new data frame called <code>summary_temp</code> that will have two columns/variables: the <code>mean</code> and the <code>std_dev</code>:</p>
-<div class="sourceCode" id="cb134"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb134-1"><a href="m8a-descriptive-statistics.html#cb134-1" tabindex="-1"></a>summary_temp <span class="ot">&lt;-</span> weather <span class="sc">%&gt;%</span> </span>
-<span id="cb134-2"><a href="m8a-descriptive-statistics.html#cb134-2" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(temp), <span class="at">std_dev =</span> <span class="fu">sd</span>(temp))</span>
-<span id="cb134-3"><a href="m8a-descriptive-statistics.html#cb134-3" tabindex="-1"></a>summary_temp</span></code></pre></div>
+<div class="sourceCode" id="cb132"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb132-1"><a href="m8a-descriptive-statistics.html#cb132-1" tabindex="-1"></a>summary_temp <span class="ot">&lt;-</span> weather <span class="sc">%&gt;%</span> </span>
+<span id="cb132-2"><a href="m8a-descriptive-statistics.html#cb132-2" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(temp), <span class="at">std_dev =</span> <span class="fu">sd</span>(temp))</span>
+<span id="cb132-3"><a href="m8a-descriptive-statistics.html#cb132-3" tabindex="-1"></a>summary_temp</span></code></pre></div>
 <pre><code># A tibble: 1 × 2
    mean std_dev
   &lt;dbl&gt;   &lt;dbl&gt;
@@ -691,42 +762,44 @@ Figure 24.2: Diagram of summarize() rows.
 <p>Why are the values returned <code>NA</code>? As we saw in Subsection <a href="viz.html#geompoint">21.4.1</a> when creating the scatterplot of departure and arrival delays for <code>alaska_flights</code>, <code>NA</code> is how R encodes <em>missing values</em> where <code>NA</code> indicates “not available” or “not applicable.” If a value for a particular row and a particular column does not exist, <code>NA</code> is stored instead. Values can be missing for many reasons. Perhaps the data was collected but someone forgot to enter it? Perhaps the data was not collected at all because it was too difficult to do so? Perhaps there was an erroneous value that someone entered that has been corrected to read as missing? You’ll often encounter issues with missing values when working with real data.</p>
 <p>Going back to our <code>summary_temp</code> output, by default any time you try to calculate a summary statistic of a variable that has one or more <code>NA</code> missing values in R, <code>NA</code> is returned. To work around this fact, you can set the <code>na.rm</code> argument to <code>TRUE</code>, where <code>rm</code> is short for “remove”; this will ignore any <code>NA</code> missing values and only return the summary value for all non-missing values.</p>
 <p>The code that follows computes the mean and standard deviation of all non-missing values of <code>temp</code>:</p>
-<div class="sourceCode" id="cb136"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb136-1"><a href="m8a-descriptive-statistics.html#cb136-1" tabindex="-1"></a>summary_temp <span class="ot">&lt;-</span> weather <span class="sc">%&gt;%</span> </span>
-<span id="cb136-2"><a href="m8a-descriptive-statistics.html#cb136-2" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), </span>
-<span id="cb136-3"><a href="m8a-descriptive-statistics.html#cb136-3" tabindex="-1"></a>            <span class="at">std_dev =</span> <span class="fu">sd</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb136-4"><a href="m8a-descriptive-statistics.html#cb136-4" tabindex="-1"></a>summary_temp</span></code></pre></div>
+<div class="sourceCode" id="cb134"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb134-1"><a href="m8a-descriptive-statistics.html#cb134-1" tabindex="-1"></a>summary_temp <span class="ot">&lt;-</span> weather <span class="sc">%&gt;%</span> </span>
+<span id="cb134-2"><a href="m8a-descriptive-statistics.html#cb134-2" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), </span>
+<span id="cb134-3"><a href="m8a-descriptive-statistics.html#cb134-3" tabindex="-1"></a>            <span class="at">std_dev =</span> <span class="fu">sd</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb134-4"><a href="m8a-descriptive-statistics.html#cb134-4" tabindex="-1"></a>summary_temp</span></code></pre></div>
 <pre><code># A tibble: 1 × 2
-   mean std_dev
-  &lt;dbl&gt;   &lt;dbl&gt;
-1  55.3    17.8</code></pre>
+     mean std_dev
+    &lt;dbl&gt;   &lt;dbl&gt;
+1 55.2604 17.7879</code></pre>
 <p>Notice how the <code>na.rm = TRUE</code> are used as arguments to the <code>mean()</code> and <code>sd()</code> summary functions individually, and not to the <code>summarize()</code> function.</p>
-<p>However, one needs to be cautious whenever ignoring missing values as we’ve just done. In the upcoming <em>Learning checks</em> questions, we’ll consider the possible ramifications of blindly sweeping rows with missing values “under the rug.” This is in fact why the <code>na.rm</code> argument to any summary statistic function in R is set to <code>FALSE</code> by default. In other words, R does not ignore rows with missing values by default. R is alerting you to the presence of missing data and you should be mindful of this missingness and any potential causes of this missingness throughout your analysis.</p>
-<p>What are other summary functions we can use inside the <code>summarize()</code> verb to compute summary statistics? As seen in the diagram in Figure <a href="m8a-descriptive-statistics.html#fig:summary-function">24.1</a>, you can use any function in R that takes many values and returns just one. Here are just a few:</p>
+<p>However, one needs to be cautious whenever ignoring missing values as we’ve just done.This is in fact why the <code>na.rm</code> argument to any summary statistic function in R is set to <code>FALSE</code> by default. In other words, R does not ignore rows with missing values by default. R is alerting you to the presence of missing data and you should be mindful of this missingness and any potential causes of this missingness throughout your analysis.</p>
+<p>What are other summary functions we can use inside the <code>summarize()</code> verb to compute summary statistics? As seen in the diagram in Figure <a href="m8a-descriptive-statistics.html#fig:summary-function">24.1</a>, you can use any function in R that takes many values and returns just one. For example:</p>
 <ul>
-<li><code>mean()</code>: the average</li>
-<li><code>sd()</code>: the standard deviation, which is a measure of spread</li>
-<li><code>min()</code> and <code>max()</code>: the minimum and maximum values, respectively</li>
-<li><code>IQR()</code>: interquartile range</li>
-<li><code>sum()</code>: the total amount when adding multiple numbers</li>
-<li><code>n()</code>: a count of the number of rows in each group. This particular summary function will make more sense when <code>group_by()</code> is covered in Section <a href="m8a-descriptive-statistics.html#groupby">24.2</a>.</li>
+<li><code>min()</code> and <code>max()</code> return the minimum and maximum values, respectively;</li>
+<li><code>n()</code> returns a count of the number of rows in each group (why you might want to do this will make sense when we cover <code>group_by()</code> in Section <a href="m8a-descriptive-statistics.html#groupby">24.3</a>.</li>
+<li><code>sum()</code> returns the total amount when adding multiple numbers</li>
 </ul>
-<div class="learncheck">
-<p>
-<strong><em>Learning check</em></strong>
-</p>
+<p>We can also use <code>IQR()</code> to return the interquartile range with <code>summarize()</code>. We touched on percentiles, quartiles, and interquartile range when we recently looked at boxplots, but it’s worth taking a closer look at them now.</p>
 </div>
-<p><strong>(LC2.1)</strong> Say a doctor is studying the effect of smoking on lung cancer for a large number of patients who have records measured at five-year intervals. She notices that a large number of patients have missing data points because the patient has died, so she chooses to ignore these patients in her analysis. What is wrong with this doctor’s approach?</p>
-<p><strong>(LC2.2)</strong> Modify the earlier <code>summarize()</code> function code that creates the <code>summary_temp</code> data frame to also use the <code>n()</code> summary function: <code>summarize(... , count = n())</code>. What does the returned value correspond to?</p>
-<p><strong>(LC2.3)</strong> Why doesn’t the following code work? Run the code line-by-line instead of all at once, and then look at the data. In other words, run <code>summary_temp &lt;- weather %&gt;% summarize(mean = mean(temp, na.rm = TRUE))</code> first.</p>
-<div class="sourceCode" id="cb138"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb138-1"><a href="m8a-descriptive-statistics.html#cb138-1" tabindex="-1"></a>summary_temp <span class="ot">&lt;-</span> weather <span class="sc">%&gt;%</span>   </span>
-<span id="cb138-2"><a href="m8a-descriptive-statistics.html#cb138-2" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)) <span class="sc">%&gt;%</span> </span>
-<span id="cb138-3"><a href="m8a-descriptive-statistics.html#cb138-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">std_dev =</span> <span class="fu">sd</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span></code></pre></div>
-<div class="learncheck">
-
+<div id="percentiles-quartiles-and-iqr" class="section level3 hasAnchor" number="24.2.4">
+<h3><span class="header-section-number">24.2.4</span> Percentiles, Quartiles and <code>IQR()</code><a href="m8a-descriptive-statistics.html#percentiles-quartiles-and-iqr" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><em>Quartiles</em> and <em>percentiles</em> are both measures of location—they indicate where a particular data point falls within the whole dataset. Quartiles are special percentiles. The first quartile, Q1, is the same as the 25th percentile, and the third quartile, Q3, is the same as the 75th percentile. The median, M, is called both the second quartile and the 50th percentile.</p>
+<p>To calculate quartiles and percentiles, the data must be ordered from smallest to largest. Quartiles divide ordered data into quarters. Percentiles divide ordered data into hundredths. To score in the 90th percentile of an exam does not mean, necessarily, that you received 90% on a test. It means that 90% of test scores are the same or less than your score and 10% of the test scores are the same or greater than your test score.</p>
+<p>Percentiles are useful for comparing values. For this reason, universities and colleges use percentiles extensively. One instance in which colleges and universities use percentiles is when SAT results are used to determine a minimum testing score that will be used as an acceptance factor. For example, suppose Duke accepts SAT scores at or above the 75th percentile. That translates into a score of at least 1220.</p>
+<p>Percentiles are mostly used with very large populations. Therefore, if you were to say that 90% of the test scores are less (and not the same or less) than your score, it would be acceptable because removing one particular data value is not significant.</p>
+<p>The <em>median</em> is a number that measures the “center” of the data. You can think of the median as the “middle value,” but it does not actually have to be one of the observed values. It is a number that separates ordered data into halves. Half the values are the same number or smaller than the median, and half the values are the same number or larger. For example, consider the following data.</p>
+<p>1; 11.5; 6; 7.2; 4; 8; 9; 10; 6.8; 8.3; 2; 2; 10; 1</p>
+<p>Here they are again, ordered from smallest to largest:</p>
+<p>1; 1; 2; 2; 4; 6; 6.8; 7.2; 8; 8.3; 9; 10; 10; 11.5</p>
+<p>Since there are 14 observations, the median is between the seventh value, 6.8, and the eighth value, 7.2. To find the median, add the two values together and divide by two. In this case, we add 6.8 and 7.2 to get 14; 14 divided by 2 is 7.</p>
+<p>So, our median is seven. Half of the values are smaller than seven and half of the values are larger than seven.</p>
+<p><em>Quartiles</em> are numbers that separate the data into quarters. Like the median, quartiles may or may not be part of the data. To find the quartiles, first find the median (or second quartile). The first quartile, Q1, is the middle value of the lower half of the data, and the third quartile, Q3, is the middle value, or median, of the upper half of the data.</p>
+<p>The <em>interquartile range</em> is a number that indicates the spread of the middle half or the middle 50% of the data. It is the difference between the third quartile (Q3) and the first quartile (Q1).</p>
+<p>IQR = Q3 – Q1</p>
+<p>The IQR can help to determine potential <em>outliers</em>. A value is suspected to be a potential outlier if it is less than (1.5)(IQR) below the first quartile or more than (1.5)(IQR) above the third quartile. Potential outliers always require further investigation.</p>
 </div>
 </div>
-<div id="groupby" class="section level2 hasAnchor" number="24.2">
-<h2><span class="header-section-number">24.2</span> <code>group_by</code> rows<a href="m8a-descriptive-statistics.html#groupby" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="groupby" class="section level2 hasAnchor" number="24.3">
+<h2><span class="header-section-number">24.3</span> <code>group_by</code> rows<a href="m8a-descriptive-statistics.html#groupby" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <!-- To get `_` to work in caption title. Found at https://github.com/rstudio/bookdown/issues/209 -->
 
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:groupsummarize"></span>
@@ -735,7 +808,7 @@ Figure 24.2: Diagram of summarize() rows.
 Figure 24.3: Diagram of group_by() and summarize().
 </p>
 </div>
-<p>Say instead of a single mean temperature for the whole year, you would like 12 mean temperatures, one for each of the 12 months separately. In other words, we would like to compute the mean temperature split by month. We can do this by “grouping” temperature observations by the values of another variable, in this case by the 12 values of the variable <code>month</code>. Run the following code:</p>
+<p>Let’s imagine that instead of a single mean temperature for the whole year, you would like 12 mean temperatures, one for each of the 12 months separately. In other words, we would like to compute the mean temperature split by month. We can do this by “grouping” temperature observations by the values of another variable, in this case by the 12 values of the variable <code>month</code>. Run the following code:</p>
 <!--
 New dplyr warning message when running group_by() %>% summarize() that is not
 addressed in v1 (print edition). 
@@ -746,30 +819,30 @@ options(dplyr.summarise.inform = FALSE) in index.Rmd
 
 v2 TODO: Address this warning message explicitly in text and fix index.Rmd
 -->
-<div class="sourceCode" id="cb139"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb139-1"><a href="m8a-descriptive-statistics.html#cb139-1" tabindex="-1"></a>summary_monthly_temp <span class="ot">&lt;-</span> weather <span class="sc">%&gt;%</span> </span>
-<span id="cb139-2"><a href="m8a-descriptive-statistics.html#cb139-2" tabindex="-1"></a>  <span class="fu">group_by</span>(month) <span class="sc">%&gt;%</span> </span>
-<span id="cb139-3"><a href="m8a-descriptive-statistics.html#cb139-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), </span>
-<span id="cb139-4"><a href="m8a-descriptive-statistics.html#cb139-4" tabindex="-1"></a>            <span class="at">std_dev =</span> <span class="fu">sd</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb139-5"><a href="m8a-descriptive-statistics.html#cb139-5" tabindex="-1"></a>summary_monthly_temp</span></code></pre></div>
+<div class="sourceCode" id="cb136"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb136-1"><a href="m8a-descriptive-statistics.html#cb136-1" tabindex="-1"></a>summary_monthly_temp <span class="ot">&lt;-</span> weather <span class="sc">%&gt;%</span> </span>
+<span id="cb136-2"><a href="m8a-descriptive-statistics.html#cb136-2" tabindex="-1"></a>  <span class="fu">group_by</span>(month) <span class="sc">%&gt;%</span> </span>
+<span id="cb136-3"><a href="m8a-descriptive-statistics.html#cb136-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), </span>
+<span id="cb136-4"><a href="m8a-descriptive-statistics.html#cb136-4" tabindex="-1"></a>            <span class="at">std_dev =</span> <span class="fu">sd</span>(temp, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb136-5"><a href="m8a-descriptive-statistics.html#cb136-5" tabindex="-1"></a>summary_monthly_temp</span></code></pre></div>
 <pre><code># A tibble: 12 × 3
-   month  mean std_dev
-   &lt;int&gt; &lt;dbl&gt;   &lt;dbl&gt;
- 1     1  35.6   10.2 
- 2     2  34.3    6.98
- 3     3  39.9    6.25
- 4     4  51.7    8.79
- 5     5  61.8    9.68
- 6     6  72.2    7.55
- 7     7  80.1    7.12
- 8     8  74.5    5.19
- 9     9  67.4    8.47
-10    10  60.1    8.85
-11    11  45.0   10.4 
-12    12  38.4    9.98</code></pre>
+   month    mean  std_dev
+   &lt;int&gt;   &lt;dbl&gt;    &lt;dbl&gt;
+ 1     1 35.6357 10.2246 
+ 2     2 34.2706  6.98238
+ 3     3 39.8801  6.24928
+ 4     4 51.7456  8.78617
+ 5     5 61.795   9.68164
+ 6     6 72.184   7.54637
+ 7     7 80.0662  7.11990
+ 8     8 74.4685  5.19161
+ 9     9 67.3713  8.46590
+10    10 60.0711  8.84604
+11    11 44.9904 10.4438 
+12    12 38.4418  9.98243</code></pre>
 <p>This code is identical to the previous code that created <code>summary_temp</code>, but with an extra <code>group_by(month)</code> added before the <code>summarize()</code>. Grouping the <code>weather</code> dataset by <code>month</code> and then applying the <code>summarize()</code> functions yields a data frame that displays the mean and standard deviation temperature split by the 12 months of the year.</p>
 <p>It is important to note that the <code>group_by()</code> function doesn’t change data frames by itself. Rather it changes the <em>meta-data</em>, or data about the data, specifically the grouping structure. It is only after we apply the <code>summarize()</code> function that the data frame changes.</p>
 <p>For example, let’s consider the <code>diamonds</code> data frame included in the <code>ggplot2</code> package. Run this code:</p>
-<div class="sourceCode" id="cb141"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb141-1"><a href="m8a-descriptive-statistics.html#cb141-1" tabindex="-1"></a>diamonds</span></code></pre></div>
+<div class="sourceCode" id="cb138"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb138-1"><a href="m8a-descriptive-statistics.html#cb138-1" tabindex="-1"></a>diamonds</span></code></pre></div>
 <pre><code># A tibble: 53,940 × 10
    carat cut       color clarity depth table price     x     y     z
    &lt;dbl&gt; &lt;ord&gt;     &lt;ord&gt; &lt;ord&gt;   &lt;dbl&gt; &lt;dbl&gt; &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
@@ -785,8 +858,8 @@ v2 TODO: Address this warning message explicitly in text and fix index.Rmd
 10  0.23 Very Good H     VS1      59.4    61   338  4     4.05  2.39
 # ℹ 53,930 more rows</code></pre>
 <p>Observe that the first line of the output reads <code># A tibble: 53,940 x 10</code>. This is an example of meta-data, in this case the number of observations/rows and variables/columns in <code>diamonds</code>. The actual data itself are the subsequent table of values. Now let’s pipe the <code>diamonds</code> data frame into <code>group_by(cut)</code>:</p>
-<div class="sourceCode" id="cb143"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb143-1"><a href="m8a-descriptive-statistics.html#cb143-1" tabindex="-1"></a>diamonds <span class="sc">%&gt;%</span> </span>
-<span id="cb143-2"><a href="m8a-descriptive-statistics.html#cb143-2" tabindex="-1"></a>  <span class="fu">group_by</span>(cut)</span></code></pre></div>
+<div class="sourceCode" id="cb140"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb140-1"><a href="m8a-descriptive-statistics.html#cb140-1" tabindex="-1"></a>diamonds <span class="sc">%&gt;%</span> </span>
+<span id="cb140-2"><a href="m8a-descriptive-statistics.html#cb140-2" tabindex="-1"></a>  <span class="fu">group_by</span>(cut)</span></code></pre></div>
 <pre><code># A tibble: 53,940 × 10
 # Groups:   cut [5]
    carat cut       color clarity depth table price     x     y     z
@@ -804,21 +877,21 @@ v2 TODO: Address this warning message explicitly in text and fix index.Rmd
 # ℹ 53,930 more rows</code></pre>
 <p>Observe that now there is additional meta-data: <code># Groups: cut [5]</code> indicating that the grouping structure meta-data has been set based on the 5 possible levels of the categorical variable <code>cut</code>: <code>"Fair"</code>, <code>"Good"</code>, <code>"Very Good"</code>, <code>"Premium"</code>, and <code>"Ideal"</code>. On the other hand, observe that the data has not changed: it is still a table of 53,940 <span class="math inline">\(\times\)</span> 10 values.</p>
 <p>Only by combining a <code>group_by()</code> with another data wrangling operation, in this case <code>summarize()</code>, will the data actually be transformed.</p>
-<div class="sourceCode" id="cb145"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb145-1"><a href="m8a-descriptive-statistics.html#cb145-1" tabindex="-1"></a>diamonds <span class="sc">%&gt;%</span> </span>
-<span id="cb145-2"><a href="m8a-descriptive-statistics.html#cb145-2" tabindex="-1"></a>  <span class="fu">group_by</span>(cut) <span class="sc">%&gt;%</span> </span>
-<span id="cb145-3"><a href="m8a-descriptive-statistics.html#cb145-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">avg_price =</span> <span class="fu">mean</span>(price))</span></code></pre></div>
+<div class="sourceCode" id="cb142"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb142-1"><a href="m8a-descriptive-statistics.html#cb142-1" tabindex="-1"></a>diamonds <span class="sc">%&gt;%</span> </span>
+<span id="cb142-2"><a href="m8a-descriptive-statistics.html#cb142-2" tabindex="-1"></a>  <span class="fu">group_by</span>(cut) <span class="sc">%&gt;%</span> </span>
+<span id="cb142-3"><a href="m8a-descriptive-statistics.html#cb142-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">avg_price =</span> <span class="fu">mean</span>(price))</span></code></pre></div>
 <pre><code># A tibble: 5 × 2
   cut       avg_price
   &lt;ord&gt;         &lt;dbl&gt;
-1 Fair          4359.
-2 Good          3929.
-3 Very Good     3982.
-4 Premium       4584.
-5 Ideal         3458.</code></pre>
+1 Fair        4358.76
+2 Good        3928.86
+3 Very Good   3981.76
+4 Premium     4584.26
+5 Ideal       3457.54</code></pre>
 <p>If you would like to remove this grouping structure meta-data, we can pipe the resulting data frame into the <code>ungroup()</code> function:</p>
-<div class="sourceCode" id="cb147"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb147-1"><a href="m8a-descriptive-statistics.html#cb147-1" tabindex="-1"></a>diamonds <span class="sc">%&gt;%</span> </span>
-<span id="cb147-2"><a href="m8a-descriptive-statistics.html#cb147-2" tabindex="-1"></a>  <span class="fu">group_by</span>(cut) <span class="sc">%&gt;%</span> </span>
-<span id="cb147-3"><a href="m8a-descriptive-statistics.html#cb147-3" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb144"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb144-1"><a href="m8a-descriptive-statistics.html#cb144-1" tabindex="-1"></a>diamonds <span class="sc">%&gt;%</span> </span>
+<span id="cb144-2"><a href="m8a-descriptive-statistics.html#cb144-2" tabindex="-1"></a>  <span class="fu">group_by</span>(cut) <span class="sc">%&gt;%</span> </span>
+<span id="cb144-3"><a href="m8a-descriptive-statistics.html#cb144-3" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span></code></pre></div>
 <pre><code># A tibble: 53,940 × 10
    carat cut       color clarity depth table price     x     y     z
    &lt;dbl&gt; &lt;ord&gt;     &lt;ord&gt; &lt;ord&gt;   &lt;dbl&gt; &lt;dbl&gt; &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
@@ -834,11 +907,11 @@ v2 TODO: Address this warning message explicitly in text and fix index.Rmd
 10  0.23 Very Good H     VS1      59.4    61   338  4     4.05  2.39
 # ℹ 53,930 more rows</code></pre>
 <p>Observe how the <code># Groups: cut [5]</code> meta-data is no longer present.</p>
-<p>Let’s now revisit the <code>n()</code> counting summary function we briefly introduced previously. Recall that the <code>n()</code> function counts rows. This is opposed to the <code>sum()</code> summary function that returns the sum of a numerical variable. For example, suppose we’d like to count how many flights departed each of the three airports in New York City:</p>
-<div class="sourceCode" id="cb149"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb149-1"><a href="m8a-descriptive-statistics.html#cb149-1" tabindex="-1"></a>by_origin <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
-<span id="cb149-2"><a href="m8a-descriptive-statistics.html#cb149-2" tabindex="-1"></a>  <span class="fu">group_by</span>(origin) <span class="sc">%&gt;%</span> </span>
-<span id="cb149-3"><a href="m8a-descriptive-statistics.html#cb149-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>())</span>
-<span id="cb149-4"><a href="m8a-descriptive-statistics.html#cb149-4" tabindex="-1"></a>by_origin</span></code></pre></div>
+<p>Let’s now revisit the <code>n()</code> counting summary function we briefly discussed earlier. Recall that the <code>n()</code> function counts rows. This is opposed to the <code>sum()</code> summary function that returns the sum of a numerical variable. For example, suppose we’d like to count how many flights departed each of the three airports in New York City:</p>
+<div class="sourceCode" id="cb146"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb146-1"><a href="m8a-descriptive-statistics.html#cb146-1" tabindex="-1"></a>by_origin <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
+<span id="cb146-2"><a href="m8a-descriptive-statistics.html#cb146-2" tabindex="-1"></a>  <span class="fu">group_by</span>(origin) <span class="sc">%&gt;%</span> </span>
+<span id="cb146-3"><a href="m8a-descriptive-statistics.html#cb146-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>())</span>
+<span id="cb146-4"><a href="m8a-descriptive-statistics.html#cb146-4" tabindex="-1"></a>by_origin</span></code></pre></div>
 <pre><code># A tibble: 3 × 2
   origin  count
   &lt;chr&gt;   &lt;int&gt;
@@ -846,13 +919,13 @@ v2 TODO: Address this warning message explicitly in text and fix index.Rmd
 2 JFK    111279
 3 LGA    104662</code></pre>
 <p>We see that Newark (<code>"EWR"</code>) had the most flights departing in 2013 followed by <code>"JFK"</code> and lastly by LaGuardia (<code>"LGA"</code>). Note there is a subtle but important difference between <code>sum()</code> and <code>n()</code>; while <code>sum()</code> returns the sum of a numerical variable, <code>n()</code> returns a count of the number of rows/observations.</p>
-<div id="grouping-by-more-than-one-variable" class="section level3 hasAnchor" number="24.2.1">
-<h3><span class="header-section-number">24.2.1</span> Grouping by more than one variable<a href="m8a-descriptive-statistics.html#grouping-by-more-than-one-variable" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="grouping-by-more-than-one-variable" class="section level3 hasAnchor" number="24.3.1">
+<h3><span class="header-section-number">24.3.1</span> Grouping by more than one variable<a href="m8a-descriptive-statistics.html#grouping-by-more-than-one-variable" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>You are not limited to grouping by one variable. Say you want to know the number of flights leaving each of the three New York City airports <em>for each month</em>. We can also group by a second variable <code>month</code> using <code>group_by(origin, month)</code>:</p>
-<div class="sourceCode" id="cb151"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb151-1"><a href="m8a-descriptive-statistics.html#cb151-1" tabindex="-1"></a>by_origin_monthly <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
-<span id="cb151-2"><a href="m8a-descriptive-statistics.html#cb151-2" tabindex="-1"></a>  <span class="fu">group_by</span>(origin, month) <span class="sc">%&gt;%</span> </span>
-<span id="cb151-3"><a href="m8a-descriptive-statistics.html#cb151-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>())</span>
-<span id="cb151-4"><a href="m8a-descriptive-statistics.html#cb151-4" tabindex="-1"></a>by_origin_monthly</span></code></pre></div>
+<div class="sourceCode" id="cb148"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb148-1"><a href="m8a-descriptive-statistics.html#cb148-1" tabindex="-1"></a>by_origin_monthly <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
+<span id="cb148-2"><a href="m8a-descriptive-statistics.html#cb148-2" tabindex="-1"></a>  <span class="fu">group_by</span>(origin, month) <span class="sc">%&gt;%</span> </span>
+<span id="cb148-3"><a href="m8a-descriptive-statistics.html#cb148-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>())</span>
+<span id="cb148-4"><a href="m8a-descriptive-statistics.html#cb148-4" tabindex="-1"></a>by_origin_monthly</span></code></pre></div>
 <pre><code># A tibble: 36 × 3
 # Groups:   origin [3]
    origin month count
@@ -870,11 +943,11 @@ v2 TODO: Address this warning message explicitly in text and fix index.Rmd
 # ℹ 26 more rows</code></pre>
 <p>Observe that there are 36 rows to <code>by_origin_monthly</code> because there are 12 months for 3 airports (<code>EWR</code>, <code>JFK</code>, and <code>LGA</code>).</p>
 <p>Why do we <code>group_by(origin, month)</code> and not <code>group_by(origin)</code> and then <code>group_by(month)</code>? Let’s investigate:</p>
-<div class="sourceCode" id="cb153"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb153-1"><a href="m8a-descriptive-statistics.html#cb153-1" tabindex="-1"></a>by_origin_monthly_incorrect <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
-<span id="cb153-2"><a href="m8a-descriptive-statistics.html#cb153-2" tabindex="-1"></a>  <span class="fu">group_by</span>(origin) <span class="sc">%&gt;%</span> </span>
-<span id="cb153-3"><a href="m8a-descriptive-statistics.html#cb153-3" tabindex="-1"></a>  <span class="fu">group_by</span>(month) <span class="sc">%&gt;%</span> </span>
-<span id="cb153-4"><a href="m8a-descriptive-statistics.html#cb153-4" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>())</span>
-<span id="cb153-5"><a href="m8a-descriptive-statistics.html#cb153-5" tabindex="-1"></a>by_origin_monthly_incorrect</span></code></pre></div>
+<div class="sourceCode" id="cb150"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb150-1"><a href="m8a-descriptive-statistics.html#cb150-1" tabindex="-1"></a>by_origin_monthly_incorrect <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
+<span id="cb150-2"><a href="m8a-descriptive-statistics.html#cb150-2" tabindex="-1"></a>  <span class="fu">group_by</span>(origin) <span class="sc">%&gt;%</span> </span>
+<span id="cb150-3"><a href="m8a-descriptive-statistics.html#cb150-3" tabindex="-1"></a>  <span class="fu">group_by</span>(month) <span class="sc">%&gt;%</span> </span>
+<span id="cb150-4"><a href="m8a-descriptive-statistics.html#cb150-4" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>())</span>
+<span id="cb150-5"><a href="m8a-descriptive-statistics.html#cb150-5" tabindex="-1"></a>by_origin_monthly_incorrect</span></code></pre></div>
 <pre><code># A tibble: 12 × 2
    month count
    &lt;int&gt; &lt;int&gt;
@@ -891,19 +964,6 @@ v2 TODO: Address this warning message explicitly in text and fix index.Rmd
 11    11 27268
 12    12 28135</code></pre>
 <p>What happened here is that the second <code>group_by(month)</code> overwrote the grouping structure meta-data of the earlier <code>group_by(origin)</code>, so that in the end we are only grouping by <code>month</code>. The lesson here is if you want to <code>group_by()</code> two or more variables, you should include all the variables at the same time in the same <code>group_by()</code> adding a comma between the variable names.</p>
-<div class="learncheck">
-<p>
-<strong><em>Learning check</em></strong>
-</p>
-</div>
-<p><strong>(LC2.4)</strong> Recall from Chapter <a href="viz.html#viz">21</a> when we looked at temperatures by months in NYC. What does the standard deviation column in the <code>summary_monthly_temp</code> data frame tell us about temperatures in NYC throughout the year?</p>
-<p><strong>(LC2.5)</strong> What code would be required to get the mean and standard deviation temperature for each day in 2013 for NYC?</p>
-<p><strong>(LC2.6)</strong> Recreate <code>by_monthly_origin</code>, but instead of grouping via <code>group_by(origin, month)</code>, group variables in a different order <code>group_by(month, origin)</code>. What differs in the resulting dataset?</p>
-<p><strong>(LC2.7)</strong> How could we identify how many flights left each of the three airports for each <code>carrier</code>?</p>
-<p><strong>(LC2.8)</strong> How does the <code>filter()</code> operation differ from a <code>group_by()</code> followed by a <code>summarize()</code>?</p>
-<div class="learncheck">
-
-</div>
 
 </div>
 </div>

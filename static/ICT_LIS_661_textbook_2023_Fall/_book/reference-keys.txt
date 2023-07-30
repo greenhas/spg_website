@@ -76,7 +76,7 @@ tab:regpoints-augment
 fig:guess-the-correlation
 tab:model4-data-preview
 fig:numxcatxplot1
-tab:unnamed-chunk-169
+tab:unnamed-chunk-167
 tab:regtable-interaction
 tab:interaction-summary
 fig:numxcatx-parallel
@@ -408,7 +408,15 @@ the-continuing-legacy-of-eugenics-and-scientific-racism
 conclusion-8
 references-11
 m8a-descriptive-statistics
+introduction-17
 summarize
+mean
+standard-deviation
+measure-of-overall-variation
+determining-whether-a-data-value-is-close-to-or-far-from-the-mean
+calculating-the-standard-deviation
+calculating-mean-with-mean-and-standard-deviation-with-sd
+percentiles-quartiles-and-iqr
 groupby
 grouping-by-more-than-one-variable
 m8c-calculate-descriptive-statistics-for-your-own-data
