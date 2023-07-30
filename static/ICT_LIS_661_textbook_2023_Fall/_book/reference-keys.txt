@@ -76,7 +76,7 @@ tab:regpoints-augment
 fig:guess-the-correlation
 tab:model4-data-preview
 fig:numxcatxplot1
-tab:unnamed-chunk-167
+tab:unnamed-chunk-168
 tab:regtable-interaction
 tab:interaction-summary
 fig:numxcatx-parallel
@@ -420,8 +420,14 @@ percentiles-quartiles-and-iqr
 groupby
 grouping-by-more-than-one-variable
 m8c-calculate-descriptive-statistics-for-your-own-data
-module-9-understanding
-m9a-basic-regression
+m9u-linear-regression
+introduction-18
+linear-equations
+linear-relationships-and-scatterplots
+the-regression-equation
+least-squares-criteria-for-best-fit
+correlation-coefficients
+conclusion-9
 regression
 model1
 model1EDA
@@ -440,7 +446,7 @@ additional-resources-basic-regression
 whats-to-come
 m9c-perform-a-basic-regression-with-your-own-data
 module-10-understanding
-m10a-multiple-regression
+m10a-multiple-regression-multiple-regression
 model4
 model4EDA
 model4interactiontable

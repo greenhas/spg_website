@@ -1,6 +1,5 @@
-h1:m9a-basic-regression M9A: Basic Regression
+h1:regression M9A: Basic Regression
 (ref:moderndivepart) Data Modeling with 
-h1:regression Basic Regression
 h3:reg-packages Needed packages
 h2:model1 One numerical explanatory variable
 h3:model1EDA Exploratory data analysis

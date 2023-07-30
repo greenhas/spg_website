@@ -1,16 +1,6 @@
-# M9A: Basic Regression
+# M9A: Basic Regression {#regression}
 
 (ref:moderndivepart) Data Modeling with `moderndive`
-
-```{r echo=FALSE, results="asis", purl=FALSE}
-if (is_latex_output()) {
-  cat("# (PART) (ref:moderndivepart) {-}")
-} else {
-  cat("# (PART) Data Modeling with moderndive {-} ")
-}
-```
-
-# Basic Regression {#regression}
 
 ```{r, include=FALSE, purl=FALSE}
 # Used to define Learning Check numbers:
