@@ -472,8 +472,16 @@ simpsonsparadox
 mult-reg-conclusion
 references-13
 m10c-perform-a-multiple-regression-with-your-own-data
-module-11-understanding
+m11u-samples-and-populations
+introduction-22
 sampling
+variation-in-samples
+sample-sizes
+probability
+expected-values-and-the-law-of-large-numbers
+probability-and-sampling
+probability-and-the-normal-distribution
+conclusion-11
 sampling-activity
 what-proportion-of-this-bowls-balls-are-red
 using-the-shovel-once
