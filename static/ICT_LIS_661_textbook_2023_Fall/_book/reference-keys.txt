@@ -76,8 +76,9 @@ tab:recall-table
 tab:regtable-broom
 tab:regpoints-augment
 tab:model4-data-preview
+tab:unnamed-chunk-149
 fig:numxcatxplot1
-tab:unnamed-chunk-153
+tab:unnamed-chunk-152
 tab:regtable-interaction
 tab:interaction-summary
 fig:numxcatx-parallel
@@ -87,6 +88,7 @@ fig:numxcatx-comparison
 fig:fitted-values
 tab:model4-points-table
 tab:model3-data-preview
+tab:unnamed-chunk-164
 tab:model3-correlation
 fig:2numxplot1
 fig:3D-scatterplot
@@ -103,7 +105,6 @@ fig:2numxplot1-repeat
 tab:model3-table-output-repeat
 fig:credit-limit-quartiles
 fig:2numxplot4
-fig:part3
 fig:sampling-exercise-1
 fig:sampling-exercise-2
 fig:sampling-exercise-3
@@ -336,6 +337,7 @@ strangers-in-the-dataset
 sharing-work-and-sharing-credit
 conclusion-6
 references-7
+wrangling-tidying
 introduction-13
 wrangling
 piping
@@ -452,6 +454,7 @@ the-problem-with-automated-content-moderation
 an-example-from-instagram
 conclusion-10
 multiple-regression
+introduction-21
 model4
 model4EDA
 model4interactiontable
@@ -467,8 +470,7 @@ rsquared
 correlationcoefficient2
 simpsonsparadox
 mult-reg-conclusion
-additional-resources-1
-whats-to-come
+references-13
 m10c-perform-a-multiple-regression-with-your-own-data
 module-11-understanding
 sampling
@@ -491,8 +493,8 @@ sampling-conclusion-central-limit-theorem
 sampling-conclusion
 sampling-conclusion-table
 theory-se
-additional-resources-2
-whats-to-come-1
+additional-resources-1
+whats-to-come
 m11c-explore-sampling-with-your-own
 module-12-understanding
 confidence-intervals
@@ -525,7 +527,7 @@ interpreting-the-confidence-interval
 ci-conclusion
 bootstrap-vs-sampling
 theory-ci
-whats-to-come-2
+whats-to-come-1
 m12c-explore-confidence-intervals-with-your-own-data
 module-13-understanding
 hypothesis-testing
@@ -551,8 +553,8 @@ nhst-conclusion
 theory-hypo
 when-inference-is-not-needed
 problems-with-p-values
-additional-resources-3
-whats-to-come-3
+additional-resources-2
+whats-to-come-2
 m13c-explore-hypothesis-testing-with-your-own-data
 module-14-understanding
 inference-for-regression
