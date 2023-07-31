@@ -124,7 +124,6 @@ fig:comparing-sampling-distributions-2
 tab:comparing-n-2
 fig:comparing-sampling-distributions-3
 fig:accuracy-vs-precision
-tab:comparing-n-3
 fig:CLT-video-preview
 tab:table-ch8
 fig:resampling-exercise-a
@@ -474,7 +473,7 @@ references-13
 m10c-perform-a-multiple-regression-with-your-own-data
 m11u-samples-and-populations
 introduction-22
-sampling
+samples
 variation-in-samples
 sample-sizes
 probability
@@ -482,6 +481,8 @@ expected-values-and-the-law-of-large-numbers
 probability-and-sampling
 probability-and-the-normal-distribution
 conclusion-11
+sampling
+introduction-23
 sampling-activity
 what-proportion-of-this-bowls-balls-are-red
 using-the-shovel-once
@@ -499,9 +500,6 @@ moral-of-the-story
 sampling-case-study
 sampling-conclusion-central-limit-theorem
 sampling-conclusion
-sampling-conclusion-table
-theory-se
-additional-resources-1
 whats-to-come
 m11c-explore-sampling-with-your-own
 module-12-understanding
@@ -561,7 +559,7 @@ nhst-conclusion
 theory-hypo
 when-inference-is-not-needed
 problems-with-p-values
-additional-resources-2
+additional-resources-1
 whats-to-come-2
 m13c-explore-hypothesis-testing-with-your-own-data
 module-14-understanding

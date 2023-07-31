@@ -16,7 +16,7 @@ From the sample data, we can calculate a *statistic*. We've been using the word 
 
 One of the main concerns in the field of statistics is how accurately a *statistic* estimates a *parameter*. The accuracy really depends on how well the sample represents the population. The sample must contain the characteristics of the population in order to be a representative sample. In inferential statistics, we are interested in both the sample statistic and the population parameter.
 
-## Sampling
+## Samples 
 
 As mentioned earlier, gathering information about an entire population often costs too much—or is virtually impossible. Instead, we use a sample of the population. *Ideally, a sample should have the same characteristics as the population it is representing*.
 
