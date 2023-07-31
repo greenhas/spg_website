@@ -1,4 +1,5 @@
 h1:confidence-intervals M12A: Confidence Intervals
+h2:introduction Introduction
 h3:CI-packages Needed packages
 h2:resampling-tactile Pennies activity
 h3:what-is-the-average-year-on-us-pennies-in-2019 What is the average year on US pennies in 2019?
@@ -77,17 +78,4 @@ fig:bootstrap-distribution-mythbusters Bootstrap distribution.
 fig:bootstrap-distribution-mythbusters-CI Two 95\\% confidence intervals: percentile method (black) and standard error method (grey).
 h3:interpreting-the-confidence-interval Interpreting the confidence interval
 h2:ci-conclusion Conclusion
-h3:bootstrap-vs-sampling Comparing bootstrap and sampling distributions
-h4:sampling-distribution Sampling distribution
-fig:sampling-distribution-part-deux Previously seen sampling distribution of sample proportion red for $n = 1000$.
-h4:bootstrap-distribution Bootstrap distribution
-fig:bootstrap-distribution-part-deux Bootstrap distribution of proportion red for $n = 1000$.
-h4:comparison Comparison
-fig:side-by-side Comparing the sampling and bootstrap distributions of $\\widehat{p}$.
-tab:comparing-se Comparing standard errors
-h3:theory-ci Theory-based confidence intervals
-tab:comparing-se-2 Comparing standard errors
-h4:confidence-intervals-based-on-r-n_friend_groups-tactile-samples Confidence intervals based on  tactile samples
-fig:tactile-conf-int 33 confidence intervals at the 95\\% level based on 33 tactile samples of size $n = 50$.
-h3:whats-to-come What’s to come?
 

@@ -162,12 +162,6 @@ tab:perc-cis-average-width-2
 tab:table-ch8-c
 fig:bootstrap-distribution-mythbusters
 fig:bootstrap-distribution-mythbusters-CI
-fig:sampling-distribution-part-deux
-fig:bootstrap-distribution-part-deux
-fig:side-by-side
-tab:comparing-se
-tab:comparing-se-2
-fig:tactile-conf-int
 fig:promotions-barplot
 tab:compare-six
 fig:deck-of-cards
@@ -508,6 +502,7 @@ travelingwhiletrans
 conclusion-12
 references-14
 confidence-intervals
+introduction-25
 resampling-tactile
 what-is-the-average-year-on-us-pennies-in-2019
 resampling-once
@@ -535,9 +530,6 @@ sampling-scenario
 ci-build
 interpreting-the-confidence-interval
 ci-conclusion
-bootstrap-vs-sampling
-theory-ci
-whats-to-come-1
 m12c-explore-confidence-intervals-with-your-own-data
 module-13-understanding
 hypothesis-testing
@@ -564,7 +556,7 @@ theory-hypo
 when-inference-is-not-needed
 problems-with-p-values
 additional-resources-1
-whats-to-come-2
+whats-to-come-1
 m13c-explore-hypothesis-testing-with-your-own-data
 module-14-understanding
 inference-for-regression
