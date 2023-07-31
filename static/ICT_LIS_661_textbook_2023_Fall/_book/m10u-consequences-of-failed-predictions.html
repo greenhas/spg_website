@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Introduction to Data Science</title>
-  <meta name="description" content="Introduction to Data Science" />
+  <title>28 M10U: Consequences of Failed Predictions | Introduction to Data Science</title>
+  <meta name="description" content="28 M10U: Consequences of Failed Predictions | Introduction to Data Science" />
   <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Introduction to Data Science" />
+  <meta property="og:title" content="28 M10U: Consequences of Failed Predictions | Introduction to Data Science" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Introduction to Data Science" />
+  <meta name="twitter:title" content="28 M10U: Consequences of Failed Predictions | Introduction to Data Science" />
   
   
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="module-1-understanding.html"/>
+<link rel="prev" href="m9c-perform-a-basic-regression-with-your-own-data.html"/>
+<link rel="next" href="multiple-regression.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -684,14 +684,52 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Introduction to Data Science</h1>
-<h2 class="subtitle"><em>A Remixed Textbook for ICT/LIS 661 at the Uniersity of Kentucky [Fall 2023 Edition]</em></h2>
-<p class="author"><em>Spencer P. Greenhalgh, PhD</em></p>
+<div id="m10u-consequences-of-failed-predictions" class="section level1 hasAnchor" number="28">
+<h1><span class="header-section-number">28</span> M10U: Consequences of Failed Predictions<a href="m10u-consequences-of-failed-predictions.html#m10u-consequences-of-failed-predictions" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This chapter draws on material from:</p>
+<ul>
+<li><a href="https://www.eff.org/deeplinks/2020/04/automated-moderation-must-be-temporary-transparent-and-easily-appealable">Automated Moderation Must be Temporary, Transparent and Easily Appealable</a>, by <a href="https://www.eff.org/about/staff/jillian-york">Jillian C. York</a> and <a href="https://www.eff.org/about/staff/corynne-mcsherry">Corynne McSherry</a>, licensed under <a href="https://creativecommons.org/licenses/by/3.0/us/">CC BY 3.0</a>
+<a href="https://www.eff.org/deeplinks/2020/10/facebooks-most-recent-transparency-report-demonstrates-pitfalls-automated-content">Facebook’s Most Recent Transparency Report Demonstrates the Pitfalls of Automated Content Moderation</a>, by Svea Windwehr and <a href="https://www.eff.org/about/staff/jillian-york">Jillian C. York</a>, licensed under <a href="https://creativecommons.org/licenses/by/3.0/us/">CC BY 3.0</a>
+<a href="http://www.custodiansoftheinternet.org/">Custodians of the internet: Platforms, content moderation, and the hidden decisions that shape social media</a>, by Tarleton Gillespie, licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></li>
+</ul>
+<p>Changes to the source material include removal of original material, the addition of new material, combining of sources, and editing of original material for a different audience.</p>
+<p>The resulting content is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
+<div id="introduction-20" class="section level2 hasAnchor" number="28.1">
+<h2><span class="header-section-number">28.1</span> Introduction<a href="m10u-consequences-of-failed-predictions.html#introduction-20" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In the early months of the COVID-19 pandemic, many people found social media to be more important than ever before. It kept us informed and connected during an unprecedented moment in time. People used major social media platforms for all kinds of things, from following and posting news, to organizing aid—such as <a href="https://www.nbcnews.com/health/health-news/california-protective-equipment-shortage-pushes-nurses-consider-drastic-action-n1168976">coordinating the donations of masks</a> across international boundaries—to sharing tips on working from home to, of course, pure <a href="https://twitter.com/J4CKMULL/status/1242897328329101317">entertainment</a>.</p>
+<p>At the same time, the content moderation challenges faced by social media platforms didn’t disappear—and in some cases were exacerbated by the pandemic. Though the benefits of social media platforms may be obvious, and even seem utopian at times, the perils are also painfully apparent, more so every day: the pornographic, the obscene, the violent, the illegal, the abusive, and the hateful. So, social media platforms must, in some form or another, moderate—that is, take down, otherwise penalize, or at least flag certain kinds of content. Content moderation is important: to protect one user from another, to shield one group from its antagonists, and to remove the offensive, vile, or illegal. From a more self-serving perspective, platforms also want to present their best face to new users, to their advertisers and partners, and to the public at large.</p>
+<p>In the early weeks of the pandemic, <a href="https://youtube-creators.googleblog.com/2020/03/protecting-our-extended-workforce-and.html">YouTube</a>, <a href="https://blog.twitter.com/en_us/topics/company/2020/An-update-on-our-continuity-strategy-during-COVID-19.html">Twitter</a>, and <a href="https://about.fb.com/news/2020/03/coronavirus/">Facebook</a> all made public statements about their moderation strategies at that time. While they differed in details, they all had one key element in common: the increased reliance on automated tools. These companies described their increased reliance on automation in terms of ensuring the wellbeing of their content moderation teams and the privacy of their users. This is hard to argue with: Most social media companies rely on workers from the <a href="https://en.wikipedia.org/wiki/Global_North_and_Global_South">Global South</a> to review flagged content, usually under <a href="https://www.reuters.com/article/us-facebook-content-india-feature/some-facebook-content-reviewers-in-india-complain-of-low-pay-high-pressure-idUSKCN1QH15I">precarious working conditions</a> and without adequate protections from the <a href="https://www.theverge.com/2019/2/25/18229714/cognizant-facebook-content-moderator-interviews-trauma-working-conditions-arizona">traumatic effects</a> of their work. While the goal to protect workers from being exposed to these dangers while working from home is certainly legitimate, automated content moderation still poses a number of problems.</p>
 </div>
-<div id="introduction" class="section level1 hasAnchor" number="1">
-<h1><span class="header-section-number">1</span> Introduction<a href="index.html#introduction" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="regression-and-automated-content-moderation" class="section level2 hasAnchor" number="28.2">
+<h2><span class="header-section-number">28.2</span> Regression and Automated Content Moderation<a href="m10u-consequences-of-failed-predictions.html#regression-and-automated-content-moderation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Why read about content moderation in the context of regression? Well, we’re just skimming the surface of regression in this class. Regression is a whole family of statistical techniques, ranging from the relatively simple to the overwhelmingly complex. I’ve heard data scientists joke that fancy terms like <em>machine learning</em> and <em>artificial intelligence</em> are just fancy labels for what is actually just a regression analysis, and there’s some truth to that! While it’s hard to say what the details are of a particular platform’s automated content moderation process are (more on this later!), regression is going to be involved somewhere.</p>
+<p>As we read about last week, one of the applications of regression (especially in machine learning) is in prediction. While we aren’t using regression in this way in this course, it’s important for us to recognize that many of the technologies we use every day are applying regression to make predictions. In particular, automated content moderation is about prediction—can we get the computer to predict whether or not an image or some text is the kind of thing that we ought to remove from a platform? There’s no denying that that can be helpful! What happens, though, if we get the prediction wrong?</p>
+</div>
+<div id="the-problem-with-automated-content-moderation" class="section level2 hasAnchor" number="28.3">
+<h2><span class="header-section-number">28.3</span> The Problem with Automated Content Moderation<a href="m10u-consequences-of-failed-predictions.html#the-problem-with-automated-content-moderation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Automated content moderation doesn’t work at scale; it can’t read nuance in speech the way humans can, and for some languages it <a href="https://www.reuters.com/article/us-myanmar-rohingya-facebook/u-n-investigators-cite-facebook-role-in-myanmar-crisis-idUSKCN1GO2PN">barely works at all</a>. Over the years, we’ve seen the use of automation result in numerous <a href="https://eff.org/tossedout">wrongful takedowns</a>. In short: automation is not a sufficient replacement for having a human in the loop.</p>
+<p>And that’s a problem, especially since the COVID-19 pandemic has increased our reliance on online platforms to speak, educate and learn. Conferences are moving online, schools are relying on online platforms, and individuals are tuning in to videos to learn everything from yoga to gardening. Likewise, platforms continue to provide space for vital information, be it messages from governments to people, or documentation of human rights violations.</p>
+<p>It’s important to give credit where credit is due. In their announcements, YouTube and Twitter both acknowledged the shortcomings of artificial intelligence, and are taking that into account as they moderate content. <a href="https://youtube-creators.googleblog.com/2020/03/protecting-our-extended-workforce-and.html">YouTube</a> decided not to issue strikes on video content except in cases where they have “high confidence” that it violates their rules, and <a href="https://blog.twitter.com/en_us/topics/company/2020/An-update-on-our-continuity-strategy-during-COVID-19.html">Twitter</a> announced it would only be issuing temporary suspensions—not permanent bans. For its part, <a href="https://about.fb.com/news/2020/03/coronavirus/#content-review">Facebook</a> acknowledged that it would be relying on full-time employees to moderate certain types of content, such as terrorism.</p>
+<p>These temporary measures helped mitigate the inevitable over-moderation that follows from the use of automated tools. However, history suggests that protocols adopted in times of crisis often persist when the crisis is over, and we’ve seen that happen as the pandemic has become less severe. Just because many COVID-19 restrictions have been eased doesn’t mean that automated content moderation has gone away. In fact, it didn’t begin with COVID-19! Automated moderation is cheaper and faster than human moderation—which is a soul-sucking, punishing task—so it’s always going to be used to a certain extent in efforts to reduce costs and trauma.</p>
+<p>Again, those are good motivations, so we shouldn’t rule out the value of data science-driven automated content moderation. However, <a href="https://santaclaraprinciples.org/">The Santa Clara Principles</a> for content moderation—authored by the Electronic Frontier Foundation (EFF) and other organizations—begin with a statement on how and when it should be used:</p>
+<blockquote>
+<p>Companies should ensure that human rights and due process considerations are integrated at all stages of the content moderation process, and should publish information outlining how this integration is made. Companies should only use automated processes to identify or remove content or suspend accounts, whether supplemented by human review or not, when there is sufficiently high confidence in the quality and accuracy of those processes. Companies should also provide users with clear and accessible methods of obtaining support in the event of content and account actions.</p>
+</blockquote>
+<p>Companies like Apple, Meta, Google, Reddit, and Twitter have all endorsed these principles, but that’s no guarantee that they’ll actually follow through. In fact, Twitter’s approach to content moderation (not to mention its name) has changed drastically in recent months—and <a href="https://www.techdirt.com/2023/01/10/as-elon-fires-more-trust-safety-staff-twitters-moderation-efforts-fall-apart/">in a way</a> that demonstrates the shortcomings of automated approaches. All social media users ought to be interested in how companies rely on automated content moderation.</p>
+</div>
+<div id="an-example-from-instagram" class="section level2 hasAnchor" number="28.4">
+<h2><span class="header-section-number">28.4</span> An Example from Instagram<a href="m10u-consequences-of-failed-predictions.html#an-example-from-instagram" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In October 2020, the EFF argued that a then-recent Facebook transparency report] showed that the company’s increased use of automated content moderation during the COVID-19 pandemic lacked in both human oversight and options for appeals. Those gaps increase the power of automated moderation techniques—and make the consequences of failed predictions more severe. Let’s walk through this argument in some more detail:</p>
+<p>When content is removed on Instagram, people typically have the option to contest takedown decisions. In short, there’s a recognition that an automated moderation system might make a mistake, so users can make a case for that. Typically, when the appeals process is initiated, the deleted material is reviewed by a human moderator and the takedown decision can get reversed and content reinstated. During the increased use of automated moderation, however, that option was seriously limited, with users receiving notification that their appeal may not be considered. According to the transparency report, there were zero appeals on Instagram during the second quarter of 2020—this doesn’t mean that Instagram’s automated content moderation didn’t make mistakes, just that it didn’t fix any of them.</p>
+<p>While Instagram also occasionally restores content on its own accord, user appeals usually trigger the vast majority of content that gets reinstated. So, heavier reliance on automated moderation means fewer human-reviewed appeals, which means more mistakes that can’t get corrected. An example: in Q2 of 2020, more than 380,000 posts that allegedly contained terrorist content were removed from Instagram, fewer than the 440,000 in Q1 (when Instagram wasn’t so reliant on automation because COVID-19 mostly hadn’t picked up yet). While around 8,100 takedowns were appealed by users in Q1, that number plummeted to zero in Q2. Looking at the number of posts restored, the impact of the lack of user appeals becomes apparent: During the first quarter, 500 pieces of content were restored after an appeal from a user, compared to the 190 posts that were reinstated without an appeal. In Q2, with no appeal system available to users, merely 70 posts of the several hundred thousand posts that allegedly contained terrorist content were restored, and more people had to deal with the consequences of a failed prediction.</p>
+<p>To be clear: Instagram should be taking down terrorist content from their platforms! That’s a good thing, and an example of why everyone should endorse content moderation, even if people disagree over the details. However, evidence of human rights violations and war crimes often gets <a href="https://www.eff.org/wp/caught-net-impact-extremist-speech-regulations-human-rights-content">caught in the net</a> of automated content moderation as algorithms have a hard time differentiating between actual “terrorist” content and efforts to record and archive violent events. In a similar example, YouTube <a href="https://www.techdirt.com/2022/06/21/impossibility-theorem-strikes-again-youtube-deletes-january-6th-committee-video/">took down</a> a video in June 2022 that had been posted by the January 6th House Select Committee. The rationale behind the takedown was that the video contained election misinformation. It <em>did</em> contain election misinformation, but for the purposes of documenting and criticizing that misinformation, not as an endorsement of that misinformation! It’s not clear whether this was the result of automated or human moderation, but if human content moderators make mistakes, automated moderators are even less trustworthy.</p>
+<p>Why does this matter? First of all, because this negative impact of automated content detection is <a href="https://www.fastcompany.com/40540411/erasing-history-youtubes-deletion-of-syria-war-videos-concerns-human-rights-groups">disproportionately borne by Muslim and Arab communities</a>. Second, because even though Instagram and Facebook are operated by the same company, there were inconsistencies in how the two platforms moderated content. The report, in question, which listed data for the last two quarters of 2019 and the first two of 2020, did not consistently report the data on the same categories across the two platforms. Similarly, the granularity of data reported for various categories of content differed depending on platform. These may seem like small details, but they’re pretty big inconsistencies given that both platforms are owned by the same company. These differences in how one company enforces its rules across two platforms further highlights how difficult it is to deal with the problem of violent content through automated content moderation alone.</p>
+</div>
+<div id="conclusion-10" class="section level2 hasAnchor" number="28.5">
+<h2><span class="header-section-number">28.5</span> Conclusion<a href="m10u-consequences-of-failed-predictions.html#conclusion-10" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>As machine learning and artificial intelligence continue to develop, people and organizations are increasingly use them (and their underlying regression models) to make predictions about the world. It’s impressive how many predictions these tools get right, but the more dependent we become on these tools, the greater the consequences of a failed prediction. It’s important for us as data scientists—and perhaps even more as citizens—to be aware of the shortcomings of these techniques!</p>
 
+</div>
 </div>
 <script src="https://hypothes.is/embed.js" async></script>
             </section>
@@ -699,8 +737,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-
-<a href="module-1-understanding.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="m9c-perform-a-basic-regression-with-your-own-data.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="multiple-regression.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

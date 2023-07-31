@@ -445,7 +445,12 @@ underthehood
 reg-conclusion
 references-12
 m9c-perform-a-basic-regression-with-your-own-data
-module-10-understanding
+m10u-consequences-of-failed-predictions
+introduction-20
+regression-and-automated-content-moderation
+the-problem-with-automated-content-moderation
+an-example-from-instagram
+conclusion-10
 multiple-regression
 model4
 model4EDA
