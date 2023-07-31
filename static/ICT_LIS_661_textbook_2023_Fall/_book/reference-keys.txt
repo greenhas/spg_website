@@ -577,3 +577,8 @@ m14c-perform-an-inferential-regression-with-your-own-data
 m15u-reflect-on-your-understanding-of-data-science
 m15a-reflect-on-your-application-of-data-science
 m15c-reflect-on-your-connection-of-data-science
+help-files
+relating-regression-to-other-methods
+two-sample-difference-in-means
+anova
+introduction-19

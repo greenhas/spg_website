@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>26 M9U: Linear Regression | Introduction to Data Science</title>
-  <meta name="description" content="26 M9U: Linear Regression | Introduction to Data Science" />
+  <title>25 M9U: Linear Regression | Introduction to Data Science</title>
+  <meta name="description" content="25 M9U: Linear Regression | Introduction to Data Science" />
   <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="26 M9U: Linear Regression | Introduction to Data Science" />
+  <meta property="og:title" content="25 M9U: Linear Regression | Introduction to Data Science" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="26 M9U: Linear Regression | Introduction to Data Science" />
+  <meta name="twitter:title" content="25 M9U: Linear Regression | Introduction to Data Science" />
   
   
   
@@ -51,74 +51,8 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
-<script src="libs/kePrint-0.0.1/kePrint.js"></script>
-<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 
 
-<style type="text/css">
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-</style>
 
 
 </head>
@@ -179,6 +113,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="6.5.2" data-path="getting-started.html"><a href="getting-started.html#flights-data-frame"><i class="fa fa-check"></i><b>6.5.2</b> <code>flights</code> data frame</a></li>
 <li class="chapter" data-level="6.5.3" data-path="getting-started.html"><a href="getting-started.html#exploredataframes"><i class="fa fa-check"></i><b>6.5.3</b> Exploring data frames</a></li>
 <li class="chapter" data-level="6.5.4" data-path="getting-started.html"><a href="getting-started.html#identification-vs-measurement-variables"><i class="fa fa-check"></i><b>6.5.4</b> Identification and measurement variables</a></li>
+<li class="chapter" data-level="6.5.5" data-path="getting-started.html"><a href="getting-started.html#help-files"><i class="fa fa-check"></i><b>6.5.5</b> Help files</a></li>
 </ul></li>
 <li class="chapter" data-level="6.6" data-path="getting-started.html"><a href="getting-started.html#conclusion"><i class="fa fa-check"></i><b>6.6</b> Conclusion</a></li>
 </ul></li>
@@ -303,363 +238,366 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="17.6" data-path="m6u-unicorns-janitors-and-rock-stars.html"><a href="m6u-unicorns-janitors-and-rock-stars.html#conclusion-6"><i class="fa fa-check"></i><b>17.6</b> Conclusion</a></li>
 <li class="chapter" data-level="17.7" data-path="m6u-unicorns-janitors-and-rock-stars.html"><a href="m6u-unicorns-janitors-and-rock-stars.html#references-7"><i class="fa fa-check"></i><b>17.7</b> References</a></li>
 </ul></li>
-<li class="chapter" data-level="18" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html"><i class="fa fa-check"></i><b>18</b> M6A: Wrangling and Tidying Data</a>
+<li class="chapter" data-level="" data-path="wrangling-tidying.html"><a href="wrangling-tidying.html"><i class="fa fa-check"></i>M6A: Wrangling and Tidying Data</a>
 <ul>
-<li class="chapter" data-level="18.1" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#introduction-13"><i class="fa fa-check"></i><b>18.1</b> Introduction</a></li>
-<li class="chapter" data-level="18.2" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#wrangling"><i class="fa fa-check"></i><b>18.2</b> Wrangling</a>
+<li class="chapter" data-level="17.8" data-path="wrangling-tidying.html"><a href="wrangling-tidying.html#introduction-13"><i class="fa fa-check"></i><b>17.8</b> Introduction</a></li>
+<li class="chapter" data-level="17.9" data-path="wrangling-tidying.html"><a href="wrangling-tidying.html#wrangling"><i class="fa fa-check"></i><b>17.9</b> Wrangling</a>
 <ul>
-<li class="chapter" data-level="" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#wrangling-packages"><i class="fa fa-check"></i>Needed packages</a></li>
-<li class="chapter" data-level="18.2.1" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#piping"><i class="fa fa-check"></i><b>18.2.1</b> The pipe operator: <code>%&gt;%</code></a></li>
-<li class="chapter" data-level="18.2.2" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#filter"><i class="fa fa-check"></i><b>18.2.2</b> <code>filter</code> rows</a></li>
-<li class="chapter" data-level="18.2.3" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#mutate"><i class="fa fa-check"></i><b>18.2.3</b> <code>mutate</code> existing variables</a></li>
-<li class="chapter" data-level="18.2.4" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#arrange"><i class="fa fa-check"></i><b>18.2.4</b> <code>arrange</code> and sort rows</a></li>
-<li class="chapter" data-level="18.2.5" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#select"><i class="fa fa-check"></i><b>18.2.5</b> <code>select</code> variables</a></li>
-<li class="chapter" data-level="18.2.6" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#rename"><i class="fa fa-check"></i><b>18.2.6</b> <code>rename</code> variables</a></li>
-<li class="chapter" data-level="18.2.7" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#top_n-values-of-a-variable"><i class="fa fa-check"></i><b>18.2.7</b> <code>top_n</code> values of a variable</a></li>
+<li class="chapter" data-level="" data-path="wrangling-tidying.html"><a href="wrangling-tidying.html#wrangling-packages"><i class="fa fa-check"></i>Needed packages</a></li>
+<li class="chapter" data-level="17.9.1" data-path="wrangling-tidying.html"><a href="wrangling-tidying.html#piping"><i class="fa fa-check"></i><b>17.9.1</b> The pipe operator: <code>%&gt;%</code></a></li>
+<li class="chapter" data-level="17.9.2" data-path="wrangling-tidying.html"><a href="wrangling-tidying.html#filter"><i class="fa fa-check"></i><b>17.9.2</b> <code>filter</code> rows</a></li>
+<li class="chapter" data-level="17.9.3" data-path="wrangling-tidying.html"><a href="wrangling-tidying.html#mutate"><i class="fa fa-check"></i><b>17.9.3</b> <code>mutate</code> existing variables</a></li>
+<li class="chapter" data-level="17.9.4" data-path="wrangling-tidying.html"><a href="wrangling-tidying.html#arrange"><i class="fa fa-check"></i><b>17.9.4</b> <code>arrange</code> and sort rows</a></li>
+<li class="chapter" data-level="17.9.5" data-path="wrangling-tidying.html"><a href="wrangling-tidying.html#select"><i class="fa fa-check"></i><b>17.9.5</b> <code>select</code> variables</a></li>
+<li class="chapter" data-level="17.9.6" data-path="wrangling-tidying.html"><a href="wrangling-tidying.html#rename"><i class="fa fa-check"></i><b>17.9.6</b> <code>rename</code> variables</a></li>
+<li class="chapter" data-level="17.9.7" data-path="wrangling-tidying.html"><a href="wrangling-tidying.html#top_n-values-of-a-variable"><i class="fa fa-check"></i><b>17.9.7</b> <code>top_n</code> values of a variable</a></li>
 </ul></li>
-<li class="chapter" data-level="18.3" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#tidying-data"><i class="fa fa-check"></i><b>18.3</b> Tidying Data</a>
+<li class="chapter" data-level="17.10" data-path="wrangling-tidying.html"><a href="wrangling-tidying.html#tidying-data"><i class="fa fa-check"></i><b>17.10</b> Tidying Data</a>
 <ul>
-<li class="chapter" data-level="" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#tidy-packages"><i class="fa fa-check"></i>Needed packages</a></li>
-<li class="chapter" data-level="18.3.1" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#csv"><i class="fa fa-check"></i><b>18.3.1</b> Importing data</a></li>
-<li class="chapter" data-level="18.3.2" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#tidy-data-ex"><i class="fa fa-check"></i><b>18.3.2</b> “Tidy” data</a></li>
-<li class="chapter" data-level="18.3.3" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#tidy-definition"><i class="fa fa-check"></i><b>18.3.3</b> Definition of “tidy” data</a></li>
-<li class="chapter" data-level="18.3.4" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#converting-to-tidy-data"><i class="fa fa-check"></i><b>18.3.4</b> Converting to “tidy” data</a></li>
-<li class="chapter" data-level="18.3.5" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#case-study-tidy"><i class="fa fa-check"></i><b>18.3.5</b> Case study: Democracy in Guatemala</a></li>
+<li class="chapter" data-level="" data-path="wrangling-tidying.html"><a href="wrangling-tidying.html#tidy-packages"><i class="fa fa-check"></i>Needed packages</a></li>
+<li class="chapter" data-level="17.10.1" data-path="wrangling-tidying.html"><a href="wrangling-tidying.html#csv"><i class="fa fa-check"></i><b>17.10.1</b> Importing data</a></li>
+<li class="chapter" data-level="17.10.2" data-path="wrangling-tidying.html"><a href="wrangling-tidying.html#tidy-data-ex"><i class="fa fa-check"></i><b>17.10.2</b> “Tidy” data</a></li>
+<li class="chapter" data-level="17.10.3" data-path="wrangling-tidying.html"><a href="wrangling-tidying.html#tidy-definition"><i class="fa fa-check"></i><b>17.10.3</b> Definition of “tidy” data</a></li>
+<li class="chapter" data-level="17.10.4" data-path="wrangling-tidying.html"><a href="wrangling-tidying.html#converting-to-tidy-data"><i class="fa fa-check"></i><b>17.10.4</b> Converting to “tidy” data</a></li>
+<li class="chapter" data-level="17.10.5" data-path="wrangling-tidying.html"><a href="wrangling-tidying.html#case-study-tidy"><i class="fa fa-check"></i><b>17.10.5</b> Case study: Democracy in Guatemala</a></li>
 </ul></li>
-<li class="chapter" data-level="18.4" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#tidyverse-package"><i class="fa fa-check"></i><b>18.4</b> <code>tidyverse</code> package</a></li>
-<li class="chapter" data-level="18.5" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#references-8"><i class="fa fa-check"></i><b>18.5</b> References</a></li>
+<li class="chapter" data-level="17.11" data-path="wrangling-tidying.html"><a href="wrangling-tidying.html#tidyverse-package"><i class="fa fa-check"></i><b>17.11</b> <code>tidyverse</code> package</a></li>
+<li class="chapter" data-level="17.12" data-path="wrangling-tidying.html"><a href="wrangling-tidying.html#references-8"><i class="fa fa-check"></i><b>17.12</b> References</a></li>
 </ul></li>
-<li class="chapter" data-level="19" data-path="m6c-practice-wrangling-and-tidying-your-own-data.html"><a href="m6c-practice-wrangling-and-tidying-your-own-data.html"><i class="fa fa-check"></i><b>19</b> M6C: Practice Wrangling and Tidying Your Own Data</a></li>
-<li class="chapter" data-level="20" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html"><i class="fa fa-check"></i><b>20</b> M7U: Subjectivity in Data Visualization</a>
+<li class="chapter" data-level="18" data-path="m6c-practice-wrangling-and-tidying-your-own-data.html"><a href="m6c-practice-wrangling-and-tidying-your-own-data.html"><i class="fa fa-check"></i><b>18</b> M6C: Practice Wrangling and Tidying Your Own Data</a></li>
+<li class="chapter" data-level="19" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html"><i class="fa fa-check"></i><b>19</b> M7U: Subjectivity in Data Visualization</a>
 <ul>
-<li class="chapter" data-level="20.1" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#introduction-14"><i class="fa fa-check"></i><b>20.1</b> Introduction</a></li>
-<li class="chapter" data-level="20.2" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#persuasion-and-the-god-trick"><i class="fa fa-check"></i><b>20.2</b> Persuasion and the God Trick</a></li>
-<li class="chapter" data-level="20.3" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#visualization-as-rhetoric"><i class="fa fa-check"></i><b>20.3</b> Visualization as Rhetoric</a></li>
-<li class="chapter" data-level="20.4" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#editorial-choices-in-visualization"><i class="fa fa-check"></i><b>20.4</b> Editorial Choices in Visualization</a></li>
-<li class="chapter" data-level="20.5" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#visualization-as-ideological-work"><i class="fa fa-check"></i><b>20.5</b> Visualization as Ideological Work</a></li>
-<li class="chapter" data-level="20.6" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#feminist-objectivity"><i class="fa fa-check"></i><b>20.6</b> Feminist Objectivity</a></li>
-<li class="chapter" data-level="20.7" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#data-visceralization"><i class="fa fa-check"></i><b>20.7</b> Data Visceralization</a></li>
-<li class="chapter" data-level="20.8" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#conclusion-7"><i class="fa fa-check"></i><b>20.8</b> Conclusion</a></li>
-<li class="chapter" data-level="20.9" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#references-9"><i class="fa fa-check"></i><b>20.9</b> References</a></li>
+<li class="chapter" data-level="19.1" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#introduction-14"><i class="fa fa-check"></i><b>19.1</b> Introduction</a></li>
+<li class="chapter" data-level="19.2" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#persuasion-and-the-god-trick"><i class="fa fa-check"></i><b>19.2</b> Persuasion and the God Trick</a></li>
+<li class="chapter" data-level="19.3" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#visualization-as-rhetoric"><i class="fa fa-check"></i><b>19.3</b> Visualization as Rhetoric</a></li>
+<li class="chapter" data-level="19.4" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#editorial-choices-in-visualization"><i class="fa fa-check"></i><b>19.4</b> Editorial Choices in Visualization</a></li>
+<li class="chapter" data-level="19.5" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#visualization-as-ideological-work"><i class="fa fa-check"></i><b>19.5</b> Visualization as Ideological Work</a></li>
+<li class="chapter" data-level="19.6" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#feminist-objectivity"><i class="fa fa-check"></i><b>19.6</b> Feminist Objectivity</a></li>
+<li class="chapter" data-level="19.7" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#data-visceralization"><i class="fa fa-check"></i><b>19.7</b> Data Visceralization</a></li>
+<li class="chapter" data-level="19.8" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#conclusion-7"><i class="fa fa-check"></i><b>19.8</b> Conclusion</a></li>
+<li class="chapter" data-level="19.9" data-path="m7u-subjectivity-in-data-visualization.html"><a href="m7u-subjectivity-in-data-visualization.html#references-9"><i class="fa fa-check"></i><b>19.9</b> References</a></li>
 </ul></li>
-<li class="chapter" data-level="21" data-path="viz.html"><a href="viz.html"><i class="fa fa-check"></i><b>21</b> M7A: Data Visualization</a>
+<li class="chapter" data-level="20" data-path="viz.html"><a href="viz.html"><i class="fa fa-check"></i><b>20</b> M7A: Data Visualization</a>
 <ul>
-<li class="chapter" data-level="21.1" data-path="viz.html"><a href="viz.html#introduction-15"><i class="fa fa-check"></i><b>21.1</b> Introduction</a>
+<li class="chapter" data-level="20.1" data-path="viz.html"><a href="viz.html#introduction-15"><i class="fa fa-check"></i><b>20.1</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="" data-path="viz.html"><a href="viz.html#needed-packages"><i class="fa fa-check"></i>Needed packages</a></li>
 </ul></li>
-<li class="chapter" data-level="21.2" data-path="viz.html"><a href="viz.html#grammarofgraphics"><i class="fa fa-check"></i><b>21.2</b> The grammar of graphics</a>
+<li class="chapter" data-level="20.2" data-path="viz.html"><a href="viz.html#grammarofgraphics"><i class="fa fa-check"></i><b>20.2</b> The grammar of graphics</a>
 <ul>
-<li class="chapter" data-level="21.2.1" data-path="viz.html"><a href="viz.html#components-of-the-grammar"><i class="fa fa-check"></i><b>21.2.1</b> Components of the grammar</a></li>
-<li class="chapter" data-level="21.2.2" data-path="viz.html"><a href="viz.html#gapminder"><i class="fa fa-check"></i><b>21.2.2</b> Gapminder data</a></li>
-<li class="chapter" data-level="21.2.3" data-path="viz.html"><a href="viz.html#other-components"><i class="fa fa-check"></i><b>21.2.3</b> Other components</a></li>
-<li class="chapter" data-level="21.2.4" data-path="viz.html"><a href="viz.html#ggplot2-package"><i class="fa fa-check"></i><b>21.2.4</b> ggplot2 package</a></li>
+<li class="chapter" data-level="20.2.1" data-path="viz.html"><a href="viz.html#components-of-the-grammar"><i class="fa fa-check"></i><b>20.2.1</b> Components of the grammar</a></li>
+<li class="chapter" data-level="20.2.2" data-path="viz.html"><a href="viz.html#gapminder"><i class="fa fa-check"></i><b>20.2.2</b> Gapminder data</a></li>
+<li class="chapter" data-level="20.2.3" data-path="viz.html"><a href="viz.html#other-components"><i class="fa fa-check"></i><b>20.2.3</b> Other components</a></li>
+<li class="chapter" data-level="20.2.4" data-path="viz.html"><a href="viz.html#ggplot2-package"><i class="fa fa-check"></i><b>20.2.4</b> ggplot2 package</a></li>
 </ul></li>
-<li class="chapter" data-level="21.3" data-path="viz.html"><a href="viz.html#FiveNG"><i class="fa fa-check"></i><b>21.3</b> Five named graphs - the 5NG</a></li>
-<li class="chapter" data-level="21.4" data-path="viz.html"><a href="viz.html#scatterplots"><i class="fa fa-check"></i><b>21.4</b> 5NG#1: Scatterplots</a>
+<li class="chapter" data-level="20.3" data-path="viz.html"><a href="viz.html#FiveNG"><i class="fa fa-check"></i><b>20.3</b> Five named graphs - the 5NG</a></li>
+<li class="chapter" data-level="20.4" data-path="viz.html"><a href="viz.html#scatterplots"><i class="fa fa-check"></i><b>20.4</b> 5NG#1: Scatterplots</a>
 <ul>
-<li class="chapter" data-level="21.4.1" data-path="viz.html"><a href="viz.html#geompoint"><i class="fa fa-check"></i><b>21.4.1</b> Scatterplots via <code>geom_point</code></a></li>
-<li class="chapter" data-level="21.4.2" data-path="viz.html"><a href="viz.html#overplotting"><i class="fa fa-check"></i><b>21.4.2</b> Overplotting</a></li>
-<li class="chapter" data-level="21.4.3" data-path="viz.html"><a href="viz.html#summary"><i class="fa fa-check"></i><b>21.4.3</b> Summary</a></li>
+<li class="chapter" data-level="20.4.1" data-path="viz.html"><a href="viz.html#geompoint"><i class="fa fa-check"></i><b>20.4.1</b> Scatterplots via <code>geom_point</code></a></li>
+<li class="chapter" data-level="20.4.2" data-path="viz.html"><a href="viz.html#overplotting"><i class="fa fa-check"></i><b>20.4.2</b> Overplotting</a></li>
+<li class="chapter" data-level="20.4.3" data-path="viz.html"><a href="viz.html#summary"><i class="fa fa-check"></i><b>20.4.3</b> Summary</a></li>
 </ul></li>
-<li class="chapter" data-level="21.5" data-path="viz.html"><a href="viz.html#linegraphs"><i class="fa fa-check"></i><b>21.5</b> 5NG#2: Linegraphs</a>
+<li class="chapter" data-level="20.5" data-path="viz.html"><a href="viz.html#linegraphs"><i class="fa fa-check"></i><b>20.5</b> 5NG#2: Linegraphs</a>
 <ul>
-<li class="chapter" data-level="21.5.1" data-path="viz.html"><a href="viz.html#geomline"><i class="fa fa-check"></i><b>21.5.1</b> Linegraphs via <code>geom_line</code></a></li>
-<li class="chapter" data-level="21.5.2" data-path="viz.html"><a href="viz.html#summary-1"><i class="fa fa-check"></i><b>21.5.2</b> Summary</a></li>
+<li class="chapter" data-level="20.5.1" data-path="viz.html"><a href="viz.html#geomline"><i class="fa fa-check"></i><b>20.5.1</b> Linegraphs via <code>geom_line</code></a></li>
+<li class="chapter" data-level="20.5.2" data-path="viz.html"><a href="viz.html#summary-1"><i class="fa fa-check"></i><b>20.5.2</b> Summary</a></li>
 </ul></li>
-<li class="chapter" data-level="21.6" data-path="viz.html"><a href="viz.html#histograms"><i class="fa fa-check"></i><b>21.6</b> 5NG#3: Histograms</a>
+<li class="chapter" data-level="20.6" data-path="viz.html"><a href="viz.html#histograms"><i class="fa fa-check"></i><b>20.6</b> 5NG#3: Histograms</a>
 <ul>
-<li class="chapter" data-level="21.6.1" data-path="viz.html"><a href="viz.html#geomhistogram"><i class="fa fa-check"></i><b>21.6.1</b> Histograms via <code>geom_histogram</code></a></li>
-<li class="chapter" data-level="21.6.2" data-path="viz.html"><a href="viz.html#adjustbins"><i class="fa fa-check"></i><b>21.6.2</b> Adjusting the bins</a></li>
-<li class="chapter" data-level="21.6.3" data-path="viz.html"><a href="viz.html#summary-2"><i class="fa fa-check"></i><b>21.6.3</b> Summary</a></li>
+<li class="chapter" data-level="20.6.1" data-path="viz.html"><a href="viz.html#geomhistogram"><i class="fa fa-check"></i><b>20.6.1</b> Histograms via <code>geom_histogram</code></a></li>
+<li class="chapter" data-level="20.6.2" data-path="viz.html"><a href="viz.html#adjustbins"><i class="fa fa-check"></i><b>20.6.2</b> Adjusting the bins</a></li>
+<li class="chapter" data-level="20.6.3" data-path="viz.html"><a href="viz.html#summary-2"><i class="fa fa-check"></i><b>20.6.3</b> Summary</a></li>
 </ul></li>
-<li class="chapter" data-level="21.7" data-path="viz.html"><a href="viz.html#facets"><i class="fa fa-check"></i><b>21.7</b> Facets</a></li>
-<li class="chapter" data-level="21.8" data-path="viz.html"><a href="viz.html#boxplots"><i class="fa fa-check"></i><b>21.8</b> 5NG#4: Boxplots</a>
+<li class="chapter" data-level="20.7" data-path="viz.html"><a href="viz.html#facets"><i class="fa fa-check"></i><b>20.7</b> Facets</a></li>
+<li class="chapter" data-level="20.8" data-path="viz.html"><a href="viz.html#boxplots"><i class="fa fa-check"></i><b>20.8</b> 5NG#4: Boxplots</a>
 <ul>
-<li class="chapter" data-level="21.8.1" data-path="viz.html"><a href="viz.html#geomboxplot"><i class="fa fa-check"></i><b>21.8.1</b> Boxplots via <code>geom_boxplot</code></a></li>
-<li class="chapter" data-level="21.8.2" data-path="viz.html"><a href="viz.html#summary-3"><i class="fa fa-check"></i><b>21.8.2</b> Summary</a></li>
+<li class="chapter" data-level="20.8.1" data-path="viz.html"><a href="viz.html#geomboxplot"><i class="fa fa-check"></i><b>20.8.1</b> Boxplots via <code>geom_boxplot</code></a></li>
+<li class="chapter" data-level="20.8.2" data-path="viz.html"><a href="viz.html#summary-3"><i class="fa fa-check"></i><b>20.8.2</b> Summary</a></li>
 </ul></li>
-<li class="chapter" data-level="21.9" data-path="viz.html"><a href="viz.html#geombar"><i class="fa fa-check"></i><b>21.9</b> 5NG#5: Barplots</a>
+<li class="chapter" data-level="20.9" data-path="viz.html"><a href="viz.html#geombar"><i class="fa fa-check"></i><b>20.9</b> 5NG#5: Barplots</a>
 <ul>
-<li class="chapter" data-level="21.9.1" data-path="viz.html"><a href="viz.html#barplots-via-geom_bar-or-geom_col"><i class="fa fa-check"></i><b>21.9.1</b> Barplots via <code>geom_bar</code> or <code>geom_col</code></a></li>
-<li class="chapter" data-level="21.9.2" data-path="viz.html"><a href="viz.html#avoid-pie-charts"><i class="fa fa-check"></i><b>21.9.2</b> Avoid pie charts!</a></li>
-<li class="chapter" data-level="21.9.3" data-path="viz.html"><a href="viz.html#two-categ-barplot"><i class="fa fa-check"></i><b>21.9.3</b> Two categorical variables</a></li>
-<li class="chapter" data-level="21.9.4" data-path="viz.html"><a href="viz.html#summary-4"><i class="fa fa-check"></i><b>21.9.4</b> Summary</a></li>
+<li class="chapter" data-level="20.9.1" data-path="viz.html"><a href="viz.html#barplots-via-geom_bar-or-geom_col"><i class="fa fa-check"></i><b>20.9.1</b> Barplots via <code>geom_bar</code> or <code>geom_col</code></a></li>
+<li class="chapter" data-level="20.9.2" data-path="viz.html"><a href="viz.html#avoid-pie-charts"><i class="fa fa-check"></i><b>20.9.2</b> Avoid pie charts!</a></li>
+<li class="chapter" data-level="20.9.3" data-path="viz.html"><a href="viz.html#two-categ-barplot"><i class="fa fa-check"></i><b>20.9.3</b> Two categorical variables</a></li>
+<li class="chapter" data-level="20.9.4" data-path="viz.html"><a href="viz.html#summary-4"><i class="fa fa-check"></i><b>20.9.4</b> Summary</a></li>
 </ul></li>
-<li class="chapter" data-level="21.10" data-path="viz.html"><a href="viz.html#data-vis-conclusion"><i class="fa fa-check"></i><b>21.10</b> Conclusion</a>
+<li class="chapter" data-level="20.10" data-path="viz.html"><a href="viz.html#data-vis-conclusion"><i class="fa fa-check"></i><b>20.10</b> Conclusion</a>
 <ul>
-<li class="chapter" data-level="21.10.1" data-path="viz.html"><a href="viz.html#summary-table"><i class="fa fa-check"></i><b>21.10.1</b> Summary table</a></li>
-<li class="chapter" data-level="21.10.2" data-path="viz.html"><a href="viz.html#function-argument-specification"><i class="fa fa-check"></i><b>21.10.2</b> Function argument specification</a></li>
-<li class="chapter" data-level="21.10.3" data-path="viz.html"><a href="viz.html#additional-resources"><i class="fa fa-check"></i><b>21.10.3</b> Additional resources</a></li>
+<li class="chapter" data-level="20.10.1" data-path="viz.html"><a href="viz.html#summary-table"><i class="fa fa-check"></i><b>20.10.1</b> Summary table</a></li>
+<li class="chapter" data-level="20.10.2" data-path="viz.html"><a href="viz.html#function-argument-specification"><i class="fa fa-check"></i><b>20.10.2</b> Function argument specification</a></li>
+<li class="chapter" data-level="20.10.3" data-path="viz.html"><a href="viz.html#additional-resources"><i class="fa fa-check"></i><b>20.10.3</b> Additional resources</a></li>
 </ul></li>
-<li class="chapter" data-level="21.11" data-path="viz.html"><a href="viz.html#references-10"><i class="fa fa-check"></i><b>21.11</b> References</a></li>
+<li class="chapter" data-level="20.11" data-path="viz.html"><a href="viz.html#references-10"><i class="fa fa-check"></i><b>20.11</b> References</a></li>
 </ul></li>
-<li class="chapter" data-level="22" data-path="m7c-practice-visualizing-your-own-data.html"><a href="m7c-practice-visualizing-your-own-data.html"><i class="fa fa-check"></i><b>22</b> M7C: Practice Visualizing Your Own Data</a></li>
-<li class="chapter" data-level="23" data-path="m8u-statistics-and-scientific-racism.html"><a href="m8u-statistics-and-scientific-racism.html"><i class="fa fa-check"></i><b>23</b> M8U: Statistics and Scientific Racism</a>
+<li class="chapter" data-level="21" data-path="m7c-practice-visualizing-your-own-data.html"><a href="m7c-practice-visualizing-your-own-data.html"><i class="fa fa-check"></i><b>21</b> M7C: Practice Visualizing Your Own Data</a></li>
+<li class="chapter" data-level="22" data-path="m8u-statistics-and-scientific-racism.html"><a href="m8u-statistics-and-scientific-racism.html"><i class="fa fa-check"></i><b>22</b> M8U: Statistics and Scientific Racism</a>
 <ul>
-<li class="chapter" data-level="23.1" data-path="m8u-statistics-and-scientific-racism.html"><a href="m8u-statistics-and-scientific-racism.html#introduction-16"><i class="fa fa-check"></i><b>23.1</b> Introduction</a></li>
-<li class="chapter" data-level="23.2" data-path="m8u-statistics-and-scientific-racism.html"><a href="m8u-statistics-and-scientific-racism.html#the-origins-of-statistics"><i class="fa fa-check"></i><b>23.2</b> The Origins of Statistics</a></li>
-<li class="chapter" data-level="23.3" data-path="m8u-statistics-and-scientific-racism.html"><a href="m8u-statistics-and-scientific-racism.html#the-importance-of-statistical-humility"><i class="fa fa-check"></i><b>23.3</b> The Importance of Statistical Humility</a></li>
-<li class="chapter" data-level="23.4" data-path="m8u-statistics-and-scientific-racism.html"><a href="m8u-statistics-and-scientific-racism.html#eugenics-a-failure-of-statistical-humility"><i class="fa fa-check"></i><b>23.4</b> Eugenics: A Failure of Statistical Humility</a></li>
-<li class="chapter" data-level="23.5" data-path="m8u-statistics-and-scientific-racism.html"><a href="m8u-statistics-and-scientific-racism.html#the-continuing-legacy-of-eugenics-and-scientific-racism"><i class="fa fa-check"></i><b>23.5</b> The Continuing Legacy of Eugenics and Scientific Racism</a></li>
-<li class="chapter" data-level="23.6" data-path="m8u-statistics-and-scientific-racism.html"><a href="m8u-statistics-and-scientific-racism.html#conclusion-8"><i class="fa fa-check"></i><b>23.6</b> Conclusion</a></li>
-<li class="chapter" data-level="23.7" data-path="m8u-statistics-and-scientific-racism.html"><a href="m8u-statistics-and-scientific-racism.html#references-11"><i class="fa fa-check"></i><b>23.7</b> References</a></li>
+<li class="chapter" data-level="22.1" data-path="m8u-statistics-and-scientific-racism.html"><a href="m8u-statistics-and-scientific-racism.html#introduction-16"><i class="fa fa-check"></i><b>22.1</b> Introduction</a></li>
+<li class="chapter" data-level="22.2" data-path="m8u-statistics-and-scientific-racism.html"><a href="m8u-statistics-and-scientific-racism.html#the-origins-of-statistics"><i class="fa fa-check"></i><b>22.2</b> The Origins of Statistics</a></li>
+<li class="chapter" data-level="22.3" data-path="m8u-statistics-and-scientific-racism.html"><a href="m8u-statistics-and-scientific-racism.html#the-importance-of-statistical-humility"><i class="fa fa-check"></i><b>22.3</b> The Importance of Statistical Humility</a></li>
+<li class="chapter" data-level="22.4" data-path="m8u-statistics-and-scientific-racism.html"><a href="m8u-statistics-and-scientific-racism.html#eugenics-a-failure-of-statistical-humility"><i class="fa fa-check"></i><b>22.4</b> Eugenics: A Failure of Statistical Humility</a></li>
+<li class="chapter" data-level="22.5" data-path="m8u-statistics-and-scientific-racism.html"><a href="m8u-statistics-and-scientific-racism.html#the-continuing-legacy-of-eugenics-and-scientific-racism"><i class="fa fa-check"></i><b>22.5</b> The Continuing Legacy of Eugenics and Scientific Racism</a></li>
+<li class="chapter" data-level="22.6" data-path="m8u-statistics-and-scientific-racism.html"><a href="m8u-statistics-and-scientific-racism.html#conclusion-8"><i class="fa fa-check"></i><b>22.6</b> Conclusion</a></li>
+<li class="chapter" data-level="22.7" data-path="m8u-statistics-and-scientific-racism.html"><a href="m8u-statistics-and-scientific-racism.html#references-11"><i class="fa fa-check"></i><b>22.7</b> References</a></li>
 </ul></li>
-<li class="chapter" data-level="24" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html"><i class="fa fa-check"></i><b>24</b> M8A: Descriptive Statistics</a>
+<li class="chapter" data-level="23" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html"><i class="fa fa-check"></i><b>23</b> M8A: Descriptive Statistics</a>
 <ul>
-<li class="chapter" data-level="24.1" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#introduction-17"><i class="fa fa-check"></i><b>24.1</b> Introduction</a>
+<li class="chapter" data-level="23.1" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#introduction-17"><i class="fa fa-check"></i><b>23.1</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#wrangling-packages-2"><i class="fa fa-check"></i>Needed packages</a></li>
 </ul></li>
-<li class="chapter" data-level="24.2" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#summarize"><i class="fa fa-check"></i><b>24.2</b> <code>summarize</code> variables</a>
+<li class="chapter" data-level="23.2" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#summarize"><i class="fa fa-check"></i><b>23.2</b> <code>summarize</code> variables</a>
 <ul>
-<li class="chapter" data-level="24.2.1" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#mean"><i class="fa fa-check"></i><b>24.2.1</b> Mean</a></li>
-<li class="chapter" data-level="24.2.2" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#standard-deviation"><i class="fa fa-check"></i><b>24.2.2</b> Standard Deviation</a></li>
-<li class="chapter" data-level="24.2.3" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#calculating-mean-with-mean-and-standard-deviation-with-sd"><i class="fa fa-check"></i><b>24.2.3</b> Calculating Mean with <code>mean()</code> and Standard Deviation with <code>sd()</code></a></li>
-<li class="chapter" data-level="24.2.4" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#percentiles-quartiles-and-iqr"><i class="fa fa-check"></i><b>24.2.4</b> Percentiles, Quartiles and <code>IQR()</code></a></li>
+<li class="chapter" data-level="23.2.1" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#mean"><i class="fa fa-check"></i><b>23.2.1</b> Mean</a></li>
+<li class="chapter" data-level="23.2.2" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#standard-deviation"><i class="fa fa-check"></i><b>23.2.2</b> Standard Deviation</a></li>
+<li class="chapter" data-level="23.2.3" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#calculating-mean-with-mean-and-standard-deviation-with-sd"><i class="fa fa-check"></i><b>23.2.3</b> Calculating Mean with <code>mean()</code> and Standard Deviation with <code>sd()</code></a></li>
+<li class="chapter" data-level="23.2.4" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#percentiles-quartiles-and-iqr"><i class="fa fa-check"></i><b>23.2.4</b> Percentiles, Quartiles and <code>IQR()</code></a></li>
 </ul></li>
-<li class="chapter" data-level="24.3" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#groupby"><i class="fa fa-check"></i><b>24.3</b> <code>group_by</code> rows</a>
+<li class="chapter" data-level="23.3" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#groupby"><i class="fa fa-check"></i><b>23.3</b> <code>group_by</code> rows</a>
 <ul>
-<li class="chapter" data-level="24.3.1" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#grouping-by-more-than-one-variable"><i class="fa fa-check"></i><b>24.3.1</b> Grouping by more than one variable</a></li>
+<li class="chapter" data-level="23.3.1" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#grouping-by-more-than-one-variable"><i class="fa fa-check"></i><b>23.3.1</b> Grouping by more than one variable</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="25" data-path="m8c-calculate-descriptive-statistics-for-your-own-data.html"><a href="m8c-calculate-descriptive-statistics-for-your-own-data.html"><i class="fa fa-check"></i><b>25</b> M8C: Calculate Descriptive Statistics for Your Own Data</a></li>
-<li class="chapter" data-level="26" data-path="m9u-linear-regression.html"><a href="m9u-linear-regression.html"><i class="fa fa-check"></i><b>26</b> M9U: Linear Regression</a>
+<li class="chapter" data-level="24" data-path="m8c-calculate-descriptive-statistics-for-your-own-data.html"><a href="m8c-calculate-descriptive-statistics-for-your-own-data.html"><i class="fa fa-check"></i><b>24</b> M8C: Calculate Descriptive Statistics for Your Own Data</a></li>
+<li class="chapter" data-level="25" data-path="m9u-linear-regression.html"><a href="m9u-linear-regression.html"><i class="fa fa-check"></i><b>25</b> M9U: Linear Regression</a>
 <ul>
-<li class="chapter" data-level="26.1" data-path="m9u-linear-regression.html"><a href="m9u-linear-regression.html#introduction-18"><i class="fa fa-check"></i><b>26.1</b> Introduction</a></li>
-<li class="chapter" data-level="26.2" data-path="m9u-linear-regression.html"><a href="m9u-linear-regression.html#linear-equations"><i class="fa fa-check"></i><b>26.2</b> Linear Equations</a></li>
-<li class="chapter" data-level="26.3" data-path="m9u-linear-regression.html"><a href="m9u-linear-regression.html#linear-relationships-and-scatterplots"><i class="fa fa-check"></i><b>26.3</b> Linear Relationships and Scatterplots</a></li>
-<li class="chapter" data-level="26.4" data-path="m9u-linear-regression.html"><a href="m9u-linear-regression.html#the-regression-equation"><i class="fa fa-check"></i><b>26.4</b> The Regression Equation</a></li>
-<li class="chapter" data-level="26.5" data-path="m9u-linear-regression.html"><a href="m9u-linear-regression.html#least-squares-criteria-for-best-fit"><i class="fa fa-check"></i><b>26.5</b> Least Squares Criteria for Best Fit</a></li>
-<li class="chapter" data-level="26.6" data-path="m9u-linear-regression.html"><a href="m9u-linear-regression.html#correlation-coefficients"><i class="fa fa-check"></i><b>26.6</b> Correlation Coefficients</a></li>
-<li class="chapter" data-level="26.7" data-path="m9u-linear-regression.html"><a href="m9u-linear-regression.html#conclusion-9"><i class="fa fa-check"></i><b>26.7</b> Conclusion</a></li>
+<li class="chapter" data-level="25.1" data-path="m9u-linear-regression.html"><a href="m9u-linear-regression.html#introduction-18"><i class="fa fa-check"></i><b>25.1</b> Introduction</a></li>
+<li class="chapter" data-level="25.2" data-path="m9u-linear-regression.html"><a href="m9u-linear-regression.html#linear-equations"><i class="fa fa-check"></i><b>25.2</b> Linear Equations</a></li>
+<li class="chapter" data-level="25.3" data-path="m9u-linear-regression.html"><a href="m9u-linear-regression.html#linear-relationships-and-scatterplots"><i class="fa fa-check"></i><b>25.3</b> Linear Relationships and Scatterplots</a></li>
+<li class="chapter" data-level="25.4" data-path="m9u-linear-regression.html"><a href="m9u-linear-regression.html#the-regression-equation"><i class="fa fa-check"></i><b>25.4</b> The Regression Equation</a></li>
+<li class="chapter" data-level="25.5" data-path="m9u-linear-regression.html"><a href="m9u-linear-regression.html#least-squares-criteria-for-best-fit"><i class="fa fa-check"></i><b>25.5</b> Least Squares Criteria for Best Fit</a></li>
+<li class="chapter" data-level="25.6" data-path="m9u-linear-regression.html"><a href="m9u-linear-regression.html#correlation-coefficients"><i class="fa fa-check"></i><b>25.6</b> Correlation Coefficients</a></li>
+<li class="chapter" data-level="25.7" data-path="m9u-linear-regression.html"><a href="m9u-linear-regression.html#conclusion-9"><i class="fa fa-check"></i><b>25.7</b> Conclusion</a></li>
 </ul></li>
-<li class="chapter" data-level="27" data-path="regression.html"><a href="regression.html"><i class="fa fa-check"></i><b>27</b> M9A: Basic Regression</a>
+<li class="chapter" data-level="26" data-path="regression.html"><a href="regression.html"><i class="fa fa-check"></i><b>26</b> M9A: Basic Regression</a>
+<ul>
+<li class="chapter" data-level="26.1" data-path="regression.html"><a href="regression.html#introduction-19"><i class="fa fa-check"></i><b>26.1</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="" data-path="regression.html"><a href="regression.html#reg-packages"><i class="fa fa-check"></i>Needed packages</a></li>
-<li class="chapter" data-level="27.1" data-path="regression.html"><a href="regression.html#model1"><i class="fa fa-check"></i><b>27.1</b> One numerical explanatory variable</a>
+</ul></li>
+<li class="chapter" data-level="26.2" data-path="regression.html"><a href="regression.html#model1"><i class="fa fa-check"></i><b>26.2</b> One numerical explanatory variable</a>
 <ul>
-<li class="chapter" data-level="27.1.1" data-path="regression.html"><a href="regression.html#model1EDA"><i class="fa fa-check"></i><b>27.1.1</b> Exploratory data analysis</a></li>
-<li class="chapter" data-level="27.1.2" data-path="regression.html"><a href="regression.html#model1table"><i class="fa fa-check"></i><b>27.1.2</b> Simple linear regression</a></li>
-<li class="chapter" data-level="27.1.3" data-path="regression.html"><a href="regression.html#model1points"><i class="fa fa-check"></i><b>27.1.3</b> Observed/fitted values and residuals</a></li>
+<li class="chapter" data-level="26.2.1" data-path="regression.html"><a href="regression.html#model1EDA"><i class="fa fa-check"></i><b>26.2.1</b> Exploratory data analysis</a></li>
+<li class="chapter" data-level="26.2.2" data-path="regression.html"><a href="regression.html#model1table"><i class="fa fa-check"></i><b>26.2.2</b> Simple linear regression</a></li>
+<li class="chapter" data-level="26.2.3" data-path="regression.html"><a href="regression.html#model1points"><i class="fa fa-check"></i><b>26.2.3</b> Observed/fitted values and residuals</a></li>
 </ul></li>
-<li class="chapter" data-level="27.2" data-path="regression.html"><a href="regression.html#model2"><i class="fa fa-check"></i><b>27.2</b> One categorical explanatory variable</a>
+<li class="chapter" data-level="26.3" data-path="regression.html"><a href="regression.html#model2"><i class="fa fa-check"></i><b>26.3</b> One categorical explanatory variable</a>
 <ul>
-<li class="chapter" data-level="27.2.1" data-path="regression.html"><a href="regression.html#model2EDA"><i class="fa fa-check"></i><b>27.2.1</b> Exploratory data analysis</a></li>
-<li class="chapter" data-level="27.2.2" data-path="regression.html"><a href="regression.html#model2table"><i class="fa fa-check"></i><b>27.2.2</b> Linear regression</a></li>
-<li class="chapter" data-level="27.2.3" data-path="regression.html"><a href="regression.html#model2points"><i class="fa fa-check"></i><b>27.2.3</b> Observed/fitted values and residuals</a></li>
+<li class="chapter" data-level="26.3.1" data-path="regression.html"><a href="regression.html#model2EDA"><i class="fa fa-check"></i><b>26.3.1</b> Exploratory data analysis</a></li>
+<li class="chapter" data-level="26.3.2" data-path="regression.html"><a href="regression.html#model2table"><i class="fa fa-check"></i><b>26.3.2</b> Linear regression</a></li>
+<li class="chapter" data-level="26.3.3" data-path="regression.html"><a href="regression.html#model2points"><i class="fa fa-check"></i><b>26.3.3</b> Observed/fitted values and residuals</a></li>
 </ul></li>
-<li class="chapter" data-level="27.3" data-path="regression.html"><a href="regression.html#reg-related-topics"><i class="fa fa-check"></i><b>27.3</b> Related topics</a>
+<li class="chapter" data-level="26.4" data-path="regression.html"><a href="regression.html#reg-related-topics"><i class="fa fa-check"></i><b>26.4</b> Related topics</a>
 <ul>
-<li class="chapter" data-level="27.3.1" data-path="regression.html"><a href="regression.html#correlation-is-not-causation"><i class="fa fa-check"></i><b>27.3.1</b> Correlation is not necessarily causation</a></li>
-<li class="chapter" data-level="27.3.2" data-path="regression.html"><a href="regression.html#leastsquares"><i class="fa fa-check"></i><b>27.3.2</b> Best-fitting line</a></li>
-<li class="chapter" data-level="27.3.3" data-path="regression.html"><a href="regression.html#underthehood"><i class="fa fa-check"></i><b>27.3.3</b> <code>get_regression_x()</code> functions</a></li>
+<li class="chapter" data-level="26.4.1" data-path="regression.html"><a href="regression.html#correlation-is-not-causation"><i class="fa fa-check"></i><b>26.4.1</b> Correlation is not necessarily causation</a></li>
+<li class="chapter" data-level="26.4.2" data-path="regression.html"><a href="regression.html#leastsquares"><i class="fa fa-check"></i><b>26.4.2</b> Best-fitting line</a></li>
+<li class="chapter" data-level="26.4.3" data-path="regression.html"><a href="regression.html#underthehood"><i class="fa fa-check"></i><b>26.4.3</b> <code>get_regression_x()</code> functions</a></li>
 </ul></li>
-<li class="chapter" data-level="27.4" data-path="regression.html"><a href="regression.html#reg-conclusion"><i class="fa fa-check"></i><b>27.4</b> Conclusion</a>
+<li class="chapter" data-level="26.5" data-path="regression.html"><a href="regression.html#reg-conclusion"><i class="fa fa-check"></i><b>26.5</b> Conclusion</a>
 <ul>
-<li class="chapter" data-level="27.4.1" data-path="regression.html"><a href="regression.html#additional-resources-basic-regression"><i class="fa fa-check"></i><b>27.4.1</b> Additional resources</a></li>
-<li class="chapter" data-level="27.4.2" data-path="regression.html"><a href="regression.html#whats-to-come"><i class="fa fa-check"></i><b>27.4.2</b> What’s to come?</a></li>
+<li class="chapter" data-level="26.5.1" data-path="regression.html"><a href="regression.html#additional-resources-basic-regression"><i class="fa fa-check"></i><b>26.5.1</b> Additional resources</a></li>
+<li class="chapter" data-level="26.5.2" data-path="regression.html"><a href="regression.html#whats-to-come"><i class="fa fa-check"></i><b>26.5.2</b> What’s to come?</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="28" data-path="m9c-perform-a-basic-regression-with-your-own-data.html"><a href="m9c-perform-a-basic-regression-with-your-own-data.html"><i class="fa fa-check"></i><b>28</b> M9C: Perform a Basic Regression With Your Own Data</a></li>
-<li class="chapter" data-level="29" data-path="module-10-understanding.html"><a href="module-10-understanding.html"><i class="fa fa-check"></i><b>29</b> Module 10 Understanding</a></li>
-<li class="chapter" data-level="30" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html"><i class="fa fa-check"></i><b>30</b> M10A: Multiple Regression {#multiple-regression}}</a>
+<li class="chapter" data-level="27" data-path="m9c-perform-a-basic-regression-with-your-own-data.html"><a href="m9c-perform-a-basic-regression-with-your-own-data.html"><i class="fa fa-check"></i><b>27</b> M9C: Perform a Basic Regression With Your Own Data</a></li>
+<li class="chapter" data-level="28" data-path="module-10-understanding.html"><a href="module-10-understanding.html"><i class="fa fa-check"></i><b>28</b> Module 10 Understanding</a></li>
+<li class="chapter" data-level="29" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html"><i class="fa fa-check"></i><b>29</b> M10A: Multiple Regression {#multiple-regression}}</a>
 <ul>
 <li class="chapter" data-level="" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#mult-reg-packages"><i class="fa fa-check"></i>Needed packages</a></li>
-<li class="chapter" data-level="30.1" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#model4"><i class="fa fa-check"></i><b>30.1</b> One numerical and one categorical explanatory variable</a>
+<li class="chapter" data-level="29.1" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#model4"><i class="fa fa-check"></i><b>29.1</b> One numerical and one categorical explanatory variable</a>
 <ul>
-<li class="chapter" data-level="30.1.1" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#model4EDA"><i class="fa fa-check"></i><b>30.1.1</b> Exploratory data analysis</a></li>
-<li class="chapter" data-level="30.1.2" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#model4interactiontable"><i class="fa fa-check"></i><b>30.1.2</b> Interaction model</a></li>
-<li class="chapter" data-level="30.1.3" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#model4table"><i class="fa fa-check"></i><b>30.1.3</b> Parallel slopes model</a></li>
-<li class="chapter" data-level="30.1.4" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#model4points"><i class="fa fa-check"></i><b>30.1.4</b> Observed/fitted values and residuals</a></li>
+<li class="chapter" data-level="29.1.1" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#model4EDA"><i class="fa fa-check"></i><b>29.1.1</b> Exploratory data analysis</a></li>
+<li class="chapter" data-level="29.1.2" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#model4interactiontable"><i class="fa fa-check"></i><b>29.1.2</b> Interaction model</a></li>
+<li class="chapter" data-level="29.1.3" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#model4table"><i class="fa fa-check"></i><b>29.1.3</b> Parallel slopes model</a></li>
+<li class="chapter" data-level="29.1.4" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#model4points"><i class="fa fa-check"></i><b>29.1.4</b> Observed/fitted values and residuals</a></li>
 </ul></li>
-<li class="chapter" data-level="30.2" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#model3"><i class="fa fa-check"></i><b>30.2</b> Two numerical explanatory variables</a>
+<li class="chapter" data-level="29.2" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#model3"><i class="fa fa-check"></i><b>29.2</b> Two numerical explanatory variables</a>
 <ul>
-<li class="chapter" data-level="30.2.1" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#model3EDA"><i class="fa fa-check"></i><b>30.2.1</b> Exploratory data analysis</a></li>
-<li class="chapter" data-level="30.2.2" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#model3table"><i class="fa fa-check"></i><b>30.2.2</b> Regression plane</a></li>
-<li class="chapter" data-level="30.2.3" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#model3points"><i class="fa fa-check"></i><b>30.2.3</b> Observed/fitted values and residuals</a></li>
+<li class="chapter" data-level="29.2.1" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#model3EDA"><i class="fa fa-check"></i><b>29.2.1</b> Exploratory data analysis</a></li>
+<li class="chapter" data-level="29.2.2" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#model3table"><i class="fa fa-check"></i><b>29.2.2</b> Regression plane</a></li>
+<li class="chapter" data-level="29.2.3" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#model3points"><i class="fa fa-check"></i><b>29.2.3</b> Observed/fitted values and residuals</a></li>
 </ul></li>
-<li class="chapter" data-level="30.3" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#mult-reg-related-topics"><i class="fa fa-check"></i><b>30.3</b> Related topics</a>
+<li class="chapter" data-level="29.3" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#mult-reg-related-topics"><i class="fa fa-check"></i><b>29.3</b> Related topics</a>
 <ul>
-<li class="chapter" data-level="30.3.1" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#model-selection"><i class="fa fa-check"></i><b>30.3.1</b> Model selection using visualizations</a></li>
-<li class="chapter" data-level="30.3.2" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#rsquared"><i class="fa fa-check"></i><b>30.3.2</b> Model selection using R-squared</a></li>
-<li class="chapter" data-level="30.3.3" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#correlationcoefficient2"><i class="fa fa-check"></i><b>30.3.3</b> Correlation coefficient</a></li>
-<li class="chapter" data-level="30.3.4" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#simpsonsparadox"><i class="fa fa-check"></i><b>30.3.4</b> Simpson’s Paradox</a></li>
+<li class="chapter" data-level="29.3.1" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#model-selection"><i class="fa fa-check"></i><b>29.3.1</b> Model selection using visualizations</a></li>
+<li class="chapter" data-level="29.3.2" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#rsquared"><i class="fa fa-check"></i><b>29.3.2</b> Model selection using R-squared</a></li>
+<li class="chapter" data-level="29.3.3" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#correlationcoefficient2"><i class="fa fa-check"></i><b>29.3.3</b> Correlation coefficient</a></li>
+<li class="chapter" data-level="29.3.4" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#simpsonsparadox"><i class="fa fa-check"></i><b>29.3.4</b> Simpson’s Paradox</a></li>
 </ul></li>
-<li class="chapter" data-level="30.4" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#mult-reg-conclusion"><i class="fa fa-check"></i><b>30.4</b> Conclusion</a>
+<li class="chapter" data-level="29.4" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#mult-reg-conclusion"><i class="fa fa-check"></i><b>29.4</b> Conclusion</a>
 <ul>
-<li class="chapter" data-level="30.4.1" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#additional-resources-1"><i class="fa fa-check"></i><b>30.4.1</b> Additional resources</a></li>
-<li class="chapter" data-level="30.4.2" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#whats-to-come-1"><i class="fa fa-check"></i><b>30.4.2</b> What’s to come?</a></li>
+<li class="chapter" data-level="29.4.1" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#additional-resources-1"><i class="fa fa-check"></i><b>29.4.1</b> Additional resources</a></li>
+<li class="chapter" data-level="29.4.2" data-path="m10a-multiple-regression-multiple-regression.html"><a href="m10a-multiple-regression-multiple-regression.html#whats-to-come-1"><i class="fa fa-check"></i><b>29.4.2</b> What’s to come?</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="31" data-path="m10c-perform-a-multiple-regression-with-your-own-data.html"><a href="m10c-perform-a-multiple-regression-with-your-own-data.html"><i class="fa fa-check"></i><b>31</b> M10C: Perform a Multiple Regression With Your Own Data</a></li>
-<li class="chapter" data-level="32" data-path="module-11-understanding.html"><a href="module-11-understanding.html"><i class="fa fa-check"></i><b>32</b> Module 11 Understanding</a></li>
-<li class="chapter" data-level="33" data-path="m11a-sampling.html"><a href="m11a-sampling.html"><i class="fa fa-check"></i><b>33</b> M11A: Sampling</a></li>
-<li class="chapter" data-level="" data-path=""><a href="#part-statistical-inference-with-infer"><i class="fa fa-check"></i>(PART) Statistical Inference with infer</a>
+<li class="chapter" data-level="30" data-path="m10c-perform-a-multiple-regression-with-your-own-data.html"><a href="m10c-perform-a-multiple-regression-with-your-own-data.html"><i class="fa fa-check"></i><b>30</b> M10C: Perform a Multiple Regression With Your Own Data</a></li>
+<li class="chapter" data-level="31" data-path="module-11-understanding.html"><a href="module-11-understanding.html"><i class="fa fa-check"></i><b>31</b> Module 11 Understanding</a></li>
+<li class="chapter" data-level="32" data-path="m11a-sampling.html"><a href="m11a-sampling.html"><i class="fa fa-check"></i><b>32</b> M11A: Sampling</a>
 <ul>
 <li class="chapter" data-level="" data-path="m11a-sampling.html"><a href="m11a-sampling.html#sampling-packages"><i class="fa fa-check"></i>Needed packages</a></li>
-<li class="chapter" data-level="33.1" data-path="m11a-sampling.html"><a href="m11a-sampling.html#sampling-activity"><i class="fa fa-check"></i><b>33.1</b> Sampling bowl activity</a>
+<li class="chapter" data-level="32.1" data-path="m11a-sampling.html"><a href="m11a-sampling.html#sampling-activity"><i class="fa fa-check"></i><b>32.1</b> Sampling bowl activity</a>
 <ul>
-<li class="chapter" data-level="33.1.1" data-path="m11a-sampling.html"><a href="m11a-sampling.html#what-proportion-of-this-bowls-balls-are-red"><i class="fa fa-check"></i><b>33.1.1</b> What proportion of this bowl’s balls are red?</a></li>
-<li class="chapter" data-level="33.1.2" data-path="m11a-sampling.html"><a href="m11a-sampling.html#using-the-shovel-once"><i class="fa fa-check"></i><b>33.1.2</b> Using the shovel once</a></li>
-<li class="chapter" data-level="33.1.3" data-path="m11a-sampling.html"><a href="m11a-sampling.html#student-shovels"><i class="fa fa-check"></i><b>33.1.3</b> Using the shovel 33 times</a></li>
-<li class="chapter" data-level="33.1.4" data-path="m11a-sampling.html"><a href="m11a-sampling.html#sampling-what-did-we-just-do"><i class="fa fa-check"></i><b>33.1.4</b> What did we just do?</a></li>
+<li class="chapter" data-level="32.1.1" data-path="m11a-sampling.html"><a href="m11a-sampling.html#what-proportion-of-this-bowls-balls-are-red"><i class="fa fa-check"></i><b>32.1.1</b> What proportion of this bowl’s balls are red?</a></li>
+<li class="chapter" data-level="32.1.2" data-path="m11a-sampling.html"><a href="m11a-sampling.html#using-the-shovel-once"><i class="fa fa-check"></i><b>32.1.2</b> Using the shovel once</a></li>
+<li class="chapter" data-level="32.1.3" data-path="m11a-sampling.html"><a href="m11a-sampling.html#student-shovels"><i class="fa fa-check"></i><b>32.1.3</b> Using the shovel 33 times</a></li>
+<li class="chapter" data-level="32.1.4" data-path="m11a-sampling.html"><a href="m11a-sampling.html#sampling-what-did-we-just-do"><i class="fa fa-check"></i><b>32.1.4</b> What did we just do?</a></li>
 </ul></li>
-<li class="chapter" data-level="33.2" data-path="m11a-sampling.html"><a href="m11a-sampling.html#sampling-simulation"><i class="fa fa-check"></i><b>33.2</b> Virtual sampling</a>
+<li class="chapter" data-level="32.2" data-path="m11a-sampling.html"><a href="m11a-sampling.html#sampling-simulation"><i class="fa fa-check"></i><b>32.2</b> Virtual sampling</a>
 <ul>
-<li class="chapter" data-level="33.2.1" data-path="m11a-sampling.html"><a href="m11a-sampling.html#using-the-virtual-shovel-once"><i class="fa fa-check"></i><b>33.2.1</b> Using the virtual shovel once</a></li>
-<li class="chapter" data-level="33.2.2" data-path="m11a-sampling.html"><a href="m11a-sampling.html#using-the-virtual-shovel-33-times"><i class="fa fa-check"></i><b>33.2.2</b> Using the virtual shovel 33 times</a></li>
-<li class="chapter" data-level="33.2.3" data-path="m11a-sampling.html"><a href="m11a-sampling.html#shovel-1000-times"><i class="fa fa-check"></i><b>33.2.3</b> Using the virtual shovel 1000 times</a></li>
-<li class="chapter" data-level="33.2.4" data-path="m11a-sampling.html"><a href="m11a-sampling.html#different-shovels"><i class="fa fa-check"></i><b>33.2.4</b> Using different shovels</a></li>
+<li class="chapter" data-level="32.2.1" data-path="m11a-sampling.html"><a href="m11a-sampling.html#using-the-virtual-shovel-once"><i class="fa fa-check"></i><b>32.2.1</b> Using the virtual shovel once</a></li>
+<li class="chapter" data-level="32.2.2" data-path="m11a-sampling.html"><a href="m11a-sampling.html#using-the-virtual-shovel-33-times"><i class="fa fa-check"></i><b>32.2.2</b> Using the virtual shovel 33 times</a></li>
+<li class="chapter" data-level="32.2.3" data-path="m11a-sampling.html"><a href="m11a-sampling.html#shovel-1000-times"><i class="fa fa-check"></i><b>32.2.3</b> Using the virtual shovel 1000 times</a></li>
+<li class="chapter" data-level="32.2.4" data-path="m11a-sampling.html"><a href="m11a-sampling.html#different-shovels"><i class="fa fa-check"></i><b>32.2.4</b> Using different shovels</a></li>
 </ul></li>
-<li class="chapter" data-level="33.3" data-path="m11a-sampling.html"><a href="m11a-sampling.html#sampling-framework"><i class="fa fa-check"></i><b>33.3</b> Sampling framework</a>
+<li class="chapter" data-level="32.3" data-path="m11a-sampling.html"><a href="m11a-sampling.html#sampling-framework"><i class="fa fa-check"></i><b>32.3</b> Sampling framework</a>
 <ul>
-<li class="chapter" data-level="33.3.1" data-path="m11a-sampling.html"><a href="m11a-sampling.html#terminology-and-notation"><i class="fa fa-check"></i><b>33.3.1</b> Terminology and notation</a></li>
-<li class="chapter" data-level="33.3.2" data-path="m11a-sampling.html"><a href="m11a-sampling.html#sampling-definitions"><i class="fa fa-check"></i><b>33.3.2</b> Statistical definitions</a></li>
-<li class="chapter" data-level="33.3.3" data-path="m11a-sampling.html"><a href="m11a-sampling.html#moral-of-the-story"><i class="fa fa-check"></i><b>33.3.3</b> The moral of the story</a></li>
+<li class="chapter" data-level="32.3.1" data-path="m11a-sampling.html"><a href="m11a-sampling.html#terminology-and-notation"><i class="fa fa-check"></i><b>32.3.1</b> Terminology and notation</a></li>
+<li class="chapter" data-level="32.3.2" data-path="m11a-sampling.html"><a href="m11a-sampling.html#sampling-definitions"><i class="fa fa-check"></i><b>32.3.2</b> Statistical definitions</a></li>
+<li class="chapter" data-level="32.3.3" data-path="m11a-sampling.html"><a href="m11a-sampling.html#moral-of-the-story"><i class="fa fa-check"></i><b>32.3.3</b> The moral of the story</a></li>
 </ul></li>
-<li class="chapter" data-level="33.4" data-path="m11a-sampling.html"><a href="m11a-sampling.html#sampling-case-study"><i class="fa fa-check"></i><b>33.4</b> Case study: Polls</a></li>
-<li class="chapter" data-level="33.5" data-path="m11a-sampling.html"><a href="m11a-sampling.html#sampling-conclusion-central-limit-theorem"><i class="fa fa-check"></i><b>33.5</b> Central Limit Theorem</a></li>
-<li class="chapter" data-level="33.6" data-path="m11a-sampling.html"><a href="m11a-sampling.html#sampling-conclusion"><i class="fa fa-check"></i><b>33.6</b> Conclusion</a>
+<li class="chapter" data-level="32.4" data-path="m11a-sampling.html"><a href="m11a-sampling.html#sampling-case-study"><i class="fa fa-check"></i><b>32.4</b> Case study: Polls</a></li>
+<li class="chapter" data-level="32.5" data-path="m11a-sampling.html"><a href="m11a-sampling.html#sampling-conclusion-central-limit-theorem"><i class="fa fa-check"></i><b>32.5</b> Central Limit Theorem</a></li>
+<li class="chapter" data-level="32.6" data-path="m11a-sampling.html"><a href="m11a-sampling.html#sampling-conclusion"><i class="fa fa-check"></i><b>32.6</b> Conclusion</a>
 <ul>
-<li class="chapter" data-level="33.6.1" data-path="m11a-sampling.html"><a href="m11a-sampling.html#sampling-conclusion-table"><i class="fa fa-check"></i><b>33.6.1</b> Sampling scenarios</a></li>
-<li class="chapter" data-level="33.6.2" data-path="m11a-sampling.html"><a href="m11a-sampling.html#theory-se"><i class="fa fa-check"></i><b>33.6.2</b> Theory-based standard-errors</a></li>
-<li class="chapter" data-level="33.6.3" data-path="m11a-sampling.html"><a href="m11a-sampling.html#additional-resources-2"><i class="fa fa-check"></i><b>33.6.3</b> Additional resources</a></li>
-<li class="chapter" data-level="33.6.4" data-path="m11a-sampling.html"><a href="m11a-sampling.html#whats-to-come-2"><i class="fa fa-check"></i><b>33.6.4</b> What’s to come?</a></li>
+<li class="chapter" data-level="32.6.1" data-path="m11a-sampling.html"><a href="m11a-sampling.html#sampling-conclusion-table"><i class="fa fa-check"></i><b>32.6.1</b> Sampling scenarios</a></li>
+<li class="chapter" data-level="32.6.2" data-path="m11a-sampling.html"><a href="m11a-sampling.html#theory-se"><i class="fa fa-check"></i><b>32.6.2</b> Theory-based standard-errors</a></li>
+<li class="chapter" data-level="32.6.3" data-path="m11a-sampling.html"><a href="m11a-sampling.html#additional-resources-2"><i class="fa fa-check"></i><b>32.6.3</b> Additional resources</a></li>
+<li class="chapter" data-level="32.6.4" data-path="m11a-sampling.html"><a href="m11a-sampling.html#whats-to-come-2"><i class="fa fa-check"></i><b>32.6.4</b> What’s to come?</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="34" data-path="m11c-explore-sampling-with-your-own.html"><a href="m11c-explore-sampling-with-your-own.html"><i class="fa fa-check"></i><b>34</b> M11C: Explore Sampling With Your Own</a></li>
-<li class="chapter" data-level="35" data-path="module-12-understanding.html"><a href="module-12-understanding.html"><i class="fa fa-check"></i><b>35</b> Module 12 Understanding</a></li>
-<li class="chapter" data-level="36" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html"><i class="fa fa-check"></i><b>36</b> M12A: Confidence Intervals</a>
+<li class="chapter" data-level="33" data-path="m11c-explore-sampling-with-your-own.html"><a href="m11c-explore-sampling-with-your-own.html"><i class="fa fa-check"></i><b>33</b> M11C: Explore Sampling With Your Own</a></li>
+<li class="chapter" data-level="34" data-path="module-12-understanding.html"><a href="module-12-understanding.html"><i class="fa fa-check"></i><b>34</b> Module 12 Understanding</a></li>
+<li class="chapter" data-level="35" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html"><i class="fa fa-check"></i><b>35</b> M12A: Confidence Intervals</a>
 <ul>
 <li class="chapter" data-level="" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#CI-packages"><i class="fa fa-check"></i>Needed packages</a></li>
-<li class="chapter" data-level="36.1" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#resampling-tactile"><i class="fa fa-check"></i><b>36.1</b> Pennies activity</a>
+<li class="chapter" data-level="35.1" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#resampling-tactile"><i class="fa fa-check"></i><b>35.1</b> Pennies activity</a>
 <ul>
-<li class="chapter" data-level="36.1.1" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#what-is-the-average-year-on-us-pennies-in-2019"><i class="fa fa-check"></i><b>36.1.1</b> What is the average year on US pennies in 2019?</a></li>
-<li class="chapter" data-level="36.1.2" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#resampling-once"><i class="fa fa-check"></i><b>36.1.2</b> Resampling once</a></li>
-<li class="chapter" data-level="36.1.3" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#student-resamples"><i class="fa fa-check"></i><b>36.1.3</b> Resampling 35 times</a></li>
-<li class="chapter" data-level="36.1.4" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#ci-what-did-we-just-do"><i class="fa fa-check"></i><b>36.1.4</b> What did we just do?</a></li>
+<li class="chapter" data-level="35.1.1" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#what-is-the-average-year-on-us-pennies-in-2019"><i class="fa fa-check"></i><b>35.1.1</b> What is the average year on US pennies in 2019?</a></li>
+<li class="chapter" data-level="35.1.2" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#resampling-once"><i class="fa fa-check"></i><b>35.1.2</b> Resampling once</a></li>
+<li class="chapter" data-level="35.1.3" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#student-resamples"><i class="fa fa-check"></i><b>35.1.3</b> Resampling 35 times</a></li>
+<li class="chapter" data-level="35.1.4" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#ci-what-did-we-just-do"><i class="fa fa-check"></i><b>35.1.4</b> What did we just do?</a></li>
 </ul></li>
-<li class="chapter" data-level="36.2" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#resampling-simulation"><i class="fa fa-check"></i><b>36.2</b> Computer simulation of resampling</a>
+<li class="chapter" data-level="35.2" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#resampling-simulation"><i class="fa fa-check"></i><b>35.2</b> Computer simulation of resampling</a>
 <ul>
-<li class="chapter" data-level="36.2.1" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#virtually-resampling-once"><i class="fa fa-check"></i><b>36.2.1</b> Virtually resampling once</a></li>
-<li class="chapter" data-level="36.2.2" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#bootstrap-35-replicates"><i class="fa fa-check"></i><b>36.2.2</b> Virtually resampling 35 times</a></li>
-<li class="chapter" data-level="36.2.3" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#bootstrap-1000-replicates"><i class="fa fa-check"></i><b>36.2.3</b> Virtually resampling 1000 times</a></li>
+<li class="chapter" data-level="35.2.1" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#virtually-resampling-once"><i class="fa fa-check"></i><b>35.2.1</b> Virtually resampling once</a></li>
+<li class="chapter" data-level="35.2.2" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#bootstrap-35-replicates"><i class="fa fa-check"></i><b>35.2.2</b> Virtually resampling 35 times</a></li>
+<li class="chapter" data-level="35.2.3" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#bootstrap-1000-replicates"><i class="fa fa-check"></i><b>35.2.3</b> Virtually resampling 1000 times</a></li>
 </ul></li>
-<li class="chapter" data-level="36.3" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#ci-build-up"><i class="fa fa-check"></i><b>36.3</b> Understanding confidence intervals</a>
+<li class="chapter" data-level="35.3" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#ci-build-up"><i class="fa fa-check"></i><b>35.3</b> Understanding confidence intervals</a>
 <ul>
-<li class="chapter" data-level="36.3.1" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#percentile-method"><i class="fa fa-check"></i><b>36.3.1</b> Percentile method</a></li>
-<li class="chapter" data-level="36.3.2" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#se-method"><i class="fa fa-check"></i><b>36.3.2</b> Standard error method</a></li>
+<li class="chapter" data-level="35.3.1" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#percentile-method"><i class="fa fa-check"></i><b>35.3.1</b> Percentile method</a></li>
+<li class="chapter" data-level="35.3.2" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#se-method"><i class="fa fa-check"></i><b>35.3.2</b> Standard error method</a></li>
 </ul></li>
-<li class="chapter" data-level="36.4" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#bootstrap-process"><i class="fa fa-check"></i><b>36.4</b> Constructing confidence intervals</a>
+<li class="chapter" data-level="35.4" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#bootstrap-process"><i class="fa fa-check"></i><b>35.4</b> Constructing confidence intervals</a>
 <ul>
-<li class="chapter" data-level="36.4.1" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#original-workflow"><i class="fa fa-check"></i><b>36.4.1</b> Original workflow</a></li>
-<li class="chapter" data-level="36.4.2" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#infer-workflow"><i class="fa fa-check"></i><b>36.4.2</b> <code>infer</code> package workflow</a></li>
-<li class="chapter" data-level="36.4.3" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#percentile-method-infer"><i class="fa fa-check"></i><b>36.4.3</b> Percentile method with <code>infer</code></a></li>
-<li class="chapter" data-level="36.4.4" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#infer-se"><i class="fa fa-check"></i><b>36.4.4</b> Standard error method with <code>infer</code></a></li>
+<li class="chapter" data-level="35.4.1" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#original-workflow"><i class="fa fa-check"></i><b>35.4.1</b> Original workflow</a></li>
+<li class="chapter" data-level="35.4.2" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#infer-workflow"><i class="fa fa-check"></i><b>35.4.2</b> <code>infer</code> package workflow</a></li>
+<li class="chapter" data-level="35.4.3" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#percentile-method-infer"><i class="fa fa-check"></i><b>35.4.3</b> Percentile method with <code>infer</code></a></li>
+<li class="chapter" data-level="35.4.4" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#infer-se"><i class="fa fa-check"></i><b>35.4.4</b> Standard error method with <code>infer</code></a></li>
 </ul></li>
-<li class="chapter" data-level="36.5" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#one-prop-ci"><i class="fa fa-check"></i><b>36.5</b> Interpreting confidence intervals</a>
+<li class="chapter" data-level="35.5" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#one-prop-ci"><i class="fa fa-check"></i><b>35.5</b> Interpreting confidence intervals</a>
 <ul>
-<li class="chapter" data-level="36.5.1" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#ilyas-yohan"><i class="fa fa-check"></i><b>36.5.1</b> Did the net capture the fish?</a></li>
-<li class="chapter" data-level="36.5.2" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#shorthand"><i class="fa fa-check"></i><b>36.5.2</b> Precise and shorthand interpretation</a></li>
-<li class="chapter" data-level="36.5.3" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#ci-width"><i class="fa fa-check"></i><b>36.5.3</b> Width of confidence intervals</a></li>
+<li class="chapter" data-level="35.5.1" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#ilyas-yohan"><i class="fa fa-check"></i><b>35.5.1</b> Did the net capture the fish?</a></li>
+<li class="chapter" data-level="35.5.2" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#shorthand"><i class="fa fa-check"></i><b>35.5.2</b> Precise and shorthand interpretation</a></li>
+<li class="chapter" data-level="35.5.3" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#ci-width"><i class="fa fa-check"></i><b>35.5.3</b> Width of confidence intervals</a></li>
 </ul></li>
-<li class="chapter" data-level="36.6" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#case-study-two-prop-ci"><i class="fa fa-check"></i><b>36.6</b> Case study: Is yawning contagious?</a>
+<li class="chapter" data-level="35.6" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#case-study-two-prop-ci"><i class="fa fa-check"></i><b>35.6</b> Case study: Is yawning contagious?</a>
 <ul>
-<li class="chapter" data-level="36.6.1" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#mythbusters-study-data"><i class="fa fa-check"></i><b>36.6.1</b> <em>Mythbusters</em> study data</a></li>
-<li class="chapter" data-level="36.6.2" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#sampling-scenario"><i class="fa fa-check"></i><b>36.6.2</b> Sampling scenario</a></li>
-<li class="chapter" data-level="36.6.3" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#ci-build"><i class="fa fa-check"></i><b>36.6.3</b> Constructing the confidence interval</a></li>
-<li class="chapter" data-level="36.6.4" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#interpreting-the-confidence-interval"><i class="fa fa-check"></i><b>36.6.4</b> Interpreting the confidence interval</a></li>
+<li class="chapter" data-level="35.6.1" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#mythbusters-study-data"><i class="fa fa-check"></i><b>35.6.1</b> <em>Mythbusters</em> study data</a></li>
+<li class="chapter" data-level="35.6.2" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#sampling-scenario"><i class="fa fa-check"></i><b>35.6.2</b> Sampling scenario</a></li>
+<li class="chapter" data-level="35.6.3" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#ci-build"><i class="fa fa-check"></i><b>35.6.3</b> Constructing the confidence interval</a></li>
+<li class="chapter" data-level="35.6.4" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#interpreting-the-confidence-interval"><i class="fa fa-check"></i><b>35.6.4</b> Interpreting the confidence interval</a></li>
 </ul></li>
-<li class="chapter" data-level="36.7" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#ci-conclusion"><i class="fa fa-check"></i><b>36.7</b> Conclusion</a>
+<li class="chapter" data-level="35.7" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#ci-conclusion"><i class="fa fa-check"></i><b>35.7</b> Conclusion</a>
 <ul>
-<li class="chapter" data-level="36.7.1" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#bootstrap-vs-sampling"><i class="fa fa-check"></i><b>36.7.1</b> Comparing bootstrap and sampling distributions</a></li>
-<li class="chapter" data-level="36.7.2" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#theory-ci"><i class="fa fa-check"></i><b>36.7.2</b> Theory-based confidence intervals</a></li>
-<li class="chapter" data-level="36.7.3" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#whats-to-come-3"><i class="fa fa-check"></i><b>36.7.3</b> What’s to come?</a></li>
+<li class="chapter" data-level="35.7.1" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#bootstrap-vs-sampling"><i class="fa fa-check"></i><b>35.7.1</b> Comparing bootstrap and sampling distributions</a></li>
+<li class="chapter" data-level="35.7.2" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#theory-ci"><i class="fa fa-check"></i><b>35.7.2</b> Theory-based confidence intervals</a></li>
+<li class="chapter" data-level="35.7.3" data-path="m12a-confidence-intervals.html"><a href="m12a-confidence-intervals.html#whats-to-come-3"><i class="fa fa-check"></i><b>35.7.3</b> What’s to come?</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="37" data-path="m12c-explore-confidence-intervals-with-your-own-data.html"><a href="m12c-explore-confidence-intervals-with-your-own-data.html"><i class="fa fa-check"></i><b>37</b> M12C: Explore Confidence Intervals With Your Own Data</a></li>
-<li class="chapter" data-level="38" data-path="module-13-understanding.html"><a href="module-13-understanding.html"><i class="fa fa-check"></i><b>38</b> Module 13 Understanding</a></li>
-<li class="chapter" data-level="39" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html"><i class="fa fa-check"></i><b>39</b> M13A: Hypothesis Testing</a>
+<li class="chapter" data-level="36" data-path="m12c-explore-confidence-intervals-with-your-own-data.html"><a href="m12c-explore-confidence-intervals-with-your-own-data.html"><i class="fa fa-check"></i><b>36</b> M12C: Explore Confidence Intervals With Your Own Data</a></li>
+<li class="chapter" data-level="37" data-path="module-13-understanding.html"><a href="module-13-understanding.html"><i class="fa fa-check"></i><b>37</b> Module 13 Understanding</a></li>
+<li class="chapter" data-level="38" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html"><i class="fa fa-check"></i><b>38</b> M13A: Hypothesis Testing</a>
 <ul>
 <li class="chapter" data-level="" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#nhst-packages"><i class="fa fa-check"></i>Needed packages</a></li>
-<li class="chapter" data-level="39.1" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#ht-activity"><i class="fa fa-check"></i><b>39.1</b> Promotions activity</a>
+<li class="chapter" data-level="38.1" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#ht-activity"><i class="fa fa-check"></i><b>38.1</b> Promotions activity</a>
 <ul>
-<li class="chapter" data-level="39.1.1" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#does-gender-affect-promotions-at-a-bank"><i class="fa fa-check"></i><b>39.1.1</b> Does gender affect promotions at a bank?</a></li>
-<li class="chapter" data-level="39.1.2" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#shuffling-once"><i class="fa fa-check"></i><b>39.1.2</b> Shuffling once</a></li>
-<li class="chapter" data-level="39.1.3" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#shuffling-16-times"><i class="fa fa-check"></i><b>39.1.3</b> Shuffling 16 times</a></li>
-<li class="chapter" data-level="39.1.4" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#ht-what-did-we-just-do"><i class="fa fa-check"></i><b>39.1.4</b> What did we just do?</a></li>
+<li class="chapter" data-level="38.1.1" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#does-gender-affect-promotions-at-a-bank"><i class="fa fa-check"></i><b>38.1.1</b> Does gender affect promotions at a bank?</a></li>
+<li class="chapter" data-level="38.1.2" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#shuffling-once"><i class="fa fa-check"></i><b>38.1.2</b> Shuffling once</a></li>
+<li class="chapter" data-level="38.1.3" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#shuffling-16-times"><i class="fa fa-check"></i><b>38.1.3</b> Shuffling 16 times</a></li>
+<li class="chapter" data-level="38.1.4" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#ht-what-did-we-just-do"><i class="fa fa-check"></i><b>38.1.4</b> What did we just do?</a></li>
 </ul></li>
-<li class="chapter" data-level="39.2" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#understanding-ht"><i class="fa fa-check"></i><b>39.2</b> Understanding hypothesis tests</a></li>
-<li class="chapter" data-level="39.3" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#ht-infer"><i class="fa fa-check"></i><b>39.3</b> Conducting hypothesis tests</a>
+<li class="chapter" data-level="38.2" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#understanding-ht"><i class="fa fa-check"></i><b>38.2</b> Understanding hypothesis tests</a></li>
+<li class="chapter" data-level="38.3" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#ht-infer"><i class="fa fa-check"></i><b>38.3</b> Conducting hypothesis tests</a>
 <ul>
-<li class="chapter" data-level="39.3.1" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#infer-workflow-ht"><i class="fa fa-check"></i><b>39.3.1</b> <code>infer</code> package workflow</a></li>
-<li class="chapter" data-level="39.3.2" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#comparing-infer-workflows"><i class="fa fa-check"></i><b>39.3.2</b> Comparison with confidence intervals</a></li>
-<li class="chapter" data-level="39.3.3" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#only-one-test"><i class="fa fa-check"></i><b>39.3.3</b> “There is only one test”</a></li>
+<li class="chapter" data-level="38.3.1" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#infer-workflow-ht"><i class="fa fa-check"></i><b>38.3.1</b> <code>infer</code> package workflow</a></li>
+<li class="chapter" data-level="38.3.2" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#comparing-infer-workflows"><i class="fa fa-check"></i><b>38.3.2</b> Comparison with confidence intervals</a></li>
+<li class="chapter" data-level="38.3.3" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#only-one-test"><i class="fa fa-check"></i><b>38.3.3</b> “There is only one test”</a></li>
 </ul></li>
-<li class="chapter" data-level="39.4" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#ht-interpretation"><i class="fa fa-check"></i><b>39.4</b> Interpreting hypothesis tests</a>
+<li class="chapter" data-level="38.4" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#ht-interpretation"><i class="fa fa-check"></i><b>38.4</b> Interpreting hypothesis tests</a>
 <ul>
-<li class="chapter" data-level="39.4.1" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#trial"><i class="fa fa-check"></i><b>39.4.1</b> Two possible outcomes</a></li>
-<li class="chapter" data-level="39.4.2" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#types-of-errors"><i class="fa fa-check"></i><b>39.4.2</b> Types of errors</a></li>
-<li class="chapter" data-level="39.4.3" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#choosing-alpha"><i class="fa fa-check"></i><b>39.4.3</b> How do we choose alpha?</a></li>
+<li class="chapter" data-level="38.4.1" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#trial"><i class="fa fa-check"></i><b>38.4.1</b> Two possible outcomes</a></li>
+<li class="chapter" data-level="38.4.2" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#types-of-errors"><i class="fa fa-check"></i><b>38.4.2</b> Types of errors</a></li>
+<li class="chapter" data-level="38.4.3" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#choosing-alpha"><i class="fa fa-check"></i><b>38.4.3</b> How do we choose alpha?</a></li>
 </ul></li>
-<li class="chapter" data-level="39.5" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#ht-case-study"><i class="fa fa-check"></i><b>39.5</b> Case study: Are action or romance movies rated higher?</a>
+<li class="chapter" data-level="38.5" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#ht-case-study"><i class="fa fa-check"></i><b>38.5</b> Case study: Are action or romance movies rated higher?</a>
 <ul>
-<li class="chapter" data-level="39.5.1" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#imdb-data"><i class="fa fa-check"></i><b>39.5.1</b> IMDb ratings data</a></li>
-<li class="chapter" data-level="39.5.2" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#sampling-scenario-1"><i class="fa fa-check"></i><b>39.5.2</b> Sampling scenario</a></li>
-<li class="chapter" data-level="39.5.3" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#conducting-the-hypothesis-test"><i class="fa fa-check"></i><b>39.5.3</b> Conducting the hypothesis test</a></li>
+<li class="chapter" data-level="38.5.1" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#imdb-data"><i class="fa fa-check"></i><b>38.5.1</b> IMDb ratings data</a></li>
+<li class="chapter" data-level="38.5.2" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#sampling-scenario-1"><i class="fa fa-check"></i><b>38.5.2</b> Sampling scenario</a></li>
+<li class="chapter" data-level="38.5.3" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#conducting-the-hypothesis-test"><i class="fa fa-check"></i><b>38.5.3</b> Conducting the hypothesis test</a></li>
 </ul></li>
-<li class="chapter" data-level="39.6" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#nhst-conclusion"><i class="fa fa-check"></i><b>39.6</b> Conclusion</a>
+<li class="chapter" data-level="38.6" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#nhst-conclusion"><i class="fa fa-check"></i><b>38.6</b> Conclusion</a>
 <ul>
-<li class="chapter" data-level="39.6.1" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#theory-hypo"><i class="fa fa-check"></i><b>39.6.1</b> Theory-based hypothesis tests</a></li>
-<li class="chapter" data-level="39.6.2" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#when-inference-is-not-needed"><i class="fa fa-check"></i><b>39.6.2</b> When inference is not needed</a></li>
-<li class="chapter" data-level="39.6.3" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#problems-with-p-values"><i class="fa fa-check"></i><b>39.6.3</b> Problems with p-values</a></li>
-<li class="chapter" data-level="39.6.4" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#additional-resources-3"><i class="fa fa-check"></i><b>39.6.4</b> Additional resources</a></li>
-<li class="chapter" data-level="39.6.5" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#whats-to-come-4"><i class="fa fa-check"></i><b>39.6.5</b> What’s to come</a></li>
+<li class="chapter" data-level="38.6.1" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#theory-hypo"><i class="fa fa-check"></i><b>38.6.1</b> Theory-based hypothesis tests</a></li>
+<li class="chapter" data-level="38.6.2" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#when-inference-is-not-needed"><i class="fa fa-check"></i><b>38.6.2</b> When inference is not needed</a></li>
+<li class="chapter" data-level="38.6.3" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#problems-with-p-values"><i class="fa fa-check"></i><b>38.6.3</b> Problems with p-values</a></li>
+<li class="chapter" data-level="38.6.4" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#additional-resources-3"><i class="fa fa-check"></i><b>38.6.4</b> Additional resources</a></li>
+<li class="chapter" data-level="38.6.5" data-path="m13a-hypothesis-testing.html"><a href="m13a-hypothesis-testing.html#whats-to-come-4"><i class="fa fa-check"></i><b>38.6.5</b> What’s to come</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="40" data-path="m13c-explore-hypothesis-testing-with-your-own-data.html"><a href="m13c-explore-hypothesis-testing-with-your-own-data.html"><i class="fa fa-check"></i><b>40</b> M13C: Explore Hypothesis Testing With Your Own Data</a></li>
-<li class="chapter" data-level="41" data-path="module-14-understanding.html"><a href="module-14-understanding.html"><i class="fa fa-check"></i><b>41</b> Module 14 Understanding</a></li>
-<li class="chapter" data-level="42" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html"><i class="fa fa-check"></i><b>42</b> M14A: Inferential Regression</a>
+<li class="chapter" data-level="39" data-path="m13c-explore-hypothesis-testing-with-your-own-data.html"><a href="m13c-explore-hypothesis-testing-with-your-own-data.html"><i class="fa fa-check"></i><b>39</b> M13C: Explore Hypothesis Testing With Your Own Data</a></li>
+<li class="chapter" data-level="40" data-path="module-14-understanding.html"><a href="module-14-understanding.html"><i class="fa fa-check"></i><b>40</b> Module 14 Understanding</a></li>
+<li class="chapter" data-level="41" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html"><i class="fa fa-check"></i><b>41</b> M14A: Inferential Regression</a>
 <ul>
 <li class="chapter" data-level="" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#inf-packages"><i class="fa fa-check"></i>Needed packages</a></li>
-<li class="chapter" data-level="42.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-refresher"><i class="fa fa-check"></i><b>42.1</b> Regression refresher</a>
+<li class="chapter" data-level="41.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-refresher"><i class="fa fa-check"></i><b>41.1</b> Regression refresher</a>
 <ul>
-<li class="chapter" data-level="42.1.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#teaching-evaluations-analysis"><i class="fa fa-check"></i><b>42.1.1</b> Teaching evaluations analysis</a></li>
-<li class="chapter" data-level="42.1.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#sampling-scenario-2"><i class="fa fa-check"></i><b>42.1.2</b> Sampling scenario</a></li>
+<li class="chapter" data-level="41.1.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#teaching-evaluations-analysis"><i class="fa fa-check"></i><b>41.1.1</b> Teaching evaluations analysis</a></li>
+<li class="chapter" data-level="41.1.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#sampling-scenario-2"><i class="fa fa-check"></i><b>41.1.2</b> Sampling scenario</a></li>
 </ul></li>
-<li class="chapter" data-level="42.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-interp"><i class="fa fa-check"></i><b>42.2</b> Interpreting regression tables</a>
+<li class="chapter" data-level="41.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-interp"><i class="fa fa-check"></i><b>41.2</b> Interpreting regression tables</a>
 <ul>
-<li class="chapter" data-level="42.2.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-se"><i class="fa fa-check"></i><b>42.2.1</b> Standard error</a></li>
-<li class="chapter" data-level="42.2.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-test-statistic"><i class="fa fa-check"></i><b>42.2.2</b> Test statistic</a></li>
-<li class="chapter" data-level="42.2.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#p-value"><i class="fa fa-check"></i><b>42.2.3</b> p-value</a></li>
-<li class="chapter" data-level="42.2.4" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#confidence-interval"><i class="fa fa-check"></i><b>42.2.4</b> Confidence interval</a></li>
-<li class="chapter" data-level="42.2.5" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-table-computation"><i class="fa fa-check"></i><b>42.2.5</b> How does R compute the table?</a></li>
+<li class="chapter" data-level="41.2.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-se"><i class="fa fa-check"></i><b>41.2.1</b> Standard error</a></li>
+<li class="chapter" data-level="41.2.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-test-statistic"><i class="fa fa-check"></i><b>41.2.2</b> Test statistic</a></li>
+<li class="chapter" data-level="41.2.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#p-value"><i class="fa fa-check"></i><b>41.2.3</b> p-value</a></li>
+<li class="chapter" data-level="41.2.4" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#confidence-interval"><i class="fa fa-check"></i><b>41.2.4</b> Confidence interval</a></li>
+<li class="chapter" data-level="41.2.5" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-table-computation"><i class="fa fa-check"></i><b>41.2.5</b> How does R compute the table?</a></li>
 </ul></li>
-<li class="chapter" data-level="42.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-conditions"><i class="fa fa-check"></i><b>42.3</b> Conditions for inference for regression</a>
+<li class="chapter" data-level="41.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-conditions"><i class="fa fa-check"></i><b>41.3</b> Conditions for inference for regression</a>
 <ul>
-<li class="chapter" data-level="42.3.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#residuals-refresher"><i class="fa fa-check"></i><b>42.3.1</b> Residuals refresher</a></li>
-<li class="chapter" data-level="42.3.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#linearity-of-relationship"><i class="fa fa-check"></i><b>42.3.2</b> Linearity of relationship</a></li>
-<li class="chapter" data-level="42.3.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#independence-of-residuals"><i class="fa fa-check"></i><b>42.3.3</b> Independence of residuals</a></li>
-<li class="chapter" data-level="42.3.4" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#normality-of-residuals"><i class="fa fa-check"></i><b>42.3.4</b> Normality of residuals</a></li>
-<li class="chapter" data-level="42.3.5" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#equality-of-variance"><i class="fa fa-check"></i><b>42.3.5</b> Equality of variance</a></li>
-<li class="chapter" data-level="42.3.6" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#what-is-the-conclusion"><i class="fa fa-check"></i><b>42.3.6</b> What’s the conclusion?</a></li>
+<li class="chapter" data-level="41.3.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#residuals-refresher"><i class="fa fa-check"></i><b>41.3.1</b> Residuals refresher</a></li>
+<li class="chapter" data-level="41.3.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#linearity-of-relationship"><i class="fa fa-check"></i><b>41.3.2</b> Linearity of relationship</a></li>
+<li class="chapter" data-level="41.3.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#independence-of-residuals"><i class="fa fa-check"></i><b>41.3.3</b> Independence of residuals</a></li>
+<li class="chapter" data-level="41.3.4" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#normality-of-residuals"><i class="fa fa-check"></i><b>41.3.4</b> Normality of residuals</a></li>
+<li class="chapter" data-level="41.3.5" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#equality-of-variance"><i class="fa fa-check"></i><b>41.3.5</b> Equality of variance</a></li>
+<li class="chapter" data-level="41.3.6" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#what-is-the-conclusion"><i class="fa fa-check"></i><b>41.3.6</b> What’s the conclusion?</a></li>
 </ul></li>
-<li class="chapter" data-level="42.4" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#infer-regression"><i class="fa fa-check"></i><b>42.4</b> Simulation-based inference for regression</a>
+<li class="chapter" data-level="41.4" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#infer-regression"><i class="fa fa-check"></i><b>41.4</b> Simulation-based inference for regression</a>
 <ul>
-<li class="chapter" data-level="42.4.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#confidence-interval-for-slope"><i class="fa fa-check"></i><b>42.4.1</b> Confidence interval for slope</a></li>
-<li class="chapter" data-level="42.4.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#hypothesis-test-for-slope"><i class="fa fa-check"></i><b>42.4.2</b> Hypothesis test for slope</a></li>
+<li class="chapter" data-level="41.4.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#confidence-interval-for-slope"><i class="fa fa-check"></i><b>41.4.1</b> Confidence interval for slope</a></li>
+<li class="chapter" data-level="41.4.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#hypothesis-test-for-slope"><i class="fa fa-check"></i><b>41.4.2</b> Hypothesis test for slope</a></li>
 </ul></li>
-<li class="chapter" data-level="42.5" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#inference-conclusion"><i class="fa fa-check"></i><b>42.5</b> Conclusion</a>
+<li class="chapter" data-level="41.5" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#inference-conclusion"><i class="fa fa-check"></i><b>41.5</b> Conclusion</a>
 <ul>
-<li class="chapter" data-level="42.5.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#theory-regression"><i class="fa fa-check"></i><b>42.5.1</b> Theory-based inference for regression</a></li>
-<li class="chapter" data-level="42.5.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#summary-of-statistical-inference"><i class="fa fa-check"></i><b>42.5.2</b> Summary of statistical inference</a></li>
+<li class="chapter" data-level="41.5.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#relating-regression-to-other-methods"><i class="fa fa-check"></i><b>41.5.1</b> Relating regression to other methods</a></li>
+<li class="chapter" data-level="41.5.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#theory-regression"><i class="fa fa-check"></i><b>41.5.2</b> Theory-based inference for regression</a></li>
+<li class="chapter" data-level="41.5.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#summary-of-statistical-inference"><i class="fa fa-check"></i><b>41.5.3</b> Summary of statistical inference</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="43" data-path="m14c-perform-an-inferential-regression-with-your-own-data.html"><a href="m14c-perform-an-inferential-regression-with-your-own-data.html"><i class="fa fa-check"></i><b>43</b> M14C: Perform an Inferential Regression With Your Own Data</a></li>
-<li class="chapter" data-level="44" data-path="m15u-reflect-on-your-understanding-of-data-science.html"><a href="m15u-reflect-on-your-understanding-of-data-science.html"><i class="fa fa-check"></i><b>44</b> M15U: Reflect on Your Understanding of Data Science</a></li>
-<li class="chapter" data-level="45" data-path="m15a-reflect-on-your-application-of-data-science.html"><a href="m15a-reflect-on-your-application-of-data-science.html"><i class="fa fa-check"></i><b>45</b> M15A: Reflect on Your Application of Data Science</a></li>
-<li class="chapter" data-level="46" data-path="m15c-reflect-on-your-connection-of-data-science.html"><a href="m15c-reflect-on-your-connection-of-data-science.html"><i class="fa fa-check"></i><b>46</b> M15C: Reflect on Your Connection of Data Science</a></li>
+<li class="chapter" data-level="42" data-path="m14c-perform-an-inferential-regression-with-your-own-data.html"><a href="m14c-perform-an-inferential-regression-with-your-own-data.html"><i class="fa fa-check"></i><b>42</b> M14C: Perform an Inferential Regression With Your Own Data</a></li>
+<li class="chapter" data-level="43" data-path="m15u-reflect-on-your-understanding-of-data-science.html"><a href="m15u-reflect-on-your-understanding-of-data-science.html"><i class="fa fa-check"></i><b>43</b> M15U: Reflect on Your Understanding of Data Science</a></li>
+<li class="chapter" data-level="44" data-path="m15a-reflect-on-your-application-of-data-science.html"><a href="m15a-reflect-on-your-application-of-data-science.html"><i class="fa fa-check"></i><b>44</b> M15A: Reflect on Your Application of Data Science</a></li>
+<li class="chapter" data-level="45" data-path="m15c-reflect-on-your-connection-of-data-science.html"><a href="m15c-reflect-on-your-connection-of-data-science.html"><i class="fa fa-check"></i><b>45</b> M15C: Reflect on Your Connection of Data Science</a></li>
 </ul>
 
       </nav>
@@ -677,29 +615,29 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="m9u-linear-regression" class="section level1 hasAnchor" number="26">
-<h1><span class="header-section-number">26</span> M9U: Linear Regression<a href="m9u-linear-regression.html#m9u-linear-regression" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="m9u-linear-regression" class="section level1 hasAnchor" number="25">
+<h1><span class="header-section-number">25</span> M9U: Linear Regression<a href="m9u-linear-regression.html#m9u-linear-regression" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>This chapter draws on material from <em><a href="https://openstax.org/details/books/introductory-statistics">Introductory Statistics</a></em> by <a href="https://openstax.org/">OpenStax</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
 <p>Changes to the source material include light editing, adding new material, deleting original material, combining material, rearranging material, and adding first-person language from current author.</p>
 <p>The resulting content is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
-<div id="introduction-18" class="section level2 hasAnchor" number="26.1">
-<h2><span class="header-section-number">26.1</span> Introduction<a href="m9u-linear-regression.html#introduction-18" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="introduction-18" class="section level2 hasAnchor" number="25.1">
+<h2><span class="header-section-number">25.1</span> Introduction<a href="m9u-linear-regression.html#introduction-18" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Professionals often want to know how two or more numeric variables are related. For example, is there a relationship between the grade on the second math exam a student takes and the grade on the final exam? If there is a relationship, what is the relationship and how strong is it?</p>
 <p>In another example, your income may be determined by your education, your profession, your years of experience, and your ability. The amount you pay a repair person for labor is often determined by an initial amount plus an hourly fee.</p>
 <p>The type of data described in the examples is <em>bivariate</em> data — “bi” for two variables. In reality, data scientists tend to use <em>multivariate</em> data, meaning many variables.</p>
 <p>In this reading, you will be studying the simplest form of regression, “linear regression” with one independent variable (x). This involves data that fits a line in two dimensions. You will also study correlation, which measures how strong the relationship is.</p>
 </div>
-<div id="linear-equations" class="section level2 hasAnchor" number="26.2">
-<h2><span class="header-section-number">26.2</span> Linear Equations<a href="m9u-linear-regression.html#linear-equations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Linear regression for two variables is based on a linear equation with one independent variable. The equation has the form <em>y = a + bx</em></p>
-<p>The graph of a linear equation of the form <em>y = a + bx</em> is a straight line. Any line that is not vertical can be described by this equation. If all of this reminds you of algebra, it should!</p>
+<div id="linear-equations" class="section level2 hasAnchor" number="25.2">
+<h2><span class="header-section-number">25.2</span> Linear Equations<a href="m9u-linear-regression.html#linear-equations" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Linear regression for two variables is based on a linear equation with one independent variable. The equation has the form <span class="math inline">\(y = a + bx\)</span></p>
+<p>The graph of a linear equation of the form <span class="math inline">\(y = a + bx\)</span> is a straight line. Any line that is not vertical can be described by this equation. If all of this reminds you of algebra, it should!</p>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Linear_Function_Graph.svg/480px-Linear_Function_Graph.svg.png" /></p>
-<p>That said, in statistics, we assign specific meanings to these different terms that you might not have covered in algebra. For example, the variable <em>x</em> is the explanatory (or independent or predictable) variable, and <em>y</em> is the outcome (or dependent) variable. This was just as true in algebra as it is in this class, but that isn’t always specified in algebra—it’s very important to understand that for data science. Similarly, in algebra, you may have referred to <em>a</em> as the <em>y</em>-intercept and <em>b</em> as the slope. These both make sense: <em>a</em> is the value at which the line crosses (intercepts) the <em>y</em>-axis, and <em>b</em> describes how steep the line is. In a statistical analysis, however, those mean specific things, which are key to our interpretation of a regression analysis.</p>
-<p>Let’s talk about <em>a</em> first, which you may see described as just the “intercept” or even as a “constant.” In short, it’s the value of the dependent variable when the independent variable is at 0. Sometimes, this can be really helpful! For example, if the dependent variable is a measure of sickness, and the independent variable is a dosage of medicine, the intercept gives us an estimate for how sick someone would be without any medicine at all (these are sloppy examples, of course—they get the point across, but we’d need a lot more detail to really interpret that relationship). Other times, though, the intercept is a bit nonsensical. If we wanted to measure the relationship between height and weight, we could set height as our independent variable and weight as our dependent variable. R will dutifully spit out an intercept value for us, which would represent the weight we would expect for someone with a height of 0; since that’s impossible, that number is actually pretty useless.</p>
-<p>Even more important is how we think of <em>b</em>; after all, the slope of the line is really just a visual representation of something in our data. In data science, we refer to <em>b</em> as a <em>coefficient</em>, and it represents the strength of the relationship between the independent and dependent variables. In very specific terms, <em>b</em> represents the change in the dependent variable for a 1-unit increase of the independent variable. A positive coefficient suggest a positive relationship (demonstrated in a plot by a positive slope): More of the independent variable leads to more of the dependent variable. A negative coefficient suggests a negative relationship (demonstrated in a plot by a negative slope): More of the independent variable leads to less of the dependent variable.</p>
+<p>That said, in statistics, we assign specific meanings to these different terms that you might not have covered in algebra. For example, the variable <span class="math inline">\(x\)</span> is the explanatory (or independent or predictable) variable, and <span class="math inline">\(y\)</span> is the outcome (or dependent) variable. This was just as true in algebra as it is in this class, but that isn’t always specified in algebra—it’s very important to understand that for data science. Similarly, in algebra, you may have referred to <span class="math inline">\(a\)</span> as the <span class="math inline">\(y\)</span>-intercept and <span class="math inline">\(b\)</span> as the slope. These both make sense: <span class="math inline">\(a\)</span> is the value at which the line crosses (intercepts) the <span class="math inline">\(y\)</span>-axis, and <span class="math inline">\(b\)</span> describes how steep the line is. In a statistical analysis, however, those mean specific things, which are key to our interpretation of a regression analysis.</p>
+<p>Let’s talk about <span class="math inline">\(a\)</span> first, which you may see described as just the “intercept” or even as a “constant.” In short, it’s the value of the dependent variable when the independent variable is at 0. Sometimes, this can be really helpful! For example, if the dependent variable is a measure of sickness, and the independent variable is a dosage of medicine, the intercept gives us an estimate for how sick someone would be without any medicine at all (these are sloppy examples, of course—they get the point across, but we’d need a lot more detail to really interpret that relationship). Other times, though, the intercept is a bit nonsensical. If we wanted to measure the relationship between height and weight, we could set height as our independent variable and weight as our dependent variable. R will dutifully spit out an intercept value for us, which would represent the weight we would expect for someone with a height of 0; since that’s impossible, that number is actually pretty useless.</p>
+<p>Even more important is how we think of <span class="math inline">\(b\)</span>; after all, the slope of the line is really just a visual representation of something in our data. In data science, we refer to <span class="math inline">\(b\)</span> as a <em>coefficient</em>, and it represents the strength of the relationship between the independent and dependent variables. In very specific terms, <span class="math inline">\(b\)</span> represents the change in the dependent variable for a 1-unit increase of the independent variable. A positive coefficient suggest a positive relationship (demonstrated in a plot by a positive slope): More of the independent variable leads to more of the dependent variable. A negative coefficient suggests a negative relationship (demonstrated in a plot by a negative slope): More of the independent variable leads to less of the dependent variable.</p>
 </div>
-<div id="linear-relationships-and-scatterplots" class="section level2 hasAnchor" number="26.3">
-<h2><span class="header-section-number">26.3</span> Linear Relationships and Scatterplots<a href="m9u-linear-regression.html#linear-relationships-and-scatterplots" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="linear-relationships-and-scatterplots" class="section level2 hasAnchor" number="25.3">
+<h2><span class="header-section-number">25.3</span> Linear Relationships and Scatterplots<a href="m9u-linear-regression.html#linear-relationships-and-scatterplots" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>We’ve already touched on scatterplots as a visualization technique for examining the relationship between two variables. The relationship between a linear relationship and a scatterplot visualization is pretty intuitive.</p>
 <p>For example, a scatterplot shows the direction of a relationship between the variables. A clear direction happens when there is either:</p>
 <ul>
@@ -710,54 +648,54 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>When you look at a scatterplot, you want to notice the <em>overall pattern</em> and any <em>deviations</em> from the pattern. In this chapter, we are interested in scatter plots that show a linear pattern. Linear patterns are quite common. The linear relationship is strong if the points are close to a straight line, except in the case of a horizontal line, which indicates there is no relationship.</p>
 <p>However, the connection between the scatterplot visualization and a linear relationship actually goes deeper than just the intuitive connection between them. Like cluster analysis, linear regression uses geometric distances between points on a two-dimensional plane to calculate the equation that best defines the relationship between these variables.</p>
 </div>
-<div id="the-regression-equation" class="section level2 hasAnchor" number="26.4">
-<h2><span class="header-section-number">26.4</span> The Regression Equation<a href="m9u-linear-regression.html#the-regression-equation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="the-regression-equation" class="section level2 hasAnchor" number="25.4">
+<h2><span class="header-section-number">25.4</span> The Regression Equation<a href="m9u-linear-regression.html#the-regression-equation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Data rarely fit a straight line exactly—this is one of the reasons that we need to be humble about our data science work! Usually, you must be satisfied with rough predictions. Typically, you have a set of data whose scatter plot appears to “fit” a straight line. This is called a Line of Best Fit or Least-Squares Line.</p>
-<p>Imagine that a random sample of 11 data science students produced the following data, where <em>x</em> is the third exam score out of 80, and <em>y</em> is the final exam score out of 200. Can you predict the final exam score of a random student if you know the third exam score? The third exam score, <em>x</em>, is the independent variable and the final exam score, <em>y</em>, is the dependent variable. Let’s consider a scatterplot that visually represents this hypothetical dataset:</p>
-<p><img src="images/scatterplot_regression.png" width="\textwidth" style="display: block; margin: auto;" /></p>
+<p>Imagine that a random sample of 11 data science students produced the following data, where <span class="math inline">\(x\)</span> is the third exam score out of 80, and <span class="math inline">\(y\)</span> is the final exam score out of 200. Can you predict the final exam score of a random student if you know the third exam score? The third exam score, <span class="math inline">\(x\)</span>, is the independent variable and the final exam score, <span class="math inline">\(y\)</span>, is the dependent variable. Let’s consider a scatterplot that visually represents this hypothetical dataset:</p>
+<p><img src="images/scatterplot_regression.png" width="244" /></p>
 <p>We could use a line that represents a linear equation to describe the relationship between these variables. Just eyeballing it, most of you would probably come up with a line with a positive slope, which suggests a positive relationship between these variables. That’s not surprising at all. However, even if everyone were careful, each of you would draw different lines. To come up with an consistent best fit line, , we can use what is called a <em>least-squares regression line</em>.</p>
-<p>Consider the following diagram. Each point of data is of the the form (<em>x</em>, <em>y</em>) and each point of the line of best fit using least-squares linear regression has the form (x, ŷ).</p>
-<p>The <em>ŷ</em> is read “y hat” and is <em>the estimated value of y</em>. It is the value of <em>y</em> obtained using the regression line. It is not generally equal to <em>y</em> from data.</p>
-<p>The term <em>y</em><sub>0</sub> – ŷ<sub>0</sub> = ε<sub>0</sub> is called the “error” or <em>residual.</em> It is not an error in the sense of a mistake. The absolute value of a residual measures the vertical distance between the actual value of <em>y</em> and the estimated value of <em>y</em>. In other words, it measures the vertical distance between the actual data point and the predicted point on the line.</p>
-<p>If the observed data point lies above the line, the residual is positive, and the line underestimates the actual data value for <em>y</em>. If the observed data point lies below the line, the residual is negative, and the line overestimates that actual data value for y<em>.</em></p>
+<p>Consider the following diagram. Each point of data is of the the form (<span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span>) and each point of the line of best fit using least-squares linear regression has the form (x, ŷ).</p>
+<p>The <span class="math inline">\(ŷ\)</span> is read “y hat” and is <em>the estimated value of y</em>. It is the value of <span class="math inline">\(y\)</span> obtained using the regression line. It is not generally equal to <span class="math inline">\(y\)</span> from data.</p>
+<p>The term <span class="math inline">\(y_{0} – ŷ_{0} = ε_{0}\)</span> is called the “error” or <em>residual</em>. It is not an error in the sense of a mistake. The absolute value of a residual measures the vertical distance between the actual value of <span class="math inline">\(y\)</span> and the estimated value of <span class="math inline">\(y\)</span>. In other words, it measures the vertical distance between the actual data point and the predicted point on the line.</p>
+<p>If the observed data point lies above the line, the residual is positive, and the line underestimates the actual data value for <span class="math inline">\(y\)</span>. If the observed data point lies below the line, the residual is negative, and the line overestimates that actual data value for <span class="math inline">\(y\)</span>.</p>
 <p>You can calculate the residuals (or errors) for each data point. Then, if you square them (so that negative residuals don’t cancel out positive residuals) and add them together, you get a <em>Sum of Squared Errors</em> (SSE), a measure of the amount of error for particular points and a particular line.</p>
-<p>Using calculus, you can determine the values of <em>a</em> and <em>b</em> that make the SSE a minimum. When you make the SSE a minimum, you have determined the points that are on the line of best fit—that is, you’ve found the line for which there’s the least amount of error.</p>
+<p>Using calculus, you can determine the values of <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> that make the SSE a minimum. When you make the SSE a minimum, you have determined the points that are on the line of best fit—that is, you’ve found the line for which there’s the least amount of error.</p>
 </div>
-<div id="least-squares-criteria-for-best-fit" class="section level2 hasAnchor" number="26.5">
-<h2><span class="header-section-number">26.5</span> Least Squares Criteria for Best Fit<a href="m9u-linear-regression.html#least-squares-criteria-for-best-fit" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="least-squares-criteria-for-best-fit" class="section level2 hasAnchor" number="25.5">
+<h2><span class="header-section-number">25.5</span> Least Squares Criteria for Best Fit<a href="m9u-linear-regression.html#least-squares-criteria-for-best-fit" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The process of fitting the best-fit line is called <em>linear regression</em>. The idea behind finding the best-fit line is based on the assumption that the data are scattered about a straight line. The criteria for the best fit line is that the sum of the squared errors (SSE) is minimized, that is, made as small as possible. Any other line you might choose would have a higher SSE than the best fit line. This best fit line is called the <em>least-squares regression line</em>.</p>
 <p>The graph of the line of best fit for the third-exam/final-exam example is as follows:</p>
-<p><img src="images/scatterplot_regression_line.png" width="\textwidth" style="display: block; margin: auto;" /></p>
-<p>The least squares regression line (best-fit line) for the third-exam/final-exam example has the equation: <em>y = -173.51 + 4.83 x</em></p>
-<p>Looping back to our discussion of linear equations, we can interpret this! Let’s start with the overall interpretation and then break it down. Our regression model estimates that a student’s final exam score (out of 200) ought to equal -173.51 + 4.83 for every point (out of 80) they scored on the third exam for the class.</p>
-<p>Our intercept here is kind of useless. It predicts that a student who scored a 0 on the third exam will score a -173.51/200 on the final exam, and I can promise thatare (usually) not so cruel as to give negative points for final exams. This number makes sense mathematically but not conceptually.</p>
+<p><img src="images/scatterplot_regression_line.png" width="244" /></p>
+<p>The least squares regression line (best-fit line) for the third-exam/final-exam example has the equation: <span class="math inline">\(y = -173.51 + 4.83 x\)</span></p>
+<p>Looping back to our discussion of linear equations, we can interpret this! Let’s start with the overall interpretation and then break it down. Our regression model estimates that a student’s final exam score (out of <span class="math inline">\(200\)</span>) ought to equal <span class="math inline">\(-173.51\)</span> plus <span class="math inline">\(4.83\)</span> for every point (out of 80) they scored on the third exam for the class.</p>
+<p>Our intercept here is kind of useless. It predicts that a student who scored a 0 on the third exam will score a <span class="math inline">\(-173.51/200\)</span> on the final exam, and I can promise thatare (usually) not so cruel as to give negative points for final exams. This number makes sense mathematically but not conceptually.</p>
 <p>However, our coefficient here is really helpful: For every additional point that a student scores on the third exam, we can expect them to score an additional 4.83 points on the final exam. That’s not a perfect prediction (linear regression never is), but it’s helpful to know.</p>
 </div>
-<div id="correlation-coefficients" class="section level2 hasAnchor" number="26.6">
-<h2><span class="header-section-number">26.6</span> Correlation Coefficients<a href="m9u-linear-regression.html#correlation-coefficients" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="correlation-coefficients" class="section level2 hasAnchor" number="25.6">
+<h2><span class="header-section-number">25.6</span> Correlation Coefficients<a href="m9u-linear-regression.html#correlation-coefficients" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Besides looking at the scatter plot and seeing that a line seems reasonable, how can you tell if the line is a good predictor? We can use calculate a <em>correlation coefficient</em> as another indicator (besides the scatterplot) of the strength of the relationship between x and y.</p>
 <p>Before moving on, a few words about correlations. First, even though data scientists generally have the goal of establishing causal relationships between variables, doing so is actually quite difficult. A common saying in statistics and data science is that <em>correlation isn’t causation</em>. Two variables may be correlated without having any kind of causal relationship between them. Second, in popular language, “correlation” is used to indicate any kind of relationship between two phenomena. However, in statistics and data science, correlation refers specifically to the kind of relationship suggested by a correlation analysis. If you’re reporting on the results of a regression, for example, it would be inappropriate to talk about variables being correlated, because that’s not the kind of analysis that you’re doing.</p>
-<p>The <em>correlation coefficient</em>, <em>r</em>, developed by Karl Pearson in the early 1900s, is numerical and provides a measure of strength and direction of the linear association between the independent variable <em>x</em> and the dependent variable <em>y</em>. For the moment, we’re not going to worry about how the correlation coefficient is calculated. However, If you suspect a linear relationship between <em>x</em> and <em>y</em>, then <em>r</em> can measure how strong the linear relationship is.</p>
-<p>What the VALUE of <em>r</em> tells us:</p>
+<p>The <em>correlation coefficient</em>, <span class="math inline">\(r\)</span>, developed by Karl Pearson in the early 1900s, is numerical and provides a measure of strength and direction of the linear association between the independent variable <span class="math inline">\(x\)</span> and the dependent variable <span class="math inline">\(y\)</span>. For the moment, we’re not going to worry about how the correlation coefficient is calculated. However, If you suspect a linear relationship between <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>, then <span class="math inline">\(r\)</span> can measure how strong the linear relationship is.</p>
+<p>What the VALUE of <span class="math inline">\(r\)</span> tells us:</p>
 <ul>
-<li>The value of <em>r</em> is always between –1 and +1: –1 ≤ <em>r</em> ≤ 1.</li>
-<li>The size of the correlation <em>r</em> indicates the strength of the linear relationship between x and y. Values of <em>r</em> close to –1 or to +1 indicate a stronger linear relationship between <em>x</em> and <em>y</em>.</li>
-<li>If <em>r</em> = 0 there is likely no linear correlation. It is important to view the scatterplot, however, because data that exhibit a curved or horizontal pattern may have a correlation of 0.</li>
-<li>If <em>r</em> = 1, there is perfect positive correlation. If <em>r</em> = –1, there is perfect negative correlation. In both these cases, all of the original data points lie on a straight line. Of course,in the real world, this will not generally happen.</li>
+<li>The value of <span class="math inline">\(r\)</span> is always between <span class="math inline">\(–1\)</span> and <span class="math inline">\(+1\)</span>: <span class="math inline">\(–1 ≤ r ≤ 1\)</span>.</li>
+<li>The size of the correlation <span class="math inline">\(r\)</span> indicates the strength of the linear relationship between x and y. Values of <span class="math inline">\(r\)</span> close to –1 or to +1 indicate a stronger linear relationship between <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>.</li>
+<li>If <span class="math inline">\(r = 0\)</span> there is likely no linear correlation. It is important to view the scatterplot, however, because data that exhibit a curved or horizontal pattern may have a correlation of <span class="math inline">\(0\)</span>.</li>
+<li>If <span class="math inline">\(r = 1\)</span>, there is perfect positive correlation. If <span class="math inline">\(r = –1\)</span>, there is perfect negative correlation. In both these cases, all of the original data points lie on a straight line. Of course,in the real world, this will not generally happen.</li>
 </ul>
 <p>What the SIGN of r tells us:
-* A positive value of <em>r</em> means that when <em>x</em> increases, <em>y</em> tends to increase and when <em>x</em> decreases, <em>y</em> tends to decrease (positive correlation).
-* A negative value of <em>r</em> means that when <em>x</em> increases, <em>y</em> tends to decrease and when <em>x</em> decreases, <em>y</em> tends to increase (negative correlation).
-* The sign of <em>r</em> is the same as the sign of the slope, <em>b</em>, of the best-fit line.</p>
-<p>In addition to the correlation coefficient itself, we can consider the variable <em>r</em><sup>2</sup>. This is called the coefficient of determination and is the square of the correlation coefficient. However, it is usually stated as a percent, rather than in decimal form. r<sup>2</sup> is always calculated as part of a regression analysis because it tells us some things about the data:</p>
+* A positive value of <span class="math inline">\(r\)</span> means that when <span class="math inline">\(x\)</span> increases, <span class="math inline">\(y\)</span> tends to increase and when <span class="math inline">\(x\)</span> decreases, <span class="math inline">\(y\)</span> tends to decrease (positive correlation).
+* A negative value of <span class="math inline">\(r\)</span> means that when <span class="math inline">\(x\)</span> increases, <span class="math inline">\(y\)</span> tends to decrease and when <span class="math inline">\(x\)</span> decreases, <span class="math inline">\(y\)</span> tends to increase (negative correlation).
+* The sign of <span class="math inline">\(r\)</span> is the same as the sign of the slope, <span class="math inline">\(b\)</span>, of the best-fit line.</p>
+<p>In addition to the correlation coefficient itself, we can consider the variable <span class="math inline">\(r^2\)</span>. This is called the coefficient of determination and is the square of the correlation coefficient. However, it is usually stated as a percent, rather than in decimal form. <span class="math inline">\(r^2\)</span> is always calculated as part of a regression analysis because it tells us some things about the data:</p>
 <ul>
-<li>When <em>r</em><sup>2</sup> is expressed as a percent, it represents the percent of variation in the dependent (predicted) variable y that can be explained by variation in the independent (explanatory) variable x using the regression (best-fit) line.</li>
-<li>When 1 - <em>r</em><sup>2</sup> is expressed as a percentage, it represents the percent of variation in <em>y</em> that is NOT explained by variation in <em>x</em> using the regression line. This can be seen as the scattering of the observed data points about the regression line.</li>
+<li>When <span class="math inline">\(r^2\)</span> is expressed as a percent, it represents the percent of variation in the dependent (predicted) variable y that can be explained by variation in the independent (explanatory) variable x using the regression (best-fit) line.</li>
+<li>When <span class="math inline">\(1 - r^2\)</span> is expressed as a percentage, it represents the percent of variation in <span class="math inline">\(y\)</span> that is NOT explained by variation in <span class="math inline">\(x\)</span> using the regression line. This can be seen as the scattering of the observed data points about the regression line.</li>
 </ul>
-<p>So, for example, the <em>r</em><sup>2</sup> value for our third exam/final exam regression from earlier is 0.4397. This tells us that approximately 44% (0.4397 is approximately 0.44, which is equivalent to 44%) of the variation in the final-exam grades can be explained by the variations in the grade on the third exam. However, there is still approximately 56% of the variation in final exam grades (1 - 0.44 = 0.56, which is equivalent to 56%) that isn’t explained by our model. Over half of the variation between students’ final exam scores can be attributed to factors other than their performance on the third exam.</p>
+<p>So, for example, the <span class="math inline">\(r^2\)</span> value for our third exam/final exam regression from earlier is <span class="math inline">\(0.4397\)</span>. This tells us that approximately 44% (<span class="math inline">\(0.4397\)</span> is approximately <span class="math inline">\(0.44\)</span>, which is equivalent to 44%) of the variation in the final-exam grades can be explained by the variations in the grade on the third exam. However, there is still approximately 56% of the variation in final exam grades (<span class="math inline">\(1 - 0.44 = 0.56\)</span>, which is equivalent to 56%) that isn’t explained by our model. Over half of the variation between students’ final exam scores can be attributed to factors other than their performance on the third exam.</p>
 </div>
-<div id="conclusion-9" class="section level2 hasAnchor" number="26.7">
-<h2><span class="header-section-number">26.7</span> Conclusion<a href="m9u-linear-regression.html#conclusion-9" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="conclusion-9" class="section level2 hasAnchor" number="25.7">
+<h2><span class="header-section-number">25.7</span> Conclusion<a href="m9u-linear-regression.html#conclusion-9" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Regression and correlation are the main kinds of statistical analysis that we’ll be doing this semester, so it’s important that we get the mechanics down. If reading over all of this felt like a lot, we’re actually going to cover it all again with our <em>application</em> activity; the concepts that we covered in this <em>understanding</em> reading are important, but as with most things data science, I strongly feel that actually <em>doing</em> something helps more than reading it. Besides, the <em>application</em> take on all of this will tackle it from a different angle, so a couple of different perspectives ought to be helpful in helping these ideas really sink in.</p>
 
 </div>

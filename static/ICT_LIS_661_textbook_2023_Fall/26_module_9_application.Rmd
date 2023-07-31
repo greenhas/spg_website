@@ -1,5 +1,11 @@
 # M9A: Basic Regression {#regression}
 
+This content draws on material from *[Statistical Inference via Data Science: A ModernDive into R and the Tidyverse](https://moderndive.com/)* by [Chester Ismay](https://chester.rbind.io/) and [Albert Y. Kim](https://rudeboybert.rbind.io/), licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+Changes to the source material include addition of new material; light editing; rearranging, removing, and combining original material; adding and changing links; and adding first-person language from current author.
+
+The resulting content is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
 (ref:moderndivepart) Data Modeling with `moderndive`
 
 ```{r, include=FALSE, purl=FALSE}
@@ -30,10 +36,12 @@ options(knitr.kable.NA = "")
 set.seed(76)
 ```
 
-Now that we are equipped with data visualization skills from Chapter \@ref(viz), data wrangling skills from Chapter \@ref(wrangling), and an understanding of how to import data and the concept of a "tidy" data format from Chapter \@ref(tidy), let's now proceed with data modeling. The fundamental premise of data modeling is to make explicit the relationship between:
+## Introduction
+
+Now that we are equipped with skills for wrangling, tidying, and visualizaing data, let's proceed with data modeling. The fundamental premise of data modeling is to make explicit the relationship between:
 
 * an *outcome variable* $y$, also called a *dependent variable* or response variable, \index{variables!response / outcome / dependent} and
-* an *explanatory/predictor variable* $x$, also called an *independent variable* or \index{variables!explanatory / predictor / independent} covariate.
+* an *explanatory variable* $x$, also called a *predictor varialble* or an *independent variable* or \index{variables!explanatory / predictor / independent} covariate.
 
 Another way to state this is using mathematical terminology: we will model the outcome variable $y$ "as a function" of the explanatory/predictor variable $x$. When we say "function" here, we aren't referring to functions in R like the `ggplot()` function, but rather as a mathematical function. But, why do we have two different labels, explanatory and predictor, for the variable $x$? That's because even though the two terms are often used interchangeably, roughly speaking data modeling serves one of two purposes:
 
