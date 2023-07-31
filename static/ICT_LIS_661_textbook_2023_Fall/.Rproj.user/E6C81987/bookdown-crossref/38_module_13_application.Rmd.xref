@@ -1,4 +1,5 @@
 h1:hypothesis-testing M13A: Hypothesis Testing
+h2:introduction Introduction
 h3:nhst-packages Needed packages
 h2:ht-activity Promotions activity
 h3:does-gender-affect-promotions-at-a-bank Does gender affect promotions at a bank?
@@ -50,14 +51,6 @@ h4:calculate-summary-statistics-1 4.  summary statistics
 h4:visualize-the-p-value-1 5.  the p-value
 fig:null-distribution-movies-2 Null distribution, observed test statistic, and $p$-value.
 h2:nhst-conclusion Conclusion
-h3:theory-hypo Theory-based hypothesis tests
-h4:two-sample-t-statistic Two-sample t-statistic
-fig:zcurve Standard normal z curve.
-fig:t-distributions Examples of t-distributions and the z curve.
-h4:null-distribution Null distribution
-fig:comparing-diff-means-t-stat Comparing the null distributions of two test statistics.
-fig:t-stat-3 Null distribution using t-statistic and t-distribution.
-fig:t-stat-4 Null distribution using t-statistic and t-distribution with $p$-value shaded.
 h3:when-inference-is-not-needed When inference is not needed
 fig:ha-as-flights-boxplot Air time for Hawaiian and Alaska Airlines flights departing NYC in 2013.
 h3:problems-with-p-values Problems with p-values

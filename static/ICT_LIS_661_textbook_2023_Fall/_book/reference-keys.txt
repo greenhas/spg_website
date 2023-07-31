@@ -183,11 +183,6 @@ fig:trial-errors-table-ht
 fig:action-romance-boxplot
 tab:summarytable-ch10
 fig:null-distribution-movies-2
-fig:zcurve
-fig:t-distributions
-fig:comparing-diff-means-t-stat
-fig:t-stat-3
-fig:t-stat-4
 fig:ha-as-flights-boxplot
 fig:infer-workflow-ht
 tab:regression-table-inference
@@ -541,6 +536,7 @@ a-problem-with-companies-and-transparency
 a-problem-with-schools-and-trust
 conclusion-13
 hypothesis-testing
+introduction-27
 ht-activity
 does-gender-affect-promotions-at-a-bank
 shuffling-once
@@ -560,7 +556,6 @@ imdb-data
 sampling-scenario-1
 conducting-the-hypothesis-test
 nhst-conclusion
-theory-hypo
 when-inference-is-not-needed
 problems-with-p-values
 additional-resources-1
