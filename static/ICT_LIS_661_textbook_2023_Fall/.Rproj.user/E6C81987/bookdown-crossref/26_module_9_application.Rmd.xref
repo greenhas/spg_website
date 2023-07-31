@@ -6,6 +6,7 @@ h2:model1 One numerical explanatory variable
 h3:model1EDA Exploratory data analysis
 tab:five-random-courses A random sample of 5 out of the 463 courses at UT Austin
 fig:correlation1 Nine different correlation coefficients.
+fig:guess-the-correlation (ref:guess-corr)
 fig:numxplot1 Instructor evaluation scores at UT Austin.
 fig:numxplot2 Instructor evaluation scores at UT Austin.
 fig:numxplot3 Regression line.
@@ -34,13 +35,10 @@ fig:moderndive-figure-causal-graph-2 Does sleeping with shoes on cause headaches
 fig:moderndive-figure-causal-graph Causal graph.
 h3:leastsquares Best-fitting line
 fig:best-fitting-line Example of observed value, fitted value, and residual.
-fig:three-lines Regression line and two others.
 h3:underthehood  functions
 tab:recall-table Regression table
 tab:regtable-broom Regression table using tidy() from broom package
 tab:regpoints-augment Regression points using augment() from broom package
 h2:reg-conclusion Conclusion
-h3:additional-resources-basic-regression Additional resources
-fig:guess-the-correlation (ref:guess-corr)
-h3:whats-to-come What’s to come?
+h2:references References
 

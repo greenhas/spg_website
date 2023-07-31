@@ -1,4 +1,4 @@
-# M12A: Confidence Intervals
+# M12A: Confidence Intervals {#confidence-intervals}
     
 ```{r setup_ci, include=FALSE, purl=FALSE}
 # Used to define Learning Check numbers:

@@ -1,4 +1,4 @@
-# M11A: Sampling
+# M11A: Sampling {#sampling}
 
 (ref:inferpart) Statistical Inference with `infer`
 

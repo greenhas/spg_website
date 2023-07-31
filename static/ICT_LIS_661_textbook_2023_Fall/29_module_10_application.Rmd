@@ -1,4 +1,4 @@
-# M10A: Multiple Regression {#multiple-regression}}
+# M10A: Multiple Regression {#multiple-regression}
 
 ```{r, include=FALSE, purl=FALSE}
 # Used to define Learning Check numbers:

@@ -1,4 +1,4 @@
-# M13A: Hypothesis Testing
+# M13A: Hypothesis Testing {#hypothesis-testing}
     
 ```{r setup_hypo, include=FALSE, purl=FALSE}
 # Used to define Learning Check numbers:

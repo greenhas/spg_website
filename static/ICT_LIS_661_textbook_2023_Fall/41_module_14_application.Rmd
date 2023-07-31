@@ -1,4 +1,4 @@
-# M14A: Inferential Regression
+# M14A: Inferential Regression {#inference-for-regression}
 
 ```{r setup_inference_regression, include=FALSE, purl=FALSE}
 # Used to define Learning Check numbers:
