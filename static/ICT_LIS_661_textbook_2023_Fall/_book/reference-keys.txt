@@ -531,7 +531,15 @@ ci-build
 interpreting-the-confidence-interval
 ci-conclusion
 m12c-explore-confidence-intervals-with-your-own-data
-module-13-understanding
+m13a-the-dangers-of-false-positives
+introduction-26
+the-dartmouth-cheating-scandal
+what-was-wrong-with-dartmouths-investigation
+investigations-of-students-must-start-with-concrete-evidence
+not-just-dartmouth
+a-problem-with-companies-and-transparency
+a-problem-with-schools-and-trust
+conclusion-13
 hypothesis-testing
 ht-activity
 does-gender-affect-promotions-at-a-bank
