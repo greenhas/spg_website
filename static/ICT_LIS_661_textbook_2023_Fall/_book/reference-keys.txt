@@ -502,7 +502,11 @@ sampling-conclusion-central-limit-theorem
 sampling-conclusion
 whats-to-come
 m11c-explore-sampling-with-your-own
-module-12-understanding
+m12u-confident-about-what
+introduction-24
+travelingwhiletrans
+conclusion-12
+references-14
 confidence-intervals
 resampling-tactile
 what-is-the-average-year-on-us-pennies-in-2019
