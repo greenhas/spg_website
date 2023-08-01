@@ -1,5 +1,5 @@
 h1:sampling M11A: Sampling
-(ref:inferpart) Statistical Inference with 
+h2:introduction Introduction
 h3:sampling-packages Needed packages
 h2:sampling-activity Sampling bowl activity
 h3:what-proportion-of-this-bowls-balls-are-red What proportion of this bowl’s balls are red?
@@ -34,14 +34,10 @@ tab:comparing-n-2 Standard errors of the sample proportion based on sample sizes
 h3:moral-of-the-story The moral of the story
 fig:comparing-sampling-distributions-3 Three sampling distributions with population proportion $p$ marked by vertical line.
 fig:accuracy-vs-precision Comparing accuracy and precision.
-tab:comparing-n-3 Standard errors of $\\widehat{p}$ based on n = 25, 50, 100
 h2:sampling-case-study Case study: Polls
 h2:sampling-conclusion-central-limit-theorem Central Limit Theorem
 fig:CLT-video-preview Preview of Central Limit Theorem video.
 h2:sampling-conclusion Conclusion
-h3:sampling-conclusion-table Sampling scenarios
 tab:table-ch8 \\label{tab:summarytable-ch8}Scenarios of sampling for inference
-h3:theory-se Theory-based standard-errors
-h3:additional-resources Additional resources
 h3:whats-to-come What’s to come?
 

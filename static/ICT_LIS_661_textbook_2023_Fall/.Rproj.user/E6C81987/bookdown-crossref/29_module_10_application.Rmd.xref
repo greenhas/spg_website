@@ -1,4 +1,5 @@
 h1:multiple-regression M10A: Multiple Regression
+h2:introduction Introduction
 h3:mult-reg-packages Needed packages
 h2:model4 One numerical and one categorical explanatory variable
 h3:model4EDA Exploratory data analysis
@@ -43,7 +44,5 @@ tab:model3-table-output-repeat Multiple regression results
 fig:credit-limit-quartiles Histogram of credit limits and brackets.
 fig:2numxplot4 Relationship between credit card debt and income by credit limit bracket.
 h2:mult-reg-conclusion Conclusion
-h3:additional-resources Additional resources
-h3:whats-to-come What’s to come?
-fig:part3 (ref:flowchart-partiii)
+h2:references References
 

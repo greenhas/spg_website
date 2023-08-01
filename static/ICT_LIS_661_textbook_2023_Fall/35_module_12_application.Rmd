@@ -1,4 +1,10 @@
 # M12A: Confidence Intervals {#confidence-intervals}
+
+This content draws on material from *[Statistical Inference via Data Science: A ModernDive into R and the Tidyverse](https://moderndive.com/)* by [Chester Ismay](https://chester.rbind.io/) and [Albert Y. Kim](https://rudeboybert.rbind.io/), licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+Changes to the source material include addition of new material; light editing; rearranging, removing, and combining original material; adding and changing links; and adding first-person language from current author.
+
+The resulting content is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
     
 ```{r setup_ci, include=FALSE, purl=FALSE}
 # Used to define Learning Check numbers:
@@ -36,14 +42,16 @@ p_red <- bowl %>%
 n_balls_sample <- 50L
 ```
 
-In Chapter \@ref(sampling), we studied sampling. We started with a "tactile" exercise where we wanted to know the proportion of balls in the sampling bowl in Figure \@ref(fig:sampling-exercise-1) that are red. While we could have performed an exhaustive count, this would have been a tedious process. So instead, we used a shovel to extract a sample of `r n_balls_sample` balls and used the resulting proportion that were red as an *estimate*. Furthermore, we made sure to mix the bowl's contents before every use of the shovel. Because of the randomness created by the mixing, different uses of the shovel yielded different proportions red and hence different estimates of the proportion of the bowl's balls that are red. 
+## Introduction
+
+In Chapter \@ref(sampling), we studied sampling. We started with a "tactile" exercise where we wanted to know the proportion of balls in the sampling bowl that were red. While we could have performed an exhaustive count, this would have been a tedious process. So instead, we had friends use a shovel to extract a sample of `r n_balls_sample` balls and used the resulting proportion that were red as an *estimate*. Furthermore, our friends made sure to mix the bowl's contents before every use of the shovel. Because of the randomness created by the mixing, different uses of the shovel yielded different proportions red and hence different estimates of the proportion of the bowl's balls that are red. 
 
 ```{r echo=FALSE, purl=FALSE}
 # This code is used for dynamic non-static in-line text output purposes
 n_virtual_resample <- 1000L
 ```
 
-We then mimicked this "tactile" sampling exercise with an equivalent "virtual" sampling exercise performed on the computer. Using our computer's random number generator, we quickly mimicked the above sampling procedure a large number of times. In Subsection \@ref(sampling-simulation), we quickly repeated this sampling procedure `r n_virtual_resample` times, using three different "virtual" shovels with 25, 50, and 100 slots. We visualized these three sets of `r n_virtual_resample` estimates in Figure \@ref(fig:comparing-sampling-distributions-3) and saw that as the sample size increased, the variation in the estimates decreased.
+We then mimicked this "tactile" sampling exercise with an equivalent "virtual" sampling exercise performed on the computer. Using our computer's random number generator, we quickly mimicked the above sampling procedure a large number of times. In Subsection \@ref(sampling-simulation), we quickly repeated this sampling procedure `r n_virtual_resample` times, using three different "virtual" shovels with 25, 50, and 100 slots. We visualized these three sets of `r n_virtual_resample` estimates and saw that as the sample size increased, the variation in the estimates decreased.
 
 In doing so, what we did was construct *sampling distributions*. The motivation for taking `r n_virtual_resample` repeated samples and visualizing the resulting estimates was to study how these estimates varied from one sample to another; in other words, we wanted to study the effect of *sampling variation*. We quantified the variation of these estimates using their standard deviation, which has a special name: the *standard error*. In particular, we saw that as the sample size increased from 25 to 50 to 100, the standard error decreased and thus the sampling distributions narrowed. Larger sample sizes led to more *precise* estimates that varied less around the center. 
 
@@ -92,9 +100,6 @@ library(scales)
 ```
 
 
-
-
-
 ## Pennies activity {#resampling-tactile}
 
 As we did in Chapter \@ref(sampling), we'll begin with a hands-on tactile activity.
@@ -107,7 +112,7 @@ As we did in Chapter \@ref(sampling), we'll begin with a hands-on tactile activi
 num_pennies <- pennies_sample %>% nrow()
 ```
 
-Try to imagine all the pennies being used in the United States in 2019. That's a lot of pennies! Now say we're interested in the average year of minting of *all* these pennies. One way to compute this value would be to gather up all pennies being used in the US, record the year, and compute the average. However, this would be near impossible! So instead, let's collect a *sample* of `r num_pennies` pennies from a local bank in downtown Northampton, Massachusetts, USA as seen in Figure \@ref(fig:resampling-exercise-a).
+Try to imagine all the pennies being used in the United States in 2019. That's a lot of pennies! Now say we're interested in the average year of minting of *all* these pennies. One way to compute this value would be to gather up all pennies being used in the US, record the year, and compute the average. However, this would be near impossible! So instead, let's have a friend collect a *sample* of `r num_pennies` pennies from a local bank in downtown Northampton, Massachusetts, USA as seen in Figure \@ref(fig:resampling-exercise-a).
 
 ```{r resampling-exercise-a, echo=FALSE, fig.show="hold", fig.cap="Collecting a sample of 50 US pennies from a local bank.", purl=FALSE, out.width = "40%", purl=FALSE}
 include_graphics(c("images/sampling/pennies/bank.jpg", "images/sampling/pennies/roll.jpg"))
@@ -148,7 +153,7 @@ In Chapter \@ref(sampling), our *study population* was the bowl of $N$ = `r nrow
 
 Here our population is $N$ = whatever the number of pennies are being used in the US, a value which we don't know and probably never will. The population parameter of interest is now the *population mean* year of all these pennies, a value denoted mathematically by the Greek letter $\mu$ (pronounced "mu"). In order to estimate $\mu$, we went to the bank and obtained a sample of `r num_pennies` pennies and computed the relevant point estimate: the *sample mean* year of these `r num_pennies` pennies, denoted mathematically by $\overline{x}$ (pronounced "x-bar"). An alternative and more intuitive notation for the sample mean is $\widehat{\mu}$. However, this is unfortunately not as commonly used, so in this book we'll stick with convention and always denote the sample mean as $\overline{x}$.
 
-We summarize the correspondence between the sampling bowl exercise in Chapter \@ref(sampling) and our pennies exercise in Table \@ref(tab:table-ch8-b), which are the first two rows of the previously seen Table \@ref(tab:table-ch8).
+We summarize the correspondence between the sampling bowl exercise in Chapter \@ref(sampling) and our pennies exercise in Table \@ref(tab:table-ch8-b):
 
 ```{r table-ch8-b, echo=FALSE, message=FALSE, purl=FALSE}
 # The following Google Doc is published to CSV and loaded using read_csv():
@@ -194,39 +199,39 @@ Say we're feeling lazy, however, and don't want to go back to the bank. How can 
 
 ### Resampling once
 
-**Step 1**: Let's print out identically sized slips of paper representing our `r num_pennies` pennies as seen in Figure \@ref(fig:tactile-resampling-1).
+**Step 1**: Let's have our friend print out identically sized slips of paper representing our `r num_pennies` pennies as seen in Figure \@ref(fig:tactile-resampling-1).
 
 ```{r tactile-resampling-1, echo=FALSE, fig.cap="Step 1: 50 slips of paper representing 50 US pennies.", fig.show="hold", purl=FALSE, out.width="100%"}
 include_graphics("images/sampling/pennies/tactile_simulation/1_paper_slips.png")
 ```
 
-**Step 2**: Put the `r num_pennies` slips of paper into a hat or tuque as seen in Figure \@ref(fig:tactile-resampling-2).
+**Step 2**: Our friend will then put the `r num_pennies` slips of paper into a hat or tuque as seen in Figure \@ref(fig:tactile-resampling-2).
 
 ```{r tactile-resampling-2, echo=FALSE, fig.cap="Step 2: Putting 50 slips of paper in a hat.", fig.show="hold", purl=FALSE, out.width="60%"}
 include_graphics("images/sampling/pennies/tactile_simulation/2_insert_in_hat.png")
 ```
 
-**Step 3**: Mix the hat's contents and draw one slip of paper at random as seen in Figure \@ref(fig:tactile-resampling-3). Record the year.
+**Step 3**: Then, our friend will mix the hat's contents and draw one slip of paper at random as seen in Figure \@ref(fig:tactile-resampling-3). They'll then record the year.
 
 ```{r tactile-resampling-3, echo=FALSE, fig.cap="Step 3: Drawing one slip of paper at random.", fig.show="hold", purl=FALSE, out.width="60%"}
 include_graphics("images/sampling/pennies/tactile_simulation/3_draw_at_random.png")
 ```
 
-**Step 4**: Put the slip of paper back in the hat! In other words, replace it as seen in Figure \@ref(fig:tactile-resampling-4). 
+**Step 4**: Our friend will then put the slip of paper back in the hat! In other words, replace it as seen in Figure \@ref(fig:tactile-resampling-4). 
 
 ```{r tactile-resampling-4, echo=FALSE, fig.cap="Step 4: Replacing slip of paper.", fig.show="hold", purl=FALSE, out.width="50%"}
 include_graphics("images/sampling/pennies/tactile_simulation/4_put_it_back.png")
 ```
 
-**Step 5**: Repeat Steps 3 and 4 a total of `r num_pennies - 1` more times, resulting in `r num_pennies` recorded years.
+**Step 5**: Our friend will go on to repeat Steps 3 and 4 a total of `r num_pennies - 1` more times, resulting in `r num_pennies` recorded years.
 
-What we just performed was a *resampling* \index{resampling} of the original sample of `r num_pennies` pennies. We are not sampling `r num_pennies` pennies from the population of all US pennies as we did in our trip to the bank. Instead, we are mimicking this act by resampling `r num_pennies` pennies from our original sample of `r num_pennies` pennies. 
+What our friend just performed was a *resampling* \index{resampling} of the original sample of `r num_pennies` pennies. We are not sampling `r num_pennies` pennies from the population of all US pennies as we did in our trip to the bank. Instead, we are mimicking this act by resampling `r num_pennies` pennies from our original sample of `r num_pennies` pennies. 
 
 Now ask yourselves, why did we replace our resampled slip of paper back into the hat in Step 4? Because if we left the slip of paper out of the hat each time we performed Step 4, we would end up with the same `r num_pennies` original pennies! In other words, replacing the slips of paper induces *sampling variation*.
 
 Being more precise with our terminology, we just performed a *resampling with replacement* from the original sample of `r num_pennies` pennies. Had we left the slip of paper out of the hat each time we performed Step 4, this would be *resampling without replacement*.
 
-Let's study our `r num_pennies` resampled pennies via an exploratory data analysis. First, let's load the data into R by manually creating a data frame `pennies_resample` of our `r num_pennies` resampled values. We'll do this using the `tibble()` command from the `dplyr` package. Note that the `r num_pennies` values you resample will almost certainly not be the same as ours given the inherent randomness.
+Let's study our `r num_pennies` resampled pennies via an exploratory data analysis. First, let's load the data into R by manually creating a data frame `pennies_resample` of our `r num_pennies` resampled values. We'll do this using the `tibble()` command from the `dplyr` package.
 
 ```{r}
 pennies_resample <- tibble(
@@ -238,7 +243,7 @@ pennies_resample <- tibble(
 )
 ```
 
-The `r num_pennies` values of `year` in `pennies_resample` represent a resample of size `r num_pennies` from the original sample of `r num_pennies` pennies. We display the `r num_pennies` resampled pennies in Figure \@ref(fig:resampling-exercise-d).
+The `r num_pennies` values of `year` in `pennies_resample` represent a resample of size `r num_pennies` from the original sample of `r num_pennies` pennies. We can see the `r num_pennies` resampled pennies in Figure \@ref(fig:resampling-exercise-d).
 
 ```{r resampling-exercise-d, echo=FALSE, fig.cap="50 resampled US pennies labelled.", fig.show="hold", purl=FALSE, out.width="100%"}
 # Need this for ID column
@@ -304,7 +309,7 @@ n_resample_friends <- pennies_resamples %>%
   nrow()
 ```
 
-What if we repeated this resampling exercise many times? Would we obtain the same mean `year` each time? In other words, would our guess at the mean year of all pennies in the US in 2019 be exactly `r resample_mean %>% pull(mean_year) %>% round(2)` every time? Just as we did in Chapter \@ref(sampling), let's perform this resampling activity with the help of some of our friends: `r n_resample_friends` friends in total.
+What if we repeated this resampling exercise many times? Would we obtain the same mean `year` each time? In other words, would our guess at the mean year of all pennies in the US in 2019 be exactly `r resample_mean %>% pull(mean_year) %>% round(2)` every time? Just as we did in Chapter \@ref(sampling), let's perform this resampling activity with the help of more of our friends: `r n_resample_friends` friends in total.
 
 
 ### Resampling `r n_resample_friends` times {#student-resamples}
@@ -507,25 +512,6 @@ The mean of these `r n_virtual_resample` means is `r mean_of_means`, which is qu
 
 Congratulations! You've just constructed your first bootstrap distribution! In the next section, you'll see how to use this bootstrap distribution to construct *confidence intervals*.
 
-```{block, type="learncheck", purl=FALSE}
-\vspace{-0.15in}
-**_Learning check_**
-\vspace{-0.1in}
-```
-
-**`r paste0("(LC", chap, ".", (lc <- lc + 1), ")")`** What is the chief difference between a bootstrap distribution and a sampling distribution?
-
-**`r paste0("(LC", chap, ".", (lc <- lc + 1), ")")`** Looking at the bootstrap distribution for the sample mean in Figure \@ref(fig:one-thousand-sample-means), between what two values would you say *most* values lie?
-
-```{block, type="learncheck", purl=FALSE}
-\vspace{-0.25in}
-\vspace{-0.25in}
-```
-
-
-
-
-
 ## Understanding confidence intervals {#ci-build-up}
 
 Let's start this section with an analogy involving fishing. Say you are trying to catch a fish. On the one hand, you could use a spear, while on the other you could use a net. Using the net will probably allow you to catch more fish! 
@@ -598,7 +584,7 @@ bootstrap_se <- virtual_resampled_means %>%
   pull(se)
 ```
 
-Recall in Appendix \@ref(appendix-normal-curve), we saw that if a numerical variable follows a normal distribution, or, in other words, the histogram of this variable is bell-shaped, then roughly 95% of values fall between $\pm$ `r qnorm(0.975) %>% round(2)` standard deviations of the mean. Given that our bootstrap distribution based on `r n_virtual_resample` resamples with replacement in Figure \@ref(fig:one-thousand-sample-means) is normally shaped, let's use this fact about normal distributions to construct a confidence interval in a different way.
+Earlier, we learned that if a numerical variable follows a normal distribution, (or, in other words, if the histogram of this variable is bell-shaped), then roughly 95% of values fall between $\pm$ 2 standard deviations of the mean. That was actually an oversimplification, and it's time to come clean: the actual number is $\pm$ `r qnorm(0.975) %>% round(2)` standard deviations of the mean. Given that our bootstrap distribution based on `r n_virtual_resample` resamples with replacement in Figure \@ref(fig:one-thousand-sample-means) is normally shaped, let's use this fact about normal distributions to construct a confidence interval in a different way.
 
 First, recall the bootstrap distribution has a mean equal to `r mean_of_means`. This value almost coincides exactly with the value of the sample mean $\overline{x}$ of our original `r num_pennies` pennies of `r x_bar %>% pull(mean_year) %>% round(2)`. Second, let's compute the standard deviation of the bootstrap distribution using the values of `mean_year` in the `virtual_resampled_means` data frame:
 
@@ -609,7 +595,7 @@ virtual_resampled_means %>%
 
 What is this value? Recall that the bootstrap distribution is an approximation to the sampling distribution. Recall also that the standard deviation of a sampling distribution has a special name: the *standard error*. Putting these two facts together, we can say that `r bootstrap_se %>% round(5)` is an approximation of the standard error of $\overline{x}$.  
 
-Thus, using our 95% rule of thumb about normal distributions from Appendix \@ref(appendix-normal-curve), we can use the following formula to determine the lower and upper endpoints of a 95% confidence interval for $\mu$:
+Thus, using our 95% rule of thumb about normal distributions, we can use the following formula to determine the lower and upper endpoints of a 95% confidence interval for $\mu$:
 
 $$
 \begin{aligned}
@@ -661,24 +647,6 @@ standard_error_ci <- bootstrap_distribution %>%
 standard_error_ci
 ```
 -->
-
-```{block, type="learncheck", purl=FALSE}
-\vspace{-0.15in}
-**_Learning check_**
-\vspace{-0.1in}
-```
-
-**`r paste0("(LC", chap, ".", (lc <- lc + 1), ")")`** What condition about the bootstrap distribution must be met for us to be able to construct confidence intervals using the standard error method?
-
-**`r paste0("(LC", chap, ".", (lc <- lc + 1), ")")`** Say we wanted to construct a 68% confidence interval instead of a 95% confidence interval for $\mu$. Describe what changes are needed to make this happen. Hint: we suggest you look at Appendix \@ref(appendix-normal-curve) on the normal distribution.
-
-```{block, type="learncheck", purl=FALSE}
-\vspace{-0.25in}
-\vspace{-0.25in}
-```
-
-
-
 
 
 ## Constructing confidence intervals {#bootstrap-process}
@@ -752,7 +720,7 @@ pennies_sample %>%
 
 You might be asking yourself: "Isn't the `infer` code longer? Why would I use that code?". While not immediately apparent, you'll see that there are three chief benefits to the `infer` workflow as opposed to the `dplyr` workflow.
 
-First, the `infer` verb names better align with the overall resampling framework you need to understand to construct confidence intervals and to conduct hypothesis tests (in Chapter \@ref(hypothesis-testing)). We'll see flowchart diagrams of this framework in the upcoming Figure \@ref(fig:infer-workflow-ci) and in Chapter \@ref(hypothesis-testing) with Figure \@ref(fig:htdowney).
+First, the `infer` verb names better align with the overall resampling framework you need to understand to construct confidence intervals and to conduct hypothesis tests (in Chapter \@ref(hypothesis-testing)). We'll see flowchart diagrams of this framework in the upcoming Figure \@ref(fig:infer-workflow-ci) and in future chapters, too.
 
 Second, you can jump back and forth seamlessly between confidence intervals and hypothesis testing with minimal changes to your code. This will become apparent in Subsection \@ref(comparing-infer-workflows) when we'll compare the `infer` code for both of these inferential methods.
 
@@ -892,7 +860,7 @@ visualize(bootstrap_distribution) #+
 #  ggtitle("Simulation-Based Bootstrap Distribution")
 ```
 
-**Comparing with original workflow**: In fact, `visualize()` is a *wrapper function* for the `ggplot()` function that uses a `geom_histogram()` layer. Recall that we illustrated the concept of a wrapper function in Figure \@ref(fig:moderndive-figure-wrapper) in Subsection \@ref(model1table).
+**Comparing with original workflow**: In fact, `visualize()` is a *wrapper function* for the `ggplot()` function that uses a `geom_histogram()` layer. Recall that we illustrated the concept of a wrapper function in Subsection \@ref(model1table).
 
 ```{r eval=FALSE, purl=FALSE}
 # infer workflow:                    # Original workflow:
@@ -1007,23 +975,6 @@ As noted in Section \@ref(ci-build-up), both methods produce similar confidence 
 
 * Percentile method: (`r percentile_ci[["lower_ci"]] %>% round(2)`, `r percentile_ci[["upper_ci"]] %>% round(2)`)
 * Standard error method: (`r standard_error_ci[["lower_ci"]] %>% round(2)`, `r standard_error_ci[["upper_ci"]] %>% round(2)`)
-
-```{block, type="learncheck", purl=FALSE}
-\vspace{-0.15in}
-**_Learning check_**
-\vspace{-0.1in}
-```
-
-**`r paste0("(LC", chap, ".", (lc <- lc + 1), ")")`** Construct a 95% confidence interval for the *median* year of minting of *all* US pennies. Use the percentile method and, if appropriate, then use the standard-error method.
-
-```{block, type="learncheck", purl=FALSE}
-\vspace{-0.25in}
-\vspace{-0.25in}
-```
-
-
-
-
 
 ## Interpreting confidence intervals {#one-prop-ci}
 
@@ -1705,7 +1656,7 @@ percentile_cis_by_n %>%
 
 The moral of the story is: \index{confidence interval!impact of sample size on interval width} **Larger sample sizes tend to produce narrower confidence intervals.**   Recall that this was a key message in Subsection \@ref(moral-of-the-story). As we used larger and larger shovels for our samples, the sample proportions red $\widehat{p}$ tended to vary less. In other words, our estimates got more and more *precise*. 
 
-Recall that we visualized these results in Figure \@ref(fig:comparing-sampling-distributions-3), where we compared the *sampling distributions* for $\widehat{p}$ based on samples of size $n$ equal 25, 50, and 100. We also quantified the sampling variation of these sampling distributions using their standard deviation, which has that special name: the *standard error*. So as the sample size increases, the standard error decreases. 
+Recall that we visualized these results earlier, when we compared the *sampling distributions* for $\widehat{p}$ based on samples of size $n$ equal 25, 50, and 100. We also quantified the sampling variation of these sampling distributions using their standard deviation, which has that special name: the *standard error*. So as the sample size increases, the standard error decreases. 
 
 In fact, the standard error is another related factor in determining confidence interval width. We'll explore this fact in Subsection \@ref(theory-ci) when we discuss theory-based methods for constructing confidence intervals using mathematical formulas. Such methods are an alternative to the computer-based methods we've been using so far. 
 
@@ -1715,7 +1666,7 @@ In fact, the standard error is another related factor in determining confidence 
 
 ## Case study: Is yawning contagious? {#case-study-two-prop-ci}
 
-Let's apply our knowledge of confidence intervals to answer the question: "Is yawning contagious?". If you see someone else yawn, are you more likely to yawn? In an episode of the US show [*Mythbusters*](http://www.discovery.com/tv-shows/mythbusters/mythbusters-database/yawning-contagious/), the hosts conducted an experiment to answer this question. The episode is available to view in the United States on the Discovery Network website [here](https://www.discovery.com/tv-shows/mythbusters/videos/is-yawning-contagious) and more information about the episode is also available on [IMDb](https://www.imdb.com/title/tt0768479/).
+Let's apply our knowledge of confidence intervals to answer the question: "Is yawning contagious?". If you see someone else yawn, are you more likely to yawn? In an episode of the US show [*Mythbusters*](http://www.discovery.com/tv-shows/mythbusters/mythbusters-database/yawning-contagious/), the hosts conducted an experiment to answer this question. The episode is available to view in the United States on the Discovery Network website [here](https://www.discovery.com/shows/mythbusters/episodes/is-yawning-contagious) and more information about the episode is also available on [IMDb](https://www.imdb.com/title/tt0768479/).
 
 ### *Mythbusters* study data
 
@@ -1757,7 +1708,7 @@ Let's review the terminology and notation related to sampling we studied in Subs
 
 Who is the study population here? All humans? All the people who watch the show *Mythbusters*? It's hard to say! This question can only be answered if we know how the show's hosts recruited participants! In other words, what was the *sampling methodology*\index{sampling methodology} used by the *Mythbusters* to recruit participants? We alas are not provided with this information. Only for the purposes of this case study, however, we'll *assume* that the 50 participants are a representative sample of all Americans given the popularity of this show. Thus, we'll be assuming that any results of this experiment will generalize to all $N$ = 327 million Americans (2018 population). 
 
-Just like with our sampling bowl, the population parameter here will involve proportions. However, in this case it will be the *difference in population proportions* $p_{seed} - p_{control}$, where $p_{seed}$ is the proportion of *all* Americans who if exposed to yawning will yawn themselves, and $p_{control}$ is the proportion of *all* Americans who if not exposed to yawning still yawn themselves. Correspondingly, the point estimate/sample statistic based the *Mythbusters*' sample of participants will be the *difference in sample proportions* $\widehat{p}_{seed} - \widehat{p}_{control}$. Let's extend Table \@ref(tab:table-ch8) of scenarios of sampling for inference to include our latest scenario. 
+Just like with our sampling bowl, the population parameter here will involve proportions. However, in this case it will be the *difference in population proportions* $p_{seed} - p_{control}$, where $p_{seed}$ is the proportion of *all* Americans who if exposed to yawning will yawn themselves, and $p_{control}$ is the proportion of *all* Americans who if not exposed to yawning still yawn themselves. Correspondingly, the point estimate/sample statistic based the *Mythbusters*' sample of participants will be the *difference in sample proportions* $\widehat{p}_{seed} - \widehat{p}_{control}$. Let's extend our earlier table of sampling for inference scenarios to include our latest scenario. 
 
 ```{r table-ch8-c, echo=FALSE, message=FALSE, purl=FALSE}
 # The following Google Doc is published to CSV and loaded using read_csv():
@@ -2017,453 +1968,6 @@ exposed to yawning or not could be found, so we cannot make such a causal
 statement.
 -->
 
-
-
-
-
 ## Conclusion {#ci-conclusion}
-
-### Comparing bootstrap and sampling distributions {#bootstrap-vs-sampling}
-
-Let's talk more about the relationship between *sampling distributions* and *bootstrap distributions*.\index{bootstrap!distribution}\index{sampling distributions}
-
-Recall back in Subsection \@ref(sampling-simulation), we took `r n_virtual_resample` virtual samples from the `bowl` using a virtual shovel, computed `r n_virtual_resample` values of the sample proportion red $\widehat{p}$, then visualized their distribution in a histogram. Recall that this distribution is called the *sampling distribution of* $\widehat{p}$. Furthermore, the standard deviation of the sampling distribution has a special name: the *standard error*.
-
-We also mentioned that this sampling activity does not reflect how sampling is done in real life. Rather, it was an *idealized version* of sampling so that we could study the effects of sampling variation on estimates, like the proportion of the shovel's balls that are red. In real life, however, one would take a single sample that's as large as possible, much like in the Obama poll we saw in Section \@ref(sampling-case-study). But how can we get a sense of the effect of sampling variation on estimates if we only have one sample and thus only one estimate? Don't we need many samples and hence many estimates?
-
-The workaround to having a *single* sample was to perform *bootstrap resampling with replacement* from the single sample. We did this in the resampling activity in Section \@ref(resampling-tactile) where we focused on the mean year of minting of pennies. We used pieces of paper representing the original sample of `r num_pennies` pennies from the bank and resampled them with replacement from a hat. We had `r n_resample_friends` of our friends perform this activity and visualized the resulting `r n_resample_friends` sample means $\overline{x}$ in a histogram in Figure \@ref(fig:tactile-resampling-6). 
-
-This distribution was called the *bootstrap distribution* of $\overline{x}$. We stated at the time that the bootstrap distribution is an *approximation* to the sampling distribution of $\overline{x}$ in the sense that both distributions will have a similar shape and similar spread. \index{bootstrap!distribution!approximation of sampling distribution} Thus the *standard error* of the bootstrap distribution can be used as an approximation to the *standard error* of the sampling distribution. 
-
-Let's show you that this is the case by now comparing these two types of distributions. Specifically, we'll compare
-
-1. the sampling distribution of $\widehat{p}$ based on `r n_virtual_resample` virtual samples from the `bowl` from Subsection \@ref(sampling-simulation) to
-1. the bootstrap distribution of $\widehat{p}$ based on `r n_virtual_resample` virtual resamples with replacement from Ilyas and Yohan's single sample `bowl_sample_1` from Subsection \@ref(ilyas-yohan).
-
-
-#### Sampling distribution {-}
-
-Here is the code you saw in Subsection \@ref(sampling-simulation) to construct the sampling distribution of $\widehat{p}$ shown again in Figure \@ref(fig:sampling-distribution-part-deux), with some changes to incorporate the statistical terminology relating to sampling from Subsection \@ref(terminology-and-notation).
-
-```{r,echo=FALSE}
-set.seed(76)
-```
-
-```{r sampling-distribution-part-deux, fig.show="hold", fig.cap="Previously seen sampling distribution of sample proportion red for $n = 1000$.", fig.height=2}
-# Take 1000 virtual samples of size 50 from the bowl:
-virtual_samples <- bowl %>% 
-  rep_sample_n(size = 50, reps = 1000)
-# Compute the sampling distribution of 1000 values of p-hat
-sampling_distribution <- virtual_samples %>% 
-  group_by(replicate) %>% 
-  summarize(red = sum(color == "red")) %>% 
-  mutate(prop_red = red / 50)
-# Visualize sampling distribution of p-hat
-ggplot(sampling_distribution, aes(x = prop_red)) +
-  geom_histogram(binwidth = 0.05, boundary = 0.4, color = "white") +
-  labs(x = "Proportion of 50 balls that were red", 
-       title = "Sampling distribution")
-```
-
-An important thing to keep in mind is the default value for `replace` is `FALSE` when using `rep_sample_n()`. This is because when sampling `r n_balls_sample` balls with a shovel, we are extracting `r n_balls_sample` balls one-by-one *without* replacing them. This is in contrast to bootstrap resampling *with* replacement, where we resample a ball and put it back, and repeat this process `r n_balls_sample` times. 
-
-Let's quantify the variability in this sampling distribution by calculating the standard deviation of the `prop_red` variable representing `r n_virtual_resample` values of the sample proportion $\widehat{p}$. Remember that the standard deviation of the sampling distribution is the *standard error*, frequently denoted as `se`.
-
-```{r}
-sampling_distribution %>% summarize(se = sd(prop_red))
-```
-```{r, echo=FALSE, purl=FALSE}
-se_samp <- sampling_distribution %>%
-  summarize(se = sd(prop_red)) %>%
-  pull(se)
-```
-
-#### Bootstrap distribution {-}
-
-Here is the code you previously saw in Subsection \@ref(ilyas-yohan) to construct the bootstrap distribution of $\widehat{p}$ based on Ilyas and Yohan's original sample of `r n_balls_sample` balls saved in `bowl_sample_1`.
-
-```{r,echo=FALSE}
-set.seed(76)
-```
-
-```{r eval=FALSE}
-bootstrap_distribution <- bowl_sample_1 %>% 
-  specify(response = color, success = "red") %>% 
-  generate(reps = 1000, type = "bootstrap") %>% 
-  calculate(stat = "prop")
-```
-
-```{r echo=FALSE, purl=FALSE}
-if (!file.exists("rds/bootstrap_distribution_balls.rds")) {
-  bootstrap_distribution <- bowl_sample_1 %>%
-    specify(response = color, success = "red") %>%
-    generate(reps = 1000, type = "bootstrap") %>%
-    calculate(stat = "prop")
-  write_rds(
-    bootstrap_distribution,
-    "rds/bootstrap_distribution_balls.rds"
-  )
-} else {
-  bootstrap_distribution <- read_rds("rds/bootstrap_distribution_balls.rds")
-}
-```
-
-```{r bootstrap-distribution-part-deux, echo=FALSE, fig.show="hold", fig.cap="Bootstrap distribution of proportion red for $n = 1000$.", purl=FALSE, fig.height=2.5}
-# Visualize bootstrap distribution of p-hat
-bootstrap_distribution %>%
-  visualize(binwidth = 0.05, boundary = 0.4, color = "white") +
-  labs(
-    x = "Proportion of 50 balls that were red",
-    title = "Bootstrap distribution"
-  )
-```
-
-```{r}
-bootstrap_distribution %>% summarize(se = sd(stat))
-```
-```{r, echo=FALSE, purl=FALSE}
-se_boot <- bootstrap_distribution %>%
-  summarize(se = sd(stat)) %>%
-  pull(se)
-```
-
-#### Comparison {-}
-
-Now that we have computed both the sampling distribution and the bootstrap distributions, let's compare them side-by-side in Figure \@ref(fig:side-by-side). We'll make both histograms have matching scales on the x- and y-axes to make them more comparable. Furthermore, we'll add:
-
-1. To the sampling distribution on the top: a solid line denoting the proportion of the bowl's balls that are red $p$ = `r p_red`. 
-1. To the bootstrap distribution on the bottom: a dashed line at the sample proportion $\widehat{p}$ = `r obs_red`/`r n_balls_sample` = `r obs_red/n_balls_sample` = `r (obs_red/n_balls_sample)*100`\% that Ilyas and Yohan observed.
-
-```{r side-by-side, fig.height=4.5, fig.cap="Comparing the sampling and bootstrap distributions of $\\widehat{p}$.", echo=FALSE, purl=FALSE}
-p_samp <- ggplot(sampling_distribution, aes(x = prop_red)) +
-  geom_histogram(
-    binwidth = 0.05, boundary = 0.4, fill = "salmon",
-    color = "white"
-  ) +
-  labs(x = "", title = "Sampling distribution") +
-  geom_vline(xintercept = p_red, size = 1) +
-  scale_x_continuous(
-    limits = c(0.15, 0.65),
-    breaks = seq(from = 0.15, to = 0.65, by = 0.1)
-  ) +
-  scale_y_continuous(
-    limits = c(0, 350),
-    breaks = seq(from = 0, to = 400, by = 100)
-  )
-p_boot <- ggplot(bootstrap_distribution, aes(x = stat)) +
-  geom_histogram(
-    binwidth = 0.05, boundary = 0.4, fill = "blue",
-    color = "white"
-  ) +
-  labs(
-    x = "Proportion of 50 balls that were red",
-    title =
-      "Bootstrap distribution: similar shape and spread but different center"
-  ) +
-  geom_vline(xintercept = 0.42, size = 1, linetype = "dashed") +
-  scale_x_continuous(
-    limits = c(0.15, 0.65),
-    breaks = seq(from = 0.15, to = 0.65, by = 0.1)
-  ) +
-  scale_y_continuous(limits = c(0, 350), breaks = seq(
-    from = 0,
-    to = 400, by = 100
-  ))
-p_samp + p_boot + plot_layout(ncol = 1, heights = c(1, 1))
-```
-
-There is a lot going on in Figure \@ref(fig:side-by-side), so let's break down all the comparisons slowly. First, observe how the sampling distribution on top is centered at $p$ = `r p_red`. This is because the sampling is done at random and in an unbiased fashion. So the estimates $\widehat{p}$ are centered at the true value of $p$. 
-
-However, this is not the case with the following bootstrap distribution. The bootstrap distribution is centered at 0.42, which is the proportion red of Ilyas and Yohan's `r n_balls_sample` sampled balls. This is because we are resampling from the same sample over and over again. Since the bootstrap distribution is centered at the original sample's proportion, it doesn't necessarily provide a better estimate of $p$ = `r p_red`. This leads us to our first lesson about bootstrapping:
-
-> The bootstrap distribution will likely not have the same center as the sampling distribution. In other words, bootstrapping cannot improve the quality of an estimate.
-
-Second, let's now compare the spread of the two distributions: they are somewhat similar. In the previous code, we computed the standard deviations of both distributions as well. Recall that such standard deviations have a special name: *standard errors*. Let's compare them in Table \@ref(tab:comparing-se).
-
-```{r comparing-se, echo=FALSE, message=FALSE, purl=FALSE}
-tibble(
-  `Distribution type` = c("Sampling distribution", "Bootstrap distribution"),
-  `Standard error` = c(se_samp, se_boot)
-) %>%
-  kable(
-    caption = "Comparing standard errors",
-    digits = 3,
-    booktabs = TRUE,
-    escape = FALSE,
-    linesep = ""
-  ) %>%
-  kable_styling(
-    font_size = ifelse(is_latex_output(), 10, 16),
-    latex_options = c("hold_position", "repeat_header")
-  )
-```
-
-Notice that the bootstrap distribution's standard error is a rather good *approximation* to the sampling distribution's standard error. This leads us to our second lesson about bootstrapping:
-
-> Even if the bootstrap distribution might not have the same center as the sampling distribution, it will likely have very similar shape and spread. In other words, bootstrapping will give you a good estimate of the *standard error*. 
-
-Thus, using the fact that the bootstrap distribution and sampling distributions have similar spreads, we can build confidence intervals using bootstrapping as we've done all throughout this chapter!
-
-
-### Theory-based confidence intervals {#theory-ci}
-
-So far in this chapter, we've constructed confidence intervals using two methods: the percentile method and the standard error method. Recall also from Subsection \@ref(se-method) that we can only use the standard-error method if the bootstrap distribution is bell-shaped (i.e., normally distributed). 
-
-In a similar vein, if the sampling distribution is normally shaped, there is another method for constructing confidence intervals that does not involve using your computer. You can use a *theory-based method* involving mathematical formulas!
-
-The formula uses the rule of thumb we saw in Appendix \@ref(appendix-normal-curve) that 95% of values in a normal distribution are within $\pm `r qnorm(0.975) %>% round(2)`$ standard deviations of the mean. In the case of sampling and bootstrap distributions, remember that the standard deviation has a special name: the *standard error*. Recall further in Subsection \@ref(theory-se) you saw that there is a theory-based formula to approximate the standard error for sample proportions $\widehat{p}$:
-
-$$\text{SE}_{\widehat{p}} \approx \sqrt{\frac{\widehat{p}(1-\widehat{p})}{n}}$$
-
-If you've forgotten this fact and what it says about the relationship between "precision" of your estimates and your sample size $n$, we highly recommend you re-read Subsection \@ref(theory-se).
-
-Recall from `bowl_sample_1` that Yohan and Ilyas sampled $n = 50$ balls and observed a sample proportion $\widehat{p}$ of `r obs_red`/`r n_balls_sample` = `r obs_red/n_balls_sample`. An approximation of the standard error of $\widehat{p}$ based on Yohan and Ilyas' sample is thus:
-
-$$\text{SE}_{\widehat{p}} \approx \sqrt{\frac{0.42(1-0.42)}{50}} = \sqrt{0.004872} = 0.0698 \approx 0.070$$
-
-Let's compare this theory-based standard error to the standard error of the sampling and bootstrap distributions you computed previously in Subsection \@ref(bootstrap-vs-sampling) in Table \@ref(tab:comparing-se-2). Notice how they are all similar!
-
-```{r comparing-se-2, echo=FALSE, message=FALSE, purl=FALSE}
-tibble(
-  `Distribution type` = c(
-    "Sampling distribution", "Bootstrap distribution",
-    "Formula approximation"
-  ),
-  `Standard error` = c(se_samp, se_boot, 0.0698)
-) %>%
-  kable(
-    caption = "Comparing standard errors",
-    digits = 3,
-    booktabs = TRUE,
-    escape = FALSE,
-    linesep = ""
-  ) %>%
-  kable_styling(
-    font_size = ifelse(is_latex_output(), 10, 16),
-    latex_options = c("hold_position", "repeat_header")
-  )
-```
-
-Using the theory-based standard error, let's present a theory-based method for constructing 95% confidence intervals that does not involve using a computer, but rather mathematical formulas. Note that this theory-based method only holds if the sampling distribution is normally shaped, so that we can use the 95% rule of thumb about normal distributions discussed in Appendix \@ref(appendix-normal-curve).
-
-1. Collect a single representative sample of size $n$ that's as large as possible.
-2. Compute the *point estimate*: the *sample proportion* $\widehat{p}$. Think of this as the center of your "net."
-3. Compute the approximation to the standard error 
-
-$$\text{SE}_{\widehat{p}} \approx \sqrt{\frac{\widehat{p}(1-\widehat{p})}{n}}$$
-
-4. Compute a quantity known as the *margin of error* (more on this later after we list the five steps):
-
-$$\text{MoE}_{\widehat{p}} = `r qnorm(0.975) %>% round(2)` \cdot \text{SE}_{\widehat{p}} =  `r qnorm(0.975) %>% round(2)` \cdot \sqrt{\frac{\widehat{p}(1-\widehat{p})}{n}}$$
-
-5. Compute both endpoints of the confidence interval. 
-    + The lower end-point. Think of this as the left end-point of the net: 
-    $$\widehat{p} - \text{MoE}_{\widehat{p}} = \widehat{p} - `r qnorm(0.975) %>% round(2)` \cdot \text{SE}_{\widehat{p}} = \widehat{p} - `r qnorm(0.975) %>% round(2)` \cdot \sqrt{\frac{\widehat{p}(1-\widehat{p})}{n}}$$
-    
-    + The upper endpoint. Think of this as the right end-point of the net: 
-    $$\widehat{p} + \text{MoE}_{\widehat{p}} = \widehat{p} + `r qnorm(0.975) %>% round(2)` \cdot \text{SE}_{\widehat{p}} = \widehat{p} + `r qnorm(0.975) %>% round(2)` \cdot \sqrt{\frac{\widehat{p}(1-\widehat{p})}{n}}$$
-    
-    + Alternatively, you can succinctly summarize a 95% confidence interval for $p$ using the $\pm$ symbol: 
-    
-    $$\widehat{p} \pm \text{MoE}_{\widehat{p}} = \widehat{p} \pm (`r qnorm(0.975) %>% round(2)` \cdot \text{SE}_{\widehat{p}}) = \widehat{p} \pm \left( `r qnorm(0.975) %>% round(2)` \cdot \sqrt{\frac{\widehat{p}(1-\widehat{p})}{n}} \right)$$
-
-So going back to Yohan and Ilyas' sample of $n = `r n_balls_sample`$ balls that had `r obs_red` red balls, the 95% confidence interval for $p$ is 
-
-$$
-\begin{aligned}
-0.41 \pm `r qnorm(0.975) %>% round(2)` \cdot 0.0698 &= 0.41 \, \pm \, 0.137 \\ &= (0.41 - 0.137, \, 0.41 + 0.137) \\ &= (0.273, \, 0.547).
-\end{aligned}
-$$
-
-Yohan and Ilyas are 95% "confident" that the true proportion red of the bowl's balls is between 28.3% and 55.7%. Given that the true population proportion $p$ was `r p_red`, in this case they successfully captured the fish.
-
-In Step 4, we defined a statistical quantity known as the *margin of error*.\index{margin of error} You can think of this quantity as how much the net extends to the left and to the right of the center of our net. The `r qnorm(0.975) %>% round(2)` multiplier is rooted in the 95% rule of thumb we introduced earlier and the fact that we want the confidence level to be 95%. The value of the margin of error entirely determines the width of the confidence interval. Recall from Subsection \@ref(ci-width) that confidence interval widths are determined by an interplay of the confidence level, the sample size $n$, and the standard error.
-
-Let's revisit the poll of President Obama's approval rating among young Americans aged 18-29 which we introduced in Section \@ref(sampling-case-study). Pollsters found that based on a representative sample of $n$ = `r n_obama_survey` young Americans, $\widehat{p}$ = `r p_obama` = `r p_obama*100`% supported President Obama. 
-
-If you look towards the end of the article, it also states: "The poll's margin of error was plus or minus `r moe_obama*100` percentage points." This is precisely the $\text{MoE}$:
-
-$$
-\begin{aligned}
-\text{MoE} &= `r qnorm(0.975) %>% round(2)` \cdot \text{SE} =  `r qnorm(0.975) %>% round(2)` \cdot \sqrt{\frac{\widehat{p}(1-\widehat{p})}{n}} = `r qnorm(0.975) %>% round(2)` \cdot \sqrt{\frac{`r p_obama`(1-`r p_obama`)}{`r n_obama_survey`}} \\
-&= `r qnorm(0.975) %>% round(2)` \cdot 0.0108 = `r moe_obama` = `r moe_obama*100`\%
-\end{aligned}
-$$
-
-Their poll results are based on a confidence level of 95% and the resulting 95% confidence interval for the proportion of all young Americans who support Obama is: 
-
-$$\widehat{p} \pm \text{MoE} = `r p_obama` \pm `r moe_obama` = (`r p_obama - moe_obama`, \, `r p_obama + moe_obama`) = (`r (p_obama - moe_obama)*100`\%, \, `r (p_obama + moe_obama)*100`\%).$$ 
-
-#### Confidence intervals based on `r n_friend_groups` tactile samples {-}
-
-Let's revisit our `r n_friend_groups` friends' samples from the `bowl` from Subsection \@ref(student-shovels). We'll use their `r n_friend_groups` samples to construct `r n_friend_groups` theory-based 95% confidence intervals for $p$. Recall this data was saved in the `tactile_prop_red` data frame included in the `moderndive` package:
-
-1. `rename()` the variable `prop_red` to `p_hat`, the statistical name of the sample proportion $\widehat{p}$.
-1. `mutate()` a new variable `n` making explicit the sample size of 50.
-1. `mutate()` other new variables computing:
-    * The standard error `SE` for $\widehat{p}$ using the previous formula.
-    * The margin of error `MoE` by multiplying the `SE` by `r qnorm(0.975) %>% round(2)`
-    * The left endpoint of the confidence interval `lower_ci`
-    * The right endpoint of the confidence interval `upper_ci`
-
-```{r, message=FALSE}
-conf_ints <- tactile_prop_red %>% 
-  rename(p_hat = prop_red) %>% 
-  mutate(
-    n = 50,
-    SE = sqrt(p_hat * (1 - p_hat) / n),
-    MoE = 1.96 * SE,
-    lower_ci = p_hat - MoE,
-    upper_ci = p_hat + MoE
-  )
-```
-
-```{r echo=FALSE, purl=FALSE}
-if (!is_latex_output()) {
-  conf_ints
-}
-```
-
-In Figure \@ref(fig:tactile-conf-int), let's plot the `r n_friend_groups` confidence intervals for $p$ saved in `conf_ints` along with a vertical line at $p$ = `r p_red` indicating the true proportion of the `bowl`'s balls that are red. Furthermore, let's mark the sample proportions $\widehat{p}$ with dots since they represent the centers of these confidence intervals.
-
-```{r tactile-conf-int, echo=FALSE, message=FALSE, fig.cap= "33 confidence intervals at the 95\\% level based on 33 tactile samples of size $n = 50$.", fig.height=6, purl=FALSE}
-conf_ints <- conf_ints %>%
-  mutate(
-    y = 1:n(),
-    p = 900 / 2400,
-    captured = lower_ci <= p & p <= upper_ci
-  )
-groups <- conf_ints$group
-
-ggplot(conf_ints) +
-  geom_point(
-    aes(
-      x = p_hat, y = y,
-      alpha = factor(captured, levels = c("TRUE", "FALSE"))
-    ),
-    show.legend = FALSE
-  ) +
-  geom_vline(xintercept = 900 / 2400, col = "red") +
-  geom_segment(aes(
-    y = y, yend = y, x = lower_ci, xend = upper_ci,
-    alpha = factor(captured, levels = c("TRUE", "FALSE"))
-  )) +
-  scale_y_continuous(breaks = 1:33, labels = groups) +
-  labs(
-    x = expression("Proportion of red balls"), y = "",
-    alpha = "Captured"
-  ) +
-  theme_light() +
-  theme(
-    panel.grid.major.y = element_blank(), panel.grid.minor.y = element_blank(),
-    panel.grid.minor.x = element_blank()
-  )
-```
-
-```{r echo=FALSE, purl=FALSE}
-# This code is used for dynamic non-static in-line text output purposes
-n_obs_friend_groups <- conf_ints %>%
-  filter(captured == TRUE) %>%
-  nrow()
-```
-
-Observe that `r n_obs_friend_groups` of the `r n_friend_groups` confidence intervals "captured" the true value of $p$, for a success rate of `r n_obs_friend_groups` / `r n_friend_groups` = `r round(n_obs_friend_groups / n_friend_groups * 100, 2)`%. While this is not quite 95%, recall that we *expect* about 95% of such confidence intervals to capture $p$. The actual observed success rate will vary slightly. 
-
-Theory-based methods like this have largely been used in the past because we didn't have the computing power to perform simulation-based methods such as bootstrapping. They are still commonly used, however, and if the sampling distribution is normally distributed, we have access to an alternative method for constructing confidence intervals as well as performing hypothesis tests as we will see in Chapter \@ref(hypothesis-testing).
-
-The kind of computer-based statistical inference we've seen so far has a particular name in the field of statistics: *simulation-based inference*. This is because we are performing statistical inference using computer simulations.\index{simulation-based inference} In our opinion, two large benefits of simulation-based methods over theory-based methods are that (1) they are easier for people new to statistical inference to understand and (2) they also work in situations where theory-based methods and mathematical formulas don't exist. 
-
-<!--
-v2 TODO: Consider adding:
-
-#### Confidence intervals based on 100 virtual samples {-}
-
-Let's say, however, we repeated this 100 times, not tactilely, but virtually. Let's do this only 100 times instead of 1000 like we did before so that the results can fit on the screen. Again, the steps for compute a 95% confidence interval for $p$ are:
-
-1. Collect a sample of size $n = 50$ as we did in Chapter \@ref(sampling)
-1. Compute $\widehat{p}$: the sample proportion red of these $n$ = 50 balls
-1. Compute the standard error $\text{SE} = \sqrt{\frac{\widehat{p}(1-\widehat{p})}{n}}$
-1. Compute the margin of error $\text{MoE} = `r qnorm(0.975) %>% round(2)` \cdot \text{SE} =  `r qnorm(0.975) %>% round(2)` \cdot \sqrt{\frac{\widehat{p}(1-\widehat{p})}{n}}$
-1. Compute both end points of the confidence interval:
-    + `lower_ci`: $\widehat{p} - \text{MoE} = \widehat{p} - `r qnorm(0.975) %>% round(2)` \cdot \text{SE} = \widehat{p} - `r qnorm(0.975) %>% round(2)` \cdot \sqrt{\frac{\widehat{p}(1-\widehat{p})}{n}}$
-    + `upper_ci`: $\widehat{p} + \text{MoE} = \widehat{p} + `r qnorm(0.975) %>% round(2)` \cdot \text{SE} = \widehat{p} +`r qnorm(0.975) %>% round(2)` \cdot \sqrt{\frac{\widehat{p}(1-\widehat{p})}{n}}$
-
-Run the following three steps, being sure to `View()` the resulting data frame after each step so you can convince yourself of what's going on:
-
-```{r eval=FALSE}
-# First: Take 100 virtual samples of n=50 balls
-virtual_samples <- bowl %>% 
-  rep_sample_n(size = 50, reps = 100)
-
-# Second: For each virtual sample compute the proportion red
-virtual_prop_red <- virtual_samples %>% 
-  group_by(replicate) %>% 
-  summarize(red = sum(color == "red")) %>% 
-  mutate(prop_red = red / 50)
-
-# Third: Compute the 95% confidence interval as before
-virtual_prop_red <- virtual_prop_red %>% 
-  rename(p_hat = prop_red) %>% 
-  mutate(
-    n = 50,
-    SE = sqrt(p_hat*(1-p_hat)/n),
-    MoE = 1.96 * SE,
-    lower_ci = p_hat - MoE,
-    upper_ci = p_hat + MoE
-  )
-```
-
-Here are the results:
-
-```{r virtual-conf-int, eval=FALSE, echo=FALSE, message=FALSE, fig.height=6, fig.cap="100 confidence intervals based on 100 virtual samples of size n = 50.", purl=FALSE}
-set.seed(79)
-
-virtual_samples <- bowl %>%
-  rep_sample_n(size = 50, reps = 100)
-
-# Second: For each virtual sample compute the proportion red
-virtual_prop_red <- virtual_samples %>%
-  group_by(replicate) %>%
-  summarize(red = sum(color == "red")) %>%
-  mutate(prop_red = red / 50)
-
-# Third: Compute the 95% confidence interval as before
-virtual_prop_red <- virtual_prop_red %>%
-  rename(p_hat = prop_red) %>%
-  mutate(
-    n = 50,
-    SE = sqrt(p_hat * (1 - p_hat) / n),
-    MoE = 1.96 * SE,
-    lower_ci = p_hat - MoE,
-    upper_ci = p_hat + MoE
-  ) %>%
-  mutate(
-    y = seq_len(n()),
-    p = 900 / 2400,
-    captured = lower_ci <= p & p <= upper_ci
-  )
-
-ggplot(virtual_prop_red) +
-  geom_point(aes(x = p_hat, y = y, color = captured)) +
-  geom_segment(aes(
-    y = y, yend = y, x = lower_ci, xend = upper_ci,
-    color = captured
-  )) +
-  labs(
-    x = expression("Proportion red"),
-    y = "Replicate ID",
-    title = expression(paste("95% confidence intervals for ", p, sep = ""))
-  ) +
-  geom_vline(xintercept = 900 / 2400, color = "red")
-```
-
-We see that of our 100 confidence intervals based on samples of size $n$ = 50, `sum(virtual_prop_red[["captured"]])` of them captured the true $p = 900/2400$, whereas `100 - sum(virtual_prop_red[["captured"]])` of them missed. As we create more and more confidence intervals based on more and more samples, about 95% of these intervals will capture. In other words, our procedure is "95% reliable." 
--->
-
-
-If you want more examples of the `infer` workflow to construct confidence intervals, we suggest you check out the `infer` package homepage, in particular, a series of example analyses available at <https://infer.netlify.app/articles/>.
-
-
-### What's to come?
 
 Now that we've equipped ourselves with confidence intervals, in Chapter \@ref(hypothesis-testing) we'll cover the other common tool for statistical inference: hypothesis testing. Just like confidence intervals, hypothesis tests are used to infer about a population using a sample. However, we'll see that the framework for making such inferences is slightly different. 

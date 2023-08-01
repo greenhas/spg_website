@@ -1,7 +1,5 @@
 # M10U: Consequences of Failed Predictions
 
-
-
 This chapter draws on material from:
 
 * [Automated Moderation Must be Temporary, Transparent and Easily Appealable](https://www.eff.org/deeplinks/2020/04/automated-moderation-must-be-temporary-transparent-and-easily-appealable), by [Jillian C. York](https://www.eff.org/about/staff/jillian-york) and [Corynne McSherry](https://www.eff.org/about/staff/corynne-mcsherry), licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/us/)
