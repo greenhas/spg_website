@@ -645,16 +645,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="39.6.2" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#sampling-scenario-1"><i class="fa fa-check"></i><b>39.6.2</b> Sampling scenario</a></li>
 <li class="chapter" data-level="39.6.3" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#conducting-the-hypothesis-test"><i class="fa fa-check"></i><b>39.6.3</b> Conducting the hypothesis test</a></li>
 </ul></li>
-<li class="chapter" data-level="39.7" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#nhst-conclusion"><i class="fa fa-check"></i><b>39.7</b> Conclusion</a>
-<ul>
-<li class="chapter" data-level="39.7.1" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#when-inference-is-not-needed"><i class="fa fa-check"></i><b>39.7.1</b> When inference is not needed</a></li>
-<li class="chapter" data-level="39.7.2" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#problems-with-p-values"><i class="fa fa-check"></i><b>39.7.2</b> Problems with p-values</a></li>
-<li class="chapter" data-level="39.7.3" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#additional-resources-1"><i class="fa fa-check"></i><b>39.7.3</b> Additional resources</a></li>
-<li class="chapter" data-level="39.7.4" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#whats-to-come-1"><i class="fa fa-check"></i><b>39.7.4</b> What’s to come</a></li>
-</ul></li>
+<li class="chapter" data-level="39.7" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#nhst-conclusion"><i class="fa fa-check"></i><b>39.7</b> Conclusion</a></li>
 </ul></li>
 <li class="chapter" data-level="40" data-path="m13c-explore-hypothesis-testing-with-your-own-data.html"><a href="m13c-explore-hypothesis-testing-with-your-own-data.html"><i class="fa fa-check"></i><b>40</b> M13C: Explore Hypothesis Testing With Your Own Data</a></li>
-<li class="chapter" data-level="41" data-path="module-14-understanding.html"><a href="module-14-understanding.html"><i class="fa fa-check"></i><b>41</b> Module 14 Understanding</a></li>
+<li class="chapter" data-level="41" data-path="m14u-small-stories-vs.html"><a href="m14u-small-stories-vs.html"><i class="fa fa-check"></i><b>41</b> M14U: Small Stories vs. Big Data</a>
+<ul>
+<li class="chapter" data-level="41.1" data-path="m14u-small-stories-vs.html"><a href="m14u-small-stories-vs.html#introduction-28"><i class="fa fa-check"></i><b>41.1</b> Introduction</a></li>
+<li class="chapter" data-level="41.2" data-path="m14u-small-stories-vs.html"><a href="m14u-small-stories-vs.html#the-origins-of-autoethnography"><i class="fa fa-check"></i><b>41.2</b> The Origins of Autoethnography</a></li>
+<li class="chapter" data-level="41.3" data-path="m14u-small-stories-vs.html"><a href="m14u-small-stories-vs.html#what-does-autoethnography-look-like"><i class="fa fa-check"></i><b>41.3</b> What does Autoethnography Look Like?</a></li>
+<li class="chapter" data-level="41.4" data-path="m14u-small-stories-vs.html"><a href="m14u-small-stories-vs.html#how-do-autoethnographers-measure-quality"><i class="fa fa-check"></i><b>41.4</b> How do Autoethnographers Measure Quality?</a></li>
+<li class="chapter" data-level="41.5" data-path="m14u-small-stories-vs.html"><a href="m14u-small-stories-vs.html#conclusion-14"><i class="fa fa-check"></i><b>41.5</b> Conclusion</a></li>
+<li class="chapter" data-level="41.6" data-path="m14u-small-stories-vs.html"><a href="m14u-small-stories-vs.html#references-15"><i class="fa fa-check"></i><b>41.6</b> References</a></li>
+</ul></li>
 <li class="chapter" data-level="42" data-path="inference-for-regression.html"><a href="inference-for-regression.html"><i class="fa fa-check"></i><b>42</b> M14A: Inferential Regression</a>
 <ul>
 <li class="chapter" data-level="" data-path="inference-for-regression.html"><a href="inference-for-regression.html#inf-packages"><i class="fa fa-check"></i>Needed packages</a></li>
@@ -1749,70 +1751,13 @@ Figure 39.18: Null distribution, observed test statistic, and <span class="math 
 </div>
 <div id="nhst-conclusion" class="section level2 hasAnchor" number="39.7">
 <h2><span class="header-section-number">39.7</span> Conclusion<a href="hypothesis-testing.html#nhst-conclusion" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div id="when-inference-is-not-needed" class="section level3 hasAnchor" number="39.7.1">
-<h3><span class="header-section-number">39.7.1</span> When inference is not needed<a href="hypothesis-testing.html#when-inference-is-not-needed" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>We’ve now walked through several different examples of how to use the <code>infer</code> package to perform statistical inference: constructing confidence intervals and conducting hypothesis tests. For each of these examples, we made it a point to always perform an exploratory data analysis (EDA) first; specifically, by looking at the raw data values, by using data visualization with <code>ggplot2</code>, and by data wrangling with <code>dplyr</code> beforehand. We <em>highly</em> encourage you to always do the same. As a beginner to statistics, EDA helps you develop intuition as to what statistical methods like confidence intervals and hypothesis tests can tell us. Even as a seasoned practitioner of statistics, EDA helps guide your statistical investigations. In particular, is statistical inference even needed?</p>
-<p>Let’s consider an example. Say we’re interested in the following question: Of <em>all</em> flights leaving a New York City airport, are Hawaiian Airlines flights in the air for longer than Alaska Airlines flights? Furthermore, let’s assume that 2013 flights are a representative sample of all such flights. Then we can use the <code>flights</code> data frame in the <code>nycflights13</code> package we introduced in Section <a href="getting-started.html#nycflights13">6.5</a> to answer our question. Let’s filter this data frame to only include Hawaiian and Alaska Airlines using their <code>carrier</code> codes <code>HA</code> and <code>AS</code>:</p>
-<div class="sourceCode" id="cb420"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb420-1"><a href="hypothesis-testing.html#cb420-1" tabindex="-1"></a>flights_sample <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
-<span id="cb420-2"><a href="hypothesis-testing.html#cb420-2" tabindex="-1"></a>  <span class="fu">filter</span>(carrier <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">&quot;HA&quot;</span>, <span class="st">&quot;AS&quot;</span>))</span></code></pre></div>
-<p>There are two possible statistical inference methods we could use to answer such questions. First, we could construct a 95% confidence interval for the difference in population means <span class="math inline">\(\mu_{HA} - \mu_{AS}\)</span>, where <span class="math inline">\(\mu_{HA}\)</span> is the mean air time of all Hawaiian Airlines flights and <span class="math inline">\(\mu_{AS}\)</span> is the mean air time of all Alaska Airlines flights. We could then check if the entirety of the interval is greater than 0, suggesting that <span class="math inline">\(\mu_{HA} - \mu_{AS} &gt; 0\)</span>, or, in other words suggesting that <span class="math inline">\(\mu_{HA} &gt; \mu_{AS}\)</span>. Second, we could perform a hypothesis test of the null hypothesis <span class="math inline">\(H_0: \mu_{HA} - \mu_{AS} = 0\)</span> versus the alternative hypothesis <span class="math inline">\(H_A: \mu_{HA} - \mu_{AS} &gt; 0\)</span>.</p>
-<p>However, let’s first construct an exploratory visualization as we suggested earlier. Since <code>air_time</code> is numerical and <code>carrier</code> is categorical, a boxplot can display the relationship between these two variables, which we display in Figure <a href="hypothesis-testing.html#fig:ha-as-flights-boxplot">39.19</a>.</p>
-<div class="sourceCode" id="cb421"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb421-1"><a href="hypothesis-testing.html#cb421-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> flights_sample, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> carrier, <span class="at">y =</span> air_time)) <span class="sc">+</span></span>
-<span id="cb421-2"><a href="hypothesis-testing.html#cb421-2" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
-<span id="cb421-3"><a href="hypothesis-testing.html#cb421-3" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Carrier&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Air Time&quot;</span>)</span></code></pre></div>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:ha-as-flights-boxplot"></span>
-<img src="_main_files/figure-html/ha-as-flights-boxplot-1.png" alt="Air time for Hawaiian and Alaska Airlines flights departing NYC in 2013." width="\textwidth" />
-<p class="caption">
-Figure 39.19: Air time for Hawaiian and Alaska Airlines flights departing NYC in 2013.
-</p>
-</div>
-<p>This is what we like to call “no PhD in Statistics needed” moments. You don’t have to be an expert in statistics to know that Alaska Airlines and Hawaiian Airlines have <em>significantly</em> different air times. The two boxplots don’t even overlap! Constructing a confidence interval or conducting a hypothesis test would frankly not provide much more insight than Figure <a href="hypothesis-testing.html#fig:ha-as-flights-boxplot">39.19</a>.</p>
-<p>Let’s investigate why we observe such a clear cut difference between these two airlines using data wrangling. Let’s first group by the rows of <code>flights_sample</code> not only by <code>carrier</code> but also by destination <code>dest</code>. Subsequently, we’ll compute two summary statistics: the number of observations using <code>n()</code> and the mean airtime:</p>
-<div class="sourceCode" id="cb422"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb422-1"><a href="hypothesis-testing.html#cb422-1" tabindex="-1"></a>flights_sample <span class="sc">%&gt;%</span> </span>
-<span id="cb422-2"><a href="hypothesis-testing.html#cb422-2" tabindex="-1"></a>  <span class="fu">group_by</span>(carrier, dest) <span class="sc">%&gt;%</span> </span>
-<span id="cb422-3"><a href="hypothesis-testing.html#cb422-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">n =</span> <span class="fu">n</span>(), <span class="at">mean_time =</span> <span class="fu">mean</span>(air_time, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span></code></pre></div>
-<pre><code># A tibble: 2 × 4
-# Groups:   carrier [2]
-  carrier dest      n mean_time
-  &lt;chr&gt;   &lt;chr&gt; &lt;int&gt;     &lt;dbl&gt;
-1 AS      SEA     714   325.618
-2 HA      HNL     342   623.088</code></pre>
-<p>It turns out that from New York City in 2013, Alaska only flew to <code>SEA</code> (Seattle) from New York City (NYC) while Hawaiian only flew to <code>HNL</code> (Honolulu) from NYC. Given the clear difference in distance from New York City to Seattle versus New York City to Honolulu, it is not surprising that we observe such different (<em>statistically significantly different</em>, in fact) air times in flights.</p>
-<p>This is a clear example of not needing to do anything more than a simple exploratory data analysis using data visualization and descriptive statistics to get an appropriate conclusion. This is why we highly recommend you perform an EDA of any sample data before running statistical inference methods like confidence intervals and hypothesis tests.</p>
-</div>
-<div id="problems-with-p-values" class="section level3 hasAnchor" number="39.7.2">
-<h3><span class="header-section-number">39.7.2</span> Problems with p-values<a href="hypothesis-testing.html#problems-with-p-values" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>On top of the many common misunderstandings about hypothesis testing and <span class="math inline">\(p\)</span>-values we listed in Section <a href="hypothesis-testing.html#ht-interpretation">39.5</a>, another unfortunate consequence of the expanded use of <span class="math inline">\(p\)</span>-values and hypothesis testing is a phenomenon known as “p-hacking.” p-hacking is the act of “cherry-picking” only results that are “statistically significant” while dismissing those that aren’t, even if at the expense of the scientific ideas. There are lots of articles written recently about misunderstandings and the problems with <span class="math inline">\(p\)</span>-values. We encourage you to check some of them out:</p>
-<ol style="list-style-type: decimal">
-<li><a href="https://en.wikipedia.org/wiki/Misunderstandings_of_p-values">Misunderstandings of <span class="math inline">\(p\)</span>-values</a></li>
-<li><a href="https://www.vox.com/science-and-health/2017/7/31/16021654/p-values-statistical-significance-redefine-0005">What a nerdy debate about <span class="math inline">\(p\)</span>-values shows about science - and how to fix it</a></li>
-<li><a href="https://www.nature.com/news/statisticians-issue-warning-over-misuse-of-p-values-1.19503">Statisticians issue warning over misuse of <span class="math inline">\(P\)</span> values</a></li>
-<li><a href="https://fivethirtyeight.com/features/you-cant-trust-what-you-read-about-nutrition/">You Can’t Trust What You Read About Nutrition</a></li>
-<li><a href="http://www.fharrell.com/post/pval-litany/">A Litany of Problems with p-values</a></li>
-</ol>
-<p>Such issues were getting so problematic that the American Statistical Association (ASA) put out a statement in 2016 titled, <a href="https://www.amstat.org/asa/files/pdfs/P-ValueStatement.pdf">“The ASA Statement on Statistical Significance and <span class="math inline">\(P\)</span>-Values,”</a> with six principles underlying the proper use and interpretation of <span class="math inline">\(p\)</span>-values. The ASA released this guidance on <span class="math inline">\(p\)</span>-values to improve the conduct and interpretation of quantitative science and to inform the growing emphasis on reproducibility of science research.</p>
-<p>We as authors much prefer the use of confidence intervals for statistical inference, since in our opinion they are much less prone to large misinterpretation. However, many fields still exclusively use <span class="math inline">\(p\)</span>-values for statistical inference and this is one reason for including them in this text. We encourage you to learn more about “p-hacking” as well and its implication for science.</p>
-</div>
-<div id="additional-resources-1" class="section level3 hasAnchor" number="39.7.3">
-<h3><span class="header-section-number">39.7.3</span> Additional resources<a href="hypothesis-testing.html#additional-resources-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>If you want more examples of the <code>infer</code> workflow for conducting hypothesis tests, we suggest you check out the <code>infer</code> package homepage, in particular, a series of example analyses available at <a href="https://infer.netlify.app/articles/" class="uri">https://infer.netlify.app/articles/</a>.</p>
-</div>
-<div id="whats-to-come-1" class="section level3 hasAnchor" number="39.7.4">
-<h3><span class="header-section-number">39.7.4</span> What’s to come<a href="hypothesis-testing.html#whats-to-come-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>We conclude with the <code>infer</code> pipeline for hypothesis testing in Figure <a href="hypothesis-testing.html#fig:infer-workflow-ht">39.20</a>.</p>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:infer-workflow-ht"></span>
-<img src="images/flowcharts/infer/ht_diagram_trimmed.png" alt="infer package workflow for hypothesis testing." width="100%" height="100%" />
-<p class="caption">
-Figure 39.20: infer package workflow for hypothesis testing.
-</p>
-</div>
 <p>Now that we’ve armed ourselves with an understanding of confidence intervals from Chapter <a href="confidence-intervals.html#confidence-intervals">36</a> and hypothesis tests from this chapter, we’ll now study inference for regression in the upcoming Chapter <a href="inference-for-regression.html#inference-for-regression">42</a>.</p>
 <p>We’ll revisit the regression models we studied in Chapter <a href="regression.html#regression">27</a> on basic regression and Chapter <a href="multiple-regression.html#multiple-regression">30</a> on multiple regression. For example, recall our our regression model for an instructor’s teaching score as a function of their “beauty” score, which I’ll show again here in Table <a href="hypothesis-testing.html#tab:regression-table-inference">39.4</a>.</p>
-<div class="sourceCode" id="cb424"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb424-1"><a href="hypothesis-testing.html#cb424-1" tabindex="-1"></a><span class="co"># Fit regression model:</span></span>
-<span id="cb424-2"><a href="hypothesis-testing.html#cb424-2" tabindex="-1"></a>score_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(score <span class="sc">~</span> bty_avg, <span class="at">data =</span> evals)</span>
-<span id="cb424-3"><a href="hypothesis-testing.html#cb424-3" tabindex="-1"></a></span>
-<span id="cb424-4"><a href="hypothesis-testing.html#cb424-4" tabindex="-1"></a><span class="co"># Get regression table:</span></span>
-<span id="cb424-5"><a href="hypothesis-testing.html#cb424-5" tabindex="-1"></a><span class="fu">get_regression_table</span>(score_model)</span></code></pre></div>
+<div class="sourceCode" id="cb420"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb420-1"><a href="hypothesis-testing.html#cb420-1" tabindex="-1"></a><span class="co"># Fit regression model:</span></span>
+<span id="cb420-2"><a href="hypothesis-testing.html#cb420-2" tabindex="-1"></a>score_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(score <span class="sc">~</span> bty_avg, <span class="at">data =</span> evals)</span>
+<span id="cb420-3"><a href="hypothesis-testing.html#cb420-3" tabindex="-1"></a></span>
+<span id="cb420-4"><a href="hypothesis-testing.html#cb420-4" tabindex="-1"></a><span class="co"># Get regression table:</span></span>
+<span id="cb420-5"><a href="hypothesis-testing.html#cb420-5" tabindex="-1"></a><span class="fu">get_regression_table</span>(score_model)</span></code></pre></div>
 <table class="table" style="font-size: 16px; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
 <span id="tab:regression-table-inference">Table 39.4: </span>Linear regression table
@@ -1893,7 +1838,6 @@ bty_avg
 </table>
 <p>We previously saw in Subsection <a href="regression.html#model1table">27.2.2</a> that the values in the <code>estimate</code> column are the fitted intercept <span class="math inline">\(b_0\)</span> and fitted slope for “beauty” score <span class="math inline">\(b_1\)</span>. In Chapter <a href="inference-for-regression.html#inference-for-regression">42</a>, we’ll unpack the remaining columns: <code>std_error</code> which is the standard error, <code>statistic</code> which is the observed <em>standardized</em> test statistic to compute the <code>p_value</code>, and the 95% confidence intervals as given by <code>lower_ci</code> and <code>upper_ci</code>.</p>
 
-</div>
 </div>
 </div>
 <script src="https://hypothes.is/embed.js" async></script>

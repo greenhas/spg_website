@@ -1,1 +1,187 @@
-# Module 14 Understanding
+# M14U: Small Stories vs. Big Data
+
+This chapter draws on material from: [Autoethnography: An Overview](https://www.qualitative-research.net/index.php/fqs/article/view/1589) by Carolyn Ellis, [Tony E. Adams](https://tonyeadams.com/), and Arthur P. Bochner, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+Changes to the source material include light editing, changing citation styles, adding new material, deleting original material, rearranging material, and adding first-person language from current author.
+
+The resulting content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## Introduction
+
+Over the past few weeks, we've been emphasizing that data scientists are generally interested in *populations*—entire collections of people, things, or other phenomena. A data scientist's goal is to understand something general about everything that fits within a population, and if they have the resources to collect data about the entire population, they would have no particular reason not to do so. The logic behind *sampling* is practical—it takes a huge amount of resources to collect data on everything, so why not collect data on a subset of everything and use that to draw conclusions about everything?
+
+This may—and should—remind you of discussions that we had earlier in the semester about paradigms and the goals of research. The push to understand something general about everything is based on a deeper understanding that the world is more-or-less predictable and that we ought to try to understand predictable, general patterns. Of course, the logic of samples and populations also recognizes that there are differences and diversity within a population—it isn't that data scientists don't appreciate that medicines work differently for different people or that what works for one student may not work for another. Instead, it's that data scientists are hopeful that underneath all of these differences, there are generally reliable patterns that we should understand so that we can understand how the world works in aggregate—and act accordingly to get the results that we want.
+
+However, as we also discussed earlier, this isn't the only way of thinking about the goals of research. Whereas a data scientist sees a sample as a stepping stone to understanding more about a broader population, there are other approaches to research that focus on a small subset of people, things, or other phenomena because they think that small subset has value in and of itself—even (or perhaps especially) if it has less to say about anything outside its relatively limited bounds.
+
+As we start to wrap up our semester, we're going to briefly consider *autoethnography*, a form of research that is perhaps the polar opposite of data science! Autoethnography is an approach to research and writing that seeks to describe and systematically analyze (*graphy*) personal experience (*auto*) in order to understand cultural experience (*ethno*) (Ellis, 2004; Holman Jones, 2005). Note that the basic relationship between samples and populations here is still more-or-less intact: Someone who conducts an autoethnography examines their personal experience with the hope that that will have something to say about the broader experience of a particular culture or people. However, the terms of that relationship are wildly different: An autoethnographer is confident that in writing about one person (themself), they can unearth enough data to have something to say about something broader. That's a pretty bold claim, and one that flies in the face of everything we've said so far about sampling.
+
+Because it's such a bold claim, I want to make it clear that this chapter is not an unreserved endorsement of autoethnography or an argument that people should write autoethnographies instead of doing data science. I happen to like the idea of autoethnography—and recently got the chance to write one—but I'm also very aware of its shortcomings. In fact, there is plenty of criticism of autoethnography, including from people who are pretty far away from data science, paradigmatically speaking, and you are welcome to add your own concerns in your annotations of this reading! The point of reading about autoethnography here is not so that you embrace this research method but instead to provide a contrast to what we've been doing over the past few weeks: How do different researchers think about how to best understand the world? I hope you'll come away from this class thinking like data scientists—that's kind of the point!—but I think it's just as important to consider other ways of thinking about the world, data, and research.
+
+## The Origins of Autoethnography
+
+In the 1980s, an academic perspective called [postmodernism](https://en.wikipedia.org/wiki/Postmodernism) led to a bit of a "crisis of confidence" among researchers. In particular, scholars began illustrating how the "facts" and "truths" scientists "found" were impossible to separate from the vocabularies and paradigms the scientists used to represent them (Kuhn, 1996; Rorty, 1982). Scholars became increasingly troubled by social science's limitations (Ellis & Bochner, 2000). They recognized the impossibility of and lack of desire for universal narratives about how the world works (de Certeau, 1984; Lyotard, 1984). Furthermore, there was an increasing need to resist colonialist, sterile research impulses of authoritatively entering a culture, exploiting cultural members, and then recklessly leaving to write about the culture for monetary and/or professional gain, while disregarding relational ties to cultural members (Conquergood, 1991; Ellis, 2007; Riedmann 1993).
+
+This introduced new and abundant opportunities to reform social science (science focused on human behavior) and reimagine the objectives and forms of social science research—but changing the way that researchers do research is a big task. How should this happen?
+
+Around this same time, scholars were beginning to look at texts and stories differently. They understood new relationships between authors, audiences, and texts (Barthes, 1977; Derrida, 1978; Radway, 1984). They also realized that stories were complex, constitutive, meaningful phenomena that taught morals and ethics, introduced unique ways of thinking and feeling, and helped people make sense of themselves and others (Adams, 2008; Bochner, 2001, 2002; Fisher, 1984).
+
+Gradually, scholars across a wide spectrum of disciplines began to consider what social sciences would become if they were closer to literature than to physics, if they proffered stories rather than theories, and if they were self-consciously value-centered rather than pretending to be value free (Bochner, 1994). Many of these scholars turned to autoethnography because they were seeking a positive response to critiques of accepted ideas about what research is and how research should be done. In particular, they wanted to concentrate on ways of producing meaningful, accessible, and evocative research grounded in personal experience, research that would sensitize readers to forms of representation that deepen our capacity to empathize with people who are different from us (Ellis & Bochner 2000).
+
+Autoethnographers recognize the innumerable ways personal experience influences the research process. For instance, a researcher decides who, what, when, where, and how to research, decisions necessarily tied to institutional requirements (e.g., Institutional Review Boards), resources (e.g., funding), and personal circumstance (e.g., a researcher studying cancer because of personal experience with cancer). A researcher may also change names and places for protection (Fine, 1993), compress years of research into a single text, and construct a study in a pre-determined way (e.g., using an introduction, literature review, methods section, findings, and conclusion; Tullis Owen, McRae, Adams & Vitale, 2009). Even though some researchers still assume that research can be done from a neutral, impersonal, and objective stance (Atkinson, 1997; Buzard, 2003; Delamont, 2009), most now recognize that such an assumption never fully holds up (Bochner, 2002; Denzin & Lincoln, 2000; Rorty, 1982). Consequently, autoethnography is an approach that acknowledges and accommodates subjectivity, emotionality, and the researcher's influence on research, rather than hiding from these matters or assuming they don't exist.
+
+Furthermore, scholars began recognizing that different kinds of people possess different assumptions about the world—a multitude of ways of speaking, writing, valuing and believing—and that conventional ways of doing and thinking about research were narrow, limiting, and parochial. Following these conventions, a researcher not only disregards other ways of knowing but also implies that other ways necessarily are unsatisfactory and invalid. Autoethnography, on the other hand, expands and opens up a wider lens on the world, eschewing rigid definitions of what constitutes meaningful and useful research; this approach also helps us understand how the kinds of people we claim, or are perceived, to be influence interpretations of what we study, how we study it, and what we say about our topic (Adams, 2005; Wood, 2009).
+
+## What does Autoethnography Look Like?
+
+As a method, autoethnography combines characteristics of *autobiography* and *ethnography*. 
+
+When writing an *autobiography*, an author retroactively and selectively writes about past experiences. Usually, the author does not live through these experiences solely to make them part of a published document; rather, these experiences are assembled using hindsight (Bruner, 1993; Denzin, 1989, Freeman, 2004). In writing, the author also may interview others as well as consult with texts like photographs, journals, and recordings to help with recall (Delany, 2004; Didion, 2005; Goodall, 2006; Herrmann, 2005). 
+
+Most often, autobiographers write about "epiphanies"—remembered moments perceived to have significantly impacted the trajectory of a person's life (Bochner & Ellis, 1992; Couser, 1997; Denzin, 1989), times of existential crises that forced a person to attend to and analyze lived experience (Zaner, 2004), and events after which life does not seem quite the same. While epiphanies are self-claimed phenomena in which one person may consider an experience transformative while another may not, these epiphanies reveal ways a person could negotiate "intense situations" and "effects that linger—recollections, memories, images, feelings—long after a crucial incident is supposedly finished" (Bochner, 1984, p.595).
+
+When researchers do *ethnography*, they study a culture's relational practices, common values and beliefs, and shared experiences for the purpose of helping insiders (cultural members) and outsiders (cultural strangers) better understand the culture (Maso, 2001). Ethnographers do this by becoming participant observers in the culture—that is, by taking field notes of cultural happenings as well as their part in and others' engagement with these happenings (Geertz, 1973; Goodall, 2001). An ethnographer also may interview cultural members (Berry, 2005; Nicholas, 2004), examine members' ways of speaking and relating (Ellis, 1986; Lindquist, 2002), investigate uses of space and place (Corey, 1996; Makagon, 2004; Philipsen, 1976), and/or analyze artifacts such as clothing and architecture (Borchard, 1998), and texts such as books, movies, and photographs (Goodall, 2006; Neumann, 1999; Thomas, 2010).
+
+When researchers do autoethnography, they retrospectively and selectively write about epiphanies that stem from, or are made possible by, being part of a culture and/or by possessing a particular cultural identity. However, in addition to telling about experiences, autoethnographers often are required by social science publishing conventions to analyze these experiences.
+
+Autoethnographers must not only use their methodological tools and research literature to analyze experience, but also must consider ways others may experience similar epiphanies; they must use personal experience to illustrate facets of cultural experience, and, in so doing, make characteristics of a culture familiar for insiders and outsiders. To accomplish this might require comparing and contrasting personal experience against existing research (Ronai, 1995, 1996), interviewing cultural members (Foster, 2006; Marvasti, 2006; Tillmann-Healy, 2001), and/or examining relevant cultural artifacts (Boylorn, 2008; Denzin, 2006).
+
+## How do Autoethnographers Measure Quality?
+
+All researchers are concerned with quality, and one common critique of research methods like autoethnography is that it is difficult to determine their quality. Whereas a data scientist can quantitatively describe the extent to which their sample is representative of the population that they are interested in, an autoethnographer is specifically focusing on one person, with the explicit understanding that to a certain extent, their experiences are unique. This critique isn't wrong, but it's also misleading to suggest that autoethnographers aren't concerned with quality: Instead, they understand the quality of research differently.
+
+For example, autoethnographers value *narrative truth* based on what a story of experience does—how it is used, understood, and responded to for and by us and others as writers, participants, audiences, and humans (Bochner, 1994; Denzin, 1989). Autoethnographers also recognize how what we understand and refer to as "truth" changes as the genre of writing or representing experience changes (e.g., fiction or nonfiction; memoir, history, or science). Moreover, autoethnographers acknowledge the importance of contingency. They know that memory is fallible, that it is impossible to recall or report on events in language that exactly represents how those events were lived and felt. Likewise, they recognize that people who have experienced the "same" event often tell different stories about what happened (Tullis Owen et al., 2009). Consequently, traditional concerns about research quality must be shifted to take these things into account.
+
+For an autoethnographer, the narrator's *credibility* is important. Could the narrator have had the experiences described, given available "factual evidence"? Does the narrator believe that this is actually what happened to her or him? (Bochner, 2002, p. 86) Has the narrator taken "literary license" to the point that the story is better viewed as fiction than a truthful account?
+
+Likewise, autoethnographers want a work to seek *verisimilitude*: to evoke in readers a feeling that the experience described is lifelike, believable, and possible, a feeling that what has been represented could be true. The story is coherent. It connects readers to writers and provides continuity in their lives. "What matters is the way in which the story enables the reader to enter the subjective world of the teller—to see the world from her or his point of view, even if this world does not 'match reality'" (Plummer, 2001, p.401). An autoethnography can also be judged in terms of whether it helps readers communicate with others different from themselves or offer a way to improve the lives of participants and readers or the author's own (Ellis, 2004, p.124). In particular, autoethnographers ask: "How useful is the story?" and "To what uses might the story be put?" (Bochner, 2002).
+
+*Generalizability* is also important to autoethnographers, though not in the traditional, social scientific sense that a sample ought to tell us something more general about a population. Instead, in autoethnography, the focus of generalizability moves from respondents to readers, and is always being tested by readers as they determine if a story speaks to them about their experience or about the lives of others they know; it is determined by whether the (specific) autoethnographer is able to illuminate (general) unfamiliar cultural processes (Ellis & Bochner, 2000; Ellis & Ellingson, 2000). Readers provide validation by comparing their lives to ours, by thinking about how our lives are similar and different and the reasons why, and by feeling that the stories have informed them about unfamiliar people or lives (Ellis, 2004, p.195; Flick, 2010).
+
+## Conclusion
+
+As stated earlier, our purpose in reading about autoethnography this week is not necessarily to endorse this method or to say that we ought to be learning autoethnography instead of data science. Instead, our purpose is to compare and contrast—how is the logic of data science similar to and different from autoethnography? 
+
+In comparing and contrasting, we also have the opportunity to ask ourselves about the strengths and weaknesses of data science. What does data science do better than autoethnography? In contrast, what might autoethnography do better than data science? What do "big data" help demonstrate and prove better than a "small story?" Are there cases in which a "small story" helps make a point better than "big data"?
+
+Finally, we also have the opportunity to ask about what data science could learn from autoethnography. How can we better understand and (when appropriate) embrace our own subjectivity as we practice data science? Can data science help us break out of our own perspectives and appreciate those of others? Can we—and should we—make data "speak to" our audience in the same way that stories can?
+
+## References
+
+Adams, T. E. (2008). A review of narrative ethics. *Qualitative Inquiry*, *14*(2), 175-194.
+
+Atkinson, P. (1997). Narrative turn or blind alley? *Qualitative Health Research*, *7*(3), 325-344.
+
+Barthes, R. (1977). *Image, music, text* (transl. by S. Heath). New York: Hill and Wang.
+
+Berry, K. (2005). To the "speeches" themselves: An ethnographic and phenomenological account of emergent identity formation. *International Journal of Communication*, *15*(1-2), 21-50.
+
+Bochner, A. P. (1984). The functions of human communication in interpersonal bonding. In C. C. Arnold & J. W. Bowers (Eds.), *Handbook of rhetorical and communication theory* (pp. 544-621). Allyn and Bacon.
+
+Bochner, A. P. (1994). Perspectives on inquiry II: Theories and stories. In M. L. Knapp & G. R. Miller (Eds.), *Handbook of interpersonal communication* (pp. 21-41). Sage.
+
+Bochner, A. P. (2001). Narrative's virtues. *Qualitative Inquiry*, *7*(2), 131-157
+
+Bochner, A. P. (2002). Perspectives on inquiry III: The moral of stories. In M. L. Knapp & J. A. Daly (Eds.), *Handbook of interpersonal communication* (3rd ed., pp.73-101). Sage.
+
+Bochner, A. P. & Ellis, C. (1992). Personal narrative as a social approach to interpersonal communication. *Communication Theory*, *2*(2), 165-172.
+
+Borchard, K. (1998). Between a hard rock and postmodernism: Opening the Hard Rock Hotel and Casino. *Journal of Contemporary Ethnography*, *27*(2), 242-269.
+
+Boylorn, R. M. (2008). As seen on TV: An autoethnographic reflection on race and reality television. *Critical Studies in Media Communication*, *25*(4), 413-433.
+
+Bruner, J. (1993). The autobiographical process. In Robert Folkenflik (Ed.), *The culture of autobiography: Constructions of self-representation* (pp. 38-56). Stanford University Press.
+
+Buzard, J. (2003). On auto-ethnographic authority. *The Yale Journal of Criticism*, *16*(1), 61-91.
+
+Conquergood, D. (1991). Rethinking ethnography: Towards a critical cultural politics. *Communication Monographs*, *58*, 179-194.
+
+Corey, F. C. (1996). Performing sexualities in an Irish pub. *Text and Performance Quarterly*, *16*(2), 146-160.
+
+Couser, G. T. (1997). *Recovering bodies: Illness, disability, and life writing*. University of Wisconsin Press.
+
+de Certeau, M. (1984). *The practice of everyday life* (transl. by S. Rendall). University of California Press.
+
+Delamont, S. (2009). The only honest thing: Autoethnography, reflexivity and small crises in fieldwork. *Ethnography and Education*, *4*(1), 51-63.
+
+Delany, S. R. (2004). *The motion of light in water*. University of Minnesota Press.
+
+Denzin, N. K. (1989). *Interpretive biography*. Sage.
+
+Denzin, N. K. (2006). Mother and Mickey. *The South Atlantic Quarterly*, *105*(2), 391-395.
+
+Denzin, N. K. & Lincoln, Y. S. (2000). Introduction: The discipline and practice of qualitative research. In N. K. Denzin & Y. S. Lincoln (Eds.), *Handbook of qualitative research* (2nd ed., pp. 1-28). Sage.
+
+Derrida, J. (1978). *Writing and difference* (transl. by A. Bass). University of Chicago Press.
+
+Didion, J. (2005). *The year of magical thinking*. New York: A.A. Knopf.
+
+Ellis, C. (1986). *Fisher folk: Two communities on Chesapeake Bay*. University Press of Kentucky.
+
+Ellis, C. (2004). *The ethnographic I: A methodological novel about autoethnography*. AltaMira Press.
+
+Ellis, C. (2007). Telling secrets, revealing lives: Relational ethics in research with intimate others. *Qualitative Inquiry*, *13*(1), 3-29.
+
+Ellis, C., & Bochner, A. P. (2000). Autoethnography, personal narrative, reflexivity. In N. K. Denzin & Y. S. Lincoln (Eds.), *Handbook of qualitative research* (2nd ed., pp.733- 768). Sage.
+
+Ellis, C., & Ellingson, L. (2000). Qualitative methods. In E. Borgatta & R. Montgomery (Eds.), *Encyclopedia of sociology* (pp. 2287-2296). Macmillan.
+
+Fine, G. A. (1993). Ten lies of ethnography. *Journal of Contemporary Ethnography*, *22*(3), 267-294.
+
+Fisher, W. R. (1984). Narration as human communication paradigm: The case of public moral argument. *Communication Monographs*, *51*(1), 1-22.
+
+Flick, W. (2010). Gütekriterien qualitativer Forschung. In G. Mey & K. Mruck (Eds.), *Handbuch Qualitative Forschung in der Psychologie* (pp. 395-470). Wiesbaden: VS Verlag/Springer.
+
+Foster, E. (2006). *Communicating at the end of life*. Mahwah, NJ: Lawrence Erlbaum.
+
+Freeman, M. (2004). Data are everywhere: Narrative criticism in the literature of experience. In C. Daiute & C. Lightfoot (Eds.), *Narrative analysis: Studying the development of individuals in society* (pp. 63-81). Sage.
+
+Geertz, C. (1973). *The interpretation of cultures*. Basic Books.
+
+Goodall, B. H. L. (2001). *Writing the new ethnography*. AltaMira.
+
+Goodall, B. H. L. (2006). *A need to know: The clandestine history of a CIA family*. Left Coast Press.
+
+Herrmann, A. F. (2005). My father's ghost: Interrogating family photos. *Journal of Loss and Trauma*, *10*(4), 337-346.
+
+Holman Jones, S. (2005). Autoethnography: Making the personal political. In N. K. Denzin & Y. S. Lincoln (Eds.), *Handbook of qualitative research* (pp.763-791). Sage.
+
+Kuhn, T. S. (1996). *The structure of scientific revolutions* (3rd ed.). University of Chicago Press.
+
+Lindquist, J. (2002). *A place to stand: Politics and persuasion in a working-class bar*. Oxford University Press.
+
+Lyotard, J.-F. (1984). *The postmodern condition: A report on knowledge* (transl. by G. Bennington & B. Massumi). University of Minnesota Press.
+
+Makagon, D. (2004). *Where the ball drops: Days and nights in Times Square*. University of Minnesota Press.
+
+Marvasti, A. (2006). Being Middle Eastern American: Identity negotiation in the context of the war on terror. *Symbolic Interaction*, *28*(4), 525-547.
+
+Maso, I. (2001). Phenomenology and ethnography. In P. Atkinson, A. Coffey, S. Delamont, J. Lofland & L. Lofland (Eds.), *Handbook of ethnography* (pp. 136-144). Sage.
+
+Neumann, M. (1999). *On the rim: Looking for the Grand Canyon*. University of Minnesota Press.
+
+Nicholas, C. L. (2004). Gaydar: Eye-gaze as identity recognition among gay men and lesbians. *Sexuality and Culture*, *8*(1), 60-86.
+
+Philipsen, G. (1976). Places for speaking in Teamsterville. *Quarterly Journal of Speech*, *62*(1), 15-25.
+
+Plummer, K. (2001). The call of life stories in ethnographic research. In P. Atkinson, A. Coffey, S. Delamont, J. Lofland, & L. Lofland (Eds.), *Handbook of ethnography* (pp. 395-406). Sage.
+
+Radway, J. A. (1984). *Reading the romance: Women, patriarchy, and popular literature*. University of North Carolina Press.
+
+Riedmann, A. (1993). *Science that colonizes: A critique of fertility studies in Africa*. Temple University Press.
+
+Ronai, C. R. (1995). Multiple reflections of child sex abuse. *Journal of Contemporary Ethnography*, *23*(4), 395-426.
+
+Ronai, C. R. (1996). My mother is mentally retarded. In C. Ellis & A. P. Bochner (Eds.), *Composing ethnography: Alternative forms of qualitative writing* (pp.109-131). AltaMira.
+
+Rorty, R. (1982). *Consequences of pragmatism* (essays 1972-1980). University of Minnesota Press.
+
+Thomas, S. (2010). Ethnografie. In G. Mey & K. Mruck (Eds.), *Handbuch Qualitative Forschung in der Psychologie* (pp.462-475). VS Verlag/Springer.
+
+Tillmann-Healy, L. M. (2001). *Between gay and straight: Understanding friendship across sexual orientation*. Walnut Creek, CA.
+
+Tullis Owen, J. A.; McRae, C.; Adams, T. E. & Vitale, A. (2009). truth Troubles. *Qualitative Inquiry*, *15*(1), 178-200.
+
+Wood, J. T. (2009). *Gendered lives: Communication, gender, and culture*. Wadsworth.
+
+Zaner, R. M. (2004). *Conversations on the edge: Narratives of ethics and illness*. Georgetown University Press.

@@ -51,11 +51,5 @@ h4:calculate-summary-statistics-1 4.  summary statistics
 h4:visualize-the-p-value-1 5.  the p-value
 fig:null-distribution-movies-2 Null distribution, observed test statistic, and $p$-value.
 h2:nhst-conclusion Conclusion
-h3:when-inference-is-not-needed When inference is not needed
-fig:ha-as-flights-boxplot Air time for Hawaiian and Alaska Airlines flights departing NYC in 2013.
-h3:problems-with-p-values Problems with p-values
-h3:additional-resources Additional resources
-h3:whats-to-come What’s to come
-fig:infer-workflow-ht infer package workflow for hypothesis testing.
 tab:regression-table-inference Linear regression table
 
