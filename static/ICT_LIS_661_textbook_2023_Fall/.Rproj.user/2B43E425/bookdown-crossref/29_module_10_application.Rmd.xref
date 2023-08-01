@@ -1,2 +1,48 @@
-h1:module-10-application Module 10 Application
+h1:multiple-regression M10A: Multiple Regression
+h2:introduction Introduction
+h3:mult-reg-packages Needed packages
+h2:model4 One numerical and one categorical explanatory variable
+h3:model4EDA Exploratory data analysis
+tab:model4-data-preview A random sample of 5 out of the 463 courses at UT Austin
+fig:numxcatxplot1 Colored scatterplot of relationship of teaching score and age.
+h3:model4interactiontable Interaction model
+tab:echo Regression table for life expectancy as a function of continent
+tab:regtable-interaction Regression table for interaction model
+tab:interaction-summary Comparison of intercepts and slopes for interaction model
+h3:model4table Parallel slopes model
+fig:numxcatx-parallel Parallel slopes model of score with age and gender.
+tab:regtable-parallel-slopes Regression table for parallel slopes model
+tab:parallel-slopes-summary Comparison of intercepts and slope for parallel slopes model
+fig:numxcatx-comparison Comparison of interaction and parallel slopes models.
+h3:model4points Observed/fitted values and residuals
+fig:fitted-values Fitted values for two new professors.
+tab:model4-points-table Regression points (First 10 out of 463 courses)
+h2:model3 Two numerical explanatory variables
+h3:model3EDA Exploratory data analysis
+tab:model3-data-preview Random sample of 5 credit card holders
+tab:model3-correlation Correlation coefficients between credit card debt, credit limit, and income
+fig:2numxplot1 Relationship between credit card debt and credit limit/income.
+fig:3D-scatterplot 3D scatterplot and regression plane.
+h3:model3table Regression plane
+tab:model3-table-output Multiple regression table
+h3:model3points Observed/fitted values and residuals
+tab:model3-points-table Regression points (First 10 credit card holders out of 400)
+h2:mult-reg-related-topics Related topics
+h3:model-selection Model selection using visualizations
+fig:recall-parallel-vs-interaction Previously seen comparison of interaction and parallel slopes models.
+fig:numxcatx-comparison-2 Comparison of interaction and parallel slopes models for Massachusetts schools.
+tab:model2-interaction Interaction model regression table
+tab:model2-parallel-slopes Parallel slopes regression table
+h3:rsquared Model selection using R-squared
+tab:model2-r-squared Comparing variances from interaction and parallel slopes models for MA school data
+tab:model1-r-squared Comparing variances from interaction and parallel slopes models for UT Austin data
+h3:correlationcoefficient2 Correlation coefficient
+tab:cor-credit-2 Correlation between income (in dollars) and credit card debt
+h3:simpsonsparadox Simpson’s Paradox
+fig:2numxplot1-repeat Relationship between credit card debt and income.
+tab:model3-table-output-repeat Multiple regression results
+fig:credit-limit-quartiles Histogram of credit limits and brackets.
+fig:2numxplot4 Relationship between credit card debt and income by credit limit bracket.
+h2:mult-reg-conclusion Conclusion
+h2:references References
 

@@ -1,2 +1,44 @@
-h1:module-9-application Module 9 Application
+h1:regression M9A: Basic Regression
+(ref:moderndivepart) Data Modeling with 
+h2:introduction Introduction
+h3:reg-packages Needed packages
+h2:model1 One numerical explanatory variable
+h3:model1EDA Exploratory data analysis
+tab:five-random-courses A random sample of 5 out of the 463 courses at UT Austin
+fig:correlation1 Nine different correlation coefficients.
+fig:guess-the-correlation (ref:guess-corr)
+fig:numxplot1 Instructor evaluation scores at UT Austin.
+fig:numxplot2 Instructor evaluation scores at UT Austin.
+fig:numxplot3 Regression line.
+h3:model1table Simple linear regression
+tab:regtable Linear regression table
+fig:moderndive-figure-wrapper The concept of a wrapper function.
+h3:model1points Observed/fitted values and residuals
+tab:instructor-21 Data for the 21st course out of 463
+fig:numxplot4 Example of observed value, fitted value, and residual.
+tab:regression-points-1 Regression points (for only the 21st through 24th courses)
+h2:model2 One categorical explanatory variable
+h3:model2EDA Exploratory data analysis
+tab:model2-data-preview Random sample of 5 out of 142 countries
+fig:lifeExp2007hist Histogram of life expectancy in 2007.
+fig:catxplot0b Life expectancy in 2007.
+fig:catxplot1 Life expectancy in 2007.
+tab:catxplot0 Life expectancy by continent
+tab:continent-mean-life-expectancies Mean life expectancy by continent and relative differences from mean for Africa
+h3:model2table Linear regression
+tab:catxplot4b Linear regression table
+h3:model2points Observed/fitted values and residuals
+tab:model2-residuals Regression points (First 10 out of 142 countries)
+h2:reg-related-topics Related topics
+h3:correlation-is-not-causation Correlation is not necessarily causation
+fig:moderndive-figure-causal-graph-2 Does sleeping with shoes on cause headaches?
+fig:moderndive-figure-causal-graph Causal graph.
+h3:leastsquares Best-fitting line
+fig:best-fitting-line Example of observed value, fitted value, and residual.
+h3:underthehood  functions
+tab:recall-table Regression table
+tab:regtable-broom Regression table using tidy() from broom package
+tab:regpoints-augment Regression points using augment() from broom package
+h2:reg-conclusion Conclusion
+h2:references References
 

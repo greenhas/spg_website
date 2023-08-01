@@ -1,2 +1,18 @@
-h1:module-8-application Module 8 Application
+h1:m8a-descriptive-statistics M8A: Descriptive Statistics
+h2:introduction Introduction
+h3:wrangling-packages-2 Needed packages
+h2:summarize  variables
+h3:mean Mean
+h3:standard-deviation Standard Deviation
+h4:measure-of-overall-variation Measure of Overall Variation
+h4:determining-whether-a-data-value-is-close-to-or-far-from-the-mean Determining Whether a Data Value is Close To or Far From the Mean
+h4:calculating-the-standard-deviation Calculating the Standard Deviation
+h3:calculating-mean-with-mean-and-standard-deviation-with-sd Calculating Mean with  and Standard Deviation with 
+fig:summary-function Diagram illustrating a summary function in R.
+fig:sum1 Diagram of summarize() rows.
+h3:percentiles-quartiles-and-iqr Percentiles, Quartiles and 
+h2:groupby  rows
+(ref:groupby) Diagram of group_by() and summarize().
+fig:groupsummarize (ref:groupby)
+h3:grouping-by-more-than-one-variable Grouping by more than one variable
 

@@ -1,2 +1,81 @@
-h1:module-12-application Module 12 Application
+h1:confidence-intervals M12A: Confidence Intervals
+h2:introduction Introduction
+h3:CI-packages Needed packages
+h2:resampling-tactile Pennies activity
+h3:what-is-the-average-year-on-us-pennies-in-2019 What is the average year on US pennies in 2019?
+fig:resampling-exercise-a Collecting a sample of 50 US pennies from a local bank.
+fig:resampling-exercise-c 50 US pennies labelled.
+fig:pennies-sample-histogram Distribution of year on 50 US pennies.
+tab:table-ch8-b Scenarios of sampling for inference
+h3:resampling-once Resampling once
+fig:tactile-resampling-1 Step 1: 50 slips of paper representing 50 US pennies.
+fig:tactile-resampling-2 Step 2: Putting 50 slips of paper in a hat.
+fig:tactile-resampling-3 Step 3: Drawing one slip of paper at random.
+fig:tactile-resampling-4 Step 4: Replacing slip of paper.
+fig:resampling-exercise-d 50 resampled US pennies labelled.
+fig:origandresample (ref:compare-plots)
+h3:student-resamples Resampling  times
+fig:tactile-resampling-5 Snapshot of shared spreadsheet of resampled pennies.
+fig:tactile-resampling-6 Distribution of 35 sample means from 35 resamples.
+h3:ci-what-did-we-just-do What did we just do?
+h2:resampling-simulation Computer simulation of resampling
+h3:virtually-resampling-once Virtually resampling once
+h3:bootstrap-35-replicates Virtually resampling  times
+fig:tactile-resampling-7 Distribution of 35 sample means from 35 resamples.
+fig:orig-and-resample-means Comparing distributions of means from resamples.
+h3:bootstrap-1000-replicates Virtually resampling  times
+fig:one-thousand-sample-means Bootstrap resampling distribution based on 1000 resamples.
+h2:ci-build-up Understanding confidence intervals
+fig:point-estimate-vs-conf-int Analogy of difference between point estimates and confidence intervals.
+h3:percentile-method Percentile method
+fig:percentile-method (ref:perc-method)
+h3:se-method Standard error method
+fig:percentile-and-se-method (ref:both-methods)
+h2:bootstrap-process Constructing confidence intervals
+h3:original-workflow Original workflow
+h3:infer-workflow  package workflow
+h4:specify-variables 1.  variables
+fig:infer-specify Diagram of the specify() verb.
+h4:generate-replicates 2.  replicates
+fig:infer-generate Diagram of generate() replicates.
+h4:calculate-summary-statistics 3.  summary statistics
+fig:infer-calculate Diagram of calculate() summary statistics.
+h4:visualize-the-results 4.  the results
+fig:infer-visualize Diagram of visualize() results.
+fig:boostrap-distribution-infer Bootstrap distribution.
+fig:infer-workflow-ci infer package workflow for confidence intervals.
+h3:percentile-method-infer Percentile method with 
+fig:percentile-ci-viz (ref:perc-ci-viz)
+h3:infer-se Standard error method with 
+fig:se-ci-viz (ref:se-viz)
+h2:one-prop-ci Interpreting confidence intervals
+h3:ilyas-yohan Did the net capture the fish?
+h4:specify-variables-1 1.  variables
+h4:generate-replicates-1 2.  replicates
+h4:calculate-summary-statistics-1 3.  summary statistics
+h4:visualize-the-results-1 4.  the results
+fig:shovel-bootstrap-1-infer Bootstrap distribution.
+fig:reliable-percentile (ref:reliable-perc)
+fig:reliable-se (ref:rel-se)
+h3:shorthand Precise and shorthand interpretation
+h3:ci-width Width of confidence intervals
+h4:impact-of-confidence-level Impact of confidence level
+fig:reliable-percentile-80-95-99 (ref:many-percs)
+tab:perc-cis-average-width Average width of 80, 95, and 99\\% confidence intervals
+h4:impact-of-sample-size Impact of sample size
+fig:reliable-percentile-n-25-50-100 (ref:rel-perc-n)
+tab:perc-cis-average-width-2 Average width of 95\\% confidence intervals based on $n = 25$, $50$, and $100$
+h2:case-study-two-prop-ci Case study: Is yawning contagious?
+h3:mythbusters-study-data  study data
+h3:sampling-scenario Sampling scenario
+tab:table-ch8-c Scenarios of sampling for inference
+h3:ci-build Constructing the confidence interval
+h4:specify-variables-2 1.  variables
+h4:generate-replicates-2 2.  replicates
+h4:calculate-summary-statistics-2 3.  summary statistics
+h4:visualize-the-results-2 4.  the results
+fig:bootstrap-distribution-mythbusters Bootstrap distribution.
+fig:bootstrap-distribution-mythbusters-CI Two 95\\% confidence intervals: percentile method (black) and standard error method (grey).
+h3:interpreting-the-confidence-interval Interpreting the confidence interval
+h2:ci-conclusion Conclusion
 

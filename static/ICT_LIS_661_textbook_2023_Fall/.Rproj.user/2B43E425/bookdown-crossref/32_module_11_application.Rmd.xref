@@ -1,2 +1,43 @@
-h1:module-11-application Module 11 Application
+h1:sampling M11A: Sampling
+h2:introduction Introduction
+h3:sampling-packages Needed packages
+h2:sampling-activity Sampling bowl activity
+h3:what-proportion-of-this-bowls-balls-are-red What proportion of this bowl’s balls are red?
+fig:sampling-exercise-1 A bowl with red and white balls.
+h3:using-the-shovel-once Using the shovel once
+fig:sampling-exercise-2 Inserting a shovel into the bowl.
+fig:sampling-exercise-3 Removing 50 balls from the bowl.
+h3:student-shovels Using the shovel 33 times
+fig:sampling-exercise-3b Repeating sampling activity 33 times.
+fig:sampling-exercise-4 Constructing a histogram of proportions.
+fig:sampling-exercise-5 Hand-drawn histogram of first 10 out of 33 proportions.
+fig:samplingdistribution-tactile Distribution of 33 proportions based on 33 samples of size 50.
+h3:sampling-what-did-we-just-do What did we just do?
+h2:sampling-simulation Virtual sampling
+h3:using-the-virtual-shovel-once Using the virtual shovel once
+h3:using-the-virtual-shovel-33-times Using the virtual shovel 33 times
+fig:samplingdistribution-virtual Distribution of 33 proportions based on 33 samples of size 50.
+fig:tactile-vs-virtual Comparing 33 virtual and 33 tactile proportions red.
+h3:shovel-1000-times Using the virtual shovel 1000 times
+fig:samplingdistribution-virtual-1000 Distribution of 1000 proportions based on 1000 samples of size 50.
+h3:different-shovels Using different shovels
+fig:three-shovels Three shovels to extract three different sample sizes.
+fig:comparing-sampling-distributions Comparing the distributions of proportion red for different sample sizes.
+tab:comparing-n Comparing standard deviations of proportions red for three different shovels
+h2:sampling-framework Sampling framework
+h3:terminology-and-notation Terminology and notation
+h3:sampling-definitions Statistical definitions
+fig:comparing-sampling-distributions-1b Previously seen three distributions of the sample proportion $\\widehat{p}$.
+tab:comparing-n-repeat Previously seen comparing standard deviations of proportions red for three different shovels
+fig:comparing-sampling-distributions-2 Three sampling distributions of the sample proportion $\\widehat{p}$.
+tab:comparing-n-2 Standard errors of the sample proportion based on sample sizes of 25, 50, and 100
+h3:moral-of-the-story The moral of the story
+fig:comparing-sampling-distributions-3 Three sampling distributions with population proportion $p$ marked by vertical line.
+fig:accuracy-vs-precision Comparing accuracy and precision.
+h2:sampling-case-study Case study: Polls
+h2:sampling-conclusion-central-limit-theorem Central Limit Theorem
+fig:CLT-video-preview Preview of Central Limit Theorem video.
+h2:sampling-conclusion Conclusion
+tab:table-ch8 \\label{tab:summarytable-ch8}Scenarios of sampling for inference
+h3:whats-to-come What’s to come?
 

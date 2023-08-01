@@ -563,6 +563,7 @@ how-do-autoethnographers-measure-quality
 conclusion-14
 references-15
 inference-for-regression
+introduction-29
 regression-refresher
 teaching-evaluations-analysis
 sampling-scenario-2
@@ -583,8 +584,6 @@ infer-regression
 confidence-interval-for-slope
 hypothesis-test-for-slope
 inference-conclusion
-theory-regression
-summary-of-statistical-inference
 m14c-perform-an-inferential-regression-with-your-own-data
 m15u-reflect-on-your-understanding-of-data-science
 m15a-reflect-on-your-application-of-data-science

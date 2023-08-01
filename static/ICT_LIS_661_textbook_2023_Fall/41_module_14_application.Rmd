@@ -1,5 +1,11 @@
 # M14A: Inferential Regression {#inference-for-regression}
 
+This content draws on material from *[Statistical Inference via Data Science: A ModernDive into R and the Tidyverse](https://moderndive.com/)* by [Chester Ismay](https://chester.rbind.io/) and [Albert Y. Kim](https://rudeboybert.rbind.io/), licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+Changes to the source material include addition of new material; light editing; rearranging, removing, and combining original material; adding and changing links; and adding first-person language from current author.
+
+The resulting content is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
 ```{r setup_inference_regression, include=FALSE, purl=FALSE}
 # Used to define Learning Check numbers:
 chap <- 10
@@ -25,7 +31,9 @@ options(scipen = 99, digits = 3)
 set.seed(76)
 ```
 
-In our penultimate chapter, we'll revisit the regression models we first studied in Chapters \@ref(regression) and \@ref(multiple-regression). Armed with our knowledge of confidence intervals and hypothesis tests from Chapters \@ref(confidence-intervals) and \@ref(hypothesis-testing), we'll be able to apply statistical inference to further our understanding of relationships between outcome and explanatory variables.
+## Introduction
+
+In this final walkthrough, we'll revisit the regression models we first studied in Chapters \@ref(regression) and \@ref(multiple-regression). Armed with our knowledge of confidence intervals and hypothesis tests from Chapters \@ref(confidence-intervals) and \@ref(hypothesis-testing), we can now apply statistical inference to further our understanding of relationships between outcome and explanatory variables.
 
 
 ### Needed packages {-#inf-packages}
@@ -52,9 +60,6 @@ library(tidyr)
 library(kableExtra)
 library(patchwork)
 ```
-
-
-
 
 
 ## Regression refresher
@@ -258,8 +263,7 @@ Recall that we constructed three sampling distributions for the sample proportio
 
 The *standard error* of $b_1$ similarly quantifies how much variation in the fitted slope $b_1$ one would expect between different samples. So in our case, we can expect about `r se1` units of variation in the `bty_avg` slope variable. Recall that the `estimate` and `std_error` values play a key role in *inferring* the value of the unknown population slope $\beta_1$ relating to *all* instructors.
 
-In Section \@ref(infer-regression), we'll perform a simulation using the `infer` package to construct the bootstrap distribution for $b_1$ in this case. Recall from Subsection \@ref(bootstrap-vs-sampling) that the bootstrap distribution is an *approximation* to the sampling distribution in that they have a similar shape. Since they have a similar shape, they have similar *standard errors*. However, unlike the sampling distribution, the bootstrap distribution is constructed from a *single* sample, which is a practice more aligned with what's done in real life. 
-
+In Section \@ref(infer-regression), we'll perform a simulation using the `infer` package to construct the bootstrap distribution for $b_1$ in this case. The bootstrap distribution is an *approximation* to the sampling distribution in that they have a similar shape. Since they have a similar shape, they have similar *standard errors*. However, unlike the sampling distribution, the bootstrap distribution is constructed from a *single* sample, which is a practice more aligned with what's done in real life. 
 
 ### Test statistic {#regression-test-statistic}
 
@@ -283,7 +287,7 @@ The *alternative hypothesis* $H_A$, on the other hand, assumes that the populati
 
 Recall our "hypothesized universe" of no gender discrimination we *assumed* in our `promotions` activity in Section \@ref(ht-activity). Similarly here when conducting this hypothesis test, we'll assume a "hypothesized universe" where there is no relationship between teaching and "beauty" scores. In other words, we'll assume the null hypothesis $H_0: \beta_1 = 0$ is true. 
 
-The `statistic` column in the regression table is a tricky one, however. It corresponds to a standardized *t-test statistic*, much like the *two-sample $t$ statistic* we saw in Subsection \@ref(theory-hypo) where we used a theory-based method for conducting hypothesis tests. In both these cases, the *null distribution* can be mathematically proven to be a *$t$-distribution*. Since such test statistics are tricky for individuals new to statistical inference to study, we'll skip this and jump into interpreting the $p$-value. If you're curious, we have included a discussion of this standardized *t-test statistic* in Subsection \@ref(theory-regression).
+The `statistic` column in the regression table is a tricky one, however. It corresponds to a standardized *t-test statistic*, and the the *null distribution* can be mathematically proven to be a *$t$-distribution*. Since such test statistics are tricky for individuals new to statistical inference to study, we'll skip this and jump into interpreting the $p$-value.
 
 
 ### p-value
@@ -305,7 +309,7 @@ An extra caveat here is that the results of this hypothesis test are only valid 
 
 ### Confidence interval
 
-The two rightmost columns of the regression table in Table \@ref(tab:regtable-11) (`lower_ci` and `upper_ci`) correspond to the endpoints of the 95% *confidence interval* for the population slope $\beta_1$. Recall our analogy of "nets are to fish" what "confidence intervals are to population parameters" from Section \@ref(ci-build-up). The resulting 95% confidence interval for $\beta_1$ of (`r lower1`, `r upper1`) can be thought of as a range of plausible values for the population slope $\beta_1$ of the linear relationship between teaching and "beauty" scores. 
+The two rightmost columns of the regression table in Table \@ref(tab:regtable-11) (`lower_ci` and `upper_ci`) correspond to the endpoints of the 95% *confidence interval* for the population slope $\beta_1$. Recall our analogy of "nets are to fish" what "confidence intervals are to population parameters" from Section \@ref(ci-build-up). The resulting 95% confidence interval for $\beta_1$ of $(`r lower1`, `r upper1`)$ can be thought of as a range of plausible values for the population slope $\beta_1$ of the linear relationship between teaching and "beauty" scores. 
 
 As we introduced in Subsection \@ref(shorthand) on the precise and shorthand interpretation of confidence intervals, the statistically precise interpretation of this confidence interval is: "if we repeated this sampling procedure a large number of times, we expect about 95% of the resulting confidence intervals to capture the value of the population slope $\beta_1$." However, we'll summarize this using our shorthand interpretation that "we're 95% 'confident' that the true population slope $\beta_1$ lies between `r lower1` and `r upper1`."
 
@@ -313,51 +317,16 @@ Notice in this case that the resulting 95% confidence interval for $\beta_1$ of 
 
 Recall from Subsection \@ref(ci-width), however, that the *confidence level* is one of many factors that determine confidence interval widths. So for example, say we used a higher confidence level of 99% instead of 95%. The resulting confidence interval for $\beta_1$ would be wider and thus might now include 0. The lesson to remember here is that any confidence-interval-based conclusion depends highly on the confidence level used. 
 
-What are the calculations that went into computing the two endpoints of the 95% confidence interval for $\beta_1$? 
-
-Recall our sampling bowl example from Subsection \@ref(theory-ci) discussing `lower_ci` and `upper_ci`. Since the sampling and bootstrap distributions of the sample proportion $\widehat{p}$ were roughly normal, we could use the rule of thumb for bell-shaped distributions from Appendix \@ref(appendix-normal-curve) to create a 95% confidence interval for $p$ with the following equation:
-
-```{r echo=FALSE, purl=FALSE}
-# This code is used for dynamic non-static in-line text output purposes
-z_star <- qnorm(0.975) %>% round(2)
-```
-
-
-$$\widehat{p} \pm \text{MoE}_{\widehat{p}} = \widehat{p} \pm `r z_star` \cdot \text{SE}_{\widehat{p}} = \widehat{p} \pm `r z_star` \cdot \sqrt{\frac{\widehat{p}(1-\widehat{p})}{n}}$$
-
-We can generalize this to other point estimates that have roughly normally shaped sampling and/or bootstrap distributions:
-
-$$\text{point estimate} \pm \text{MoE} = \text{point estimate} \pm `r z_star` \cdot \text{SE}.$$
-
-We'll show in Section \@ref(infer-regression) that the sampling/bootstrap distribution for the fitted slope $b_1$ is in fact bell-shaped as well. Thus we can construct a 95% confidence interval for $\beta_1$ with the following equation:
-
-$$b_1 \pm \text{MoE}_{b_1} = b_1 \pm `r z_star` \cdot \text{SE}_{b_1}.$$
-
-What is the value of the standard error $\text{SE}_{b_1}$? It is in fact in the third column of the regression table in Table \@ref(tab:regtable-11): `r se1`. Thus
-
-$$
-\begin{aligned}
-b_1 \pm `r z_star` \cdot \text{SE}_{b_1} &= `r b1` \pm `r z_star` \cdot `r se1` = `r b1` \pm `r (z_star * se1)`\\
-&= (`r (b1 - z_star*se1) %>% round(3)`, `r (b1 + z_star*se1) %>% round(3)`)
-\end{aligned}
-$$
-
-This closely matches the $(`r lower1`, `r upper1`)$ confidence interval in the last two columns of Table \@ref(tab:regtable-11). 
-
-Much like hypothesis tests, however, the results of this confidence interval also are only valid if the "conditions for inference for regression" to be discussed in Section \@ref(regression-conditions) are met.
+Furthermore, much like hypothesis tests, the results of this confidence interval also are only valid if the "conditions for inference for regression" to be discussed in Section \@ref(regression-conditions) are met.
 
 
 ### How does R compute the table? {#regression-table-computation}
 
 Since we didn't perform the simulation to get the values of the standard error, test statistic, $p$-value, and endpoints of the 95% confidence interval in Table \@ref(tab:regtable-11), you might be wondering how were these values computed. What did R do behind the scenes? Does R run simulations like we did using the `infer` package in Chapters \@ref(confidence-intervals) and \@ref(hypothesis-testing) on confidence intervals and hypothesis testing?
 
-The answer is no! Much like the theory-based method for constructing confidence intervals you saw in Subsection \@ref(theory-ci) and the theory-based hypothesis test you saw in Subsection \@ref(theory-hypo), there exist mathematical formulas that allow you to construct confidence intervals and conduct hypothesis tests for inference for regression. These formulas were derived in a time when computers didn't exist, so it would've been impossible to run the extensive computer simulations we have in this book. We present these formulas in Subsection \@ref(theory-regression) on "theory-based inference for regression."
+The answer is no! There exist mathematical formulas that allow you to construct confidence intervals and conduct hypothesis tests for inference for regression. These formulas were derived in a time when computers didn't exist, so it would've been impossible to run the extensive computer simulations we have in this book.
 
 In Section \@ref(infer-regression), we'll go over a simulation-based approach to constructing confidence intervals and conducting hypothesis tests using the `infer` package. In particular, we'll convince you that the bootstrap distribution of the fitted slope $b_1$ is indeed bell-shaped.
-
-
-
-
 
 ## Conditions for inference for regression {#regression-conditions}
 
@@ -422,7 +391,7 @@ A *residual analysis* is used to verify conditions **L**, **N**, and **E** and c
 
 ### Linearity of relationship
 
-The first condition is that the relationship between the outcome variable $y$ and the explanatory variable $x$ must be **L**inear. Recall the scatterplot in Figure \@ref(fig:regline) where we had the explanatory variable $x$ as "beauty" score and the outcome variable $y$ as teaching score. Would you say that the relationship between $x$ and $y$ is linear? It's hard to say because of the scatter of the points about the line. In the authors' opinions, we feel this relationship is "linear enough."
+The first condition is that the relationship between the outcome variable $y$ and the explanatory variable $x$ must be **L**inear. Recall the scatterplot in Figure \@ref(fig:regline) where we had the explanatory variable $x$ as "beauty" score and the outcome variable $y$ as teaching score. Would you say that the relationship between $x$ and $y$ is linear? It's hard to say because of the scatter of the points about the line; yet, we're going to proceed under the assumption that this relationship is "linear enough."
 
 Let's present an example where the relationship between $x$ and $y$ is clearly not linear in Figure \@ref(fig:non-linear). In this case, the points clearly do not form a line, but rather a U-shaped polynomial curve. In this case, any results from an inference for regression would not be valid. 
 
@@ -478,7 +447,7 @@ ggplot(regression_points, aes(x = residual)) +
 
 This histogram shows that we have more positive residuals than negative. Since the residual $y-\widehat{y}$ is positive when $y > \widehat{y}$, it seems our regression model's fitted teaching scores $\widehat{y}$ tend to *underestimate* the true teaching scores $y$. Furthermore, this histogram has a slight *left-skew*\index{skew} in that there is a tail on the left. This is another way to say the residuals exhibit a *negative skew*. 
 
-Is this a problem? Again, there is a certain amount of subjectivity in the response. In the authors' opinion, while there is a slight skew to the residuals, we feel it isn't drastic. On the other hand, others might disagree with our assessment. 
+Is this a problem? Again, there is a certain amount of subjectivity in the response. We would probably be justified, though, in saying that while there is a slight skew to the residuals, it isn't too drastic. On the other hand, others might disagree with this assessment!
 
 Let's present examples where the residuals clearly do and don't follow a normal distribution in Figure \@ref(fig:normal-residuals). In this case of the model yielding the clearly non-normal residuals on the right, any results from an inference for regression would not be valid. 
 
@@ -555,33 +524,15 @@ Let's list our four conditions for inference for regression again and indicate w
 
 So what does this mean for the results of our confidence intervals and hypothesis tests in Section \@ref(regression-interp)?
 
-First, the **I**ndependence condition. The fact that there exist dependencies between different rows in `evals_ch5` must be addressed. In more advanced statistics courses, you'll learn how to incorporate such dependencies into your regression models. One such technique is called *hierarchical/multilevel modeling*.
+First, the **I**ndependence condition. The fact that there exist dependencies between different rows in `evals_ch5` must be addressed. A data scientist with more training than this course might use use *hierarchical/multilevel modeing* to incorporate such dependencies into their regression models. 
 
 Second, when conditions **L**, **N**, **E** are not met, it often means there is a shortcoming in our model. For example, it may be the case that using only a single explanatory variable is insufficient, as we did with "beauty" score. We may need to incorporate more explanatory variables in a multiple regression model as we did in Chapter \@ref(multiple-regression), or perhaps use a transformation of one or more of your variables, or use an entirely different modeling technique. To learn more about addressing such shortcomings, you'll have to take a class on or read up on more advanced regression modeling methods. 
 
 In our case, the best we can do is view the results suggested by our confidence intervals and hypothesis tests as preliminary. While a preliminary analysis suggests that there is a significant relationship between teaching and "beauty" scores, further investigation is warranted; in particular, by improving the preliminary `score ~ bty_avg` model so that the four conditions are met.  When the four conditions are roughly met, then we can put more faith into our confidence intervals and $p$-values. 
 
-The conditions for inference in regression problems are a key part of regression analysis that are of vital importance to the processes of constructing confidence intervals and conducting hypothesis tests. However, it is often the case with regression analysis in the real world that not all the conditions are completely met. Furthermore, as you saw, there is a level of subjectivity in the residual analyses to verify the **L**, **N**, and **E** conditions. So what can you do? We as authors advocate for transparency in communicating all results. This lets the stakeholders of any analysis know about a model's shortcomings or whether the model is "good enough." So while this checking of assumptions has lead to some fuzzy "it depends" results, we decided as authors to show you these scenarios to help prepare you for difficult statistical decisions you may need to make down the road.
+The conditions for inference in regression problems are a key part of regression analysis that are of vital importance to the processes of constructing confidence intervals and conducting hypothesis tests. However, it is often the case with regression analysis in the real world that not all the conditions are completely met. Furthermore, as you saw, there is a level of subjectivity in the residual analyses to verify the **L**, **N**, and **E** conditions. So what can you do? 
 
-```{block, type="learncheck", purl=FALSE}
-\vspace{-0.15in}
-**_Learning check_**
-\vspace{-0.1in}
-```
-
-**`r paste0("(LC", chap, ".", (lc <- lc + 1), ")")`** Continuing with our regression using `age` as the explanatory variable and teaching `score` as the outcome variable.
-
-- Use the `get_regression_points()` function to get the observed values, fitted values, and residuals for all `r n_evals_ch5` instructors. 
-- Perform a residual analysis and look for any systematic patterns in the residuals. Ideally, there should be little to no pattern but comment on what you find here.
-
-```{block, type="learncheck", purl=FALSE}
-\vspace{-0.25in}
-\vspace{-0.25in}
-```
-
-
-
-
+I advocate for transparency in communicating all results. This lets the stakeholders of any analysis know about a model's shortcomings or whether the model is "good enough." So while this checking of assumptions has lead to some fuzzy "it depends" results, it's valuable to consider these scenarios to help prepare you for difficult statistical decisions you may need to make down the road. Furthermore, wrestling with these messy, subjective decisions helps emphasize one of the themes for this course—that as powerful as data science is, it is not as straightforward as some make it out to be!
 
 ## Simulation-based inference for regression {#infer-regression}
 
@@ -635,7 +586,7 @@ Observe how we have `r n_reps` values of the bootstrapped slope $b_1$ in the `st
 visualize(bootstrap_distn_slope)
 ```
 
-Observe how the bootstrap distribution is roughly bell-shaped. Recall from Subsection \@ref(bootstrap-vs-sampling) that the shape of the bootstrap distribution of $b_1$ closely approximates the shape of the sampling distribution of $b_1$. 
+Observe how the bootstrap distribution is roughly bell-shaped. The shape of the bootstrap distribution of $b_1$ closely approximates the shape of the sampling distribution of $b_1$. 
 
 #### Percentile-method {-}
 
@@ -701,7 +652,7 @@ Observe that all three are quite similar! Furthermore, none of the three confide
 
 ### Hypothesis test for slope
 
-Let's now conduct a hypothesis test of $H_0: \beta_1 = 0$ vs. $H_A: \beta_1 \neq 0$. We will use the `infer` package, which follows the hypothesis testing paradigm in the "There is only one test" diagram in Figure \@ref(fig:htdowney).  
+Let's now conduct a hypothesis test of $H_0: \beta_1 = 0$ vs. $H_A: \beta_1 \neq 0$. We will use the `infer` package, which follows the "There is only one test" hypothesis testing paradigm we've discussed before.
 
 Let's first think about what it means for $\beta_1$ to be zero as assumed in the null hypothesis $H_0$. Recall we said if $\beta_1 = 0$, then this is saying there is no relationship between the teaching and "beauty" scores. Thus assuming this particular null hypothesis $H_0$ means that in our "hypothesized universe" there is no relationship between `score` and `bty_avg`. We can therefore shuffle/permute the `bty_avg` variable to no consequence.
 
@@ -765,78 +716,10 @@ This matches the $p$-value of 0 in the regression table in Table \@ref(tab:regta
 When the conditions for inference for regression are met and the null distribution has a bell shape, we are likely to see similar results between the simulation-based results we just demonstrated and the theory-based results shown in the regression table in Table \@ref(tab:regtable-11).
 
 
-```{block lc9-5, type="learncheck", purl=FALSE}
-\vspace{-0.15in}
-**_Learning check_**
-\vspace{-0.1in}
-```
-
-**`r paste0("(LC", chap, ".", (lc <- lc + 1), ")")`** Repeat the inference but this time for the correlation coefficient instead of the slope. Note the implementation of `stat = "correlation"` in the `calculate()` function of the `infer` package.
-
-```{block, type="learncheck", purl=FALSE}
-\vspace{-0.25in}
-\vspace{-0.25in}
-```
-
-
-
-
 
 ## Conclusion {#inference-conclusion}
 
-<!--
-v2 TODO: Consider adding
-
-### Relating regression to other methods
-
-To conclude this chapter, we'll be investigating how regression relates to two different statistical techniques. One of them was covered already in this book, the difference in sample means, and the other is new to the text but is related, ANOVA. We'll see how both can be represented in the regression framework. The hope is that this closing section helps you to tie together many of the concepts you've seen in the Data Modeling and Statistical Inference parts of this book.
-
-#### Two sample difference in means
-
-#### ANOVA
-
-
--->
-
-
-### Theory-based inference for regression {#theory-regression}
-
-Recall in Subsection \@ref(regression-table-computation) when we interpreted the regression table in Table \@ref(tab:regtable-11), we mentioned that R does not compute its values using simulation-based methods for constructing confidence intervals and conducting hypothesis tests as we did in Chapters \@ref(confidence-intervals) and \@ref(hypothesis-testing) using the `infer` package. Rather, R uses a theory-based approach using mathematical formulas, much like the theory-based confidence intervals you saw in Subsection \@ref(theory-ci) and the theory-based hypothesis tests you saw in Subsection \@ref(theory-hypo). These formulas were derived in a time when computers didn't exist, so it would've been incredibly labor intensive to run extensive simulations.
-
-In particular, much like the formula for the standard error for the sample proportion $\widehat{p}$ we saw in Subsection \@ref(theory-se) and the formula for the standard error for the difference in sample means $\overline{x}_1 - \overline{x}_2$ we saw in Subsection \@ref(theory-hypo), there is a formula for the standard error of the fitted slope $b_1$:
-
-$$\text{SE}_{b_1} = \dfrac{\dfrac{s_y}{s_x} \cdot \sqrt{1-r^2}}{\sqrt{n-2}}$$
-
-<!-- Source: https://stats.stackexchange.com/questions/342632/how-to-understand-se-of-regression-slope-equation -->
-
-As with many formulas in statistics, there's a lot going on here, so let's first break down what each symbol represents. First $s_x$ and $s_y$ are the *sample standard deviations* of the explanatory variable `bty_avg` and the response variable `score`, respectively. Second, $r$ is the sample *correlation coefficient* between `score` and `bty_avg`. This was computed as `r cor(evals_ch5$score, evals_ch5$bty_avg) %>% round(3)` in Chapter \@ref(regression). Lastly, $n$ is the number of pairs of points in the `evals_ch5` data frame, here `r n_evals_ch5`.
-
-To put this formula into words, the standard error of $b_1$ depends on the relationship between the variability of the response variable and the variability of the explanatory variable as measured in the $s_y / s_x$ term. Next, it looks into how the two variables relate to each other in the $\sqrt{1-r^2}$ term. 
-
-However, the most important observation to make in the previous formula is that there is an $n - 2$ in the denominator. In other words, as the sample size $n$ increases, the standard error $\text{SE}_{b_1}$ decreases. Just as we demonstrated in Subsection \@ref(moral-of-the-story) when we used shovels with $n$ = 25, 50, and 100 slots, the amount of sampling variation of the fitted slope $b_1$ will depend on the sample size $n$. In particular, as the sample size increases, both the sampling and bootstrap distributions narrow and the standard error $\text{SE}_{b_1}$ decreases. Hence, our estimates of $b_1$ for the true population slope $\beta_1$ get more and more *precise*. 
-
-R then uses this formula for the standard error of $b_1$ in the third column of the regression table and subsequently to construct 95% confidence intervals. But what about the hypothesis test? Much like with our theory-based hypothesis test in Subsection \@ref(theory-hypo), R uses the following *$t$-statistic* as the test statistic for hypothesis testing:
-
-$$
-t = \dfrac{ b_1 - \beta_1}{ \text{SE}_{b_1}}
-$$
-
-And since the null hypothesis $H_0: \beta_1 = 0$ is assumed during the hypothesis test, the $t$-statistic becomes
-
-$$
-t = \dfrac{ b_1 - 0}{ \text{SE}_{b_1}} = \dfrac{ b_1 }{ \text{SE}_{b_1}}
-$$
-
-What are the values of $b_1$ and $\text{SE}_{b_1}$? They are in the `estimate` and `std_error` column of the regression table in Table \@ref(tab:regtable-11). Thus the value of `r t1` in the table is computed as `r b1`/`r se1` = `r (b1/se1) %>% round(3)`. Note there is a difference due to some rounding error here. 
-
-Lastly, to compute the $p$-value, we need to compare the observed test statistic of `r t1` to the appropriate null distribution. Recall from Section \@ref(understanding-ht), that a null distribution is the sampling distribution of the test statistic *assuming the null hypothesis $H_0$ is true*. Much like in our theory-based hypothesis test in Subsection \@ref(theory-hypo), it can be mathematically proven that this distribution is a $t$-distribution with degrees of freedom equal to $df = n - 2 = `r n_evals_ch5` - 2 = `r n_evals_ch5 - 2`$.
-
-Don't worry if you're feeling a little overwhelmed at this point. There is a lot of background theory to understand before you can fully make sense of the equations for theory-based methods. That being said, theory-based methods and simulation-based methods for constructing confidence intervals and conducting hypothesis tests often yield consistent results. As mentioned before, in our opinion, two large benefits of simulation-based methods over theory-based are that (1) they are easier for people new to statistical inference to understand, and (2) they also work in situations where theory-based methods and mathematical formulas don't exist. 
-
-
-### Summary of statistical inference
-
-We've finished the last two scenarios from the "Scenarios of sampling for inference" table in Subsection \@ref(sampling-conclusion-table), which we re-display in Table \@ref(tab:table-ch11).
+We've finished the last two scenarios from our recurring "Scenarios of sampling for inference" table, which I've re-displayed in Table \@ref(tab:table-ch11).
 
 ```{r table-ch11, echo=FALSE, message=FALSE, purl=FALSE}
 # The following Google Doc is published to CSV and loaded using read_csv():

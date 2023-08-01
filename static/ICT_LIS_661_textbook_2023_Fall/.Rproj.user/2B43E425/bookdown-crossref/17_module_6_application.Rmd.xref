@@ -1,2 +1,30 @@
-h1:module-6-application Module 6 Application
+h1:wrangling-tidying M6A: Wrangling and Tidying Data
+h2:introduction Introduction
+h2:wrangling Wrangling
+h3:wrangling-packages Needed packages
+h3:piping The pipe operator: 
+h3:filter  rows
+fig:filter Diagram of filter() rows operation.
+h3:mutate  existing variables
+fig:select Diagram of mutate() columns.
+tab:first-five-flights First five rows of departure/arrival delay and gain variables
+h3:arrange  and sort rows
+h3:select  variables
+fig:selectfig Diagram of select() columns.
+h3:rename  variables
+h3:top_n-values-of-a-variable  values of a variable
+h2:tidying-data Tidying Data
+h3:tidy-packages Needed packages
+h3:csv Importing data
+h3:tidy-data-ex  data
+h3:tidy-definition Definition of  data
+fig:tidyfig (ref:tidy-r4ds)
+tab:non-tidy-stocks Stock prices (non-tidy format)
+tab:tidy-stocks Stock prices (tidy format)
+tab:tidy-stocks-2 Example of tidy data
+h3:converting-to-tidy-data Converting to  data
+h4:nycflights13-package  package
+h3:case-study-tidy Case study: Democracy in Guatemala
+h2:tidyverse-package  package
+h2:references References
 
