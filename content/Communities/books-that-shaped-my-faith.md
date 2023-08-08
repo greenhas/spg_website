@@ -1,77 +1,80 @@
 ---
 draft: true
 date: 2023-08-06T14:28:02-04:00
-title: "books that have shaped my faith"
-tags: ["macro","Communities"]
+title: "40 books that have shaped my faith"
+tags: ["macro","Communities","reading","religion","faith transition"]
 ---
-A friend of mine recently asked whether I had a list of books "that have been particularly impactful or interesting," especially in the realm of spirituality and religion. When I answered that I didn't
 
-## existential and ethical questions
+A friend of mine recently asked whether I had a list of books "that have been particularly impactful or interesting," especially in the realm of spirituality and religion—and suggested that if I didn't already have such a list, I could put one together for a blog post. This has been a really interesting exercise, and I've come up with forty books that have had an impact. Some are more influential than others, there's a bias toward the recent, and I haven't shied away from the idiosyncracies of my reading habits (that is, there are plenty of comics and plenty of French books on the list), but hopefully this could be of value to other people as well. 
 
-L'Anomalie, Hervé Le Tellier
-Le mythe de Sisyphe, Albert Camus
-Sapiens: A Brief History of Humankind, Yuval Noah Harari
-A Short Stay in Hell, Steven Peck
+## asking existential questions
+
+The faith I grew up with was so tied to every other part of my worldview that faith 
+
+### *Sapiens: A Brief History of Humankind*, by Yuval Noah Harari
+### *Le mythe de Sisyphe*, by Albert Camus
+### *L'Anomalie*, by Hervé Le Tellier
+### *A Short Stay in Hell*, by Steven Peck
 
 ## deconstructing fundamentalism
 
-Faith Unraveled, Rachel Held Evans
-The Bible Tells Me So, Peter Enns
-The Sin of Certainty, Peter Enns
-How the Bible Actually Works, Peter Enns
-
-## finding meaning
-
-Kiffe kiffe demain, Faïza Guène
-Bonheur d'occasion, Gabrielle Roy
-Jerusalem: Chronicles from the Holy City, Guy Delisle
-March, John Lewis et al,
-
-## rediscovering Christianity
-
-Aux sources de l'amitié de Dieu: L'année liturgique avec l'abbé d'Einsiedeln, Urban Federer
-Short Stories by Jesus, Amy-Jill Levine
-The Misunderstood Jew, Amy-Jill Levine
-A Way of Life: Understanding Our Christian Faith, Anthony J. Chvala-Smith
-
-## rethinking God
-
-New Seeds of Contemplation, Thomas Merton
-L'invention de Dieu, Thomas Römer
-La réinvention du nom de Dieu, Gérard Siegwalt
-The Universal Christ, Richard Rohr
-
-## rereading scripture
-
-The New Testament: A translation for Latter-day Saints, Wayment
-A History of the Bible, John Barton
-Understanding the Book of Mormon, Grant Hardy
-Womanist Midrash: A Reintroduction to the Women of the Torah and the Throne, Wilda C. Gafney
-
-## finding the best of Mormonism
-
-The Garden of Enid, Scott Hales
-Letters to a Young Mormon, Adam S. Miller
-The Book of Mormon Girl: A Memoir of an American Faith, Joanna Brooks
-The Book of Laman, Mette Harrison
-
-## rediscovering hope
-
-The Book of Forgiving, Desmond Tutu and Mpho Tutu
-Walkaway, Cory Doctorow
-Heike's Void, Steven Peck
-Still Just a Geek, Wil Wheaton
+### *Faith Unraveled*, by Rachel Held Evans
+### *The Bible Tells Me So*, by Peter Enns
+### *The Sin of Certainty*, by Peter Enns
+### *How the Bible Actually Works*, by Peter Enns
 
 ## deconstructing Mormonism
 
-The Giant Joshua, Maurine Whipple
-This is My Doctrine: The Development of Mormon Theology, Charles R. Harrell
-Dendo, Brittany Long Olsen
-David O. McKay and the Rise of Modern Mormonism, Gregory A. Prince and Wmm. Robert Wright.
+### *The Giant Joshua*, by Maurine Whipple
+### *This is My Doctrine: The Development of Mormon Theology*, by Charles R. Harrell
+### *Dendō: One Year and One Half in Tokyo*, by Brittany Long Olsen
+### *David O. McKay and the Rise of Modern Mormonism*, by Gregory A. Prince and Wm. Robert Wright.
+
+## keeping the best of Mormonism
+
+### *The Garden of Enid*, by Scott Hales
+### *Letters to a Young Mormon*, by Adam S. Miller
+### *Way Below the Angels: The Pretty Clearly Troubled but Not Even Close to Tragic Confessions of a Real Life Mormon Missionary*, by Craig Harline	
+### *The Book of Laman*, by Mette Harrison
+
+## expanding my Christianity
+
+### *A Way of Life: Understanding Our Christian Faith*, by Anthony J. Chvala-Smith
+### *Aux sources de l'amitié de Dieu: L'année liturgique avec l'abbé d'Einsiedeln*, by Urban Federer
+### *Short Stories by Jesus*, by Amy-Jill Levine
+### *The Misunderstood Jew*, by Amy-Jill Levine
+
+## rereading scripture
+
+### *The New Testament: A translation for Latter-day Saints*, by Thomas Wayment
+### *A History of the Bible*, by John Barton
+### *Understanding the Book of Mormon*, by Grant Hardy
+### *Womanist Midrash: A Reintroduction to the Women of the Torah and the Throne*, by Wilda C. Gafney
+
+## rethinking God
+
+### *New Seeds of Contemplation*, by Thomas Merton
+### *L'invention de Dieu*, by Thomas Römer
+### *La réinvention du nom de Dieu*, by Gérard Siegwalt
+### *The Universal Christ*, by Richard Rohr
 
 ## finding new faith
 
-Kirtland Temple: The Biography of a Shared Mormon Space, David Howlett
-Apostle of the Poor: The Life and Work of Missionary and Humanitarian Charles D. Neff, Matthew Bolton
-Conversions: Two Family Stories from the Reformation and Modern America, Craig Harline
-Way Below the Angels: The Pretty Clearly Troubled but Not Even Close to Tragic Confessions of a Real Life Mormon Missionary, Craig Harline	
+### *The Book of Mormon Girl: A Memoir of an American Faith*, by Joanna Brooks
+### *Kirtland Temple: The Biography of a Shared Mormon Space*, by David Howlett
+### *Apostle of the Poor: The Life and Work of Missionary and Humanitarian Charles D. Neff*, by Matthew Bolton
+### *Conversions: Two Family Stories from the Reformation and Modern America*, by Craig Harline
+
+## rediscovering hope
+
+### *Heike's Void*, by Steven Peck
+### *The Book of Forgiving*, by Desmond Tutu and Mpho Tutu
+### *Walkaway*, by Cory Doctorow
+### *Still Just a Geek*, by Wil Wheaton
+
+## finding meaning
+
+### *Kiffe kiffe demain*, by Faïza Guène
+### *Bonheur d'occasion*, by Gabrielle Roy
+### *Jerusalem: Chronicles from the Holy City*, by Guy Delisle
+### *March (Books 1-3)*, John Lewis, Andrew Aydin, and Nate Powell
