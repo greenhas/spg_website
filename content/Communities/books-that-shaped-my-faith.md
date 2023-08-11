@@ -2,33 +2,59 @@
 draft: true
 date: 2023-08-06T14:28:02-04:00
 title: "40 books that have shaped my faith"
-tags: ["macro","Communities","reading","religion","faith transition"]
+tags: ["macro","Communities","reading","religion","faith transition","Le mythe de Sisyphe","Albert Camus","Sapiens","Yuval Noah Harari","L'anomalie","Hervé Le Tellier","A Short Stay in Hell","Steven Peck","Faith Unraveled","Rachel Held Evans","Pete Enns","The Bible Told Me So","The Sin of Certainty","How the Bible Actually Works"]
 ---
 
-A friend of mine recently asked whether I had a list of books "that have been particularly impactful or interesting," especially in the realm of spirituality and religion—and suggested that if I didn't already have such a list, I could put one together for a blog post. This has been a really interesting exercise, and I've come up with forty books that have had an impact. Some are more influential than others, there's a bias toward the recent, and I haven't shied away from the idiosyncracies of my reading habits (that is, there are plenty of comics and plenty of French books on the list), but hopefully this could be of value to other people as well. 
+A friend of mine recently asked whether I had a list of books "that have been particularly impactful or interesting," especially in the realm of spirituality and religion—and suggested that if I didn't already have such a list, I could put one together for one of my next blog posts. It took me a while to actually put the list together, but it's ended up being a really interesting exercise. Of the forty books that I've picked, some have been more influential than others. There's also a bias toward the recent, and I also haven't shied away from the idiosyncracies of my reading habits (that is, there are plenty of comics and plenty of French books on the list). Nonetheless, I hope this is helpful to other folks looking for a book to read in these domains!
 
 ## asking existential questions
 
-The faith I grew up with was so tied to every other part of my worldview that faith 
+The faith I grew up with was so tied to every other part of my worldview that reconsidering this faith meant tackling deep existential questions; conversely, being confronted with deep existential questions has typically required me to ask if my beliefs hold up to the test. Here are four books that have been useful in asking these kinds of questions.
+
+### *Le mythe de Sisyphe*, by Albert Camus
+
+The final essay in this book (which gives its name to the entire book) has long been of interest to me, and it's the only part of the book that I think I actually enjoyed reading. I find Camus's belief that we can find meaning in spite of the absurd (as exemplified by Sisyphus) inspiring, but his hammering home in this volume of the reality of the absurd is something that doesn't sit comfortably with me. I read the book shortly before beginning my faith transition, and I wonder if I would read it any differently now, a few years later.
 
 ### *Sapiens: A Brief History of Humankind*, by Yuval Noah Harari
-### *Le mythe de Sisyphe*, by Albert Camus
+
+I understand that this book has received some criticism from experts in the field, and while I'm not qualified to evaluate that criticism, I'd be happy to replace this with a similar, stronger book. Nonetheless, I find it valuable to think about human history (how long—and yet how short—it is) and about early humanity (including Neanderthals, Cro Magnon, etc.) when getting existential. This book does that trick for me in the same way that visiting the Smithsonian Museum of Natural History does
+
 ### *L'Anomalie*, by Hervé Le Tellier
+
+This is a bizarre but great book (and not the last on my list that could be described that way). Its premise is straight out of science fiction: three months after a regularly scheduled Air France flight from Paris to New York touches down, the exact same flight with the same passengers aboard also touches down. Le Tellier uses this bonkers premise to explore really interesting questions, like our relationships with ourselves, the consequences of small decisions, and whether life as we know it could just be a simulation. I understand the English translation is pretty good, too.
+
 ### *A Short Stay in Hell*, by Steven Peck
+
+Peck is a BYU biology professor and probably my favorite contemporary Mormon writer. This novella is the story of a devout Mormon man who succumbs to cancer and wakes up unexpectedly in the hell of another, obscure religion. He's told that the deity of this religion is a merciful one and will let him out of hell once he completes a particular task: to find the book containing his life story within a library that contains all possible books (within [constraints inspired by Jorge Luis Borges](https://en.wikipedia.org/wiki/The_Library_of_Babel)). Although *technically* a finite hell, this is still a task that could take billions (trillions?) of years and is therefore existentially horrifying. That, of course, is Peck's point, to encourage believers to not be so cavalier about tossing around the word "eternity." This book has done more than any theological treatise to make me reject a belief in hell—in fact, it's helped me pivot hard from caring about an afterlife of any kind to focusing on the here and now. 
 
 ## deconstructing fundamentalism
 
+When I spent time re-evaluating my faith, I spent more time deconstructing fundamentalist Christianity as a whole rather than deconstructing Mormonism in particular. I'm grateful for that, because I think it put things in helpful perspective, and I credit this with helping me hold on to some kind of faith (though I'm happily married to an atheist, so I'm not in the habit of insisting that others have faith). 
+
 ### *Faith Unraveled*, by Rachel Held Evans
+
+I'm doing Rachel Held Evans a big disservice in this list. I read two or three of her books in a short period of time, and while they were all tremendously influential, they've blurred together in the years since then. I've picked this one because I think it's the one where she most explicitly discusses her own deconstruction of fundamentalist Christianity, but I don't think you can go wrong with any of her books. 
+
 ### *The Bible Tells Me So*, by Peter Enns
+
+In grad school, I participated in a lunchtime discussion group made up of an evangelical pastor, a skeptical (but open to the paranormal) friend of his, an atheist grad student, and me (then, an open-minded but orthodox Mormon). I'm glad to have been part of that group, because it made me think harder about some things than I'd thought before; I think it laid some groundwork for my faith transition a few years later. Anyway, this is one of a few books that we read together, and it's a good one. Enns is unflinching about how horrifying and terrible the Bible can be sometimes, but he also helpfully offers new ways to read those stories.
+
 ### *The Sin of Certainty*, by Peter Enns
+
+We also read this book by Enns during that same group, and it was equally helpful. I think it's my favorite of the three of his that I mention on this list. Enns is a Bible scholar by profession, so he never strays far from that material, but this book is a broader consideration of challenges to fundamentalist Christianity and how they don't have to be challenges to faith in general.
+
 ### *How the Bible Actually Works*, by Peter Enns
+
+In some ways, this is a sequel to Enns's earlier book on the Bible. If the first book is "let's acknowledge that the Bible is troubling in some ways" with a little bit of "this is how we respond to it," this book reverses the formula. That is, it starts by laying out a framework for responding to the Bible that can help with the troubling bits—and a lot more besides. I'm not sure it's entirely necessary if one has read his other two books (or listened to enough episodes of [his excellent podcast](https://thebiblefornormalpeople.com/)), but I still enjoyed reading it, and it might be better than his first book for someone just beginning their deconstruction.
 
 ## deconstructing Mormonism
 
-### *The Giant Joshua*, by Maurine Whipple
+Deconstructing Christianity as a whole was important for me, but Mormonism is its own thing, and I needed some time to work through the particulars of my faith as well.
+
 ### *This is My Doctrine: The Development of Mormon Theology*, by Charles R. Harrell
-### *Dendō: One Year and One Half in Tokyo*, by Brittany Long Olsen
+### *The Giant Joshua*, by Maurine Whipple
 ### *David O. McKay and the Rise of Modern Mormonism*, by Gregory A. Prince and Wm. Robert Wright.
+### *Dendō: One Year and One Half in Tokyo*, by Brittany Long Olsen
 
 ## keeping the best of Mormonism
 
