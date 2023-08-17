@@ -1,4 +1,5 @@
 h1:inference-for-regression M14A: Inferential Regression
+h2:introduction Introduction
 h3:inf-packages Needed packages
 h2:regression-refresher Regression refresher
 h3:teaching-evaluations-analysis Teaching evaluations analysis
@@ -37,7 +38,5 @@ h3:hypothesis-test-for-slope Hypothesis test for slope
 fig:null-distribution-slope Null distribution of slopes.
 fig:p-value-slope Null distribution and $p$-value.
 h2:inference-conclusion Conclusion
-h3:theory-regression Theory-based inference for regression
-h3:summary-of-statistical-inference Summary of statistical inference
 tab:table-ch11 \\label{tab:summarytable-ch9}Scenarios of sampling for inference
 
