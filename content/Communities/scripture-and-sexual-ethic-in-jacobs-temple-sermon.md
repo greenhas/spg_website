@@ -1,6 +1,6 @@
 ---
 draft: true
-date: 2023-07-16T14:53:03-04:00
+date: 2023-08-20T12:53:03-04:00
 title: "scripture and sexual ethic in Jacob's temple sermon"
 tags: ["macro","Communities","Book of Mormon","sexual ethics","Grant Hardy"]
 ---
@@ -26,6 +26,8 @@ Someone turning to the Book of Mormon to develop a sexual ethic would likely con
 
 [^4]: For more on D&C 150 and preceding policies, I recommend:  
   
+	Bolton, M. (2005). *Apostle of the poor: The life and work of missionary and humanitarian Charles D. Neff*. John Whitmer Books
+	
 	Howlett, D. J. (2020). Why denominations can climb hills: RLDS conversions in highland tribal India and midwestern America, 1964-2000. *Church History*, *89*, 633-658. https://doi.org/10.1017/S000964072000133X
 	
 	Scherer, M. A. (2016). *The journey of a people: The era of worldwide community, 1946 to 2016*. Community of Christ Seminary Press.
@@ -38,7 +40,7 @@ Yet, careful readings of Jacob's temple sermon suggest that its sexual ethic is 
 
 [^7]: Green, D. N. (2020). *Jacob: A brief theological introduction*. Neal A. Maxwell Institute for Religious Scholarship
 
-Inspired by these kinds of readings, my goal in this essay is to offer further nuance to Jacob's temple sermon and to ask how that nuance might inform the sexual ethic that individuals and denominations that read the Book of Mormon draw from it. I will begin by describing the inherent subjectivity involved in the interpretation of scripture. This is important for making clear the perspective *I bring* to reading the Book of Mormon. Perhaps more importantly, it also sets the stage for my first argument: that to understand Jacob's sexual ethic, we must first understand *Jacob's own* approach to scripture. Finally, I will place Jacob's sexual ethic within his approach to scripture and comment on how this placement may affect how Jacob 2 is interpreted today.
+Inspired by these kinds of readings (but taking a different approach), my goal in this essay is to offer further nuance to Jacob's temple sermon and to ask how that nuance might inform the sexual ethic that individuals and denominations that read the Book of Mormon draw from it. I will begin by describing the inherent subjectivity involved in the interpretation of scripture. This is important for making clear the perspective *I bring* to reading the Book of Mormon. Perhaps more importantly, it also sets the stage for my first argument: that to understand Jacob's sexual ethic, we must first understand *Jacob's own* approach to scripture. Finally, I will place Jacob's sexual ethic within his approach to scripture and comment on how this placement may affect how Jacob 2 is interpreted today.
 
 ## On Scripture and Subjectivity
 
@@ -46,7 +48,7 @@ In this section, I argue that the interpretation of scripture is an inherently s
 
 ### Subjective Scripture
 
-There is no such thing as an objective interpretation of scripture. To illustrate this point, consider the case of Enoch's vision, composed by Joseph Smith Jr. and recorded in D&C 36 by Community of Christ and Moses 7 by The Church of Jesus Christ of Latter-day Saints. This passage contains a reference to God weeping, an idea that (at least in LDS circles) has captured a fair amount of attention in recent years[^8]. However, as RLDS historian emeritus Richard Howard has noted[^9],  D&C 36 (and, thus, Moses 7[^10]) is based on an 1867 RLDS committee's efforts to bring together two different drafts of this vision composed by Joseph Smith Jr. throughout his lifetime. In the later of the two drafts, Joseph replaced the reference to *God* weeping with a reference to *Enoch* weeping. By Joseph's murder in 1844, he had not fully completed his revision of the Bible, leaving a number of ambiguities and contradictions for the 1867 RLDS committee to do their best to resolve.
+There is no such thing as an objective interpretation of scripture. To illustrate this point, consider the case of Enoch's vision, composed by Joseph Smith Jr. and recorded in D&C 36 (and the *Inspired Version* of the Bible) by Community of Christ and in Moses 7 by The Church of Jesus Christ of Latter-day Saints. This passage contains a reference to God weeping, an idea that (at least in LDS circles) has captured a fair amount of attention in recent years[^8]. However, as RLDS historian emeritus Richard Howard has noted[^9],  D&C 36 (and, thus, Moses 7[^10]) is based on an 1867 RLDS committee's efforts to bring together two different drafts of this vision composed by Joseph Smith Jr. throughout his lifetime. In the later of the two drafts, Joseph replaced the reference to *God* weeping with a reference to *Enoch* weeping. By Joseph's murder in 1844, he had not fully completed his revision of the Bible, leaving a number of ambiguities and contradictions for the 1867 RLDS committee to do their best to resolve.
 
 [^8]: See, for example:
 
@@ -54,7 +56,7 @@ There is no such thing as an objective interpretation of scripture. To illustrat
 	
 [^9]: Howard, R. P. (1995). *Restoration scriptures: A study of their textual development*. Herald Publishing House
 
-[^10]: This article from the LDS periodical *The Ensign* concludes that the text of the Book of Moses found in the Pearl of Great Price was taken from the RLDS-printed Inspired Version of the Bible:
+[^10]: This article from the LDS periodical *The Ensign* concludes that the text of the Book of Moses found in the Pearl of Great Price was taken from the RLDS-printed Inspired Version of the Bible, which is also the source for D&C 36:
 
 	Matthews, R. J. (1986, January). How we got the Book of Moses. *The Ensign*. https://www.churchofjesuschrist.org/study/ensign/1986/01/how-we-got-the-book-of-moses?lang=eng
 
@@ -62,7 +64,7 @@ Thus, when LDS prophet-president Russell Nelson referenced God's weeping in this
 
 1. a committee of individuals (who may have disagreed among themselves),
 2. who did not share Nelson's faith (and could have brought RLDS biases into their decisions),
-3. who were faced with contradictory versions of the passage (making it difficult to know what Joseph Smith Jr. intended), and
+3. who were faced with contradictory versions of the passage (making it difficult to know what Joseph Smith Jr. intended, much less God), and
 4. who made the curious decision to prioritize the earlier draft of the passage (as opposed to the later draft, which appears to be an intentional revision)
 
 If there is this level of subjectivity involved in the *production* of scripture[^13], how much more subjectivity should we expect in the *interpretation* of scripture? If it is next to impossible to say what the authoritative version of Enoch's vision is, it must be outright impossible to limit ourselves to a single, objective interpretation of the same vision.
@@ -81,7 +83,7 @@ Although the interpretation of scripture is inherently subjective, our interpret
 
 Yet, it is also productive to recognize the ways in which scripture may not conform with our theological commitments. In particular, scholarly observations related to language, history, and archaeology may also constrain our interpretation. For example, Matthew 1:22-23 describes Isaiah 7:14 as prophecy of the virgin birth of Jesus Christ; although the Greek translation of the Hebrew Bible referenced by the author of this Gospel *does* use the word "virgin," the Hebrew Bible itself uses a word meaning "young woman"—not the word that the Hebrew Bible uses to indicate virginity[^15]. This need not prevent Christians from holding to the doctrine of Jesus's virgin birth, but it should constrain them from insisting that Jewish readers, for example, read Isaiah through a Christ-focused lens. Similarly, Thomas Wayment's translation of the New Testament[^16] respectfully notes that distinctly LDS interpretations of specific New Testament verses are often dependent on the exact words of the King James Version of the Bible and do not hold up to more accurate translations of the original Greek. Once again, there is (usually) no harm in adopting those interpretations, but there is little room for imposing those interpretations on others.
 
-[^15]: For a more thorough (but still brief) overview of this, I recommend:
+[^15]: For a more thorough (but still brief and accessible) overview of this, I recommend:
 
 	Enns, P. (2022, December 19). The "Pete ruins Christmas" series, part 3: The virgin shall conceive [blog post]. *The Bible for Normal People*. https://thebiblefornormalpeople.com/virgin-shall-conceive/
 
@@ -103,7 +105,7 @@ I write from the perspective of someone who long practiced in The Church of Jesu
 
 [^17]: Which can be accessed here: https://cofchrist.org/doctrine-and-covenants/
 
-In terms of the productive constraints I bring to bear on the Book of Mormon, I am doubtful of the Book of Mormon's historicity in the same way I am doubtful of the historicity of much of the Hebrew Bible[^18]. Furthermore, even when I did believe that Nephites and Lamanites really existed, I likely would have agreed with Bruce Lindgren's[^19] observation that despite many efforts to the contrary, we simply do not have access to the purported original language of the Book of Mormon or to any conclusive historical or archaeological data related to its narrative—the very context that is necessary for responsible interpretation of scripture.
+In terms of the productive constraints I bring to bear on the Book of Mormon, I am doubtful of the Book of Mormon's historicity in the same way I am doubtful of the historicity of much of the Hebrew Bible[^18]. Furthermore, even when was less doubtful of its historicity, I likely would have agreed with Bruce Lindgren's[^19] observation that despite many efforts to the contrary, we simply do not have access to the purported original language of the Book of Mormon or to any conclusive historical or archaeological data related to its narrative—the very context that is necessary for responsible interpretation of scripture.
 
 [^18]: That is, what Christians have typically referred to as the Old Testament.
 
@@ -113,7 +115,7 @@ Despite these obstacles, I strongly believe the Book of Mormon—like the Hebrew
 
 > The most significant threat to the Book of Mormon... is not questions of its historicity. The most significant threat is that it will be ignored by the faithful. If we refuse to ask questions and listen to its responses, we will have an artifact which has no scriptural function despite our reverence for it. (p. 74)
 
-I believe that we can ask questions of the Book of Mormon and that it will provide responses. Like Lindgren[^19], I expect that "we will find ourselves arguing with the book's answers much of the time" (p. 75)[^20], but I have also found that careful reading of the Book of Mormon often provides answers that inform my faith. In particular, Grant Hardy[^21] has provided an important model for my reading of the Book of Mormon: one that focuses primarily on what the text has to say about religion (rather than anything that it "proves" or "disproves" about religion), one that treats the narrators as real people (without going so far as to say they were historical figures), and reads between the lines to consider whether there is a story behind the story. This is not the only way of approaching the Book of Mormon productively[^22], and it is not without its downsides[^23], but it is my preferred approach and the perspective I bring to this essay.
+I believe that we can ask questions of the Book of Mormon and that it will provide responses. Like Lindgren[^19], I expect that "we will find ourselves arguing with the book's answers much of the time" (p. 75)[^20], but I have also found that careful reading of the Book of Mormon often provides answers that inform my faith. In particular, Grant Hardy[^21] has provided an important model for my reading of the Book of Mormon: one that focuses primarily on what the text has to say about religion (rather than anything that it "proves" or "disproves" about religion), one that treats the narrators as real people (without going so far as to say they were historical figures), and one that reads between the lines to consider whether there is a story behind the story. This is not the only way of approaching the Book of Mormon productively[^22], and it is not without its downsides[^23], but it is my preferred approach and the perspective I bring to this essay.
 
 [^20]: Lindgren notes that this should be expected, considering how often scripture argues **with itself** (providing examples of disputes between Paul and James in the New Testament and between the authors of Jonah and Ezra-Nehemiah in the Hebrew Bible)
 
@@ -125,7 +127,7 @@ I believe that we can ask questions of the Book of Mormon and that it will provi
 	
 	McClellan, D. O. (2020). 2 Nephi 25:23 in literary and rhetorical context. *Journal of Book of Mormon Studies*, *29*, 1-19. 
 	
-	It is also noteworthy that neither of these authors argues that using 19th-century contexts necessarily means rejecting the purported origins of the Book of Mormon. After all, the text itself suggests that it is meant for a 19th-century American audience, and as readers of the Book of Mormon resemble that audience less and less, there is value in understanding how its "first readers" would have received its message.
+	It is also noteworthy that neither of these authors explicitly argues that using 19th-century contexts necessarily means rejecting the purported origins of the Book of Mormon. After all, the text itself suggests that it is meant for a 19th-century American audience, and as readers of the Book of Mormon resemble that audience less and less, there is value in understanding how its "first readers" would have received its message.
 	
 [^23]: In my view, the most important downside of taking the Book of Mormon text seriously while bracketing its claims to historicity is the way that the text imposes an identity and history on indigenous peoples of the Americas. A narrative approach to the Book of Mormon **can** offer interesting, more nuanced readings of the text's approach to indigenous peoples, as evidenced by:
 	
@@ -133,7 +135,7 @@ I believe that we can ask questions of the Book of Mormon and that it will provi
 	
 	However, I've also heard Hickman acknowledge that *if* the Book of Mormon provides a path to postcolonialism, it is at best a "janky bridge" at risk of collapse. In that same conference presentation, he also argued that it is ultimately up to indigenous readers to decide whether his reading is appropriate.
 	
-	Thus, while this narrative perspective can change how we understand what the Book of Mormon says about indigenous peoples of the Americas, it does not respond to the fact that the Book of Mormon **does** say something about indigenous peoples that purports to overwrite those peoples' own identities and histories.
+	Thus, while this narrative perspective can change how we understand what the Book of Mormon says about indigenous peoples of the Americas, it does not respond to the fact that the Book of Mormon **does** say something about indigenous peoples that readers have used to overwrite those peoples' own identities and histories.
 
 ## Jacob's Temple Sermon is About Interpreting Scripture
 
@@ -143,7 +145,7 @@ I believe that we can ask questions of the Book of Mormon and that it will provi
 
 Discussing the interpretation of scripture is an important first step for this essay because Jacob begins the portion of his sermon addressing sexual ethics by accusing his audience of misinterpreting scripture. Likewise, he tries to correct this misinterpretation *before* he proposes a sexual ethic. Yes, Jacob is talking about sex, but it's clear that scripture is also on his mind.
 
-However, this observation is complicated by the fact Jacob's audience actually has more of scripture on its side than Jacob himself does. In the following sections, I will discuss where Jacob appears to get things wrong—but what that tells us about his approach to scripture.
+However, this observation is complicated by the fact that scripture seems to support Jacob's audience more than it supports Jacob. In the following sections, I will discuss where Jacob appears to get things wrong—but what that tells us about his approach to scripture.
 
 ### Jacob is Wrong...
 
@@ -151,11 +153,11 @@ In their treatment of this portion of Jacob's temple sermon, Fatimah Salleh and 
 
 > what is even worse than what went before [i.e., Jacob's critique of seeking for wealth and oppressing the poor]: the Nephites are manipulating scripture to excuse their own selfish behavior. They are weaponizing holy text in order to justify committing evil. (p. 110)
 
-In broad terms, I agree with this argument; however, I would not describe the Nephite men as "manipulating scripture" to justify the taking of concubines and additional wives. Indeed, Wil Gafney[^24] writes that after Lamech takes two wives in Genesis 4:19:
+In broad terms, I agree with Salleh and Olsen Hemming's argument. However, I would not describe the Nephite men as "manipulating scripture" to justify the taking of concubines and additional wives. Indeed, Wil Gafney[^24] writes that after Lamech takes two wives in Genesis 4:19:
 
-> From this point forward in the Scriptures, Lamech-style partnership (polygamy), rather than Eve/Adam-style monogamy, becomes normative. (p. 28)^[25]
+> From this point forward in the Scriptures, Lamech-style partnership (polygamy), rather than Eve/Adam-style monogamy, becomes normative. (p. 28)[^25]
 
-At best, Gafney continues, God is silent on the subject of polygamy. Thus, despite Jacob's insistence that God condemns the Nephite men's interpretation of scripture, commands monogamy as a general rule[^26], and sees David and Solomon's polygamy as an abomination[^27], there is considerable evidence to the contrary. In fact, while Jacob implies that Nephite advocates for polygamy have been referencing David and Solomon in particular, there are more compelling passages that they could have turned to in order to make their case. 
+At best, Gafney continues, God is silent on the subject of polygamy. Thus, despite Jacob's insistence that God condemns the Nephite men's interpretation of scripture, commands monogamy as a general rule[^26], and sees David and Solomon's polygamy as an abomination[^27], there is considerable evidence to the contrary.
 
 [^24]: Gafney, W. C. (2017) *Womanist midrash: A reintroduction to the women of the Torah and the throne*. Westminster John Knox Press.
 
@@ -165,11 +167,25 @@ At best, Gafney continues, God is silent on the subject of polygamy. Thus, despi
 
 [^27]: This particular reference poses a particular dilemma for LDS readers of the Book of Mormon. Critics of LDS polygamy have often noted the irony that Jacob's anti-polygamy screed appears in the faith's founding text, to which defenders have responded (accurately) that Jacob leaves open the possibility of God-ordained polygamy. However, Jacob is also clear that in God's sight, David and Solomon's actions were abominable. In contrast, Section 132 in the LDS Doctrine and Covenants (for perhaps obvious reasons, there is no Community of Christ equivalent to this passage) explicitly argues that except in the case of Bathsheba, all of David's polygamy received divine approval. Thus, in two passages of LDS scripture coming from Joseph Smith Jr., we find two clearly different interpretations of the same Bible story, further emphasizing the impossibility of objective interpretation of scripture.
 
-Indeed, just after Moses receives the Ten Commandments, God's next conversation with him is to establish laws that govern—not forbid!—slavery (see Exodus 21:1-11). Implicit in these laws is divine permission for a man to purchase a woman as a slave to whom he has sexual access—and to purchase additional women if, as described in Robert Alter's footnotes[^28], "he finds anything about her that disinclines him to keep her as a sexual partner" (p. 301)[^29]. Nothing in Jacob 2 explicitly suggests that Nephite men were also advocating for sex slavery—though note the command in 2:42 [LDS 2:33] that "they shall not lead away captive the daughers of my people"—but if they had wanted to, they would have had a scriptural foundation to support their argument.
+ In fact, while Jacob implies that Nephite advocates for polygamy have been referencing David and Solomon in particular, there are far more compelling passages that they could have turned to in order to make their case. Just after Moses receives the Ten Commandments, God's next conversation with him is to establish laws that govern—not forbid!—slavery (see Exodus 21:1-11). Implicit in these laws is divine permission for a man to purchase a woman as a slave to whom he has sexual access—and to purchase additional women if, as described in Robert Alter's footnotes[^28], "he finds anything about [the first woman] that disinclines him to keep her as a sexual partner" (p. 301)[^29]. Nothing in Jacob 2 explicitly suggests that Nephite men were also advocating for sex slavery[^30], but if they had wanted to, they would have had a scriptural foundation to support their argument.
 
 [^28]: Alter, R. (2019). *The Hebrew Bible: A Translation with Commentary. Volume 1: The Five Books of Moses*. W. W. Norton & Company.
 
-[^29]: In the interest of heading off possible objections to my interpretation of these passages, I acknowledge that at least some of these laws regarding sex slaves are meant to make their treatment less severe; however, "less severe sex slavery" is still inexcusably awful. Likewise, I invite in particular any member of The Church of Jesus Christ of Latter-day Saints who wants to defend a divine allowance of sex slavery as yielding to the culture of the time to consider whether *The Family: A Proclamation to the World* is likewise yielding to the mid-20th century culture in which its authors were raised.
+[^29]: In the interest of heading off possible objections to my interpretation of these passages, I acknowledge that at least some of these laws regarding sex slaves are meant to make their treatment less severe; however, "less severe sex slavery" is still inexcusably awful. Likewise, I invite in particular any member of The Church of Jesus Christ of Latter-day Saints who wants to defend a divine allowance of sex slavery as accommodating the culture of the time to consider whether *The Family: A Proclamation to the World* is likewise an accommodation to the mid-20th century culture in which its authors were raised.
+
+[^30]: However, note the command in 2:42 [LDS 2:33] that "they shall not lead away captive the daughers of my people." I'm inclined to interpret this as a reference to sex slavery, because it supports what I see Jacob as doing here (i.e., rejecting the sexual ethic of the Hebrew Bible in favor of a better one and insisting that God must be on his side), but it's also quite possible that this is just a metaphorical reference to captivity, so I'm burying it here in a footnote rather than making it a key part of my argument.
+
+Jacob's insistence that the scriptures are on his side when he preaches monogamy does not seem to hold up to even a cursory visit of what the Hebrew Bible has to say about polygamy. The possibility that the protagonist of Jacob 2 is in the wrong is likely uncomfortable to most readers of the Book of Mormon, who might appeal to the Book of Mormon's own suggestion that the Bible is not a trustworthy record. According to this reading, the seeming acceptance of polygamy and sex slavery in the Hebrew Bible would actually be a corruption of the text, and Jacob is here indicating what God's commands *actually* were; in short, we ought to trust the Book of Mormon's account over and above the Bible's account. 
+
+I'm unsatisfied with this response for three reasons, though. First, this approach to the Book of Mormon's conflicts with the Bible strikes me as a self-serving silver bullet, in that it can be used to explain away anything without needing to work through the productive constraints to scriptural interpretation that I identified earlier. Second, and more seriously, it implicitly supports anti-Jewish *supersessionism*, which Wayment[^16] describes as a belief that "the law of Moses has been superseded or replaced in its entirety by the gospel or new covenant." This belief facilitates "the persecutition of marginalization of Jews because they had been effectively been replaced in God's covenant" (p. 330). As Wayment points out, members of Restoration denominations "have tended to be stronger in their supersessionist views" (p. 330), and the Book of Mormon (including through passages in Jacob) has provided support for that tendency.
+
+My third reason for rejecting this response is admittedly tenuous but is based on the text of Jacob's sermon and supported by my approach to the Book of Mormon, as described above. In Jacob 2:44 (LDS 2:34), Jacob notes to his Nephite audience that "you know that these commandments were given to our father Lehi; wherefore you have known them before." 
+
+
+
+Salleh and Olsen Hemming[^5] note that Jacob's sermon actually suggests that it was women's sexual oppression in Jerusalem that directly led to Jacob's Exodus
+
+LDS and RLDS readers alike might respond to this 
 
 
 ### ...But Is Jacob Right?
