@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>10 M3C: Writing in R Markdown | Introduction to Data Science</title>
   <meta name="description" content="10 M3C: Writing in R Markdown | Introduction to Data Science" />
-  <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
 
   <meta property="og:title" content="10 M3C: Writing in R Markdown | Introduction to Data Science" />
   <meta property="og:type" content="book" />
@@ -120,6 +120,10 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 </head>
 
@@ -701,14 +705,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="39.7" data-path="hypothesis-testing.html"><a href="hypothesis-testing.html#nhst-conclusion"><i class="fa fa-check"></i><b>39.7</b> Conclusion</a></li>
 </ul></li>
 <li class="chapter" data-level="40" data-path="m13c-explore-hypothesis-testing-with-your-own-data.html"><a href="m13c-explore-hypothesis-testing-with-your-own-data.html"><i class="fa fa-check"></i><b>40</b> M13C: Explore Hypothesis Testing With Your Own Data</a></li>
-<li class="chapter" data-level="41" data-path="m14u-small-stories-vs.html"><a href="m14u-small-stories-vs.html"><i class="fa fa-check"></i><b>41</b> M14U: Small Stories vs. Big Data</a>
+<li class="chapter" data-level="41" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html"><i class="fa fa-check"></i><b>41</b> M14U: Small Stories vs. Big Data</a>
 <ul>
-<li class="chapter" data-level="41.1" data-path="m14u-small-stories-vs.html"><a href="m14u-small-stories-vs.html#introduction-28"><i class="fa fa-check"></i><b>41.1</b> Introduction</a></li>
-<li class="chapter" data-level="41.2" data-path="m14u-small-stories-vs.html"><a href="m14u-small-stories-vs.html#the-origins-of-autoethnography"><i class="fa fa-check"></i><b>41.2</b> The Origins of Autoethnography</a></li>
-<li class="chapter" data-level="41.3" data-path="m14u-small-stories-vs.html"><a href="m14u-small-stories-vs.html#what-does-autoethnography-look-like"><i class="fa fa-check"></i><b>41.3</b> What does Autoethnography Look Like?</a></li>
-<li class="chapter" data-level="41.4" data-path="m14u-small-stories-vs.html"><a href="m14u-small-stories-vs.html#how-do-autoethnographers-measure-quality"><i class="fa fa-check"></i><b>41.4</b> How do Autoethnographers Measure Quality?</a></li>
-<li class="chapter" data-level="41.5" data-path="m14u-small-stories-vs.html"><a href="m14u-small-stories-vs.html#conclusion-14"><i class="fa fa-check"></i><b>41.5</b> Conclusion</a></li>
-<li class="chapter" data-level="41.6" data-path="m14u-small-stories-vs.html"><a href="m14u-small-stories-vs.html#references-15"><i class="fa fa-check"></i><b>41.6</b> References</a></li>
+<li class="chapter" data-level="41.1" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#introduction-28"><i class="fa fa-check"></i><b>41.1</b> Introduction</a></li>
+<li class="chapter" data-level="41.2" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#the-origins-of-autoethnography"><i class="fa fa-check"></i><b>41.2</b> The Origins of Autoethnography</a></li>
+<li class="chapter" data-level="41.3" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#what-does-autoethnography-look-like"><i class="fa fa-check"></i><b>41.3</b> What does Autoethnography Look Like?</a></li>
+<li class="chapter" data-level="41.4" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#how-do-autoethnographers-measure-quality"><i class="fa fa-check"></i><b>41.4</b> How do Autoethnographers Measure Quality?</a></li>
+<li class="chapter" data-level="41.5" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#conclusion-14"><i class="fa fa-check"></i><b>41.5</b> Conclusion</a></li>
+<li class="chapter" data-level="41.6" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#references-15"><i class="fa fa-check"></i><b>41.6</b> References</a></li>
 </ul></li>
 <li class="chapter" data-level="42" data-path="inference-for-regression.html"><a href="inference-for-regression.html"><i class="fa fa-check"></i><b>42</b> M14A: Inferential Regression</a>
 <ul>
@@ -792,20 +796,20 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="block-level-elements" class="section level3 hasAnchor" number="10.2.2">
 <h3><span class="header-section-number">10.2.2</span> Block-level elements<a href="m3c-writing-in-r-markdown.html#block-level-elements" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Section headers can be written after a number of pound signs, e.g.,</p>
-<div class="sourceCode" id="cb35"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb35-1"><a href="m3c-writing-in-r-markdown.html#cb35-1" tabindex="-1"></a><span class="fu"># First-level header</span></span>
-<span id="cb35-2"><a href="m3c-writing-in-r-markdown.html#cb35-2" tabindex="-1"></a></span>
-<span id="cb35-3"><a href="m3c-writing-in-r-markdown.html#cb35-3" tabindex="-1"></a><span class="fu">## Second-level header</span></span>
-<span id="cb35-4"><a href="m3c-writing-in-r-markdown.html#cb35-4" tabindex="-1"></a></span>
-<span id="cb35-5"><a href="m3c-writing-in-r-markdown.html#cb35-5" tabindex="-1"></a><span class="fu">### Third-level header</span></span></code></pre></div>
+<div class="sourceCode" id="cb32"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb32-1"><a href="m3c-writing-in-r-markdown.html#cb32-1" tabindex="-1"></a><span class="fu"># First-level header</span></span>
+<span id="cb32-2"><a href="m3c-writing-in-r-markdown.html#cb32-2" tabindex="-1"></a></span>
+<span id="cb32-3"><a href="m3c-writing-in-r-markdown.html#cb32-3" tabindex="-1"></a><span class="fu">## Second-level header</span></span>
+<span id="cb32-4"><a href="m3c-writing-in-r-markdown.html#cb32-4" tabindex="-1"></a></span>
+<span id="cb32-5"><a href="m3c-writing-in-r-markdown.html#cb32-5" tabindex="-1"></a><span class="fu">### Third-level header</span></span></code></pre></div>
 <p>If you do not want a certain heading to be numbered, you can add <code>{-}</code> or <code>{.unnumbered}</code> after the heading, e.g.,</p>
-<div class="sourceCode" id="cb36"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb36-1"><a href="m3c-writing-in-r-markdown.html#cb36-1" tabindex="-1"></a><span class="fu"># Preface {-}</span></span></code></pre></div>
+<div class="sourceCode" id="cb33"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb33-1"><a href="m3c-writing-in-r-markdown.html#cb33-1" tabindex="-1"></a><span class="fu"># Preface {-}</span></span></code></pre></div>
 <p>Unordered list items start with <code>*</code>, <code>-</code>, or <code>+</code>, and you can nest one list within another list by indenting the sub-list, e.g.,</p>
-<div class="sourceCode" id="cb37"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb37-1"><a href="m3c-writing-in-r-markdown.html#cb37-1" tabindex="-1"></a><span class="ss">- </span>one item</span>
-<span id="cb37-2"><a href="m3c-writing-in-r-markdown.html#cb37-2" tabindex="-1"></a><span class="ss">- </span>one item</span>
-<span id="cb37-3"><a href="m3c-writing-in-r-markdown.html#cb37-3" tabindex="-1"></a><span class="ss">- </span>one item</span>
-<span id="cb37-4"><a href="m3c-writing-in-r-markdown.html#cb37-4" tabindex="-1"></a><span class="ss">    - </span>one more item</span>
-<span id="cb37-5"><a href="m3c-writing-in-r-markdown.html#cb37-5" tabindex="-1"></a><span class="ss">    - </span>one more item</span>
-<span id="cb37-6"><a href="m3c-writing-in-r-markdown.html#cb37-6" tabindex="-1"></a><span class="ss">    - </span>one more item</span></code></pre></div>
+<div class="sourceCode" id="cb34"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb34-1"><a href="m3c-writing-in-r-markdown.html#cb34-1" tabindex="-1"></a><span class="ss">- </span>one item</span>
+<span id="cb34-2"><a href="m3c-writing-in-r-markdown.html#cb34-2" tabindex="-1"></a><span class="ss">- </span>one item</span>
+<span id="cb34-3"><a href="m3c-writing-in-r-markdown.html#cb34-3" tabindex="-1"></a><span class="ss">- </span>one item</span>
+<span id="cb34-4"><a href="m3c-writing-in-r-markdown.html#cb34-4" tabindex="-1"></a><span class="ss">    - </span>one more item</span>
+<span id="cb34-5"><a href="m3c-writing-in-r-markdown.html#cb34-5" tabindex="-1"></a><span class="ss">    - </span>one more item</span>
+<span id="cb34-6"><a href="m3c-writing-in-r-markdown.html#cb34-6" tabindex="-1"></a><span class="ss">    - </span>one more item</span></code></pre></div>
 <p>The output is:</p>
 <ul>
 <li>one item</li>
@@ -818,11 +822,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 </ul>
 <p>Ordered list items start with numbers (you can also nest lists within lists), e.g.,</p>
-<div class="sourceCode" id="cb38"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb38-1"><a href="m3c-writing-in-r-markdown.html#cb38-1" tabindex="-1"></a><span class="ss">1. </span>the first item</span>
-<span id="cb38-2"><a href="m3c-writing-in-r-markdown.html#cb38-2" tabindex="-1"></a><span class="ss">2. </span>the second item</span>
-<span id="cb38-3"><a href="m3c-writing-in-r-markdown.html#cb38-3" tabindex="-1"></a><span class="ss">3. </span>the third item</span>
-<span id="cb38-4"><a href="m3c-writing-in-r-markdown.html#cb38-4" tabindex="-1"></a><span class="ss">    - </span>one unordered item</span>
-<span id="cb38-5"><a href="m3c-writing-in-r-markdown.html#cb38-5" tabindex="-1"></a><span class="ss">    - </span>one unordered item</span></code></pre></div>
+<div class="sourceCode" id="cb35"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb35-1"><a href="m3c-writing-in-r-markdown.html#cb35-1" tabindex="-1"></a><span class="ss">1. </span>the first item</span>
+<span id="cb35-2"><a href="m3c-writing-in-r-markdown.html#cb35-2" tabindex="-1"></a><span class="ss">2. </span>the second item</span>
+<span id="cb35-3"><a href="m3c-writing-in-r-markdown.html#cb35-3" tabindex="-1"></a><span class="ss">3. </span>the third item</span>
+<span id="cb35-4"><a href="m3c-writing-in-r-markdown.html#cb35-4" tabindex="-1"></a><span class="ss">    - </span>one unordered item</span>
+<span id="cb35-5"><a href="m3c-writing-in-r-markdown.html#cb35-5" tabindex="-1"></a><span class="ss">    - </span>one unordered item</span></code></pre></div>
 <p>The output does not look too much different with the Markdown source:</p>
 <ol style="list-style-type: decimal">
 <li>the first item</li>
@@ -834,11 +838,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 </ol>
 <p>Blockquotes are written after <code>&gt;</code>, e.g.,</p>
-<div class="sourceCode" id="cb39"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb39-1"><a href="m3c-writing-in-r-markdown.html#cb39-1" tabindex="-1"></a><span class="at">&gt; &quot;I thoroughly disapprove of duels. If a man should challenge me,</span></span>
-<span id="cb39-2"><a href="m3c-writing-in-r-markdown.html#cb39-2" tabindex="-1"></a><span class="at">  I would take him kindly and forgivingly by the hand and lead him</span></span>
-<span id="cb39-3"><a href="m3c-writing-in-r-markdown.html#cb39-3" tabindex="-1"></a><span class="at">  to a quiet place and kill him.&quot;</span></span>
-<span id="cb39-4"><a href="m3c-writing-in-r-markdown.html#cb39-4" tabindex="-1"></a><span class="at">&gt;</span></span>
-<span id="cb39-5"><a href="m3c-writing-in-r-markdown.html#cb39-5" tabindex="-1"></a><span class="at">&gt; --- Mark Twain</span></span></code></pre></div>
+<div class="sourceCode" id="cb36"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb36-1"><a href="m3c-writing-in-r-markdown.html#cb36-1" tabindex="-1"></a><span class="at">&gt; &quot;I thoroughly disapprove of duels. If a man should challenge me,</span></span>
+<span id="cb36-2"><a href="m3c-writing-in-r-markdown.html#cb36-2" tabindex="-1"></a><span class="at">  I would take him kindly and forgivingly by the hand and lead him</span></span>
+<span id="cb36-3"><a href="m3c-writing-in-r-markdown.html#cb36-3" tabindex="-1"></a><span class="at">  to a quiet place and kill him.&quot;</span></span>
+<span id="cb36-4"><a href="m3c-writing-in-r-markdown.html#cb36-4" tabindex="-1"></a><span class="at">&gt;</span></span>
+<span id="cb36-5"><a href="m3c-writing-in-r-markdown.html#cb36-5" tabindex="-1"></a><span class="at">&gt; --- Mark Twain</span></span></code></pre></div>
 <p>The actual output:</p>
 <blockquote>
 <p>“I thoroughly disapprove of duels. If a man should challenge me,
@@ -847,11 +851,11 @@ to a quiet place and kill him.”</p>
 <p>— Mark Twain</p>
 </blockquote>
 <p>In general, you’d better leave at least one empty line between adjacent but different elements, e.g., a header and a paragraph. This is to avoid ambiguity to the Markdown renderer. For example, does “<code>#</code>” indicate a header below?</p>
-<div class="sourceCode" id="cb40"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb40-1"><a href="m3c-writing-in-r-markdown.html#cb40-1" tabindex="-1"></a>In R, the character</span>
-<span id="cb40-2"><a href="m3c-writing-in-r-markdown.html#cb40-2" tabindex="-1"></a><span class="fu"># indicates a comment.</span></span></code></pre></div>
+<div class="sourceCode" id="cb37"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb37-1"><a href="m3c-writing-in-r-markdown.html#cb37-1" tabindex="-1"></a>In R, the character</span>
+<span id="cb37-2"><a href="m3c-writing-in-r-markdown.html#cb37-2" tabindex="-1"></a><span class="fu"># indicates a comment.</span></span></code></pre></div>
 <p>And does “<code>-</code>” mean a bullet point below?</p>
-<div class="sourceCode" id="cb41"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb41-1"><a href="m3c-writing-in-r-markdown.html#cb41-1" tabindex="-1"></a>The result of 5</span>
-<span id="cb41-2"><a href="m3c-writing-in-r-markdown.html#cb41-2" tabindex="-1"></a><span class="ss">- </span>3 is 2.</span></code></pre></div>
+<div class="sourceCode" id="cb38"><pre class="sourceCode markdown"><code class="sourceCode markdown"><span id="cb38-1"><a href="m3c-writing-in-r-markdown.html#cb38-1" tabindex="-1"></a>The result of 5</span>
+<span id="cb38-2"><a href="m3c-writing-in-r-markdown.html#cb38-2" tabindex="-1"></a><span class="ss">- </span>3 is 2.</span></code></pre></div>
 <p>Different flavors of Markdown may produce different results if there are no blank lines.</p>
 </div>
 <div id="r-code-chunks" class="section level3 hasAnchor" number="10.2.3">
