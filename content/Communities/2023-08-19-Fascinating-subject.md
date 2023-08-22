@@ -1,0 +1,1 @@
+---date: 2023-08-19T15:55:14-04:00title: "🍿 movieblog: ❤️❤️❤️❤️❤️ for Oppenheimer"tags: ["media","movie","Communities","Oppenheimer","nuclear weapons","J. Robert Oppenheimer","Christopher Nolan"]---Fascinating subject matter, great acting, beautiful visuals, and lots to keep you thinking after you watch it.

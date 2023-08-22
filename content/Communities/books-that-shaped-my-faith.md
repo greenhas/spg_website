@@ -2,7 +2,7 @@
 draft: true
 date: 2023-08-06T14:28:02-04:00
 title: "40 books that have shaped my faith"
-tags: ["macro","Communities","reading","religion","faith transition","Le mythe de Sisyphe","Albert Camus","Sapiens","Yuval Noah Harari","L'anomalie","Hervé Le Tellier","A Short Stay in Hell","Steven Peck","Faith Unraveled","Rachel Held Evans","Pete Enns","The Bible Told Me So","The Sin of Certainty","How the Bible Actually Works","David O. McKay and the Rise of Modern Mormonism","Greg Prince","This is My Doctrine","Charles Harrell","Brittany Long Olsen","The Giant Joshua","Maurine Whipple","The Garden of Enid","comics","Scott Hales","Letters to a Young Mormon","Adam Miller","Way Below the Agnels","Craig Harline","The Book of Laman","Mette Harrison","A Way of Life","Tony Chvala-Smith","Aux sources de l'amitié de Dieu","Urban Federer","Short Stories By Jesus","The Misunderstood Jew","Amy-Jill Levine","Thomas Wayment","A History of the Bible","John Barton","Understanding the Book of Mormon","Grant Hardy","Womanist Midrash","Wil Gafney","New Seeds of Contemplation","Thomas Merton","L'invention de Dieu","Thomas Römer","La réinvention du nom de Dieu","Gérard Siegwalt","The Universal Christ","Richard Rohr","Book of Mormon Girl","Joanna Brooks","David Howlett","Apostle of the Poor","Matthew Bolton","Conversions","Craig Harline","Heike's Void","Steven Peck","The Book of Forgiving","Desmond Tutu","Mpho Tutu","Walkaway","Cory Doctorow","Still Just a Geek","Wil Wheaton","Kiffe kiffe demain","Faiza Guène","Bonheur d'occasion","Gabrielle Roy","Jerusalem","Guy Delisle","March","John Lewis","Ezra Taft Benson","Latter-day Saint missionaries"]
+tags: ["macro","Communities","reading","religion","faith transition","Le mythe de Sisyphe","Albert Camus","Sapiens","Yuval Noah Harari","L'anomalie","Hervé Le Tellier","A Short Stay in Hell","Steven Peck","Faith Unraveled","Rachel Held Evans","Pete Enns","The Bible Told Me So","The Sin of Certainty","How the Bible Actually Works","David O. McKay and the Rise of Modern Mormonism","Greg Prince","This is My Doctrine","Charles Harrell","Brittany Long Olsen","The Giant Joshua","Maurine Whipple","The Garden of Enid","comics","Scott Hales","Letters to a Young Mormon","Adam Miller","Way Below the Agnels","Craig Harline","The Book of Laman","Mette Harrison","A Way of Life","Tony Chvala-Smith","Aux sources de l'amitié de Dieu","Urban Federer","Short Stories By Jesus","The Misunderstood Jew","Amy-Jill Levine","Thomas Wayment","A History of the Bible","John Barton","Understanding the Book of Mormon","Grant Hardy","Womanist Midrash","Wil Gafney","New Seeds of Contemplation","Thomas Merton","L'invention de Dieu","Thomas Römer","La réinvention du nom de Dieu","Gérard Siegwalt","The Universal Christ","Richard Rohr","Book of Mormon Girl","Joanna Brooks","David Howlett","Apostle of the Poor","Matthew Bolton","Conversions","Craig Harline","Heike's Void","Steven Peck","The Book of Forgiving","Desmond Tutu","Mpho Tutu","Walkaway","Cory Doctorow","Still Just a Geek","Wil Wheaton","Kiffe kiffe demain","Faiza Guène","Bonheur d'occasion","Gabrielle Roy","Jerusalem","Guy Delisle","March","John Lewis","Ezra Taft Benson","Latter-day Saint missionaries","Babel","Radio Télévision Suisse"]
 ---
 
 A friend of mine recently asked whether I had a list of books "that have been particularly impactful or interesting," especially in the realm of spirituality and religion—and suggested that if I didn't already have such a list, I could put one together for one of my next blog posts. It took me a while to actually put the list together, but it's ended up being a really interesting exercise. Of the forty books that I've picked, some have been more influential than others. There's also a bias toward the recent, and I also haven't shied away from the idiosyncracies of my reading habits (that is, there are plenty of comics and plenty of French books on the list). Nonetheless, I hope this is helpful to other folks looking for a book to read in these domains!
@@ -69,24 +69,63 @@ This book is an uneven-but-compelling story of Mormon pioneers. Rather than the 
 
 ## keeping the best of Mormonism
 
+I think one of the greatest things about Latter-day Saint leaders' rejection of the word "Mormon" is that it leaves room for me to reclaim it. I am practicing in another faith—and happier for it—but there's so much I love about the Mormon experience and want to hold onto. These books illustrate the kind of Mormonism that I wish were more present in the institutional Church of Jesus Christ of Latter-day Saints.
+
 ### *The Garden of Enid*, by Scott Hales
+
+I'm not as well read in Mormon comics as I would like (especially since it can't be that big of a genre), but I still feel pretty confident that this is the best out there. I read this when Hales was releasing it as a webcomic, and I'm a proud owner of the two printed volumes that are available through Greg Kofford Books. Enid represents the best of Mormonism: someone who loves the religion but is aware of its flaws, someone who isn't afraid to ask questions but also finds answers, someone who is fond of the culture but doesn't hesitate to critique it. It also helps that Hales lived in the Cincinnati area when he was doing the webcomic, and Enid lives somewhere in unspecified southern Ohio. As a Kentucky Mormon, this setting felt like it captured my experience better than so much Mormon literature.
+
 ### *Letters to a Young Mormon*, by Adam S. Miller
-### *Way Below the Angels: The Pretty Clearly Troubled but Not Even Close to Tragic Confessions of a Real Life Mormon Missionary*, by Craig Harline	
+
+It's been a while since I read this book, and I actually don't remember a lot of it, so this will be kind of a fuzzy endorsement. I stand by the endorsement, though, because Miller's writing is a great example of Mormons claiming Mormonism rather than leaving that entirely up to institutional leaders. Bottom-up Mormonism has a lot going for it, and the version of the faith that Miller writes about is something that I miss.
+
+### *Way Below the Angels: The Pretty Clearly Troubled but Not Even Close to Tragic Confessions of a Real Life Mormon Missionary*, by Craig Harline
+
+If *Dendō* made it painful to think about my mission, Harline's memoir was a reminder of everything I loved about it. I think the difference is that Olsen is writing in the moment with all of the naïve conviction and heartbreaking anxiety that a Latter-day Saint missionary experiences in the moment, whereas Harline is writing with some distance that lets him think about things differently. He knows that the missionary experience is kind of ridiculous, that some of that conviction is unwarranted, and after processing some of the anxiety (without shying away from how painful it can be). *Dendō* made me resent some of my mission experiences, but *Way Below the Angels* makes me remember why my memories of it are still overwhelmingly positive.
+
 ### *The Book of Laman*, by Mette Harrison
+
+Harrison's retelling of the early stories of the Book of Mormon from the antagonist of the canonical telling is really compelling. I haven't enjoyed her other subversive revisitings of Book of Mormon stories as much, but this one really spoke to me. I think there's a lot to be gained from the Book of Mormon if we take it seriously (if not literally), and Harrison makes a good example here. She doesn't let Laman off the hook, but she does add nuance to the story and offers a view of God who loves even the antagonists of the scriptures.
 
 ## expanding my Christianity
 
+My faith transition was a deliberate decision to conserve a Christian core even as I negotiated what parts of the Joseph Smith Jr. tradition I held onto. That's not to say that I've adopted a kind of Christian fundamentalism—hence the earlier section on books that helped me reject it. Rather, thinking about my faith as primarily Christian (rather than primarily Latter-day Saint), expanding my view of Christianity (beyond how Latter-day Saints see it), and being willing to take a critical perspective of it (rather than take this new view for granted) have all been helpful.
+
 ### *A Way of Life: Understanding Our Christian Faith*, by Anthony J. Chvala-Smith
+
+Tony is more or less the *de facto* head theologian for Community of Christ, and I deeply appreciate the way that he works to bring this religious community into conversation with the broader Christian world (even if I sometimes feel he's too critical of Restoration distinctives). This book is his summary of Christianity as understood by Community of Christ, and it gave me a lot of helpful new ways of revisiting familiar concepts in ways that make more sense for me in this time of my life. 
+
 ### *Aux sources de l'amitié de Dieu: L'année liturgique avec l'abbé d'Einsiedeln*, by Urban Federer
+
+Over the years, I've really enjoyed many episodes of the Radio Télévision Suisse podcast *Babel*, and it's where I first heard about a couple of books on this list. Federer is a Swiss abbott and once appeared on *Babel* to talk about the French translation of his originally German book walking Christians (primarily Catholics) through the liturgical year through a lens of friendship with God. I bought the book when I decided I was going to give this liturgical year thing a try as part of my exploration of Community of Christ. Not all of the chapters resonate with me, but there are some that have done so deeply. Like *A Way of Life*, this has been helpful for seeing how other Christians see Christianity.
+
 ### *Short Stories by Jesus*, by Amy-Jill Levine
+
+I've read a number of books by Levine, a Jewish New Testament scholar, and I find her specific perspective really helpful. This book, on Jesus's parables, is kind of difficult for the way that it challenges common interpretations of these stories—including interpretations that I like! Yet, I find it valuable for reminding me that there are so many different ways of approaching the New Testament; it's not just the straightforward text that readers like to think of it as.
+
 ### *The Misunderstood Jew*, by Amy-Jill Levine
+
+Levine's treatment of Jesus in this book is critical for Christians to read, I think. Levine is unflinching in her calling out of anti-Jewish attitudes among Christians, and this book is compelling for the way that it presents Jesus as a Jew and asks Christians to see him as such. It's been a while since I've read it, so I don't remember all the details, but I got a lot out of this book, and Levine's writing as a whole has been tremendously influential in shaping my new faith.
 
 ## rereading scripture
 
+This theme has been hinted at as I've described other books (let's be honest, my organizational scheme here is pretty arbitrary), but one thing that has kept me engaged in the world of faith is my fascination with holy texts. Even if they aren't what they claim to be (which is increasingly my opinion of most of them), books like these had an important role in showing me the complexity and richness of these texts. I learned to read familiar stories in new ways, and I really enjoy continuing to do that.
+
 ### *The New Testament: A translation for Latter-day Saints*, by Thomas Wayment
+
+Wayment's translation of the New Testament is the first non-KJV translation of the Bible I ever read, and it was a mind-blowing, liberating experience. Wayment speaks faithfully to a Latter-day Saint audience but doesn't hesitate to point out where the Greek text doesn't support specific Latter-day Saint interpretations of particular passages. I still pull this out pretty often to read through specific New Testament passages: I'm grateful for the way that it showed me new ways to approach these scriptures.
+
 ### *A History of the Bible*, by John Barton
+
+This is yet another book that I have fuzzy memories of, but I distinctly remember how much I appreciated the way that Barton complicated the story of the Bible. This is true of all of the books in this section (and maybe in the whole post), but reading this book reinforced for me that I liked and appreciated religion and scripture all the more after learning how complicated, messy, and human they are.
+
 ### *Understanding the Book of Mormon*, by Grant Hardy
+
+Hardy's book forever changed how I read the Book of Mormon. Hardy argues that if we bracket questions of historicity and treat the characters and stories of the Book of Mormon as real (whether they are or not, though I suspect Hardy has a conservative view himself), we can get a lot more out of the text than if we limit ourselves to religious prooftexting or to superficial critiques. I think there are limitations to the bracketing of historicity (most importantly, as they relate to what the Book of Mormon claims about indigenous peoples of the Americas), but the approach that Hardy introduces is the way that I now approach this text. He illustrates how to see the characters as three-dimensional and self-serving and how to read between the lines to find new meanings to stories.
+
 ### *Womanist Midrash: A Reintroduction to the Women of the Torah and the Throne*, by Wilda C. Gafney
+
+I think this book is the one that taught me how to read scripture through a deliberate lens, rather than simply assuming that the intended meaning of the text is clear and self-evident. Gafney's privileging of womanist (that is, black feminist) questions and concerns is a compelling invitation to critique the Hebrew Bible (and, by extension, scripture as a whole) rather than simply accept it for what it is. Just because I still appreciate holy text doesn't mean that I think it's perfect—I learned a lot of horrible things about the Hebrew Bible while reading this, and I've learned from it the importance of rejecting scripture when it doesn't match with my vision of God. 
 
 ## rethinking God
 
