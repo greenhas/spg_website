@@ -129,10 +129,23 @@ I think this book is the one that taught me how to read scripture through a deli
 
 ## rethinking God
 
-### *New Seeds of Contemplation*, by Thomas Merton
+My conception of God was so closely linked to my broader religious views that it was impossible to change the latter without changing the former. I sometimes describe myself as a "believing agnostic": that is, while I'm comfortable using the language of God and of belief in God, I'm often happy for that belief to be just as metaphorical as stories in the Bible or Book of Mormon. These are books that helped me deconstruct and reconstruct those beliefs in particular.
+
 ### *L'invention de Dieu*, by Thomas Römer
-### *La réinvention du nom de Dieu*, by Gérard Siegwalt
+
+This book is based on Römer's excellent [2011](https://www.college-de-france.fr/fr/agenda/cours/le-dieu-yhwh-ses-origines-ses-cultes-sa-transformation-en-dieu-unique) to [2012](https://www.college-de-france.fr/fr/agenda/cours/le-dieu-yhwh-ses-origines-ses-cultes-sa-transformation-en-dieu-unique-suite-et-fin) lectures on « Le dieu Yhwh : ses origines, ses cultes, sa transformation en dieu unique » ("The god Yhwh : his origins, his worship, and his transformation into the only god"). If you prefer audio and understand French, you can probably get just as much out of the podcast version of these lectures as out of the book; conversely, the book has also been translated into English ("The Invention of God") for those who prefer that route. Listening to these lectures (I think in early 2021?) was helpful for a thorough deconstruction of my ideas of God, and I also appreciated reading the book sometime thereafter. 
+
+### *New Seeds of Contemplation*, by Thomas Merton
+
+This book was a kind gift from a friend on the occasion of my confirmation into Community of Christ. I'm not a very good mystic, and so I'm not sure that this book resonated with me as deeply as it has for many, but it's a good one. Even if I'm still working on understanding the idea (and practice) of contemplation, I found that Merton's understanding of God is one that can work for the religious, the "merely spiritual," and even the skeptic. There's a lot to like in this book, and writing about it now makes me want to return to Merton.
+
 ### *The Universal Christ*, by Richard Rohr
+
+Rohr is similar to Merton in that he has a view of God—and Christ—as present in all things rather than concentrated in a single, semi-embodied figure. As with Merton, Rohr's emphases on seeing God in all things, appreciating God in all things, and simply being present and contemplative aren't things that come naturally to me. However, just like Merton, he offers me a view of God that I feel like I can work with even on days where I don't feel particularly believing.
+
+### *La réinvention du nom de Dieu*, by Gérard Siegwalt
+
+My French is pretty good, but I still struggle with academic French, so this work of theology was a real struggle for me to get through. Yet, I know I'll be returning to this book, and I really appreciated Siegwalt's view of God as a being we turn to in response to the problems in the world. He lays out some of the crises facing the world today and lays out a vision for how to "reinvent God's name" in order to turn our religious beliefs and practices into responses to those crises.
 
 ## finding new faith
 
