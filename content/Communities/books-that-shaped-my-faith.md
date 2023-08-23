@@ -16,7 +16,7 @@ The final essay in this book (which gives its name to the entire book) has long 
 
 ### *Sapiens: A Brief History of Humankind*, by Yuval Noah Harari
 
-I understand that this book has received some criticism from experts in the field, and while I'm not qualified to evaluate that criticism, I'd be happy to replace this with a similar, stronger book. Nonetheless, I find it valuable to think about human history (how long—and yet how short—it is) and about early humanity (including Neanderthals, Cro Magnon, etc.) when getting existential. This book does that trick for me in the same way that visiting the Smithsonian Museum of Natural History does
+I understand that this book has received some criticism from experts in the field, and while I'm not qualified to evaluate that criticism, I'd be happy to replace this with a similar, stronger book. Nonetheless, I find it valuable to think about human history (how long—and yet how short—it is) and about early humanity (including Neanderthals, Cro Magnon, etc.) when getting existential. This book does that trick for me in the same way that visiting the Smithsonian Museum of Natural History does.
 
 ### *L'Anomalie*, by Hervé Le Tellier
 
