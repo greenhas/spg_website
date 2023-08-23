@@ -1,11 +1,10 @@
 ---
-draft: true
-date: 2023-08-06T14:28:02-04:00
+date: 2023-08-22T20:30:02-04:00
 title: "40 books that have shaped my faith"
-tags: ["macro","Communities","reading","religion","faith transition","Le mythe de Sisyphe","Albert Camus","Sapiens","Yuval Noah Harari","L'anomalie","Hervé Le Tellier","A Short Stay in Hell","Steven Peck","Faith Unraveled","Rachel Held Evans","Pete Enns","The Bible Told Me So","The Sin of Certainty","How the Bible Actually Works","David O. McKay and the Rise of Modern Mormonism","Greg Prince","This is My Doctrine","Charles Harrell","Brittany Long Olsen","The Giant Joshua","Maurine Whipple","The Garden of Enid","comics","Scott Hales","Letters to a Young Mormon","Adam Miller","Way Below the Agnels","Craig Harline","The Book of Laman","Mette Harrison","A Way of Life","Tony Chvala-Smith","Aux sources de l'amitié de Dieu","Urban Federer","Short Stories By Jesus","The Misunderstood Jew","Amy-Jill Levine","Thomas Wayment","A History of the Bible","John Barton","Understanding the Book of Mormon","Grant Hardy","Womanist Midrash","Wil Gafney","New Seeds of Contemplation","Thomas Merton","L'invention de Dieu","Thomas Römer","La réinvention du nom de Dieu","Gérard Siegwalt","The Universal Christ","Richard Rohr","Book of Mormon Girl","Joanna Brooks","David Howlett","Apostle of the Poor","Matthew Bolton","Conversions","Craig Harline","Heike's Void","Steven Peck","The Book of Forgiving","Desmond Tutu","Mpho Tutu","Walkaway","Cory Doctorow","Still Just a Geek","Wil Wheaton","Kiffe kiffe demain","Faiza Guène","Bonheur d'occasion","Gabrielle Roy","Jerusalem","Guy Delisle","March","John Lewis","Ezra Taft Benson","Latter-day Saint missionaries","Babel","Radio Télévision Suisse"]
+tags: ["macro","Communities","reading","religion","faith transition","Le mythe de Sisyphe","Albert Camus","Sapiens","Yuval Noah Harari","L'anomalie","Hervé Le Tellier","A Short Stay in Hell","Steven Peck","Faith Unraveled","Rachel Held Evans","Pete Enns","The Bible Told Me So","The Sin of Certainty","How the Bible Actually Works","David O. McKay and the Rise of Modern Mormonism","Greg Prince","This is My Doctrine","Charles Harrell","Brittany Long Olsen","The Giant Joshua","Maurine Whipple","The Garden of Enid","comics","Scott Hales","Letters to a Young Mormon","Adam Miller","Way Below the Angels","Craig Harline","The Book of Laman","Mette Harrison","A Way of Life","Tony Chvala-Smith","Aux sources de l'amitié de Dieu","Urban Federer","Short Stories By Jesus","The Misunderstood Jew","Amy-Jill Levine","Thomas Wayment","A History of the Bible","John Barton","Understanding the Book of Mormon","Grant Hardy","Womanist Midrash","Wil Gafney","New Seeds of Contemplation","Thomas Merton","L'invention de Dieu","Thomas Römer","La réinvention du nom de Dieu","Gérard Siegwalt","The Universal Christ","Richard Rohr","Book of Mormon Girl","Joanna Brooks","David Howlett","Apostle of the Poor","Matthew Bolton","Conversions","Craig Harline","Heike's Void","The Book of Forgiving","Desmond Tutu","Mpho Tutu","Walkaway","Cory Doctorow","Still Just a Geek","Wil Wheaton","Kiffe kiffe demain","Faiza Guène","Bonheur d'occasion","Gabrielle Roy","Jerusalem","Guy Delisle","March","John Lewis","Ezra Taft Benson","Latter-day Saint missionaries","Babel","Radio Télévision Suisse","Mormon Moment","Charles Neff","faith transition","Community of Christ","civil rights movement","racism","LGBTQ+"]
 ---
 
-A friend of mine recently asked whether I had a list of books "that have been particularly impactful or interesting," especially in the realm of spirituality and religion—and suggested that if I didn't already have such a list, I could put one together for one of my next blog posts. It took me a while to actually put the list together, but it's ended up being a really interesting exercise. Of the forty books that I've picked, some have been more influential than others. There's also a bias toward the recent, and I also haven't shied away from the idiosyncracies of my reading habits (that is, there are plenty of comics and plenty of French books on the list). Nonetheless, I hope this is helpful to other folks looking for a book to read in these domains!
+A friend of mine recently asked whether I had a list of books "that have been particularly impactful or interesting," especially in the realm of spirituality and religion—and suggested that if I didn't already have such a list, I could put one together for one of my next blog posts. It took me a while to actually put the list together, but it's ended up being a really interesting exercise. Of the forty books that I've picked, some have been more influential than others. There's also a bias toward the recent, and I haven't shied away from the idiosyncracies of my reading habits (that is, there are plenty of comics and plenty of French books on the list—not to mention at least one French-language comic). Nonetheless, I hope this is helpful to other folks looking for a book to read in these domains!
 
 ## asking existential questions
 
@@ -21,7 +20,7 @@ I understand that this book has received some criticism from experts in the fiel
 
 ### *L'Anomalie*, by Hervé Le Tellier
 
-This is a bizarre but great book (and not the last on my list that could be described that way). Its premise is straight out of science fiction: three months after a regularly scheduled Air France flight from Paris to New York touches down, the exact same flight with the same passengers aboard also touches down. Le Tellier uses this bonkers premise to explore really interesting questions, like our relationships with ourselves, the consequences of small decisions, and whether life as we know it could just be a simulation. I understand the English translation is pretty good, too.
+This is a bizarre but great book (and not the last on my list that could be described that way). Its premise is straight out of science fiction: three months after a regularly scheduled Air France flight from Paris to New York touches down, the exact same flight with the same passengers aboard also touches down. Le Tellier uses this wild premise to explore really interesting questions, like our relationships with ourselves, the consequences of small decisions, and whether life as we know it could just be a simulation. I understand the English translation (*The Anomaly*) is pretty good, too.
 
 ### *A Short Stay in Hell*, by Steven Peck
 
@@ -97,7 +96,7 @@ Tony is more or less the *de facto* head theologian for Community of Christ, and
 
 ### *Aux sources de l'amitié de Dieu: L'année liturgique avec l'abbé d'Einsiedeln*, by Urban Federer
 
-Over the years, I've really enjoyed many episodes of the Radio Télévision Suisse podcast *Babel*, and it's where I first heard about a couple of books on this list. Federer is a Swiss abbott and once appeared on *Babel* to talk about the French translation of his originally German book walking Christians (primarily Catholics) through the liturgical year through a lens of friendship with God. I bought the book when I decided I was going to give this liturgical year thing a try as part of my exploration of Community of Christ. Not all of the chapters resonate with me, but there are some that have done so deeply. Like *A Way of Life*, this has been helpful for seeing how other Christians see Christianity.
+Over the years, I've really enjoyed many episodes of the Radio Télévision Suisse podcast *Babel*, and it's where I first heard about a couple of books on this list. Federer is a Swiss abbott and once appeared on *Babel* to talk about the French translation of his originally German book walking Christians (primarily Catholics) through the liturgical year through a lens of friendship with God. I bought the book when I decided I was going to give this liturgical year thing a try as part of my exploration of Community of Christ. Not all of the chapters resonate with me, but there are some that have done so deeply. Like *A Way of Life*, this has been helpful for seeing how other Christians see Christianity—and deciding how I want to approach it.
 
 ### *Short Stories by Jesus*, by Amy-Jill Levine
 
@@ -145,25 +144,64 @@ Rohr is similar to Merton in that he has a view of God—and Christ—as present
 
 ### *La réinvention du nom de Dieu*, by Gérard Siegwalt
 
-My French is pretty good, but I still struggle with academic French, so this work of theology was a real struggle for me to get through. Yet, I know I'll be returning to this book, and I really appreciated Siegwalt's view of God as a being we turn to in response to the problems in the world. He lays out some of the crises facing the world today and lays out a vision for how to "reinvent God's name" in order to turn our religious beliefs and practices into responses to those crises.
+My French is pretty good, but I still struggle with academic French, so this work of theology was a real struggle for me to get through. Yet, I know I'll be returning to this book, and I really appreciated Siegwalt's view of God as a being we turn to in response to the problems in the world. He lays out some of the crises facing the world today and lays out a vision for how to "reinvent God's name" in order to turn our religious beliefs and practices into responses to those crises. This, by the way, was the other book I learned about on *Babel*—Siegwalt's interview was awesome and had me thinking for days afterward.
 
 ## finding new faith
 
+This is one of the most tenuous of the categories that I'm organizing these books into, but these four books were helpful for thinking about approaching my faith in new ways—each in its own way.
+
 ### *The Book of Mormon Girl: A Memoir of an American Faith*, by Joanna Brooks
+
+Brooks's memoir was written at the height of the "Mormon Moment" in the early 2010s, but I would **not** have appreciated the book if I had read it then! A decade later, though, it was exactly what I needed. Brooks's modeling of choosing her own relationship with Mormonism and choosing to honor that tradition in her own way was a useful example to me. Her love for Mormonism and her impatience with its flaws are equally obvious from her writing, and I appreciated the example of how to forge your own religious path rather than let a broader institution dictate it to you.
+
 ### *Kirtland Temple: The Biography of a Shared Mormon Space*, by David Howlett
+
+Howlett's book is fascinating for the way that it demonstrates how multiple Mormonisms intersect at the Kirtland Temple. He draws on history, personal experience, and other sources in a way that made me rethink what I knew about the Kirtland Temple and that helped me see the similarities and differences between the tradition I grew up in and the tradition that I was growing into. 
+
 ### *Apostle of the Poor: The Life and Work of Missionary and Humanitarian Charles D. Neff*, by Matthew Bolton
+
+Neff was an influential apostle at a critical time of RLDS history, which makes his biography fascinating. To read about his church service is to read about the RLDS church's rethinking of itslef in the mid twentieth century, its decisions to put itself onto the path that led to it becoming Community of Christ. I've told a number of people that one thing that really appeals to me about this denomination is the fact that it has gone through a faith transition at a denominational level; that seemed to validate and affirm the decisions I was making at an individual level (not least because many of them were in the same direction). 
+
 ### *Conversions: Two Family Stories from the Reformation and Modern America*, by Craig Harline
+
+This is the second Craig Harline book on my list; after reading his *Way Below the Angels*, I couldn't help but buy this book when I saw it in a used bookstore in Boston. Harline tells the semi-parallel stories of a young man in the 17th century who upsets his family by becoming a Catholic and a young man in the 20th century who upsets his family twice by converting to Mormonism—and then coming out of the closet and leaving religion. In a moment where I was undergoing a conversion of my own, it was helpful to have these other stories and see what was familliar about them despite how different my experience was. 
 
 ## rediscovering hope
 
+Let's be honest: A lot of the changes that these books helped me through have been difficult. As much as I'm glad for my new faith trajectory, paring away old beliefs and identities has sometimes left me feeling lost and adrift. These books have been helpful for finding a way to feel hope when it's not based on absolute conviction in my qualification for the best rewards offered by a plan of happiness.
+
 ### *Heike's Void*, by Steven Peck
+
+Peck's writing is brilliant because it's weird but deeply moving. Peck's love for Mormonism is clear in this book, but he's not afraid to offer a different kind of Mormonism than the correlated one. He dares to describe the Book of Mormon's Nephi as someone whose exaltation has been halted because he hasn't repented of his slaying of Laban, and when the fictional, conservative LDS apostle who is one of the main characters of his book says something homophobic, it's clear that Peck doesn't approve. Yet, one of the key themes of the book is that no one is beyond the reach of redemption, and that's the kind of religion that I don't have any trouble believing in.
+
 ### *The Book of Forgiving*, by Desmond Tutu and Mpho Tutu
+
+So much of my faith journey over the past several years has been about using faith to stand up and against those who seek to marginalize others. I like a good social gospel, but it's easy to let that gospel be just as limited and selective as the gospel that I grew up with. This book from the Tutus was difficult to read for how seriously it took Jesus's teachings to love our enemies and to forgive seventy times seven. To hear that message from someone who lived through—and fought against—apartheid makes you think about it in a different way, and while I still don't know how to reconcile speaking truth to power and forgiving the unrighteous powerful, I'm glad for the invitation to try.
+
 ### *Walkaway*, by Cory Doctorow
+
+This is not at all a religious book, but it kind of is anyway? Doctorow is a tech activist and science fiction writer whose thinking and writing I really admire. This book is his vision of a future where things are pretty sucky, but maybe there's still some hope after all that we can fix things. It's bonkers-level weird, but through his characters, Doctorow makes a powerful case that *hope* and *optimism* are different things and that even if the future doesn't look great, we ought to hold out hope anyway. I appreciate the radical commitment of his *walkaway* characters, who reject the awful world they live in and go out into the unclaimed, polluted wilderness to try to make something different. There's a lot in here that reminds me of the radical early Christianity that [I recently wrote about](https://spencergreenhalgh.com/communities/radical-early-christianity/).
+
 ### *Still Just a Geek*, by Wil Wheaton
+
+If anything, this book is even less religious than *Walkaway*, and I'm not even sure how I wound up buying a copy of Wil Wheaton's memoir, but it fits this theme of finding hope. I appreciate Wheaton's candid exploration of his own mental health struggles, and because much of this memoir is an annotated version of a previous edition of the book, I also appreciate his own self-criticism as a person and a writer, acknowledging where he got things wrong in the past. I've wrestled a lot recently with whether I need to limit my expectations for myself because of my own struggles with anxiety and depression, but reading Wheaton's story reminds me that I can experience mental illness but still do big things. I don't know why I bought it, but I'm glad that I did. 
 
 ## finding meaning
 
+My religious worldview is less and less focused on *truth* and more and more focused on *meaning*. I've found that for me, spiritual experiences often come when I find something deeply meaningful. These books aren't really spiritual or religious in nature, but they've moved me in ways that I now count as spiritual.
+
 ### *Kiffe kiffe demain*, by Faïza Guène
+
+This short book was an amazing find in the French section of a used bookstore in Knoxville, Tennesse. It tells the story of an Arab teenager growing up in the Parisian banlieue, figuring out her life and sharing her experiences. I don't remember a lot of details of the story, but it's the kind of book that reminded me that there are people out there whose life experiences are wildly different than mine but are just as complex, rich, and meaningful as anything I've experienced. I really ought to reread this soon. 
+
 ### *Bonheur d'occasion*, by Gabrielle Roy
-### *Jerusalem: Chronicles from the Holy City*, by Guy Delisle
+
+I read this book as part of a BYU course on French Canadian literature. Like the other literature course I took as a French Teaching major, I was kind of expecting to not enjoy the class but wound up changed by it. This book, the story of a poor family in Montréal in the early 1940s, never fails to move me, and I've read it a number of times since the class where it was required homework. The main character—and her whole family—live in heartbreaking circumstances, and this book probably did more to change my worldview than any political tract or academic paper could. It may be one of my top ten books of all time.
+
+### *Chroniques de Jérusalem*, by Guy Delisle
+
+It was less than a month ago that I read the English translation of this fantastic comic (*Jerusalem: Chronicles from the Holy City*), and thanks to my brother-in-law's visit to a French bookstore in New York, I'm now making my way through the original French version. Delisle has a real gift with telling stories through comics, and some of his best known works are travelogues of his time in various places around the world. Yet, as interesting as it is to read his glimpse into Pyongyang, Jerusalem is a unique city, and while I'm fairly knowledgeable about the Arab-Israeli-Palestinian conflict thanks to a few classes in college, Delisle's depiction of the year he spent living in East Jerusalem while his partner worked in Gaza was eye-opening and perspective-changing.
+
 ### *March (Books 1-3)*, John Lewis, Andrew Aydin, and Nate Powell
+
+These comics from the late Representative John Lewis share his experience during the civil rights movement, and I'm almost embarrassed by how much I learned from these comics (and that I probably should have learned in school). It was a sign of my white naïveté that my reaction to many of the stories told in the three volumes was to think that Lewis must surely have been exaggerating—that things couldn't have been *that* bad. Like *Bonheur d'occasion* and *Chroniques de Jérusalem*, these comics were helpful in firing up some of my moral indignation about the injstices of the past—and the ones that continue today. Like many of the books on this list, I really ought to reread these ones soon.
