@@ -52,7 +52,7 @@ Deconstructing Christianity as a whole was important for me, but Mormonism is it
 
 ### *David O. McKay and the Rise of Modern Mormonism*, by Gregory A. Prince and Wm. Robert Wright.
 
-One of my BYU professors recommended this book to me, though I didn't actually read it until I was in grad school. This was probably the first sustained interaction I had with non-apologetic Latter-day Saint history, and it was eye-opening. Getting a glimpse into the inner workings of Church leadership was particularly interesting, especially in the entire chapter dedicated to the trouble Ezra Taft Benson caused to his colleagues among the General Authorities. Some time after reading this book, my uncle commented at a family reunion on some recent news about squabbles in the Vatican bureacracy and expressed gratitutde that nothing like that ever happened "in our church." Thanks to what I had read, I was no longer so sure!
+One of my BYU professors recommended this book, though I didn't actually read it until I was in grad school. This was probably the first sustained interaction I had with non-apologetic Latter-day Saint history, and it was eye-opening. Getting a glimpse into the inner workings of Church leadership was particularly interesting, especially in the entire chapter dedicated to the trouble Ezra Taft Benson caused to his colleagues among the General Authorities. Some time after reading this book, my uncle commented at a family reunion on some recent news about squabbles in the Vatican bureacracy and expressed gratitutde that nothing like that ever happened "in our church." Thanks to what I had read, I was no longer so sure!
 
 ### *Dendō: One Year and One Half in Tokyo*, by Brittany Long Olsen
 
