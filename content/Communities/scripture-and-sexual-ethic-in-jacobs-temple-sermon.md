@@ -1,10 +1,10 @@
 ---
 draft: true
-date: 2023-08-20T12:53:03-04:00
+date: 2023-08-23T12:53:03-04:00
 title: "scripture and sexual ethic in Jacob's temple sermon"
 tags: ["macro","Communities","Book of Mormon","sexual ethics","Grant Hardy"]
 ---
-This is a piece that I've been meaning to write for years, but the best I've gotten is only a Twitter thread or two. A recent conversation with Elray Henriksen encouraged me to try writing my thoughts out more completely. I've toyed around with the idea of submitting it for publication, and I may yet do so in the future, but for the moment, my priority is getting it done and out there. In that same vein, I'm using a hacked-together blend of APA and Markdown footnotes for this; it's not a real citation style, but it's what came most naturally.
+This is a piece that I've been meaning to write for years, but the best I've gotten is only a Twitter thread or two. A recent conversation with my friend Elray Henriksen encouraged me to try writing my thoughts out more completely. I've toyed around with the idea of submitting this kind of piece for publication, and I may yet do so in the future, but for the moment, my priority is getting it done and out there. In that same vein, I'm using a hacked-together blend of APA and Markdown footnotes for this; it's not a real citation style, but it's what came most naturally.
 
 ## Introduction
 
@@ -14,7 +14,7 @@ This is a piece that I've been meaning to write for years, but the best I've got
 
 [^1]: Throughout this essay, quotes and verse numbers from the Book of Mormon will be based on Community of Christ's 1966 *Revised Authorized Version*. This reflects my current denominational affiliation, [my belief in the value of a modern-language edition](https://spencergreenhalgh.com/tags/rereading-the-book-of-mormon-project/) of the Book of Mormon (though I personally think the RAV is too conservative in its modernization), and my agreement with a number of writers on the Book of Mormon that there is significance to the original chapter divisions of that book (which survive in Community of Christ editions but have been replaced by shorter chapters in LDS editions).
 
-	I also regretfully use the acronym "LDS" when referencing people, teachings, and beliefs associated with The Church of Jesus Christ of Latter-day Saints. I would use the preferred adjective "Latter-day Saint" except for the fact that members of the RLDS Church and Community of Christ have also referred to themselves as "Latter Day Saints," and I'm not confident that all readers will pick up on the telling difference in capitalization and punctuation, undermining my abililty to distinguish between these two denominations.
+	I also regretfully use the acronym "LDS" when referencing people, teachings, and beliefs associated with The Church of Jesus Christ of Latter-day Saints. I would use the preferred adjective "Latter-day Saint" except for the fact that members of the RLDS Church and Community of Christ have also referred to themselves as "Latter Day Saints," and I'm not confident that all readers will pick up on the differences in capitalization and punctuation that would indicate which group I'm talking to.
 
 Someone turning to the Book of Mormon to develop a sexual ethic would likely consult the sermon given by the Nephite prophet Jacob in the second chapter of the book bearing his name[^2]. Indeed, LDS and RLDS figures have often referred to Jacob 2 when making arguments about the nature of sexual ethics. For example, LDS apostle Mark E. Petersen[^3] quoted the above passage [in a 1969 address](https://scriptures.byu.edu/#0cf0228:t694$25858:c0cf0228) entitled *The Dangers of the So-called Sex Revolution*. Likewise, Jacob's condemnation of polygamy was a favorite resource for RLDS critics of both 19th century LDS polygamy as well as their own church's 20th century policies (and, with D&C 150, scripture) allowing polygamous men to be baptized so long as they committed to take no more wives[^4].
 
