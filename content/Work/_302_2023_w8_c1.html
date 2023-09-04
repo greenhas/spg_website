@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ICT 302 8.1</title>
+    <title>ICT 302 6.1</title>
     <meta charset="utf-8">
     <style>
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -25,298 +25,177 @@ class: center, middle
 background-color: black
 
 <h1 style=color:white>ICT 302: Content Management Systems</h1>
-<h2 style=color:white>10 October 2022</h2>
+<h2 style=color:white>26 September 2021</h2>
 <h2 style=color:white>Dr. Spencer Greenhalgh</h2>
 
 ---
 
-class: center, middle
+# WordPress: popularity
 
-# what is content? 
+--
+
+* WordPress is [widely-used](https://w3techs.com/technologies/overview/content_management)
+
+--
+
+ * compare with Italian general election [results](https://en.wikipedia.org/wiki/2022_Italian_general_election)
+
+--
+ 
+* examples of WordPress's popularity:
+
+--
+
+> > *The fact that the White House uses WordPress kind of shocked me*
+
+> Taylor Biggs
+
+--
+
+> > *I think when seeing such official big companies like Disney or Sony using WordPress you would not question this content management site.*
+
+> Aaliyah Grider
+
+--
+
+> > *I was interested as alot of large companies use Wordpress but use it on smaller pages.*
+
+> Zach Talley
+ 
 
 ---
 
-# presentation
-
-> *The general concept and processes around modifying content for display in a particular channel, usually through templating. A template applied to content will result in output which is then delivered.*
-
-Deane Barker, [Flying Squirrel Glossary](https://flyingsquirrelbook.com/glossary/term/presentation/)
+# WordPress: popularity
 
 --
 
-> *Content refers to the message. The same message can be written, spoken, or painted for example.*
+> *Either way, WP demonstrates that they can be used by a large business or even a locally own business.*
 
-Caleb Faris
+Gin Grizzell-Justice
+
+--
+ 
+* what makes WordPress successful?
 
 --
 
-> *going back to our discussion Monday, you askde for types of content, and we mostly gave examples of the presentation of that content. The dichotomy between pictures and Instagram.*
+ * open source
+ 
+--
 
-Griff
+> > > *it is free to use and the codes can be manipulated, adjusted, modified, shared, and used based on the user's needs*
+
+> > Kusmira Pandey
+
+--
+
+* what else? think about Linux...
 
 ---
 
-# presentation
+# WordPress: business model
 
-> *The general concept and processes around modifying content for display in a particular channel, usually through templating. A template applied to content will result in output which is then delivered.*
+--
+## WordPress is run—not owned—by Automattic
 
-Deane Barker, [Flying Squirrel Glossary](https://flyingsquirrelbook.com/glossary/term/presentation/)
+--
+> > *I am more motivated by impact than money, and I know that Open Source is one of the most powerful ideas of our generation.*
 
-
-> *I think presentation is something that can make or break the content and adds to the overall messaging behind what you are trying to say.*
-
-Becca Araiza
+> The Automattic Creed 
 
 --
 
-> *I know something that a lot of youtubers discuss regularly is that your title and thumbnail are more important than the actual video itself. You could make the greatest youtube video ever made but if you have an awful thumbnail and title no one will click it in the first place*
-
-Jacob Hunt
-
---
-
-> *I would imagine that a picture is not something that is common for a podcast.*
-
-Griff
-
----
-
-# separating content and presentation
-
-
-> *The idea that content should be separate from presentation is so central to content management that’s it’s become a cliché *
-
-Deane Barker, [Examining the Separation Between Presentation and Content](https://deanebarker.net/tech/blog/examining-the-separation-between-presentation-and-content/)
-
---
-
-> *I've never heard of this cliché before.*
-
-Jared Hyde
-
---
-
-> *Why is this concept very overgeneralized?*
-
-Aaliyah Grider
-
----
-
-# separating content and presentation
-
---
-
-> *The idea that content should be separate from presentation is so central to content management that’s it’s become a cliché *
-
-Deane Barker, [Examining the Separation Between Presentation and Content](https://deanebarker.net/tech/blog/examining-the-separation-between-presentation-and-content/)
-
---
-
-##two types of separation:
-
---
-
-* Content from its aesthetic surroundings, so the “presentation” is the use of colors, fonts, etc.
-
---
-
-* Content from other content, so Content A is independent from Content B, and the “presentation” is the potential combination of the two
-
---
-
-* a Hugo example
- * "[raw content](https://raw.githubusercontent.com/greenhas/spg_website/master/content/Relationships/2022-09-22-Kiddos-classmate.md)" 
- * [content with presentation](https://spencergreenhalgh.com/relationships/2022-09-22-kiddos-classmate/)
+* **anyone** can install WordPress on their own server (the `wordpress.org` approach)
  
 ---
 
-# why separate content from presentation? 
+# WordPress: business model
 
 --
 
-> *Because the fonts, colors, and structure could be specific to a certain format or medium.*
-
-Caleb Faris
+* Automattic manages/sells [other products](https://automattic.com/)
 
 --
 
-* dark mode on my sibling's [professional website](https://mitchellggreenhalgh.com/)
+* Automattic sells access to WordPress:
 
 --
 
-> *The Kernel definitely is different from other outlets for content as they are a physical newspaper*
-
-Michael Kinser
-
+ * Automattic will host a WordPress blog/site for you (the `wordpress.com` approach)
+ 
 --
 
-> *You could not take the design of a newspaper and basically copy the exact way it looks with wordpress and be done, it would not be appealing to a user.*
-
-Jacob Hunt
-
+ * Automattic runs WordPress VIP (WordPress `Infrastructure as a Service`, starting at $25,000/year)
+ 
 --
-
-> *Content presented on the Kernel is written by writers whereas it is presented by a different design team*
-
-Kusmira Pandey
-
+ 
+ > > *I just assumed that companies with great engineering might would rather design a proprietary solution.*
+ 
+ > Jared Hyde
+ 
 ---
 
-class: center, middle
+# the peripheral WordPress market
 
-# how does the Kernel separate content from presentation?
-
----
-
-class: center, middle
-
-# how does the Kernel apply presentation?
+--
+ 
+ > *65-85 million downloads with each new release*
+ 
+ Zach Schell
 
 --
 
-> *Styles is what can make or break a publication on the look as consistency can be key so that subscribers/Viewers know what to expect.*
+> *theres many jobs that use wordpress or work close to wordpress so any skill with it can translate to several jobs*
+
+Mathea Kumic
+
+--
+
+> *It also comes across that almost every business need someone that is familiar with WordPress...*
 
 Zach Talley
 
 ---
 
-class: center, middle
-
-# how does the Kernel's workflow reflect this?
-
----
-
-# how do we handle presentation in a web CMS?
+# how do you spot a WordPress site?
 
 --
 
-## HTML (HyperText Markup Language)
-
-* `<h1>test</h1>`
-
-# test
-
-* `<strong>test</strong>`
-
-**test**
-
-* `<code>test</code>`
-
-`test`
-
----
-
-# how do we handle presentation in a web CMS?
-
-
-
-## HTML (HyperText Markup Language)
-
-* `<h1>test</h1>`
-
-# test
-
-* `<strong>test</strong>`
-
-**test**
-
-* `<code>test</code>`
-
-<code style=color:red>test</code>
-
----
-
-# how do we handle presentation in a web CMS?
-
-
-
-## HTML (HyperText Markup Language)
-
-* `<h1>test</h1>`
-
-# test
-
-* `<strong>test</strong>`
-
-**test**
-
-* `<code style=color:red>test</code>`
-
-<code style=color:red>test</code>
-
----
-
-# how do we handle presentation in a web CMS?
-
-## CSS (Cascading Style Sheets)
-
-* in-line CSS:
-
-`<code style=color:red>test</code>`
-
-* CSS document:
-
-`code { `
-
-`color:red`
-
-`}`
-
----
-
-# how do we handle presentation in a web CMS?
-
-## blocks, templates, and content models
-
----
-
-# how do we handle presentation in a web CMS?
-
-## themes
-
-[WordPress Themes](https://wordpress.org/themes/)
-
----
-
-class: center, middle
-
-# why separate content from presentation?
-
----
-
-# can you really separate content from presentation?
+* what do you remember from the video ? 
 
 --
 
-> *Presentation is the glitter, a speech during a ceremony, or the words (verbal or written) to talk about a new product/service. Content is the matter being spoken of.*
+> > *I am surprised some of the massive corporations don't even change the URLs or try to hide the fact that they use free plugins.*
 
-Gin Grizzell-Justice
+> Becca Araiza
 
 --
 
-> *For example, in political discourse, there is a tendency to think of presentation as “rhetoric,” separating the content of what is said (the truth) from how it is presented (the rhetoric); thus, the “Straight Talk Express” and the “No-Spin Zone.” This separation, of course, is ancient; as Gideon Burton notes in the “Silva Rhetoricae,” rhetoricians have long created and used a distinction “between what is communicated through language and how this is communicated.”*
+> > *I have already added “/wp-admin” to some WordPress sites to access the login page*
 
-Clark (2008)
+> Caleb Faris
+
+--
+
+> > *I honestly kept on getting surprised by companies that use WordPress and how similar yet different they all looked. *
+
+> Michael Kinser
+
+--
+
+* let's try this out with [Evil Hat Productions](https://evilhat.com/)... or mayoral candidates
 
 ---
 
-# can you really separate content from presentation?
-
-> *If content is meant for consumption shouldn't it be right to always have a form of presentation linked so it is understood?*
-
-Zach Schell
+# working with WordPress
 
 --
 
-> *I believe in order to be consumed all content has to have some degree of presentation, or we wouldnt pay attention to it*
-
-Taylor Biggs
+* online interface vs. [offline clients](https://wordpress.com/support/offline-editing/)
 
 --
 
-* "[raw content](https://raw.githubusercontent.com/greenhas/spg_website/master/content/Relationships/2022-09-22-Kiddos-classmate.md)"
-
-
+* [block editor](http://159.89.226.20)
 
 
 
