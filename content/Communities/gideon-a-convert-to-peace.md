@@ -1,7 +1,7 @@
 ---
 date: 2022-07-05T12:37:48-04:00
 title: "is the Book of Mormon's Gideon a convert to peace and nonviolence?"
-tags: ["macro","Communities","Book of Mormon","Gideon","peace","nonviolence","Community of Christ","Capitol riot","Christian nationalism","Lexington","Pride","Proposition 8"]
+tags: ["macro","Communities","Book of Mormon","Gideon","peace","non-violence","Community of Christ","Capitol riot","Christian nationalism","Lexington","Pride","Proposition 8"]
 ---
 
 When I made the decision to join Community of Christ, it wasn't (just) because this was a denomination that aligned with my current religious and social values, but because I knew it would be a denomination that **pushed** me to improve my current religious and social values. I know that I have room to grow in being a better person and in making the world a better place, and I felt that Community of Christ is a denomination that would not only show me grace for who I was but also walk with me as I tried to grow in these ways.
