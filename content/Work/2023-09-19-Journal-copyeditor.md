@@ -1,0 +1,1 @@
+---%0Ddate%3a%202023-09-19T16:12:53-04:00%0Dtitle%3a%20%22%22%0Dtags%3a%20[%22micro%22,%22Work%22,%22research%22,%22writing%22,%22publishing%22]%0D---%0DJournal%20copyeditor%20changed%20a%20bunch%20of%20first-person%20language%20in%20our%20abstract%20to%20third-person%20%22the%20authors,%22%20and%20I%20am%20peeved.
