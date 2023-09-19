@@ -1,0 +1,1 @@
+---%0Ddate%3a%202023-09-19T17:01:37-04:00%0Dtitle%3a%20%22%22%0Dtags%3a%20[%22micro%22,%22Work%22,%22research%22,%22writing%22,%22publishing%22,%22danah%20boyd%22]%0D---%0DAnother%20paper,%20another%20fight%20with%20copyeditors%20about%20not%20capitalizing%20danah%20boyd's%20name.
