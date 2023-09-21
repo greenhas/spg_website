@@ -1,1 +1,6 @@
----%0Ddate%3a%202023-09-20T09:09:46-04:00%0Dtitle%3a%20%22%F0%9F%94%97%20linkblog:%20my%20thoughts%20on%20'Why%20Do%20Video%20Games%20Want%20Me%20to%20Be%20a%20War%20Criminal%3F%20%7C%20WIRED'%22%0Dtags%3a%20[%22link%22,%22Myself%22,%22ethics%22,%22values%22,%22games%22]%0D---%0DSome%20interesting%20writing%20on%20a%20topic%20I've%20posted%20about%20a%20few%20times%20recently.%20%20%0D%20%0D%0D%5Blink%20to%20'Why%20Do%20Video%20Games%20Want%20Me%20to%20Be%20a%20War%20Criminal%3F%20%7C%20WIRED'%5D(https://www.wired.com/story/why-do-video-games-want-me-to-be-a-war-criminal/)
+---
+date: 2023-09-20T09:09:46-04:00
+title: "🔗linkblog: my thoughts on 'Why Do Video Games Want Me to Be a War Criminal: WIRED'"
+tags: ["link","Myself","ethics","values","games"]
+---
+Some interesting writing on a topic I've posted about a few times recently.  [link to 'Why Do Video Games Want Me to Be a War Criminal](https://www.wired.com/story/why-do-video-games-want-me-to-be-a-war-criminal/)

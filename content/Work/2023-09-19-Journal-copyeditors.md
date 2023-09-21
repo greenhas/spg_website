@@ -1,1 +1,6 @@
----%0Ddate%3a%202023-09-19T16:49:04-04:00%0Dtitle%3a%20%22%22%0Dtags%3a%20[%22micro%22,%22Work%22,%22research%22,%22writing%22,%22publishing%22]%0D---%0DJournal%20copyeditors%20are%20great%20when%20they%20fix%20things,%20but%20when%20they%20break%20my%20sentences%20and%20don't%20ask%20questions%20about%20%22%5Binformation%20removed%20for%20blinding%5D%22,%20I%20wonder%20what%20the%20point%20is.
+---
+date: 2023-09-19T16:49:04-04:00
+title: ""
+tags: ["micro","Work","research","writing","publishing"]
+---
+Journal copyeditors are great when they fix things, but when they break my sentences and don't ask questions about "[information removed for blinding]", I wonder what the point is.
