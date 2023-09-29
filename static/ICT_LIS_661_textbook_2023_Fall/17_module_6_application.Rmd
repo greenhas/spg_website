@@ -328,13 +328,13 @@ Note that in this case we used a single `=` sign within the `rename()`. For exam
 We can also return the top `n` values of a variable using the `top_n()` \index{dplyr!top\_n()} function. For example, we can return a data frame of the top 10 destination airports in the dataframe we've already established. Observe that we set the number of values to return to `n = 10` and `wt = num_flights` to indicate that we want the rows corresponding to the top 10 values of `num_flights`. See the help file for `top_n()` by running `?top_n` for more information. 
 
 ```{r, eval=FALSE}
-flights_time_new %>% top_n(n = 10, wt = num_flights)
+freq_dest %>% top_n(n = 10, wt = num_flights)
 ```
 
 Let's further `arrange()` these results in descending order of `num_flights`:
 
 ```{r, eval=FALSE}
-flights_time_new  %>% 
+freq_dest  %>% 
   top_n(n = 10, wt = num_flights) %>% 
   arrange(desc(num_flights))
 ```
