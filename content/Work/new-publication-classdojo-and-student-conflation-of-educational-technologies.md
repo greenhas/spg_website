@@ -1,6 +1,6 @@
 ---
 date: 2023-09-25T14:08:07-04:00
-title: "new publication ClassDojo and student conflation of educational technologies"
+title: "new publication: ClassDojo and student conflation of educational technologies"
 tags: ["macro","Work","publications","ClassDojo","edtech","Daniela DiGiacomo","Sarah Barriage","ivory tower","Information and Learning Sciences"]
 ---
 Last year, Daniela DiGiacomo, Sarah Barriage, and I published [an article](https://doi.org/10.1007/s11528-021-00640-6) on student and principal perceptions of ClassDojo. Our findings weren't entirely what we expected, even if they weren't a huge surprise. In short, students and practitioners don't always share the concerns about edtech platforms (like ClassDojo) that are gaining steam in the critical educational technology literature. I don't say this to shame edtech users for not thinking the way that we ivory tower types do—rather, it speaks to a long-recognized tension between theoretical and conceptual concerns held by academics vs. the practical concerns held by those outside the academy.
