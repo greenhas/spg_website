@@ -8,7 +8,7 @@ When buzz started in April 2022 about a change of ownership at Twitter, I decide
 
 * my [Myself](/myself) posts get redirected to [@spgreenhalgh@tooting.ch](https://tooting.ch/@spgreenhalgh), a Swiss-based instance, where I also publish other posts on personal interests and projects
 * my [Relationships](/relationships) posts get redirected to [@spgreenhalgh@dads.cool](https://dads.cool/@spgreenhalgh), a parenting-focused instance, where I also publish other posts on family life and friendships
-* my [Work](/work) posts get redirected to [@spgreenhalgh@scholar.social](https://scholar.social/@spgreenhalgh), an academia-focused instance, where I also publish other posts on teaching and research
+* my [Work](/work) posts get redirected to [@spgreenhalgh@sciences.social](https://sciences.social/@spgreenhalgh), a social science-focused instance, where I also publish other posts on teaching and research
 * my [Communities](/communities) posts get redirected to [@spgreenhalgh@mozilla.social](https://mozilla.social/@spgreenhalgh), an instance run by the tech-focused Mozilla non-profit, where I also publish other posts on politics and religion.
 
 **All** of my posts also get redirected to my Micro.blog account (which actually also does the `RSS ➡️ Mastodon` forwarding for me as well). As of early 2023, you can follow [@spgreenhalgh@micro.blog](https://micro.blog/spgreenhalgh) from any Mastodon account to get everything.
