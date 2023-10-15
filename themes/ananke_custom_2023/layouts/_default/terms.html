@@ -1,0 +1,17 @@
+{{ define "main" }}
+    {{ $data := .Data }}
+  <article class="cf pa3 pa4-m pa4-l">
+    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links {{ $.Param "text_color" | default "mid-gray" }}">
+      {{ .Content }}
+    </div>
+  </article>
+  <div class="mw8 center">
+    <section class="ph4">
+        {{ range .Data.Terms.Alphabetical }}
+        <h2 class="f3">        
+            <a href="{{ .Page.Permalink }}" class="link blue hover-black">{{ .Page.Title }}</a> ({{ .Count }})</a>          
+        </h2>
+      {{ end }}
+    </section>
+  </div>
+{{ end }}
