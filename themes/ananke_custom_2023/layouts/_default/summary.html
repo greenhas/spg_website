@@ -8,7 +8,7 @@
     </h1>
     <a href="{{ .RelPermalink }}" class="link black dim">
         <time class="f6 mv2 dib tracked" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
-            {{- .Date | time.Format (default "January 2, 2006" .Site.Params.date_format) -}}
+            {{- .Date | time.Format (default "2 January 2006" .Site.Params.date_format) -}}
             </time>
     </a>
     
