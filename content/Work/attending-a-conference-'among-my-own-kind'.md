@@ -3,7 +3,7 @@ date: 2023-10-18T09:26:43-04:00
 title: "attending a conference 'among my own kind'"
 tags: ["macro","Work","Barry Wellman","Anatoliy Gruzd","Yuri Takhteyev","Twitter","SSSR","SSSR 2023","community","AECT","AECT 2023","Mormonism","Mormon Studies"]
 ---
-One paper that I read and reread as I was starting to get into Twitter research was Anatoliy Gruzd, Barry Wellman, and Yuri Takhteyev's "Imagining Twitter as an Imagined Community," [published](https://doi.org/10.1177/0002764211409378) in a 2011 issue of *American Behavioral Scientists. I thought of this paper again yesterday; more specifically, I thought about the anecdote that the article begins with:
+One paper that I read and reread as I was starting to get into Twitter research was Anatoliy Gruzd, Barry Wellman, and Yuri Takhteyev's "Imagining Twitter as an Imagined Community," [published](https://doi.org/10.1177/0002764211409378) in a 2011 issue of *American Behavioral Scientist*. I thought of this paper again yesterday; more specifically, I thought about the anecdote that the article begins with:
 
 > Barry and Beverly Wellman moved to Toronto more than 40 years ago. Not being able to get a public school job at first, Beverly went to teach English-language subjects at a Jewish day school. She lived downtown and commuted to the suburbs. One day the principal asked her,
 > 
