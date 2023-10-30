@@ -1,7 +1,8 @@
 <div class="relative w-100 mb4 bg-white nested-copy-line-height">
   <div class="bg-white pa4 gray overflow-hidden">
     <!--{{with .CurrentSection.Title }}<span class="f6 db">{{ . }}</span>{{end}}-->
-    <h1 class="f3 near-black">
+    
+    <h1 class="f5 near-black">
       <a href="{{ .RelPermalink }}" class="link black dim">
         {{ .Title }}
       </a>
@@ -9,11 +10,11 @@
     <a href="{{ .RelPermalink }}" class="link black dim">
         <time class="f6 mv2 dib tracked" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
             {{- .Date | time.Format (default "2 January 2006" .Site.Params.date_format) -}}
-            </time>
+            </time> <button class="tinylytics_kudos" data-path="{{ .RelPermalink }}"></button><br>
     </a>
     </br>
-      <button class="tinylytics_kudos" data-path="{{ .RelPermalink }}"></button><br>
       {{ .Summary }}
+      
     </div>
     
   </div>
