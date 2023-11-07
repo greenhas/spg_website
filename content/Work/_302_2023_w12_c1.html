@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ICT 302 11.1</title>
+    <title>ICT 302 12.1</title>
     <meta charset="utf-8">
     <style>
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -25,14 +25,87 @@ class: center, middle
 background-color: black
 
 <h1 style=color:white>ICT 302: Content Management Systems</h1>
-<h2 style=color:white>31 October 2023</h2>
+<h2 style=color:white>7 November 2023</h2>
 <h2 style=color:white>Dr. Spencer Greenhalgh</h2>
 
 ---
 
 class: center, middle
 
-# how have you been able to customize your CMS so far? 
+# what is content?
+
+---
+
+class: center, middle
+
+## why is there so much focus on the editorial process?
+
+
+---
+
+# when editorial process goes wrong!
+
+November 17, 2020 *New York Times* [story](https://www.nytimes.com/2020/11/17/world/europe/france-website-obituaries.html) by Aurelien Breeden: 
+
+> *For a brief moment this week, startled readers of a French news site had to grapple with the apparent demise of Queen Elizabeth II of England; Pelé, the Brazilian soccer legend; Clint Eastwood; Brigitte Bardot; and dozens of other celebrities and world leaders.*
+
+> *As it turned out, the website of Radio France Internationale had mistakenly published about 100 prewritten obituaries for prominent figures.*
+
+> *Several hours after the obituaries first ran on Monday, the public radio station, which broadcasts in France and abroad, apologized and started taking the reports offline. It said unedited drafts had been accidentally published as it moved its website to a new content management system. Online platforms like Google and Yahoo News then automatically picked up some of the articles.*
+
+---
+
+# when editorial process goes wrong!
+
+August 8, 2022 *The Onion* [article](https://www.theonion.com/note-do-not-run-until-fucking-queen-is-dead-or-people-1849511595): 
+
+> *LONDON—After 70[?] years as the ruling monarch of the United Kingdom and [CHECK HOW MANY COUNTRIES SHE’S IN CHARGE OF OR ELSE TWITTER PEDANTS WILL GET MAD] Queen Elizabeth died [PEACEFULLY OR PAINFULLY—COPY WHATEVER BBC OBIT SAYS] in [TK LOCATION] at the age of 89. A child [ONLY? CHECK IF BROTHERS AND SISTERS] of King George VI and [LOOK UP MOTHER’S NAME], she ascended to the throne in 19[TK DO NOT GET THIS WRONG OR PEOPLE WILL BE MAD] following the death of her father, and during her reign presided over such events as the Troubles in Ireland, decolonization in Africa [NOTE: CAN IT BE THAT RECENT? DOUBLE-CHECK], and Brexit.*
+
+---
+
+# when editorial process goes wrong!
+
+February 28, 2022 *The Scotsman* [story](https://www.scotsman.com/news/world/russian-news-agency-appears-to-accidentally-publish-article-claiming-victory-3590253): 
+
+> *It is the blunder feared by every news outlet that has pre-prepared articles written in the event of a sudden breaking story.*
+
+> *For Russian state-run news agency RIA-Novosti, the error was arguably worse than many similar bloopers, when it published a comment piece [two days after the invasion] proclaiming Russian victory in the conflict between Ukraine and Russia.*
+
+---
+
+# when editorial process goes wrong!
+
+July 6, 2023 *The Verge* [story](https://www.theverge.com/2023/7/6/23785645/go-media-ai-generated-articles-gizmodo-av-club-artificial-intelligence-bots):
+
+> *G/O’s early experiments with AI tools began on Wednesday through a couple of articles appearing on Gizmodo and The AV Club credited to the publications’ respective bots. And almost immediately, there were embarrassing mistakes.*
+
+> *The Gizmodo bot’s first story, “A Chronological List of Star Wars Movies & TV Shows,” contained factual errors about the in-universe chronology of the franchise, something fans were quick to point out.*
+
+> *James Whitbrook, a deputy editor of *io9*, where the story appeared, tweeted that he was unaware the article would be published until shortly before. Whitbrook also said that “no one at *io9* played a part in its editing or publication.”*
+
+---
+
+# workflow
+
+> *An framework to move content through a defined set or map of specific steps, activities, or tasks.*
+
+--
+
+> *The content can only be “in” one such state for a particular workflow at a time. When that state resolves, content will “move” to another state, and continue until the workflow ends.*
+
+Deane Barker, [Flying Squirrel Glossary](https://flyingsquirrelbook.com/glossary/term/workflow/)
+
+---
+
+class: center, middle
+
+# workflows for group projects?
+
+---
+
+class: center, middle
+
+# how have we customized Hugo and WordPress in this class? 
 
 ---
 
@@ -51,10 +124,6 @@ Deane Barker, *Web Content Management*, p. 235
 --
 
 > *Then there are deeper customizations to change or add to the operation of the CMS itself*
-
---
-
-let's look at our [class WordPress setup](http://159.89.226.20/wp-admin/)
 
 ---
 
@@ -83,6 +152,7 @@ Deane Barker, [Flying Squirrel CMS Glossary](https://flyingsquirrelbook.com/glos
 Deane Barker, [Flying Squirrel CMS Glossary](https://flyingsquirrelbook.com/glossary/term/application-programming-interface/)
 
 --
+
 ## API examples
 
 --
@@ -143,82 +213,6 @@ class: center, middle
 
 ---
 
-# security
-
---
-
-> *Is this also an issue with open source software like we've mentioned before?*
-
-Mathea Kumic
-
---
-
-> *Why wouldn't the schools run a hacking test to see if something like this was possible before giving it access to student information.*
-
-Whitman Joyner
-
---
-
-> *hide it in other, more harmless code* 
-
-Taylor Biggs
-
----
-
-# maintainability
-
---
-
-> *When a software gets upgraded or in this case a plugin gets updated many do not like updates as they are fearful of losing data or losing the method of how they used this before.*
-
-Zach Talley
-
---
-
-> *This has happened to me and it can be super frustrating as these are helpful extensions that I have on my computer to make things easier and then they are gone because they are not supported anymore.*
-
-Michael Kinser
-
---
-
-> *Since our group uses a plugin for our forums, if this extension is no longer supported, we lose a major element of our site*
-
-Taylor Biggs
-
---
-
-> *How common is it for users to lose functionality after an upgrade?*
-
-Aaliyah Grider
-
----
-
-# when the plugin (not the software) becomes dominant
-
---
-
-> *There is some kind of extension majority of people use and everyttime tumblr pushes out an aweful update, users just wait for that plugin/extension to be updated so that it functions more like older version and has the features and accessibilty they like*
-
-Mathea Kumic
-
---
-
-> *What the developers make themselves ends up maybe not being supported on the next version of the software that the plugin is running on, but they still have to take the blame*
-
-Joseph Schodrowski
-
---
-
-> *Usually an OS update offers more features and better security. It should not be Microsoft's responsibility to build their system around others. *
-
-Caleb Faris
-
----
-
-# consistency
-
----
-
 class: center, middle
 
 # you can't avoid plugins, but try anyway
@@ -227,37 +221,21 @@ class: center, middle
 
 class: center, middle
 
-*A question I have had before is at what point are plugins more of a hassle then just making it "in house".*
-
-Ethan Johnson
+![](https://upload.wikimedia.org/wikipedia/en/f/fd/Secret-Wars-Black-Costume.png)
 
 ---
 
 class: center, middle
 
-*Some softwares/plugins can allow for users to feel that their data is trapped unless they pay that subscription or that they keep using that certain plug as their content was built using that specific plug in.*
+## [Global Mormon Studies website](https://globalmormonstudies.org)
 
-Zach Talley
-
----
-
-class: center, middle
-
-*Some functions should be ideally partnered with the Platform to maintain that relationship. If a plugin or extension is seen as necessary then they should be recognized as such.*
-
-Zach Schell
-
-*At this point, if a plugin is used by a majority of the user base and provides a critical function why not just integrate it.*
-
-Mathea Kumic
+## [Journal of the Mormon Social Science Association](https://jmssa.org)
 
 ---
 
 class: center, middle
 
 # carefully vet the plugins that you do use!
-
-
 
 
 
