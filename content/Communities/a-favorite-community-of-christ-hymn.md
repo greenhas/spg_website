@@ -4,7 +4,7 @@ title: "a favorite Community of Christ hymn"
 tags: ["macro","Communities","Community of Christ Sings","Day One","journaling","hymns","Peace Salaam Shalom","2023 World Conference","Katie Harmon-McLaughlin","French"]
 ---
 
-As I've [written before](https://spencergreenhalgh.com/work/rediscovering-some-comments-on-computational-thinking/), one of my favorite things about the Day One journaling app is the "On this Day" feature that lets me remember moments from my past—often moments I might have forgotten if I hadn't journaleda bout them.
+As I've [written before](https://spencergreenhalgh.com/work/rediscovering-some-comments-on-computational-thinking/), one of my favorite things about the Day One journaling app is the "On this Day" feature that lets me remember moments from my past—often moments I might have forgotten if I hadn't journaled about them.
 
 This morning, Day One reminded me of a hymn service my local Community of Christ congregation held a couple of years ago. I had been invited to share a memory of a favorite hymn. It's been a lot of fun to learn new hymns (and new versions of familiar hymns) during my adventure with Community of Christ, but the hymn I chose to speak about was *Peace Salaam Shalom*, which you can listen to in the video below:
 
