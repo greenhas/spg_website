@@ -52,7 +52,7 @@
       {{- partial "tags.html" . -}}
        <p style="font-size:smaller">You can click on the <code><</code> button in the top-right of your browser window to read and write comments on this post with <em><a href="https://web.hypothes.is/">Hypothesis</a></em>. You can read more about how I use this software <a href="/hypothesis/">here</a>.</p>
        <p style="font-size:smaller">Any <a href="https://indieweb.org/Webmention">Webmentions</a> will also be displayed below:</p>
-       <script type="text/javascript" src="https://micro.blog/conversation.js?url={{.Permalink }}></script>
+       <script type="text/javascript" src="https://micro.blog/conversation.js?url={{ .Permalink }}></script>
       <div class="mt6 instapaper_ignoref">
       {{ if .Site.DisqusShortname }}
         {{ template "_internal/disqus.html" . }}
