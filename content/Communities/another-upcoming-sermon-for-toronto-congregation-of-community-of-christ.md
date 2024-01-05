@@ -7,7 +7,7 @@ Last July, I [gave my first sermon](https://spencergreenhalgh.com/communities/te
 
 Since the links for the YouTube live events are now up, I thought I'd share them in a post; at the very least, it will serve as motivation to get my act together!I'll be preaching during the regular 12pm Eastern service: 
 
-{{< youtube id="Yb2EQe6Egk">}}
+{{< youtube id="-Yb2EQe6Egk">}}
 
 Beyond the Walls also does *Late Edition* service for people in other time zones (or with other schedules), so my sermon will be rebroadcast as part of that at 6pm Eastern:
 
