@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 202 13.2</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 202: Technologies for Information Services</h1>
+<h2 style=color:white>A+, Chapter 17: Display Technologies</h2>
+<h2 style=color:white>5 Apr 2022</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+background-color: gray
+
+class: center, middle
+
+# updates and looking ahead
+
+---
+
+# this week
+
+## Monday: readings and lecture
+
+* read A+, Chapter 15: Working with the Command-Line Interface (before Monday lecture)
+
+## Wednesday: readings and lecture
+
+* read A+, Chapter 17: Display Technologies (before Wednesday lecture)
+* take quiz (by Wednesday)
+
+## Friday: reflection and application
+
+* reflect on command line interfaces in fiction (by Thursday)
+* complete the "Pac-Man treasure hunt" (by Sunday)
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# chapter 15 catchup!
+
+---
+
+class: center, middle
+
+# file formats and file extensions
+
+---
+
+class: center, middle
+
+# "Catherine Garland, an astrophysicist, started seeing the problem in 2017. ... She’d laid out the assignment clearly, but student after student was calling her over for help. They were all getting the same error message: The program couldn’t find their files." 
+
+Chin, M. (2021, September 22). File not found. *The Verge*. https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z
+
+---
+
+class: center, middle
+
+# "Garland thought it would be an easy fix. She asked each student where they’d saved their project. Could they be on the desktop? Perhaps in the shared drive? ... Not only did they not know where their files were saved — they didn’t understand the question."
+
+Chin, M. (2021, September 22). File not found. *The Verge*. https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z
+
+---
+
+class: center, middle
+
+# "Gradually, Garland came to the same realization that many of her fellow educators have reached in the past four years: the concept of file folders and directories, essential to previous generations’ understanding of computers, is gibberish to many modern students."
+
+Chin, M. (2021, September 22). File not found. *The Verge*. https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z
+
+---
+
+class: center, middle
+
+# "Changing the extension of a data file does not affect the format of its contents, but without the proper extension, your operating system won't know which program uses it."
+
+(Meyers, 2019, p. 633)
+
+---
+
+class: center, middle
+
+# let's try this with [a CSV spreadsheet](https://github.com/greenhas/spg_website/blob/master/static/Twitter_hashtags.csv)
+
+# let's try this with [the 202 syllabus](https://uk.instructure.com/courses/2062015/assignments/syllabus#)
+
+---
+
+class: center, middle
+
+# filepaths (and CLIs) have specific conventions
+
+# `C:\Users\spgreenhalgh\Desktop`
+
+# `~/Desktop`
+
+---
+
+class: center, middle
+
+# filenames and folder names have rules, depending on the OS/software
+
+---
+
+class: center, middle
+
+# wildcards
+
+---
+
+class: center, middle
+
+# "Visualize having 273 files in one directory. A few of these files have the extension .docx, but most do not. You are looking only for files with the .docx extension."
+
+(Meyers, 2019, p. 661)
+
+---
+
+class: center, middle
+
+# *.docx
+
+---
+
+class: center, middle
+
+# `grep` and [regular expressions](https://regexr.com/) in Unix CLIs
+
+---
+
+class: center, middle
+
+<img src="https://imgs.xkcd.com/comics/regular_expressions.png" width = "600">
+
+---
+
+class: center, middle
+
+# "Deleting files is simple—maybe too simple."
+
+(Meyers, 2019, p. 653)
+
+---
+
+
+background-color: gray
+
+class: center, middle
+
+# A+, Chapter 17: Display Technologies
+
+---
+
+class: center, middle
+
+# "The term *video* encompasses a complex interaction among numerous parts of personal computing devices, all designed to put a picture on the screen." 
+
+(Meyers, 2019, p. 737)
+
+---
+class: center, middle
+
+<a title="Moxfyre at English Wikipedia, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Motherboard_diagram.svg"><img width="400" alt="Motherboard diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Motherboard_diagram.svg/512px-Motherboard_diagram.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Denelson83, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Semaphore_Signals_A-Z.jpg"><img width="800" alt="Semaphore Signals A-Z" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Semaphore_Signals_A-Z.jpg/1024px-Semaphore_Signals_A-Z.jpg"></a>
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# monitors
+
+---
+
+class: center, middle
+
+<a title="ed g2s • talk, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Pixel-example.png"><img width="256" alt="Pixel-example" src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Pixel-example.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Yaohua2000, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:20020811203148_-_NOI_2002.jpg"><img width="512" alt="20020811203148 - NOI 2002" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/20020811203148_-_NOI_2002.jpg/512px-20020811203148_-_NOI_2002.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="Pengo, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Pixel_geometry_01_Pengo.jpg"><img width="512" alt="Pixel geometry 01 Pengo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Pixel_geometry_01_Pengo.jpg/512px-Pixel_geometry_01_Pengo.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="Kprateek88, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Closeup_of_pixels.JPG"><img width="256" alt="Closeup of pixels" src="https://upload.wikimedia.org/wikipedia/commons/d/de/Closeup_of_pixels.JPG"></a>
+
+---
+
+class: center, middle
+
+# variations in LCD displays
+
+---
+
+class: center, middle
+
+# resolution (e.g., 2560 x 1440) 
+
+---
+
+class: center, middle
+
+<a title="TRauMa, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Digital_video_resolutions_(VCD_to_4K).svg"><img width="800" alt="Digital video resolutions (VCD to 4K)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Digital_video_resolutions_%28VCD_to_4K%29.svg/1024px-Digital_video_resolutions_%28VCD_to_4K%29.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Kprateek88, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Closeup_of_pixels.JPG"><img width="256" alt="Closeup of pixels" src="https://upload.wikimedia.org/wikipedia/commons/d/de/Closeup_of_pixels.JPG"></a>
+
+---
+
+class: center, middle
+
+# *native resolution*
+
+---
+
+class: center, middle
+
+# aspect ratio
+
+---
+
+class: center, middle
+
+# brightness
+
+---
+
+class: center, middle
+
+<a title="Grimlock, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Backlit_LCD_display.jpg"><img width="512" alt="Backlit LCD display" src="https://upload.wikimedia.org/wikipedia/commons/4/45/Backlit_LCD_display.jpg"></a>
+
+---
+
+class: center, middle
+
+# viewing angle
+
+---
+
+class: center, middle
+
+# twisted nematic ~ 70 degree viewing angle
+
+# in-plane switching ~ 178 degree viewing angle
+
+---
+
+class: center, middle
+
+# response rate
+
+---
+
+class: center, middle
+
+<a title="Kprateek88, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Closeup_of_pixels.JPG"><img width="256" alt="Closeup of pixels" src="https://upload.wikimedia.org/wikipedia/commons/d/de/Closeup_of_pixels.JPG"></a>
+
+---
+
+class: center, middle
+
+# contrast ratio
+
+---
+
+class: center, middle
+
+# "the difference between the darkest and lightest spots that the monitor can display"
+
+(Meyers, 2019, p. 749)
+
+---
+
+class: center, middle
+
+# color depth
+
+---
+
+class: center, middle
+
+<a title="Megodenas, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Conversion_AD_DA.png"><img width="256" alt="Conversion AD DA" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Conversion_AD_DA.png/256px-Conversion_AD_DA.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Pi3.124, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Light_switch_panel.jpg"><img width="512" alt="Light switch panel" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Light_switch_panel.jpg/512px-Light_switch_panel.jpg"></a>
+
+---
+
+class: center, middle
+
+## 1 bit = how many colors?
+
+<a title="Thegreenj, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:1_bit.png"><img width="256" alt="1 bit" src="https://upload.wikimedia.org/wikipedia/commons/5/57/1_bit.png"></a>
+
+---
+
+class: center, middle
+
+## 2 bit = how many colors?
+
+<a title="8_bit.png: JorgePeixoto
+derivative work: User:JeffyP, CC BY-SA 2.5 &lt;https://creativecommons.org/licenses/by-sa/2.5&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:2_bit.png"><img width="256" alt="2 bit" src="https://upload.wikimedia.org/wikipedia/commons/5/56/2_bit.png"></a>
+
+---
+
+class: center, middle
+
+## 4-bit = how many colors?
+
+<a title="Thegreenj, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:4_bit.png"><img width="256" alt="4 bit" src="https://upload.wikimedia.org/wikipedia/commons/0/0d/4_bit.png"></a>
+
+---
+
+class: center, middle
+
+## 8-bit = how many colors?
+
+<a title="Thegreenj, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:8_bit.png"><img width="256" alt="8 bit" src="https://upload.wikimedia.org/wikipedia/commons/f/ff/8_bit.png"></a>
+
+---
+
+class: center, middle
+
+# Web colors
+
+<iframe width = "800", height = "500" src="https://en.wikipedia.org/wiki/Web_colors#Basic_colors">
+
+---
+
+class: center, middle
+
+# why do these numbers go from `0` to `F`?
+
+---
+
+class: center, middle
+
+# how hexadecimal works
+
+---
+
+class: center, middle
+
+# Web colors = 6 base-16 digits = 16,777,216 colors
+
+---
+
+class: center, middle
+
+# monitor ports
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# projectors
+
+---
+
+class: center, middle
+
+background-color: gray
+
+# VR headests
+
+---
+
+class: center, middle 
+
+background-color: gray
+
+# video cards
+
+---
+
+class: center, middle
+
+# traditionally an expansion card plugged into the motherboard
+
+---
+
+class: center, middle
+
+# increasingly integrated with CPU and motherboard (but still called "video card")
+
+---
+
+class: center, middle
+
+# GPUs
+
+---
+
+class: center, middle
+
+![](https://imgs.xkcd.com/comics/cutting_edge.png)
+
+---
+
+class: center, middle
+
+# "The graphics processor handles the heavy lifting of taking commands from the the CPU and translating them into coordinates and color information that the monitor understands and displays" 
+
+(Meyers, 2019, p. 762)
+
+---
+
+class: center, middle
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="600" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+# "But the rise of cryptocurrency mining has created an unprecedented global shortage of graphics cards. If you go to your local retailer, you're likely to find bare shelves where the beefier cards used to be. Instead of trading at a discount, used cards routinely sell for well above MSRP on sites like eBay and Craigslist."
+
+Lee, T. B. (2018, January 18). Here's why you can't buy a high-end graphics card at Best Buy. *Ars Technica*. https://arstechnica.com/tech-policy/2018/01/cryptocurrency-boom-creates-insane-global-graphics-card-shortage/ 
+
+---
+
+class: center, middle
+
+## "Cryptocurrency has had a rough year. Bitcoin has fallen by more than 50 percent since the start of the year, from nearly $48,000 in January to just over $20,000 as of publication. Celsius, a major cryptocurrency 'bank,' suspended withdrawals earlier this week, and the Coinbase crypto exchange announced a round of layoffs this past Tuesday after pausing hiring last month."
+
+Cunningham, A. (2022, June 17). As cryptocurrency tumbles, prices for new and used GPUs continue to fall. *Ars Technica*. https://arstechnica.com/gadgets/2022/06/as-cryptocurrency-tumbles-prices-for-new-and-used-gpus-continue-to-fall/
+
+---
+
+class: center, middle
+
+## "It may be small comfort to anyone who wanted to work at Coinbase or spent hard-earned money on an ugly picture of an ape because a celebrity told them to, but there's some good news for PC builders and gamers in all of this. As tracked by Tom's Hardware, prices for new and used graphics cards continue to fall, coming down from their peak prices in late 2021 and early 2022. "
+
+Cunningham, A. (2022, June 17). As cryptocurrency tumbles, prices for new and used GPUs continue to fall. *Ars Technica*. https://arstechnica.com/gadgets/2022/06/as-cryptocurrency-tumbles-prices-for-new-and-used-gpus-continue-to-fall/
+
+
+
+</textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		}
+  		});
+    </script>
+  </body>
+</html>

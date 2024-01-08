@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 202 6.1</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 202: Technologies for Information Services</h1>
+<h2 style=color:white>A+, Chapter 5: Firmware</h2>
+<h2 style=color:white>13 Feb 2022</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+background-color: gray
+
+class: center, middle
+
+# updates and looking ahead
+
+---
+
+class: center, middle
+
+# you can apply for the CI Student Ambassador Program (and associated scholarship) [here](https://uky.az1.qualtrics.com/jfe/form/SV_agvS88kwcgG9uKO) by Sunday, March 19th
+
+# keep an eye out for emails from the Lambda Pi Eta honor society
+
+---
+
+class: center, middle
+
+<img src="https://spencergreenhalgh.com/CI_PowerHour.png" width = "600">
+
+---
+
+# this week
+
+## Monday: readings and lecture
+
+* read A+, Chapter 5: Firmware (before Monday lecture)
+
+## Wednesday: readings and lecture
+
+* read A+, Chapter 6: Motherboards (before Wednesday lecture)
+* take quiz (by Wednesday)
+
+## Friday: reflection and application
+
+* reflect on technology and power (by Thursday)
+* label your main computer's motherboard (by Sunday)
+
+---
+
+class: center, middle
+
+## in pairs, what general process do all computers follow?
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+## in pairs, what is the CPU pipeline?
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+## what kind of hardware is associated with input?
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+## what kind of hardware is associated with output?
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+## what kind of hardware is associated with processing?
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+## what role does memory play in all of this?
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+## what other hardware is important but not pictured here?
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/ComputerMemoryHierarchy.svg" width="800">
+
+---
+
+class: center, middle
+
+## how do these different pieces of hardware communicate with each other?
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+# `00101010`
+
+---
+
+class: center, middle
+
+<a title="User:Martinultima Changes by Habitator terrae, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Answer_to_Life_42.svg"><img width="512" alt="Answer to Life 42" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Answer_to_Life_42.svg/512px-Answer_to_Life_42.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="U.S. Navy photo by Photographer&#039;s Mate Airman Javier Capella, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg"><img width="800" alt="US Navy 051129-N-0685C-007 Quartermaster Seaman Ryan Ruona signals with semaphore flags during a replenishment at sea" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg/1024px-US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg"></a>
+
+---
+
+class: center, middle
+
+# machine code for the Intel 8088
+
+## 10111010 = "the next line of code is a number; put that number into the DX register"
+## 01000001 = "add 1 to the number already in the CX register"
+## 00111100 = "compare the value in the AX register with the next line of code"
+
+---
+
+class: center, middle
+
+# okay, but what about...
+
+---
+class: center, middle
+
+<a title="Riki1979, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Tastatur-Einzelteile.jpg"><img width="512" alt="Tastatur-Einzelteile" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Tastatur-Einzelteile.jpg/512px-Tastatur-Einzelteile.jpg"></a>
+---
+
+class: center, middle
+
+<a title="!Original: JeremykempVector: Pbroks13, Attribution, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Mouse_mechanism_diagram.svg"><img width="512" alt="Mouse mechanism diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Mouse_mechanism_diagram.svg/512px-Mouse_mechanism_diagram.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Mercury13, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:TouchScreen_projective_capacitive.svg"><img width="256" alt="TouchScreen projective capacitive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/TouchScreen_projective_capacitive.svg/256px-TouchScreen_projective_capacitive.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Thiemo Schuff, CC BY-SA 3.0 DE &lt;https://creativecommons.org/licenses/by-sa/3.0/de/deed.en&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:HP_Laserjet_5_DN_1.jpg"><img width="512" alt="HP Laserjet 5 DN 1" src="https://upload.wikimedia.org/wikipedia/commons/7/72/HP_Laserjet_5_DN_1.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="Evan-Amos, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Logitech-usb-speakers.jpg"><img width="512" alt="Logitech-usb-speakers" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Logitech-usb-speakers.jpg/512px-Logitech-usb-speakers.jpg"></a>
+---
+
+class: center, middle
+
+# firmware
+
+---
+
+class: center, middle
+
+# why "firm"ware?
+
+---
+
+class:  center, middle
+
+# Basic Input/Output Services (BIOS)
+
+---
+
+class: center, middle
+
+<a title="© 2010 by Tomasz Sienicki [user: tsca, mail: tomasz.sienicki at gmail.com], CC BY 3.0 &lt;https://creativecommons.org/licenses/by/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Miniature_DNF_Dictionary_055_ubt.JPG"><img width="800" alt="Miniature DNF Dictionary 055 ubt" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Miniature_DNF_Dictionary_055_ubt.JPG/1024px-Miniature_DNF_Dictionary_055_ubt.JPG"></a>
+
+---
+
+class: center, middle
+
+# Unified Extensible Firmware Interface (UEFI)
+
+---
+
+class: center, middle
+
+# where should we store BIOS?
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/ComputerMemoryHierarchy.svg" width="600">
+
+---
+
+class: center, middle
+
+# what about the operating system?
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/ComputerMemoryHierarchy.svg" width="600">
+
+---
+class: center, middle
+
+# flash ROM
+
+---
+
+class: center, middle
+
+<a title="User:Stevage, CC BY-SA 2.5 &lt;https://creativecommons.org/licenses/by-sa/2.5&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Kebab_menu_France.jpg"><img width="400" alt="Kebab menu France" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kebab_menu_France.jpg/512px-Kebab_menu_France.jpg"></a>
+
+---
+
+class: center, middle
+
+# Complementary Metal-Oxide Semiconductor (CMOS)
+
+---
+
+class: center, middle
+
+# CMOS = RAM + battery
+
+---
+
+class: center, middle
+
+<a title="Ildar Sagdejev (Specious), CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:2008-10-12_Elmo%27s_waiter_with_pad.jpg"><img width="400" alt="2008-10-12 Elmo&#039;s waiter with pad" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/2008-10-12_Elmo%27s_waiter_with_pad.jpg/512px-2008-10-12_Elmo%27s_waiter_with_pad.jpg"></a>
+
+---
+
+class: center, middle
+
+# device drivers
+
+---
+
+class: center, middle
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/ComputerMemoryHierarchy.svg" width="800">
+
+---
+
+class: center, middle
+
+## the boot process
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+## 1. power on
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+## 2. awaken CPU
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+## 3. start POST (power-on self test)
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+## 4. load operating system
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+# why is it so important to be careful with CMOS settings? 
+
+</textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		}
+  		});
+    </script>
+  </body>
+</html>

@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 202 6.2</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 202: Technologies for Information Services</h1>
+<h2 style=color:white>A+, Chapter 9: Implementing Mass Storage </h2>
+<h2 style=color:white>22 Feb 2023</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+
+class: center, middle
+
+# you can apply for the CI Student Ambassador Program (and associated scholarship) [here](https://uky.az1.qualtrics.com/jfe/form/SV_agvS88kwcgG9uKO) by Sunday, March 19th
+
+# keep an eye out for emails from the Lambda Pi Eta honor society
+
+
+---
+
+# Spring 2023 [CI Career Week](https://ci.uky.edu/ci/CICareerWeek)
+
+## highlights:
+
+* **Monday, 27 Feb, 3pm**: [Bias, Awareness, and Belonging: Diversity, Equity, and Inclusion in the Workplace](https://uky.campuslabs.com/engage/event/8879326)
+
+* **Monday, 27 Feb, 4pm**: [Using Communication Careers for Social Change](https://uky.campuslabs.com/engage/event/8879352)
+
+* **Tuesday, 28 Feb, 10am-12pm**: [Resumania](https://uky.campuslabs.com/engage/event/8879368)
+
+* **Tuesday, 28 Feb, 3:30pm**: [What I Wish I'd Known for My First Job](https://uky.zoom.us/j/81255528560)
+
+* **Wednesday, 1 Mar, 1pm-4pm**: [Career and Internship Fair](https://uky.campuslabs.com/engage/event/8879407)
+
+* **Thursday, 2 Mar, 12pm**: [Making Them Work for You: Understanding Employment and Recruiters](https://uky.campuslabs.com/engage/event/8879444)
+
+---
+
+# this week
+
+## Monday: readings and lecture
+
+* read A+, Chapter 8: Mass Storage Technologies (before Monday lecture)
+
+## Wednesday: readings and lecture
+
+* read A+, Chapter 9: Implementing Mass Storage (before Wednesday lecture)
+* take quiz (by Wednesday)
+
+## Friday: reflection and application
+
+* reflect on data storage in fiction (by Thursday)
+* examine partitions on your virtual machine (by Sunday)
+---
+
+background-color: gray
+
+class: center, middle
+
+# A+, Chapter 9: Implementing Mass Storage
+
+---
+
+class: center, middle
+
+# talk to a partner: what are the differences between HDDs and SSDs? 
+
+---
+
+class: center, middle
+
+<a title="I, Surachit, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Hard_drive-en.svg"><img width="512" alt="Hard drive-en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hard_drive-en.svg/512px-Hard_drive-en.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="MatteX, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Samsung_SSD_840_120GB_MZ-7TD120--4_LID_REMOVED.JPG"><img width="256" alt="Samsung SSD 840 120GB MZ-7TD120--4 LID REMOVED" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Samsung_SSD_840_120GB_MZ-7TD120--4_LID_REMOVED.JPG/256px-Samsung_SSD_840_120GB_MZ-7TD120--4_LID_REMOVED.JPG"></a>
+
+---
+class: center, middle
+
+# "Western Digital says it has lost at least 6.5 exabytes (6.5 billion gigabytes) of flash storage due to contamination issues at its NAND production facilities. The contamination could see the price of NAND — the main component of SSDs — spike up to 10 percent, according to market research firm TrendForce."
+
+Warren, T. (2022, Feb. 11). SSD prices could spike after Western Digital loses 6.5 billion gigabytes of NAND chips. *The Verge*. https://www.theverge.com/2022/2/11/22928867/western-digital-nand-flash-storage-contamination
+
+---
+
+class: center, middle
+
+# "According to market analysis firm TrendForce, DIY and PC enthusiasts should be looking forward to some appetizing price cuts to the Best SSDs on the market. Should current market trends play out, TrendForce expects consumer SSD prices to decline anywhere from 3~8% as soon as 3Q2022 due to NAND oversupply."
+
+Pires, F. (2022, June 22). Consumer SSD prices to decline 3-8% in 3Q 2022: TrendForce. *Tom's Hardware*. https://www.tomshardware.com/news/consumer-ssd-prices-to-decline-38-in-3q-2022-trendforce
+
+---
+
+class: center, middle
+
+<a title="StewartIM, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:2017-09-07_-_Fine_Arts_Library.jpg"><img width="512" alt="2017-09-07 - Fine Arts Library" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/2017-09-07_-_Fine_Arts_Library.jpg/512px-2017-09-07_-_Fine_Arts_Library.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="Heron2/MistWiz, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Disk-structure2.svg"><img width="512" alt="Disk-structure2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Disk-structure2.svg/512px-Disk-structure2.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Mewtow, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Pages_-_microarchitecture_d%27un_SSD.png"><img width="512" alt="Pages - microarchitecture d&#039;un SSD" src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Pages_-_microarchitecture_d%27un_SSD.png"></a>
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# partitioning
+
+---
+
+class: center, middle
+
+<a title="StewartIM, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:2017-09-07_-_Fine_Arts_Library.jpg"><img width="512" alt="2017-09-07 - Fine Arts Library" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/2017-09-07_-_Fine_Arts_Library.jpg/512px-2017-09-07_-_Fine_Arts_Library.jpg"></a>
+
+---
+
+class: center, middle 
+
+<a title="The original uploader was Kbolino at English Wikipedia., CC BY-SA 2.5 &lt;https://creativecommons.org/licenses/by-sa/2.5&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:GUID_Partition_Table_Scheme.svg"><img width="450" alt="GUID Partition Table Scheme" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/GUID_Partition_Table_Scheme.svg/558px-GUID_Partition_Table_Scheme.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Rivanfebrian123, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:GRUB_with_ubuntu_and_windows_vista.png"><img width="512" alt="GRUB with ubuntu and windows vista" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/GRUB_with_ubuntu_and_windows_vista.png"></a>
+
+---
+
+class: center, middle
+
+<a title="en:User:Cburnett, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RAID_0.svg"><img width="256" alt="RAID 0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/RAID_0.svg/256px-RAID_0.svg.png"></a>
+
+---
+
+class: center, middle 
+
+<a title="The original uploader was Kbolino at English Wikipedia., CC BY-SA 2.5 &lt;https://creativecommons.org/licenses/by-sa/2.5&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:GUID_Partition_Table_Scheme.svg"><img width="450" alt="GUID Partition Table Scheme" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/GUID_Partition_Table_Scheme.svg/558px-GUID_Partition_Table_Scheme.svg.png"></a>
+
+class: center, middle
+
+# what else have you used partitions for?
+
+---
+background-color: gray
+
+class: center, middle
+
+# formatting
+
+---
+
+class: center, middle
+
+<a title="StewartIM, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:2017-09-07_-_Fine_Arts_Library.jpg"><img width="512" alt="2017-09-07 - Fine Arts Library" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/2017-09-07_-_Fine_Arts_Library.jpg/512px-2017-09-07_-_Fine_Arts_Library.jpg"></a>
+
+---
+<table>
+<tr>
+<td style="border: 1px solid; width:500px">logical block addressing (LBA)</td>
+<td style="border: 1px solid; width: 500px ">status</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000001</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000002</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000003</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000004</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000005</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000006</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000007</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000008</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000009</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000A</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000B</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000C</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000D</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000E</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000F</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+</table>
+
+---
+
+<table>
+<tr>
+<td style="border: 1px solid; width:500px">logical block addressing (LBA)</td>
+<td style="border: 1px solid; width: 500px ">status</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000001</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000002</td>
+<td style="border: 1px solid">0000FFF7</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000003</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000004</td>
+<td style="border: 1px solid">0000FFF7</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000005</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000006</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000007</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000008</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000009</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000A</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000B</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000C</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000D</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000E</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000F</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+</table>
+
+---
+
+<table>
+<tr>
+<td style="border: 1px solid; width:500px">logical block addressing (LBA)</td>
+<td style="border: 1px solid; width: 500px ">status</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000001</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000002</td>
+<td style="border: 1px solid">0000FFF7</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000003</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000004</td>
+<td style="border: 1px solid">0000FFF7</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000005</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000006</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000007</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000008</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000009</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000A</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000B</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000C</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000D</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000E</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000F</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+</table>
+
+`need to save homework.txt`
+
+---
+
+<table>
+<tr>
+<td style="border: 1px solid; width:500px">logical block addressing (LBA)</td>
+<td style="border: 1px solid; width: 500px ">status</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000001</td>
+<td style="border: 1px solid">0000FFFF</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000002</td>
+<td style="border: 1px solid">0000FFF7</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000003</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000004</td>
+<td style="border: 1px solid">0000FFF7</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000005</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000006</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000007</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000008</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000009</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000A</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000B</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000C</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000D</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000E</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000F</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+</table>
+
+---
+
+<table>
+<tr>
+<td style="border: 1px solid; width:500px">logical block addressing (LBA)</td>
+<td style="border: 1px solid; width: 500px ">status</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000001</td>
+<td style="border: 1px solid">0000FFFF</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000002</td>
+<td style="border: 1px solid">0000FFF7</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000003</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000004</td>
+<td style="border: 1px solid">0000FFF7</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000005</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000006</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000007</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000008</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000009</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000A</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000B</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000C</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000D</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000E</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000F</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+</table>
+
+`homework.txt 00000001`
+
+---
+
+<table>
+<tr>
+<td style="border: 1px solid; width:500px">logical block addressing (LBA)</td>
+<td style="border: 1px solid; width: 500px ">status</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000001</td>
+<td style="border: 1px solid">0000FFFF</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000002</td>
+<td style="border: 1px solid">0000FFF7</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000003</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000004</td>
+<td style="border: 1px solid">0000FFF7</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000005</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000006</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000007</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000008</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000009</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000A</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000B</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000C</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000D</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000E</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000F</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+</table>
+
+`need to save videogame.exe`
+
+---
+
+<table>
+<tr>
+<td style="border: 1px solid; width:500px">logical block addressing (LBA)</td>
+<td style="border: 1px solid; width: 500px ">status</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000001</td>
+<td style="border: 1px solid">0000FFFF</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000002</td>
+<td style="border: 1px solid">0000FFF7</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000003</td>
+<td style="border: 1px solid">00000005</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000004</td>
+<td style="border: 1px solid">0000FFF7</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000005</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000006</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000007</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000008</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000009</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000A</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000B</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000C</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000D</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000E</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000F</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+</table>
+
+---
+
+<table>
+<tr>
+<td style="border: 1px solid; width:500px">logical block addressing (LBA)</td>
+<td style="border: 1px solid; width: 500px ">status</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000001</td>
+<td style="border: 1px solid">0000FFFF</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000002</td>
+<td style="border: 1px solid">0000FFF7</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000003</td>
+<td style="border: 1px solid">00000005</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000004</td>
+<td style="border: 1px solid">0000FFF7</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000005</td>
+<td style="border: 1px solid">00000006</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000006</td>
+<td style="border: 1px solid">00000007</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000007</td>
+<td style="border: 1px solid">00000008</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000008</td>
+<td style="border: 1px solid">0000FFFF</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000009</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000A</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000B</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000C</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000D</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000E</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000F</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+</table>
+
+`videogame.exe 00000003`
+
+---
+
+class: center, middle
+
+# when deleting isn't deleting
+
+---
+
+<table>
+<tr>
+<td style="border: 1px solid; width:500px">logical block addressing (LBA)</td>
+<td style="border: 1px solid; width: 500px ">status</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000001</td>
+<td style="border: 1px solid">0000FFFF</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000002</td>
+<td style="border: 1px solid">0000FFF7</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000003</td>
+<td style="border: 1px solid">00000005</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000004</td>
+<td style="border: 1px solid">0000FFF7</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000005</td>
+<td style="border: 1px solid">00000006</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000006</td>
+<td style="border: 1px solid">00000007</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000007</td>
+<td style="border: 1px solid">00000008</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000008</td>
+<td style="border: 1px solid">0000FFFF</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000009</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000A</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000B</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000C</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000D</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000E</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000F</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+</table>
+
+`homework.txt 00000001`
+
+---
+
+<table>
+<tr>
+<td style="border: 1px solid; width:500px">logical block addressing (LBA)</td>
+<td style="border: 1px solid; width: 500px ">status</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000001</td>
+<td style="border: 1px solid">0000FFFF</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000002</td>
+<td style="border: 1px solid">0000FFF7</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000003</td>
+<td style="border: 1px solid">00000005</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000004</td>
+<td style="border: 1px solid">0000FFF7</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000005</td>
+<td style="border: 1px solid">00000006</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000006</td>
+<td style="border: 1px solid">00000007</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000007</td>
+<td style="border: 1px solid">00000008</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000008</td>
+<td style="border: 1px solid">0000FFFF</td>
+</tr>
+<tr>
+<td style="border: 1px solid">00000009</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000A</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000B</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000C</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000D</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000E</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+<tr>
+<td style="border: 1px solid">0000000F</td>
+<td style="border: 1px solid">00000000</td>
+</tr>
+</table>
+
+`σomework.txt 00000001`
+
+---
+
+class: center, middle
+
+# defragmentation
+
+---
+
+class: center, middle
+
+<a title="I, Surachit, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Hard_drive-en.svg"><img width="512" alt="Hard drive-en" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Hard_drive-en.svg/512px-Hard_drive-en.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="MatteX, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Samsung_SSD_840_120GB_MZ-7TD120--4_LID_REMOVED.JPG"><img width="256" alt="Samsung SSD 840 120GB MZ-7TD120--4 LID REMOVED" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Samsung_SSD_840_120GB_MZ-7TD120--4_LID_REMOVED.JPG/256px-Samsung_SSD_840_120GB_MZ-7TD120--4_LID_REMOVED.JPG"></a>
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# A+, Chapter 8: Mass Storage Technologies
+
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# RAID
+
+---
+
+class: center, middle
+
+# Redundant Array of Independent (or Inexpensive) Disks)
+
+---
+
+class: center, middle
+
+<a title="en:User:Cburnett, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RAID_0.svg"><img width="256" alt="RAID 0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/RAID_0.svg/256px-RAID_0.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="en:User:Cburnett, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RAID_1.svg"><img width="256" alt="RAID 1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/RAID_1.svg/256px-RAID_1.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="en:User:Cburnett, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RAID_5.svg"><img width="512" alt="RAID 5" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/RAID_5.svg/512px-RAID_5.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="en:User:Cburnett, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RAID_6.svg"><img width="512" alt="RAID 6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/RAID_6.svg/512px-RAID_6.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="NudelSuppe, basierend auf RAID 01 von Cburnett, CC BY 3.0 &lt;https://creativecommons.org/licenses/by/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RAID_10_01.svg"><img width="512" alt="RAID 10 01" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/RAID_10_01.svg/512px-RAID_10_01.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Wheart, based on image File:RAID 0.svg by Cburnett, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RAID_01.svg"><img width="512" alt="RAID 01" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RAID_01.svg/512px-RAID_01.svg.png"></a>
+
+
+
+
+</textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		}
+  		});
+    </script>
+  </body>
+</html>

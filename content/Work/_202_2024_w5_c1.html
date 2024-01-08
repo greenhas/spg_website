@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 202 5.1</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 202: Technologies for Information Services</h1>
+<h2 style=color:white>read A+, Chapter 3: CPUs</h2>
+<h2 style=color:white>6 Feb 2022</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+background-color: gray
+
+class: center, middle
+
+# updates and looking ahead
+
+---
+
+class: center, middle
+
+# The Biden administration wants major changes to the Apple and Google mobile app models, saying the companies "act as gatekeepers over the apps that people and businesses rely on" and enforce policies that "have the potential to harm consumers by inflating prices and reducing innovation."
+
+Brodkin, J. (2023, February 1st). Apple should be required to let iPhone users sideload apps, Biden admin says. *Ars Technica*. https://arstechnica.com/tech-policy/2023/02/apple-should-be-required-to-let-iphone-users-sideload-apps-biden-admin-says/
+
+---
+
+class: center, middle
+
+# When contacted by Ars, Apple and Google both provided statements criticizing the NTIA report.
+
+Brodkin, J. (2023, February 1st). Apple should be required to let iPhone users sideload apps, Biden admin says. *Ars Technica*. https://arstechnica.com/tech-policy/2023/02/apple-should-be-required-to-let-iphone-users-sideload-apps-biden-admin-says/
+
+---
+
+class: center, middle
+
+# Apple also said that "third-party apps are among the most popular on the App Store, contributing to a robust app economy that includes millions of apps and supports hundreds of thousands of US jobs."
+
+Brodkin, J. (2023, February 1st). Apple should be required to let iPhone users sideload apps, Biden admin says. *Ars Technica*. https://arstechnica.com/tech-policy/2023/02/apple-should-be-required-to-let-iphone-users-sideload-apps-biden-admin-says/
+
+---
+
+class: center, middle
+
+# Google said it "disagree[s] with how this report characterizes Android, which enables more choice and competition than any other mobile operating system."
+
+Brodkin, J. (2023, February 1st). Apple should be required to let iPhone users sideload apps, Biden admin says. *Ars Technica*. https://arstechnica.com/tech-policy/2023/02/apple-should-be-required-to-let-iphone-users-sideload-apps-biden-admin-says/
+
+---
+
+class: center, middle
+
+<img src="https://spencergreenhalgh.com/CI_PowerHour.png" width = "600">
+
+---
+
+class: center, middle
+
+# you can apply for the CI Student Ambassador Program (and associated scholarship) [here](https://uky.az1.qualtrics.com/jfe/form/SV_agvS88kwcgG9uKO) by Sunday, March 19th
+
+## at least 30 credit hours by end of semester
+
+## minimum 2.75 GPA
+
+## involved in extracurricular activity, job, or leadership position on campus (and can juggle multiple commitments)
+
+---
+
+class: center, middle
+
+# keep an eye out for emails from the Lambda Pi Eta honor society
+
+---
+
+class: center, middle
+
+## Wednesday, February 8th, 6pm to 8pm: screening of *Let the Little Light Shine* (RSVP [here](https://docs.google.com/forms/d/e/1FAIpQLSfHKcGdrstIj3yrF8NzZZjLZnp_gzgSMbwxZqb_QNjWZuZRJA/viewform))
+
+## Thursday, February 9th, 6 p.m.: The College of Agriculture, Food and Environment presents A Night of Black Excellence (register [here](https://fayette.ca.uky.edu/events/night-black-excellence))
+
+## Friday, February 10th, 9am to 5pm: MLK Center Men of Color Symposium (register [here](https://uky.az1.qualtrics.com/jfe/form/SV_ebNnXznJOFCtMxw))
+
+---
+
+# this week
+
+## Monday: readings and lecture
+
+* read A+, Chapter 3: CPUs (before Monday lecture)
+
+## Wednesday: readings and lecture
+
+* read A+, Chapter 4: RAM (before Wednesday lecture)
+* take quiz (by Wednesday)
+
+## Friday: reflection and application
+
+* reflect on technical constraints and culture (by Thursday)
+* check on your virtual machin's CPU and RAM use (by Sunday)
+
+
+---
+background-color: gray
+
+class: center, middle
+
+# A+, Chapter 3: CPUs
+
+---
+
+class: center, middle
+
+# how do we define computers in this class?
+
+---
+
+class: center, middle
+
+# "In modern terms, a computer is an electronic device that can perform calculations." 
+##(Meyers, 2019, p. 30)
+
+---
+
+class: center, middle
+
+# what general process do all computers follow? 
+
+---
+
+class: center, middle
+
+# input
+# processing
+# output
+# (storage)
+# (networking)
+
+---
+class: center, middle
+
+# what does CPU stand for?
+
+---
+
+class: center, middle
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="FozzTexx, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Apple_II_typical_configuration_1977.png"><img width="512" alt="Apple II typical configuration 1977" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Apple_II_typical_configuration_1977.png/512px-Apple_II_typical_configuration_1977.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Fred the Oyster, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Chipset_schematic.svg"><img width="512" alt="Chipset schematic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Chipset_schematic.svg/512px-Chipset_schematic.svg.png"></a>
+
+---
+
+class: center, middle
+
+# how does a CPU work?
+
+# what is the CPU pipeline?
+
+---
+
+class: center, middle
+
+# fetch
+# decode
+# execute
+# write
+
+---
+
+class: center, middle
+
+<a title="Fred the Oyster, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Chipset_schematic.svg"><img width="512" alt="Chipset schematic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Chipset_schematic.svg/512px-Chipset_schematic.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+# what's not pictured here?
+
+---
+
+class: center, middle
+
+# registers
+
+# system crystal, clock chip, and clock wire
+
+---
+
+class: center, middle
+
+<a title="Vincent Quach (Invincible), CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Metronome_Nikko.jpg"><img width="512" alt="Metronome Nikko" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Metronome_Nikko.jpg/512px-Metronome_Nikko.jpg"></a>
+
+---
+
+class: center, middle
+
+# what unit do we use to measure speed (technically, frequency) on a computer?
+
+---
+
+class: center, middle
+
+# hertz 
+
+---
+
+class: center, middle
+
+# 1 cycle/second is very slow; how can we make it easier to talk about higher frequencies?
+
+---
+
+class: center, middle
+
+# let's talk binary
+
+---
+
+class: center, middle
+
+# binary's a pain, let's talk hexadecimal
+
+---
+
+class: center, middle
+
+<iframe src="https://giphy.com/embed/26AHLNr8en8J3ovOo" width="480" height="201" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+---
+
+class: center, middle
+
+<a title="Fred the Oyster, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Chipset_schematic.svg"><img width="512" alt="Chipset schematic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Chipset_schematic.svg/512px-Chipset_schematic.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="CountingPine at English Wikipedia, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Dual_Core_Generic.svg"><img width="512" alt="Dual Core Generic" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Dual_Core_Generic.svg/512px-Dual_Core_Generic.svg.png"></a>
+
+
+</textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		}
+  		});
+    </script>
+  </body>
+</html>

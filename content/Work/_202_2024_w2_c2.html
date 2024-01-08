@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 202 2.2</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 202: Technologies for Information Services</h1>
+<h2 style=color:white>A+, Chapter 22: Virtualization</h2>
+<h2 style=color:white>18 January 2023</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# updates and looking ahead
+
+---
+
+# this week
+
+## Monday: Martin Luther King, Jr. Day (no class)
+
+* [Lexington Celebration](https://www.uky.edu/mlk/)
+
+## Wednesday: readings and lecture
+
+* read A+, Chapter 22: Virtualization (before Wednesday lecture)
+* take quiz (by Wednesday)
+
+## Friday: reflection and application
+
+* reflect on the social power of cloud computing companies (by Thursday)
+* set up a virtual machine for ICT 202 (by Sunday)
+
+---
+
+class: center, middle
+
+# late policy reminder!
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# A+, Chapter 22: Virtualization
+
+---
+
+class: center, middle
+
+# virtualization
+
+---
+
+class: center, middle
+
+<a title="Moxfyre at English Wikipedia, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Motherboard_diagram.svg"><img width="400" alt="Motherboard diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Motherboard_diagram.svg/512px-Motherboard_diagram.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Canonical Ltd., GPLv3 &lt;http://www.gnu.org/licenses/gpl-3.0.html&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Ubuntu_22.10_Kinetic_Kudu.png"><img width="800" alt="Ubuntu 22.10 Kinetic Kudu" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Ubuntu_22.10_Kinetic_Kudu.png/1024px-Ubuntu_22.10_Kinetic_Kudu.png"></a>
+
+---
+
+class: center, middle
+
+<a title="U.S. Navy photo by Photographer&#039;s Mate Airman Javier Capella, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg"><img width="800" alt="US Navy 051129-N-0685C-007 Quartermaster Seaman Ryan Ruona signals with semaphore flags during a replenishment at sea" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg/1024px-US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="Denelson83, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Semaphore_Signals_A-Z.jpg"><img width="800" alt="Semaphore Signals A-Z" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Semaphore_Signals_A-Z.jpg/1024px-Semaphore_Signals_A-Z.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="ujmoser, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Alternative_virtual_machine_host.svg"><img width="400" alt="Alternative virtual machine host" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Alternative_virtual_machine_host.svg/1024px-Alternative_virtual_machine_host.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Pittigrilli, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Emulator_of_HP-41CX_on_iPhone_6s.jpg"><img width="512" alt="Emulator of HP-41CX on iPhone 6s" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Emulator_of_HP-41CX_on_iPhone_6s.jpg/512px-Emulator_of_HP-41CX_on_iPhone_6s.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="The original uploader was Robert Kropf at German Wikipedia., CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:HP-41CX.jpg"><img width="800" alt="HP-41CX" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HP-41CX.jpg/1024px-HP-41CX.jpg"></a>
+
+---
+
+class: center, middle
+
+# emulation
+
+---
+
+class: center, middle
+
+<a title="Screenshot of Star Fox 64 uploaded by Wikinium" href="https://en.wikipedia.org/wiki/File:StarFox64_Emulated_with_Project64.png"><img width="600" alt="HP-41CX" src="https://upload.wikimedia.org/wikipedia/en/7/7b/StarFox64_Emulated_with_Project64.png"></a>
+
+
+---
+
+class: center, middle
+
+# emulation vs. visualization
+
+---
+
+class: center, middle
+
+<a title="Moxfyre at English Wikipedia, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Motherboard_diagram.svg"><img width="400" alt="Motherboard diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Motherboard_diagram.svg/512px-Motherboard_diagram.svg.png"></a>
+
+
+---
+
+class: center, middle
+
+<a title="John Aplessed, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Hardware_Virtualization_(copy).svg"><img width="512" alt="Hardware Virtualization (copy)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Hardware_Virtualization_%28copy%29.svg/512px-Hardware_Virtualization_%28copy%29.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Scsami, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Hyperviseur.svg"><img width="800" alt="Hyperviseur" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Hyperviseur.svg/1024px-Hyperviseur.svg.png"></a>
+
+
+
+---
+
+class: center, middle
+
+# what hardware do we need to simulate hardware?
+
+---
+
+class: center, middle
+
+## RAM
+
+---
+
+class: center, middle
+
+## storage
+
+---
+
+class: center, middle
+
+## networking?
+
+---
+
+class: center, middle
+
+# CPU
+
+
+
+---
+
+# benefits of virtualization
+
+--
+
+* ## hardware consolidation
+
+--
+
+* ## power saving
+
+--
+
+* ## system management and security
+
+--
+
+* ## research
+
+---
+
+class: center, middle
+
+# cloud computing
+
+---
+
+class: center, middle
+
+# `XaaS`
+
+---
+
+class: center, middle
+
+# Software as a Service: `SaaS`
+
+---
+
+class: center, middle
+
+# Google Workspaces
+
+---
+
+class: center, middle
+
+# SaaS vs. subscription software
+
+---
+
+class: center, middle
+
+# web apps vs. SaaS
+
+---
+
+class: center, middle
+
+# Platform as a Service: `PaaS`
+
+---
+
+class: center, middle
+
+# Netlify
+
+---
+
+class: center, middle
+
+# Infrastructure as a Service: `IaaS`
+
+---
+
+class: center, middle
+
+# Amazon Web Services
+
+---
+
+class: center, middle
+
+<a title="Scsami, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Hyperviseur.svg"><img width="512" alt="Hyperviseur" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Hyperviseur.svg/512px-Hyperviseur.svg.png"></a>
+
+---
+
+class: center, middle
+
+# different types of cloud
+
+---
+
+class: center, middle
+
+# public cloud
+
+---
+
+class: center, middle
+
+# private cloud
+
+---
+
+class: center, middle
+
+# community cloud
+
+---
+
+class: center, middle
+
+# hybrid cloud
+
+
+</textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		}
+  		});
+    </script>
+  </body>
+</html>

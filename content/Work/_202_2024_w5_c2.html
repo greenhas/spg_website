@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 202 5.2</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 202: Technologies for Information Services</h1>
+<h2 style=color:white>A+, Chapter 4: RAM</h2>
+<h2 style=color:white>8 Feb 2022</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+background-color: gray
+
+class: center, middle
+
+# updates and looking ahead
+
+---
+
+class: center, middle
+
+# you can apply for the CI Student Ambassador Program (and associated scholarship) [here](https://uky.az1.qualtrics.com/jfe/form/SV_agvS88kwcgG9uKO) by Sunday, March 19th
+
+## at least 30 credit hours by end of semester
+
+## minimum 2.75 GPA
+
+## involved in extracurricular activity, job, or leadership position on campus (and can juggle multiple commitments)
+
+---
+
+class: center, middle
+
+# keep an eye out for emails from the Lambda Pi Eta honor society
+
+---
+
+class: center, middle
+
+## Wednesday, February 8th, 6pm to 8pm: screening of *Let the Little Light Shine* (RSVP [here](https://docs.google.com/forms/d/e/1FAIpQLSfHKcGdrstIj3yrF8NzZZjLZnp_gzgSMbwxZqb_QNjWZuZRJA/viewform))
+
+## Thursday, February 9th, 6 p.m.: The College of Agriculture, Food and Environment presents A Night of Black Excellence (register [here](https://fayette.ca.uky.edu/events/night-black-excellence))
+
+## Friday, February 10th, 9am to 5pm: MLK Center Men of Color Symposium (register [here](https://uky.az1.qualtrics.com/jfe/form/SV_ebNnXznJOFCtMxw))
+
+---
+
+# this week
+
+## Monday: readings and lecture
+
+* read A+, Chapter 3: CPUs (before Monday lecture)
+
+## Wednesday: readings and lecture
+
+* read A+, Chapter 4: RAM (before Wednesday lecture)
+* take quiz (by Wednesday)
+
+## Friday: reflection and application
+
+* reflect on technical constraints and culture (by Thursday)
+* check on your virtual machine's CPU and RAM use (by Sunday)
+
+---
+background-color: gray
+
+class: center, middle
+
+# A+, Chapter 4: RAM
+
+---
+
+class: center, middle
+
+# what general process do all computers follow? 
+
+---
+
+class: center, middle
+
+# input
+# processing
+# output
+# (storage)
+# (networking)
+
+---
+
+class: center, middle
+
+# what is the CPU pipeline?
+
+---
+
+class: center, middle
+
+# fetch
+# decode
+# execute
+# write
+
+---
+
+class: center, middle
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+# what's not pictured here?
+
+---
+
+class: center, middle
+
+# registers
+
+# system crystal, clock chip, and clock wire
+
+---
+
+class: center, middle
+
+# let's count to ten in binary
+
+---
+
+class: center, middle
+
+# `0000`
+
+---
+
+class: center, middle
+
+# `0001`
+
+---
+
+class: center, middle
+
+# `0010`
+
+---
+
+class: center, middle
+
+# `0011`
+
+---
+
+class: center, middle
+
+# `0100`
+
+---
+
+class: center, middle
+
+# `0101`
+
+---
+
+class: center, middle
+
+# `0110`
+
+---
+
+class: center, middle
+
+# `0111`
+
+---
+
+class: center, middle
+
+# `1000`
+
+---
+
+class: center, middle
+
+# `1001`
+
+---
+
+class: center, middle
+
+# `1010`
+
+---
+
+class: center, middle
+
+# why do I include the "empty" digits? 
+
+# in base 10, we (usually) leave out leading 0s
+
+# `0010`, but not `0002`
+
+---
+
+class: center, middle
+
+# nibbles and bytes
+
+---
+
+class: center, middle
+
+# data bus
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="800" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="U.S. Navy photo by Photographer&#039;s Mate Airman Javier Capella, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg"><img width="512" alt="US Navy 051129-N-0685C-007 Quartermaster Seaman Ryan Ruona signals with semaphore flags during a replenishment at sea" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg/512px-US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg"></a>
+
+---
+
+class: center, middle
+
+## "As a result, I'm going to share with you the notes that allowed me to have a 18/20 in philosophy even though for me, philosophy meant naptime during my senior year 🤷‍♂️😇"
+
+## "1 RT = ONE SAVED HIGH-SCHOOLER 👨‍🎓"
+
+## [encoding error](https://link.springer.com/content/pdf/10.1007/s11423-021-10015-6.pdf)
+
+---
+
+class: center, middle
+
+# bytes and SI prefixes
+
+---
+
+class: center, middle
+
+# 1 megahertz = 1,000,000 cycles/second
+
+# 1 megabyte = 1,048,576 bytes
+
+---
+
+class: center, middle
+
+# why do we need a way to hold data in a computer?
+
+---
+
+class: center, middle
+
+# what are some of the different purposes of data in a computer?
+
+# what's most important about those different purposes?
+---
+
+class: center, middle
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/ComputerMemoryHierarchy.svg" width="800">
+
+---
+
+class: center, middle
+
+# volatile vs. non-volatile memory
+
+---
+
+class: center, middle
+
+# dynamic RAM
+
+---
+
+class: center, middle
+
+<a title="Karl Baron, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Ryoan-ji_fire_buckets_(2448046749).jpg"><img width="500" alt="Ryoan-ji fire buckets (2448046749)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Ryoan-ji_fire_buckets_%282448046749%29.jpg/1024px-Ryoan-ji_fire_buckets_%282448046749%29.jpg"></a>
+---
+
+class: center, middle
+
+# memory refresh circuit
+
+---
+
+class: center, middle
+
+# static RAM
+
+---
+
+class: center, middle
+
+# when is volatile memory acceptable? when is it not acceptable?
+
+---
+
+class: center, middle
+
+# when is faster-but-more expensive acceptable? when is it not?
+
+---
+
+class: center, middle
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/ComputerMemoryHierarchy.svg" width="800">
+
+---
+
+class: center, middle
+
+# virtual memory
+
+---
+
+class: center, middle
+
+<a title="Ehamberg, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Virtual_memory.svg"><img width="256" alt="Virtual memory" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Virtual_memory.svg/256px-Virtual_memory.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Timothygetsschooled at English Wikipedia, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Dorm_room,_Alumni_Hall_(University_of_Windsor,_Ontario).jpg"><img width="512" alt="Dorm room, Alumni Hall (University of Windsor, Ontario)" src="https://upload.wikimedia.org/wikipedia/commons/1/17/Dorm_room%2C_Alumni_Hall_%28University_of_Windsor%2C_Ontario%29.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="JMORGANSELFSTOR, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Bermondsey_Climate_Controlled_unit.jpg"><img width="600" alt="Bermondsey Climate Controlled unit" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Bermondsey_Climate_Controlled_unit.jpg/1024px-Bermondsey_Climate_Controlled_unit.jpg"></a>
+
+---
+
+class: center, middle
+
+# thrashing
+
+
+</textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		}
+  		});
+    </script>
+  </body>
+</html>
