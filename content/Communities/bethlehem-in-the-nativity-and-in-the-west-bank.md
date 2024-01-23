@@ -1,7 +1,7 @@
 ---
 date: 2023-11-29T11:17:50-05:00
 title: "Bethlehem in the Nativity and in the West Bank"
-tags: ["macro","Communities","Guy Delisle","Chroniques de Jérusalem","Christmas","2023 Israel-Hamas war","Gaza","Israel","Palestine","Hamas","Friends cCommittee on National Legislation","Community of Christ"]
+tags: ["macro","Communities","Guy Delisle","Chroniques de Jérusalem","Christmas","2023 Israel-Hamas war","Gaza","Israel","Palestine","Hamas","Friends Committee on National Legislation","Community of Christ"]
 ---
 Earlier this year, I read Guy Delisle's excellent comic *Chroniques de Jérusalem* twice in the course of two months. I began by finally checking out the English translation from a local library to give it a try (I like Delisle, but I'd had trouble getting into this particular comic in the past). Then, as I was getting into it, my brother-in-law texted me from New York to say he was stopping by a local French bookstore and ask if I wanted anything. I wanted the original French version, he picked it up, and I immediately reread the book (is it rereading if it's in two different languages?) as soon as it arrived.
 
