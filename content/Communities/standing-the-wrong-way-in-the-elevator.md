@@ -1,7 +1,7 @@
 ---
 date: 2022-09-19T10:00:12-04:00
 title: "standing the wrong way in the elevator: a response to Oaks and Gilbert"
-tags: ["macro","Communities","bike commute","bikes","Dallin Oaks","Clark Gilbert","BYU","Church Educational System","e-bike","Brigham Young","slavery","The Church of Jesus Christ of Latter-day Saints","John G. Turner"]
+tags: ["macro","Communities","bike commuting","bikes","Dallin Oaks","Clark Gilbert","BYU","Church Educational System","e-bikes","Brigham Young","slavery","The Church of Jesus Christ of Latter-day Saints","John G. Turner"]
 ---
 I ride an e-bike into work, and because an e-bike is expensive, I bring it into my office rather than lock it up at one of the bike racks on University of Kentucky campus. Because an e-bike is heavy, I also take it up the elevator to get up to the third floor, where my office is. My e-bike takes up a lot of space, but I've figured out how to share the elevator with others as I make my way up to my office. I lead my bike in, getting the front wheel as far toward the back of the elevator as I can, and then swing it around to the left as I pick up my rear wheel and try to tuck it in to the opposite (front) corner of the elevator. It takes a little bit of effort, but I know I can get it in there; because I also know it's going to take some effort to get my bike out, I usually face the rear of the elevator during the ride, which is short enough that there's no point in turning around to face "the front" of the elevator only to turn back around again to take control of my handlebars and wheel the bike back out.
 

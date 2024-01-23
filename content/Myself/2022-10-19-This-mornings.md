@@ -1,1 +1,1 @@
----date: 2022-10-19T08:39:07-04:00title: ""tags: ["micro","Myself","bike commute"]---This morning's freezing bike commute has me dressing like a double-balaclavad bank robber with a love for fluorescent yellow.
+---date: 2022-10-19T08:39:07-04:00title: ""tags: ["micro","Myself","bike commuting"]---This morning's freezing bike commute has me dressing like a double-balaclavad bank robber with a love for fluorescent yellow.
