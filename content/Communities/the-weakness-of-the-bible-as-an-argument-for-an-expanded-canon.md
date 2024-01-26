@@ -1,0 +1,11 @@
+---
+draft: true
+date: 2024-01-25T16:24:39-05:00
+title: "the weakness of the Bible as an argument for an expanded canon"
+tags: ["macro","Communities","Bible","Book of Mormon","Doctrine and Covenants","apologetics","fundamentalism","Community of Christ","Biblical literalism","scriptural literalism","The Church of Jesus Christ of Latter-day Saints","Introduction to Scripture","Temple School"]
+---
+A couple of days ago, I wrote [a post](https://spencergreenhalgh.com/communities/the-bible-as-weak-point-of-mormon-apologetics/) arguing that the Bible is actually more of a weak point than the Book of Mormon for fundamentalist, literalist attitudes toward Latter-day Saint scripture. That post—like this one—was inspired by an *Introduction to Scripture* class that I'm currently taking through Community of Christ's Temple School. The first lesson is doing a lot of work to play up the Bible as the main scriptural foundation of Community of Christ and is doing some respectful but firm downplaying of the Book of Mormon and Doctrine and Covenants. 
+
+I understand *why* the denomination is making that emphasis, and at the end of the day, I don't know that I disagree with it. There are good reasons for the global denomination to keep these additional books of scripture without playing them up as much as they have in the past. At the same time, though, it got me thinking about something I've been noodling on since literally minutes after publishing that last post (and for months prior to writing that post, to be honest). My thesis for the last post was that issues with the Bible are actually just as profound and troubling to members of Restoration churches as issues with the Book of Mormon. This can be reasonably disputed, but I feel pretty strongly about it—again, the historicity of the resurrection narratives in the gospels is on even shakier ground than the historicity of the Book of Mormon story. My point in that last post was to use this thesis to say that conservative Mormon apologists shouldn't ignore the issues with the Bible. 
+
+However, you can make a different, inverse point with this thesis: That once we accept the weak points of the Bible, the idea of accepting the Book of Mormon and Doctrine and Covenants and scripture could actually be less of an issue.
