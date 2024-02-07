@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YISE 2024 workshop</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+
+class: middle
+
+background-color: #272822
+
+<h2 style="color:white; text-align:center">Planning and Doing Research with Social Media and Internet Data</h1>
+<h3 style="color:white">Spencer P. Greenhalgh, PhD<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;School of Information Science, University of Kentucky
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<svg style="fill: rgb(249, 38, 114)"  width = "25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 21 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z"/></svg>
+<a style="color: rgb(249, 38, 114)" href="https://spencergreenhalgh.com/work">https://spencergreenhalgh.com/work</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<svg width = 25 style="fill: rgb(249, 38, 114)"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg> 
+<a style="color: rgb(249, 38, 114)" href="mailto:spencer.greenhalgh@uky.edu">spencer.greenhalgh@uky.edu</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<svg style="fill: rgb(249, 38, 114)"  width = "25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+<a style="color: rgb(249, 38, 114)" href="https://sciences.social/@spgreenhalgh">@spgreenhalgh@sciences.social</a></h2>
+
+<p style="color:white"> slides: <a style="color: rgb(249, 38, 114)" href="https://spencergreenhalgh.com/work/_yise_2024_workshop.html">https://spencergreenhalgh.com/work/_yise_2024_workshop.html</a></p>
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# introductions!
+
+---
+
+class: center, middle
+
+## I am an transdisciplinary digital methods researcher
+
+---
+
+class: center, middle
+
+## I am an *transdisciplinary* digital methods researcher
+
+---
+
+class: center, middle
+
+### Shelton, C. C., Koehler, M. J., Greenhalgh, S. P., & Carpenter, J. P. (2022). Lifting the veil on TeachersPayTeachers.com: An investigation of educational marketplace offerings and downloads. *Learning, Media and Technology*, *47*(2), 268-287. <a href="https://doi.org/10.1080/17439884.2021.1961148">https://doi.org/10.1080/17439884.2021.1961148</a>
+
+---
+
+class: center, middle
+
+### Brody, E., Greenhalgh, S. P., & Sajjad, M. (2022). Gayservatives on Gab: LGBTQ+ communities and far right social media. *Social Media + Society*, October-December 2022, 1-14. <a href="https://doi.org/10.1177/20563051221137088">https://doi.org/10.1177/20563051221137088</a>
+
+---
+
+class: center, middle
+
+### Greenhalgh, S. P. (2023). The correct [domain] name of the Church: Technology, naming, and legitimacy in the Latter-day Saint tradition. *Dialogue: A Journal of Mormon Thought*, *56*(1), 1-26. <a href="https://doi.org/10.5406/15549399.56.1.01">https://doi.org/10.5406/15549399.56.1.01</a>
+
+---
+
+class: center, middle
+
+## I am an *transdisciplinary* digital methods researcher
+
+
+---
+
+class: center, middle
+
+## I am an *transdisciplinary* *digital methods* researcher
+
+---
+
+class: center, middle
+
+## “the use of online and digital technologies to collect and analyse research data”
+
+Snee, H, Hine, C., Morey, Y., Roberts, S., & Watson, H. (2016). Digital methods as mainstream methodology: An introduction. In H. Snee, C. Hine, Y. Morey, S. Roberts, & H. Watson (Eds.), *Digital methods for social science: An interdisciplinary guide to research innovation* (pp. 1-11). Palgrave Macmillan.
+
+---
+
+class: center, middle
+
+# reference text:
+
+## Greenhalgh, S. P., Koehler, M. J., Rosenberg, J. M., & Staudt Willet, K. B. (2021). Considerations for using social media data in learning design and technology research. In E. J. Romero-Hall (Ed.), *Research methods in learning design and technology* (pp. 64-77). Routledge.
+
+### preprint available [here](https://www.spencergreenhalgh.com/Greenhalgh_et_al_preprint_social_media_data.pdf)
+
+---
+
+class: center, middle
+
+# 20-second introductions, please!
+
+---
+
+class: center, middle
+
+# share, discuss, learn
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# framing the research
+
+---
+
+class: center, middle
+
+# 2 minutes: here's your data, what would you pay attention to in a study?
+
+<img src="https://spencergreenhalgh.com/quote_tweet_screenshot_anonymized.png" width = "600">
+
+---
+
+class: center, middle
+
+# paradigms and assumptions
+
+# research design, methods, and modes of inquiry
+
+# conceptual frameworks
+
+# phenomena and units of analysis
+
+---
+
+class: center, middle
+
+# "data cannot speak for themselves, so they must be *made* to speak."
+
+Crooks, R. (2019). Cat-and-mouse games: Dataveillance and performativity in urban schools. *Surveillance and Society*, *17*(3/4), 484-498.
+
+---
+
+class: center, middle
+
+<a title="Facebook, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Facebook_Thumb_icon.svg"><img width="512" alt="Facebook Thumb icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Facebook_Thumb_icon.svg/512px-Facebook_Thumb_icon.svg.png"></a>
+
+---
+
+class: center, middle
+
+# "A *qualitative* analysis of the collected data contributes a taxonomy of 25 uses of favouriting behaviour." (emphasis added)
+
+Meier, F., Elsweiler, D., & Wilson, M. L. (2014, May). *More than liking and bookmarking? Towards understanding Twitter favouriting behavior.* Paper presented at the Eighth International AAAI Conference on Weblogs and Social Media, Ann Arbor, MI. 
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# collecting data
+
+---
+
+class: center, middle
+
+# custommades vs. readymades
+
+---
+
+class: center, middle
+
+# "The central premise of this book is that the digital age creates new opportunities for social research"
+
+Salganik, M. (2018). *Bit by bit: Social research in the digital age*. Princeton University Press.
+
+---
+
+class: center, middle
+
+<a title="Jörg Bittner Unna, CC BY 3.0 &lt;https://creativecommons.org/licenses/by/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:%27David%27_by_Michelangelo_Fir_JBU013.jpg"><img width="400" alt="&#039;David&#039; by Michelangelo Fir JBU013" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/%27David%27_by_Michelangelo_Fir_JBU013.jpg/512px-%27David%27_by_Michelangelo_Fir_JBU013.jpg"></a>
+
+---
+
+class: center, middle
+
+# "Historically speaking, collecting data has been hard, time consuming, and resource intensive."
+
+boyd, d., & Crawford, K. (2012). Critical questions for big data: Provocations for a cultural, technological, and scholarly phenomenon. *Information, Communication, & Society*, *15*(5), 662-679. https://doi.org/10.1080/1369118X.2012.678878
+
+---
+
+class: center, middle
+
+<a title="Marcel Duchamp
+, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Marcel_Duchamp,_1917,_Fountain,_photograph_by_Alfred_Stieglitz.jpg"><img width="400" alt="Marcel Duchamp, 1917, Fountain, photograph by Alfred Stieglitz" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg/512px-Marcel_Duchamp%2C_1917%2C_Fountain%2C_photograph_by_Alfred_Stieglitz.jpg"></a>
+
+---
+
+class: center, middle
+
+# "many social interactions now take place in contexts where people leave traces of their identity, their actions, and their social relations in computational media"
+
+Welser, H. T., Smith, M., Fisher, D., & Gleave, E. (2008). Distilling digital traces: Computational social science approaches to studying the Internet. In N. Fielding, R. M. Lee, & G. Blank (Eds.), *The SAGE handbook of online research methods* (pp. 116–141). SAGE Publications, Ltd.
+
+---
+
+class: center, middle
+
+# 2 minutes: what data relevant to your research interests is already out there on the internet, ready for you to collect and analyze?
+
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# conducting ethical research
+
+---
+
+class: center, middle
+
+# "The term ‘human subject’ as applied to the consideration of research ethics emerged from early responses to harmful treatment of persons in medical experiments"
+
+Markham, A., & Buchanan, E. (2012). *Ethical decision-making and internet research: Recommendations from the AoIR ethics working committee.* https://aoir.org/reports/ethics2.pdf
+
+---
+
+class: center, middle
+
+# "People may operate in public spaces but maintain strong perceptions or expectations of privacy."
+
+Markham, A., & Buchanan, E. (2012). *Ethical decision-making and internet research: Recommendations from the AoIR ethics working committee.* https://aoir.org/reports/ethics2.pdf
+
+---
+
+class: center, middle
+
+# "the majority of Twitter users in our study do not realize that researchers make use of tweets, and a majority also believe researchers should not be able to do so without permission"
+
+Fiesler, C., & Proferes, N. (2018). "Participant" perceptions of Twitter research ethics. *Social Media + Society*, *4*(1). https://doi.org/10.1177/2056305118763366
+
+---
+
+class: center, middle
+
+# "User expectations and comfort are a critical component, but not the only component, of research ethics."
+
+Gilbert, S., Vitak, J., & Shilton, K. (2021). Measuring Americans' comfort with research uses of their social media data. *Social Media + Society*. https://doi.org/10.1177/20563051211033824 
+
+---
+
+class: center, middle
+
+# 2 minutes: what ethical issues might be related to your dataset?
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# analyzing data
+
+---
+
+class: center, middle
+
+# #MAET
+
+---
+
+class: center, middle
+
+# "In Danish, for example, the word mæt means 'full' or 'satisfied,' and we therefore unwittingly collected a number of Danish tweets related to food and eating"
+
+Greenhalgh, S. P., Rosenberg, J. M., & Wolf, L. G. (2016). For all intents and purposes: Twitter as a foundational technology for teachers. *E-Learning and Digital Media*, *13*(1/2), 81-98. https://doi.org/10.1177/2042753016672131
+
+---
+
+class: center, middle
+
+# what's a subtweet?
+
+---
+
+class: center, middle
+
+# "In terms of Twitter features, these practices do not differ from those listed above—a subtweet is simply a particular way of tweeting that specifically and intentionally avoids mentioning, and a screenshot retweet is a specific kind of embedding."
+
+Greenhalgh, S. P. (unpublished). *Spaces and their social frontiers: Using community dimension to distinguish between teacher-focused hashtags on Twitter* [dissertation proposal]
+
+---
+
+class: center, middle
+
+<img src="https://spencergreenhalgh.com/quote_tweet_screenshot_anonymized.png" width = "600">
+
+---
+
+class: center, middle
+
+# 2 minutes: what analysis yields the results you want from the data you have in mind?
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# organizing the research process
+
+---
+
+class: center, middle
+
+# software
+
+## control, simplicity, cost, training
+
+---
+
+class: center, middle
+
+# storing data
+
+---
+
+class: center, middle
+
+# "35 GB of data is a lot to begin with, but when it’s 35 GB of CSVs? That’s when it starts to really register."
+
+Greenhalgh, S. P. (2020, February 5). ... [blog post]. https://spencergreenhalgh.com/work/2020-02-05-35-gb/
+
+[example CSV](https://github.com/greenhas/spg_website/blob/master/static/Twitter_hashtags.csv)
+
+---
+
+class: center, middle
+
+# workflows
+
+---
+
+class: center, middle
+
+# [my biggest pride = my biggest shame](https://scholar.google.com/citations?user=o3JQjpcAAAAJ&hl=en&oi=sra)
+
+---
+
+class: center, middle
+
+# "For example, a period during the Spring 2015 semester stands out for its very low activity: This was when the MSUrbanSTEM community switched to a different hashtag due to spam on the #MSUrbanSTEM hashtag."
+
+Rosenberg, J. M., Greenhalgh, S. P., Wolf, L. G., & Koehler, M. J. (2017). Strategies, use, and impact of social media for supporting teacher community within professional development: The case of one urban STEM program. *Journal of Computers in Mathematics and Science Teaching*, *36*(3), 255-267.
+
+---
+
+class: center, middle
+
+# 2 minutes: what questions do you have about software, data storage, and workflows
+
+---
+
+class: center, middle
+
+<iframe src="https://giphy.com/embed/j5ncTQKEIROne" width="480" height="437" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({});
+    </script>
+  </body>
+</html>
