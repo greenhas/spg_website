@@ -1,7 +1,7 @@
 ---
 date: 2024-02-15T18:23:48-05:00
 tags: ["link","Communities","gun control","guns","mass shootings"]
-title: "🔗 linkblog: my thoughts on 'How the Kansas City shooting proves the "good guy with a gun" idea is a fallacy'"
+title: "🔗 linkblog: my thoughts on 'How the Kansas City shooting proves the 'good guy with a gun' idea is a fallacy'"
 ---
 Depressing but important read.
 
