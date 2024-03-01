@@ -7,13 +7,13 @@ There are a couple of weeks before the deadline to submit abstracts for the Morm
 
 We are already working on a second paper based on that same analysis, but it occurred to me in getting ready for SSSR 2024 that I had nearly four years of tweets including the #DezNat hashtag. It's obviously an incomplete history—besides the fact that this movement extends beyond Twitter, I don't have data from before I started collecting it, and the Musk-era academic API shutdown put a hard stop on my data collection—but four years isn't nothing, and it would be interesting to see how things look from a 10,000-foot view.
 
-![]("https://spencergreenhalgh.com/DezNat_tweets_per_month.png")
+![](https://spencergreenhalgh.com/DezNat_tweets_per_month.png)
 
 Indeed, even a quick look at activity over time is interesting. The plot above looks at tweets per month over the whole timeframe of my data, and there are a couple of quick takeaways that I think you can get from it alone: 
 
 First, there has been a decline of #DezNat activity on Twitter since 2021. This isn't surprising: 2021 began with some coverage of #DezNat by Peggy Fletcher Stack at the Salt Lake Tribune that could have increased scrutiny on the movement, and June and July saw some doxxing of the person who coined the hashtag as well as one of its most vocal supporters. This led the former to close his Twitter account, and while the second is still around, his activity on the hashtag definitely went down. I'm sure #DezNat lives on in other ways, but there's certainly a "rise and fall" effect between 2019 and 2022.
 
-![]("https://spencergreenhalgh.com/DezNat_tweets_per_day.png")
+![](https://spencergreenhalgh.com/DezNat_tweets_per_day.png)
 
 The second thing that stands out from that first plot—and is even more clear from this second "tweets per day" one—is that peaks of #DezNat activity are associated with specific chronological events. I've looked at the ten most active days for the #DezNat hashtag over this time, and they're all associated with major events of some kind. Of those top 10 days, spots 2-9 are associated with General Conferences of The Church of Jesus Christ of Latter-day Saints. Previous research has demonstrated that this is a peak time of Mormon activity on Twitter already, and Amy and I know from our qualitative data analysis that #DezNat-affiliated accounts would use that hashtag in conjunction with official hashtags for the Conferences as a way of both joining the conversation and putting their names out there. 
 
