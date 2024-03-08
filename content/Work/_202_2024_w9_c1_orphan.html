@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 202 9.1</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 202: Technologies for Information Services</h1>
+<h2 style=color:white>A+, Chapter 11: Building a PC</h2>
+<h2 style=color:white>6 Mar 2022</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+background-color: gray
+
+class: center, middle
+
+# updates and looking ahead
+
+---
+
+class: center, middle
+
+<img src="https://spencergreenhalgh.com/CI_PowerHour.png" width = "600">
+
+---
+
+class: center, middle
+
+# "Even though the last major manufacturer of floppy disks stopped making them in 2010, the machines that rely on them—from embroidery machines to plastic molding, medical equipment to aircraft—live on, relying on a dwindling supply of disks that will one day run out."
+
+Prisco, J. (2023, March 6). Why the floppy disk just won't die. *WIRED*. https://www.wired.com/story/why-the-floppy-disk-just-wont-die/
+
+---
+
+class: center, middle
+
+# "'When an update is released, we need to download it to two 3.5-inch floppy disks. There are no computers with built-in floppy drives left, so we had to source an external one,' Niazashvili says. 'Then we take the disks to the aircraft to update the flight management system. The operation takes about an hour.'"
+
+Prisco, J. (2023, March 6). Why the floppy disk just won't die. *WIRED*. https://www.wired.com/story/why-the-floppy-disk-just-wont-die/
+
+---
+
+class: center, middle
+
+# "Fewer than 20 Boeing 747-200s remain in service worldwide, and only in cargo or military configurations. The US Air Force operates six, two of them as Air Force One. It’s unclear whether they still use floppy disks, too, but the US military employed the even-older 8-inch floppy disks in its nuclear arsenal until 2019."
+
+Prisco, J. (2023, March 6). Why the floppy disk just won't die. *WIRED*. https://www.wired.com/story/why-the-floppy-disk-just-wont-die/
+
+---
+
+class: center, middle
+
+# "'There’s a worldwide inventory of disks that were manufactured 10 or 20 or 30 years ago,' Persky says. 'That inventory is fixed. We’re just blowing through it day by day. I really have no idea how big it is. It’s probably unbelievably huge, but dispersed. There isn’t anybody with half a million disks, but there are half a million people with a 10-pack.'"
+
+Prisco, J. (2023, March 6). Why the floppy disk just won't die. *WIRED*. https://www.wired.com/story/why-the-floppy-disk-just-wont-die/
+
+---
+
+class: center, middle
+
+<img src="https://spencergreenhalgh.com/gparted_partitions.png" width = "600">
+
+---
+
+class: center, middle
+
+<a title="Moxfyre at English Wikipedia, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Motherboard_diagram.svg"><img width="300" alt="Motherboard diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Motherboard_diagram.svg/512px-Motherboard_diagram.svg.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Huihermit, GPL &lt;http://www.gnu.org/licenses/gpl.html&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Debian_Unstable_GRUB2_(2015).png"><img width="512" alt="Debian Unstable GRUB2 (2015)" src="https://upload.wikimedia.org/wikipedia/commons/4/48/Debian_Unstable_GRUB2_%282015%29.png"></a>
+
+---
+
+### Monday: readings and lecture
+* read A+, Chapter 11: Building a PC (before Monday lecture)
+
+### Wednesday: readings and lecture
+* read A+, Chapter 23: Portable Computing (before Wednesday lecture)
+* take quiz (by Wednesday)
+
+### Friday: reflection and application
+* reflect on the environment and building and repairing computers (by Thursday)
+* build a hypothetical custom virtual machine setup (by Sunday)
+
+### additional activities
+* if willing, submit mid-semester feedback (by Sunday)
+* take midterm exam (by Sunday)
+
+---
+
+class: center, middle
+
+# next week's midterm
+
+## taken online on your own time (but has a deadline!)
+
+## covers Modules 1-8
+
+## worth 5 points
+
+## 40-minute time limit
+
+---
+
+class: center, middle
+
+# next week's midterm
+
+## 14 questions come from textbook readings<br> (1 question/reading)
+
+## questions come from same question banks as practice quizzes, but...
+
+## 6 questions ask you to apply ideas to your virtual machine
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# A+, Chapter 11: Building a PC
+
+---
+
+class: center, middle
+
+# "The type of system a person needs depends on what types of tasks he or she needs to perform with it and how the IT department has configured the organization's network."
+
+(Meyers, 2019, p. 441)
+
+---
+
+class: center, middle
+
+### operating system
+
+### CPU
+
+### RAM
+
+### firmware
+
+### motherboard
+
+### power supply
+
+### mass storage
+
+### peripherals
+
+---
+
+class: center, middle
+
+# what computers do you use for what purposes? 
+
+# what hardware considerations go into those purposes?
+
+---
+
+class: center, middle
+
+# new computer vs. upgraded computer
+
+---
+
+class: center, middle
+
+# thick client vs. thin client
+
+<a title="Gnome-fs-client.svg: David Vignoni
+Gnome-fs-server.svg: David Vignoni
+derivative work: Calimo, LGPL &lt;http://www.gnu.org/licenses/lgpl.html&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Client-server-model.svg"><img width="512" alt="Client-server-model" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Client-server-model.svg/512px-Client-server-model.svg.png"></a>
+
+---
+
+class: center, middle
+
+# thick client vs. thin client
+
+<a title="Djjajah, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ClientronU700.jpg"><img width="400" alt="ClientronU700" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/ClientronU700.jpg/512px-ClientronU700.jpg"></a>
+
+---
+class: center, middle
+
+# thick client vs. thin client
+
+<a title="Raysonho @ Open Grid Scheduler / Scalable Grid Engine, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:ChromebookStaplesStore.jpg"><img width="512" alt="ChromebookStaplesStore" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/ChromebookStaplesStore.jpg/512px-ChromebookStaplesStore.jpg"></a>
+
+---
+class: center, middle
+
+# thick client vs. thin client
+
+<a title="Barte1, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Samsung_Chromebox.JPG"><img width="256" alt="Samsung Chromebox" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Samsung_Chromebox.JPG/256px-Samsung_Chromebox.JPG"></a>
+
+---
+class: center, middle
+
+# thick client vs. thin client
+
+<a title="Tim Walker, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Asus_Chromebit.jpg"><img width="512" alt="Asus Chromebit" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Asus_Chromebit.jpg/512px-Asus_Chromebit.jpg"></a>
+
+---
+class: center, middle
+
+# thick client vs. thin client
+
+<a title="Peter Astbury, CC BY 3.0 &lt;https://creativecommons.org/licenses/by/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Thin_clients.png"><img width="512" alt="Thin clients" src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Thin_clients.png"></a>
+
+---
+class: center, middle
+
+# thick client v. thin client
+
+<a title="Raysonho @ Open Grid Scheduler / Grid Engine, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:PCExpanion.jpg"><img width="512" alt="PCExpanion" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/PCExpanion.jpg/512px-PCExpanion.jpg"></a>
+
+---
+
+class: center, middle
+
+### operating system
+
+### CPU
+
+### RAM
+
+### firmware
+
+### motherboard
+
+### power supply
+
+### mass storage
+
+### peripherals
+
+---
+
+class: center, middle
+
+# virtualization workstation
+
+<a title="John Aplessed, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Hardware_Virtualization_(copy).svg"><img width="512" alt="Hardware Virtualization (copy)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Hardware_Virtualization_%28copy%29.svg/512px-Hardware_Virtualization_%28copy%29.svg.png"></a>
+
+---
+
+class: center, middle
+
+### operating system
+
+### CPU
+
+### RAM
+
+### firmware
+
+### motherboard
+
+### power supply
+
+### mass storage
+
+### peripherals
+
+---
+
+class: center, middle
+
+# gaming PC
+
+<a title="MarcusBurns1977, CC BY 3.0 &lt;https://creativecommons.org/licenses/by/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Gaming_PC_set_up.jpg"><img width="512" alt="Gaming PC set up" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Gaming_PC_set_up.jpg"></a>
+
+---
+
+class: center, middle
+
+### operating system
+
+### processors
+
+### RAM
+
+### firmware
+
+### motherboard
+
+### power supply
+
+### mass storage
+
+### peripherals
+
+---
+
+class: center, middle
+
+# graphics workstation
+
+<a title="Blake Patterson, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:NeXTstation_Turbo_Color_2.jpeg"><img width="256" alt="NeXTstation Turbo Color 2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/NeXTstation_Turbo_Color_2.jpeg/256px-NeXTstation_Turbo_Color_2.jpeg"></a>
+
+---
+
+class: center, middle
+
+### operating system
+
+### processors
+
+### RAM
+
+### firmware
+
+### motherboard
+
+### power supply
+
+### mass storage
+
+### peripherals
+
+---
+
+class: center, middle
+
+# audio/video editing workstation
+
+<a title="Peter2005, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Peter_Francken_in_his_studio.jpg"><img width="256" alt="Peter Francken in his studio" src="https://upload.wikimedia.org/wikipedia/commons/1/13/Peter_Francken_in_his_studio.jpg"></a>
+
+---
+
+class: center, middle
+
+# audio/video editing workstation
+
+
+<a title="Nullcron, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Videowisconsinstudio.tif"><img width="512" alt="Videowisconsinstudio" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Videowisconsinstudio.tif/lossy-page1-800px-Videowisconsinstudio.tif.jpg"></a>
+
+---
+
+class: center, middle
+
+### operating system
+
+### processors
+
+### RAM
+
+### firmware
+
+### motherboard
+
+### power supply
+
+### mass storage
+
+### peripherals
+
+---
+
+class: center, middle
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RZuf0LIU-2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+class: center, middle
+
+# network-attached storage
+
+<a title="Bin im Garten, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:NAS_server.png"><img width="400" alt="NAS server" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/NAS_server.png/512px-NAS_server.png"></a>
+
+---
+
+class: center, middle
+
+# network-attached storage
+
+<a title="Gnome-fs-client.svg: David Vignoni
+Gnome-fs-server.svg: David Vignoni
+derivative work: Calimo, LGPL &lt;http://www.gnu.org/licenses/lgpl.html&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Client-server-model.svg"><img width="512" alt="Client-server-model" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Client-server-model.svg/512px-Client-server-model.svg.png"></a>
+
+---
+class: center, middle
+
+# installation media
+
+
+</textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		}
+  		});
+    </script>
+  </body>
+</html>
