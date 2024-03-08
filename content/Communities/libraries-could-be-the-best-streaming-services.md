@@ -1,7 +1,7 @@
 ---
 date: 2024-03-08T09:39:24-05:00
 title: "libraries could be the best streaming services"
-tags: ["macro","Communities","music","streaming","libraries","Freegal","music streaming","streaming services","Indochine","Phoenix","Chokepoint Capitalism","Cory Doctorow","Rebecca Giblin"]
+tags: ["macro","Communities","music","streaming","libraries","Freegal","music streaming","streaming services","Indochine","Phoenix","Chokepoint Capitalism","Cory Doctorow","Rebecca Giblin","copyright","intellectual property"]
 ---
 Membership in one of my local libraries includes access to [Freegal](https://freegalmusic.com/), a kind of janky, third-tier music streaming service. The selection isn't fantastic, but my tastes in music aren't exactly mainstream, and over the past four years, I've found **a lot** of music I like available through the service. In fact, because you can download a limited number of tracks per week, I have Indochine songs, Gérard Lenorman albums, and even the Stranger Things soundtrack all saved to my phone so that I can bypass the jankiness of the service and the official app.
 
