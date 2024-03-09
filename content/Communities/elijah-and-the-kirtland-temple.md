@@ -9,7 +9,7 @@ One thing that's come up in a few conversations I've had about the recent sale o
 
 [^1]: Lest I be accused of disrespect: I use the acronym "LDS" here because it's a clear reference to The Church of Jesus Christ of Latter-day Saints. Members of Community of Christ (and the RLDS Church before it) have historically referred to themselves as "Latter Day Saints," and despite the differences in punctuation and capitalization, there's just too much room for confusion if I use the approved nomenclature in settings where I'm writing about both populations.
 
-I suspect that LDS tours of the Kirtland Temple are going to start emphasizing a purported visit of Elijah to Joseph Smith Jr. at that site in a way that Community of Christ tours haven't (though it would be a mistake to say that Elijah has been absent from tours under the previous ownership). From a devotional view, this makes a lot of sense. As Trever Anderson puts it in a 2010 BYU [master's thesis](Anderson_2010_D&C_110):
+I suspect that LDS tours of the Kirtland Temple are going to start emphasizing a purported visit of Elijah to Joseph Smith Jr. at that site in a way that Community of Christ tours haven't (though it would be a mistake to say that Elijah has been absent from tours under the previous ownership). From a devotional view, this makes a lot of sense. As Trever Anderson puts it in a 2010 BYU [master's thesis](https://spencergreenhalgh.com/Anderson_2010_D&C_110.pdf):
 
 > Central to the doctrine of the Mormon temple is the claimed visitation of Jesus Christ, Moses, Elias and Elijah to Joseph Smith and Oliver Cowdery in the Kirtland Temple.
 
