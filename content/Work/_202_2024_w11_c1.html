@@ -25,8 +25,8 @@ class: center, middle
 background-color: black
 
 <h1 style=color:white>ICT 202: Technologies for Information Services</h1>
-<h2 style=color:white>A+, Chapter 12: Windows Under the Hood</h2>
-<h2 style=color:white>20 Mar 2023</h2>
+<h2 style=color:white>A+, Chapter 11: Installing and Upgrading Operating Systems</h2>
+<h2 style=color:white>18 Mar 2024</h2>
 <h2 style=color:white>Dr. Spencer Greenhalgh</h2>
 
 ---
@@ -38,37 +38,59 @@ class: center, middle
 
 ---
 
-class: center, middle
-
-<img src="https://spencergreenhalgh.com/CI_PowerHour.png" width = "600">
-
----
-
 # this week
 
 ## Monday: readings and lecture
 
-* read A+, Chapter 12: Windows Under the Hood (before Monday lecture)
+* read A+, Chapter 11: Installing and Updating Operating Systems (before Monday lecture)
 
 ## Wednesday: readings and lecture
 
-* read A+, Chapter 13: Users, Groups, and Permissions (before Wednesday lecture)
+* read A+, Chapter 12: Working with Operating Systems (before Wednesday lecture)
 * take quiz (by Wednesday)
 
 ## Friday: reflection and application
 
-* reflect on the importance of authentication and authorization (by Thursday)
-* manage user accounts, groups, and permission in Debian (by Sunday)
+* reflect on "being an operating system" (by Thursday)
+* evaluate other operating systems (by Sunday)
 
 ---
 
 class: center, middle
 
-# if you want to make up assignments, please ask
+# [Spring 2024 CI Career Week](https://ci.uky.edu/students/career-readiness/ci-career-week)
+
+### Monday, March 18, 9am, 122 White Hall: Ask the Intern Panel
+
+### Monday, March 18, 10am, 158 Taylor Education Building: Scripps Journalism Panel
+
+### Tuesday, March 19, 12pm-2pm, 310 LCLI: Resumania
+
+### Tuesday, March 19, 6pm-7pm, 214 White Hall: Event Management Panel
+
+### Tuesday, March 19, 7pm-8pm, [Zoom](https://uky.zoom.us/webinar/register/WN_dipP_KCrRseeBdouwGEK9g#/registration): In the Business of Bourbon
+
+---
+
+class: center, middle
+
+# [Spring 2024 CI Career Week](https://ci.uky.edu/students/career-readiness/ci-career-week)
+
+## Wednesday, March 20, 1pm-4pm, Gatton Ballroom C: Spring Internship and Career Fair
+
+## Thursday, March 21, 1pm-3pm, [Zoom](https://ci.uky.edu/gradchat): CI Grad Chat
+
+## Friday, March 22, 10am, [Zoom](https://ci.uky.edu/salespanel): Virtual Sales Panel
 
 ---
 
 background-color: gray
+
+class: center, middle
+
+# A+, Chapter 11: Installing and Updating Operating Systems
+
+---
 
 class: center, middle
 
@@ -80,7 +102,7 @@ class: center, middle
 
 # "The *operating system (OS)* controls the hardware and enables you to tell the computer what to do."
 
-(Meyers, 2019, p. 32)
+(Meyers, 2023, p. 32)
 
 ---
 
@@ -99,6 +121,47 @@ class: center, middle
 class: center, middle
 
 <a title="Golftheman, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Operating_system_placement.svg"><img width="400" alt="Operating system placement" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Operating_system_placement.svg/512px-Operating_system_placement.svg.png"></a>
+
+
+---
+
+class: center, middle
+
+# "This chapter's title is slightly deceptive, as it might be more accurate to call it 'Installing and Upgrading Microsoft Windows'"
+
+(Meyers et al., 2023, p. 419)
+
+---
+
+class: center, middle
+
+# who uses Windows as main desktop/laptop OS?
+
+---
+
+class: center, middle
+
+# [desktop OS market share](https://gs.statcounter.com/os-market-share/desktop/worldwide/)
+
+---
+
+class: center, middle
+
+# who uses another OS for their desktop/laptop?
+
+---
+
+class: center, middle
+
+# "ChromeOS and macOS come preinstalled on devices and are upgraded through regular software updates rather than by the release and installation of entirely new versions like you'd see with Windows."
+
+(Meyers et al., 2023, p. 419)
+
+---
+
+class: center, middle
+
+# is this true? (of Windows?)
 
 ---
 
@@ -146,7 +209,7 @@ class: center, middle
 
 class: center, middle
 
-# WIndows 8 (2012-2016)
+# Windows 8 (2012-2016)
 
 <img src="https://upload.wikimedia.org/wikipedia/en/8/8e/Windows_8_Start_Screen.png">
 
@@ -154,200 +217,99 @@ class: center, middle
 
 class: center, middle
 
-# WIndows 11 (2021-present)
+<p><a href="https://en.wikipedia.org/wiki/File:WP8.1_Start_Screen.png#/media/File:WP8.1_Start_Screen.png"><img src="https://upload.wikimedia.org/wikipedia/en/4/48/WP8.1_Start_Screen.png" alt="WP8.1 Start Screen.png" height="444" width="250"></a><br>By Microsoft Corporation - Microsoft (&lt;a rel="nofollow" class="external free" href="http://blogs.windows.com/windows_phone/b/windowsphone/archive/2014/04/02/cortana-yes-and-many-many-other-great-features-coming-in-windows-phone-8-1.aspx"&gt;http://blogs.windows.com/windows_phone/b/windowsphone/archive/2014/04/02/cortana-yes-and-many-many-other-great-features-coming-in-windows-phone-8-1.aspx&lt;/a&gt;), <a href="//en.wikipedia.org/wiki/File:WP8.1_Start_Screen.png" title="Fair use of copyrighted material in the context of Windows Phone">Fair use</a>, <a href="https://en.wikipedia.org/w/index.php?curid=42403741">Link</a></p>
+
+---
+
+class: center, middle
+
+# Windows 11 (2021-present)
 
 <img src="https://upload.wikimedia.org/wikipedia/en/9/92/Windows_11_Desktop.png">
 
+---
+
+class: center, middle
+
+# Windows Versions and Editions
 
 ---
 
 class: center, middle
 
-# who uses Windows as main desktop/laptop OS?
+# "Every CompTIA A+ update has always been basically—almost comically—one version behind the latest version of Windows since Windows 7"
+
+(Meyers et al., 2023, p. 420)
 
 ---
 
 class: center, middle
 
-# [desktop OS market share](https://gs.statcounter.com/os-market-share/desktop/worldwide/#monthly-200901-202202)
+# Windows Workgroups
 
----
-
-background-color: gray
-
-class: center, middle
-
-# A+, Chapter 12: Windows Under the Hood
+<a title="The 360 Degree, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:P2P_network.svg"><img width="512" alt="P2P network" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/P2P_network.svg/512px-P2P_network.svg.png"></a>
 
 ---
 
 class: center, middle
 
-<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="600" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
+# Windows Domains
+
+<a title="User:Mauro Bieg, LGPL &lt;http://www.gnu.org/licenses/lgpl.html&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Server-based-network.svg"><img width="512" alt="Server-based-network" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Server-based-network.svg/1024px-Server-based-network.svg.png"></a>
 
 ---
 
 class: center, middle
 
-# where is Windows stored?
+# what's the advantage of domains over workgroups? 
 
 ---
 
 class: center, middle
 
-# what is Windows stored as?
+# why go with workgroup over a domain?
 
 ---
 
 class: center, middle
 
-# below the surface, many ICT phenomena come down to a set of formatted files
+# installing and upgrading ~~Windows~~ operating systems
 
 ---
 
 class: center, middle
 
-# "The *Registry* is a huge database, part of every installed Windows system, that stores everything about a PC..."
-
-(Meyers, 2019, p. 487)
+<a title="Golftheman, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Operating_system_placement.svg"><img width="400" alt="Operating system placement" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Operating_system_placement.svg/512px-Operating_system_placement.svg.png"></a>
 
 ---
 
 class: center, middle
 
-# registry equivalent in Debian
-
----
-
-class: center
-
-# `/etc/`
-
-<img src="https://spencergreenhalgh.com/Debian_etc_folders.png"  width = "600">
-
----
-
-class: center
-
-# `/etc/`
-
-<img src="https://spencergreenhalgh.com/Debian_etc_files.png"  width = "600">
+<a title="Rivanfebrian123, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:GRUB_with_ubuntu_and_windows_vista.png"><img width="512" alt="GRUB with ubuntu and windows vista" src="https://upload.wikimedia.org/wikipedia/commons/c/cf/GRUB_with_ubuntu_and_windows_vista.png"></a>
 
 ---
 
 class: center, middle
 
-# "Even though the Registry is important, you rarely access the Registry directly. Instead, when you use Windows' Settings or Control Panel (or just about any other utility), you are editing the Registry." 
+# external media
 
-(Meyers, 2019)
-
----
-
-class: center, middle
-
-<p><a href="https://en.wikipedia.org/wiki/File:Regstry_Editor.png#/media/File:Regstry_Editor.png"><img src="https://upload.wikimedia.org/wikipedia/en/5/52/Regstry_Editor.png" alt="Regstry Editor.png"></a><br>By <a href="//en.wikipedia.org/wiki/Windows_10" title="Windows 10">Windows 10</a>, <a href="//en.wikipedia.org/wiki/File:Regstry_Editor.png" title="Fair use of copyrighted material in the context of Windows Registry">Fair use</a>, <a href="https://en.wikipedia.org/w/index.php?curid=53062150">Link</a></p>
-
----
-
-# registry components 
-(Meyers, 2019, pp. 488-489)
-
---
-
-* `HKEY_CLASSES_ROOT` ("Pretty much everything that has to do with files on the system is defined by a class object")
-
---
-
-* `HKEY_CURRENT_USER` ("stores the current user settings") and `HKEY_USERS` ("all of the personalized information for each user")
-
---
-
-* `HKEY_LOCAL_MACHINE` ("contains all the data for a system's non-user-specific configurations")
-
---
-
-* `HKEY_CURRENT_CONFIG` ("defines which [option] is currently being used")
+<a title="Hanul from Germany, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Microsoft_Windows_95_Setup_via_installation_using_3,5-inch_floppy_disks.jpg"><img width="256" alt="Microsoft Windows 95 Setup via installation using 3,5-inch floppy disks" src="https://upload.wikimedia.org/wikipedia/commons/5/50/Microsoft_Windows_95_Setup_via_installation_using_3%2C5-inch_floppy_disks.jpg"></a>
 
 ---
 
 class: center, middle
 
-# "There's little motivation for you to go into the Registry and make manual edits unless you've done some research that tells you to do so"
+# remote network installation
 
-(Meyers, 2019, p. 491)
-
----
-
-class: center, middle
-
-# "always make a backup of the Registry before you change anything"
-
-(Meyers, 2019, p. 491)
+<a title="User:Mauro Bieg, LGPL &lt;http://www.gnu.org/licenses/lgpl.html&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Server-based-network.svg"><img width="512" alt="Server-based-network" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Server-based-network.svg/1024px-Server-based-network.svg.png"></a>
 
 ---
 
 class: center, middle
 
-# "There’s a dumb prank that’s been floating around the Internet for a long time, where jokers try to trick people into deleting their System32 folder."
+# image deployment
 
-Hoffman, C. (2018, April 28). What is the System32 Directory? (and why you shouldn’t delete it). *How-To Geek*. https://www.howtogeek.com/346997/what-is-the-system32-directory-and-why-you-shouldnt-delete-it/
-
----
-
-class: center, middle
-
-### `bootmgr`
-
-<a title="Moxfyre at English Wikipedia, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Motherboard_diagram.svg"><img width="350" alt="Motherboard diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Motherboard_diagram.svg/512px-Motherboard_diagram.svg.png"></a>
-
----
-
-class: center, middle
-
-# "When bootmgr starts, it reads data from a *Boot Configuration Data (BCD)* file that contains information about the various operating systems installed on the system as well as instruction for how to actually load (bootstrap) them." 
-
-(Meyers, 2019, p. 493)
-
----
-
-class: center, middle
-
-### applications
-
-<a title="Moxfyre at English Wikipedia, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Motherboard_diagram.svg"><img width="350" alt="Motherboard diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Motherboard_diagram.svg/512px-Motherboard_diagram.svg.png"></a>
-
----
-
-class: center, middle
-
-# "In Windows, programs are executable files waiting on a mass storage device. When you start a program, Windows loads it into RAM as a process. Once there, the CPU reads the process and the process tells the CPU which chunks of code to run." 
-
-(Meyers, 2019, p. 494)
-
----
-
-class: center, middle
-
-<a title="Hooman Mallahzadeh, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Concepts-_Program_vs._Process_vs._Thread.jpg"><img width="512" alt="Concepts- Program vs. Process vs. Thread" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Concepts-_Program_vs._Process_vs._Thread.jpg/512px-Concepts-_Program_vs._Process_vs._Thread.jpg"></a>
-
----
-
-class: center, middle
-
-# Task Manager
-
----
-
-class: center, middle
-
-# Resource Monitor
-
----
-
-class: center, middle
-
-# Performance Tools
-
+<a title="User:Mauro Bieg, LGPL &lt;http://www.gnu.org/licenses/lgpl.html&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Server-based-network.svg"><img width="512" alt="Server-based-network" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Server-based-network.svg/1024px-Server-based-network.svg.png"></a>
 
 
 </textarea>
