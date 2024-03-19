@@ -25,8 +25,8 @@ class: center, middle
 background-color: black
 
 <h1 style=color:white>ICT 202: Technologies for Information Services</h1>
-<h2 style=color:white>A+, Chapter 13: Users, Groups, and Permissions</h2>
-<h2 style=color:white>22 Mar 2023</h2>
+<h2 style=color:white>A+, Chapter 12: Working with Operating Systems</h2>
+<h2 style=color:white>20 Mar 2024</h2>
 <h2 style=color:white>Dr. Spencer Greenhalgh</h2>
 
 ---
@@ -37,309 +37,220 @@ class: center, middle
 # updates and looking ahead
 
 ---
+
 # this week
 
 ## Monday: readings and lecture
 
-* read A+, Chapter 12: Windows Under the Hood (before Monday lecture)
+* read A+, Chapter 11: Installing and Updating Operating Systems (before Monday lecture)
 
 ## Wednesday: readings and lecture
 
-* read A+, Chapter 13: Users, Groups, and Permissions (before Wednesday lecture)
+* read A+, Chapter 12: Working with Operating Systems (before Wednesday lecture)
 * take quiz (by Wednesday)
 
 ## Friday: reflection and application
 
-* reflect on the importance of authentication and authorization (by Thursday)
-* manage user accounts, groups, and permission in Debian (by Sunday)
-
----
-background-color: gray
-
-class: center, middle
-
-# A+, Chapter 13: Users, Groups, and Permissions
+* reflect on "being an operating system" (by Thursday)
+* evaluate other operating systems (by Sunday)
 
 ---
 
 class: center, middle
 
-# "*Authentication* is the process of identifying and granting access to some user... who is trying to access a system"
+# [Spring 2024 CI Career Week](https://ci.uky.edu/students/career-readiness/ci-career-week)
 
-(Meyers, 2019, p. 528)
+### Monday, March 18, 9am, 122 White Hall: Ask the Intern Panel
 
----
+### Monday, March 18, 10am, 158 Taylor Education Building: Scripps Journalism Panel
 
-class: center, middle
+### Tuesday, March 19, 12pm-2pm, 310 LCLI: Resumania
 
-# "*authorization*: the process that defines what resources an authenticated user may access and what he or she may do with those resources"
+### Tuesday, March 19, 6pm-7pm, 214 White Hall: Event Management Panel
 
-(Meyers, 2019, p. 528)
-
----
-
-class: center, middle
-
-# what does authentication look like for our ICT 202 Canvas?
+### Tuesday, March 19, 7pm-8pm, [Zoom](https://uky.zoom.us/webinar/register/WN_dipP_KCrRseeBdouwGEK9g#/registration): In the Business of Bourbon
 
 ---
 
 class: center, middle
 
-# what does [authorization](https://uk.instructure.com/courses/2029617/users) look like for our ICT 202 Canvas? 
+# [Spring 2024 CI Career Week](https://ci.uky.edu/students/career-readiness/ci-career-week)
+
+## Coastal Cloud
+## UK IT
+## Awesome Inc.
+
+### Wednesday, March 20, 1pm-4pm, Gatton Ballroom C: Spring Internship and Career Fair
+
+### Thursday, March 21, 1pm-3pm, [Zoom](https://ci.uky.edu/gradchat): CI Grad Chat
+
+### Friday, March 22, 10am, [Zoom](https://ci.uky.edu/salespanel): Virtual Sales Panel
 
 ---
 
 class: center, middle
 
-# what might an authentication problem look like for our ICT 202 Canvas?
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="600" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/1024px-Von_Neumann_Architecture.svg.png"></a>
 
 ---
 
 class: center, middle
 
-# what might an authorization problem look like for our ICT 202 Canvas? 
+# where is Windows stored?
 
 ---
 
 class: center, middle
 
-# what are authentication and authorization important in the case of computers? 
+# what is Windows stored as?
 
 ---
 
 class: center, middle
 
-# how do you manage authentication and authorization on your computers? 
+# below the surface, many ICT phenomena come down to a set of formatted files
 
 ---
 
 class: center, middle
 
-# "*user account*, a unique combination of a user name and an associated password"
-
-(Meyers, 2019, p. 528)
+# these slides!
 
 ---
 
 class: center, middle
 
-# what do user names look like on your computers? 
-
----
-class: center, middle
-
-# "Apple’s iPads only support multiple user accounts in a special education mode intended for schools. iPads are a single-user device—more like an iPhone than a Mac."
-
-Hoffman, C. (2019, September 11). Can you get multiple user accounts on an iPad? *How-To Geek*. https://www.howtogeek.com/438663/can-you-get-multiple-user-accounts-on-an-ipad/
-
----
-class: center, middle
-
-# "Apple clearly wants everyone in your family to have their own iPad, just like the company wants you to own your own iPhone."
-
-Hoffman, C. (2019, September 11). Can you get multiple user accounts on an iPad? *How-To Geek*. https://www.howtogeek.com/438663/can-you-get-multiple-user-accounts-on-an-ipad/
+# [a website!](https://github.com/greenhas/spg_website/tree/master)
 
 ---
 
 class: center, middle
 
-# when does one iPad per user not make as much sense? 
-
----
-class: center, middle
-
-# "You don’t necessarily want your child tapping through all your email or having full access to the system."
-
-Hoffman, C. (2019, September 11). Can you get multiple user accounts on an iPad? *How-To Geek*. https://www.howtogeek.com/438663/can-you-get-multiple-user-accounts-on-an-ipad/
+# [`.csv` spreadsheet](https://github.com/greenhas/spg_website/blob/master/static/Twitter_hashtags.csv)
 
 ---
 
 class: center, middle
 
-# local user accounts vs. global user accounts
+# `.docx` Word file
 
 ---
 
 class: center, middle
 
-# what do passwords look like on your computers? 
+# "The *Registry* is a critical database, core to every Windows system, that stores everything about a PC..."
+
+(Meyers et al., 2023, p. 457)
 
 ---
 
 class: center, middle
 
-# what are easy ways to figure out someone's password? 
+# registry equivalent in Debian
+
+---
+
+class: center
+
+# `/etc/`
+
+<img src="https://spencergreenhalgh.com/Debian_etc_folders.png"  width = "600">
+
+---
+
+class: center
+
+# `/etc/`
+
+<img src="https://spencergreenhalgh.com/Debian_etc_files.png"  width = "600">
 
 ---
 
 class: center, middle
 
-# based on our previous conversation, what makes for good password security?
+# "A large part of Windows' power is hidden—*under the hood*—in programs and processes that Microsoft doesn't want normal users to see."
+
+# "Almost any form of configuration you do to a Windows system involves editing the Registry..." 
+
+(Meyers et al., 2023, p. 457)
 
 ---
 
 class: center, middle
 
-# "Make sure users have a *strong password*: at least eight characters in length, including letters, numbers, and nonalphanumeric symbols"
-
-(Meyers, 2019, p. 530)
+<p><a href="https://en.wikipedia.org/wiki/File:Regstry_Editor.png#/media/File:Regstry_Editor.png"><img src="https://upload.wikimedia.org/wikipedia/en/5/52/Regstry_Editor.png" alt="Regstry Editor.png"></a><br>By <a href="//en.wikipedia.org/wiki/Windows_10" title="Windows 10">Windows 10</a>, <a href="//en.wikipedia.org/wiki/File:Regstry_Editor.png" title="Fair use of copyrighted material in the context of Windows Registry">Fair use</a>, <a href="https://en.wikipedia.org/w/index.php?curid=53062150">Link</a></p>
 
 ---
 
-class: center, middle
-
-![](https://imgs.xkcd.com/comics/password_strength.png)
-
----
-class: center, middle
-
-# "CompTIA also recommends that you should have users change passwords at regular intervals... For starters, users tend to forget password when they change a lot. This can lead to an even bigger security problem because users start writing passwords down."
-
-(Meyers, 2019, p. 530)
-
----
-
-### "I’m going to set off all your smoke alarms when I make this fiery statement: Never change your password. Before you call the fire department, consider these three crucial provisos. Never change your password…
-
-### 1. If it’s sufficiently strong
-### 2. If you created a unique one for each account
-### 3. Unless there’s a security breach where it’s stored"
-
-Fleishman, G. (2022, March 3). Never change your password. *TidBITS*. https://tidbits.com/2022/03/03/never-change-your-password/
-
----
-class: center, middle
-
-# "A *group* is a container that holds user accounts and defines the capabilities of its members"
-
-(Meyers, 2019, p. 531)
-
----
-
-class: center, middle
-
-# how do groups relate to authentication and authorization?
-
----
-
-class: center, middle
-
-# how do groups make authorization easier?
-
----
-
-# default Windows groups
-(Meyers, 2019, p. 532)
+# registry components 
+(Meyers et al., 2023, p. 458)
 
 --
 
-* **Administrators**: "complete control over a machine"
+* `HKEY_CLASSES_ROOT` ("Pretty much everything that has to do with files on the system is defined by a class object")
 
 --
 
-* **Power Users**: "almost as powerful as members of the Administrators group, but cannot install new devices or access other users' files or folders unless the files or folders specificially provide them access"
+* `HKEY_CURRENT_USER` ("stores the current user settings") and `HKEY_USERS` ("all of the personalized information for each user")
 
 --
 
-* **Users**: "cannot edit the Registry or access critical system files"
+* `HKEY_LOCAL_MACHINE` ("contains all the data for a system's non-user-specific configurations")
 
 --
 
-* **Guests**: "enables someone who does not have an account on the system to log on by using a guest account"
+* `HKEY_CURRENT_CONFIG` ("defines which [option] is currently being used")
 
 ---
 
 class: center, middle
 
-# elevated privileges 
+# "The most common scenario where you need to access the Registry directly is when you're directed to do so by a tech support Web site, a vendor's patch, or a tech support technician. Be careful!"
 
-### try with Resource Monitor
-
----
-
-### permissions on Windows: NTFS permissions
-(Meyers, 2019, pp. 545-546)
---
-
-* Ownership: "Owners can do anything they want"
-
---
-
-* `Take Ownership` permission: "can seize control of a file or folder"
-
---
-
-* `Change` permission: "can give or take away permissions"
-
---
-
-* `Folder` permissions: "define what a user may do to a folder"
-
---
-
-    * `Full Control`
-    * `Modify`
-    * `Read & Execute`
-    * `List Folder Contents`
-    * `Read`
-    * `Write`
-
---
-
-* `File` permissions: "define what a user may do to an individual file"
-
---
-
-    * `Full Control`
-    * `Modify`
-    * `Read & Execute`
-    * `Read`
-    * `Write`
+(Meyers et al., 2023, p. 461)
 
 ---
 
 class: center, middle
 
-# "The base rule of Windows inheritance is that any new files or folders placed into a folder automatically get all the NTFS permission of the parent folder"
+# "always make a backup of the Registry before you change anything"
 
-(Meyers, 2019, p. 547)
-
----
-
-class: center, middle
-
-# permissions in Debian and other Unix-based systems
+(Meyers et al., 2023, p. 461)
 
 ---
 
 class: center, middle
 
-#`----------`
+# "There’s a dumb prank that’s been floating around the Internet for a long time, where jokers try to trick people into deleting their System32 folder."
+
+Hoffman, C. (2018, April 28). What is the System32 Directory? (and why you shouldn’t delete it). *How-To Geek*. https://www.howtogeek.com/346997/what-is-the-system32-directory-and-why-you-shouldnt-delete-it/
 
 ---
 
 class: center, middle
 
-#`d---------`
+# file extensions and file types
 
 ---
 
-class: center, middle
+# why talk about file extensions in this lecture?
 
-#`drwx------`
+--
+
+* ## it's related to the idea of operating systems functioning as collections of files
+
+--
+
+* ## the Windows Registry determines how to handle different file extensions
+
+--
+
+* ## the Windows Registry determines **whether you even see file extensions**
 
 ---
 
-class: center, middle
 
-#`drwxrw----`
 
----
-
-class: center, middle
-
-#`drwxrw-r--`
 
 </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
