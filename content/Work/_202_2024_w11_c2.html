@@ -146,28 +146,6 @@ class: center, middle
 
 class: center, middle
 
-# registry equivalent in Debian
-
----
-
-class: center
-
-# `/etc/`
-
-<img src="https://spencergreenhalgh.com/Debian_etc_folders.png"  width = "600">
-
----
-
-class: center
-
-# `/etc/`
-
-<img src="https://spencergreenhalgh.com/Debian_etc_files.png"  width = "600">
-
----
-
-class: center, middle
-
 # "A large part of Windows' power is hidden—*under the hood*—in programs and processes that Microsoft doesn't want normal users to see."
 
 # "Almost any form of configuration you do to a Windows system involves editing the Registry..." 
@@ -187,19 +165,19 @@ class: center, middle
 
 --
 
-* `HKEY_CLASSES_ROOT` ("Pretty much everything that has to do with files on the system is defined by a class object")
+* ### `HKEY_CLASSES_ROOT` ("Pretty much everything that has to do with files on the system is defined by a class object")
 
 --
 
-* `HKEY_CURRENT_USER` ("stores the current user settings") and `HKEY_USERS` ("all of the personalized information for each user")
+* ### `HKEY_CURRENT_USER` ("stores the current user settings") and `HKEY_USERS` ("all of the personalized information for each user")
 
 --
 
-* `HKEY_LOCAL_MACHINE` ("contains all the data for a system's non-user-specific configurations")
+* ### `HKEY_LOCAL_MACHINE` ("contains all the data for a system's non-user-specific configurations")
 
 --
 
-* `HKEY_CURRENT_CONFIG` ("defines which [option] is currently being used")
+* ### `HKEY_CURRENT_CONFIG` ("defines which [option] is currently being used")
 
 ---
 
@@ -227,6 +205,56 @@ Hoffman, C. (2018, April 28). What is the System32 Directory? (and why you shoul
 
 ---
 
+# alternatives to directly editing the Windows Registry:
+
+--
+
+* ## System Configuration
+
+--
+
+* ## Windows Settings
+
+--
+
+* ## Control Panel (kinda...)
+
+---
+
+class: center, middle
+
+# registry equivalent in Debian
+
+---
+
+class: center
+
+# `/etc/`
+
+<img src="https://spencergreenhalgh.com/Debian_etc_folders.png"  width = "600">
+
+---
+
+class: center
+
+# `/etc/`
+
+<img src="https://spencergreenhalgh.com/Debian_etc_files.png"  width = "600">
+
+---
+
+class: center, middle
+
+# registry equivalent in macOS
+
+---
+
+class: center, middle
+
+<img src="https://spencergreenhalgh.com/macOS_Library.png"  width = "600">
+
+---
+
 class: center, middle
 
 # file extensions and file types
@@ -247,10 +275,61 @@ class: center, middle
 
 * ## the Windows Registry determines **whether you even see file extensions**
 
+--
+
+* ## (also, this is super important for other ICT classes)
+
 ---
 
+class: center, middle
 
+# peeking under the hood of an OS
 
+---
+
+class: center, middle
+
+# "CPUs run *threads*—bits of programs that are fed into the CPU"
+
+# "A program is machine code, manifesting as a file, that the CPU can read from RAM."
+
+(Meyers et al., 2023, p. 475)
+
+---
+
+class: center, middle
+
+# "When you click on the file, a copy of the program is loaded form the hard drive onto RAM. At this point the program is running and is called a process. As the CPU runs the program, it grabs a few lines of code from RAM and processes them."
+
+(Meyers et al., 2023, p. 475)
+
+---
+
+class: center, middle
+
+<a title="Mewtow, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Bus_syst%C3%A8me_avec_un_chipset.png"><img width="650" alt="Bus système avec un chipset" src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Bus_syst%C3%A8me_avec_un_chipset.png"></a>
+
+---
+
+class: center, middle
+
+<a title="Hooman Mallahzadeh, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Concepts-_Program_vs._Process_vs._Thread.jpg"><img width="512" alt="Concepts- Program vs. Process vs. Thread" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Concepts-_Program_vs._Process_vs._Thread.jpg/512px-Concepts-_Program_vs._Process_vs._Thread.jpg"></a>
+
+---
+
+# Windows tools for examining threads, processes, and applications:
+
+--
+
+* ## Task Manager
+
+--
+
+* ## Resource Monitor
+
+--
+
+* ## Microsoft Management Console
 
 </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
