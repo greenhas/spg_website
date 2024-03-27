@@ -27,7 +27,7 @@ background-color: black
 
 <h1 style=color:white>ICT 202: Technologies for Information Services</h1>
 <h2 style=color:white>A+, Chapter 16: Troubleshooting Operating Systems</h2>
-<h2 style=color:white>29 Mar 2023</h2>
+<h2 style=color:white>27 Mar 2024</h2>
 <h2 style=color:white>Dr. Spencer Greenhalgh</h2>
 
 ---
@@ -36,20 +36,6 @@ background-color: gray
 class: center, middle
 
 # updates and looking ahead
-
----
-
-class: center, middle
-
-# [Team Alpha internship](https://careers.awesomeinc.org/jobs/Careers/649925000000610353/Team-Alpha---Internship) with Awesome, Inc
-
-## Events & Marketing
-
-## Graphic Design
-
-## Videography
-
-## Web Development
 
 ---
 
@@ -71,6 +57,26 @@ class: center, middle
 
 ---
 
+class: center, middle
+
+# Bring food or personal care item donations to LCLI 310 Suite any time between March 26 at 10 a.m. and 2 p.m. on April 2 to support the Big Blue Pantry.
+
+## [Information about the Big Blue Pantry](https://studentsuccess.uky.edu/tracs/donations)
+
+---
+
+class: center, middle
+
+# [CI Day at Kentucky Proud Park](https://ci.uky.edu/about/events/ci-day-kentucky-proud-park)
+
+## Saturday, April 20th, 2pm
+
+## Acting Dean Frisby throws first pitch!
+
+## free tickets, but RSVP by April 12th for food
+
+---
+
 background-color: gray
 
 class: center, middle
@@ -81,7 +87,7 @@ class: center, middle
 
 class: center, middle
 
-# differences between operating systems
+# differences between operating systems (from old book)
 
 ---
 class: center, middle
@@ -110,7 +116,43 @@ class: center, middle
 
 class: center, middle
 
-# why focus on Windows? 
+# why focus on Windows?
+
+---
+
+class: center, middle
+
+# reminder: below the surface, many ICT phenomena come down to a set of formatted files
+
+---
+
+class: center, middle
+
+# these slides!
+
+---
+
+class: center, middle
+
+# [a website!](https://github.com/greenhas/spg_website/tree/master)
+
+---
+
+class: center, middle
+
+# [`.csv` spreadsheet](https://github.com/greenhas/spg_website/blob/master/static/Twitter_hashtags.csv)
+
+---
+
+class: center, middle
+
+# `.docx` Word file
+
+---
+
+class: center, middle
+
+# operating systems and applications
 
 ---
 
@@ -118,7 +160,106 @@ background-color: gray
 
 class: center, middle
 
-# failure to boot
+# common troubleshooting procedures
+
+---
+
+class: center, middle
+
+# first: when your computer isn't working quite right, what do you try?
+
+---
+
+class: center, middle
+
+<iframe src="https://giphy.com/embed/FspLvJQlQACXu" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/made-by-me-the-it-crowd-FspLvJQlQACXu">via GIPHY</a></p>
+
+---
+
+class: center, middle
+
+# "One common cause of this slow descent into chaos is programs that don't properly clean up and release the resources they've been using... This is most common with memory."
+
+(Meyers et al., 2023, p. 652)
+
+---
+
+class: center, middle
+
+# Uninstall/Reinstall/Update Applications
+
+---
+
+class: center, middle
+
+# "a good first step is to see if it has any updates available"
+
+(Meyers et al., 2023, p. 653)
+
+---
+
+class: center, middle
+
+# "If the program broke after you updated it or the OS, either one might have a bug or might no longer be compatible with the other." 
+
+(Meyers et al., 2023, p. 653)
+
+---
+
+class: center, middle
+
+# "Many programs read and write data to files on the system as they run, and even the tiniest problem in these data files could crash the program."
+
+(Meyers et al., 2023, p. 653)
+
+
+---
+
+class: center, middle
+
+# System File Check
+
+---
+
+class: center, middle
+
+# "It'll search your system files to ensure they're all present and not corrupted"
+
+(Meyers et al., 2023, p. 653)
+
+---
+
+class: center, middle
+
+# Resource Requirements
+
+---
+
+class: center, middle
+
+# "When we're having unexplained trouble, good techs aren't afraid to ask simple questions like whether the device meets the system requirements..."
+
+(Meyers et al., 2023, p. 654)
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# recovering when Windows Breaks
+
+---
+
+class: center, middle
+
+# Windows Recovery Environment
+
+---
+
+class: center, middle
+
+<img src="https://upload.wikimedia.org/wikipedia/en/d/d5/Windows_11_Recovery_Environment_%28WinRE%29.png" width = "800">
 
 ---
 
@@ -126,206 +267,35 @@ class: center, middle
 
 ## how does a computer boot?
 
-<a title="Moxfyre at English Wikipedia, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Motherboard_diagram.svg"><img width="350" alt="Motherboard diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Motherboard_diagram.svg/512px-Motherboard_diagram.svg.png"></a>
+<a title="Mewtow, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Bus_syst%C3%A8me_avec_un_chipset.png"><img width="650" alt="Bus système avec un chipset" src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Bus_syst%C3%A8me_avec_un_chipset.png"></a>
 
 ---
 
-class: center, middle
-
-# `bootmgr`
-
----
-
-class: center, middle
-
-# *Boot Configuration Data (BCD)*
-
----
-
-class: center, middle
-
-<a title="Microsoft, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Windows_Boot_Manager_with_Windows_7,Vista_and_XP.png"><img width="512" alt="Windows Boot Manager with Windows 7,Vista and XP" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Windows_Boot_Manager_with_Windows_7%2CVista_and_XP.png/512px-Windows_Boot_Manager_with_Windows_7%2CVista_and_XP.png"></a>
-
----
-
-class: center, middle
-
-## where could the boot process go wrong?
-
-<a title="Moxfyre at English Wikipedia, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Motherboard_diagram.svg"><img width="350" alt="Motherboard diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Motherboard_diagram.svg/512px-Motherboard_diagram.svg.png"></a>
-
----
-
-class: center, middle
-
-# questions for troubleshooting boot failure
-
----
-
-class: center, middle
-
-# "Is the PC plugged in?"
-
-(Meyers, 2019, p. 683)
-
----
-
-class: center, middle
-
-# "What displays on the screen—if anything—after you press the power button on the case?"
-
-(Meyers, 2019, p. 683)
-
----
-
-class: center, middle
-
-# "What do you hear—if anything—after you press the power button on the case?"
-
-(Meyers, 2019, p. 683)
-
----
-
-class: center, middle
-
-# "The computer tests the most basic parts of the computer first, up to and including the video card. ... By using beep codes before and during the video test, the computer could communicate with you."
-
-(Meyers, 2019, p. 193)
-
----
-
-class: center, middle
-
-# "Do you smell anything weird?"
-
-(Meyers, 2019, p. 683)
-
----
-
-class: center, middle
-
-# "If the computer smells something, one of the components might have fried."
-
-(Meyers, 2019, p. 683)
-
----
-
-class: center, middle
-
-<a title="Microsoft, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Windows_Boot_Manager_with_Windows_7,Vista_and_XP.png"><img width="512" alt="Windows Boot Manager with Windows 7,Vista and XP" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Windows_Boot_Manager_with_Windows_7%2CVista_and_XP.png/512px-Windows_Boot_Manager_with_Windows_7%2CVista_and_XP.png"></a>
-
----
-class: center, middle
-
-# `bcedit`
-
----
-
-class: center, middle
-
-# but...
-
----
-class: center, middle
-## the magic of BIOS/UEFI
-
-<a title="Moxfyre at English Wikipedia, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Motherboard_diagram.svg"><img width="350" alt="Motherboard diagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Motherboard_diagram.svg/512px-Motherboard_diagram.svg.png"></a>
-
----
-
-class: center, middle
-
-# Windows PE
-
----
-
-class: center, middle
-
-# Windows RE
-
-<p><a href="https://en.wikipedia.org/wiki/File:Windows_11_Recovery_Environment_(WinRE).png#/media/File:Windows_11_Recovery_Environment_(WinRE).png"><img src="https://upload.wikimedia.org/wikipedia/en/d/d5/Windows_11_Recovery_Environment_%28WinRE%29.png" alt="Windows 11 Recovery Environment (WinRE).png"></a><br>By Microsoft corporation - Shot by &lt;a href="//en.wikipedia.org/wiki/User:Paowee" title="User:Paowee"&gt;Paowee&lt;/a&gt;&amp;nbsp;(&lt;a href="//en.wikipedia.org/wiki/User_talk:Paowee" title="User talk:Paowee"&gt;talk&lt;/a&gt;&amp;nbsp;· &lt;a href="//en.wikipedia.org/wiki/Special:Contributions/Paowee" title="Special:Contributions/Paowee"&gt;contribs&lt;/a&gt;), <a href="//en.wikipedia.org/wiki/File:Windows_11_Recovery_Environment_(WinRE).png" title="Fair use of copyrighted material in the context of Windows Preinstallation Environment">Fair use</a>, <a href="https://en.wikipedia.org/w/index.php?curid=73254993">Link</a></p>
-
----
-
-background-color: gray
-
-class: center, middle
-
-# failure to start normally
-
----
-
-class: center, middle
-
-<a title="First version by MitrandirLK / Newest version screenshot by PantheraLeo1359531 idk, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Bsodwindows10.png"><img width="512" alt="Bsodwindows10" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Bsodwindows10.png/512px-Bsodwindows10.png"></a>
-
----
-
-class: center, middle
-
-# device drivers
-
----
-
-class: center, middle
-
-# Registry
-
----
-
-# Advanced Startup Options
+### Windows RE options (Meyers et al., 2023, pp. 658-662)
 
 --
 
-* Safe Mode: "loads only very basic, non-vendor-specific drivers" (p. 707)
+#### system restore: "go back to a time when your computer worked properly"
 
 --
 
-* Safe Mode with Networking
+#### startup settings: "enables you to control some special troubleshooting and developer modes"
 
 --
 
-* Safe Mode with Command Prompt (no GUI)
+#### uninstall updates: use this "in the very off chance that Microsoft pushes out an update that breaks things in your system"
 
 --
 
-* Enable Boot Logging
+#### system image recovery: use this "to restore a system after a catastrophe"
 
 --
 
-* Enable Low-Resolution Video
+#### startup repair: "serves as a one-stop, do-it-all option"
 
 --
 
-* Last Known Good Configuration
-
---
-
-* Debugging Mode
-
---
-
-* Disable Automatic Restart on System Failure
-
---
-
-* Disable Driver Signature Reinforcement
-
---
-
-* Start Windows Normally
-
---
-
-* Reboot
-
---
-
-* Return to OS Choices Menu
-
-
-
-
+#### comamnd prompt: "enables you to do some low-level rocket surgery"
 
 
 
