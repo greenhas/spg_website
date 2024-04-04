@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 202 13.2</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 202: Technologies for Information Services</h1>
+<h2 style=color:white>A+, Chapter 15: Working with the Command-Line Interface</h2>
+<h2 style=color:white>3 Apr 2024</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+background-color: gray
+
+class: center, middle
+
+# updates and looking ahead
+
+---
+
+# next week
+
+## Monday: readings and lecture
+
+* read A+, Chapter 13: Users, Groups, and Permissions (before Monday lecture)
+
+## Wednesday: readings and lecture
+
+* read A+, Chapter 15: Working with the Command-Line Interface (before Wednesday lecture)
+* take quiz (by Wednesday)
+
+## Friday: reflection and application
+
+* reflect on the importance of authentication and authorization (by Thursday)
+* complete the "Pac-Man treasure hunt" (by Sunday)
+
+---
+
+class: center, middle
+
+## no class next Monday!
+
+<a title="Direção Nacional Metereologia e Geofisica DNMG, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:2023-04-20_Solar_Eclipse_in_Timor-Leste_6.jpg"><img width="512" alt="2023-04-20 Solar Eclipse in Timor-Leste 6" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/2023-04-20_Solar_Eclipse_in_Timor-Leste_6.jpg/512px-2023-04-20_Solar_Eclipse_in_Timor-Leste_6.jpg"></a>
+
+
+---
+
+class: center, middle
+
+# [CI Day at Kentucky Proud Park](https://ci.uky.edu/about/events/ci-day-kentucky-proud-park)
+
+## Saturday, April 20th, 2pm
+
+## Acting Dean Frisby throws first pitch!
+
+## free tickets, but RSVP by April 12th for food
+
+---
+
+class: center, middle
+
+# [business analytics minor now open to all University of Kentucky students](https://gatton.uky.edu/about-us/stay-connected/news/2024/business-analytics-minor-now-open-all-university-kentucky-students)
+
+## "business analytics is the art and science of harvesting, cleaning and structuring data to create compelling stories that inform business decisions" ([source](https://www.uky.edu/academics/minor/gatton-college-business-economics/business-analytics))
+
+
+---
+
+class: center, middle
+
+# look into Fusion Cyber [cybersecurity bootcamps](https://www.engr.uky.edu/news/2024/03/uk-and-fusion-cyber-partner-close-cybersecurity-talent-gap)?
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# A+, Chapter 13: Users, Groups, and Permissions (continued)
+
+---
+class: center, middle
+
+# "A *group* is a container that holds user accounts and defines the capabilities of its members"
+
+(Meyers et al., 2023, p. 510)
+
+---
+
+class: center, middle
+
+# how do groups relate to authentication and authorization?
+
+---
+
+class: center, middle
+
+# how do groups make authorization easier?
+
+---
+
+# "standard" Windows groups
+(Meyers et al., 2023, pp. 510-511)
+
+--
+
+* **Administrators**: "complete control over a machine"
+
+--
+
+* **Power Users**: "almost as powerful as members of the Administrators group, but cannot install new devices or access other users' files or folders unless the files or folders specificially provide them access"
+
+--
+
+* **Standard Account (Users)**: "cannot edit the Registry or access critical system files"
+
+--
+
+* **Guests**: "enables someone who does not have an account on the system to log on by using a guest account"
+
+---
+
+class: center, middle
+
+# elevated privileges 
+
+### try with Resource Monitor
+
+---
+
+### permissions on Windows: NTFS permissions
+(Meyers et al., 2023, pp. 521-524)
+--
+
+* Ownership: "Owners can do anything they want"
+
+--
+
+* `Take Ownership` permission: "can seize control of a file or folder"
+
+--
+
+* `Change` permission: "can give or take away permissions"
+
+--
+
+* `Folder` permissions: "define what a user may do to a folder"
+
+--
+
+    * `Full Control`
+    * `Modify`
+    * `Read & Execute`
+    * `List Folder Contents`
+    * `Read`
+    * `Write`
+
+--
+
+* `File` permissions: "define what a user may do to an individual file"
+
+--
+
+    * `Full Control`
+    * `Modify`
+    * `Read & Execute`
+    * `Read`
+    * `Write`
+
+---
+
+class: center, middle
+
+# "The base rule of Windows inheritance is that any new files or folders placed into a folder automatically get all the NTFS permission of the parent folder"
+
+(Meyers et al., 2023, p. 524)
+
+---
+
+class: center, middle
+
+# permissions in Debian and other Unix-based systems
+
+---
+
+class: center, middle
+
+#`----------`
+
+---
+
+class: center, middle
+
+#`d---------`
+
+---
+
+class: center, middle
+
+#`drwx------`
+
+---
+
+class: center, middle
+
+#`drwxrw----`
+
+---
+
+class: center, middle
+
+#`drwxrw-r--`
+
+---
+background-color: gray
+
+class: center, middle
+
+# A+, Chapter 15: Working with the Command-Line Interface
+
+---
+
+class: center, middle
+
+# what's been your experience with the command line so far in class?
+
+---
+
+class: center, middle
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K-lM073r7DY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+class: center, middle
+
+# why learn the command-line interface?
+
+---
+
+class: center, middle
+
+# "First, if you know what you're doing, you can do most jobs more quickly by typing a text command than by clicking through a graphical user interface (GUI)."
+
+(Meyers et al., 2023, p. 595)
+
+---
+
+class: center, middle
+
+# "Second, a *command-line interface (CLI)* doesn't take much operating system firepower, so it's the natural choice for jobs where you don't need or don't want a full-blown GUI for an OS."
+
+(Meyers et al., 2023, p. 595)
+
+---
+
+class: center, middle
+
+# "Third, you can combine multiple text commands to automate complex tasks." 
+
+(Meyers et al., 2023, p. 595)
+
+---
+
+class: center, middle
+
+## "Most of the time all you need is to enter one or two commands, but sometimes you will find yourself repeating the same series of commands over and over. When you find yourself in this situation, it might be a good idea to write a *script*—a small program that helps automate a task by collecitng a series of commands and giving them a name."
+
+(Meyers et al., 2023, p. 638)
+
+---
+
+class: center, middle
+
+# what are some repetitive tasks you complete on your computer?
+
+---
+
+#### `mkdir -p ~/OneDrive\ -\ University\ of\ Kentucky/Work/University\ Subarea/the\ teacher/UK/{query}/syllabus`
+
+#### `mkdir -p ~/OneDrive\ -\ University\ of\ Kentucky/Work/University\ Subarea/the\ teacher/UK/{query}/readings\ and\ resources`
+
+#### `mkdir -p ~/OneDrive\ -\ University\ of\ Kentucky/Work/University\ Subarea/the\ teacher/UK/{query}/evaluations/mid-semester`
+
+#### `mkdir -p ~/OneDrive\ -\ University\ of\ Kentucky/Work/University\ Subarea/the\ teacher/UK/{query}/evaluations/end-of-semester`
+
+#### `mkdir -p ~/OneDrive\ -\ University\ of\ Kentucky/Work/University\ Subarea/the\ teacher/UK/{query}/evaluations/kudos\ file`
+
+#### `mkdir -p ~/OneDrive\ -\ University\ of\ Kentucky/Work/University\ Subarea/the\ teacher/UK/{query}/student\ work`
+
+#### `mkdir -p ~/OneDrive\ -\ University\ of\ Kentucky/Work/University\ Subarea/the\ teacher/UK/{query}/course\ development`
+
+---
+
+class: center, middle
+
+# [another script](https://spencergreenhalgh.com/0_collect_screenshots.R)
+
+# [yet another script](https://github.com/cseanburns/personal_website/tree/master/scripts)
+
+---
+
+class: center, middle
+
+# data types in scripting
+
+## strings
+
+## integers
+
+---
+
+class: center, middle
+
+## `https://twitter.com/uk_ci/status/1773755025342296077`
+
+## `1773755025342296077`
+
+## `1.773755e+18`
+
+---
+
+class: center, middle
+
+# variables
+
+# conditionals
+
+# loops
+
+# comments
+
+---
+
+class: center, middle
+
+<a title="Acorn Computers (recreated as animated GIF by Gaz Stone), Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Hard_reset_BBC_Micro_32K_Acorn_DFS.gif"><img width="512" alt="Hard reset BBC Micro 32K Acorn DFS" src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Hard_reset_BBC_Micro_32K_Acorn_DFS.gif"></a>
+
+---
+
+class: center, middle
+
+# shells
+
+---
+
+class: center, middle
+
+# "The tool that interprets input is called the *command-line interpreter*, also known as the *shell*."
+
+(Meyers et al., 2023, p. 597)
+
+---
+
+class: center, middle
+
+# default Windows shell: `PowerShell`
+
+---
+
+class: center, middle
+
+# default macOS shell: `zsh`
+
+---
+
+class: center, middle
+
+# typical default shell in Linux: `bash`
+
+---
+
+class: center, middle
+
+# default ≠ only
+
+---
+
+class: center, middle
+
+# Command Prompt
+
+<a title="Microsoft Corporation, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Command_Prompt_on_Windows_10_RTM.png"><img width="512" alt="Command Prompt on Windows 10 RTM" src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Command_Prompt_on_Windows_10_RTM.png"></a>
+
+---
+
+class: center, middle
+
+# PowerShell
+
+<a title="Microsoft Corporation, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Windows_PowerShell_1.0_PD.png"><img width="480" alt="Windows PowerShell 1.0 PD" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Windows_PowerShell_1.0_PD.png/512px-Windows_PowerShell_1.0_PD.png"></a>
+
+---
+
+class: center, middle
+
+# Terminal
+
+<a title="ZxxZxxZ, GPL &lt;http://www.gnu.org/licenses/gpl.html&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png"><img width="512" alt="Linux command-line. Bash. GNOME Terminal. screenshot" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Linux_command-line._Bash._GNOME_Terminal._screenshot.png/512px-Linux_command-line._Bash._GNOME_Terminal._screenshot.png"></a>
+
+---
+
+class: center, middle
+
+# working directories in the command-line interface
+
+---
+
+class: center, middle
+
+# "the command-line interface is picky and unforgiving" 
+
+(Meyers et al., 2023, p. 605)
+
+---
+
+class: center, middle
+
+# "It will do what you *say*, not what you *mean*" 
+
+(Meyers et al., 2023, p. 605)
+
+---
+
+class: center, middle
+
+# file formats and file extensions
+
+---
+
+class: center, middle
+
+# filepaths (and CLIs) have specific conventions
+
+# `C:\Users\sgreenhalgh\Desktop`
+
+# `~/Desktop`
+
+---
+
+class: center, middle
+
+# filenames and folder names have rules, depending on the OS
+
+---
+
+class: center, middle
+
+# "Do not fear error messages. Error messages are good! Love them. Worship them. They will save you."
+
+(Meyers et al., 2023, p. 610)
+
+---
+
+class: center, middle
+
+# wildcards
+
+---
+
+class: center, middle
+
+# "Imagine having 273 files in one directory. A few of these files have the extension .docx, but most do not. You are looking only for files with the .docx extension."
+
+(Meyers et al., 2023, p. 619)
+
+---
+
+class: center, middle
+
+# *.docx
+
+---
+
+class: center, middle
+
+# `grep` and [regular expressions](https://regexr.com/) in Unix CLIs
+
+---
+
+class: center, middle
+
+<img src="https://imgs.xkcd.com/comics/regular_expressions.png" width = "600">
+
+
+</textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		}
+  		});
+    </script>
+  </body>
+</html>
