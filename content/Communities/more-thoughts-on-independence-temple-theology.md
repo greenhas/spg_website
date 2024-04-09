@@ -9,7 +9,7 @@ This past week, in celebration of the 40th anniversary of the opening of RLDS (n
 
 The same revelatory document that allowed for the ordination of women was also the one that announced that it was time to build the Independence Temple, which would be dedicated a decade later. Some of the conventional wisdom about the coincidence of these two announcements is that Wallace B. Smith was trying to keep conservative members of the church happy at the same time that he was making a controversial move (which, of course, would eventually alienate a large portion of the conversative membership o fthe church, temple or no temple). 
 
-Yet, there were also concerns about what it meant for the RLDS Church to build a temple at that time. In short, was this going to look like the Kirtland Temple? The Nauvoo Temple (and subsequent LDS/Mormon temples)? Or something altogether different. Thus, Smith's declaration that it was time to build the Independence Temple was accompanied with a description of what that temple would be built for. Here's the relevant passage from D&C 156:5:
+Yet, there were also concerns about what it meant for the RLDS Church to build a temple at that time. In short, was this going to look like the Kirtland Temple? The Nauvoo Temple (and subsequent LDS/Mormon temples)? Or something altogether different? Thus, Smith's declaration that it was time to build the Independence Temple was accompanied with a description of what that temple would be built for. Here's the relevant passage from D&C 156:5:
 
 > a. The temple shall be dedicated to the pursuit of peace. It shall be for reconciliation and for healing of the spirit.
 >
