@@ -1,8 +1,9 @@
 ---
-date: 2024-04-19T12:31:42-04:00
+date: 2024-04-19T14:00:42-04:00
 title: "falsifiability and Mormon apologetics"
-tags: ["macro","Communities","Kirtland Temple","Russell Nelson","Church of Jesus Christ of Latter-day Saints","exclusivity”,"falsifiability","Salt Lake Tribune","Bloggernacle","Ezra Taft Benson","Gordon Hinckley"]
+tags: ["macro","Communities","Kirtland Temple","Russell Nelson","Church of Jesus Christ of Latter-day Saints","exclusivity","falsifiability","Salt Lake Tribune","Bloggernacle","Ezra Taft Benson","Gordon Hinckley"]
 ---
+
 Back in early March, as part of my flurry of posts about the Kirtland Temple, I [wrote something](https://spencergreenhalgh.com/communities/elijah-and-the-kirtland-temple/) about some of the dubious historical bits associated with Latter-day Saint beliefs about the significance of a purported visitation of the biblical prophet Elijah to Joseph Smith and Oliver Cowdery in the Kirtland Temple. That post has gotten a lot of hits over the past few weeks: According to [my excellent, privacy-conscious analytics provider](https://tinylytics.app), it’s up to 70 hits over the past 30 days, 55 of which were over the week leading up to April 15th, when I got my last email digest. 
 
 My best guess is that the recent uptick is because of [a sermon](https://www.churchofjesuschrist.org/study/general-conference/2024/04/57nelson?lang=eng) that Latter-day Saint prophet-president Russell Nelson gave at his church’s April 2024 General Conference on the importance of priesthood keys. Unsurprisingly, the Kirtland Temple played a large role in that sermon. Here’s the relevant passage: 
