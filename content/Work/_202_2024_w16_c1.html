@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ICT 202 14.2</title>
+    <title>ICT 202 16.1</title>
     <meta charset="utf-8">
     <style>
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -27,7 +27,7 @@ background-color: black
 
 <h1 style=color:white>ICT 202: Technologies for Information Services</h1>
 <h2 style=color:white>A+, Chapters 27 and 28</h2>
-<h2 style=color:white>18 Apr 2022</h2>
+<h2 style=color:white>22 Apr 2024</h2>
 <h2 style=color:white>Dr. Spencer Greenhalgh</h2>
 
 ---
@@ -40,37 +40,37 @@ class: center, middle
 
 ---
 
-class: center, middle
 
-<img src="https://spencergreenhalgh.com/CI_PowerHour.png" width = "600">
-
----
-
-# this week
+# next week
 
 ## Monday: readings and lecture
 
 * read A+, Chapter 27: Securing Computers (before Monday lecture)
 * read A+, Chapter 28: Operational Procedures (before Monday lecture)
 
-## Wednesday: no class!
+## Wednesday: reflection and application
 
 * take quiz (by Wednesday)
-
-## Friday: reflection and application
-
-* reflect on dangers of social engineering (by Thursday)
-* back up your Raspberry Pi (by Sunday)
+* reflect on dangers of social engineering (by Wednesday*)
+* back up your virtual machine (by Wednesday*)
 
 ---
 
-class: center, middle
+# finals week
 
-# Lunch & Learn with Coastal Cloud
+## take final exam on own (opens 29 April, closes 2 May)
 
-## 12pm, 20 April 2022, GSC 3330E
+"This exam is meant to promote retention of the material from our readings and quizzes from Modules 1-16, with a particular emphasis on Modules 9-16. The exam is worth 15 points and is composed of 60 questions, each worth 0.25 points. You will have 120 minutes to complete the exam."
 
-## [link to RSVP](https://docs.google.com/forms/d/e/1FAIpQLSc6efoZlYjNS2XZPbLc5GkxuhuqmHhwfMJcoahsWUoRlgdZsw/viewform)
+* 28 questions from 14 textbook readings from Modules 1-8 (2 questions/reading)
+* 28 questions from 14 textbook readings from Modules 9-16 (2 questions/reading)
+* 4 application questions related to the virtual machine
+
+---
+
+# finals week
+
+## shut down your virtual machine!
 
 ---
 
@@ -78,7 +78,15 @@ class: center, middle
 
 # Teacher Course Evaluations
 
-## evaluate.uky.edu/blue
+## [https://evaluate.uky.edu/blue](https://evaluate.uky.edu/blue)
+
+---
+
+class: center, middle
+
+# Kentucky residents, [register to vote](https://vrsws.sos.ky.gov/ovrweb/govoteky) by Monday, April 22nd!
+
+## Kentucky primary elections on May 22 (federal, state, and local races); you can [request an absentee ballot](https://vrsws.sos.ky.gov/abrweb/)
 
 ---
 
@@ -94,23 +102,64 @@ class: center, middle
 
 # "Threats to your data and PC come from two directions: accients and malicious people." 
 
-(Meyers, 2019, p. 1239)
+(Meyers et al., 2023, p. 1161)
 
 ---
 
+# malicious actors
+
+--
+
+* ### zero-day attack
+
+--
+
+* ### on-path attack
+
+---
+
+class: center, middle
+
+<a title="Miraceti, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Man_in_the_middle_attack.svg"><img width="800" alt="Man in the middle attack" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Man_in_the_middle_attack.svg/1024px-Man_in_the_middle_attack.svg.png"></a>
+
+---
+
+# malicious actors
+
+* ### zero-day attack
+* ### on-path attack
+
+--
+
+* ### session hijacking
+
+--
+
+* ### brute-force attack
+
+--
+
+* ### denial of service
+
+--
+
+* ### cross-site scripting
+
+--
+
+* ### SQL injection
+
+---
+
+class: center, middle
+
+<img src="https://imgs.xkcd.com/comics/exploits_of_a_mom.png">
+
+---
+
+class: center, middle
+
 # unauthorized access
-
---
-
-* ## system intrusion
-
---
-
-* ## dumpster diving
-
---
-
-* ## shoulder surfing
 
 ---
 
@@ -118,19 +167,7 @@ class: center, middle
 
 --
 
-* ## physical intrusion
-
---
-    * ### tailgating
---
-    * ### mantrap
---
-    * ### entry control roster  
---
-* ## telephone scams
---
-
-* ## phishing
+## infiltration
 
 ---
 
@@ -146,9 +183,44 @@ class: center, middle
 
 ---
 
+# social engineering
+
+## infiltration
+
+--
+
+## information gathering
+
+--
+
+## vishing
+
+--
+
+## phishing
+
+--
+
+## evil twin
+
+---
+
 class: center, middle
 
-# denial of service (DoS)
+<a title="Morsview, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:%D0%90%D1%82%D0%B0%D0%BA%D0%B0_%D0%B7%D0%BB%D0%BE%D0%B9_%D0%B4%D0%B2%D0%BE%D0%B9%D0%BD%D0%B8%D0%BA.jpg"><img width="512" alt="Атака злой двойник" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/%D0%90%D1%82%D0%B0%D0%BA%D0%B0_%D0%B7%D0%BB%D0%BE%D0%B9_%D0%B4%D0%B2%D0%BE%D0%B9%D0%BD%D0%B8%D0%BA.jpg/512px-%D0%90%D1%82%D0%B0%D0%BA%D0%B0_%D0%B7%D0%BB%D0%BE%D0%B9_%D0%B4%D0%B2%D0%BE%D0%B9%D0%BD%D0%B8%D0%BA.jpg"></a>
+
+---
+
+class: center, middle
+
+<a title="EFF, CC BY 3.0 &lt;https://creativecommons.org/licenses/by/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Stingray.png"><img width="600" alt="Stingray" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Stingray.png/1024px-Stingray.png"></a>
+
+
+---
+
+class: center, middle
+
+# insider threats
 
 ---
 
@@ -166,7 +238,7 @@ class: center, middle
 
 class: center, middle
 
-# system crash/hardware failure
+# hardware failure
 
 ---
 
@@ -182,28 +254,13 @@ class: center, middle
 
 ---
 
-# environmental threats
+class: center, middle
 
---
+# spam
 
-* ## power
+---
 
---
-
-* ## environmental controls
-
---
-
-* ## dirty air
-
---
-
-* ## temperature and humidity
-
---
-
-* ## hazardous materials
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/anwy2MPT5RE?si=4au1AAI1FjRlrFJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ---
 
 background-color: gray
@@ -218,7 +275,39 @@ class: center, middle
 
 # "organizations need documentation to provide continuity and structure" 
 
-(Meyers, 2019, p. 1301)
+(Meyers et al., 2023, p. 1219)
+
+---
+
+# asset management
+
+--
+
+### inventory lists
+
+--
+
+### database system
+
+--
+
+### barcodes
+
+--
+
+### asset tags and IDs
+
+--
+
+### procurement life cycle
+
+--
+
+### warranty and licensing
+
+--
+
+### assigned users
 
 ---
 
@@ -226,75 +315,40 @@ class: center, middle
 
 --
 
-* ## network topology diagram
+### standard operating procedures
 
 --
 
-* ## knowledge base/company articles
+### acceptable use policy
 
 --
 
-* ## incident documentation
+### network topology diagrams
+
+--
+
+### regulatory compliance requirements
+
+--
+
+### new-user setup checklist
+
+--
+
+### end-user termination checklist
 
 ---
 
-# company policies
+class: center, middle
 
---
-
-* ## regulatory compliance
-
---
-
-* ## acceptable use policy
-
---
-
-* ## passwords
+# ticketing system
 
 ---
 
-# inventory management
+class: center, middle
 
---
+# knowledge base/articles
 
-* ## barcodes
-
---
-
-* ## asset tags
-
----
-
-# disaster prevention and recovery
-
---
-
-* ## power protection
-
---
-
-* ## backup options
-
---
-
-    * ### file-level backups
-    
---
-
-    * ### critical applications
-    
---
-
-    * ### image-level 
-
---
-
-* ## cloud storage versus local storage
-
---
-
-* ## backup testing
 
 
 </textarea>
