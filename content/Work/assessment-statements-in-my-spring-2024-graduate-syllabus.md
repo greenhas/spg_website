@@ -1,7 +1,7 @@
 ---
 date: 2024-01-06T14:39:48-05:00
 title: "assessment statements in my Spring 2024 graduate syllabus"
-tags: ["macro","Work","grading","teaching","LIS 618"]
+tags: ["macro","Work","grading","teaching","LIS 618","assessment"]
 ---
 I ended the Fall 2023 semester with [a lot of anxiety and frustration](https://spencergreenhalgh.com/work/on-the-arbitrary-nature-of-grades/) about grades, and there was enough of both that I wound up making a lot of changes to a graduate class that I was sure I was going to keep mostly the same from last year. Not all of these changes were assessment-related (I replaced **a lot** of readings and shuffled content around some), but I also more-or-less threw out the assessment structure that I've been using since 2019 to replace it with something minimalist and closely tied to the course's learning objectives.
 
