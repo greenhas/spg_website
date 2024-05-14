@@ -1,1 +1,0 @@
----date: 2023-02-06T14:24:57-05:00title: "📝 writeblog: spent 1:27:22 on 'publish Red Pill influences on DezNat study'"tags: ["write","Work","research"]---Went through page proofs today! Excited that the paper is so close to publication.

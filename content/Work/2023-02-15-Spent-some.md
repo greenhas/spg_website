@@ -1,1 +1,0 @@
----date: 2023-02-15T14:20:13-05:00title: "📝 writeblog: spent 0:47:30 on 'publish scraping library online presence study'"tags: ["write","Work","research","web scraping","Wix"]---Spent some time manually reviewing websites today to prepare for later web scraping. I'll have to figure out how to work with some Wix sites, which are structured oddly behind the scenes.

@@ -1,1 +1,0 @@
----date: 2023-02-16T16:06:13-05:00title: "📝 writeblog: spent 2:02:11 on 'publish ClassDojo and conflation of ed tech platforms study'"tags: ["write","Work","research","ClassDojo"]---Spent some time putting together a rough outline and some tables today. It still blows my mind what software students equate with ClassDojo.

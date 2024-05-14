@@ -1,1 +1,0 @@
----date: 2023-01-20T18:26:31-05:00title: "📝 writeblog: spent 1:04:29 on 'publish DezNat and authority study'"tags: ["write","Work","research","DezNat","religious authority","digital religion"]---Spent some time this afternoon finishing up a conceptual framework section which makes a case for using Weberian language for describing how this movement thinks about authority.

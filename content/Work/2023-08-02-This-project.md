@@ -1,1 +1,0 @@
----date: 2023-08-02T15:14:52-04:00title: "📝 writeblog: spent 1:09:29 on 'publish scraping library online presence study'"tags: ["write","Work","research"]---This project is in its early stages, so I spent some time brushing up on relevant literature.
