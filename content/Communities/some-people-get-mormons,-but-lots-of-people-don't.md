@@ -1,7 +1,7 @@
 ---
 date: 2024-06-04T13:37:01-04:00
 title: "some people get Mormons, but lots of people don't"
-tags: ["macro","Communities","Dan McClellan","Mormonism","Latter-day Saint missionaries”,”ecclesiology”,”libraries"]
+tags: ["macro","Communities","Dan McClellan","Mormonism","Latter-day Saint missionaries","ecclesiology","libraries"]
 ---
 A lot of Mormons[^1] have a persecution complex that isn’t really well founded, but it is true that a lot of people don’t really *get* Mormons. One of my favorite stories from my time as a Latter-day Saint missionary is when a well-meaning friend of ours told us to get rid of our distinctive nametags, because they made us look too much like Jehovah’s Witnesses (the joke here is that Jehovah’s Witnesses don’t wear nametags—it’s Latter-day Saint missionaries who do that). I’ve really enjoyed the first two entries in Cory Doctorow’s [Martin Hench trilogy](https://spencergreenhalgh.com/tags/martin-hench-series/), but I have to admit that I’m a little nervous about the third volume, which will feature a Utah-based computer scam involving a Latter-day Saint bishop. I’m not concerned about negative portrayals of Mormons, but it takes some real familiarity going beyond superficial cultural understandings to write Mormons correctly, and it will bug me if he gets the details wrong (that said, Doctorow’s casual reference to White Horse Prophecy Doomsdayers” in [a recent book](https://spencergreenhalgh.com/communities/2023-11-18-ive-read/) of his has given me reason to hope that Doctorow’s done his research). 
 
