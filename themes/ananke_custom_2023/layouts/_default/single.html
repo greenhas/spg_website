@@ -7,12 +7,12 @@
   {{ $section := .Site.GetPage "section" .Section }}
   <article class="flex-l flex-wrap justify-between mw8 center ph3">
     <header class="mt4 w-100">
-      <aside class="instapaper_ignoref b helvetica tracked">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
           {{/*
           CurrentSection allows us to use the section title instead of inferring from the folder.
           https://gohugo.io/variables/page/#section-variables-and-methods
           */}}
-        {{with .CurrentSection.Title }}{{. | upper }}{{end}}
+        {{ .CurrentSection.Title }}
       </aside>
       {{ partial "social-share.html" . }}
       <h1 class="f1 athelas mt3 mb1">
@@ -33,31 +33,28 @@
       {{ if not .Date.IsZero }}
       <time class="f6 mv4 dib tracked" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
         {{- .Date | time.Format (default "2 January 2006" .Site.Params.date_format) -}}
-      </time>  
+      </time>
       {{end}}
-
-      {{/*
-          Show "reading time" and "word count" but only if one of the following are true:
-          1) A global config `params` value is set `show_reading_time = true`
-          2) A section front matter value is set `show_reading_time = true`
-          3) A page front matter value is set `show_reading_time = true`
-        */}}
       
         <span class="f6 mv4 dib tracked"> - {{ i18n "readingTime" .ReadingTime }} </span>
         <span class="f6 mv4 dib tracked"> - {{ i18n "wordCount" .WordCount }} </span>
         <span class="f6 mv4 dib tracked"> - kudos: <button class="tinylytics_kudos"></button> </span>
-
+      
     </header>
     <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} w-two-thirds-l">
       {{- .Content -}}
       {{- partial "tags.html" . -}}
-       <p style="font-size:smaller">You can click on the <code><</code> button in the top-right of your browser window to read and write comments on this post with <em><a href="https://web.hypothes.is/">Hypothesis</a></em>. You can read more about how I use this software <a href="/hypothesis/">here</a>.</p>
-       <p style="font-size:smaller">Any <a href="https://indieweb.org/Webmention">Webmentions</a> will also be displayed below:</p>
-       <div style="font-size:smaller">
-       <script type="text/javascript" src="https://micro.blog/conversation.js?url={{ .Permalink }}"></script>
-       </div>
+      
+      <div>
+        <p style="font-size:smaller">You can click on the <code><</code> button in the top-right of your browser window to read and write comments on this post with <em><a href="https://web.hypothes.is/">Hypothesis</a></em>. You can read more about how I use this software <a href="/hypothesis/">here</a>.</p>
+        <p style="font-size:smaller">Any <a href="https://indieweb.org/Webmention">Webmentions</a> from Micro.blog will also be displayed below:</p>
+        <div style="font-size:smaller">
+            <script type="text/javascript" src="https://micro.blog/conversation.js?url={{ .Permalink }}"></script>
+        </div>
+      </div>
+    
       <div class="mt6 instapaper_ignoref">
-      {{ if .Site.DisqusShortname }}
+      {{ if .Site.Config.Services.Disqus.Shortname }}
         {{ template "_internal/disqus.html" . }}
       {{ end }}
       {{ if .Site.Params.commentoEnable }}
@@ -65,10 +62,10 @@
       {{ end }}
       </div>
     </div>
-
     <aside class="w-30-l mt6-l">
       {{- partial "menu-contextual.html" . -}}
     </aside>
+
 
   </article>
 {{ end }}
