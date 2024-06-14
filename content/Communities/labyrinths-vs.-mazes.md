@@ -7,11 +7,11 @@ As [I blogged elsewhere](https://spencergreenhalgh.com/myself/merci-karl-merci-m
 
 I don’t know if *Pub royal* is my favorite of their albums, but some of the songs on it are definitely now among my favorite of their songs. In *La fin du show* (The End of the Show) Tremblay sings lyrics that call attention to his then-inevitable death. He doesn’t have songwriting credit on the track, but I imagine that he must have helped, and I’d love to hear the story of that song’s composition. The way that Tremblay he faces down his inevitable end (especially given the song’s insistence that there’s nothing on the other side) is impressive and moving. 
 
-{{< youtube id="eoNTblEQtf4">}}
+{{<youtube id="eoNTblEQtf4">}}
 
 Tremblay doesn’t appear on *Merci ben* (Thanks So Much), the second to last song on the album, but the band’s remaining vocalists who perform it thank their audience and fans for everything that they’ve experienced over the past two-plus decades. They sing about the great things that they’ve experienced as a band, but they sound just as grateful for the weirdos in the audience, the crappy sound systems, the spaghetti-scented cafeterias, and all of the other low points of their time together.
 
-{{< youtube id="0BpSJK80k2Q">}}
+{{<youtube id="0BpSJK80k2Q">}}
 
 There are some other songs I like on the album, but these are the two that have touched me the most. As I noted in my other post, this album happened to come out the same week that my colleague and friend Melissa Wei-Tsing Inouye passed away—also to cancer and also at too young of an age. That confluence has made this an existentially tricky week! And yet, it’s also been productive for getting me to think about how I want to live my life.
 

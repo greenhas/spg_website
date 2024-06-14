@@ -5,7 +5,7 @@ tags: ["macro","Communities","Community of Christ","Independence Temple","peace"
 ---
 This past week, in celebration of the 40th anniversary of the opening of RLDS (now Community of Christ) priesthood to women, the Community of Christ YouTube channel posted a video that was originally recorded back in 1984, during and after that year's World Conference. From the very first second, it is very clearly a product of the 1980s, and I love it for that. Here's a link, but I have more to write afterwards on a specific part of the video:
 
-{{< youtube id="VrwttONZI1g">}}
+{{<youtube id="VrwttONZI1g">}}
 
 The same revelatory document that allowed for the ordination of women was also the one that announced that it was time to build the Independence Temple, which would be dedicated a decade later. Some of the conventional wisdom about the coincidence of these two announcements is that Wallace B. Smith was trying to keep conservative members of the church happy at the same time that he was making a controversial move (which, of course, would eventually alienate a large portion of the conversative membership o fthe church, temple or no temple). 
 

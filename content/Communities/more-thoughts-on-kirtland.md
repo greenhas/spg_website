@@ -21,4 +21,4 @@ Despite having four years to do so, I have never taken the time to figure out if
 
 Knowing that Lach has such a firm dedication to the Restoration heritage of Community of Christ, and having depended on him as a guidepost during my own faith transition, I felt like his support of the denomination's decision to make this transfer made the hard pill somewhat easier to swallow. I only discovered this video reflection from Lach this morning, but I think I value it more than any other resource that the World Church has put out so far. If there's one person I trust to take this decision seriously, it's Lach, and his feeling that this was the right decision to make goes a long way toward helping me come to peace with it:
 
-{{< youtube id="ZANaxTXRUQQ">}}
+{{<youtube id="ZANaxTXRUQQ">}}
