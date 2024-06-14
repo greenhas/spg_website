@@ -44,6 +44,7 @@
     <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }}">
       {{- .Content -}}
       {{- partial "tags.html" . -}}
+      <div style="font-size:smaller">
       {{ $related := .Site.RegularPages.Related . | first 5 }}
       {{ if eq .Title "" }}
       
@@ -59,8 +60,7 @@
       {{ end }}
     
       {{end}}
-
-
+      </div>
       <div>
         <p style="font-size:smaller">You can click on the <code><</code> button in the top-right of your browser window to read and write comments on this post with <em><a href="https://web.hypothes.is/">Hypothesis</a></em>. You can read more about how I use this software <a href="/hypothesis/">here</a>.</p>
         <p style="font-size:smaller">Any <a href="https://indieweb.org/Webmention">Webmentions</a> from Micro.blog will also be displayed below:</p>
