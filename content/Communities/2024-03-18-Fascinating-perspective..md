@@ -5,4 +5,4 @@ title: "🔗 linkblog: my thoughts on '“Line upon line, precept on precept”?
 ---
 Fascinating perspective. I'd never learned this before.
 
-[link to "“Line upon line, precept on precept”? Maybe not."](https://bycommonconsent.com/2024/03/18/line-upon-line-precept-on-precept-maybe-not/)
+[link to "'Line upon line, precept on precept’? Maybe not."](https://bycommonconsent.com/2024/03/18/line-upon-line-precept-on-precept-maybe-not/)

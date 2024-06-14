@@ -5,4 +5,4 @@ title: "🔗 linkblog: my thoughts on 'Courageous LDS scholar whose life and wri
 ---
 A beautiful obituary for a beautiful person.
 
-[link to "Courageous LDS scholar whose life and writings exemplified — and expounded on — earthly struggles dies at 44 "](https://www.sltrib.com/religion/2024/04/23/courageous-lds-scholar-whose-life/)
+[link to "Courageous LDS scholar whose life and writings exemplified — and expounded on — earthly struggles dies at 44"](https://www.sltrib.com/religion/2024/04/23/courageous-lds-scholar-whose-life/)
