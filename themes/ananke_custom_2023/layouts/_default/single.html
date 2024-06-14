@@ -41,10 +41,26 @@
         <span class="f6 mv4 dib tracked"> - kudos: <button class="tinylytics_kudos"></button> </span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }} w-two-thirds-l">
+    <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }}">
       {{- .Content -}}
       {{- partial "tags.html" . -}}
+      {{ $related := .Site.RegularPages.Related . | first 5 }}
+      {{ if eq .Title "" }}
       
+      {{else}}
+    
+      {{ with $related }}
+      <h3>Similar Posts:</h3>
+      <ul>
+      {{ range . }}
+      <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+      {{ end }}
+      </ul>
+      {{ end }}
+    
+      {{end}}
+
+
       <div>
         <p style="font-size:smaller">You can click on the <code><</code> button in the top-right of your browser window to read and write comments on this post with <em><a href="https://web.hypothes.is/">Hypothesis</a></em>. You can read more about how I use this software <a href="/hypothesis/">here</a>.</p>
         <p style="font-size:smaller">Any <a href="https://indieweb.org/Webmention">Webmentions</a> from Micro.blog will also be displayed below:</p>
@@ -53,18 +69,7 @@
         </div>
       </div>
     
-      <div class="mt6 instapaper_ignoref">
-      {{ if .Site.Config.Services.Disqus.Shortname }}
-        {{ template "_internal/disqus.html" . }}
-      {{ end }}
-      {{ if .Site.Params.commentoEnable }}
-        {{- partial "commento.html" . -}}
-      {{ end }}
-      </div>
-    </div>
-    <aside class="w-30-l mt6-l">
-      {{- partial "menu-contextual.html" . -}}
-    </aside>
+
 
 
   </article>

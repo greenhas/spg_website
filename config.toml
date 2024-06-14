@@ -10,6 +10,7 @@ SectionPagesMenu = "main"
 Paginate = 36 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
+capitalizeListTitles = false
 
 [sitemap]
   changefreq = "monthly"
