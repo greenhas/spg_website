@@ -9,7 +9,7 @@ DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 36 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
-enableRobotsTXT = true
+enableRobotsTXT = false
 capitalizeListTitles = false
 
 [sitemap]
