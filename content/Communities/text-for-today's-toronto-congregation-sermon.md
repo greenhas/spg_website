@@ -1,7 +1,7 @@
 ---
 date: 2023-07-09T15:05:05-04:00
 title: "text for today's Toronto Congregation sermon"
-tags: ["macro","Communities","Community of Christ","Parable of the Samaritan","Samaritan","Astro City","Mitchell and Webb","John Hamer","Amy-Jill Levine","Christian nationalism","anti-Semitism"]
+tags: ["macro","Communities","Community of Christ","Parable of the Samaritan","Samaritan","Astro City","Mitchell and Webb","John Hamer","Amy-Jill Levine","Christian nationalism","anti-Semitism","Beyond the Walls"]
 ---
 As I wrote [earlier in the week](https://spencergreenhalgh.com/communities/upcoming-sermon-for-toronto-congregation-of-community-of-christ/), I gave today's sermon for the Toronto Congregation's inclusive online worship service. The service was recorded and can be found at the YouTube link below: 
 
