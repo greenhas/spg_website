@@ -7,7 +7,7 @@ One of the joys of teaching a class on content management is the way that the co
 
 This morning, I had such an everyday encounter that I want to write down so that I can remember it for this fall semester—and perhaps many fall semesters to come! I have an ongoing SMS thread with a good friend that is largely filled up with jokes, memes, and other funny things that we see online. Today, my friend sent me a joke based on Star Wars: Episode III, and I was immediately reminded of a different *Revenge of the Sith* [joke](http://www.dorktower.com/2005/06/14/comics-archive-691/) that John Kovalic made in a 2005 entry (i.e., just after the movie had come out) to his long-running webcomic *Dork Tower*. It is a very good, if very nerdy set of jokes poking fun at the movie, and while it is peripheral at best to the point I am making here, I include it below for the sake of completeness:
 
-![](http://www.dorktower.com/files/2005/06/DorkTower461.gif)
+![](/DorkTower461.gif)
 
 Anyway, on to the point: Since my friend and I were already on the topic of *Revenge of the Sith* jokes, I wanted to find this comic so that I could send it to him. The problem, though, is that I was remembering a nearly twenty-year old webcomic (that I'm not sure I've ever seen since then). I had a clear memory of the comic, but I had no idea how to find it. This is a problem of *content aggregation*, the way that content is grouped or organized so that people can find and consume it. Deane Barker has an excellent overview of content aggregation [here](https://deanebarker.net/books/squirrel/content-aggregation/)—I've been using this book to guide ICT 302 for years, and I'm glad that it's now freely available online.
 
