@@ -14,7 +14,7 @@ The resulting content is licensed under [CC BY-NC-SA 3.0](https://creativecommon
 
 *Data science* refers to an emerging area of work concerned with the collection, preparation, analysis, visualization, management, and preservation of large collections of information, sometimes referred to as *big data*.
 
-### Data
+### What Are Data?
 
 To introduce *data science*, it makes sense that we ought to talk about *data* first. The word *data* is the plural of the the Latin word *datum*. One quick word before we continue: Because the word *data* is the plural of *datum*, I (and many people) prefer data as a plural noun—hence "What are Data?" for the section title. (In fact, I think it's funny to define data science as "the science of datums," but that's a terrible joke and I promise I won't do it again in this book). However, it's quite common in American English to treat data as a singular word—so common in fact, that you might notice me trip up and write "What is Data?" at some point. My opinion here is strong enough that I won't mind if you point out when I'm inconsistent but not so strong that I'm going to get picky about how you treat the word—go with whatever comes more naturally to you. 
 
@@ -28,7 +28,7 @@ This is more background than anything else—most of the time (but not all of th
 
 While all of these connotations are reasonable, it's important that we understand their limits. For example, while many people think of *data* as numbers alone, data can also consist of words or stories, colors or sounds, or any type of information that is systematically collected, organized, and analyzed. Some folks might resist that broad definition of data because "words or stories" told by a person don't feel as trustworthy or objective as numbers stored in a computer. 
 
-However, one of the recurring themes of this course is to emphasize that data and data systems are not objective—even when they're digital and quantitative. When I was introducing ASCII a few paragraphs ago, there were two details in there that might have passed you by but that actually have pretty important consequences. First, I noted that ASCII can "encode all the letters of the (English) alphabet)"; second, I mentioned that the "A" in ASCII stood for "American." Early computer systems in the United States were built around American English assumptions for what counts as a letter. This makes sense... but it has had consequences!
+However, one of the recurring themes of this course is to emphasize that data and data systems are not objective—even when they're digital and quantitative. When I was introducing ASCII a few paragraphs ago, there were two details in there that might have passed you by but that actually have pretty important consequences. First, I noted that ASCII can "encode all the letters of the (English) alphabet"; second, I mentioned that the "A" in ASCII stood for "American." Early computer systems in the United States were built around American English assumptions for what counts as a letter. This makes sense... but it has had consequences!
 
 While most modern computer systems have moved on to more advanced character encoding systems (ones that include Latin letters, Chinese characters, Arabic script, and emoji, for example), there are still some really important computer systems that use limited encoding schemes like ASCII. In 2015, Tovin Lapin wrote a newspaper article about this, noting that:
 
@@ -42,7 +42,7 @@ There were attempts in 2014 to change this, but when lawmakers realized it would
 
 So, even digital and quantitative data (systems) can be biased, which means that we ought to push lightly back against the rhetorical connotations of data as trustworthy. I'm not suggesting we throw data, science, and data science out the window and go with our gut and our opinions, but we shouldn't take for granted that a given dataset doesn't have its own subjectivity. Likewise, we ought to ask ourselves what information needs to become data before it can be trusted—or, more precisely, *whose* information needs to become data before it can be considered as fact and acted upon (Lanius, 2015; Porter, 1996).
 
-### Data Science
+### What Is Data Science?
 
 If you think about it, *data science* is somewhat of an unintuitive name. As we noted earlier, *data* are more than numbers: they can be any type of information that is systematically collected, organized, and analyzed. Likewise, *science* simply implies a commitment to systematic methods of observation and experiment.
 
@@ -60,7 +60,7 @@ Disparities in the higher education pipeline aren't only along gender lines. The
 
 This example reinforces the work of Safiya Umoja Noble (2018), whose book, *Algorithms of Oppression*, has shown how both gender and racial biases are encoded into some of the most pervasive data-driven systems—including Google search, which boasts over five billion unique web searches per day. Noble describes how, as recently as 2016, comparable searches for “three Black teenagers” and “three White teenagers” turned up wildly different representations of those teens. The former returned mugshots, while the latter returned wholesome stock photography. Unequal representation among data scientists is all the worse for the way it can lead to biases in data science projects.
 
-### Big Data
+### What Does "Big Data" Mean?
 
 One possible distinction between data science and statistics is the amount of data we're working with. Technology coverage in the 2010s (and continuing to the present) made it hard to resist the idea that *big data* represents some kind of revolution that has turned the whole world of information and technology topsy-turvy. But is this really true? Does big data change everything?
 
@@ -79,13 +79,15 @@ In addition, data science is much more than simply analyzing data. There are man
 * **Learning the application domain**: A data scientist must quickly learn how the data will be used in a particular context.
 * **Communicating with data users**: A data scientist must possess strong skills for learning the needs and preferences of users. Translating back and forth between the technical terms of computing and statistics and the vocabulary of the application domain is a critical skill.
 * **Seeing the big picture of a complex system**: After developing an understanding of the application domain, a data scientist must imagine how data will move around among all of the relevant systems and people.
-* **Knowing how data can be represented**: A data scientist must have a clear understanding about how data can be stored and linked, as well as about "metadata" (data that describes how other data are arranged).
+* **Knowing how data can be organized**: A data scientist must have a clear understanding about how data can be stored and linked, as well as about "metadata" (data that describes how other data are arranged).
 * **Data transformation and analysis**: When data become available for the use of decision makers, a data scientist must know how to transform, summarize, and make inferences from the data. As noted above, being able to communicate the results of analyses to users is also a critical skill here.
 * **Visualization and presentation**: Although numbers often have the edge in precision and detail, a good data display (e.g., a bar chart) can often be a more effective means of communicating re- sults to data users.
 * **Attention to quality**: No matter how good a set of data may be, there is no such thing as perfect data. A data scientist must know the limitations of the data they work with, know how to quantify its accuracy, and be able to make suggestions for improving the quality of the data in the future.
 * **Ethical reasoning**: If data are important enough to collect, they are often important enough to affect people’s lives. A data scientist must understand important ethical issues such as privacy and must be able to communicate the limitations of data to try to prevent misuse of data or analytical results.
 
 While a keen understanding of numbers and mathematics is important, particularly for data analysis, a data scientist also needs to have excellent communication skills, be a great systems thinker, have a good eye for visual displays, and be highly capable of thinking critically about how data will be used to make decisions and affect people’s lives. Of course there are very few people who are good at all of these things, so some of the people interested in data will specialize in one area, while others will become experts in another area. Of course, this also highlights the importance of teamwork.
+
+# Conclusion
 
 We can't possibly cover all these skills in depth this semester, and even these skills are just the tip of the iceberg, which just emphasizes what a wide range is represented here. I hope their importance is clear, though—for example, which of these skills could have anticipated and responded to the problems involved with María showing up as Maria on a California birth certificate?
 

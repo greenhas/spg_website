@@ -27,9 +27,11 @@ During the work week (but not the weekend!), I commit to respond to all emails w
 
 I will hold office hours in person or on Zoom (see above):
 
-* Tuesday, 11am to 1pm (in person and on Zoom)
-* Wednesday, 9am to 11am (Zoom only), or
+* Wednesday, 10am to 12pm
+* Thursday, 11am to 1pm, or
 * by appointment
+
+While you are free to come by without an appointment, I suggest that you let me know when you plan to come to office hours.
 
 ### Meeting Schedule
 
@@ -37,9 +39,9 @@ This course takes place asynchronously on Canvas
 
 ## Required Materials
 
-This course uses a free custom online textbook based on Creative Commons-licensed works such as [*Data Feminism*](https://data-feminism.mitpress.mit.edu/), OpenStax's [*Introductory Statistics()](https://openstax.org/details/books/introductory-statistics), and the "ModernDive" [*Statistical Inference Via Data Science*](https://moderndive.com/) textbook. Providing an open license for a book is a generous act by these authors but doesn't change the fact that time and money went into their creation. If you appreciate any of these sources, please consider purchasing a copy.
+This course uses a free custom online textbook based on Creative Commons-licensed works such as [*Data Feminism*](https://data-feminism.mitpress.mit.edu/), OpenStax's [*Introductory Statistics()](https://openstax.org/details/books/introductory-statistics), and the "ModernDive" [*Statistical Inference Via Data Science*](https://moderndive.com/) textbook. 
 
-## "Life is Difficult" Statement [inspired by [Dr. Andrew Heiss](https://twitter.com/andrewheiss/status/1256651410529230851?s=20)]
+## "Life is Difficult" Statement [inspired by [Dr. Andrew Heiss]
 
 Recent years have been characterized by a global pandemic, increased (and overdue) attention to inequalities and injustices, and stressful political tensions; we might hope that the worst of all of these has passed, but the truth is that none of them have disappeared. This can be a difficult time to be in grad school.
 
@@ -95,6 +97,11 @@ Throughout the semester, you will earn 45 points from a series of participation 
 
 Officially, each assignment is due at 11:59pm on the Sunday night indicated in Canvas. Practically speaking, however, I will grade without penalty (for graded assessments) and provide feedback on (for all assessments) anything that is turned in by the time I begin reviewing that assessment. However, I will not grade or provide feedback on any work that is completed after this time unless you have made other arrangements with me. Naturally, because my schedule varies from week to week and because I try to provide feedback as quickly as possible, your best bet is to turn in your work by the official deadline or—if life has thrown you a curveball—to get in touch with me ahead of time to make other arrangements.
 
+### Prep Week
+
+[UK policies](https://ombud.uky.edu/students/academic-policies/prep-days-reading-days) limit what I can assign during Week 16 of the course. However, I am "permitted to grade student participation," "collect regularly assigned homework," and "collect projects" so long as those assignments are scheduled ahead of time and, in the case of projects, there is nothing due during Finals Week. Please note that your final project meets these requirements and is due during Week 16.
+
+
 ## Course Policies
 
 All of the policies listed on [this page](https://www.uky.edu/universitysenate/acadpolicy) are in effect for this course. 
@@ -107,7 +114,13 @@ It is common practice in data science and programming communities to borrow code
 
 Along these lines, I **strongly discourage** you from using any generative AI tool to write code or text for you. AI-generated output can include errors, and as a general rule, if you know enough to catch those errors, you know enough to generate that output yourself; conversely, generating that output yourself will help you further develop your knowledge more than relying on a tool. If you do use any generative AI in completing your work, you **must explicitly acknowledge it** in your submission—and you will assume responsibility for any errors the tool makes.
 
-## Diversity, Equity, and Inclusion
+# Diversity, Equity, and Inclusion
+
+## College Statement
+
+The College of Communication and Information will build a collaborative environment for creativity, curiosity, and excellence grounded in the core values of diversity, justice, and equity. We are enriched by the diversity of cultures, perspectives, and talents in our community. We thrive together when we work to provide an equitable and welcoming experience that respects and empowers the unique contributions and circumstances of students, faculty, and staff from every race and ethnicity, nationality, gender identity and expression, sexual orientation, religion, citizenship status, age, veteran status, pregnancy and parenting status, and disability or health status. We are committed to ensuring every member of our College feels welcomed, well-served, and included. Please join us.
+
+## University Statement
 
 The University of Kentucky is committed to our core values of diversity and inclusion, mutual respect and human dignity, and a sense of community ([Governing Regulations XIV](https://www.uky.edu/regs/gr14)). We acknowledge and respect the seen and unseen diverse identities and experiences of all members of the university community (https://www.uky.edu/regs/gr14). These identities include but are not limited to those based on race, ethnicity, gender identity and expressions, ideas and perspectives, religious and cultural beliefs, sexual orientation, national origin, age, ability, and socioeconomic status. We are committed to equity and justice and providing a learning and engaging community in which every member is engaged, heard, and valued.
 
@@ -164,101 +177,101 @@ If you experience an incident of sex- or gender-based discrimination or interper
 
 ## Course Schedule
 
-### Module 1: Course Introduction (21 Aug - 27 Aug)
+### Module 1: Course Introduction (26 Aug - 1 Sep)
 
 * read and annotate the course syllabus
 * complete "Install R and RStudio" walkthrough
 * introduce yourself to the class
 
-### Module 2: Data Science (28 Aug - 3 Sep)
+### Module 2: Data Science (2 Sep - 8 Sep)
 
 * read and annotate "The New(?) and Shiny(?) Science of Data"
 * complete "Getting Started with Data in R" walkthrough
 * complete "Set up GitHub" walkthrough
 
 
-### Module 3: Reproducibility and Paradigms (4 Sep to 10 Sep)
+### Module 3: Reproducibility and Paradigms (9 Sep to 15 Sep)
 
 * read and annotate "Research Paradigms and Reproducibility"
 * complete "Using Projects and Scripts in R" walkthrough
 * complete "Writing in R Markdown" walkthrough
 
 
-### Module 4: Data Sharing (11 Sep - 17 Sep)
+### Module 4: Data Sharing (16 Sep - 22 Sep)
 
 * read and annotate "The Value of Open Data"
 * complete "Find a Dataset Relevant to You" walkthrough
 * read and annotate "Show Your Work"
 * **submit Project 1: Finding and Evaluating Data**
 
-### Module 5: Theory and Ethics (18 Sep - 24 Sep)
+### Module 5: Theory and Ethics (23 Sep - 29 Sep)
 
 * read and annotate "Numbers Don't Speak for Themselves"
 * read and annotate "Are Ethics Enough in Data Science"
 * reflect on theoretical and philosophical constraints in context
 
-### Module 6: Data Cleaning (25 Sep - 1 Oct)
+### Module 6: Data Cleaning (30 Sep - 6 Oct)
 
 * read and annotate "Unicorns, Janitors, and Rock Stars"
 * complete "Wrangling and Tidying Data" walkthrough
 * practice wrangling and tidying your own data
 
-### Module 7: Data Visualization (2 Oct - 8 Oct)
+### Module 7: Data Visualization (7 Oct - 13 Oct)
 
 * read and annotate "Subjectivity in Data Visualization
 * complete "Data Visualization" walkthrough
 * practice visualizing your own data
 
-### Module 8: Descriptive Statistics (9 Oct - 15 Oct)
+### Module 8: Descriptive Statistics (14 Oct - 20 Oct)
 
 * read and annotate "Statistics and Scientific Racism"
 * complete "Descriptive Statistics" walkthrough
 * calculate descriptive statistics for your own data
 * **submit Project 2: Exploring and Describing Data**
 
-### Module 9: Basic Regression (16 Oct - 22 Oct)
+### Module 9: Basic Regression (21 Oct - 27 Oct)
 
 * read and annotate "Basic Regression"
 * complete "Basic Regression" walkthrough
 * perform a basic regression with your own data
 
-### Module 10: Multiple Regression (23 Oct - 29 Oct)
+### Module 10: Multiple Regression (28 Oct - 3 Nov)
 
 * read and annotate "Consequences of Failed Predictions"
 * complete "Multiple Regression" walkthrough
 * perform a multiple regression with your own data
 
-### Module 11: Statistical Sampling (30 Oct - 5 Nov)
+### Module 11: Statistical Sampling (4 Nov - 10 Nov)
 
 * read and annotate "Samples and Populations"
 * complete "Sampling" walkthrough
 * explore sampling with your own data
 
-### Module 12: Confidence Intervals (6 Nov - 12 Nov)
+### Module 12: Confidence Intervals (11 Nov - 17 Nov)
 
 * read and annotate "Confident About What?"
 * complete "Confidence Intervals" walkthrough
 * explore confidence intervals with your own data
 
-### Module 13: Hypothesis Testing (13 Nov - 19 Nov)
+### Module 13: Hypothesis Testing (18 Nov - 24 Nov)
 
 * read and annotate "The Danger of False Positives"
 * complete "Hypothesis Testing" walkthrough
 * explore hypothesis testing with your own data
 
-### Module 14: Inferential Regression (20 Nov - 26 Nov)
+### Module 14: Inferential Regression (25 Nov - 1 Dec)
 
 * read and annotate "Small Stories vs. Big Data"
 * complete "Inferential Regression" walkthrough
 * perform an inferential regression with your own data
 * **submit Project 3: Building and Evaluating Models**
 
-### Module 15: Course Reflection (27 Nov - 3 Dec)
+### Module 15: Course Reflection (2 Dec - 8 Dec)
 
 * reflect on your understanding of data science
 * reflect on your application of data science
 * reflect on your connection with data science
 
-### Module 16: Final Project (4 Dec - 6 Dec)
+### Module 16: Final Project (9 Dec - 11 Dec)
 
 * **submit Final Project: Reporting Data Analysis**

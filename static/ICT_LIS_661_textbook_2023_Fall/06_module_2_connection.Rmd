@@ -26,7 +26,7 @@ Second, if you care deeply about someone else’s project, such as an R package 
 
 ## GitHub in ICT/LIS 661
 
-In this class, you will be accessing and submitting your projects for this class through GitHub. If you need feedback or help with your code, we'll also use GitHub to send it back and forth. We won't be using GitHub to its fullest extent, but this will at least give you some basic familiarity with the software. We are using GitHub—and not Bitbucket or GitLab—because GitHub is widely used in the R community, and because it's what I'm most familiar with. However, it's worth pointing out that the GitHub company has [a history of controversy](https://en.wikipedia.org/wiki/GitHub#Controversies) and that it has recently come under [increased criticism](https://sfconservancy.org/blog/2022/jun/30/give-up-github-launch/) from the same open source community that GitHub claims to serve. For the time being, I am continuing to use GitHub (personally and for this class), but as we'll discuss throughout the semester, it's important to be attentive to ethics and values in data science, and I don't think this is any exception.
+In this class, you will be accessing projects through GitHub. If you need feedback or help with your code, we'll also use GitHub to send it back and forth. We won't be using GitHub to its fullest extent, but this will at least give you some basic familiarity with the software. We are using GitHub—and not Bitbucket or GitLab—because GitHub is widely used in the R community, and because it's what I'm most familiar with. However, it's worth pointing out that the GitHub company has [a history of controversy](https://en.wikipedia.org/wiki/GitHub#Controversies) and that it has recently come under [increased criticism](https://sfconservancy.org/blog/2022/jun/30/give-up-github-launch/) from the same open source community that GitHub claims to serve. For the time being, I am continuing to use GitHub (personally and for this class), but I'm not thrilled about it. As we'll discuss throughout the semester, it's important to be attentive to ethics and values in data science, and I don't think this is any exception.
 
 ## Setting Up GitHub
 
@@ -48,7 +48,7 @@ First things first, head on over to [github.com](https://github.com) and create 
 
 In this next section, I've tried to be as specific as possible in providing instructions. However, past experience has shown me that what I see on my computer while walking through these steps isn't always exactly what other people see due to operating system or other differences. If something doesn't match perfectly what you see, use common sense to figure out the next best option.
 
-Once you've created a GitHub account, please navigate to [this GitHub repository](https://github.com/greenhas/ICT_LIS_661_2023_Fall), which contains some crucial files for our class. If you have your browser window open wide enough, you should see a green *Use this template* button to the right of the menu above the list of files and directories (or folders) Click that button and, if prompted, click on *Create a new repository*. 
+Once you've created a GitHub account, please navigate to [this GitHub repository](https://github.com/greenhas/ICT_LIS_661_2024), which contains some crucial files for our class. If you have your browser window open wide enough, you should see a green *Use this template* button to the right of the menu above the list of files and directories (or folders) Click that button and, if prompted, click on *Create a new repository*. 
 
 The next interface has a few different sections in it. You can ignore the first few options and then go down to where it says *Owner*: Make sure it lists your username there! 
 
@@ -79,6 +79,12 @@ Pay attention to the Local Path option. By default, GitHub Desktop will create t
 * either a Documents folder or the main user folder of your computer
 
 You're free to change this, but I strongly recommend sticking with the default folder name, and unless you have strong opinions about where to keep your files, it's probably a good idea to stick with the default filepath, too. Wherever you end up storing your repository folder, **pay close attention**—you'll be navigating back to it to complete your work throughout the semester.
+
+### Files and folders
+
+A quick note here: Over the past few years, professors in technical fields have [increasingly noticed](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z) that their students aren't as familiar with computers' file and folder systems as they are. When I was learning to use computers, it was **critical** that you know which files were in which folders in order to find them. In recent decades, the rise of cloud storage services (especially search-heavy ones like Google Drive), mobile operating systems, and other developments have made it so that your everyday computer user doesn't have to (and, in the case of mobile devices, maybe can't?) navigate through the different folders on their computer to save or retrieve files.
+
+However, if you're working with programming tasks (like we are this semester), you **do** need to know where files are saved on your computer, what folders other folders are stored in, and that sort of thing. Not paying close attention to this is going to create at least mild inconveniences for you and, if you're unlucky, more serious errors that will get in the way of your work. Please, please, please spend some time early on in this class to get to know `Windows Explorer` (on Windows) or `Finder` (on macOS). Pay very close attention to where you've saved files, where those locations "live" on your computer, and that sort of thing.
 
 ## Moving Forward
 

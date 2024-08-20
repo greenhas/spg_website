@@ -12,7 +12,6 @@ h3:tips-code Tips on learning to code
 h2:packages What are R packages?
 fig:R-vs-R-packages Analogy of R versus R packages.
 h3:package-installation Package installation
-fig:easy-way-install Installing packages in R the easy way.
 h3:package-loading Package loading
 h3:package-use Package use
 h2:nycflights13 Explore your first datasets
