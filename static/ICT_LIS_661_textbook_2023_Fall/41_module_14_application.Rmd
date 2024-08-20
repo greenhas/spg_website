@@ -524,7 +524,7 @@ Let's list our four conditions for inference for regression again and indicate w
 
 So what does this mean for the results of our confidence intervals and hypothesis tests in Section \@ref(regression-interp)?
 
-First, the **I**ndependence condition. The fact that there exist dependencies between different rows in `evals_ch5` must be addressed. A data scientist with more training than this course might use use *hierarchical/multilevel modeing* to incorporate such dependencies into their regression models. 
+First, the **I**ndependence condition. The fact that there exist dependencies between different rows in `evals_ch5` must be addressed. A data scientist with more training than this course might use use *hierarchical/multilevel modeling* to incorporate such dependencies into their regression models. 
 
 Second, when conditions **L**, **N**, **E** are not met, it often means there is a shortcoming in our model. For example, it may be the case that using only a single explanatory variable is insufficient, as we did with "beauty" score. We may need to incorporate more explanatory variables in a multiple regression model as we did in Chapter \@ref(multiple-regression), or perhaps use a transformation of one or more of your variables, or use an entirely different modeling technique. To learn more about addressing such shortcomings, you'll have to take a class on or read up on more advanced regression modeling methods. 
 

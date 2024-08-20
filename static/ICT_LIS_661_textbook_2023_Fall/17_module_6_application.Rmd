@@ -40,6 +40,7 @@ library(kableExtra)
 library(readr)
 library(stringr)
 library(scales)
+library(knitr)
 ```
 
 
@@ -697,7 +698,7 @@ library(stringr)
 library(forcats)
 ```
 
-We'll cover `ggplot2` in a future walkthrough, and the `purrr`, `tibble`, `stringr`, and `forcats` are left for a more advanced book; check out [*R for Data Science*](http://r4ds.had.co.nz/) to learn about these packages.
+We'll cover `ggplot2` in a future walk through, but the other packages are more than we need in 661. You can check out *[R for Data Science](https://r4ds.had.co.nz/)* to learn about these packages.
 
 For the remainder of this book, we'll start every walkthrough by running `library(tidyverse)`, instead of loading the various component packages individually. The `tidyverse` "umbrella" package gets its name from the fact that all the functions in all its packages are designed to have common inputs and outputs: data frames are in "tidy" format. This standardization of input and output data frames makes transitions between different functions in the different packages as seamless as possible. For more information, check out the [tidyverse.org](https://www.tidyverse.org/) webpage for the package.
 

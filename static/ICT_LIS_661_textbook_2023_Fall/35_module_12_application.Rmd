@@ -68,7 +68,7 @@ moe_obama <- 0.021
 
 An example of a realistic sampling situation would be a poll, like the [Obama poll](https://www.npr.org/sections/itsallpolitics/2013/12/04/248793753/poll-support-for-obama-among-young-americans-eroding) you saw in Section \@ref(sampling-case-study). Pollsters did not know the true proportion of *all* young Americans who supported President Obama in 2013, and thus they took a single sample of size $n$ = `r n_obama_survey` young Americans to estimate this value.
 
-So how does one quantify the effects of sampling variation when you only have a *single sample* to work with? You cannot directly study the effects of sampling variation when you only have one sample. One common method to study this is *bootstrapping resampling*, which will be the focus of the earlier sections of this chapter. 
+So how does one quantify the effects of sampling variation when you only have a *single sample* to work with? You cannot directly study the effects of sampling variation when you only have one sample. One common method to study this is *bootstrapping resampling*, which will be the focus of the earlier sections of this chapter. The term bootstrapping originates in the expression of "pulling oneself up by their bootstraps," meaning to ["succeed only by one's own efforts or abilities."](https://en.wiktionary.org/wiki/pull_oneself_up_by_one%27s_bootstraps) Thinking about that expression may help you better understand what we mean by bootstrapping in this context. 
 
 Furthermore, what if we would like not only a single estimate of the unknown population parameter, but also a *range of highly plausible* values? Going back to the Obama poll article, it stated that the pollsters' estimate of the proportion of all young Americans who supported President Obama was `r p_obama*100`%. But in addition it stated that the poll's "margin of error was plus or minus `r moe_obama*100` percentage points." This "plausible range" was [`r p_obama*100`% - `r moe_obama*100`%, `r p_obama*100`% + `r moe_obama*100`%] = [`r (p_obama - moe_obama)*100`%, `r (p_obama + moe_obama)*100`%]. This range of plausible values is what's known as a *confidence interval*, which will be the focus of the later sections of this chapter. 
 
@@ -227,7 +227,7 @@ include_graphics("images/sampling/pennies/tactile_simulation/4_put_it_back.png")
 
 What our friend just performed was a *resampling* \index{resampling} of the original sample of `r num_pennies` pennies. We are not sampling `r num_pennies` pennies from the population of all US pennies as we did in our trip to the bank. Instead, we are mimicking this act by resampling `r num_pennies` pennies from our original sample of `r num_pennies` pennies. 
 
-Now ask yourselves, why did we replace our resampled slip of paper back into the hat in Step 4? Because if we left the slip of paper out of the hat each time we performed Step 4, we would end up with the same `r num_pennies` original pennies! In other words, replacing the slips of paper induces *sampling variation*.
+Now ask yourselves, why did we replace our resampled slip of paper back into the hat in Step 4? Because if we left the slip of paper out of the hat each time we performed Step 4, we would end up with the same `r num_pennies` original pennies! In other words, we wouldn't have the possibility of sampling the same penny twice: Replacing the slips of paper induces *sampling variation*.
 
 Being more precise with our terminology, we just performed a *resampling with replacement* from the original sample of `r num_pennies` pennies. Had we left the slip of paper out of the hat each time we performed Step 4, this would be *resampling without replacement*.
 
@@ -651,7 +651,7 @@ standard_error_ci
 
 ## Constructing confidence intervals {#bootstrap-process}
 
-Recall that the process of resampling with replacement we performed by hand in Section \@ref(resampling-tactile) and virtually in Section \@ref(resampling-simulation) is known as \index{bootstrap!colloquial definition} *bootstrapping*. The term bootstrapping originates in the expression of "pulling oneself up by their bootstraps," meaning to ["succeed only by one's own efforts or abilities."](https://en.wiktionary.org/wiki/pull_oneself_up_by_one%27s_bootstraps) 
+Recall that the process of resampling with replacement we performed by hand in Section \@ref(resampling-tactile) and virtually in Section \@ref(resampling-simulation) is known as \index{bootstrap!colloquial definition} *bootstrapping*.
 
 From a statistical perspective, bootstrapping alludes to succeeding in being able to study the effects of sampling variation on estimates from the "effort" of a single sample. Or more precisely, \index{bootstrap!statistical reference} it refers to constructing an approximation to the sampling distribution using only one sample.
 
@@ -1656,13 +1656,7 @@ percentile_cis_by_n %>%
 
 The moral of the story is: \index{confidence interval!impact of sample size on interval width} **Larger sample sizes tend to produce narrower confidence intervals.**   Recall that this was a key message in Subsection \@ref(moral-of-the-story). As we used larger and larger shovels for our samples, the sample proportions red $\widehat{p}$ tended to vary less. In other words, our estimates got more and more *precise*. 
 
-Recall that we visualized these results earlier, when we compared the *sampling distributions* for $\widehat{p}$ based on samples of size $n$ equal 25, 50, and 100. We also quantified the sampling variation of these sampling distributions using their standard deviation, which has that special name: the *standard error*. So as the sample size increases, the standard error decreases. 
-
-In fact, the standard error is another related factor in determining confidence interval width. We'll explore this fact in Subsection \@ref(theory-ci) when we discuss theory-based methods for constructing confidence intervals using mathematical formulas. Such methods are an alternative to the computer-based methods we've been using so far. 
-
-
-
-
+Recall that we visualized these results earlier, when we compared the *sampling distributions* for $\widehat{p}$ based on samples of size $n$ equal 25, 50, and 100. We also quantified the sampling variation of these sampling distributions using their standard deviation, which has that special name: the *standard error*. So as the sample size increases, the standard error decreases. In fact, the standard error is another related factor in determining confidence interval width!
 
 ## Case study: Is yawning contagious? {#case-study-two-prop-ci}
 

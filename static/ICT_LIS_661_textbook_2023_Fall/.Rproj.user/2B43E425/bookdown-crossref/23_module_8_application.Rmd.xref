@@ -15,4 +15,5 @@ h2:groupby  rows
 (ref:groupby) Diagram of group_by() and summarize().
 fig:groupsummarize (ref:groupby)
 h3:grouping-by-more-than-one-variable Grouping by more than one variable
+h1:conclusion Conclusion
 

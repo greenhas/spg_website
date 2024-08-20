@@ -83,13 +83,13 @@ The least squares regression line (best-fit line) for the third-exam/final-exam 
 
 Looping back to our discussion of linear equations, we can interpret this! Let's start with the overall interpretation and then break it down. Our regression model estimates that a student's final exam score (out of $200$) ought to equal $-173.51$ plus $4.83$ for every point (out of 80) they scored on the third exam for the class.
 
-Our intercept here is kind of useless. It predicts that a student who scored a 0 on the third exam will score a $-173.51/200$ on the final exam, and I can promise thatare (usually) not so cruel as to give negative points for final exams. This number makes sense mathematically but not conceptually.
+Our intercept here is kind of useless. It predicts that a student who scored a 0 on the third exam will score a $-173.51/200$ on the final exam, and I can promise that professors are (usually) not so cruel as to give negative points for final exams. This number makes sense mathematically but not conceptually.
 
 However, our coefficient here is really helpful: For every additional point that a student scores on the third exam, we can expect them to score an additional 4.83 points on the final exam. That's not a perfect prediction (linear regression never is), but it's helpful to know.
 
 ## Correlation Coefficients
 
-Besides looking at the scatter plot and seeing that a line seems reasonable, how can you tell if the line is a good predictor? We can use calculate a *correlation coefficient* as another indicator (besides the scatterplot) of the strength of the relationship between x and y.
+Besides looking at the scatter plot and seeing that a line seems reasonable, how can you tell if the line is a good predictor? We can calculate a *correlation coefficient* as another indicator (besides the scatterplot) of the strength of the relationship between x and y.
 
 Before moving on, a few words about correlations. First, even though data scientists generally have the goal of establishing causal relationships between variables, doing so is actually quite difficult. A common saying in statistics and data science is that *correlation isn't causation*. Two variables may be correlated without having any kind of causal relationship between them. Second, in popular language, "correlation" is used to indicate any kind of relationship between two phenomena. However, in statistics and data science, correlation refers specifically to the kind of relationship suggested by a correlation analysis. If you're reporting on the results of a regression, for example, it would be inappropriate to talk about variables being correlated, because that's not the kind of analysis that you're doing.
 

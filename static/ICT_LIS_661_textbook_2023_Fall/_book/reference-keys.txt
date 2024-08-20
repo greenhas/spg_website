@@ -276,6 +276,7 @@ nycflights13-package
 flights-data-frame
 exploredataframes
 identification-vs-measurement-variables
+help-files
 conclusion
 m2c-set-up-github
 introduction-3
@@ -452,6 +453,7 @@ calculating-mean-with-mean-and-standard-deviation-with-sd
 percentiles-quartiles-and-iqr
 groupby
 grouping-by-more-than-one-variable
+conclusion-9
 m8c-calculate-descriptive-statistics-for-your-own-data
 m9u-linear-regression
 introduction-18
@@ -460,7 +462,7 @@ linear-relationships-and-scatterplots
 the-regression-equation
 least-squares-criteria-for-best-fit
 correlation-coefficients
-conclusion-9
+conclusion-10
 regression
 introduction-19
 model1
@@ -483,7 +485,7 @@ introduction-20
 regression-and-automated-content-moderation
 the-problem-with-automated-content-moderation
 an-example-from-instagram
-conclusion-10
+conclusion-11
 multiple-regression
 introduction-21
 model4
@@ -512,7 +514,7 @@ probability
 expected-values-and-the-law-of-large-numbers
 probability-and-sampling
 probability-and-the-normal-distribution
-conclusion-11
+conclusion-12
 sampling
 introduction-23
 sampling-activity
@@ -537,7 +539,7 @@ m11c-explore-sampling-with-your-own
 m12u-confident-about-what
 introduction-24
 travelingwhiletrans
-conclusion-12
+conclusion-13
 references-14
 confidence-intervals
 introduction-25
@@ -577,7 +579,7 @@ investigations-of-students-must-start-with-concrete-evidence
 not-just-dartmouth
 a-problem-with-companies-and-transparency
 a-problem-with-schools-and-trust
-conclusion-13
+conclusion-14
 hypothesis-testing
 introduction-27
 ht-activity
@@ -605,7 +607,7 @@ introduction-28
 the-origins-of-autoethnography
 what-does-autoethnography-look-like
 how-do-autoethnographers-measure-quality
-conclusion-14
+conclusion-15
 references-15
 inference-for-regression
 introduction-29

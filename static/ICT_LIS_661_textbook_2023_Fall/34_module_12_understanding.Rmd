@@ -6,7 +6,7 @@ Changes to the source material include adding new material, (rarely) deleting or
 
 ## Introduction
 
-As we'll see in this wweek's walkthrough, confidence intervals are really important! On one hand, they're an important recognition that even with the best applications of statistical analysis, we never have a perfect answer to the questions that we're asking. However, they also let us skip the step of throwing our hands up in despair about the impossibility of knowing and give us a practical workaround: We may not know the exact answer, but we have a certain level of confidence that the answer falls within a given range.
+As we'll see in this week's walkthrough, confidence intervals are really important! On one hand, they're an important recognition that even with the best applications of statistical analysis, we never have a perfect answer to the questions that we're asking. However, they also let us skip the step of throwing our hands up in despair about the impossibility of knowing and give us a practical workaround: We may not know the exact answer, but we have a certain level of confidence that the answer falls within a given range.
 
 As we'll see in future weeks, this kind of reasoning is really helpful in inferential statistics. Sure, we can't answer whether a given measurement is the "correct" value, but we can use the basic ideas behind confidence intervals to shift our attention to a different question: *What values are unlikely to be "correct"?* In other words, values outside of a confidence interval are unlikely to correspond with a given true value for a particular measurement, and knowing that can be a lot more helpful.
 
@@ -18,7 +18,7 @@ However, there are also times that our confidence in the normality of certain th
 
 The bulk of this reading is going to include a story along these lines that I've taken from Dr. Sasha Costanza-Chock's book *Design Justice*, as I've indicated above. Previously in the semester, when I've adapted a reading from another source, I've taken advantage of the permissive license applied to the source to add my own voice to it, edit the original language, etc.
 
-However, this is a highly personal story from Dr. Costanza-Chock, and it would be wildly inappropriate for me to take that same approach here. I have—rarely—removed some language that makes reference to later chapters in her book (because that could be confusing here), I have changed the citation style to fit with the rest of our readings, and I have broken up one paragraph that got overly long after making changes to citation style. Other than that, though, I have kept Dr. Costanza-Chock's original language intact, and all first-person pronouns refer to her, not me. 
+However, this is a highly personal story from Dr. Costanza-Chock, and it would be wildly inappropriate for me to take that same approach here. In a few cases, I have removed language that makes reference to later chapters in her book (because that could be confusing here), I have changed the citation style to fit with the rest of our readings, and I have broken up one paragraph that got overly long after making changes to citation style. Other than that, though, I have kept Dr. Costanza-Chock's original language intact, and all first-person pronouns refer to her, not me. 
 
 > To make this more clear, I have used "blockquote formatting" (like this paragraph) to represent her language.
 

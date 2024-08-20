@@ -57,14 +57,16 @@ Because supermarket B has a higher standard deviation, we know that there is mor
 Suppose that Rosa and Binh both shop at supermarket A. Rosa waits at the checkout counter for seven minutes and Binh waits for one minute. At supermarket A, the mean waiting time is five minutes and the standard deviation is two minutes. The standard deviation can be used to determine whether a data value is close to or far from the mean.
 
 Rosa waits for seven minutes:
+
 * Seven is two minutes longer than the average of five; two minutes is equal to one standard deviation.
 * Rosa's wait time of seven minutes is *two minutes longer than the average of five minutes*.
 * Rosa's wait time of seven minutes is *one standard deviation above the average* of five minutes.
 
 Binh waits for one minute.
+
 * One is four minutes less than the average of five; four minutes is equal to two standard deviations.
 * Binh's wait time of one minute is *four minutes less than the average of five minutes*.
-* Binh's wait time of one minute is *(two standard deviations below the average of five minutes*.
+* Binh's wait time of one minute is *two standard deviations below the average of five minutes*.
     
 As we'll discuss later on in the semester, a data value that is two standard deviations from the average is just on the borderline for what many data scientists would consider to be far from the average. Considering data to be far from the mean if it is more than two standard deviations away is more of an approximate "rule of thumb" than a rigid rule.
 
@@ -271,3 +273,7 @@ by_origin_monthly_incorrect
 ```
 
 What happened here is that the second `group_by(month)` overwrote the grouping structure meta-data of the earlier `group_by(origin)`, so that in the end we are only grouping by `month`. The lesson here is if you want to `group_by()` two or more variables, you should include all the variables at the same time in the same `group_by()` adding a comma between the variable names.
+
+# Conclusion
+
+When I first learned about grouping and summarizing variables in R, it seemed like a lot of work for benefits that weren't always clear. The more time I spend with these concepts, though, the easier they get, and the more valuable they become. These days, in fact, grouping and summarizing are one of the first things I do whenever I get a new dataset to work with. Descriptive statistics can be a great way to get a quick feel for your data, and these functions are helpful for calculating them!

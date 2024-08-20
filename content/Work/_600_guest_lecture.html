@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LIS 610 guest lecture</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+       a:link {
+      text-decoration: none;
+}      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+
+class: middle
+
+background-color: #272822
+
+<h1 style="color:white; text-align:center">"Who Benefits?" Platform Perspectives, Digital Labor, and the Digital Divide</h1>
+<h3 style="color:white">Spencer P. Greenhalgh, PhD<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;School of Information Science, University of Kentucky
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<svg xmlns="http://www.w3.org/2000/svg" width = 25 style="fill: rgb(249, 38, 114)" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z"/></svg>
+<a style="color: rgb(249, 38, 114)" href="https://spencergreenhalgh.com/work">spencergreenhalgh.com/work</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<svg width = 25 style="fill: rgb(249, 38, 114)"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg> 
+<a style="color: rgb(249, 38, 114)" href="mailto:spencer.greenhalgh@uky.edu">spencer.greenhalgh@uky.edu</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<svg style="fill: rgb(249, 38, 114)"  width = "25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+<a style="color: rgb(249, 38, 114)" href="https://sciences.social/@spgreenhalgh">@spgreenhalgh@sciences.social</a></h3>
+
+
+<p style="color:white"> slides: <a style="color: rgb(249, 38, 114)" href="https://spencergreenhalgh.com/work/_610_guest_lecture.html">https://spencergreenhalgh.com/work/_610_guest_lecture.html</a></p>
+
+---
+
+class: center, middle
+
+<img src="https://i0.wp.com/reseau.editionspowpow.com/fr/wp-content/uploads/sites/3/2020/12/ch_jeunesse_couverture.png" width = 400>
+
+???
+
+In early 2023, a friend of mine made a weekend trip to Brussels, Belgium. Brussels is kind of the unofficial capital of French language comics, and I’m both a French nerd and a comics nerd, so my friend offered to bring me back a book to add to my collection. That is how I’m the proud owner of « Chroniques de jeunesse » a kind of illustrated memoir by the Canadian cartoonist Guy Delisle. 
+
+---
+
+class: center, middle
+
+<img src="https://drawnandquarterly.com/wp-content/uploads/biblioshare_attachments/9781770464599.png" width = 400>
+
+???
+
+Your local library may have a copy of the excellent English translation "Factory Summers," and I highly recommend it. This was a really kind thing for a friend to do! Perhaps obviously, there aren’t really any French language comics shops here in Lexington, Kentucky, and so it’s not all that easy to add titles to my small collection.
+
+---
+
+class: center, middle
+
+<a title="Stefflater, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Stripmuur_XIII.jpg"><img width="400" alt="Stripmuur XIII" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Stripmuur_XIII.jpg/512px-Stripmuur_XIII.jpg?20160102172718"></a>
+
+[Stripmuur XIII](https://commons.wikimedia.org/wiki/File:Stripmuur_XIII.jpg), by Stefflater, is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+
+???
+
+In fact, later in her trip, my friend sent me a picture of one of Brussels’s comics murals depicting XIII, the main character of a series that began in the 1980s and that I’ve been trying to collect for ages. I have a few physical copies thanks to bookstores in Paris, Montréal, and even Boston of all places...
+
+---
+
+class: center, middle
+
+<img src="https://spencergreenhalgh.com/XIII_collection.png" width = 600>
+
+???
+
+... but at this point, most of my collection is actually made up of electronic copies I’ve purchased through Amazon.
+
+When I learned about a decade ago that I could purchase Kindle copies of this series, it was a game changer. I don’t exactly have a lot of money to travel abroad to buy comics. I don’t even have a lot of money to pay expensive international shipping costs. I had been wanting to read this series for years, and it was a huge benefit to be able to buy digital copies for pretty cheap and to read them on a tablet or a phone. Throughout 2014 and 2015, I bought the first seven volumes, which I’ve since read several times.
+
+---
+
+class: center, middle
+
+<a title="Skblzz1, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:S%C3%A9rie_BD_XIII.jpg"><img width="512" alt="Série BD XIII" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/S%C3%A9rie_BD_XIII.jpg?20200506071203"></a>
+
+[Série BD XIII](https://commons.wikimedia.org/wiki/File:S%C3%A9rie_BD_XIII.jpg), by [Skblzz1](https://commons.wikimedia.org/wiki/User:Skblzz1), is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
+
+???
+
+After that first, excited year, though, I’ve really started to emphasize picking up the physical copies whenever I can, even if that means paying a little extra or waiting a little longer. I have benefitted tremendously from Amazon selling digital copies of these comics, but as time went on, I started to ask other questions about who was really benefitting from this transaction.
+
+For one thing, I don’t really own these comics, in the sense that I don’t have full control over them. If I wanted to loan my physical copies of XIII Volumes 8-11 to a friend, all I need to do is hand over the book. If I ever got tired of the series, I could sell these volumes to a used bookstore. If I ever got upset with one of the bookstores that sold me the volumes, I could cut ties with them but still onto what I purchased. In contrast, I can’t loan or resell my Kindle copies, and if I ever want to cut ties with Amazon, I’ll lose access to the books that I "purchased."
+
+---
+
+class: center, middle
+
+<a title="Bill Ingalls, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:NASA_Deputy_Administrator_Tours_Blue_Origin.jpg"><img width="512" alt="NASA Deputy Administrator Tours Blue Origin" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/NASA_Deputy_Administrator_Tours_Blue_Origin.jpg/512px-NASA_Deputy_Administrator_Tours_Blue_Origin.jpg?20111209205211"></a>
+
+???
+
+For another thing, as much as I genuinely benefitted from low-cost access to digital copies of French comics, Amazon executives benefitted even more from our transactions.
+
+---
+
+class: center, middle
+
+# "After spending billions on the vanity project of blasting himself into space, [Amazon founder Jeff] Bezos thanked Amazon’s employees and customers, noting that they 'paid for all of this.'"
+
+Giblin, R., & Doctorow, C. (2022). *Chokepoint capitalism: How big tech and big content captured creative labor markets and how we'll win them back*. Beacon Press.
+
+???
+
+As Rebecca Giblin and Cory Doctorow have noted...
+
+---
+
+class: center, middle
+
+<a title="Bill Ingalls, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:NASA_Deputy_Administrator_Tours_Blue_Origin.jpg"><img width="512" alt="NASA Deputy Administrator Tours Blue Origin" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/NASA_Deputy_Administrator_Tours_Blue_Origin.jpg/512px-NASA_Deputy_Administrator_Tours_Blue_Origin.jpg?20111209205211"></a>
+
+???
+
+Okay, so why am I telling this story about comic books during a lecture on the digital divide? In short, my concerns about the digital divide are different than what you might be used to hearing about when we talk about the digital divide. Traditionally, the digital divide is a question of access. 
+
+---
+
+class: center, middle
+
+<img src="https://www.pewresearch.org/wp-content/uploads/sites/20/2021/07/FT_21.07.15_TechRegulation_01.png" width = 300>
+
+Atske, S., & Perrin, A. (2021, July 16). Home broadband adoption, computer ownership vary by race, ethnicity in the U.S. *Pew Research Center*. https://www.pewresearch.org/short-reads/2021/07/16/home-broadband-adoption-computer-ownership-vary-by-race-ethnicity-in-the-u-s/
+
+???
+
+Consider these 2021 findings from the Pew Research Center: In the United States, more White adults have access to desktop or laptop computers and to home broadband than Black or Hispanic adults. Not having access to broadband internet or not having access to a "full" desktop or laptop computer are both problems in a world that is increasingly dependent on computers and the internet. That question of access is really important.
+
+Let’s consider some of these other Pew findings, though. Smartphone access isn’t perfectly even across racial and ethnic groups in the U.S., but it’s a lot more equitable than access to other kinds of computers. That said, simple *access* to smartphones doesn’t give us a full picture in terms of digital divide; that is, two people with the same amount of access to smartphones can still benefit differently.
+
+---
+
+class: center, middle
+
+<img src="https://s.yimg.com/ny/api/res/1.2/yP9Sy3Q07V0O8riJMltz6w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MA--/https://s.yimg.com/os/creatr-uploaded-images/2022-02/7757c3f0-90df-11ec-b8ee-485ff10514da" width = 600>
+
+???
+
+For example, In August 2018, Elon Musk, one of the world’s wealthiest men, posted to social media that he was considering taking his car company, Tesla, private. That is, the company would buy Tesla stocks at $420 a share and then take the company off the stock market.
+
+Now, $420 was higher than a share of Tesla stock was selling for at that time, and if Musk was really going to take the company private, it would be really attractive to get in on that deal before it happened. So, a bunch of people started buying Tesla stock, hoping to benefit from the situation. The problem, though, is that Musk didn’t really have funding secured for this hypothetical deal, which landed him in trouble with the Securities and Exchange Commission.
+
+---
+
+class: center, middle
+
+# "Musk's tweets caused Tesla's stock price to jump by over 6 percent and harmed investors by causing 'significant confusion and disruption in the market for Tesla's stock,' the SEC alleged."
+
+Brodkin, J. (2024, April 29). Elon Musk loses at Supreme Court in case over "funding secured" tweets. *Ars Technica*. https://arstechnica.com/tech-policy/2024/04/elon-musk-loses-at-supreme-court-in-case-over-funding-secured-tweets/
+
+???
+
+According to a recent article in *Ars Technica*...
+
+---
+
+class: center, middle
+
+<img src="https://s.yimg.com/ny/api/res/1.2/yP9Sy3Q07V0O8riJMltz6w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MA--/https://s.yimg.com/os/creatr-uploaded-images/2022-02/7757c3f0-90df-11ec-b8ee-485ff10514da" width = 600>
+
+???
+
+What’s interesting to us, though, as we consider digital divides, is a little detail in this screenshot of the offending tweet. I haven’t been able to double-check this detail in the way that I’d like, but it sure looks like Musk sent this tweet from an iPhone. Let’s hold onto that thought as we consider another experience documented in *Wired* magazine in 2021:
+
+---
+
+class: center, middle
+
+# "Damon, who works full-time at an upscale hotel and part-time at a burger joint in Washington, DC, gets his weekly schedules through texts from his managers, often with last-minute requests to come in to cover for missing coworkers."
+
+Ticona, J. (2021, December 16). Smartphones are a new tax on the poor. *WIRED*. https://www.wired.com/story/phones-connectivity-tax-policy/
+
+---
+
+class: center, middle
+
+# "To make sure he can receive these messages, Damon juggles two basically broken low-end smartphones, one with a shattered screen and another that turns on and off unpredictably when he tries to use it."
+
+Ticona, J. (2021, December 16). Smartphones are a new tax on the poor. *WIRED*. https://www.wired.com/story/phones-connectivity-tax-policy/
+
+---
+
+class: center, middle
+
+# "'I’m waiting on my next check so I can get another phone,' he told me. Meanwhile, he’s using stagnant wages to purchase a phone that’s functionally a workplace requirement, all just to keep the jobs he has now."
+
+Ticona, J. (2021, December 16). Smartphones are a new tax on the poor. *WIRED*. https://www.wired.com/story/phones-connectivity-tax-policy/
+
+---
+
+class: center, middle
+
+<img src="https://www.pewresearch.org/wp-content/uploads/sites/20/2021/07/FT_21.07.15_TechRegulation_01.png" width = 300>
+
+Atske, S., & Perrin, A. (2021, July 16). Home broadband adoption, computer ownership vary by race, ethnicity in the U.S. *Pew Research Center*. https://www.pewresearch.org/short-reads/2021/07/16/home-broadband-adoption-computer-ownership-vary-by-race-ethnicity-in-the-u-s/
+
+???
+
+So, both Damon and Elon Musk have internet access and access to a smartphone. Both Damon and Elon Musk benefit in some way from internet access and access to a smartphone. We might be tempted to say that there’s no digital divide here—or at least that if we got Damon a new iPhone, there wouldn’t be.
+
+---
+
+class: center, middle
+
+<img src="https://s.yimg.com/ny/api/res/1.2/yP9Sy3Q07V0O8riJMltz6w--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MA--/https://s.yimg.com/os/creatr-uploaded-images/2022-02/7757c3f0-90df-11ec-b8ee-485ff10514da" width = 600>
+
+???
+
+And yet, when Elon Musk uses his smartphone, there’s a real possibility that what he types will have consequences for the U.S. stock market and thereby shift the global economy, even if only slightly. On the other hand, Damon can barely afford a smartphone but can’t get work without one. It seems to me that there’s still a digital divide there: One of these men is benefitting from digital technologies much more than the other.
+
+In my mind, therefore, if we really want to ask questions about digital divides, we can’t just ask questions about who has access to which digital technologies. We need to ask deeper questions about who benefits and how from digital technologies—and what kinds of divide exist there.
+
+Now a lot of these discrepancies between me and Jeff Bezos or between Damon and Elon Musk have to do with broader issues related to economics, finance, policy, and other topics that I’m not an expert in. Sometimes, though, we can look at how a digital technology is designed and governed to see how it sets up one party to benefit more than others.
+
+---
+
+class: center, middle
+
+# "an approach to social media that does not just regard them as tools, but as platforms, driven by a complex interplay between technical architectures, business models, and mass user activity"
+
+van Dijck, J., & Poell, T. (2018). Social media platforms and education. In J. Burgess, A. Marwick, & T. Poell (Eds.), The SAGE Handbook of Social Media (pp. 579-591). SAGE.
+
+???
+
+My real specialty as a researcher is in social media, and one scholarly perspective that can help us pay attention to who benefits from social media use is Dutch researcher José van Dijck’s *platform perspective*. Writing with colleague Thomas Poell, van Dijck describes the platform perspective as: 
+
+---
+
+class: center, middle
+
+# "Approaching platforms as sociotechnical constructs, we need to analyze technology, users, and content in close alignment; highlighting platforms as socioeconomic structures, we will scrutinize their ownership status, governance, and business models"
+
+van Dijck, J. (2013). *The culture of connectivity: A critical history of social media*. Oxford University Press.
+
+???
+
+In earlier writing, she gets even more into the weeds, suggesting that we can consider a social media service’s technology, users, content, ownership, governance, and business models to get a sense for how these platforms exist as more than just tools, instead potentially working for the benefit of some people at the expense of others.
+
+---
+
+class: center, middle
+
+<img src="https://upload.wikimedia.org/wikipedia/en/3/36/Logo_of_the_Gas_App.webp">
+
+???
+
+Whatever set of categories we use, getting into the details to ask about digital divides within a social media service can be really helpful to expand our perspectives. For example, in late 2022, I was contacted by a reporter at *EducationWeek* to ask for my thoughts about the *Gas* social media platform, which had launched earlier that year and briefly surged to the top of the Apple App Store before being acquired by Discord in early 2023 and shut down later that year. 
+
+---
+
+class: center, middle
+
+<img src="https://i.insider.com/6352ca96ffcac3001876bd42?width=1000&format=jpeg&auto=webp" width = 700>
+
+???
+
+Gas was essentially an anonymous social networking service that is meant to be a way for teens to interact positively with each other. When a user opened the app, they saw a compliment as well as a list of people that they’ve “friended” in the app, and they pick the friend that they feel the compliment best applies to. That friend hears that someone has associated them with that compliment, but they don’t know who complimented them. (This will become important later). 
+
+Now, looking at the technical design of Gas through a platform perspective, we can already see some good technical decisions that go some distance toward making this a positive social media platform. For example, users can’t really communicate with each other than associate specific compliments with specific friends. In some ways, that’s a major constraint, but it also helps reduce bullying, communication that might be inappropriate, and other concerns that adults are going to have about teens using social media. 
+
+---
+
+class: center, middle
+
+# "an approach to social media that does not just regard them as tools, but as platforms, driven by a complex interplay between technical architectures, business models, and mass user activity"
+
+van Dijck, J., & Poell, T. (2018). Social media platforms and education. In J. Burgess, A. Marwick, & T. Poell (Eds.), The SAGE Handbook of Social Media (pp. 579-591). SAGE.
+
+???
+
+Despite those strong design decisions, Gas had been the subject of some nasty (and false) rumors about human trafficking earlier in the year. That’s actually why the EdWeek reporter reached out to me to see what I thought about the app and those rumors. Looking at the technical design of the app, I thought it really was designed for users’ benefit, and I didn’t have any concerns there. Remember, though, that the platform perspective also asks us to think about things like business models and *that* is where I told the reporter that I had concerns.
+
+---
+
+class: center, middle
+
+<a title="Manuel Dohmen, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:1,5_und_10_Dollarnoten.jpg"><img width="512" alt="1,5 und 10 Dollarnoten" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/1%2C5_und_10_Dollarnoten.jpg/512px-1%2C5_und_10_Dollarnoten.jpg?20050613132411"></a>
+
+[1,5 und 10 Dollarnoten](https://commons.wikimedia.org/wiki/File:1,5_und_10_Dollarnoten.jpg), by Manuel Dohmen, is licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
+
+???
+
+
+Gas is a mostly anonymous platform, but what’s the fun in knowing your friends are complimenting you but not knowing which friend is associated with which compliment—especially if you suspect it might be about your crush? That’s where Gas’s “God Mode” comes into play. For the price of $6.99/week, a user can get some hints about who has been giving them which compliments. Now, if I were a high schooler wondering what the kids in my French class thought about me, that would be a really tempting option. There are some problems, though.
+
+First off, $6.99/week is a pretty hefty price for an app subscription—if you do the math, its monthly price is higher than any streaming service that I’m aware of and I just can’t see the benefits adding up to that price. Granted the vast majority of Gas users probably never subscribed, and those who did probably only did for one exciting week of getting a peek behind the complimentary curtain before they cancelled their subscription again. 
+
+---
+
+class: center, middle
+
+# "value is created from the unpaid actions of online audiences"
+
+Selwyn, N. (2019). *What is digital sociology*? Polity Press)
+
+???
+
+Even with those caveats, though, there’s a deeper problem with what some scholars call *digital labor*, where...
+
+Let’s think about this for a second. If you’re a Gas user paying for access to that extra God Mode information, who generated that information in the first place? Well, it’s another user, of course! Who’s getting paid for access to that information, though? It’s the company that developed the app. If you think about it, Gas has a very strange business model, where some users are paying the company to give them access to information that other users generated. The users are creating all of the value in the app, but the company is making all of the money. Now, it might sound strange to us to ask whether teens ought to get paid for providing each other with compliments, but if those compliments are what other teens are paying for, then why is all of the money going to the app developers instead?
+
+---
+
+class: center, middle
+
+<a title="Manuel Dohmen, CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:1,5_und_10_Dollarnoten.jpg"><img width="512" alt="1,5 und 10 Dollarnoten" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/1%2C5_und_10_Dollarnoten.jpg/512px-1%2C5_und_10_Dollarnoten.jpg?20050613132411"></a>
+
+[1,5 und 10 Dollarnoten](https://commons.wikimedia.org/wiki/File:1,5_und_10_Dollarnoten.jpg), by Manuel Dohmen, is licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
+
+???
+
+Of course, this business model isn’t limited to Gas, either. Once you start looking at the social media services we use, the websites we visit, and the AI tools that are out there; and once you start looking at technical details and business models, like the platform perspective asks us to do, your life will never be the same. You will start seeing all kinds of examples of where some company is making money off of the free work that you are providing them.
+
+Gas users all have smartphones, just like Elon Musk and Damon both have smartphones. Gas users all benefit from the app, just like Jeff Bezos and I both benefit from the Kindle platform. And yet, in all of these examples, the benefits are not evenly distributed. Digital divides will not end once everyone gets access to digital technologies; in fact, if we’re not careful, they could only get worse.
+
+---
+
+class: middle
+
+background-color: #272822
+
+<h1 style="color:white">Thank you! Feel free to send me questions.</h1>
+<h3 style="color:white">Spencer P. Greenhalgh, PhD<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;School of Information Science, University of Kentucky
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<svg xmlns="http://www.w3.org/2000/svg" width = 25 style="fill: rgb(249, 38, 114)" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64H348.7c2.2 20.4 3.3 41.8 3.3 64zm28.8-64H503.9c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64H380.8c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32H376.7c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0H167.7c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0H18.6C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192H131.2c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64H8.1C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6H344.3c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352H135.3zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6H493.4z"/></svg>
+<a style="color: rgb(249, 38, 114)" href="https://spencergreenhalgh.com/work">spencergreenhalgh.com/work</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<svg width = 25 style="fill: rgb(249, 38, 114)"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg> 
+<a style="color: rgb(249, 38, 114)" href="mailto:spencer.greenhalgh@uky.edu">spencer.greenhalgh@uky.edu</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<svg style="fill: rgb(249, 38, 114)"  width = "25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M433 179.11c0-97.2-63.71-125.7-63.71-125.7-62.52-28.7-228.56-28.4-290.48 0 0 0-63.72 28.5-63.72 125.7 0 115.7-6.6 259.4 105.63 289.1 40.51 10.7 75.32 13 103.33 11.4 50.81-2.8 79.32-18.1 79.32-18.1l-1.7-36.9s-36.31 11.4-77.12 10.1c-40.41-1.4-83-4.4-89.63-54a102.54 102.54 0 0 1-.9-13.9c85.63 20.9 158.65 9.1 178.75 6.7 56.12-6.7 105-41.3 111.23-72.9 9.8-49.8 9-121.5 9-121.5zm-75.12 125.2h-46.63v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.33V197c0-58.5-64-56.6-64-6.9v114.2H90.19c0-122.1-5.2-147.9 18.41-175 25.9-28.9 79.82-30.8 103.83 6.1l11.6 19.5 11.6-19.5c24.11-37.1 78.12-34.8 103.83-6.1 23.71 27.3 18.4 53 18.4 175z"/></svg>
+<a style="color: rgb(249, 38, 114)" href="https://sciences.social/@spgreenhalgh">@spgreenhalgh@sciences.social</a></h3>
+
+
+<p style="color:white"> slides: <a style="color: rgb(249, 38, 114)" href="https://spencergreenhalgh.com/work/_610_guest_lecture.html">https://spencergreenhalgh.com/work/_610_guest_lecture.html</a></p>
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({});
+    </script>
+  </body>
+</html>
