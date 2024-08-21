@@ -1,7 +1,8 @@
 # M3C: Writing in R Markdown
 
 This content draws on material from:
-* [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) by [Yihui Xie](https://yihui.org/), [J. J. Allaire](https://github.com/jjallaire), and [Garrett Grolemund](https://scholar.google.com/citations?user=wgdI_m4AAAAJ), licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+[R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) by [Yihui Xie](https://yihui.org/), [J. J. Allaire](https://github.com/jjallaire), and [Garrett Grolemund](https://scholar.google.com/citations?user=wgdI_m4AAAAJ), licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 Changes to the source material include addition of new material; light editing; removing original material; and adding first-person language from current author.
 
@@ -15,7 +16,7 @@ First, *this entire textbook* is written in R Markdown. *Understanding* chapters
 
 Second, *your class projects* will all be submitted in R Markdown documents. It does mean asking you to learn a little bit about R Markdown, but it's really useful for submitting and grading your assessments. Imagine that for each project, I asked you to submit your code, your data, and a separate Word file that contained your reflections. That would just be a hassle for both of us! With an R Markdown file, you can include your code, automatically show your results, and comment on what you found, all in a single document that you submit through Canvas. 
 
-*R Markdown* builds on *Markdown*, a simple markup language (notice the pun?) that is popular in many ICT communities, including data scientists. A markup language is a way of using code to format text—HTML and XML are markup languages that you may be familiar with. Precisely speaking, R Markdown is based on Pandoc-flavored Markdown. There are many "flavors" of Markdown invented by different people, and Pandoc's flavor is the best suited for data science work for a number of reasons. You can find the full documentation of Pandoc's Markdown at https://pandoc.org/MANUAL.html. If you really want to learn about R Markdown, you ought to consult that document; however, the truth is that we're using it pretty lightly this semester, so this short walkthrough ought to do the trick.
+*R Markdown* builds on *Markdown*, a simple markup language (notice the pun?) that is popular in many ICT communities, including data science. A markup language is a way of using code to format text—HTML and XML are markup languages that you may be familiar with. Precisely speaking, R Markdown is based on Pandoc-flavored Markdown. There are many "flavors" of Markdown invented by different people, and Pandoc's flavor is the best suited for data science work for a number of reasons. You can find the full documentation of Pandoc's Markdown at https://pandoc.org/MANUAL.html. If you really want to learn about R Markdown, you ought to consult that document; however, the truth is that we're using it pretty lightly this semester, so this short walkthrough ought to do the trick.
 
 ## Markdown syntax
 
@@ -29,7 +30,7 @@ The following sections go over some of the options that you have available when 
 
 Inline text will be _italic_ if surrounded by underscores or asterisks, e.g., `_text_` or `*text*`. **Bold** text is produced using a pair of double asterisks (`**text**`). A pair of tildes (`~`) turn text to a subscript (e.g., `H~3~PO~4~` renders H~3~PO~4~). A pair of carets (`^`) produce a superscript (e.g., `Cu^2+^` renders Cu^2+^). To mark text as `inline code`, use a pair of backticks, e.g., `` `code` ``.
 
-Hyperlinks are created using the syntax `[text](link)`; for example, `[here's a link to our Canvas](https://uk.instructure.com/courses/2074926/)`. The syntax for images is similar: just add an exclamation mark, e.g., `![alt text or image title](path/to/image)`. Footnotes are put inside the square brackets after a caret `^[]`, e.g., `^[This is a footnote.]`.
+Hyperlinks are created using the syntax `[text](link)`; for example, `[here's a link to our Canvas](https://uk.instructure.com/courses/2097720/)`. The syntax for images is similar: just add an exclamation mark, e.g., `![alt text or image title](path/to/image)`. Footnotes are put inside the square brackets after a caret `^[]`, e.g., `^[This is a footnote.]`.
 
 ### Block-level elements
 

@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Data Science"
-subtitle: "A Remixed Textbook for ICT/LIS 661 at the Uniersity of Kentucky [Fall 2023 Edition]"
+subtitle: "A Remixed Textbook for ICT/LIS 661 at the University of Kentucky [Fall 2023 Edition]"
 author: "Spencer P. Greenhalgh, PhD"
 site: bookdown::bookdown_site
 documentclass: book

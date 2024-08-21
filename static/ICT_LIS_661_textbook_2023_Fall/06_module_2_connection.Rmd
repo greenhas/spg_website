@@ -80,11 +80,11 @@ Pay attention to the Local Path option. By default, GitHub Desktop will create t
 
 You're free to change this, but I strongly recommend sticking with the default folder name, and unless you have strong opinions about where to keep your files, it's probably a good idea to stick with the default filepath, too. Wherever you end up storing your repository folder, **pay close attention**—you'll be navigating back to it to complete your work throughout the semester.
 
-### Files and folders
+### Files and Folders
 
 A quick note here: Over the past few years, professors in technical fields have [increasingly noticed](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z) that their students aren't as familiar with computers' file and folder systems as they are. When I was learning to use computers, it was **critical** that you know which files were in which folders in order to find them. In recent decades, the rise of cloud storage services (especially search-heavy ones like Google Drive), mobile operating systems, and other developments have made it so that your everyday computer user doesn't have to (and, in the case of mobile devices, maybe can't?) navigate through the different folders on their computer to save or retrieve files.
 
-However, if you're working with programming tasks (like we are this semester), you **do** need to know where files are saved on your computer, what folders other folders are stored in, and that sort of thing. Not paying close attention to this is going to create at least mild inconveniences for you and, if you're unlucky, more serious errors that will get in the way of your work. Please, please, please spend some time early on in this class to get to know `Windows Explorer` (on Windows) or `Finder` (on macOS). Pay very close attention to where you've saved files, where those locations "live" on your computer, and that sort of thing.
+However, if you're working with programming tasks (like we are this semester), you **do** need to know where files are saved on your computer, what folders other folders are stored in, and that sort of thing. Not paying close attention to this is going to create at least mild inconveniences for you and, if you're unlucky, more serious errors that will get in the way of your work. Please, please, please spend some time early on in this class to get to know Windows Explorer (on Windows) or Finder (on macOS). Pay very close attention to where you've saved files, where those locations "live" on your computer, and that sort of thing.
 
 ## Moving Forward
 
