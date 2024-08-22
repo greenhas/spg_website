@@ -18,12 +18,12 @@ In this section, we'll cover a series of functions from the `dplyr` package for 
 1. `mutate()` its existing columns/variables to create new ones. For example, convert hourly temperature recordings from degrees Fahrenheit to degrees Celsius.
 1. `arrange()` its rows. For example, sort rows of a dataframe in ascending or descending order of a particular variable.
 1. `select()` a data frame's existing columns to only pick out a subset of them.
-1. `rename()` the columns of a data frame
-1. return the `top_n()` values of a particular variable
+1. `rename()` the columns of a data frame.
+1. return the `top_n()` values of a particular variable.
 
 Notice how I've used `computer_code` font to describe the actions we want to take on our data frames. This is because the `dplyr` package for data wrangling has intuitively verb-named functions that are easy to remember. 
 
-There is a further benefit to learning to use the `dplyr` package for data wrangling: its similarity to the database querying language [SQL](https://en.wikipedia.org/wiki/SQL) (pronounced "sequel" or spelled out as "S", "Q", "L"). SQL (which stands for "Structured Query Language") is used to manage large databases quickly and efficiently and is widely used by many institutions with a lot of data. While SQL is a topic left for a book or a course on database management, keep in mind that once you learn `dplyr`, you can learn SQL easily. We'll talk more about their similarities in Subsection \@ref(normal-forms).
+There is a further benefit to learning to use the `dplyr` package for data wrangling: its similarity to the database querying language [SQL](https://en.wikipedia.org/wiki/SQL) (pronounced "sequel" or spelled out as "S", "Q", "L"). SQL (which stands for "Structured Query Language") is used to manage large databases quickly and efficiently and is widely used by many institutions with a lot of data. While SQL is a topic left for a book or a course on database management, keep in mind that once you learn `dplyr`, you can learn SQL more easily. 
 
 ### Needed packages {-#wrangling-packages}
 
@@ -48,7 +48,7 @@ library(knitr)
 
 Before we start data wrangling, let's first introduce a nifty tool that gets loaded with the `dplyr` package: the \index{operators!pipe} pipe operator `%>%`. The pipe operator allows us to combine multiple operations in R into a single sequential *chain* of actions.
 
-Let's start with a hypothetical example. Say you would like to perform a hypothetical sequence of operations on a hypothetical data frame `x` using hypothetical functions `f()`, `g()`, and `h()`:
+Let's start with a hypothetical example. (Because this is a hypothetical example, please note that you do not need to—and cannot really—execute the dummy code in this section.) Say you would like to perform a hypothetical sequence of operations on a hypothetical data frame `x` using hypothetical functions `f()`, `g()`, and `h()`:
 
 1. Take `x` *then*
 1. Use `x` as an input to a function `f()` *then*
@@ -101,7 +101,7 @@ portland_flights <- flights %>%
 View(portland_flights)
 ```
 
-Note the order of the code. First, take the `flights` data frame `flights` *then* `filter()` the data frame so that only those where the `dest` equals `"PDX"` are included. We test for equality using the double equal sign \index{operators!==} `==` and not a single equal sign `=`. Trying to run `filter(dest = "PDX")` will yield an error. This is a convention across many programming languages, but if you are new to coding, you'll probably forget to use the double equal sign `==` a few times before you get the hang of it. (To be honest, it's taken me more than a few times to get into this habit!)
+Note the order of the code. First, take the `flights` data frame *then* `filter()` the data frame so that only those where the `dest` equals `"PDX"` are included. We test for equality using the double equal sign \index{operators!==} `==` and not a single equal sign `=`. Trying to run `filter(dest = "PDX")` will yield an error. This is a convention across many programming languages, but if you are new to coding, you'll probably forget to use the double equal sign `==` a few times before you get the hang of it. (To be honest, it's taken me more than a few times to get into this habit!)
 
 You can use other operators \index{operators} beyond just the `==` operator that tests for equality:
 
@@ -417,7 +417,7 @@ dem_score
 
 In this `dem_score` data frame, the minimum value of `-10` corresponds to a highly autocratic nation, whereas a value of `10` corresponds to a highly democratic nation. Note also that backticks surround the different variable names.  Variable names in R by default are not allowed to start with a number nor include spaces, but we can get around this fact by surrounding the column name with backticks. We'll revisit the `dem_score` data frame in a case study in the upcoming Section \@ref(case-study-tidy).
 
-Note that the `read_csv()` function included in the `readr` package is different than the `read.csv()` function that comes installed with R. While the difference in the names might seem trivial (an `_` instead of a `.`), the `read_csv()` function is, in our opinion, easier to use since it can more easily read data off the web and generally imports data at a much faster speed. Furthermore, the `read_csv()` function included in the `readr` saves data frames as `tibbles` by default. 
+Note that the `read_csv()` function included in the `readr` package is different than the `read.csv()` function that comes installed with R. While the difference in the names might seem trivial (an `_` instead of a `.`), the `read_csv()` function is, in my opinion, easier to use since it can more easily read data off the web and generally imports data at a much faster speed. Furthermore, the `read_csv()` function included in the `readr` saves data frames as `tibbles` by default. 
 
 ### "Tidy" data {#tidy-data-ex}
 
@@ -430,7 +430,7 @@ drinks %>%
   head(5)
 ```
 
-After reading the help file by running `?drinks`, you'll see that `drinks` is a data frame containing results from a survey of the average number of servings of beer, spirits, and wine consumed in `r drinks %>% nrow()` countries. This data was originally reported on FiveThirtyEight.com in Mona Chalabi's article: ["Dear Mona Followup: Where Do People Drink The Most Beer, Wine And Spirits?"](https://fivethirtyeight.com/features/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/).
+After reading the help file by running `?drinks`, you'll see that `drinks` is a data frame containing results from a survey of the average number of servings of beer, spirits, and wine consumed in `r drinks %>% nrow()` countries. This data was originally reported on FiveThirtyEight.com in Mona Chalabi's article: ["Dear Mona Followup: Where Do People Drink The Most Beer, Wine And Spirits?"](https://fivethirtyeight.com/features/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/). It's important to note that Chalabi is no longer with FiveThirtyEight and [has been sharply critical](https://x.com/MonaChalabi/status/1270715883531300866) of the organization since her leaving.
 
 Let's apply some of the data wrangling verbs we learned in Section \@ref(wrangling) on the `drinks` data frame:
 
