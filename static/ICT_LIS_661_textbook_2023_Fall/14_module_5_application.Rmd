@@ -10,6 +10,10 @@ Changes to the source material include removal of original material, reformattin
 
 The resulting content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
+## A Note on Sources
+
+For most readings in this class, I tend to add my personal voice when adapting material from other authors. This reading includes arguments from the original authors on topics that I'm not as informed on, and so you'll notice a distinct lack of first-person language here as compared to in other readings. This doesn't mean that I'm repudiating these arguments—I wouldn't include this material if I didn't think it were worth our time—just that I'm still processing some of the arguments myself.
+
 ## Introduction
 
 The field of data science has entered a period of reflection and reevaluation. Alongside its rapid growth in both size and stature in recent years, data science has become beset by controversies and scrutiny. Machine learning algorithms that guide decisions in areas such as hiring, healthcare, criminal sentencing, and welfare are often biased, inscrutable, and proprietary (Anwin et al., 2016; Buolamwini & Gebru, 2018; Eubanks, 2018; Obermeyer et al., 2019; O'Neil, 2017; Wexler, 2018). Algorithms that drive social media feeds manipulate people’s emotions (Kramer et al., 2014), spread misinformation (Vosoughi et al., 2018), and amplify political extremism (Nicas, 2018). Facilitating these and other algorithms are massive datasets, often gained illicitly or without meaningful consent, that reveal sensitive and intimate information about people (de Montjoye et al., 2015; Kosinski et al., 2013; Rosenberg et al., 2018; Thompson & Warzel, 2019)
@@ -22,7 +26,7 @@ In short, these concepts may do good work, but they ultimately keep the roots of
 
 ## Ethics vs. Politics
 
-In practice, technology ethics suffer from four significant limitations (Green, 2021): 
+In practice, technology ethics suffer from some significant limitations (Green, 2021): 
 
 * First, technology ethics principles are abstract and lack mechanisms to ensure that engineers follow ethical principles.
 * Second, technology ethics has a myopic focus on individual engineers and on technology design, overlooking the structural sources of technological harms. 
@@ -85,7 +89,7 @@ Every aspect of science is imbued with the characteristics and interests of thos
 
 Just as it is impossible to conduct science in any truly neutral way, there is no such thing as a neutral (or apolitical) approach to politics. As philosopher Roberto Unger (1987) writes, political neutrality is an “illusory and ultimately idolatrous goal” because “no set of practices and institutions can be neutral among conceptions of the good."
 
-Instead of being neutral and apolitical, attempts to be neutral and apolitical embody an implicitly conservative (that is, status quo-preserving) politics. Because neutrality does not mean value-free—it means acquiescence to dominant social and political values, freezing the status quo in place. Neutrality may appear to be apolitical, but that is only because the status quo is taken as a neutral default. Anything that challenges the status quo—which efforts to promote social justice must do by definition—will therefore be seen as political. But efforts for reform are no more political than efforts to resist reform or even the choice simply to not act, both of which preserve existing systems.
+Instead of being neutral and apolitical, attempts to be neutral and apolitical embody an implicitly conservative (that is, status quo-preserving) approach. Because neutrality does not mean value-free—it means acquiescence to dominant social and political values, freezing the status quo in place. Neutrality may appear to be apolitical, but that is only because the status quo is taken as a neutral default. Anything that challenges the status quo—which efforts to promote social justice must do by definition—will therefore be seen as political. But efforts for reform are no more political than efforts to resist reform or even the choice simply to not act, both of which preserve existing systems.
 
 Although surely not the intent of every scientist and engineer who strives for neutrality, broad cultural conceptions of science as neutral entrench the perspectives of dominant social groups, who are the only ones entitled to legitimate claims of neutrality. For example, many scholars have noted that neutrality is defined by a masculine perspective, making it impossible for women to be seen as objective or for neutral positions to consider female standpoints (Harding, 1998; Lloyd, 1993; Keller, 1985; MacKinnon, 1982). The voices of Black women are particularly subjugated as partisan and anecdotal (Collins, 2000). Because of these perceptions, when people from marginalized groups critique scientific findings, they are cast off as irrational, political, and representing a particular perspective (Haraway, 1988). In contrast, the practices of science and the perspectives of the dominant groups that uphold it are rarely considered to suffer from the same maladies.
 
@@ -99,7 +103,7 @@ Against this backdrop, choosing to develop predictive policing algorithms is not
 
 Although predictive policing represents a notably salient example of how data science cannot be neutral, the same could be said of all applied data science. Biased data are certainly one piece of the story, but so are existing social and political conditions, definitions and classifications of social problems, and the set of institutions that respond to those problems. None of these factors are neutral and removed from politics. And while data scientists are of course not responsible for creating these aspects of society, they are responsible for choosing how to interact with them. Neutrality in the face of injustice only reinforces that injustice. When engaging with aspects of the world steeped in history and politics, in other words, it is impossible for data scientists to not take political stances.
 
-I do not mean to suggest that every data scientist should share a singular political vision—that would be wildly unrealistic. It is precisely because the field (and world) hosts a diversity of normative perspectives that we must surface political debates and recognize the role they play in shaping data science practice. Nor is my argument meant to suggest that articulating one’s political commitments is a simple task. Normative ideals can be complex and conflicting, and one’s own principles can evolve over time. Data scientists need not have precise answers about every political question. However, they must act in light of articulated principles and grapple with the uncertainty that surrounds these ideals.
+This does not mean that every data scientist should share a singular political vision! That would be wildly unrealistic. It is precisely because the field (and world) hosts a diversity of normative perspectives that we must surface political debates and recognize the role they play in shaping data science practice. Nor is my argument meant to suggest that articulating one’s political commitments is a simple task. Normative ideals can be complex and conflicting, and one’s own principles can evolve over time. Data scientists need not have precise answers about every political question. However, they must act in light of articulated principles and grapple with the uncertainty that surrounds these ideals.
 
 ### Argument 3: “Don't Let the Perfect Be the Enemy of the Good”
 
