@@ -36,7 +36,7 @@ set.seed(76)
 
 ## Introduction
 
-Let's continue developing your data science toolbox by exploring data visualization. By visualizing data, we gain valuable insights we couldn't immediately or easily obtain from just looking at the raw data values. We'll use the `ggplot2` package, as it provides an easy way to customize your plots. `ggplot2` is rooted in the data visualization theory known as _the grammar of graphics_ [@wilkinson2005], developed by Leland Wilkinson (2005). However, as we recently covered, `ggplot` is included in the `tidyverse` package, so we'll actually load that instead.
+Let's continue developing your data science toolbox by exploring data visualization. By visualizing data, we gain valuable insights we couldn't immediately or easily obtain from just looking at the raw data values. We'll use the `ggplot2` package, as it provides an easy way to customize your plots. `ggplot2` is rooted in the data visualization theory known as _the grammar of graphics_, developed by Leland Wilkinson (2005). However, as we recently covered, `ggplot2` is included in the `tidyverse` package, so we'll actually load that instead.
 
 At their most basic, graphics/plots/charts (you can use these terms more-or-less interchangeably) provide a nice way to explore the patterns in data, such as the presence of *outliers*, *distributions* of individual variables, and *relationships* between groups of variables. Graphics are designed to emphasize the findings and insights you want your audience to understand. This does, however, require a balancing act. On the one hand, you want to highlight as many interesting findings as possible. On the other hand, you don't want to include so much information that it overwhelms your audience.
 
@@ -726,7 +726,7 @@ In order to create a barplot visualizing the distribution of the categorical var
 
 ### Avoid pie charts!
 
-One of the most common plots used to visualize the distribution of categorical data is the \index{pie charts} pie chart. While they may seem harmless enough, pie charts actually present a problem in that humans are unable to judge angles well. As Naomi Robbins (2013) describes in her book, *Creating More Effective Graphs* , we overestimate angles greater than 90 degrees and we underestimate angles less than 90 degrees. In other words, it is difficult for us to determine the relative size of one piece of the pie compared to another. 
+One of the most common plots used to visualize the distribution of categorical data is the \index{pie charts} pie chart. While they may seem harmless enough, pie charts actually present a problem in that humans are unable to judge angles well. As Naomi Robbins (2013) describes in her book, *Creating More Effective Graphs*, we overestimate angles greater than 90 degrees and we underestimate angles less than 90 degrees. In other words, it is difficult for us to determine the relative size of one piece of the pie compared to another. 
 
 Let's examine the same data used in our previous barplot of the number of flights departing NYC by airline in Figure \@ref(fig:flightsbar), but this time we will use a pie chart in Figure \@ref(fig:carrierpie). Try to answer the following questions:
 
