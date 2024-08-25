@@ -41,6 +41,7 @@ $$Mean = \frac{x_1 + x_2 + \cdots + x_n}{n}$$
 An important characteristic of any set of data is the variation in the data. In some data sets, the data values are concentrated closely near the mean; in other data sets, the data values are more widely spread out from the mean. The most common measure of variation, or spread, is the *standard deviation*. The standard deviation is a number that measures how far data values are from their mean.
 
 The standard deviation:
+
 * provides a numerical measure of the overall amount of variation in a data set, and
 * can be used to determine whether a particular data value is close to or far from the mean.
 
@@ -274,6 +275,6 @@ by_origin_monthly_incorrect
 
 What happened here is that the second `group_by(month)` overwrote the grouping structure meta-data of the earlier `group_by(origin)`, so that in the end we are only grouping by `month`. The lesson here is if you want to `group_by()` two or more variables, you should include all the variables at the same time in the same `group_by()` adding a comma between the variable names.
 
-# Conclusion
+## Conclusion
 
 When I first learned about grouping and summarizing variables in R, it seemed like a lot of work for benefits that weren't always clear. The more time I spend with these concepts, though, the easier they get, and the more valuable they become. These days, in fact, grouping and summarizing are one of the first things I do whenever I get a new dataset to work with. Descriptive statistics can be a great way to get a quick feel for your data, and these functions are helpful for calculating them!

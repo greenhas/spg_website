@@ -43,7 +43,7 @@ Now that we are equipped with skills for wrangling, tidying, and visualizing dat
 The fundamental premise of data modeling is to make explicit the relationship between:
 
 * an *outcome variable* $y$, also called a *dependent variable* or response variable, \index{variables!response / outcome / dependent} and
-* an *explanatory variable* $x$, also called a *predictor varialble*, an *independent variable*, or \index{variables!explanatory / predictor / independent} a covariate.
+* an *explanatory variable* $x$, also called a *predictor variable*, an *independent variable*, or \index{variables!explanatory / predictor / independent} a covariate.
 
 Another way to state this is using mathematical terminology: we will model the outcome variable $y$ "as a function" of the explanatory/predictor variable $x$. When I say "function" here, I'm no referring to functions in R like the `ggplot()` function, but rather as a mathematical function. 
 
@@ -68,7 +68,7 @@ Let's now begin with basic regression, \index{regression!basic} which refers to 
 
 ### Needed packages {-#reg-packages}
 
-Let's now load all the packages needed for this chapter (this assumes you've already installed them). In this chapter, we introduce some new packages:
+Let's now load all the packages needed for this chapter (this assumes you've already installed them). It's worth reviewing these packages in particular:
 
 1. The `tidyverse` "umbrella" package. Recall from our discussion in Section \@ref(tidyverse-package) that loading the `tidyverse` package by running `library(tidyverse)` loads the following commonly used data science packages all at once:
     + `ggplot2` for data visualization
@@ -111,8 +111,8 @@ Researchers at the University of Texas in Austin, Texas (UT Austin) tried to ans
 
 In this section, we'll keep things simple for now and try to explain differences in instructor teaching scores as a function of one numerical variable: the instructor's "beauty" score (we'll see how this score was determined shortly). Could it be that instructors with higher "beauty" scores also have higher teaching evaluations? Could it be instead that instructors with higher "beauty" scores tend to have lower teaching evaluations? Or could it be that there is no relationship between "beauty" score and teaching evaluations? We'll answer these questions by modeling the relationship between teaching scores and "beauty" scores using *simple linear regression* \index{regression!simple linear} where we have:
 
-1. A numerical outcome variable $y$ (the instructor's teaching score) and
-1. A single numerical explanatory variable $x$ (the instructor's "beauty" score).
+1. a numerical outcome variable $y$ (the instructor's teaching score) and
+1. a single numerical explanatory variable $x$ (the instructor's "beauty" score).
 
 ### Exploratory data analysis {#model1EDA}
 
@@ -157,6 +157,7 @@ An alternative way to look at the raw data values is by choosing a random sample
 evals_walkthrough %>%
   sample_n(size = 5)
 ```
+
 ```{r five-random-courses, echo=FALSE, purl=FALSE}
 evals_walkthrough %>%
   sample_n(5) %>%
@@ -187,6 +188,8 @@ Typing out all these summary statistic functions in `summarize()` would be long 
 ```{r eval=TRUE}
 evals_walkthrough %>% select(score, bty_avg) %>% skim()
 ```
+
+Note that I've prettified my output a bit here; yours ought to have the same values but look a bit different; don't be surprised if I continue to do this with future output!
 
 For the numerical variables teaching `score` and `bty_avg` it returns:
 
@@ -345,11 +348,11 @@ ggplot(evals_walkthrough, aes(x = bty_avg, y = score)) +
 
 The line in the resulting Figure \@ref(fig:numxplot3) is called a "regression line." The regression line \index{regression!line} is a visual summary of the relationship between two numerical variables, in our case the outcome variable `score` and the explanatory variable `bty_avg`. The positive slope of the blue line is consistent with our earlier observed correlation coefficient of `r cor_ch5` suggesting that there is a positive relationship between these two variables: as instructors have higher "beauty" scores, so also do they receive higher teaching evaluations. We'll see later, however, that while the correlation coefficient and the slope of a regression line always have the same sign (positive or negative), they typically do not have the same value.
 
-Furthermore, a regression line is "best-fitting" in that it minimizes some mathematical criteria. We present these mathematical criteria in Subsection \@ref(leastsquares), but we suggest you read this subsection only after first reading the rest of this section on regression with one numerical explanatory variable.
+Furthermore, a regression line is "best-fitting" in that it minimizes some mathematical criteria. We present these mathematical criteria in Subsection \@ref(leastsquares), but I suggest you read this subsection only after first reading the rest of this section on regression with one numerical explanatory variable.
 
 ### Simple linear regression {#model1table}
 
-You may recall from secondary/high school algebra that the equation of a line is $y = a + b\cdot x$. (Note that the $\cdot$ symbol is equivalent to the $\times$ "multiply by" mathematical symbol. I'll typically use the $\cdot$ symbol in the rest of this book as it is more succinct—it's also a helpful reminder that the sign for multiplication in R is `*`) It is defined by two coefficients $a$ and $b$. The intercept coefficient $a$ is the value of $y$ when $x = 0$. The slope coefficient $b$ for $x$ is the increase in $y$ for every increase of one in $x$. This is also called the "rise over run."
+You may recall from secondary/high school algebra that the equation of a line is $y = a + b\cdot x$. (Note that the $\cdot$ symbol is equivalent to the $\times$ "multiply by" mathematical symbol. I'll typically use the $\cdot$ symbol in the rest of this book as it is more succinct—it's also a helpful reminder that the sign for multiplication in R is `*`) It is defined by two coefficients: $a$ and $b$. The intercept coefficient $a$ is the value of $y$ when $x = 0$. The slope coefficient $b$ for $x$ is the increase in $y$ for every increase of one in $x$. This is also called the "rise over run."
 
 However, when defining a regression line like the regression line in Figure \@ref(fig:numxplot3), we tend to use slightly different notation: the equation of the regression line is $\widehat{y} = b_0 + b_1 \cdot x$ \index{regression!equation of a line}. The intercept coefficient is $b_0$, so $b_0$ is the value of $\widehat{y}$ when $x = 0$. The slope coefficient for $x$ is $b_1$, i.e., the increase in $\widehat{y}$ for every increase of one in $x$. Why do we put a "hat" on top of the $y$? It's a form of notation commonly used in regression to indicate that we have a \index{regression!fitted value} "fitted value," or the value of $y$ on the regression line for a given $x$ value. We'll discuss this more in the upcoming Subsection \@ref(model1points).
 
@@ -360,7 +363,6 @@ We can obtain the values of the intercept $b_0$ and the slope for `bty_avg` $b_1
 1. We first "fit" the linear regression model using the `lm()` function and save it in `score_model`.
 1. We get the regression table by applying the `get_regression_table()` \index{moderndive!get\_regression\_table()} function from the `moderndive` package to `score_model`.
 
-Note that I've prettified my output a bit here; yours ought to have the same values but look a bit different; don't be surprised if I continue to do this with future output!
 
 ```{r, eval=FALSE}
 # Fit regression model:
@@ -398,7 +400,7 @@ $$
 \end{aligned}
 $$
 
-The intercept $b_0$ = `r evals_line[1]` is the average teaching score $\widehat{y}$ = $\widehat{\text{score}}$ for those courses where the instructor had a "beauty" score `bty_avg` of 0. Or in graphical terms, it's where the line intersects the $y$ axis when $x$ = 0. Note, however, that while the \index{regression!equation of a line!intercept} intercept of the regression line has a mathematical interpretation, it has no *practical* interpretation here, since observing a `bty_avg` of 0 is impossible; it is the average of six panelists' "beauty" scores ranging from 1 to 10. Furthermore, looking at the scatterplot with the regression line in Figure \@ref(fig:numxplot3), no instructors had a "beauty" score anywhere near 0.
+The intercept $b_0$ = `r evals_line[1]` is the average teaching score $\widehat{y}$ = $\widehat{\text{score}}$ for those courses where the instructor had a "beauty" score `bty_avg` of 0. Or in graphical terms, it's where the line intersects the $y$ axis when $x$ = 0. Note, however, that while the \index{regression!equation of a line!intercept} intercept of the regression line has a mathematical interpretation, it has no *practical* interpretation here, since observing a `bty_avg` of 0 is impossible; it is the average of the "beauty" scores ranging from 1 to 10 assigned by six panelists. Furthermore, looking at the scatterplot with the regression line in Figure \@ref(fig:numxplot3), no instructors had a "beauty" score anywhere near 0.
 
 Of greater interest is the \index{regression!equation of a line!slope} slope $b_1$ = $b_{\text{bty}\_\text{avg}}$ for `bty_avg` of `r evals_line[2]`, as this summarizes the relationship between the teaching and "beauty" score variables. Note that the sign is positive, suggesting a positive relationship between these two variables, meaning teachers with higher "beauty" scores also tend to have higher teaching scores. Recall from earlier that the correlation coefficient is `r cor_ch5`. They both have the same positive sign, but have a different value. Recall further that the correlation's interpretation is the "strength of linear association". The \index{regression!interpretation of the slope} slope's interpretation is a little different:
 
@@ -704,13 +706,20 @@ It’s important to remember, however, that the solid lines in the middle of the
 
 Let's compute the median and mean life expectancy for each continent with a little more data wrangling and display the results in Table \@ref(tab:catxplot0).
 
-```{r, eval=TRUE}
+```{r, eval=FALSE}
 lifeExp_by_continent <- gapminder2007 %>%
   group_by(continent) %>%
   summarize(median = median(lifeExp), 
             mean = mean(lifeExp))
+lifeExp_by_continent
 ```
+
 ```{r catxplot0, echo=FALSE, purl=FALSE}
+lifeExp_by_continent <- gapminder2007 %>%
+  group_by(continent) %>%
+  summarize(median = median(lifeExp), 
+            mean = mean(lifeExp))
+
 lifeExp_by_continent %>%
   kable(
     digits = 3,
@@ -913,7 +922,7 @@ which is the mean life expectancy for Asian countries of `r mean_asia` years in 
 
 Let's generalize this idea a bit. If we fit a linear regression model using a categorical explanatory variable $x$ that has $k$ possible categories, the regression table will return an intercept and $k - 1$ "offsets." In our case, since there are $k = 5$ continents, the regression model returns an intercept corresponding to the baseline for comparison group of Africa and $k - 1 = 4$ offsets corresponding to the Americas, Asia, Europe, and Oceania.
 
-Understanding a regression table output when you're using a categorical explanatory variable is a topic those new to regression often struggle with. The only real remedy for these struggles is practice, practice, practice. However, once you equip yourselves with an understanding of how to create regression models using categorical explanatory variables, you'll be able to incorporate many new variables into your models, given the large amount of the world's data that is categorical. If you feel like you're still struggling at this point, however, we suggest you closely compare Tables \@ref(tab:continent-mean-life-expectancies) and \@ref(tab:catxplot4b) and note how you can compute all the values from one table using the values in the other.
+Understanding a regression table output when you're using a categorical explanatory variable is a topic those new to regression often struggle with. The only real remedy for these struggles is practice, practice, practice. However, once you equip yourselves with an understanding of how to create regression models using categorical explanatory variables, you'll be able to incorporate many new variables into your models, given the large amount of the world's data that is categorical. If you feel like you're still struggling at this point, however, I suggest you closely compare Tables \@ref(tab:continent-mean-life-expectancies) and \@ref(tab:catxplot4b) and note how you can compute all the values from one table using the values in the other.
 
 
 ### Observed/fitted values and residuals {#model2points}
@@ -1098,7 +1107,7 @@ regression_points %>%
   summarize(sum_of_squared_residuals = sum(squared_residuals))
 ```
 
-Any other straight line drawn in the figure would yield a sum of squared residuals greater than 132. This is a mathematically guaranteed fact that you can prove using calculus and linear algebra. That's why alternative names for the linear regression line are the *best-fitting line* and the *least-squares line*. Why do we square the residuals (i.e., the arrow lengths)? So that both positive and negative deviations of the same amount are treated equally. (That being said, while taking the absolute value of the residuals would also treat both positive and negative deviations of the same amount equally, squaring the residuals is used for reasons related to calculus: taking derivatives and minimizing functions. To learn more we suggest you consult a textbook on mathematical statistics.)
+Any other straight line drawn in the figure would yield a sum of squared residuals greater than 132. This is a mathematically guaranteed fact that you can prove using calculus and linear algebra. That's why alternative names for the linear regression line are the *best-fitting line* and the *least-squares line*. Why do we square the residuals (i.e., the arrow lengths)? So that both positive and negative deviations of the same amount are treated equally. (That being said, while taking the absolute value of the residuals would also treat both positive and negative deviations of the same amount equally, squaring the residuals is used for reasons related to calculus: taking derivatives and minimizing functions. To learn more I suggest you consult a textbook on mathematical statistics.)
 
 ### `get_regression_x()` functions {#underthehood}
 

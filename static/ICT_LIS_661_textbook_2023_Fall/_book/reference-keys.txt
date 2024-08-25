@@ -48,7 +48,7 @@ fig:summary-function
 fig:sum1
 fig:groupsummarize
 tab:five-random-courses
-tab:unnamed-chunk-114
+tab:unnamed-chunk-115
 fig:correlation1
 fig:guess-the-correlation
 fig:numxplot1
@@ -60,7 +60,7 @@ tab:instructor-21
 fig:numxplot4
 tab:regression-points-1
 tab:model2-data-preview
-tab:unnamed-chunk-129
+tab:unnamed-chunk-130
 fig:lifeExp2007hist
 fig:catxplot0b
 fig:catxplot1
@@ -75,9 +75,9 @@ tab:recall-table
 tab:regtable-broom
 tab:regpoints-augment
 tab:model4-data-preview
-tab:unnamed-chunk-149
+tab:unnamed-chunk-150
 fig:numxcatxplot1
-tab:unnamed-chunk-152
+tab:unnamed-chunk-153
 tab:regtable-interaction
 tab:interaction-summary
 fig:numxcatx-parallel
@@ -87,7 +87,7 @@ fig:numxcatx-comparison
 fig:fitted-values
 tab:model4-points-table
 tab:model3-data-preview
-tab:unnamed-chunk-164
+tab:unnamed-chunk-165
 tab:model3-correlation
 fig:2numxplot1
 fig:3D-scatterplot
@@ -354,6 +354,7 @@ the-importance-of-context
 conclusion-5
 references-5
 m5a-are-ethics-enough-in-data-science
+a-note-on-sources
 introduction-11
 ethics-vs.-politics
 why-politics
