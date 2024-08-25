@@ -34,7 +34,7 @@ set.seed(76)
 
 ## Introduction
 
-In this chapter, we continue our learning about *sampling* with some more hands-on examples. The concepts behind sampling form the basis of confidence intervals and hypothesis testing, which we'll cover in Chapters \@ref(confidence-intervals) and \@ref(hypothesis-testing). We will see that the tools that you learned in earlier walkthroughs, in particular on data visualization and data wrangling, will also play an important role in the development of your understanding. 
+In this chapter, we continue our learning about *sampling* with some more hands-on examples. The concepts behind sampling form the basis of confidence intervals and hypothesis testing, which we'll cover in Sections \@ref(confidence-intervals) and \@ref(hypothesis-testing). We will see that the tools that you learned in earlier walkthroughs, in particular on data visualization and data wrangling, will also play an important role in the development of your understanding. 
 
 ### Needed packages {-#sampling-packages}
 
@@ -145,7 +145,7 @@ Let's construct this same hand-drawn histogram in R using your data visualizatio
 tactile_prop_red
 ```
 
-Observe for each `group` that we have their names, the number of `red_balls` they obtained, and the corresponding proportion out of 50 balls that were red named `prop_red`. We also have a `replicate` variable enumerating each of the 33 groups. We chose this name because each row can be viewed as one instance of a replicated (in other words repeated) activity: using the shovel to remove 50 balls and computing the proportion of those balls that are red. 
+Observe for each `group` that we have their names, the number of `red_balls` they obtained, and the corresponding proportion out of 50 balls that were red named `prop_red`. We also have a `replicate` variable that provides a unique number for each of the 33 groups. Why is this called `replicate`? Well, each row can be viewed as one instance of a replicated (in other words repeated) activity: using the shovel to remove 50 balls and computing the proportion of those balls that are red. 
 
 Let's visualize the distribution of these 33 proportions using `geom_histogram()` with `binwidth = 0.05` in Figure \@ref(fig:samplingdistribution-tactile). This is a computerized and complete version of the partially completed hand-drawn histogram you saw in Figure \@ref(fig:sampling-exercise-5). Note that setting `boundary = 0.4` indicates that we want a binning scheme such that one of the bins' boundary is at 0.4. This helps us to more closely align this histogram with the hand-drawn histogram in Figure \@ref(fig:sampling-exercise-5).
 
@@ -266,7 +266,7 @@ virtual_shovel_perc_red <- virtual_shovel_prop_red * 100
 
 ```
 
-In other words, `r virtual_shovel_perc_red`% of this virtual sample's balls were red. Let's make this code a little more compact and succinct by combining the first `mutate()` and the `summarize()` as follows:
+In other words, `r virtual_shovel_perc_red`% of my virtual sample's balls were red (though, once again, yours is likely different). Let's make this code a little more compact and succinct by combining the first `mutate()` and the `summarize()` as follows:
 
 ```{r}
 virtual_shovel %>% 
@@ -318,7 +318,7 @@ virtual_histogram +
   )
 ``` 
 
-Observe that we occasionally obtained proportions red that are less than 30%. On the other hand, we occasionally  obtained proportions that are greater than 45%. However, the most frequently occurring proportions were between 35% and 40% (for 11 out of 33 samples). Why do we have these differences in proportions red? Because of *sampling variation*. 
+Observe that I occasionally obtained proportions red that are less than 30%. On the other hand, I occasionally obtained proportions that are greater than 45%. However, the most frequently occurring proportions were between 35% and 40% (for 11 out of 33 samples). Why do we have these differences in proportions red? Because of *sampling variation*. 
 
 Let's now compare our virtual results with our tactile results from the previous section in Figure \@ref(fig:tactile-vs-virtual). Observe that both histograms are somewhat similar in their center and variation, although not identical. These slight differences are again due to random sampling variation. Furthermore, observe that both distributions are somewhat bell-shaped.
 
@@ -956,7 +956,7 @@ Here's what is so surprising about the Central Limit Theorem: regardless of the 
 1. The sampling distribution of the point estimate is centered at the true population parameter 
 2. We have an estimate for how wide the sampling distribution of the point estimate is, given by the standard error (which we will discuss further in Chapter \@ref(confidence-intervals))
 
-What the Central Limit Theorem creates for us is a ladder between a *single* sample and the population. By the Central Limit Theorem, we can say that (1) our sample's point estimate is drawn from a normal distribution centered at the true population parameter and (2)that the width of that normal distribution is governed by the standard error of our point estimate. Relating this to our bowl, if we pull one sample and get the sample proportion of red balls $\widehat{p}$, this value of $\widehat{p}$ is drawn from the normal curve centered at the true population proportion of red balls $p$ with the computed standard error. 
+What the Central Limit Theorem creates for us is a ladder between a *single* sample and the population. By the Central Limit Theorem, we can say that (1) our sample's point estimate is drawn from a normal distribution centered at the true population parameter and (2) that the width of that normal distribution is governed by the standard error of our point estimate. Relating this to our bowl, if we pull one sample and get the sample proportion of red balls $\widehat{p}$, this value of $\widehat{p}$ is drawn from the normal curve centered at the true population proportion of red balls $p$ with the computed standard error. 
 
 <!--
 TODO: Maybe add synthetic datasets to the moderndive package so that students

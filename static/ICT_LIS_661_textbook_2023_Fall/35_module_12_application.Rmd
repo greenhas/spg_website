@@ -57,7 +57,7 @@ In doing so, what we did was construct *sampling distributions*. The motivation 
 
 We then tied these sampling exercises to terminology and mathematical notation related to sampling in Subsection \@ref(terminology-and-notation). Our *study population* was the large bowl with $N$ = `r nrow(bowl)` balls, while the *population parameter*, the unknown quantity of interest, was the population proportion $p$ of the bowl's balls that were red. Since performing a *census* would be expensive in terms of time and energy, we instead extracted a *sample* of size $n$ = `r n_balls_sample`. The *point estimate*, also known as a *sample statistic*, used to estimate $p$ was the sample proportion $\widehat{p}$ of these `r n_balls_sample` sampled balls that were red. Furthermore, since the sample was obtained at *random*, it can be considered as *unbiased* and *representative* of the population. Thus any results based on the sample could be *generalized* to the population. Therefore, the proportion of the shovel's balls that were red was a "good guess" of the proportion of the bowl's balls that are red. In other words, we used the sample to *infer* about the population.
 
-However, as described in Section \@ref(sampling-simulation), both the tactile and virtual sampling exercises are not what one would do in real life; this was merely an activity used to study the effects of sampling variation. In a real-life situation, we would not take `r n_virtual_resample` samples of size $n$, but rather take a *single* representative sample that's as large as possible. Additionally, we knew that the true proportion of the bowl's balls that were red was `r p_red*100`%. In a real-life situation, we will not know what this value is. Because if we did, then why would we take a sample to estimate it? 
+However, as described in Section \@ref(sampling-simulation), both the tactile and virtual sampling exercises are not what one would do in real life; this was merely an activity used to study the effects of sampling variation. In a real-life situation, we would not take `r n_virtual_resample` samples of size $n$, but rather take a *single* representative sample that's as large as possible. Additionally, we knew that the true proportion of the bowl's balls that were red was `r p_red*100`%. In a real-life situation, we will not know what this value is. If we did, why would we take a sample to estimate it? 
 
 ```{r echo=FALSE, purl=FALSE}
 # This code is used for dynamic non-static in-line text output purposes
@@ -299,7 +299,7 @@ resample_mean <- pennies_resample %>%
   summarize(mean_year = mean(year))
 ```
 
-We obtained a different mean year of `r resample_mean %>% pull(mean_year) %>% round(2)`. This variation is induced by the resampling *with replacement* we performed earlier.
+I obtained a different mean year of `r resample_mean %>% pull(mean_year) %>% round(2)`. This variation is induced by the resampling *with replacement* we performed earlier.
 
 ```{r echo=FALSE, purl=FALSE}
 # This code is used for dynamic non-static in-line text output purposes
@@ -786,7 +786,7 @@ Observe that the resulting data frame has `r (num_pennies * n_virtual_resample) 
 
 The variable `replicate` indicates which resample each row belongs to. So it has the value `1` `r num_pennies` times, the value `2` `r num_pennies` times, all the way through to the value `` `r n_virtual_resample` `` `r num_pennies` times. The default value of the `type` argument is `"bootstrap"` in this scenario, so if the last line was written as ``generate(reps = `r n_virtual_resample`)``, we'd obtain the same results. 
 
-**Comparing with original workflow**: Note that the steps of the `infer` workflow so far produce the same results as the original workflow using the `rep_sample_n()` function we saw earlier. In other words, the following two code chunks produce similar results:
+**Comparing with original workflow**: Note that the steps of the `infer` workflow so far produce the same results as the original workflow using the `rep_sample_n()` function we saw earlier. In other words, the following two code chunks produce similar results. (Please note that these chunks are not executable, so do not try to run them on your own—they are only here for demonstration).
 
 ```{r eval=FALSE, purl=FALSE}
 # infer workflow:                   # Original workflow:
@@ -831,7 +831,7 @@ bootstrap_distribution
 
 Observe that the resulting data frame has `r n_virtual_resample` rows and 2 columns corresponding to the `r n_virtual_resample` `replicate` values. It also has the mean year for each bootstrap resample saved in the variable `stat`. 
 
-**Comparing with original workflow**: You may have recognized at this point that the `calculate()` step in the `infer` workflow produces the same output as the `group_by() %>% summarize()` steps in the original workflow.
+**Comparing with original workflow**: You may have recognized at this point that the `calculate()` step in the `infer` workflow produces the same output as the `group_by() %>% summarize()` steps in the original workflow. (This is another demonstration-only code chunk!)
 
 ```{r eval=FALSE, purl=FALSE}
 # infer workflow:                   # Original workflow:
@@ -860,7 +860,7 @@ visualize(bootstrap_distribution) #+
 #  ggtitle("Simulation-Based Bootstrap Distribution")
 ```
 
-**Comparing with original workflow**: In fact, `visualize()` is a *wrapper function* for the `ggplot()` function that uses a `geom_histogram()` layer. Recall that we illustrated the concept of a wrapper function in Subsection \@ref(model1table).
+**Comparing with original workflow**: In fact, `visualize()` is a *wrapper function* for the `ggplot()` function that uses a `geom_histogram()` layer. Recall that we illustrated the concept of a wrapper function in Subsection \@ref(model1table). (This is some more code you should not run on your own.)
 
 ```{r eval=FALSE, purl=FALSE}
 # infer workflow:                    # Original workflow:
@@ -1001,7 +1001,7 @@ n_friend_groups <- 33L
 
 In this case, we *know* what the value of the population parameter is: we know that the population proportion $p$ is `r p_red`. In other words, we know that `r p_red*100`% of the bowl's balls are red. 
 
-As we stated in Subsection \@ref(moral-of-the-story), the sampling bowl exercise doesn't really reflect how sampling is done in real life, but rather was an *idealized* activity. In real life, we won't know what the true value of the population parameter is, hence the need for estimation.
+As we covered in Subsection \@ref(moral-of-the-story), the sampling bowl exercise doesn't really reflect how sampling is done in real life, but rather was an *idealized* activity. In real life, we won't know what the true value of the population parameter is, hence the need for estimation.
 
 Let's now construct confidence intervals for $p$ using our `r n_friend_groups` groups of friends' samples from the bowl in Chapter \@ref(sampling). We'll then see if the confidence intervals "captured" the true value of $p$, which we know to be `r p_red * 100`%. That is to say, "Did the net capture the fish?".
 
