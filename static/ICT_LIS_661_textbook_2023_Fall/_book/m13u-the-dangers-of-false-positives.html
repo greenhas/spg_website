@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>20 M6A: Wrangling and Tidying Data | Introduction to Data Science</title>
-  <meta name="description" content="20 M6A: Wrangling and Tidying Data | Introduction to Data Science" />
+  <title>40 M13U: The Dangers of False Positives | Introduction to Data Science</title>
+  <meta name="description" content="40 M13U: The Dangers of False Positives | Introduction to Data Science" />
   <meta name="generator" content="bookdown 0.37 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="20 M6A: Wrangling and Tidying Data | Introduction to Data Science" />
+  <meta property="og:title" content="40 M13U: The Dangers of False Positives | Introduction to Data Science" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="20 M6A: Wrangling and Tidying Data | Introduction to Data Science" />
+  <meta name="twitter:title" content="40 M13U: The Dangers of False Positives | Introduction to Data Science" />
   
   
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="m6u-unicorns-janitors-and-rock-stars.html"/>
-<link rel="next" href="m6c-practice-wrangling-and-tidying-your-own-data.html"/>
+<link rel="prev" href="m12c-explore-confidence-intervals-with-your-own-data.html"/>
+<link rel="next" href="hypothesis-testing.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -783,770 +783,67 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="wrangling-tidying" class="section level1 hasAnchor" number="20">
-<h1><span class="header-section-number">20</span> M6A: Wrangling and Tidying Data<a href="wrangling-tidying.html#wrangling-tidying" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>This content draws on material from <em><a href="https://moderndive.com/">Statistical Inference via Data Science: A ModernDive into R and the Tidyverse</a></em> by <a href="https://chester.rbind.io/">Chester Ismay</a> and <a href="https://rudeboybert.rbind.io/">Albert Y. Kim</a>, licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
-<p>Changes to the source material include addition of new material; light editing; rearranging, removing, and combining original material; adding and changing links; and adding first-person language from current author.</p>
-<p>The resulting content is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.</p>
-<div id="introduction-13" class="section level2 hasAnchor" number="20.1">
-<h2><span class="header-section-number">20.1</span> Introduction<a href="wrangling-tidying.html#introduction-13" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Two weeks ago, we learned about importing a dataset into R. However, sometimes the dataset that we’ve found isn’t precisely the data that we need. In this walkthrough, we’ll practice <em>wrangling</em> data and <em>tidying</em> data—two skills that help us transform the data we have into the data we want.</p>
-</div>
-<div id="wrangling" class="section level2 hasAnchor" number="20.2">
-<h2><span class="header-section-number">20.2</span> Wrangling<a href="wrangling-tidying.html#wrangling" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>In this section, we’ll cover a series of functions from the <code>dplyr</code> package for data wrangling that will allow you to take a data frame and “wrangle” it (transform it) to suit your needs. Such functions include:</p>
-<ol style="list-style-type: decimal">
-<li><code>filter()</code> a data frame’s existing rows to only pick out a subset of them.</li>
-<li><code>mutate()</code> its existing columns/variables to create new ones. For example, convert hourly temperature recordings from degrees Fahrenheit to degrees Celsius.</li>
-<li><code>arrange()</code> its rows. For example, sort rows of a dataframe in ascending or descending order of a particular variable.</li>
-<li><code>select()</code> a data frame’s existing columns to only pick out a subset of them.</li>
-<li><code>rename()</code> the columns of a data frame.</li>
-<li>return the <code>top_n()</code> values of a particular variable.</li>
-</ol>
-<p>Notice how I’ve used <code>computer_code</code> font to describe the actions we want to take on our data frames. This is because the <code>dplyr</code> package for data wrangling has intuitively verb-named functions that are easy to remember.</p>
-<p>There is a further benefit to learning to use the <code>dplyr</code> package for data wrangling: its similarity to the database querying language <a href="https://en.wikipedia.org/wiki/SQL">SQL</a> (pronounced “sequel” or spelled out as “S”, “Q”, “L”). SQL (which stands for “Structured Query Language”) is used to manage large databases quickly and efficiently and is widely used by many institutions with a lot of data. While SQL is a topic left for a book or a course on database management, keep in mind that once you learn <code>dplyr</code>, you can learn SQL more easily.</p>
-<div id="wrangling-packages" class="section level3 unnumbered hasAnchor">
-<h3>Needed packages<a href="wrangling-tidying.html#wrangling-packages" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Let’s load all the packages needed for our wrangling practice (this assumes you’ve already installed them). If needed, read Section <a href="getting-started.html#packages">8.4</a> for information on how to install and load R packages.</p>
-<div class="sourceCode" id="cb46"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb46-1"><a href="wrangling-tidying.html#cb46-1" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
-<span id="cb46-2"><a href="wrangling-tidying.html#cb46-2" tabindex="-1"></a><span class="fu">library</span>(nycflights13)</span></code></pre></div>
-</div>
-<div id="piping" class="section level3 hasAnchor" number="20.2.1">
-<h3><span class="header-section-number">20.2.1</span> The pipe operator: <code>%&gt;%</code><a href="wrangling-tidying.html#piping" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Before we start data wrangling, let’s first introduce a nifty tool that gets loaded with the <code>dplyr</code> package: the pipe operator <code>%&gt;%</code>. The pipe operator allows us to combine multiple operations in R into a single sequential <em>chain</em> of actions.</p>
-<p>Let’s start with a hypothetical example. (Because this is a hypothetical example, please note that you do not need to—and cannot really—execute the dummy code in this section.) Say you would like to perform a hypothetical sequence of operations on a hypothetical data frame <code>x</code> using hypothetical functions <code>f()</code>, <code>g()</code>, and <code>h()</code>:</p>
-<ol style="list-style-type: decimal">
-<li>Take <code>x</code> <em>then</em></li>
-<li>Use <code>x</code> as an input to a function <code>f()</code> <em>then</em></li>
-<li>Use the output of <code>f(x)</code> as an input to a function <code>g()</code> <em>then</em></li>
-<li>Use the output of <code>g(f(x))</code> as an input to a function <code>h()</code></li>
-</ol>
-<p>One way to achieve this sequence of operations is by using nesting parentheses as follows:</p>
-<div class="sourceCode" id="cb47"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb47-1"><a href="wrangling-tidying.html#cb47-1" tabindex="-1"></a><span class="fu">h</span>(<span class="fu">g</span>(<span class="fu">f</span>(x)))</span></code></pre></div>
-<p>This code isn’t so hard to read since we are applying only three functions: <code>f()</code>, then <code>g()</code>, then <code>h()</code>; furthermore, each of these functions has a short name—and only has one argument. However, you can imagine that this will get progressively harder to read as the number of functions applied in your sequence increases and the arguments in each function increase as well.</p>
-<p>This is where the pipe operator <code>%&gt;%</code> comes in handy. <code>%&gt;%</code> takes the output of one function and then “pipes” it to be the input of the next function. With this in mind, one helpful trick is to read <code>%&gt;%</code> as “then” or “and then.” For example, you can obtain the same output as the hypothetical sequence of functions as follows:</p>
-<div class="sourceCode" id="cb48"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb48-1"><a href="wrangling-tidying.html#cb48-1" tabindex="-1"></a>x <span class="sc">%&gt;%</span> </span>
-<span id="cb48-2"><a href="wrangling-tidying.html#cb48-2" tabindex="-1"></a>  <span class="fu">f</span>() <span class="sc">%&gt;%</span> </span>
-<span id="cb48-3"><a href="wrangling-tidying.html#cb48-3" tabindex="-1"></a>  <span class="fu">g</span>() <span class="sc">%&gt;%</span> </span>
-<span id="cb48-4"><a href="wrangling-tidying.html#cb48-4" tabindex="-1"></a>  <span class="fu">h</span>()</span></code></pre></div>
-<p>You would read this sequence as:</p>
-<ol style="list-style-type: decimal">
-<li>Take <code>x</code> <em>then</em></li>
-<li>Use this output as the input to the next function <code>f()</code> <em>then</em></li>
-<li>Use this output as the input to the next function <code>g()</code> <em>then</em></li>
-<li>Use this output as the input to the next function <code>h()</code></li>
-</ol>
-<p>While both approaches (nested parentheses and pipes) achieve the same goal, the latter is much more human-readable because you can clearly read the sequence of operations line-by-line. But what are the hypothetical <code>x</code>, <code>f()</code>, <code>g()</code>, and <code>h()</code>? Throughout this walkthrough on data wrangling:</p>
-<ol style="list-style-type: decimal">
-<li>The starting value <code>x</code> will be a data frame. For example, the <code>flights</code> data frame we explored in Section <a href="getting-started.html#nycflights13">8.5</a>.</li>
-<li>The sequence of functions, here <code>f()</code>, <code>g()</code>, and <code>h()</code>, will mostly be a sequence of any number of the data wrangling verb-named functions we listed in the introduction to this walkthrough</li>
-<li>The result will be the transformed/modified data frame that you want.</li>
-</ol>
-</div>
-<div id="filter" class="section level3 hasAnchor" number="20.2.2">
-<h3><span class="header-section-number">20.2.2</span> <code>filter</code> rows<a href="wrangling-tidying.html#filter" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:filter"></span>
-<img src="images/cheatsheets/filter.png" alt="Diagram of filter() rows operation." width="\textwidth" />
-<p class="caption">
-Figure 20.1: Diagram of filter() rows operation.
-</p>
-</div>
-<p>The <code>filter()</code> function here works much like the “Filter” option in Microsoft Excel; it allows you to specify criteria about the values of a variable in your dataset and then filter out only the rows that match that criteria.</p>
-<p>Let’s see what I mean by taking the <code>flights</code> dataset that we’ve used in the past and turning it into a slimmer dataset that includes only flights from New York City to Portland, Oregon. The <code>dest</code> destination code (or airport code) for Portland, Oregon is <code>"PDX"</code>. Run the following and look at the results in RStudio’s spreadsheet viewer to ensure that only flights heading to Portland are chosen here:</p>
-<div class="sourceCode" id="cb49"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb49-1"><a href="wrangling-tidying.html#cb49-1" tabindex="-1"></a>portland_flights <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
-<span id="cb49-2"><a href="wrangling-tidying.html#cb49-2" tabindex="-1"></a>  <span class="fu">filter</span>(dest <span class="sc">==</span> <span class="st">&quot;PDX&quot;</span>)</span>
-<span id="cb49-3"><a href="wrangling-tidying.html#cb49-3" tabindex="-1"></a><span class="fu">View</span>(portland_flights)</span></code></pre></div>
-<p>Note the order of the code. First, take the <code>flights</code> data frame <em>then</em> <code>filter()</code> the data frame so that only those where the <code>dest</code> equals <code>"PDX"</code> are included. We test for equality using the double equal sign <code>==</code> and not a single equal sign <code>=</code>. Trying to run <code>filter(dest = "PDX")</code> will yield an error. This is a convention across many programming languages, but if you are new to coding, you’ll probably forget to use the double equal sign <code>==</code> a few times before you get the hang of it. (To be honest, it’s taken me more than a few times to get into this habit!)</p>
-<p>You can use other operators beyond just the <code>==</code> operator that tests for equality:</p>
+<div id="m13u-the-dangers-of-false-positives" class="section level1 hasAnchor" number="40">
+<h1><span class="header-section-number">40</span> M13U: The Dangers of False Positives<a href="m13u-the-dangers-of-false-positives.html#m13u-the-dangers-of-false-positives" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This chapter draws on material from:</p>
 <ul>
-<li><code>&gt;</code> corresponds to “greater than”</li>
-<li><code>&lt;</code> corresponds to “less than”</li>
-<li><code>&gt;=</code> corresponds to “greater than or equal to”</li>
-<li><code>&lt;=</code> corresponds to “less than or equal to”</li>
-<li><code>!=</code> corresponds to “not equal to.” The <code>!</code> is used in many programming languages to indicate “not”</li>
+<li><a href="https://www.eff.org/deeplinks/2021/04/proctoring-tools-and-dragnet-investigations-rob-students-due-process">Proctoring Tools and Dragnet Investigations Rob Students of Due Process</a>, by <a href="https://www.eff.org/about/staff/jason-kelley">Jason Kelley</a>, <a href="https://www.eff.org/about/staff/william-budington">Bill Budington</a>, and <a href="https://www.eff.org/about/staff/sophia-cope">Sophia Cope</a>, licensed under <a href="https://creativecommons.org/licenses/by/3.0/us/">CC BY 3.0</a></li>
+<li><a href="https://www.eff.org/deeplinks/2021/04/proctoring-tools-and-dragnet-investigations-rob-students-due-process">Canvas and other Online Learning Platforms Aren’t Perfect—Just Ask Students</a>, by <a href="https://www.eff.org/about/staff/jason-kelley">Jason Kelley</a>, licensed under <a href="https://creativecommons.org/licenses/by/3.0/us/">CC BY 3.0</a></li>
+<li><a href="https://www.eff.org/deeplinks/2021/08/company-behind-online-learning-platform-canvas-should-commit-transparency-due">The Company Behind Online Learning Platform Canvas Should Commit to Transparency, Due Process for Students</a>, by <a href="https://www.eff.org/about/staff/william-budington">Bill Budington</a>, licensed under <a href="https://creativecommons.org/licenses/by/3.0/us/">CC BY 3.0</a></li>
 </ul>
-<p>Furthermore, you can combine multiple criteria using operators that make comparisons:</p>
-<ul>
-<li><code>|</code> corresponds to “or”</li>
-<li><code>&amp;</code> corresponds to “and”</li>
-</ul>
-<p>To see many of these in action, let’s filter <code>flights</code> for all rows that departed from JFK <em>and</em> were heading to Burlington, Vermont (<code>"BTV"</code>) or Seattle, Washington (<code>"SEA"</code>) <em>and</em> departed in the months of October, November, or December. Run the following:</p>
-<div class="sourceCode" id="cb50"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb50-1"><a href="wrangling-tidying.html#cb50-1" tabindex="-1"></a>btv_sea_flights_fall <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
-<span id="cb50-2"><a href="wrangling-tidying.html#cb50-2" tabindex="-1"></a>  <span class="fu">filter</span>(origin <span class="sc">==</span> <span class="st">&quot;JFK&quot;</span> <span class="sc">&amp;</span> (dest <span class="sc">==</span> <span class="st">&quot;BTV&quot;</span> <span class="sc">|</span> dest <span class="sc">==</span> <span class="st">&quot;SEA&quot;</span>) <span class="sc">&amp;</span> month <span class="sc">&gt;=</span> <span class="dv">10</span>)</span>
-<span id="cb50-3"><a href="wrangling-tidying.html#cb50-3" tabindex="-1"></a><span class="fu">View</span>(btv_sea_flights_fall)</span></code></pre></div>
-<p>Note that even though we might say “all flights leaving Burlington, Vermont <em>and</em> Seattle, Washington” to another human, for a computer to understand, we have to specify that we really mean “all flights leaving Burlington, Vermont <em>or</em> leaving Seattle, Washington.” For a given row in the data, <code>dest</code> can be <code>"BTV"</code>, or <code>"SEA"</code>, or something else, but not both <code>"BTV"</code> and <code>"SEA"</code> at the same time. Furthermore, note the careful use of parentheses around <code>dest == "BTV" | dest == "SEA"</code>.</p>
-<p>We can often skip the use of <code>&amp;</code> and just separate our conditions with a comma. The previous code will return the identical output <code>btv_sea_flights_fall</code> as the following code:</p>
-<div class="sourceCode" id="cb51"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb51-1"><a href="wrangling-tidying.html#cb51-1" tabindex="-1"></a>btv_sea_flights_fall <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
-<span id="cb51-2"><a href="wrangling-tidying.html#cb51-2" tabindex="-1"></a>  <span class="fu">filter</span>(origin <span class="sc">==</span> <span class="st">&quot;JFK&quot;</span>, (dest <span class="sc">==</span> <span class="st">&quot;BTV&quot;</span> <span class="sc">|</span> dest <span class="sc">==</span> <span class="st">&quot;SEA&quot;</span>), month <span class="sc">&gt;=</span> <span class="dv">10</span>)</span>
-<span id="cb51-3"><a href="wrangling-tidying.html#cb51-3" tabindex="-1"></a><span class="fu">View</span>(btv_sea_flights_fall)</span></code></pre></div>
-<p>Let’s present another example that uses the <code>!</code> “not” operator to pick rows that <em>don’t</em> match a criteria. As mentioned earlier, the <code>!</code> can be read as “not.” Here we are filtering rows corresponding to flights that didn’t go to Burlington, VT or Seattle, WA.</p>
-<div class="sourceCode" id="cb52"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb52-1"><a href="wrangling-tidying.html#cb52-1" tabindex="-1"></a>not_BTV_SEA <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
-<span id="cb52-2"><a href="wrangling-tidying.html#cb52-2" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span>(dest <span class="sc">==</span> <span class="st">&quot;BTV&quot;</span> <span class="sc">|</span> dest <span class="sc">==</span> <span class="st">&quot;SEA&quot;</span>))</span>
-<span id="cb52-3"><a href="wrangling-tidying.html#cb52-3" tabindex="-1"></a><span class="fu">View</span>(not_BTV_SEA)</span></code></pre></div>
-<p>Again, note the careful use of parentheses around the <code>(dest == "BTV" | dest == "SEA")</code>. If we didn’t use parentheses, like with the following code:</p>
-<div class="sourceCode" id="cb53"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb53-1"><a href="wrangling-tidying.html#cb53-1" tabindex="-1"></a>flights <span class="sc">%&gt;%</span> <span class="fu">filter</span>(<span class="sc">!</span>dest <span class="sc">==</span> <span class="st">&quot;BTV&quot;</span> <span class="sc">|</span> dest <span class="sc">==</span> <span class="st">&quot;SEA&quot;</span>)</span></code></pre></div>
-<p>We would be returning all flights not headed to <code>"BTV"</code> <em>or</em> those headed to <code>"SEA"</code>, which is an entirely different resulting data frame.</p>
-<p>Now say we have a larger number of airports we want to filter for, say <code>"SEA"</code>, <code>"SFO"</code>, <code>"PDX"</code>, <code>"BTV"</code>, and <code>"BDL"</code>. We could continue to use the <code>|</code> (<em>or</em>) operator:</p>
-<div class="sourceCode" id="cb54"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb54-1"><a href="wrangling-tidying.html#cb54-1" tabindex="-1"></a>many_airports <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
-<span id="cb54-2"><a href="wrangling-tidying.html#cb54-2" tabindex="-1"></a>  <span class="fu">filter</span>(dest <span class="sc">==</span> <span class="st">&quot;SEA&quot;</span> <span class="sc">|</span> dest <span class="sc">==</span> <span class="st">&quot;SFO&quot;</span> <span class="sc">|</span> dest <span class="sc">==</span> <span class="st">&quot;PDX&quot;</span> <span class="sc">|</span> </span>
-<span id="cb54-3"><a href="wrangling-tidying.html#cb54-3" tabindex="-1"></a>         dest <span class="sc">==</span> <span class="st">&quot;BTV&quot;</span> <span class="sc">|</span> dest <span class="sc">==</span> <span class="st">&quot;BDL&quot;</span>)</span></code></pre></div>
-<p>but as we progressively include more airports, this will get unwieldy to write. A slightly shorter approach uses the <code>%in%</code> operator along with the <code>c()</code> function. Recall from Subsection <a href="getting-started.html#programming-concepts">8.3.1</a> that the <code>c()</code> function “combines” or “concatenates” values into a single <em>vector</em> of values. </p>
-<div class="sourceCode" id="cb55"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb55-1"><a href="wrangling-tidying.html#cb55-1" tabindex="-1"></a>many_airports <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
-<span id="cb55-2"><a href="wrangling-tidying.html#cb55-2" tabindex="-1"></a>  <span class="fu">filter</span>(dest <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">&quot;SEA&quot;</span>, <span class="st">&quot;SFO&quot;</span>, <span class="st">&quot;PDX&quot;</span>, <span class="st">&quot;BTV&quot;</span>, <span class="st">&quot;BDL&quot;</span>))</span>
-<span id="cb55-3"><a href="wrangling-tidying.html#cb55-3" tabindex="-1"></a><span class="fu">View</span>(many_airports)</span></code></pre></div>
-<p>What this code is doing is filtering <code>flights</code> for all flights where <code>dest</code> is in the vector of airports <code>c("BTV", "SEA", "PDX", "SFO", "BDL")</code>. Both outputs of <code>many_airports</code> are the same, but as you can see the latter takes much less energy to code. The <code>%in%</code> operator is useful for looking for matches commonly in one vector/variable compared to another.</p>
-<p>As a final note, we recommend that <code>filter()</code> should often be among the first verbs you consider applying to your data. This cleans your dataset to only those rows you care about, or put differently, it narrows down the scope of your data frame to just the observations you care about.</p>
+<p>Changes to the source material include removal of original material, the addition of new material, combining of sources, and editing of original material for a different audience.</p>
+<p>The resulting content is licensed under licensed under <a href="https://creativecommons.org/licenses/by/4.0/us/">CC BY 4.0</a>.</p>
+<div id="introduction-26" class="section level2 hasAnchor" number="40.1">
+<h2><span class="header-section-number">40.1</span> Introduction<a href="m13u-the-dangers-of-false-positives.html#introduction-26" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Tools like confidence intervals and hypothesis testing are critical for work involving inferential statistics. They acknowledge that there’s always ambiguity in the data but give us some mathematical tools for making the most of the data that we do have. However, it’s very important that we don’t turn “making the most” into absolute confidence. Confidence intervals help us narrow in on an expected statistical range with which to make judgments, but as we discussed last week, they rely on assumptions about what is “normal” that may not hold up. Likewise, hypothesis testing helps us quantify the possibility of being wrong about new assumptions that we want to adopt; however, their very existence also acknowledges the possibility of wrongly adopting those assumptions.</p>
+<p>Later this week, you’ll read about Type I errors, when we reject a null hypothesis (a term we’ll read more about shortly) even though that hypothesis is actually true. Another name for the Type I error is the <em>false positive</em>. For example, if I take a COVID-19 rapid test, the null hypothesis is that I don’t have COVID-19. While COVID-19 testing is important, generally trustworthy, and really helpful, it isn’t perfect. There’s always the possibility that the test will reject the null hypothesis (that I don’t have COVID-19) and lead me to believe that I’m sick when in reality, I’m actually perfectly healthy. Of course, in the case of COVID-19, what’s more dangerous is a <em>false negative</em>—when a test doesn’t find evidence to reject the null hypothesis but, in fact, the test-taker is actually COVID-positive.</p>
+<p>False positives can crop up in many applications of data science, and they also serve as a helpful metaphor for other ways that we can read too much into our data. In this chapter, we’ll read about ways that educators can read too much into educational data (including data provided by platforms like Canvas!) and come to wrong conclusions. This is not a literal case of false positives, but the story remains an important reminder that we need to be humble and cautious about trusting data!</p>
 </div>
-<div id="mutate" class="section level3 hasAnchor" number="20.2.3">
-<h3><span class="header-section-number">20.2.3</span> <code>mutate</code> existing variables<a href="wrangling-tidying.html#mutate" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:select"></span>
-<img src="images/cheatsheets/mutate.png" alt="Diagram of mutate() columns." width="80%" height="80%" />
-<p class="caption">
-Figure 20.2: Diagram of mutate() columns.
-</p>
+<div id="the-dartmouth-cheating-scandal" class="section level2 hasAnchor" number="40.2">
+<h2><span class="header-section-number">40.2</span> The Dartmouth Cheating Scandal<a href="m13u-the-dangers-of-false-positives.html#the-dartmouth-cheating-scandal" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Like many schools, Dartmouth College has increasingly turned to technology to monitor students taking exams at home—this was especially true during the worst of the COVID-19 pandemic. While many universities have used proctoring tools that purport to help educators prevent cheating, Dartmouth’s Geisel School of Medicine went dangerously further in 2021. Apparently working under an assumption of guilt, the university launched a dragnet investigation of complicated system logs, searching for data that might reveal student misconduct, without a clear understanding of how those logs can be littered with false positives. Worse still, those attempting to assert their rights have been met with a university administration willing to trust opaque investigations of inconclusive data sets more than their own students.</p>
+<p><a href="https://www.bostonglobe.com/2021/04/15/metro/cheating-allegations-chill-students-dartmouth-medical-school/">The Boston Globe</a> explained that the medical school administration’s attempts to detect supposed cheating became a flashpoint on campus, exemplifying a worrying trend of schools prioritizing misleading data over the word of their students. The misguided dragnet investigation has cast a shadow over the career aspirations of over twenty medical students.</p>
 </div>
-<p>Another common transformation of data is to create/compute new variables based on existing ones. For example, say you are more comfortable thinking of temperature in degrees Celsius (°C) instead of degrees Fahrenheit (°F). The formula to convert temperatures from °F to °C is</p>
-<p><span class="math display">\[
-\text{temp in C} = \frac{\text{temp in F} - 32}{1.8}
-\]</span></p>
-<p>We can apply this formula to the <code>temp</code> variable using the <code>mutate()</code> function from the <code>dplyr</code> package, which takes existing variables and mutates them to create new ones.</p>
-<div class="sourceCode" id="cb56"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb56-1"><a href="wrangling-tidying.html#cb56-1" tabindex="-1"></a>weather <span class="ot">&lt;-</span> weather <span class="sc">%&gt;%</span> </span>
-<span id="cb56-2"><a href="wrangling-tidying.html#cb56-2" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">temp_in_C =</span> (temp <span class="sc">-</span> <span class="dv">32</span>) <span class="sc">/</span> <span class="fl">1.8</span>)</span></code></pre></div>
-<p>In this code, we <code>mutate()</code> the <code>weather</code> data frame by creating a new variable <code>temp_in_C = (temp - 32) / 1.8</code> and then <em>overwrite</em> the original <code>weather</code> data frame. Why did we overwrite the data frame <code>weather</code>, instead of assigning the result to a new data frame like <code>weather_new</code>? As a rough rule of thumb, as long as you are not losing original information that you might need later, it’s acceptable practice to overwrite existing data frames with updated ones, as we did here. On the other hand, why did we not overwrite the variable <code>temp</code>, but instead created a new variable called <code>temp_in_C</code>? Because if we did this, we would have erased the original information contained in <code>temp</code> of temperatures in Fahrenheit that may still be valuable to us.</p>
-<p>Let’s consider another example. Passengers are often frustrated when their flight departs late, but aren’t as annoyed if, in the end, pilots can make up some time during the flight. This is known in the airline industry as <em>gain</em>, and we will create this variable using the <code>mutate()</code> function:</p>
-<div class="sourceCode" id="cb57"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb57-1"><a href="wrangling-tidying.html#cb57-1" tabindex="-1"></a>flights <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
-<span id="cb57-2"><a href="wrangling-tidying.html#cb57-2" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">gain =</span> dep_delay <span class="sc">-</span> arr_delay)</span></code></pre></div>
-<p>Let’s take a look at only the <code>dep_delay</code>, <code>arr_delay</code>, and the resulting <code>gain</code> variables for the first 5 rows in our updated <code>flights</code> data frame in Table <a href="wrangling-tidying.html#tab:first-five-flights">20.1</a>.</p>
-<table class="table" style="color: black; margin-left: auto; margin-right: auto;">
-<caption>
-<span id="tab:first-five-flights">Table 20.1: </span><span id="tab:first-five-flights">Table 20.2: </span>First five rows of departure/arrival delay and gain variables
-</caption>
-<thead>
-<tr>
-<th style="text-align:right;">
-dep_delay
-</th>
-<th style="text-align:right;">
-arr_delay
-</th>
-<th style="text-align:right;">
-gain
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:right;">
-2
-</td>
-<td style="text-align:right;">
-11
-</td>
-<td style="text-align:right;">
--9
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-4
-</td>
-<td style="text-align:right;">
-20
-</td>
-<td style="text-align:right;">
--16
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
-2
-</td>
-<td style="text-align:right;">
-33
-</td>
-<td style="text-align:right;">
--31
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
--1
-</td>
-<td style="text-align:right;">
--18
-</td>
-<td style="text-align:right;">
-17
-</td>
-</tr>
-<tr>
-<td style="text-align:right;">
--6
-</td>
-<td style="text-align:right;">
--25
-</td>
-<td style="text-align:right;">
-19
-</td>
-</tr>
-</tbody>
-</table>
-<p>The flight in the first row departed 2 minutes late but arrived 11 minutes late, so its “gained time in the air” is a loss of 9 minutes, hence its <code>gain</code> is 2 - 11 = -9. On the other hand, the flight in the fourth row departed a minute early (<code>dep_delay</code> of -1) but arrived 18 minutes early (<code>arr_delay</code> of -18), so its “gained time in the air” is <span class="math inline">\(-1 - (-18) = -1 + 18 = 17\)</span> minutes, hence its <code>gain</code> is +17.</p>
-<p>To close out our discussion on the <code>mutate()</code> function to create new variables, note that we can create multiple new variables at once in the same <code>mutate()</code> code. Furthermore, within the same <code>mutate()</code> code we can refer to new variables we just created. As an example, consider the <code>mutate()</code> code Wickham and Grolemund (2017) show in <a href="https://r4ds.had.co.nz/transform.html">Chapter 5</a> of <em>R for Data Science</em>:</p>
-<div class="sourceCode" id="cb58"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb58-1"><a href="wrangling-tidying.html#cb58-1" tabindex="-1"></a>flights <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
-<span id="cb58-2"><a href="wrangling-tidying.html#cb58-2" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb58-3"><a href="wrangling-tidying.html#cb58-3" tabindex="-1"></a>    <span class="at">gain =</span> dep_delay <span class="sc">-</span> arr_delay,</span>
-<span id="cb58-4"><a href="wrangling-tidying.html#cb58-4" tabindex="-1"></a>    <span class="at">hours =</span> air_time <span class="sc">/</span> <span class="dv">60</span>,</span>
-<span id="cb58-5"><a href="wrangling-tidying.html#cb58-5" tabindex="-1"></a>    <span class="at">gain_per_hour =</span> gain <span class="sc">/</span> hours</span>
-<span id="cb58-6"><a href="wrangling-tidying.html#cb58-6" tabindex="-1"></a>  )</span></code></pre></div>
+<div id="what-was-wrong-with-dartmouths-investigation" class="section level2 hasAnchor" number="40.3">
+<h2><span class="header-section-number">40.3</span> What Was Wrong With Dartmouth’s Investigation<a href="m13u-the-dangers-of-false-positives.html#what-was-wrong-with-dartmouths-investigation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In March 2021, Dartmouth’s Committee on Student Performance and Conduct (CSPC) accused several students of accessing restricted materials online during exams. These accusations were based on a flawed review of an entire year’s worth of the students’ log data from Canvas, the online learning platform that contains class lectures and information. This broad search was instigated by a single incident of confirmed misconduct, according to a contentious town hall between administrators and students (the Electronic Frontier Foundation—or EFF—<a href="https://youtu.be/tI2VRDOsQtc">re-uploaded this town hall</a> after the original recording was put behind a Dartmouth login screen). These logs show traffic between students’ devices and specific files on Canvas, some of which contain class materials, such as lecture slides. At first glance, the logs showing that a student’s device connected to class files would appear incriminating: timestamps indicate the files were retrieved while students were taking exams.</p>
+<p>But after reviewing the logs sent to them by a student advocate, it became clear to the EFF that there was no way to determine whether this traffic happened intentionally (as a result of student action) or instead automatically (as background requests from student devices that were logged into Canvas but not in use). In other words, rather than the files being deliberately accessed during exams, the logs could have easily been generated by the automated syncing of course material to devices logged into Canvas but not used during an exam. It was simply impossible to know from the logs alone if a student intentionally accessed any of the files, or if the pings exist due to automatic refresh processes that are commonplace in most websites and online services. Most of us don’t log out of every app, service, or webpage on our smartphones when we’re not using them.</p>
+<p>Much like a cell phone pinging a tower, the logs showed files being pinged in short time periods and sometimes being accessed at the exact second that students are also entering information into the exam, suggesting a <a href="https://en.wikipedia.org/wiki/Ajax_(programming)">non-deliberate process</a>. The logs also reveal that the files accessed are largely irrelevant to the tests in question, also indicating an automated, random process. A UCLA statistician wrote a letter explaining that <a href="https://www.eff.org/document/statistical-fallacy-letter-geisel-school-medicine">even an automated process can result in multiple false-positive outcomes</a>. Canvas’s <a href="https://portal.inshosteddata.com/docs#requests">own documentation</a> explicitly states that the data in these logs “is meant to be used for rollups and analysis in the aggregate, <em>not</em> in isolation for auditing or other high-stakes analysis involving examining single users or small samples.” Given the technical realities of how these background refreshes take place, the log data alone should be nowhere near sufficient to convict a student of academic dishonesty.</p>
+<p>Along with The Foundation for Individual Rights in Education (FIRE), EFF sent a letter to the Dean of the Medical School on March 30th, <a href="https://www.eff.org/document/fire-and-eff-letter-dartmouth">explaining how these background connections work</a> and pointing out that the university has likely turned random correlations into accusations of misconduct. The Dean’s reply was that the cases are being reviewed fairly.</p>
+<p>The EFF disagreed, arguing that the administration was the victim of <a href="https://www.psychologytoday.com/us/blog/science-choice/201504/what-is-confirmation-bias">confirmation bias</a>, turning fallacious evidence of misconduct into accusations of cheating. The school <em>has</em> admitted in some cases that the log data appeared to have been created automatically, acquitting some students who pushed back. However, other students have been sanctioned, apparently entirely based on this spurious interpretation of the log data. Many others are anxiously waiting to hear whether they will be convicted so they can begin the appeal process, potentially with legal counsel.</p>
+<p>These convictions carry heavy weight, leaving permanent marks on student transcripts that could make it harder for them to enter residencies and complete their medical training. At this level of education, this is not just about being accused of cheating on a specific exam. Being convicted of academic dishonesty could derail an entire career.</p>
 </div>
-<div id="arrange" class="section level3 hasAnchor" number="20.2.4">
-<h3><span class="header-section-number">20.2.4</span> <code>arrange</code> and sort rows<a href="wrangling-tidying.html#arrange" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>One of the most commonly performed data wrangling tasks is to sort a data frame’s rows in the alphanumeric order of one of the variables. The <code>dplyr</code> package’s <code>arrange()</code> function allows us to sort/reorder a data frame’s rows according to the values of the specified variable.</p>
-<p>Suppose we are interested in determining the most frequent destination airports for all domestic flights departing from New York City in 2013:</p>
-<div class="sourceCode" id="cb59"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb59-1"><a href="wrangling-tidying.html#cb59-1" tabindex="-1"></a>freq_dest <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
-<span id="cb59-2"><a href="wrangling-tidying.html#cb59-2" tabindex="-1"></a>  <span class="fu">group_by</span>(dest) <span class="sc">%&gt;%</span> </span>
-<span id="cb59-3"><a href="wrangling-tidying.html#cb59-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">num_flights =</span> <span class="fu">n</span>())</span>
-<span id="cb59-4"><a href="wrangling-tidying.html#cb59-4" tabindex="-1"></a>freq_dest</span></code></pre></div>
-<pre><code># A tibble: 105 × 2
-   dest  num_flights
-   &lt;chr&gt;       &lt;int&gt;
- 1 ABQ           254
- 2 ACK           265
- 3 ALB           439
- 4 ANC             8
- 5 ATL         17215
- 6 AUS          2439
- 7 AVL           275
- 8 BDL           443
- 9 BGR           375
-10 BHM           297
-# ℹ 95 more rows</code></pre>
-<p>Observe that by default the rows of the resulting <code>freq_dest</code> data frame are sorted in alphabetical order of <code>dest</code>ination. Say instead we would like to see the same data, but sorted from the most to the least number of flights (<code>num_flights</code>) instead:</p>
-<div class="sourceCode" id="cb61"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb61-1"><a href="wrangling-tidying.html#cb61-1" tabindex="-1"></a>freq_dest <span class="sc">%&gt;%</span> </span>
-<span id="cb61-2"><a href="wrangling-tidying.html#cb61-2" tabindex="-1"></a>  <span class="fu">arrange</span>(num_flights)</span></code></pre></div>
-<pre><code># A tibble: 105 × 2
-   dest  num_flights
-   &lt;chr&gt;       &lt;int&gt;
- 1 LEX             1
- 2 LGA             1
- 3 ANC             8
- 4 SBN            10
- 5 HDN            15
- 6 MTJ            15
- 7 EYW            17
- 8 PSP            19
- 9 JAC            25
-10 BZN            36
-# ℹ 95 more rows</code></pre>
-<p>This is, however, the opposite of what we want. The rows are sorted with the least frequent destination airports displayed first. This is because <code>arrange()</code> always returns rows sorted in ascending order by default. To switch the ordering to be in “descending” order instead, we use the <code>desc()</code> function as so:</p>
-<div class="sourceCode" id="cb63"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb63-1"><a href="wrangling-tidying.html#cb63-1" tabindex="-1"></a>freq_dest <span class="sc">%&gt;%</span> </span>
-<span id="cb63-2"><a href="wrangling-tidying.html#cb63-2" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(num_flights))</span></code></pre></div>
-<pre><code># A tibble: 105 × 2
-   dest  num_flights
-   &lt;chr&gt;       &lt;int&gt;
- 1 ORD         17283
- 2 ATL         17215
- 3 LAX         16174
- 4 BOS         15508
- 5 MCO         14082
- 6 CLT         14064
- 7 SFO         13331
- 8 FLL         12055
- 9 MIA         11728
-10 DCA          9705
-# ℹ 95 more rows</code></pre>
+<div id="investigations-of-students-must-start-with-concrete-evidence" class="section level2 hasAnchor" number="40.4">
+<h2><span class="header-section-number">40.4</span> Investigations of Students Must Start With Concrete Evidence<a href="m13u-the-dangers-of-false-positives.html#investigations-of-students-must-start-with-concrete-evidence" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Though this investigation wasn’t the result of proctoring software, it was part and parcel of a larger problem: educators have used the pandemic as an excuse to comb for evidence of cheating in places that are far outside their technical expertise. Proctoring tools and investigations like this one flag students based on flawed metrics and misunderstandings of technical processes, rather than concrete evidence of misconduct.</p>
+<p>Proctoring software that assumes all students take tests the same way—for example, in rooms that they can control, their eyes straight ahead, fingers typing at a routine pace—puts a black mark on the record of students who operate outside the norm. One problem that has been <a href="https://cdt.org/insights/how-automated-test-proctoring-software-discriminates-against-disabled-students/">widely documented</a> with proctoring software is that students with disabilities (especially those with motor impairment) are consistently flagged as exhibiting suspicious behavior by software suites intended to detect cheating. Other proctoring software has flagged students for <a href="https://www.theverge.com/2020/4/29/21232777/examity-remote-test-proctoring-online-class-education">technical snafus</a> such as device crashes and Internet cuts out, as well as <em><a href="https://news.bloomberglaw.com/business-and-practice/few-fixes-made-to-february-remote-bar-exams-after-cheating-snafu">completely normal behavior</a></em> that could indicate misconduct if you squint hard enough.</p>
+<p>Throughout the pandemic, far too many schools ignored legitimate student concerns about inadequate, or overbroad, anti-cheating software. Across the country, thousands of students, <a href="https://www.edsurge.com/news/2020-12-17-2-000-parents-petition-mcgraw-hill-to-stop-using-remote-proctoring-tools-in-courseware">and some parents</a>, <a href="https://www.eff.org/deeplinks/2020/09/students-are-pushing-back-against-proctoring-surveillance-apps">have created petitions</a> against the use of proctoring tools, most of which (<a href="https://www.dailycal.org/2020/04/05/online-exam-proctoring-no-longer-allowed-for-uc-berkeley-classes/">though not all</a> have been <a href="https://thelinknewspaper.ca/article/students-say-concordias-continued-use-of-proctorio-infringes-upon-their-privacy">ignored</a>. Students taking the California and New York bar exams—as well as <a href="https://www.eff.org/deeplinks/2020/09/eff-tells-california-supreme-court-not-require-examsoft-bar-exam">several advocacy organizations</a> and <a href="https://www.abajournal.com/news/article/citing-fires-racism-and-technology-issues-california-law-deans-ask-for-open-book-bar-exam">a group of deans</a>—advocated against the use of proctoring tools for those exams. As expected, many of those students then experienced “<a href="https://www.abajournal.com/web/article/amid-claims-that-online-bar-exam-went-well-some-test-takers-have-a-different-view">significant software problems</a>” with the Examsoft proctoring software, specifically, causing some students to fail.</p>
+<p>Many proctoring companies have defended their <a href="https://www.eff.org/deeplinks/2020/08/proctoring-apps-subject-students-unnecessary-surveillance">dangerous, inequitable, privacy-invasive, and often flawed software tools</a> by pointing out that humans—meaning teachers or administrators—usually have the ability to <a href="https://examsoft.com/resources/flagging-isnt-cheating">review flagged exams</a> to determine whether or not a student was actually cheating. That defense rings hollow when those reviewing the results don’t have the technical expertise—or in some cases, the time or inclination—to properly examine them.</p>
+<p>Similar to schools that rely heavily on flawed proctoring software, Dartmouth medical school has cast suspicion on students by relying on access logs that are far from concrete evidence of cheating. Simply put: these logs should not be used as the sole evidence for potentially ruining a student’s career.</p>
+<p>After press coverage from the <em>New York Times</em>, which also found that students’ devices could automatically generate Canvas activity data even when no one was using them, Dartmouth’s administration <a href="https://www.eff.org/deeplinks/2021/06/dartmouth-ends-misguided-investigation-after-students-rights-groups-speak-out">retracted the allegations</a>—but not before students spent months fighting them and fearing what they could mean for their futures. Unfortunately, this has not stopped school officials from considering their interpretation of data to be above reproach.</p>
 </div>
-<div id="select" class="section level3 hasAnchor" number="20.2.5">
-<h3><span class="header-section-number">20.2.5</span> <code>select</code> variables<a href="wrangling-tidying.html#select" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:selectfig"></span>
-<img src="images/cheatsheets/select.png" alt="Diagram of select() columns." width="\textwidth" />
-<p class="caption">
-Figure 20.3: Diagram of select() columns.
-</p>
+<div id="a-problem-with-companies-and-transparency" class="section level2 hasAnchor" number="40.5">
+<h2><span class="header-section-number">40.5</span> A Problem with Companies and Transparency<a href="m13u-the-dangers-of-false-positives.html#a-problem-with-companies-and-transparency" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Though <a href="https://portal.inshosteddata.com/docs#requests">Canvas</a> and <a href="https://www.eff.org/deeplinks/2021/08/what-do-when-schools-use-canvas-or-blackboard-logs-allege-cheating">Blackboard</a> have publicly stated that their logs should not be used for disciplinary decisions regarding high-stakes testing, we’ve heard other stories from students who were accused of misconduct—even well before the pandemic—based on inadequate interpretations of data from these platforms.</p>
+<p>Since January of 2021, the Canvas instructor guide has <a href="https://community.canvaslms.com/t5/Instructor-Guide/How-do-I-view-a-quiz-log-for-a-student/ta-p/580">explicitly stated</a>: “Quiz logs should not be used to validate academic integrity or identify occurrences of cheating.” In February, an employee of Instructure (the company behind Canvas) commented in a community forum that “weirdness in Canvas Quiz Logs may appear because of various end-user [student] activities or because Canvas prioritizes saving student’s quiz data ahead of logging events. Also, there is a known issue with logging of ‘multiple answer’ questions.”. The employee concluded that “unfortunately, I can’t definitively predict what happened on the users’ end in that particular case.”</p>
+<p>Despite the admitted and inherently unreliable nature of Canvas logs, and an outcry by accused students and digital rights organizations, schools continue to rely on Canvas logs to determine cheating—and Instructure continues to act as if nothing is wrong. Meanwhile, students’ educational careers are being harmed by these flimsy accusations.</p>
+<p>In 2020, the administration of James Madison University <a href="https://www.breezejmu.org/news/students-question-the-legitimacy-of-the-canvas-activity-log/article_8664ca28-1eda-11eb-8982-eb216215de51.html">lowered the grades of students</a> who had been flagged as “inactive” during an exam according to Canvas test-taking logs. Students there spoke out to criticize the validity of the logs. And in the past few months, EFF has heard from other students around the country who have been accused of cheating by their schools, based solely or primarily on Canvas logs.</p>
+<p>Cheating accusations can result in lowered grades, a black mark on student transcripts, suspension, and even expulsion. Despite the serious consequences students face, they often have very limited recourse. Disturbingly, Canvas provides logs to administrators and teachers, but accused students have been unable to see those same logs, either via the platform itself or from school officials. Students deserve better.</p>
+<p>Instructure (and other companies) must do better. Admitting to the unreliability of Canvas logs in obscure webpages is not enough. Instructure ought to to issue a clear, public announcement that Canvas logs are unreliable and should not be used to fuel cheating accusations. The company should also allow students to access the same logs their schools are increasingly using to accuse them of academic misconduct—which is important because, when viewed in their <em>entirety</em>, Canvas logs often don’t rationally reveal activity consistent with cheating</p>
+<p>Instructure has a responsibility to prevent schools from misusing their products. Taking action now would show the company’s commitment to the integrity of the academic process, and would give students a chance to face their accusers on the same footing, rather than resigning to an unjust and opaque process.</p>
 </div>
-<p>We’ve seen that the <code>flights</code> data frame in the <code>nycflights13</code> package contains 19 different variables. You can identify the names of these 19 variables by running the <code>glimpse()</code> function from the <code>dplyr</code> package:</p>
-<div class="sourceCode" id="cb65"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb65-1"><a href="wrangling-tidying.html#cb65-1" tabindex="-1"></a><span class="fu">glimpse</span>(flights)</span></code></pre></div>
-<p>However, say you only need two of these 19 variables, say <code>carrier</code> and <code>flight</code>. You can <code>select()</code> these two variables:</p>
-<div class="sourceCode" id="cb66"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb66-1"><a href="wrangling-tidying.html#cb66-1" tabindex="-1"></a>flights <span class="sc">%&gt;%</span> </span>
-<span id="cb66-2"><a href="wrangling-tidying.html#cb66-2" tabindex="-1"></a>  <span class="fu">select</span>(carrier, flight)</span></code></pre></div>
-<p>This function makes it easier to explore large datasets since it allows us to limit the scope to only those variables we care most about. For example, if we <code>select()</code> only a smaller number of variables as is shown in Figure <a href="wrangling-tidying.html#fig:selectfig">20.3</a>, it will make viewing the dataset in RStudio’s spreadsheet viewer more digestible.</p>
-<p>Let’s say instead you want to drop, or de-select, certain variables. For example, consider the variable <code>year</code> in the <code>flights</code> data frame. This variable isn’t quite a “variable” because it is always <code>2013</code> and hence doesn’t change. Say you want to remove this variable from the data frame. We can deselect <code>year</code> by using the <code>-</code> sign:</p>
-<div class="sourceCode" id="cb67"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb67-1"><a href="wrangling-tidying.html#cb67-1" tabindex="-1"></a>flights_no_year <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> <span class="fu">select</span>(<span class="sc">-</span>year)</span></code></pre></div>
-<p>Another way of selecting columns/variables is by specifying a range of columns:</p>
-<div class="sourceCode" id="cb68"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb68-1"><a href="wrangling-tidying.html#cb68-1" tabindex="-1"></a>flight_arr_times <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> <span class="fu">select</span>(month<span class="sc">:</span>day, arr_time<span class="sc">:</span>sched_arr_time)</span>
-<span id="cb68-2"><a href="wrangling-tidying.html#cb68-2" tabindex="-1"></a>flight_arr_times</span></code></pre></div>
-<p>This will <code>select()</code> all columns between <code>month</code> and <code>day</code>, as well as between <code>arr_time</code> and <code>sched_arr_time</code>, and drop the rest.</p>
-<p>The <code>select()</code> function can also be used to reorder columns when used with the <code>everything()</code> helper function. For example, suppose we want the <code>hour</code>, <code>minute</code>, and <code>time_hour</code> variables to appear immediately after the <code>year</code>, <code>month</code>, and <code>day</code> variables, while not discarding the rest of the variables. In the following code, <code>everything()</code> will pick up all remaining variables:</p>
-<div class="sourceCode" id="cb69"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb69-1"><a href="wrangling-tidying.html#cb69-1" tabindex="-1"></a>flights_reorder <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
-<span id="cb69-2"><a href="wrangling-tidying.html#cb69-2" tabindex="-1"></a>  <span class="fu">select</span>(year, month, day, hour, minute, time_hour, <span class="fu">everything</span>())</span>
-<span id="cb69-3"><a href="wrangling-tidying.html#cb69-3" tabindex="-1"></a><span class="fu">glimpse</span>(flights_reorder)</span></code></pre></div>
-<p>Lastly, the helper functions <code>starts_with()</code>, <code>ends_with()</code>, and <code>contains()</code> can be used to select variables/columns that match those conditions. As examples,</p>
-<div class="sourceCode" id="cb70"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb70-1"><a href="wrangling-tidying.html#cb70-1" tabindex="-1"></a>flights <span class="sc">%&gt;%</span> <span class="fu">select</span>(<span class="fu">starts_with</span>(<span class="st">&quot;a&quot;</span>))</span>
-<span id="cb70-2"><a href="wrangling-tidying.html#cb70-2" tabindex="-1"></a>flights <span class="sc">%&gt;%</span> <span class="fu">select</span>(<span class="fu">ends_with</span>(<span class="st">&quot;delay&quot;</span>))</span>
-<span id="cb70-3"><a href="wrangling-tidying.html#cb70-3" tabindex="-1"></a>flights <span class="sc">%&gt;%</span> <span class="fu">select</span>(<span class="fu">contains</span>(<span class="st">&quot;time&quot;</span>))</span></code></pre></div>
+<div id="not-just-dartmouth" class="section level2 hasAnchor" number="40.6">
+<h2><span class="header-section-number">40.6</span> Not Just Dartmouth<a href="m13u-the-dangers-of-false-positives.html#not-just-dartmouth" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In 2018, an undergraduate student at Brown University was penalized based on Canvas access logs and subsequently contacted the EFF. The student had attempted to access the Canvas database immediately before an exam, and had then left multiple browser windows open to the Canvas web address on her mobile phone. The phone remained unused in her backpack during the exam, during which time the log records (inaccurately) appeared to indicate that the site was being actively accessed by a user.</p>
+<p>After being accused of cheating based on this Canvas log data, the student reached out to Canvas. Multiple Canvas technical support representatives responded by explaining that the log data was not a reliable record of user access. The student shared their statements with Brown. Notably, the student, who had a 4.0 record, had little motive to cheat on the exam at issue, rendering the cheating accusation—based as it was virtually entirely on the log data—all the more flimsy.</p>
+<p>A Brown disciplinary panel nonetheless ruled against the student, and placed a permanent mark on her academic record, grounding its decision on the accuracy of the Canvas log data.</p>
+<p>Last year, in the wake of Dartmouth’s apology to its wrongfully accused students, and Canvas’ more public acknowledgment that its logs should not be used as the basis for disciplinary decisions, the former student asked Brown to clear her academic record. Brown, however, refused even to consider voiding its disciplinary decision on the ground that the student had no remaining right to appeal. This is a common thread we’ve seen in these situations: the students at Dartmouth were also not afforded <a href="https://www.thefire.org/citing-appalling-due-process-failures-at-root-of-cheating-scandal-fire-demands-answers-from-dartmouth/">reasonable due process</a>—they were not provided complete data logs for the exams, were given less than 48 hours to respond to the charges (and only two minutes to make their cases in online hearings), and were purportedly told to admit guilt.</p>
+<p>In an implicit acknowledgment of its error, Brown now says that it will provide its former student with a letter of support if she applies to graduate school. An implicit admission of injustice, however, is not a sufficient remedy. Like Dartmouth, Brown should withdraw the record of the discipline it wrongfully imposed on this student, as well as any others who may have likewise been found responsible for cheating based on such unreliable log records.</p>
+<p>Schools should accept that Canvas logs cannot replace concrete, dispositive evidence of cheating. In fact, the EFF <a href="https://www.eff.org/deeplinks/2021/08/what-do-when-schools-use-canvas-or-blackboard-logs-allege-cheating">has written a guide</a> for educating administrators and teachers on these logs’ inaccuracy.</p>
 </div>
-<div id="rename" class="section level3 hasAnchor" number="20.2.6">
-<h3><span class="header-section-number">20.2.6</span> <code>rename</code> variables<a href="wrangling-tidying.html#rename" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Another useful function is <code>rename()</code>, which as you may have guessed changes the name of variables. Suppose we want to only focus on <code>dep_time</code> and <code>arr_time</code> and change <code>dep_time</code> and <code>arr_time</code> to be <code>departure_time</code> and <code>arrival_time</code> instead in the <code>flights_time</code> data frame:</p>
-<div class="sourceCode" id="cb71"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb71-1"><a href="wrangling-tidying.html#cb71-1" tabindex="-1"></a>flights_time_new <span class="ot">&lt;-</span> flights <span class="sc">%&gt;%</span> </span>
-<span id="cb71-2"><a href="wrangling-tidying.html#cb71-2" tabindex="-1"></a>  <span class="fu">select</span>(dep_time, arr_time) <span class="sc">%&gt;%</span> </span>
-<span id="cb71-3"><a href="wrangling-tidying.html#cb71-3" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">departure_time =</span> dep_time, <span class="at">arrival_time =</span> arr_time)</span>
-<span id="cb71-4"><a href="wrangling-tidying.html#cb71-4" tabindex="-1"></a><span class="fu">glimpse</span>(flights_time_new)</span></code></pre></div>
-<p>Note that in this case we used a single <code>=</code> sign within the <code>rename()</code>. For example, <code>departure_time = dep_time</code> renames the <code>dep_time</code> variable to have the new name <code>departure_time</code>. This is because we are not testing for equality like we would using <code>==</code>. Instead we want to assign a new variable <code>departure_time</code> to have the same values as <code>dep_time</code> and then delete the variable <code>dep_time</code>. Note that new <code>dplyr</code> users often forget that the new variable name comes before the equal sign. <!-- We usually remember this as "New Before, Old After" or NBOA. --></p>
-</div>
-<div id="top_n-values-of-a-variable" class="section level3 hasAnchor" number="20.2.7">
-<h3><span class="header-section-number">20.2.7</span> <code>top_n</code> values of a variable<a href="wrangling-tidying.html#top_n-values-of-a-variable" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>We can also return the top <code>n</code> values of a variable using the <code>top_n()</code> function. For example, we can return a data frame of the top 10 destination airports in the dataframe we’ve already established. Observe that we set the number of values to return to <code>n = 10</code> and <code>wt = num_flights</code> to indicate that we want the rows corresponding to the top 10 values of <code>num_flights</code>. See the help file for <code>top_n()</code> by running <code>?top_n</code> for more information.</p>
-<div class="sourceCode" id="cb72"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb72-1"><a href="wrangling-tidying.html#cb72-1" tabindex="-1"></a>freq_dest <span class="sc">%&gt;%</span> <span class="fu">top_n</span>(<span class="at">n =</span> <span class="dv">10</span>, <span class="at">wt =</span> num_flights)</span></code></pre></div>
-<p>Let’s further <code>arrange()</code> these results in descending order of <code>num_flights</code>:</p>
-<div class="sourceCode" id="cb73"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb73-1"><a href="wrangling-tidying.html#cb73-1" tabindex="-1"></a>freq_dest  <span class="sc">%&gt;%</span> </span>
-<span id="cb73-2"><a href="wrangling-tidying.html#cb73-2" tabindex="-1"></a>  <span class="fu">top_n</span>(<span class="at">n =</span> <span class="dv">10</span>, <span class="at">wt =</span> num_flights) <span class="sc">%&gt;%</span> </span>
-<span id="cb73-3"><a href="wrangling-tidying.html#cb73-3" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(num_flights))</span></code></pre></div>
-</div>
-</div>
-<div id="tidying-data" class="section level2 hasAnchor" number="20.3">
-<h2><span class="header-section-number">20.3</span> Tidying Data<a href="wrangling-tidying.html#tidying-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>In Subsection <a href="getting-started.html#programming-concepts">8.3.1</a>, I introduced the concept of a data frame in R: a rectangular spreadsheet-like representation of data where the rows correspond to observations and the columns correspond to variables describing each observation. In Section <a href="getting-started.html#nycflights13">8.5</a>, we started exploring our first data frame: the <code>flights</code> data frame included in the <code>nycflights13</code> package.</p>
-<p>In the first section of this walkthrough, we learned how to take existing data frames and transform/modify them to suit our ends. In this second section, we extend some of these ideas by discussing a type of data formatting called “tidy” data. You will see that having data stored in “tidy” format is about more than just what the everyday definition of the term “tidy” might suggest: having your data “neatly organized.” Instead, we define the term “tidy” as it’s used by data scientists who use R, outlining a set of rules by which data is saved.</p>
-<p>Knowing about tidy data was not necessary earlier because all the data we used were already in “tidy” format. In this walkthrough, we’ll now see that this format is essential to using the tools we’ve covered. Furthermore, it will also be useful for future walkthroughs as we cover future ideas.</p>
-<div id="tidy-packages" class="section level3 unnumbered hasAnchor">
-<h3>Needed packages<a href="wrangling-tidying.html#tidy-packages" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Let’s load all the packages needed for this walkthrough (this assumes you’ve already installed them). If needed, read Section <a href="getting-started.html#packages">8.4</a> for information on how to install and load R packages.</p>
-<div class="sourceCode" id="cb74"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb74-1"><a href="wrangling-tidying.html#cb74-1" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
-<span id="cb74-2"><a href="wrangling-tidying.html#cb74-2" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
-<span id="cb74-3"><a href="wrangling-tidying.html#cb74-3" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span>
-<span id="cb74-4"><a href="wrangling-tidying.html#cb74-4" tabindex="-1"></a><span class="fu">library</span>(nycflights13)</span>
-<span id="cb74-5"><a href="wrangling-tidying.html#cb74-5" tabindex="-1"></a><span class="fu">library</span>(fivethirtyeight)</span>
-<span id="cb74-6"><a href="wrangling-tidying.html#cb74-6" tabindex="-1"></a><span class="fu">library</span>(here)</span></code></pre></div>
-</div>
-<div id="csv" class="section level3 hasAnchor" number="20.3.1">
-<h3><span class="header-section-number">20.3.1</span> Importing data<a href="wrangling-tidying.html#csv" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Up to this point, most of our activities have used data stored inside of an R package, though we <em>have</em> practiced importing data from an outside source in Section <a href="m4a-find-a-dataset-relevant-to-you.html#loading-dataset">14.4</a>. It’s time to put that practice to use!</p>
-<p>To practice tidying data, we need to load a <em>Comma Separated Values</em> <code>.csv</code> file, the same format that I encouraged you to find for your personal dataset. You can think of a <code>.csv</code> file as a bare-bones spreadsheet where:</p>
-<ul>
-<li>Each line in the file corresponds to one row of data/one observation.</li>
-<li>Values for each line are separated with commas. In other words, the values of different variables are separated by commas in each row.</li>
-<li>The first line is often, but not always, a <em>header</em> row indicating the names of the columns/variables.</li>
-</ul>
-<p>The <code>.csv</code> file we’re interested in here is <code>dem_score.csv</code>—it is found in the <code>activity_data</code> subfolder of your class project folder and contains ratings of the level of democracy in different countries spanning 1952 to 1992. Let’s use the <code>read_csv()</code> function from the <code>readr</code> package (with some help from the <code>@here</code> package) to read it from your computer, import it into R, and save it in a data frame called <code>dem_score</code>.</p>
-<div class="sourceCode" id="cb75"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb75-1"><a href="wrangling-tidying.html#cb75-1" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
-<span id="cb75-2"><a href="wrangling-tidying.html#cb75-2" tabindex="-1"></a>dem_score <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="fu">here</span>(<span class="st">&quot;activity_data&quot;</span>,<span class="st">&quot;dem_score.csv&quot;</span>))</span>
-<span id="cb75-3"><a href="wrangling-tidying.html#cb75-3" tabindex="-1"></a>dem_score</span></code></pre></div>
-<pre><code># A tibble: 96 × 10
-   country    `1952` `1957` `1962` `1967` `1972` `1977` `1982` `1987` `1992`
-   &lt;chr&gt;       &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;
- 1 Albania        -9     -9     -9     -9     -9     -9     -9     -9      5
- 2 Argentina      -9     -1     -1     -9     -9     -9     -8      8      7
- 3 Armenia        -9     -7     -7     -7     -7     -7     -7     -7      7
- 4 Australia      10     10     10     10     10     10     10     10     10
- 5 Austria        10     10     10     10     10     10     10     10     10
- 6 Azerbaijan     -9     -7     -7     -7     -7     -7     -7     -7      1
- 7 Belarus        -9     -7     -7     -7     -7     -7     -7     -7      7
- 8 Belgium        10     10     10     10     10     10     10     10     10
- 9 Bhutan        -10    -10    -10    -10    -10    -10    -10    -10    -10
-10 Bolivia        -4     -3     -3     -4     -7     -7      8      9      9
-# ℹ 86 more rows</code></pre>
-<p>In this <code>dem_score</code> data frame, the minimum value of <code>-10</code> corresponds to a highly autocratic nation, whereas a value of <code>10</code> corresponds to a highly democratic nation. Note also that backticks surround the different variable names. Variable names in R by default are not allowed to start with a number nor include spaces, but we can get around this fact by surrounding the column name with backticks. We’ll revisit the <code>dem_score</code> data frame in a case study in the upcoming Section <a href="wrangling-tidying.html#case-study-tidy">20.3.5</a>.</p>
-<p>Note that the <code>read_csv()</code> function included in the <code>readr</code> package is different than the <code>read.csv()</code> function that comes installed with R. While the difference in the names might seem trivial (an <code>_</code> instead of a <code>.</code>), the <code>read_csv()</code> function is, in my opinion, easier to use since it can more easily read data off the web and generally imports data at a much faster speed. Furthermore, the <code>read_csv()</code> function included in the <code>readr</code> saves data frames as <code>tibbles</code> by default.</p>
-</div>
-<div id="tidy-data-ex" class="section level3 hasAnchor" number="20.3.2">
-<h3><span class="header-section-number">20.3.2</span> “Tidy” data<a href="wrangling-tidying.html#tidy-data-ex" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>With our data imported, let’s learn about the concept of “tidy” data format with a motivating example from the <code>fivethirtyeight</code> package. The <code>fivethirtyeight</code> package provides access to the datasets used in many articles published by the data journalism website, <a href="https://fivethirtyeight.com/">FiveThirtyEight.com</a>. For a complete list of all 129 datasets included in the <code>fivethirtyeight</code> package, check out the package webpage by going to: <a href="https://fivethirtyeight-r.netlify.app/articles/fivethirtyeight.html" class="uri">https://fivethirtyeight-r.netlify.app/articles/fivethirtyeight.html</a>.</p>
-<p>Let’s focus our attention on the <code>drinks</code> data frame and look at its first 5 rows:</p>
-<pre><code># A tibble: 5 × 5
-  country     beer_servings spirit_servings wine_servings total_litres_of_pure…¹
-  &lt;chr&gt;               &lt;int&gt;           &lt;int&gt;         &lt;int&gt;                  &lt;dbl&gt;
-1 Afghanistan             0               0             0                    0  
-2 Albania                89             132            54                    4.9
-3 Algeria                25               0            14                    0.7
-4 Andorra               245             138           312                   12.4
-5 Angola                217              57            45                    5.9
-# ℹ abbreviated name: ¹​total_litres_of_pure_alcohol</code></pre>
-<p>After reading the help file by running <code>?drinks</code>, you’ll see that <code>drinks</code> is a data frame containing results from a survey of the average number of servings of beer, spirits, and wine consumed in 193 countries. This data was originally reported on FiveThirtyEight.com in Mona Chalabi’s article: <a href="https://fivethirtyeight.com/features/dear-mona-followup-where-do-people-drink-the-most-beer-wine-and-spirits/">“Dear Mona Followup: Where Do People Drink The Most Beer, Wine And Spirits?”</a>. It’s important to note that Chalabi is no longer with FiveThirtyEight and <a href="https://x.com/MonaChalabi/status/1270715883531300866">has been sharply critical</a> of the organization since her leaving.</p>
-<p>Let’s apply some of the data wrangling verbs we learned in Section <a href="wrangling-tidying.html#wrangling">20.2</a> on the <code>drinks</code> data frame:</p>
-<ol style="list-style-type: decimal">
-<li><code>filter()</code> the <code>drinks</code> data frame to only consider 4 countries: the United States, China, Italy, and Saudi Arabia, <em>then</em></li>
-<li><code>select()</code> all columns except <code>total_litres_of_pure_alcohol</code> by using the <code>-</code> sign, <em>then</em></li>
-<li><code>rename()</code> the variables <code>beer_servings</code>, <code>spirit_servings</code>, and <code>wine_servings</code> to <code>beer</code>, <code>spirit</code>, and <code>wine</code>, respectively.</li>
-</ol>
-<p>and save the resulting data frame in <code>drinks_smaller</code>:</p>
-<div class="sourceCode" id="cb78"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb78-1"><a href="wrangling-tidying.html#cb78-1" tabindex="-1"></a>drinks_smaller <span class="ot">&lt;-</span> drinks <span class="sc">%&gt;%</span> </span>
-<span id="cb78-2"><a href="wrangling-tidying.html#cb78-2" tabindex="-1"></a>  <span class="fu">filter</span>(country <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">&quot;USA&quot;</span>, <span class="st">&quot;China&quot;</span>, <span class="st">&quot;Italy&quot;</span>, <span class="st">&quot;Saudi Arabia&quot;</span>)) <span class="sc">%&gt;%</span> </span>
-<span id="cb78-3"><a href="wrangling-tidying.html#cb78-3" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>total_litres_of_pure_alcohol) <span class="sc">%&gt;%</span> </span>
-<span id="cb78-4"><a href="wrangling-tidying.html#cb78-4" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">beer =</span> beer_servings, <span class="at">spirit =</span> spirit_servings, <span class="at">wine =</span> wine_servings)</span>
-<span id="cb78-5"><a href="wrangling-tidying.html#cb78-5" tabindex="-1"></a>drinks_smaller</span></code></pre></div>
-<pre><code># A tibble: 4 × 4
-  country       beer spirit  wine
-  &lt;chr&gt;        &lt;int&gt;  &lt;int&gt; &lt;int&gt;
-1 China           79    192     8
-2 Italy           85     42   237
-3 Saudi Arabia     0      5     0
-4 USA            249    158    84</code></pre>
-<p>Let’s compare this way of organizing the data with an alternative:</p>
-<div class="sourceCode" id="cb80"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb80-1"><a href="wrangling-tidying.html#cb80-1" tabindex="-1"></a>drinks_smaller_tidy <span class="ot">&lt;-</span> drinks_smaller <span class="sc">%&gt;%</span> </span>
-<span id="cb80-2"><a href="wrangling-tidying.html#cb80-2" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="at">names_to =</span> <span class="st">&quot;type&quot;</span>, </span>
-<span id="cb80-3"><a href="wrangling-tidying.html#cb80-3" tabindex="-1"></a>               <span class="at">values_to =</span> <span class="st">&quot;servings&quot;</span>, </span>
-<span id="cb80-4"><a href="wrangling-tidying.html#cb80-4" tabindex="-1"></a>               <span class="at">cols =</span> <span class="sc">-</span>country)</span>
-<span id="cb80-5"><a href="wrangling-tidying.html#cb80-5" tabindex="-1"></a>drinks_smaller_tidy</span></code></pre></div>
-<pre><code># A tibble: 12 × 3
-   country      type   servings
-   &lt;chr&gt;        &lt;chr&gt;     &lt;int&gt;
- 1 China        beer         79
- 2 China        spirit      192
- 3 China        wine          8
- 4 Italy        beer         85
- 5 Italy        spirit       42
- 6 Italy        wine        237
- 7 Saudi Arabia beer          0
- 8 Saudi Arabia spirit        5
- 9 Saudi Arabia wine          0
-10 USA          beer        249
-11 USA          spirit      158
-12 USA          wine         84</code></pre>
-<p>Observe that while <code>drinks_smaller</code> and <code>drinks_smaller_tidy</code> are both rectangular in shape and contain the same 12 numerical values (3 alcohol types by 4 countries), they are formatted differently. <code>drinks_smaller</code> is formatted in what’s known as <a href="https://en.wikipedia.org/wiki/Wide_and_narrow_data">“wide”</a> format, whereas <code>drinks_smaller_tidy</code> is formatted in what’s known as <a href="https://en.wikipedia.org/wiki/Wide_and_narrow_data#Narrow">“long/narrow”</a> format.</p>
-<p>In the context of doing data science in R, long/narrow format is also known as “tidy” format. In order to use the packages that we prefer in this class, your input data frames <em>must</em> be in “tidy” format. Thus, all non-“tidy” data must be converted to “tidy” format first. Before we convert non-“tidy” data frames like <code>drinks_smaller</code> to “tidy” data frames like <code>drinks_smaller_tidy</code>, let’s define “tidy” data.</p>
-</div>
-<div id="tidy-definition" class="section level3 hasAnchor" number="20.3.3">
-<h3><span class="header-section-number">20.3.3</span> Definition of “tidy” data<a href="wrangling-tidying.html#tidy-definition" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>You have surely heard the word “tidy” in your life:</p>
-<ul>
-<li>“Tidy up your room!”</li>
-<li>“Write your homework in a tidy way so it is easier to provide feedback.”</li>
-<li>Marie Kondo’s best-selling book, <a href="https://www.powells.com/book/-9781607747307"><em>The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing</em></a>, and Netflix TV series <a href="https://www.netflix.com/title/80209379"><em>Tidying Up with Marie Kondo</em></a>.</li>
-<li>“I am not by any stretch of the imagination a tidy person, and the piles of unread books on the coffee table and by my bed have a plaintive, pleading quality to me - ‘Read me, please!’” - Linda Grant</li>
-</ul>
-<p>What does it mean for your data to be “tidy”? While “tidy” has a clear English meaning of “organized,” the word “tidy” in data science using R means that your data follows a standardized format. We will follow Hadley Wickham’s (2014) definition of <em>“tidy” data</em> shown also in Figure <a href="wrangling-tidying.html#fig:tidyfig">20.4</a>:</p>
-<blockquote>
-<p>A <em>dataset</em> is a collection of values, usually either numbers (if quantitative) or strings AKA text data (if qualitative/categorical). Values are organised in two ways. Every value belongs to a variable and an observation. A variable contains all values that measure the same underlying attribute (like height, temperature, duration) across units. An observation contains all values measured on the same unit (like a person, or a day, or a city) across attributes.</p>
-<p>“Tidy” data is a standard way of mapping the meaning of a dataset to its structure. A dataset is messy or tidy depending on how rows, columns and tables are matched up with observations, variables and types. In <em>tidy data</em>:</p>
-<ol style="list-style-type: decimal">
-<li>Each variable forms a column.</li>
-<li>Each observation forms a row.</li>
-<li>Each type of observational unit forms a table.</li>
-</ol>
-</blockquote>
-
-<div class="figure" style="text-align: center"><span style="display:block;" id="fig:tidyfig"></span>
-<img src="images/r4ds/tidy-1.png" alt="Tidy data graphic from R for Data Science." width="80%" height="80%" />
-<p class="caption">
-Figure 20.4: Tidy data graphic from <em>R for Data Science</em>.
-</p>
-</div>
-<p>For example, say you have the following table of stock prices in Table <a href="wrangling-tidying.html#tab:non-tidy-stocks">20.3</a>:</p>
-<table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
-<caption style="font-size: initial !important;">
-<span id="tab:non-tidy-stocks">Table 20.3: </span><span id="tab:non-tidy-stocks">Table 20.4: </span>Stock prices (non-tidy format)
-</caption>
-<thead>
-<tr>
-<th style="text-align:left;">
-Date
-</th>
-<th style="text-align:left;">
-Boeing stock price
-</th>
-<th style="text-align:left;">
-Amazon stock price
-</th>
-<th style="text-align:left;">
-Google stock price
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-2009-01-01
-</td>
-<td style="text-align:left;">
-$173.55
-</td>
-<td style="text-align:left;">
-$174.90
-</td>
-<td style="text-align:left;">
-$174.34
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2009-01-02
-</td>
-<td style="text-align:left;">
-$172.61
-</td>
-<td style="text-align:left;">
-$171.42
-</td>
-<td style="text-align:left;">
-$170.04
-</td>
-</tr>
-</tbody>
-</table>
-<p>Although the data are neatly organized in a rectangular spreadsheet-type format, they do not follow the definition of data in “tidy” format. While there are three variables corresponding to three unique pieces of information (date, stock name, and stock price), there are not three columns. In “tidy” data format, each variable should be its own column, as shown in Table <a href="wrangling-tidying.html#tab:tidy-stocks">20.5</a>. Notice that both tables present the same information, but in different formats.</p>
-<table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
-<caption style="font-size: initial !important;">
-<span id="tab:tidy-stocks">Table 20.5: </span><span id="tab:tidy-stocks">Table 20.6: </span>Stock prices (tidy format)
-</caption>
-<thead>
-<tr>
-<th style="text-align:left;">
-Date
-</th>
-<th style="text-align:left;">
-Stock Name
-</th>
-<th style="text-align:left;">
-Stock Price
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-2009-01-01
-</td>
-<td style="text-align:left;">
-Boeing
-</td>
-<td style="text-align:left;">
-$173.55
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2009-01-01
-</td>
-<td style="text-align:left;">
-Amazon
-</td>
-<td style="text-align:left;">
-$174.90
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2009-01-01
-</td>
-<td style="text-align:left;">
-Google
-</td>
-<td style="text-align:left;">
-$174.34
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2009-01-02
-</td>
-<td style="text-align:left;">
-Boeing
-</td>
-<td style="text-align:left;">
-$172.61
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2009-01-02
-</td>
-<td style="text-align:left;">
-Amazon
-</td>
-<td style="text-align:left;">
-$171.42
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2009-01-02
-</td>
-<td style="text-align:left;">
-Google
-</td>
-<td style="text-align:left;">
-$170.04
-</td>
-</tr>
-</tbody>
-</table>
-<p>Now we have the requisite three columns Date, Stock Name, and Stock Price. On the other hand, consider the data in Table <a href="wrangling-tidying.html#tab:tidy-stocks-2">20.7</a>.</p>
-<table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
-<caption style="font-size: initial !important;">
-<span id="tab:tidy-stocks-2">Table 20.7: </span><span id="tab:tidy-stocks-2">Table 20.8: </span>Example of tidy data
-</caption>
-<thead>
-<tr>
-<th style="text-align:left;">
-Date
-</th>
-<th style="text-align:left;">
-Boeing Price
-</th>
-<th style="text-align:left;">
-Weather
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-2009-01-01
-</td>
-<td style="text-align:left;">
-$173.55
-</td>
-<td style="text-align:left;">
-Sunny
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-2009-01-02
-</td>
-<td style="text-align:left;">
-$172.61
-</td>
-<td style="text-align:left;">
-Overcast
-</td>
-</tr>
-</tbody>
-</table>
-<p>In this case, even though the variable “Boeing Price” occurs just like in our non-“tidy” data in Table <a href="wrangling-tidying.html#tab:non-tidy-stocks">20.3</a>, the data <em>is</em> “tidy” since there are three variables corresponding to three unique pieces of information: Date, Boeing price, and the Weather that particular day.</p>
-</div>
-<div id="converting-to-tidy-data" class="section level3 hasAnchor" number="20.3.4">
-<h3><span class="header-section-number">20.3.4</span> Converting to “tidy” data<a href="wrangling-tidying.html#converting-to-tidy-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>In our walkthroughs so far, you’ve only seen data frames that were already in “tidy” format. Furthermore, for the rest of this book, you’ll mostly only see data frames that are already in “tidy” format as well. However, this is not always the case with all datasets—including, perhaps, the dataset that you’ve chosen to work with for your class proejcts. If your original data frame is in wide (non-“tidy”) format and you would like to use the packages we learn about, you will first have to convert it to “tidy” format. To do so, we recommend using the <code>pivot_longer()</code> function in the <code>tidyr</code> package.</p>
-<p>Going back to our <code>drinks_smaller</code> data frame from earlier:</p>
-<div class="sourceCode" id="cb82"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb82-1"><a href="wrangling-tidying.html#cb82-1" tabindex="-1"></a>drinks_smaller</span></code></pre></div>
-<pre><code># A tibble: 4 × 4
-  country       beer spirit  wine
-  &lt;chr&gt;        &lt;int&gt;  &lt;int&gt; &lt;int&gt;
-1 China           79    192     8
-2 Italy           85     42   237
-3 Saudi Arabia     0      5     0
-4 USA            249    158    84</code></pre>
-<p>We convert it to “tidy” format by using the <code>pivot_longer()</code> function from the <code>tidyr</code> package as follows:</p>
-<div class="sourceCode" id="cb84"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb84-1"><a href="wrangling-tidying.html#cb84-1" tabindex="-1"></a>drinks_smaller_tidy <span class="ot">&lt;-</span> drinks_smaller <span class="sc">%&gt;%</span> </span>
-<span id="cb84-2"><a href="wrangling-tidying.html#cb84-2" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="at">names_to =</span> <span class="st">&quot;type&quot;</span>, </span>
-<span id="cb84-3"><a href="wrangling-tidying.html#cb84-3" tabindex="-1"></a>               <span class="at">values_to =</span> <span class="st">&quot;servings&quot;</span>, </span>
-<span id="cb84-4"><a href="wrangling-tidying.html#cb84-4" tabindex="-1"></a>               <span class="at">cols =</span> <span class="sc">-</span>country)</span>
-<span id="cb84-5"><a href="wrangling-tidying.html#cb84-5" tabindex="-1"></a>drinks_smaller_tidy</span></code></pre></div>
-<pre><code># A tibble: 12 × 3
-   country      type   servings
-   &lt;chr&gt;        &lt;chr&gt;     &lt;int&gt;
- 1 China        beer         79
- 2 China        spirit      192
- 3 China        wine          8
- 4 Italy        beer         85
- 5 Italy        spirit       42
- 6 Italy        wine        237
- 7 Saudi Arabia beer          0
- 8 Saudi Arabia spirit        5
- 9 Saudi Arabia wine          0
-10 USA          beer        249
-11 USA          spirit      158
-12 USA          wine         84</code></pre>
-<p>We set the arguments to <code>pivot_longer()</code> as follows:</p>
-<ol style="list-style-type: decimal">
-<li><code>names_to</code> here corresponds to the name of the variable in the new “tidy”/long data frame that will contain the <em>column names</em> of the original data. Observe how we set <code>names_to = "type"</code>. In the resulting <code>drinks_smaller_tidy</code>, the column <code>type</code> contains the three types of alcohol <code>beer</code>, <code>spirit</code>, and <code>wine</code>. Since <code>type</code> is a variable name that doesn’t appear in <code>drinks_smaller</code>, we use quotation marks around it. You’ll receive an error if you just use <code>names_to = type</code> here.</li>
-<li><code>values_to</code> here is the name of the variable in the new “tidy” data frame that will contain the <em>values</em> of the original data. Observe how we set <code>values_to = "servings"</code> since each of the numeric values in each of the <code>beer</code>, <code>wine</code>, and <code>spirit</code> columns of the <code>drinks_smaller</code> data corresponds to a value of <code>servings</code>. In the resulting <code>drinks_smaller_tidy</code>, the column <code>servings</code> contains the 4 <span class="math inline">\(\times\)</span> 3 = 12 numerical values. Note again that <code>servings</code> doesn’t appear as a variable in <code>drinks_smaller</code> so it again needs quotation marks around it for the <code>values_to</code> argument.</li>
-<li>The third argument <code>cols</code> is the columns in the <code>drinks_smaller</code> data frame you either want to or don’t want to “tidy.” Observe how we set this to <code>-country</code> indicating that we don’t want to “tidy” the <code>country</code> variable in <code>drinks_smaller</code> and rather only <code>beer</code>, <code>spirit</code>, and <code>wine</code>. Since <code>country</code> is a column that appears in <code>drinks_smaller</code> we don’t put quotation marks around it.</li>
-</ol>
-<p>The third argument here of <code>cols</code> is a little nuanced, so let’s consider code that’s written slightly differently but that produces the same output:</p>
-<div class="sourceCode" id="cb86"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb86-1"><a href="wrangling-tidying.html#cb86-1" tabindex="-1"></a>drinks_smaller <span class="sc">%&gt;%</span> </span>
-<span id="cb86-2"><a href="wrangling-tidying.html#cb86-2" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="at">names_to =</span> <span class="st">&quot;type&quot;</span>, </span>
-<span id="cb86-3"><a href="wrangling-tidying.html#cb86-3" tabindex="-1"></a>               <span class="at">values_to =</span> <span class="st">&quot;servings&quot;</span>, </span>
-<span id="cb86-4"><a href="wrangling-tidying.html#cb86-4" tabindex="-1"></a>               <span class="at">cols =</span> <span class="fu">c</span>(beer, spirit, wine))</span></code></pre></div>
-<p>Note that the third argument now specifies which columns we want to “tidy” with <code>c(beer, spirit, wine)</code>, instead of the columns we don’t want to “tidy” using <code>-country</code>. We use the <code>c()</code> function to create a vector of the columns in <code>drinks_smaller</code> that we’d like to “tidy.” Note that since these three columns appear one after another in the <code>drinks_smaller</code> data frame, we could also do the following for the <code>cols</code> argument:</p>
-<div class="sourceCode" id="cb87"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb87-1"><a href="wrangling-tidying.html#cb87-1" tabindex="-1"></a>drinks_smaller <span class="sc">%&gt;%</span> </span>
-<span id="cb87-2"><a href="wrangling-tidying.html#cb87-2" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="at">names_to =</span> <span class="st">&quot;type&quot;</span>, </span>
-<span id="cb87-3"><a href="wrangling-tidying.html#cb87-3" tabindex="-1"></a>               <span class="at">values_to =</span> <span class="st">&quot;servings&quot;</span>, </span>
-<span id="cb87-4"><a href="wrangling-tidying.html#cb87-4" tabindex="-1"></a>               <span class="at">cols =</span> beer<span class="sc">:</span>wine)</span></code></pre></div>
-<p>Converting “wide” format data to “tidy” format often confuses new R users. The only way to learn to get comfortable with the <code>pivot_longer()</code> function is with practice, practice, and more practice using different datasets. For example, run <code>?pivot_longer</code> and look at the examples in the bottom of the help file. We’ll show another example of using <code>pivot_longer()</code> to convert a “wide” formatted data frame to “tidy” format in Section <a href="wrangling-tidying.html#case-study-tidy">20.3.5</a>.</p>
-<div id="nycflights13-package-1" class="section level4 hasAnchor" number="20.3.4.1">
-<h4><span class="header-section-number">20.3.4.1</span> <code>nycflights13</code> package<a href="wrangling-tidying.html#nycflights13-package-1" class="anchor-section" aria-label="Anchor link to header"></a></h4>
-<p>Recall the <code>nycflights13</code> package with data about all domestic flights departing from New York City in 2013. Let’s revisit the <code>flights</code> data frame by running <code>View(flights)</code>. We saw that <code>flights</code> has a rectangular shape, with each of its 336,776 rows corresponding to a flight and each of its 22 columns corresponding to different characteristics/measurements of each flight. This satisfied the first two criteria of the definition of “tidy” data from Subsection <a href="wrangling-tidying.html#tidy-definition">20.3.3</a>: that “Each variable forms a column” and “Each observation forms a row.” But what about the third property of “tidy” data that “Each type of observational unit forms a table”?</p>
-<p>Recall that we saw in Subsection <a href="getting-started.html#exploredataframes">8.5.3</a> that the observational unit for the <code>flights</code> data frame is an individual flight. In other words, the rows of the <code>flights</code> data frame refer to characteristics/measurements of individual flights. Also included in the <code>nycflights13</code> package are other data frames with their rows representing different observational units:</p>
-<ul>
-<li><code>airlines</code>: translation between two letter IATA carrier codes and airline company names (16 in total). The observational unit is an airline company.</li>
-<li><code>planes</code>: aircraft information about each of 3,322 planes used, i.e., the observational unit is an aircraft.</li>
-<li><code>weather</code>: hourly meteorological data (about 8,705 observations) for each of the three NYC airports, i.e., the observational unit is an hourly measurement of weather at one of the three airports.</li>
-<li><code>airports</code>: airport names and locations. The observational unit is an airport.</li>
-</ul>
-<p>The organization of the information into these five data frames follows the third “tidy” data property: observations corresponding to the same observational unit should be saved in the same table, i.e., data frame. You could think of this property as the old English expression: “birds of a feather flock together.”</p>
-</div>
-</div>
-<div id="case-study-tidy" class="section level3 hasAnchor" number="20.3.5">
-<h3><span class="header-section-number">20.3.5</span> Case study: Democracy in Guatemala<a href="wrangling-tidying.html#case-study-tidy" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>In this section, we’ll show you another example of how to convert a data frame that isn’t in “tidy” format (“wide” format) to a data frame that is in “tidy” format (“long/narrow” format). We’ll do this using the <code>pivot_longer()</code> function from the <code>tidyr</code> package again.</p>
-<p>Let’s use the <code>dem_score</code> data frame we imported in Section <a href="wrangling-tidying.html#csv">20.3.1</a>, but focus on only data corresponding to Guatemala.</p>
-<div class="sourceCode" id="cb88"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb88-1"><a href="wrangling-tidying.html#cb88-1" tabindex="-1"></a>guat_dem <span class="ot">&lt;-</span> dem_score <span class="sc">%&gt;%</span> </span>
-<span id="cb88-2"><a href="wrangling-tidying.html#cb88-2" tabindex="-1"></a>  <span class="fu">filter</span>(country <span class="sc">==</span> <span class="st">&quot;Guatemala&quot;</span>)</span>
-<span id="cb88-3"><a href="wrangling-tidying.html#cb88-3" tabindex="-1"></a>guat_dem</span></code></pre></div>
-<pre><code># A tibble: 1 × 10
-  country   `1952` `1957` `1962` `1967` `1972` `1977` `1982` `1987` `1992`
-  &lt;chr&gt;      &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;
-1 Guatemala      2     -6     -5      3      1     -3     -7      3      3</code></pre>
-<p>Let’s lay out the grammar of graphics we saw in Section <a href="viz.html#grammarofgraphics">23.2</a>.</p>
-<p>Now we are stuck in a predicament, much like with our <code>drinks_smaller</code> example in Section <a href="wrangling-tidying.html#tidy-data-ex">20.3.2</a>. We see that we have a variable named <code>country</code>, but its only value is <code>"Guatemala"</code>. We have other variables denoted by different year values. Unfortunately, the <code>guat_dem</code> data frame is not “tidy.”</p>
-<p>We need to take the values of the columns corresponding to years in <code>guat_dem</code> and convert them into a new “names” variable called <code>year</code>. Furthermore, we need to take the democracy score values in the inside of the data frame and turn them into a new “values” variable called <code>democracy_score</code>. Our resulting data frame will have three columns: <code>country</code>, <code>year</code>, and <code>democracy_score</code>. Recall that the <code>pivot_longer()</code> function in the <code>tidyr</code> package does this for us:</p>
-<div class="sourceCode" id="cb90"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb90-1"><a href="wrangling-tidying.html#cb90-1" tabindex="-1"></a>guat_dem_tidy <span class="ot">&lt;-</span> guat_dem <span class="sc">%&gt;%</span> </span>
-<span id="cb90-2"><a href="wrangling-tidying.html#cb90-2" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(<span class="at">names_to =</span> <span class="st">&quot;year&quot;</span>, </span>
-<span id="cb90-3"><a href="wrangling-tidying.html#cb90-3" tabindex="-1"></a>               <span class="at">values_to =</span> <span class="st">&quot;democracy_score&quot;</span>, </span>
-<span id="cb90-4"><a href="wrangling-tidying.html#cb90-4" tabindex="-1"></a>               <span class="at">cols =</span> <span class="sc">-</span>country,</span>
-<span id="cb90-5"><a href="wrangling-tidying.html#cb90-5" tabindex="-1"></a>               <span class="at">names_transform =</span> <span class="fu">list</span>(<span class="at">year =</span> as.integer)) </span>
-<span id="cb90-6"><a href="wrangling-tidying.html#cb90-6" tabindex="-1"></a>guat_dem_tidy</span></code></pre></div>
-<pre><code># A tibble: 9 × 3
-  country    year democracy_score
-  &lt;chr&gt;     &lt;int&gt;           &lt;dbl&gt;
-1 Guatemala  1952               2
-2 Guatemala  1957              -6
-3 Guatemala  1962              -5
-4 Guatemala  1967               3
-5 Guatemala  1972               1
-6 Guatemala  1977              -3
-7 Guatemala  1982              -7
-8 Guatemala  1987               3
-9 Guatemala  1992               3</code></pre>
-<p>We set the arguments to <code>pivot_longer()</code> as follows:</p>
-<ol style="list-style-type: decimal">
-<li><code>names_to</code> is the name of the variable in the new “tidy” data frame that will contain the <em>column names</em> of the original data. Observe how we set <code>names_to = "year"</code>. In the resulting <code>guat_dem_tidy</code>, the column <code>year</code> contains the years where Guatemala’s democracy scores were measured.</li>
-<li><code>values_to</code> is the name of the variable in the new “tidy” data frame that will contain the <em>values</em> of the original data. Observe how we set <code>values_to = "democracy_score"</code>. In the resulting <code>guat_dem_tidy</code> the column <code>democracy_score</code> contains the 1 <span class="math inline">\(\times\)</span> 9 = 9 democracy scores as numeric values.</li>
-<li>The third argument is the columns you either want to or don’t want to “tidy.” Observe how we set this to <code>cols = -country</code> indicating that we don’t want to “tidy” the <code>country</code> variable in <code>guat_dem</code> and rather only variables <code>1952</code> through <code>1992</code>.</li>
-<li>The last argument of <code>names_transform</code> tells R what type of variable <code>year</code> should be set to. Without specifying that it is an <code>integer</code> as we’ve done here, <code>pivot_longer()</code> will set it to be a character value by default.</li>
-</ol>
-</div>
-</div>
-<div id="tidyverse-package" class="section level2 hasAnchor" number="20.4">
-<h2><span class="header-section-number">20.4</span> <code>tidyverse</code> package<a href="wrangling-tidying.html#tidyverse-package" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>At the beginning of our tidying walkthrough, we loaded the following three packages (as well as <code>here</code>), which are among the most frequently used R packages for data science:</p>
-<div class="sourceCode" id="cb92"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb92-1"><a href="wrangling-tidying.html#cb92-1" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
-<span id="cb92-2"><a href="wrangling-tidying.html#cb92-2" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
-<span id="cb92-3"><a href="wrangling-tidying.html#cb92-3" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span></code></pre></div>
-<p>Recall that <code>dplyr</code> is for data wrangling, <code>readr</code> is for importing spreadsheet data into R, and <code>tidyr</code> is for converting data to “tidy” format. There is a much quicker way to load these packages than by individually loading them: by installing and loading the <code>tidyverse</code> package. The <code>tidyverse</code> package acts as an “umbrella” package whereby installing/loading it will install/load multiple packages at once for you.</p>
-<p>After installing the <code>tidyverse</code> package as you would a normal package (as seen in Section <a href="getting-started.html#packages">8.4</a>), running:</p>
-<div class="sourceCode" id="cb93"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb93-1"><a href="wrangling-tidying.html#cb93-1" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code></pre></div>
-<p>would be the same as running:</p>
-<div class="sourceCode" id="cb94"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb94-1"><a href="wrangling-tidying.html#cb94-1" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb94-2"><a href="wrangling-tidying.html#cb94-2" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
-<span id="cb94-3"><a href="wrangling-tidying.html#cb94-3" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
-<span id="cb94-4"><a href="wrangling-tidying.html#cb94-4" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span>
-<span id="cb94-5"><a href="wrangling-tidying.html#cb94-5" tabindex="-1"></a><span class="fu">library</span>(purrr)</span>
-<span id="cb94-6"><a href="wrangling-tidying.html#cb94-6" tabindex="-1"></a><span class="fu">library</span>(tibble)</span>
-<span id="cb94-7"><a href="wrangling-tidying.html#cb94-7" tabindex="-1"></a><span class="fu">library</span>(stringr)</span>
-<span id="cb94-8"><a href="wrangling-tidying.html#cb94-8" tabindex="-1"></a><span class="fu">library</span>(forcats)</span></code></pre></div>
-<p>We’ll cover <code>ggplot2</code> in a future walk through, but the other packages are more than we need in 661. You can check out <em><a href="https://r4ds.had.co.nz/">R for Data Science</a></em> to learn about these packages.</p>
-<p>For the remainder of this book, we’ll start every walkthrough by running <code>library(tidyverse)</code>, instead of loading the various component packages individually. The <code>tidyverse</code> “umbrella” package gets its name from the fact that all the functions in all its packages are designed to have common inputs and outputs: data frames are in “tidy” format. This standardization of input and output data frames makes transitions between different functions in the different packages as seamless as possible. For more information, check out the <a href="https://www.tidyverse.org/">tidyverse.org</a> webpage for the package.</p>
-</div>
-<div id="references-8" class="section level2 hasAnchor" number="20.5">
-<h2><span class="header-section-number">20.5</span> References<a href="wrangling-tidying.html#references-8" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Grolemund, G., &amp; Wickham, H. (2017). <em>R for Data Science</em> (1st edition). O’Reilly Media. <a href="https://r4ds.had.co.nz/" class="uri">https://r4ds.had.co.nz/</a>.</p>
-<p>Wickham, H. (2014). Tidy data. <em>Journal of Statistical Software</em>, <em>59</em>(10). <a href="https://www.jstatsoft.org/index.php/jss/article/view/v059i10/v59i10.pdf" class="uri">https://www.jstatsoft.org/index.php/jss/article/view/v059i10/v59i10.pdf</a>.</p>
+<div id="conclusion-15" class="section level2 hasAnchor" number="40.7">
+<h2><span class="header-section-number">40.7</span> Conclusion<a href="m13u-the-dangers-of-false-positives.html#conclusion-15" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The “false positives” in these stories are not Type I errors as we’ll be discussing in the context of hypothesis testing. Nonetheless, they serve as powerful reminders that <em>data cannot always be trusted</em>. These universities didn’t necessarily act maliciously—indeed, it’s understandable that institutions of higher education would want to crack down on cheating! Instead, the main error that these schools made was assuming that data are always objective and trustworthy instead of being open to the ways in which seemingly straightforward data can fail us. As data scientists, it’s important that we avoid the same mistake.</p>
 
 </div>
 </div>
@@ -1556,8 +853,8 @@ Overcast
           </div>
         </div>
       </div>
-<a href="m6u-unicorns-janitors-and-rock-stars.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="m6c-practice-wrangling-and-tidying-your-own-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="m12c-explore-confidence-intervals-with-your-own-data.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="hypothesis-testing.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

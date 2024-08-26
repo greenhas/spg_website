@@ -1,4 +1,4 @@
-# M13A: Hypothesis Testing {#hypothesis-testing}
+# M13: Hypothesis Testing {#hypothesis-testing}
 
 This content draws on material from *[Statistical Inference via Data Science: A ModernDive into R and the Tidyverse](https://moderndive.com/)* by [Chester Ismay](https://chester.rbind.io/) and [Albert Y. Kim](https://rudeboybert.rbind.io/), licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
@@ -33,7 +33,7 @@ set.seed(76)
 
 ## Introduction
 
-Now that we've studied confidence intervals in Chapter \@ref(confidence-intervals), let's study another commonly used method for statistical inference: hypothesis testing. Hypothesis tests allow us to take a sample of data from a population and infer about the plausibility of competing hypotheses. For example, in the upcoming "promotions" activity in Section \@ref(ht-activity), you'll study the data collected from a psychology study in the 1970s to investigate whether gender-based discrimination in promotion rates existed in the banking industry at the time of the study. 
+Now that we've studied confidence intervals in Chapter \@ref(confidence-intervals), let's look into another commonly used method for statistical inference: hypothesis testing. Hypothesis tests allow us to take a sample of data from a population and infer about the plausibility of competing hypotheses. For example, in the upcoming "promotions" activity in Section \@ref(ht-activity), you'll study the data collected from a psychology study in the 1970s to investigate whether gender-based discrimination in promotion rates existed in the banking industry at the time of the study. 
 
 The good news is we've already covered many of the necessary concepts to understand hypothesis testing in Chapters \@ref(sampling) and \@ref(confidence-intervals). We will expand further on these ideas here and also provide a general framework for understanding hypothesis tests. By understanding this general framework, you'll be able to adapt it to many different scenarios.
 
@@ -88,7 +88,7 @@ To begin the study, `r n_resumes` bank supervisors were asked to assume the role
 
 However, each of these `r n_resumes` résumés were identical in all respects except one: the name of the applicant at the top of the résumé. Of the supervisors, `r n_resumes_gender` were randomly given résumés with stereotypically "male" names, while `r n_resumes_gender` of the supervisors were randomly given résumés with stereotypically "female" names. Since only (binary) gender varied from résumé to résumé, researchers could isolate the effect of this variable in promotion rates.
 
-As before, we're working with a data set that assumes a binary view of gender that does not reflect the actual complexity of this phenomenon. We can still learn something about sex discrimination from this data, so it's worth working with, but let's be critical about the weaknesses of the data—and please don't interpret this as an endorsement of a gender binary.
+As before, we're working with a data set that assumes a binary view of gender that does not reflect the actual complexity of this phenomenon. We can still learn something about discrimination from this data, so it's worth working with, but let's be critical about the weaknesses of the data—and please don't interpret this as an endorsement of a gender binary.
 
 The `moderndive` package contains the data on the `r n_resumes` applicants in the `promotions` data frame. Let’s explore this data by looking at six randomly selected rows:
 
@@ -489,7 +489,7 @@ denom <- nrow(shuffled_data_tidy)
 p_val <- round((num + 1) / (denom + 1), 3)
 ```
 
-In this case, `r sum(shuffled_data_tidy$stat >= observed_test_statistic)` times out of `r n_shuffle`, we obtained a difference in proportion greater than or equal to the observed difference of `r observed_test_statistic` = `r observed_test_statistic*100`%. A very rare (in fact, not occurring) outcome! Given the rarity of such a pronounced difference in promotion rates in our hypothesized universe of no gender discrimination, we're inclined to *reject* \index{hypothesis testing!reject the null hypothesis} our hypothesized universe. Instead, we favor the hypothesis stating there is discrimination in favor of the "male" applicants. In other words, we reject $H_0$ in favor of $H_A$.
+In this case, it's `r sum(shuffled_data_tidy$stat >= observed_test_statistic)` times out of `r n_shuffle` that we obtained a difference in proportion greater than or equal to the observed difference of `r observed_test_statistic` = `r observed_test_statistic*100`%. A very rare (in fact, not occurring) outcome! Given the rarity of such a pronounced difference in promotion rates in our hypothesized universe of no gender discrimination, we're inclined to *reject* \index{hypothesis testing!reject the null hypothesis} our hypothesized universe. Instead, we favor the hypothesis stating there is discrimination in favor of the "male" applicants. In other words, we reject $H_0$ in favor of $H_A$.
 
 <!--
 v2 TODO: Including observed test stat in p-value computation
@@ -511,9 +511,9 @@ While different fields tend to use different values of $\alpha$, some commonly u
 
 ## Conducting hypothesis tests {#ht-infer}
 
-In Section \@ref(bootstrap-process), we showed you how to construct confidence intervals. We first illustrated how to do this using `dplyr` data wrangling verbs and the `rep_sample_n()` function from Subsection \@ref(shovel-1000-times) which we used as a virtual shovel. In particular, we constructed confidence intervals by resampling with replacement by setting the `replace = TRUE` argument to the `rep_sample_n()` function. 
+In Section \@ref(bootstrap-process), I showed you how to construct confidence intervals. I first illustrated how to do this using `dplyr` data wrangling verbs and the `rep_sample_n()` function from Subsection \@ref(shovel-1000-times) which we used as a virtual shovel. In particular, we constructed confidence intervals by resampling with replacement by setting the `replace = TRUE` argument to the `rep_sample_n()` function. 
 
-We then showed you how to perform the same task using the `infer` package workflow. While both workflows resulted in the same bootstrap distribution from which we can construct confidence intervals, the `infer` package workflow emphasizes each of the steps in the overall process in Figure \@ref(fig:infer-ci). It does so using function names that are intuitively named with verbs:
+I then showed you how to perform the same task using the `infer` package workflow. While both workflows resulted in the same bootstrap distribution from which we can construct confidence intervals, the `infer` package workflow emphasizes each of the steps in the overall process in Figure \@ref(fig:infer-ci). It does so using function names that are intuitively named with verbs:
 
 1. `specify()` the variables of interest in your data frame.
 1. `generate()` replicates of bootstrap resamples with replacement.
@@ -524,7 +524,7 @@ We then showed you how to perform the same task using the `infer` package workfl
 include_graphics("images/flowcharts/infer/visualize.png")
 ```
 
-In this section, we'll now show you how to seamlessly modify the previously seen `infer` code for constructing confidence intervals to conduct hypothesis tests. You'll notice that the basic outline of the workflow is almost identical, except for an additional `hypothesize()` step between the `specify()` and `generate()` steps, as can be seen in Figure \@ref(fig:inferht).
+In this section, I'll now show you how to modify the previously seen `infer` code for constructing confidence intervals to conduct hypothesis tests. You'll notice that the basic outline of the workflow is almost identical, except for an additional `hypothesize()` step between the `specify()` and `generate()` steps, as can be seen in Figure \@ref(fig:inferht).
 
 ```{r inferht, echo=FALSE, fig.cap="Hypothesis testing with the infer package.", purl=FALSE, out.width="90%", out.height="90%"}
 include_graphics("images/flowcharts/infer/ht.png")
@@ -634,7 +634,7 @@ Observe that the resulting data frame has `r (n_resumes*n_reps) %>% comma()` row
 
 Now that we have generated `r n_reps` replicates of "shuffles" assuming the null hypothesis is true, let's `calculate()` \index{infer!calculate()} the appropriate summary statistic for each of our `r n_reps` shuffles. From Section \@ref(understanding-ht), point estimates related to hypothesis testing have a specific name: *test statistics*. Since the unknown population parameter of interest is the difference in population proportions $p_{m} - p_{f}$, the test statistic here is the difference in sample proportions $\widehat{p}_{m} - \widehat{p}_{f}$. 
 
-For each of our `r n_reps` shuffles, we can calculate this test statistic by setting `stat = "diff in props"`. Furthermore, since we are interested in $\widehat{p}_{m} - \widehat{p}_{f}$ we set `order = c("male", "female")`. As we stated earlier, the order of the subtraction does not matter, so long as you stay consistent throughout your analysis and tailor your interpretations accordingly. 
+For each of our `r n_reps` shuffles, we can calculate this test statistic by setting `stat = "diff in props"`. Furthermore, since we are interested in $\widehat{p}_{m} - \widehat{p}_{f}$ we set `order = c("male", "female")`. As I stated earlier, the order of the subtraction does not matter, so long as you stay consistent throughout your analysis and tailor your interpretations accordingly. 
 
 Let's save the result in a data frame called `null_distribution`:
 
@@ -658,7 +658,7 @@ if (!file.exists("rds/null_distribution_promotions.rds")) {
 null_distribution
 ```
 
-Observe that we have `r n_reps` values of `stat`, each representing one  instance of $\widehat{p}_{m} - \widehat{p}_{f}$ in a hypothesized world of no gender discrimination. Observe as well that we chose the name of this data frame carefully: `null_distribution`. Recall once again from Section \@ref(understanding-ht) that sampling distributions when the null hypothesis $H_0$ is assumed to be true have a special name: the *null distribution*. 
+Observe that we have `r n_reps` values of `stat`, each representing one  instance of $\widehat{p}_{m} - \widehat{p}_{f}$ in a hypothesized world of no gender discrimination. Observe as well that I chose the name of this data frame carefully: `null_distribution`. Recall once again from Section \@ref(understanding-ht) that sampling distributions when the null hypothesis $H_0$ is assumed to be true have a special name: the *null distribution*. 
 
 What was the *observed* difference in promotion rates? In other words, what was the *observed test statistic* $\widehat{p}_{m} - \widehat{p}_{f}$? Recall from Section \@ref(ht-activity) that we computed this observed difference by hand to be `r p_men_promoted` - `r p_women_promoted` = `r observed_test_statistic` = `r observed_test_statistic*100`%. We can also compute this value using the previous `infer` code but with the `hypothesize()` and `generate()` steps removed. Let's save this in `obs_diff_prop`:
 

@@ -326,7 +326,7 @@ Since we didn't perform the simulation to get the values of the standard error, 
 
 The answer is no! There exist mathematical formulas that allow you to construct confidence intervals and conduct hypothesis tests for inference for regression. These formulas were derived in a time when computers didn't exist, so it would've been impossible to run the extensive computer simulations we have in this book.
 
-In Section \@ref(infer-regression), we'll go over a simulation-based approach to constructing confidence intervals and conducting hypothesis tests using the `infer` package. In particular, we'll convince you that the bootstrap distribution of the fitted slope $b_1$ is indeed bell-shaped.
+In Section \@ref(infer-regression), we'll go over a simulation-based approach to constructing confidence intervals and conducting hypothesis tests using the `infer` package. In particular, I'll revisit the idea that the bootstrap distribution of the fitted slope $b_1$ is indeed bell-shaped.
 
 ## Conditions for inference for regression {#regression-conditions}
 
