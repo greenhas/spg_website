@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 302 5.1</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 302: Content Management Systems</h1>
+<h2 style=color:white>19 September 2023</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+
+# announcements
+
+--
+
+* ## Kentucky general election on November 7th
+    * ### must [register](https://vrsws.sos.ky.gov/ovrweb/) by October 10th at 4pm
+    
+--
+
+* ## [Technology for Social Justice](https://ea.uky.edu/index.cfm?FuseAction=Programs.ViewProgramAngular&id=13881) study abroad
+    * ### Oaxaca, Mexico; July 14 through August 14; no Spanish proficiency required
+    * ### apply by April 1st, 2024, contact [Dr. Espinoza](mailto:fatima.espinoza@uky.edu)
+  
+--
+    
+* ## free [LexTalk Tech](lextalk.tech) conference at the Cornerstone on October 12th
+
+---
+
+class: center, middle
+
+# what is a content management system?
+
+---
+
+class: center, middle
+
+# how are we feeling about Hugo as a content management system?
+
+
+---
+
+class: center, middle
+
+# what is content? 
+
+---
+
+# presentation
+
+> *The general concept and processes around modifying content for display in a particular channel, usually through templating. A template applied to content will result in output which is then delivered.*
+
+Deane Barker, [Flying Squirrel Glossary](https://flyingsquirrelbook.com/glossary/term/presentation/)
+
+--
+
+## how is our reading on the Reddit blackout related to presentation?
+
+--
+
+> *One in four Americans are disabled and have varying access needs, such as... the ability to modify how text is displayed. Greater accessibility often benefits people in ways they don’t even notice. Enlarged text or changed contrast are access features, for example, and fans of dark mode can thank the disability community.*
+
+smith, s.e. (2023, Jun 13). Why disabled users joined the Reddit blackout. *The Verge* https://www.theverge.com/2023/6/13/23759761/reddit-disability-accessibility-blackout-api-blind
+
+---
+
+# separating content and presentation
+
+> *The idea that content should be separate from presentation is so central to content management that’s it’s become a cliché *
+
+Deane Barker, [Examining the Separation Between Presentation and Content](https://deanebarker.net/tech/blog/examining-the-separation-between-presentation-and-content/)
+
+--
+
+##two types of separation:
+
+--
+
+* "Content from its aesthetic surroundings, so the 'presentation' is the use of colors, fonts, etc."
+
+--
+
+* "Content from other content, so Content A is independent from Content B, and the 'presentation' is the potential combination of the two"
+
+--
+
+* a Hugo example
+ * "[raw content](https://raw.githubusercontent.com/greenhas/ict302_fall23/main/content/about.md)" 
+ * [content with presentation](https://super-gumdrop-60116b.netlify.app/about)
+ 
+---
+
+class: center, middle
+
+# how does the Kernel separate content from presentation?
+
+---
+
+class: center, middle
+
+# how does the Kernel apply presentation?
+
+---
+
+class: center, middle
+
+# how does the Kernel's workflow reflect this?
+
+---
+
+# how do we handle presentation in a web CMS?
+
+--
+
+## HTML (HyperText Markup Language)
+
+* `<h1>test</h1>`
+
+# test
+
+* `<strong>test</strong>`
+
+**test**
+
+* `<code>test</code>`
+
+`test`
+
+---
+
+# how do we handle presentation in a web CMS?
+
+
+
+## HTML (HyperText Markup Language)
+
+* `<h1>test</h1>`
+
+# test
+
+* `<strong>test</strong>`
+
+**test**
+
+* `<code>test</code>`
+
+<code style=color:red>test</code>
+
+---
+
+# how do we handle presentation in a web CMS?
+
+
+
+## HTML (HyperText Markup Language)
+
+* `<h1>test</h1>`
+
+# test
+
+* `<strong>test</strong>`
+
+**test**
+
+* `<code style=color:red>test</code>`
+
+<code style=color:red>test</code>
+
+---
+
+# how do we handle presentation in a web CMS?
+
+## CSS (Cascading Style Sheets)
+
+* in-line CSS:
+
+`<code style=color:red>test</code>`
+
+* CSS document:
+
+`code { `
+
+`color:red`
+
+`}`
+
+---
+
+# how do we handle presentation in a web CMS?
+
+## blocks, templates, and content models
+
+---
+
+# how do we handle presentation in a web CMS?
+
+## themes
+
+[Hugo Themes](https://themes.gohugo.io/)
+
+---
+
+class: center, middle
+
+# why separate content from presentation?
+
+
+
+
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({});
+    </script>
+  </body>
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 302 9.1</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 302: Content Management Systems</h1>
+<h2 style=color:white>26 September 2023</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+
+# announcements
+
+--
+
+* ## Kentucky general election on November 7th
+    * ### must [register](https://vrsws.sos.ky.gov/ovrweb/) by October 10th at 4pm
+    
+--
+
+* ## [Technology for Social Justice](https://ea.uky.edu/index.cfm?FuseAction=Programs.ViewProgramAngular&id=13881) study abroad
+    * ### Oaxaca, Mexico; July 14 through August 14; no Spanish proficiency required
+    * ### apply by April 1st, 2024, contact [Dr. Espinoza](mailto:fatima.espinoza@uky.edu)
+  
+--
+    
+* ## free [LexTalk Tech](lextalk.tech) conference at the Cornerstone on October 12th
+
+
+
+---
+
+# content aggregation
+
+--
+
+> *An intentional grouping of content for the purposes of organization or presentation*
+
+Deane Barker, [Flying Squirrel Glossary](https://flyingsquirrelbook.com/glossary/term/aggregation/)
+
+--
+
+### [content aggregation for presentation](https://spencergreenhalgh.com/work/new-edition-of-my-remixed-data-science-textbook/)
+
+--
+
+### [content aggregation for organization](https://spencergreenhalgh.com/tags/ict-661/)
+
+---
+
+# content aggregation
+
+--
+
+### can you think of content aggregation examples in the content that you consume?
+
+--
+
+### how is a podcast usually aggregated for organization?
+
+--
+
+### why does [Project Zion Podcast](https://www.projectzionpodcast.org/) care about content aggregation?
+
+--
+
+### how does Project Zion Podcast aggregate their content?
+
+
+---
+
+# CMS features that support content aggregation
+
+--
+
+* ## menus
+
+--
+
+* ## categories
+
+--
+
+* ## tags
+
+--
+
+* ## other?
+
+---
+
+# serial
+
+--
+
+* ## organized "in a line"
+
+--
+
+* ## [Project Zion Podcast](https://www.projectzionpodcast.org/episodes-quick-list/)
+
+--
+
+
+* ## [YouTube playlist/music album](https://www.youtube.com/watch?v=sYRp8oP0yiw&list=OLAK5uy_n_KoKi3ioPEsTMStsk_DIjRjvSZwBbIhg)
+
+---
+
+# hierarchical
+
+--
+
+* ## organized like a family tree, with "parent" and "child" content
+
+--
+
+* ## menus and categories are especially helpful here
+
+--
+
+* ## [Project Zion Podcast](https://www.projectzionpodcast.org/series/)
+    
+--
+
+* ## [Fantasy Flight Games website](https://www.fantasyflightgames.com/en/products/#/universe)
+    
+---
+
+# tabular
+
+--
+    
+* ## organized in a table or database and then accessed through searching
+
+--
+
+* ## [Project Zion Podcast](https://www.projectzionpodcast.org/?s=Neil+DeAtley)
+
+--
+
+* ## [randombundlegame.com](https://randombundlegame.com/)
+    
+---
+
+# network
+
+--
+
+* ## organized through links between content
+
+--
+
+* ## tags are _kind of_ related to network content 
+
+--
+
+* ## [Hugo blog post](https://spencergreenhalgh.com/work/new-edition-of-my-remixed-data-science-textbook/)
+
+--
+
+* ## [Wikipedia](https://en.wikipedia.org/wiki/Cheese)
+    
+---
+
+# relational
+
+--
+
+* ##similar to hierarchical, but different content types and different relationships are more tightly defined
+
+--
+
+* ## [IMDb](https://www.imdb.com/title/tt0080297/?ref_=nv_sr_srsg_3)
+
+---
+
+# implicit vs. explicit aggregation
+
+--
+
+* ## implicit aggregation is built off of _internal_ characteristics of the content
+
+--
+
+    * ### Hugo folders (see `spg_website`)
+
+--
+
+* ## explicit aggregation is defined _externally_ to the content itself
+
+--
+
+    * ### [302 About page](https://super-gumdrop-60116b.netlify.app/about/)
+
+
+---
+
+# static vs. dynamic aggregation
+
+--
+
+* ## static aggregation is hand-picked ahead of time and is arbitrary
+
+--
+
+    * ### [Project Zion series](https://www.projectzionpodcast.org/category/steamers-and-sodas/)
+
+
+--
+
+* ## dynamic aggregation is automatically-generated "on the fly" and based on criteria
+
+
+--
+    * ### [Ananke theme recommended reads](https://spencergreenhalgh.com/work/new-edition-of-my-remixed-data-science-textbook/)
+    
+--
+
+* ## Canvas modules vs. Canvas To Do
+
+---
+
+# fixed vs. variable aggregation
+
+--
+
+* ### both of these derive from dynamic aggregations
+
+--
+
+* ### a fixed aggregation is the same every time for everyone
+
+--
+
+* ### a variable aggregation changes based on context
+
+--
+
+* ### [YouTube example]((https://www.youtube.com/watch?v=sYRp8oP0yiw&list=OLAK5uy_n_KoKi3ioPEsTMStsk_DIjRjvSZwBbIhg)
+
+---
+
+class: center, middle
+
+# Jacob Hurwitz-Goodman, [The Day Facebook Ruined the Internet](https://www.nytimes.com/2021/06/09/opinion/facebook-news-feed-zuckerberg.html)
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({});
+    </script>
+  </body>
+</html>
