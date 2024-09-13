@@ -1,7 +1,7 @@
 ---
 date: 2024-09-11T07:11:57-04:00
 title: "the new Reeder is exactly the app I want right now"
-tags: ["macro","Myself","RSS,"Mastodon","Bluesky","Reeder","feeeed","Feedbin","Twitter","Reddit","NetNewsWire","iOS","macOS","Elon Musk","POSSE","Micro.blog","Dumbing of Age","Mona","podcasts","Overcast","xkcd","Order of the Stick","Saturday Morning Breakfast Cereal"]
+tags: ["macro","Myself","RSS","Mastodon","Bluesky","Reeder","feeeed","Feedbin","Twitter","Reddit","NetNewsWire","iOS","macOS","Elon Musk","POSSE","Micro.blog","Dumbing of Age","Mona","podcasts","Overcast","xkcd","Order of the Stick","Saturday Morning Breakfast Cereal"]
 ---
 
 ## introduction and history
