@@ -1,0 +1,9 @@
+---
+date: 2024-09-25T21:03:06-04:00
+tags: ["link","Communities","Clay Higgins","Mike Johnson","racism"]
+title: "🔗 linkblog: my thoughts on 'Rep. Clay Higgins Posts, Then Deletes, Racist Comments About Haitians'"
+---
+Posting this as a bookmark. It's mindboggling how overtly racist
+this is—and how much work the GOP will do to dismiss it as nothing. I want to be able to return back to this in the weeks and months to come, to remind myself and others just how bad things are.
+
+[link to "Rep. Clay Higgins Posts, Then Deletes, Racist Comments About Haitians"](https://www.nytimes.com/2024/09/25/us/politics/clay-higgins-haitians-springfield-ohio.html)
