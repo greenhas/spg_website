@@ -1,7 +1,7 @@
 ---
 date: 2024-09-26T15:35:03-04:00
 title: "Nephi's violence as 'commandment anxiety'"
-tags: ["macro","Communities","Joseph Spencer","Brief Theological Introductions (series)","rereading the Book of Mormon project","Book of Mormon","Grant Hardy","Understanding the Book of Mormon","Carol Lynn Pearson"]
+tags: ["macro","Communities","Joseph Spencer","Brief Theological Introductions (series)","rereading the Book of Mormon project","Book of Mormon","Grant Hardy","Understanding the Book of Mormon","Carol Lynn Pearson","Nephi"]
 ---
 
 I have recently been (slowly) getting back into [my exploration of what a modernized Book of Mormon might look like](https://spencergreenhalgh.com/tags/rereading-the-book-of-mormon-project/), which has meant spending some time in the opening chapter of the Book of Mormon and some commentaries on that chapter. One of the most interesting things about I Nephi 1 (by the original and Community of Christ chapter breaks—LDS editions split this into 1 Nephi 1-5) is that the reader is almost immediately forced to deal with a tension between our protagonist and narrator Nephi's insistence that he is a good guy of whom God approves and Nephi's willingness to murder a passed-out drunk to steal his clothes and con his way into taking control of some of his property. One of my favorite things to come out of critical readings of the Book of Mormon is trying to understand this episode: not to dismiss it or to justify it, but to wonder how there might be more to the story than our narrator might be letting on.
