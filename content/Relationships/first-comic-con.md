@@ -1,5 +1,5 @@
 ---
-date: 2024-10-13T07:06:43-05:00
+date: 2024-10-13T06:06:43-05:00
 title: "family's first comic con"
 tags: ["macro","Relationships","comic cons","libraries","Squirrel Girl","The Unbeatable Squirrel Girl","Star Wars","Keyforge","Lexington","tabletop games","comics"]
 ---
