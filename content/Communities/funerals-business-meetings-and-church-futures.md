@@ -1,4 +1,4 @@
-w---
+---
 date: 2024-10-14T10:13:32-04:00
 title: "funerals, business meetings, and church futures"
 tags: ["macro","Communities","ordination","Community of Christ","Kirtland Temple","Independence Temple","Holy Week"]
