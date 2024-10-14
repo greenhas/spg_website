@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>MSSA_2024_DezNat.knit</title>
+    <title>_MSSA_2024_DezNat.knit</title>
     <meta charset="utf-8" />
     <script src="libs/header-attrs-2.28/header-attrs.js"></script>
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
@@ -282,7 +282,7 @@ df %&gt;% filter(tweet_status == "original tweet") %&gt;%
   geom_histogram(binwidth = 200)
 ```
 
-![](MSSA_2024_DezNat_files/figure-html/unnamed-chunk-2-1.png)&lt;!-- --&gt;
+![](_MSSA_2024_DezNat_files/figure-html/unnamed-chunk-2-1.png)&lt;!-- --&gt;
 
 ???
 
@@ -335,7 +335,7 @@ df %&gt;% group_by(month) %&gt;%
   geom_line() + geom_smooth(col="red")
 ```
 
-![](MSSA_2024_DezNat_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
+![](_MSSA_2024_DezNat_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
 ???
 
 This is a month-by-month timeline, where we can see some up and down patterns, both over the entire history of #DezNat and between months. I'll circle back to this in a bit, but you may be interested in puzzling out a regular pattern of certain months that see high activity. I want to observe first, though, that DezNat seems to have peaked in 2020 and seen gradual decline since then. 
@@ -354,7 +354,7 @@ df %&gt;%  filter(account_source %in% top_5$account_source) %&gt;%
   geom_line() + theme(legend.position="none")
 ```
 
-![](MSSA_2024_DezNat_files/figure-html/unnamed-chunk-6-1.png)&lt;!-- --&gt;
+![](_MSSA_2024_DezNat_files/figure-html/unnamed-chunk-6-1.png)&lt;!-- --&gt;
 
 ???
 
@@ -385,7 +385,7 @@ df %&gt;% group_by(month) %&gt;%
   geom_line() + geom_smooth(col="red")
 ```
 
-![](MSSA_2024_DezNat_files/figure-html/unnamed-chunk-7-1.png)&lt;!-- --&gt;
+![](_MSSA_2024_DezNat_files/figure-html/unnamed-chunk-7-1.png)&lt;!-- --&gt;
 
 ???
 
@@ -401,7 +401,7 @@ df %&gt;% group_by(date) %&gt;%
   geom_line()
 ```
 
-![](MSSA_2024_DezNat_files/figure-html/unnamed-chunk-8-1.png)&lt;!-- --&gt;
+![](_MSSA_2024_DezNat_files/figure-html/unnamed-chunk-8-1.png)&lt;!-- --&gt;
 ???
 
 In fact, if we switch from a month-to-month summary to a day-to-day summary, we can see that it's not actually certain months: It's certain days, or maybe certain weekends, and if we look at the specific days that see the most #DezNat activity, we can confirm that 
@@ -766,7 +766,7 @@ df %&gt;% filter(account_source %in% top_5$account_source) %&gt;%
   geom_line() + theme(legend.position="none")
 ```
 
-![](MSSA_2024_DezNat_files/figure-html/unnamed-chunk-16-1.png)&lt;!-- --&gt;
+![](_MSSA_2024_DezNat_files/figure-html/unnamed-chunk-16-1.png)&lt;!-- --&gt;
 
 ???
 
@@ -920,7 +920,7 @@ df %&gt;% filter(tweet_status == "original tweet") %&gt;%
   geom_histogram(binwidth = 1)
 ```
 
-![](MSSA_2024_DezNat_files/figure-html/unnamed-chunk-18-1.png)&lt;!-- --&gt;
+![](_MSSA_2024_DezNat_files/figure-html/unnamed-chunk-18-1.png)&lt;!-- --&gt;
 ???
 
 a histogram with narrower bins, just to emphasize extent of long tail phenomenon
