@@ -3,7 +3,6 @@ date: 2024-10-25T11:36:30-04:00
 title: "Atomic Robo, the Book of Mormon, and Animal Man"
 tags: ["macro","Myself","Atomic Robo","Animal Man","Book of Mormon","TTRPGs","Star Wars","webcomics","Mormonism","Marvel","Elray Henriksen"]
 ---
-
 I've blogged a fair amount over the past year or so about how ethics intersect with fiction. I've blogged about whether one should try to [live by one's values in TTRPGs](https://spencergreenhalgh.com/myself/on-games-and-values/) and about my discomfort with the Star Wars franchise (which I otherwise love!) [when I put it in tension with my aspirations toward non-violence](https://spencergreenhalgh.com/myself/star-wars-and-non-violence/). I think these are valuable questions (otherwise I wouldn't publicly write on them), but whenever I write that sort of thing, I also worry that I'm overthinking things, that there's a way to enjoy fiction without having to think through all of its ethical and moral ramifications.
 
 A few days ago, I started an archive binge of the *Atomic Robo* webcomic (and flipped through the PDF of its RPG, which I picked up in a bundle), and as I began reading through its pulp-y, weird science story, it felt like exactly that kind of guilty pleasure. It's knowingly dumb, action-oriented, and just kind of fun. It's Indiana Jones turned up to 11, but when I was reading it, I didn't feel the ickiness about the pulp violence that I did [when I watched](https://spencergreenhalgh.com/myself/2023-12-23-kicked-off/) *Dial of Destiny* back in December. To be honest, all of this was a kind of relief! 
