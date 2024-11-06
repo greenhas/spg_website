@@ -1,7 +1,7 @@
 ---
 date: 2024-11-06T13:24:40-05:00
 title: "books I want to reread after this particular Election Day"
-tags: ["macro","Communities","Walkaway","Cory Doctorow","The 2020 Commission Report on the North Korean Nuclear Attacks Against the United States","Jeffrey Lewis","The Plot Against America","Philip Roth","Superman Smashes the Klan","Gene Luen Yang","Practical Anarchism","Scott Branson","2024 elections","The Kingdom of God is Within You","Leo Tolstoy"]
+tags: ["macro","Communities","Walkaway","Cory Doctorow","The 2020 Commission Report on the North Korean Nuclear Attacks Against the United States","Jeffrey Lewis","The Plot Against America","Philip Roth","Superman Smashes the Klan","Gene Luen Yang","Practical Anarchism","Scott Branson","2024 elections","The Kingdom of God is Within You","Leo Tolstoy","The Bezzle"]
 ---
 
 * *Walkaway*, by Cory Doctorow, because it's a story of radical hope in the face of bleak reality
