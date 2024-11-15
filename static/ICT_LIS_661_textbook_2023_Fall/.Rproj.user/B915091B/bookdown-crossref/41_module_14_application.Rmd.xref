@@ -1,0 +1,42 @@
+h1:inference-for-regression M14A: Inferential Regression
+h2:introduction Introduction
+h3:inf-packages Needed packages
+h2:regression-refresher Regression refresher
+h3:teaching-evaluations-analysis Teaching evaluations analysis
+fig:regline Relationship with regression line.
+tab:regtable-11 Previously seen linear regression table
+h3:sampling-scenario Sampling scenario
+tab:summarytable-ch11 Scenarios of sampling for inference
+h2:regression-interp Interpreting regression tables
+tab:score-model-part-deux Previously seen regression table
+h3:regression-se Standard error
+h3:regression-test-statistic Test statistic
+h3:p-value p-value
+h3:confidence-interval Confidence interval
+h3:regression-table-computation How does R compute the table?
+h2:regression-conditions Conditions for inference for regression
+h3:residuals-refresher Residuals refresher
+fig:residual-example Example of observed value, fitted value, and residual.
+h3:linearity-of-relationship Linearity of relationship
+fig:non-linear Example of a clearly non-linear relationship.
+h3:independence-of-residuals Independence of residuals
+h3:normality-of-residuals Normality of residuals
+fig:model1residualshist Histogram of residuals.
+fig:normal-residuals Example of clearly normal and clearly not normal residuals.
+h3:equality-of-variance Equality of variance
+fig:numxplot6 Plot of residuals over beauty score.
+fig:equal-variance-residuals Example of clearly non-equal variance.
+h3:what-is-the-conclusion What’s the conclusion?
+h2:infer-regression Simulation-based inference for regression
+h3:confidence-interval-for-slope Confidence interval for slope
+fig:bootstrap-distribution-slope Bootstrap distribution of slope.
+h4:percentile-method Percentile-method
+h4:standard-error-method Standard error method
+h4:comparing-all-three Comparing all three
+fig:bootstrap-distribution-slope-CI Comparing three confidence intervals for the slope.
+h3:hypothesis-test-for-slope Hypothesis test for slope
+fig:null-distribution-slope Null distribution of slopes.
+fig:p-value-slope Null distribution and $p$-value.
+h2:inference-conclusion Conclusion
+tab:table-ch11 \\label{tab:summarytable-ch9}Scenarios of sampling for inference
+

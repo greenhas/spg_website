@@ -1,0 +1,10 @@
+"0","# This code is used for dynamic non-static in-line text output purposes"
+"0","n_men_promoted_original <- promotions %>%"
+"0","  filter(gender == ""male"" & decision == ""promoted"") %>%"
+"0","  nrow()"
+"0","n_women_promoted_original <- promotions %>%"
+"0","  filter(gender == ""female"" & decision == ""promoted"") %>%"
+"0","  nrow()"
+"0","p_men_promoted <- n_men_promoted_original / n_resumes_gender"
+"2","Error: object 'n_resumes_gender' not found
+"
