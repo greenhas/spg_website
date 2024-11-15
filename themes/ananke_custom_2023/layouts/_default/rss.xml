@@ -33,7 +33,7 @@
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>RSS for Spencer Greenhalgh's website!</title>
+    <title>Spencer Greenhalgh likes RSS and thinks you're great for using it</title>
     <link>{{ .Permalink }}</link>
     <description>recent posts from spencergreenhalgh.com</description>
     <generator>Hugo</generator>
