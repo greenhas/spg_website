@@ -47,11 +47,11 @@
       {{- .Content -}}
       {{ if $featured_image }}
           {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
-        <div style = "margin: auto" class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3-ns" "pr3-ns" }} mb4 mb0-ns w-100 w-40-ns">     
-            <img src="{{ $featured_image }}" class="img" alt="image from {{ .Title }}" width = "100%", height = "100%">       
-        </div>
+      
+            <img src="{{ $featured_image }}" class="img" alt={{.Params.alt_text}}>       
+      
       {{ end }}
-
+        
       {{- partial "tags.html" . -}}
       <div style="font-size:smaller">
       {{ $related := .Site.RegularPages.Related . | first 5 }}
@@ -84,7 +84,7 @@
             <script type="text/javascript" src="https://micro.blog/conversation.js?url={{ .Permalink }}"></script>
         </div>
       </div>
-    
+    </div>
 
 
 
