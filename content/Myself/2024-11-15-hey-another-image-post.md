@@ -7,3 +7,4 @@ width: 239
 height: 400
 ---
 Definitely not trying to figure image posting out during a meeting. Nope, definitely not that.
+![test](/2024-11-15-sickos.JPG)
