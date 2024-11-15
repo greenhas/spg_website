@@ -47,7 +47,7 @@
       {{- .Content -}}
       {{ if $featured_image }}
           {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
-            <img style="max-width: 100%; width = 200" src="{{ $featured_image }}" class="img" alt={{.Params.alt_text}}>       
+            <img style="max-width: 100%" src="{{ $featured_image }}" class="img" alt={{.Params.alt_text}} width = 200>       
       
       {{ end }}
         
