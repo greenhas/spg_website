@@ -4,17 +4,19 @@
 {{ end }}
 
 {{ define "main" }}
-  {{ $section := .Site.GetPage "section" .Section }}
+{{ $featured_image := partial "func/GetFeaturedImage.html" . }}
+
+ {{ $section := .Site.GetPage "section" .Section }}
   <article class="flex-l flex-wrap justify-between mw8 center ph3">
     <header class="mt4 w-100">
-      <aside class="instapaper_ignoref b helvetica tracked ttu">
+      <!--<aside class="instapaper_ignoref b helvetica tracked ttu">
           {{/*
           CurrentSection allows us to use the section title instead of inferring from the folder.
           https://gohugo.io/variables/page/#section-variables-and-methods
           */}}
         {{ .CurrentSection.Title }}
       </aside>
-      {{ partial "social-share.html" . }}
+      {{ partial "social-share.html" . }}-->
       <h1 class="f1 athelas mt3 mb1">
         {{- .Title -}}
       </h1>
@@ -43,6 +45,15 @@
     </header>
     <div class="nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }}">
       {{- .Content -}}
+      {{ if $featured_image }}
+          {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
+        <div style = "margin: auto" class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3-ns" "pr3-ns" }} mb4 mb0-ns w-100 w-40-ns">
+          <a href="{{.RelPermalink}}" class="db grow">
+            <img src="{{ $featured_image }}" class="img" alt="image from {{ .Title }}">
+          </a>
+        </div>
+      {{ end }}
+
       {{- partial "tags.html" . -}}
       <div style="font-size:smaller">
       {{ $related := .Site.RegularPages.Related . | first 5 }}
