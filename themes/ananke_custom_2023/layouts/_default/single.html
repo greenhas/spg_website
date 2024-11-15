@@ -4,7 +4,6 @@
 {{ end }}
 
 {{ define "main" }}
-{{ $featured_image := partial "func/GetFeaturedImage.html" . }}
 
  {{ $section := .Site.GetPage "section" .Section }}
   <article class="flex-l flex-wrap justify-between mw8 center ph3">
@@ -44,13 +43,7 @@
       
     </header>
     <div class="e-content nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }}">
-      {{- .Content -}}
-      {{ if $featured_image }}
-          {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
-            <img src="{{ $featured_image }}" class="img" alt={{.Params.alt_text}} width={{.Params.width}} height={{.Params.height}}>       
-      
-      {{ end }}
-        
+      {{- .Content -}}        
       {{- partial "tags.html" . -}}
       <div style="font-size:smaller">
       {{ $related := .Site.RegularPages.Related . | first 5 }}
