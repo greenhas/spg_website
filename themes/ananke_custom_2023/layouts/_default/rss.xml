@@ -55,7 +55,7 @@
       <description>
       
       {{ .Content | transform.XMLEscape | safeHTML }}<br> 
-      
+      {{ $featured_image := partial "func/GetFeaturedImage.html" . }}
       {{ if $featured_image }}
           {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
             <img src="{{ $featured_image }}" class="img" alt={{.Params.alt_text}} width={{.Params.width}} height={{.Params.height}}>
