@@ -21,8 +21,8 @@ capitalizeListTitles = false
   description = "Spencer Greenhalgh"
   text_color = ""
   author = ""
-  favicon = "/SPG_4_circle.png"
-  site_logo = "/SPG_4_circle.png"
+  favicon = "/SPG_4_circle_small.png"
+  site_logo = "/SPG_4_circle)small.png"
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = ""
   recent_posts_number = 2
