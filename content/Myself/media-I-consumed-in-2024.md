@@ -4,7 +4,7 @@ title: "media I consumed in 2024"
 tags: ["macro","Myself","journaling","Day One","Siri Shortcuts","comics"]
 ---
 
-Setting up media reviews for my blog is one of the best side projects that I've done in the past couple of years, and I'm happy that I do a yearly recap for 2024 like I did for 2023. In fact, I started a new review workflow for listening to radio shows, which feels like a bonus (and helps take away from my lower read count this time around). 
+Setting up media reviews for my blog is one of the best side projects that I've done in the past couple of years, and I'm happy to do a yearly recap for 2024 like I did for 2023. In fact, I started a new review workflow for listening to radio shows, which feels like a bonus (and helps take away from my lower read count this time around). 
 
 Before my 2025 edition of this, I hope to revamp my review posting some. I know just enough about custom taxonomies and templates in Hugo that I'm confident that with an afternoon or two of work, I could give my reviews some more interesting, almost Goodreads-like features. Fingers crossed that I can find the time to make that happen!
 
