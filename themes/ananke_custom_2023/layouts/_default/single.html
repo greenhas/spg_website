@@ -54,7 +54,7 @@
         {{ range . }}
       
             {{ if eq .Title ""}}
-                <!--<li>--><a href="{{ .RelPermalink }}">{{ .Content }}</a><!--</li>-->
+                <!--<li>--><a href="{{ .RelPermalink }}"><p>{{ .Summary }}<p></a><!--</li>-->
             {{else}}    
                 <!--<li>--><a href="{{ .RelPermalink }}"><p>{{ .Title }}</p></a><!--</li>-->
             {{ end }}
