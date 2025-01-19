@@ -27,33 +27,17 @@ capitalizeListTitles = false
   background_color_class = ""
   recent_posts_number = 2
 
-[[params.ananke_socials]]
-name = "rss"
-url = "/rss"
-[[params.ananke_socials]]
-name = "email"
-url = "/newsletter"
-[[params.ananke_socials]]
-name = "keybase"
-url = "https://keybase.io/spgreenhalgh"
-[[params.ananke_socials]]
-name = "hypothesis"
-url = "/hypothesis"
-[[params.ananke_socials]]
-name = "scholar"
-url = "https://scholar.google.com/citations?user=o3JQjpcAAAAJ&hl=en&oi=sra"
-[[params.ananke_socials]]
-name = "microdotblog"
-url = "https://micro.blog/spgreenhalgh"
-[[params.ananke_socials]]
-name = "mastodon"
-url = "/mastodon"
 
 [[menu.main]]
   identifier = "CV"
   name = "CV"
   url = "/CV/"
   weight = 5
+[[menu.main]]
+  identifier = "How to Follow"
+  name = "How to Follow"
+  url = "/how-to-follow/"
+  weight = 6
 
 
 
