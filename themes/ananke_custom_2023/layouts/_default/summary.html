@@ -12,7 +12,7 @@
     <a href="{{ .RelPermalink }}" class="link black dim">
         <time class="f6 mv2 dib tracked" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
             {{- .Date | time.Format (default "2 January 2006" .Site.Params.date_format) -}}
-            </time> <span class="f6 mv2 dib tracked">- kudos: <button class="tinylytics_kudos" data-path="{{ .RelPermalink }}"></button></span><br>
+            </time><br>
     </a>
     </br>
       {{ .Summary }}
