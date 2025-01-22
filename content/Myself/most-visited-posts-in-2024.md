@@ -1,10 +1,10 @@
 ---
 date: 2024-12-31T19:50:08+01:00
 title: "most-visited posts in 2024"
-tags: ["macro","Myself","Tinylytics","analytics","blogging","Kirtland Temple","POSSE","Hugo","Siri Shortcuts","Hypothesis"]
+tags: ["macro","Myself","analytics","blogging","Kirtland Temple","POSSE","Hugo","Siri Shortcuts","Hypothesis"]
 ---
 
-I started using the static site-friendly, largely non-creepy Tinylytics service in 2023, and a few weeks ago, I finally forked over the money for the paid version of the service. This year, I've become skeptical enough of quantification *as a concept* that I feel vaguely guilty about tracking which of my posts get how many views, but I'm also a researcher who understands the value of quantification, and it's also, well, validating to see which of my posts get traction. That said, I still know not to put too much faith in these numbers—for example, I got a very abnormal 537 hits to my website from Finland on October 24th that I just can't figure out. 
+I started using the static site-friendly, largely non-creepy Tinylytics service in 2023, and a few weeks ago, I finally forked over the money for the paid version of the service. [EDIT: I've since cancelled my subscription to the service because I'm no longer sure it aligns with my values.] This year, I've become skeptical enough of quantification *as a concept* that I feel vaguely guilty about tracking which of my posts get how many views, but I'm also a researcher who understands the value of quantification, and it's also, well, validating to see which of my posts get traction. That said, I still know not to put too much faith in these numbers—for example, I got a very abnormal 537 hits to my website from Finland on October 24th that I just can't figure out. 
 
 Anyway, the point of this post is that I thought it might at least be personally interesting to note which of my posts and pages got the most hits in 2024. (For what it's worth, I got 8,324 hits across the entire site during the calendar year). Note that although I have my blog split into four subblogs, and although I'm posting this to my `Myself` section, I'm considering all of the posts across my website (though were I less lazy, I would probably write a different post for each subblog).
 

@@ -1,7 +1,7 @@
 ---
 date: 2023-10-19T21:51:52-04:00
 title: "pre-conference updates to my online presence"
-tags: ["macro","Myself","Mastodon","Hypothesis","tinylytics","analytics","online presence","Mozilla Social","Mozilla","fediverse","Hugo","ICT 302","SSSR","SSSR 2023"]
+tags: ["macro","Myself","Mastodon","Hypothesis","analytics","online presence","Mozilla Social","Mozilla","fediverse","Hugo","ICT 302","SSSR","SSSR 2023"]
 ---
 
 This week, I'm attending two different research conferences (well, I only barely attended the first one, to be honest). The leadup to these conferences has involved some changes to my web presence, just in case people actually check my website when I put it on my slides. Overall, I'm happy with the changes that I've made, so I thought I'd take advantage of my free Delta in-flight wi-fi to blog about some of the changes I've made and why.
@@ -20,7 +20,7 @@ At work, I teach a content management systems class where I have the students wo
 
 ## tinylytics
 
-I've also been experimenting with the fantastic [tinylytics](https://tinylytics.app/) analytics package for static sites. Google Analytics is too powerful and too creepy for me, but when I heard about tinylytics, it seemed like it might be worth a shot. The free payment tier has enough to keep me happy, but I've also been pleased enough by it that I'm considering a yearly subscription. Having analytics again makes me realize how much I missed it—it's neat to see what parts of my website people are visiting. I'm also enamored with tinylytics *kudos* feature, which adds a non-creepy but potentially-useful "like"-style button to posts. I don't know if any visitors to my site will use this feature, but I like having it there (it's another way to keep my website the center of my online social presence), and it was a lot of fun to figure out how to build it into the templates of my Hugo site. I have more fiddling to do here (I'm not sure that the emoji I've picked for the feature is the right one, and I want to tweak the placement some), but I like that this is an option. 
+I've also been experimenting with the fantastic [tinylytics](https://tinylytics.app/) analytics package for static sites. Google Analytics is too powerful and too creepy for me, but when I heard about tinylytics, it seemed like it might be worth a shot. The free payment tier has enough to keep me happy, but I've also been pleased enough by it that I'm considering a yearly subscription. Having analytics again makes me realize how much I missed it—it's neat to see what parts of my website people are visiting. I'm also enamored with tinylytics *kudos* feature, which adds a non-creepy but potentially-useful "like"-style button to posts. I don't know if any visitors to my site will use this feature, but I like having it there (it's another way to keep my website the center of my online social presence), and it was a lot of fun to figure out how to build it into the templates of my Hugo site. I have more fiddling to do here (I'm not sure that the emoji I've picked for the feature is the right one, and I want to tweak the placement some), but I like that this is an option. [EDIT: I've since abandoned tinylytics because I'm not sure it's aligned with my values]
 
 ## Hypothesis
 
