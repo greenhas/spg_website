@@ -9,7 +9,9 @@ A few hours after last week's post (which was from a six-week old sermon), John 
 
 That last point wasn't terribly salient, because impromptu speaking—by definition—doesn't use a prepared text, but Beyond the Walls does closed captioning in three languages, so it was less about putting my high school skills to use than it was about putting together a word-for-word text in a few days. The end result was a bit rougher than I would normally have liked, but I also think the constraints allowed me to be more honest about my non-theistic beliefs than I would have if I'd had more time to think about how people would have responded. 
 
-Anyway, here's the text, and here's to some other blogging soon.
+Anyway, here's a recording of the service (with the text below), and here's to some other blogging soon.
+
+{{<youtube id="3b1QawCqx4c">}}
 
 ## introduction
 
