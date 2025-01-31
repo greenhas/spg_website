@@ -59,7 +59,7 @@
       </description>
       <summary>
       {{ if eq .Title ""}}
-                {{ .Content | transform.XMLEscape | safeHTML }}
+                {{ .Content | transform.Plainify}}
             {{else}}    
                 {{.Title}} {{ .Permalink }}
             {{ end }}
