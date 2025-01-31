@@ -57,6 +57,16 @@
       {{ .Content | transform.XMLEscape | safeHTML }}
      
       </description>
+      <summary>
+      {{ if eq .Title ""}}
+                {{ .Content | transform.XMLEscape | safeHTML }}
+            {{else}}    
+                {{.Title}} {{ .Permalink }}
+            {{ end }}
+
+           
+      </summary>
+      
     </item>
     {{- end }}
   </channel>
