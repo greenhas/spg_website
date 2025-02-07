@@ -1,7 +1,7 @@
 ---
 date: 2025-02-07T11:37:18-05:00
 title: "watching Star Trek: Lower Decks"
-tags: ["macro","Relationships","Star Trek","Star Trek: Lower Decks","The Incomparable","Star Trek (2009 film)]
+tags: ["macro","Relationships","Star Trek","Star Trek: Lower Decks","The Incomparable","Star Trek (2009 film)"]
 ---
 Whenever we visit my in-laws, it's a tradition to put any kids who are present to bed and then gather around one of the big TVs to watch something together. Sometimes it's something that one family is watching and introducing to another, sometimes it's something that we're all watching and are at the same place in the season, and every once in a while it's something new. 
 
