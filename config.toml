@@ -12,6 +12,14 @@ googleAnalytics = ""
 enableRobotsTXT = false
 capitalizeListTitles = false
 
+[taxonomies]
+    tag = "tags"
+    medium = "media"
+    creator = "creators"
+    series = "series"
+    franchise = "franchise"
+    work = "works"
+
 [sitemap]
   changefreq = "monthly"
   priority = 0.5

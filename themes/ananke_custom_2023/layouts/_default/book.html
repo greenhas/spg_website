@@ -1,0 +1,87 @@
+{{ define "header" }}
+   {{/* We can override any block in the baseof file be defining it in the template */}}
+  {{ partial "page-header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+
+ {{ $section := .Site.GetPage "section" .Section }}
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <!--<aside class="instapaper_ignoref b helvetica tracked ttu">
+          {{/*
+          CurrentSection allows us to use the section title instead of inferring from the folder.
+          https://gohugo.io/variables/page/#section-variables-and-methods
+          */}}
+        {{ .CurrentSection.Title }}
+      </aside>
+      {{ partial "social-share.html" . }}-->
+      <!--<h1 class="f1 athelas mt3 mb1">
+        {{- .Title -}}
+      </h1>-->
+       <h2 class="f2 athelas mt3 mb1">{{ range .GetTerms "works" }} <a href="{{ .RelPermalink }}" >{{- .LinkTitle -}}</a>{{ end }}</h2>
+       <h3 class="f3 athelas mt3 mb1">Creator(s): {{ range .GetTerms "creators" }} <a href="{{ .RelPermalink }}" > {{- .LinkTitle -}} </a> |{{ end }}</h3>
+       <h3 class="f3 athelas mt3 mb1">Series: {{ range .GetTerms "series" }} <a href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> |{{ end }}</h3>
+       <h3 class="f3 athelas mt3 mb1">Franchise: {{ range .GetTerms "franchise" }} <a href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> |{{ end }}</h3>
+       <h3 class="f3 athelas mt3 mb1">Medium: {{ range .GetTerms "media" }} <a href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> |{{ end }}</h3>
+      {{ with .Params.author | default .Site.Params.author }}
+      <p class="tracked">
+        {{ $.Render "by" }} <strong>
+        {{- if reflect.IsSlice . -}}
+            {{ delimit . ", " | markdownify }}
+        {{- else -}}
+            {{ . | markdownify }}
+        {{- end -}}
+        </strong>
+      </p>
+      {{ end }}
+      {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
+      {{ if not .Date.IsZero }}
+      <time class="f6 mv4 dib tracked" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
+        {{- .Date | time.Format (default "2 January 2006" .Site.Params.date_format) -}}
+      </time>
+      {{end}}
+
+    
+  </ul>
+
+    
+      
+    </header>
+    
+    <div class="e-content nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }}">
+      {{- .Content -}}        
+      {{- partial "tags.html" . -}}
+      <div style="font-size:smaller">
+      {{ $related := .Site.RegularPages.Related . | first 5 }}
+      
+      {{ with $related }}
+      <h3>Similar Posts:</h3>
+      <!--<ul>-->
+        {{ range . }}
+      
+            {{ if eq .Title ""}}
+                <!--<li>--><a href="{{ .RelPermalink }}"><p>{{ .Summary }}<p></a><!--</li>-->
+            {{else}}    
+                <!--<li>--><a href="{{ .RelPermalink }}"><p>{{ .Title }}</p></a><!--</li>-->
+            {{ end }}
+            
+        {{ end }}
+        {{ end }}
+    <!--</ul>-->
+
+          
+     
+  
+      </div>
+      <div style="font-size:smaller">
+      
+       <h3>Comments:</h3>
+        <p>You can click on the <code><</code> button in the top-right of your browser window to read and write comments on this post with <em><a href="https://web.hypothes.is/">Hypothesis</a></em>. You can read more about how I use this software <a href="/hypothesis/">here</a>.</p>
+      </div>
+    </div>
+
+
+
+  </article>
+{{ end }}
