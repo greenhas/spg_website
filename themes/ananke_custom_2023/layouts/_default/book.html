@@ -30,11 +30,10 @@
             <a style="text-decoration: none;" href="{{ .RelPermalink }}" >{{- .LinkTitle -}}</a>
         {{end}}
        {{else}}       
-        {{range .GetTerms "series"}}
-            <a style="text-decoration: none;" href="{{ .RelPermalink }}" >{{- .LinkTitle -}}</a>
-        {{end}}
+        {{ range .GetTerms "series" }} <a href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> {{ end }}
        {{end}}
-       ({{ range .GetTerms "ratings" }}<a href="{{ .RelPermalink }}" style="text-decoration: none;">{{- .LinkTitle -}}</a>{{ end }})</h2>
+       ({{ range .GetTerms "ratings" }}<a href="{{ .RelPermalink }}" style="text-decoration: none;">{{- .LinkTitle -}}</a>{{ end }})
+       </h2>
        
        
        <h3 class="f3 athelas mt3 mb1">Creator(s): {{ range .GetTerms "creators" }} <a href="{{ .RelPermalink }}" > {{- .LinkTitle -}} </a> |{{ end }}</h3>
