@@ -29,8 +29,7 @@
         {{range .GetTerms "works"}}
             <a style="text-decoration: none;" href="{{ .RelPermalink }}" >{{- .LinkTitle -}}</a>
         {{end}}
-       {{end}}
-       {{if $is_work := 0}}
+       {{else}}       
         {{range .GetTerms "series"}}
             <a style="text-decoration: none;" href="{{ .RelPermalink }}" >{{- .LinkTitle -}}</a>
         {{end}}
