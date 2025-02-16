@@ -19,6 +19,7 @@ capitalizeListTitles = false
     series = "series"
     franchise = "franchise"
     work = "works"
+    rating = "ratings"
 
 [sitemap]
   changefreq = "monthly"

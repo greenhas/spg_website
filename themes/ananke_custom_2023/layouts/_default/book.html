@@ -19,27 +19,37 @@
       <!--<h1 class="f1 athelas mt3 mb1">
         {{- .Title -}}
       </h1>-->
-       <h2 class="f2 athelas mt3 mb1">{{ range .GetTerms "works" }} <a href="{{ .RelPermalink }}" >{{- .LinkTitle -}}</a>{{ end }}</h2>
+       {{$is_work := (len (.GetTerms "works"))}}
+        {{$is_work}}
+        
+       
+    
+       <h2 class="f2 athelas mt3 mb1">
+       {{if $is_work := 1}}
+        {{range .GetTerms "works"}}
+            <a style="text-decoration: none;" href="{{ .RelPermalink }}" >{{- .LinkTitle -}}</a>
+        {{end}}
+       {{end}}
+       {{if $is_work := 0}}
+        {{range .GetTerms "series"}}
+            <a style="text-decoration: none;" href="{{ .RelPermalink }}" >{{- .LinkTitle -}}</a>
+        {{end}}
+       {{end}}
+       ({{ range .GetTerms "ratings" }}<a href="{{ .RelPermalink }}" style="text-decoration: none;">{{- .LinkTitle -}}</a>{{ end }})</h2>
+       
+       
        <h3 class="f3 athelas mt3 mb1">Creator(s): {{ range .GetTerms "creators" }} <a href="{{ .RelPermalink }}" > {{- .LinkTitle -}} </a> |{{ end }}</h3>
-       <h3 class="f3 athelas mt3 mb1">Series: {{ range .GetTerms "series" }} <a href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> |{{ end }}</h3>
+       <h3 class="f3 athelas mt3 mb1">Series: {{ range .GetTerms "series" }} <a href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> {{ end }}({{ .Params.entry }})</h3>
        <h3 class="f3 athelas mt3 mb1">Franchise: {{ range .GetTerms "franchise" }} <a href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> |{{ end }}</h3>
        <h3 class="f3 athelas mt3 mb1">Medium: {{ range .GetTerms "media" }} <a href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> |{{ end }}</h3>
-      {{ with .Params.author | default .Site.Params.author }}
-      <p class="tracked">
-        {{ $.Render "by" }} <strong>
-        {{- if reflect.IsSlice . -}}
-            {{ delimit . ", " | markdownify }}
-        {{- else -}}
-            {{ . | markdownify }}
-        {{- end -}}
-        </strong>
-      </p>
-      {{ end }}
+       <h3 class="f3 athelas mt3 mb1">Date Reviewed:<span> </span>{{- .Date | time.Format (default "2 January 2006" .Site.Params.date_format) -}}</h3>
+      
+      
       {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
       {{ if not .Date.IsZero }}
-      <time class="f6 mv4 dib tracked" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
-        {{- .Date | time.Format (default "2 January 2006" .Site.Params.date_format) -}}
-      </time>
+      
+        
+      
       {{end}}
 
     
@@ -51,23 +61,11 @@
     
     <div class="e-content nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }}">
       {{- .Content -}}        
-      {{- partial "tags.html" . -}}
+      <!--{{- partial "tags.html" . -}}-->
       <div style="font-size:smaller">
       {{ $related := .Site.RegularPages.Related . | first 5 }}
       
-      {{ with $related }}
-      <h3>Similar Posts:</h3>
-      <!--<ul>-->
-        {{ range . }}
       
-            {{ if eq .Title ""}}
-                <!--<li>--><a href="{{ .RelPermalink }}"><p>{{ .Summary }}<p></a><!--</li>-->
-            {{else}}    
-                <!--<li>--><a href="{{ .RelPermalink }}"><p>{{ .Title }}</p></a><!--</li>-->
-            {{ end }}
-            
-        {{ end }}
-        {{ end }}
     <!--</ul>-->
 
           
