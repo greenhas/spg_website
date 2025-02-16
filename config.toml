@@ -18,7 +18,7 @@ capitalizeListTitles = false
     creator = "creators"
     series = "series"
     franchise = "franchise"
-    work = "works"
+    title = "titles"
     rating = "ratings"
 
 [sitemap]
