@@ -2,7 +2,7 @@ library(tidyverse)
 
 file_list <- list.files("/Users/spencergreenhalgh/spg_website/content/Myself", pattern = ".md", full.names = TRUE)
 
-# read_lines(file_list[400])
+read_lines(file_list[400])
 
 for(i in 1:length(file_list)){ # 1:length(file_list)
   
@@ -18,6 +18,7 @@ for(i in 1:length(file_list)){ # 1:length(file_list)
     temp_file <- c(
       temp_file[1],
       "layout: book",
+      temp_file[2],
       temp_file[3],
       str_replace(temp_file[4],"\"book\",",""),
       "media: [\"book\"]",

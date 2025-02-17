@@ -1,7 +1,16 @@
 ---
+layout: book
 date: 2024-02-28T21:17:00-05:00
 title: "📚 bookblog: ❤️❤️❤️🖤🖤 for Queen & Country Definitive Edition, Volume 04, by Greg Rucka"
-tags: ["media","book","Myself","Queen & Country","Greg Rucka","Antony Johnston","The Sandbaggers"]
+tags: ["media","Myself","Queen & Country","Greg Rucka","Antony Johnston","The Sandbaggers"]
+media: ["book","comic"]
+titles: [""]
+creators: ["Greg Rucka"]
+series: ["Queen & Country"]
+franchise: [""]
+ratings: ["❤️❤️❤️🖤🖤"]
+params:
+  entry: Definitive Edition Volume 04
 ---
 
 I recently came into some Amazon gift cards, so I bought this volume to complete my collection of Queen & Country. I think this is the first time I've owned an entire comics series? At least, one of this length.

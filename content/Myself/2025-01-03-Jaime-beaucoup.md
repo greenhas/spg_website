@@ -1,7 +1,16 @@
 ---
+layout: book
 date: 2025-01-03T12:52:46+01:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 pour Shenzhen, par Guy Delisle"
-tags: ["media","book","Myself","Shenzhen","Guy Delisle","Chroniques birmanes","bd","comics","China"]
+tags: ["media","Myself","Shenzhen","Guy Delisle","Chroniques birmanes","bd","comics","China"]
+media: ["book","comic","bande dessinée","graphic novel"]
+titles: ["Shenzen"]
+creators: ["Guy Delisle"]
+series: [""]
+franchise: [""]
+ratings: ["❤️❤️❤️❤️🖤"]
+params:
+  entry:
 ---
 
 J'aime beaucoup les albums de Guy Delisle, et j'avais comme objectif de m'en offrir un lors de ma visite en France. J'aurais préféré acheter « Chroniques birmanes » car je ne l'ai pas encore lu, mais en trouvant celui-ci, je me suis dit que je ne l'avais jamais qu'en anglais, une fois, trop vite dans une bibliothèque.

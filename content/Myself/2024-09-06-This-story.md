@@ -1,7 +1,16 @@
 ---
+layout: book
 date: 2024-09-06T20:26:47-04:00
 title: "📚 bookblog: ❤️❤️🖤🖤🖤 for After the Downfall, by Harry Turtledove"
-tags: ["media","book","Myself","After the Downfall","Harry Turtledove","feminism","language","technology","Cory Doctorow"]
+tags: ["media","Myself","After the Downfall","Harry Turtledove","feminism","language","technology","Cory Doctorow"]
+media: ["book"]
+titles: ["After the Downfall"]
+creators: ["Harry Turtledove"]
+series: [""]
+franchise: [""]
+ratings: ["❤️❤️🖤🖤🖤"]
+params:
+  entry:
 ---
 
 This story has an interesting premise—a Nazi officer is plucked from a falling Berlin into a fantasy world where he learns a lesson about all peoples being people—but both fails to deliver and muddles its efforts.

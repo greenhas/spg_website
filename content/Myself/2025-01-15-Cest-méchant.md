@@ -1,7 +1,16 @@
 ---
+layout: book
 date: 2025-01-15T21:21:59-05:00
-title: "📚 bookblog: ❤️❤️❤️🖤🖤 for XIII Tome 9 : Pour Maria, by Vance et Van Hamme"
-tags: ["media","book","Myself","XIII","Vance et Van Hamme","white savior","bd","comics"]
+title: "📚 bookblog: ❤️❤️❤️🖤🖤 pour XIII Tome 9 : Pour Maria, par Vance et Van Hamme"
+tags: ["media","Myself","XIII","William Vance","Jean Van Hamme","white savior","bd","comics"]
+media: ["book"]
+titles: ["Pour Maria"]
+creators: ["Vance et Van Hamme"]
+creators: ["William Vance","Jean Van Hamme"]
+series: ["XIII"]
+ratings: ["❤️❤️❤️🖤🖤"]
+params:
+  entry: Tome 9
 ---
 
 C'est méchant de dire que cet album m'a été utile pour combattre l'insomnie hier soir ? Bon, c'est exaggérer un peu (n'importe quel livre aurait suffi), mais mes sentiments complexes envers cette série continuent.

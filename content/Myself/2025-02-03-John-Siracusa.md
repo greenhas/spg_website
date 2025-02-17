@@ -1,7 +1,16 @@
 ---
+layout: book
 date: 2025-02-03T22:03:55-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Frieren: Beyond Journey's End (Volume 1), by Kanehito Yamada and Tsukasa Abe"
-tags: ["media","book","Myself","Frieren: Beyond Journey's End","Kanehito Yamada and Tsukasa Abe","manga","anime","Dungeons and Dragons","Star Wars","fantasy","The Incomparable","John Siracusa"]
+tags: ["media","Myself","Frieren: Beyond Journey's End","Kanehito Yamada","Tsukasa Abe","manga","anime","Dungeons and Dragons","Star Wars","fantasy","The Incomparable","John Siracusa"]
+media: ["book","comic","manga"]
+titles: [""]
+creators: ["Kanehito Yamada","Tsukasa Abe"]
+series: ["Frieren: Beyond Journey's End"]
+franchise: [""]
+ratings: ["❤️❤️❤️❤️🖤"]
+params:
+  entry: Volume 1
 ---
 
 John Siracusa recommended the anime adaptation of this on the year-end episode of The Incomparable, and the premise sounded interesting enough to try getting into manga again.
