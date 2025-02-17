@@ -5,7 +5,7 @@ title: "📚 bookblog: ❤️❤️❤️🖤🖤 for Blacksad, by Juan Díaz Ca
 tags: ["media","Myself","Blacksad","BD","comics","Juan Díaz Canales","Juanjo Guarnido","racism","XIII"]
 media: ["book","comic","bande dessinée"]
 titles: ["Blacksad"]
-creators: ["Juan Díaz Canales and Juanjo Guarnido"]
+creators: ["Juan Díaz Canales","Juanjo Guarnido"]
 series: ["Blacksad"]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

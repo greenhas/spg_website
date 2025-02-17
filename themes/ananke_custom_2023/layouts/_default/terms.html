@@ -7,7 +7,7 @@
   </article>
   <div class="mw8 center">
     <section class="ph4">
-        {{ range .Data.Terms.Alphabetical }}
+        {{ range .Data.Terms.ByCount }}
         <h2 class="f3">        
             <a href="{{ .Page.Permalink }}" class="link blue hover-black">{{ .Page.Title }}</a> ({{ .Count }})</a>          
         </h2>
