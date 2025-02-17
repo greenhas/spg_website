@@ -7,9 +7,9 @@ media: ["book","comic"]
 titles: [""]
 creators: ["Greg Pak"]
 series: ["Mech Cadet Yu"]
-franchise: ["Volume 1"]
+franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]
 params:
-  entry:
+  entry: Volume 1
 ---
 The premise is fun, and I liked (most of) the art, but I felt like the story moved too fast to move beyond recycled tropes—or let the characters be more than flattish archetypes. It probably won't stop me from reading the next volume, but I think it's aimed at a younger audience than me.
