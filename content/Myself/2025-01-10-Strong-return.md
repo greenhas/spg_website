@@ -6,11 +6,11 @@ tags: ["media","Myself","Saga","comics","Fiona Staples","Brian K. Vaughan"]
 media: ["book","comic"]
 titles: [""]
 creators: ["Fiona Staples","Brian K. Vaughan"]
-series: [""]
+series: ["Saga"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]
 params:
-  entry:
+  entry: Volume 10
 ---
 
 Strong return to the series after the major twists in Volume 9. It does a good job of continuing the themes of the series while still shaking things up—and continuing to deliver major changes.
