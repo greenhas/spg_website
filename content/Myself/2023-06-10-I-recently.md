@@ -5,7 +5,7 @@ title: "📚 bookblog: ❤️❤️❤️🖤🖤 for Ex Machina (Book 1), by Br
 tags: ["media","Myself","Ex Machina","Brian K. Vaughan","Tony Harris"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Brian K. Vaughn","Tony Harris"]
+creators: ["Brian K. Vaughan","Tony Harris"]
 series: ["Ex Machina"]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]
