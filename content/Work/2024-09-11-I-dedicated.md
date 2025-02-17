@@ -1,7 +1,16 @@
 ---
+layout: book
 date: 2024-09-11T21:10:14-07:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Extremely Hardcore: Inside Elon Musk's Twitter, by Zoë Schiffer"
-tags: ["media","book","Work","Extremely Hardcore","Zoë Schiffer","Elon Musk","Twitter","research"]
+tags: ["media","Work","Extremely Hardcore","Zoë Schiffer","Elon Musk","Twitter","research"]
+media: ["book"]
+titles: ["Extremely Hardcore: Inside Elon Musk's Twitter"]
+creators: ["Zoë Schiffer"]
+series: [""]
+franchise: [""]
+ratings: ["❤️❤️❤️❤️🖤"]
+params:
+  entry:
 ---
 
 I dedicated most of my early career to Twitter and probably owe my tenure to the ease of collecting Twitter data once upon a time. Were it not for some timely decisions to diversify what platforms I was looking at, the API cutoff documented in this book would have really messed me up.

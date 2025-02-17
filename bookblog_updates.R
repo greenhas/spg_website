@@ -1,8 +1,8 @@
 library(tidyverse)
 
-file_list <- list.files("/Users/spencergreenhalgh/spg_website/content/Myself", pattern = ".md", full.names = TRUE)
+file_list <- list.files("/Users/spencergreenhalgh/spg_website/content/Communities", pattern = ".md", full.names = TRUE)
 
-read_lines(file_list[400])
+# read_lines(file_list[400])
 
 for(i in 1:length(file_list)){ # 1:length(file_list)
   
