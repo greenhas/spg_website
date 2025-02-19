@@ -1,7 +1,16 @@
 ---
+layout: book
 date: 2025-01-21T10:29:09-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️❤️ for The Bezzle (A Martin Hench Novel), by Cory Doctorow"
-tags: ["media","book","Communities","The Bezzle","Cory Doctorow","Red Team Blues","Radicalized (collection)","Radicalized"]
+tags: ["media","Communities","The Bezzle","Cory Doctorow","Red Team Blues","Radicalized (collection)","Radicalized"]
+media: ["book"]
+titles: ["The Bezzle"]
+creators: ["Cory Doctorow","Wi Wheaton"]
+series: ["Martin Hench"]
+franchise: [""]
+ratings: ["❤️❤️❤️❤️❤️"]
+params:
+  entry: Book 2
 ---
 
 Despite meaning to reread this ever since I first read it, this is my first reread. While it's very clearly related to *Red Team Blues*, it's remarkable how different this book is. Rather than a tight thriller, this feels more like a meandering story that has a clear throughline but skips from event to event as more than a decade goes by. There's a fun framing device that makes this work, though.

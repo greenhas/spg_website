@@ -1,7 +1,16 @@
 ---
+layout: book
 date: 2024-03-25T13:59:04-04:00
 title: "📚 bookblog: ❤️❤️❤️🖤🖤 for The New Testament: A Translation, by David Bentley Hart"
-tags: ["media","book","Communities","The New Testament","David Bentley Hart","audiobooks"]
+tags: ["media","Communities","The New Testament","David Bentley Hart","audiobooks"]
+media: ["book","audiobook"]
+titles: ["The New Testament: A Translation"]
+creators: ["David Bentley Hart"]
+series: [""]
+franchise: [""]
+ratings: ["❤️❤️❤️🖤🖤"]
+params:
+  entry:
 ---
 
 This probably deserves a higher score: I don't know that the New Testament is best read "cover to cover" (it's not that kind of book), and I was listening to it via audiobook, which is even less ideal.

@@ -1,7 +1,16 @@
 ---
+layout: book
 date: 2024-09-07T22:48:02-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Pirate Enlightenment, or the Real Libertalia, by David Graeber"
-tags: ["media","book","Communities","Pirate Enlightenment","David Graeber","independent bookstores","The Dawn of Everything","Madagascar","Malagasy","pirates","anarchism","Enlightenment","Global South","egalitarianism","democracy"]
+tags: ["media","Communities","Pirate Enlightenment","David Graeber","independent bookstores","The Dawn of Everything","Madagascar","Malagasy","pirates","anarchism","Enlightenment","Global South","egalitarianism","democracy"]
+media: ["book"]
+titles: ["Pirate Enlightenment, or the Real Libertalia"]
+creators: ["David Graeber"]
+series: [""]
+franchise: [""]
+ratings: ["❤️❤️❤️❤️🖤"]
+params:
+  entry:
 ---
 
 It's really hard to know how to rate this book! It is meandering to the point of tangential—Graeber confesses that it evolved out of an essay that didn't stop growing, and I wonder if it would have been better if forced to be more concise. It also has some of the same issues that I saw in *The Dawn of Everything* (indeed, this could have been a section of that book), in that it's working with data and history that are impossible to nail down for sure. While Graeber fully and repeatedly acknowledges that, it's still hard to see this as more than a predetermined thesis supported by particular interpretations of scanty evidence.
