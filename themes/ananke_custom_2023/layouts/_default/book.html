@@ -19,15 +19,16 @@
       <!--<h1 class="f1 athelas mt3 mb1">
         {{- .Title -}}
       </h1>-->
-        <h2 class="f2 athelas mt3 mb1">{{range .GetTerms "works"}}<a style="text-decoration: none;" href="{{ .RelPermalink }}">{{- .LinkTitle -}}<a>{{end}}</h2>
+        <h2 class="f2 athelas mt3 mb1">{{range .GetTerms "titles"}}<a style="text-decoration: none;" href="{{ .RelPermalink }}">{{- .LinkTitle -}}<a>{{end}}</h2>
        {{ if .Params.entry }}
         <h3 class="f3 athelas mt3 mb1">{{range .GetTerms "series"}}<a style="text-decoration: none;" href="{{ .RelPermalink }}"> {{- .LinkTitle -}}</a>{{end}}, {{ .Params.entry }}</h3>
        {{else}}
        {{end}}
        <h3 class="f3 athelas mt3 mb1">Creator(s): {{ range .GetTerms "creators" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}} </a> |{{ end }}</h3>
-  
-       <h3 class="f3 athelas mt3 mb1">Franchise: {{ range .GetTerms "franchise" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> |{{ end }}</h3>
-      
+        {{$tf := len (.GetTerms "franchise") }}
+        {{if ne $tf 0}}
+        <h3 class="f3 athelas mt3 mb1">Franchise: {{ range .GetTerms "franchise" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> |{{ end }}</h3>   
+        {{end}}
        <h3 class="f3 athelas mt3 mb1">Medium: {{ range .GetTerms "media" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> |{{ end }}</h3>
        <h3 class="f3 athelas mt3 mb1">Date Reviewed:<span> </span>{{- .Date | time.Format (default "2 January 2006" .Site.Params.date_format) -}}</h3>
        <h3 class="f3 athelas mt3 mb1">Rating: {{ range .GetTerms "ratings" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a>{{ end }}</h3>
