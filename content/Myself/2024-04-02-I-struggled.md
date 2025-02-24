@@ -1,7 +1,14 @@
 ---
+layout: tv
 date: 2024-04-02T10:41:20-04:00
 tags: ["media","tv","Myself","Borgen","The West Wing","proportional representation"]
 title: "📺 tvblog: ❤️❤️❤️❤️🖤 for Borgen (Season 1)"
+media: ["tv"]
+series: ["Borgen"]
+franchise: [""]
+ratings: ["❤️❤️❤️❤️🖤"]
+params:
+  entry: Season 1
 ---
 I struggled with what to rate this series. It's great in a lot of ways, and it's fun to watch a political show that is based in a country I don't know very well (plus, explaining parliamentary coalitions and other election systems to my spouse made me feel smart).
 

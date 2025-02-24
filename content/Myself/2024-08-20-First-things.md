@@ -1,7 +1,14 @@
 ---
+layout: tv
 date: 2024-08-20T20:52:43-04:00
 tags: ["media","tv","Myself","The Ipcress File"]
 title: "📺 tvblog: ❤️❤️❤️❤️🖤 for The Ipcress File "
+media: ["tv"]
+series: ["The Ipcress File"]
+franchise: [""]
+ratings: ["❤️❤️❤️❤️🖤"]
+params:
+  entry:
 ---
 First things first: I am not familiar with the source material or with the Michael Caine adaptation, so I can't make any comparisons there.
 
