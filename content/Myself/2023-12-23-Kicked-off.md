@@ -1,7 +1,15 @@
 ---
+layout: movie
 date: 2023-12-23T07:58:12-05:00
 tags: ["media","movie","Myself","Indiana Jones and the Dial of Destiny","non-violence","punching Nazis","Indiana Jones","World War II","far-right"]
 title: "🍿 movieblog: ❤️❤️❤️🖤🖤 for Indiana Jones and the Dial of Destiny "
+media: ["movie"]
+titles: ["Indiana Jones and the Dial of Destiny"]
+series: ["Indiana Jones"]
+franchise: ["Indiana Jones"]
+ratings: ["❤️❤️❤️🖤🖤"]
+params:
+  entry: 5
 ---
 Kicked off the family holiday gathering by watching this with my dad last night. This was a good Indiana Jones movie, I (mostly) had fun watching it, and I'm probably being a little harsh in my rating of it. 
 
