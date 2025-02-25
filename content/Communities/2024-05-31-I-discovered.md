@@ -1,7 +1,14 @@
 ---
+layout: tv
 date: 2024-05-31T09:17:45-04:00
 tags: ["media","radio","Communities","The Man Born to Be King","BBC","Dorothy Sayers","Jesus Christ"]
 title: "🎙️ radioblog: ❤️❤️❤️❤️🖤 for The Man Born to Be King "
+media: ["radio"]
+series: ["The Man Born to Be King"]
+franchise: [""]
+ratings: ["❤️❤️❤️❤️🖤"]
+params:
+  entry:
 ---
 I discovered this cycle of 12 radio plays that adapted the four gospels for the BBC on the Internet Archive and decided to give it a try!
 
