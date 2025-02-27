@@ -181,6 +181,154 @@ Ismay et al. (2024), chapter 2
 
 class: center, middle
 
+<img src="https://spencergreenhalgh.com/ggplot2_example.png" width = 600>
+
+---
+
+`df_geo %>%`  
+  `mutate(month = date %>% str_sub(0,7) %>% ym(), .after = date) %>%`
+  `mutate(city = ifelse(is.na(city),region,city)) %>%`    
+  `mutate(region = ifelse(is.na(region),country,region)) %>%`  
+  `mutate(Toronto_count = ifelse(city == "Toronto",1,0)) %>%`  
+  `mutate(Ontario_count = ifelse(region == "Ontario",1,0)) %>%`  
+  `mutate(Canada_count = ifelse(country == "Canada",1,0)) %>%`  
+  `group_by(month) %>%`  
+  `summarize(Toronto = mean(Toronto_count, na.rm = TRUE) * 100,`  
+            `Ontario = mean(Ontario_count, na.rm = TRUE) * 100,`  
+            `Canada = mean(Canada_count, na.rm = TRUE) * 100) %>%`  
+  `pivot_longer(cols = !month, names_to = "region") %>%`  
+  `ggplot(aes(x = month, y = value, color = region)) +`  
+  `geom_line() +`   
+  `ylab("average percentage of contributions from region")`  
+
+---
+
+class: center, middle
+
+# "What other plotting systems exist in R besides ggplot2? When might someone use them instead?"
+
+Lauren
+
+# "The grammar of graphics analogy makes sense, but it might be helpful to see a breakdown of a bad example. What happens if we don’t follow the structure correctly?"
+
+Lauren
+
+---
+
+class: center, middle
+
+# `skimr` package is helpful for checking for missing values, other data overview
+
+---
+
+class: center, middle
+
+# "How can we make sure [an incorrect plot] doesn't happen?"
+
+Jo-Anna
+
+---
+
+class: center, middle
+
+# "How do we decide on the best number of bins for a dataset? Are there guidelines?"
+
+Lauren
+
+---
+
+class: center, middle
+
+# "Are there ways we can easily navigate understanding a [cheatsheet](https://github.com/rstudio/cheatsheets/blob/main/data-visualization-2.1.pdf)?"
+
+Albert
+
+---
+
+class: center, middle
+
+# "In simple layman term what does the pipe operator mean?"
+
+Albert
+
+---
+
+`df_geo %>%`  
+  `mutate(month = date %>% str_sub(0,7) %>% ym(), .after = date) %>%`
+  `mutate(city = ifelse(is.na(city),region,city)) %>%`    
+  `mutate(region = ifelse(is.na(region),country,region)) %>%`  
+  `mutate(Toronto_count = ifelse(city == "Toronto",1,0)) %>%`  
+  `mutate(Ontario_count = ifelse(region == "Ontario",1,0)) %>%`  
+  `mutate(Canada_count = ifelse(country == "Canada",1,0)) %>%`  
+  `group_by(month) %>%`  
+  `summarize(Toronto = mean(Toronto_count, na.rm = TRUE) * 100,`  
+            `Ontario = mean(Ontario_count, na.rm = TRUE) * 100,`  
+            `Canada = mean(Canada_count, na.rm = TRUE) * 100) %>%`  
+  `pivot_longer(cols = !month, names_to = "region") %>%`  
+  `ggplot(aes(x = month, y = value, color = region)) +`  
+  `geom_line() +`   
+  `ylab("average percentage of contributions from region")`  
+
+---
+
+class: center, middle
+
+# "Is there a reliable list of common beginner errors that you have found?"
+
+Lauren
+
+# spelling, errors, attitude
+
+---
+
+class: center, middle
+
+# "What happens if you forget to `summarize()` after `group_by()`? Would it cause an error, or just display the grouping structure without aggregation?"
+
+Lauren
+
+---
+
+class: center, middle
+
+# "I can see `mutate()` being super handy in a lot of research!"
+
+Lauren
+
+---
+
+`df_geo %>%`  
+  `mutate(month = date %>% str_sub(0,7) %>% ym(), .after = date) %>%`
+  `mutate(city = ifelse(is.na(city),region,city)) %>%`    
+  `mutate(region = ifelse(is.na(region),country,region)) %>%`  
+  `mutate(Toronto_count = ifelse(city == "Toronto",1,0)) %>%`  
+  `mutate(Ontario_count = ifelse(region == "Ontario",1,0)) %>%`  
+  `mutate(Canada_count = ifelse(country == "Canada",1,0)) %>%`  
+  `group_by(month) %>%`  
+  `summarize(Toronto = mean(Toronto_count, na.rm = TRUE) * 100,`  
+            `Ontario = mean(Ontario_count, na.rm = TRUE) * 100,`  
+            `Canada = mean(Canada_count, na.rm = TRUE) * 100) %>%`  
+  `pivot_longer(cols = !month, names_to = "region") %>%`  
+  `ggplot(aes(x = month, y = value, color = region)) +`  
+  `geom_line() +`   
+  `ylab("average percentage of contributions from region")`  
+
+---
+
+class: center, middle
+
+# "One of the most commonly performed data-wrangling tasks is to sort a data frame’s rows in the alphanumeric order of one of the variables"
+
+Ismay et al. (2024), chapter 3
+
+# "Are there other ways of doing this?"
+
+Amanda
+
+
+
+
+
     </textarea>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
     </script>
