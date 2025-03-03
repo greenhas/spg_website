@@ -1,10 +1,12 @@
 ---
-layout: tv
+layout: radio
 date: 2024-05-31T09:17:45-04:00
 tags: ["media","radio","Communities","The Man Born to Be King","BBC","Dorothy Sayers","Jesus Christ"]
 title: "🎙️ radioblog: ❤️❤️❤️❤️🖤 for The Man Born to Be King "
 media: ["radio"]
-series: ["The Man Born to Be King"]
+creators: ["Dorothy Sayers"]
+titles: ["The Man Born to Be King"]
+series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]
 params:
