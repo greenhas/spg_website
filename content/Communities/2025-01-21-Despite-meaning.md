@@ -5,7 +5,7 @@ title: "📚 bookblog: ❤️❤️❤️❤️❤️ for The Bezzle (A Martin H
 tags: ["media","Communities","The Bezzle","Cory Doctorow","Red Team Blues","Radicalized (collection)","Radicalized"]
 media: ["book"]
 titles: ["The Bezzle"]
-creators: ["Cory Doctorow","Wi Wheaton"]
+creators: ["Cory Doctorow","Wil Wheaton"]
 series: ["Martin Hench"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]
