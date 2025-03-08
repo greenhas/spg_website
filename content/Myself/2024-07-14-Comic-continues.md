@@ -8,7 +8,7 @@ titles: ["I Excised All My Anxieties into Cartoon Characters Who Definitely Don'
 creators: ["David Willis"]
 series: ["Dumbing of Age"]
 franchise: [""]
-ratings: ["❤️❤️❤️❤️🖤 I Excised All My Anxieties into Cartoon Characters Who Definitely Don't Have Feelings for"]
+ratings: ["❤️❤️❤️❤️🖤"]
 params:
   entry: Collection 11
 ---
