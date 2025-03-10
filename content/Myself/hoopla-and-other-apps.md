@@ -1,7 +1,7 @@
 ---
 date: 2025-01-27T21:16:59-05:00
 title: "hoopla and other apps that make digital books worse than physical ones"
-tags: ["macro","Myself","hoopla","libraries","copyright","fair use","DRM","alienation of ownership","iOS","Amazon Kindle","Jacques Ellul","Theology and Technique"]
+tags: ["macro","Myself","hoopla","libraries","copyright","fair use","DRM","alienation of ownership","iOS","Kindle","Jacques Ellul","Theology and Technique"]
 ---
 I have mixed feelings about the digital library app hoopla—which offers access to ebooks, electronic comics, and other media that my library doesn't necessarily carry in physical format—but it's so dang useful that I keep using it despite some hesitations (see [this post](https://spencergreenhalgh.com/communities/2024-12-03-hoopla-cadl/) for some recent complaints). Tonight, though, as I tried to wrap up the introduction to the English translation of Jacques Ellul's *Théologie et technique* (which I ought to just buy in French-language physical format, since its publishing house offers 5€ shipping to the U.S.), I noticed something that really made me mad. 
 

@@ -7,7 +7,7 @@ media: ["book","comic","bande dessinée"]
 titles: ["Trois montres d'argent"]
 creators: ["William Vance","Jean Van Hamme"]
 series: ["XIII"]
-franchise: [""]
+franchise: ["XIII"]
 ratings: ["❤️❤️❤️🖤🖤"]
 params:
   entry: Tome 11

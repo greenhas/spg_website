@@ -5,9 +5,9 @@ title: "📚 bookblog: ❤️❤️❤️🖤🖤 pour XIII Tome 9 : Pour Maria,
 tags: ["media","Myself","XIII","William Vance","Jean Van Hamme","white savior","bd","comics"]
 media: ["book","comic","bande dessinée"]
 titles: ["Pour Maria"]
-creators: ["Vance et Van Hamme"]
 creators: ["William Vance","Jean Van Hamme"]
 series: ["XIII"]
+franchise: ["XIII"]
 ratings: ["❤️❤️❤️🖤🖤"]
 params:
   entry: Tome 9
