@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-04-23T15:23:11-04:00
 title: "in memory of a mentor"
-tags: ["macro","Work","Mormon Studies","Melissa Wei-Tsing Inouye","Mormon Twitter","online Mormonism","France","WordPress","Pokémon"]
+tags: ["Mormon Studies","Melissa Wei-Tsing Inouye","Mormon Twitter","online Mormonism","France","WordPress","Pokémon"]
 ---
 This morning, Mormon studies scholar Dr. Melissa Wei-Tsing Inouye passed away after a years-long struggle with cancer. Melissa was an amazing scholar, fantastic mentor, and just great person, and I think a lot of people—even just those who knew her professionally—are going to be spending time writing, thinking, and crying about her today and in the weeks to come. Other people will have more, and more important, things to say than I do, but I’m deeply grateful for Melissa, and I want to show that gratitude by sharing a few thoughts of my own.
 

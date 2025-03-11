@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-07-17T10:29:17-04:00
 title: "how does a churchgoing agnostic talk about religion with his kid?"
-tags: ["macro","Relationships","parenting","religion","tea","Danville","Kentucky","Easter","Community of Christ","faith transition"]
+tags: ["parenting","religion","tea","Danville","Kentucky","Easter","Community of Christ","faith transition"]
 ---
 This summer, I've taken advantage of my 9-month contract with the University of Kentucky to have lots of adventures with kiddo while my spouse (who has a 12-month contract) continues at her job. It's been a real delight! A couple of Fridays ago, we drove to Danville, a town in Central Kentucky where I spent a summer as a high schooler but haven't been back to since. We bought her a book, me some amazing chocolate mint tea, and had a great time exploring fun shops and public art in adorable downtown Danville. More recently, we spent a Friday driving over to Louisville to visit the Kentucky Science Center. We hadn't been there since kiddo had been way too young to appreciate it, but thanks to a local summer reading program, we scored a free ticket, so we made our way back there to try the museum again and then meet up with a local colleague for some delicious ice cream.
 

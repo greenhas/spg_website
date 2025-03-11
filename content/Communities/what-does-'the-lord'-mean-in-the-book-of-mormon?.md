@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-06-28T15:55:58-04:00
 title: "what does 'the Lord' mean in the Book of Mormon?"
-tags: ["macro","Communities","rereading the Book of Mormon project","King James Version","Book of Mormon","Thomas Römer","Wil Gafney","Grant Hardy","King James Version"]
+tags: ["rereading the Book of Mormon project","King James Version","Book of Mormon","Thomas Römer","Wil Gafney","Grant Hardy","King James Version"]
 ---
 
 One recurring question that I've had while working on my ["rereading the Book of Mormon" project](https://spencergreenhalgh.com/tags/rereading-the-book-of-mormon-project/) is asking what should be understood by the common phrase "the Lord" in the text of this book of scripture. In Bible translations, this is a bit more straightforward: "the Lord" is often used as a euphemism for the divine name YHWH and could be read in that way. Before going any further with this discussion, I want to acknowledge that my writing out and speculating on the divine name here may (or will likely) be seen as disrespectful or offensive by many Jews (and even some Christians—I admire Wil Gafney's approach to the divine name). In particular, my understanding is that Jews generally do not write out the divine name in the way that I have done so here. However, I also find that understanding the divine name as a personal name is important for Christians as they work to understand scriptural texts and that using the divine name effectively calls attention to this understanding. I have more thinking to do here, but in this post, I have (perhaps mistakenly) erred on the side of making a point that I think is important.

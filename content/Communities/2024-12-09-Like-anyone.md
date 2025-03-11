@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2024-12-09T17:25:25-05:00
-tags: ["link","Communities","Radicalized","Cory Doctorow","UnitedHealthcare murder","health care"]
+tags: ["Radicalized","Cory Doctorow","UnitedHealthcare murder","health care"]
 title: "🔗 linkblog: my thoughts on 'Pluralistic: Predicting the present (09 Dec 2024) – Pluralistic: Daily links from Cory Doctorow'"
 ---
 Like anyone who's read Cory Doctorow's *Radicalized* (now free to read [here](https://prospect.org/culture/books/2024-12-09-radicalized-cory-doctorow-story-health-care/), and you should go read it), I've thought a lot recently about its central conceit of an online message board where people stiffed by insurance radicalize each other into gruesome acts of violence. The story is hard to read: It's vicious in its implied critique of U.S. healthcare companies, but the people being radicalized are also ugly in their response to those companies' callousness.

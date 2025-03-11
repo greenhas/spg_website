@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2022-01-05T08:23:35-05:00
 title: "🔗 linkblog: just finished '6 Kentucky residents have pleaded guilty over Capitol riot | Lexington Herald Leader'"
-tags: ["link","Communities","Kentucky","Capitol riot"]
+tags: ["Kentucky","Capitol riot"]
 ---
 A reminder of local involvement in the Capitol attack.
  

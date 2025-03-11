@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2024-11-21T21:04:49-05:00
-tags: ["link","Communities","McSweeny's","LGBTQ"]
+tags: ["McSweeny's","LGBTQ"]
 title: "🔗 linkblog: my thoughts on 'I’m a Good, Normal Family Man Who Just Wants to Inspect Your Genitals Before You Pee'"
 ---
 McSweeny's strikes again.

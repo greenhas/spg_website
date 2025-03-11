@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-06-12T15:45:27-04:00
 title: "research on anti-feminist online Mormonism referenced in Salt Lake Tribune column"
-tags: ["macro","Work","media appearances","DezNat","Amy Chapman","Natalie Brown","Mormon Land","online Mormonism","Mormon Twitter","Joanna Brooks"]
+tags: ["media appearances","DezNat","Amy Chapman","Natalie Brown","Mormon Land","online Mormonism","Mormon Twitter","Joanna Brooks"]
 ---
 I enjoy reading Natalie Brown’s columns for the Salt Lake Tribune, so it was a real honor that she referenced [research that Amy Chapman and I did](https://spencergreenhalgh.com/work/far-right-and-anti-feminist-influences-on-a-mormon-twitter-hashtag/) on the "DezNat" Twitter movement in [last Saturday’s installment](https://www.sltrib.com/religion/2024/06/08/natalie-brown-lds-women-need/). In particular, Brown referenced a comment I made to the Tribune last summer that our findings highlighted anti-feminist influences on the DezNat movement (which has typically been criticized for its far right influences) and that while the Church of Jesus Christ of Latter-day Saints
 

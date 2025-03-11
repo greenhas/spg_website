@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-05-18T19:45:54-04:00
 title: "small radio delights, everday cultural artifacts, and other thoughts on audio media"
-tags: ["macro","Myself","radio","podcasts","audio","internet radio","Car Talk","Wait Wait Don't Tell Me","Radio Télévision Suisse","Radio France Internationale","French","John Le Carré","BBC Radio 4", "Internet Archive","anxiety", "DKL Dreyeckland", "French teaching", "comics","Superman Smashes the Klan", "John Finnemore","John Finnemore's Souvenir Programme","Cabin Pressure"]
+tags: ["radio","podcasts","audio","internet radio","Car Talk","Wait Wait Don't Tell Me","Radio Télévision Suisse","Radio France Internationale","French","John Le Carré","BBC Radio 4", "Internet Archive","anxiety", "DKL Dreyeckland", "French teaching", "comics","Superman Smashes the Klan", "John Finnemore","John Finnemore's Souvenir Programme","Cabin Pressure"]
 ---
 I've been a big fan of audio-only media for a big chunk of my life. I grew up listening to NPR radio shows like *Car Talk* and *Wait Wait Don't Tell Me* on Saturdays while my dad drove us around to do errands. TV wasn't allowed in my family on Sundays, but the NPR *Sunday Puzzle* was—depending on what time church was that year, we'd listen to it on our way to Sunday meetings. I discovered podcasts in their infancy, during my final years of high school, and started **really** getting into them near the end of college. 
 

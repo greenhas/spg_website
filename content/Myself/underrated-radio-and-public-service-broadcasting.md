@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-10-16T09:28:15-04:00
 title: "underrated radio and Public Service Broadcasting"
-tags: ["macro","Myself","radio","Public Service Broadcasting","Wait Wait Don't Tell Me","internet radio","BBC Radio","BBC","NPR","This New Noise"]
+tags: ["radio","Public Service Broadcasting","Wait Wait Don't Tell Me","internet radio","BBC Radio","BBC","NPR","This New Noise"]
 ---
 Over the past few weeks, I've been trying to listen to more internet radio, getting back into the great NPR quiz show *Wait Wait Don't Tell Me* and generally thinking about how underrated radio is as a medium. This morning, a chance comment from a familiy member had me checking the website for *Public Service Broadcasting*, a strange and wonderful "found audio" band that I count among my favorites. Thanks to checking that website, I learned that PSB has a new album out based on their appearance last month at the BBC Proms celebrating BBC Radio's 100th anniversary.
 

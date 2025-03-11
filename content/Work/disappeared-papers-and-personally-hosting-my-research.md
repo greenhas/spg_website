@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-08-04T11:34:54-04:00
 title: "disappeared papers and the importance of personally hosting my research"
-tags: ["macro","Work","research","open access","preprints","tenure application","tenure","tenure and promotion","TeachersPayTeachers","Matt Koehler","Jeff Carpenter","Catharyn Shelton"]
+tags: ["research","open access","preprints","tenure application","tenure","tenure and promotion","TeachersPayTeachers","Matt Koehler","Jeff Carpenter","Catharyn Shelton"]
 ---
 Two of my major projects for the summer have been updating my website and submitting my tenure dossier for consideration. One specific thing I've been meaning to do at the intersection of these two projects has been to include a modified research statement on my website as well as a list of my publications along with links to PDFs for all of my research, ensuring that it remains accessible to everyone. I haven't yet decided how much civil disobedience I want to engage in here—part of the reason that I keep putting all of this is off is that I want to revisit all the contracts I've signed over the years to figure out what rights I have in terms of posting preprints, sharing papers in personal/institutional repositories after a certain amount of time, etc. I do want to push the envelope in terms of open access to research, but I think there's an important balancing act involved in all of this, and I haven't figured out what side to err on. 
 

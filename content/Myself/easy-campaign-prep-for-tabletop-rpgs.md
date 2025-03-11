@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-07-31T13:09:17-04:00
 title: "easy campaign prep for tabletop RPGs"
-tags: ["macro","Myself","TTRPGs","Ironsworn","Magical Kitties Save the Day","actual play","podcasts","Dungeons and Dragons","Tales from the Loop","Pathfinder","FATE"]
+tags: ["TTRPGs","Ironsworn","Magical Kitties Save the Day","actual play","podcasts","Dungeons and Dragons","Tales from the Loop","Pathfinder","FATE"]
 ---
 
 This summer has been a good one for getting back into tabletop roleplaying. I played **a lot** of the Wizards of the Coast Star Wars RPG in middle and high school and have been spending most of my life since then wishing that I were still that involved with RPGs. I've compensated some by listening to actual play podcast: [Total Party Kill](https://www.theincomparable.com/tpk/) rotates through several great D&D campaigns, the original Fantasy Flight Star Wars run of [Campaign](https://oneshotpodcast.com/actual-play/campaign/) is so good that I'm listening to it a second time, and Penny Arcade's Tales from the Loop [campaign](https://www.penny-arcade.com/podcast/tales-from-the-loop) blew my mind when I listened to it a few months ago. 

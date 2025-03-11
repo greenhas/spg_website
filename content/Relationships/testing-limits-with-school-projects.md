@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2025-01-29T09:57:03-05:00
 title: "pushing back against and testing limits with kiddo's school projects"
-tags: ["macro","Relationships","school","parenting","LGBTQ","blackface","whitewashing","racism"]
+tags: ["school","parenting","LGBTQ","blackface","whitewashing","racism"]
 ---
 
 Since kiddo was really little, her aunt has been sending her "notable women," "notable people of color," "notable Indigenous people," and "notable queer people" books, which has been good for just setting a background level of what we want our kid to be aware of as she grows up. When she came home with a "famous American" project, she was pretty clear up front that she was *not* going to choose a dude, and she turned to her little collection of books to come up with the three names that she needed to turn in to her teacher for approval before she could start the project.

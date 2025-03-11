@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2023-11-25T18:07:27-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Ultimate Spider-Man: Vol. 11, Carnage, by Brian Michael Bendis and Mark Bagley"
-tags: ["media","Myself","Ultimate Spider-Man","Spider-Man","Brian Michael Bendis","Mark Bagley","comics","great power great responsibility"]
+tags: ["Ultimate Spider-Man","Spider-Man","Brian Michael Bendis","Mark Bagley","comics","great power great responsibility"]
 media: ["book","comic"]
 titles: ["Carnage"]
 creators: ["Brian Michael Bendis","Mark Bagley"]

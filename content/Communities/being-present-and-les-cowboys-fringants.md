@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-09-25T14:04:58-04:00
 title: "being present and « Les Cowboys Fringants »"
-tags: ["macro","Communities","music","Les Cowboys fringants","mindfulness","presence","prayer"]
+tags: ["music","Les Cowboys fringants","mindfulness","presence","prayer"]
 ---
 A couple of weeks ago, I was invited to preprare a "focus moment" for today's worship service in my Community of Christ congregation. There are some things I might change for a different audience (putting more nuance into my current view of God, for example), but I'm still pretty happy with what I came up with. I'm particularly happy about the translation of the song—I didn't bring it up when sharing, but this is a French Canadian song that I translated for today's purpose. I [recently blogged](https://spencergreenhalgh.com/myself/apprendre-enfin-les-paroles-des-chansons-francophones/) about this same song, because I've been listening to it for years but only just recently learned what the words actually meant (this happens a lot to me in French music). I ended up learning a some new French Canadian vocabulary from this, and I'm pleased with how I managed to translate the lyrics in a way that mostly preserves rhymes and rhythm in English.
 

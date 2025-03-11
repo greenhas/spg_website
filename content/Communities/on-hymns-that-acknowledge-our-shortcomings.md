@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-08-07T20:06:25-04:00
 title: "on hymns that acknowledge our shortcomings"
-tags: ["macro","Communities","Community of Christ Sings","ByCommonConsent","Community of Christ","Beyond the Walls","Beyond the Walls Choir"]
+tags: ["Community of Christ Sings","ByCommonConsent","Community of Christ","Beyond the Walls","Beyond the Walls Choir"]
 ---
 Yesterday, during my regular Community of Christ congregation's services, we sang hymn #72 from our hymnal, entitled "Gather Us In," which the Beyond the Walls Choir has beautifully interpreted in the video below: 
 

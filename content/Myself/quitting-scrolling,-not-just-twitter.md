@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-12-24T08:40:59-05:00
 title: "quitting scrolling, not just Twitter"
-tags: ["macro","Myself","Twitter","blogging","RSS","Mastodon","Elon Musk","Micro.blog"]
+tags: ["Twitter","blogging","RSS","Mastodon","Elon Musk","Micro.blog"]
 ---
 Although it's been a real delight to see so many people joining Mastodon over the past few weeks, I've found that there's also a disadvantage that I hadn't expected: I'm spending a lot more time scrolling through Mastodon these days than I ever have since setting up my Mastodon accounts.
 

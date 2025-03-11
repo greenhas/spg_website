@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-01-10T09:22:51-05:00
 title: "quoted in EducationWeek about Seattle Public Schools' social media lawsuit"
-tags: ["macro","Work","EducationWeek","Josh Rosenberg","Jeff Carpenter","Meta","Facebook","Instagram","Snapchat","TikTok","mental health","Mike Masnick","surveillance","media appearances"]
+tags: ["EducationWeek","Josh Rosenberg","Jeff Carpenter","Meta","Facebook","Instagram","Snapchat","TikTok","mental health","Mike Masnick","surveillance","media appearances"]
 ---
 
 Yesterday afternoon, I had the pleasure of talking with Arianna Prothero at EducationWeek about Seattle Public Schools' suing Snap, Alphabet, Meta, and ByteDance, and she ended up quoting me—and colleagues like Jeff Carpenter and Josh Rosenberg—in [her article](https://www.edweek.org/leadership/seattle-district-sues-social-media-companies-over-students-mental-health/2023/01).

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-01-19T13:57:38-05:00
 title: "an 'enmediated' God"
-tags: ["macro","Communities","enmediation","incarnation","Mormonism","theology","Saturday Morning Breakfast Cereal","webcomics","Christology","non-theism","Zach Weinersmith"]
+tags: ["enmediation","incarnation","Mormonism","theology","Saturday Morning Breakfast Cereal","webcomics","Christology","non-theism","Zach Weinersmith"]
 ---
 Mormon theology doesn't really do incarnation. Latter-day Saints believe in an embodied God and that (nearly) all humans will be resurrected to perfect bodies after this life and inevitable death. Latter-day Saints are also not Trinitarian and see Jesus and God the Father as more distinct than most Christian traditions do. Between those two beliefs, Jesus's taking on a mortal body is not really a big deal—it's kind of par for the course for any human, whether or not they are the Savior of the world. Perhaps because of that contrast, incarnation has been one of the most interesting things for me to think about as I've evolved my own theology with my transition out of institutional Mormonism over the past few years. What *does* it mean for a God that transcends fleshy, imperfect existence to take on mortal form and live among us? I've really enjoyed exploring the implications of that reframing (even though, when pressed, I'd probably describe my understanding of God is largely non-theistic and my Christology as pretty low).
 

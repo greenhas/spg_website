@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2022-10-07T17:16:38-04:00
 title: "🔗 linkblog: my thoughts on 'Arizona GOP Secretary Of State Candidate Insists ‘Deep State’ Google Is Blocking His Website; Turns Out He Requested It Not Be Indexed | Techdirt'"
-tags: ["link","Communities","Arizona","Google","Mike Masnick"]
+tags: ["Arizona","Google","Mike Masnick"]
 ---
 Politicians need to better understand the internet. This is just as dumb (and perhaps more devious) than the nonsense the governor of Missouri was up to.
  

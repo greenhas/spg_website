@@ -1,7 +1,8 @@
 ---
+type: ["media"]
 layout: movie
 date: 2023-12-23T07:58:12-05:00
-tags: ["media","movie","Myself","Indiana Jones and the Dial of Destiny","non-violence","punching Nazis","Indiana Jones","World War II","far-right"]
+tags: ["Myself","Indiana Jones and the Dial of Destiny","non-violence","punching Nazis","Indiana Jones","World War II","far-right"]
 title: "🍿 movieblog: ❤️❤️❤️🖤🖤 for Indiana Jones and the Dial of Destiny "
 media: ["movie"]
 titles: ["Indiana Jones and the Dial of Destiny"]

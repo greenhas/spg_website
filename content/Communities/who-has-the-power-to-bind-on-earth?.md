@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-09-04T15:08:14-04:00
 title: "who has the power to bind on earth?"
-tags: ["macro","Communities","sealing power","liturgical year","lectionary","authority","religious authority","David Bentley Hart"]
+tags: ["sealing power","liturgical year","lectionary","authority","religious authority","David Bentley Hart"]
 ---
 One of this week's lectionary passages includes Matthew 18:18-20, which David Bentley Hart renders:
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-07-06T13:45:41-04:00
 title: "why 'open access' isn't enough"
-tags: ["macro","Work","David Wiley","OER","Creative Commons","remixing","alternative textbooks","copyright","licensing","open access","edtech","data science","ICT 661","R","tidyverse","data feminism","Josh Rosenberg","open licensing","research paradigms","free vs. libre"]
+tags: ["David Wiley","OER","Creative Commons","remixing","alternative textbooks","copyright","licensing","open access","edtech","data science","ICT 661","R","tidyverse","data feminism","Josh Rosenberg","open licensing","research paradigms","free vs. libre"]
 ---
 
 I just barely microblogged [something](https://spencergreenhalgh.com/work/2022-07-06-this-summer/) about what I want to say here, but over the past hour, it's been nagging at me more and more, and I want to write some more about it.

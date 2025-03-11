@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-12-19T10:39:30-05:00
 title: "end-of-semester thoughts on hating grading"
-tags: ["macro","Work","grading","teaching","FREN 102","BYU","ungrading"]
+tags: ["grading","teaching","FREN 102","BYU","ungrading"]
 ---
 When I was still an undergraduate student at BYU, I took a job as a student instructor for FREN 102, the second half of a two-course sequence in first-year French. I had a lot of weird experiences as an undergraduate student teaching and grading other undergraduate students, but the one that I remember this morning is the time that I held a student's scholarship in my hand. I don't remember the student's name or much about her, except a vague recollection of her face and a couple of conversations with her. 
 

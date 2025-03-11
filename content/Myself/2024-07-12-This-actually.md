@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2024-07-12T15:16:03-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Now Let's Go Commit Something Mildly Subversive (A Ninth Dumbing of Age Collection), by David Willis"
-tags: ["media","Myself","Now Let's Go Commit Something Mildly Subversive","David Willis","Dumbing of Age","comics","webcomics"]
+tags: ["Now Let's Go Commit Something Mildly Subversive","David Willis","Dumbing of Age","comics","webcomics"]
 media: ["book","comic","webcomic"]
 titles: ["Now Let's Go Commit Something Mildly Subversive"]
 creators: ["David Willis"]

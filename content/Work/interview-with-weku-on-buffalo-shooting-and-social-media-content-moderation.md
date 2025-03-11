@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-05-23T09:42:42-04:00
 title: "interview with WEKU on Buffalo shooting and social media content moderation"
-tags: ["macro","Work","far right","free speech","content moderation","Elon Musk","Twitter","4chan","Buffalo shooting","media appearances"]
+tags: ["far right","free speech","content moderation","Elon Musk","Twitter","4chan","Buffalo shooting","media appearances"]
 ---
 
 Last week, I was interviewed by a reporter at WEKU about social media and content moderation in the context of the horrific recent shooting in Buffalo, and I was pleased to see the interview appear on the [WEKU website](https://www.weku.org/interviews/2022-05-22/uk-information-communication-professor-limits-to-social-media-free-speech-is-tricky) this morning. 

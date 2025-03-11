@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-10-20T09:08:20-04:00
 title: "gratitude for models of being imperfect but 'good enough'"
-tags: ["macro","Communities","podcasts","Community of Christ","Shandra Newcom","World Conference","2023 World Conference","perfectionism","perfect","perfection","mental health","depression"]
+tags: ["podcasts","Community of Christ","Shandra Newcom","World Conference","2023 World Conference","perfectionism","perfect","perfection","mental health","depression"]
 ---
 Yesterday, I listened to [a new episode of the Project: Zion podcast](https://www.projectzionpodcast.org/podcast/520-open-topics-meeting-new-leadership-shandra-newcom/), the semi-official podcast of Community of Christ. This episode was an interview with Shandra Newcom, one of two apostles-designate who will [begin their service after the April 2023 World Conference](https://s3.amazonaws.com/monkdev.mnk.26072/uploaded/l/0e14796503_1662466962_letter-of-counsel-06092022.pdf) of the church. It was a delightful episode, and I posted something to the Community of Christ subreddit that I wanted to repeat here: 
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-09-29T10:38:25-04:00
 title: "Lance Eaton on the invasive surveillance of LMSs"
-tags: ["macro","Work","edtech","learning management systems","surveillance","privacy","data ethics"]
+tags: ["edtech","learning management systems","surveillance","privacy","data ethics"]
 ---
 This week, I'm hurriedly putting together some revisions for a book chapter on data ethics that I've been working on for an open access volume on ethics in educational technology. I'm excited about the volume, and I've really loved writing the chapter, so it's kind of fun to be doing these revisions, even if I waited for the last minute to do them. 
 

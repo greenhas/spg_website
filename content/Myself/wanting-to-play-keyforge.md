@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-10-04T10:02:56-04:00
 title: "wanting to play Keyforge"
-tags: ["macro","Myself","card games","tabletop games","board games","Keyforge","Pokémon TCG","Magic: The Gathering","X-Wing Miniatures Game","Mastodon"]
+tags: ["card games","tabletop games","board games","Keyforge","Pokémon TCG","Magic: The Gathering","X-Wing Miniatures Game","Mastodon"]
 ---
 I've recently followed a couple of bots on Mastodon that promise to show "[Random Magic: The Gathering Cards](https://botsin.space/@random_mtg)" or "[Every Pokémon Card](https://mastodon.social/@EveryPkmnCard)." Following both of these reminds me how much I like trying to think through how the unique abilities of different cards (or miniatures, or whatever else) can be combined to win a game. The last time that I've really scratched that itch was when I was in grad school and got really into the X-Wing Miniatures Game. After spending a ton of money on the First Edition and realizing that I still wasn't great at the game because I couldn't be bothered to follow "the meta," I got disillusioned when the Second Edition came out and made all my purchases semi-obsolete and the little skill I'd built up totally obsolete.
 

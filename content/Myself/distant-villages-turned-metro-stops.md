@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-08-13T11:10:42-04:00
 title: "distant villages turned metro stops"
-tags: ["macro","Myself","Graham Robb","public transit","Paris","Geneva","open source","Frankenstein","Ubuntu","Linux"]
+tags: ["Graham Robb","public transit","Paris","Geneva","open source","Frankenstein","Ubuntu","Linux"]
 ---
 Twelve years ago, I spent a summer in Geneva completing an internship at the NGO Geneva Call ( « Appel de Genève » ). Being the bookworm that I am, I naturally grabbed a few books to bring with me. I know that I read through Eric Raymond's *The Cathedral and the Bazaar* that summer—I had just started using Ubuntu and was wildly (over)optimistic about the ideals of open source. 
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-09-20T20:44:32-04:00
 title: "is the Mistborn Adventure Game the ethics TTRPG I've been looking for?"
-tags: ["macro","Myself","Mistborn","Mistborn Adventure Game","ethics","values","TTRPGs","non-violence","Dungeons and Dragons","Starforged"]
+tags: ["Mistborn","Mistborn Adventure Game","ethics","values","TTRPGs","non-violence","Dungeons and Dragons","Starforged"]
 ---
 Twice this month already I've written about whether and how to try to play according to one's values in games. Both posts have been inspired by [Lotus Dimension](https://lotusdimension.com/index.html), a TTRPG that explicitly encourages finding nonviolent solutions to in-game problems. In my [first post](https://spencergreenhalgh.com/myself/on-games-and-values/), I expressed interest in the game because it "allow[s] and encourage[s] other paths to vidtory." In my [second](https://spencergreenhalgh.com/myself/more-unfinished-thoughts-on-games-and-living-ones-values/), though, I wondered whether that were good enough: "Is ethical behavior in a game because the system of the game rewards that behavior truly ethical?" I've been continuing to think about these questions since writing both posts.
 

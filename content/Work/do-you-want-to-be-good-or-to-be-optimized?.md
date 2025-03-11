@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-03-22T11:17:41-04:00
 title: "do you want to be good or to be optimized?"
-tags: ["macro","Work","research","generative AI","ethics","utilitarianism","digital labor","Amazon","Jeff Bezos","STEM education","STEM","humanities","research paradigms"]
+tags: ["research","generative AI","ethics","utilitarianism","digital labor","Amazon","Jeff Bezos","STEM education","STEM","humanities","research paradigms"]
 ---
 This *Saturday Morning Breakfast Cereal* [comic](https://www.smbc-comics.com/comic/grinch) from yesterday spoke to me at a deep level:
 

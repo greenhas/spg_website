@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2022-01-21T12:19:15-05:00
 title: "🔗 linkblog: just finished 'New Bill Claims To Ban 'Surveillance Advertising,' But Doesn't Actually Do It | Techdirt'"
-tags: ["link","Communities","surveillance","advertising"]
+tags: ["surveillance","advertising"]
 ---
 Helpful if worrying read.
  

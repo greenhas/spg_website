@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-05-26T10:08:29-04:00
 title: "new(ish) publication: investigating offerings and downloads on TeachersPayTeachers"
-tags: ["macro","Work","publications","research","platforms","TeachersPayTeachers","Matt Koehler","Jeff Carpenter","Catharyn Shelton","digital methods","José van Dijck"]
+tags: ["publications","research","platforms","TeachersPayTeachers","Matt Koehler","Jeff Carpenter","Catharyn Shelton","digital methods","José van Dijck"]
 ---
 
 I got word that a recent publication of mine was now published in an issue of *Learning, Media, and Technology*. It has actually been available *online first* for the past ten months, but since I haven't been good about blogging about recent publications, I figured this was as good a chance as any to write a post about it. This piece is called "Lifting the Veil on TeachersPayTeachers.com: An Investigation of Educational Marketplace Offerings and Downloads" and is a collaboration with [Catharyn Shelton](https://www.catharyn.com/), [Matt Koehler](http://www.matt-koehler.com/), and [Jeff Carpenter](https://twitter.com/JeffpCarpenter). Matt web scraped over four million pages associated with resources from the TpT platform, and we took a quantiative descriptive look at resource metadata, including subject areas, grade levels, resource types, Common Core State Standards, user ratings, and prices across those resources. We then interpreted our findings through José van Dijck's writing on embedded values on digital platforms—this was my first real dive into van Dijck, and I'm particularly proud of that contribution. Here's the abstract for more of a peek: 

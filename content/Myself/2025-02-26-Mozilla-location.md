@@ -1,6 +1,7 @@
 ---
+type: ["photo"]
 date: 2025-02-26T17:41:29-05:00
-tags: ["photo","Myself","privacy","surveillance","Mozilla","Firefox"]
+tags: ["privacy","surveillance","Mozilla","Firefox"]
 featured_image: "/2025-02-26-Mozilla-location.JPEG"
 ---
 I've been a Mozilla fan for a long time, but this sort of default behavior is why I'm souring on the organization (and why I abandoned Firefox a few months ago).

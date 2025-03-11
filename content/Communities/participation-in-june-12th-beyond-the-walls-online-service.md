@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-06-15T21:31:11-04:00
 title: "participation in June 12th Beyond the Walls online service"
-tags: ["macro","Communities","Community of Christ","Beyond the Walls","Reunion","Enduring Principles","Grace and Generosity","John Hamer","happy coincidences"]
+tags: ["Community of Christ","Beyond the Walls","Reunion","Enduring Principles","Grace and Generosity","John Hamer","happy coincidences"]
 ---
 
 A few weeks ago, John Hamer (from the Toronto-based *Beyond the Walls* inclusive online congregation of Community of Christ) reached out to ask if I would be interested in contributing a pre-recorded prayer to a June 12th "millennial prayer service" focused on Community of Christ's [Enduring Principles](https://www.youtube.com/watch?v=NSASq0898W8). The denomination [describes](https://cofchrist.org/about-us/) its Enduring Principles as follows: 

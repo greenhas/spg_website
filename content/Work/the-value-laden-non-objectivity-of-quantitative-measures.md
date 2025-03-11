@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-03-07T11:10:35-05:00
 title: "high school class rankings and the value-laden non-objectivity of quantitative measures"
-tags: ["macro","Work","research","quantitative","quantitative research","quantification","high school","Boone County High School","grading","datafication","objectivity"]
+tags: ["research","quantitative","quantitative research","quantification","high school","Boone County High School","grading","datafication","objectivity"]
 ---
 At the beginning of my senior year of high school, Tyler and I were neck and neck in class rankings—if memory serves, he was slightly ahead. This never got in the way of our friendship. We had spent too much time playing the Wizards of the Coast Star Wars Roleplaying Game together, and a few years earlier, we'd even spent one memorable night with our mutual friend Chris hiking repeatedly back and forth between Tyler's house and mine so that we could find the right hardware for hooking up someone's GameCube to my family's venerable TV so that we could play TimeSplitters 2. When a local news station wanted to take photos of local high school valedictorians, our school didn't know how things would shake out, so they sent us both, and we were both comfortable enough with things going either way that we drove up to Cincinnati together, in the BMW that Tyler had bought with earnings from several springs and summers of a successful local yard business he'd started with his older brother.
 

@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2025-01-03T12:52:46+01:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 pour Shenzhen, par Guy Delisle"
-tags: ["media","Myself","Shenzhen","Guy Delisle","Chroniques birmanes","bd","comics","China"]
+tags: ["Shenzhen","Guy Delisle","Chroniques birmanes","bd","comics","China"]
 media: ["book","comic","bande dessinée","graphic novel"]
 titles: ["Shenzen"]
 creators: ["Guy Delisle"]

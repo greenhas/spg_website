@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-08-25T11:00:00-04:00
 title: "small victories in home maintenance"
-tags: ["macro","Relationships","Bluesky","RSS","carbon monoxide detectors","home maintenance","home repair","home ownership"]
+tags: ["Bluesky","RSS","carbon monoxide detectors","home maintenance","home repair","home ownership"]
 ---
 Prominent among my assorted shortcomings as a spouse and parent is a near-total ineptitude in the realm of home maintenance and repair (as evidenced by [my previous posts](https://spencergreenhalgh.com/tags/home-maintenance/) on the subject). So, a few years ago, when our house's carbon monoxide detector started its dystopian shrieking in the middle of the night to let us know that its battery was low, I blearily woke up, tore it out of the wall, disassembled it until it stopped sounding like something out of *1984*, and decided to worry about it in the morning.
 

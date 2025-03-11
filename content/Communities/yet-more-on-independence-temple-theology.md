@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-04-11T15:45:09-04:00
 title: "yet more on Independence temple theology"
-tags: ["macro","Communities","Salt Lake Tribune","Mormon Land","Patrick Mason","Emily Jensen","Independence temple","Community of Christ"]
+tags: ["Salt Lake Tribune","Mormon Land","Patrick Mason","Emily Jensen","Independence temple","Community of Christ"]
 ---
 On the way home from work today, I listened to the [latest episode](https://www.sltrib.com/religion/2024/04/10/mormon-land-covenants-temples/) of the Salt Lake Tribune's *Mormon Land* podcast, recapping the recent LDS General Conference. The two guests—Emily Jensen and Patrick Mason—were both great, and even though I have no interest in watching General Conferences myself, I'm really grateful for the Tribune's coverage. 
 

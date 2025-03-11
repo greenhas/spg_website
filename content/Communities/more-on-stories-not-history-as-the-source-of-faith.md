@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-04-04T11:13:55-04:00
 title: "more on stories (not history) as the source of faith"
-tags: ["macro","Communities","Thomas Römer","Collège de France","historicity","Mormonism","non-literal","Christianity","Judaism"]
+tags: ["Thomas Römer","Collège de France","historicity","Mormonism","non-literal","Christianity","Judaism"]
 ---
 Just over a month ago, I found and [blogged about](https://spencergreenhalgh.com/communities/scripture-as-story-rather-than-history/) a Thomas Römer quote that I had been trying to hunt down for quite some time. I'm continuing to listen to Römer's lectures, and in [the one](https://www.college-de-france.fr/fr/agenda/cours/le-dieu-yhwh-ses-origines-ses-cultes-sa-transformation-en-dieu-unique/le-dieu-yhwh-ses-origines-ses-cultes-sa-transformation-en-dieu-unique-4-0) I'm currently listening to, he revisits the idea from before. As before, I don't want to miss the chance to write it down for future reference, and I figure a blog post is as good an opportunity as any to do so.
 

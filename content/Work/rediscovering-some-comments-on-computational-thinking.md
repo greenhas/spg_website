@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-03-06T08:17:45-05:00
 title: "rediscovering some comments on computational thinking"
-tags: ["macro","Work","computational thinking","computer science education","STEM","STEM education","journaling","Day One","platforms","digital","analog vs. digital","Hypothesis","games","literacies","LIS 618","social annotation","asynchronous teaching"]
+tags: ["computational thinking","computer science education","STEM","STEM education","journaling","Day One","platforms","digital","analog vs. digital","Hypothesis","games","literacies","LIS 618","social annotation","asynchronous teaching"]
 ---
 I keep a journal using [the Day One app](https://dayoneapp.com/) for macOS/iOS, and while I have some lingering concerns about platformizing (and [even digitizing](https://spencergreenhalgh.com/relationships/digital-journaling-of-analog-letters/)) my journaling, there are also some pretty neat aspects to using an app like this. First, it's very easy to copy text from other electronic sources into the app, and that really helps me capture things that made an impression on me from day to day. Second, it's also easy to search for, read, and even be reminded of old entries. If I have time in the morning, I like to bring up the "On This Day" feature of the app and see what I wrote in years past.
 

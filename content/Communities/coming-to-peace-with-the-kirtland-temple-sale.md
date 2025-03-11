@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-03-06T13:15:01-05:00
 title: "coming to peace with the Kirtland Temple sale"
-tags: ["macro","Communities","Kirtland Temple","Community of Christ","Church of Jesus Christ of Latter-day Saints","Stephen Veazey","David Howlett","Restorations","faith transition","Gordon Hinckley","intervening God","non-theism","happy coincidences","Introduction to Scripture","Temple School"]
+tags: ["Kirtland Temple","Community of Christ","Church of Jesus Christ of Latter-day Saints","Stephen Veazey","David Howlett","Restorations","faith transition","Gordon Hinckley","intervening God","non-theism","happy coincidences","Introduction to Scripture","Temple School"]
 ---
 Yesterday, Community of Christ and The Church of Jesus Christ of Latter-day Saints announced that the former had sold the Kirtland Temple, other historic sites, and some important documents and artifacts for $192.5 million dollars. As the title to this post suggests, I've pretty quickly come to peace with the decision, and I want to explain some of that process in this post. However, there are some conflicted emotions lingering beneath that peace, and I want to make clear that the goal of this post is not to tell anyone how to feel about this. 
 

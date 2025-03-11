@@ -1,8 +1,9 @@
 ---
+type: ["macro"]
 date: 2024-07-08T21:09:24-04:00
 title: "reinterpreting scripture and rethinking sexual ethics in Jacob's temple sermon"
 draft: true
-tags: ["macro","Communities","Book of Mormon","sexual ethics","LGBTQ","marriage","Deirdre Nicole Green","Carol Lynn Pearson","Fatimah Salleh","Margaret Olsen Hemming","Grant Hardy","Grant McMurray","Element: A Journal of Mormon Philosophy and Theology","peer review","scripture","Journal of Book of Mormon Studies"]
+tags: ["Book of Mormon","sexual ethics","LGBTQ","marriage","Deirdre Nicole Green","Carol Lynn Pearson","Fatimah Salleh","Margaret Olsen Hemming","Grant Hardy","Grant McMurray","Element: A Journal of Mormon Philosophy and Theology","peer review","scripture","Journal of Book of Mormon Studies"]
 ---
 This essay began as a Twitter thread in 2020, and in recent months, I've really wanted to flesh out some of the thinking I first wrote about there. I started slowly drafting this essay as a blog post in October 2023, but when I learned that *Element: A Journal of Mormon Philosophy and Theology* was being rebooted, I decided to try submitting this there as a scholarly essay instead of just something that would sit on my website.
 

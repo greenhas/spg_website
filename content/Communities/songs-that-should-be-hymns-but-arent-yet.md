@@ -1,8 +1,9 @@
 
+type: ["macro"]
 ---
 date: 2023-11-17T08:25:03-05:00
 title: "songs that should be hymns but aren't (yet?)"
-tags: ["macro","Communities","Les Cowboys fringants","Peace Salaam Shalom","Exploring Community of Christ Basic Beliefs","Community of Christ","hope","Karl Tremblay","existential dread","faith transition"]
+tags: ["Les Cowboys fringants","Peace Salaam Shalom","Exploring Community of Christ Basic Beliefs","Community of Christ","hope","Karl Tremblay","existential dread","faith transition"]
 ---
 Over the summer, I [wrote about](https://spencergreenhalgh.com/communities/a-favorite-community-of-christ-hymn/) a favorite Community of Christ hymn. Without repeating the entire post here, one of my favorite things about it is that it was never written as a hymn. Rather, it was a song written by a folk song as a call for peace that got adopted into the Community of Christ hymnbook in 2013.
 

@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2021-11-04T12:31:21-04:00
 title: "🔗 linkblog: just read 'Taika Waititi to adapt The Incal for the screen | Boing Boing'"
-tags: ["link","Myself","Taika Waititi","BD"]
+tags: ["Taika Waititi","BD"]
 ---
 Taika Waititi is doing a movie based on a Franco-Belgian comic, and I am very excited. I haven't read this series, but it's time to fix that.
  

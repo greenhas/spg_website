@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-01-06T09:00:00-05:00
 title: "on Epiphany and insurrection"
-tags: ["macro","Communities","Epiphany","Capitol riot","Donald Trump","Herod","liturgical calendar","Radio Télévision Suisse","faith transition","COVID-19","podcasts","Saul","Massacre of the Innocents","Urban Federer"]
+tags: ["Epiphany","Capitol riot","Donald Trump","Herod","liturgical calendar","Radio Télévision Suisse","faith transition","COVID-19","podcasts","Saul","Massacre of the Innocents","Urban Federer"]
 ---
 I grew up in a faith tradition that—with the exception of major holidays like Christmas and Easter—didn't follow the Christian liturgical calendar. So, shortly after I began attending Community of Christ regularly (and, given the circumstances, virtually) in 2020, I decided I was going to learn more all of the seasons and holidays that I wasn't familiar with. A few months earlier, I'd heard [an interview with the Swiss abbot Urban Federer](https://www.rts.ch/audio-podcast/2021/audio/dieu-mon-ami-25098851.html) on the *[Babel](https://www.rts.ch/audio-podcast/2021/emission/babel-25000879.html)* podcast by Radio Télévision Suisse. During the interview, Federer talked about a book of his that had recently been translated into French from his native German: *Sources of friendship with God* [Aux sources de l'amitié de Dieu]. I honestly don't remember much about the interview, but it stood out to me enough for me to write down the title of the book—perhaps because I knew that its chapters followed the liturgical calendar. So, that summer, I ordered that book (and two others) from a French bookseller, and when November 2020 rolled around, I began using it as a guide to my first liturgical year.
 

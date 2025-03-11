@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-09-16T09:30:28-04:00
 title: "the foundational experience of losing temples"
-tags: ["macro","Communities","Kirtland Temple","Community of Christ","Church of Jesus Christ of Latter-day Saints","Babylonian exile"]
+tags: ["Kirtland Temple","Community of Christ","Church of Jesus Christ of Latter-day Saints","Babylonian exile"]
 ---
 
 It's now been over six months since the transfer of the Kirtland Temple from Community of Christ to The Church of Jesus Christ of Latter-day Saints, and there's still a lot to process for folks on the Community of Christ side of things. I remain committed to what I first said after hearing the news: that I have no interest in telling people how to feel about things, and that even if I did, I wouldn't be on solid ground doing so. Yet, a thought occurred to me this morning that has helped contextualize some of my other thoughts over the past six months, and I did want to go ahead and share that.

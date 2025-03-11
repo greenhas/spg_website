@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2024-02-10T15:07:27-05:00
-tags: ["link","Communities","BYU","Katalin Novák","Church of Jesus Christ of Latter-day Saints"]
+tags: ["BYU","Katalin Novák","Church of Jesus Christ of Latter-day Saints"]
 title: "🔗 linkblog: my thoughts on 'Hungary's president resigns over a pardon to a man convicted in a child sexual abuse case'"
 ---
 Wondering how long it will be until implicit praise of her family values gets taken down from the LDS and BYU websites.

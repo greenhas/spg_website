@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-06-27T10:58:39-04:00
 title: "langue, ponctuation, et logiciel"
-tags: ["macro","Myself","COVID-19","French","software","computers","smartphone"]
+tags: ["COVID-19","French","software","computers","smartphone"]
 ---
 Il y a quelques années, dans les premiers mois de la pandémie du COVID-19, j'ai décidé de mettre mes ordinateurs (y compris mon smartphone) en français pour m'entrainer un peu. C'était une belle expérience, mais il y a quelques mois, pour une raison dont je ne me souviens plus, j'ai décidé de tout remettre en anglais. L'anglais, c'est ma langue maternelle, mais entre quelques années d'expérience de tout faire en français et ma passion pour cette langue, je trouve qu'il est parfois difficile de m'habituer à ce changement.
 

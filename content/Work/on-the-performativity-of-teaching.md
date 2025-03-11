@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-11-08T15:42:28-05:00
 title: "on the performativity of teaching"
-tags: ["macro","Work","teaching","learning","research","assessment","research ethics"]
+tags: ["teaching","learning","research","assessment","research ethics"]
 ---
 Before writing what I want to write, I want to make a few things clear. Teaching is an important and noble profession, I love being a teacher, and it's possible (and often easy) to distinguish between better and worse ways of teaching. With that out of the way, I want to start off this post by arguing that *teaching* is less of "a thing" than *learning* is. That is, learning is the real phenomenon here, and teaching is sort of an auxiliary practice that aims to support learning but can't ever quite be the same thing. 
 

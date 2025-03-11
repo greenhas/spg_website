@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-05-10T09:01:55-04:00
 title: "on doing—and asking—what is right"
-tags: ["macro","Communities","Louisville Public Media","Kelly Craft","persecution","Community of Christ","LGBTQ","transphobia","2023 Kentucky elections","Kentucky"]
+tags: ["Louisville Public Media","Kelly Craft","persecution","Community of Christ","LGBTQ","transphobia","2023 Kentucky elections","Kentucky"]
 ---
 
 One of this week's lectionary readings in Community of Christ (and presumably elsewhere) is in 1 Peter 3. As I was reading the NRSVUE rendering of this passage this morning, verses 13-17 stood out to me: 

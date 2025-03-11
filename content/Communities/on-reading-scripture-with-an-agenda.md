@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-03-14T10:10:58-04:00
 title: "on reading scripture with an agenda"
-tags: ["macro","Communities","scripture","hermeneutics","Desmond Tutu","Mpho Tutu","The Book of Forgiving","Peace and Justice course","Graceland CIMM","New Testament","Thomas Wayment","King James Version","faith transition","Deseret Book","BYU","The Church of Jesus Christ of Latter-day Saints","Rachel Held Evans"]
+tags: ["scripture","hermeneutics","Desmond Tutu","Mpho Tutu","The Book of Forgiving","Peace and Justice course","Graceland CIMM","New Testament","Thomas Wayment","King James Version","faith transition","Deseret Book","BYU","The Church of Jesus Christ of Latter-day Saints","Rachel Held Evans"]
 ---
 I grew up in a faith tradition that put a huge amount of emphasis on the King James Version of the Bible. It was only four years ago (in the early phases of my faith transition), that I deliberately picked up another translation to read instead. Even then, I picked a relatively "safe" transition to venture into: Thomas Wayment's *The New Testament: A Translation for Latter-day Saints*. Since it was co-published by Deseret Book and BYU, it had some tacit approval from Latter-day Saint institutions, even if The Church of Jesus Christ of Latter-day Saints itself still identifies the KJV as its official English language text.
 

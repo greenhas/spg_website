@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-08-11T09:38:41-04:00
 title: "which Jesus?"
-tags: ["macro","Communities","David Bentley Hart","Christianity","Stephen Veazey","World Conference","Community of Christ","Matt Mikalatos","Imaginary Jesus","A History of the Bible","John Barton","Andrew Torba","Gab","Christian nationalism"]
+tags: ["David Bentley Hart","Christianity","Stephen Veazey","World Conference","Community of Christ","Matt Mikalatos","Imaginary Jesus","A History of the Bible","John Barton","Andrew Torba","Gab","Christian nationalism"]
 ---
 In his closing sermon at the 2019 Community of Christ World Conference, prophet-president Steve Veazey asked a guiding question for the church: 
 

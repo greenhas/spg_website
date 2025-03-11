@@ -1,7 +1,8 @@
 ---
+type: ["media"]
 layout: radio
 date: 2024-04-09T12:59:54-04:00
-tags: ["media","radio","Myself","Cabin Pressure","John Finnemore","radio","BBC Radio","BBC Radio 4"]
+tags: ["Myself","Cabin Pressure","John Finnemore","radio","BBC Radio","BBC Radio 4"]
 title: "🎙️ radioblog: ❤️❤️❤️❤️❤️ for Cabin Pressure (Series 2)"
 media: ["radio"]
 series: ["Cabin Pressure"]

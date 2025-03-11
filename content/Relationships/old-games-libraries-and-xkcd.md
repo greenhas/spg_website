@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-09-24T15:13:51-04:00
 title: "old video games, libraries, and xkcd"
-tags: ["macro","Relationships","xkcd","video games","libraries","parenting","Portal","Nintendo Wii","macOS","Mario Kart"]
+tags: ["xkcd","video games","libraries","parenting","Portal","Nintendo Wii","macOS","Mario Kart"]
 ---
 There's a great xkcd strip (see below) about someone who always plays video games on a five-year lag because you get to enjoy all the good games with less of a hassle:
 

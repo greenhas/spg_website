@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-10-10T11:53:46-04:00
 title: "all I want for tenure is to be added to the Star Wars bulletin board"
-tags: ["macro","Work","Star Wars","tenure","tenure and promotion","tenure application"]
+tags: ["Star Wars","tenure","tenure and promotion","tenure application"]
 ---
 This "Don't Fly Solo" board has been up in the hallway of our building since before I was hired. I took a picture of it back in December 2017, when I was here on a job interview. It was one of the most prominent signs (no pun intended) that this would be a friendly and fun unit to work in, which was one of the biggest considerations on my mind when I decided to accept the job (though the adventure of changing disciplines and the convenience of living closer to family shouldn't be discounted). I think of all of this just about every time I pass the sign.
 

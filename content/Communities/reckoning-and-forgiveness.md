@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-03-25T13:33:37-04:00
 title: "reckoning and forgiveness"
-tags: ["macro","Communities","forgiveness","reckoning","Desmond Tutu","Mpho Tutu","The Book of Forgiving","The Church of Jesus Christ of Latter-day Saints","Mormonism","Graceland CIMM","Community of Christ Seminary","anxiety","depression","perfectionism"]
+tags: ["forgiveness","reckoning","Desmond Tutu","Mpho Tutu","The Book of Forgiving","The Church of Jesus Christ of Latter-day Saints","Mormonism","Graceland CIMM","Community of Christ Seminary","anxiety","depression","perfectionism"]
 ---
 I write a lot about Mormonism on this blog, and even though I'm not shy about being critical, I think I've also made clear that in relative terms, I'm on pretty good terms with The Church of Jesus Christ of Latter-day Saints. Not on such good terms that I'm still an active member of that church, of course, but I still feel a lot of fondness for it, and I don't think I'll ever consider myself an "ex-Mormon"—the great thing about the word "Mormon" no longer being officially approved is that it makes it all the more appropriate for describing my own religious identity.
 

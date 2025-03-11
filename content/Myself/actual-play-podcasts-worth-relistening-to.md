@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-10-12T08:05:04-04:00
 title: "actual play podcasts worth relistening to"
-tags: ["macro","Myself","podcasts","actual play","TTRPGs","One Shot","Campaign","Adventure","Tales from the Loop","Star Wars","Kids on Bikes","Advent"]
+tags: ["podcasts","actual play","TTRPGs","One Shot","Campaign","Adventure","Tales from the Loop","Star Wars","Kids on Bikes","Advent"]
 ---
 Over the past few days, I've been relistening to the *[One Shot](https://oneshotpodcast.com/)* podcast's October 2018 *[Kids on Bikes](https://www.huntersentertainment.com/kidsonbikesrpg)* episodes (which starts [here](https://oneshotpodcast.com/podcasts/273-kids-on-bikes-part-1/)). There's so much to love about this six-episode series. I remembered enjoying the characters and the players, but it wasn't until this morning that I remembered the perfect moment where one player describes the biblical Jacob as "history's best angel fighter" and summons him to help a science teacher fight off a terrifying seraphim (which I promise makes sense in context).
 

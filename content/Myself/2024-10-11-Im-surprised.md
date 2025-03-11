@@ -1,7 +1,8 @@
 ---
+type: ["media"]
 layout: tv
 date: 2024-10-11T21:42:15-04:00
-tags: ["media","tv","Myself","Slow Horses"]
+tags: ["Myself","Slow Horses"]
 title: "📺 tvblog: ❤️❤️❤️❤️❤️ for Slow Horses (Season 4)"
 media: ["tv"]
 series: ["Slow Horses"]

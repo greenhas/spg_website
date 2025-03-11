@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2023-06-15T15:16:09-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️❤️ for Marry Me a Little: A Graphic Memoir, by Rob Kirby"
-tags: ["media","Communities","Marry Me a Little","Rob Kirby","LGBTQ","comics"]
+tags: ["Marry Me a Little","Rob Kirby","LGBTQ","comics"]
 media: ["book","comic","graphic novel"]
 titles: ["Marry Me a Little: A Graphic Memoir"]
 creators: ["Rob Kirby"]

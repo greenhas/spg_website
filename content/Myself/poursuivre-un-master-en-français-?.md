@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-03-20T09:29:45-04:00
 title: "poursuivre un master en français ?"
-tags: ["macro","Myself","French","lifelong education","University of Kentucky","Graceland University","Graceland CIMM","grad school"]
+tags: ["French","lifelong education","University of Kentucky","Graceland University","Graceland CIMM","grad school"]
 ---
 Tous les matins, l'Université du Kentucky envoie un courriel à tous ses employés avec des annonces et informations diverses. Ce matin, la fin du courriel affirme qu'il est aujourd'hui le jour de la langue française (c'est [vrai en plus](https://fr.wikipedia.org/wiki/Journ%C3%A9e_de_la_langue_fran%C3%A7aise_aux_Nations_unies)!) et nous rappelle que notre université offre plein de cours en langue française et en études francophones.
 

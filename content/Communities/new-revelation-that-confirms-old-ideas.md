@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-07-18T09:28:07-04:00
 title: "new revelation that confirms old ideas"
-tags: ["macro","Communities","Dan McClellan","Mormonism","The Church of Jesus Christ of Latter-day Saints","Charles Harrell","This is My Doctrine","Restoration","Book of Mormon","Doctrine and Covenants","apostasy","exclusivism"]
+tags: ["Dan McClellan","Mormonism","The Church of Jesus Christ of Latter-day Saints","Charles Harrell","This is My Doctrine","Restoration","Book of Mormon","Doctrine and Covenants","apostasy","exclusivism"]
 ---
 I'm a fan of Dan McClellan's YouTube channel—he posts a lot there (nearly everything is a repost from TikTok), and I watch most of what he posts. Yesterday, he posted an interesting video on the "Lucifer" name and character in the Bible, describing how traditional Christian ideas about the figure are all post-biblical innovations that don't neceessarily line up with the text. In particular, the name "Lucifer" is an artifact of the Vulgate, and even in the Vulgate, the name itself is a reference to a Babylonian king, not to a fallen angel who became the devil. Here's the video in its entirety:
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-04-13T21:21:25-04:00
 title: "a second World Conference experience?"
-tags: ["macro","Communities","World Conference","Community of Christ","2023 World Conference"]
+tags: ["World Conference","Community of Christ","2023 World Conference"]
 ---
 A week from tomorrow, I'm heading to Independence, Missouri to attend a few days of the 2023 World Conference of Community of Christ—and to act as a voting delegate in any of the legislative sessions that take place during my short time there. This is the first time since my confirmation into Community of Christ that a World Conference has taken place (the last one was in 2019), so I've been thinking about this for several months as "my first World Conference experience." 
 

@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2021-10-25T12:40:57-04:00
 title: "🔗 linkblog: just read 'Employees pleaded with Facebook to stop letting politicians bend rules | Ars Technica'"
-tags: ["link","Communities","Facebook","content moderation"]
+tags: ["Facebook","content moderation"]
 ---
 Facebook might need more moderators, but they shouldn't be company executives...
  

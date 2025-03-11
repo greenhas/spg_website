@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-07-23T20:31:07-04:00
 title: "RSS, APIs, and automating the lectionary readings (and other stuff, too)"
-tags: ["macro","Myself","RSS","API","Habitica","liturgical calendar","productivity","Siri Shortcuts","habit tracking","vegetarianism","Apple Watch","Hugo","imposter syndrome","Things","Community of Christ","Book of Mormon","Doctrine and Covenants"]
+tags: ["RSS","API","Habitica","liturgical calendar","productivity","Siri Shortcuts","habit tracking","vegetarianism","Apple Watch","Hugo","imposter syndrome","Things","Community of Christ","Book of Mormon","Doctrine and Covenants"]
 ---
 I am one of those people who responds to a lot of work coming my way by ignoring that work and instead trying to think about how to change my routines and workflows. With the summer coming to an end and a new academic year approaching, I've been reading productivity books, thinking about the software that I use, and wondering what needs to change.
 

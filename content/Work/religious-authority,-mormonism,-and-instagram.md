@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-03-22T11:44:59-04:00
 title: "religious authority, Mormonism, and Instagram"
-tags: ["macro","Work","online Mormonism","religious authority","Instagram","Church of Jesus Christ of Latter-day Saints"]
+tags: ["online Mormonism","religious authority","Instagram","Church of Jesus Christ of Latter-day Saints"]
 ---
 As I hinted at in a [recent linkpost](https://spencergreenhalgh.com/work/2024-03-20-bookmarking-for/), something really interesting happened this week that serves as a sort of microcosm of my research interests related to online Mormonism and religious authority. Here's a rundown of what happened, as reported by the Salt Lake Tribune (and republished [here](https://www.msn.com/en-us/news/us/lds-church-responds-to-firestorm-over-speech-about-women-blames-glitch-for-vanishing-social-media-comments/ar-BB1keX1I) via MSN). 
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-05-06T14:03:45-04:00
 title: "Stack Exchange and digital labor"
-tags: ["macro","Myself","Stack Exchange","digital labor","OpenAI","generative AI","ChatGPT","Stack Overflow","Squirrel Girl","R","French"]
+tags: ["Stack Exchange","digital labor","OpenAI","generative AI","ChatGPT","Stack Overflow","Squirrel Girl","R","French"]
 ---
 Today, Stack Overflow [announced](https://stackoverflow.co/company/press/archive/openai-partnership) that it was entering into a partnership with OpenAI to provide data from the former to the latter for the purposes of training ChatGPT, etc. I’ve used Stack Overflow a fair amount over the years, and there have also been times where I tried to get into some of the other Stack Exchange sites, contributing both questions and answers. I haven’t really been active on any of these sites in recent times, but I still decided to take a couple of minutes this afternoon and follow the advice of one outraged Mastodon post: delete my contributions and shut down my accounts.
 

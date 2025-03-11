@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2021-12-01T10:52:53-05:00
 title: "🔗 linkblog: just finished 'Qualcomm’s new always-on smartphone camera is a privacy nightmare - The Verge'"
-tags: ["link","Communities","privacy"]
+tags: ["privacy"]
 ---
 Takes some real self-confidence to describe an always-on camera as a feature, not a nightmarish bug.
  

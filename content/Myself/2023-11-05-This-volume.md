@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2023-11-05T16:27:43-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Ultimate Spider-Man: Vol. 4, Legacy, by Brian Michael Bendis and Mark Bagley"
-tags: ["media","Myself","Ultimate Spider-Man","Brian Michael Bendis and Mark Bagley","queerphobia","homophobia","misogyny","Spider-Man","Brian Michael Bendis","Mark Bagley"]
+tags: ["Ultimate Spider-Man","Brian Michael Bendis and Mark Bagley","queerphobia","homophobia","misogyny","Spider-Man","Brian Michael Bendis","Mark Bagley"]
 media: ["book","comic"]
 titles: ["Legacy"]
 creators: ["Brian Michael Bendis","Mark Bagley"]

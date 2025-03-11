@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2022-09-01T08:07:35-04:00
 title: "🔗 linkblog: my thoughts on 'Trans Researchers Want Google Scholar to Stop Deadnaming Them | WIRED'"
-tags: ["link","Work","Google","Google Scholar","LGBTQ"]
+tags: ["Google","Google Scholar","LGBTQ"]
 ---
 Ashamed to say I hadn't ever thought about this possibility.
  

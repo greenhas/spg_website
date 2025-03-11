@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-08-09T14:46:57-04:00
 title: "webcomics and the importance of content aggregation"
-tags: ["macro","Work","ICT 302","content aggregation","Star Wars","Dork Tower","webcomics","Revenge of the Sith","John Kovalic","Deane Barker","Kagi"]
+tags: ["ICT 302","content aggregation","Star Wars","Dork Tower","webcomics","Revenge of the Sith","John Kovalic","Deane Barker","Kagi"]
 ---
 One of the joys of teaching a class on content management is the way that the concepts we discuss and work with have seeped deep into my brain, making it impossible to consume web content casually ever again. I write that half jokingly, but it's amazing how much ICT 302 affects the way that I see the web, and how much my everyday encounters with the web shape my teaching in that class.
 

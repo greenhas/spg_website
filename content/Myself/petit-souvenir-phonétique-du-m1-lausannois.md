@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-04-04T15:05:13-04:00
 title: "petit souvenir phonétique du M1 lausannois"
-tags: ["macro","Myself","French","Switzerland","Lausanne","EPFL","Gare à vous","Radio Télévision Suisse","LEB","Renens","Vaud","trains","UNIL"]
+tags: ["French","Switzerland","Lausanne","EPFL","Gare à vous","Radio Télévision Suisse","LEB","Renens","Vaud","trains","UNIL"]
 ---
 Ce matin, en écoutant une épisode du podcast « Gare à vous » de la Radio Télévision Suisse, un petit souvenir tout bête m'est venu à l'esprit, et j'ai eu l'envie d'en écrire ici. Il s'agit d'un petit moment vécu alors que j'habitais à Renens, tout près de Lausanne, dans le canton suisse du Vaud. J'ai adoré les quelques mois que j'ai passé à Renens, tout près de Lausanne. Il y a plusieurs raisons derrière cet amour, mais j'avoue que c'est surtout un endroit très intéressant du point de vue d'un américain qui pleure la faiblesse des transports publics là d'où il vient. Je voyageais tous les jours sur [les transports publics de la région lausannoise](https://fr.wikipedia.org/wiki/Transports_publics_de_la_r%C3%A9gion_lausannoise), surtout le trolleybus de la ligne 17, qui liait Renens avec le centre-ville lausannois et (si je comprends bien) est maintenant disparue pour préparer la venue du tramway lausannois. Je passais un peu de temps à Prilly aussi, et quand j'avais de la chance, je voyais une rame du LEB qui passait. C'était rare de prendre le métro léger baptisé M1, même si il liait lui aussi Lausanne et la gare de Renens; c'était la 17 qui était souvent le moyen le plus pratique pour arriver là où je voulais aller.
 

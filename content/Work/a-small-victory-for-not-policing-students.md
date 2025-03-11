@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-03-21T11:52:25-04:00
 title: "a small victory for not policing students"
-tags: ["macro","Work","Hypothesis","discussion boards","asynchronous courses","LIS 618","online teaching","online learning","social annotation","ungrading","ICT 302","ICT 202"]
+tags: ["Hypothesis","discussion boards","asynchronous courses","LIS 618","online teaching","online learning","social annotation","ungrading","ICT 302","ICT 202"]
 ---
 I've never been a fan of policing student behavior in my classes. I don't take attendance, I'm pretty generous when it comes to late work and making up assignments, and I try to make participation in class something that's organic rather than something structured and forced. In recent years, this hasn't necessarily gone well. For example, the undergrad class I'm currently teaching has lousy attendance, and I struggle to get anyone except the 3-4 same voices to contribute to class discussions. Last semester, my attempts to "ungrade" one of my other undergrad classes have just not provoked the organic excitement and intrinsic motivation that I was hoping would come out of the experiment. As much as I believe in not policing my students, I've had to think about walking back some of my idealism and doing a little bit more policing to make sure that my students are engaged.
 

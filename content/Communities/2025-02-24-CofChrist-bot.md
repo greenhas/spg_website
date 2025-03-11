@@ -1,6 +1,7 @@
 ---
+type: ["photo"]
 date: 2025-02-24T20:39:46-05:00
-tags: ["photo","Communities","generative AI","Community of Christ"]
+tags: ["generative AI","Community of Christ"]
 featured_image: "/2025-02-24-CofChrist-bot.JPEG"
 ---
 Oh, please no. I get (and support) that Community of Christ wants to explore doing digital church, but it also has really compelling theological reasons to not deploy generative AI products, and this makes me sad.

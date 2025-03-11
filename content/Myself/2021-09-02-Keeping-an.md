@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2021-09-02T08:55:31-04:00
 title: "🔗 linkblog: just read 'This chainless drive system could revolutionize e-bike designs  - The Verge'"
-tags: ["link","Myself","e-bikes","bikes"]
+tags: ["e-bikes","bikes"]
 ---
 Keeping an eye on this! E-bikes are exciting.
  

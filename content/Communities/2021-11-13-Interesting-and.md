@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2021-11-13T07:39:49-05:00
 title: "🔗 linkblog: just read 'Why a wealth tax for people like Elon Musk is so hard to pull off : NPR'"
-tags: ["link","Communities","wealth task","Elon Musk"]
+tags: ["wealth task","Elon Musk"]
 ---
 Interesting and helpful read.
  

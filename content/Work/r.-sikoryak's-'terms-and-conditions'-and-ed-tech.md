@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-01-11T10:34:21-05:00
 title: "R. Sikoryak's 'Terms and Conditions' and ed tech"
-tags: ["macro","Work","R. Sikoryak","Terms and Conditions (comic)","Apple","edtech","terms of service","parenting"]
+tags: ["R. Sikoryak","Terms and Conditions (comic)","Apple","edtech","terms of service","parenting"]
 ---
 My sister-in-law recently gifted me a copy of [R. Sikoryak](https://en.wikipedia.org/wiki/Robert_Sikoryak)'s weird but wonderful comic *Terms and Conditions*, which "adapts" the 2015 iTunes terms and conditions into a comic format. I was as delighted by the gift, which I'm sure only contributed to her bewilderment (she knew I wanted the book, but I can't blame anyone for not understanding why I wanted it). 
 

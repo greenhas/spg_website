@@ -1,6 +1,7 @@
 ---
+type: ["photo"]
 date: 2024-11-16T07:25:13-05:00
-tags: ["photo","Myself","rickroll","limerick","Rick Astley"]
+tags: ["rickroll","limerick","Rick Astley"]
 featured_image: "/2024-11-16-limerickrolled.JPEG"
 ---
 Love me a creative rickroll, so I'm glad my brother sent me this right after I got my image posting workflow working.

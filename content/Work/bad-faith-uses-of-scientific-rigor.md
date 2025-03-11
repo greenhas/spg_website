@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-10-11T14:22:53-04:00
 title: "bad faith uses of scientific 'rigor'"
-tags: ["macro","Work","Journal of the Mormon Social Science Association","research","publishing","DezNat","productivity","Catherine D'Ignazio","Lauren Klein","Data Feminism"]
+tags: ["Journal of the Mormon Social Science Association","research","publishing","DezNat","productivity","Catherine D'Ignazio","Lauren Klein","Data Feminism"]
 ---
 I have conflicted feelings about productivity books, but even as I increasingly reject the emphasis on productivity, I do find that there are some gems in these books that are helpful to me as I try to keep my life organized across all of its dimensions. While rereading one of these books over the summer, I came across the following quote (which appears to be [a misquotation of Oliver Wendell Holmes, Jr.](https://en.wikiquote.org/wiki/Oliver_Wendell_Holmes_Jr.)):
 

@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2022-02-09T12:14:12-05:00
 title: "🔗 linkblog: just finished 'How the Open App Markets Act wants to remake app stores - The Verge'"
-tags: ["link","Communities","app stores"]
+tags: ["app stores"]
 ---
 This would really change things up!
  

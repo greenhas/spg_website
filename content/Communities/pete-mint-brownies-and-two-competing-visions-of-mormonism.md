@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-09-24T13:01:01-04:00
 title: "Pete, mint brownies, and two competing visions of Mormonism"
-tags: ["macro","Communities","BYU","King James Version","Kentucky","babysitting","TTRPGs","Halo","Xbox","Star Wars","Axis and Allies","Homestar Runner","GOP","Rand Paul","Mitt Romney"]
+tags: ["BYU","King James Version","Kentucky","babysitting","TTRPGs","Halo","Xbox","Star Wars","Axis and Allies","Homestar Runner","GOP","Rand Paul","Mitt Romney"]
 ---
 Pete and Sarah were mainstays of my Mormon experience growing up. Their oldest—a famously rowdy boy with several rowdy younger brothers—was present on the Sunday when I was introduced in children's classes as a newcomer to the congregation. When I outgrew children's classes and made my way to youth Sunday School, Pete was our teacher for a while—the kind of teacher who tried to suppress a giggle (and usually unsuccessfully) whenever the word "ass" (especially "dumb ass") appeared in the KJV. Somewhere in there, he served in congregational leadership; somewhere in there, they might have moved away before returning to Kentucky (my memories are fuzzy).
 

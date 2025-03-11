@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2024-09-25T21:03:06-04:00
-tags: ["link","Communities","Clay Higgins","Mike Johnson","racism"]
+tags: ["Clay Higgins","Mike Johnson","racism"]
 title: "🔗 linkblog: my thoughts on 'Rep. Clay Higgins Posts, Then Deletes, Racist Comments About Haitians'"
 ---
 Posting this as a bookmark. It's mindboggling how overtly racist

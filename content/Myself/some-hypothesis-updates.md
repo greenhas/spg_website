@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-06-21T11:15:19-04:00
 title: "some Hypothesis (and other) updates for the blog"
-tags: ["macro","Myself","Hypothesis","Micro.blog","Mastodon","platforms","content aggregation","ICT 302"]
+tags: ["Hypothesis","Micro.blog","Mastodon","platforms","content aggregation","ICT 302"]
 ---
 
 Shortly after last week's [mostly-successful experiment with Hypothesis](https://spencergreenhalgh.com/myself/embedding-hypothesis-as-a-commenting-system-on-hugo-static-sites/), I noticed [Chris Aldrich](https://boffosocko.com/) posting to [Micro.blog](https://micro.blog/chrisaldrich) about the software and started up a conversation. I'd followed Chris a few weeks before in trying to get more into Micro.blog (perhaps my favorite indie social media platform out there, though I'm also enjoying getting into Mastodon) by following academia and academia-adjacent folks, and was pleased to see an area of common interest.

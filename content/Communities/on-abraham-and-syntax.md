@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-06-28T11:39:15-04:00
 title: "on Abraham and syntax"
-tags: ["macro","Communities","sacrifice","Abraham","Binding of Isaac","Robert Alter","Kierkegaard"]
+tags: ["sacrifice","Abraham","Binding of Isaac","Robert Alter","Kierkegaard"]
 ---
 I've alluded to [the binding of Isaac](https://spencergreenhalgh.com/tags/binding-of-isaac/) in previous posts, and I hope that what I've written before makes it clear how uncomfortable I am with this story. Nonetheless, it's one of the readings in this week's Lectionary scriptures, and there is a part of Robert Alter's translation of this story that does stick out to me. Here's how Alter renders Genesis 22:2:
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-07-31T11:38:59-04:00
 title: "slides for guest lecture on platform perspectives, digital labor, and the digital divide"
-tags: ["macro","Work","digital divide","platform perspective","platforms","digital labor","Elon Musk","Jeff Bezos","Amazon","Kindle","comics","BD","LIS 600","Gas"]
+tags: ["digital divide","platform perspective","platforms","digital labor","Elon Musk","Jeff Bezos","Amazon","Kindle","comics","BD","LIS 600","Gas"]
 ---
 A few months ago, some colleagues reached out to ask if I would be willing to record a guest lecture for our library science program's LIS 600: Information in Society. In particular, they were interested in having me record something for a week on the digital divide. I am conversant on that topic, but it's not an area of specialty for me, so I was unsure about it until I realized that some of the readings for that week touch on topics like platform design that I am really interested in through my work on social media communities.
 

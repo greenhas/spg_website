@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2021-11-10T09:31:24-05:00
 title: "🔗 linkblog: just read 'Data Broker Veraset Gave Bulk Device-Level GPS Data to DC Government | Electronic Frontier Foundation'"
-tags: ["link","Communities","data","location data","surveillance"]
+tags: ["data","location data","surveillance"]
 ---
 Location data harvesting is scary stuff.
  

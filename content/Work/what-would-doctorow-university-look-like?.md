@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-03-08T12:46:47-05:00
 title: "what would Doctorow University look like?"
-tags: ["macro","Work","Cory Doctorow","Walkaway","Down and Out in the Magic Kingdom","Kathleen Fitzpatrick","Generous Thinking","Maggie Berg and Barbara K Seeber","The Slow Professor","Kentucky General Assembly","tenure","faculty governance"]
+tags: ["Cory Doctorow","Walkaway","Down and Out in the Magic Kingdom","Kathleen Fitzpatrick","Generous Thinking","Maggie Berg and Barbara K Seeber","The Slow Professor","Kentucky General Assembly","tenure","faculty governance"]
 ---
 One of my favorite academic anecdotes to share in conference rooms and university hallways is for my dissertation defense, two of my committee members were there via telepresence robot. This is less impressive post-2020, when a lot of defenses happen entirely over Zoom, but it's still different than an online-only defense, so the story still attracts some interest. At any rate, as good as I thought my story was, I got a real kick out of this bit in the prologue to Cory Doctorow's *Down and Out in the Magic Kingdom*:
 

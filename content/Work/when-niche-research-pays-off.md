@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-11-04T08:02:41-04:00
 title: "when niche research pays off"
-tags: ["macro","Work","grad school","DezNat","Mormon Studies","Mormon Twitter","research","Josh Rosenberg","Amy Chapman","Kristy Robinson","Matt Koehler","Sarah Gretter","Renee Kaufmann","Cynthia Nnagboro","internet research","legitimacy"]
+tags: ["grad school","DezNat","Mormon Studies","Mormon Twitter","research","Josh Rosenberg","Amy Chapman","Kristy Robinson","Matt Koehler","Sarah Gretter","Renee Kaufmann","Cynthia Nnagboro","internet research","legitimacy"]
 ---
 In my second-to-last year of grad school, I was asked to give a research talk as part of my program's prospective student day. My talk was representing the "educational technology" part of the program, and the incomparable Kristy Robinson gave a talk reresenting the "educational psychology" part (to this day, when I'm struggling with a bout of imposter syndrome, I still remind myself that my grad program let me present alongside someone of Kristy's caliber, so I must have something going for me). 
 

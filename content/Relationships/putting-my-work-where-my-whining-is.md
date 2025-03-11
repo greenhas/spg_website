@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-09-01T08:43:51-04:00
 title: "putting my work where my whining is"
-tags: ["macro","Relationships","school","parenting","edtech","ClassDojo"]
+tags: ["school","parenting","edtech","ClassDojo"]
 ---
 Early in the school year, I signed up to be a parent representative on one of the Site-Based Decision Making (SBDM) committees for kiddo's school. I had already started being a rabble-rouser about ClassDojo and some of my other edtech concerns, and I wanted to show that I could put in work where my whining was: That is, that I wasn't just going to complain about things, but that I was going to show support for the school by helping out where I could. Besides, I have long term aspirations to run for a school board seat, so this seems like a good way to work my way there; also, I'd guess there aren't as many dads as moms that are available for 3pm committee meetings (hooray for a flexible academic's schedule!), so I figured I'd try to balance out some of the gender representation there.
 

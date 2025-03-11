@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-08-09T09:32:46-04:00
 title: "teacher agency and edtech"
-tags: ["macro","Work","edtech","ClassDojo","teacher agency","MAET","TPACK","Matt Koehler","Punya Mishra","teacher education"]
+tags: ["edtech","ClassDojo","teacher agency","MAET","TPACK","Matt Koehler","Punya Mishra","teacher education"]
 ---
 Last night, my spouse and I took kiddo to her new school to find her classroom, officially meet her teacher, and all that fun stuff. While we were there, we got confirmation of what we'd heard earlier: ClassDojo is going to be used in all classrooms this year as part of a school-wide initiative. It was helpful to talk to kiddo's teacher about this. She understood my concerns, she had her own trepidations about being required to use ClassDojo, and she honestly wasn't sure how she was going to bring it into the classroom. One interesting detail that came out of the conversation is that she had only heard on Friday (a mere **five** days before the beginning of the school year) that she was going to be required to use this platform.
 

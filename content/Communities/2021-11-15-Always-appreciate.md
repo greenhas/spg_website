@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2021-11-15T14:26:01-05:00
 title: "🔗 linkblog: just read 'After Facebook Leaks, Here Is What Should Come Next | Electronic Frontier Foundation'"
-tags: ["link","Communities","Facebook"]
+tags: ["Facebook"]
 ---
 Always appreciate the EFF's perspective.
  

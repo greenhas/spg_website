@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2025-02-18T10:11:28-05:00
 title: "research referenced in Salt Lake Tribune article on social media and Mormon masculinity"
-tags: ["macro","Work","Tamarra Kemsley","Amy Chapman","Levi Sands","DezNat","Patreon","Mormon Land","Andrew Tate","Jordan Peterson","online Mormonism","Mormon Twitter"]
+tags: ["Tamarra Kemsley","Amy Chapman","Levi Sands","DezNat","Patreon","Mormon Land","Andrew Tate","Jordan Peterson","online Mormonism","Mormon Twitter"]
 ---
 This last weekend, I made a brief appearance in an [article from the Salt Lake Tribune](https://www.sltrib.com/religion/2025/02/16/how-social-media-is-shaping-latter/) discussing the influence of social media on Mormon masculinity. As I've noted before, the Tribune aggressively paywalls, but it's hard to fault them. I get access to their religion coverage by paying $3/month to the Patreon for their *Mormon Land* podcast.
 

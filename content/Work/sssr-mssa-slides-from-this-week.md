@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-10-20T10:47:44-06:00
 title: "Society for the Scientific Study of Religion/Mormon Social Science Association slides from this week"
-tags: ["macro","Work","SSSR","SSSR 2023","MSSA","conferences","presentations","Mormon Studies","Gab","Andrew Torba","Christian nationalism","Levi Sands","Amy Chapman"]
+tags: ["SSSR","SSSR 2023","MSSA","conferences","presentations","Mormon Studies","Gab","Andrew Torba","Christian nationalism","Levi Sands","Amy Chapman"]
 ---
 A few hours after [presenting at AECT](/aect-slides-from-this-week) on Thursday morning, I hopped on a plane to Salt Lake City, so that I could attend the 2023 conference of the Society for the Scientific Study of Religion—especially the sessions associated with the Mormon Social Science Association. I'm giving three presentations today and wanted to include my slides here for anyone else who's interested: I'd be happy to talk more about any of these!
 

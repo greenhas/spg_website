@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-10-03T12:43:17-04:00
 title: "the incarnation and a relatable Jesus"
-tags: ["macro","Communities","parenting","incarnation","divine feminine","James Martin","stuffies"]
+tags: ["parenting","incarnation","divine feminine","James Martin","stuffies"]
 ---
 Several years ago, while I was sharing a Bible story with my daughter, she interjected with an urgent thought: “I hope that Jesus knows that I have a pig.”
 

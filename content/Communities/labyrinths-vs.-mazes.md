@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-04-28T13:02:19-04:00
 title: "labyrinths vs. mazes"
-tags: ["macro","Communities","labyrinth","spiritual practices","Les cowboys fringants","Karl Tremblay","Community of Christ","Independence Temple","mindfulness","Melissa Wei-Tsing Inouye"]
+tags: ["labyrinth","spiritual practices","Les cowboys fringants","Karl Tremblay","Community of Christ","Independence Temple","mindfulness","Melissa Wei-Tsing Inouye"]
 ---
 As [I blogged elsewhere](https://spencergreenhalgh.com/myself/merci-karl-merci-melissa/) a couple of days ago, I’ve recently purchased the most recent (and maybe last?) album from the folk rock Québécois band *Les cowboys fringants*, whose music I’ve been listening to since 2011. Their lead singer, Karl Tremblay, passed away far too young from cancer last November, which made this album a bit of a surprise, but Tremblay had managed to contribute to some of the songs before his death, and the rest of the band managed to put the rest of the album together in their grief.
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-01-03T08:54:20-05:00
 title: "three grumpy observations from a Twitter researcher on requests for 'quote toots'"
-tags: ["macro","Work","Mastodon","Twitter","affordances and constraints","digital traces research","platforms"]
+tags: ["Mastodon","Twitter","affordances and constraints","digital traces research","platforms"]
 ---
 Over the past several weeks, I've noticed a lot of conversations about Mastodon's lack of a feature equivalent to Twitter's "quote tweets." To be honest, I don't really care about the lack of a "quote toot" feature, and I've done my best to steer clear of these conversations (though I did note while writing this post that it caught the eye of  [Mastodon's founder](https://mastodon.social/@Gargron) in a big way). I gather that these conversations been around for a while, but I get the sense from my own feeds that there's been a notable recent uptick. That uptick has meant that it's been difficult to avoid them crossing my feed, and so even without trying, I've had a few thoughts about "quote toots" that I think might be worth sharing.
 

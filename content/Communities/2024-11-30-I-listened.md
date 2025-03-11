@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2024-11-30T09:20:24-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Spill, by Cory Doctorow"
-tags: ["media","Communities","Spill","Cory Doctorow","Little Brother series","activism"]
+tags: ["Spill","Cory Doctorow","Little Brother series","activism"]
 media: ["book"]
 titles: ["Spill"]
 creators: ["Cory Doctorow"]

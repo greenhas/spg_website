@@ -1,7 +1,8 @@
 ---
+type: ["media"]
 layout: tv
 date: 2024-04-02T10:41:20-04:00
-tags: ["media","tv","Myself","Borgen","The West Wing","proportional representation"]
+tags: ["Myself","Borgen","The West Wing","proportional representation"]
 title: "📺 tvblog: ❤️❤️❤️❤️🖤 for Borgen (Season 1)"
 media: ["tv"]
 series: ["Borgen"]

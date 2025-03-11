@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-08-11T20:03:21-04:00
 title: "parent agency and edtech"
-tags: ["macro","Relationships","ClassDojo","edtech","parenting","privacy","surveillance","student monitoring software","GoGuardian","Chromebooks","Daniela DiGiacomo","Sarah Barriage","COVID-19"]
+tags: ["ClassDojo","edtech","parenting","privacy","surveillance","student monitoring software","GoGuardian","Chromebooks","Daniela DiGiacomo","Sarah Barriage","COVID-19"]
 ---
 I've been blogging about ClassDojo enough over the past few weeks that I think it's time for a quick recap before sharing some of the latest developments. I heard about [ClassDojo being used schoolwide](https://spencergreenhalgh.com/work/being-a-parent-as-an-ed-tech-researcher/) back in late July and started wondering what approach I should take as both a student's parent and an edtech researcher. On Monday of this week, I talked to kiddo's teacher about it and wrote up [some thoughts the next day](https://spencergreenhalgh.com/work/teacher-agency-and-edtech/) about teachers' diminished agency in the realm of edtech. In recognition of that diminished agency, I went ahead yesterday and [voiced my concerns directly to the principal](https://spencergreenhalgh.com/relationships/emailing-principal-about-edtech-concerns/) about ClassDojo and student monitoring software installed on Chromebooks.
 

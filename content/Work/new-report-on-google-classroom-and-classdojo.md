@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-09-06T14:09:51-04:00
 title: "new report on Google Classroom and ClassDojo"
-tags: ["macro","Work","ClassDojo","schools","privacy","data governance","Digital Futures Commission","edtech"]
+tags: ["ClassDojo","schools","privacy","data governance","Digital Futures Commission","edtech"]
 ---
 I have been writing [a lot about ClassDojo](https://spencergreenhalgh.com/tags/classdojo) recently, spurred by a combination of my professional concerns about the app and by my frustration that my kid's school is now using it. Last week, I was pleased to see a *new report* from the United Kingdom-based Digital Futures Commission about not only ClassDojo but also Google Classroom. I'm sure my kid will have to use this latter software as well, so it's good to be aware. 
 

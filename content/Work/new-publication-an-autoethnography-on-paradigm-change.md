@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-11-17T08:44:09-05:00
 title: "new publication: an autoethnography on French, data science, and paradigm change"
-tags: ["macro","Work","research","publications","research paradigms","RCAH","grad school","French","language education","CLAC","India Plough","autoethnography","faith transition","The Church of Jesus Christ of Latter-day Saints","Community of Christ","data science","LGBTQ"]
+tags: ["research","publications","research paradigms","RCAH","grad school","French","language education","CLAC","India Plough","autoethnography","faith transition","The Church of Jesus Christ of Latter-day Saints","Community of Christ","data science","LGBTQ"]
 ---
 
 I'm pleased to share the publication of a new chapter of an edited volume. The chapter in question is *"I'm a French teacher, not a data scientist": Culture and languages across my professions*, and it's part of a volume called *Cultures and languages across the curriculum in higher education.* According to [the CLAC Consortium](https://clacconsortium.org/about-2/), Culture and Languages Across the Curriculum (CLAC) is a:

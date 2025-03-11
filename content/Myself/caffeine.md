@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-08-27T21:22:22-04:00
 title: "caffeine"
-tags: ["macro","Myself","Latter-day Saint missionaries","caffeine","tea","coffee","faith transition","Switzerland","UNIL","Mormonism","Word of Wisdom","Kentucky","parenting","Renens"]
+tags: ["Latter-day Saint missionaries","caffeine","tea","coffee","faith transition","Switzerland","UNIL","Mormonism","Word of Wisdom","Kentucky","parenting","Renens"]
 ---
 I grew up not drinking tea or coffee because of religious convictions—a habit that ultimately stayed with me longer than those convictions! Over the course of the two years I spent as a Mormon missionary, I taught a number of people that (among other things) they should adopt the same convictions and also give up tea and coffee. One of the most interesting lessons on this subject I had was with Jonathan. At the time, I was assigned to the Latter-day Saint congregation in Renens, Switzerland, where Jonathan was attending university, probably at l'Université de Lausanne (though I can't remember for sure); wherever he was attending school, it was relatively far form Ticino, the Italophone canton of Switzerland that he came from. My missionary colleague Matthew and I found his name on a list of people whom the missionaries in Renens used to teach and decided to knock on his door. 
 

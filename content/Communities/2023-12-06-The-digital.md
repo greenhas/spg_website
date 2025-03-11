@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2023-12-06T06:45:16-05:00
-tags: ["link","Communities","digital ownership","digital content"]
+tags: ["digital ownership","digital content"]
 title: "🔗 linkblog: my thoughts on 'You Still Don’t Own What You Bought: Purchased TV Shows From PS Store Go Bye Bye | Techdirt'"
 ---
 The digital could have been used to expand access to content, but we're using it to actually restrict that access. What a crappy future.

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-02-09T12:09:51-05:00
 title: "un helvétisme que je ne savais pas connaître"
-tags: ["macro","Myself","Switzerland","French"]
+tags: ["Switzerland","French"]
 ---
 Mon beau-frère s'intéresse beaucoup aux langues. Moi aussi, d'une manière générale, mais lui, il se fonce dans une langue quelconque quand l'envie lui prend. C'est donc comme ça qu'il sait lire un peu en français, en espagnol, en turc, en néerlandais, et ainsi de suite. Si je n'ai pas la largeur de ses compétences linguistiques, j'ai quand-même une meilleure connaissance du français que lui, et il lui arrive donc de me poser des questions sur le français.
 

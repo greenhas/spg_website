@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-08-25T20:08:43-04:00
 title: "data privacy and kiddo's school"
-tags: ["macro","Relationships","parenting","privacy","data privacy","FERPA","edtech","local news","Josh Rosenberg","webcomics","xkcd","social annotation","Hypothesis","ICT 302"]
+tags: ["parenting","privacy","data privacy","FERPA","edtech","local news","Josh Rosenberg","webcomics","xkcd","social annotation","Hypothesis","ICT 302"]
 ---
 In addition to all the irritating [ClassDojo](https://spencergreenhalgh.com/tags/classdojo) stuff going on at kiddo's school, I've also spent some time banging my head against the wall made up of two forms: One to opt out of FERPA directory information sharing, and the other to opt out of kiddo's information being shared with media outlets. I'm too tired tonight to get into all the details of what's been going on, but the short version is that there's no (clear, easy) way for spouse and I to request that kiddo's name and image not be shared on school social media without also insisting that kiddo's name and image not appear in innocuous things like... a school yearbook. 
 

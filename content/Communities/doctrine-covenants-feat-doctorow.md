@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-01-29T20:12:05-05:00
 title: "Doctrine & Covenants feat. Doctorow: An unexpected paired text"
-tags: ["macro","Communities","Cory Doctorow","Walkaway","Grant McMurray","Zion","kingdom of God","Doctrine & Covenants","Ministry of the Disciple course","Graceland CIMM","hope","radical hope","Gérard Siegwalt","La réinvention du nom de Dieu"]
+tags: ["Cory Doctorow","Walkaway","Grant McMurray","Zion","kingdom of God","Doctrine & Covenants","Ministry of the Disciple course","Graceland CIMM","hope","radical hope","Gérard Siegwalt","La réinvention du nom de Dieu"]
 ---
 As I've [written elsewhere](https://spencergreenhalgh.com/work/cory-doctorow-on-behaviorism/), I am currently giving Cory Doctorow's *Walkaway* another try after bouncing off of it a while ago. Because I bounced off of it so hard the last time, I'm surprised by how much it's resonating off of me as I give it another go. This past week, I've been listening to a lot of *Walkaway* on top of doing a lot of religious reading: assignments for the *Ministry of the Disciple* class I'm taking through the Community of Christ Seminary's [Center for Innovation in Ministry and Missino](https://www.graceland.edu/academics/community-of-christ-seminary/center-for-innovation-in-ministry-and-mission/), Gérard Siegwalt's *Reinventing God's name* [*La réinvention du nom de Dieu*], and various scriptures for today's liturgical readings. 
 

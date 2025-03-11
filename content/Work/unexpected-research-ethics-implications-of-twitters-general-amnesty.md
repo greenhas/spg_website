@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-12-05T11:30:27-05:00
 title: "unexpected research ethics implications of Twitter's 'general amnesty' for suspended accounts"
-tags: ["macro","Work","research ethics","DezNat","online Mormonism","far right","digital traces research","digital methods","JMSSA","MSSA","Twitter","Elon Musk"]
+tags: ["research ethics","DezNat","online Mormonism","far right","digital traces research","digital methods","JMSSA","MSSA","Twitter","Elon Musk"]
 ---
 For over three years now, I've been getting increasingly involved with research projects that involve the online far right in one way or another. One of the most interesting ways that I've developed as a researcher during this time is having to think through in greater detail my commitments to research ethics. Because my research typically focuses on public social media data, I am rarely required to obtain informed consent from those whom I study. Of course, I agree with many internet researchers that this does not absolve me of my ethical responsibilities (I find Fiesler and Proferes's [2018 paper on this subject](https://journals.sagepub.com/doi/full/10.1177/2056305118763366) particularly helpful). This becomes even trickier, though, when the unwitting "participants" in my research espouse views that I find objectionable. To what extent do I, as a researcher, owe a Twitter (or Gab) user privacy and dignity if they are engaged in homophobic, misogynist, or white nationalist behavior? I'm still figuring this out, but my approach right now—informed heavily by [this paper](https://www.digitalstudies.org/article/id/7331/)—is to try to err on the side of respect for the user whenever possible.
 

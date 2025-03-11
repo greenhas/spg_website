@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2023-09-24T21:46:59-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 pour Civilizations, par Laurent Binet"
-tags: ["media","Myself","Civilizations","Laurent Binet","alternate history"]
+tags: ["Civilizations","Laurent Binet","alternate history"]
 media: ["book"]
 titles: ["Civilizations"]
 creators: ["Laurent Binet"]

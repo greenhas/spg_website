@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-07-21T19:00:03-04:00
 title: "abandoning the false god of control"
-tags: ["macro","Communities","God","rationalism","Gérard Siegwalt","La réinvention du nom de Dieu","David Graeber","David Wengrow","The Dawn of Everything","edtech","causal relationships","Robin Wall Kimmerer","Braiding Sweetgrass","Dumbing of Age","incarnation","incarnation","James Martin","Seven Last Words"]
+tags: ["God","rationalism","Gérard Siegwalt","La réinvention du nom de Dieu","David Graeber","David Wengrow","The Dawn of Everything","edtech","causal relationships","Robin Wall Kimmerer","Braiding Sweetgrass","Dumbing of Age","incarnation","incarnation","James Martin","Seven Last Words"]
 ---
 Two books that I've recently (re)read have been helpful in making sense of some thoughts I've been mulling over for the past few weeks. Let's begin with [my rereading](https://spencergreenhalgh.com/communities/2024-06-12-jai-parfois/) of Gérard Siegwalt's *La réinvention du nom de Dieu* ("Reinventing God's Name"). At a few points in his book, Siegwalt makes some points about "rationalism" having replaced God in the modern world and the need to keep rationalism but put it in its place as we develop a new conception of God that this world needs better.
 

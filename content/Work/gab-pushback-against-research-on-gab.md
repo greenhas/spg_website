@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-06-30T10:53:49-04:00
 title: "some thoughts on Gab pushback against research on Gab"
-tags: ["macro","Work","Gab","far right","DezNat","Andrew Torba","Mastodon","doxxing","qualitative research","research ethics","surveillance","digital labor"]
+tags: ["Gab","far right","DezNat","Andrew Torba","Mastodon","doxxing","qualitative research","research ethics","surveillance","digital labor"]
 ---
 I'm not going to link to it, but I am fascinated by a recent post on the Gab blog where Andrew Torba announced some new features to help Gab users push back against research on the platform. Not only do I have two or three ongoing projects using Gab data (one is in the very, very early stages and—ironically—uses Gab blog posts), but some of what Torba wrote also aligned with some of the (fortunately mild) trolling my co-author, Amy Chapman, and I have experienced because of my work on the far-right-influenced DezNat hashtag in Mormon Twitter. So, I thought I'd write up some of what stood out to me in the post.
 

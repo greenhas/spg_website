@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2024-12-02T21:11:56-05:00
-tags: ["link","Communities","content moderation","OpenAI","ChatGPT"]
+tags: ["content moderation","OpenAI","ChatGPT"]
 title: "🔗 linkblog: my thoughts on 'Certain names make ChatGPT grind to a halt, and we know why'"
 ---
 Interesting stuff here. I think most complaints about OpenAI "censorship" are hogwash, but it's still fascinating—and worrying—to see how much control the company exercises over its product.

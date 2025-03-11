@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-07-29T09:54:48-04:00
 title: "surveillance (but not accountability) in school acceptable use policies"
-tags: ["macro","Relationships","parenting","edtech","surveillance","privacy","Kentucky","Kentucky General Assembly","Chromebooks","Google"]
+tags: ["parenting","edtech","surveillance","privacy","Kentucky","Kentucky General Assembly","Chromebooks","Google"]
 ---
 
 It's that time of year ([again](https://spencergreenhalgh.com/myself/school-acceptable-use-policies/)) for signing the acceptable use policy for kiddo's school, and I'm again grumpy about a lot of the details in here. Some of these details are me being a nitpicky academic, like the use of the word "technology" to refer to digital technologies alone. Others strike me as more serious, though.

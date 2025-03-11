@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-03-21T07:46:47-04:00
 title: "can one forgive reality for its inherent brokenness?"
-tags: ["macro","Myself","Desmond Tutu","Mpho Tutu","The Book of Forgiving","forgiveness","depression","anxiety","brokenness","retrolisthesis","lower back","physical therapy","running","biking","Community of Christ Seminary","Graceland University","Graceland CIMM","grad school","privilege"]
+tags: ["Desmond Tutu","Mpho Tutu","The Book of Forgiving","forgiveness","depression","anxiety","brokenness","retrolisthesis","lower back","physical therapy","running","biking","Community of Christ Seminary","Graceland University","Graceland CIMM","grad school","privilege"]
 ---
 If life were fair, I'd be out on a morning run right now, but life isn't, so I'm not. The immediate unfairness getting in my way is a flaring up of my retrolisthesis; in short, there's a vertebra in my lower back that isn't inclined to stay in place, and my core muscles aren't always successful in convincing it to. Things aren't as bad today as they were a week ago, when my lower back was experiencing so much stiffness (and, to a lesser extent, pain) that I couldn't even bend at the waist, but despite my improvement over the past seven days, I woke up stiff enough this morning that I knew going for a run would probably make things worse. 
 

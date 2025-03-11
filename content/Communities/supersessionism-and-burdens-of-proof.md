@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-07-21T09:34:56-04:00
 title: "supersessionism and burdens of proof"
-tags: ["macro","Communities","But Where Is the Lamb?","James Goodman","Abraham","Binding of Isaac","supersessionism","exclusivism","Thomas Wayment","Pete Enns","This is My Doctrine","Charles Harrell","faith transition"]
+tags: ["But Where Is the Lamb?","James Goodman","Abraham","Binding of Isaac","supersessionism","exclusivism","Thomas Wayment","Pete Enns","This is My Doctrine","Charles Harrell","faith transition"]
 ---
 On a friend's recommendation, I'm currently reading (well, listening to) James Goodman's *But Where is the Lamb?*, an interesting volume taking a look at the story of Abraham and the Binding of Isaac. This passage stood out to me yesterday: 
 

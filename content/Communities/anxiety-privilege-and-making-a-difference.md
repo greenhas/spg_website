@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-06-24T12:24:20-04:00
 title: "anxiety, privilege, and trying to make a difference"
-tags: ["macro","Communities","Reunion","Reunion 2022","Community of Christ","Job","faith transition","anxiety","depression","perfectionism","burnout","reproductive rights","privilege","leadership","faith crisis","identity crisis","Mormonism","imposter syndrome","parenting","mental health","identity crisis"]
+tags: ["Reunion","Reunion 2022","Community of Christ","Job","faith transition","anxiety","depression","perfectionism","burnout","reproductive rights","privilege","leadership","faith crisis","identity crisis","Mormonism","imposter syndrome","parenting","mental health","identity crisis"]
 ---
 
 A couple of weekends ago, I had my first experience with a Community of Christ Reunion camp. Kiddo and I only stayed for a long weekend rather than the whole week, but it was still a great experience. By far the best experience I had at Reunion was a Monday morning class for young adults and "90s kids" (which is not a label I've ever actively applied to myself, but it fit just fine. It was a remarkable class where we were eventually going to be talking about Job but never really did (maybe they did on the following days, after we left)—instead, our first class just made it clear that this was a place where it was okay to feel like you didn't have your life together, okay to be anxious about the future, okay to not feel like a real adult yet, and okay that the expectations you'd set for yourself in late adolescence didn't quite pan out as you'd hoped. 

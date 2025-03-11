@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-10-05T12:26:40-04:00
 title: "non-appearance on 'The Unlistenable Podcast'"
-tags: ["macro","Myself","grad school","Switzerland","podcasts"]
+tags: ["grad school","Switzerland","podcasts"]
 ---
 A few weeks ago, I sat down with Lexi Lishinski, a good friend from grad school, to appear on an episode of her podcast *The Unlistenable Podcast*. To quote the About page for the podcast:
 

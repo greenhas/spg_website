@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2024-11-20T07:09:44-05:00
-tags: ["link","Communities","Anil Dadh","Substack"]
+tags: ["Anil Dadh","Substack"]
 title: "🔗 linkblog: my thoughts on 'Don't call it a Substack. - Anil Dash'"
 ---
 Some strong arguments from Dash here.

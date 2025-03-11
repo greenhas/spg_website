@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2024-02-14T11:00:29-05:00
-tags: ["link","Communities","meat","factory farming"]
+tags: ["meat","factory farming"]
 title: "🔗 linkblog: my thoughts on 'Sell lab-grown meat in Tennessee, pay a $1 million fine'"
 ---
 Good article on some dumb fearmongering.

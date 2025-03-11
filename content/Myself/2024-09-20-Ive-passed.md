@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2024-09-20T11:29:45-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Public Domain (Volume 1), by Chip Zdarsky"
-tags: ["media","Myself","Public Domain","Chip Zdarsky","comics"]
+tags: ["Public Domain","Chip Zdarsky","comics"]
 media: ["book","comic"]
 titles: [""]
 creators: ["Chip Zdarsky"]

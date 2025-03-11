@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-11-24T16:09:47-05:00
 title: "proposing legislation on Creative Commons for the 2025 Community of Christ World Conference"
-tags: ["macro","Communities","World Conference","Creative Commons","Community of Christ","World Conference 2025","intellectual property","copyright"]
+tags: ["World Conference","Creative Commons","Community of Christ","World Conference 2025","intellectual property","copyright"]
 ---
 Even after many years of attending, being a member of, and now serving in Community of Christ, I'm still alternately surprised by how many things are the same as my Latter-day Saint upbringing and how many things are different. In the latter category, even though I've intellectually understood this for a while, it still surprises me that the World Conferences of Community of Christ (renamed from General Conferences in the 1960s) are sites of debate and discussion rather than a series of sermons.
 

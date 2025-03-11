@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-03-09T13:26:54-05:00
 title: "history, Elijah, and the Kirtland Temple"
-tags: ["macro","Communities","Elijah","Kirtland Temple","Community of Christ","Church of Jesus Christ of Latter-day Saints","Kirtland Temple (book)","David Howlett","The Angel and the Beehive","Armand Mauss","Sara M. Patterson","The September Six and the Struggle for the Soul of Mormonism"]
+tags: ["Elijah","Kirtland Temple","Community of Christ","Church of Jesus Christ of Latter-day Saints","Kirtland Temple (book)","David Howlett","The Angel and the Beehive","Armand Mauss","Sara M. Patterson","The September Six and the Struggle for the Soul of Mormonism"]
 ---
 As I've [written before](https://spencergreenhalgh.com/communities/things-to-offer-vs.-things-to-impose/), I don't necessarily believe that the dubious historicity of a particular religious event ought to undermine its theological significance, but I do strongly believe that dubious historicity undermines the ability of an individual or organization to insist that others agree with their theological conclusions. To take a major example, the unlikelihood of a literal resurrection in scientific terms isn't going to stop me from finding value in the resurrection story at Easter, but it sure as heck is going to stop me from insisting that my atheist spouse make that story an important part of her life.
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2025-02-02T14:16:44-05:00
 title: "Jacques Ellul's technique and generative AI"
-tags: ["macro","Work","Jacques Ellul","technique","The Technological Society","La technique ou l'enjeu du siècle","theory","Data feminism","Catherine D'Ignazio","Lauren Klein","danah boyd","Kate Crawford","Chris Anderson","generative AI","The Verge","Vergecast","Nilay Patel","David Pierce"]
+tags: ["Jacques Ellul","technique","The Technological Society","La technique ou l'enjeu du siècle","theory","Data feminism","Catherine D'Ignazio","Lauren Klein","danah boyd","Kate Crawford","Chris Anderson","generative AI","The Verge","Vergecast","Nilay Patel","David Pierce"]
 ---
 Throughout my career, I've been a data-first researcher, and theory has always been one of my weak areas. This is not to say that I dismiss the importance of theory: I appreciate danah boyd and Kate Crawford's critique of Chris Anderson's "the numbers speak for themselves" in their 2012 paper *Critical Questions for Big Data* as much as I appreciate Catherine D'Ignazio and Lauren Klein's similar critique in their book *Data Feminism*. It's just that while I agree that theory is important, I've never been well-versed in it—except for the loose theoretical framework of sociocultural learning, multiple literacies, and social communities and spaces that I bring to much of my work (even that work that has gone beyond educational technology research. 
 

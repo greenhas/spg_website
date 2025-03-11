@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2024-07-26T16:43:11-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️❤️ for Model Minority, by Cory Doctorow"
-tags: ["media","Communities","Model Minority","Cory Doctorow","Radicalized (collection)","Superman","Batman","predictive policing","police brutality","police technology"]
+tags: ["Model Minority","Cory Doctorow","Radicalized (collection)","Superman","Batman","predictive policing","police brutality","police technology"]
 media: ["book"]
 titles: ["Model Minority"]
 creators: ["Cory Doctorow"]

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-10-02T17:40:01-04:00
 title: "ClassDojo and educational 'accomplishment'"
-tags: ["macro","Work","ClassDojo","parenting","edtech","assessment","learning analytics","Dirk Ifenthaler","learning analytics","datafication","AECT"]
+tags: ["ClassDojo","parenting","edtech","assessment","learning analytics","Dirk Ifenthaler","learning analytics","datafication","AECT"]
 ---
 As kiddo's school year has gotten into full swing and mine has gotten busier, I've spent less time griping about her school's use of ClassDojo. However, I've also become increasingly annoyed at the fact that the weekly update email I get from the company always has the subject line "What did your child accomplish this week?" The body of the email is divided into two sections: The number of "points" that my child was assigned, and the number of "stories" that my child appeared in. Do points and stories reflect accomplishment? 
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-05-07T07:56:37-04:00
 title: "setting up POSSE-style microblogging with a Hugo static site and Micro.blog"
-tags: ["macro","Myself","POSSE","Micro.blog","Mastodon","ICT 302","Twitter","context collapse","WordPress","Fediverse","Buttondown","GitHub","Netlify"]
+tags: ["POSSE","Micro.blog","Mastodon","ICT 302","Twitter","context collapse","WordPress","Fediverse","Buttondown","GitHub","Netlify"]
 ---
 I was recently talking to some friends about how I’ve been working to make my Hugo blog the center of my online presence. In particular, even though I didn’t know the term at first, I’ve been trying since 2019 to follow the [POSSE strategy](https://indieweb.org/POSSE) of "Publish (to) Own Site, Send Elsewhere" (note that, in the grand tradition of many tech acronyms, everyone agrees what the acronym means, but there are multiple ways of understanding what it stands for exactly). 
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-08-30T12:09:30-04:00
 title: "pourquoi le français ?"
-tags: ["macro","Myself","French","Les cowboys fringants","music","France","Switzerland","Québec","BD","comics"]
+tags: ["French","Les cowboys fringants","music","France","Switzerland","Québec","BD","comics"]
 ---
 
 Hier soir, juste avant de me coucher, quelqu'un a [posé une question](https://www.reddit.com/r/French/comments/x12rso/why_did_you_decide_to_learn_french/) sur `r/French`: Pourquoi les non-Francophones choisissent-ils d'apprendre le français ? 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-07-09T15:27:31-04:00
 title: "some scattered thoughts on Superman"
-tags: ["macro","Myself","Superman","comics","Superman for All Seasons","Superman Smashes the Klan","Astro City"]
+tags: ["Superman","comics","Superman for All Seasons","Superman Smashes the Klan","Astro City"]
 ---
 
 When I was in college, I ran into a friend on my way to a professor's office hours. He saw that I had a copy of *Superman for All Seasons* with me and gave me a hard time about it—he was much more of a Marvel fan than a DC fan (these were the days when this was primarily a reference to comics, not sprawling cinematic universes) and just didn't get the appeal of Superman—how could you do anything interesting with a character that powerful? Fortunately, the reason that I like *Superman for All Seasons* is my best answer to that question: What makes the Superman character interesting is not the magnitude of his power but the ways that he chooses to exercise it. I don't find at all interesting any comics that take the format of "Superman must prove himself stronger than increasingly stronger adversaries," but I find absolutely fascinating the many Superman comics—and other comics clearly playing with homages to the character—the ones that ask themselves why such a powerful character would use that power for good.

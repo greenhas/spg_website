@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-05-24T13:02:55-04:00
 title: "giving ordination another go"
-tags: ["macro","Communities","Community of Christ","faith transition","priesthood","Katie Harmon-McLaughlin","Mormonism"]
+tags: ["Community of Christ","faith transition","priesthood","Katie Harmon-McLaughlin","Mormonism"]
 ---
 Way back in August 2019, I copied into my journaling app a post by Katie Harmon-McLaughlin on the Community of Christ website. I’m glad I did so, because a recent website redesign has deleted this post and a lot of other old content! At the time, I was slowly but thoroughly exploring Community of Christ, trying to figure out if it was the place for me in the context of my changing faith. In that context, the first paragraph of the post was really welcoming to me: 
 

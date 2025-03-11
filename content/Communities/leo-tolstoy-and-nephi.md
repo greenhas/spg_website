@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-09-22T11:58:43-04:00
 title: "Leo Tolstoy and Nephi"
-tags: ["macro","Communities","Book of Mormon","Christian anarchism","Leo Tolstoy","Nephi","The Kingdom of God is Within You","Catholicism","great and abominable church","Bruce McConkie","anti-Catholicism","Mormon Doctrine","Church of Jesus Christ of Latter-day Saints","exclusivism","non-violence","power"]
+tags: ["Book of Mormon","Christian anarchism","Leo Tolstoy","Nephi","The Kingdom of God is Within You","Catholicism","great and abominable church","Bruce McConkie","anti-Catholicism","Mormon Doctrine","Church of Jesus Christ of Latter-day Saints","exclusivism","non-violence","power"]
 ---
 One of the more awkward passages in the Book of Mormon (at least from an ecumenical perspective—there's much worse in there) is in I Nephi 3:220-222, where an angel has this to say with Nephi, the current narrator of the book:
 

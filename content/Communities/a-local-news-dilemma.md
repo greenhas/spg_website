@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-11-01T11:31:06-04:00
 title: "a local news dilemma"
-tags: ["macro","Communities","local news","RSS","Lexington Herald-Leader","Reeder","web scraping","NPR","404 Media","Platformer"]
+tags: ["local news","RSS","Lexington Herald-Leader","Reeder","web scraping","NPR","404 Media","Platformer"]
 ---
 A [while ago](https://spencergreenhalgh.com/myself/2024-10-05-rss-feeds/), the RSS feeds for my local newspaper stopped working (at least with my feed reader), which caused me some consternation as I tried to decide whether to [build a workaround or just give up on the Herald-Leader](https://spencergreenhalgh.com/myself/2024-10-05-rss-feeds/). I believe in supporting local news, so I've wanted to find a technical solution to this, but a lot of the decision making is out of my hands, and I don't really have time on my hands to build myself the kind of webscraper that would be fun to try out. So, this issue has just kind of lingered for a while.
 

@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: movie
 date: 2023-05-14T10:10:48-04:00
 title: "🍿 movieblog: ❤️🖤🖤🖤🖤 for Firedrake the Silver Dragon"
-tags: ["media","Relationships","Firedrake the Silver Dragon","How to Train Your Dragon"]
+tags: ["Firedrake the Silver Dragon","How to Train Your Dragon"]
 media: ["movie"]
 titles: ["Firedrake the Silver Dragon"]
 series: [""]

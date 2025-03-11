@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-04-26T09:55:31-04:00
 title: "assessment as proof of learning or as learning itself?"
-tags: ["macro","Work","teaching","assessment","generative AI","Hypothesis","ICT 202”,”LIS 618","grading"]
+tags: ["teaching","assessment","generative AI","Hypothesis","ICT 202”,”LIS 618","grading"]
 ---
 Recently, an idea has been bubbling in my head that’s the culmination of months—even years—of thinking about how I assess in my courses. I’ve typically taken the pretty-standard approach that assessment is *the process of students’ proving that they’ve learned something*. What if, though, assessment is itself *the proof of the process of students’ learning something*. That is, what if we doled out points for students’ proving that they appropriately participated in learning activities and then trusted the learning to happen on its own?
 

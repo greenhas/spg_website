@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-05-01T08:38:28-04:00
 title: "the graves we are called forth from"
-tags: ["macro","Communities","Wil Gafney","Easter","resurrection","affirming church"]
+tags: ["Wil Gafney","Easter","resurrection","affirming church"]
 ---
 I read a passage in Wil Gafney's *A Women's Lectionary for the Whole Church* this morning that really stood out to me—especially as it related to two things I've recently written. A few weeks ago, I [wrote about](https://spencergreenhalgh.com/communities/ted-lasso-and-easter-hope/) Easter hope, acknowledging that
 

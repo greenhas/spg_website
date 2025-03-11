@@ -1,7 +1,8 @@
 ---
+type: ["media"]
 layout: movie
 date: 2024-03-15T22:40:58-04:00
-tags: ["media","movie","Myself","Dune"]
+tags: ["Myself","Dune"]
 title: "🍿 movieblog: ❤️❤️❤️❤️🖤 for Dune"
 media: ["movie"]
 titles: ["Dune"]

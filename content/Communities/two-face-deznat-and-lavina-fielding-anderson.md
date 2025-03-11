@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-11-01T16:10:21-04:00
 title: "Two-Face, DezNat, and Lavina Fielding Anderson—mission compatriots"
-tags: ["macro","Communities","French","University of Kentucky","BYU","Latter-day Saint missionaries","Batman","The Dark Knight","Mormon Twitter","September Six","Lavina Fielding Anderson"]
+tags: ["French","University of Kentucky","BYU","Latter-day Saint missionaries","Batman","The Dark Knight","Mormon Twitter","September Six","Lavina Fielding Anderson"]
 ---
 When I took a job at the University of Kentucky, a former professor (and boss) of mine at BYU told me to look up a specific French professor on campus, whom she'd also taught (and supervised) some time earlier. I ran into him several months later at a stake conference (this was, obviously, when I was still attending Latter-day Saint meetings), and we bonded over what it was like to work under our boss. Because Mormons tend to assume that there's no way to learn a language without speaking that language on your mission (this is partly true for me, but I also got my French to a damn respectable level through coursework before I ever put on the tag, so I still resent the assumption), we wound up talking about missions, and so we ended up bonding even more about our shared experience serving in the now-defunct Switzerland Geneva Mission.
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-10-14T8:22:23-04:00
 title: "whose voices does ClassDojo prioritize?"
-tags: ["macro","Work","edtech","Ring","Amazon","The Markup","Lam Thuy Vo","pay to play"]
+tags: ["edtech","Ring","Amazon","The Markup","Lam Thuy Vo","pay to play"]
 ---
 This morning, I read an excellent [piece](https://themarkup.org/hello-world/2023/10/14/how-ring-cameras-have-the-power-to-perpetuate-bias-to-police) by Lam Thuy Vo at *The Markup* expressing concern about how services like Amazon's Ring cameras can distort police priorities and perpetuate bias. Here's a good summary passage:
 

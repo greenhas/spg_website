@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-08-18T11:33:18-04:00
 title: "new edition of my remixed data science textbook"
-tags: ["macro","Work","ICT 661","OER","teaching","Creative Commons","bookdown","R","open textbooks","alternative textbooks"]
+tags: ["ICT 661","OER","teaching","Creative Commons","bookdown","R","open textbooks","alternative textbooks"]
 ---
 I'm happy to share that the Fall 2023 edition of my remixed *Introduction to Data Science* textbook is now available [on my website](https://spencergreenhalgh.com/ict_lis_661_textbook_2023_fall/_book/). This book adapts material from the "ModernDive" *Statistical Inference via Data Science* [course](https://moderndive.com/), Catherine D'Ignazio and Lauren Klein's excellent *[Data Feminism](https://moderndive.com/)*, a number of other Creative Commons-licensed works, and some of my own contributions to put together a no-cost, openly-licensed textbook for my data science students. I put together the first edition of this book for last Fall's version of this course, but the first run through taught me a lot, and I'm very happy about this edition (though I do have a small laundry list of errors to fix, and I'd like to eventually get into some fiddlier bits like removing social media icons from the header). 
 

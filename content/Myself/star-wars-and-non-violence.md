@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-07-18T21:28:16-04:00
 title: "Star Wars and non-violence"
-tags: ["macro","Myself","non-violence","Star Wars","The Acolyte","Watsonian versus Doylist"]
+tags: ["non-violence","Star Wars","The Acolyte","Watsonian versus Doylist"]
 ---
 I've been reading up on (and aspiring to) non-violence recently. As I noted in a series of posts almost a year ago ([here's](https://spencergreenhalgh.com/myself/is-the-mistborn-adventure-game-the-ethics-ttrpg-ive-been-looking-for/) the one that wrapped up the series, and it links to the two earlier ones), I've been trying to figure out what that means for playing games and consuming media. I don't necessarily believe that a commitment to non-violence means that you can't play through an epic battle in D&D, but I think the question is worth thinking about.
 

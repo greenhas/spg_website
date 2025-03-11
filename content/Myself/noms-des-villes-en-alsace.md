@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-08-15T13:39:03-04:00
 title: "mon grand amour pour les noms des villes en Alsace"
-tags: ["macro","Myself","DKL Dreyeckland","internet radio"]
+tags: ["DKL Dreyeckland","internet radio"]
 ---
 J'aime beaucoup la radio numérique, surtout parce que j'ai la possibilité d'écouter des chaînes radio francophones. Parmi mes chaînes préférées se trouve DKL Dreyeckland, une chaîne alsatienne. J'aime bien la musique, mais ce que j'aime surtout, ce sont les pubs. Normalement, je supporte pas la publicité dans mes médias, mais je fais une exception pour les pubs en français, parce que ça me permet d'apprendre un langage que je n'ai jamais appris dans un cours lycéen ou universitaire. 
 

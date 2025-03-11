@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2024-09-06T20:26:47-04:00
 title: "📚 bookblog: ❤️❤️🖤🖤🖤 for After the Downfall, by Harry Turtledove"
-tags: ["media","Myself","After the Downfall","Harry Turtledove","feminism","language","technology","Cory Doctorow"]
+tags: ["After the Downfall","Harry Turtledove","feminism","language","technology","Cory Doctorow"]
 media: ["book"]
 titles: ["After the Downfall"]
 creators: ["Harry Turtledove"]

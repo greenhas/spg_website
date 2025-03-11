@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-07-13T14:13:38-04:00
 title: "how I'm talking about generative AI in my content management class"
-tags: ["macro","Work","content management","Deane Barker","teaching","generative AI","ICT 302","definitions"]
+tags: ["content management","Deane Barker","teaching","generative AI","ICT 302","definitions"]
 ---
 Fall 2023 will mark my fifth time teaching my department's class on Content Management Systems. I have really loved taking on this class and making it my own over the past several years. It's also been fun to see how teaching the class has seeped into the rest of my life: It's a "cannot unsee" situation (in a good way!) where the concepts I teach work themselves into everyday encounters with the news, my own websites, and other things around the internet.
 

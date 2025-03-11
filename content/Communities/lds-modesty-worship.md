@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-12-29T13:31:23-05:00
 title: "on faith transition and letting go of LDS modesty worship"
-tags: ["macro","Communities","Salt Lake Tribune","Mormon Land","The Church of Jesus Christ of Latter-day Saints","modesty worship","faith transition","French","parenting","Community of Christ","Katie Harmon-McLaughlin"]
+tags: ["Salt Lake Tribune","Mormon Land","The Church of Jesus Christ of Latter-day Saints","modesty worship","faith transition","French","parenting","Community of Christ","Katie Harmon-McLaughlin"]
 ---
 I've mentioned [before](https://spencergreenhalgh.com/communities/thoughts-on-recent-mormon-land-podcast/) that I support the Salt Lake Tribune's *Mormon Land* podcast [on Patreon](https://www.patreon.com/mormonland/posts), one of the perks of which is that I get access to the Tribune's Mormon coverage without having to subscribe to the whole paper (which would be a lot of money for someone who doesn't care about Jazz coverage or Utah politics). 
 

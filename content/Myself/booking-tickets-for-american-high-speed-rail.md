@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-06-27T09:17:52-04:00
 title: "booking tickets for American high-speed(?) rail"
-tags: ["macro","Myself","trains","conferences","conference travel","Amtrak","Acela","high-speed rail","SNCF","TGV","OuiGo"]
+tags: ["trains","conferences","conference travel","Amtrak","Acela","high-speed rail","SNCF","TGV","OuiGo"]
 ---
 
 Whenever I book travel for work, I pull up the Amtrak website to see if it would be in any way practical to add a rail component to the trip to replace flying (or driving, but it's rare that I drive for work travel). Given the state of American rail, this is most often an exercise in disappointment. My only success story in four years at this job was when I attended a conference in Bordeaux; I flew into Paris and then took a low-cost OuiGo TGV for my trips between Paris and Bordeaux. I came close when attending a conference in Portland last year; it might have been possible to fly into Seattle and then take the train to Portland, but university policy would have required me to prove that this itinerary was cheaper and faster than flying to Seattle and then flying to Portland. That would have been difficult to do, so I wound up taking a miserable red-eye flight back home after the conference was done. 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-08-02T13:09:11-04:00
 title: "quoted in Salt Lake Tribune article on DezNat movement"
-tags: ["macro","Work","media appearances","research","DezNat","Salt Lake Tribune","Peggy Fletcher Stack","red pill","Mormon Twitter","Amy Chapman"]
+tags: ["media appearances","research","DezNat","Salt Lake Tribune","Peggy Fletcher Stack","red pill","Mormon Twitter","Amy Chapman"]
 ---
 This past weekend, Peggy Fletcher Stack at the *Salt Lake Tribune* published [an article](https://www.sltrib.com/religion/2023/07/30/why-dismissing-all-deznat-users/) about the #DezNat movement on Mormon Twitter, which takes cues from far-right and anti-feminist online communities. In her article, Peggy was kind enough to reference (and quote from) [my new publication](https://spencergreenhalgh.com/work/far-right-and-anti-feminist-influences-on-a-mormon-twitter-hashtag/) with Amy Chapman in the *Journal of the Mormon Social Science Association*, which presents the (partial) results of a qualitative analysis of over 1,400 DezNat tweets from 2019. 
 

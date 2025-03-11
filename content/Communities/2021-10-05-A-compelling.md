@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2021-10-05T09:28:51-04:00
 title: "🔗 linkblog: just read 'Facebook’s outage likely cost the company over $60 million | Ars Technica'"
-tags: ["link","Communities","Facebook","advertising"]
+tags: ["Facebook","advertising"]
 ---
 A compelling reminder that social media companies make money from eyeballs pointed at screens.
  

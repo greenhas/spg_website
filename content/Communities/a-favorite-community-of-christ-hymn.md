@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-07-08T13:26:28-04:00
 title: "a favorite Community of Christ hymn"
-tags: ["macro","Communities","Community of Christ Sings","Day One","journaling","hymns","Peace Salaam Shalom","2023 World Conference","Katie Harmon-McLaughlin","French"]
+tags: ["Community of Christ Sings","Day One","journaling","hymns","Peace Salaam Shalom","2023 World Conference","Katie Harmon-McLaughlin","French"]
 ---
 
 As I've [written before](https://spencergreenhalgh.com/work/rediscovering-some-comments-on-computational-thinking/), one of my favorite things about the Day One journaling app is the "On this Day" feature that lets me remember moments from my past—often moments I might have forgotten if I hadn't journaled about them.

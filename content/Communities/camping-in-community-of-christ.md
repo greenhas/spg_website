@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-08-10T11:10:47-04:00
 title: "thoughts on camping traditions in Community of Christ"
-tags: ["macro","Communities","Reunion","Community of Christ","Restorations","anxiety","Independence Temple","Braiding Sweetgrass","Robin Wall Kimmerer"]
+tags: ["Reunion","Community of Christ","Restorations","anxiety","Independence Temple","Braiding Sweetgrass","Robin Wall Kimmerer"]
 ---
 This summer, I attended a Community of Christ "Reunion" camp for the third time. All three times have been at a campground in Southern Indiana owned by my local "mission center" (a regional grouping of congregations, not dissimilar to an LDS stake or a Catholic dioceses). I've wanted to write this post since getting back from Reunion in mid-June, and it probably would have been a better post if I had written it right away. That said, we've been doing a lot of family travel since then, and I've been trying to process exactly what I want to write about Reunion, so it's only happening now. 
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-08-24T09:59:35-04:00
 title: "some thoughts on platforms and 'community'"
-tags: ["macro","Work","community vs. space","community of practice","affinity space","Étienne Wenger","ClassDojo","Jean Lave","James Paul Gee","Barry Wellman","José van Dijck","Dan Krutka","parenting"]
+tags: ["community vs. space","community of practice","affinity space","Étienne Wenger","ClassDojo","Jean Lave","James Paul Gee","Barry Wellman","José van Dijck","Dan Krutka","parenting"]
 ---
 I've thought a lot about "community" in online spaces over the course of my (still-short) academic career. Early drafts of my dissertation had a lengthy discussion about the benefits and disadvantages of Étienne Wenger's *community of practice* framework (which emerged from Wenger's work with Jean Lave) as compared to James Paul Gee's *affinity space* framework. From a research perspective, I tend to prefer Gee's *space*-focused perspective and agree with many of his arguments for why it makes more sense to use that language in an online setting.
 

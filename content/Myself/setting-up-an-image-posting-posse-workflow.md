@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-11-17T14:34:30-05:00
 title: "setting up an iOS image posting POSSE workflow for Hugo"
-tags: ["macro","Myself","Hugo","WordPress","Siri Shortcuts","Mastodon","Bluesky","Markdown","ICT 302"]
+tags: ["Hugo","WordPress","Siri Shortcuts","Mastodon","Bluesky","Markdown","ICT 302"]
 ---
 Several days ago, I [posted](https://spencergreenhalgh.com/myself/2024-11-12-one-of/) that:
 

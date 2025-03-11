@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2024-11-19T13:23:45-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️❤️ for The Future, by Naomi Alderman"
-tags: ["media","Communities","The Future","Naomi Alderman","Sodom","Abraham","Lot","audiobooks","Big Tech","billionaires","wealth"]
+tags: ["The Future","Naomi Alderman","Sodom","Abraham","Lot","audiobooks","Big Tech","billionaires","wealth"]
 media: ["book","audiobook"]
 titles: ["The Future"]
 creators: ["Naomi Alderman","Guinevere Turner","Natalie Naudus","Jeremy Bobb","Santino Fontana","Graham Halstead","Lorelei King","Fred Sanders"]

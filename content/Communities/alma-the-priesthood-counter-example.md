@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-10-13T16:27:07-04:00
 title: "Alma the priesthood counter-example"
-tags: ["macro","Communities","priesthood","Alma","Church of Jesus Christ of Latter-day Saints","Mormonism","sacraments","Restorations","Book of Mormon","afterlife","William Bickerton","grace"]
+tags: ["priesthood","Alma","Church of Jesus Christ of Latter-day Saints","Mormonism","sacraments","Restorations","Book of Mormon","afterlife","William Bickerton","grace"]
 ---
 Last Sunday, I attended a Latter-day Saint Elders Quorum meeting for the first time since March of 2020, when I taught Elders Quorum on the last Sunday before Latter-day Saint services shut down because of COVID. I had enjoyed most of the sacrament meeting (I took issue with some parts of some talks, but I have to admit that I miss the size, songs, and sense of community of Latter-day Saint services), but Elders Quorum turned out to be kind of a disappointment. Truth be told, I had been hoping that it was a Sunday School week, but I couldn't remember which weeks are Sunday School and which are Elders Quorum/Relief Society after being out of practice for so long. 
 

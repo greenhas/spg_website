@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-08-07T21:20:58-04:00
 title: "des crêpes proustiennes"
-tags: ["macro","Myself","Grenoble","France","crêpes","Mormonism","Grenoble","Quick","Burger King","parenting"]
+tags: ["Grenoble","France","crêpes","Mormonism","Grenoble","Quick","Burger King","parenting"]
 ---
 Ma fille aime bien les crêpes au Nutella, et ça fait un petit moment qu'on n'en a pas fait. Comme elle est malade depuis quelques jours, c'était le bon moment ce soir de reprendre cette petite tradition. En mangeant ma première crêpe, j'ai été rempli d'un tas de souvenirs, comme si c'était la madeleine de Proust. Je n'ai pas envie d'écrire sept tomes sur le sujet, mais pourquoi pas un petit blog ? 
 

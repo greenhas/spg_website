@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-11-02T16:22:01-04:00
 title: "in praise of 'dad friends'"
-tags: ["macro","Relationships","parenting","University of Kentucky","Lexington","MC Solaar","Bigflo et Oli","WordPress","data science","Utah","Michigan","Bulgaria"]
+tags: ["parenting","University of Kentucky","Lexington","MC Solaar","Bigflo et Oli","WordPress","data science","Utah","Michigan","Bulgaria"]
 ---
 I have a "dad friend" I see most afternoons as we're waiting for our kiddos to get out of school. He walks his kid home every day, and I either walk home or bike home with kiddo (a lot of walking recently because weather and a broken bike have been getting in our way). So, we hang out where all the walking parents hang out and chat for a few minutes before heading home. I'm on the list of approved people to pick his kid up, I keep meaning to add him to the list of approved people to pick kiddo up, our kids have been in the same class for two years in a row, and our shared relationship with the school and our kid's teacher is pretty much the whole basis of our relationship. 
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-10-03T13:27:25-04:00
 title: "on distinctions between 'church' and gospel'"
-tags: ["macro","Communities","Stephen Veazey","gospel","Christianity","Mormonism","The Church of Jesus Christ of Latter-day Saints","Community of Christ","faith transition","deconstruction","incarnation"]
+tags: ["Stephen Veazey","gospel","Christianity","Mormonism","The Church of Jesus Christ of Latter-day Saints","Community of Christ","faith transition","deconstruction","incarnation"]
 ---
 During the last few years I spent as a practicing Latter-day Saint, one recurring pet peeve that I had was the overbroad use of the term "gospel" to refer to all Latter-day Saint doctrines, teachings, and beliefs. In hindsight, learning to separate the good news of the gospel of Jesus Christ from everything that I believed was a major part of my faith transition—and my ability to continue in Christianity even when the version that I was used to started to no longer work for me. 
 

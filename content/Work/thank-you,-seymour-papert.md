@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-10-20T09:19:42-04:00
 title: "thank you, Seymour Papert"
-tags: ["macro","Work","Seymour Papert","programming","computer science education","parenting","Logo"]
+tags: ["Seymour Papert","programming","computer science education","parenting","Logo"]
 ---
 This morning, kiddo was pretending to be a robot, so when I needed her to switch her attention from, say, getting dressed to brushing her teeth, I'd have to pretend to "reprogram" her before she'd cooperate. This got me wondering if she was maybe old enough to try some basic programming activities—something like LEGO Mindstorms. I think that she's probably still a bit young for that sort of thing, but it made me excited about doing this sort of thing in the future. 
 

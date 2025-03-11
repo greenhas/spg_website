@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2024-08-22T11:55:08-04:00
-tags: ["link","Communities","Kentucky","prisons","for-profit prisons","Cory Doctorow","The Bezzle"]
+tags: ["Kentucky","prisons","for-profit prisons","Cory Doctorow","The Bezzle"]
 title: "🔗 linkblog: my thoughts on 'KY prisoners hack state-issued computer tablets to digitally create $1M. How’d they do it?'"
 ---
 Prisoners got punished for taking advantage of a hilarious exploit in an app for transferring money from their commissary accounts to a private company's media store, but no one at that private company is being held accountable for unironically describing prisons as a "growth industry."

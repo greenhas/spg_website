@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2021-11-16T15:08:49-05:00
 title: "🔗 linkblog: just read 'Ed Tech Usage is Up. So Are Parent Privacy Concerns'"
-tags: ["link","Work","edtech","privacy"]
+tags: ["edtech","privacy"]
 ---
 Interesting read on an important subject.
  

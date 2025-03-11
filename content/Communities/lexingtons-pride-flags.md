@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-06-27T09:24:45-04:00
 title: "thinking about Lexington's pride flags"
-tags: ["macro","Communities","LGBTQ","Lexington","Pride","Kentucky for Kentucky"]
+tags: ["LGBTQ","Lexington","Pride","Kentucky for Kentucky"]
 ---
 One of kiddo's favorite podcasts is the delightful *[Forever Ago](https://www.brainson.org/collection/forever-ago-podcast)*, each episode of which dives into the history of something specific, such as [the weekend](https://www.brainson.org/episode/2023/06/21/tgif-where-did-the-weekend-come-from), [Black cowboys](https://www.brainson.org/episode/2023/06/14/yeehaw-the-hidden-history-of-black-cowboys), etc. Kiddo often listens to podcasts in the morning while waiting for (or eating) breakfast, and on Saturday morning, knowing that we were visiting Lexington Pride later that day, she pulled up the episode on the history of the [rainbow Pride flag](https://www.brainson.org/episode/2023/06/07/flying-colors-the-story-of-the-rainbow-pride-flag). 
 

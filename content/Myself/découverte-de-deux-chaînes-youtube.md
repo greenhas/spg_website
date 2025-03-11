@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-07-13T13:11:07-04:00
 title: "découverte de deux chaînes YouTube"
-tags: ["macro","Myself","bikes","trains","Dijon","YouTube","public transit","French"]
+tags: ["bikes","trains","Dijon","YouTube","public transit","French"]
 ---
 
 Ça fait quelques années que mon frère regarde la chaîne YouTube [Not Just Bikes](https://www.youtube.com/c/notjustbikes), qui parle des vélos, des transports publics, et de l'infrastructure qui les soutient (où pas). Il m'en parle assez souvent, mais ce n'est que récemment que j'ai enfin décidé de regarder quelques vidéos. Vu mon amour pour les sujets abordés dans les vidéos (les vélos, les transports publics, l'Europe), ça m'étonne que je n'ai pas découvert cette chaîne avant. J'ai surtout apprécié ces vidéos sur [le vélo en Suisse](https://www.youtube.com/watch?v=pWnreLG_cvc), [les pistes cyclables à Paris](https://www.youtube.com/watch?v=sI-1YNAmWlk), et les [trains de grande vitesse en Italie](https://www.youtube.com/watch?v=IbFGG4T3_Yo) (surtout parce que j'avais déjà regardé [cette vidéo](https://www.youtube.com/watch?v=q1SuQHplm00) sur la service Frecciarossa entre Paris et Lyon). 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-06-17T13:05:43-04:00
 title: "automation, agency, and « Au service de la France »"
-tags: ["macro","Myself","French","automation","agency","Au service de la France","Redbubble","autocorrect","translation"]
+tags: ["French","automation","agency","Au service de la France","Redbubble","autocorrect","translation"]
 ---
 
 A few months ago, during a weekend where my family was out of town, I binge watched both seasons of « Au service de la France », a hilarious spy comedy available on Netflix. One of the running gags of the series is the (fictional) French secret service's obsession with bureaucracy. So, for example, when the service suspects a mole in its midst, one of the responses is to make sure that every piece of paperwork is signed multiple times before being stamped twice. Thus, the main secretary of the service begins singing « tamponné, double tamponné » ("stamped, double stamped") as she signs off on each form passed to her. This leads to some tension, as seen in the scene below: 

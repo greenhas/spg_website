@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-05-14T15:11:38-04:00
 title: "follow up on research ethics implications of Twitter's 'general amnesty'"
-tags: ["macro","Work","research ethics","DezNat","online Mormonism","far right","digital traces research","digital methods","JMSSA","MSSA","Twitter","Elon Musk"]
+tags: ["research ethics","DezNat","online Mormonism","far right","digital traces research","digital methods","JMSSA","MSSA","Twitter","Elon Musk"]
 ---
 This is just a few words to say that [this post](https://spencergreenhalgh.com/work/unexpected-research-ethics-implications-of-twitters-general-amnesty/) that I wrote back in December 2022 has suddenly become relevant. 
 

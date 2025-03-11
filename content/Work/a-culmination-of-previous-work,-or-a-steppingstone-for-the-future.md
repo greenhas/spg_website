@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-05-31T13:55:25-04:00
 title: "a culmination of previous work, or a steppingstone for the future?"
-tags: ["macro","Work","tenure application","tenure","grad school","comprehensive exams","research","social media","social media research","digital traces research", "academic reinvention"]
+tags: ["tenure application","tenure","grad school","comprehensive exams","research","social media","social media research","digital traces research", "academic reinvention"]
 ---
 
 Like in many PhD programs, my comprehensive exams included an element that was intended to help me prepare for my dissertation proposal, dissertation, and dissertation defense. Building off of my research interests and experiences up to that point, my advisor wrote me a lengthy question asking me to define and describe simulation games—the intent, of course, being that at least some of this could be worked into a literature review for a dissertation. 

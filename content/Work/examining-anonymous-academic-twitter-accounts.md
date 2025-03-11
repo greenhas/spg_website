@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-06-16T11:34:39-04:00
 title: "new publication: examining pseudonymous academic Twitter accounts"
-tags: ["macro","Work","research","Twitter","topic modeling","qualitative research","computational analysis","authenticity","Twitter research","context collapse","happy coincidences"]
+tags: ["research","Twitter","topic modeling","qualitative research","computational analysis","authenticity","Twitter research","context collapse","happy coincidences"]
 ---
 
 I'm happy to report that a paper of mine (in collaboration with David E. Williams at the University of Saskatchewan) has just been published in *The Internet and Higher Education*. We topic modeled 77,514 tweets from 59 academically-themed but anonymous or pseudonymous Twitter accounts. This resulted in five broad topics, and we followed up with a qualitative analysis of the 100 most-representative tweets from each of those topics to generate some narrower codes. The combination of these computationally-derived topics and the human-generated codes gave us a peek into what pseudonymous academic accounts tweet about. The paper is freely available at [this link](https://authors.elsevier.com/c/1fEsV3vNrYrWw8) through August 2nd, 2022 if you're interested in grabbing a copy.

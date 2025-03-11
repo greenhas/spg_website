@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-02-14T09:05:56-05:00
 title: "prophetic clarity and prophetic uncertainty"
-tags: ["macro","Communities","Thomas Merton","prophetic voice","prophetic people","peace","MSU","Community of Christ","prophet","Smith-Rigdon movement"]
+tags: ["Thomas Merton","prophetic voice","prophetic people","peace","MSU","Community of Christ","prophet","Smith-Rigdon movement"]
 ---
 A few weeks ago, while walking through Julietta Market at Lexington's Greyline Station, I stopped for a few minutes at a used bookstore at one of the stalls and walked away with a copy of *Thomas Merton: Passion for Peace*. I haven't gotten far into it yet—later that week, a book by a French theologian that I'd ordered arrived in the mail, and that's taken up most of my reading attention since. However, I did manage to explore the introduction to the book the same day that I purchased it, and I was impressed by this passage: 
 

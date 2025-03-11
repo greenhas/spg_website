@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-10-06T10:05:11-04:00
 title: "upcoming research talk on DezNat for Bainbridge Latter-day Saint fireside series"
-tags: ["macro","Work","DezNat","Salt Lake Tribune","Amy Chapman","Mormonism","Church of Jesus Christ of Latter-day Saints","research","Peggy Fletcher Stack"]
+tags: ["DezNat","Salt Lake Tribune","Amy Chapman","Mormonism","Church of Jesus Christ of Latter-day Saints","research","Peggy Fletcher Stack"]
 ---
 A couple of months ago, Peggy Fletcher Stack of the Salt Lake Tribune [mentioned](https://spencergreenhalgh.com/work/quoted-in-salt-lake-tribune-article-on-deznat-movement/) the work that Amy Chapman and I have been doing on the far-right-influenced DezNat movement. Shortly after Peggy's article was published, someone who coordinates an unofficial series of Latter-day Saint-related firesides reached out to us about speaking to their group about our research on the DezNat movement. Before accepting, we made it clear that our work isn't devotional, neither of us are practicing Latter-day Saints, and our work could be understood as critical of cultural and institutional Mormonism; however, the fireside organizers said that they were used to getting into controversial topics related to Mormonism and that our work was welcome with them. With that clarified, this was actually one of the most flattering invitations I've received to speak about my research. Over the past several months, I've found that there's a large non-academic audience for Mormon Studies research, and it's been great to get some attention from parts of that audience for my ongoing research.
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-05-20T12:51:43-04:00
 title: "on (re)claiming the name Mormon"
-tags: ["macro","Communities","Mormonism","Exponent II","Nancy Ross","Kerry Pray","Russell Nelson","Community of Christ","Mormon"]
+tags: ["Mormonism","Exponent II","Nancy Ross","Kerry Pray","Russell Nelson","Community of Christ","Mormon"]
 ---
 Over the weekend, Nancy Ross published [an interview](https://exponentii.org/blog/queer-mormon-joy-an-interview-with-kerry-pray/) with Kerry Pray about her new book *The Book of Queer Mormon Joy* on the *Exponent II* blog. One thing that stood out to me about the interview is the way that Pray’s feelings about the word "Mormon" echo my own: 
 

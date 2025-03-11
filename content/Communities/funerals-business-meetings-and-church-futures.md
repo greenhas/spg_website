@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-10-14T10:13:32-04:00
 title: "funerals, business meetings, and church futures"
-tags: ["macro","Communities","ordination","Community of Christ","Kirtland Temple","Independence Temple","Holy Week"]
+tags: ["ordination","Community of Christ","Kirtland Temple","Independence Temple","Holy Week"]
 ---
 
 When I was ordained an elder a couple of months ago, my congregation gave me the gift of a full set of the 1976 *History of the Reorganized Church of Jesus Christ of Latter-Day Saints*. I genuinely love this gift and am excited to one day make my way through all eight volumes! Yet, it's also gotten me thinking a lot about what I want my service in this denomination—now, of course, named Community of Christ—to look like. In many ways, it's the history of this church that drew me to it when my faith began to crumble: If it weren't for its shared history with the church I grew up in, Community of Christ may not be as interesting to me as it is. Yet, I've also quipped to friends that while I'm glad to have joined Community of Christ, I don't know that I ever would have joined the RLDS church (at least, not in the form that it took in 1976). I've also written repeatedly on this blog about my feelings about the relative importance of the Independence Temple compared to the Kirtland Temple for this denomination in the years to come: One is an anchor to our past, but the other points to our future.

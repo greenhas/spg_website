@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2024-06-13T11:20:20-04:00
-tags: ["link","Communities","ALPRs","surveillance","open records"]
+tags: ["ALPRs","surveillance","open records"]
 title: "🔗 linkblog: my thoughts on 'Cops Released a Car’s Travel History to a Total Stranger'"
 ---
 ALPRs suck.

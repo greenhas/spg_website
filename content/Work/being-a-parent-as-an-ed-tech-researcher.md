@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-07-26T13:00:42-04:00
 title: "being a student's parent as an edtech researcher"
-tags: ["macro","Work","edtech","ClassDojo","parenting","research","Daniela DiGiacomo","Sarah Barriage","parent choice"]
+tags: ["edtech","ClassDojo","parenting","research","Daniela DiGiacomo","Sarah Barriage","parent choice"]
 ---
 Kiddo starts at a new school this year, so we got the chance to all go as a family today and get introduced to everything. Kiddo got to meet teachers and other kids while we filed into a meeting to fill out a ton of paperwork and learn about how this school does things. For years, I've been wondering when my research in educational technology (and, increasingly, critical research on social technologies more broadly) were going to become relevant as a parent with a kid in school, and it looks like it's going to be this year.
 

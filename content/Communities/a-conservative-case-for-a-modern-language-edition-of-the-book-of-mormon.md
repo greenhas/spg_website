@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-10-26T20:11:23-04:00
 title: "a conservative case for a modern language edition of the Book of Mormon"
-tags: ["macro","Communities","rereading the Book of Mormon project","Book of Mormon","Royal Skousen","Grant Hardy"]
+tags: ["rereading the Book of Mormon project","Book of Mormon","Royal Skousen","Grant Hardy"]
 ---
 
 I've written a fair amount already on my [rereading the Book of Mormon project](https://spencergreenhalgh.com/tags/rereading-the-book-of-mormon-project/), where I'm entertaining the idea of what a modern language edition of the book (or at least the Book of Mosiah) might look like. In my work thus far, I've been proceeding under the assumption that this is an inherently liberal project: In both the LDS and RLDS traditions, there has been considerable resistance to large-scale changes to the English language text of the Book of Mormon, largely because the English text is held to be translated through divine power and therefore unassailable. 

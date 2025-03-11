@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2022-11-08T11:23:40-05:00
 title: "🔗 linkblog: my thoughts on 'Meet the ‘Black Robe Regiment’ of Extremist Pastors Spreading Christian Nationalism'"
-tags: ["link","Communities","Black Robe Regiment","Michael Flynn","Christian nationalism","Gab","Glenn Beck"]
+tags: ["Black Robe Regiment","Michael Flynn","Christian nationalism","Gab","Glenn Beck"]
 ---
 This reminds me of all the pastors doing guest posts on the official Gab blog. Also, of course Glenn Beck was involved in this somehow.
  

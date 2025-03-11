@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-06-29T09:15:51-04:00
 title: "some more on Abraham"
-tags: ["macro","Communities","Abraham","Binding of Isaac","Collège de France","podcasts","Thomas Römer","French","Lausanne","UNIL","open access","Latter-day Saint missionaries","Renens","Vaud","sacrifice"]
+tags: ["Abraham","Binding of Isaac","Collège de France","podcasts","Thomas Römer","French","Lausanne","UNIL","open access","Latter-day Saint missionaries","Renens","Vaud","sacrifice"]
 ---
 Almost immediately after finishing [yesterday's post](https://spencergreenhalgh.com/communities/on-abraham-and-syntax/), an idea occurred to me that I wanted to chase a little further. I've mentioned before my admiration for [Thomas Römer](https://spencergreenhalgh.com/tags/thomas-r%C3%B6mer/), a Germano-Swiss Bible scholar who teaches at the Collège de France and whose lectures are freely available in podcast form. I've listened to a lot of those lectures, and I remembered that Römer had made some comments about the rhetorical purposes of the Abraham story that seemed relevant to my wrestling with the story of the Binding of Isaac.
 

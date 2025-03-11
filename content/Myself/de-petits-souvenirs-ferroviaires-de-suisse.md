@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-12-06T13:37:00-05:00
 title: "de petits souvenirs ferroviaires de Suisse"
-tags: ["macro","Myself","in cab videos","trains","Switzerland","Radio Télévision Suisse","Versoix"]
+tags: ["in cab videos","trains","Switzerland","Radio Télévision Suisse","Versoix"]
 ---
 C'est drôle comme de touts petits souvenirs peuvent peser lourds dans sa mémoire. J'ai déjà écrit plusieurs posts à ce sujet, mais cet après-midi, j'ai envie d'en écrire davantage. Je suis en train de faire des corrections pour mon travail comme prof de techologies de l'information et de la communication. J'aime bien ce travail, mais je n'aime pas du tout faire des corrections, et j'ai donc l'habitude de mettre une vidéo « en cabine » pendant que je fais le travail. Comme ça, je peux imaginer que je suis ailleurs au lieu d'être à mon bureau en train de faire des corrections. 
 

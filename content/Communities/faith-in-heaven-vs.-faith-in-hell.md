@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-05-14T09:51:23-04:00
 title: "faith in heaven vs. faith in hell"
-tags: ["macro","Communities","faith transition","heaven","hell","exclusivism","Day One","journaling","Church of Jesus Christ of Latter-day Saints","Community of Christ","Mormonism"]
+tags: ["faith transition","heaven","hell","exclusivism","Day One","journaling","Church of Jesus Christ of Latter-day Saints","Community of Christ","Mormonism"]
 ---
 I’ve written a few posts recently trying (somewhat awkwardly) to express an idea that’s been on my mind a lot over the past few years: That I want to respect someone’s right to hold a particular belief while being more skeptical about their right to insist that others hold that belief. A few days ago, going through Day One’s "On This Day" feature, I found to my delight that I had written something to this extent a few years ago and then forgotten about it since.
 

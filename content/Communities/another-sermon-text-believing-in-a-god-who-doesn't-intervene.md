@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2025-01-26T21:06:38-05:00
 title: "another sermon text: believing in a God who doesn't intervene"
-tags: ["macro","Communities","non-theism","Beyond the Walls","Community of Christ","intervening God","John Hamer"]
+tags: ["non-theism","Beyond the Walls","Community of Christ","intervening God","John Hamer"]
 ---
 I'm trying to get back into the swing of blogging with the new year, and it's been a bit tricky with lots of school cancellations (or "non-traditional instruction" days) and the subsequent disruptions to my work schedule. Even considering that, I'm still surprised to be posting essentially two sermons back-to-back.
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-09-24T13:38:45-04:00
 title: "Esther is an ironic heroine for conservative Christians"
-tags: ["macro","Communities","Esther","BYU","sexual ethic","Christianity","Mormonism"]
+tags: ["Esther","BYU","sexual ethic","Christianity","Mormonism"]
 ---
 I'm pretty sure I remember exactly where I was when I realized that Esther 100% slept with the king before he chose her as his queen. I was sitting in a top-floor office in one of two villas on Chemin William Barbey in Chambésy, Switzerland. I lived on the bottom floor of the villa with some other office staff of the Switzerland Geneva Mission of the Church of Jesus Christ of Latter-day Saints, and this office was where I did my religious studies every morning before heading out into a larger office where I helped with legal, vehicle, and other assorted logistical issues for the mission. I don't know exactly why I was reading Esther that morning—I think I'd been trying to make my way through the whole Hebrew Bible—but I do know that as I read the story, I picked up on one detail that I had never noticed before. It was pretty clear even in the dated language of the King James Version, but here's how clear it is in the NRSV for Esther 2:
 

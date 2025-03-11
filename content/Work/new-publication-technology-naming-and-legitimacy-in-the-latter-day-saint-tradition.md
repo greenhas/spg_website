@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-04-05T15:54:55-04:00
 title: "new publication: technology, naming, and legitimacy in the Latter-day Saint tradition"
-tags: ["macro","Work","The Church of Jesus Christ of Latter-day Saints","technology","Dialogue journal","digital religion","Matt Bowman","Mormon Studies","COVID-19","WHOIS","Internet Archive","Wayback Machine","publications"]
+tags: ["The Church of Jesus Christ of Latter-day Saints","technology","Dialogue journal","digital religion","Matt Bowman","Mormon Studies","COVID-19","WHOIS","Internet Archive","Wayback Machine","publications"]
 ---
 I'm very excited to share that I've just had [an article](https://www.dialoguejournal.com/articles/the-correct-domain-name-of-the-church-technology-naming-and-legitimacy-in-the-latter-day-saint-tradition/#pdf-wrap) published in *Dialogue: A Journal of Mormon Thought*, a historically and culturally important journal in Mormonism. My article is entitled "The correct [domain] name of the Church: Technology, naming, and legitimacy in the Latter-day Saint tradition." The title is a riff on Russell Nelson's use of the phrase "[The Correct Name of the Church](https://www.churchofjesuschrist.org/study/general-conference/2018/10/the-correct-name-of-the-church?lang=eng)" when leading a renewed emphasis on the full name of The Church of Jesus Christ of Latter-day Saints early in his ministry as President of the same church. My addition of "domain" to the phrase also indicates my own focus in the study: To examine how, since 1996, official domain names have played a role in Latter-day Saint leaders' use of particular names to reinforce the legitimacy of their church (either as a Christian religious body or as the true successor to the 1830 church founded by Joseph Smith Jr.). 
 

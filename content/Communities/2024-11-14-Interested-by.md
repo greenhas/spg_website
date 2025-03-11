@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2024-11-14T07:03:13-05:00
-tags: ["link","Communities","Ken White","Pete Hegseth","Matt Gartz","Kristi Noem","Donald Trump"]
+tags: ["Ken White","Pete Hegseth","Matt Gartz","Kristi Noem","Donald Trump"]
 title: "🔗 linkblog: my thoughts on 'Refuge In Kakistocracy'"
 ---
 Interested by Ken's take here, even if it doesn't necessarily make me feel better about *gestures at everything*.

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-01-23T09:27:52-05:00
 title: "the Bible—not the Book of Mormon—as weak point of Mormon apologetics"
-tags: ["macro","Communities","Bible","Book of Mormon","Book of Abraham","Bloggernacle","Times and Seasons","apologetics","fundamentalism","Community of Christ","Biblical literalism","scriptural literalism","The Church of Jesus Christ of Latter-day Saints","non-theism","faith transition"]
+tags: ["Bible","Book of Mormon","Book of Abraham","Bloggernacle","Times and Seasons","apologetics","fundamentalism","Community of Christ","Biblical literalism","scriptural literalism","The Church of Jesus Christ of Latter-day Saints","non-theism","faith transition"]
 ---
 Almost a year ago now, Stephen C. at the Mormon blog *Times and Seasons* wrote [a post](http://archive.timesandseasons.org/2023/03/the-church-in-2080-part-iii-scandals-and-extinction-threats/?amp=1) asking what might be an "extinction-level event" for the Church of Jesus Christ of Latter-day Saints. There's a lot of interesting speculation in the post, but the passage that I copied down at the time was this one:
 

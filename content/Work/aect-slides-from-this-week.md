@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-10-20T10:46:11-06:00
 title: "AECT slides from this week"
-tags: ["macro","Work","AECT","AECT 2023","conferences","presentations","social media","teachers","social media research","Dan Krutka"]
+tags: ["AECT","AECT 2023","conferences","presentations","social media","teachers","social media research","Dan Krutka"]
 ---
 On Thursday morning, I presented some work I've been doing with Dan Krutka at a session of the Association of Educational Communications and Technology. Here's the title and abstract of our presentation:
 

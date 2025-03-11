@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-09-04T09:56:27-04:00
 title: "comprendre (enfin) les paroles d'une chanson francophone"
-tags: ["macro","Myself","DKL","parenting","internet radio"]
+tags: ["DKL","parenting","internet radio"]
 ---
 Il y a deux ans, [j'ai avoué](https://spencergreenhalgh.com/myself/apprendre-enfin-les-paroles-des-chansons-francophones/) que malgré mon amour pour la musique francophone, il faut parfois beaucoup de temps avant que pouvoir vraiment suivre les paroles. Ce n'est pas forcément une question de compétence en français—un peu, quand-même, mais j'ai souvent le même problème en anglais, où j'écoute une chanson sans vraiment la comprendre.
 

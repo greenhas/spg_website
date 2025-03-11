@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-02-23T12:19:08-05:00
 title: "scripture's authority comes from shared story rather than history"
-tags: ["macro","Communities","audio","audiobooks","podcasts","Abraham","Thomas Römer","Collège de France","mindfulness","historicity","Mormonism","resurrection","non-literal","Book of Mormon","scripture","Christianity","Islam","Judaism"]
+tags: ["audio","audiobooks","podcasts","Abraham","Thomas Römer","Collège de France","mindfulness","historicity","Mormonism","resurrection","non-literal","Book of Mormon","scripture","Christianity","Islam","Judaism"]
 ---
 About a week ago, I felt like I was going through an audio drought—I wasn't listening to any audiobooks, my podcast consumption has continued to go down in recent months, and I just wasn't listening to anything while doing the dishes or whatever. This wasn't necessarily a problem (it's been good in terms of [mindfulness](https://spencergreenhalgh.com/myself/2023-12-14-a-while/), for example), but it had gone on long enough that I decided that I wanted something to listen to. In particular, I decided that it was as good a time as any to revisit Thomas Römer's excellent lectures on the bible, which the Collège de France makes freely available in podcast format.
 

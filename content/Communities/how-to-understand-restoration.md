@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-03-25T09:15:09-04:00
 title: "how to understand 'Restoration'"
-tags: ["macro","Communities","Restoration","Community of Christ","Mormonism","Robert Alter","Babylonian exile","Hebrew Bible","prooftexting","Charles Harrell","Daniel Migliore"]
+tags: ["Restoration","Community of Christ","Mormonism","Robert Alter","Babylonian exile","Hebrew Bible","prooftexting","Charles Harrell","Daniel Migliore"]
 ---
 One of the lectionary readings for tomorrow's service is Ezekiel 37:1-14, which I read in Robert Alter's beautiful translation. In this passage, Ezekiel famously prophesies:
 

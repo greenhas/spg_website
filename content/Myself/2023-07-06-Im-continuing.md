@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2023-07-06T08:12:50-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Silverview, by John Le Carré"
-tags: ["media","Myself","Silverview","John Le Carré","Tinker, Tailor, Soldier, Spy","Bechdel Test"]
+tags: ["Silverview","John Le Carré","Tinker, Tailor, Soldier, Spy","Bechdel Test"]
 media: ["book","audiobook"]
 titles: ["Silverview"]
 creators: ["John Le Carré"]

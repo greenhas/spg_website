@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-11-01T12:42:52-04:00
 title: "why I put email back on my phone"
-tags: ["macro","Work","productivity","to-do list","task management","email","Things","COVID-19","parenting"]
+tags: ["productivity","to-do list","task management","email","Things","COVID-19","parenting"]
 ---
 Since the beginning of COVID-19, I've been dismantling a lot of my productivity and organization systems, trying to put less pressure on myself to **get things done** and be more mindful in how I spend my time. Several months ago—I cannot remember exactly when—this culminated in taking email off my phone and pivoting away from the excellent [Things 3](https://culturedcode.com/things/) task management app to a more paper notebook-driven approach to keeping track of what I need to get done. The idea behind all of this was to bring about more balance in my life. By not being able to check my email all the time, I would be less likely to sneak into work mode when "playing jaguars" with kiddo, and the constraints of a physical to-do list are such that I figured I would give myself less to do if I had to write it down and copy it over from week to week.
 

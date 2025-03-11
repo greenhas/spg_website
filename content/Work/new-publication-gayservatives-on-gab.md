@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-11-29T16:09:08-05:00
 title: "new publication: LGBTQ+ communities and far right social media"
-tags: ["macro","Work","gayservatives","LGBTQ","research","publications","Gab","Evan Brody","Mehroz Sajjad","online Mormonism","DezNat"]
+tags: ["gayservatives","LGBTQ","research","publications","Gab","Evan Brody","Mehroz Sajjad","online Mormonism","DezNat"]
 ---
 
 I'm pleased to share that a study I contributed to—[*Gayservatives on Gab: LGBTQ+ Communities and Far Right Social Media*](https://journals.sagepub.com/doi/10.1177/20563051221137088)—is now available (open-access!) through the *Social Media + Society* journal. [Dr. Evan Brody](https://www.linkedin.com/in/evan-brody-ph-d-8b754a281) is the lead author on the study, and we were lucky enough to have support from PhD student [Mehroz Sajjad](https://comm.uky.edu/people/sajjad). Here's the abstract for the study: 

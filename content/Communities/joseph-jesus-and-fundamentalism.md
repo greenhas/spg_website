@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-07-12T10:20:25-04:00
 title: "thoughts on Joseph, Jesus, and fundamentalism"
-tags: ["macro","Communities","Community of Christ","fundamentalism","Biblical criticism","Mark Scherer","Grant McMurray","Community of Christ history","Mormon history","The Church of Jesus Christ of Latter-day Saints","Mormonism","infallibility","Wallace Smith","Bible","Gab","anti-Semitism","Christian anti-Semitism","supersessionism"]
+tags: ["Community of Christ","fundamentalism","Biblical criticism","Mark Scherer","Grant McMurray","Community of Christ history","Mormon history","The Church of Jesus Christ of Latter-day Saints","Mormonism","infallibility","Wallace Smith","Bible","Gab","anti-Semitism","Christian anti-Semitism","supersessionism"]
 ---
 
 Over the past several months, I've been slowly working my way through Mark Scherer's three-volume *The Journey of a People*, the most recent quasi-official history of Community of Christ. The [first volume](https://www.heraldhouse.org/products/the-journey-of-a-people-vol-1) was interesting, since it covered an era of Mormon history that I'm familiar with from a perspective that I'm not familiar with. I found the [second volume](https://www.heraldhouse.org/products/the-journey-of-a-people-vol-2) a bit harder to get through—some individual sections were fascinating, but it seemed to lack an overall throughline or narrative. I'm currently working my way through the [third volume](https://www.heraldhouse.org/products/the-journey-of-a-people-vol-3), though, and I think it might be my favorite. It's fascinating to watch The Reorganized Church of Jesus Christ of Latter-day Saints become Community of Christ, and I've thought to myself several times that as happy as I am to be part of the latter, I don't think I would have ever joined the former, even though they're simply the same institution at two different points of history.

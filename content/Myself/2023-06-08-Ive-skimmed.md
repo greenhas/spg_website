@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2023-06-08T21:30:24-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️❤️ for Strong Female Protagonist (Book 2), by Brennan Lee Mulligan and Molly Ostertag"
-tags: ["media","Myself","Strong Female Protagonist","comics","webcomics","superheroes","Brennan Lee Mulligan","Molly Ostertag"]
+tags: ["Strong Female Protagonist","comics","webcomics","superheroes","Brennan Lee Mulligan","Molly Ostertag"]
 media: ["book","comic","webcomic"]
 titles: [""]
 creators: ["Brennan Lee Mulligan","Molly Ostertag"]

@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2024-12-05T21:21:29-05:00
-tags: ["link","Communities","gender","LGBTQ","The Onion","McSweeney's"]
+tags: ["gender","LGBTQ","The Onion","McSweeney's"]
 title: "🔗 linkblog: my thoughts on 'Gender Is Determined by God, Biology, and the Highest Governing Body of Some Random Sport'"
 ---
 Listen, The Onion is great, but sometimes McSweeney's is where it's at.

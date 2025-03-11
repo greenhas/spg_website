@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2024-06-12T08:14:21-04:00
-tags: ["link","Communities","generative AI","AI detection"]
+tags: ["generative AI","AI detection"]
 title: "🔗 linkblog: my thoughts on 'AI Detectors Get It Wrong. Writers Are Being Fired Anyway'"
 ---
 Generative AI suuuucks, but AI detection software may suck even more.

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-04-04T15:47:47-04:00
 title: "on seeing the humanity in terrible people"
-tags: ["macro","Communities","Bill Cosby","Wil Wheaton","forgiveness","The Book of Forgiving","Community of Christ Seminary","Desmond Tutu","Mpho Tutu","Graceland CIMM"]
+tags: ["Bill Cosby","Wil Wheaton","forgiveness","The Book of Forgiving","Community of Christ Seminary","Desmond Tutu","Mpho Tutu","Graceland CIMM"]
 ---
 I want to start this post by saying that it's more about me working out some thoughts than telling anyone else how to think—or even saying what I think about the subject. I've written a number of times already that I'm reading through Desmond and Mpho Tutu's *The Book of Forgiving* as part of a non-credit bearing class on peace and justice that I'm taking through Community of Christ Seminary. In the reading I completed for last night's class session, I was impressed by the following passage from the elder Tutu: 
 

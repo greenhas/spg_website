@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-10-13T06:06:43-05:00
 title: "family's first comic con"
-tags: ["macro","Relationships","comic cons","libraries","Squirrel Girl","The Unbeatable Squirrel Girl","Star Wars","Keyforge","Lexington","tabletop games","comics"]
+tags: ["comic cons","libraries","Squirrel Girl","The Unbeatable Squirrel Girl","Star Wars","Keyforge","Lexington","tabletop games","comics"]
 ---
 We are big fans of libraries in our family. In fact, live near the border between two counties, and we split our library visits between the Lexington Public Library (where we are residents) and the Jessamine County Public Library (where we are not). Luckily, Kentucky library systems tend to be fairly liberal in handing out library cards, so this isn't usually a hassle (this was not the case in Central Michigan, but that's a story for another time).
 

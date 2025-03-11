@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2024-02-12T17:34:18-05:00
-tags: ["link","Communities","Afghanistan","Mastodon","Taliban","ICANN","Domain Name System"]
+tags: ["Afghanistan","Mastodon","Taliban","ICANN","Domain Name System"]
 title: "🔗 linkblog: my thoughts on 'The ‘queer.af’ Mastodon instance disappeared because of the Taliban'"
 ---
 Domain name infrastructure plays a bigger role than we might think.

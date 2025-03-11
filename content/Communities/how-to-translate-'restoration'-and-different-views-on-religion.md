@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-06-07T13:10:47-04:00
 title: "how to translate 'restoration' and different views on religion"
-tags: ["macro","Communities","Restoration","Church of Jesus Christ of Latter-day Saints","Community of Christ","COVID-19 pandemic","faith transition","Mormon studies","French","Restoration"]
+tags: ["Restoration","Church of Jesus Christ of Latter-day Saints","Community of Christ","COVID-19 pandemic","faith transition","Mormon studies","French","Restoration"]
 ---
 
 There are a couple of other things that I’d wanted to write about today, but a memory suddenly popped into my head just now, and I wanted to get it written down while it was still fresh.

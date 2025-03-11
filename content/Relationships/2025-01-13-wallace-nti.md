@@ -1,6 +1,7 @@
 ---
+type: ["photo"]
 date: 2025-01-13T06:57:32-05:00
-tags: ["photo","Relationships","winter","Wallace the Brave","comics","comic strips","non-traditional instruction","snow days"]
+tags: ["winter","Wallace the Brave","comics","comic strips","non-traditional instruction","snow days"]
 featured_image: "/2025-01-13-wallace-nti.JPEG"
 ---
 Well, at least some of today's comic strip characters *also* have a "non-traditional instruction" day.

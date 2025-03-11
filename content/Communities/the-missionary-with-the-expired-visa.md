@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-09-30T10:51:02-04:00
 title: "the missionary with the expired visa"
-tags: ["macro","Communities","immigration","Latter-day Saint missionaries","Day One","Donald Trump","France","Switzerland"]
+tags: ["immigration","Latter-day Saint missionaries","Day One","Donald Trump","France","Switzerland"]
 ---
 Over the past few years, I've been slowly digitizing a bunch of analog letters, keepsakes, and other things that I think are worth keeping a copy of in the Day One journaling app (and, more importantly, in a PDF export from Day One). My current project is copying over a bunch of old emails that I sent friends during the two years I served as a Latter-day Saint missionary, and in the email I was copying this morning, I wrote about a time when I was working as the legal secretary for the mission and had to do an audit of our legal documents because:
 

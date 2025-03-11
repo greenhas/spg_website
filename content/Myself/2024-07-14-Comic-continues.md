@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2024-07-14T09:02:40-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for I Excised All My Anxieties into Cartoon Characters Who Definitely Don't Have Feelings for Each Other (An Eleventh Dumbing of Age Collection), by David Willis"
-tags: ["media","Myself","I Excised All My Anxieties into Cartoon Characters Who Definitely Don't Have Feelings for Each Other","David Willis","Dumbing of Age"]
+tags: ["I Excised All My Anxieties into Cartoon Characters Who Definitely Don't Have Feelings for Each Other","David Willis","Dumbing of Age"]
 media: ["book","comic","webcomic"]
 titles: ["I Excised All My Anxieties into Cartoon Characters Who Definitely Don't Have Feelings for Each Other"]
 creators: ["David Willis"]

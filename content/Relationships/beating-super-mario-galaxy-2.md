@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-10-29T20:35:44-04:00
 title: "beating Super Mario Galaxy 2 with kiddo"
-tags: ["macro","Relationships","video games","Nintendo Wii","Mario","parenting","libraries"]
+tags: ["video games","Nintendo Wii","Mario","parenting","libraries"]
 ---
 About a month ago, I [blogged](https://spencergreenhalgh.com/relationships/old-games-libraries-and-xkcd) about the approach we take to playing video games around here, which is to check out old games from a local library and play them on the Nintendo Wii we liberated from my parents' basement a couple of years ago. Earlier this week, that approach bore some fruit: After repeated cycles of keeping the game out as long as we could, returning it for a couple of weeks, and then checking it back out, kiddo and I beat Super Mario Galaxy 2—a game several years older than she is for a console that's been around for nearly as long as her parents have known each other.
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-10-01T19:36:45-04:00
 title: "the problem with Gadianton robber rhetoric"
-tags: ["macro","Communities","Book of Mormon","American Indians","First Nations","Kimberly Matheson Berkey","Maxwell Institute Podcast","Blair Hodges","Gadianton robbers","Paul Reeve","Religion of a Different Color","racism","Ezra Taft Benson"]
+tags: ["Book of Mormon","American Indians","First Nations","Kimberly Matheson Berkey","Maxwell Institute Podcast","Blair Hodges","Gadianton robbers","Paul Reeve","Religion of a Different Color","racism","Ezra Taft Benson"]
 ---
 After recently finishing an excellent biography on Brigham Young, I'm starting to make my way through some other Mormon Studies books that I own but have not yet read. This has brought me to Paul Reeve's *Religion of a Different Color: Race and the Mormon Struggle for Whiteness*. It's very good so far, and I regret having waited until now to read it. I'm currently working through Reeve's chapters describing Mormons' relationship with American Indians, and I just now read a paragraph that really surprised me. First, though, some background:
 

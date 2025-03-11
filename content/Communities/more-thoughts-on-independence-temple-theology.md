@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-04-06T16:38:28-04:00
 title: "more thoughts on Independence temple theology"
-tags: ["macro","Communities","Community of Christ","Independence Temple","peace","reconciliation","Wallace B. Smith","Alan Tyree"]
+tags: ["Community of Christ","Independence Temple","peace","reconciliation","Wallace B. Smith","Alan Tyree"]
 ---
 This past week, in celebration of the 40th anniversary of the opening of RLDS (now Community of Christ) priesthood to women, the Community of Christ YouTube channel posted a video that was originally recorded back in 1984, during and after that year's World Conference. From the very first second, it is very clearly a product of the 1980s, and I love it for that. Here's a link, but I have more to write afterwards on a specific part of the video:
 

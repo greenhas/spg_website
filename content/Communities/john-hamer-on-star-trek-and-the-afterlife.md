@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-11-24T15:25:28-05:00
 title: "John Hamer on Star Trek and the afterlife"
-tags: ["macro","Communities","John Hamer","Beyond the Walls","Star Trek","science fiction","The Man Born to Be King","Dorothy Sayers","kingdom of God","Mormonism","Deep Space Nine","The Bezzle","Cory Doctorow","Sheep and Goats"]
+tags: ["John Hamer","Beyond the Walls","Star Trek","science fiction","The Man Born to Be King","Dorothy Sayers","kingdom of God","Mormonism","Deep Space Nine","The Bezzle","Cory Doctorow","Sheep and Goats"]
 ---
 Leandro Palacios from the Beyond the Walls ministry out of the Toronto Community of Christ congregation gave me a heads up yesterday that they would be using a clip from [the most recent sermon](https://spencergreenhalgh.com/communities/text-for-todays-sheep-and-goats-sermon/) I gave for them as part of today's service. I forgot about this until well after the service, but I visited the recording later in the afternoon to see what clip they'd used and to see what else I could catch from the service. Before fast forwarding to my cameo, I actually ended up watching most of John's homily, which I thought was excellent. 
 

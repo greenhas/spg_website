@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-03-08T07:49:39-05:00
 title: "some thoughts on Independence Temple theology"
-tags: ["macro","Communities","Richard Rohr","Center for Action and Contemplation","Kirtland Temple","Independence Temple","Introduction to Scripture","Community of Christ","Restorations"]
+tags: ["Richard Rohr","Center for Action and Contemplation","Kirtland Temple","Independence Temple","Introduction to Scripture","Community of Christ","Restorations"]
 ---
 I have spent far too much time blogging this week (even before the sale of the Kirtland Temple was announced), but weeks like this don't come often, and I feel like holding onto this week's thoughts will be important in the years to come. So, here's another post!
 

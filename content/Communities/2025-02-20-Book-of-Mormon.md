@@ -1,6 +1,7 @@
 ---
+type: ["photo"]
 date: 2025-02-20T21:25:59-05:00
-tags: ["photo","Communities","Garden of Enid","webcomic","Book of Mormon"]
+tags: ["Garden of Enid","webcomic","Book of Mormon"]
 featured_image: "/2025-02-20-Book-of-Mormon.JPEG"
 ---
 Taking a moment to remember that the Garden of Enid webcomic is a pinnacle of Mormon arts.

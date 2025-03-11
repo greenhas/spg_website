@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-09-27T12:01:46-04:00
 title: "Nephi's violence and Book of Mormon intertextuality"
-tags: ["macro","Communities","bloggernacle","Wheat & Tares","Laura Harris Hales","LDS Perspectives Podcast","NIck Frederick","Joseph Spencer","Abish","Nephi"]
+tags: ["bloggernacle","Wheat & Tares","Laura Harris Hales","LDS Perspectives Podcast","NIck Frederick","Joseph Spencer","Abish","Nephi"]
 ---
 A number of years ago, I read [this blog post](https://wheatandtares.org/2018/08/23/byu-professor-nick-frederick-650-new-testament-phrases-intentionally-inserted-into-bom-and-what-it-means-for-bom-historicity/), which linked to [this podcast episode](https://ldsperspectives.com/2018/08/22/intertextuality-book-mormon/) about intertextuality between the New Testament and the Book of Mormon. The post and episode both focus on the work of Nick Frederick, a BYU professor who argues that: 
 

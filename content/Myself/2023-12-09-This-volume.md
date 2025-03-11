@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2023-12-09T17:12:57-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Ultimate Spider-Man: Vol. 20, And His Amazing Friends, by Brian Michael Bendis and Stuart Immonen"
-tags: ["media","Myself","Ultimate Spider-Man","Brian Michael Bendis","Stuart Immonen"]
+tags: ["Ultimate Spider-Man","Brian Michael Bendis","Stuart Immonen"]
 media: ["book","comic"]
 titles: ["And His Amazing Friends"]
 creators: ["Brian Michael Bendis","Stuart Immonen"]

@@ -1,6 +1,7 @@
 ---
+type: ["photo"]
 date: 2024-12-03T18:41:11-05:00
-tags: ["photo","Communities","DRM","libraries","hoopla"]
+tags: ["DRM","libraries","hoopla"]
 featured_image: "/2024-12-03-hoopla-cadl.JPEG"
 ---
 This is a friendly reminder that DRM sucks and that corporations have perverted the digital technologies that should make things easier for libraries and their patrons into ways to squeeze more money out of us while giving us less control.

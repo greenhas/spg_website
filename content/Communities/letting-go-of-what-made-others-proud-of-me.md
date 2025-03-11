@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-10-24T08:41:19-04:00
 title: "letting go of what made others proud of me"
-tags: ["macro","Communities","journaling","Day One","Automattic","Mormonism","The Church of Jesus Christ of Latter-day Saints","Latter-day Saint missionaries"]
+tags: ["journaling","Day One","Automattic","Mormonism","The Church of Jesus Christ of Latter-day Saints","Latter-day Saint missionaries"]
 ---
 As I continue to digitize old journals and documents by copying them into Day One (which is a great app, though I wish it hadn't been acquired by Automattic, given all the drama currently happening there), I am regularly confronted with tensions between past-Spencer and present-Spencer. Maybe "confronted" and "tensions" aren't the right words, because it's good and natural for people to change, and I get some benefit out of making these observations, but there are ways that noticing these things can be difficult.
 

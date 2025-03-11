@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2023-07-24T20:09:16-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️❤️ for Dragon Hoops, by Gene Luen Yang"
-tags: ["media","Myself","Dragon Hoops","Gene Luen Yang","comics","basketball"]
+tags: ["Dragon Hoops","Gene Luen Yang","comics","basketball"]
 media: ["book","comic","graphic novel"]
 titles: ["Dragon Hoops"]
 creators: ["Gene Luen Yang"]

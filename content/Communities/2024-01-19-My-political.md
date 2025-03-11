@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2024-01-19T06:45:18-05:00
-tags: ["link","Communities","Emmanuel Macron","centrism","France"]
+tags: ["Emmanuel Macron","centrism","France"]
 title: "🔗 linkblog: my thoughts on 'Macron Shifts Rightward, and Charts a New Course - The New York Times'"
 ---
 My political views have shifted a lot over the past decade, and I think my attitude toward Macron demonstrates that pretty well. When he was first elected, I was pretty excited. I was fed up with the American right but not ready to identify with the left, and the idea of a new centrist party emerging out of nowhere was inspiring.

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-09-06T09:12:27-04:00
 title: "there but for the grace of Matt go I"
-tags: ["macro","Work","tenure","academia","privilege","grace","meritocracy"]
+tags: ["tenure","academia","privilege","grace","meritocracy"]
 ---
 This is an interesting academic year for me in a number of ways. It was five years ago that I joined UK as an assistant professor and ten years ago that I started at MSU as a new PhD student. It's my first year as tenured faculty, and there are leadership changes in my unit and college that are—by the inherent virtue of any change in leadership—inviting opportunities to think about what the future of both look like. All of these things are mixing together as I think about the privileges and obligations of tenure and what I want to do with myself and for my institution as my career moves forward.
 

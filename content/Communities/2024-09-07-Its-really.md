@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2024-09-07T22:48:02-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Pirate Enlightenment, or the Real Libertalia, by David Graeber"
-tags: ["media","Communities","Pirate Enlightenment","David Graeber","independent bookstores","The Dawn of Everything","Madagascar","Malagasy","pirates","anarchism","Enlightenment","Global South","egalitarianism","democracy"]
+tags: ["Pirate Enlightenment","David Graeber","independent bookstores","The Dawn of Everything","Madagascar","Malagasy","pirates","anarchism","Enlightenment","Global South","egalitarianism","democracy"]
 media: ["book"]
 titles: ["Pirate Enlightenment, or the Real Libertalia"]
 creators: ["David Graeber"]

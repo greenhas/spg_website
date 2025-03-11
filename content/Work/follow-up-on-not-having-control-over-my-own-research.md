@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-06-10T13:16:47-04:00
 title: "follow up on not having control over my own research"
-tags: ["macro","Work","publishing","research","copyright","intellectual property","academic publishing"]
+tags: ["publishing","research","copyright","intellectual property","academic publishing"]
 ---
 Back in December, I wrote a [frustrated post](https://spencergreenhalgh.com/work/publication-copyright-and-reprinting-consent/) about an article I’d submitted to a special issue that was now being repackaged into an edited volume, in which my research would appear as a chapter. At the time, I wrote about how frustrated I was at the lack of control I had over my own research output. I might well have consented to having my work reprinted in this new format, but I was frustrated that my consent was neither sought nor necessary for the process. I concluded that post with a quip that:
 

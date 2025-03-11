@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2022-08-23T18:07:45-04:00
 title: "🔗 linkblog: my thoughts on 'McConnell Dismisses the Threats to U.S. Democracy - The New York Times'"
-tags: ["link","Communities","Mitch McConnell","Kentucky","GOP"]
+tags: ["Mitch McConnell","Kentucky","GOP"]
 ---
 McConnell gets so close to recognizing the danger other Republicans pose to democracy, but he always stops just short.
  

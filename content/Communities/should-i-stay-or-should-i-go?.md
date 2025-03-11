@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-08-05T12:40:14-04:00
 title: "should I stay or should I go?"
-tags: ["macro","Communities","The Church of Jesus Christ of Latter-day Saints","Mormonism","Community of Christ","abuse","child abuse","sexual abuse","faith transition"]
+tags: ["The Church of Jesus Christ of Latter-day Saints","Mormonism","Community of Christ","abuse","child abuse","sexual abuse","faith transition"]
 ---
 
 I haven't attended the Latter-day Saint congregation I officially belong to since March of 2020, and I'm coming up on one year of being an official member of Community of Christ. It's pretty clear to me—and, likely, to others—where my religious future is headed.

@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2023-10-11T09:26:58-04:00
-tags: ["link","Communities","Ring","Amazon","surveillance","privacy","law enforcement"]
+tags: ["Ring","Amazon","surveillance","privacy","law enforcement"]
 title: "🔗 linkblog: my thoughts on 'Amazon’s ‘Neighborhood Watch’ Might Be Turning Police Officers Into ‘Reddit Moderators’ – The Markup'"
 ---
 Public-private surveillance is the worst of both worlds. Ring is creepy.

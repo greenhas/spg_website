@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-06-26T20:51:43-04:00
 title: "a report on tea drinking"
-tags: ["macro","Myself","tea","Mormonism","Reunion","coffee","Father's Day"]
+tags: ["tea","Mormonism","Reunion","coffee","Father's Day"]
 ---
 In early May, I decided to [give tea a try](https://spencergreenhalgh.com/communities/2023-05-07-all-right/). I've enjoyed herbal teas over the years, but I grew up never drinking *actual* tea (or coffee, which I still have never tried), so this has been a new(ish) experience for me. Over the past two months, I've acquired a couple of tea infusers as well as a variety of different teas that I've been trying, and tonight I felt like writing about some of the teas I've tried so far: 
 

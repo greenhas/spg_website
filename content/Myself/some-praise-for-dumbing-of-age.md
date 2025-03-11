@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-04-09T14:25:25-04:00
 title: "some praise for Dumbing of Age"
-tags: ["macro","Myself","Dumbing of Age","webcomics","faith transition","Dork Tower","Dr. McNinja","Order of the Stick","xkcd"]
+tags: ["Dumbing of Age","webcomics","faith transition","Dork Tower","Dr. McNinja","Order of the Stick","xkcd"]
 ---
 I've been a big fan of webcomics since I first discovered they existed in the early-to-mid 2000s. I've been following *Order of the Stick* for about twenty years(!), I've read the entire web run of *Dr. McNinja*, *xkcd* makes frequent appearance in my lecture slides, and there are other comics that I've jumped in and out of over time. It hasn't been that long since I started following *Dork Tower* again, but last Fall, it did a crossover with *Dumbing of Age*, which I mentally noted I should check out sometime.
 

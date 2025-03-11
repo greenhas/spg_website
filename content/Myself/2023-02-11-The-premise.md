@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2023-02-11T17:06:11-05:00
 title: "📚 bookblog: ❤️❤️❤️🖤🖤 for Mech Cadet Yu (Volume 1), by Greg Pak"
-tags: ["media","Myself","Mech Cadet Yu","Greg Pak","comics","mecha"]
+tags: ["Mech Cadet Yu","Greg Pak","comics","mecha"]
 media: ["book","comic"]
 titles: [""]
 creators: ["Greg Pak"]

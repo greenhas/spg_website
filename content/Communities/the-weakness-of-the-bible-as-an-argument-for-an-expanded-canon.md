@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-02-03T13:12:39-05:00
 title: "the weakness of the Bible as an argument for an expanded canon"
-tags: ["macro","Communities","Bible","Book of Mormon","Doctrine and Covenants","apologetics","fundamentalism","Community of Christ","Biblical literalism","scriptural literalism","The Church of Jesus Christ of Latter-day Saints","Introduction to Scripture","Temple School"]
+tags: ["Bible","Book of Mormon","Doctrine and Covenants","apologetics","fundamentalism","Community of Christ","Biblical literalism","scriptural literalism","The Church of Jesus Christ of Latter-day Saints","Introduction to Scripture","Temple School"]
 ---
 A week and a half ago, I wrote [a post](https://spencergreenhalgh.com/communities/the-bible-as-weak-point-of-mormon-apologetics/) arguing that the Bible is actually more of a weak point than the Book of Mormon for fundamentalist, literalist attitudes toward Latter-day Saint scripture. That post—like this one—was inspired by an *Introduction to Scripture* class that I'm currently taking through Community of Christ's Temple School. The first lesson did a lot of work to play up the Bible as the main scriptural foundation of Community of Christ and is doing some respectful but firm downplaying of the Book of Mormon and Doctrine and Covenants. 
 

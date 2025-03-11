@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2023-11-28T17:32:32-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️❤️ for Queen & Country Definitive Edition: Volume 02, by Greg Rucka"
-tags: ["media","Myself","Queen & Country","Greg Rucka","comics","The Sandbaggers"]
+tags: ["Queen & Country","Greg Rucka","comics","The Sandbaggers"]
 media: ["book","comic"]
 titles: [""]
 creators: ["Greg Rucka"]

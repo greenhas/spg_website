@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-07-15T10:57:20-04:00
 title: "interviewed for Salt Lake Tribune article on far-right influences in Mormon Twitter"
-tags: ["macro","Work","Salt Lake Tribune","media appearances","Tamarra Kemsley","DezNat","online Mormonism","Mormon Twitter","Amy Chapman","boundary maintenance","religious authority","SSSR","MSSA","SSSR 2024","Ezra Taft Benson","Church of Jesus Christ of Latter-day Saints","Mormonism","affinity space","James Paul Gee"]
+tags: ["Salt Lake Tribune","media appearances","Tamarra Kemsley","DezNat","online Mormonism","Mormon Twitter","Amy Chapman","boundary maintenance","religious authority","SSSR","MSSA","SSSR 2024","Ezra Taft Benson","Church of Jesus Christ of Latter-day Saints","Mormonism","affinity space","James Paul Gee"]
 ---
 I recently had the wonderful opportunity to be interviewed by Salt Lake Tribune religion reporter Tamarra Kemsley about work that Amy Chapman and I have been doing on the reactionary DezNat movement within Mormon Twitter. Our conversation largely focused on [the article](https://doi.org/10.54587/JMSSA.0201) that Amy and I published last year on far-right and anti-feminist influences within DezNat, but I got to pull in some observations from an article on DezNat perceptions of religious authority that is currently under review and some work on broad patterns in DezNat activity between early 2019 and late 2022 that we'll be presenting at October's meeting of the Society for the Scientific Study of Religion (more specifically, within a session organized by the Mormon Social Science Association).
 

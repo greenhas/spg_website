@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-06-13T12:56:10-04:00
 title: "new publication: far-right and anti-feminist influences on a Mormon Twitter hashtag"
-tags: ["macro","Work","online Mormonism","publications","research","Amy Chapman","DezNat","Mormonism","Mormon Studies","Mormon Twitter"]
+tags: ["online Mormonism","publications","research","Amy Chapman","DezNat","Mormonism","Mormon Studies","Mormon Twitter"]
 ---
 I am very happy to announce that a paper I wrote with Amy Chapman is finally published and [available open access](https://jmssa.org/greenhalgh/) in the *Journal of the Mormon Social Science Association* (I have also archived a PDF of the article on my website, available at [this link](https://spencergreenhalgh.com/Greenhalgh_Chapman_2023_DezNat.pdf)). Amy and I began this project in the spring/summer of 2019, so it's a relief to finally see our first paper in print. 
 

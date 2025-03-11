@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2024-08-16T12:01:16-04:00
-tags: ["link","Work","open access","Elsevier","MIT","research"]
+tags: ["open access","Elsevier","MIT","research"]
 title: "🔗 linkblog: my thoughts on 'How MIT copes without Elsevier'"
 ---
 Interesting—and hopeful—read.

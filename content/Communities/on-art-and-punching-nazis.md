@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-11-01T16:23:02-04:00
 title: "on art and punching Nazis"
-tags: ["macro","Communities","Mastodon","Captain America","BYU","non-violence","Kurt Vonnegut","Slaughterhouse Five","Leo Tolstoy","The Kingdom of God is Within You"]
+tags: ["Mastodon","Captain America","BYU","non-violence","Kurt Vonnegut","Slaughterhouse Five","Leo Tolstoy","The Kingdom of God is Within You"]
 ---
 A brief, entirely-unrelated-to-this-post conversation on Mastodon this afternoon got me thinking about an art exhibit that I saw in college and still think about every once in a while. The exhibit was on something along the lines of pop culture and politics, and one of the only two things that I remember from the exhibit (the other being D&D character sheets for Barack Obama and Mitt Romney) was a statue depicting an action figure-y Captain America brandishing the severed head of Saddam Hussein. (Picture [here](https://c7.alamy.com/zooms/9/a94681eb45a248e39abcb2b0556e05b3/2g3ahhh.jpg)—it's relatively cartoony, but just gruesome enough to not post on the blog). 
 

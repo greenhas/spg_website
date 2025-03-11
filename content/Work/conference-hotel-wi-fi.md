@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-10-18T15:45:05-04:00
 title: "I think the conference hotel wi-fi is blocking competitors' websites?"
-tags: ["macro","Work","SSSR 2024","Mormon Social Science Association","SSSR","Marriott","Internet Archive","VPN","Windscribe"]
+tags: ["SSSR 2024","Mormon Social Science Association","SSSR","Marriott","Internet Archive","VPN","Windscribe"]
 ---
 I'm currently at the 2024 conference for the Society of the Scientific Study of Religion, where the Mormon Social Science Association always organizes a number of panels. (I presented on a reactionary Mormon Twitter hashtag earlier today!). MSSA traditionally has a Saturday evening no-host dinner, and as long as I've attended (okay, only since 2021), we've relied on a foodie board member to find a place for us to eat. Rick isn't here this year, and somehow that got turned into my becoming responsible for finding us a restaurant to meet, eat, and chat at.
 

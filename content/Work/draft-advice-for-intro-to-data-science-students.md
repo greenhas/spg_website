@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-08-20T11:34:55-04:00
 title: "draft advice for intro to data science students"
-tags: ["macro","Work","data science","ICT 661","teaching"]
+tags: ["data science","ICT 661","teaching"]
 ---
 I am, unbelievably, preparing my fourth offering of my department's ICT/LIS 661 *Intro to Data Science* class, and this time around, I've decided to add a new section to my "about the class" page in Canvas to head off some concerns that I've seen over the past few years. I have a lot of students with no background in either statistics or programming who take my class, and it can be really intimidating for them. I'm not convinced that the advice I give below is everything that I ought to say (or exactly how I ought to say it), but this semester, I want to get out ahead of a lot of the one-on-one pep talks I give throughout the semester.
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-05-11T07:28:51-04:00
 title: "technology-mediated authority in early Mormonism"
-tags: ["macro","Work","The Church of Jesus Christ of Latter-day Saints","research","technology","Mormon Studies","digital religion","Dialogue journal","Peggy Fletcher Stack","Mormon Land","media appearances","Mormonism","religious authority","Giulia Evolvi","Gavin Feller","Richard Howard","Mason Kamana Allred"]
+tags: ["The Church of Jesus Christ of Latter-day Saints","research","technology","Mormon Studies","digital religion","Dialogue journal","Peggy Fletcher Stack","Mormon Land","media appearances","Mormonism","religious authority","Giulia Evolvi","Gavin Feller","Richard Howard","Mason Kamana Allred"]
 ---
 As I wrote [earlier](https://spencergreenhalgh.com/work/media-coverage-of-recent-article-on-latter-day-saint-online-presence/), I recently appeared on the Salt Lake Tribune's *Mormon Land* podcast to discuss a recent publication in which I discuss the history of official Latter-day Saint domain names. Near the end of the interview, David Noyce (managing editor of the Tribune and one of the podcast hosts) asked me the "so what" question—sure, this history is interesting, but what's the takeaway? Here's (part of) how I answered: 
 

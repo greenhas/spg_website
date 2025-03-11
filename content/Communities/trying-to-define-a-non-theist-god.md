@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-06-11T14:18:54-04:00
 title: "trying to define a non-theist God"
-tags: ["macro","Communities","non-theism","Gérard Siegwalt","La réinvention du nom de Dieu","John Shelby Spong","A New Christianity for a New World","Thomas Merton","New Seeds of Contemplation","Paul Tillich","The Courage to Be","existential","existential dread"]
+tags: ["non-theism","Gérard Siegwalt","La réinvention du nom de Dieu","John Shelby Spong","A New Christianity for a New World","Thomas Merton","New Seeds of Contemplation","Paul Tillich","The Courage to Be","existential","existential dread"]
 ---
 As I write this, I’m almost done with a reread of Gérard Siegwalt’s *La réinvention du nom de Dieu* (*Reinventing God’s Name*), which is not an easy read (my French is pretty good but not accustomed to theological treatises) but has a lot to offer for thinking about what Christianity might look like today. Of the many things that I’m getting from this reread, one of the things I appreciated most is that Siegwalt has helped me understand a concept that I’ve been trying to get my head around for a year or more: the idea of a non-theist God.
 

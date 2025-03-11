@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-11-30T15:08:26-05:00
 title: "communion, tarot, and Lavina Fielding Anderson: some thoughts on sacraments"
-tags: ["macro","Communities","communion","sacraments","tarot","Lavina Fielding Anderson","parenting","Community of Christ","Dumbing of Age","Salt Lake Tribune","Peggy Fletcher Stack"]
+tags: ["communion","sacraments","tarot","Lavina Fielding Anderson","parenting","Community of Christ","Dumbing of Age","Salt Lake Tribune","Peggy Fletcher Stack"]
 ---
 My kid is being raised by a mother who is entirely done with anything that smacks of religion and a father who is very non-literal and not very exclusivist, so it's unsurprising that she tends to pick and choose when she wants to do church stuff with me. If I'm driving over to Louisville to attend church in person, she'll usually come with me. If I'm attending church via Zoom because Louisville is over an hour away, she tends to read or play in her room instead. A few weeks ago, though, when she realized it was Communion Sunday (in Community of Christ, the first Sunday of the month), she insisted that I call her over when it was time for communion so that she could be part of that.
 

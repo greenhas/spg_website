@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-07-17T13:47:03-04:00
 title: "delightful radio program on British 'ghost stations'"
-tags: ["macro","Myself","France","Switzerland","trains","Geoff Marshall","BBC","BBC Radio 4","Ian Marchant","YouTube"]
+tags: ["France","Switzerland","trains","Geoff Marshall","BBC","BBC Radio 4","Ian Marchant","YouTube"]
 ---
 During my two years living in France and Switzerland, I fell deeply in love with travel by rail. But alas, I live in a particularly rail-unfriendly region of a rather rail-unfriendly country. One of my guilty internet pleasures is consuming rail-related media so that I can feel like I'm having train experiences anyway.
 

@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2025-02-05T21:05:49-05:00
-tags: ["link","Communities","Elon Musk","far right","CI 780"]
+tags: ["Elon Musk","far right","CI 780"]
 title: "🔗 linkblog: my thoughts on 'The Far Right Has a New Hero: Elon Musk'"
 ---
 Bookmarking for... sigh... teaching purposes.

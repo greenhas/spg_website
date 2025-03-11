@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2023-09-30T17:59:10-04:00
-tags: ["link","Myself","LEB","Renens","Switzerland"]
+tags: ["LEB","Renens","Switzerland"]
 title: "🔗 linkblog: mes pensées sur 'Des milliers de curieux se sont rendus à Echallens pour célébrer les 150 ans du LEB - rts.ch - Vaud'"
 ---
 Pendant mon séjour à Renens, je trouvais chanceux les moments où je voyais passer une rame LEB, et je regrette ne jamais avoir voyagé avec la compagnie.

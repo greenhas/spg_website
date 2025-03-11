@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2025-01-21T10:29:09-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️❤️ for The Bezzle (A Martin Hench Novel), by Cory Doctorow"
-tags: ["media","Communities","The Bezzle","Cory Doctorow","Red Team Blues","Radicalized (collection)","Radicalized"]
+tags: ["The Bezzle","Cory Doctorow","Red Team Blues","Radicalized (collection)","Radicalized"]
 media: ["book"]
 titles: ["The Bezzle"]
 creators: ["Cory Doctorow","Wil Wheaton"]

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-03-01T13:15:37-05:00
 title: "far-right Mormonism and the boundaries of Twitter hashtags"
-tags: ["macro","Work","online Mormonism","Mormon Twitter","Twitter","hashtags","DezNat","Mormon Social Science Association","SSSR","MSSA","BYU","Church Educational System","LGBTQ"]
+tags: ["online Mormonism","Mormon Twitter","Twitter","hashtags","DezNat","Mormon Social Science Association","SSSR","MSSA","BYU","Church Educational System","LGBTQ"]
 ---
 There are a couple of weeks before the deadline to submit abstracts for the Mormon Social Science Association's sessions at the 2024 meeting of the Society for the Scientific Study of Religion, so I've been filling some nooks and crannies of my busy work week by looking at some Twitter data. Last year, I [published](https://spencergreenhalgh.com/work/far-right-and-anti-feminist-influences-on-a-mormon-twitter-hashtag/) with my colleague Amy Chapman a qualitative look at the #DezNat Twitter hashtag, which blends Mormon orthodoxy with far-right and anti-feminist thinking. 
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-08-30T12:00:33-04:00
 title: "generative AI and the Honorable Harvest"
-tags: ["macro","Communities","settler colonialism","Robin Wall Kimmerer","Braiding Sweetgrass","Mormonism","generative AI","digital labor","consumerism","indigeneity","Honorable Harvest","Walkaway","anarchism"]
+tags: ["settler colonialism","Robin Wall Kimmerer","Braiding Sweetgrass","Mormonism","generative AI","digital labor","consumerism","indigeneity","Honorable Harvest","Walkaway","anarchism"]
 ---
 I come from [settler colonial](https://en.wikipedia.org/wiki/Settler_colonialism) stock and, more specifically, from a religious tradition that was (and still is!) pretty keen on imposing a particular identity on Indigenous peoples. I am the kind of person who really ought to be reading more Indigenous perspectives, but I'm also cautious about promoting those perspectives in my writing, lest I rely on a superficial, misguided understanding and then pat myself on the back for the great job I'm doing. 
 

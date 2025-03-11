@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-04-15T21:30:39-04:00
 title: "Ted Lasso and Easter hope"
-tags: ["macro","Communities","Ted Lasso","Easter","hope","resurrection","Wil Gafney","forgiveness"]
+tags: ["Ted Lasso","Easter","hope","resurrection","Wil Gafney","forgiveness"]
 ---
 Over the past five years, my belief in a literal resurrection has gone down, but (perhaps unexpectedly) my love for Easter has gone up. For my congregation's 2022 Easter service, I was invited to say contribute during a certain part of the service. I shared with the congregation that the resurrection is something that's hard for me to wrap my head around, but I figure that if I can try to muster the belief in the impossibility of the resurrection, I can have the belief that we can overcome racism, fix poverty, and solve other seemingly impossible tasks facing us. I think of Easter as a hopeful holiday, inviting us to have hope in even that which seems impossible to us. Even if the purported historical event Christians celebrate on Easter strains credulity, I think that kind of hope is worth celebrating.
 

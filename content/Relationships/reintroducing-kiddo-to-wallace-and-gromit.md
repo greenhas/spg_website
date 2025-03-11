@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-07-18T13:37:20-04:00
 title: "(re)introducing kiddo to Wallace and Gromit"
-tags: ["macro","Relationships","parenting","Wallace and Gromit","COVID-19","Minecraft"]
+tags: ["parenting","Wallace and Gromit","COVID-19","Minecraft"]
 ---
 
 When I was growing up, our family had a three-VHS set of the original *Wallace and Gromit* shorts, and while "Wallace and Gromit fan" was never at the forefront of my identity, I have always loved *The Wrong Trousers* and *A Close Shave*. Naturally, things that I loved as a kid are near the top of my list of things to introduce to kiddo. I showed them to her a couple of years ago—probably near the beginning of the pandemic—but she had no memory of them, so this weekend, I had the pleasure of reintroducing her to the series. Between Friday and Sunday, we watched all four of the shorts, starting with *The Wrong Trousers*, then *A Close Shave*, *A Grand Day Out*, and *A Matter of Loaf and Death*. 

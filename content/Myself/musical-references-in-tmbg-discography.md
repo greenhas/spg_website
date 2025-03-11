@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-08-29T14:02:19-04:00
 title: "musical references in TMBG discography"
-tags: ["macro","Myself","music","They Might Be Giants","TMBG","remix","remix culture"]
+tags: ["music","They Might Be Giants","TMBG","remix","remix culture"]
 ---
 
 Thanks to a recommendation from [Boing Boing](https://boingboing.net/2022/08/29/someone-documented-the-many-references-and-samples-in-they-might-be-giants-songs.html), I've spent part of this afternoon watching this amazing video cataloging "Every Music Reference & Sample in They Might Be Giants Songs": 

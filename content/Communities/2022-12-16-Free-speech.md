@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2022-12-16T12:18:33-05:00
 title: "🔗 linkblog: my thoughts on 'Elon Musk Is Taking Aim at Journalists. I’m One of Them.'"
-tags: ["link","Communities","Elon Musk","far right","free speech","Twitter","content moderation"]
+tags: ["Elon Musk","far right","free speech","Twitter","content moderation"]
 ---
 Free speech is genuinely important, but it's hard to take the ideal seriously when its advocates twist it to mean something specific and self-serving.  
  

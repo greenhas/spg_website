@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2021-11-25T10:17:10-05:00
 title: "🔗 linkblog: just finished 'Thanksgiving is a day of mourning for New England's Native American tribes : NPR'"
-tags: ["link","Communities","Thanksgiving","First Nations"]
+tags: ["Thanksgiving","First Nations"]
 ---
 Humbling read today.
  

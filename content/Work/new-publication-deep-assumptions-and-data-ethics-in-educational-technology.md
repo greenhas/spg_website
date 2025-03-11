@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-11-08T13:19:01-05:00
 title: "new publication: Deep assumptions and data ethics in educational technology"
-tags: ["macro","Work","EdTechBooks","edtech","ethics","data ethics","education","Stephanie Moore","Tonia Dousay","Royce Kimmons"]
+tags: ["EdTechBooks","edtech","ethics","data ethics","education","Stephanie Moore","Tonia Dousay","Royce Kimmons"]
 ---
 When I learned that Stephanie Moore and Tonia Dousay were editing a volume on ethics in educational technology, I jumped at the chance to write something on data ethics. Stephanie and Tonia's book is now published on Royce Kimmons's open access *EdTechBooks* platform as *[Applied Ethics for Instructional Design and Technology](https://edtechbooks.org/applied_ethics_idt)*, and my chapter is available alongside six others on other subjects related to ethics and educational technology. Here's a link to [the online version](https://edtechbooks.org/applied_ethics_idt/edtech_data_ethics), and I have [a PDF archived](https://spencergreenhalgh.com/Greenhalgh_2023_data_ethics.pdf) on my website.
 

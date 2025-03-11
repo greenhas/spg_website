@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-03-05T13:34:59-05:00
 title: "on the SEC and conflating a church with God"
-tags: ["macro","Communities","The Church of Jesus Christ of Latter-day Saints","BYU"]
+tags: ["The Church of Jesus Christ of Latter-day Saints","BYU"]
 ---
 On January 24, 2023, Elder Kevin S. Hamilton of The Church of Jesus Christ of Latter-day Saints gave [a speech at BYU](https://speeches.byu.edu/talks/kevin-s-hamilton/why-a-church/) where he made the following comments: 
 

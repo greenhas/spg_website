@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-09-15T15:40:14-04:00
 title: "sticking with the Book of Mormon"
-tags: ["macro","Communities","The Church of Jesus Christ of Latter-day Saints","Mormonism","Community of Christ","Book of Mormon","Blair Hodges","Fireside with Blair Hodges","Vanessa Zoltan","Harry Potter and the Sacred Text","Jane Eyre","podcasts","rereading the Book of Mormon project"]
+tags: ["The Church of Jesus Christ of Latter-day Saints","Mormonism","Community of Christ","Book of Mormon","Blair Hodges","Fireside with Blair Hodges","Vanessa Zoltan","Harry Potter and the Sacred Text","Jane Eyre","podcasts","rereading the Book of Mormon project"]
 ---
 
 I am a big fan of the Book of Mormon. It's one of the reasons that I stuck with Community of Christ when transitioning out of The Church of Jesus Christ of Latter-day Saints. I know the book is problematic, and I doubt its historicity, but I'm still an advocate for making some religious meaning out of it. 

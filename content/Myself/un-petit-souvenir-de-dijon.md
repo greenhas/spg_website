@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-07-16T12:48:49-04:00
 title: "un petit souvenir de Dijon"
-tags: ["macro","Myself","Dijon"]
+tags: ["Dijon"]
 ---
 J'ai déjà [écrit](https://spencergreenhalgh.com/myself/d%C3%A9couverte-de-deux-cha%C3%AEnes-youtube/) cette semaine sur mon amour pour Dijon, et c'est peut-être pour ça qu'un souvenir précis me vient à l'esprit ce matin. 
 

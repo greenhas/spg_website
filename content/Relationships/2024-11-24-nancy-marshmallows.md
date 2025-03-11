@@ -1,6 +1,7 @@
 ---
+type: ["photo"]
 date: 2024-11-24T07:51:27-05:00
-tags: ["photo","Relationships","Thanksgiving","Nancy","marshmallows"]
+tags: ["Thanksgiving","Nancy","marshmallows"]
 featured_image: "/2024-11-24-nancy-marshmallows.JPEG"
 ---
 Nancy is giving me the courage to finally confess that I do not really like the sweet-potatoes-slathered-in-marshmallows dish.

@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2025-01-02T13:46:06+01:00
 title: "📚 bookblog: ❤️❤️🖤🖤🖤 pour XIII Tome 7 : La nuit du 3 août, par Vance et Van Hamme"
-tags: ["media","Myself","XIII","William Vance","Jean Van Hamme","sexism","racism","bd","comics"]
+tags: ["XIII","William Vance","Jean Van Hamme","sexism","racism","bd","comics"]
 media: ["book","comic","bande dessinée"]
 titles: ["La nuit du 3 août"]
 creators: ["William Vance","Jean Van Hamme"]

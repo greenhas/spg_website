@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2022-04-16T07:35:26-04:00
 title: "🔗 linkblog: my thoughts on 'When Vladimir Putin joined George W. Bush in Crawford, Texas : NPR'"
-tags: ["link","Communities","Vladimir Putin","Russia","George W. Bush"]
+tags: ["Vladimir Putin","Russia","George W. Bush"]
 ---
 Good article on our past optimism for Putin.
  

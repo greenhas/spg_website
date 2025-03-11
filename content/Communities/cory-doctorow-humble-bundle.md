@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-03-04T13:15:53-05:00
 title: "📚 spreading the word about the Cory Doctorow Humble Bundle 📚"
-tags: ["macro","Communities","Cory Doctorow","Humble Bundle","EFF","ICT 202","The Lost Cause","DRM","Red Team Blues","Poesy the Monster Slayer","Radicalized","Unauthorized Bread","Walkaway","Little Brother series","Little Brother","Homeland","Attack Surface"]
+tags: ["Cory Doctorow","Humble Bundle","EFF","ICT 202","The Lost Cause","DRM","Red Team Blues","Poesy the Monster Slayer","Radicalized","Unauthorized Bread","Walkaway","Little Brother series","Little Brother","Homeland","Attack Surface"]
 ---
 Cory Doctorow is one of my favorite authors, and I've also (mostly) appreciated the work of Humble Bundle over the past decade. When I learned this weekend that there's an [ongoing bundle](https://www.humblebundle.com/books/cory-doctorow-novel-collection-tor-books-books) of Doctorow's fiction, I was ecstatic. The only thing that I was disappointed about is that I've already bought so many of these titles... however, that still wasn't enough to stop me from buying all 18 items (it helps that while I own many of these already, most of the ones I own are in formats rather than epub, so now I'm a multimodal owner). As a plus, this bundle benefits the Electronic Frontier Foundation, a great organization that Doctorow has done a lot of work for.
 

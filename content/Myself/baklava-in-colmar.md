@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-10-30T12:48:41-04:00
 title: "kebab and baklava in Colmar"
-tags: ["macro","Myself","Colmar","Turkey","baklava","kebab","Latter-day Saint missionaries"]
+tags: ["Colmar","Turkey","baklava","kebab","Latter-day Saint missionaries"]
 ---
 A few months ago, my father-in-law and two of my brothers-in-law visited Turkey for a week and had a great time. They brought us home an enormous box of Turkish baklava as an edible souvenir, and I spent **a lot** of September nibbling away at that. It was delicious, and I was really grateful for the gift.
 

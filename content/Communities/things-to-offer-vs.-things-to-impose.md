@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-08-06T20:15:06-04:00
 title: "things to offer vs. things to impose"
-tags: ["macro","Communities","Community of Christ","First Vision","The Church of Jesus Christ of Latter-day Saints","Joseph Smith Jr.","Dialogue","faith transition"]
+tags: ["Community of Christ","First Vision","The Church of Jesus Christ of Latter-day Saints","Joseph Smith Jr.","Dialogue","faith transition"]
 ---
 A friend of mine invited me to attend a Community of Christ worship service tonight, a brief reference during which got me thinking about what Community of Christ folks call Joseph Smith's "grove experience" but that I grew up referring to as his "First Vision." This got me thinking (and reading) about the different accounts of this experience, including Smith's 1832 account, [where he writes](https://www.josephsmithpapers.org/paper-summary/letterbook-1/9): 
 

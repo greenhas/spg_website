@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-08-30T11:04:57-04:00
 title: "Apple and artificial restrictions on file syncing"
-tags: ["macro","Myself","music","Apple","DRM","macOS","cloud storage","COVID-19","music streaming","streaming","streaming services","internet radio","iCloud","Apple Music","Cory Doctorow"]
+tags: ["music","Apple","DRM","macOS","cloud storage","COVID-19","music streaming","streaming","streaming services","internet radio","iCloud","Apple Music","Cory Doctorow"]
 ---
 A week ago today, my MacBook Pro suddenly stopped being able to communicate with its SSD. I'm not entirely sure what happened, but I spent most of my Tuesday afternoon wiping everything from the drive and reinstalling macOS so that I could get back to work. While I haven't kept a physical backup for a couple of years (I accidentally fried mine when moving back into my campus office in Fall 2020), I have all of my most important documents scattered between three cloud services, so this wasn't too painful of a process.
 

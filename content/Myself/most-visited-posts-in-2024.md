@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-12-31T19:50:08+01:00
 title: "most-visited posts in 2024"
-tags: ["macro","Myself","analytics","blogging","Kirtland Temple","POSSE","Hugo","Siri Shortcuts","Hypothesis"]
+tags: ["analytics","blogging","Kirtland Temple","POSSE","Hugo","Siri Shortcuts","Hypothesis"]
 ---
 
 I started using the static site-friendly, largely non-creepy Tinylytics service in 2023, and a few weeks ago, I finally forked over the money for the paid version of the service. [EDIT: I've since cancelled my subscription to the service because I'm no longer sure it aligns with my values.] This year, I've become skeptical enough of quantification *as a concept* that I feel vaguely guilty about tracking which of my posts get how many views, but I'm also a researcher who understands the value of quantification, and it's also, well, validating to see which of my posts get traction. That said, I still know not to put too much faith in these numbers—for example, I got a very abnormal 537 hits to my website from Finland on October 24th that I just can't figure out. 

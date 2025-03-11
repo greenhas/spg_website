@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-09-15T12:34:40-04:00
 title: "apprendre (enfin) les paroles des chansons franco-canadiennes"
-tags: ["macro","Myself","Christophe Willem","Serge Gainsbourg","music","Les Cowboys fringants","Mes aïeux","Le Roi Soleil","Les Trois Accords"]
+tags: ["Christophe Willem","Serge Gainsbourg","music","Les Cowboys fringants","Mes aïeux","Le Roi Soleil","Les Trois Accords"]
 ---
 J'ai commencé à écouter la musique francophone il y a onze ans. Avant ça, j'avais quelques albums (*Caféine* de Christophe Willem et la bande originale de *Le Roi Soleil*), et je connaissais Serge Gainsbourg, mais selon mes souvenirs, j'ai du attendre janvier 2011 pour me foncer vraiment dans la musique en français. 
 

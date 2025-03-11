@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-09-15T13:15:56-04:00
 title: "James vs. the Trump-Vance ticket: An orphaned, remixed sermon"
-tags: ["macro","Communities","priesthood","Donald Trump","JD Vance","2024 elections","hell","heaven","Sharing in Community of Christ","French","Andy Beshear","Kentucky","COVID-19","homophobia","queerphobia","LGBTQ","Epiphany"]
+tags: ["priesthood","Donald Trump","JD Vance","2024 elections","hell","heaven","Sharing in Community of Christ","French","Andy Beshear","Kentucky","COVID-19","homophobia","queerphobia","LGBTQ","Epiphany"]
 ---
 
 After being [ordained](https://spencergreenhalgh.com/communities/giving-ordination-another-go/) earlier this summer, I was added to my home congregation's preaching rotation. Today was supposed to be the day that I gave my first sermon there, but once I started to make plans to attend a [family funeral](https://spencergreenhalgh.com/relationships/13-family-conversations-from-before-during-and-after-a-graveside-service/), I reached out to ask if someone could sub for me. Before getting the bad news, though, I'd already written most of the sermon, and so I figured I should post the text here so that I get *some* use out of it. That said, I don't want to post the text as my last draft had it—while reading the news today, I came across a story about the 2024 U.S. presidential race that would have made a better addition to my sermon than what I had written at the time, and I want to think about that connection.

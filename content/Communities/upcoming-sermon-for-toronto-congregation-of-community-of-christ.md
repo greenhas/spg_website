@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-07-04T20:25:03-04:00
 title: "upcoming sermon for Toronto Congregation of Community of Christ"
-tags: ["macro","Communities","Community of Christ","Beyond the Walls","Samaritan","Parable of the Samaritan","COVID-19"]
+tags: ["Community of Christ","Beyond the Walls","Samaritan","Parable of the Samaritan","COVID-19"]
 ---
 Next Sunday, I'll be giving the sermon for the Community of Christ Toronto Congregation's *Beyond the Walls* inclusive online congregation, speaking on the Parable of the Samaritan (more often called the Parable of the Good Samaritan, but my sermon will explain why I'm going for that name instead). I had been planning to post about the sermon after the fact, but the links for the YouTube live events went up today, so I thought I might share them ahead of time. 
 

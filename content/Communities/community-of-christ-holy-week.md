@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-03-26T15:22:07-04:00
 title: "Community of Christ's Holy Week"
-tags: ["macro","Communities","Lent","Advent","Easter","Holy Week","liturgical calendar","liturgical year","Community of Christ","Kirtland Temple","resurrection","Grant McMurray"]
+tags: ["Lent","Advent","Easter","Holy Week","liturgical calendar","liturgical year","Community of Christ","Kirtland Temple","resurrection","Grant McMurray"]
 ---
 I am not great at observing the different seasons of the liturgical year. A good friend of mine once responded to this complaint with "Welcome to living a liturgical year life," so I gather that to a certain extent, this is how everyone feels about it. It always feels a little frustrating to me, though, because I love the *idea* of the liturgical year. 
 

@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2024-09-06T14:25:54-04:00
-tags: ["link","Communities","Mike Masnick","libraries","Internet Archive","copyright","intellectual property","alienation of ownership"]
+tags: ["Mike Masnick","libraries","Internet Archive","copyright","intellectual property","alienation of ownership"]
 title: "🔗 linkblog: my thoughts on 'Second Circuit Says Libraries Disincentivize Authors To Write Books By Lending Them For Free'"
 ---
 Deeply appreciate Masnick's writeup. I don't know the ins and outs of the law, and that's given me some pause in being upset about the ruling. To see a lawyer find fault with so much gives me greater confidence in my own frustration.

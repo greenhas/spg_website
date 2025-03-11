@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-11-19T09:51:16-05:00
 title: "personal and theological reflections after a minor bike wreck"
-tags: ["macro","Communities","bike commuting","mental health","counseling","presence","Naomi Alderman","The Future","bike commuting","mindfulness","King Benjamin","Book of Mormon","non-theism","2024 elections"]
+tags: ["bike commuting","mental health","counseling","presence","Naomi Alderman","The Future","bike commuting","mindfulness","King Benjamin","Book of Mormon","non-theism","2024 elections"]
 ---
 After six years and over 6,000 miles[^1] of bike commuting without any real incident[^2], I took a corner too fast this morning, hydroplaned, and slid a few feet on the road before picking myself up to get back to the sidewalk and out of the way of the cars whose path I was blocking. It wasn't a huge wreck: I didn't hit my head, my bike seems to be fine[^3], and three scrapes (one bigger than others) and some torn-up clothes are the worst of the damage. I rode back home, cancelled class, cleaned myself up, and am figuring out how to adjust my work day.[^4]
 

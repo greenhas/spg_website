@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2025-01-05T13:06:38-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Saga (Volume 5), by Fiona Staples and Brian K. Vaughan"
-tags: ["media","Myself","Saga","Fiona Staples","Brian K. Vaughan"]
+tags: ["Saga","Fiona Staples","Brian K. Vaughan"]
 media: ["book","comic"]
 titles: [""]
 creators: ["Fiona Staples","Brian K. Vaughan"]

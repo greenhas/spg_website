@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-12-14T11:47:31-05:00
 title: "on the arbitrary nature of grades"
-tags: ["macro","Work","grading","subjectivity","objectivity","quantification","ungrading"]
+tags: ["grading","subjectivity","objectivity","quantification","ungrading"]
 ---
 As often happens at the end of a semester, I've been spending a lot of time thinking about grades: What they mean, what purpose they serve, and how to best assign them. In thinking about this, I'm also thinking about a comment that a number of my colleagues put on each class syllabus: something to the effect of "I don't *give* grades, you *earn* them." These colleagues are gifted teachers whose examples I strive to follow, and I appreciate the sentiment behind their statement, but it's also always struck me as oversimplifying what it means to grade. I don't like the suggestion that grades are objective, straightforward representations of what a student has been up to in class.
 

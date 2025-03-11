@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2025-02-11T09:35:24-05:00
 title: "the purpose of research isn't to fund universities"
-tags: ["macro","Work","NIH","DOGE","research","grants","Donald Trump","Elon Musk"]
+tags: ["NIH","DOGE","research","grants","Donald Trump","Elon Musk"]
 ---
 My stress and anxiety levels have been high ever since the second Trump administration began and immediately started taking an axe to all sorts of things that one should not take an axe to. For admittedly selfish reasons, though, I've been particularly anxious since Friday, when [the NIH announced](https://arstechnica.com/science/2025/02/new-nih-policy-will-slash-support-money-to-research-universities/) that it was dramatically cutting its support to universities (and other research institutions) in the form of indirect costs. I don't do NIH-funded work, but we're a very medically focused campus, and there's no way that the $40 million that [the University estimates](https://pres.uky.edu/news/potential-impact-federal-research-cuts) we could lose over the next year isn't going to have ripple effects across campus (not to mention the fact that my colleagues in the College of Communication and Information regularly look to the NIH as a source of funding health communication research). There are much more vulnerable populations currently being targeted by the Trump administration, and their concerns are more salient than mine are right now, but this is one of the administration's decisions that's hit closest to home, and I've been thinking a lot about it recently.
 

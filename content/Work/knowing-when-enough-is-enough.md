@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-07-27T12:01:13-04:00
 title: "knowing when enough is enough"
-tags: ["macro","Work","tenure","tenure application","French teaching","BYU","University of Kentucky","tenure and promotion"]
+tags: ["tenure","tenure application","French teaching","BYU","University of Kentucky","tenure and promotion"]
 ---
 The past couple of days, I've been thinking about a memory from my junior year of college. It was the end of a semester, and on top of all of my own finals, I was teaching FREN 102 for the first time, so my end-of-semester was busier than it had been in previous years. I don't remember all of this busy time, but I do remember specific parts of taking my online FREN 362 (French Civilization II) final while sitting in the office shared by instructors from the Department of French and Italian and the Department of Scandinavian Studies. I had either left this final for last or was trying to get it out of the way first—either way, I specifically remember feeling as I was navigating through different pages in the LMS that I had done enough work—in this class generally and for the final in particular—and that there were other things that needed my time and effort more. It was time to submit and to move on.
 

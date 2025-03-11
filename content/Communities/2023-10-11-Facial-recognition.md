@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2023-10-11T06:41:03-04:00
-tags: ["link","Communities","facial recognition","Clearview","Pimeyes","privacy","surveillance"]
+tags: ["facial recognition","Clearview","Pimeyes","privacy","surveillance"]
 title: "🔗 linkblog: my thoughts on 'Why a search engine that scans your face is dangerous : NPR'"
 ---
 Facial recognition is the worst.

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-07-15T17:54:00-04:00
 title: "polygamy and priorities"
-tags: ["macro","Communities","polygamy","Autobiography of Elder Charles Derry","Charles Derry","Day One","journaling","Michael Quinn","Charles Harrell","Brigham Young","Joseph F. Smith","This is My Doctrine","Mormon Hierarchy: Extensions of Power","New Testament","Book of Mormon","Doctrine and Covenants","Emma Smith","queerphobia","LGBTQ"]
+tags: ["polygamy","Autobiography of Elder Charles Derry","Charles Derry","Day One","journaling","Michael Quinn","Charles Harrell","Brigham Young","Joseph F. Smith","This is My Doctrine","Mormon Hierarchy: Extensions of Power","New Testament","Book of Mormon","Doctrine and Covenants","Emma Smith","queerphobia","LGBTQ"]
 ---
 Growing up Latter-day Saint, I knew that polygamy was part of our past, but I was so defensive about it not being part of our present that I often failed to understand just how important it was to my ancestors (both literal and figurative). About a month ago, I stumbled on a passage in RLDS missionary Charles Derry's autobiography (which I [recently finished](https://spencergreenhalgh.com/communities/2023-07-04-this-is/)) that reminded me that polygamy was a huge prority for 19th century Latter-day Saints: 
 

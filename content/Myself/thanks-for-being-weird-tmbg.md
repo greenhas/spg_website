@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-04-14T12:30:13-04:00
 title: "thanks for being weird, TMBG"
-tags: ["macro","Myself","music","Mormonism","They Might Be Giants","The Aquabats","Public Service Broadcasting","Neil Cicierega","Indochine","internet radio","Stromae","Les Cowboys Fringants"]
+tags: ["music","Mormonism","They Might Be Giants","The Aquabats","Public Service Broadcasting","Neil Cicierega","Indochine","internet radio","Stromae","Les Cowboys Fringants"]
 ---
 One unexpected thing that I owe to my Mormon upbringing is my love for the weird band [They Might Be Giants](https://en.wikipedia.org/wiki/They_Might_Be_Giants). That's not to say that there's something distinctly Mormon about TMBG in the way that there is something distinctly Mormon about the existential fear of not doing things correct way that [I also picked up](https://spencergreenhalgh.com/communities/an-ultimate-sense-of-fomo-and-joining-community-of-christ/) during these years. Rather, it's just the fact that I learned about TMBG—more specifically, their famous cover of *Istanbul (Not Constantinople)*—from Craig Wilson, a youth leader in my local congregation. This is my main memory of Wilson, who moved away from Northern Kentucky shortly after the conversation in his car where he mentioned the song to me. The only time I've seen him since was at my wedding in Utah, about a decade later. I hadn't even realized that my parents had invited him and was pleasantly surprised that he was there.
 

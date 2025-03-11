@@ -1,7 +1,8 @@
 ---
+type: ["media"]
 layout: radio
 date: 2024-05-07T19:38:12-04:00
-tags: ["media","radio","Myself","John Finnemore's Souvenir Programme"]
+tags: ["Myself","John Finnemore's Souvenir Programme"]
 title: "🎙️ radioblog: ❤️❤️❤️🖤🖤 for John Finnemore's Souvenir Programme (Series 8)"
 media: ["radio"]
 creators: ["John Finnemore"]

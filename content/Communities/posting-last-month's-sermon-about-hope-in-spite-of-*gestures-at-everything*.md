@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2025-01-19T07:52:29-05:00
 title: "posting last month's sermon about hope in spite of *gestures at everything*"
-tags: ["macro","Communities","Charles Neff","Paul","Second Coming","Advent","hope","Thomas Reese","Palestine","Guy Delisle","Chroniques de Jérusalem","Charles Neff","incarnation","2024 elections","Richard Rohr","POSSE"]
+tags: ["Charles Neff","Paul","Second Coming","Advent","hope","Thomas Reese","Palestine","Guy Delisle","Chroniques de Jérusalem","Charles Neff","incarnation","2024 elections","Richard Rohr","POSSE"]
 ---
 
 I... didn't mean to wait until the day before the Inauguration to post the text of my sermon on hope in the face of despair. The weekend I gave the sermon was also the weekend of a funeral and near a very busy end of semester, so blogging was on the backburner. Even if I had had more time, my website-to-social media setup was a bit borked and I'm [just vain enough](https://spencergreenhalgh.com/myself/2025-01-18-i-keep/) to not post things if I think my audience is going to be diminished. I finally had some time yesterday to figure out what was going on and fix it, so now I'm trying to get back into regular posting. 

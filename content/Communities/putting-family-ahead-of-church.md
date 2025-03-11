@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-08-23T08:20:15-04:00
 title: "putting family ahead of church"
-tags: ["macro","Communities","family","priesthood","Community of Christ","Mormonism","Jana Riess"]
+tags: ["family","priesthood","Community of Christ","Mormonism","Jana Riess"]
 ---
 
 Earlier this month, I was ordained an elder in Community of Christ, an event I anticipated [in an earlier post](https://spencergreenhalgh.com/communities/giving-ordination-another-go/). A couple of weeks later, I carried out some of my first duties as a member of the denomination's priesthood by performing the confirmation for a friend of mine who was joining Community of Christ, also from a Latter-day Saint background.

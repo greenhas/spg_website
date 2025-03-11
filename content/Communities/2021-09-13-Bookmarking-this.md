@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2021-09-13T12:48:23-04:00
 title: "🔗 linkblog: just read 'Secret Facebook program reportedly let celebrities avoid moderation - The Verge'"
-tags: ["link","Communities","Facebook","content management","content moderation"]
+tags: ["Facebook","content management","content moderation"]
 ---
 Bookmarking this for my content management class.
  

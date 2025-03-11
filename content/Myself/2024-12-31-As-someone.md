@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2024-12-31T19:25:41+01:00
-tags: ["link","Myself","Tintin","comics","bd","anarchism","public domain","copyright"]
+tags: ["Tintin","comics","bd","anarchism","public domain","copyright"]
 title: "🔗 linkblog: my thoughts on 'Tintin and the fascists'"
 ---
 As someone who once owned *Tintin au pays des Soviets* (but also sold it more out of distaste of the art than the politics) and who is currently rereading a less-but-still-problematic classic Belgian *bande dessinée*, I really appreciated these reflections.

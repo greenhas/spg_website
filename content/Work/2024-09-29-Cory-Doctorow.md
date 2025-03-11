@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2024-09-29T20:50:24-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️❤️ for Vigilant, by Cory Doctorow"
-tags: ["media","Work","Vigilant","Cory Doctorow","Proctorio","surveillance","privacy","ed tech","WannaCry"]
+tags: ["Vigilant","Cory Doctorow","Proctorio","surveillance","privacy","ed tech","WannaCry"]
 media: ["book"]
 titles: ["Vigilant"]
 creators: ["Cory Doctorow"]

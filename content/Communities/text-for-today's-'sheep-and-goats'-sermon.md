@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-07-28T14:23:33-04:00
 title: "text for today's 'Sheep and Goats' sermon"
-tags: ["macro","Communities","Beyond the Walls","Community of Christ","Sheep and Goats","La réinvention du nom de Dieu","Gérard Siegwalt","The Bezzle","Cory Doctorow","Nadia Bolz-Weber","Accidental Saints","Charles Neff","incarnation"]
+tags: ["Beyond the Walls","Community of Christ","Sheep and Goats","La réinvention du nom de Dieu","Gérard Siegwalt","The Bezzle","Cory Doctorow","Nadia Bolz-Weber","Accidental Saints","Charles Neff","incarnation"]
 ---
 
 Earlier today, I had the pleasure of providing the sermon for the Toronto Community of Christ congregation's *Beyond the Walls* online ministry. Like when [I preached last summer](https://spencergreenhalgh.com/communities/text-for-todays-toronto-congregation-sermon/), the congregation is working its way through the parables associated with a particular gospel (Luke last year, Matthew this year), and I preached on the parable of the Sheep and the Goats. 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-12-02T08:13:08-05:00
 title: "quoted in EducationWeek about 'Gas' social media app"
-tags: ["macro","Work","media appearances","Gas","platform perspective","EducationWeek","Josh Rosenberg","digital labor","José Van Dijck","business model","ClassDojo"]
+tags: ["media appearances","Gas","platform perspective","EducationWeek","Josh Rosenberg","digital labor","José Van Dijck","business model","ClassDojo"]
 ---
 A few weeks ago, thanks to a recommendation from my colleague and friend Josh Rosenberg, I was contacted by Alyson Klein at EducationWeek to talk about the "Gas" social media app that's become popular among high schoolers lately. Klein's [article](https://www.edweek.org/technology/gas-is-the-latest-app-to-catch-fire-with-kids-what-you-need-to-know-about-it/2022/12) was published last night, and I was happy to see that I'd been quoted in the article. 
 

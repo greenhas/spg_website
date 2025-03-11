@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-11-10T09:02:14-05:00
 title: "Siri Shortcuts for updating Habitica from Apple Watch"
-tags: ["macro","Myself","Siri Shortcuts","Hypothesis","Apple Watch","API","Habitica"]
+tags: ["Siri Shortcuts","Hypothesis","Apple Watch","API","Habitica"]
 ---
 Back in July, I [shared](https://spencergreenhalgh.com/myself/2023-07-26-using-siri/) that I'd figured out how to use the Habitica API to create a Siri Shortcut for updating Habitica from my Apple Watch. A few weeks ago, Hypothesis user [cormacauty](https://hypothes.is/users/cormacauty) left [a comment](https://hypothes.is/a/HoMv5nHXEe6pJl8YAexgBw) on that post asking for more information about how I'd done that.
 

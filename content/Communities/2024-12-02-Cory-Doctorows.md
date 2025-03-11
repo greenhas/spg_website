@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2024-12-02T07:04:36-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️❤️ for Survival of the Richest: Escape Fantasies of the Tech Billionaires, by Douglas Rushkoff"
-tags: ["media","Communities","Survival of the Richest","Douglas Rushkoff","audiobooks","Cory Doctorow","The Future","Naomi Alderman","mutual aid","empiricism"]
+tags: ["Survival of the Richest","Douglas Rushkoff","audiobooks","Cory Doctorow","The Future","Naomi Alderman","mutual aid","empiricism"]
 media: ["book","audiobook"]
 titles: ["Survival of the Richest: Escape Fantasies of the Tech Billionaires"]
 creators: ["Douglas Rushkoff"]

@@ -1,7 +1,8 @@
 ---
+type: ["media"]
 layout: radio
 date: 2024-04-15T13:28:32-04:00
-tags: ["media","radio","Myself","Cabin Pressure","Benedict Cumberbatch","John Finnemore"]
+tags: ["Myself","Cabin Pressure","Benedict Cumberbatch","John Finnemore"]
 title: "🎙️ radioblog: ❤️❤️❤️❤️❤️ for Cabin Pressure (Series 3)"
 media: ["radio"]
 creators: ["John Finnemore"]

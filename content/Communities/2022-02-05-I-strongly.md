@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2022-02-05T07:59:57-05:00
 title: "🔗 linkblog: just finished 'Ukraine Gave Up Nuclear Weapons 30 Years Ago. Today There Are Regrets. - The New York Times'"
-tags: ["link","Communities","nuclear weapons","Ukraine"]
+tags: ["nuclear weapons","Ukraine"]
 ---
 I strongly believe in nuclear disarmament, but it's still hard not to have some sympathy for this point of view.
  

@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2023-07-02T14:22:30-04:00
 title: "📚 bookblog: ❤️❤️❤️🖤🖤 for Blacksad, by Juan Díaz Canales and Juanjo Guarnido"
-tags: ["media","Myself","Blacksad","BD","comics","Juan Díaz Canales","Juanjo Guarnido","racism","XIII"]
+tags: ["Blacksad","BD","comics","Juan Díaz Canales","Juanjo Guarnido","racism","XIII"]
 media: ["book","comic","bande dessinée"]
 titles: ["Blacksad"]
 creators: ["Juan Díaz Canales","Juanjo Guarnido"]

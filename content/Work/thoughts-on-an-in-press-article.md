@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-07-15T11:16:13-04:00
 title: "thoughts on an in-press article—and on names and legitimacy in Mormonism"
-tags: ["macro","Work","Mormon Studies","Jana Riess","research","domain names","Mormon fundamentalism","The Church of Jesus Christ of Latter-day Saints","Mormonism","legitimacy","Ryan Cragun","Russell Nelson","Dallin Oaks","Bloggernacle","exclusivism","Community of Christ","Mark Scherer","Smith-Rigdon movement"]
+tags: ["Mormon Studies","Jana Riess","research","domain names","Mormon fundamentalism","The Church of Jesus Christ of Latter-day Saints","Mormonism","legitimacy","Ryan Cragun","Russell Nelson","Dallin Oaks","Bloggernacle","exclusivism","Community of Christ","Mark Scherer","Smith-Rigdon movement"]
 ---
 One of the highlights of the summer has been getting an article accepted in *[Dialogue: A Journal of Mormon Thought](https://www.dialoguejournal.com/)*. This article takes as a starting point Cragun and Nielsen's [argument](https://scholarlypublishingcollective.org/uip/dial/article/42/1/65/249839/Fighting-over-Mormon-Media-Coverage-of-the-FLDS) (also published in *Dialogue*) that:
 

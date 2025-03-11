@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-06-21T13:21:13-04:00
 title: "the pain of unfulfilled hope"
-tags: ["macro","Communities","hope","Wil Gafney","infertility","miracles","intervening God","liturgical calendar"]
+tags: ["hope","Wil Gafney","infertility","miracles","intervening God","liturgical calendar"]
 ---
 
 Wil Gafney and her *Women's Lectionary for the Whole Church° [continue](https://spencergreenhalgh.com/tags/wil-gafney/) to be a source of inspiration for me. For the past two weeks, her readings for the relevant Sundays of the season of Ordinary Time in the Christian liturgical year have begun with Samuel's miraculous birth to Hannah. I've just now completed the reading for Proper 6 reading, in which Hannah's pleas for a child despite her seeming infertility are answered. In reading Gafney's commentary on the passage, I deeply appreciated these lines:

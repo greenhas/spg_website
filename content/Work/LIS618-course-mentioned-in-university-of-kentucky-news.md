@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-08-04T08:49:39-04:00
 title: "LIS 618 course mentioned in University of Kentucky news"
-tags: ["macro","Work","LIS 618","games","gamification","teaching","UKnow","University of Kentucky","LIS","media appearances"]
+tags: ["LIS 618","games","gamification","teaching","UKnow","University of Kentucky","LIS","media appearances"]
 ---
 I love hearing from former students about the great and interesting things that they're up to—and especially when something they learned in one of my classes helped them along the way. In my experience, former students who are up to great and interesting things would often be doing those things whether or not they had taken one of my classes, but I still appreciate feeling like my teaching contributed in some small way.
 

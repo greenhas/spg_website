@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-04-26T13:08:08-04:00
 title: "merci Karl, merci Melissa"
-tags: ["macro","Myself","Karl Tremblay","Les cowboys fringants"]
+tags: ["Karl Tremblay","Les cowboys fringants"]
 ---
 Lundi matin, une amie et une collègue à moi est décédee bien trop jeune suite à un cancer. Ce n’est que quelques jours plus tard que j’ai appris l’existence du nouvel album des Cowboys fringants, un album posthume de Karl Tremblay qui lui aussi est décédée bien trop jeune suite à un cancer.
 

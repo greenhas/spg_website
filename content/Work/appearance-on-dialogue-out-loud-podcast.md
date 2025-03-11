@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-06-20T21:20:22-04:00
 title: "appearance on Dialogue Out Loud podcast"
-tags: ["macro","Work","Taylor Petrey","Mormon Studies","Dialogue journal","media appearances","research","technology"]
+tags: ["Taylor Petrey","Mormon Studies","Dialogue journal","media appearances","research","technology"]
 ---
 One of my most recent articles—a [piece](https://spencergreenhalgh.com/work/new-publication-technology-naming-and-legitimacy-in-the-latter-day-saint-tradition/) on technology, naming, and legitimacy in the Latter-day Saint tradition—was published in *Dialogue: A Journal of Mormon Thought*. Publishing in *Dialogue* has been a wonderful opportunity. It's a niche journal, so it may never reach the breadth of audience that I usually aim for in publishing. However, that niche focus has also come with a number of benefits. I want to write more about this soon, but the purpose of this post is just to draw attention to one of these benefits: the in-house podcast(s) produced by the *Dialogue* team. 
 

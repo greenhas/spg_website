@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-12-14T16:48:38-05:00
 title: "publication copyright and reprinting consent"
-tags: ["macro","Work","publishing","research","copyright","intellectual property","academic publishing"]
+tags: ["publishing","research","copyright","intellectual property","academic publishing"]
 ---
 Ben has been one of my best students over the past 5.5 years. He was a non-traditional student who flunked out of UK decades ago, went on to be a successful small business owner elsewhere in the country, and then leapt at the chance to come back to UK through an online degree completion program. As part of that program, he took one of the classes I was teaching at the time, which counted toward general education credit. Since then, he's kept me in the loop on how things are going: He sent me an email to let me know when he graduated, we talked over the course of his MBA, and when he recently decided to start a PhD in his field of work, he wrote a letter to the university president, thanking the university for the chance to come back to school (and, generously, mentioning me by name in the letter).
 

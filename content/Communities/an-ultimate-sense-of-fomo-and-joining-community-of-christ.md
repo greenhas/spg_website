@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-06-06T11:30:00-04:00
 title: "an 'ultimate sense of FOMO' and joining Community of Christ"
-tags: ["macro","Communities","faith transition","Community of Christ","Russell Nelson","context collapse","The Church of Jesus Christ of Latter-day Saints","Mormonism","COVID-19","perfectionism","Andrew Teal","Jeffrey Holland","grace","grace and generosity","feelings of failure"]
+tags: ["faith transition","Community of Christ","Russell Nelson","context collapse","The Church of Jesus Christ of Latter-day Saints","Mormonism","COVID-19","perfectionism","Andrew Teal","Jeffrey Holland","grace","grace and generosity","feelings of failure"]
 ---
 
 Over the past several weeks, I've been putting a lot of work into adjusting my online presence, a project that I expect to last through most of the summer. In dividing my website into distinct subareas and pivoting from a single Twitter account to a number of Mastodon accounts, I'm trying to do something about the context collapse that's been keeping me from sharing some of the big things going on in my life lately. 

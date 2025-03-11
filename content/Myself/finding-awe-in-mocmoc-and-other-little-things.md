@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-09-18T13:01:41-04:00
 title: "finding awe in MocMoc and other little things"
-tags: ["macro","Myself","Harry Potter and the Sacred Text","Gare à vous","Radio Télévision Suisse","Vanessa Zoltan","awe","hope","existential dread","YouTube","trains","Urban Traveler","MocMoc"]
+tags: ["Harry Potter and the Sacred Text","Gare à vous","Radio Télévision Suisse","Vanessa Zoltan","awe","hope","existential dread","YouTube","trains","Urban Traveler","MocMoc"]
 ---
 Yesterday, two podcasts that I listened to while doing work around the house lined up in such a perfect way that I wanted to write down my memory of the moment. First, because I was [recently reminded](https://spencergreenhalgh.com/communities/sticking-with-the-book-of-mormon/) of the fantastic podcast *Harry Potter and the Sacred Text* (which applies sacred reading techniques to the Harry Potter series, treating it as serious and meaningful without letting it—or its author—off the hook for being problematic), I've been trying to catch up with its second runthrough of the book series, in the perhaps-vain hope that I can start listening to episodes as they come out. In [one episode](https://play.acast.com/s/harrypottersacredtext/awe-diagonalley-book1-chapter5-) I listened to yesterday, the hosts spoke on the theme of awe. One of the hosts put it this way: 
 

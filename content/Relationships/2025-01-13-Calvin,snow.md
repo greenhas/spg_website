@@ -1,6 +1,7 @@
 ---
+type: ["photo"]
 date: 2025-01-13T07:02:26-05:00
-tags: ["photo","Relationships","Calvin and Hobbes","comics","comic strips","snow days"]
+tags: ["Calvin and Hobbes","comics","comic strips","snow days"]
 featured_image: "/2025-01-13-Calvin,snow.JPEG"
 ---
 For what it's worth, Calvin and Hobbes reruns also get me this morning.

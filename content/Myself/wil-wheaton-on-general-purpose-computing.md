@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-09-06T15:17:44-04:00
 title: "Wil Wheaton on general purpose computing"
-tags: ["macro","Myself","Wil Wheaton","Still Just a Geek","DRM","general purpose computing","EFF","Little Brother series","Cory Doctorow","iPad","Apple","ClassDojo","computer science","computer science education","digital rights"]
+tags: ["Wil Wheaton","Still Just a Geek","DRM","general purpose computing","EFF","Little Brother series","Cory Doctorow","iPad","Apple","ClassDojo","computer science","computer science education","digital rights"]
 ---
 I am very near the end of Wil Wheaton's updated/annotated memoir *Still Just a Geek*, which I bought over the summer on a short family trip. I have lots of thoughts—most of them positive—about the memoir and may write a bit more about it once I finally finish. For now, though, since I wrote last week complaining about companies like [Apple](https://spencergreenhalgh.com/myself/apple-and-artificial-restrictions-on-file-syncing/) and [ClassDojo](https://spencergreenhalgh.com/work/classdojo-and-the-creation-of-artificial-demand/) restricting hardware and software to support their bottom line at the expense of users, I was struck by a short passage Wheaton included making a case for general purpose computing: 
 

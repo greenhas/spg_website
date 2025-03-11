@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-03-31T09:25:09-04:00
 title: "thoughts on Mormon mission dreams"
-tags: ["macro","Communities","Latter-day Saint missionaries","dreams","Brittany Long Olsen","faith crisis","depression","anxiety","perfectionism","Craig Harline","comics"]
+tags: ["Latter-day Saint missionaries","dreams","Brittany Long Olsen","faith crisis","depression","anxiety","perfectionism","Craig Harline","comics"]
 ---
 I've only read two Mormon missionary memoirs (plus one compilation of Mormon missionary comics), but both have been helpful for me in thinking about my own missionary experience. Brittany Long Olsen's *Dendo: One Year and One Half in Tokyo* is a remarkable graphic novel memoir of her missionary service in Japan. The art is great, the ambition is fantastic, and it absolutely deserves the [2015 award](https://www.associationmormonletters.org/2016/03/2015-aml-award-winners/) it won from the Association of Mormon Letters. Although it's a fantastic book, it was also a difficult read for me; I received it as a gift shortly before entering a period of faith crisis and as I later wrote in my journal:
 

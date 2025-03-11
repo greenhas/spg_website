@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-12-06T19:04:15-05:00
 title: "trapped between generative AI and student surveillance"
-tags: ["macro","Work","grading","assessment","generative AI","surveillance"]
+tags: ["grading","assessment","generative AI","surveillance"]
 ---
 We're getting to the end of the semester here at the University of Kentucky, which is my traditional time to get overly introspective about grading. There's a lot on my mind at the end of this semester, but one thing that has popped into my head tonight and that I think will be quick to write about is a dilemma that I'm facing this semester, when I've had faced more suspicions about student use of generative AI than in any previous semester. By way of context, my class policy is to: 1) discourage student use of generative AI, but 2) begrudgingly allow students to use it, but 3) require that they disclose its use. 
 

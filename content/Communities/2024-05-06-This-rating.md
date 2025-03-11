@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2024-05-06T14:34:37-04:00
 title: "📚 bookblog: ❤️❤️❤️🖤🖤 for A Way of Life: Understanding Our Christian Faith, by Tony Chvala-Smith"
-tags: ["media","Communities","A Way of Life","Tony Chvala-Smith","Community of Christ","theology"]
+tags: ["A Way of Life","Tony Chvala-Smith","Community of Christ","theology"]
 media: ["book"]
 titles: ["A Way of Life: Understanding Our Christian Faith"]
 creators: ["Tony Chvala-Smith"]

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-09-02T09:59:04-04:00
 title: "to be loved is to be 'liked'"
-tags: ["macro","Work","platforms","José van Dijck","social media","internet radio","Radio Chablais","French"]
+tags: ["platforms","José van Dijck","social media","internet radio","Radio Chablais","French"]
 ---
 Thanks to the magic of the internet, I often listen to Francophone radio stations while working (most often French and Swiss—Radio-Canada doesn't support streaming outside its own apps and sites). This is a great way to keep up with my French, and because there seems to be a minigenre of Francophone songs critiquing social media (Stromae's *[Carmen](https://www.youtube.com/watch?v=UKftOH54iNU)* comes to mind, but there's at least one other whose name I can't remember right now), it sometimes ends up being professionally relevant as well.
 

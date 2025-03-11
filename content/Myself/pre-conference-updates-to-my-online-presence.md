@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-10-19T21:51:52-04:00
 title: "pre-conference updates to my online presence"
-tags: ["macro","Myself","Mastodon","Hypothesis","analytics","online presence","Mozilla Social","Mozilla","fediverse","Hugo","ICT 302","SSSR","SSSR 2023"]
+tags: ["Mastodon","Hypothesis","analytics","online presence","Mozilla Social","Mozilla","fediverse","Hugo","ICT 302","SSSR","SSSR 2023"]
 ---
 
 This week, I'm attending two different research conferences (well, I only barely attended the first one, to be honest). The leadup to these conferences has involved some changes to my web presence, just in case people actually check my website when I put it on my slides. Overall, I'm happy with the changes that I've made, so I thought I'd take advantage of my free Delta in-flight wi-fi to blog about some of the changes I've made and why.

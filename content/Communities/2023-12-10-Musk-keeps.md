@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2023-12-10T07:37:51-05:00
-tags: ["link","Communities","Elon Musk","Twitter","Alex Jones"]
+tags: ["Elon Musk","Twitter","Alex Jones"]
 title: "🔗 linkblog: my thoughts on 'Elon Musk restores X account of Alex Jones : NPR'"
 ---
 Musk keeps digging his hole deeper and deeper.

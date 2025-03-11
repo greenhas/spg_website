@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-08-31T08:58:51-04:00
 title: "a memory of Book of Mormon Christology"
-tags: ["macro","Communities","Book of Mormon","Christology","Latter-day Saint missionaries","Preach My Gospel","First Vision"]
+tags: ["Book of Mormon","Christology","Latter-day Saint missionaries","Preach My Gospel","First Vision"]
 ---
 This isn't a particularly deep post. There's not a thesis to it, I'm not critiquing what I'm describing, and I don't know that there's anything to really take away from it. I just had a memory come to mind last night related to Book of Mormon Christology that I wanted to hold onto by sharing.
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-04-04T10:46:17-04:00
 title: "Arthur Dent, the bulldozer, and generative AI"
-tags: ["macro","Myself","Hitchhiker's Guide to the Galaxy","Audible","generative AI"]
+tags: ["Hitchhiker's Guide to the Galaxy","Audible","generative AI"]
 ---
 This week, I decided to see if it was worth relistening to the original Hitchhiker's Guide to the Galaxy radio series. I'm having trouble committing to things to listen to right now, and I've found in recent years that I don't enjoy H2G2 as much as I once did, so it's hard to say whether I'll follow through with this. However, I did get far enough in to the first episode to enjoy Arthur Dent's confrontation with Mr. Prosser, the man who wants to knock over Dent's house to build a bypass.
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-05-31T12:15:10-04:00
 title: "the difficulty of imagining the kingdom of God"
-tags: ["macro","Communities","Leo Tolstoy","The Kingdom of God is Within You","kingdom of God","The Man Born to Be King","Dorothy Sayers","Michael Austin","By Common Consent","anarchism","Christian anarchism","Scott Branson","Practical Anarchism","resurrection"]
+tags: ["Leo Tolstoy","The Kingdom of God is Within You","kingdom of God","The Man Born to Be King","Dorothy Sayers","Michael Austin","By Common Consent","anarchism","Christian anarchism","Scott Branson","Practical Anarchism","resurrection"]
 ---
 In recent years, I’ve enjoyed seeing the "kingdom of God" in a new way than I’d understood it growing up. To take one example, here’s a quote from Mormon blogger Michael Austin in a *By Common Consent* [post](https://bycommonconsent.com/2019/07/02/why-stand-ye-gazing-up-into-heaven/):
 

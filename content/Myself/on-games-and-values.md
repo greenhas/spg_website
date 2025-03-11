@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-09-05T12:55:40-04:00
 title: "unfinished thoughts on games and living one's values"
-tags: ["macro","Myself","TTRPGs","Lotus Dimension","Stardew Valley","Cory Doctorow","non-violence","Axis and Allies","Stardew Valley","values","Dungeons and Dragons"]
+tags: ["TTRPGs","Lotus Dimension","Stardew Valley","Cory Doctorow","non-violence","Axis and Allies","Stardew Valley","values","Dungeons and Dragons"]
 ---
 After several years of having it vaguely on my wish list (ever since Cory Doctorow's [post about it](https://boingboing.net/2016/09/13/kickstarting-locus-dimension.html) on Boing Boing), I finally picked up a copy of *Lotus Dimension*, a tabletop roleplaying game with an intentional emphasis on resolving problems through non-violence. I've been reading a lot on non-violence lately, and even though I still have a lot to learn, I've been asking recently whether a commitment to non-violence in real life would be incompatible with enjoying games where violence is one of the key ways to achieve victory.
 

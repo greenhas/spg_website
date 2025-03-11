@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-06-02T19:57:02-04:00
 title: "why I will (probably?) always agree to write a letter of recommendation for a student"
-tags: ["macro","Work","teaching","BYU", "letters of recommendation","mentorship","France","Switzerland"]
+tags: ["teaching","BYU", "letters of recommendation","mentorship","France","Switzerland"]
 ---
 Today, I heard from a student that I had a couple of semesters ago asking for a letter of recommendation for a master's program. I only had the student in one class, his attendance was spotty, and I didn't have a lot of sustained interactions with him, so I am questioning whether I would be the best letter writer for him. However, while I said as much to the student in my reply, I also told him that despite all of that, I would still be willing to write him a letter. It looks like he's taking me up on this.
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-01-26T15:08:49-05:00
 title: "Cory Doctorow on behaviorism"
-tags: ["macro","Work","behaviorism","Skinner","edtech","educational psychology","Cory Doctorow","Walkaway","learning theories","education","research"]
+tags: ["behaviorism","Skinner","edtech","educational psychology","Cory Doctorow","Walkaway","learning theories","education","research"]
 ---
 After bouncing off of it a year or so ago, I recently decided to restart Cory Doctorow's novel *Walkaway* (which led NPR reporter Jason Sheehan to [describe](https://www.npr.org/2017/04/27/523587179/in-walkaway-a-blueprint-for-a-new-weird-but-better-world) Doctorow as "Super-weird in the best possible way"). The audiobook is excellent, and since I started a couple of days ago, it's displaced my podcast listening and given me another chance to wrestle with Doctorow's ideas here. 
 

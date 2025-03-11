@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2024-02-28T21:39:20-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for The Undertaking of Hart and Mercy, by Megan Bannen"
-tags: ["media","Relationships","The Undertaking of Hart and Mercy","Megan Bannen","romance"]
+tags: ["The Undertaking of Hart and Mercy","Megan Bannen","romance"]
 media: ["book"]
 titles: ["The Undertaking of Hart and Mercy"]
 creators: ["Megan Bannen"]

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-03-04T10:37:39-05:00
 title: "un souvenir ludique de Grenoble"
-tags: ["macro","Myself","games","Wings of War","board games","tabletop games","Grenoble"]
+tags: ["games","Wings of War","board games","tabletop games","Grenoble"]
 ---
 Il existe à Grenoble un magasin des jeux nommé « Les contrées du jeu ». Il y a seize ans cette semaine, alors que j'habitais à Grenoble, j'y suis entré m'offrir le jeu « Wings of War ». J'ai toujours une carte de fidélité comme preuve de cette transaction :
 

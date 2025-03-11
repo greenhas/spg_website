@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-06-10T20:47:11-04:00
 title: "camping and being present as a parent"
-tags: ["macro","Relationships","parenting","camping","Boy Scouts","Community of Christ","Reunion","therapy","mental health"]
+tags: ["parenting","camping","Boy Scouts","Community of Christ","Reunion","therapy","mental health"]
 ---
 Tomorrow morning, I'm leaving for 3ish days of camping with kiddo. This is the first time that I've gone camping for well over a decade, and I'm a bit nervous, even though I've got lots of (rusty) Scouting experience to draw on and even though we're also going to be staying in a cabin at a semi-structured church camp. Probably not too much to worry about in terms of camping.
 

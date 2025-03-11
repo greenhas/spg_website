@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-06-07T11:22:32-04:00
 title: "émission sur le LEB"
-tags: ["macro","Myself","trains","Switzerland","Vaud","Renens","LEB"]
+tags: ["trains","Switzerland","Vaud","Renens","LEB"]
 ---
 
 Ce weekend, j'ai regardé une émission sur la ligne ferroviaire Lausanne-Échallens-Bercher qui m'a beaucoup plu:

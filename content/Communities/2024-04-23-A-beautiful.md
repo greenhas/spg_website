@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2024-04-23T20:16:31-04:00
-tags: ["link","Communities","Melissa Wei-Tsing Inouye","Peggy Fletcher Stack","Salt Lake Tribune"]
+tags: ["Melissa Wei-Tsing Inouye","Peggy Fletcher Stack","Salt Lake Tribune"]
 title: "🔗 linkblog: my thoughts on 'Courageous LDS scholar whose life and writings exemplified — and expounded on — earthly struggles dies at 44 '"
 ---
 A beautiful obituary for a beautiful person.

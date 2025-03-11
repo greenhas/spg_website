@@ -1,6 +1,7 @@
 ---
+type: ["photo"]
 date: 2024-11-18T14:47:59-05:00
-tags: ["photo","Work","grading","nihilism","Chidi Anagonye","The Good Place"]
+tags: ["grading","nihilism","Chidi Anagonye","The Good Place"]
 featured_image: "/2024-11-18-peeps-chili.JPEG"
 ---
 Currently feeling some Chidi Anagonye levels of nihilism about grading.

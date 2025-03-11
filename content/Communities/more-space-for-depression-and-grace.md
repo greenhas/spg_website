@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-03-15T10:06:38-04:00
 title: "more space for depression and grace"
-tags: ["macro","Communities","Mormonism","grace","mental health","Latter-day Saint missionaries","Day One","journaling"]
+tags: ["Mormonism","grace","mental health","Latter-day Saint missionaries","Day One","journaling"]
 ---
 I've been (very slowly) digitizing old journals, letters, and other text-based keepsakes over the past few years. This involves both scanning the original documents but also typing them up to enter into my Day One journaling app (and make them searchable). Because a solid majority of the letters and keepsakes that I had were related to my time as a Mormon missionary, I'm still chipping away at that era of my life. Fifteen(ish) years later, it's fascinating to go back to this formative part of my life and see what's changed. 
 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-11-04T08:28:38-04:00
 title: "microblogvember and the surprising joy of random words"
-tags: ["macro","Myself","mbnov2022","deconstruction","The Bible for Normal People","podcasts","French","music"]
+tags: ["mbnov2022","deconstruction","The Bible for Normal People","podcasts","French","music"]
 ---
 Recently, I was listening to [a podcast episode](https://thebiblefornormalpeople.com/episode-223-jared-byas-misconceptions-about-deconstruction-the-bible/) that was touching on deconstruction. It was chiefly concerned with the term as it's used in religious contexts, but to do so, it was going back to its intellectual roots, with Jacques Derrida and Ferdinand de Saussure. As the host, Jared Byas, summarized the ideas of deconstruction:
 

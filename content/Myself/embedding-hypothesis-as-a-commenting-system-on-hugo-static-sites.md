@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-06-16T09:33:41-04:00
 title: "embedding Hypothesis as a commenting system on Hugo static sites"
-tags: ["macro","Myself","Hypothesis","social annotation","Hugo","static sites","blogging","RSS"]
+tags: ["Hypothesis","social annotation","Hugo","static sites","blogging","RSS"]
 ---
 
 As I've been working on updating this website and revamping my web presence over the course of the summer, one of the items on my to-do list has been to add a commenting feature to the website. I love Hugo, but the absence of any in-built commenting feature is definitely a downside. I've looked over various Hugo-compatible [commenting systems](https://gohugo.io/content-management/comments/), but I honestly don't know how much commenting activity I'll see, and I've been hesitant to pay a third-party platform to do all of this for me. 

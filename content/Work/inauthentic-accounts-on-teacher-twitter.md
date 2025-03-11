@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-05-18T16:02:15-04:00
 title: "new(ish) publication: inauthentic accounts on teacher Twitter"
-tags: ["macro","Work","Dan Krutka","Twitter","digital methods","Internet Research Agency","information operations","R","Mormonism","online Mormonism","research","publications","informal professional development"]
+tags: ["Dan Krutka","Twitter","digital methods","Internet Research Agency","information operations","R","Mormonism","online Mormonism","research","publications","informal professional development"]
 ---
 This article has been available online for nearly two years, but since I don't have any previous posts about it, I'm happy to announce that [a study of mine](https://www.tandfonline.com/doi/full/10.1080/15391523.2021.1962454) with [Dan Krutka](https://www.civicsoftechnology.org/dankrutka) has just been assigned to an issue at the *Journal of Research on Technology in Education*. A number of years ago, Twitter released some large datasets of tweets associated with accounts created as part of various governments' information operation efforts. Neither misinformation nor information operations are a specialty of mine, but I was interested in seeing if these datasets overlapped with work that I was involved in. So, one day, I downloaded the datasets, loaded them all into R, and searched for some terms germane to my research. That's how, a couple of years ago, I produced a paper on government-sponsored accounts' [invocations of Mormonism](https://periodicos.ufac.br/index.php/tropos/article/view/4472) as part of efforts to sow discord in the United States. 
 

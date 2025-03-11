@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2022-11-15T12:04:28-05:00
 title: "🔗 linkblog: my thoughts on 'Q is Dead, Long Live QAnon'"
-tags: ["link","Communities","QAnon"]
+tags: ["QAnon"]
 ---
 Helpful summary of the current state of QAnon.
  

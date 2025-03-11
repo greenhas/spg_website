@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-08-31T15:09:34-04:00
 title: "how is this more preferable than taxes?"
-tags: ["macro","Relationships","parenting","fundraising","public education","schools","edtech","Larry Cuban","taxes"]
+tags: ["parenting","fundraising","public education","schools","edtech","Larry Cuban","taxes"]
 ---
 Kiddo's school is contracting with a company called [Booster](https://www.choosebooster.com/) to raise $78,000 for new technology for the school. U.S. schools are, of course, underfunded, and I'm generally in favor of getting more money into their bank accounts. I have a number of concerns about this fundraiser, though, and it's making me grumpy. 
 

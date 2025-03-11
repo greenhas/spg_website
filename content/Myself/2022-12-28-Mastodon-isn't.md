@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2022-12-28T11:32:51-05:00
 title: "🔗 linkblog: my thoughts on 'Twitter rival Mastodon rejects funding to preserve nonprofit status | Ars Technica'"
-tags: ["link","Myself","Mastodon"]
+tags: ["Mastodon"]
 ---
 Mastodon isn't perfect, but this strikes me as a good sign.  
  

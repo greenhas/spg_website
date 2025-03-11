@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-01-19T12:38:34-05:00
 title: "on Scrabble, French, and what it means to learn"
-tags: ["macro","Work","LIS 618","learning","teaching","assessment","education","Scrabble","Nigel Richards","French","Radio Télévision Suisse","literacies","LIS","James Paul Gee","sociocultural theories of learning","social annotation","Hypothesis","grading","operationalization"]
+tags: ["LIS 618","learning","teaching","assessment","education","Scrabble","Nigel Richards","French","Radio Télévision Suisse","literacies","LIS","James Paul Gee","sociocultural theories of learning","social annotation","Hypothesis","grading","operationalization"]
 ---
 In the summer of 2015, New Zealander Nigel Richards won the French-language world Scrabble championships despite not speaking a word of French. I heard this story on a *Radio Télévision Suisse* news show repackaged as a podcast (probably *Le 12h30*, but I can't remember exactly) and wrote myself a note that if I ever got a chance to teach a class on games and learning, I would use this story in it. Since Spring of 2019, I've been teaching a once-a-year class for LIS students on games, literacies, and learning, and I've assigned [this article](https://www.theguardian.com/lifeandstyle/2015/jul/21/new-french-scrabble-champion-nigel-richards-doesnt-speak-french) from *The Guardian* every year that I've taught it. It regularly blows students' minds when they read the headline and the first few paragraphs:
 

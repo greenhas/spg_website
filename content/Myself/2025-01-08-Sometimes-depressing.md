@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2025-01-08T07:41:02-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️❤️ for Saga (Volume 7), by Fiona Staples and Brian K. Vaughan"
-tags: ["media","Myself","Saga","comics","Fiona Staples","Brian K. Vaughan"]
+tags: ["Saga","comics","Fiona Staples","Brian K. Vaughan"]
 media: ["book","comic"]
 titles: [""]
 creators: ["Fiona Staples","Brian K. Vaughan"]

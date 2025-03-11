@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-07-14T09:07:38-04:00
 title: "radical early Christianity"
-tags: ["macro","Communities","David Bentley Hart","Christianity","wealth","poverty","The Church of Jesus Christ of Latter-day Saints","Community of Christ","libraries","Community of Christ"]
+tags: ["David Bentley Hart","Christianity","wealth","poverty","The Church of Jesus Christ of Latter-day Saints","Community of Christ","libraries","Community of Christ"]
 ---
 One of the biggest perks of working in academia is access to an academic library. Don't get me wrong: I deeply appreciate and regularly visit my local public libraries, and kiddo and I have made a couple of visits to her school's summer library hours (which is an amazing idea). There's something about the breadth of an academic library, though, that can really come in handy sometimes. For example, I was recently reading [an article](https://scholarsarchive.byu.edu/re/vol20/iss2/6/) by Dan McClellan on Bible translation in Latter-day Saint contexts and noticed with interest his reference to David Bentley Hart's [translation of the New Testament](https://yalebooks.yale.edu/book/9780300248449/the-new-testament/). It didn't take long for me to figure out that I have access to that translation through JSTOR, and there's now a PDF copy sitting on my phone that I've started making my way through.
 

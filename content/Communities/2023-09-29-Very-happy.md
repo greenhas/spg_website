@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2023-09-29T18:58:09-04:00
-tags: ["link","Communities","Hungary","Salt Lake Tribune","Katalin Novák","Viktor Orbán","Fidesz","BYU","Mormonism"]
+tags: ["Hungary","Salt Lake Tribune","Katalin Novák","Viktor Orbán","Fidesz","BYU","Mormonism"]
 title: "🔗 linkblog: my thoughts on 'Addison Graham: Latter-day Saints should not admire Hungary’s ‘family values’'"
 ---
 Very happy to see this op-ed emerge—especially from a BYU student. Fidesz is not a party Latter-day Saints should praise or look up to.

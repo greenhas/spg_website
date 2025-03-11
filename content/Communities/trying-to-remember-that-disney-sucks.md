@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-08-14T16:34:15-04:00
 title: "trying to remember that Disney sucks (even if I like a lot of their IP)"
-tags: ["macro","Communities","David Graeber","David Wengrow","The Dawn of Everything","Cory Doctorow","schismogenesis","Ron DeSantis","intellectual property","copyright","Disney","Marvel","Star Wars"]
+tags: ["David Graeber","David Wengrow","The Dawn of Everything","Cory Doctorow","schismogenesis","Ron DeSantis","intellectual property","copyright","Disney","Marvel","Star Wars"]
 ---
 When I was slowly making my way through David Graeber and David Wengrow's *The Dawn of Everything* last month, I was having trouble processing all of the ideas in the ambitious, dense book, so I was surprised when one idea sounded familiar: *schismogenesis*. A few years ago, Cory Doctorow wrote [an essay](https://pluralistic.net/2021/12/18/schizmogenesis/) using schismogenesis as a theme. Here's Doctorow's explanation of the concept from the original book, and the beginning of his thesis in the post: 
 

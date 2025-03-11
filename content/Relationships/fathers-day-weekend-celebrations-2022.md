@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-06-19T10:57:09-04:00
 title: "bike rides, TTRPGs, and other 2022 Father's Day weekend fun"
-tags: ["macro","Relationships","parenting","Father's Day","Mother's Day","bikes","infertility","Mormonism","Legacy Trail","video games","Mewnbase","Latter-day Saint missionaries","roll20","TTRPGs","Ironsworn","podcasts","Lexington","Community of Christ","Reunion","Reunion 2022","journaling","Day One","itch.io","MewnBase"]
+tags: ["parenting","Father's Day","Mother's Day","bikes","infertility","Mormonism","Legacy Trail","video games","Mewnbase","Latter-day Saint missionaries","roll20","TTRPGs","Ironsworn","podcasts","Lexington","Community of Christ","Reunion","Reunion 2022","journaling","Day One","itch.io","MewnBase"]
 ---
 
 The title of this post is a bit misleading. My wife and I aren't really big on "Parent's Day" celebrations: Years of Latter-day Saint "all women are mothers" (read: motherhood is the most important part of womanhood) Sunday services grated on us during our years of infertility, and even now that we are parents (and aren't practicing Latter-day Saints—though my current denomination [certainly isn't immune](https://spencergreenhalgh.com/communities/2019-05-12-today-i/) from a cringeworthy celebration of parents either), it's just not a thing we do.

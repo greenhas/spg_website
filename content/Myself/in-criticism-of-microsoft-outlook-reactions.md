@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2025-02-12T08:57:58-05:00
 title: "in criticism of Microsoft Outlook Reactions"
-tags: ["macro","Myself","Microsoft","Outlook","emoji","Signal","iOS","Android"]
+tags: ["Microsoft","Outlook","emoji","Signal","iOS","Android"]
 ---
 Once or twice a week, I get a "Reaction Daily Digest" in my work email account catching me up on some of the emoji-style reactions I've received to recent emails that I've recently missed. I hate these emails for enough reasons that I'm taking a break from clearing my morning email to write a post about this.
 

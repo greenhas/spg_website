@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-07-31T14:30:48-04:00
 title: "believers who rob others of belief"
-tags: ["macro","Communities","Thomas Merton","religion","T. Crunk","Community of Christ","Gab","Christian nationalism","Marjorie Taylor-Greene"]
+tags: ["Thomas Merton","religion","T. Crunk","Community of Christ","Gab","Christian nationalism","Marjorie Taylor-Greene"]
 ---
 
 Nearly a year ago, a friend gave me a copy of Thomas Merton's *New Seeds of Contemplation* as a gift for my confirmation into Community of Christ. It (obviously) took me a while to start it, and it's taking me some time to read through it, but there's a lot in there that I like. This afternoon, this passage stood out to me:

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-05-15T08:12:56-04:00
 title: "Guitar Hero 2, Eurovision, and Wikipedia: rediscovering Freezepop"
-tags: ["macro","Myself","Freezepop","Eurovision","Eurovision 2024","video games","Wikipedia","synthpop","Homestar Runner","music"]
+tags: ["Freezepop","Eurovision","Eurovision 2024","video games","Wikipedia","synthpop","Homestar Runner","music"]
 ---
 Some time after I moved out of the house for college (etc.), my younger siblings pooled some money to buy a used PlayStation 2 and a few games, including *Guitar Hero 2*. When I was home for summers and breaks, I got some exposure to new-to-me music through playing that game with them. As a huge fan of Homestar Runner, I naturally appreciated the appreciation of *Trogdor*, but one of the songs that stuck out most to me was Freezepop’s *less talk more rokk*:
 

@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2024-05-03T19:04:48-04:00
-tags: ["link","Communities","Jana Riess","Melissa Wei-Tsing Inouye"]
+tags: ["Jana Riess","Melissa Wei-Tsing Inouye"]
 title: "🔗 linkblog: my thoughts on 'The best way to honor Melissa Inouye’s memory is to be a kind and persistent badass'"
 ---
 Jana Riess is one of my favorite Mormons, and Melissa was another. This is a great combination of the two.

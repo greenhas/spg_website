@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2025-01-15T21:21:59-05:00
 title: "📚 bookblog: ❤️❤️❤️🖤🖤 pour XIII Tome 9 : Pour Maria, par Vance et Van Hamme"
-tags: ["media","Myself","XIII","William Vance","Jean Van Hamme","white savior","bd","comics"]
+tags: ["XIII","William Vance","Jean Van Hamme","white savior","bd","comics"]
 media: ["book","comic","bande dessinée"]
 titles: ["Pour Maria"]
 creators: ["William Vance","Jean Van Hamme"]

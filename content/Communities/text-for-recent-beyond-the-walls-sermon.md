@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-01-26T12:47:34-05:00
 title: "text for recent Beyond the Walls sermon"
-tags: ["macro","Communities","Beyond the Walls","Community of Christ","Temptation of Jesus","son of God","children of God","vegetarianism","climate change","climate crisis","food waste","hunger","wealth","fame","power","privilege"]
+tags: ["Beyond the Walls","Community of Christ","Temptation of Jesus","son of God","children of God","vegetarianism","climate change","climate crisis","food waste","hunger","wealth","fame","power","privilege"]
 ---
 Last Sunday, I gave a sermon on the Temptation of Jesus for a Beyond the Walls service by the Toronto Congregation of Community of Christ. The whole service was great, and I was happy to make my small contribution to it. It's been recorded and archived here: 
 

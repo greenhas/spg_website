@@ -1,6 +1,7 @@
 ---
+type: ["link"]
 date: 2024-09-14T09:46:09-04:00
-tags: ["link","Communities","far right","Ohio","JD Vance","Donald Trump"]
+tags: ["far right","Ohio","JD Vance","Donald Trump"]
 title: "🔗 linkblog: my thoughts on 'Haitian immigrants helped revive a struggling Ohio town. Then neo-Nazis turned up'"
 ---
 Taking cues from neo-Nazis is a great look for the GOP ticket.

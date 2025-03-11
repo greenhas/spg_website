@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2023-11-05T15:09:19-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Ultimate Spider-Man: Vol. 3, Double Trouble, by Brian Michael Bendis and Mark Bagley"
-tags: ["media","Myself","Ultimate Spider-Man","hoppla","Brian Michael Bendis","Mark Bagley","Spider-Man","comics"]
+tags: ["Ultimate Spider-Man","hoppla","Brian Michael Bendis","Mark Bagley","Spider-Man","comics"]
 media: ["book","comic"]
 titles: ["Double Trouble"]
 creators: ["Brian Michael Bendis","Mark Bagley"]

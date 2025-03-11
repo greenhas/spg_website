@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-07-13T13:40:32-04:00
 title: "research analytics for... industry collaboration?"
-tags: ["macro","Work","analytics","Scholars@UK","Elsevier","research","automation","public education","Kentucky General Assembly"]
+tags: ["analytics","Scholars@UK","Elsevier","research","automation","public education","Kentucky General Assembly"]
 ---
 Over the past several months, the University of Kentucky has been pushing us to set up profiles on a new research analytics platform. The platform looks... fine, but I've been irritated with some of how the platform works and curious why UK is **so** keen on having us fill out our profiles. It's felt from the beginning like this is something more for UK's benefit than for our individual benefits as faculty. When the platform launched today, a passage from the [press release](https://www.research.uky.edu/news/portal-connects-uk-industry-global-research-community) added to that feeling: 
 

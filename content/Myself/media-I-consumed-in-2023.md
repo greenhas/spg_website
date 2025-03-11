@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-12-31T16:00:00-05:00
 title: "media I consumed in 2023"
-tags: ["macro","Myself","journaling","Day One","Siri Shortcuts","comics"]
+tags: ["journaling","Day One","Siri Shortcuts","comics"]
 ---
 
 My dad has been logging the books he reads since he was a teenager, and I've always wanted to try something like that out. I gave it a go in 2022 with a notebook, but I quickly realized I wanted to journal that information, too. 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-12-31T19:34:42+01:00
 title: "media I consumed in 2024"
-tags: ["macro","Myself","journaling","Day One","Siri Shortcuts","comics"]
+tags: ["journaling","Day One","Siri Shortcuts","comics"]
 ---
 
 Setting up media reviews for my blog is one of the best side projects that I've done in the past couple of years, and I'm happy to be doing a yearly recap for 2024 like I did for 2023. In fact, I started a new review workflow for listening to radio shows, which feels like a bonus (and helps take away from my lower read count this time around). 

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-05-19T09:42:10-04:00
 title: "XIII comic reference in Slow Horses series?"
-tags: ["macro","Myself","comics", "BD","XIII","John Finnemore", "John Le Carré","Cabin Pressure"]
+tags: ["comics", "BD","XIII","John Finnemore", "John Le Carré","Cabin Pressure"]
 ---
 
 Since April, I've gotten sucked into the *Slow Horses* British spy series after really enjoying the Apple TV+ adaptation. I've been powering through all the full-length novels and am now reading 2021's *Slough House*, which features a character who's survived a bullet wound to the head. Her description stood out to me for one particular detail, though: 

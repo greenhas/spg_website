@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-09-13T17:06:43-05:00
 title: "13 family conversations from before, during, and after a graveside service"
-tags: ["macro","Relationships","funerals","Mormonism","Latter-day Saint missionaries","content moderation","Section 230","free speech","Jim Jordan","John Le Carré","faith transition"]
+tags: ["funerals","Mormonism","Latter-day Saint missionaries","content moderation","Section 230","free speech","Jim Jordan","John Le Carré","faith transition"]
 ---
 ## I. With Siblings in a Sibling-Only Chat Separate from the One with Parents and Partners
 

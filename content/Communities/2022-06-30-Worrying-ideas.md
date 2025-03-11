@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2022-06-30T11:20:32-04:00
 title: "🔗 linkblog: my thoughts on 'U.S. Supreme Court takes on the independent state legislature theory : NPR'"
-tags: ["link","Communities","SCOTUS","democracy"]
+tags: ["SCOTUS","democracy"]
 ---
 Worrying ideas here—American democracy feels more and more tenuous.
  

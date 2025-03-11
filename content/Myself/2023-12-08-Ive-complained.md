@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2023-12-08T21:16:15-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Ultimate Spider-Man: Vol. 18, Ultimate Knights, by Brian Michael Bendis and Mark Bagley"
-tags: ["media","Myself","Ultimate Spider-Man","Brian Michael Bendis","Mark Bagley","Spider-Man","ethics","morals","comics"]
+tags: ["Ultimate Spider-Man","Brian Michael Bendis","Mark Bagley","Spider-Man","ethics","morals","comics"]
 media: ["book","comic"]
 titles: ["Ultimate Knights"]
 creators: ["Brian Michael Bendis","Mark Bagley"]

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-09-08T09:19:49-04:00
 title: "listening to Handel's Messiah in September"
-tags: ["macro","Communities","Christmas","Christmas music","Handel's Messiah","Pete Enns","King James Version","Beyond the Walls Choir","Toronto Centre Place","Beyond the Walls","Neil deAtley","Leandro Palacios","liturgical calendar","supersessionism","Advent"]
+tags: ["Christmas","Christmas music","Handel's Messiah","Pete Enns","King James Version","Beyond the Walls Choir","Toronto Centre Place","Beyond the Walls","Neil deAtley","Leandro Palacios","liturgical calendar","supersessionism","Advent"]
 ---
 I've never had qualms about listening to Christmas music outside of December, but it still surprises me that I've been listening to parts of Handel's *Messiah* during my morning routines over the past couple of weeks. I've never been the biggest fan of the music of *Messiah*, and in recent years, I've let go of my attachment to King James language and learned that a lot of the passages quoted in *Messiah* represent Christian prooftexting of the Hebrew Bible (here's [a great post](https://thebiblefornormalpeople.com/pete-ruins-christmas-series-unto-us-child-born/) on the subject by Pete Enns—and [here's another](https://thebiblefornormalpeople.com/virgin-shall-conceive/)). In theory, this ought to sour me on *Messiah* even more, but I've spent a big chunk of this morning listening to this performance of excerpts—and really enjoying it!
 

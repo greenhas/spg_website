@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-10-17T07:35:07-04:00
 title: "confessing transport sins"
-tags: ["macro","Myself","planes","trains","buses","transport","public transport","SSSR 2024","SSSR","Amtrak","Not Just Bikes","Greyhound"]
+tags: ["planes","trains","buses","transport","public transport","SSSR 2024","SSSR","Amtrak","Not Just Bikes","Greyhound"]
 ---
 Today, after a brief appearance on campus to teach one class, I begin a convoluted trip to Pittsburgh to attend a conference for work. As this trip has gotten closer, I've looked at the details of my trip and slowly realized that I messed this up good in terms of deciding how to get to Pittsburgh and back. This post is a confession of my sins!
 

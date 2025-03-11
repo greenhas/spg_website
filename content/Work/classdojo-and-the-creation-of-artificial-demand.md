@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-08-31T09:57:47-04:00
 title: "ClassDojo and the creation of artificial demand"
-tags: ["macro","Work","ClassDojo","mobile apps","freemium","Civics of Tech","Dan Krutka","research","edtech","datafication","gamification"]
+tags: ["ClassDojo","mobile apps","freemium","Civics of Tech","Dan Krutka","research","edtech","datafication","gamification"]
 ---
 
 Yesterday, I [complained about](https://spencergreenhalgh.com/myself/apple-and-artificial-restrictions-on-file-syncing/) Apple putting artificial limitations on what its hardware and software can do in terms of music syncing in order to make more money out of its consumers (and, probably, keep music companies happy). As I was writing that, I was thinking about similarities with the business model of a lot of mobile apps—let people download the app for free, but keep bonus features (or even the best features) behind a paywall. I understand that business models for apps are tricky, and after a childhood and young adulthood of delighting in how much is free on the internet, I'm finally starting to understand that it's important to spend money on software and content that we care about. However, it bugs me when this kind of model is used when it doesn't need to be. Apple is fantastically wealthy and doesn't need to nickel and dime us like this. 

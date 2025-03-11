@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-11-23T15:33:14-05:00
 title: "Leo Tolstoy on Black Friday"
-tags: ["macro","Communities","Leo Tolstoy","The Kingdom of God is Within You","Black Friday","Thanksgiving","commercialism","Christmas"]
+tags: ["Leo Tolstoy","The Kingdom of God is Within You","Black Friday","Thanksgiving","commercialism","Christmas"]
 ---
 This morning, a Michigander friend of mine texted to wish me a Happy Thanksgiving. Her husband and their roommate work at Walmart, and so I asked her whether they had to work today. It took my friend a few hours to respond, but I already knew the answer—as long as I've known them, they've both had to work on and around most major holidays. Their Thanksgiving has traditionally been on Thursday morning or Wednesday evening to make sure that they have some time to celebrate as a family before they get called in to work to get things ready for the capitalist rush that will come on Black Friday—and increasingly, on Thursday night.
 

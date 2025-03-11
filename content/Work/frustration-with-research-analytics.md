@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2023-12-07T10:25:36-05:00
 title: "frustration with institutional research analytics"
-tags: ["macro","Work","Scholars@UK","analytics","research","French","Elsevier","quantification","University of Kentucky","French","Mormon Studies","quantification"]
+tags: ["Scholars@UK","analytics","research","French","Elsevier","quantification","University of Kentucky","French","Mormon Studies","quantification"]
 ---
 Over the summer, I [blogged about](https://spencergreenhalgh.com/work/research-analytics-and-industry-collaboration/) some concern that I had about a new research portal that my employer had just rolled out. Based on the gentle nudges to update our profiles we've been receiving since the platform's launch, I'm guessing that faculty have not been as keen on the platform as the university is. One of those nudges came this week, and in the spirit of good faith cooperation, I spent some time going through the platform and updating my profile.
 

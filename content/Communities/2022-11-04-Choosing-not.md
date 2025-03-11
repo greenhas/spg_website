@@ -1,7 +1,8 @@
 ---
+type: ["link"]
 date: 2022-11-04T13:35:00-04:00
 title: "🔗 linkblog: my thoughts on 'Elon Musk tries to distract from Twitter layoffs by claiming advertisers are fleeing the platform - The Verge'"
-tags: ["link","Communities","Elon Musk","free speech","Twitter"]
+tags: ["Elon Musk","free speech","Twitter"]
 ---
 Choosing not to do business with someone isn't an assault on free speech—it's the very definition of the marketplace of ideas.
  

@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-03-05T15:04:48-05:00
 title: "hooray for faculty collegiality"
-tags: ["macro","Work","University of Kentucky","School of Information Science"]
+tags: ["University of Kentucky","School of Information Science"]
 ---
 My unit is currently hiring three new faculty members, which means that we're right in the middle of nine(!) campus visits. We're all getting well practiced at talking about the strengths of our unit and why people might want to work here. One thing that we've said over and over in meetings and interviews with candidates is that we work together well and get along with each other, too (we also acknowledge that this is not true 100% of the time, but that the exceptions prove the rule).
 

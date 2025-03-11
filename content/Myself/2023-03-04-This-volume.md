@@ -1,8 +1,9 @@
 ---
+type: ["media"]
 layout: book
 date: 2023-03-04T20:13:29-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Saga Volume 8, by Fiona Staples and Brian K. Vaughan"
-tags: ["media","Myself","Saga","Fiona Staples","Brian K. Vaughan"]
+tags: ["Saga","Fiona Staples","Brian K. Vaughan"]
 media: ["book","comic"]
 titles: [""]
 creators: ["Fiona Staples","Brian K. Vaughan"]

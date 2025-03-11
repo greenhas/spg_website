@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2022-12-31T12:38:39-05:00
 title: "Disciples' Generous Response for 1 January 2023"
-tags: ["macro","Communities","Disciples' Generous Response","tithing","Advent","Christmas","deliverance","Amy-Jill Levine","premillennialism","Massacre of the Innocents"]
+tags: ["Disciples' Generous Response","tithing","Advent","Christmas","deliverance","Amy-Jill Levine","premillennialism","Massacre of the Innocents"]
 ---
 A member of my Community of Christ congregation recently asked if I would lead the Disciples' Generous Response portion of tomorrow's worship service (where donations and tithes are collected). I've done this for previous services, but more than any other way I've contributed to a Community of Christ service, this is the one that takes the most practice. In Latter-day Saint services, there's never this kind of collection, and this was honestly one of the hardest things to get used to as I began regularly attending Community of Christ services. That said, much of this is due to the intense pressure for Latter-day Saints to tithe; even if Community of Christ services always include an invitation to donate, there's none of the same pressure that there is in Latter-day Saint circles, so I've come to see this as an acceptable tradeoff. 
 

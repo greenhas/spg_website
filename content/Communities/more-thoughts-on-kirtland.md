@@ -1,7 +1,8 @@
 ---
+type: ["macro"]
 date: 2024-03-07T08:43:59-05:00
 title: "more thoughts on Kirtland (with gratitude for Lach Mackay)"
-tags: ["macro","Communities","Lach Mackay","Kirtland Temple","Mormonism","Community of Christ","Church of Jesus Christ of Latter-day Saints","Spencer Kimball", "church history","Kirtland"]
+tags: ["Lach Mackay","Kirtland Temple","Mormonism","Community of Christ","Church of Jesus Christ of Latter-day Saints","Spencer Kimball", "church history","Kirtland"]
 ---
 For as quickly as I felt like I came to peace with the sale of the Kirtland Temple, I've had conversations and encounters since yesterday's post that make it clear that I still have a lot of work to do processing all of this in the weeks, months, and years ahead. I've heard from a lot of people in pain: people who have been to Kirtland dozens of times but never want to go again, ordained women in Community of Christ who are angry that the new owners of the temple can't respect their ordination, and yet more. It would be wrong of me to lean on the peace I've come to and not be present for others' pain. I've also seen at least one petty Mormon comment arguing that Community of Christ's recent history with schism and financial instability is proof of Brighamite superiority (buddy, do I have some bad news about 1830s Kirtland for you!). It would be inaccurate of me to argue that I've already fully come to peace when that kind of comment makes me so angry.
 
