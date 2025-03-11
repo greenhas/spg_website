@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-06-21T13:14:11-04:00
 title: "🔗 linkblog: my thoughts on 'Impossibility Theorem Strikes Again: YouTube Deletes January 6th Committee Video | Techdirt'"
 tags: ["Mike Masnick","impossibility theorem","content moderation"]

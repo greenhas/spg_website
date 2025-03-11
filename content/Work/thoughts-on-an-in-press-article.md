@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-07-15T11:16:13-04:00
 title: "thoughts on an in-press article—and on names and legitimacy in Mormonism"
 tags: ["Mormon Studies","Jana Riess","research","domain names","Mormon fundamentalism","The Church of Jesus Christ of Latter-day Saints","Mormonism","legitimacy","Ryan Cragun","Russell Nelson","Dallin Oaks","Bloggernacle","exclusivism","Community of Christ","Mark Scherer","Smith-Rigdon movement"]

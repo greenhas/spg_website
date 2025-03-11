@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-11-02T07:41:46-04:00
 tags: ["John Le Carré","Breakfast at Tiffany's","The Tailor of Panama"]
 ---

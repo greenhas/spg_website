@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-11-22T08:45:30-05:00
 title: ""
 tags: ["scripture","prooftexting","Bible","Book of Mormon","mbnov2022"]

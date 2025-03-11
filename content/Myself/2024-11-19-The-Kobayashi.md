@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-11-19T12:56:27-05:00
 tags: ["Star Trek","Kobayashi Maru","meaningful games"]
 title: "🔗 linkblog: my thoughts on 'The thing about the Kobayashi Maru'"

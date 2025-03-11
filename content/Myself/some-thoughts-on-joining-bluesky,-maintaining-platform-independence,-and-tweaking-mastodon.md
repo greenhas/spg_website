@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-11-12T14:23:03-05:00
 title: "some thoughts on joining Bluesky, maintaining platform independence, and tweaking Mastodon"
 tags: ["POSSE","Bluesky","Mastodon","Micro.blog","Reeder","RSS","Twitter","2024 elections","faith transition","ICT 302","Mozilla","Mozilla Social","Webmentions","ActivityPub","Day One"]

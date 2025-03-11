@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-10-16T09:28:15-04:00
 title: "underrated radio and Public Service Broadcasting"
 tags: ["radio","Public Service Broadcasting","Wait Wait Don't Tell Me","internet radio","BBC Radio","BBC","NPR","This New Noise"]

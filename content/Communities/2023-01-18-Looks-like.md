@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-01-18T09:34:51-05:00
 title: "🔗 linkblog: my thoughts on 'OpenAI Used Kenyan Workers on Less Than $2 Per Hour: Exclusive | Time'"
 tags: ["AI training","digital labor","content moderation","OpenAI","ChatGPT"]

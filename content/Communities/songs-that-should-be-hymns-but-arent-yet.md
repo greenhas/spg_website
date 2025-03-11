@@ -1,5 +1,5 @@
 
-type: ["macro"]
+types: ["macro"]
 ---
 date: 2023-11-17T08:25:03-05:00
 title: "songs that should be hymns but aren't (yet?)"

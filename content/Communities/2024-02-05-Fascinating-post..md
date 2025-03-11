@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-02-05T11:06:24-05:00
 tags: ["generative AI","fraud","phishing","Cory Doctorow"]
 title: "🔗 linkblog: my thoughts on 'Pluralistic: How I got scammed (05 Feb 2024) – Pluralistic: Daily links from Cory Doctorow'"

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-11-14T07:03:13-05:00
 tags: ["Ken White","Pete Hegseth","Matt Gartz","Kristi Noem","Donald Trump"]
 title: "🔗 linkblog: my thoughts on 'Refuge In Kakistocracy'"

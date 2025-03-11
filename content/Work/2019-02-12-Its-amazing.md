@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-02-12T21:06:16-05:00
 title: ""
 tags: ["French","research","translation","literacies","Twitter"]

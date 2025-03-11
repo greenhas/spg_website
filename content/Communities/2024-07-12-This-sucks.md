@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-07-12T09:12:21-04:00
 tags: ["climate catastrophe","generative AI","Google","Microsoft"]
 title: "🔗 linkblog: my thoughts on 'AI brings soaring emissions for Google and Microsoft, a major contributor to climate change'"

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-06-26T07:41:20-04:00
 title: "🔗 linkblog: my thoughts on 'Schools Are Spending Billions on High-Tech Defense for Mass Shootings - The New York Times'"
 tags: ["edtech","gun violence","mass shootings","school shootings","technology","surveillance"]

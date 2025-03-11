@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-10T19:07:46-04:00
 title: "🔗 linkblog: my thoughts on 'Why none of my books are available on Audible | Cory Doctorow's craphound.com'"
 tags: ["Amazon","Audible","DRM","audiobooks","Cory Doctorow"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-01-01T07:55:10-05:00
 tags: ["Disney","Mickey Mouse","public domain"]
 title: "🔗 linkblog: my thoughts on 'Welcome to the public domain, Mickey Mouse - The Verge'"

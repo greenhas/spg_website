@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-05-17T12:55:42-04:00
 title: "🔗 linkblog: my thoughts on 'Stream episode Mountain Meadows Massacre — What did Brigham Young know and when did he know it? | Episode 286 by Mormon Land podcast | Listen online for free on SoundCloud'"
 tags: ["Mormon Land","Mountain Meadows Massacre","Barbara Jones Brown","Rick Turley"]

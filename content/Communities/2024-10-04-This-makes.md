@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-10-04T12:33:31-04:00
 tags: ["Oklahoma","Ryan Walters","Christian nationalism"]
 title: "🔗 linkblog: my thoughts on 'State Education Department Seeks Bids for 55,000 Classroom Bibles - Oklahoma Watch'"

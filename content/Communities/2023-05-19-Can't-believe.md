@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-05-19T18:29:39-04:00
 title: "🔗 linkblog: my thoughts on '10 Years After Snowden: Some Things Are Better, Some We’re Still Fighting For | Electronic Frontier Foundation'"
 tags: ["Edward Snowden","EFF"]

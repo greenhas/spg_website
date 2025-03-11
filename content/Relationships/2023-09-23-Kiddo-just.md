@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-09-23T11:18:47-04:00
 tags: ["parenting","sexism"]
 ---

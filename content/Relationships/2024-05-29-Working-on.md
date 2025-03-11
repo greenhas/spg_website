@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-05-29T17:54:27-04:00
 tags: ["parenting","spice"]
 ---

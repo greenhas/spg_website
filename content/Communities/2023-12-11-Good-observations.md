@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-12-11T13:09:31-05:00
 tags: ["Mike Masnick","Apple","Beeper","security","platforms"]
 title: "🔗 linkblog: my thoughts on 'Apple’s Nonsensical Attack On Beeper For Making Apple’s Own Users Safer | Techdirt'"

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-11-29T11:17:50-05:00
 title: "Bethlehem in the Nativity and in the West Bank"
 tags: ["Guy Delisle","Chroniques de Jérusalem","Christmas","2023 Israel-Hamas war","Gaza","Israel","Palestine","Hamas","Friends Committee on National Legislation","Community of Christ"]

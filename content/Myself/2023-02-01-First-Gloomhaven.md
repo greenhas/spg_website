@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-02-01T06:54:17-05:00
 title: ""
 tags: ["Gloomhaven","Leeroy Jenkins"]

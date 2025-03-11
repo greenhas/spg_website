@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-08-08T14:59:59-04:00
 title: ""
 tags: ["data science","ICT 661","LIS 618","ethics","justice"]

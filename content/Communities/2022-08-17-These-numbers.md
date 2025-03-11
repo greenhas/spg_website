@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-17T17:27:44-04:00
 title: "🔗 linkblog: my thoughts on 'Lexington KY looking to address more crime, safety issues | Lexington Herald Leader'"
 tags: ["APLRs","Lexington","surveillance","racism","structural racism","ACLU"]

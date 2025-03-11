@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2025-01-03T08:22:12+01:00
 tags: ["surveillance","ownership","alienation of ownership","Tesla","Elon Musk","Cybertruck"]
 title: "🔗 linkblog: my thoughts on 'Elon Musk Uses Cybertruck Explosion to Show Tesla Can Remotely Unlock and Monitor Vehicles'"

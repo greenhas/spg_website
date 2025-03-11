@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-04-23T09:49:14-04:00
 title: ""
 tags: ["BD","Quai d'Orsay","Iraq War"]

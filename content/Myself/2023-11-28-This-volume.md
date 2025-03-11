@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2023-11-28T17:32:32-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️❤️ for Queen & Country Definitive Edition: Volume 02, by Greg Rucka"

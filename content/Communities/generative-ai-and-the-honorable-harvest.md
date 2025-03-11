@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-08-30T12:00:33-04:00
 title: "generative AI and the Honorable Harvest"
 tags: ["settler colonialism","Robin Wall Kimmerer","Braiding Sweetgrass","Mormonism","generative AI","digital labor","consumerism","indigeneity","Honorable Harvest","Walkaway","anarchism"]

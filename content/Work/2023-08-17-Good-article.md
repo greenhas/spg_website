@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-08-17T08:19:13-04:00
 title: "🔗 linkblog: my thoughts on 'Use of AI Is Seeping Into Academic Journals—and It’s Proving Difficult to Detect | WIRED'"
 tags: ["generative AI","research","publication","peer review"]

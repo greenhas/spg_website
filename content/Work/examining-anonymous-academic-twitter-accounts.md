@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-06-16T11:34:39-04:00
 title: "new publication: examining pseudonymous academic Twitter accounts"
 tags: ["research","Twitter","topic modeling","qualitative research","computational analysis","authenticity","Twitter research","context collapse","happy coincidences"]

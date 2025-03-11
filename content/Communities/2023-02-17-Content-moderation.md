@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-02-17T12:10:37-05:00
 title: "🔗 linkblog: my thoughts on 'As conservatives criticize ‘woke AI,’ here are ChatGPT’s rules for answering culture war queries - The Verge'"
 tags: ["ChatGPT","OpenAI","content moderation"]

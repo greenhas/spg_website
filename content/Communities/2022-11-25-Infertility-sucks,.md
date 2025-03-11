@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-11-25T07:16:55-06:00
 title: "🔗 linkblog: my thoughts on 'They Wanted a Baby, Then Twitter Fired Them | WIRED'"
 tags: ["infertility","Twitter","Elon Musk"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-06-19T10:57:09-04:00
 title: "bike rides, TTRPGs, and other 2022 Father's Day weekend fun"
 tags: ["parenting","Father's Day","Mother's Day","bikes","infertility","Mormonism","Legacy Trail","video games","Mewnbase","Latter-day Saint missionaries","roll20","TTRPGs","Ironsworn","podcasts","Lexington","Community of Christ","Reunion","Reunion 2022","journaling","Day One","itch.io","MewnBase"]

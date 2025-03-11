@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-05-09T11:18:36-04:00
 title: "🔗 linkblog: my thoughts on 'Spotify ejects thousands of AI-made songs in purge of fake streams | Ars Technica'"
 tags: ["Masnick's Law","content moderation","AI"]

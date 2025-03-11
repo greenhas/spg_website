@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-10-18T15:45:05-04:00
 title: "I think the conference hotel wi-fi is blocking competitors' websites?"
 tags: ["SSSR 2024","Mormon Social Science Association","SSSR","Marriott","Internet Archive","VPN","Windscribe"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-09-26T16:33:51-04:00
 tags: ["parenting","independent bookstores"]
 ---

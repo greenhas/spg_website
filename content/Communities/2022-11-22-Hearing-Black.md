@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-11-22T14:17:56-05:00
 title: ""
 tags: ["Black Friday","Christmas","Thanksgiving","commercialism"]

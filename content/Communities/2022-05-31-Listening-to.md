@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-05-31T22:28:05-04:00
 title: ""
 tags: ["Mormonism","The Aquabats","music"]

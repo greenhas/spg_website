@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-06-27T10:58:39-04:00
 title: "langue, ponctuation, et logiciel"
 tags: ["COVID-19","French","software","computers","smartphone"]

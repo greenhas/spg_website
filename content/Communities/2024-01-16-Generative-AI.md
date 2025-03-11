@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-01-16T20:02:22-05:00
 tags: ["generative AI","webcomics","Cat and Girl","digital labor"]
 title: "🔗 linkblog: my thoughts on 'Cat and Girl'"

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-05-07T07:56:37-04:00
 title: "setting up POSSE-style microblogging with a Hugo static site and Micro.blog"
 tags: ["POSSE","Micro.blog","Mastodon","ICT 302","Twitter","context collapse","WordPress","Fediverse","Buttondown","GitHub","Netlify"]

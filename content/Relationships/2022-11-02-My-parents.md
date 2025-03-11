@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-11-02T08:07:33-04:00
 title: ""
 tags: ["Thanksgiving","inclusivity","vegetarianism","veganism","mbnov2022"]

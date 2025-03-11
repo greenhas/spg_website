@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2023-11-13T08:48:02-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Power from on High: The Development of Mormon Priesthood, by Gregory A. Prince"

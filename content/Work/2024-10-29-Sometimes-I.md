@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-10-29T12:17:47-04:00
 tags: ["R","ICT 661","data science"]
 ---

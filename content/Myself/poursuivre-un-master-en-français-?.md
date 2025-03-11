@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-03-20T09:29:45-04:00
 title: "poursuivre un master en français ?"
 tags: ["French","lifelong education","University of Kentucky","Graceland University","Graceland CIMM","grad school"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-11-19T19:35:04-05:00
 tags: ["Pokémon","Christmas","parenting","French"]
 ---

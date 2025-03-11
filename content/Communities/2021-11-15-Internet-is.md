@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-11-15T07:42:01-05:00
 title: "🔗 linkblog: just read 'The infrastructure bill could be a lifeline for students without internet : NPR'"
 tags: ["internet","infrastructure","social justice"]

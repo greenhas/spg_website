@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-12-31T12:38:39-05:00
 title: "Disciples' Generous Response for 1 January 2023"
 tags: ["Disciples' Generous Response","tithing","Advent","Christmas","deliverance","Amy-Jill Levine","premillennialism","Massacre of the Innocents"]

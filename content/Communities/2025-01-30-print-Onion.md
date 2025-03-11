@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2025-01-30T20:55:23-05:00
 tags: ["The Onion"]
 featured_image: "/2025-01-30-print-Onion.JPEG"

@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2025-01-15T21:21:59-05:00
 title: "📚 bookblog: ❤️❤️❤️🖤🖤 pour XIII Tome 9 : Pour Maria, par Vance et Van Hamme"

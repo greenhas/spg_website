@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-09-06T20:26:46-04:00
 title: ""
 tags: ["comics","Y The Last Man"]

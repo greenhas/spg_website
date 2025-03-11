@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-12-12T12:40:40-05:00
 title: ""
 tags: ["writing","grammar snobbery","privilege"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-11-05T14:57:19-04:00
 title: ""
 tags: ["2022 election","parenting","voting"]

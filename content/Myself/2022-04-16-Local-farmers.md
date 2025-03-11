@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-04-16T13:48:06-04:00
 title: ""
 tags: ["garlic","farmers market"]

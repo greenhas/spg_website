@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-11-01T16:10:21-04:00
 title: "Two-Face, DezNat, and Lavina Fielding Anderson—mission compatriots"
 tags: ["French","University of Kentucky","BYU","Latter-day Saint missionaries","Batman","The Dark Knight","Mormon Twitter","September Six","Lavina Fielding Anderson"]

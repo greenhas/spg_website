@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-01-11T09:07:22-05:00
 title: ""
 tags: ["DezNat","Amy Chapman","trolling","SoundCloud"]

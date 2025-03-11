@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2025-01-29T11:08:17-05:00
 tags: ["Bluesky","Free Our Feeds","Cory Doctorow","Mike Masnick","Mastodon","federated social media"]
 title: "🔗 linkblog: my thoughts on 'The Technological Poison Pill: How ATProtocol Encourages Competition, Resists Evil Billionaires, Lock-In & Enshittification'"

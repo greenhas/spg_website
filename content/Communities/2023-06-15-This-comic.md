@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2023-06-15T15:16:09-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️❤️ for Marry Me a Little: A Graphic Memoir, by Rob Kirby"

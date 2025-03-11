@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-10-13T10:43:12-04:00
 title: ""
 tags: ["internet radio","Johnny Hallyday","Jean-Baptiste Guégan"]

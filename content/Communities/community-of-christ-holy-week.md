@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-03-26T15:22:07-04:00
 title: "Community of Christ's Holy Week"
 tags: ["Lent","Advent","Easter","Holy Week","liturgical calendar","liturgical year","Community of Christ","Kirtland Temple","resurrection","Grant McMurray"]

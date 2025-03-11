@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-09-09T11:28:11-04:00
 title: "🔗 linkblog: my thoughts on 'Paris Turns ‘Little Belt’ of Train Tracks Into Green Spaces - The New York Times'"
 tags: ["Paris","trains","France","climate change","green spaces","petite ceinture"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2025-01-08T12:52:10-05:00
 tags: ["404 Media","Facebook","Meta","Instagram","Threads","content moderation"]
 title: "🔗 linkblog: my thoughts on 'Facebook Is Censoring 404 Media Stories About Facebook's Censorship'"

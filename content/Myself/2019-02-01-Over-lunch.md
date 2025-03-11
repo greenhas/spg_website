@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-02-01T12:06:06-05:00
 title: ""
 tags: ["French","BYU"]

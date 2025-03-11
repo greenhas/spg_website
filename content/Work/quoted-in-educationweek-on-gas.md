@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-12-02T08:13:08-05:00
 title: "quoted in EducationWeek about 'Gas' social media app"
 tags: ["media appearances","Gas","platform perspective","EducationWeek","Josh Rosenberg","digital labor","José Van Dijck","business model","ClassDojo"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2025-02-11T09:35:24-05:00
 title: "the purpose of research isn't to fund universities"
 tags: ["NIH","DOGE","research","grants","Donald Trump","Elon Musk"]

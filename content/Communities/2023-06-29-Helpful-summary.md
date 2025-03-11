@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-06-29T12:43:05-04:00
 title: "🔗 linkblog: my thoughts on 'Internal Twitter Video Reveals Twitter Bent Over Backwards To Protect Trump And Pro-Trump Insurrectionists | Techdirt'"
 tags: ["content moderation","ICT 302","Twitter","Mike Masnick"]

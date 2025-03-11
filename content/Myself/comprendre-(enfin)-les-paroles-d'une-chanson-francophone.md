@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-09-04T09:56:27-04:00
 title: "comprendre (enfin) les paroles d'une chanson francophone"
 tags: ["DKL","parenting","internet radio"]

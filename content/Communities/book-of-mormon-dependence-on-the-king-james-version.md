@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-05-20T07:48:54-04:00
 title: "Book of Mormon dependence on the King James Version"
 tags: ["Book of Mormon","Bible","King James Version","Abinadi","rereading the Book of Mormon project","World English Bible","New Revised Standard Version", "Robert Alter","French","Louis Segond","Thomas Wayment"]

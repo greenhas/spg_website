@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2025-01-10T20:39:18-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Saga (Volume 10), by Fiona Staples and Brian K. Vaughan"

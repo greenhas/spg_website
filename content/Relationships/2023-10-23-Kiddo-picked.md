@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-10-23T18:20:07-04:00
 tags: ["libraries","Kentucky","reading"]
 ---

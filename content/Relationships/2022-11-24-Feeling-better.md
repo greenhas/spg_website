@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-11-24T12:22:52-05:00
 title: ""
 tags: ["Thanksgiving","mbnov2022"]

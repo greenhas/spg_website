@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-10-24T09:52:29-04:00
 title: "tenure-track positions in library and information science, information communication technology, and instructional communication at UKSIS"
 tags: ["University of Kentucky","School of Information Science"]

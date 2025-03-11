@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2024-09-07T22:48:02-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Pirate Enlightenment, or the Real Libertalia, by David Graeber"

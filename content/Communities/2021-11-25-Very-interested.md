@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-11-25T07:59:09-05:00
 title: "🔗 linkblog: just finished 'Podcast Episode: The Revolution Will Be Open Source | Electronic Frontier Foundation'"
 tags: ["FOSS"]

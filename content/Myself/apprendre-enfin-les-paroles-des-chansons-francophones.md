@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-09-15T12:34:40-04:00
 title: "apprendre (enfin) les paroles des chansons franco-canadiennes"
 tags: ["Christophe Willem","Serge Gainsbourg","music","Les Cowboys fringants","Mes aïeux","Le Roi Soleil","Les Trois Accords"]

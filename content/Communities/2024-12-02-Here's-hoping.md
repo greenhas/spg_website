@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-12-02T12:01:14-05:00
 tags: ["Donald Trump","Kash Patel","Matt Gaetz","Charles Kushner","Massad Boulos","Tulsi Gabbard","Pete Hegseth"]
 title: "🔗 linkblog: my thoughts on 'Trump Doubles Down on Defiance After the Collapse of the Matt Gaetz Selection'"

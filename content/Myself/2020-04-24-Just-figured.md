@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2020-04-24T09:10:23-04:00
 title: ""
 tags: ["regex"]

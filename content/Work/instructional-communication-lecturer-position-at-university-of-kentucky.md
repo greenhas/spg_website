@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-06-27T11:00:03-04:00
 title: "job post: instructional communication lecturer position at University of Kentucky"
 tags: ["job post","instructional communication"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-12-08T19:37:31-05:00
 tags: ["Markdown"]
 ---

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2020-08-31T16:26:15-04:00
 title: ""
 tags: ["James Bond","music","Axis and Allies","tabletop games"]

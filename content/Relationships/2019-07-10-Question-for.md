@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-07-10T09:31:14-07:00
 title: ""
 tags: ["parenting","Donald Trump"]

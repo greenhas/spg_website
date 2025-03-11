@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-10-12T08:05:04-04:00
 title: "actual play podcasts worth relistening to"
 tags: ["podcasts","actual play","TTRPGs","One Shot","Campaign","Adventure","Tales from the Loop","Star Wars","Kids on Bikes","Advent"]

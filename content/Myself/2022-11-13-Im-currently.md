@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-11-13T09:44:00-05:00
 title: ""
 tags: ["MARC","mbnov2022","trains","posture"]

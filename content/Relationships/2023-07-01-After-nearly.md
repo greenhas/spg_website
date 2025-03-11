@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-07-01T09:51:28-04:00
 title: ""
 tags: ["cars","public transit"]

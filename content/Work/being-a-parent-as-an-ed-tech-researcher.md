@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-07-26T13:00:42-04:00
 title: "being a student's parent as an edtech researcher"
 tags: ["edtech","ClassDojo","parenting","research","Daniela DiGiacomo","Sarah Barriage","parent choice"]

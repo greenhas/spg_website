@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-10-17T11:54:02-04:00
 tags: ["Donald Trump","Mitch McConnell"]
 title: "🔗 linkblog: my thoughts on 'McConnell called Trump 'stupid' and 'despicable' in private after the 2020 election, a new book says'"

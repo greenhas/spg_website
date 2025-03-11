@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-04-11T07:45:41-04:00
 title: "🔗 linkblog: my thoughts on 'Elon Musk tweets, then deletes DMs from Matt Taibbi over his Substack snit - The Verge'"
 tags: ["Elon Musk","Substack","Twitter","Matt Taibbi","Twitter Files"]

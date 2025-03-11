@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2024-11-26T14:32:55-05:00
 tags: ["RSS","Reeder","emoji","Bluesky","Mastodon"]
 featured_image: "/2024-11-26-emoji-alphabetization.JPEG"

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-02-03T21:05:08-05:00
 title: "🔗 linkblog: just finished 'SHOP SAFE Will Stomp Out Online Sales of Used and Homemade Goods | Electronic Frontier Foundation'"
 tags: ["intellectual property"]

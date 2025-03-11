@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-08-10T10:41:03-04:00
 title: ""
 tags: ["RCAH","CLAC","writing","research","autoethnography"]

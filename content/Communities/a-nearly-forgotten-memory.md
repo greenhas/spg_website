@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-03-04T20:33:54-05:00
 title: "a nearly-forgotten memory of failing to stand up to Islamophobia"
 tags: ["Latter-day Saint missionaries","exclusivism","Strasbourg","France","Josh Rosenberg"]

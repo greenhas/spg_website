@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-06-22T22:11:27-04:00
 title: "🔗 linkblog: my thoughts on 'Reddit pressures mods to end the blackout as they find new ways to protest - The Verge'"
 tags: ["Reddit","Twitter","The Verge"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-25T06:38:09-04:00
 title: "🔗 linkblog: my thoughts on 'Scanning student rooms during remote tests is unconstitutional, judge rules : NPR'"
 tags: ["exam proctoring","surveillance","privacy"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-07-31T11:38:59-04:00
 title: "slides for guest lecture on platform perspectives, digital labor, and the digital divide"
 tags: ["digital divide","platform perspective","platforms","digital labor","Elon Musk","Jeff Bezos","Amazon","Kindle","comics","BD","LIS 600","Gas"]

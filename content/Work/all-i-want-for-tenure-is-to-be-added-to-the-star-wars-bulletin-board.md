@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-10-10T11:53:46-04:00
 title: "all I want for tenure is to be added to the Star Wars bulletin board"
 tags: ["Star Wars","tenure","tenure and promotion","tenure application"]

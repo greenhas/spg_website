@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-04-04T15:47:47-04:00
 title: "on seeing the humanity in terrible people"
 tags: ["Bill Cosby","Wil Wheaton","forgiveness","The Book of Forgiving","Community of Christ Seminary","Desmond Tutu","Mpho Tutu","Graceland CIMM"]

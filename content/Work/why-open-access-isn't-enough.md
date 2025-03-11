@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-07-06T13:45:41-04:00
 title: "why 'open access' isn't enough"
 tags: ["David Wiley","OER","Creative Commons","remixing","alternative textbooks","copyright","licensing","open access","edtech","data science","ICT 661","R","tidyverse","data feminism","Josh Rosenberg","open licensing","research paradigms","free vs. libre"]

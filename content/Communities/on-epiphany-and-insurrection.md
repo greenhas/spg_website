@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-01-06T09:00:00-05:00
 title: "on Epiphany and insurrection"
 tags: ["Epiphany","Capitol riot","Donald Trump","Herod","liturgical calendar","Radio Télévision Suisse","faith transition","COVID-19","podcasts","Saul","Massacre of the Innocents","Urban Federer"]

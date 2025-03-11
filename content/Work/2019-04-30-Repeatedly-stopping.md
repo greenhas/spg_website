@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-04-30T14:40:40-04:00
 title: ""
 tags: ["teaching","grading"]

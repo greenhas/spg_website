@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-07-29T09:54:48-04:00
 title: "surveillance (but not accountability) in school acceptable use policies"
 tags: ["parenting","edtech","surveillance","privacy","Kentucky","Kentucky General Assembly","Chromebooks","Google"]

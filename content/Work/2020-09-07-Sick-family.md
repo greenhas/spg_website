@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2020-09-07T10:56:35-04:00
 title: ""
 tags: ["COVID-19","online teaching"]

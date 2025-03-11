@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-24T18:40:07-04:00
 title: "🔗 linkblog: my thoughts on 'Erik Prince wants to sell you a secure smartphone that's too good to be true | MIT Technology Review'"
 tags: ["Erik Prince","privacy","smartphone","Blackwater"]

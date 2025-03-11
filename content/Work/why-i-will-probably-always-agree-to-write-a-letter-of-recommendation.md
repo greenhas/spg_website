@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-06-02T19:57:02-04:00
 title: "why I will (probably?) always agree to write a letter of recommendation for a student"
 tags: ["teaching","BYU", "letters of recommendation","mentorship","France","Switzerland"]

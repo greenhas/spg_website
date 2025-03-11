@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-07-21T19:00:03-04:00
 title: "abandoning the false god of control"
 tags: ["God","rationalism","Gérard Siegwalt","La réinvention du nom de Dieu","David Graeber","David Wengrow","The Dawn of Everything","edtech","causal relationships","Robin Wall Kimmerer","Braiding Sweetgrass","Dumbing of Age","incarnation","incarnation","James Martin","Seven Last Words"]

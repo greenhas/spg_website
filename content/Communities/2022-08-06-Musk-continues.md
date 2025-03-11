@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-06T16:03:36-04:00
 title: "🔗 linkblog: my thoughts on 'Elon Musk challenges Twitter CEO to a ‘public debate’ about bots - The Verge'"
 tags: ["Elon Musk","Twitter"]

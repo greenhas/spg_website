@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-05-22T17:29:10-04:00
 tags: ["tea","CBD","stress","anxiety"]
 ---

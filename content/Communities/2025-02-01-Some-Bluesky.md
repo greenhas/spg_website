@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2025-02-01T18:09:59-05:00
 tags: ["Latter-day Saint missionaries","Church of Jesus Christ of Latter-day Saints","immigration"]
 ---

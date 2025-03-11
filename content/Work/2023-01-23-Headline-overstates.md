@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-01-23T14:58:40-05:00
 title: "🔗 linkblog: my thoughts on 'ChatGPT Is Passing the Tests Required for Medical Licenses and Business Degrees'"
 tags: ["assessment","artificial intelligence","OpenAI"]

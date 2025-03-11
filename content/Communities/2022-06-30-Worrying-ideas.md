@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-06-30T11:20:32-04:00
 title: "🔗 linkblog: my thoughts on 'U.S. Supreme Court takes on the independent state legislature theory : NPR'"
 tags: ["SCOTUS","democracy"]

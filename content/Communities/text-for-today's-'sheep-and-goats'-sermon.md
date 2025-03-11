@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-07-28T14:23:33-04:00
 title: "text for today's 'Sheep and Goats' sermon"
 tags: ["Beyond the Walls","Community of Christ","Sheep and Goats","La réinvention du nom de Dieu","Gérard Siegwalt","The Bezzle","Cory Doctorow","Nadia Bolz-Weber","Accidental Saints","Charles Neff","incarnation"]

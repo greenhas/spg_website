@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2024-11-19T13:17:05-05:00
 tags: ["Twitter","Elon Musk","Mike Masnick","One Billion Users"]
 featured_image: "/2024-11-19-hellsite.JPEG"

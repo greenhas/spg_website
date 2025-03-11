@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-01-02T11:21:43-05:00
 tags: ["Mickey Mouse","Disney","copyright","intellectual property","public domain"]
 ---

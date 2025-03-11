@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-10-19T16:03:51-04:00
 title: "🔗 linkblog: my thoughts on 'Ye’s ‘Buyout’ Of Parler Looks Very Much Like A Failed Company Taking Advantage Of Troubled Rich Guy | Techdirt'"
 tags: ["Ye","Parler","Mike Masnick"]

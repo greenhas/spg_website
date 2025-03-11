@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-01-06T16:14:28-05:00
 title: "🔗 linkblog: just finished 'Banned from Facebook and Twitter, far right groups are still a presence online. : NPR'"
 tags: ["far right","content moderation"]

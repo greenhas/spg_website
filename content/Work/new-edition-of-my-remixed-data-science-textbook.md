@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-08-18T11:33:18-04:00
 title: "new edition of my remixed data science textbook"
 tags: ["ICT 661","OER","teaching","Creative Commons","bookdown","R","open textbooks","alternative textbooks"]

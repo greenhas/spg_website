@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2025-02-10T18:23:44-05:00
 tags: ["NIH","Project 2025","University of Kentucky"]
 ---

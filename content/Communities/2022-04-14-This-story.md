@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-04-14T17:08:08-04:00
 title: "🔗 linkblog: my thoughts on 'Twitter and Elon Musk Are Now at War'"
 tags: ["Twitter","Elon Musk"]

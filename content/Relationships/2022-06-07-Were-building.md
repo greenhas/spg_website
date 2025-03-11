@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-06-07T16:37:28-04:00
 title: ""
 tags: ["tabletop games","eurogames"]

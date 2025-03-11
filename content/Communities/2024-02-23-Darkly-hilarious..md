@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-02-23T11:41:56-05:00
 tags: ["Christianity","immigration","Jesus"]
 title: "🔗 linkblog: my thoughts on 'Christians Explain How Jesus Would Handle The Border Crisis'"

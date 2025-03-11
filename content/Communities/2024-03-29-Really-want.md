@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-03-29T11:44:27-04:00
 tags: ["Holy Week","Holy Saturday","liturgical calendar","Easter","Superman","comics"]
 ---

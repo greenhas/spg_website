@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-03-07T08:35:50-05:00
 title: ""
 tags: ["public transit","buses"]

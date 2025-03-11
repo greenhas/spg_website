@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-09-14T17:29:57-04:00
 title: ""
 tags: ["STEAM","STEM","NSF"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-08-13T11:10:42-04:00
 title: "distant villages turned metro stops"
 tags: ["Graham Robb","public transit","Paris","Geneva","open source","Frankenstein","Ubuntu","Linux"]

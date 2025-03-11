@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-05-24T09:23:00-04:00
 title: "🔗 linkblog: my thoughts on '584 | What’s Brewing | A Path Forward for Chicago – Project Zion Podcast'"
 tags: ["Project Zion Podcast","Community of Christ","Kentucky","digital ministry","virtual ministry"]

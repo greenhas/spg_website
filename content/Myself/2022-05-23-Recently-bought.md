@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-05-23T09:23:03-04:00
 title: ""
 tags: ["ABBA","music","optical drive"]

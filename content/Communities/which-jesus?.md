@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-08-11T09:38:41-04:00
 title: "which Jesus?"
 tags: ["David Bentley Hart","Christianity","Stephen Veazey","World Conference","Community of Christ","Matt Mikalatos","Imaginary Jesus","A History of the Bible","John Barton","Andrew Torba","Gab","Christian nationalism"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-12-02T21:11:56-05:00
 tags: ["content moderation","OpenAI","ChatGPT"]
 title: "🔗 linkblog: my thoughts on 'Certain names make ChatGPT grind to a halt, and we know why'"

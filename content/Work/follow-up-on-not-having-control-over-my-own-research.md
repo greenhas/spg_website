@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-06-10T13:16:47-04:00
 title: "follow up on not having control over my own research"
 tags: ["publishing","research","copyright","intellectual property","academic publishing"]

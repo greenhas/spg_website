@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-04-30T10:52:37-04:00
 title: "affirming worship services and queerphobic campuses"
 tags: ["affirming church","lgbtq","Community of Christ","World Conference","2023 World Conference","BYU","Mike Lee","Harmony"]

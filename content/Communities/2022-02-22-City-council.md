@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-02-22T19:41:16-05:00
 title: ""
 tags: ["local government","local politics","ALPRs","Lexington"]

@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2024-02-28T21:39:20-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for The Undertaking of Hart and Mercy, by Megan Bannen"

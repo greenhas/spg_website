@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-03-06T13:15:01-05:00
 title: "coming to peace with the Kirtland Temple sale"
 tags: ["Kirtland Temple","Community of Christ","Church of Jesus Christ of Latter-day Saints","Stephen Veazey","David Howlett","Restorations","faith transition","Gordon Hinckley","intervening God","non-theism","happy coincidences","Introduction to Scripture","Temple School"]

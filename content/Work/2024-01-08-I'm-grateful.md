@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-01-08T12:33:44-05:00
 tags: ["learning design","instructional design","education","learning","Audrey Watters","engineering","George Veletsianos"]
 title: "🔗 linkblog: my thoughts on 'Are education and learning engineering problems? – George Veletsianos, PhD'"

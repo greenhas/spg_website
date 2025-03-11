@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-05-24T13:02:55-04:00
 title: "giving ordination another go"
 tags: ["Community of Christ","faith transition","priesthood","Katie Harmon-McLaughlin","Mormonism"]

@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: tv
 date: 2024-10-11T21:42:15-04:00
 tags: ["Myself","Slow Horses"]

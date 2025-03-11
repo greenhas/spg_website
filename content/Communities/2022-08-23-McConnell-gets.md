@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-23T18:07:45-04:00
 title: "🔗 linkblog: my thoughts on 'McConnell Dismisses the Threats to U.S. Democracy - The New York Times'"
 tags: ["Mitch McConnell","Kentucky","GOP"]

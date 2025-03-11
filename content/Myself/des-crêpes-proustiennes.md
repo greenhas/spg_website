@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-08-07T21:20:58-04:00
 title: "des crêpes proustiennes"
 tags: ["Grenoble","France","crêpes","Mormonism","Grenoble","Quick","Burger King","parenting"]

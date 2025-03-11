@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-09-17T20:36:56-04:00
 tags: ["Mozilla","fediverse","ActivityPub","Mastodon"]
 ---

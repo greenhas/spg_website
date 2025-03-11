@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-11-16T08:14:39-05:00
 tags: ["ed psych","ICT 302","constructivism","direct instruction"]
 ---

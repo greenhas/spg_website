@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-02-14T08:32:50-05:00
 title: ""
 tags: ["Venmo","privacy","data privacy"]

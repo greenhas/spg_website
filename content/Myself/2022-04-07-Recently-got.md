@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-04-07T11:53:34-04:00
 title: ""
 tags: ["radio","Apple Music","music streaming"]

@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2023-11-05T15:09:19-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Ultimate Spider-Man: Vol. 3, Double Trouble, by Brian Michael Bendis and Mark Bagley"

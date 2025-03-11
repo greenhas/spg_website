@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-10-10T21:13:29-04:00
 tags: ["bikes","Halloween"]
 ---

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-01-06T16:30:05-05:00
 title: ""
 tags: ["Albert Camus","French","edtech","research"]

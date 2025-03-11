@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-06-14T21:54:25-04:00
 title: ""
 tags: ["Life on Mars"]

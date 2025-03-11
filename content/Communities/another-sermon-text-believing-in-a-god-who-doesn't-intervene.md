@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2025-01-26T21:06:38-05:00
 title: "another sermon text: believing in a God who doesn't intervene"
 tags: ["non-theism","Beyond the Walls","Community of Christ","intervening God","John Hamer"]

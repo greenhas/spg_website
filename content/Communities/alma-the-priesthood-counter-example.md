@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-10-13T16:27:07-04:00
 title: "Alma the priesthood counter-example"
 tags: ["priesthood","Alma","Church of Jesus Christ of Latter-day Saints","Mormonism","sacraments","Restorations","Book of Mormon","afterlife","William Bickerton","grace"]

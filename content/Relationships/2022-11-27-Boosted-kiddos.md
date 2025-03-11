@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-11-27T08:47:47-05:00
 title: ""
 tags: ["parenting","chores","magic","music","Christmas","Mannheim Steamroller","mbnov2022"]

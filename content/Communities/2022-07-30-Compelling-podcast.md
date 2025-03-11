@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-07-30T13:39:53-04:00
 title: "🔗 linkblog: my thoughts on 'The Tech We Won’t Build — The Internet Health Report 2022'"
 tags: ["Mozilla","podcasts","AI","ethics"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-03-01T08:56:43-05:00
 title: ""
 tags: ["ClassDojo","walled garden","platforms","edtech"]

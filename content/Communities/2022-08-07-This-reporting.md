@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-07T12:34:37-04:00
 title: "🔗 linkblog: my thoughts on 'The Teen Who Helped Expose the Boy Scouts’ Pedophilia Epidemic, and the Mormon Church’s Cover-Up'"
 tags: ["Boy Scouts of America","Scouting","The Church of Jesus Christ of Latter-day Saints","Mormonism","abuse","child abuse","sexual abuse"]

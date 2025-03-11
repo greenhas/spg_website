@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-07-08T09:45:10-04:00
 title: "🔗 linkblog: my thoughts on 'Marco Rubio Pretends To Be A TikTok Privacy Champion, Despite Years Of Undermining U.S. Consumer Privacy | Techdirt'"
 tags: ["Marco Rubio","privacy","TikTok"]

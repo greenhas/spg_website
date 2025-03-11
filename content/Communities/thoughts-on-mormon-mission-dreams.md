@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-03-31T09:25:09-04:00
 title: "thoughts on Mormon mission dreams"
 tags: ["Latter-day Saint missionaries","dreams","Brittany Long Olsen","faith crisis","depression","anxiety","perfectionism","Craig Harline","comics"]

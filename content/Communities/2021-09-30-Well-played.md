@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-09-30T12:30:26-04:00
 title: "🔗 linkblog: just read 'Amazon Astro Leaks Data All Over New Carpet'"
 tags: ["Amazon","data"]

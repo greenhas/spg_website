@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-07-19T19:46:30-04:00
 title: ""
 tags: ["TTRPGs","parenting"]

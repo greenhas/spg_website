@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-04-06T12:52:07-04:00
 tags: ["soccer","parenting","Eurovision","Eurovision 2024"]
 ---

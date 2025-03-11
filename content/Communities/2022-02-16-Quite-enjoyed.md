@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-02-16T12:18:36-05:00
 title: "🔗 linkblog: my thoughts on 'Talking to Art Spiegelman As the Latest ‘Maus’ Fight Erupts'"
 tags: ["Maus"]

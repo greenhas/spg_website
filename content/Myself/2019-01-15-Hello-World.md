@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-01-15T11:37:59-05:00
 title: ""
 tags: ["Siri Shortcuts","iOS","automation","blogging","Hugo"]

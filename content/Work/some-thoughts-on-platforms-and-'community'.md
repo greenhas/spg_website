@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-08-24T09:59:35-04:00
 title: "some thoughts on platforms and 'community'"
 tags: ["community vs. space","community of practice","affinity space","Étienne Wenger","ClassDojo","Jean Lave","James Paul Gee","Barry Wellman","José van Dijck","Dan Krutka","parenting"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-03-08T17:29:42-05:00
 title: ""
 tags: ["parenting","The Magic School Bus"]

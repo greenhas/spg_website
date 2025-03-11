@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-04-21T18:50:35-04:00
 tags: ["soccer","parenting"]
 ---

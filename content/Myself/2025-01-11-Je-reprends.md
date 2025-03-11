@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2025-01-11T19:10:37-05:00
 title: "📚 bookblog: ❤️❤️❤️🖤🖤 pour XIII Tome 8 : Treize contre un, par Vance et Van Hamme"

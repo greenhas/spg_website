@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-05-19T09:42:10-04:00
 title: "XIII comic reference in Slow Horses series?"
 tags: ["comics", "BD","XIII","John Finnemore", "John Le Carré","Cabin Pressure"]

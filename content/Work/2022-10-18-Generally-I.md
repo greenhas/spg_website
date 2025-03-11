@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-10-18T09:46:27-04:00
 title: ""
 tags: ["ICT 661","programming","data science"]

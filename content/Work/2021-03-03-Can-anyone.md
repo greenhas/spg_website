@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-03-03T09:06:28-05:00
 title: ""
 tags: ["Battlestar Galactica","networks","ICT 202"]

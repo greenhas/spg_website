@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-06-16T07:46:49-04:00
 title: "🔗 linkblog: my thoughts on 'Facebook Says Apple is Too Powerful. They're Right. | Electronic Frontier Foundation'"
 tags: ["Cory Doctorow","EFF","Apple","Facebook","app stores","interoperability","platforms"]

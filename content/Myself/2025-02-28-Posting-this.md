@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2025-02-28T19:44:58-05:00
 tags: ["Mozilla","Firefox"]
 title: "🔗 linkblog: my thoughts on 'Mozilla is already revising its new Firefox terms to clarify how it handles user data'"

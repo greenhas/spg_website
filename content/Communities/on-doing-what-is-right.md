@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-05-10T09:01:55-04:00
 title: "on doing—and asking—what is right"
 tags: ["Louisville Public Media","Kelly Craft","persecution","Community of Christ","LGBTQ","transphobia","2023 Kentucky elections","Kentucky"]

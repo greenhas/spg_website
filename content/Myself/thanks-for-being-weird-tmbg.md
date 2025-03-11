@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-04-14T12:30:13-04:00
 title: "thanks for being weird, TMBG"
 tags: ["music","Mormonism","They Might Be Giants","The Aquabats","Public Service Broadcasting","Neil Cicierega","Indochine","internet radio","Stromae","Les Cowboys Fringants"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-07-09T15:05:05-04:00
 title: "text for today's Toronto Congregation sermon"
 tags: ["Community of Christ","Parable of the Samaritan","Samaritan","Astro City","Mitchell and Webb","John Hamer","Amy-Jill Levine","Christian nationalism","anti-Semitism","Beyond the Walls"]

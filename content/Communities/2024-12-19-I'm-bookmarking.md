@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-12-19T08:37:27-05:00
 tags: ["Palestine","Munther Isaac","Christmas","Advent","incarnation"]
 title: "🔗 linkblog: my thoughts on 'Christ in the Rubble: A Liturgy of Lament (2023 Christmas Message by Rev. Dr. Munther Isaac) | Red Letter Christians Podcast'"

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-04-13T15:25:06-04:00
 title: ""
 tags: ["Radio Télévision Suisse","Eurovision"]

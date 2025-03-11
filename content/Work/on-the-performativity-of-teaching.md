@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-11-08T15:42:28-05:00
 title: "on the performativity of teaching"
 tags: ["teaching","learning","research","assessment","research ethics"]

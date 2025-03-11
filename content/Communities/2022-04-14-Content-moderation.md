@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-04-14T19:43:06-04:00
 title: "🔗 linkblog: my thoughts on 'Elon Musk, After Toying With Twitter, Now Wants It All - The New York Times'"
 tags: ["Elon Musk","Twitter","content moderation","free speech"]

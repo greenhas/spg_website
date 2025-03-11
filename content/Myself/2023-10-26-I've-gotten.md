@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-10-26T19:09:23-04:00
 tags: ["Star Wars"]
 title: "🔗 linkblog: my thoughts on 'Victor Wembanyama Star Wars: NBA Rookie Star's Wild Ranking'"

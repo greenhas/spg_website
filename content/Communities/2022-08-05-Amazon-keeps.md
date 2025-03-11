@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-05T11:06:15-04:00
 title: "🔗 linkblog: my thoughts on 'Amazon Buying Roomba Maker iRobot for $1.7 Billion - WSJ'"
 tags: ["Amazon","Roomba"]

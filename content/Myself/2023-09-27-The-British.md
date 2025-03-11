@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-09-27T22:02:08-04:00
 tags: ["radio","accents","audiobook","USA","United Kingdom"]
 ---

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-04-17T14:21:12-04:00
 title: "🔗 linkblog: my thoughts on 'Trump as a Modern-Day Party Boss: Hoarding Cash and Doling Out Favors - The New York Times'"
 tags: ["Donald Trump","GOP"]

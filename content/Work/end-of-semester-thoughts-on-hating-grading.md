@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-12-19T10:39:30-05:00
 title: "end-of-semester thoughts on hating grading"
 tags: ["grading","teaching","FREN 102","BYU","ungrading"]

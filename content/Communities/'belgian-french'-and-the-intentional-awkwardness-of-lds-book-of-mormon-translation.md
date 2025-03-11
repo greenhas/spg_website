@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-08-01T20:36:59-04:00
 title: "'Belgian French' and the intentional awkwardness of LDS Book of Mormon translation"
 tags: ["translation","Book of Mormon","rereading the Book of Mormon project","French","King James Version","Mark Scherer","Mormonism","The Church of Jesus Christ of Latter-day Saints","Community of Christ","Latter-day Saint missionaries"]

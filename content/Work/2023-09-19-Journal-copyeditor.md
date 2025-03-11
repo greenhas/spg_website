@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-09-19T16:12:53-04:00
 title: ""
 tags: ["research","writing","publishing"]

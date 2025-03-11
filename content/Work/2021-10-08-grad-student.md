@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-10-08T14:45:23-04:00
 title: ""
 tags: ["Star Wars","trains"]

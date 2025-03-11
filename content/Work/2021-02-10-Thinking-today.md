@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-02-10T11:40:45-05:00
 title: ""
 tags: ["mentorship"]

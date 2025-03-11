@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-12-14T12:00:09-05:00
 title: "🔗 linkblog: my thoughts on 'Twitter Bans Elon Musk Flight Tracking Account After He Said It Wouldn’t, for Free Speech'"
 tags: ["Twitter","Elon Musk"]

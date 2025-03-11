@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-04-06T12:53:54-04:00
 tags: ["Cory Doctorow","enshittification","swearing"]
 ---

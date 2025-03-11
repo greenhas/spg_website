@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-04-22T11:58:58-04:00
 title: ""
 tags: ["ICT 202","social justice","technology"]

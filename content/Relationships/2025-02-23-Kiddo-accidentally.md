@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2025-02-23T18:06:04-05:00
 tags: ["parenting","Dungeons and Dragons"]
 ---

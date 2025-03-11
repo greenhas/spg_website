@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-01-31T13:45:48-05:00
 title: ""
 tags: ["Twine","NaNoTwiMo","NaNoWriMo"]

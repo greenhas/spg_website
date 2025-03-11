@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-10-23T13:24:53-04:00
 tags: ["lottery","Lexington Herald-Leader","taxes","regressive taxation","local news"]
 ---

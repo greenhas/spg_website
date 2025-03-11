@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-06-07T14:54:13-04:00
 title: ""
 tags: ["research","tenure","parenting"]

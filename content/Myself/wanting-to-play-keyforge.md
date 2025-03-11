@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-10-04T10:02:56-04:00
 title: "wanting to play Keyforge"
 tags: ["card games","tabletop games","board games","Keyforge","Pokémon TCG","Magic: The Gathering","X-Wing Miniatures Game","Mastodon"]

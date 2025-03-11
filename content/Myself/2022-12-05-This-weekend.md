@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-12-05T08:18:10-05:00
 title: ""
 tags: ["Kate Beaton","comics","reading"]

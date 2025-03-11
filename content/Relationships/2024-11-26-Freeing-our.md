@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-11-26T16:52:05-05:00
 tags: ["Audible","libro.fm","audiobooks"]
 ---

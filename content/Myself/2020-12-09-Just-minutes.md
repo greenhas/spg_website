@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2020-12-09T22:18:41-05:00
 title: ""
 tags: ["Harry Turtledove","reading"]

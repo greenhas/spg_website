@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2020-12-09T09:36:41-05:00
 title: ""
 tags: ["reading","COVID-19"]

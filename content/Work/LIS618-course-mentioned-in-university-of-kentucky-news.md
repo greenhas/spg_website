@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-08-04T08:49:39-04:00
 title: "LIS 618 course mentioned in University of Kentucky news"
 tags: ["LIS 618","games","gamification","teaching","UKnow","University of Kentucky","LIS","media appearances"]

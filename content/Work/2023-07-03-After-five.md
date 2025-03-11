@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-07-03T11:38:20-04:00
 title: ""
 tags: ["LIS","libraries","teaching"]

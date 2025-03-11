@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-12-06T13:37:00-05:00
 title: "de petits souvenirs ferroviaires de Suisse"
 tags: ["in cab videos","trains","Switzerland","Radio Télévision Suisse","Versoix"]

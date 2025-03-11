@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-11-12T15:14:30-05:00
 title: ""
 tags: ["SSSR 2022","conferences","research","mbnov2022"]

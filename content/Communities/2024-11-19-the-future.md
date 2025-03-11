@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2024-11-19T13:23:45-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️❤️ for The Future, by Naomi Alderman"

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-12-31T16:00:00-05:00
 title: "media I consumed in 2023"
 tags: ["journaling","Day One","Siri Shortcuts","comics"]

@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2024-03-25T13:59:04-04:00
 title: "📚 bookblog: ❤️❤️❤️🖤🖤 for The New Testament: A Translation, by David Bentley Hart"

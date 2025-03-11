@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-05-20T12:51:43-04:00
 title: "on (re)claiming the name Mormon"
 tags: ["Mormonism","Exponent II","Nancy Ross","Kerry Pray","Russell Nelson","Community of Christ","Mormon"]

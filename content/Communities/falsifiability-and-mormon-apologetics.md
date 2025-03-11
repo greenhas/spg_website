@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-04-19T14:00:42-04:00
 title: "falsifiability and Mormon apologetics"
 tags: ["Kirtland Temple","Russell Nelson","Church of Jesus Christ of Latter-day Saints","exclusivity","falsifiability","Salt Lake Tribune","Bloggernacle","Ezra Taft Benson","Gordon Hinckley"]

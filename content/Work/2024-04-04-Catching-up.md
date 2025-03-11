@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-04-04T13:50:36-04:00
 tags: ["grading","teaching","LIS 618","Hypothesis","annotation","social annotation"]
 ---

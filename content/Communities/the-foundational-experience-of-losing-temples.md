@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-09-16T09:30:28-04:00
 title: "the foundational experience of losing temples"
 tags: ["Kirtland Temple","Community of Christ","Church of Jesus Christ of Latter-day Saints","Babylonian exile"]

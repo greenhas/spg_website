@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-08-18T23:08:29-04:00
 title: "🔗 linkblog: just read 'How Teenagers Are Rediscovering An Old Game About Authoritarianism | by Clive Thompson | Aug, 2021 | OneZero'"
 tags: ["Papers Please","videogames"]

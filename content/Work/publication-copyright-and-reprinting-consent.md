@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-12-14T16:48:38-05:00
 title: "publication copyright and reprinting consent"
 tags: ["publishing","research","copyright","intellectual property","academic publishing"]

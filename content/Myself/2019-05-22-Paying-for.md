@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-05-22T21:47:04-04:00
 title: ""
 tags: ["Posteo","Google"]

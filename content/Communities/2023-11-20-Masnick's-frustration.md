@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-11-20T13:31:13-05:00
 tags: ["Mike Masnick","free speech","Twitter","Elon Musk","Media Matters"]
 title: "🔗 linkblog: my thoughts on '‘Free Speech Absolutist’ Elon Musk Promises To Sue Media Matters To Silence Their Speech | Techdirt'"

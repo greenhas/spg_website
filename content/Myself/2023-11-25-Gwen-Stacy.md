@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2023-11-25T18:07:27-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Ultimate Spider-Man: Vol. 11, Carnage, by Brian Michael Bendis and Mark Bagley"

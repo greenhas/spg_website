@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-06-11T12:48:57-04:00
 tags: ["Rassemblement national","Les républicains","France","far right"]
 title: "🔗 linkblog: my thoughts on 'La droite française se déchire sur une possible alliance avec le RN en vue des législatives'"

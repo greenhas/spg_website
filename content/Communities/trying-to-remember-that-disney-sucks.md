@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-08-14T16:34:15-04:00
 title: "trying to remember that Disney sucks (even if I like a lot of their IP)"
 tags: ["David Graeber","David Wengrow","The Dawn of Everything","Cory Doctorow","schismogenesis","Ron DeSantis","intellectual property","copyright","Disney","Marvel","Star Wars"]

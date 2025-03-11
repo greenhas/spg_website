@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-10-25T11:36:30-04:00
 title: "Atomic Robo, the Book of Mormon, and Animal Man"
 tags: ["Atomic Robo","Animal Man","Book of Mormon","TTRPGs","Star Wars","webcomics","Mormonism","Marvel","Elray Henriksen"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-01-14T09:52:51-05:00
 title: ""
 tags: ["LiveJournal","Wayback Machine","journaling"]

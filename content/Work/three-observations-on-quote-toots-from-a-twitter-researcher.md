@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-01-03T08:54:20-05:00
 title: "three grumpy observations from a Twitter researcher on requests for 'quote toots'"
 tags: ["Mastodon","Twitter","affordances and constraints","digital traces research","platforms"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-08-21T16:22:32-04:00
 title: ""
 tags: ["Marc Prensky","digital natives"]

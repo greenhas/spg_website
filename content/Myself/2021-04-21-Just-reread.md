@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-04-21T20:43:47-04:00
 title: ""
 tags: ["Gab","far right","Superman Smashes the Klan","comics","Superman","research"]

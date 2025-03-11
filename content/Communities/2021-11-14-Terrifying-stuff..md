@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-11-14T12:48:33-05:00
 title: "🔗 linkblog: just read 'Vizio’s profit on ads, subscriptions, and data is double the money it makes selling TVs - The Verge'"
 tags: ["smart TVs","privacy","advertising"]

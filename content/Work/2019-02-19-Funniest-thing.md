@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-02-19T16:28:11-05:00
 title: ""
 tags: ["Twitter research"]

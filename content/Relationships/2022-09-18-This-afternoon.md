@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-09-18T16:30:19-04:00
 title: ""
 tags: ["reading","parenting"]

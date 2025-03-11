@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2023-06-10T22:39:25-04:00
 title: "📚 bookblog: ❤️❤️❤️🖤🖤 for Ex Machina (Book 1), by Brian K. Vaughn and Tony Harris"

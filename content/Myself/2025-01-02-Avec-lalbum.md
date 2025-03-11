@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2025-01-02T13:46:06+01:00
 title: "📚 bookblog: ❤️❤️🖤🖤🖤 pour XIII Tome 7 : La nuit du 3 août, par Vance et Van Hamme"

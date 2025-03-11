@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-01-20T13:08:24-05:00
 title: ""
 tags: ["2020 election"]

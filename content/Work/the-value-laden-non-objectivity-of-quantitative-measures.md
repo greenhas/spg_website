@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-03-07T11:10:35-05:00
 title: "high school class rankings and the value-laden non-objectivity of quantitative measures"
 tags: ["research","quantitative","quantitative research","quantification","high school","Boone County High School","grading","datafication","objectivity"]

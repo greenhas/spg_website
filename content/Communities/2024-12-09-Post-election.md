@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-12-09T13:36:49-05:00
 tags: ["KOSA","2024 elections","Elon Musk","Twitter"]
 title: "🔗 linkblog: my thoughts on 'New KOSA, Same As Old KOSA, But Now With Elon’s Ignorant Endorsement'"

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-10-24T18:23:42-04:00
 tags: ["French","Switzerland","Sweden","Senegal","United States"]
 title: "🔗 linkblog: mes pensées sur 'Stockholm fait campagne contre la confusion entre la Suisse et la Suède - rts.ch - Suisse'"

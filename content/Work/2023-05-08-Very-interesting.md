@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-05-08T06:24:22-04:00
 title: "🔗 linkblog: my thoughts on 'People are arguing in court that real images are deepfakes : NPR'"
 tags: ["Elon Musk","AI","deepfake","liar's dividend"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-12-08T07:39:50-05:00
 tags: ["French"]
 ---

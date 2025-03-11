@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-08-13T13:57:22-04:00
 title: ""
 tags: ["Apple","privacy","surveillance"]

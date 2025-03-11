@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-01-04T20:20:21-05:00
 title: "🔗 linkblog: just finished 'Election Falsehoods Surged on Podcasts Before Capitol Riots, Researchers Find - The New York Times'"
 tags: ["podcasts","2020 election","Capitol riot","platforms","content moderation"]

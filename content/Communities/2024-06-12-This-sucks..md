@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-06-12T10:07:17-04:00
 tags: ["Mozilla","Firefox","Russia"]
 title: "🔗 linkblog: my thoughts on 'Firefox Browser Blocks Anti-Censorship Add-Ons at Russia’s Request'"

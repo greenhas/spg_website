@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-04-05T15:54:55-04:00
 title: "new publication: technology, naming, and legitimacy in the Latter-day Saint tradition"
 tags: ["The Church of Jesus Christ of Latter-day Saints","technology","Dialogue journal","digital religion","Matt Bowman","Mormon Studies","COVID-19","WHOIS","Internet Archive","Wayback Machine","publications"]

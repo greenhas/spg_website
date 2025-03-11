@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-01-29T20:12:05-05:00
 title: "Doctrine & Covenants feat. Doctorow: An unexpected paired text"
 tags: ["Cory Doctorow","Walkaway","Grant McMurray","Zion","kingdom of God","Doctrine & Covenants","Ministry of the Disciple course","Graceland CIMM","hope","radical hope","Gérard Siegwalt","La réinvention du nom de Dieu"]

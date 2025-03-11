@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-04-16T10:46:51-04:00
 tags: ["Zach Weinersmith","webcomics","schools","Saturday Morning Breakfast Cereal"]
 title: "🔗 linkblog: my thoughts on 'Saturday Morning Breakfast Cereal'"

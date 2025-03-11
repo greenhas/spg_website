@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-06-30T10:24:26-04:00
 title: "🔗 linkblog: my thoughts on 'Reddit Won’t Be the Same. Neither Will the Internet | WIRED'"
 tags: ["Reddit","digital labor","OpenAI","AI","generative AI"]

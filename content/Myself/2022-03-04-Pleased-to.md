@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-03-04T10:54:51-05:00
 title: "🔗 linkblog: my thoughts on 'Stromae’s Music Delves Into Dark Topics. His Return Is Right on Time. - The New York Times'"
 tags: ["Stromae","music"]

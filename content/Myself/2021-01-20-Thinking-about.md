@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-01-20T18:30:15-05:00
 title: ""
 tags: ["Dungeons and Dragons","Astérix","TTRPGs","podcasts"]

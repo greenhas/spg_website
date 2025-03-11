@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-01-19T06:45:18-05:00
 tags: ["Emmanuel Macron","centrism","France"]
 title: "🔗 linkblog: my thoughts on 'Macron Shifts Rightward, and Charts a New Course - The New York Times'"

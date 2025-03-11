@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-06-22T13:35:09-04:00
 title: "🔗 linkblog: my thoughts on 'Reddit Tells Mods That Protesting By Changing Sub To NSFW Violates The Rules | Techdirt'"
 tags: ["Reddit"]

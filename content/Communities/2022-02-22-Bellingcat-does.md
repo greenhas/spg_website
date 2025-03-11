@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-02-22T20:19:18-05:00
 title: "🔗 linkblog: my thoughts on 'The Internet Is Debunking Russian War Propaganda in Real Time'"
 tags: ["Ukraine","Russia","disinformation","Bellingcat"]

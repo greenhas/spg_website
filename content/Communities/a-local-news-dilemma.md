@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-11-01T11:31:06-04:00
 title: "a local news dilemma"
 tags: ["local news","RSS","Lexington Herald-Leader","Reeder","web scraping","NPR","404 Media","Platformer"]

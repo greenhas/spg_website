@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-10-20T10:46:11-06:00
 title: "AECT slides from this week"
 tags: ["AECT","AECT 2023","conferences","presentations","social media","teachers","social media research","Dan Krutka"]

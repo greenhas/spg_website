@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-02-03T11:44:18-05:00
 title: ""
 tags: ["news","local news","local politics","Lexington Herald-Leader"]

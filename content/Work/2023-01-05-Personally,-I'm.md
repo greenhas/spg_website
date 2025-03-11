@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-01-05T06:14:04-05:00
 title: "🔗 linkblog: my thoughts on 'New York City schools ban access to ChatGPT over fears of cheating and misinformation - The Verge'"
 tags: ["edtech","assessment","OpenAI","ChatGPT"]

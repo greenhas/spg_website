@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-09-15T11:15:51-04:00
 title: "the Christian symbolism of the name 'Mormon'"
 tags: ["Christianity","Mormon","waters of Mormon","Mormonism","The Church of Jesus Christ of Latter-day Saints","Alma","Limhi","Mosiah","Book of Mormon","redemption"]

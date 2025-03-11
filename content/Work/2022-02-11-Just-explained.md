@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-02-11T13:49:44-05:00
 title: ""
 tags: ["online Mormonism","LGBTQ","Gab","far right"]

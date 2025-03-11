@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2025-01-07T17:29:08-05:00
 tags: ["ALPRs","privacy","surveillance"]
 title: "🔗 linkblog: my thoughts on 'Researcher Turns Insecure License Plate Cameras Into Open Source Surveillance Tool'"

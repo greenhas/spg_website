@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-03-28T15:04:41-04:00
 tags: ["cybercrime","Aaron Swartz"]
 ---

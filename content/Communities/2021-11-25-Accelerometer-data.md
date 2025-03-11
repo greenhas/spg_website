@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-11-25T07:32:02-05:00
 title: "🔗 linkblog: just finished 'Security Researcher Finds Facebook App Tracking iPhone Movements'"
 tags: ["Facebook","privacy","data"]

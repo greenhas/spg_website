@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-09-05T12:55:40-04:00
 title: "unfinished thoughts on games and living one's values"
 tags: ["TTRPGs","Lotus Dimension","Stardew Valley","Cory Doctorow","non-violence","Axis and Allies","Stardew Valley","values","Dungeons and Dragons"]

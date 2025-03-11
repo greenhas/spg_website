@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-12-05T12:41:35-05:00
 title: ""
 tags: ["Advent","comics","BD","Izneo"]

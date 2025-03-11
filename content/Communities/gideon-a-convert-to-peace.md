@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-07-05T12:37:48-04:00
 title: "is the Book of Mormon's Gideon a convert to peace and nonviolence?"
 tags: ["Book of Mormon","Gideon","peace","non-violence","Community of Christ","Capitol riot","Christian nationalism","Lexington","Pride","Proposition 8"]

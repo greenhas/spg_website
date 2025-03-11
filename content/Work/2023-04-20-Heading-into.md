@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-04-20T10:58:31-04:00
 title: ""
 tags: ["plagiarism software","AI","surveillance","edtech"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2020-01-27T11:33:50-05:00
 title: ""
 tags: ["conferences","research"]

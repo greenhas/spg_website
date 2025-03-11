@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-07-14T09:07:38-04:00
 title: "radical early Christianity"
 tags: ["David Bentley Hart","Christianity","wealth","poverty","The Church of Jesus Christ of Latter-day Saints","Community of Christ","libraries","Community of Christ"]

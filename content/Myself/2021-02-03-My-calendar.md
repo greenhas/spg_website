@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-02-03T13:21:40-05:00
 title: ""
 tags: ["personal organization"]

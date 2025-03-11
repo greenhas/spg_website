@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-07-29T20:04:29-04:00
 tags: ["parenting","Eurovision 2023","Eurovision","Blood and Glitter"]
 ---

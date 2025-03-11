@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-01-11T10:34:21-05:00
 title: "R. Sikoryak's 'Terms and Conditions' and ed tech"
 tags: ["R. Sikoryak","Terms and Conditions (comic)","Apple","edtech","terms of service","parenting"]

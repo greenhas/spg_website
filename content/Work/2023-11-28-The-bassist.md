@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-11-28T09:13:07-05:00
 tags: ["Les Cowboys Fringants","academia"]
 ---

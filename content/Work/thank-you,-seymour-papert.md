@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-10-20T09:19:42-04:00
 title: "thank you, Seymour Papert"
 tags: ["Seymour Papert","programming","computer science education","parenting","Logo"]

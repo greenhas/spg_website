@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-09-06T09:12:27-04:00
 title: "there but for the grace of Matt go I"
 tags: ["tenure","academia","privilege","grace","meritocracy"]

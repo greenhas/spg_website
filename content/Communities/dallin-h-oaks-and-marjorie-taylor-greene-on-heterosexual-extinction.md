@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-06-01T12:34:01-04:00
 title: "Dallin Oaks and Marjorie Taylor Greene on heterosexual extinction"
 tags: ["Mormonism","Dallin Oaks","LGBTQ","Marjorie Taylor Greene","heterosexual extinction","Mark E. Peterson","racism","queerphobia","DezNat","The Church of Jesus Christ of Latter-day Saints","research","Ezra Taft Benson"]

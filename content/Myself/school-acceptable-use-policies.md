@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-08-08T10:13:25-04:00
 title: "schools' Acceptable Use Policies and R. Sikoryak's 'Terms and Conditions'"
 tags: ["parenting","Terms of Service","comics","edtech","Amazon","independent bookstores","Batman","The Dark Knight Returns","Squirrel Girl","R. Sikoryak","Terms and Conditions (comic)"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-10-17T12:03:13-04:00
 tags: ["Latter-day Saint missionaries","Mormon history"]
 title: "🔗 linkblog: my thoughts on 'Baseball Baptisms and the British Mission'"

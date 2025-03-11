@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-11-01T11:46:22-04:00
 tags: ["research","digital traces","digital traces research","APIs","Twitter","Elon Musk","web scraping"]
 title: "🔗 linkblog: my thoughts on 'Major critic of X sues after being banned from platform | Ars Technica'"

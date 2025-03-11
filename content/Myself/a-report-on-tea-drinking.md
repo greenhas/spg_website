@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-06-26T20:51:43-04:00
 title: "a report on tea drinking"
 tags: ["tea","Mormonism","Reunion","coffee","Father's Day"]

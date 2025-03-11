@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-01-16T19:47:00-05:00
 tags: ["Grant Hardy","Book of Mormon","Church of Jesus Christ of Latter-day Saints","Annotated Book of Mormon"]
 title: "🔗 linkblog: my thoughts on 'What is the Annotated Book of Mormon? – From the Desk'"

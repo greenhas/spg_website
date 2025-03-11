@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-12-09T17:25:25-05:00
 tags: ["Radicalized","Cory Doctorow","UnitedHealthcare murder","health care"]
 title: "🔗 linkblog: my thoughts on 'Pluralistic: Predicting the present (09 Dec 2024) – Pluralistic: Daily links from Cory Doctorow'"

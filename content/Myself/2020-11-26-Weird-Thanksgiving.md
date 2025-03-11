@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2020-11-26T08:08:44-05:00
 title: "some COVID Thanksgiving thoughts"
 tags: ["privilege","Thanksgiving","COVID-19","running","lower back"]

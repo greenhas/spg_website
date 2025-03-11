@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-04-25T18:28:50-04:00
 title: "🔗 linkblog: my thoughts on 'Trump says he won’t leave Truth Social, despite Musk’s Twitter takeover - The Verge'"
 tags: ["Donald Trump","Truth Social","Elon Musk","Twitter","free speech","content moderation"]

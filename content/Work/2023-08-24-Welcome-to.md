@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-08-24T19:21:12-04:00
 title: ""
 tags: ["tenure","service"]

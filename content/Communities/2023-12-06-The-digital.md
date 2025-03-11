@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-12-06T06:45:16-05:00
 tags: ["digital ownership","digital content"]
 title: "🔗 linkblog: my thoughts on 'You Still Don’t Own What You Bought: Purchased TV Shows From PS Store Go Bye Bye | Techdirt'"

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-10-25T11:25:58-04:00
 tags: ["French","DKL","internet radio"]
 ---

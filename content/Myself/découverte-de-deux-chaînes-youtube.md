@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-07-13T13:11:07-04:00
 title: "découverte de deux chaînes YouTube"
 tags: ["bikes","trains","Dijon","YouTube","public transit","French"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-06-07T12:18:45-04:00
 title: "🔗 linkblog: my thoughts on 'Ms. Marvel review: Kamala Khan’s new series feels like the MCU’s future - The Verge'"
 tags: ["Disney+","Ms. Marvel"]

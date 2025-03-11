@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-03-26T14:13:22-04:00
 tags: ["content moderation","Twitter","Elon Musk"]
 title: "🔗 linkblog: my thoughts on 'Elon Discovers When Content Moderation Makes Sense: When He Can Use It To Protect Racist Bigots From Being Called Out'"

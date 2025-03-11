@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-05-01T14:19:59-04:00
 title: "the Book of Moses and the subjectivity of scripture"
 tags: ["Terryl Givens","Fiona Givens","The Church of Jesus Christ of Latter-day Saints","Book of Moses","Pearl of Great Price","scripture","Community of Christ","subjectivity","Russell Nelson","2023 World Conference","Richard Howard","Joseph Smith Jr.","fundamentalism"]

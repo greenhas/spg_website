@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-10-26T20:11:23-04:00
 title: "a conservative case for a modern language edition of the Book of Mormon"
 tags: ["rereading the Book of Mormon project","Book of Mormon","Royal Skousen","Grant Hardy"]

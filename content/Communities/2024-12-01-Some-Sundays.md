@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-12-01T15:27:25-05:00
 tags: ["2024 elections","church","LGBTQ"]
 ---

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-09-15T15:40:14-04:00
 title: "sticking with the Book of Mormon"
 tags: ["The Church of Jesus Christ of Latter-day Saints","Mormonism","Community of Christ","Book of Mormon","Blair Hodges","Fireside with Blair Hodges","Vanessa Zoltan","Harry Potter and the Sacred Text","Jane Eyre","podcasts","rereading the Book of Mormon project"]

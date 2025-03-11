@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2025-02-01T08:40:23-05:00
 tags: ["California","Donald Trump","2025 Los Angeles fires"]
 title: "🔗 linkblog: my thoughts on 'Acting on Trump's order, federal officials opened up two California dams'"

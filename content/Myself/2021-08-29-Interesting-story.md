@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-08-29T10:24:02-04:00
 title: "🔗 linkblog: just read 'Un manuel transfrontalier pour raconter l'histoire du Grand Genève - rts.ch - Genève'"
 tags: ["Geneva","Switzerland"]

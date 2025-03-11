@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-01-18T15:55:25-05:00
 title: "quoted again about Gas app in EducationWeek"
 tags: ["media appearances","Gas","digital labor"]

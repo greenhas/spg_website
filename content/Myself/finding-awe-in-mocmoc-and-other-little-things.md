@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-09-18T13:01:41-04:00
 title: "finding awe in MocMoc and other little things"
 tags: ["Harry Potter and the Sacred Text","Gare à vous","Radio Télévision Suisse","Vanessa Zoltan","awe","hope","existential dread","YouTube","trains","Urban Traveler","MocMoc"]

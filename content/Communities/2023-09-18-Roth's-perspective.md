@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-09-18T08:54:42-04:00
 title: "🔗 linkblog: my thoughts on 'Opinion | I Was Attacked by Donald Trump and Elon Musk. I Believe It Was a Strategy To Change What You See Online. - The New York Times'"
 tags: ["Twitter","Donald Trump","Yoel Roth","content moderation","Elon Musk"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-05-18T07:18:22-04:00
 title: "🔗 linkblog: my thoughts on 'Madison Cawthorn is beaten in North Carolina's GOP primary : NPR'"
 tags: ["Madison Cawthorn","Ted Cruz"]

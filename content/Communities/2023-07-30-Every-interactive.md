@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-07-30T11:30:17-04:00
 title: ""
 tags: ["digital ministry","worship"]

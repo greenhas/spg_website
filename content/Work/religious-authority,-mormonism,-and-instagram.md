@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-03-22T11:44:59-04:00
 title: "religious authority, Mormonism, and Instagram"
 tags: ["online Mormonism","religious authority","Instagram","Church of Jesus Christ of Latter-day Saints"]

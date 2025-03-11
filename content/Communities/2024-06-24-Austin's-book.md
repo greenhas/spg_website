@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-06-24T21:08:14-04:00
 tags: ["Michael Austin","Book of Mormon","The Testimony of Two Nations"]
 title: "🔗 linkblog: my thoughts on 'How Does the Book of Mormon Reinterpret the Bible? – From the Desk'"

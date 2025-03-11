@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-05-17T15:20:10-04:00
 title: "quoted in Salt Lake Tribune on LDS missionaries' use of social media"
 tags: ["online Mormonism","social media","platforms","religious authority", "Salt Lake Tribune","media appearances"]

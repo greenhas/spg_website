@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-04-20T14:54:43-04:00
 title: ""
 tags: ["emoji"]

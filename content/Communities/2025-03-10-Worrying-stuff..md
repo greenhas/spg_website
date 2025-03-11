@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2025-03-10T07:32:46-04:00
 tags: ["2023 Israel-Gaza War","Palestine","Columbia","Donald Trump"]
 title: "🔗 linkblog: my thoughts on 'ICE arrests Palestinian activist who helped lead Columbia University protests'"

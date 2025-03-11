@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-08-09T17:54:34-04:00
 title: ""
 tags: ["French","parenting"]

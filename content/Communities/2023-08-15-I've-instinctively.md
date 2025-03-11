@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-08-15T19:52:52-04:00
 title: "🔗 linkblog: my thoughts on 'Elon Musk, Once Again, Tries To Throttle Links To Sites He Dislikes | Techdirt'"
 tags: ["Elon Musk","Twitter","content moderation","link shorteners"]

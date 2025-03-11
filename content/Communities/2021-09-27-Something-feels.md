@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-09-27T18:17:15-04:00
 title: ""
 tags: ["Utah","masculinity"]

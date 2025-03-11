@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2025-02-03T10:55:31-05:00
 tags: ["Elon Musk","DOGE","Homestar Runner"]
 ---

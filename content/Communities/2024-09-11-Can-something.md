@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-09-11T10:36:10-06:00
 tags: ["Elon Musk","Taylor Swift"]
 title: "🔗 linkblog: my thoughts on 'Elon Musk Threatens to Impregnate Taylor Swift'"

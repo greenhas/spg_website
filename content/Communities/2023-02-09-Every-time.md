@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-02-09T18:22:59-05:00
 title: "🔗 linkblog: my thoughts on 'Elon Musk’s reach on Twitter is dropping — he just fired a top engineer over it - The Verge'"
 tags: ["Elon Musk","Twitter"]

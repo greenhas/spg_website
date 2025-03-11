@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2025-01-29T06:17:28-05:00
 tags: ["Doonesbury","comic strips","2024 elections"]
 featured_image: "/2025-01-29-Doonesbury-rerun.JPEG"

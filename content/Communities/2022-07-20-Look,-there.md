@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-07-20T07:27:04-05:00
 title: "🔗 linkblog: my thoughts on 'With midterms in sight, few Republicans are defending Trump as they did in 2019 : NPR'"
 tags: ["Capitol riot","2020 election","GOP","Donald Trump"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-12-03T20:19:09-05:00
 tags: ["Duolingo","surveillance","privacy","French","parenting"]
 ---

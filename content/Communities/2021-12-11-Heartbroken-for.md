@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-12-11T08:22:46-05:00
 title: "🔗 linkblog: just finished 'Storms, tornadoes: Western Kentucky death toll update | Lexington Herald Leader'"
 tags: ["2021 Kentucky tornadoes"]

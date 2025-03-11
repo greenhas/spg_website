@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-11-15T06:51:57-05:00
 title: "🔗 linkblog: my thoughts on 'Elon Musk ignored Twitter’s internal warnings about paid verification - The Verge'"
 tags: ["Elon Musk","Twitter"]

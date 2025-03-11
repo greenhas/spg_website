@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-03-25T07:46:47-04:00
 title: ""
 tags: ["parenting"]

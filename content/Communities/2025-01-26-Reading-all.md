@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2025-01-26T08:50:08-05:00
 tags: ["Elon Musk","labor","Cory Doctorow","For the Win","video games","In Real Life"]
 title: "🔗 linkblog: my thoughts on 'Elon Musk, Video Game King? Well, Maybe Not.'"

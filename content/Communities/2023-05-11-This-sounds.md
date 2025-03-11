@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-05-11T08:35:08-04:00
 title: "🔗 linkblog: my thoughts on 'Neighborhood Watch Out: Cops Are Incorporating Private Cameras Into Their Real-Time Surveillance Networks | Electronic Frontier Foundation'"
 tags: ["Fusus","Ring","surveillance","law enforcement","privacy","EFF"]

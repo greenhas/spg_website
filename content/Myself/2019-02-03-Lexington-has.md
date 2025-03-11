@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-02-03T16:53:59-05:00
 title: ""
 tags: ["France","Lexington","French","Lexington sister cities"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-03-05T13:34:59-05:00
 title: "on the SEC and conflating a church with God"
 tags: ["The Church of Jesus Christ of Latter-day Saints","BYU"]

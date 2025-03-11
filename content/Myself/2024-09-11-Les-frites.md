@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-09-11T12:47:26-06:00
 tags: ["Canada","poutine"]
 ---

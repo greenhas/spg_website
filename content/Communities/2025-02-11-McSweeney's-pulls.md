@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2025-02-11T07:07:30-05:00
 tags: ["JD Vance","McSweeney's","racism","DOGE"]
 title: "🔗 linkblog: my thoughts on 'Normalizing Indian Hate Makes Me a Good Father and Husband'"

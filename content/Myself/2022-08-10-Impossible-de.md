@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-08-10T13:06:24-04:00
 title: ""
 tags: ["trains","CFF","Switzerland"]

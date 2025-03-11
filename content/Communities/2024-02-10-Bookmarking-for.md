@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-02-10T07:32:45-05:00
 tags: ["Big Pharma","pharmaceuticals"]
 title: "🔗 linkblog: my thoughts on 'Big Pharma spends billions more on executives and stockholders than on R&D'"

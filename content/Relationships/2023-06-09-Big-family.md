@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-06-09T13:05:42-04:00
 title: ""
 tags: ["bikes","parenting"]

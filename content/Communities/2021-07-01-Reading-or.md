@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-07-01T22:05:33-04:00
 title: ""
 tags: ["Radio Télévision Suisse"]

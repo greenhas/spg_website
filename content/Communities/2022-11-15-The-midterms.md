@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-11-15T14:33:07-05:00
 title: "🔗 linkblog: my thoughts on 'The Far-Right Is Convinced Kari Lake Won: ‘Now Is the Time to Fight’'"
 tags: ["Arizona","Kari Lake","Donald Trump","2022 election"]

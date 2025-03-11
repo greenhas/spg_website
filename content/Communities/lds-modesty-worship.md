@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-12-29T13:31:23-05:00
 title: "on faith transition and letting go of LDS modesty worship"
 tags: ["Salt Lake Tribune","Mormon Land","The Church of Jesus Christ of Latter-day Saints","modesty worship","faith transition","French","parenting","Community of Christ","Katie Harmon-McLaughlin"]

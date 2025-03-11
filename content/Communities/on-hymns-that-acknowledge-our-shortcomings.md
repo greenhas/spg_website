@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-08-07T20:06:25-04:00
 title: "on hymns that acknowledge our shortcomings"
 tags: ["Community of Christ Sings","ByCommonConsent","Community of Christ","Beyond the Walls","Beyond the Walls Choir"]

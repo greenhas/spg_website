@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-05-09T09:19:05-04:00
 title: ""
 tags: ["French","French teaching"]

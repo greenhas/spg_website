@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-06-12T08:14:21-04:00
 tags: ["generative AI","AI detection"]
 title: "🔗 linkblog: my thoughts on 'AI Detectors Get It Wrong. Writers Are Being Fired Anyway'"

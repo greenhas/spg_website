@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-02-23T12:19:08-05:00
 title: "scripture's authority comes from shared story rather than history"
 tags: ["audio","audiobooks","podcasts","Abraham","Thomas Römer","Collège de France","mindfulness","historicity","Mormonism","resurrection","non-literal","Book of Mormon","scripture","Christianity","Islam","Judaism"]

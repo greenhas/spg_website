@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-11-19T16:16:08-05:00
 tags: ["bikes","bike commuting","Akira","Akira slide"]
 ---

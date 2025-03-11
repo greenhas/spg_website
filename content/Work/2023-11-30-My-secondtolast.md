@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-11-30T16:28:02-05:00
 tags: ["ICT 302","URLs"]
 ---

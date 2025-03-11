@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-05T16:03:31-04:00
 title: "🔗 linkblog: my thoughts on 'Absolutely Terrible Textbook Publishing Giant Pearson Wants To Make Everything Even Worse With NFTs | Techdirt'"
 tags: ["Mike Masnick","OER","alternative textbooks","open access","Pearson","edtech"]

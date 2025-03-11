@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-07-26T21:52:54-04:00
 title: ""
 tags: ["Habitica","Apple Watch","API","Siri Shortcuts"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-06-16T20:03:49-04:00
 title: "🔗 linkblog: my thoughts on '4 takeaways from the third Jan. 6 hearing : NPR'"
 tags: ["Mike Pence","Donald Trump","2020 election","Capitol riot"]

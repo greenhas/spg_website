@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-02-05T09:16:49-05:00
 title: ""
 tags: ["ICT 200","Look Around You"]

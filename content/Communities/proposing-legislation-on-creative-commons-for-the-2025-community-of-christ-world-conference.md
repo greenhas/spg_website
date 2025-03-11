@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-11-24T16:09:47-05:00
 title: "proposing legislation on Creative Commons for the 2025 Community of Christ World Conference"
 tags: ["World Conference","Creative Commons","Community of Christ","World Conference 2025","intellectual property","copyright"]

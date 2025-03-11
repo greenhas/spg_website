@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-06-15T21:31:11-04:00
 title: "participation in June 12th Beyond the Walls online service"
 tags: ["Community of Christ","Beyond the Walls","Reunion","Enduring Principles","Grace and Generosity","John Hamer","happy coincidences"]

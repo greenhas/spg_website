@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-08-27T21:22:22-04:00
 title: "caffeine"
 tags: ["Latter-day Saint missionaries","caffeine","tea","coffee","faith transition","Switzerland","UNIL","Mormonism","Word of Wisdom","Kentucky","parenting","Renens"]

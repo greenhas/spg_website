@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-08-12T17:36:31-04:00
 title: ""
 tags: ["ICT 202"]

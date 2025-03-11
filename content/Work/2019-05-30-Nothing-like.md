@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-05-30T20:55:04-04:00
 title: ""
 tags: ["student evaluations","anxiety"]

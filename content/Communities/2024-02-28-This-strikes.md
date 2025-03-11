@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-02-28T13:25:30-05:00
 tags: ["digital labor","fanfiction","generative AI"]
 title: "🔗 linkblog: my thoughts on 'Fanfiction Community Rocked By Etsy Sellers Turning Their Work Into Bound Books'"

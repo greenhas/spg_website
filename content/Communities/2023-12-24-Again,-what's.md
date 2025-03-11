@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-12-24T07:50:06-05:00
 tags: ["Bethlehem","Christmas","2023 Israel-Hamas war","Gaza","Israel","West Bank"]
 title: "🔗 linkblog: my thoughts on '‘God Is Under the Rubble in Gaza’: Bethlehem’s Subdued Christmas - The New York Times'"

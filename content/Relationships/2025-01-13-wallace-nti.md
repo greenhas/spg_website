@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2025-01-13T06:57:32-05:00
 tags: ["winter","Wallace the Brave","comics","comic strips","non-traditional instruction","snow days"]
 featured_image: "/2025-01-13-wallace-nti.JPEG"

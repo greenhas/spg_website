@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-05-09T17:41:11-04:00
 title: ""
 tags: ["Twitter"]

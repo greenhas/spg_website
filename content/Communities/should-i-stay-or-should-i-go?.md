@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-08-05T12:40:14-04:00
 title: "should I stay or should I go?"
 tags: ["The Church of Jesus Christ of Latter-day Saints","Mormonism","Community of Christ","abuse","child abuse","sexual abuse","faith transition"]

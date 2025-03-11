@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-01-23T09:27:52-05:00
 title: "the Bible—not the Book of Mormon—as weak point of Mormon apologetics"
 tags: ["Bible","Book of Mormon","Book of Abraham","Bloggernacle","Times and Seasons","apologetics","fundamentalism","Community of Christ","Biblical literalism","scriptural literalism","The Church of Jesus Christ of Latter-day Saints","non-theism","faith transition"]

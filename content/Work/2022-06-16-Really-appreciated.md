@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-06-16T14:13:58-04:00
 title: "🔗 linkblog: my thoughts on 'Diverse and inclusive stock photos for your next presentation, learning design, etc – George Veletsianos, PhD'"
 tags: ["diversity","George Veletsianos","stock photos"]

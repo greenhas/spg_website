@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-05-26T10:08:29-04:00
 title: "new(ish) publication: investigating offerings and downloads on TeachersPayTeachers"
 tags: ["publications","research","platforms","TeachersPayTeachers","Matt Koehler","Jeff Carpenter","Catharyn Shelton","digital methods","José van Dijck"]

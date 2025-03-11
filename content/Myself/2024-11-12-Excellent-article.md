@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-11-12T19:30:11-05:00
 tags: ["The Mandalorian","Star Wars"]
 title: "🔗 linkblog: my thoughts on 'I Miss What The Mandalorian Was'"

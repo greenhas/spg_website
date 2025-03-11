@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-07-27T11:14:30-04:00
 title: "🔗 linkblog: my thoughts on 'America Aspires to One Day in the Far Future Build Rail Service Worse Than It Was in the 1940s'"
 tags: ["trains","Amtrak","public transit"]

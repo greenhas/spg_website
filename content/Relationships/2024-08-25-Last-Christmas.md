@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-08-25T13:20:30-04:00
 tags: ["muesli","Wreck this Journal","parenting","internet radio"]
 ---

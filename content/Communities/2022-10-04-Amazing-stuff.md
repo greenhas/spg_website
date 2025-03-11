@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-10-04T16:49:54-04:00
 title: "🔗 linkblog: my thoughts on 'The Onion Files Hilarious Amicus Brief In An Important Case, And Actually Makes A Key Point In The Best Way Possible | Techdirt'"
 tags: ["The Onion","Mike Masnick"]

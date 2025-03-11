@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-08-15T10:17:00-04:00
 title: ""
 tags: ["notebooks"]

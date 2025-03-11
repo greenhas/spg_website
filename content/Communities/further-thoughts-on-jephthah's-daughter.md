@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-11-03T09:38:25-04:00
 title: "further thoughts on Jephthah's daughter"
 tags: ["Jepthah","LGBTQ","Mormonism","The Church of Jesus Christ of Latter-day Saints","affirming church","Robert Alter","Abraham","Job","sacrifice","Binding of Isaac"]

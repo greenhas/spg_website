@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2025-01-03T12:52:46+01:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 pour Shenzhen, par Guy Delisle"

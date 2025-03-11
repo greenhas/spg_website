@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-06-20T10:55:46-04:00
 title: ""
 tags: ["standing desks"]

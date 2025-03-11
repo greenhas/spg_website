@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-04-08T17:30:25-04:00
 tags: ["generative AI","deepfake pornography","sexual harassment"]
 title: "🔗 linkblog: my thoughts on 'Teen Girls Confront an Epidemic of Deepfake Nudes in Schools'"

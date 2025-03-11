@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-08-22T11:55:08-04:00
 tags: ["Kentucky","prisons","for-profit prisons","Cory Doctorow","The Bezzle"]
 title: "🔗 linkblog: my thoughts on 'KY prisoners hack state-issued computer tablets to digitally create $1M. How’d they do it?'"

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-09-22T11:58:43-04:00
 title: "Leo Tolstoy and Nephi"
 tags: ["Book of Mormon","Christian anarchism","Leo Tolstoy","Nephi","The Kingdom of God is Within You","Catholicism","great and abominable church","Bruce McConkie","anti-Catholicism","Mormon Doctrine","Church of Jesus Christ of Latter-day Saints","exclusivism","non-violence","power"]

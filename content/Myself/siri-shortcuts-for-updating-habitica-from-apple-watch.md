@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-11-10T09:02:14-05:00
 title: "Siri Shortcuts for updating Habitica from Apple Watch"
 tags: ["Siri Shortcuts","Hypothesis","Apple Watch","API","Habitica"]

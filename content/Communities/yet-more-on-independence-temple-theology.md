@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-04-11T15:45:09-04:00
 title: "yet more on Independence temple theology"
 tags: ["Salt Lake Tribune","Mormon Land","Patrick Mason","Emily Jensen","Independence temple","Community of Christ"]

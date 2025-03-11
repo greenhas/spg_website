@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-09-11T08:55:16-04:00
 title: "🔗 linkblog: mes pensées sur 'Genève inaugure sa première piste cyclable solaire - rts.ch - Genève'"
 tags: ["bikes","solar power"]

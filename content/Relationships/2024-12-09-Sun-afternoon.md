@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-12-09T07:11:28-05:00
 tags: ["sleep","friends","adults","parenting"]
 ---

@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2024-05-06T14:34:37-04:00
 title: "📚 bookblog: ❤️❤️❤️🖤🖤 for A Way of Life: Understanding Our Christian Faith, by Tony Chvala-Smith"

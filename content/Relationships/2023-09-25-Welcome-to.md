@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-09-25T07:28:56-04:00
 tags: ["parenting","sickness"]
 ---

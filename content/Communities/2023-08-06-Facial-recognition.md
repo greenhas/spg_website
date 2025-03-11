@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-08-06T07:32:06-04:00
 title: "🔗 linkblog: my thoughts on 'Eight Months Pregnant and Arrested After False Facial Recognition Match - The New York Times'"
 tags: ["facial recognition"]

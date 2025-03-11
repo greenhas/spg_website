@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2020-08-17T07:52:38-04:00
 title: ""
 tags: ["bike commuting","bikes","COVID-19"]

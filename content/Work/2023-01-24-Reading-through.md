@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-01-24T09:21:43-05:00
 title: ""
 tags: ["Catherine D'Ignazio","Lauren Klein","Data Feminism","learning analytics","Canvas","LMS"]

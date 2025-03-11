@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-08-25T07:20:57-04:00
 title: "🔗 linkblog: just read 'Ariol, vingt ans d'un héros de la bande dessinée jeunesse'"
 tags: ["podcasts","comics","BD","literacies"]

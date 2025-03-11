@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-04-25T21:27:39-04:00
 title: ""
 tags: ["Squirrel Girl"]

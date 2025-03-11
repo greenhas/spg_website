@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-02-07T12:40:02-05:00
 title: ""
 tags: ["DRM","Amazon","Kindle"]

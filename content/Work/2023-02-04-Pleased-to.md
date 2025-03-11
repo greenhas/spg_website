@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-02-04T13:16:10-05:00
 title: ""
 tags: ["emojis","research"]

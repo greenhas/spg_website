@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2023-11-05T16:27:43-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Ultimate Spider-Man: Vol. 4, Legacy, by Brian Michael Bendis and Mark Bagley"

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-05-10T10:28:34-04:00
 tags: ["cab ride","YouTube","peer review","grading","teaching"]
 ---

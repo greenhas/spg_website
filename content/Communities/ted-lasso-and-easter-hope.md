@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-04-15T21:30:39-04:00
 title: "Ted Lasso and Easter hope"
 tags: ["Ted Lasso","Easter","hope","resurrection","Wil Gafney","forgiveness"]

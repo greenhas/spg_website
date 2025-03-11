@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-01-03T21:33:59-05:00
 title: ""
 tags: ["2020 election","Donald Trump","elections"]

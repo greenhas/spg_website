@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-10-17T20:17:31-04:00
 tags: ["Mastodon","Homestar Runner"]
 ---

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-07-17T10:29:17-04:00
 title: "how does a churchgoing agnostic talk about religion with his kid?"
 tags: ["parenting","religion","tea","Danville","Kentucky","Easter","Community of Christ","faith transition"]

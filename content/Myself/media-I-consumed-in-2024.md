@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-12-31T19:34:42+01:00
 title: "media I consumed in 2024"
 tags: ["journaling","Day One","Siri Shortcuts","comics"]

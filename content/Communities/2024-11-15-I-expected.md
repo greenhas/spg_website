@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-11-15T08:32:25-05:00
 tags: ["Naomi Alderman","The Future","Sodom"]
 ---

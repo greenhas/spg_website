@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-08-31T09:57:47-04:00
 title: "ClassDojo and the creation of artificial demand"
 tags: ["ClassDojo","mobile apps","freemium","Civics of Tech","Dan Krutka","research","edtech","datafication","gamification"]

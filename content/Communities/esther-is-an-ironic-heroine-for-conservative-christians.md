@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-09-24T13:38:45-04:00
 title: "Esther is an ironic heroine for conservative Christians"
 tags: ["Esther","BYU","sexual ethic","Christianity","Mormonism"]

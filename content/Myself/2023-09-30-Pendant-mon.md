@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-09-30T17:59:10-04:00
 tags: ["LEB","Renens","Switzerland"]
 title: "🔗 linkblog: mes pensées sur 'Des milliers de curieux se sont rendus à Echallens pour célébrer les 150 ans du LEB - rts.ch - Vaud'"

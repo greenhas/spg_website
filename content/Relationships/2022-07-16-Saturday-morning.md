@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-07-16T11:58:41-04:00
 title: ""
 tags: ["parenting","bikes","running"]

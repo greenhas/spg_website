@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-12-21T19:47:40-05:00
 tags: ["computer science","computer science education","libraries","binary"]
 ---

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-03-12T07:31:39-04:00
 tags: ["edtech","cybersecurity","data privacy","data breach"]
 title: "🔗 linkblog: my thoughts on 'Hackers are targeting a surprising group of people: young public school students'"

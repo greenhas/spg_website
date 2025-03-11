@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-05-27T07:27:36-04:00
 title: "🔗 linkblog: my thoughts on 'Ted Cruz walks away after reporter asks him why mass shootings keep happening : NPR'"
 tags: ["Ted Cruz","mass shootings","gun violence","Uvalde shooting","American exceptionalism"]

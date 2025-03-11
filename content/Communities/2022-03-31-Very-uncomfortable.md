@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-03-31T07:41:55-04:00
 title: "🔗 linkblog: my thoughts on 'Twitter user sentenced to 150 hours of community service in UK for posting ‘offensive’ tweet - The Verge'"
 tags: ["Twitter","social media","tech policy","free speech"]

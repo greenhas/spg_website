@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-11-01T09:40:37-04:00
 title: "🔗 linkblog: just read 'Public transportation can save the world — if we let it'"
 tags: ["public transit","bus rapid transit"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-06-12T15:45:27-04:00
 title: "research on anti-feminist online Mormonism referenced in Salt Lake Tribune column"
 tags: ["media appearances","DezNat","Amy Chapman","Natalie Brown","Mormon Land","online Mormonism","Mormon Twitter","Joanna Brooks"]

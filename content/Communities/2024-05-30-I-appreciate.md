@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-05-30T06:57:41-04:00
 tags: ["Anil Dash","systems","systems thinking"]
 title: "🔗 linkblog: my thoughts on 'Systems: The Purpose of a System is What It Does - Anil Dash'"

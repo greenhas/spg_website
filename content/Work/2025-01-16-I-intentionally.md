@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2025-01-16T10:19:07-05:00
 tags: ["ClassDojo","autoethnography","ed tech"]
 ---

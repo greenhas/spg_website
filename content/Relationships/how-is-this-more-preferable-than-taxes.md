@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-08-31T15:09:34-04:00
 title: "how is this more preferable than taxes?"
 tags: ["parenting","fundraising","public education","schools","edtech","Larry Cuban","taxes"]

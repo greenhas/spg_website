@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-05-29T21:12:43-04:00
 title: "🔗 linkblog: my thoughts on '78 | Common Grounds | Trinity Sunday – Project Zion Podcast'"
 tags: ["Karin Peter","Project Zion Podcast","Community of Christ","Trinity","Susan Oxley"]

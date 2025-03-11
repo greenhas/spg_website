@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-11-09T16:30:11-05:00
 tags: ["Johnny Hallyday","Tennessee Williams","Quelque chose de Tennessee"]
 ---

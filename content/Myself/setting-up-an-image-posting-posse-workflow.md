@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-11-17T14:34:30-05:00
 title: "setting up an iOS image posting POSSE workflow for Hugo"
 tags: ["Hugo","WordPress","Siri Shortcuts","Mastodon","Bluesky","Markdown","ICT 302"]

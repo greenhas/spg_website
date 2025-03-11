@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-04-26T13:08:08-04:00
 title: "merci Karl, merci Melissa"
 tags: ["Karl Tremblay","Les cowboys fringants"]

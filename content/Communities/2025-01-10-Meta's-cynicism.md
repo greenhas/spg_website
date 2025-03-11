@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2025-01-10T12:51:43-05:00
 tags: ["Meta","LGBTQ","Facebook"]
 title: "🔗 linkblog: my thoughts on 'Meta Deletes Trans and Nonbinary Messenger Themes'"

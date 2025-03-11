@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-10-18T09:26:43-04:00
 title: "attending a conference 'among my own kind'"
 tags: ["Barry Wellman","Anatoliy Gruzd","Yuri Takhteyev","Twitter","SSSR","SSSR 2023","community","AECT","AECT 2023","Mormonism","Mormon Studies"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-05-18T22:04:19-04:00
 title: "🔗 linkblog: my thoughts on 'Beshear, KDP will not back Democratic candidate for U.S. House seat'"
 tags: ["Geoff Young","Kentucky"]

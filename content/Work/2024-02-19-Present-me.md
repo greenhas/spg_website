@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-02-19T08:07:20-05:00
 tags: ["congestion","pseudoephedrine"]
 ---

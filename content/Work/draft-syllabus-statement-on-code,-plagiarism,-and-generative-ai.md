@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-07-19T13:08:14-04:00
 title: "draft syllabus statement on code, plagiarism, and generative AI"
 tags: ["programming","plagiarism","academic offenses","generative AI","data science","ICT 661","Josh Rosenberg","ChatGPT"]

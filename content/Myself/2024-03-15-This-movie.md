@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: movie
 date: 2024-03-15T22:40:58-04:00
 tags: ["Myself","Dune"]

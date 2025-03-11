@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-03-20T12:19:25-04:00
 tags: ["online Mormonism","content moderation","Instagram","Mormonism","religious authority"]
 title: "🔗 linkblog: my thoughts on 'Call for Submissions: The Deleted Comments Department - Exponent II'"

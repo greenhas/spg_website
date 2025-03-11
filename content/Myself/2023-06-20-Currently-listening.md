@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-06-20T18:16:21-04:00
 title: ""
 tags: ["The Spy Who Came In From the Cold","audiobooks","accents"]

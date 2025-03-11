@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-10-31T14:59:54-04:00
 tags: ["2024 elections","voting"]
 title: "🔗 linkblog: my thoughts on 'Long lines reported on first day of early voting in Kentucky'"

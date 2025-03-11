@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2020-08-13T09:12:15-04:00
 title: ""
 tags: ["marriage","COVID-19"]

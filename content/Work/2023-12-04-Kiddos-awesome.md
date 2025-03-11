@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-12-04T06:45:22-05:00
 tags: ["Advent","parenting","STEM","STEM education","magic"]
 ---

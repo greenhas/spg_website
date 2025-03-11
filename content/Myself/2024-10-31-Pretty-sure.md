@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-10-31T09:23:29-04:00
 tags: ["Marvel","Skrull","Halloween"]
 ---

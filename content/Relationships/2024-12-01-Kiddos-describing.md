@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-12-01T17:50:53-05:00
 tags: ["Pokémon"]
 ---

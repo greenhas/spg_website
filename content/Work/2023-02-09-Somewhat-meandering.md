@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-02-09T08:30:59-05:00
 title: "🔗 linkblog: my thoughts on 'The End of Grading | WIRED'"
 tags: ["measurement","teaching","research","grading"]

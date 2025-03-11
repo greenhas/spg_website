@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-10-28T15:56:29-04:00
 title: "🔗 linkblog: my thoughts on 'Elon Musk’s First Move Is To Fire The Person Most Responsible For Twitter’s Strong Free Speech Stance | Techdirt'"
 tags: ["Twitter","Elon Musk","free speech","content moderation","Mike Masnick"]

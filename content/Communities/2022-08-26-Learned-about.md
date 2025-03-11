@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-26T19:21:15-04:00
 title: "🔗 linkblog: my thoughts on 'BYU Tramples Queer Students, Again – Wheat & Tares'"
 tags: ["LGBTQ","BYU","Mormonism"]

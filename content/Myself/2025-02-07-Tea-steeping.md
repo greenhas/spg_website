@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2025-02-07T06:40:18-05:00
 tags: ["tea"]
 ---

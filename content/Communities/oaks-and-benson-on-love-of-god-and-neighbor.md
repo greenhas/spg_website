@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-09-14T19:28:09-04:00
 title: "Oaks and Benson on love of God and neighbor"
 tags: ["Dallin Oaks","Ezra Taft Benson","The Church of Jesus Christ of Latter-day Saints","Brigham Young University","By Common Consent","two great commandments","golden rule","Grant Hardy","Kierkegaard","priesthood and temple ban","Brigham Young","John G. Turner","Abraham","Binding of Isaac"]

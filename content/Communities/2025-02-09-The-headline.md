@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2025-02-09T12:40:00-05:00
 tags: ["nuclear weapons","nuclear disarmament","Elon Musk","Donald Trump","DOGE"]
 title: "🔗 linkblog: my thoughts on 'How close is Elon Musk to controlling a nuclear weapon?'"

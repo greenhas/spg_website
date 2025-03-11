@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-09-30T10:51:02-04:00
 title: "the missionary with the expired visa"
 tags: ["immigration","Latter-day Saint missionaries","Day One","Donald Trump","France","Switzerland"]

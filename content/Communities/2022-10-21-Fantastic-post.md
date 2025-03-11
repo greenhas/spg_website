@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-10-21T12:48:19-04:00
 title: "🔗 linkblog: my thoughts on 'On Choosing Each Other and Eating the Fruit | By Common Consent, a Mormon Blog'"
 tags: ["faith transition","By Common Consent"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-08-04T11:34:54-04:00
 title: "disappeared papers and the importance of personally hosting my research"
 tags: ["research","open access","preprints","tenure application","tenure","tenure and promotion","TeachersPayTeachers","Matt Koehler","Jeff Carpenter","Catharyn Shelton"]

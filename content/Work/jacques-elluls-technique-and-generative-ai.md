@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2025-02-02T14:16:44-05:00
 title: "Jacques Ellul's technique and generative AI"
 tags: ["Jacques Ellul","technique","The Technological Society","La technique ou l'enjeu du siècle","theory","Data feminism","Catherine D'Ignazio","Lauren Klein","danah boyd","Kate Crawford","Chris Anderson","generative AI","The Verge","Vergecast","Nilay Patel","David Pierce"]

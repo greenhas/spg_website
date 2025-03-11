@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-02-25T16:45:27-05:00
 title: ""
 tags: ["local politics","Kentucky","Kentucky General Assembly"]

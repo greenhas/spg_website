@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2024-07-09T12:35:21-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Just Put Down the Ukulele Only Then Can the Healing Begin  (A Seventh Dumbing of Age Collection), by David Willis"

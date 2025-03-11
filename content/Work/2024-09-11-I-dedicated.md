@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2024-09-11T21:10:14-07:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Extremely Hardcore: Inside Elon Musk's Twitter, by Zoë Schiffer"

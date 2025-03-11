@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-07-21T09:34:56-04:00
 title: "supersessionism and burdens of proof"
 tags: ["But Where Is the Lamb?","James Goodman","Abraham","Binding of Isaac","supersessionism","exclusivism","Thomas Wayment","Pete Enns","This is My Doctrine","Charles Harrell","faith transition"]

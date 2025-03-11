@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-12-09T07:39:02-05:00
 title: "🔗 linkblog: just finished 'Report - Legal Loopholes and Data for Dollars: How Law Enforcement and Intelligence Agencies Are Buying Your Data from Brokers - Center for Democracy and Technology'"
 tags: ["Capitol riot","data","surveillance"]

@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2024-11-30T09:20:24-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Spill, by Cory Doctorow"

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-30T08:02:55-04:00
 title: "🔗 linkblog: my thoughts on 'List of 5 unique classes offered at University of Kentucky | Lexington Herald Leader'"
 tags: ["School of Information Science","Black Mirror"]

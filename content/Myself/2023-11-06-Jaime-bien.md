@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: tv
 date: 2023-11-06T10:21:05-05:00
 tags: ["Myself","Lupin"]

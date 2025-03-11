@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-06-19T09:31:34-04:00
 title: ""
 tags: ["parenting","bikes","Father's Day"]

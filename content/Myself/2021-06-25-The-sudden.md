@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-06-25T09:46:03-04:00
 title: ""
 tags: ["advertising"]

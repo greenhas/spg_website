@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-05-31T20:32:20-04:00
 title: "🔗 linkblog: my thoughts on 'After Uvalde, social media monitoring apps struggle to justify surveillance - The Verge'"
 tags: ["Uvalde shooting","edtech","surveillance","Audrey Watters"]

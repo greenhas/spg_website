@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-07-05T16:19:57-04:00
 title: "🔗 linkblog: my thoughts on 'It Turns Out Elon Is Speedrunning The Enshittification Learning Curve, Not The Content Moderation One | Techdirt'"
 tags: ["Elon Musk","Twitter","Cory Doctorow","Mike Masnick"]

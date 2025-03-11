@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2023-09-30T18:50:34-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 pour Josephine Baker, par Catel & Bocquet"

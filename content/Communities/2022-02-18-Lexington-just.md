@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-02-18T12:38:41-05:00
 title: "🔗 linkblog: my thoughts on 'Please Delete Your Recordings: Inside a Police Conference'"
 tags: ["ALPRs","surveillance"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-01-16T09:38:17-05:00
 title: ""
 tags: ["peer review","writing","research","dissertation"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-01-12T14:56:05-05:00
 title: "🔗 linkblog: my thoughts on 'Indigenous tech group asks Apache Foundation to change its name | Ars Technica'"
 tags: ["indigeneity","Apache"]

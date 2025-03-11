@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2025-02-03T22:03:55-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Frieren: Beyond Journey's End (Volume 1), by Kanehito Yamada and Tsukasa Abe"

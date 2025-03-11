@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-10-05T07:48:59-04:00
 tags: ["Michigan","Lebanon","Israel","2023 Israel-Gaza war","2024 Israel-Lebanon war"]
 title: "🔗 linkblog: my thoughts on 'Michigan Father Dies in Israeli Airstrike in Lebanon, Family Says'"

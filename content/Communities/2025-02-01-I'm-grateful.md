@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2025-02-01T08:47:04-05:00
 tags: ["The Onion","Donald Trump"]
 title: "🔗 linkblog: my thoughts on 'Trump To Victims’ Families: ‘I’m Doing Everything Possible To Resegregate Flight Schools’'"

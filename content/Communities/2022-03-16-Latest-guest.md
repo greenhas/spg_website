@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-03-16T15:05:27-04:00
 title: ""
 tags: ["Gab","Mormonism"]

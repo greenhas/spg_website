@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-09-01T08:43:51-04:00
 title: "putting my work where my whining is"
 tags: ["school","parenting","edtech","ClassDojo"]

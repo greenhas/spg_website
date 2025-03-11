@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-08-02T13:34:57-04:00
 title: "new publication: Anti-LGBTQ+ discourses in LGBTQ+-affirming spaces on Gab Social"
 tags: ["LGBTQ","research","publications","Gab","Evan Brody","Mehroz Sajjad","queerphobia"]

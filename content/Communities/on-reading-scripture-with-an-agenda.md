@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-03-14T10:10:58-04:00
 title: "on reading scripture with an agenda"
 tags: ["scripture","hermeneutics","Desmond Tutu","Mpho Tutu","The Book of Forgiving","Peace and Justice course","Graceland CIMM","New Testament","Thomas Wayment","King James Version","faith transition","Deseret Book","BYU","The Church of Jesus Christ of Latter-day Saints","Rachel Held Evans"]

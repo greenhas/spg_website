@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-01-16T13:09:41-05:00
 title: ""
 tags: ["MSU","John Engler","Larry Nasser","sexual assault"]

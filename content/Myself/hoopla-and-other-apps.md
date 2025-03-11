@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2025-01-27T21:16:59-05:00
 title: "hoopla and other apps that make digital books worse than physical ones"
 tags: ["hoopla","libraries","copyright","fair use","DRM","alienation of ownership","iOS","Kindle","Jacques Ellul","Theology and Technique"]

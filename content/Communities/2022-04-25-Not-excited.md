@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-04-25T16:53:28-04:00
 title: "🔗 linkblog: my thoughts on 'Twitter accepts buyout, giving Elon Musk total control of the company - The Verge'"
 tags: ["Elon Musk","Twitter"]

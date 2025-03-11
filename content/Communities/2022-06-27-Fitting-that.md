@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-06-27T11:59:54-04:00
 title: "🔗 linkblog: my thoughts on 'Amtrak Spent 11 Years and $450 Million to Save Acela Riders 100 Seconds'"
 tags: ["Amtrak","Acela","trains","high-speed rail","Northeast Corridor"]

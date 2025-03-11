@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-12-31T11:35:55-05:00
 title: ""
 tags: ["parenting","Story Cubes"]

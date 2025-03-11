@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-02-15T19:27:12-05:00
 title: "🔗 linkblog: just finished 'Their Bionic Eyes Are Now Obsolete and Unsupported - IEEE Spectrum'"
 tags: ["Pirate Party"]

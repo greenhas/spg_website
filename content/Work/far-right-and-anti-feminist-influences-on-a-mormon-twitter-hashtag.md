@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-06-13T12:56:10-04:00
 title: "new publication: far-right and anti-feminist influences on a Mormon Twitter hashtag"
 tags: ["online Mormonism","publications","research","Amy Chapman","DezNat","Mormonism","Mormon Studies","Mormon Twitter"]

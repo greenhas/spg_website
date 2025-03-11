@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-08-19T07:45:27-04:00
 title: "🔗 linkblog: just read 'Opinion | The Illusion of Privacy Is Getting Harder to Sell - The New York Times'"
 tags: ["Apple","privacy","surveillance"]

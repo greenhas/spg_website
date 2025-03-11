@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-12-16T12:12:01-05:00
 title: ""
 tags: ["ungrading","grading","teaching","plagiarism"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-12-06T19:04:15-05:00
 title: "trapped between generative AI and student surveillance"
 tags: ["grading","assessment","generative AI","surveillance"]

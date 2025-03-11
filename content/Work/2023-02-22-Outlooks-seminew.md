@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-02-22T19:52:33-05:00
 title: ""
 tags: ["Outlook","Microsoft","email","platforms"]

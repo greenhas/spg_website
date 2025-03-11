@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-04-27T22:18:56-04:00
 title: ""
 tags: ["Cory Doctorow","DRM","reading","Unauthorized Bread"]

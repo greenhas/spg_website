@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-04-15T18:21:37-04:00
 tags: ["Animorphs","parenting"]
 ---

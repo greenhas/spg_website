@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-02-02T20:01:20-05:00
 title: "🔗 linkblog: my thoughts on 'OpenAI Wants To Help You Figure Out If Text Was Written By OpenAI; But What Happens When It’s Wrong? | Techdirt'"
 tags: ["Mike Masnick","OpenAI","ChatGPT","plagiarism detection","surveillance","assessment"]

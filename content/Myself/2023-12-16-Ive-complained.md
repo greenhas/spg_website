@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2023-12-16T20:12:42-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Ultimate Spider-Man: Vol. 4, Death of Spider-Man, by Brian Michael Bendis and Mark Bagley"

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-08-30T14:32:01-04:00
 title: "🔗 linkblog: just read 'There's merch for long-time nuclear waste warning messages | Boing Boing'"
 tags: ["nuclear waste"]

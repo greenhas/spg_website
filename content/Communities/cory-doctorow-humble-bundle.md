@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-03-04T13:15:53-05:00
 title: "📚 spreading the word about the Cory Doctorow Humble Bundle 📚"
 tags: ["Cory Doctorow","Humble Bundle","EFF","ICT 202","The Lost Cause","DRM","Red Team Blues","Poesy the Monster Slayer","Radicalized","Unauthorized Bread","Walkaway","Little Brother series","Little Brother","Homeland","Attack Surface"]

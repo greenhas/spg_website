@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-09-29T07:20:32-04:00
 title: "🔗 linkblog: just read 'The Melting Face Emoji Has Already Won Us Over - The New York Times'"
 tags: ["emoji","literacies"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-10-30T21:07:45-04:00
 title: ""
 tags: ["Star Wars","comics","Squirrel Girl","Wil Gafney","womanism"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-06-21T11:15:19-04:00
 title: "some Hypothesis (and other) updates for the blog"
 tags: ["Hypothesis","Micro.blog","Mastodon","platforms","content aggregation","ICT 302"]

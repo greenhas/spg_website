@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-09-09T22:17:17-04:00
 title: ""
 tags: ["L'Anomalie","reading"]

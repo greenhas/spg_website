@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-04-14T19:03:46-04:00
 title: ""
 tags: ["Twitter","Elon Musk","research"]

@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2024-12-13T07:16:08-05:00
 tags: ["Bizarro","comics","app dependency"]
 featured_image: "/2024-12-13-bizarro-app.JPEG"

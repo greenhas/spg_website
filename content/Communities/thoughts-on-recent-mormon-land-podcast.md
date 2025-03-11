@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-10-07T12:55:21-04:00
 title: "thoughts on recent Mormon Land podcast"
 tags: ["Salt Lake Tribune","Mormon Land","The Church of Jesus Christ of Latter-day Saints","Thomas Monson","Greg Prince","fallibility","Ezra Taft Benson"]

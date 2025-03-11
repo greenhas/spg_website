@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-08-25T20:08:43-04:00
 title: "data privacy and kiddo's school"
 tags: ["parenting","privacy","data privacy","FERPA","edtech","local news","Josh Rosenberg","webcomics","xkcd","social annotation","Hypothesis","ICT 302"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-11-25T16:34:15-05:00
 tags: ["comics","Queen & Country","The Sandbaggers"]
 ---

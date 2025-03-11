@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-03-08T07:49:39-05:00
 title: "some thoughts on Independence Temple theology"
 tags: ["Richard Rohr","Center for Action and Contemplation","Kirtland Temple","Independence Temple","Introduction to Scripture","Community of Christ","Restorations"]

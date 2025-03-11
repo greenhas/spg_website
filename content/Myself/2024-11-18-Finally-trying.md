@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-11-18T07:34:59-05:00
 tags: ["tea","Constant Comment","Bigelow"]
 ---

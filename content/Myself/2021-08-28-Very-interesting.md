@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-08-28T11:40:18-04:00
 title: "🔗 linkblog: just read 'Beauty Surge, a new short story by Laura Maylene Walter.'"
 tags: ["reading"]

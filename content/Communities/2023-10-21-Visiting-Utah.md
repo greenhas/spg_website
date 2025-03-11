@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-10-21T08:15:28-06:00
 tags: ["Utah","BYU"]
 ---

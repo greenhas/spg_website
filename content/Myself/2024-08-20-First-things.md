@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: tv
 date: 2024-08-20T20:52:43-04:00
 tags: ["Myself","The Ipcress File"]

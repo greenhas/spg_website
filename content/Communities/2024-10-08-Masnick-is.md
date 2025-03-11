@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-10-08T15:29:12-04:00
 tags: ["Mike Masnick","Elon Musk","GOP","Jim Jordan"]
 title: "🔗 linkblog: my thoughts on 'Elon Musk Is Now Seizing Other People’s Twitter Accounts To Promote Donald Trump'"

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2025-02-17T12:08:28-05:00
 tags: ["dentist","Astérix","generative AI"]
 ---

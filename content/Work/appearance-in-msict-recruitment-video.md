@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-07-31T12:07:56-04:00
 title: "appearance in MSICT recruitment video"
 tags: ["MSICT"]

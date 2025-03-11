@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-09-24T11:30:27-04:00
 title: ""
 tags: ["France","Marvel"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-02-12T11:07:23-05:00
 title: ""
 tags: ["Amazon","Eero","Amazon Prime"]

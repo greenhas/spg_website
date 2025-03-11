@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-10-16T11:55:59-04:00
 tags: ["Twitter","Elon Musk","Patreon"]
 title: "🔗 linkblog: my thoughts on 'Twitter is Throttling Patreon Links, Creators Say It Undermines Their Livelihood – The Markup'"

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-01-15T11:21:00-05:00
 title: ""
 tags: [""]

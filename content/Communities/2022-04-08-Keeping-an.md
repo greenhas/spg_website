@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-04-08T07:20:46-04:00
 title: "🔗 linkblog: my thoughts on 'Extremist Republicans like Ammon Bundy face opposition from moderates : NPR'"
 tags: ["far right","Idaho","France","Bundys"]

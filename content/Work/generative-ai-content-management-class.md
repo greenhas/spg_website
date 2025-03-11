@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-07-13T14:13:38-04:00
 title: "how I'm talking about generative AI in my content management class"
 tags: ["content management","Deane Barker","teaching","generative AI","ICT 302","definitions"]

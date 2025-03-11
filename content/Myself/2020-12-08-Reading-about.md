@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2020-12-08T22:39:08-05:00
 title: ""
 tags: ["Dreyfus Affair"]

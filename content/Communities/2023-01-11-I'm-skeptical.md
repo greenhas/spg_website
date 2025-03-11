@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-01-11T12:09:25-05:00
 title: "🔗 linkblog: my thoughts on 'Iran to use facial recognition to identify women without hijabs | Ars Technica'"
 tags: ["Iran","facial recognition"]

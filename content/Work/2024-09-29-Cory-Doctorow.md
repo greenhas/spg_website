@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2024-09-29T20:50:24-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️❤️ for Vigilant, by Cory Doctorow"

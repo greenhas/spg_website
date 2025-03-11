@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-06-06T11:30:00-04:00
 title: "an 'ultimate sense of FOMO' and joining Community of Christ"
 tags: ["faith transition","Community of Christ","Russell Nelson","context collapse","The Church of Jesus Christ of Latter-day Saints","Mormonism","COVID-19","perfectionism","Andrew Teal","Jeffrey Holland","grace","grace and generosity","feelings of failure"]

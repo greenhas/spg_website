@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-02-10T15:07:27-05:00
 tags: ["BYU","Katalin Novák","Church of Jesus Christ of Latter-day Saints"]
 title: "🔗 linkblog: my thoughts on 'Hungary's president resigns over a pardon to a man convicted in a child sexual abuse case'"

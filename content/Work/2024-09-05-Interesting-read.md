@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-09-05T07:14:27-04:00
 tags: ["research","academia","Google Scholar"]
 title: "🔗 linkblog: my thoughts on 'Is Your Google Scholar Profile Looking A Bit Empty?  Need To Bulk Up Your Citations?  Simple – Buy Some'"

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-07-23T11:45:38-04:00
 title: ""
 tags: ["Star Wars","music"]

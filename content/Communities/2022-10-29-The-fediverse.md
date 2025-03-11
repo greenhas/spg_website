@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-10-29T20:02:05-04:00
 title: ""
 tags: ["Mormonism","fediverse","Mastodon"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-11-19T09:51:16-05:00
 title: "personal and theological reflections after a minor bike wreck"
 tags: ["bike commuting","mental health","counseling","presence","Naomi Alderman","The Future","bike commuting","mindfulness","King Benjamin","Book of Mormon","non-theism","2024 elections"]

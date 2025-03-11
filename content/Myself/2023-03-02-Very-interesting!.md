@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-03-02T11:25:49-05:00
 title: "🔗 linkblog: my thoughts on 'Paizo bans AI-generated content to support ‘human professionals’ - The Verge'"
 tags: ["AI","Paizo","TTRPGs"]

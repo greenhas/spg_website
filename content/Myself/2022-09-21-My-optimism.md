@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-09-21T08:22:00-04:00
 title: "🔗 linkblog: my thoughts on 'The Sad Clown Joke That Became a Beloved Meme | WIRED'"
 tags: ["Pagliacci","memes"]

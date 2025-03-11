@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-07-16T12:48:49-04:00
 title: "un petit souvenir de Dijon"
 tags: ["Dijon"]

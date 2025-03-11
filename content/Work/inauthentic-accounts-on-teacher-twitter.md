@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-05-18T16:02:15-04:00
 title: "new(ish) publication: inauthentic accounts on teacher Twitter"
 tags: ["Dan Krutka","Twitter","digital methods","Internet Research Agency","information operations","R","Mormonism","online Mormonism","research","publications","informal professional development"]

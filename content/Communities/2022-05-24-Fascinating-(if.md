@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-05-24T07:09:07-04:00
 title: "🔗 linkblog: my thoughts on 'The election system shuddered in 2020. Now, there are fears of an attack within : NPR'"
 tags: ["elections","voting","2020 election"]

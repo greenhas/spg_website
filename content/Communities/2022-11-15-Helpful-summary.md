@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-11-15T12:04:28-05:00
 title: "🔗 linkblog: my thoughts on 'Q is Dead, Long Live QAnon'"
 tags: ["QAnon"]

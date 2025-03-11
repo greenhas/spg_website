@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-11-19T12:09:54-05:00
 tags: ["Christmas","Thanksgiving"]
 ---

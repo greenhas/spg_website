@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2025-02-15T13:11:24-05:00
 tags: ["winter","biking"]
 ---

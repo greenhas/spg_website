@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-04-04T11:13:55-04:00
 title: "more on stories (not history) as the source of faith"
 tags: ["Thomas Römer","Collège de France","historicity","Mormonism","non-literal","Christianity","Judaism"]

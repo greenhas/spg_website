@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-11-23T15:33:14-05:00
 title: "Leo Tolstoy on Black Friday"
 tags: ["Leo Tolstoy","The Kingdom of God is Within You","Black Friday","Thanksgiving","commercialism","Christmas"]

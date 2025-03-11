@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-05-24T07:52:00-04:00
 title: "reflections on digital journaling of analog letters"
 tags: ["digital","analog","analog vs. digital","Day One","journals","letters","ICT","ICT program","teaching"]

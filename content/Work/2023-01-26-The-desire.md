@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-01-26T12:19:26-05:00
 title: ""
 tags: ["edtech","education"]

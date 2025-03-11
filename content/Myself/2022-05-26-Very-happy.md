@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-05-26T12:12:23-04:00
 title: ""
 tags: ["Unbeatable Squirrel Girl","Squirrel Girl","comics","libraries","hoopla"]

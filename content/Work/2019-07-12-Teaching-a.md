@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-07-12T13:10:24-04:00
 title: ""
 tags: ["teaching","ICT 202"]

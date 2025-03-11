@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-10-03T12:01:09-04:00
 tags: ["mental health","counseling","therapy"]
 ---

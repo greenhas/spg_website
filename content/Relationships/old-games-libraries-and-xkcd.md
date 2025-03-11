@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-09-24T15:13:51-04:00
 title: "old video games, libraries, and xkcd"
 tags: ["xkcd","video games","libraries","parenting","Portal","Nintendo Wii","macOS","Mario Kart"]

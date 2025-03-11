@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2024-04-16T21:49:54-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️❤️ for American Zion: A New History of Mormonism, by Benjamin E. Park"

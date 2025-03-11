@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-02-12T12:58:03-05:00
 tags: ["WordPress","Global Mormon Studies network","Mormon Social Science Association","service"]
 ---

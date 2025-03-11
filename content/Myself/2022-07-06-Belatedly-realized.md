@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-07-06T08:04:55-04:00
 title: ""
 tags: ["Lexington Herald-Leader","RSS","local news"]

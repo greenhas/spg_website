@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-06-08T12:53:27-04:00
 title: "🔗 linkblog: my thoughts on 'Apple’s Journal app needs to read the room - The Verge'"
 tags: ["Day One","journaling"]

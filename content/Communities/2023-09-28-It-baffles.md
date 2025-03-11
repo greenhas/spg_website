@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-09-28T15:18:12-04:00
 tags: ["Reddit","advertising","privacy"]
 title: "🔗 linkblog: my thoughts on 'Reddit will no longer allow users to opt out of ad personalization - The Verge'"

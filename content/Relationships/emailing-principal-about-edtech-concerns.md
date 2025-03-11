@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-08-10T09:40:38-04:00
 title: "emailing principal about edtech concerns"
 tags: ["edtech","parenting","surveillance","privacy","Chromebooks","ClassDojo"]

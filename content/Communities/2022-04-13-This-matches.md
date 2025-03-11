@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-04-13T12:12:59-04:00
 title: "🔗 linkblog: my thoughts on 'The Far-Right Is Doxxing School Officials They Think Are “Groomers”'"
 tags: ["masculinity","far right","Gab","LGBTQ","doxxing"]

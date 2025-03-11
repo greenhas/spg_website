@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-01-15T22:00:00-05:00
 title: "'licensed, not sold, to you'"
 tags: ["Apple","R. Sikoryak","Terms and Conditions (comic)","terms of service","alienation of ownership","Amazon","Kindle"]

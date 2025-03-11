@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2025-02-03T20:57:51-05:00
 tags: ["Elon Musk","DOGE","David Graeber","New York Times","money","abstract"]
 featured_image: "/2025-02-03-Musk-cost-cutting.JPEG"

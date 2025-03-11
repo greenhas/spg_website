@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-12-30T21:42:15+01:00
 tags: ["academic publishing","publishing","generative AI","Elsevier"]
 title: "🔗 linkblog: my thoughts on 'Evolution journal editors resign en masse'"

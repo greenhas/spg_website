@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-12-07T10:25:36-05:00
 title: "frustration with institutional research analytics"
 tags: ["Scholars@UK","analytics","research","French","Elsevier","quantification","University of Kentucky","French","Mormon Studies","quantification"]

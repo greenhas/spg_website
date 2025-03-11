@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-09-06T14:09:51-04:00
 title: "new report on Google Classroom and ClassDojo"
 tags: ["ClassDojo","schools","privacy","data governance","Digital Futures Commission","edtech"]

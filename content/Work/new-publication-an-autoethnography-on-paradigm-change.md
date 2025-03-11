@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-11-17T08:44:09-05:00
 title: "new publication: an autoethnography on French, data science, and paradigm change"
 tags: ["research","publications","research paradigms","RCAH","grad school","French","language education","CLAC","India Plough","autoethnography","faith transition","The Church of Jesus Christ of Latter-day Saints","Community of Christ","data science","LGBTQ"]

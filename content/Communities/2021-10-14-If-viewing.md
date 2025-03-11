@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-10-14T18:45:31-04:00
 title: "🔗 linkblog: just read 'Missouri governor threatens reporter who discovered state site spilling private info - The Verge'"
 tags: ["Missouri"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-06-10T20:47:11-04:00
 title: "camping and being present as a parent"
 tags: ["parenting","camping","Boy Scouts","Community of Christ","Reunion","therapy","mental health"]

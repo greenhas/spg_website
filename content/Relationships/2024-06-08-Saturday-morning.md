@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-06-08T10:37:41-04:00
 tags: ["Halloween","Eurovision","Thanksgiving"]
 ---

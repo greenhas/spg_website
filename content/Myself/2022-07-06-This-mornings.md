@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-07-06T08:35:05-04:00
 title: ""
 tags: ["RSS","NetNewsWire","iOS","macOS"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-11-09T10:22:13-05:00
 tags: ["anxiety","RSS","Micro.blog","Mastodon","Bluesky"]
 ---

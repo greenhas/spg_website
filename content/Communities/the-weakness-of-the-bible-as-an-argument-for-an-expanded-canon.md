@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-02-03T13:12:39-05:00
 title: "the weakness of the Bible as an argument for an expanded canon"
 tags: ["Bible","Book of Mormon","Doctrine and Covenants","apologetics","fundamentalism","Community of Christ","Biblical literalism","scriptural literalism","The Church of Jesus Christ of Latter-day Saints","Introduction to Scripture","Temple School"]

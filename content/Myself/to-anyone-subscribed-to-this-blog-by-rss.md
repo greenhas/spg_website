@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-06-06T10:52:35-04:00
 title: "to anyone subscribed to this blog by RSS"
 tags: ["RSS"]

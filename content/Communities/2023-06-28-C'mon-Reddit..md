@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-06-28T19:20:03-04:00
 title: "🔗 linkblog: my thoughts on 'Reddit is telling protesting mods their communities ‘will not’ stay private - The Verge'"
 tags: ["Reddit"]

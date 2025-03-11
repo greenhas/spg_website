@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-04-20T12:13:21-04:00
 title: ""
 tags: ["academia"]

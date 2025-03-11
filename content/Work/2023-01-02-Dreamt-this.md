@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-01-02T07:07:09-05:00
 title: ""
 tags: ["tenure","dreams","academia"]

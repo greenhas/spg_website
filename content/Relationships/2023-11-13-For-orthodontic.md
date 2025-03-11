@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-11-13T17:08:17-05:00
 tags: ["tea","chai","parenting","orthodontia"]
 ---

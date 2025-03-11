@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-10-14T10:13:32-04:00
 title: "funerals, business meetings, and church futures"
 tags: ["ordination","Community of Christ","Kirtland Temple","Independence Temple","Holy Week"]

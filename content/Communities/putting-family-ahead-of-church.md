@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-08-23T08:20:15-04:00
 title: "putting family ahead of church"
 tags: ["family","priesthood","Community of Christ","Mormonism","Jana Riess"]

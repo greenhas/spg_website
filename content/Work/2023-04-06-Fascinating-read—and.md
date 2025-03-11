@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-04-06T11:06:53-04:00
 title: "🔗 linkblog: my thoughts on 'The poop emoji: a legal history - The Verge'"
 tags: ["research","emoji","social media","Twitter","Elon Musk"]

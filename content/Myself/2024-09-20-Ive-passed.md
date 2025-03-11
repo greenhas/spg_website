@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2024-09-20T11:29:45-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Public Domain (Volume 1), by Chip Zdarsky"

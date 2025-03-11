@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2025-02-18T10:11:28-05:00
 title: "research referenced in Salt Lake Tribune article on social media and Mormon masculinity"
 tags: ["Tamarra Kemsley","Amy Chapman","Levi Sands","DezNat","Patreon","Mormon Land","Andrew Tate","Jordan Peterson","online Mormonism","Mormon Twitter"]

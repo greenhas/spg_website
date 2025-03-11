@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-09-29T17:53:37-04:00
 title: "🔗 linkblog: my thoughts on 'Rand Paul declines to debate Charles Booker on KET – 89.3 WFPL News Louisville'"
 tags: ["Rand Paul","Charles Booker"]

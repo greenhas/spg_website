@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2020-01-15T15:12:09-05:00
 title: ""
 tags: ["social media","ethics"]

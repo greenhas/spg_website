@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2025-02-01T10:33:36-05:00
 tags: ["Twitter","Elon Musk"]
 ---

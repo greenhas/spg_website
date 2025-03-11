@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2025-01-21T10:29:09-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️❤️ for The Bezzle (A Martin Hench Novel), by Cory Doctorow"

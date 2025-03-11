@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-10-18T12:26:36-04:00
 title: ""
 tags: ["peer review"]

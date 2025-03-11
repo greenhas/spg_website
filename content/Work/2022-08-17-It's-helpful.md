@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-17T07:36:41-04:00
 title: "🔗 linkblog: my thoughts on 'University of Kentucky COVID guidelines for fall 2022 semester | Lexington Herald Leader'"
 tags: ["University of Kentucky","COVID-19"]

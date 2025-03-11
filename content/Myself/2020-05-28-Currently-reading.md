@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2020-05-28T21:26:35-04:00
 title: ""
 tags: ["reading","Superman","Superman Smashes the Klan"]

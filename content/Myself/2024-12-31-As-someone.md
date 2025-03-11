@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-12-31T19:25:41+01:00
 tags: ["Tintin","comics","bd","anarchism","public domain","copyright"]
 title: "🔗 linkblog: my thoughts on 'Tintin and the fascists'"

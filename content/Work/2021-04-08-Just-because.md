@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-04-08T12:35:03-04:00
 title: ""
 tags: ["topic modeling","computational methods","computational text analysis","text analysis","digital methods","objectivity"]

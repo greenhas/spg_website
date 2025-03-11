@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-09-07T19:48:37-04:00
 title: "🔗 linkblog: my thoughts on 'Google gets its way, bakes a user-tracking ad platform directly into Chrome | Ars Technica'"
 tags: ["Google","Chrome","surveillance","privacy","advertising"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-01-06T09:10:14-05:00
 title: ""
 tags: ["research","crowdsourcing","edtech"]

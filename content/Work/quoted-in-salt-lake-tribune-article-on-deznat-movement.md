@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-08-02T13:09:11-04:00
 title: "quoted in Salt Lake Tribune article on DezNat movement"
 tags: ["media appearances","research","DezNat","Salt Lake Tribune","Peggy Fletcher Stack","red pill","Mormon Twitter","Amy Chapman"]

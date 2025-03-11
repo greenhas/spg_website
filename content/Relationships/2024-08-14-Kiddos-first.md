@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-08-14T06:47:23-04:00
 tags: ["parenting","school","actual play","podcasts","Dungeons and Dragons","Total Party Kill"]
 ---

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-02-15T17:07:00-05:00
 title: "🔗 linkblog: just finished 'Ky. Republicans advance another bill banning trans girls from girls sports – 89.3 WFPL News Louisville'"
 tags: ["LGBTQ","Kentucky","Kentucky General Assembly"]

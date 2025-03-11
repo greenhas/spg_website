@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-01-11T07:20:02-05:00
 tags: ["Siri","Star Trek"]
 ---

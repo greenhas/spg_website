@@ -13,11 +13,11 @@
           CurrentSection allows us to use the section title instead of inferring from the folder.
           https://gohugo.io/variables/page/#section-variables-and-methods
           */}}
-        {{ .CurrentSection.Title }} | {{ range .GetTerms "types" }}<li class="list di">
+        {{ .CurrentSection.Title }} | {{ range .GetTerms "types" }}
      <a href="{{ .RelPermalink }}" class="no-underline black sans-serif">
-       {{- .LinkTitle -}}{{end}}
+       {{- .LinkTitle -}}
      </a>
-   </li>
+   {{end}}
       </aside>
       <!--{{ partial "social-share.html" . }}-->
       <h1 class="f1 athelas mt3 mb1">

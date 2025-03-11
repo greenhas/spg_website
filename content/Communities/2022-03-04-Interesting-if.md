@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-03-04T14:57:12-05:00
 title: "🔗 linkblog: my thoughts on 'Millions of Leftists Are Reposting Kremlin Misinformation by Mistake'"
 tags: ["misinformation","disinformation","Russia","Ukraine"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-03-04T12:16:48-05:00
 title: "🔗 linkblog: my thoughts on 'Ky. lawmaker apologizes for comments about Jewish women during abortion debate | Lexington Herald Leader'"
 tags: ["Kentucky","Kentucky General Assembly"]

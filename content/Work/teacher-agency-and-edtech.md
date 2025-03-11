@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-08-09T09:32:46-04:00
 title: "teacher agency and edtech"
 tags: ["edtech","ClassDojo","teacher agency","MAET","TPACK","Matt Koehler","Punya Mishra","teacher education"]

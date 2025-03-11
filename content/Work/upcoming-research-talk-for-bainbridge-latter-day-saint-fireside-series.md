@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-10-06T10:05:11-04:00
 title: "upcoming research talk on DezNat for Bainbridge Latter-day Saint fireside series"
 tags: ["DezNat","Salt Lake Tribune","Amy Chapman","Mormonism","Church of Jesus Christ of Latter-day Saints","research","Peggy Fletcher Stack"]

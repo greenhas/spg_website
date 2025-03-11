@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-09-29T10:38:25-04:00
 title: "Lance Eaton on the invasive surveillance of LMSs"
 tags: ["edtech","learning management systems","surveillance","privacy","data ethics"]

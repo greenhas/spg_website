@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-09-26T15:35:03-04:00
 title: "Nephi's violence as 'commandment anxiety'"
 tags: ["Joseph Spencer","Brief Theological Introductions (series)","rereading the Book of Mormon project","Book of Mormon","Grant Hardy","Understanding the Book of Mormon","Carol Lynn Pearson","Nephi"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-11-15T07:30:27-05:00
 title: ""
 tags: ["mbnov2022","Batman","Batman: The Animated Series","Kevin Conroy","comics"]

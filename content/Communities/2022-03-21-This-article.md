@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-03-21T12:12:55-04:00
 title: "🔗 linkblog: my thoughts on 'So how do Russian cosmonauts feel about Russia’s war on Ukraine? | Ars Technica'"
 tags: ["Russia","Ukraine"]

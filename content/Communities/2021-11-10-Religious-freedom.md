@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-11-10T07:27:30-05:00
 title: "🔗 linkblog: just read 'Supreme Court conservatives are skeptical on spiritual advisers in death chamber : NPR'"
 tags: ["religious freedom","SCOTUS"]

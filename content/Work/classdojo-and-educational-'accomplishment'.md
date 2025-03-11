@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-10-02T17:40:01-04:00
 title: "ClassDojo and educational 'accomplishment'"
 tags: ["ClassDojo","parenting","edtech","assessment","learning analytics","Dirk Ifenthaler","learning analytics","datafication","AECT"]

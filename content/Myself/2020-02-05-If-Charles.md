@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2020-02-05T10:27:38-05:00
 title: ""
 tags: ["writing","proofreading","Marvel"]

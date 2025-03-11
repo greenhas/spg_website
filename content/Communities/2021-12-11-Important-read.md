@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-12-11T18:47:25-05:00
 title: "🔗 linkblog: just finished 'Western Kentucky tornadoes: How to help, donate money, blood | Lexington Herald Leader'"
 tags: ["2021 Kentucky tornadoes"]

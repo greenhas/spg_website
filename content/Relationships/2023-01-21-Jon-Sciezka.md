@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-01-21T12:34:02-05:00
 title: ""
 tags: ["parenting","Jon Sciezka","Julia Rothman","Oulipo","Dada"]

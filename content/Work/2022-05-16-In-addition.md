@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-05-16T13:59:37-04:00
 title: ""
 tags: ["teaching","cheating","plagiarism"]

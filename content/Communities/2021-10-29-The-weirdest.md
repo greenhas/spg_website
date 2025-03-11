@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-10-29T07:24:48-04:00
 title: "🔗 linkblog: just read 'Facebook Changes Corporate Name to Meta - The New York Times'"
 tags: ["Facebook"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-03T14:41:00-04:00
 title: "🔗 linkblog: my thoughts on 'Study Says Trump’s Truth Social Is Much More Aggressive, And Much More Arbitrary, In Moderating Content | Techdirt'"
 tags: ["content moderation","Donald Trump","Truth Social"]

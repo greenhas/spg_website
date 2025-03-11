@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-02-20T17:59:15-05:00
 tags: ["Elon Musk","Twitter","ElonJet"]
 title: "🔗 linkblog: my thoughts on 'Elon Only Started Buying Up Twitter Shares After Twitter Refused To Ban Plane Tracking Account'"

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-03-07T08:43:59-05:00
 title: "more thoughts on Kirtland (with gratitude for Lach Mackay)"
 tags: ["Lach Mackay","Kirtland Temple","Mormonism","Community of Christ","Church of Jesus Christ of Latter-day Saints","Spencer Kimball", "church history","Kirtland"]

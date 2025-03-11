@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-05-30T07:01:27-04:00
 tags: ["content moderation","YouTube","Content ID","copyright","intellectual property"]
 title: "🔗 linkblog: my thoughts on 'YouTuber Has Video Demonitized Over Washing Machine Chime'"

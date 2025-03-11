@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-05-23T09:42:42-04:00
 title: "interview with WEKU on Buffalo shooting and social media content moderation"
 tags: ["far right","free speech","content moderation","Elon Musk","Twitter","4chan","Buffalo shooting","media appearances"]

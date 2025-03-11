@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-07-09T15:27:31-04:00
 title: "some scattered thoughts on Superman"
 tags: ["Superman","comics","Superman for All Seasons","Superman Smashes the Klan","Astro City"]

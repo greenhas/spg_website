@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-09-20T21:27:46-04:00
 title: ""
 tags: ["Siri Shortcuts","Hugo"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-10-20T09:08:20-04:00
 title: "gratitude for models of being imperfect but 'good enough'"
 tags: ["podcasts","Community of Christ","Shandra Newcom","World Conference","2023 World Conference","perfectionism","perfect","perfection","mental health","depression"]

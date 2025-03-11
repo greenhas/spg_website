@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-09-01T07:18:05-04:00
 title: "🔗 linkblog: just read '“Sharenting” Is a Threat to Children’s Health and Personal Development | by Michele DeMarco | Aug, 2021 | OneZero'"
 tags: ["datafication"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-08-05T19:03:26-04:00
 title: ""
 tags: ["Lexington","Alliance Française","French"]

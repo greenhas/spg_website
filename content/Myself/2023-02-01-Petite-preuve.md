@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-02-01T09:28:07-05:00
 title: ""
 tags: ["culture","technology"]

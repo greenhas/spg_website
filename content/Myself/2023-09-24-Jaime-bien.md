@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2023-09-24T21:46:59-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 pour Civilizations, par Laurent Binet"

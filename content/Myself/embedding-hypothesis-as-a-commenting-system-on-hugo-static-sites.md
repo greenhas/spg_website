@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-06-16T09:33:41-04:00
 title: "embedding Hypothesis as a commenting system on Hugo static sites"
 tags: ["Hypothesis","social annotation","Hugo","static sites","blogging","RSS"]

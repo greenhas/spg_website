@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-12-01T10:52:53-05:00
 title: "🔗 linkblog: just finished 'Qualcomm’s new always-on smartphone camera is a privacy nightmare - The Verge'"
 tags: ["privacy"]

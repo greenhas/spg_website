@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-09-17T20:36:05-04:00
 title: "more unfinished thoughts on games and living one's values"
 tags: ["TTRPGs","Lotus Dimension","values","Leo Tolstoy","The Kingdom of God is Within You","Miguel Sicart","XIII","The Ethics of Computer Games","comics","BD","Stardew Valley","Axis and Allies","anarchism","Christian anarchism"]

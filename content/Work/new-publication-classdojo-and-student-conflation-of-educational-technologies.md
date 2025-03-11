@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-09-25T14:08:07-04:00
 title: "new publication: ClassDojo and student conflation of educational technologies"
 tags: ["publications","ClassDojo","edtech","Daniela DiGiacomo","Sarah Barriage","ivory tower","Information and Learning Sciences"]

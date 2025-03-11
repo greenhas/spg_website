@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-12-17T21:57:47-05:00
 tags: ["Christmas","McNugget Buddy","McDonald's"]
 ---

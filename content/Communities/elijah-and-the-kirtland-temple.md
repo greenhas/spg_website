@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-03-09T13:26:54-05:00
 title: "history, Elijah, and the Kirtland Temple"
 tags: ["Elijah","Kirtland Temple","Community of Christ","Church of Jesus Christ of Latter-day Saints","Kirtland Temple (book)","David Howlett","The Angel and the Beehive","Armand Mauss","Sara M. Patterson","The September Six and the Struggle for the Soul of Mormonism"]

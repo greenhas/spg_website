@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-04-18T12:57:16-04:00
 title: "🔗 linkblog: my thoughts on 'Marvel Unbeatable Squirrel Girl Podcast Milana Vayntrub Ryan North'"
 tags: ["Squirrel Girl","comics","podcasts"]

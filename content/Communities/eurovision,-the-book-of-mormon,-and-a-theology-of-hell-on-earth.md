@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-08-09T13:49:01-04:00
 title: "Eurovision, the Book of Mormon, and a theology of hell on earth"
 tags: ["hell","Eurovision","Eurovision 2024","Book of Mormon","LGBTQ","faith transition","Jean-Paul Sartre","Kylie Nielson Turley","Brief Theological Introductions (series)"]

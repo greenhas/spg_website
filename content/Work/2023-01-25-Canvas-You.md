@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-01-25T08:24:27-05:00
 title: ""
 tags: ["Canvas","learning analytics","more data better data","learning management systems","privacy","surveillance","edtech"]

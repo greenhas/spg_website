@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2025-01-30T12:29:40-05:00
 tags: ["research ethics","internet research","online Mormonism","DezNat"]
 featured_image: "/2025-01-30-deznat-pushback.JPEG"

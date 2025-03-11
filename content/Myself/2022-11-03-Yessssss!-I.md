@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-11-03T15:15:54-04:00
 title: "🔗 linkblog: my thoughts on 'Disney+ Releases Complete Version of The Muppet Christmas Carol'"
 tags: ["Disney+","The Muppet Christmas Carol"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-05-03T09:32:52-04:00
 tags: ["password","cybersecurity"]
 ---

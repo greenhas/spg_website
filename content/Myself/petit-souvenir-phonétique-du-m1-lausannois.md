@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-04-04T15:05:13-04:00
 title: "petit souvenir phonétique du M1 lausannois"
 tags: ["French","Switzerland","Lausanne","EPFL","Gare à vous","Radio Télévision Suisse","LEB","Renens","Vaud","trains","UNIL"]

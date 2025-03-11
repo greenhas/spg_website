@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-02-28T11:26:54-05:00
 title: ""
 tags: ["teaching","LIS 618","games and learning","technology values"]

@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2023-07-06T08:12:50-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Silverview, by John Le Carré"

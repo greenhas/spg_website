@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-06-29T09:15:51-04:00
 title: "some more on Abraham"
 tags: ["Abraham","Binding of Isaac","Collège de France","podcasts","Thomas Römer","French","Lausanne","UNIL","open access","Latter-day Saint missionaries","Renens","Vaud","sacrifice"]

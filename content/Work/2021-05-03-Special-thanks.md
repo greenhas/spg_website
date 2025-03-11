@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-05-03T12:40:10-04:00
 title: ""
 tags: ["Canvas","Hypothesis","Google"]

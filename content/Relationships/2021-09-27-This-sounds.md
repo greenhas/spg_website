@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-09-27T17:17:28-04:00
 title: "🔗 linkblog: just read 'Lexington opens key pedestrian bridge over Man O’ War | Lexington Herald Leader'"
 tags: ["Lexington","bikes"]

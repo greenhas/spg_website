@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-02-05T08:04:14-05:00
 title: "🔗 linkblog: just finished 'All Options Are Not on the Table as Biden Moves Troops Closer to Ukraine - The New York Times'"
 tags: ["Ukraine"]

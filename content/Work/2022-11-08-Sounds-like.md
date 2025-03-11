@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-11-08T11:38:57-05:00
 title: ""
 tags: ["tenure","tenure and promotion","tenure application"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-03-08T12:46:47-05:00
 title: "what would Doctorow University look like?"
 tags: ["Cory Doctorow","Walkaway","Down and Out in the Magic Kingdom","Kathleen Fitzpatrick","Generous Thinking","Maggie Berg and Barbara K Seeber","The Slow Professor","Kentucky General Assembly","tenure","faculty governance"]

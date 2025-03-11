@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-06-01T07:27:43-04:00
 title: "🔗 linkblog: my thoughts on 'Racist and Violent Ideas Jump From Web’s Fringes to Mainstream Sites - The New York Times'"
 tags: ["free speech","Buffalo shooting","content moderation","platforms","social media"]

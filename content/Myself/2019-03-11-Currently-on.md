@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-03-11T06:54:48-04:00
 title: ""
 tags: ["flights"]

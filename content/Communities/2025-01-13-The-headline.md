@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2025-01-13T17:15:08-05:00
 tags: ["2025 Los Angeles fires","Amazon"]
 title: "🔗 linkblog: my thoughts on 'An Amazon Delivery Confirmation Photo Is the Last Time a Palisades Resident Saw Her Burnt Down House'"

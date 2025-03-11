@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-03-31T10:36:13-04:00
 title: "🔗 linkblog: my thoughts on 'Houston area student wins $90,000 settlement after being bullied by teacher for not standing for Pledge of Allegiance'"
 tags: ["religious freedom"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-03-05T15:04:48-05:00
 title: "hooray for faculty collegiality"
 tags: ["University of Kentucky","School of Information Science"]

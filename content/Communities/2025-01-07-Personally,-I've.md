@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2025-01-07T11:26:27-05:00
 tags: ["Meta","Mark Zuckerberg","Donald Trump","content moderation"]
 title: "🔗 linkblog: my thoughts on 'Meta abandons fact-checking on Facebook and Instagram in favor of Community Notes'"

@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2024-12-03T14:04:11-05:00
 tags: ["bike commuting","winter"]
 featured_image: "/2024-12-03-winter-commute.JPEG"

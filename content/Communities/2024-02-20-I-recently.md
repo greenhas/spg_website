@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-02-20T08:55:04-05:00
 tags: ["The Onion","persecution complex"]
 title: "🔗 linkblog: my thoughts on 'Christian Man Persecuted Simply For Driving 90 Miles Per Hour In School Zone'"

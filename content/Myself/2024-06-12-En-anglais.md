@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-06-12T12:01:36-04:00
 tags: ["French","Radio Télévision Suisse"]
 ---

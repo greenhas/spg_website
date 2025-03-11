@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-05-18T19:45:54-04:00
 title: "small radio delights, everday cultural artifacts, and other thoughts on audio media"
 tags: ["radio","podcasts","audio","internet radio","Car Talk","Wait Wait Don't Tell Me","Radio Télévision Suisse","Radio France Internationale","French","John Le Carré","BBC Radio 4", "Internet Archive","anxiety", "DKL Dreyeckland", "French teaching", "comics","Superman Smashes the Klan", "John Finnemore","John Finnemore's Souvenir Programme","Cabin Pressure"]

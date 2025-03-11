@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-08-31T11:54:22-04:00
 tags: [""]
 title: "🔗 linkblog: my thoughts on 'How a Group of Teenagers Pranked 'One Million Checkboxes' - Slashdot'"

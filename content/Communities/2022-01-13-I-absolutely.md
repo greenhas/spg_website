@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-01-13T16:06:09-05:00
 title: "🔗 linkblog: just finished 'Dear January 6 Committee: Curb Your Appetite - Center for Democracy and Technology'"
 tags: ["Capitol riot"]

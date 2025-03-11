@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2024-12-02T07:04:36-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️❤️ for Survival of the Richest: Escape Fantasies of the Tech Billionaires, by Douglas Rushkoff"

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-06-08T09:03:40-04:00
 tags: ["library","summer reading","audiobook","radio"]
 ---

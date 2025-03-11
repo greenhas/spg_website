@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-09-22T11:06:09-04:00
 tags: ["Siri Shortcuts","Hugo","link","automation"]
 ---

@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2024-11-22T18:25:03-05:00
 tags: ["Mormonism","Gab","research","writing"]
 featured_image: "/2024-11-22-Mormonism-Gab-screenshot.JPEG"

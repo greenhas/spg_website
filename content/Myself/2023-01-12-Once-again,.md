@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-01-12T09:37:13-05:00
 title: "🔗 linkblog: my thoughts on 'Dungeons and Dragons Is Jeopardizing It’s Greatest Strength: Its Ubiquity'"
 tags: ["Dungeons and Dragons","Wizards of the Coast","Open Gaming License"]

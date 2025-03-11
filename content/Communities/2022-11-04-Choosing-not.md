@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-11-04T13:35:00-04:00
 title: "🔗 linkblog: my thoughts on 'Elon Musk tries to distract from Twitter layoffs by claiming advertisers are fleeing the platform - The Verge'"
 tags: ["Elon Musk","free speech","Twitter"]

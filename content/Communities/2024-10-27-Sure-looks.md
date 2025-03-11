@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-10-27T12:29:59-04:00
 tags: ["2024 elections","Kamala Harris","Donald Trump"]
 ---

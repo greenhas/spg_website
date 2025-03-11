@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-03T14:38:05-04:00
 title: "🔗 linkblog: my thoughts on 'Pearson says NFT textbooks will let it profit off secondhand sales - The Verge'"
 tags: ["blockchain","NFTs","open textbooks","OER","alternative textbooks"]

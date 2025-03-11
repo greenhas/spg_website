@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-05-12T12:06:15-04:00
 title: ""
 tags: ["French","Manu Chao","music","writing"]

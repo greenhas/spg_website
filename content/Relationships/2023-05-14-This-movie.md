@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: movie
 date: 2023-05-14T10:10:48-04:00
 title: "🍿 movieblog: ❤️🖤🖤🖤🖤 for Firedrake the Silver Dragon"

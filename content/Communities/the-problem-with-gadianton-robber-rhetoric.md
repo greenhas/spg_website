@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-10-01T19:36:45-04:00
 title: "the problem with Gadianton robber rhetoric"
 tags: ["Book of Mormon","American Indians","First Nations","Kimberly Matheson Berkey","Maxwell Institute Podcast","Blair Hodges","Gadianton robbers","Paul Reeve","Religion of a Different Color","racism","Ezra Taft Benson"]

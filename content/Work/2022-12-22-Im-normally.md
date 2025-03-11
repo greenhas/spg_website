@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-12-22T23:30:00-05:00
 title: ""
 tags: ["ICT 202","teaching","flu","course prep","family"]

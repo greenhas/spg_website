@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-11-04T08:28:38-04:00
 title: "microblogvember and the surprising joy of random words"
 tags: ["mbnov2022","deconstruction","The Bible for Normal People","podcasts","French","music"]

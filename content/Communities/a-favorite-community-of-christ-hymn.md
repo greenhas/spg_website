@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-07-08T13:26:28-04:00
 title: "a favorite Community of Christ hymn"
 tags: ["Community of Christ Sings","Day One","journaling","hymns","Peace Salaam Shalom","2023 World Conference","Katie Harmon-McLaughlin","French"]

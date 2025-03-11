@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-06-22T20:12:48-04:00
 title: ""
 tags: ["reading","technology","humanities"]

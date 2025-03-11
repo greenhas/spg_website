@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-09-02T09:59:04-04:00
 title: "to be loved is to be 'liked'"
 tags: ["platforms","José van Dijck","social media","internet radio","Radio Chablais","French"]

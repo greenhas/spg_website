@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-06-28T15:55:58-04:00
 title: "what does 'the Lord' mean in the Book of Mormon?"
 tags: ["rereading the Book of Mormon project","King James Version","Book of Mormon","Thomas Römer","Wil Gafney","Grant Hardy","King James Version"]

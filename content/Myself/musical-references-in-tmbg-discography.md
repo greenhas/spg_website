@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-08-29T14:02:19-04:00
 title: "musical references in TMBG discography"
 tags: ["music","They Might Be Giants","TMBG","remix","remix culture"]

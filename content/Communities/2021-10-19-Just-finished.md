@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-10-19T22:37:37-04:00
 title: ""
 tags: ["Cory Doctorow","Attack Surface","Little Brother series"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-04-04T14:32:42-04:00
 title: "🔗 linkblog: my thoughts on 'Podcast Episode: So You Think You’re A Critical Thinker | Electronic Frontier Foundation'"
 tags: ["Alice Marwick","privacy","disinformation","podcasts","EFF"]

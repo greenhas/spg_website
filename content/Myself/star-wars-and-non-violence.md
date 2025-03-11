@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-07-18T21:28:16-04:00
 title: "Star Wars and non-violence"
 tags: ["non-violence","Star Wars","The Acolyte","Watsonian versus Doylist"]

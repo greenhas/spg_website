@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-11-29T16:09:08-05:00
 title: "new publication: LGBTQ+ communities and far right social media"
 tags: ["gayservatives","LGBTQ","research","publications","Gab","Evan Brody","Mehroz Sajjad","online Mormonism","DezNat"]

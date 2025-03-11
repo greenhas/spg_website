@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-11-26T14:54:48-05:00
 tags: ["The Onion","Alex Jones","Twitter","Elon Musk","social media"]
 title: "🔗 linkblog: my thoughts on 'X's Objection to the Onion Buying InfoWars Is a Reminder You Do Not Own Your Social Media Accounts'"

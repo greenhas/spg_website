@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-09-25T13:49:38-04:00
 title: ""
 tags: ["academia","parenting","school break"]

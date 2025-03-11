@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2025-01-28T09:28:48-05:00
 tags: ["Kickstarter","Tintin","bd","public domain","copyright"]
 featured_image: "/2025-01-28-tintin-public-domain.JPEG"

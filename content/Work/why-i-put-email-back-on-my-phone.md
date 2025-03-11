@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-11-01T12:42:52-04:00
 title: "why I put email back on my phone"
 tags: ["productivity","to-do list","task management","email","Things","COVID-19","parenting"]

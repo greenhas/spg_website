@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-10-29T20:35:44-04:00
 title: "beating Super Mario Galaxy 2 with kiddo"
 tags: ["video games","Nintendo Wii","Mario","parenting","libraries"]

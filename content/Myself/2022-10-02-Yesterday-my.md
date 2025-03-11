@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-10-02T15:26:11-04:00
 title: ""
 tags: ["Freespace","Apple Watch"]

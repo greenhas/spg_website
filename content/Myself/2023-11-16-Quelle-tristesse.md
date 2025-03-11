@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-11-16T06:18:25-05:00
 tags: ["music","Karl Tremblay","Les Cowboys fringants"]
 title: "🔗 linkblog: mes pensées sur 'Karl Tremblay, le chanteur des Cowboys Fringants, est décédé à l'âge de 47 ans - rts.ch - Musiques'"

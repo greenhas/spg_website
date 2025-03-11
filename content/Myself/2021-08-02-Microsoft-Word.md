@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-08-02T15:13:54-04:00
 title: ""
 tags: ["Microsoft Word","values","technology values","spellcheck"]

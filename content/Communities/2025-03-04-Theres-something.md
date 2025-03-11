@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: radio
 date: 2025-03-04T12:53:27-05:00
 title: "🎙️ radioblog: When the Wind Blows  (❤️❤️❤️❤️🖤)"

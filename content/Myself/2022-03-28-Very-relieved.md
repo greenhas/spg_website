@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-03-28T14:49:58-04:00
 title: ""
 tags: ["French","radio","Johnny Hallyday","music"]

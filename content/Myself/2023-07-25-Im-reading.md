@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-07-25T07:18:43-04:00
 title: ""
 tags: ["sleep","productivity","Start Finishing"]

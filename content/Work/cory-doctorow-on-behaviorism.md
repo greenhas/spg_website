@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-01-26T15:08:49-05:00
 title: "Cory Doctorow on behaviorism"
 tags: ["behaviorism","Skinner","edtech","educational psychology","Cory Doctorow","Walkaway","learning theories","education","research"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-02-16T15:20:10-05:00
 tags: ["Air Canada","chatbot","AI"]
 title: "🔗 linkblog: my thoughts on 'Air Canada must honor refund policy invented by airline’s chatbot'"

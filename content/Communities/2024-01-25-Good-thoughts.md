@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-01-25T20:48:20-05:00
 tags: ["generative AI","deepfake","deepfake pornography","Taylor Swift","Casey Newton"]
 title: "🔗 linkblog: my thoughts on 'The Taylor Swift deepfakes are a warning'"

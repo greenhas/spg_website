@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-01-05T10:00:00-04:00
 title: "another upcoming sermon for Toronto Congregation of Community of Christ"
 tags: ["Community of Christ","Beyond the Walls","Temptation of Jesus","Parable of the Samaritan"]

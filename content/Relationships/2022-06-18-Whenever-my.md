@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-06-18T09:15:38-04:00
 title: ""
 tags: ["donuts","food"]

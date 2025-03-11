@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2025-02-07T11:37:18-05:00
 title: "watching Star Trek: Lower Decks"
 tags: ["Star Trek","Star Trek: Lower Decks","The Incomparable","Star Trek (2009 film)"]

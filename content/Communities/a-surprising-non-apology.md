@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-02-21T20:02:43-05:00
 title: "a surprising (but ultimately damning) non-apology"
 tags: ["The Church of Jesus Christ of Latter-day Saints"]

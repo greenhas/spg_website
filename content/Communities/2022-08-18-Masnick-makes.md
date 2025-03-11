@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-18T14:58:26-04:00
 title: "🔗 linkblog: my thoughts on 'Google Maps Is Misleading Users Searching For Abortion Clinics… And The GOP Is Threatening The Company If It Fixes That | Techdirt'"
 tags: ["content moderation","GOO","reproductive rights","Google Maps"]

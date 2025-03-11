@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2025-01-13T07:02:26-05:00
 tags: ["Calvin and Hobbes","comics","comic strips","snow days"]
 featured_image: "/2025-01-13-Calvin,snow.JPEG"

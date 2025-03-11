@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-01-10T09:22:51-05:00
 title: "quoted in EducationWeek about Seattle Public Schools' social media lawsuit"
 tags: ["EducationWeek","Josh Rosenberg","Jeff Carpenter","Meta","Facebook","Instagram","Snapchat","TikTok","mental health","Mike Masnick","surveillance","media appearances"]

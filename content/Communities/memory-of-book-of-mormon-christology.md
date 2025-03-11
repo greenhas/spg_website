@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-08-31T08:58:51-04:00
 title: "a memory of Book of Mormon Christology"
 tags: ["Book of Mormon","Christology","Latter-day Saint missionaries","Preach My Gospel","First Vision"]

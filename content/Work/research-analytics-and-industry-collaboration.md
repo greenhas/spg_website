@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-07-13T13:40:32-04:00
 title: "research analytics for... industry collaboration?"
 tags: ["analytics","Scholars@UK","Elsevier","research","automation","public education","Kentucky General Assembly"]

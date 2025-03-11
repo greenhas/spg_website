@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-04-20T09:53:15-04:00
 title: "media coverage of recent article on Latter-day Saint online presence"
 tags: ["The Church of Jesus Christ of Latter-day Saints","research","technology","Mormon Studies","digital religion","Dialogue journal","Peggy Fletcher Stack","Mormon Land","media appearances"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-08-30T12:09:30-04:00
 title: "pourquoi le français ?"
 tags: ["French","Les cowboys fringants","music","France","Switzerland","Québec","BD","comics"]

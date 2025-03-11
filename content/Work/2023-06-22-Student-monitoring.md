@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-06-22T18:40:17-04:00
 title: "🔗 linkblog: my thoughts on 'Student Monitoring Tools Should Not Flag LGBTQ+ Keywords | Electronic Frontier Foundation'"
 tags: ["ed tech","EFF","LGBTQ"]

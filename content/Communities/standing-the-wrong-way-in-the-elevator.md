@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-09-19T10:00:12-04:00
 title: "standing the wrong way in the elevator: a response to Oaks and Gilbert"
 tags: ["bike commuting","bikes","Dallin Oaks","Clark Gilbert","BYU","Church Educational System","e-bikes","Brigham Young","slavery","The Church of Jesus Christ of Latter-day Saints","John G. Turner"]

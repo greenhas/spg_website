@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-03-06T08:17:45-05:00
 title: "rediscovering some comments on computational thinking"
 tags: ["computational thinking","computer science education","STEM","STEM education","journaling","Day One","platforms","digital","analog vs. digital","Hypothesis","games","literacies","LIS 618","social annotation","asynchronous teaching"]

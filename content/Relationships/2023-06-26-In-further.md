@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-06-26T16:18:06-04:00
 title: ""
 tags: ["sunmer camp","parenting","children's media"]

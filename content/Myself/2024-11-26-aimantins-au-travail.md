@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2024-11-26T10:41:44-05:00
 tags: ["trains","Star Wars","magnets"]
 featured_image: "/2024-11-26-aimantins-au-travail.JPEG"

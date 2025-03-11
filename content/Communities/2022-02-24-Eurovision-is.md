@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-02-24T16:57:19-05:00
 title: "🔗 linkblog: my thoughts on 'Russia's still eligible for the 2022 Eurovision Song Contest : NPR'"
 tags: ["Russia","Ukraine","Eurovision"]

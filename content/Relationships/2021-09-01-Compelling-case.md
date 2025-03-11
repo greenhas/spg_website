@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-09-01T07:23:30-04:00
 title: "🔗 linkblog: just read 'How Far Can You Go to Resist Being the Subject of a Viral Video? - The New York Times'"
 tags: ["parenting","platforms"]

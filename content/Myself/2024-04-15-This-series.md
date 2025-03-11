@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: radio
 date: 2024-04-15T13:28:32-04:00
 tags: ["Myself","Cabin Pressure","Benedict Cumberbatch","John Finnemore"]

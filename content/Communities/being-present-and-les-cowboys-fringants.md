@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-09-25T14:04:58-04:00
 title: "being present and « Les Cowboys Fringants »"
 tags: ["music","Les Cowboys fringants","mindfulness","presence","prayer"]

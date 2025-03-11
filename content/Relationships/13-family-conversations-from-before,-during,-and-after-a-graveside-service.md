@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-09-13T17:06:43-05:00
 title: "13 family conversations from before, during, and after a graveside service"
 tags: ["funerals","Mormonism","Latter-day Saint missionaries","content moderation","Section 230","free speech","Jim Jordan","John Le Carré","faith transition"]

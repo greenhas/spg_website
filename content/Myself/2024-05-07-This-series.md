@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: radio
 date: 2024-05-07T19:38:12-04:00
 tags: ["Myself","John Finnemore's Souvenir Programme"]

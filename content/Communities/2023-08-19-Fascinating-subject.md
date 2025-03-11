@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: movie
 date: 2023-08-19T15:55:14-04:00
 title: "🍿 movieblog: ❤️❤️❤️❤️❤️ for Oppenheimer"

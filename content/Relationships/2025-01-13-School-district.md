@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2025-01-13T17:49:18-05:00
 tags: ["snow days","winter"]
 ---

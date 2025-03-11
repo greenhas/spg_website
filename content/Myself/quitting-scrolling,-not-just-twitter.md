@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-12-24T08:40:59-05:00
 title: "quitting scrolling, not just Twitter"
 tags: ["Twitter","blogging","RSS","Mastodon","Elon Musk","Micro.blog"]

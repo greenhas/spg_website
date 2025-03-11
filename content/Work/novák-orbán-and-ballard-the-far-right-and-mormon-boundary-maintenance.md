@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-09-28T11:16:20-04:00
 title: "Novák, Orbán, and Ballard: the far right and Mormon boundary maintenance"
 tags: ["SSSR","SSSR 2023","Mormonism","Gab","The Church of Jesus Christ of Latter-day Saints","COVID-19","far right","Amy Chapman","Tim Ballard","Benjamin E. Park","Mormon Land","Peggy Fletcher Stack","Dave Noyce","BYU"]

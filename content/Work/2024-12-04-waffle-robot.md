@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2024-12-04T12:07:35-05:00
 tags: ["Zoom","robots","toys"]
 featured_image: "/2024-12-04-waffle-robot.JPEG"

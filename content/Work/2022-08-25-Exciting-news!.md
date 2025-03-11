@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-25T19:11:25-04:00
 title: "🔗 linkblog: my thoughts on 'US government to make all research it funds open access on publication | Ars Technica'"
 tags: ["publishing","journals","open access"]

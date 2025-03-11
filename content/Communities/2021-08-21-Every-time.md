@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-08-21T07:47:33-04:00
 title: "🔗 linkblog: just read 'In Iowa, Marjorie Taylor Greene and Matt Gaetz Take Trump's Baton - The New York Times'"
 tags: ["Matt Gaetz","Marjorie Taylor Greene","far right","Donald Trump","ranked-choice voting","Charles Booker","Mitch McConnell"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-08-20T11:34:55-04:00
 title: "draft advice for intro to data science students"
 tags: ["data science","ICT 661","teaching"]

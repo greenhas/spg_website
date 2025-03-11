@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2025-02-07T19:24:05-05:00
 tags: ["DOGE","Elon Musk"]
 title: "🔗 linkblog: my thoughts on 'Staffer with Elon Musk's DOGE amplified white supremacists online'"

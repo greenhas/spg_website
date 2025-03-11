@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-07-22T08:49:13-04:00
 title: "🔗 linkblog: my thoughts on 'Republicans Sharpen Post-Roe Attacks on L.G.B.T.Q. Rights - The New York Times'"
 tags: ["Gab","SCOTUS","LGBTQ"]

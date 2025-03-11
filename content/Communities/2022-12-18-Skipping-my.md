@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-12-18T18:57:10-05:00
 title: ""
 tags: ["Advent","Christmas","digital ministry","Zoom","Mario Party","parenting"]

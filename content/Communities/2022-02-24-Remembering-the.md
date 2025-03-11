@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-02-24T12:01:13-05:00
 title: ""
 tags: ["Mormonism","internet research","surveillance","Michigan","dissertation"]

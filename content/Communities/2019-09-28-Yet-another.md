@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-09-28T14:56:35-04:00
 title: ""
 tags: ["Grammarly","AI"]

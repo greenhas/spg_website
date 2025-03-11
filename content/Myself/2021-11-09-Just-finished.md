@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-11-09T14:22:09-05:00
 title: ""
 tags: ["anxiety"]

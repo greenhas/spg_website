@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-12-12T06:55:01-05:00
 tags: ["French","Côte d'Ivoire","Democratic Republic of Congo","Sénégal"]
 title: "🔗 linkblog: my thoughts on 'How Africans Are Changing French — One Joke, Rap and Book at a Time - The New York Times'"

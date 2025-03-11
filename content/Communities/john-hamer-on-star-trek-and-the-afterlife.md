@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-11-24T15:25:28-05:00
 title: "John Hamer on Star Trek and the afterlife"
 tags: ["John Hamer","Beyond the Walls","Star Trek","science fiction","The Man Born to Be King","Dorothy Sayers","kingdom of God","Mormonism","Deep Space Nine","The Bezzle","Cory Doctorow","Sheep and Goats"]

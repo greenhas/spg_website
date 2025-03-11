@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-04-15T15:43:16-04:00
 tags: ["radio","Internet Archive"]
 ---

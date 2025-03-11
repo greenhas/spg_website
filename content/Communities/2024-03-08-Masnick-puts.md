@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-03-08T13:17:51-05:00
 tags: ["TikTok","Mike Masnick"]
 title: "🔗 linkblog: my thoughts on 'When Viral Advocacy Fails: TikTok’s Call Flood To Congress Backfires'"

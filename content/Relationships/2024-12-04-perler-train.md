@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2024-12-04T20:14:11-05:00
 tags: ["trains","parenting","Thanksgiving","high speed rail"]
 featured_image: "/2024-12-04-perler-train.JPEG"

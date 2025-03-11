@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-05-22T15:31:33-04:00
 title: ""
 tags: ["parenting","hidden pictures","muesli","movies"]

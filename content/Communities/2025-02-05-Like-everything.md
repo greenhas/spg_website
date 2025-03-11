@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2025-02-05T21:23:08-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Debt: The First 5,000 Years, by David Graeber"

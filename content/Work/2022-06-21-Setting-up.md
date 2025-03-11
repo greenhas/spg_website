@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-06-21T17:12:58-04:00
 title: ""
 tags: ["Camvas","LMS","ICT 302","content management"]

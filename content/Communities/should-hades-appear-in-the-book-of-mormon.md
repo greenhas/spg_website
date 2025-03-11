@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-06-07T07:56:46-04:00
 title: "should 'Hades' appear in the Book of Mormon?"
 tags: ["Bible","rereading the Book of Mormon project","King James Version","World English Bible","Book of Mormon"]

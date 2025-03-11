@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-02-16T12:26:02-05:00
 title: "🔗 linkblog: my thoughts on 'Pluralistic: 16 Feb 2022 – Pluralistic: Daily links from Cory Doctorow'"
 tags: ["edtech","Cory Doctorow"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-07-08T17:35:06-04:00
 title: ""
 tags: ["ICT 302","generative AI","teaching"]

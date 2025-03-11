@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-09-20T12:45:01-04:00
 title: ""
 tags: ["edtech","ClassDojo"]

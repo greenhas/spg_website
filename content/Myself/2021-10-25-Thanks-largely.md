@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-10-25T12:36:57-04:00
 title: ""
 tags: ["French","reading"]

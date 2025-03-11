@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-01-18T14:26:36-05:00
 title: ""
 tags: ["Vygotsky","sociocultural theories of learning","edpsych","parenting"]

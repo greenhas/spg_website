@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-11-08T11:23:40-05:00
 title: "🔗 linkblog: my thoughts on 'Meet the ‘Black Robe Regiment’ of Extremist Pastors Spreading Christian Nationalism'"
 tags: ["Black Robe Regiment","Michael Flynn","Christian nationalism","Gab","Glenn Beck"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-04-11T14:15:52-04:00
 title: ""
 tags: ["email"]

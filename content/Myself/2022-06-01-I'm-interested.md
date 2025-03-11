@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-06-01T10:08:42-04:00
 title: "🔗 linkblog: my thoughts on '‘Obi-Wan Kenobi’ Is a Mashup of the Things That Make Up Star Wars'"
 tags: ["Star Wars","TTRPGs","Wizards of the Coast"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-01-25T11:28:16-05:00
 title: ""
 tags: ["conferences","France"]

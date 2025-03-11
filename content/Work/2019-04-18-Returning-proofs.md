@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-04-18T15:54:11-04:00
 title: ""
 tags: ["writing","research"]

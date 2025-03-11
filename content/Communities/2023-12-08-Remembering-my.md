@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-12-08T06:59:32-05:00
 tags: ["BYU","Mormonism","ketchup","mustard"]
 ---

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-01-10T16:28:04-05:00
 title: "🔗 linkblog: my thoughts on 'As Elon Fires More Trust & Safety Staff, Twitter’s Moderation Efforts Fall Apart | Techdirt'"
 tags: ["Elon Musk","Twitter","content moderation","CSAM"]

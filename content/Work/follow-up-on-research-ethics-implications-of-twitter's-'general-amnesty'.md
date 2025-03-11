@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-05-14T15:11:38-04:00
 title: "follow up on research ethics implications of Twitter's 'general amnesty'"
 tags: ["research ethics","DezNat","online Mormonism","far right","digital traces research","digital methods","JMSSA","MSSA","Twitter","Elon Musk"]

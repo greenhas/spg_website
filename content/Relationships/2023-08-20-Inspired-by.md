@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-08-20T07:42:19-04:00
 title: ""
 tags: ["Walkaway","Cory Doctorow","incarnation","physicality"]

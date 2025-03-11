@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-05-02T12:29:47-04:00
 title: ""
 tags: ["YouTube","personalization"]

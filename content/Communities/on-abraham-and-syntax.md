@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-06-28T11:39:15-04:00
 title: "on Abraham and syntax"
 tags: ["sacrifice","Abraham","Binding of Isaac","Robert Alter","Kierkegaard"]

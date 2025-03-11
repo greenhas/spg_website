@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-10-11T09:26:58-04:00
 tags: ["Ring","Amazon","surveillance","privacy","law enforcement"]
 title: "🔗 linkblog: my thoughts on 'Amazon’s ‘Neighborhood Watch’ Might Be Turning Police Officers Into ‘Reddit Moderators’ – The Markup'"

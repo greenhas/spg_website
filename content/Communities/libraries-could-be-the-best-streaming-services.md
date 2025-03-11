@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-03-08T09:39:24-05:00
 title: "libraries could be the best streaming services"
 tags: ["music","streaming","libraries","Freegal","music streaming","streaming services","Indochine","Phoenix","Chokepoint Capitalism","Cory Doctorow","Rebecca Giblin","copyright","intellectual property"]

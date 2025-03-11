@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-07-27T19:38:11-04:00
 title: ""
 tags: ["COVID-19","culture wars"]

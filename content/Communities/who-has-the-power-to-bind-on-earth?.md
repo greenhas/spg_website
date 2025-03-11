@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-09-04T15:08:14-04:00
 title: "who has the power to bind on earth?"
 tags: ["sealing power","liturgical year","lectionary","authority","religious authority","David Bentley Hart"]

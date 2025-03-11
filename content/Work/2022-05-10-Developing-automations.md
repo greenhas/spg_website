@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-05-10T13:29:16-04:00
 title: ""
 tags: ["automation","imposter syndrome"]

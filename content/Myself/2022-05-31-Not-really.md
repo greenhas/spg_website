@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-05-31T17:59:28-04:00
 title: ""
 tags: ["Stranger Things","Tales from the Loop","TTRPGs"]

@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2023-02-03T22:08:23-05:00
 title: "📚 bookblog: ❤️❤️❤️🖤🖤 for Swisstory: The Untold, Bloody, and Absolutely Real History of Switzerland, by Laurie Theurer"

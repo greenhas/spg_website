@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-03-04T10:37:39-05:00
 title: "un souvenir ludique de Grenoble"
 tags: ["games","Wings of War","board games","tabletop games","Grenoble"]

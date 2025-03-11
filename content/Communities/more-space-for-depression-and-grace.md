@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-03-15T10:06:38-04:00
 title: "more space for depression and grace"
 tags: ["Mormonism","grace","mental health","Latter-day Saint missionaries","Day One","journaling"]

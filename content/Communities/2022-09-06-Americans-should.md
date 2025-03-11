@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-09-06T13:04:53-04:00
 title: "🔗 linkblog: my thoughts on 'New Book Says NSA Pressured GCHQ To Shut Down Publication Of Snowden Leaks By UK Journalists | Techdirt'"
 tags: ["Edward Snowden","NSA","surveillance","espionage"]

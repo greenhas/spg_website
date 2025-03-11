@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-07-19T11:31:12-04:00
 title: ""
 tags: ["research","French","translations"]

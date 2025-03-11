@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-06-17T13:05:43-04:00
 title: "automation, agency, and « Au service de la France »"
 tags: ["French","automation","agency","Au service de la France","Redbubble","autocorrect","translation"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-07-23T20:31:07-04:00
 title: "RSS, APIs, and automating the lectionary readings (and other stuff, too)"
 tags: ["RSS","API","Habitica","liturgical calendar","productivity","Siri Shortcuts","habit tracking","vegetarianism","Apple Watch","Hugo","imposter syndrome","Things","Community of Christ","Book of Mormon","Doctrine and Covenants"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-04-02T10:24:56-04:00
 title: ""
 tags: ["Capitol riot","2020 election","Good Friday","liturgical calendar"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-10-07T17:16:38-04:00
 title: "🔗 linkblog: my thoughts on 'Arizona GOP Secretary Of State Candidate Insists ‘Deep State’ Google Is Blocking His Website; Turns Out He Requested It Not Be Indexed | Techdirt'"
 tags: ["Arizona","Google","Mike Masnick"]

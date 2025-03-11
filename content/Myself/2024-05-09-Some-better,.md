@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-05-09T19:24:10-04:00
 tags: ["Stack Overflow","OpenAI","generative AI","digital labor"]
 title: "🔗 linkblog: my thoughts on 'Stack Overflow users sabotage their posts after OpenAI deal'"

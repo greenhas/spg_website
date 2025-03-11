@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-01-19T13:37:20-05:00
 tags: ["ClassDojo"]
 ---

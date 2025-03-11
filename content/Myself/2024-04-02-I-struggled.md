@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: tv
 date: 2024-04-02T10:41:20-04:00
 tags: ["Myself","Borgen","The West Wing","proportional representation"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-06-17T13:41:29-04:00
 title: ""
 tags: ["peer review"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-08-21T09:45:45-04:00
 title: "🔗 linkblog: my thoughts on 'Scammers Used ChatGPT to Unleash a Crypto Botnet on X | WIRED'"
 tags: ["generative AI","disinformation","ChatGPT"]

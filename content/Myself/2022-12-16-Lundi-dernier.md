@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-12-16T16:06:37-05:00
 title: ""
 tags: ["cheese","gruyère","Switzerland"]

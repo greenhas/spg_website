@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-04-01T08:43:32-04:00
 tags: ["Watchmen","password security","comics","ICT 202"]
 ---

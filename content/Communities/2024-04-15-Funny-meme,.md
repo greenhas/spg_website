@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-04-15T12:21:41-04:00
 tags: ["Amazon","AI","memes","reddit"]
 title: "🔗 linkblog: my thoughts on 'All Bad Bosses at Amazon Are Now Named ‘Wayne’'"

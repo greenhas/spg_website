@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-08-09T14:46:57-04:00
 title: "webcomics and the importance of content aggregation"
 tags: ["ICT 302","content aggregation","Star Wars","Dork Tower","webcomics","Revenge of the Sith","John Kovalic","Deane Barker","Kagi"]

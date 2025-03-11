@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2025-01-25T08:16:13-05:00
 tags: ["podcasts","parenting","Dungeons and Dragons","actual play"]
 ---

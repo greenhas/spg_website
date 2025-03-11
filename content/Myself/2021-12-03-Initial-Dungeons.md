@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-12-03T17:47:08-05:00
 title: ""
 tags: ["Northern Kentucky","Dungeons and Dragons","TTRPGs"]

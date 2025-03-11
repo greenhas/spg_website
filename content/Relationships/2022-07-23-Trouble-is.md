@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-07-23T18:25:12-04:00
 title: ""
 tags: ["parenting","board games"]

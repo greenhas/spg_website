@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-06-25T14:23:51-04:00
 title: ""
 tags: ["ginger","marriage","parenting","food"]

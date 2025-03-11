@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-05-14T09:51:23-04:00
 title: "faith in heaven vs. faith in hell"
 tags: ["faith transition","heaven","hell","exclusivism","Day One","journaling","Church of Jesus Christ of Latter-day Saints","Community of Christ","Mormonism"]

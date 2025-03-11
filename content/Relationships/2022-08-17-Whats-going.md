@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-08-17T19:22:25-04:00
 title: ""
 tags: ["parenting","Star Wars"]

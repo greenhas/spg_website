@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-10-24T15:17:59-04:00
 title: ""
 tags: ["music","French","grading"]

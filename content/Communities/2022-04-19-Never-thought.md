@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-04-19T10:45:01-04:00
 title: "🔗 linkblog: my thoughts on 'Gab CEO Ironically Pines For Net Neutrality | Techdirt'"
 tags: ["Gab","net neutrality"]

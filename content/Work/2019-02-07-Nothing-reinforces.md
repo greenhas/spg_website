@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-02-07T09:07:07-05:00
 title: ""
 tags: ["bike commuting","bikes"]

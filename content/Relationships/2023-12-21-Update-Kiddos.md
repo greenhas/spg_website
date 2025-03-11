@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-12-21T20:27:58-05:00
 tags: ["binary","hexadecimal","parenting"]
 ---

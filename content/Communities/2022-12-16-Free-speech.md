@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-12-16T12:18:33-05:00
 title: "🔗 linkblog: my thoughts on 'Elon Musk Is Taking Aim at Journalists. I’m One of Them.'"
 tags: ["Elon Musk","far right","free speech","Twitter","content moderation"]

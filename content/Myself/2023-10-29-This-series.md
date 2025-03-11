@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2023-10-29T20:38:36-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for The Long War, by Terry Pratchett and Stephen Baxter"

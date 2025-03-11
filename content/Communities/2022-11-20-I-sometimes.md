@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-11-20T08:08:24-05:00
 title: ""
 tags: ["mbnov2022","Peggy Sue loop"]

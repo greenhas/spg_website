@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-05-31T12:15:10-04:00
 title: "the difficulty of imagining the kingdom of God"
 tags: ["Leo Tolstoy","The Kingdom of God is Within You","kingdom of God","The Man Born to Be King","Dorothy Sayers","Michael Austin","By Common Consent","anarchism","Christian anarchism","Scott Branson","Practical Anarchism","resurrection"]

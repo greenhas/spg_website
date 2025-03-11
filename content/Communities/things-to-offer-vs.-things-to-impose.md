@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-08-06T20:15:06-04:00
 title: "things to offer vs. things to impose"
 tags: ["Community of Christ","First Vision","The Church of Jesus Christ of Latter-day Saints","Joseph Smith Jr.","Dialogue","faith transition"]

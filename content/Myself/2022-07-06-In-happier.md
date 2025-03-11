@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-07-06T08:09:07-04:00
 title: ""
 tags: ["herbal tea","Cincinnati","Jungle Jim's"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2025-01-19T07:52:29-05:00
 title: "posting last month's sermon about hope in spite of *gestures at everything*"
 tags: ["Charles Neff","Paul","Second Coming","Advent","hope","Thomas Reese","Palestine","Guy Delisle","Chroniques de Jérusalem","Charles Neff","incarnation","2024 elections","Richard Rohr","POSSE"]

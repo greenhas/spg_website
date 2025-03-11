@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-11-20T15:49:17-05:00
 tags: ["generative AI","search engines","epistemology","parenting"]
 ---

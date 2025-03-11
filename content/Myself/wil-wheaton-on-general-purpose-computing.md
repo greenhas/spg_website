@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-09-06T15:17:44-04:00
 title: "Wil Wheaton on general purpose computing"
 tags: ["Wil Wheaton","Still Just a Geek","DRM","general purpose computing","EFF","Little Brother series","Cory Doctorow","iPad","Apple","ClassDojo","computer science","computer science education","digital rights"]

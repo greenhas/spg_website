@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-04-20T13:02:41-04:00
 title: ""
 tags: ["RSS","Feedbin","Twitter","Micro.blog","reddit"]

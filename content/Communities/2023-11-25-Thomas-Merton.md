@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-11-25T07:51:21-05:00
 tags: ["Thomas Merton","peace","war"]
 ---

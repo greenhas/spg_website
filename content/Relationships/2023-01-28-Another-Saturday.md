@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-01-28T12:00:50-05:00
 title: ""
 tags: ["home maintenance"]

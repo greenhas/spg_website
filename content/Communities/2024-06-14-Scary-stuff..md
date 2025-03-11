@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-06-14T09:12:24-04:00
 tags: ["facial recognition","Clearview","Clearview AI","law enforcement"]
 title: "🔗 linkblog: my thoughts on 'Cop busted for unauthorized use of Clearview AI facial recognition resigns'"

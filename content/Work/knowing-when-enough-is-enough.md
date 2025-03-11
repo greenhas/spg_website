@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-07-27T12:01:13-04:00
 title: "knowing when enough is enough"
 tags: ["tenure","tenure application","French teaching","BYU","University of Kentucky","tenure and promotion"]

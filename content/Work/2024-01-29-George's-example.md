@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-01-29T14:07:25-05:00
 tags: ["George Veletsianos","teaching","syllabus","generative AI"]
 title: "🔗 linkblog: my thoughts on 'Generative AI course statement – George Veletsianos, PhD'"

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-07-04T20:25:03-04:00
 title: "upcoming sermon for Toronto Congregation of Community of Christ"
 tags: ["Community of Christ","Beyond the Walls","Samaritan","Parable of the Samaritan","COVID-19"]

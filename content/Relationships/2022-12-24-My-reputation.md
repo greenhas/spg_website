@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-12-24T17:38:05-05:00
 title: ""
 tags: ["uncle","TTRPGs"]

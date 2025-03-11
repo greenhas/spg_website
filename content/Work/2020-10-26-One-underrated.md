@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2020-10-26T13:58:25-04:00
 title: ""
 tags: ["Google Docs","writing"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-12-18T14:45:40-05:00
 tags: ["APIs","social media","social media research","Twitter","Facebook","digital traces research","digital methods"]
 ---

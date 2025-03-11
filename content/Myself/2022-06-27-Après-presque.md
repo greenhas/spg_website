@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-06-27T19:28:45-04:00
 title: ""
 tags: ["running","lower back"]

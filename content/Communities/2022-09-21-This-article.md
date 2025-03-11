@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-09-21T08:14:47-04:00
 title: "🔗 linkblog: my thoughts on 'Too much trust in machine translation could have deadly consequences.'"
 tags: ["machine learning","artificial intelligence","machine translation","ICT 661"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-08-17T19:23:59-04:00
 title: ""
 tags: ["Star Wars","parenting","board games","tabletop games"]

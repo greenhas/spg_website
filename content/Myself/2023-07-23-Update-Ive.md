@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-07-23T18:24:07-04:00
 title: ""
 tags: ["Habitica","Siri Shortcuts","habit tracking","programming"]

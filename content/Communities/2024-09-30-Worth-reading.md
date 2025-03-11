@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-09-30T14:59:45-04:00
 tags: ["content moderation","Mike Madnick","JD Vance","Hunter Biden","Threads","Instagram","Facebook","Twitter"]
 title: "🔗 linkblog: my thoughts on 'Big Tech’s Promise Never To Block Access To Politically Embarrassing Content Apparently Only Applies To Democrats'"

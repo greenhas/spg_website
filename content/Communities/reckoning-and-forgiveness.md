@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-03-25T13:33:37-04:00
 title: "reckoning and forgiveness"
 tags: ["forgiveness","reckoning","Desmond Tutu","Mpho Tutu","The Book of Forgiving","The Church of Jesus Christ of Latter-day Saints","Mormonism","Graceland CIMM","Community of Christ Seminary","anxiety","depression","perfectionism"]

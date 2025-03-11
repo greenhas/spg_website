@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2024-07-12T15:16:03-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Now Let's Go Commit Something Mildly Subversive (A Ninth Dumbing of Age Collection), by David Willis"

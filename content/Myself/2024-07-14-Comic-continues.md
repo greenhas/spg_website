@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2024-07-14T09:02:40-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for I Excised All My Anxieties into Cartoon Characters Who Definitely Don't Have Feelings for Each Other (An Eleventh Dumbing of Age Collection), by David Willis"

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-11-01T08:52:40-04:00
 tags: ["Halloween","2024 elections","email","puns","All Saints Day"]
 ---

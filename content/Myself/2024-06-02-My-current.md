@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-06-02T10:07:38-04:00
 tags: ["Mastodon","RSS","feeeed","Fediverse","iOS"]
 ---

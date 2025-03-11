@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-09-27T12:01:46-04:00
 title: "Nephi's violence and Book of Mormon intertextuality"
 tags: ["bloggernacle","Wheat & Tares","Laura Harris Hales","LDS Perspectives Podcast","NIck Frederick","Joseph Spencer","Abish","Nephi"]

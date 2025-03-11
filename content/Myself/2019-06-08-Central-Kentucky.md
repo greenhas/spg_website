@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-06-08T20:07:43-04:00
 title: ""
 tags: ["Kentucky","libraries"]

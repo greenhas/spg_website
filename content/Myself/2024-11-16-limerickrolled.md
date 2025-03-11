@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2024-11-16T07:25:13-05:00
 tags: ["rickroll","limerick","Rick Astley"]
 featured_image: "/2024-11-16-limerickrolled.JPEG"

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-09-07T13:18:55-04:00
 title: ""
 tags: ["generative AI","research","Qualtrics"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-01-21T15:32:29-05:00
 title: "🔗 linkblog: just finished 'German Police Caught Using COVID-Tracing Data To Search For Crime Witnesses | Techdirt'"
 tags: ["COVID-19","surveillance","privacy","data"]

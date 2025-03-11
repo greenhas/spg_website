@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-02-06T06:48:01-05:00
 tags: ["running","runner's high"]
 ---

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-08-11T20:03:21-04:00
 title: "parent agency and edtech"
 tags: ["ClassDojo","edtech","parenting","privacy","surveillance","student monitoring software","GoGuardian","Chromebooks","Daniela DiGiacomo","Sarah Barriage","COVID-19"]

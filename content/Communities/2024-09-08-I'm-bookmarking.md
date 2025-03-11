@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-09-08T13:20:47-04:00
 tags: ["Community of Christ","Mormonism","Church of Jesus Christ of Latter-day Saints","Latter-day Seekers"]
 title: "🔗 linkblog: my thoughts on '750 | What’s Brewing | Wasatch Front | Part II'"

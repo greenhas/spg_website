@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-11-04T12:31:21-04:00
 title: "🔗 linkblog: just read 'Taika Waititi to adapt The Incal for the screen | Boing Boing'"
 tags: ["Taika Waititi","BD"]

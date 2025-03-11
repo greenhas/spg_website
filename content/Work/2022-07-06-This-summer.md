@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-07-06T12:54:25-04:00
 title: ""
 tags: ["alternative textbooks","OER","remixing","Creative Commons","data science","open access","ICT 661"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-11-01T16:23:02-04:00
 title: "on art and punching Nazis"
 tags: ["Mastodon","Captain America","BYU","non-violence","Kurt Vonnegut","Slaughterhouse Five","Leo Tolstoy","The Kingdom of God is Within You"]

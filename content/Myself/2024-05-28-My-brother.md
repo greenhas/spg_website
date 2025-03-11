@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-05-28T17:50:27-04:00
 tags: ["fediverse","cheese","Mastodon","Pixelfed"]
 ---

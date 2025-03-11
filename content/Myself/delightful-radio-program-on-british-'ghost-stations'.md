@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-07-17T13:47:03-04:00
 title: "delightful radio program on British 'ghost stations'"
 tags: ["France","Switzerland","trains","Geoff Marshall","BBC","BBC Radio 4","Ian Marchant","YouTube"]

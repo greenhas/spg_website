@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2024-11-18T14:47:59-05:00
 tags: ["grading","nihilism","Chidi Anagonye","The Good Place"]
 featured_image: "/2024-11-18-peeps-chili.JPEG"

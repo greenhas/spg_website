@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2025-01-30T13:00:43-05:00
 tags: ["Donald Trump","LGBTQ"]
 title: "🔗 linkblog: my thoughts on 'Trump Admin Deletes Video Explaining Grammatical Concept of Pronouns in War Against DEI'"

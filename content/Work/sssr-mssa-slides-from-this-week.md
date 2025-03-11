@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-10-20T10:47:44-06:00
 title: "Society for the Scientific Study of Religion/Mormon Social Science Association slides from this week"
 tags: ["SSSR","SSSR 2023","MSSA","conferences","presentations","Mormon Studies","Gab","Andrew Torba","Christian nationalism","Levi Sands","Amy Chapman"]

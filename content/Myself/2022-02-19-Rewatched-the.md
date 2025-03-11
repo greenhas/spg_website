@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-02-19T17:47:18-05:00
 title: ""
 tags: ["Soul","letters"]

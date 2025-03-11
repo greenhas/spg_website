@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-04-04T10:46:17-04:00
 title: "Arthur Dent, the bulldozer, and generative AI"
 tags: ["Hitchhiker's Guide to the Galaxy","Audible","generative AI"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2020-08-04T13:32:45-04:00
 title: ""
 tags: ["COVID-19","Indochine","music","Ticket to Ride","tabletop games","parenting"]

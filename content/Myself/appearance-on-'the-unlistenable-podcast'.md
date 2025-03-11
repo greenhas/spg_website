@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-10-05T12:26:40-04:00
 title: "non-appearance on 'The Unlistenable Podcast'"
 tags: ["grad school","Switzerland","podcasts"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-07-29T12:53:44-04:00
 title: ""
 tags: ["country music","music","Eddy Mitchell","Johnny Hallyday"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-04-28T13:02:19-04:00
 title: "labyrinths vs. mazes"
 tags: ["labyrinth","spiritual practices","Les cowboys fringants","Karl Tremblay","Community of Christ","Independence Temple","mindfulness","Melissa Wei-Tsing Inouye"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-08-14T21:01:01-04:00
 tags: ["Stanford","Google","Eric Schmidt","generative AI","copyright","intellectual property"]
 title: "🔗 linkblog: my thoughts on 'Ex-Google CEO says successful AI startups can steal IP and hire lawyers to ‘clean up the mess’'"

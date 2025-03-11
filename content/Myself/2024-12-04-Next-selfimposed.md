@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-12-04T21:20:28-05:00
 tags: ["POSSE","Mastodon","Bluesky","Micro.blog"]
 ---

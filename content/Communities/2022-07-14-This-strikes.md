@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-07-14T15:41:34-04:00
 title: "🔗 linkblog: my thoughts on 'Anti-Abortion Leader Tells Congress a 10-Year-Old’s Abortion Wouldn’t Count'"
 tags: ["reproductive rights"]

@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: movie
 date: 2024-06-19T11:23:53-04:00
 tags: ["Relationships","Inside Out 2","Inside Out"]

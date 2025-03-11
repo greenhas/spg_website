@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-06-16T16:14:12-04:00
 tags: ["generative AI","Punya Mishra"]
 title: "🔗 linkblog: my thoughts on 'On What We Lose: Chai, AI and Nostalgia | Punya Mishra's Web'"

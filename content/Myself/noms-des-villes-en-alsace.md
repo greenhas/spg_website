@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-08-15T13:39:03-04:00
 title: "mon grand amour pour les noms des villes en Alsace"
 tags: ["DKL Dreyeckland","internet radio"]

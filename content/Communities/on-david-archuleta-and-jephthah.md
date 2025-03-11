@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-11-02T08:15:52-04:00
 title: "on Jephthah, Jeremiah, and David Archuleta"
 tags: ["sacrifice","Abraham","Isaac","Thomas Römer","Robert Alter","Mormonism","The Church of Jesus Christ of Latter-day Saints","affirming church","LGBTQ","affirming church","David Archuleta","Binding of Isaac"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2020-03-17T18:10:41-04:00
 title: ""
 tags: ["Radio Télévision Suisse","COVID-19"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-07-18T09:28:07-04:00
 title: "new revelation that confirms old ideas"
 tags: ["Dan McClellan","Mormonism","The Church of Jesus Christ of Latter-day Saints","Charles Harrell","This is My Doctrine","Restoration","Book of Mormon","Doctrine and Covenants","apostasy","exclusivism"]

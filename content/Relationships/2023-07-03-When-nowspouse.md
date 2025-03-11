@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-07-03T18:52:15-04:00
 title: ""
 tags: ["marriage","siblings","Babe","James Cromwell","Spider-Man","Spider-Man 3"]

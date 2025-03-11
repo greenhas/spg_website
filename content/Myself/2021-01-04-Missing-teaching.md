@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2021-01-04T12:25:48-05:00
 title: "thoughts on teaching French"
 tags: ["parenting","French teaching","Gad Elmaleh"]

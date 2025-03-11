@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-04-24T12:43:36-04:00
 title: ""
 tags: ["conferences"]

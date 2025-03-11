@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-11-04T08:02:41-04:00
 title: "when niche research pays off"
 tags: ["grad school","DezNat","Mormon Studies","Mormon Twitter","research","Josh Rosenberg","Amy Chapman","Kristy Robinson","Matt Koehler","Sarah Gretter","Renee Kaufmann","Cynthia Nnagboro","internet research","legitimacy"]

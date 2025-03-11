@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-09-13T08:09:10-04:00
 title: ""
 tags: ["Brigham Young","Brad Wilcox","racism","John G. Turner"]

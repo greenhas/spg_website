@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2023-12-02T12:18:18-05:00
 title: "📚 bookblog: ❤️❤️❤️🖤🖤 for Ultimate Spider-Man: Vol. 15, Silver Sable, by Brian Michael Bendis and Mark Bagley"

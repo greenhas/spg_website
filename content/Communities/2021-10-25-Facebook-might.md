@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-10-25T12:40:57-04:00
 title: "🔗 linkblog: just read 'Employees pleaded with Facebook to stop letting politicians bend rules | Ars Technica'"
 tags: ["Facebook","content moderation"]

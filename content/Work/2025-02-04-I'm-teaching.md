@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2025-02-04T17:08:11-05:00
 tags: ["Elon Musk","DOGE","CI 780"]
 title: "🔗 linkblog: my thoughts on 'Can anyone stop President Musk?'"

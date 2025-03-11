@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-01-06T14:39:48-05:00
 title: "assessment statements in my Spring 2024 graduate syllabus"
 tags: ["grading","teaching","LIS 618","assessment"]

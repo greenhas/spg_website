@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-12-14T11:47:31-05:00
 title: "on the arbitrary nature of grades"
 tags: ["grading","subjectivity","objectivity","quantification","ungrading"]

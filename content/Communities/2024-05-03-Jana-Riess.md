@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-05-03T19:04:48-04:00
 tags: ["Jana Riess","Melissa Wei-Tsing Inouye"]
 title: "🔗 linkblog: my thoughts on 'The best way to honor Melissa Inouye’s memory is to be a kind and persistent badass'"

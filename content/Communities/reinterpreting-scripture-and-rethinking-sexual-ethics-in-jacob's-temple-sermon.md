@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-07-08T21:09:24-04:00
 title: "reinterpreting scripture and rethinking sexual ethics in Jacob's temple sermon"
 draft: true

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-11-16T09:35:05-05:00
 title: ""
 tags: ["mbnov2022","Stromae","music","parenting"]

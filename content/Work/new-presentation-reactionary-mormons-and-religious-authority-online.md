@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-11-16T10:53:13-05:00
 title: "new presentation: reactionary Mormons and religious authority online"
 tags: ["SSSR 2022","Amy Chapman","DezNat","Twitter","religious authority","MSSA","Mormon Twitter","conferences","JMSSA"]

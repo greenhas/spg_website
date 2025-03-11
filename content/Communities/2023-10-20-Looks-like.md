@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-10-20T07:34:16-06:00
 tags: ["Twitter","Mike Masnick","Elon Musk","verification","pay-to-play"]
 title: "🔗 linkblog: my thoughts on 'Blue checks on X are ‘superspreaders’ of Israel-Hamas war misinformation - The Verge'"

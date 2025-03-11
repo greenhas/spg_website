@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2020-06-11T22:51:19-04:00
 title: ""
 tags: ["Star Trek"]

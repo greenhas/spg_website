@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-12-31T19:50:08+01:00
 title: "most-visited posts in 2024"
 tags: ["analytics","blogging","Kirtland Temple","POSSE","Hugo","Siri Shortcuts","Hypothesis"]

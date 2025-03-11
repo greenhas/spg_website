@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-29T08:13:25-04:00
 title: "🔗 linkblog: my thoughts on 'Rentrée : Le désespoir de « MonsieurLeProf », l’enseignant le plus célèbre des réseaux sociaux'"
 tags: ["MonsieurLeProf","William Lafleur","Le hussard noir","teacher shortage","teacher burnout"]

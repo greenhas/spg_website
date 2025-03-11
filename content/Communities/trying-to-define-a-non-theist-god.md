@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-06-11T14:18:54-04:00
 title: "trying to define a non-theist God"
 tags: ["non-theism","Gérard Siegwalt","La réinvention du nom de Dieu","John Shelby Spong","A New Christianity for a New World","Thomas Merton","New Seeds of Contemplation","Paul Tillich","The Courage to Be","existential","existential dread"]

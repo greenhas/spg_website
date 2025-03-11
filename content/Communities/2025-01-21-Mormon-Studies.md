@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2025-01-21T13:35:42-05:00
 tags: ["Mormon Studies"]
 ---

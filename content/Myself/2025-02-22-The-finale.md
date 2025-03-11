@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: tv
 date: 2025-02-22T21:47:30-05:00
 tags: ["Myself","Star Trek: Lower Decks","Star Trek"]

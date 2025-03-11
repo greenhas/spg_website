@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-06-27T09:17:52-04:00
 title: "booking tickets for American high-speed(?) rail"
 tags: ["trains","conferences","conference travel","Amtrak","Acela","high-speed rail","SNCF","TGV","OuiGo"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2025-02-12T08:57:58-05:00
 title: "in criticism of Microsoft Outlook Reactions"
 tags: ["Microsoft","Outlook","emoji","Signal","iOS","Android"]

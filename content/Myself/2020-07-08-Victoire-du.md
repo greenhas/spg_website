@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2020-07-08T13:19:06-04:00
 title: ""
 tags: ["reading"]

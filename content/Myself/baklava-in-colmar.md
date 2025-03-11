@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-10-30T12:48:41-04:00
 title: "kebab and baklava in Colmar"
 tags: ["Colmar","Turkey","baklava","kebab","Latter-day Saint missionaries"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-05-06T14:03:45-04:00
 title: "Stack Exchange and digital labor"
 tags: ["Stack Exchange","digital labor","OpenAI","generative AI","ChatGPT","Stack Overflow","Squirrel Girl","R","French"]

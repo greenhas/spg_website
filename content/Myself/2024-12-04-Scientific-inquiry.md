@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-12-04T08:28:31-05:00
 tags: ["bike commuting","winter"]
 ---

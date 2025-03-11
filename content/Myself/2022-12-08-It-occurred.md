@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-12-08T09:06:17-05:00
 title: ""
 tags: ["TTRPGs","Homestar Runner","Teen Girl Squad","Tales from the Loop"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-12-05T11:30:27-05:00
 title: "unexpected research ethics implications of Twitter's 'general amnesty' for suspended accounts"
 tags: ["research ethics","DezNat","online Mormonism","far right","digital traces research","digital methods","JMSSA","MSSA","Twitter","Elon Musk"]

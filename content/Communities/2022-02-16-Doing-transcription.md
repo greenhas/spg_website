@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-02-16T22:19:45-05:00
 title: "🔗 linkblog: my thoughts on 'This journalist’s Otter.ai scare is a reminder that cloud transcription isn’t completely private - The Verge'"
 tags: ["privacy"]

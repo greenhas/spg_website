@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-11-08T19:46:00-05:00
 title: ""
 tags: ["reading","books","libraries"]

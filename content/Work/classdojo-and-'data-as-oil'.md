@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-08-18T10:22:23-04:00
 title: "ClassDojo and 'data as oil'"
 tags: ["Data Feminism","Catherine D'Ignazio","Lauren Klein","data science","ClassDojo","ICT 661","OER","alternative textbooks","Ben Williamson","Alasdair Rutherford","edtech","data as oil"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-01-12T09:29:00-05:00
 title: "🔗 linkblog: my thoughts on 'Public Library Budgets Are Being Slashed. Police Have More Cash Than Ever'"
 tags: ["libraries"]

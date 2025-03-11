@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-04-15T17:58:55-04:00
 title: ""
 tags: ["Mike Lee","Mormonism"]

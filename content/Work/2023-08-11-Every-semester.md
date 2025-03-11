@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-08-11T19:44:35-04:00
 title: ""
 tags: ["ICT 310","guest lecture","digital methods","teaching","Twitter","Elon Musk"]

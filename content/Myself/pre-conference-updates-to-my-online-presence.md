@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-10-19T21:51:52-04:00
 title: "pre-conference updates to my online presence"
 tags: ["Mastodon","Hypothesis","analytics","online presence","Mozilla Social","Mozilla","fediverse","Hugo","ICT 302","SSSR","SSSR 2023"]

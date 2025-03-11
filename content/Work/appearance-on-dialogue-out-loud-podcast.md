@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-06-20T21:20:22-04:00
 title: "appearance on Dialogue Out Loud podcast"
 tags: ["Taylor Petrey","Mormon Studies","Dialogue journal","media appearances","research","technology"]

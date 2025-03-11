@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-11-09T19:12:43-05:00
 tags: ["Homestar Runner","parenting"]
 ---

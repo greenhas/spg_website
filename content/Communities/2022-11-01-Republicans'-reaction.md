@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-11-01T19:04:22-04:00
 title: "🔗 linkblog: my thoughts on 'With Falsehoods About Pelosi Attack, Republicans Mimic Trump - The New York Times'"
 tags: ["Nancy Pelosi","GOP"]

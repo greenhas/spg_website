@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2025-02-26T17:41:29-05:00
 tags: ["privacy","surveillance","Mozilla","Firefox"]
 featured_image: "/2025-02-26-Mozilla-location.JPEG"

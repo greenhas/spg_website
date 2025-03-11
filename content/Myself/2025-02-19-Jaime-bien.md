@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2025-02-19T21:15:05-05:00
 title: "📚 bookblog: Chroniques birmanes (❤️❤️❤️❤️🖤)"

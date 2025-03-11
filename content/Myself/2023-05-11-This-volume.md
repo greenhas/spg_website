@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2023-05-11T13:11:47-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️❤️ for Astro City (MetroBook 2), by Kurt Busiek, Brent Anderson, and Alex Ross"

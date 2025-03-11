@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-10-01T17:54:17-04:00
 tags: ["ethics","conscience","The Long Earth","The Long War"]
 ---

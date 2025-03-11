@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-06-24T12:24:20-04:00
 title: "anxiety, privilege, and trying to make a difference"
 tags: ["Reunion","Reunion 2022","Community of Christ","Job","faith transition","anxiety","depression","perfectionism","burnout","reproductive rights","privilege","leadership","faith crisis","identity crisis","Mormonism","imposter syndrome","parenting","mental health","identity crisis"]

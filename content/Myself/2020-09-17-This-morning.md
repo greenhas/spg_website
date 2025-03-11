@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2020-09-17T08:35:04-04:00
 title: ""
 tags: ["Batman"]

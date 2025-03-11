@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-05-01T08:38:28-04:00
 title: "the graves we are called forth from"
 tags: ["Wil Gafney","Easter","resurrection","affirming church"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-06-16T14:05:02-04:00
 title: "🔗 linkblog: my thoughts on 'Here’s the note Reddit sent to moderators threatening them if they don’t reopen - The Verge'"
 tags: ["Reddit"]

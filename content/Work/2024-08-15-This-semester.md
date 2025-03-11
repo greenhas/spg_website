@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-08-15T13:06:54-04:00
 tags: ["syllabus","teaching","gun violence"]
 ---

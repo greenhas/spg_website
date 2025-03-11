@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-04-10T11:48:54-04:00
 title: ""
 tags: ["personal organization","spring burnout","burnout"]

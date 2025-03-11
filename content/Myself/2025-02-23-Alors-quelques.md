@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2025-02-23T21:36:03-05:00
 title: "📚 bookblog: Trois montres d'argent (❤️❤️❤️🖤🖤)"

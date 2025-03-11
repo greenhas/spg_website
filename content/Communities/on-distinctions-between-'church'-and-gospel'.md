@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-10-03T13:27:25-04:00
 title: "on distinctions between 'church' and gospel'"
 tags: ["Stephen Veazey","gospel","Christianity","Mormonism","The Church of Jesus Christ of Latter-day Saints","Community of Christ","faith transition","deconstruction","incarnation"]

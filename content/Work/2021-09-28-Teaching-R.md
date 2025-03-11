@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-09-28T13:47:03-04:00
 title: ""
 tags: ["R","data science","French teaching","ICT 661"]

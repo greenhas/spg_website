@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-05-07T19:06:28-04:00
 title: ""
 tags: ["TTRPGs","Dungeons and Dragons"]

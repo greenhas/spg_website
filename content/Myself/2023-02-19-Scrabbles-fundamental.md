@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-02-19T10:08:17-05:00
 title: ""
 tags: ["Scrabble","board games"]

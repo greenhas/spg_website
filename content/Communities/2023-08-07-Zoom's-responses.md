@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-08-07T13:54:36-04:00
 title: "🔗 linkblog: my thoughts on 'Zoom says its new AI tools aren’t stealing ownership of your content - The Verge'"
 tags: ["Zoom","generative AI","AI","machine learning","digital labor"]

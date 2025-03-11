@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-07-31T13:09:17-04:00
 title: "easy campaign prep for tabletop RPGs"
 tags: ["TTRPGs","Ironsworn","Magical Kitties Save the Day","actual play","podcasts","Dungeons and Dragons","Tales from the Loop","Pathfinder","FATE"]

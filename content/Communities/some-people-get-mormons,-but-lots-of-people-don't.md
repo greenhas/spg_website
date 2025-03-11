@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-06-04T13:37:01-04:00
 title: "some people get Mormons, but lots of people don't"
 tags: ["Dan McClellan","Mormonism","Latter-day Saint missionaries","ecclesiology","libraries"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-12-19T22:10:26-05:00
 title: ""
 tags: ["Mandolorian","The Rise of Skywalker","Star Wars","TTRPGs"]

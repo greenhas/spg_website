@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-10-17T07:35:07-04:00
 title: "confessing transport sins"
 tags: ["planes","trains","buses","transport","public transport","SSSR 2024","SSSR","Amtrak","Not Just Bikes","Greyhound"]

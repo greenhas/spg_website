@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-12-16T11:52:28-05:00
 title: ""
 tags: ["teaching","grading","plagiarism","flu"]

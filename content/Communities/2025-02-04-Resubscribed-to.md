@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2025-02-04T12:19:26-05:00
 tags: ["WIRED","Elon Musk","DOGE"]
 title: "🔗 linkblog: my thoughts on 'A 25-Year-Old With Elon Musk Ties Has Direct Access to the Federal Payment System'"

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-09-06T08:35:51-04:00
 tags: ["chai","tea","toast"]
 ---

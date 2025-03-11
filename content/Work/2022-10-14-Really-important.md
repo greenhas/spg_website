@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-10-14T09:48:18-04:00
 title: "🔗 linkblog: my thoughts on 'Students Are Using AI to Write Their Papers, Because Of Course They Are'"
 tags: ["AI","artificial intelligence","GPT-3","George Veletsianos","edtech","assessment"]

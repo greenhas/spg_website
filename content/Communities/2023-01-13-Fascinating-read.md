@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-01-13T12:22:39-05:00
 title: "🔗 linkblog: my thoughts on 'How ‘radioactive data’ could help reveal malicious AIs - The Verge'"
 tags: ["AI","disinformation"]

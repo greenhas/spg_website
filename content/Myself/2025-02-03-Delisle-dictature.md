@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2025-02-03T13:53:54-05:00
 tags: ["Guy Delisle","Donald Trump","Chroniques birmanes","bd","comics"]
 featured_image: "/2025-02-03-Delisle-dictature.JPEG"

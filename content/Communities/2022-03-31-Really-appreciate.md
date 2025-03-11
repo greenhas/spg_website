@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-03-31T07:50:58-04:00
 title: "🔗 linkblog: my thoughts on 'Why Moderating Content Actually Does More To Support The Principles Of Free Speech | Techdirt'"
 tags: ["free speech","content moderation"]

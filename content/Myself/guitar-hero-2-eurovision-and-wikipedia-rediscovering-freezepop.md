@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-05-15T08:12:56-04:00
 title: "Guitar Hero 2, Eurovision, and Wikipedia: rediscovering Freezepop"
 tags: ["Freezepop","Eurovision","Eurovision 2024","video games","Wikipedia","synthpop","Homestar Runner","music"]

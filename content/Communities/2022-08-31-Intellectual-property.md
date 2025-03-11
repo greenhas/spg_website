@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-31T19:39:37-04:00
 title: "🔗 linkblog: my thoughts on 'The Public Paid For Moderna’s mRNA Vaccine Tech; The Fact That Moderna Is Suing Over The Patent Is A Travesty | Techdirt'"
 tags: ["Moderna","Pfizer","intellectual property","COVID-19","patents","Mike Masnick","Techdirt"]

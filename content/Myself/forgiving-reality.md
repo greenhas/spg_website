@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-03-21T07:46:47-04:00
 title: "can one forgive reality for its inherent brokenness?"
 tags: ["Desmond Tutu","Mpho Tutu","The Book of Forgiving","forgiveness","depression","anxiety","brokenness","retrolisthesis","lower back","physical therapy","running","biking","Community of Christ Seminary","Graceland University","Graceland CIMM","grad school","privilege"]

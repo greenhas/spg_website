@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2023-01-20T22:41:29-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Terms and Conditions, by R. Sikoryak"

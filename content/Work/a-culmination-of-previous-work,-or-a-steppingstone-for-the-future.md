@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-05-31T13:55:25-04:00
 title: "a culmination of previous work, or a steppingstone for the future?"
 tags: ["tenure application","tenure","grad school","comprehensive exams","research","social media","social media research","digital traces research", "academic reinvention"]

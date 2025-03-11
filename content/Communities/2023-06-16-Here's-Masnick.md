@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-06-16T14:07:42-04:00
 title: "🔗 linkblog: my thoughts on 'Reddit CEO Triples Down, Insults Protesters, Whines About Not Making Enough Money From Reddit Users | Techdirt'"
 tags: ["Reddit","Techdirt","Mike Masnick"]

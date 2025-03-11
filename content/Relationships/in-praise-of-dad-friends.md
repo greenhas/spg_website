@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-11-02T16:22:01-04:00
 title: "in praise of 'dad friends'"
 tags: ["parenting","University of Kentucky","Lexington","MC Solaar","Bigflo et Oli","WordPress","data science","Utah","Michigan","Bulgaria"]

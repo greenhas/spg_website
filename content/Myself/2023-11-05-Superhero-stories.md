@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2023-11-05T19:56:56-05:00
 title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Ultimate Spider-Man: Vol. 5, Public Scrutiny, by Brian Michael Bendis and Mark Bagley"

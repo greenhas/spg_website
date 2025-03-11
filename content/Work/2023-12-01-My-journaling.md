@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-12-01T11:08:04-05:00
 tags: ["University of Kentucky"]
 ---

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-10-03T12:43:17-04:00
 title: "the incarnation and a relatable Jesus"
 tags: ["parenting","incarnation","divine feminine","James Martin","stuffies"]

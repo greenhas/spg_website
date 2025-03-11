@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-09-01T19:22:26-04:00
 title: ""
 tags: ["qualitative","quantitative","generative AI","research","coding"]

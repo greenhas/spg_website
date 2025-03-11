@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-04-09T14:25:25-04:00
 title: "some praise for Dumbing of Age"
 tags: ["Dumbing of Age","webcomics","faith transition","Dork Tower","Dr. McNinja","Order of the Stick","xkcd"]

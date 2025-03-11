@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-06-10T14:20:53-04:00
 tags: ["University of Kentucky","higher education","democratic education"]
 title: "🔗 linkblog: my thoughts on 'Academia’s emphasis on job training harms free speech, bodes ill for democracy | Opinion'"

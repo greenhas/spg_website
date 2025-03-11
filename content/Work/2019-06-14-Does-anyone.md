@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-06-14T13:48:54-04:00
 title: ""
 tags: ["social media","surveillance"]

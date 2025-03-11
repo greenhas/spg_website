@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2024-11-25T07:38:34-05:00
 tags: ["gender","running","jogging"]
 featured_image: "/2024-11-25-turkey-gender.JPEG"

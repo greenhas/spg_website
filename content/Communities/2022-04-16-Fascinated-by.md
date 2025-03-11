@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-04-16T07:32:42-04:00
 title: "🔗 linkblog: my thoughts on 'Of ‘Algospeak’ and the Crudeness of Automated Moderation | by Clive Thompson | Apr, 2022 | OneZero'"
 tags: ["platforms","content moderation"]

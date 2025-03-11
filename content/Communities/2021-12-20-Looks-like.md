@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-12-20T07:45:05-05:00
 title: "🔗 linkblog: just finished '‘Q’ Has Been Quiet, but QAnon Lives On - The New York Times'"
 tags: ["QAnon","far right"]

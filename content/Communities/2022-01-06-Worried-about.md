@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-01-06T07:24:02-05:00
 title: "🔗 linkblog: just finished 'A Year Later, Jan. 6 Becomes Just Another Wedge in a Divided Nation - The New York Times'"
 tags: ["2020 election","Capitol riot"]

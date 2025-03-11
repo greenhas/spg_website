@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-06-23T14:47:04-04:00
 title: "rejecting one fundamentalism to accept another"
 tags: ["Gospel Tangents","podcasts","fundamentalism","Mormonism","Book of Mormon","Wallace Smith","Val Larsen","Dan McClellan","Trinity","Grant McMurray"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-01-19T13:57:38-05:00
 title: "an 'enmediated' God"
 tags: ["enmediation","incarnation","Mormonism","theology","Saturday Morning Breakfast Cereal","webcomics","Christology","non-theism","Zach Weinersmith"]

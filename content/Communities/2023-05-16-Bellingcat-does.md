@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-05-16T15:12:27-04:00
 title: "🔗 linkblog: my thoughts on 'Twitter ‘Shadowbans’ Bellingcat After Musk Attacks Them, Then Tries To Retcon A Nonsense Explanation | Techdirt'"
 tags: ["Bellingcat","Elon Musk","free speech","Twitter"]

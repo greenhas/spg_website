@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-03-21T12:45:55-04:00
 title: "🔗 linkblog: my thoughts on 'Biblical Literalists Don’t Exist - YouTube'"
 tags: ["Bble","Dan McClellan","scriptural literalism","Biblical literalism"]

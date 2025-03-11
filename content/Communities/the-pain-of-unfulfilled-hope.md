@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-06-21T13:21:13-04:00
 title: "the pain of unfulfilled hope"
 tags: ["hope","Wil Gafney","infertility","miracles","intervening God","liturgical calendar"]

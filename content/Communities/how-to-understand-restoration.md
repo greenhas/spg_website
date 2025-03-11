@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-03-25T09:15:09-04:00
 title: "how to understand 'Restoration'"
 tags: ["Restoration","Community of Christ","Mormonism","Robert Alter","Babylonian exile","Hebrew Bible","prooftexting","Charles Harrell","Daniel Migliore"]

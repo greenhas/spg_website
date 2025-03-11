@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-07-15T17:54:00-04:00
 title: "polygamy and priorities"
 tags: ["polygamy","Autobiography of Elder Charles Derry","Charles Derry","Day One","journaling","Michael Quinn","Charles Harrell","Brigham Young","Joseph F. Smith","This is My Doctrine","Mormon Hierarchy: Extensions of Power","New Testament","Book of Mormon","Doctrine and Covenants","Emma Smith","queerphobia","LGBTQ"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-10-30T19:39:44-04:00
 title: "🔗 linkblog: my thoughts on 'Nancy Pelosi, Vilified by G.O.P. for Years, Is a Top Target of Threats - The New York Times'"
 tags: ["Ronna McDaniel","Nancy Pelosi","GOP"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-03-01T13:15:37-05:00
 title: "far-right Mormonism and the boundaries of Twitter hashtags"
 tags: ["online Mormonism","Mormon Twitter","Twitter","hashtags","DezNat","Mormon Social Science Association","SSSR","MSSA","BYU","Church Educational System","LGBTQ"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-10-27T17:24:04-04:00
 tags: ["Leo Tolstoy","The Kingdom of God is Within You","non-violence"]
 ---

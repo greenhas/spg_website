@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-06-27T09:24:45-04:00
 title: "thinking about Lexington's pride flags"
 tags: ["LGBTQ","Lexington","Pride","Kentucky for Kentucky"]

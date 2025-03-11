@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-06-09T12:40:59-04:00
 title: ""
 tags: ["Star Wars","French","Canadian French","postcast","TTRPGs"]

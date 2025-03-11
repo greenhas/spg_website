@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-11-08T13:19:01-05:00
 title: "new publication: Deep assumptions and data ethics in educational technology"
 tags: ["EdTechBooks","edtech","ethics","data ethics","education","Stephanie Moore","Tonia Dousay","Royce Kimmons"]

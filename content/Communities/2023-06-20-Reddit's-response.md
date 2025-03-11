@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-06-20T17:14:23-04:00
 title: "🔗 linkblog: my thoughts on 'Reddit Communities Still Dark As Protest Continues - The New York Times'"
 tags: ["Reddit"]

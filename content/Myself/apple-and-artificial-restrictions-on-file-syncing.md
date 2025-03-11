@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-08-30T11:04:57-04:00
 title: "Apple and artificial restrictions on file syncing"
 tags: ["music","Apple","DRM","macOS","cloud storage","COVID-19","music streaming","streaming","streaming services","internet radio","iCloud","Apple Music","Cory Doctorow"]

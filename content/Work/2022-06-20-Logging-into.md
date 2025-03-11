@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-06-20T07:50:40-04:00
 title: ""
 tags: ["Zotero","reference managers","grad school","research"]

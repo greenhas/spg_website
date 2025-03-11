@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-09-20T09:09:46-04:00
 title: "🔗linkblog: my thoughts on 'Why Do Video Games Want Me to Be a War Criminal: WIRED'"
 tags: ["ethics","values","games"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-04-26T09:55:31-04:00
 title: "assessment as proof of learning or as learning itself?"
 tags: ["teaching","assessment","generative AI","Hypothesis","ICT 202”,”LIS 618","grading"]

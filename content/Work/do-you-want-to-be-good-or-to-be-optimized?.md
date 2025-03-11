@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-03-22T11:17:41-04:00
 title: "do you want to be good or to be optimized?"
 tags: ["research","generative AI","ethics","utilitarianism","digital labor","Amazon","Jeff Bezos","STEM education","STEM","humanities","research paradigms"]

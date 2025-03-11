@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-11-01T16:11:32-04:00
 title: ""
 tags: ["grad school","French teaching"]

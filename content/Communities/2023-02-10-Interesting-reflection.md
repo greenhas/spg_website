@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-02-10T14:12:39-05:00
 title: "🔗 linkblog: my thoughts on 'Everything is hackable. That’s not always a bad thing.'"
 tags: ["hacking","society","government","technology"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-02-01T12:53:15-05:00
 title: "🔗 linkblog: my thoughts on 'The audacious rescue plan that might have saved space shuttle Columbia | Ars Technica'"
 tags: ["NASA","Columbia disaster","Space Shuttle"]

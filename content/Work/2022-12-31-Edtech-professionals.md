@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-12-31T15:40:49-05:00
 title: "🔗 linkblog: my thoughts on 'Schools and EdTech Need to Study Up On Student Privacy: 2022 in Review | Electronic Frontier Foundation'"
 tags: ["edtech","EFF"]

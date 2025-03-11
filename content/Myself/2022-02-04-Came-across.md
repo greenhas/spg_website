@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-02-04T14:55:05-05:00
 title: "🔗 linkblog: just finished 'How Board Games Handle Slavery'"
 tags: ["tabletop games"]

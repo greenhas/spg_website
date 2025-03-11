@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-06-11T16:57:24-04:00
 tags: ["libraries"]
 ---

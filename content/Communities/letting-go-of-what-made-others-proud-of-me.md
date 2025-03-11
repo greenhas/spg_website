@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-10-24T08:41:19-04:00
 title: "letting go of what made others proud of me"
 tags: ["journaling","Day One","Automattic","Mormonism","The Church of Jesus Christ of Latter-day Saints","Latter-day Saint missionaries"]

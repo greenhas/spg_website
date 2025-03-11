@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: radio
 date: 2025-03-03T15:44:30-05:00
 title: "🎙️ radioblog: Mort  (❤️❤️❤️❤️🖤)"

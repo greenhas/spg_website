@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-06-22T15:10:27-04:00
 title: ""
 tags: ["teaching","ICT 302","burnout"]

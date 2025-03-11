@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2024-11-24T07:51:27-05:00
 tags: ["Thanksgiving","Nancy","marshmallows"]
 featured_image: "/2024-11-24-nancy-marshmallows.JPEG"

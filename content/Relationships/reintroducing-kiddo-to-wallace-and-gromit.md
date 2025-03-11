@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-07-18T13:37:20-04:00
 title: "(re)introducing kiddo to Wallace and Gromit"
 tags: ["parenting","Wallace and Gromit","COVID-19","Minecraft"]

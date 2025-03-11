@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-10-09T12:16:18-04:00
 tags: ["Coyote & Crow","TTRPGs","indigeneity","Indigenous People's Day"]
 title: "🔗 linkblog: my thoughts on 'Indigenous TTRPG Coyote & Crow is free for today only - Polygon'"

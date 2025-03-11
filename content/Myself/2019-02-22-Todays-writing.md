@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-02-22T09:28:33-05:00
 title: ""
 tags: ["music","The Doubleclicks"]

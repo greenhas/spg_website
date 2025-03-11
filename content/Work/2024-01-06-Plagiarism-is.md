@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-01-06T07:48:36-05:00
 tags: ["Claudine Gray","Bill Ackman","Neri Oxman","plagiarism","MIT","academia"]
 title: "🔗 linkblog: my thoughts on 'Wife of Investor Who Pushed for Harvard President’s Exit Is Accused of Plagiarism - The New York Times'"

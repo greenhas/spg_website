@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-09-24T13:01:01-04:00
 title: "Pete, mint brownies, and two competing visions of Mormonism"
 tags: ["BYU","King James Version","Kentucky","babysitting","TTRPGs","Halo","Xbox","Star Wars","Axis and Allies","Homestar Runner","GOP","Rand Paul","Mitt Romney"]

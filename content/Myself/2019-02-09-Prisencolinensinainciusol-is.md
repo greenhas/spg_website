@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-02-09T13:38:48-05:00
 title: ""
 tags: ["music","language"]

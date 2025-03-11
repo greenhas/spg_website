@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-04-08T12:43:13-04:00
 title: ""
 tags: ["TTRPGs","FATE","Campaign","podcasts","Star Wars"]

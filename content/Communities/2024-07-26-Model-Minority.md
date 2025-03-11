@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2024-07-26T16:43:11-04:00
 title: "📚 bookblog: ❤️❤️❤️❤️❤️ for Model Minority, by Cory Doctorow"

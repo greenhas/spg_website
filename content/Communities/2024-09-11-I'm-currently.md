@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-09-11T14:17:34-06:00
 tags: ["Elon Musk","Character Limit","Extremely Hardcore","Twitter"]
 title: "🔗 linkblog: my thoughts on 'What Musk's Twitter takeover could tell us about a possible government appointment'"

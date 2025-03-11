@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-26T10:08:54-04:00
 title: "🔗 linkblog: my thoughts on 'Lost in Transcription: Auto-Captions Often Fall Short on Zoom, Facebook, Others - Consumer Reports'"
 tags: ["speech recognition","accessibility","captions"]

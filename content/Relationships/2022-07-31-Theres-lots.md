@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-07-31T17:04:38-04:00
 title: ""
 tags: ["bikes"]

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-02-14T09:05:56-05:00
 title: "prophetic clarity and prophetic uncertainty"
 tags: ["Thomas Merton","prophetic voice","prophetic people","peace","MSU","Community of Christ","prophet","Smith-Rigdon movement"]

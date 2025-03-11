@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-10-11T09:32:01-04:00
 title: "help us find a new Director for our School of Information Science!"
 tags: [""]

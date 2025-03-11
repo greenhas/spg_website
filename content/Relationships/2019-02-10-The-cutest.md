@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-02-10T14:16:06-05:00
 title: ""
 tags: ["Valentines","parenting"]

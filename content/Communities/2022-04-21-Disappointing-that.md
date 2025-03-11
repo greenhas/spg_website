@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-04-21T07:33:28-04:00
 title: "🔗 linkblog: my thoughts on 'McConnell and McCarthy’s Jan. 6 Fury at Trump Faded by February - The New York Times'"
 tags: ["GOP","capitol riot","Mitch McConnell","Kevin McCarthy","Donald Trump"]

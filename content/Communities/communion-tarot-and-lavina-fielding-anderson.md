@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-11-30T15:08:26-05:00
 title: "communion, tarot, and Lavina Fielding Anderson: some thoughts on sacraments"
 tags: ["communion","sacraments","tarot","Lavina Fielding Anderson","parenting","Community of Christ","Dumbing of Age","Salt Lake Tribune","Peggy Fletcher Stack"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-09-05T14:21:42-04:00
 title: "🔗 linkblog: my thoughts on 'As X bleeds cash, Musk threatens Anti-Defamation League with defamation lawsuit | Ars Technica'"
 tags: ["Elon Musk","ADL","Twitter"]

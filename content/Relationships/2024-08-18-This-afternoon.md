@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-08-18T16:39:29-04:00
 tags: ["libraries","stuffies","parenting"]
 ---

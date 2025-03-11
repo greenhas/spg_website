@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2025-01-31T14:16:53-05:00
 tags: ["Elon Musk","DOGE","Character Limit","Extremely Hardcore"]
 title: "🔗 linkblog: my thoughts on 'Treasury official retires after clash with DOGE over access to payment system'"

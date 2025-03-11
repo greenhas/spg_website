@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-08-04T20:12:10-04:00
 title: ""
 tags: ["parenting","COVID-19"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-05-06T19:12:09-04:00
 title: ""
 tags: ["Kentucky Derby","Kentucky","Eurovision","Peacock","wealth"]

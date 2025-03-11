@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2022-12-14T17:57:37-05:00
 title: ""
 tags: ["Elon Musk","Streisand Effect","Twitter"]

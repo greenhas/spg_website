@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-08-13T15:18:35-04:00
 title: ""
 tags: ["edtech","peer review","writing","research"]

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-10-31T19:39:38-04:00
 title: "🔗 linkblog: my thoughts on 'Republicans Continue to Spread Baseless Claims About Pelosi Attack - The New York Times'"
 tags: ["GOP","Nancy Pelosi"]

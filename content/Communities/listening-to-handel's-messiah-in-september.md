@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-09-08T09:19:49-04:00
 title: "listening to Handel's Messiah in September"
 tags: ["Christmas","Christmas music","Handel's Messiah","Pete Enns","King James Version","Beyond the Walls Choir","Toronto Centre Place","Beyond the Walls","Neil deAtley","Leandro Palacios","liturgical calendar","supersessionism","Advent"]

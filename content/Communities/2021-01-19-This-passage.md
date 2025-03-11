@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2021-01-19T13:04:11-05:00
 title: "Thinking about the Dreyfus Affair"
 tags: ["far right","France","reading"]

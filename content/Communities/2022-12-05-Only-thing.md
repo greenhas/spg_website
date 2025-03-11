@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-12-05T13:25:57-05:00
 title: "🔗 linkblog: my thoughts on 'Brave Sir Bentham, Utilitarian Knight - Existential Comics'"
 tags: ["Existential Comics","philosophy","ethics","utilitarianism","webcomics"]

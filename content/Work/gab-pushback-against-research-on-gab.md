@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-06-30T10:53:49-04:00
 title: "some thoughts on Gab pushback against research on Gab"
 tags: ["Gab","far right","DezNat","Andrew Torba","Mastodon","doxxing","qualitative research","research ethics","surveillance","digital labor"]

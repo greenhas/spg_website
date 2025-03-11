@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-08-10T11:10:47-04:00
 title: "thoughts on camping traditions in Community of Christ"
 tags: ["Reunion","Community of Christ","Restorations","anxiety","Independence Temple","Braiding Sweetgrass","Robin Wall Kimmerer"]

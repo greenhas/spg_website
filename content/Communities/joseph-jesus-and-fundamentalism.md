@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-07-12T10:20:25-04:00
 title: "thoughts on Joseph, Jesus, and fundamentalism"
 tags: ["Community of Christ","fundamentalism","Biblical criticism","Mark Scherer","Grant McMurray","Community of Christ history","Mormon history","The Church of Jesus Christ of Latter-day Saints","Mormonism","infallibility","Wallace Smith","Bible","Gab","anti-Semitism","Christian anti-Semitism","supersessionism"]

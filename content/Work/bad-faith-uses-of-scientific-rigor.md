@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-10-11T14:22:53-04:00
 title: "bad faith uses of scientific 'rigor'"
 tags: ["Journal of the Mormon Social Science Association","research","publishing","DezNat","productivity","Catherine D'Ignazio","Lauren Klein","Data Feminism"]

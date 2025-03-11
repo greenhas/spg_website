@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-03-29T06:30:06-04:00
 tags: ["Kentucky General Assembly","DEI"]
 title: "🔗 linkblog: my thoughts on 'College DEI programs survive as clock runs out on KY Republican supermajority'"

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-05-11T07:28:51-04:00
 title: "technology-mediated authority in early Mormonism"
 tags: ["The Church of Jesus Christ of Latter-day Saints","research","technology","Mormon Studies","digital religion","Dialogue journal","Peggy Fletcher Stack","Mormon Land","media appearances","Mormonism","religious authority","Giulia Evolvi","Gavin Feller","Richard Howard","Mason Kamana Allred"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-12-30T09:16:53-05:00
 title: ""
 tags: ["French","France Culture","comics"]

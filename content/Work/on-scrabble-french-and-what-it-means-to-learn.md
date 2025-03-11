@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-01-19T12:38:34-05:00
 title: "on Scrabble, French, and what it means to learn"
 tags: ["LIS 618","learning","teaching","assessment","education","Scrabble","Nigel Richards","French","Radio Télévision Suisse","literacies","LIS","James Paul Gee","sociocultural theories of learning","social annotation","Hypothesis","grading","operationalization"]

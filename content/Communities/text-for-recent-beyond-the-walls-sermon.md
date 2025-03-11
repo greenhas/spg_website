@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-01-26T12:47:34-05:00
 title: "text for recent Beyond the Walls sermon"
 tags: ["Beyond the Walls","Community of Christ","Temptation of Jesus","son of God","children of God","vegetarianism","climate change","climate crisis","food waste","hunger","wealth","fame","power","privilege"]

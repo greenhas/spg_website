@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-08-25T08:02:57-04:00
 tags: ["personal revelation","prayer","Mormonism"]
 title: "🔗 linkblog: my thoughts on 'Ask God (Terms and Conditions Apply)'"

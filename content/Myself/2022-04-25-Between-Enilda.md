@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-04-25T07:22:40-04:00
 title: "🔗 linkblog: my thoughts on 'Sometimes in order to reconnect, you have to disconnect – Design Goodiness'"
 tags: ["social media","Enilda Romero-Hall"]

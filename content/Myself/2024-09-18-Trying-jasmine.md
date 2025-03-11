@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-09-18T07:00:43-04:00
 tags: ["tea","jasmine tea","green tea","John Le Carré"]
 ---

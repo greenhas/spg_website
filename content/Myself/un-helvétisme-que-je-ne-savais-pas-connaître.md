@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-02-09T12:09:51-05:00
 title: "un helvétisme que je ne savais pas connaître"
 tags: ["Switzerland","French"]

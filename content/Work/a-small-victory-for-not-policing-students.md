@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-03-21T11:52:25-04:00
 title: "a small victory for not policing students"
 tags: ["Hypothesis","discussion boards","asynchronous courses","LIS 618","online teaching","online learning","social annotation","ungrading","ICT 302","ICT 202"]

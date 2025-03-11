@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-10-14T8:22:23-04:00
 title: "whose voices does ClassDojo prioritize?"
 tags: ["edtech","Ring","Amazon","The Markup","Lam Thuy Vo","pay to play"]

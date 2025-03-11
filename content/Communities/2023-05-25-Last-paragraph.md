@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-05-25T07:00:54-04:00
 title: "🔗 linkblog: my thoughts on 'OpenAI says it could ‘cease operating’ in the EU if it can’t comply with future regulation - The Verge'"
 tags: ["OpenAI","Sam Altman","regulation"]

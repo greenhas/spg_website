@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-07-17T13:04:38-04:00
 title: "🔗 linkblog: my thoughts on 'Elon Starts Bribing His Biggest Fans As He Admits The Company Is Still Burning Cash (Despite His Earlier Claims To The Contrary) | Techdirt'"
 tags: ["Twitter","Elon Musk","Andrew Tate"]

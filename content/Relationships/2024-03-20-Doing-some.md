@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-03-20T12:23:52-04:00
 tags: ["Star Wars","VHS","parenting"]
 ---

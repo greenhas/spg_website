@@ -1,5 +1,5 @@
 ---
-type: ["media"]
+types: ["media"]
 layout: book
 date: 2023-11-25T12:51:23-05:00
 title: "📚 bookblog: ❤️❤️❤️🖤🖤 for Ultimate Spider-Man: Vol. 9, Ultimate Six, by Brian Michael Bendis"

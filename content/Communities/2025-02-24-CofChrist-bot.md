@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2025-02-24T20:39:46-05:00
 tags: ["generative AI","Community of Christ"]
 featured_image: "/2025-02-24-CofChrist-bot.JPEG"

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-11-27T08:38:46-05:00
 tags: ["surveillance","digital traces","privacy","Bluesky"]
 title: "🔗 linkblog: my thoughts on 'Someone Made a Dataset of One Million Bluesky Posts for 'Machine Learning Research''"

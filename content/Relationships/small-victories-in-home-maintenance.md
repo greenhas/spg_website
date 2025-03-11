@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-08-25T11:00:00-04:00
 title: "small victories in home maintenance"
 tags: ["Bluesky","RSS","carbon monoxide detectors","home maintenance","home repair","home ownership"]

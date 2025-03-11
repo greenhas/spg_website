@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2022-07-31T14:30:48-04:00
 title: "believers who rob others of belief"
 tags: ["Thomas Merton","religion","T. Crunk","Community of Christ","Gab","Christian nationalism","Marjorie Taylor-Greene"]

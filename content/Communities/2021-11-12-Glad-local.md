@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-11-12T12:37:59-05:00
 title: "🔗 linkblog: just read '24 UK employees placed on leave for breaking COVID policy | Lexington Herald Leader'"
 tags: ["local news","University of Kentucky","COVID-19"]

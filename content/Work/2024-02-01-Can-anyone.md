@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-02-01T12:38:01-05:00
 tags: ["Mormon Social Science Association","Mailchimp","newsletter","CRM"]
 ---

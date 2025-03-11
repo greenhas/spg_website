@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-04-06T16:38:28-04:00
 title: "more thoughts on Independence temple theology"
 tags: ["Community of Christ","Independence Temple","peace","reconciliation","Wallace B. Smith","Alan Tyree"]

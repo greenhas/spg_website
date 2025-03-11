@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2023-04-13T21:21:25-04:00
 title: "a second World Conference experience?"
 tags: ["World Conference","Community of Christ","2023 World Conference"]

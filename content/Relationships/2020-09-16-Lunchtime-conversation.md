@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2020-09-16T12:42:46-04:00
 title: ""
 tags: ["COVID-19","parenting"]

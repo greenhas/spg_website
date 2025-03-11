@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-04-23T15:23:11-04:00
 title: "in memory of a mentor"
 tags: ["Mormon Studies","Melissa Wei-Tsing Inouye","Mormon Twitter","online Mormonism","France","WordPress","Pokémon"]

@@ -1,5 +1,5 @@
 ---
-type: ["photo"]
+types: ["photo"]
 date: 2024-12-03T18:41:11-05:00
 tags: ["DRM","libraries","hoopla"]
 featured_image: "/2024-12-03-hoopla-cadl.JPEG"

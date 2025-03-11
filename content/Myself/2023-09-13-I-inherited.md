@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-09-13T07:22:00-04:00
 title: ""
 tags: ["heart","Apple Watch","exercise"]

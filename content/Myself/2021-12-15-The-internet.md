@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2021-12-15T12:44:23-05:00
 title: "🔗 linkblog: just finished 'People spent 15 hours roleplaying a McDonald’s drive-thru on Twitter Spaces - The Verge'"
 tags: [""]

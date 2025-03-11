@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2025-01-29T09:57:03-05:00
 title: "pushing back against and testing limits with kiddo's school projects"
 tags: ["school","parenting","LGBTQ","blackface","whitewashing","racism"]

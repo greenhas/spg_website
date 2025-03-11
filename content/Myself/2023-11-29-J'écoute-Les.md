@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-11-29T06:33:55-05:00
 tags: ["Karl Tremblay","Québec","Les Cowboys Fringants"]
 title: "🔗 linkblog: mes pensées sur 'Le Québec pleure la mort du chanteur des Cowboys Fringants Karl Tremblay - rts.ch - Musiques'"

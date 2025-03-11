@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-05T11:59:13-04:00
 title: "🔗 linkblog: my thoughts on 'Kids Are Back in Classrooms and Laptops Are Still Spying on Them'"
 tags: ["edtech","privacy","surveillance"]

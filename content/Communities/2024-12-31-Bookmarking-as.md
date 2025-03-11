@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-12-31T08:16:03+01:00
 tags: ["Elon Musk","Mike Masnick","Twitter","free speech"]
 title: "🔗 linkblog: my thoughts on '‘Free Speech Absolutist’ Elon Musk Suspends Critics On ExTwitter, Asks People To Be Nicer'"

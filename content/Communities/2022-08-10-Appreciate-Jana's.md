@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-08-10T16:17:35-04:00
 title: "🔗 linkblog: my thoughts on 'How Mormons are addressing sex abuse: Too little, too late'"
 tags: ["Jana Riess","The Church of Jesus Christ of Latter-day Saints","Mormonism","sexual abuse","abuse","child abuse"]

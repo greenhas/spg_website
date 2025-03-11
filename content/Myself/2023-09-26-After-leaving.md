@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-09-26T17:01:33-04:00
 tags: ["independent bookstores","Amazon","FTC"]
 ---

@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2023-05-24T16:01:55-04:00
 title: "🔗 linkblog: my thoughts on 'Heritage Foundation Says That Of Course GOP Will Use KOSA To Censor LGBTQ Content | Techdirt'"
 tags: ["Mike Masnick","KOSA","GOP","Heritage Foundation"]

@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2021-07-18T14:18:42-04:00
 title: ""
 tags: ["Amtrak","trains"]

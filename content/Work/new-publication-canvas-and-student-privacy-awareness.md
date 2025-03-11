@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-12-06T11:37:54-05:00
 title: "new publication: Canvas and student privacy awareness"
 tags: ["privacy","surveillance","Canvas","learning analytics","Electronic Frontier Foundation","Meghan Dowell","learning management systems","Nick Proferes"]

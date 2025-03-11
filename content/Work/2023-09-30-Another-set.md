@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-09-30T12:16:28-04:00
 tags: ["writing","publishing","research","generative AI"]
 ---

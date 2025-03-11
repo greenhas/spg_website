@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2024-02-06T12:21:09-05:00
 tags: ["TTRPGs"]
 title: "🔗 linkblog: my thoughts on 'Legend in the Mist is ‘counter-D&D,’ a game where words are more powerful than numbers'"

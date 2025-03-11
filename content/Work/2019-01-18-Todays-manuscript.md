@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2019-01-18T10:42:31-05:00
 title: ""
 tags: ["R","programming","coding","research","Twitter research"]

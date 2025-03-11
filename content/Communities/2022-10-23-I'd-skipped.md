@@ -1,5 +1,5 @@
 ---
-type: ["link"]
+types: ["link"]
 date: 2022-10-23T10:20:01-04:00
 title: "🔗 linkblog: my thoughts on 'Report: Internet providers offer Louisville residents unequal speeds for similar prices – 89.3 WFPL News Louisville'"
 tags: ["AT&T","Louisville","broadband providers","broadband monopoly","Kentucky","internet speed","digital divide"]

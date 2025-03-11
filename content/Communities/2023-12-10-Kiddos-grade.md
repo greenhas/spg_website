@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-12-10T08:35:31-05:00
 tags: ["Christmas","Christian supremacy","Hanukkah","Israel","Kwanzaa"]
 ---

@@ -1,5 +1,5 @@
 ---
-type: ["macro"]
+types: ["macro"]
 date: 2024-09-15T13:15:56-04:00
 title: "James vs. the Trump-Vance ticket: An orphaned, remixed sermon"
 tags: ["priesthood","Donald Trump","JD Vance","2024 elections","hell","heaven","Sharing in Community of Christ","French","Andy Beshear","Kentucky","COVID-19","homophobia","queerphobia","LGBTQ","Epiphany"]

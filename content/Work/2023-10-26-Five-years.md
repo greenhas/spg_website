@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2023-10-26T19:15:03-04:00
 tags: ["Keybase","music"]
 ---

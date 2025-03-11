@@ -1,5 +1,5 @@
 ---
-type: ["micro"]
+types: ["micro"]
 date: 2024-08-20T07:17:15-04:00
 tags: ["potty training","Daniel Tiger"]
 ---
