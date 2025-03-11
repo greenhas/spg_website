@@ -2,7 +2,7 @@
 types: ["media"]
 layout: tv
 date: 2024-08-20T20:52:43-04:00
-tags: ["Myself","The Ipcress File"]
+tags: ["The Ipcress File"]
 title: "📺 tvblog: ❤️❤️❤️❤️🖤 for The Ipcress File "
 media: ["tv"]
 series: ["The Ipcress File"]

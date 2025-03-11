@@ -3,7 +3,7 @@ types: ["media"]
 layout: book
 date: 2025-02-19T21:15:05-05:00
 title: "📚 bookblog: Chroniques birmanes (❤️❤️❤️❤️🖤)"
-tags: ["Myself","Chroniques birmanes","Guy Delisle","Myanmar","Aung San Syu Kii"]
+tags: ["Chroniques birmanes","Guy Delisle","Myanmar","Aung San Syu Kii"]
 media: ["book","comic","graphic novel","bande dessinée"]
 titles: ["Chroniques birmanes"]
 creators: ["Guy Delisle"]

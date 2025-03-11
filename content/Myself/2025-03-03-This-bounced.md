@@ -3,7 +3,7 @@ types: ["media"]
 layout: radio
 date: 2025-03-03T15:44:30-05:00
 title: "🎙️ radioblog: Mort  (❤️❤️❤️❤️🖤)"
-tags: ["Myself","Mort","Terry Pratchett,Robin Brooks"]
+tags: ["Mort","Terry Pratchett,Robin Brooks"]
 media: ["radio"]
 titles: ["Mort"]
 creators: ["Terry Pratchett","Robin Brooks"]

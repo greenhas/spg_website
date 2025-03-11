@@ -3,7 +3,7 @@ types: ["media"]
 layout: book
 date: 2025-02-23T21:36:03-05:00
 title: "📚 bookblog: Trois montres d'argent (❤️❤️❤️🖤🖤)"
-tags: ["Myself","Trois montres d'argent","William Vance,Jean Van Hamme"]
+tags: ["Trois montres d'argent","William Vance,Jean Van Hamme"]
 media: ["book","comic","bande dessinée"]
 titles: ["Trois montres d'argent"]
 creators: ["William Vance","Jean Van Hamme"]

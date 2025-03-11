@@ -2,7 +2,7 @@
 types: ["media"]
 layout: tv
 date: 2023-11-06T10:21:05-05:00
-tags: ["Myself","Lupin"]
+tags: ["Lupin"]
 title: "📺 tvblog: ❤️❤️❤️🖤🖤 pour Lupin (Partie 3)"
 media: ["tv"]
 series: ["Lupin"]

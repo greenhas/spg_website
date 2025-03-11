@@ -2,7 +2,7 @@
 types: ["media"]
 layout: movie
 date: 2024-06-19T11:23:53-04:00
-tags: ["Relationships","Inside Out 2","Inside Out"]
+tags: ["Inside Out 2","Inside Out"]
 title: "🍿 movieblog: ❤️❤️❤️🖤🖤 for Inside Out 2 "
 media: ["movie"]
 titles: ["Inside Out 2"]

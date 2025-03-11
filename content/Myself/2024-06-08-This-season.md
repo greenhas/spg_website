@@ -2,7 +2,7 @@
 types: ["media"]
 layout: tv
 date: 2024-06-08T21:10:34-04:00
-tags: ["Myself","Pushing Daisies"]
+tags: ["Pushing Daisies"]
 title: "📺 tvblog: ❤️❤️❤️🖤🖤 for Pushing Daisies (Season 2)"
 media: ["tv"]
 series: ["Pushing Daisies"]
