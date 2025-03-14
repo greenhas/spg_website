@@ -6,7 +6,7 @@ tags: ["Star Trek: Lower Decks","Star Trek"]
 title: "📺 tvblog: ❤️❤️❤️❤️🖤 for Star Trek: Lower Decks (Season 2)"
 media: ["tv"]
 series: ["Star Trek: Lower Decks"]
-franchise: ["Star Trek"]
+franchise: ["Star Trek","Star Trek: Lower Decks"]
 ratings: ["❤️❤️❤️❤️🖤"]
 params:
   entry: Season 2
