@@ -4,7 +4,7 @@ file_list <- list.files("/Users/spencergreenhalgh/spg_website/content/Relationsh
 
 
 
-for(i in 1:10){ # 1:length(file_list)
+for(i in 1:length(file_list)){ # 1:length(file_list)
   
   temp_file <- read_lines(file_list[i])
   
