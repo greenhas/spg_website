@@ -1,11 +1,9 @@
 ---
 types: ["link"]
 date: 2024-02-19T16:50:37-05:00
-layout: link
-title: "🔗 linkblog: Reddit sells training data to unnamed AI company ahead of IPO'"
-art_title: "Reddit sells training data to unnamed AI company ahead of IPO"
-art_link: "https://arstechnica.com/?p=2004431"
-source: ["https:"]
 tags: ["AI","digital labor","Reddit","generative AI"]
+title: "🔗 linkblog: my thoughts on 'Reddit sells training data to unnamed AI company ahead of IPO'"
 ---
 C'mon, Reddit.
+
+[link to "Reddit sells training data to unnamed AI company ahead of IPO"](https://arstechnica.com/?p=2004431)
