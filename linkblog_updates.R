@@ -5,7 +5,7 @@ file_list <- list.files("/Users/spencergreenhalgh/spg_website/content/Communitie
 file_list[300]
 
 
-for(i in 300:300){ # 1:length(file_list)
+for(i in 1:length(file_list){ # 1:length(file_list)
   
   temp_file <- read_lines(file_list[i])
   
