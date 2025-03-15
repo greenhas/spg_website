@@ -21,6 +21,7 @@ capitalizeListTitles = false
     title = "titles"
     rating = "ratings"
     type = "types"
+    source = "sources"
 
 [sitemap]
   changefreq = "monthly"
