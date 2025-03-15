@@ -14,7 +14,7 @@ for(i in 1:length(file_list)){ # 1:length(file_list)
     
     temp_link <- temp_file[length(temp_file)] %>% str_remove("\\[.*\\(") %>% str_remove("\\)$")
     
-    temp_source <- temp_link %>% str_remove("https://www\\.") %>% str_remove("/.*$")
+    temp_source <- temp_link %>% str_remove("https://") %>% str_remove("/.*$") %>% str_remove("www\\.")
     
     if(grepl("title:",temp_file[4])){
       
