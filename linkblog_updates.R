@@ -67,6 +67,7 @@ for(i in 1:length(file_list)){ # 1:length(file_list)
    
     
     temp_file <- c(
+      "layout: link",
       temp_file[1:3],
       temp_title,
       paste0("art_title: \"",temp_art_title,"\""),
