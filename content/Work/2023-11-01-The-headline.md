@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Major critic of X sues after being banned from platform | Ars Technica'"
 art_title: "Major critic of X sues after being banned from platform | Ars Technica"
 art_link: "https://arstechnica.com/tech-policy/2023/11/major-critic-of-x-sues-after-being-banned-from-platform/"
-source: ["arstechnica.com"]
+sources: ["arstechnica.com"]
 tags: ["research","digital traces","digital traces research","APIs","Twitter","Elon Musk","web scraping"]
 ---
 The headline obscures something important—that this is about research, access to data, and Terms of Service. Worrying stuff.

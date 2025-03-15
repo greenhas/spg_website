@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: The Meek Who Shall Inherit the Earth Lodge a Complaint'"
 art_title: "The Meek Who Shall Inherit the Earth Lodge a Complaint"
 art_link: "https://www.mcsweeneys.net/articles/the-meek-who-shall-inherit-the-earth-lodge-a-complaint"
-source: ["mcsweeneys.net"]
+sources: ["mcsweeneys.net"]
 tags: ["beatitudes","wealth","poverty"]
 ---
 Really enjoyed this.

@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: DOGE Puts $1 Spending Limit on Government Employee Credit Cards'"
 art_title: "DOGE Puts $1 Spending Limit on Government Employee Credit Cards"
 art_link: "https://www.wired.com/story/doge-government-credit-cards/"
-source: ["wired.com"]
+sources: ["wired.com"]
 tags: ["DOGE","Elon Musk"]
 ---
 DOGE continues to insist on the dumbest way to carry out its dumb goals.

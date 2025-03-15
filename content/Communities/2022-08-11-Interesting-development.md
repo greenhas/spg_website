@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: FBI Standoff Suspect Posted ‘Call to Arms’ on Trump's Truth Social'"
 art_title: "FBI Standoff Suspect Posted ‘Call to Arms’ on Trump's Truth Social"
 art_link: "https://www.vice.com/en/article/z34mz4/fbi-ricky-walter-shiffer-truth-social"
-source: ["vice.com"]
+sources: ["vice.com"]
 tags: ["Donald Trump","Truth Social"]
 ---
 Interesting development here.

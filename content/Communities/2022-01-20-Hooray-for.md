@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: just finished 'Kentucky county sees COVID-19 surge tied to ball games. | Lexington Herald Leader'"
 art_title: "just finished 'Kentucky county sees COVID-19 surge tied to ball games. | Lexington Herald Leader"
 art_link: "https://www.kentucky.com/news/state/kentucky/article257540853.html"
-source: ["kentucky.com"]
+sources: ["kentucky.com"]
 tags: ["COVID-19","Kentucky"]
 ---
 Hooray for sports?

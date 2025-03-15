@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: The Far Right Has a New Hero: Elon Musk'"
 art_title: "The Far Right Has a New Hero: Elon Musk"
 art_link: "https://www.wired.com/story/far-right-new-leader-elon-musk/"
-source: ["wired.com"]
+sources: ["wired.com"]
 tags: ["Elon Musk","far right","CI 780"]
 ---
 Bookmarking for... sigh... teaching purposes.

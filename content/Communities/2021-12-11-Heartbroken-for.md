@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: just finished 'Storms, tornadoes: Western Kentucky death toll update | Lexington Herald Leader'"
 art_title: "just finished 'Storms, tornadoes: Western Kentucky death toll update | Lexington Herald Leader"
 art_link: "https://www.kentucky.com/news/state/kentucky/article256511091.html"
-source: ["kentucky.com"]
+sources: ["kentucky.com"]
 tags: ["2021 Kentucky tornadoes"]
 ---
 Heartbroken for Western Kentucky and everywhere else that's seen destruction.

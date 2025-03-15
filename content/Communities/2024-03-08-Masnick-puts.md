@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: When Viral Advocacy Fails: TikTok’s Call Flood To Congress Backfires'"
 art_title: "When Viral Advocacy Fails: TikTok’s Call Flood To Congress Backfires"
 art_link: "https://www.techdirt.com/2024/03/08/when-viral-advocacy-fails-tiktoks-call-flood-to-congress-backfires/"
-source: ["techdirt.com"]
+sources: ["techdirt.com"]
 tags: ["TikTok","Mike Masnick"]
 ---
 Masnick puts this better than I could. This legislation is dumb, but this advocacy feels dumber.

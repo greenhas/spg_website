@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: OpenAI Used Kenyan Workers on Less Than $2 Per Hour: Exclusive | Time'"
 art_title: "OpenAI Used Kenyan Workers on Less Than $2 Per Hour: Exclusive | Time"
 art_link: "https://time.com/6247678/openai-chatgpt-kenya-workers/"
-source: ["time.com"]
+sources: ["time.com"]
 tags: ["AI training","digital labor","content moderation","OpenAI","ChatGPT"]
 ---
 Looks like the job of AI training is as awful as the job of content moderation.  

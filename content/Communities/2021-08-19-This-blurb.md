@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: just read 'Opinion | The Illusion of Privacy Is Getting Harder to Sell - The New York Times'"
 art_title: "just read 'Opinion | The Illusion of Privacy Is Getting Harder to Sell - The New York Times"
 art_link: "https://www.nytimes.com/2021/08/19/opinion/apple-iphone-privacy.html"
-source: ["nytimes.com"]
+sources: ["nytimes.com"]
 tags: ["Apple","privacy","surveillance"]
 ---
 This blurb stood out to me: “Apple says, relentlessly, that privacy is the central feature of its iPhones. But as the photo scanning demonstrates, that’s true only until Apple changes its mind about its policies.” Seems to me we shouldn’t be dependent on tech companies’ decisions to ensure privacy.

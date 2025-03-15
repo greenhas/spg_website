@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: A vote for Donald Trump is a vote for school shootings and measles'"
 art_title: "A vote for Donald Trump is a vote for school shootings and measles"
 art_link: "https://www.theverge.com/24282022/kamala-harris-endorsement-presidential-election-2024"
-source: ["theverge.com"]
+sources: ["theverge.com"]
 tags: ["Nilay Patel","The Verge","democracy","collective action problem"]
 ---
 Some powerful stuff in here.

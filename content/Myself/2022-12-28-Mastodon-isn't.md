@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Twitter rival Mastodon rejects funding to preserve nonprofit status | Ars Technica'"
 art_title: "Twitter rival Mastodon rejects funding to preserve nonprofit status | Ars Technica"
 art_link: "https://arstechnica.com/tech-policy/2022/12/twitter-rival-mastodon-rejects-funding-to-preserve-nonprofit-status/"
-source: ["arstechnica.com"]
+sources: ["arstechnica.com"]
 tags: ["Mastodon"]
 ---
 Mastodon isn't perfect, but this strikes me as a good sign.  

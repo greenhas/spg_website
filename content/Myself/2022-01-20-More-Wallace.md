@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: just finished 'Netflix Reveals New Wallace & Gromit Movie, Chicken Run 2 Cast'"
 art_title: "just finished 'Netflix Reveals New Wallace & Gromit Movie, Chicken Run 2 Cast"
 art_link: "https://gizmodo.com/netflix-wallace-and-gromit-movie-chicken-run-2-cast-1848390926"
-source: ["gizmodo.com"]
+sources: ["gizmodo.com"]
 tags: ["Wallace and Gromit"]
 ---
 More Wallace and Gromit is always welcome.

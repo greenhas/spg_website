@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Air Canada must honor refund policy invented by airline’s chatbot'"
 art_title: "Air Canada must honor refund policy invented by airline’s chatbot"
 art_link: "https://arstechnica.com/?p=2003992"
-source: ["arstechnica.com"]
+sources: ["arstechnica.com"]
 tags: ["Air Canada","chatbot","AI"]
 ---
 Very interesting case.

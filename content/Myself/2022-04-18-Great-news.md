@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Marvel Unbeatable Squirrel Girl Podcast Milana Vayntrub Ryan North'"
 art_title: "Marvel Unbeatable Squirrel Girl Podcast Milana Vayntrub Ryan North"
 art_link: "https://gizmodo.com/marvel-unbeatable-squirrel-girl-podcast-debuts-today-1848805618"
-source: ["gizmodo.com"]
+sources: ["gizmodo.com"]
 tags: ["Squirrel Girl","comics","podcasts"]
 ---
 Great news for a tough Monday! This is one of my favorite comics, I love podcasts, and North is writing scripts. Perfect combination.

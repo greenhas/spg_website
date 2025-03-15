@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Meta Deletes Trans and Nonbinary Messenger Themes'"
 art_title: "Meta Deletes Trans and Nonbinary Messenger Themes"
 art_link: "https://www.404media.co/meta-deletes-trans-and-nonbinary-messenger-themes/"
-source: ["404media.co"]
+sources: ["404media.co"]
 tags: ["Meta","LGBTQ","Facebook"]
 ---
 Meta's cynicism and groveling is pretty appalling.

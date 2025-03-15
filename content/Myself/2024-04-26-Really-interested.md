@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: How do you build without over polluting? That's the challenge of new Catan board game'"
 art_title: "How do you build without over polluting? That's the challenge of new Catan board game"
 art_link: "https://npr.org/2024/04/22/1245096795/catan-board-game-climate-change-pollution"
-source: ["npr.org"]
+sources: ["npr.org"]
 tags: ["Catan","LIS 618"]
 ---
 Really interested in this game.

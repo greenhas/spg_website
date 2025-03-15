@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Meta abandons fact-checking on Facebook and Instagram in favor of Community Notes'"
 art_title: "Meta abandons fact-checking on Facebook and Instagram in favor of Community Notes"
 art_link: "https://www.theverge.com/2025/1/7/24338062/facebook-instagram-threads-meta-abandon-fact-checking"
-source: ["theverge.com"]
+sources: ["theverge.com"]
 tags: ["Meta","Mark Zuckerberg","Donald Trump","content moderation"]
 ---
 Personally, I've come around to the idea that fewer restrictions, "Community Notes"-style responses, and lots of personal control over what one sees **could** work better as content moderation. It's interesting to see Bluesky take some of these approaches, for example!

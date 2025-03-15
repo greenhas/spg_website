@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: How MIT copes without Elsevier'"
 art_title: "How MIT copes without Elsevier"
 art_link: "https://druedin.com/2024/08/16/how-mit-copes-without-elsevier/"
-source: ["druedin.com"]
+sources: ["druedin.com"]
 tags: ["open access","Elsevier","MIT","research"]
 ---
 Interesting—and hopeful—read.

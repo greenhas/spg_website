@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Marine Le Pen Victory Would Threaten European Alliances'"
 art_title: "Marine Le Pen Victory Would Threaten European Alliances"
 art_link: "https://theintercept.com/2022/04/16/france-election-marine-le-pen-europe/"
-source: ["theintercept.com"]
+sources: ["theintercept.com"]
 tags: ["Marine Le Pen","France"]
 ---
 Interesting read on potential stakes of France's presidential election.

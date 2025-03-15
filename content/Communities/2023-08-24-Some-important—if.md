@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: You Are Not Responsible for Your Own Online Privacy | WIRED'"
 art_title: "You Are Not Responsible for Your Own Online Privacy | WIRED"
 art_link: "https://www.wired.com/story/you-are-not-responsible-for-your-own-online-privacy/"
-source: ["wired.com"]
+sources: ["wired.com"]
 tags: ["privacy","generative AI","surveillance","data"]
 ---
 Some important—if disheartening—observations from Marwick.  

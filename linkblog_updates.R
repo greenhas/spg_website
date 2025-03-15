@@ -1,6 +1,6 @@
 library(tidyverse)
 
-file_list <- list.files("/Users/spencergreenhalgh/spg_website/content/Relationships", pattern = ".md", full.names = TRUE)
+file_list <- list.files("/Users/spencergreenhalgh/spg_website/content/Work", pattern = ".md", full.names = TRUE)
 
 
 

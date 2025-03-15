@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Kentucky's voter guide for the 2022 primary elections – 89.3 WFPL News Louisville'"
 art_title: "Kentucky's voter guide for the 2022 primary elections – 89.3 WFPL News Louisville"
 art_link: "https://wfpl.org/kentuckys-voter-guide-for-the-2022-primary-elections/"
-source: ["wfpl.org"]
+sources: ["wfpl.org"]
 tags: ["Kentucky","primary elections"]
 ---
 Primaries are coming up! Time to do your homework!

@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Google gets its way, bakes a user-tracking ad platform directly into Chrome | Ars Technica'"
 art_title: "Google gets its way, bakes a user-tracking ad platform directly into Chrome | Ars Technica"
 art_link: "https://arstechnica.com/gadgets/2023/09/googles-widely-opposed-ad-platform-the-privacy-sandbox-launches-in-chrome/"
-source: ["arstechnica.com"]
+sources: ["arstechnica.com"]
 tags: ["Google","Chrome","surveillance","privacy","advertising"]
 ---
 Team Firefox foreverrrrrr  

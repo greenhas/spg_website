@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Rep. Clay Higgins Posts, Then Deletes, Racist Comments About Haitians'"
 art_title: "Rep. Clay Higgins Posts, Then Deletes, Racist Comments About Haitians"
 art_link: "https://www.nytimes.com/2024/09/25/us/politics/clay-higgins-haitians-springfield-ohio.html"
-source: ["nytimes.com"]
+sources: ["nytimes.com"]
 tags: ["Clay Higgins","Mike Johnson","racism"]
 ---
 Posting this as a bookmark. It's mindboggling how overtly racist

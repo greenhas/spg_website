@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Student Monitoring Tools Should Not Flag LGBTQ+ Keywords | Electronic Frontier Foundation'"
 art_title: "Student Monitoring Tools Should Not Flag LGBTQ+ Keywords | Electronic Frontier Foundation"
 art_link: "https://www.eff.org/deeplinks/2023/06/student-monitoring-tools-should-not-flag-lgbtq-keywords"
-source: ["eff.org"]
+sources: ["eff.org"]
 tags: ["ed tech","EFF","LGBTQ"]
 ---
 Student monitoring software is gross to begin with, but monitoring for LGBTQ+ content makes it even grosser. Love it when EFF tackles ed tech.  

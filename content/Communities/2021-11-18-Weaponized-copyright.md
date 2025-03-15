@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: just finished 'BTS fan accounts targeted with fake copyright takedowns - The Verge'"
 art_title: "just finished 'BTS fan accounts targeted with fake copyright takedowns - The Verge"
 art_link: "https://www.theverge.com/2021/11/18/22789201/bts-fan-accounts-dmca-takedowns-twitter-copyright-suspension-allegation"
-source: ["theverge.com"]
+sources: ["theverge.com"]
 tags: ["intellectual property"]
 ---
 Weaponized copyright enforcement is awful.

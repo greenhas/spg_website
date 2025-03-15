@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Who Said It: Donald Trump or Martin Luther King Jr.?'"
 art_title: "Who Said It: Donald Trump or Martin Luther King Jr.?"
 art_link: "https://www.mcsweeneys.net/articles/who-said-it-donald-trump-or-martin-luther-king-jr"
-source: ["mcsweeneys.net"]
+sources: ["mcsweeneys.net"]
 tags: ["Donald Trump","Martin Luther King Jr."]
 ---
 Darkly hilarious.

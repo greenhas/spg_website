@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: All Bad Bosses at Amazon Are Now Named ‘Wayne’'"
 art_title: "All Bad Bosses at Amazon Are Now Named ‘Wayne’"
 art_link: "https://www.404media.co/bad-amazon-bosses-wayne/"
-source: ["404media.co"]
+sources: ["404media.co"]
 tags: ["Amazon","AI","memes","reddit"]
 ---
 Funny meme, depressing reality.

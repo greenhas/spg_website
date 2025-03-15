@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Voice Actors Push Back Against Their Voices Being Used by AI'"
 art_title: "Voice Actors Push Back Against Their Voices Being Used by AI"
 art_link: "https://gizmodo.com/voice-actors-ai-voices-controversy-1850105561"
-source: ["gizmodo.com"]
+sources: ["gizmodo.com"]
 tags: ["AI","art","voice acting","digital labor"]
 ---
 Interesting and important read.  

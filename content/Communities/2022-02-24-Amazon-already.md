@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: KY lawmakers advance data center tax incentives to woo tech giants | Lexington Herald Leader'"
 art_title: "KY lawmakers advance data center tax incentives to woo tech giants | Lexington Herald Leader"
 art_link: "https://www.kentucky.com/news/politics-government/article258676228.html"
-source: ["kentucky.com"]
+sources: ["kentucky.com"]
 tags: ["Amazon","Kentucky","Kentucky General Assembly"]
 ---
 Amazon already has too big a footprint here. Don't feel great about this.

@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Elon Musk abruptly cancels Don Lemon’s X talk show hours after interview'"
 art_title: "Elon Musk abruptly cancels Don Lemon’s X talk show hours after interview"
 art_link: "https://www.theguardian.com/technology/2024/mar/13/elon-musk-cancel-don-lemon-interview"
-source: ["theguardian.com"]
+sources: ["theguardian.com"]
 tags: ["Twitter","Elon Musk","Don Lemon"]
 ---
 Free speech absolutism wins again.

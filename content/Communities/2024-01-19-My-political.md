@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Macron Shifts Rightward, and Charts a New Course - The New York Times'"
 art_title: "Macron Shifts Rightward, and Charts a New Course - The New York Times"
 art_link: "https://www.nytimes.com/2024/01/19/world/europe/france-macron-speech.html"
-source: ["nytimes.com"]
+sources: ["nytimes.com"]
 tags: ["Emmanuel Macron","centrism","France"]
 ---
 My political views have shifted a lot over the past decade, and I think my attitude toward Macron demonstrates that pretty well. When he was first elected, I was pretty excited. I was fed up with the American right but not ready to identify with the left, and the idea of a new centrist party emerging out of nowhere was inspiring.

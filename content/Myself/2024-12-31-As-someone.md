@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Tintin and the fascists'"
 art_title: "Tintin and the fascists"
 art_link: "https://werd.io/2024/tintin-and-the-fascists"
-source: ["werd.io"]
+sources: ["werd.io"]
 tags: ["Tintin","comics","bd","anarchism","public domain","copyright"]
 ---
 As someone who once owned *Tintin au pays des Soviets* (but also sold it more out of distaste of the art than the politics) and who is currently rereading a less-but-still-problematic classic Belgian *bande dessinée*, I really appreciated these reflections.

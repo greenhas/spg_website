@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: SCOOP: Ashley St. Clair sues Elon Musk for custody of new son'"
 art_title: "SCOOP: Ashley St. Clair sues Elon Musk for custody of new son"
 art_link: "https://www.usermag.co/p/scoop-ashley-st-clair-sues-elon-musk"
-source: ["usermag.co"]
+sources: ["usermag.co"]
 tags: ["Elon Musk"]
 ---
 Some bonkers details in here.

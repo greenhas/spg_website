@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Brave Sir Bentham, Utilitarian Knight - Existential Comics'"
 art_title: "Brave Sir Bentham, Utilitarian Knight - Existential Comics"
 art_link: "https://existentialcomics.com/comic/475"
-source: ["existentialcomics.com"]
+sources: ["existentialcomics.com"]
 tags: ["Existential Comics","philosophy","ethics","utilitarianism","webcomics"]
 ---
 Only thing better than a critique of utilitarianism is a critique of utilitarianism in the form of a comic.  

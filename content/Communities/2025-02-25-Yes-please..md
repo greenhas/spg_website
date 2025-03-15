@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Ron Wyden asks for rules about whether you own your digital purchases'"
 art_title: "Ron Wyden asks for rules about whether you own your digital purchases"
 art_link: "https://www.theverge.com/news/618614/senator-ron-wyden-ftc-andrew-ferguson-digital-goods-ownership"
-source: ["theverge.com"]
+sources: ["theverge.com"]
 tags: ["Ron Wyden","digital ownership"]
 ---
 Yes please.

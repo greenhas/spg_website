@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: just read 'Menace, as a Political Tool, Enters the Republican Mainstream - The New York Times'"
 art_title: "just read 'Menace, as a Political Tool, Enters the Republican Mainstream - The New York Times"
 art_link: "https://www.nytimes.com/2021/11/12/us/politics/republican-violent-rhetoric.html"
-source: ["nytimes.com"]
+sources: ["nytimes.com"]
 tags: ["far right"]
 ---
 Truly frightening.

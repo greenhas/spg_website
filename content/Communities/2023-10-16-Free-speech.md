@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Twitter is Throttling Patreon Links, Creators Say It Undermines Their Livelihood – The Markup'"
 art_title: "Twitter is Throttling Patreon Links, Creators Say It Undermines Their Livelihood – The Markup"
 art_link: "https://themarkup.org/news/2023/10/16/twitter-is-throttling-patreon-links-creators-say-it-undermines-their-livelihood"
-source: ["themarkup.org"]
+sources: ["themarkup.org"]
 tags: ["Twitter","Elon Musk","Patreon"]
 ---
 Free speech absolutism at its finest.

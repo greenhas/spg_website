@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Welcome to the public domain, Mickey Mouse - The Verge'"
 art_title: "Welcome to the public domain, Mickey Mouse - The Verge"
 art_link: "https://www.theverge.com/24006670/mickey-mouse-steamboat-willie-enters-copyright-public-domain-2024"
-source: ["theverge.com"]
+sources: ["theverge.com"]
 tags: ["Disney","Mickey Mouse","public domain"]
 ---
 Happy Public Domain day!

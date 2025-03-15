@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: ALPR Maker Flock Broke Laws Repeatedly While Installing Cameras, Courting Cop Shops'"
 art_title: "ALPR Maker Flock Broke Laws Repeatedly While Installing Cameras, Courting Cop Shops"
 art_link: "https://www.techdirt.com/2024/03/05/alpr-maker-flock-broke-laws-repeatedly-while-installing-cameras-courting-cop-shops/"
-source: ["techdirt.com"]
+sources: ["techdirt.com"]
 tags: ["Flock","ALPRs","surveillance"]
 ---
 Flock provides the ALPRs here in Lexington, which makes this especially frustrating.

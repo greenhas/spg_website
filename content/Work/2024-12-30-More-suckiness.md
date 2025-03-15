@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Evolution journal editors resign en masse'"
 art_title: "Evolution journal editors resign en masse"
 art_link: "https://arstechnica.com/science/2024/12/journal-editors-resign-to-protest-ai-use-high-fees-and-more/"
-source: ["arstechnica.com"]
+sources: ["arstechnica.com"]
 tags: ["academic publishing","publishing","generative AI","Elsevier"]
 ---
 More suckiness in the world of academic publishing.

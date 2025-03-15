@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: ChatGPT is a data privacy nightmare, and we ought to be concerned | Ars Technica'"
 art_title: "ChatGPT is a data privacy nightmare, and we ought to be concerned | Ars Technica"
 art_link: "https://arstechnica.com/information-technology/2023/02/chatgpt-is-a-data-privacy-nightmare-and-you-ought-to-be-concerned/"
-source: ["arstechnica.com"]
+sources: ["arstechnica.com"]
 tags: ["privacy","surveillance","consent","digital labor","ChatGPT","OpenAI"]
 ---
 Important points in here.  

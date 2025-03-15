@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Everything is hackable. That’s not always a bad thing.'"
 art_title: "Everything is hackable. That’s not always a bad thing."
 art_link: "https://slate.com/technology/2023/02/hackers-mind-everything-is-hackable.html?via=rss"
-source: ["slate.com"]
+sources: ["slate.com"]
 tags: ["hacking","society","government","technology"]
 ---
 Interesting reflection here.  

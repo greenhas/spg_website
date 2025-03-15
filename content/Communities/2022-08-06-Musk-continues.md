@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Elon Musk challenges Twitter CEO to a ‘public debate’ about bots - The Verge'"
 art_title: "Elon Musk challenges Twitter CEO to a ‘public debate’ about bots - The Verge"
 art_link: "https://www.theverge.com/2022/8/6/23294852/elon-musk-challenges-twitter-ceo-public-debate-bots-parag-agrawal"
-source: ["theverge.com"]
+sources: ["theverge.com"]
 tags: ["Elon Musk","Twitter"]
 ---
 Musk continues his trolling. This is a dumb proposal, and Twitter shouldn't accept it.

@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: How the Kansas City shooting proves the 'good guy with a gun' idea is a fallacy'"
 art_title: "How the Kansas City shooting proves the 'good guy with a gun' idea is a fallacy"
 art_link: "https://www.vox.com/politics/2024/2/15/24074324/kansas-city-shooting-mayor-quinton-lucas"
-source: ["vox.com"]
+sources: ["vox.com"]
 tags: ["gun control","guns","mass shootings"]
 ---
 Depressing but important read.

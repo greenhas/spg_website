@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Refuge In Kakistocracy'"
 art_title: "Refuge In Kakistocracy"
 art_link: "https://www.popehat.com/p/refuge-in-kakistocracy"
-source: ["popehat.com"]
+sources: ["popehat.com"]
 tags: ["Ken White","Pete Hegseth","Matt Gartz","Kristi Noem","Donald Trump"]
 ---
 Interested by Ken's take here, even if it doesn't necessarily make me feel better about *gestures at everything*.

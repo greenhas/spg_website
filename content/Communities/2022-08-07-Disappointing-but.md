@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Kentucky candidates struggle when describing 2020 election | Lexington Herald Leader'"
 art_title: "Kentucky candidates struggle when describing 2020 election | Lexington Herald Leader"
 art_link: "https://www.kentucky.com/news/nation-world/national/article264274006.html"
-source: ["kentucky.com"]
+sources: ["kentucky.com"]
 tags: ["Kentucky","Daniel Cameron","2020 election","Savannah Maddox","Ryan Quarles","Donald Trump"]
 ---
 Disappointing but unsurprising.

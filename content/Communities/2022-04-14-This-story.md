@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Twitter and Elon Musk Are Now at War'"
 art_title: "Twitter and Elon Musk Are Now at War"
 art_link: "https://www.vice.com/en/article/jgm3pk/twitter-and-elon-musk-are-now-at-war"
-source: ["vice.com"]
+sources: ["vice.com"]
 tags: ["Twitter","Elon Musk"]
 ---
 This story just keeps getting worse.

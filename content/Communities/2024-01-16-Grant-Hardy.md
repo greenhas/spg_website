@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: What is the Annotated Book of Mormon? – From the Desk'"
 art_title: "What is the Annotated Book of Mormon? – From the Desk"
 art_link: "https://www.fromthedesk.org/annotated-book-of-mormon-grant-hardy/"
-source: ["fromthedesk.org"]
+sources: ["fromthedesk.org"]
 tags: ["Grant Hardy","Book of Mormon","Church of Jesus Christ of Latter-day Saints","Annotated Book of Mormon"]
 ---
 Grant Hardy is doing great work with the Book of Mormon. I don't see the text the same way that he does, but I'm deeply grateful for what he's contributed to new readings of it, and I'm glad I have a copy if this.

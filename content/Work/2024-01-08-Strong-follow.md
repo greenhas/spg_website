@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Open Infrastructures and the Future of Knowledge Production, part 2 – Platypus'"
 art_title: "Open Infrastructures and the Future of Knowledge Production, part 2 – Platypus"
 art_link: "https://team.hcommons.org/2024/01/08/open-infrastructures-and-the-future-of-knowledge-production-part-2/"
-source: ["team.hcommons.org"]
+sources: ["team.hcommons.org"]
 tags: ["Kathleen Fitzpatrick","AWS","Humanities Commons","Mastodon","Big Tech"]
 ---
 Strong follow up to the last post I just linked to.

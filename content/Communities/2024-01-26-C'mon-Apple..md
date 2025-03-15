@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Mozilla says Apple’s new browser rules are ‘as painful as possible’ for Firefox - The Verge'"
 art_title: "Mozilla says Apple’s new browser rules are ‘as painful as possible’ for Firefox - The Verge"
 art_link: "https://www.theverge.com/2024/1/26/24052067/mozilla-apple-ios-browser-rules-firefox"
-source: ["theverge.com"]
+sources: ["theverge.com"]
 tags: ["Apple","Mozilla","Firefox"]
 ---
 C'mon Apple.

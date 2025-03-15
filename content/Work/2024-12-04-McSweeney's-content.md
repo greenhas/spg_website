@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: A Faculty Member’s Self-Evaluation at the End of the Semester'"
 art_title: "A Faculty Member’s Self-Evaluation at the End of the Semester"
 art_link: "https://www.mcsweeneys.net/articles/a-faculty-members-self-evaluation-at-the-end-of-the-semester"
-source: ["mcsweeneys.net"]
+sources: ["mcsweeneys.net"]
 tags: ["academia","McSweeney's"]
 ---
 McSweeney's content on academia is always darkly hilarious, and this is no exception.

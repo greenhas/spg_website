@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: The Nazis in the space program.'"
 art_title: "The Nazis in the space program."
 art_link: "https://slate.com/technology/2023/08/nasa-nazi-history-von-braun.html?via=rss"
-source: ["slate.com"]
+sources: ["slate.com"]
 tags: ["NASA","Werner von Braun"]
 ---
 Difficult read but an important one.  

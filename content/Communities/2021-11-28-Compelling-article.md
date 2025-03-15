@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: just finished 'In Kentucky, the ‘Lost Cause’ lingers as a new myth takes hold | Lexington Herald Leader'"
 art_title: "just finished 'In Kentucky, the ‘Lost Cause’ lingers as a new myth takes hold | Lexington Herald Leader"
 art_link: "https://www.kentucky.com/news/politics-government/article252983683.html"
-source: ["kentucky.com"]
+sources: ["kentucky.com"]
 tags: ["Kentucky"]
 ---
 Compelling article on histories we've made and the ones we are now making.

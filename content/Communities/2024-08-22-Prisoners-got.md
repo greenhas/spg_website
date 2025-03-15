@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: KY prisoners hack state-issued computer tablets to digitally create $1M. How’d they do it?'"
 art_title: "KY prisoners hack state-issued computer tablets to digitally create $1M. How’d they do it?"
 art_link: "https://www.kentucky.com/news/politics-government/article290664609.html"
-source: ["kentucky.com"]
+sources: ["kentucky.com"]
 tags: ["Kentucky","prisons","for-profit prisons","Cory Doctorow","The Bezzle"]
 ---
 Prisoners got punished for taking advantage of a hilarious exploit in an app for transferring money from their commissary accounts to a private company's media store, but no one at that private company is being held accountable for unironically describing prisons as a "growth industry."

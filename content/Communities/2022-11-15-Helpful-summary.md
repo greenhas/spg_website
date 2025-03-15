@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: Q is Dead, Long Live QAnon'"
 art_title: "Q is Dead, Long Live QAnon"
 art_link: "https://www.vice.com/en/article/wxnkzq/qanon-q-drop-midterms"
-source: ["vice.com"]
+sources: ["vice.com"]
 tags: ["QAnon"]
 ---
 Helpful summary of the current state of QAnon.

@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: just read 'The most popular posts on Facebook are plagiarized - The Verge'"
 art_title: "just read 'The most popular posts on Facebook are plagiarized - The Verge"
 art_link: "https://www.theverge.com/2021/8/27/22644126/the-most-popular-posts-on-facebook-are-plagiarized"
-source: ["theverge.com"]
+sources: ["theverge.com"]
 tags: ["Facebook"]
 ---
 Interesting take on inauthentic content on Facebook.

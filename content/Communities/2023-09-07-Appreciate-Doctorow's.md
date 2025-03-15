@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: https://pluralistic.net/2023/09/07/govern-yourself-accordingly/'"
 art_title: "https://pluralistic.net/2023/09/07/govern-yourself-accordingly/"
 art_link: "https://pluralistic.net/2023/09/07/govern-yourself-accordingly/"
-source: ["pluralistic.net"]
+sources: ["pluralistic.net"]
 tags: ["LLMs","generative AI","Cory Doctorow"]
 ---
 Appreciate Doctorow's thinking here.  

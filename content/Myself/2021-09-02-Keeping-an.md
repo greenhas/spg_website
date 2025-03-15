@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: just read 'This chainless drive system could revolutionize e-bike designs  - The Verge'"
 art_title: "just read 'This chainless drive system could revolutionize e-bike designs  - The Verge"
 art_link: "https://www.theverge.com/2021/9/2/22653697/schaeffler-free-drive-e-bike-system-chainless"
-source: ["theverge.com"]
+sources: ["theverge.com"]
 tags: ["e-bikes","bikes"]
 ---
 Keeping an eye on this! E-bikes are exciting.

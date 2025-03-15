@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: just finished 'Ky. lawmakers plan to quickly pass redistricting maps – 89.3 WFPL News Louisville'"
 art_title: "just finished 'Ky. lawmakers plan to quickly pass redistricting maps – 89.3 WFPL News Louisville"
 art_link: "https://wfpl.org/ky-lawmakers-plan-to-quickly-pass-redistricting-maps/"
-source: ["wfpl.org"]
+sources: ["wfpl.org"]
 tags: ["Kentucky","elections","gerrymandering"]
 ---
 Dreading this whole process.

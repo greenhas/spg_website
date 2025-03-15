@@ -5,7 +5,7 @@ layout: link
 title: "🔗 linkblog: How close is Elon Musk to controlling a nuclear weapon?'"
 art_title: "How close is Elon Musk to controlling a nuclear weapon?"
 art_link: "https://www.theverge.com/policy/609110/elon-musk-doge-department-energy-nuclear-weapon-waste-cleanup-access"
-source: ["theverge.com"]
+sources: ["theverge.com"]
 tags: ["nuclear weapons","nuclear disarmament","Elon Musk","Donald Trump","DOGE"]
 ---
 The headline is a little provocative, but it's scary that we live in a world where it makes some sense.
