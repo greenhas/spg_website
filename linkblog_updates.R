@@ -1,11 +1,10 @@
 library(tidyverse)
 
-file_list <- list.files("/Users/spencergreenhalgh/spg_website/content/Communities", pattern = ".md", full.names = TRUE)
-
-file_list[300]
+file_list <- list.files("/Users/spencergreenhalgh/spg_website/content/Relationships", pattern = ".md", full.names = TRUE)
 
 
-for(i in 1:length(file_list){ # 1:length(file_list)
+
+for(i in 1:10){ # 1:length(file_list)
   
   temp_file <- read_lines(file_list[i])
   
@@ -14,7 +13,7 @@ for(i in 1:length(file_list){ # 1:length(file_list)
   
   if(grepl("link",temp_file[2])){
     
-    print(temp_file[6])
+    temp_file[6]
     
     # temp_link <- temp_file[length(temp_file)] %>% str_remove("\\[.*\\(") %>% str_remove("\\)$")
     # 
@@ -70,16 +69,11 @@ for(i in 1:length(file_list){ # 1:length(file_list)
     # 
     # 
     # 
-    # temp_file <- c(
-    #   temp_file[1:3],
-    #   "layout: link",
-    #   temp_title,
-    #   paste0("art_title: \"",temp_art_title,"\""),
-    #   paste0("art_link: \"",temp_link,"\""),
-    #   paste0("source: [\"",temp_source,"\"]"),
-    #   temp_tags,
-    #   temp_file[6:(length(temp_file)-2)]
-    # )
+    temp_file <- c(
+      temp_file[1:7],
+      temp_file[8] %>% str_replace("source","sources"),
+      temp_file[9:(length(temp_file))]
+    )
     
     # print(temp_file)
 
