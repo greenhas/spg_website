@@ -2,12 +2,12 @@
 types: ["media"]
 layout: book
 date: 2025-03-15T22:32:23-04:00
-title: "📚 bookblog: Star Trek, Volume 1 (❤️❤️❤️❤️🖤)"
+title: "📚 bookblog: Star Trek IDW, Volume 1 (❤️❤️❤️❤️🖤)"
 tags: ["Mike Johnson","Stephen Molnar","Joe Phillips","Humble Bundle","IDW"]
 media: ["book","comic"]
 titles: [""]
 creators: ["Mike Johnson","Stephen Molnar","Joe Phillips"]
-series: ["Star Trek"]
+series: ["Star Trek IDW"]
 franchise: ["Star Trek","Kelvinverse"]
 ratings: ["❤️❤️❤️❤️🖤"]
 params:
