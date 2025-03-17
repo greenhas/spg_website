@@ -2,12 +2,12 @@
 types: ["media"]
 layout: book
 date: 2025-03-16T09:38:10-04:00
-title: "📚 bookblog: Star Trek IDW, Volume 2  (❤️❤️❤️❤️🖤)"
+title: "📚 bookblog: Star Trek 2011-2016, Volume 2  (❤️❤️❤️❤️🖤)"
 tags: ["","Mike Johnson","Joe Corroney","Joe Phillips","Star Trek","comics"]
 media: ["book","comic"]
 titles: [""]
 creators: ["Mike Johnson","Joe Corroney","Joe Phillips"]
-series: ["Star Trek IDW"]
+series: ["Star Trek 2011-2016"]
 franchise: ["Star Trek","Kelvinverse"]
 ratings: ["❤️❤️❤️❤️🖤"]
 params:
