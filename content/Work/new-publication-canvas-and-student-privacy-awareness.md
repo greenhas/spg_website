@@ -2,7 +2,7 @@
 types: ["macro"]
 date: 2024-12-06T11:37:54-05:00
 title: "new publication: Canvas and student privacy awareness"
-tags: ["privacy","surveillance","Canvas","learning analytics","Electronic Frontier Foundation","Meghan Dowell","learning management systems","Nick Proferes"]
+tags: ["privacy","surveillance","Canvas","learning analytics","EFF","Meghan Dowell","learning management systems","Nick Proferes"]
 ---
 For the past couple of years, my colleague Dr. Meghan Dowell and I have been working on a paper on students' awareness of what data the Canvas learning management system collects (and subsequently makes available to certain stakeholders). I'm a fan of Nick Proferes's paper *[Information Flow Solipsism in an Exploratory Study of Beliefs About Twitter]* and have long wanted to do something similar related to LMSs. This is even more Meghan's area of specialty than mine, though, so I was grateful that she was also interested in the subject and took the lead in turning this idea into reality. 
 
