@@ -12,7 +12,7 @@ There's **a lot** to like about *Dumbing of Age*, to the point that I had links 
 
 For the record, the three Joyce-related strips I've wanted to blog about but am now admitting I will never dedicate their own posts to are:
 
-*  [Joe's quip](https://www.dumbingofage.com/2021/comic/book-11/03-see-you-in-the-funny-page/juveniles/) about Jews creating "something cool" in both the Bible and Superman only for "Protestant nerds ruin[ing[ it by trying to make it make sense to them"
+*  [Joe's quip](https://www.dumbingofage.com/2021/comic/book-11/03-see-you-in-the-funny-page/juveniles/) about Jews creating "something cool" in both the Bible and Superman only for "Protestant nerds ruin[ing] it by trying to make it make sense to them"
 * [Joe's comment](https://www.dumbingofage.com/2021/comic/book-11/05-as-long-as-its-free/speciallymade/) about the power of choosing for ourselves what has meaning
 * [Dorothy's calling Joyce out](https://www.dumbingofage.com/2021/comic/book-12/02-ill-leave-you-a-phantom/fixthings/) on the way that fundamentalist believers can retain the same jerky ethos when their faith falls apart and they become atheists (lots of ex-Mormons like this out there)
 
