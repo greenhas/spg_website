@@ -8,7 +8,7 @@ media: ["book","comic"]
 titles: ["After Darkness"]
 creators: ["Mike Johnson","Erfan Fajar","Claudia Balboni","Agri Karuniawan"]
 series: ["Star Trek 2011-2016"]
-franchise: ["Star Trek","Kelvinverse"]
+franchise: ["Star Trek","Kelvinverse","Star Trek IDW"]
 ratings: ["❤️❤️❤️❤️🖤"]
 params:
   entry: Volume 6
