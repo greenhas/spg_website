@@ -49,6 +49,11 @@ capitalizeListTitles = false
   name = "How to Follow"
   url = "/how-to-follow/"
   weight = 6
+[[menu.main]]
+  identifier = "Reviews"
+  name = "Reviews"
+  url = "/reviews/"
+  weight = 7
 
 
 

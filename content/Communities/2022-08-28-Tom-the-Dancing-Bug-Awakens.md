@@ -4,7 +4,7 @@ layout: book
 date: 2022-08-28T00:00:00-05:00
 title: "📚 bookblog: Tom the Dancing Bug Awakens (❤️❤️❤️🖤🖤)"
 tags: ["Ruben Bolling","Tom the Dancing Bug Awakens","Boing Boing"]
-media: ["book","comic","comic strip"]
+media: ["book","comic"]
 titles: ["Tom the Dancing Bug Awakens"]
 creators: ["Ruben Bolling"]
 series: [""]
