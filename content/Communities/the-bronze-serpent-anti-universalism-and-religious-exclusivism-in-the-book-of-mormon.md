@@ -23,9 +23,9 @@ Alma 16:191-193:
 > 
 > And there were many who were so hardened that they would not look; therefore they perished.["]
 
-Rereading these passages today, it's remarkable that both of them leave out the phrase that I most associate with these stories after years of lessons and sermons on them: "bronze serpent." In short, what is being referenced in 1 Corinthians 1, I Nephi 5, and Alma 16 is that during the 40 years Exodus, the people get to complaining, God sends poisonous serpents among the people. When the people start dying—and stop complaining—God tells Moses in Numbers 21:8 to
+Rereading these passages today, it's remarkable that both of them leave out the phrase that I most associate with these stories after years of lessons and sermons on them: "bronze serpent." In short, what is being referenced in 1 Corinthians 1, I Nephi 5, and Alma 16 is that during the 40 years Exodus, the people get to complaining, and God sends poisonous serpents among the people. When the people start dying—and stop complaining—God tells Moses in Numbers 21:8 to
 
-> "And the Lord said to Moses, “Make a poisonous serpent, and set it on a pole, and everyone who is bitten shall look at it and live.”
+> “Make a poisonous serpent, and set it on a pole, and everyone who is bitten shall look at it and live.”
 
 John 3:14 connects this serpent symbol to Jesus (as, seemingly, does Paul, though in a way more roundabout way), and the Book of Mormon builds on this symbolism and takes it a step further. According to both Book of Mormon passages, there were people who refused to accept rescue from the serpent (or, by extension, from Jesus) and instead chose death. Here's the thing, though: **that's not what happens in the story**.
 
