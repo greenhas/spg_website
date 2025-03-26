@@ -2,7 +2,7 @@
 types: ["media"]
 layout: book
 date: 2025-03-25T20:11:54-04:00
-title: "📚 bookblog:   (❤️❤️❤️❤️❤️)"
+title: "📚 bookblog: Star Trek: Waypoint, issues 1-6 (❤️❤️❤️❤️❤️)"
 tags: ["","Donny Cates","Mack Chater","Sandra Lanz","Dayton Ward","Kevin Dilmore","Gordon Purcell","Sam Maggs","Rachael Stott","Mairghread Scott","Corin Howell","Cecil Castellucci","Megan Levens","Vivek J. Tiwary","Hugo Petrus","Scott Bryan Wilson","Caspar Wijngaard","Cavan Scott","Josh Hood","Simon Roy","Corinna Bechko","Gabriel Hardman","Star Trek","comics"]
 media: ["book","comic"]
 titles: [""]
