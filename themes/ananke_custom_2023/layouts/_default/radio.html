@@ -58,7 +58,20 @@
       <div style="font-size:smaller">
       {{ $related := .Site.RegularPages.Related . | first 5 }}
       
+      {{ with $related }}
+      <h3>Similar Posts:</h3>
+      <!--<ul>-->
+        {{ range . }}
       
+            {{ if eq .Title ""}}
+                <!--<li>--><a href="{{ .RelPermalink }}"><p>{{ .Summary }}<p></a><!--</li>-->
+            {{else}}    
+                <!--<li>--><a href="{{ .RelPermalink }}"><p>{{ .Title }}</p></a><!--</li>-->
+            {{ end }}
+            
+        {{ end }}
+        {{ end }}
+
     <!--</ul>-->
 
           
