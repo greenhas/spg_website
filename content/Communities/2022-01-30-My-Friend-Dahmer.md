@@ -1,7 +1,7 @@
 ---
 types: ["media"]
 layout: book
-date: 2025-03-04T00:00:00-05:00
+date: 2022-01-31T00:00:00-05:00
 title: "📚 bookblog: My Friend Dahmer (❤️❤️❤️❤️🖤)"
 tags: ["Jeffrey Dahmer","My Friend Dahmer","Derf Backderf"]
 media: ["book","comic","graphic novel"]

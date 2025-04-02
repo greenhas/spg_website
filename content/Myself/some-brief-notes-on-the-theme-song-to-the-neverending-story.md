@@ -2,7 +2,7 @@
 types: ["macro"]
 date: 2025-04-01T20:25:53-04:00
 title: "some brief notes on the theme song to The NeverEnding Story"
-tags: ["The NeverEnding Story","Homestar Runner","radio","DKL Dreyeckland","Stranger Things","Eurovision"]
+tags: ["The NeverEnding Story","Homestar Runner","radio","DKL Dreyeckland","Stranger Things"]
 ---
 I have vague recollections of watching *The NeverEnding Story* as a child, but they are **vague**. I was young (nine at the oldest, but probably younger), it was at someone else's house, and it was only once, so it didn't leave much of an impression on me. My next substantive encounter with that movie—or, more accurately, its theme song—was the ending gag in this Homestar Runner cartoon, where the title character sings "the never ending sooooodaaaaaa" to the tune of the movie's theme song. 
 
