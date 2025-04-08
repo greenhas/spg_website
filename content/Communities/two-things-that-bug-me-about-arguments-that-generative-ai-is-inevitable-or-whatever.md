@@ -2,7 +2,7 @@
 types: ["macro"]
 date: 2025-04-04T12:06:53-04:00
 title: "two things that bug me about arguments that generative AI is inevitable or whatever"
-tags: ["generative AI","Jacques Ellul","morals","ethics","The Technological Society","ICII","David Graeber","David Wengrow","The Dawn of Everything"]
+tags: ["generative AI","Jacques Ellul","morals","ethics","The Technological Society","NCII","David Graeber","David Wengrow","The Dawn of Everything"]
 ---
 I don't know that "inevitable" is the right word to use in the title of this post. What I'm trying to evoke is that specific argument about generative AI that now that it's here, there's no going back, so the only real/responsible/whatever choice is to learn to use it properly, teach others to use it, accept it as part of life, etc. These are the arguments that the world is forever changed and that there's no going back—that the genie is out of the bottle so we might as well harness it.
 
