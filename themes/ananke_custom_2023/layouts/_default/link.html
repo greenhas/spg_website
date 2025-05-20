@@ -24,7 +24,7 @@
         {{- .Title -}}
       </h1>-->
         <h2 class="f2 athelas mt3 mb1">{{.Params.art_title}}</h2>
-        <h3 class="f3 athelas mt3 mb1">Source: {{ range .GetTerms "sources" }}<a style="text-decoration: none" href="{{ .Params.art_link }}">story link</a>, from <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a>{{ end }}</h3>
+        <h3 class="f3 athelas mt3 mb1">Source: <a style="text-decoration: none" href="{{ .Params.art_link }}">story link</a>, from <a style="text-decoration: none" href="{{ .RelPermalink }}" >{{ range .GetTerms "sources" }}{{- .LinkTitle -}}</a>{{ end }}</h3>
         
       
       
