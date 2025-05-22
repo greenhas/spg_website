@@ -3,7 +3,7 @@ types: ["media"]
 layout: book
 date: 2025-05-20T19:33:10-04:00
 title: "📚 bookblog: On the Origin of PCs  (❤️❤️❤️🖤🖤)"
-tags: ["On the Origin of PCs","Rich Burlew"]
+tags: ["On the Origin of PCs","Rich Burlew","Order of the Stick"]
 media: ["book","comic","webcomic"]
 titles: ["On the Origin of PCs"]
 creators: ["Rich Burlew"]
