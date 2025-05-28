@@ -8,4 +8,4 @@ date: 2025-05-28T11:54:58-04:00
 tags: ["Flock","ALPRs"]
 title: "🔗 linkblog: ICE Taps into Nationwide AI-Enabled Camera Network, Data Shows"
 ---
-Flock sucks, and I'm so mad that Lexington drank the Kool-Aid instead kf resisting local surveillance.
+Flock sucks, and I'm so mad that Lexington drank the Kool-Aid instead of resisting local surveillance. Just wrote my city council representative, the vice mayor, and the two at-large representatives.
