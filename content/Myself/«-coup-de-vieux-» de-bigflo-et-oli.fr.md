@@ -2,7 +2,7 @@
 types: ["macro"]
 date: 2024-04-11T15:45:09-04:00
 title: "« Coup de vieux » de Bigflo et Oli"
-tags: ["music","Bigflo et Oli"]
+tags: ["musique","Bigflo et Oli"]
 ---
 Hier, j’ai regardé pour la première fois le clip de « Coup de vieux » de Bigflo et Oli. C’est une chanson que je connais depuis quelques semaines et un groupe que je connais depuis quelques mois, et j’ai beaucoup apprécié le clip :
 

@@ -59,22 +59,22 @@ capitalizeListTitles = false
             [[languages.fr.menus.main]]
                 identifier = "Moi"
                 name = "Moi"
-                url = "/myself/"
+                url = "/fr/moi/"
                 weight = 1  
             [[languages.fr.menus.main]]
                 identifier = "Relations"
                 name = "Relations"
-                url = "/relationships/"
+                url = "/fr/relations/"
                 weight = 2    
             [[languages.fr.menus.main]]
                 identifier = "Travail"
                 name = "Travail"
-                url = "/work/"
+                url = "/fr/travail/"
                 weight = 3    
             [[languages.fr.menus.main]]
                 identifier = "Communautés"
                 name = "Communautés"
-                url = "/communities/"
+                url = "/fr/communautes/"
                 weight = 4    
             [[languages.fr.menus.main]]
                 identifier = "CV"
