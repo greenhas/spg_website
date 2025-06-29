@@ -1,16 +1,87 @@
 baseURL = 'https://spencergreenhalgh.com/'
-languageCode = 'en-us'
+# languageCode = 'en-us'
 title = 'Spencer Greenhalgh'
 theme = "ananke_custom_2023"
 # themesDir = "../.."
 # resourceDir = "../resources"
 
 DefaultContentLanguage = "en"
-SectionPagesMenu = "main"
+# SectionPagesMenu = "main"
 Paginate = 36 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = false
 capitalizeListTitles = false
+
+[languages]
+    [languages.en]
+       disabled = false
+        languageCode = 'en'
+        languageDirection = 'ltr'
+        languageName = '[🇺🇸]'
+        title = 'English'
+        weight = 1
+        [languages.en.menus]
+            [[languages.en.menus.main]]
+                identifier = "Myself"
+                name = "Myself"
+                url = "/myself/"
+                weight = 1  
+            [[languages.en.menus.main]]
+                identifier = "Relationships"
+                name = "Relationships"
+                url = "/relationships/"
+                weight = 2    
+            [[languages.en.menus.main]]
+                identifier = "Work"
+                name = "Work"
+                url = "/work/"
+                weight = 3    
+            [[languages.en.menus.main]]
+                identifier = "Communities"
+                name = "Communities"
+                url = "/communities/"
+                weight = 4    
+            [[languages.en.menus.main]]
+                identifier = "CV"
+                name = "CV"
+                url = "/CV/"
+                weight = 5            
+
+
+    [languages.fr]
+        disabled = false
+        languageCode = 'fr'
+        languageDirection = 'ltr'
+        languageName = '[🇫🇷]'
+        title = 'français'
+        weight = 2
+        [languages.fr.menus]
+            [[languages.fr.menus.main]]
+                identifier = "Moi"
+                name = "Moi"
+                url = "/myself/"
+                weight = 1  
+            [[languages.fr.menus.main]]
+                identifier = "Relations"
+                name = "Relations"
+                url = "/relationships/"
+                weight = 2    
+            [[languages.fr.menus.main]]
+                identifier = "Travail"
+                name = "Travail"
+                url = "/work/"
+                weight = 3    
+            [[languages.fr.menus.main]]
+                identifier = "Communautés"
+                name = "Communautés"
+                url = "/communities/"
+                weight = 4    
+            [[languages.fr.menus.main]]
+                identifier = "CV"
+                name = "CV"
+                url = "/CV/"
+                weight = 5    
+
 
 [taxonomies]
     tag = "tags"
@@ -38,22 +109,30 @@ capitalizeListTitles = false
   background_color_class = ""
   recent_posts_number = 2
 
+[[params.ananke_socials]]
+name = "email"
+url = "mailto:spencer.greenhalgh@posteo.net"
+[[params.ananke_socials]]
+name = "rss_square"
+url = "https://spencergreenhalgh.com/index.xml"
+[[params.ananke_socials]]
+name = "newsletter"
+url = "https://buttondown.com/spgreenhalgh"
+[[params.ananke_socials]]
+name = "scholar"
+url = "https://scholar.google.com/citations?user=o3JQjpcAAAAJ&hl=en&oi=ao"
+[[params.ananke_socials]]
+name = "bluesky"
+url = "https://bsky.app/profile/spencergreenhalgh.com"
+[[params.ananke_socials]]
+name = "mastodon"
+url = "https://mastodon.spencergreenhalgh.com/public/local"
+[[params.ananke_socials]]
+name = "microblog"
+url = "https://micro.blog/spgreenhalgh"
 
-[[menu.main]]
-  identifier = "CV"
-  name = "CV"
-  url = "/CV/"
-  weight = 5
-[[menu.main]]
-  identifier = "How to Follow"
-  name = "How to Follow"
-  url = "/how-to-follow/"
-  weight = 6
-[[menu.main]]
-  identifier = "Reviews"
-  name = "Reviews"
-  url = "/reviews/"
-  weight = 7
+
+
 
 
 
