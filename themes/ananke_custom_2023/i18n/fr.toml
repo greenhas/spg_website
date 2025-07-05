@@ -35,7 +35,7 @@ other = "Une adresse e-mail est requise."
 other = "Envoyer"
 
 [taxonomyPageList]
-other = "Se trouvent ci-dessous les pages utilisant le terme taxonomique “{{ .Title }}”"
+other = "Se trouvent ci-dessous les pages associés au terme taxonomique “{{ .Title }}”"
 
 [readingTime]
 one = "Une minute de lecture"
@@ -47,3 +47,6 @@ other = "{{ .Count }} mots"
 
 [pageTitle]
 other = "{{ .Name }} page"
+
+[hypothesisComments]
+other = "<h3>Commentaires:</h3><p>Cliquez sur le bouton <code><</code> (en haut et à droite) pour lire et faire des commentaires avec <em><a href='https://web.hypothes.is/'>Hypothesis</a></em>.</p>"

@@ -47,3 +47,6 @@ other = "{{ .Count }} words"
 
 [pageTitle]
 other = "{{ .Name }} page"
+
+[hypothesisComments]
+other = "<h3>Comments:</h3><p>You can click on the <code><</code> button in the top-right of your browser window to read and write comments on this post with <em><a href='https://web.hypothes.is/'>Hypothesis</a></em>.</p>"

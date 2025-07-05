@@ -17,7 +17,7 @@ capitalizeListTitles = false
        disabled = false
         languageCode = 'en'
         languageDirection = 'ltr'
-        languageName = '[🇺🇸]'
+        languageName = '[en]'
         weight = 1
         [languages.en.menus]
             [[languages.en.menus.main]]
@@ -51,7 +51,7 @@ capitalizeListTitles = false
         disabled = false
         languageCode = 'fr'
         languageDirection = 'ltr'
-        languageName = '[🇫🇷]'
+        languageName = '[fr]'
         weight = 2
         [languages.fr.menus]
             [[languages.fr.menus.main]]
