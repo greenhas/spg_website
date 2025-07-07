@@ -10,4 +10,4 @@ tags: ["digital sovereignty","indieweb"]
 title: "🔗 linkblog: Radio Télévision Suisse
 Le retour de Donald Trump relance le débat sur la souveraineté numérique "
 ---
-J'aimerais parler de ce sujet à mes étudiants. Même aux États-Unis, on doit nous demander de wui nous sommes dépendants dans notre vie numérique.
+J'aimerais parler de ce sujet à mes étudiants. Même aux États-Unis, on doit nous demander de qui nous sommes dépendants dans notre vie numérique.
