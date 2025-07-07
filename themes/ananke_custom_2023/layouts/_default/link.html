@@ -24,8 +24,8 @@
         {{- .Title -}}
       </h1>-->
         <h2 class="f2 athelas mt3 mb1">{{.Params.art_title}}</h2>
-        <h3 class="f3 athelas mt3 mb1">Date Linked: {{- .Date | time.Format (default " 2 January 2006" .Site.Params.date_format) -}}</h3>
-        <h3 class="f3 athelas mt3 mb1">Source: <a style="text-decoration: none" href="{{ .Params.art_link }}">story link</a>, from {{ range .GetTerms "sources" }}<a style="text-decoration: none" href="{{ .RelPermalink }}" >{{- .LinkTitle -}}</a>{{ end }}</h3>
+        <h3 class="f3 athelas mt3 mb1">{{ i18n "dateLink"}} {{- .Date | time.Format (default " 2 January 2006" .Site.Params.date_format) -}}</h3>
+        <h3 class="f3 athelas mt3 mb1">source: <a style="text-decoration: none" href="{{ .Params.art_link }}">{{i18n "storyLink"}}</a>, {{i18n "storyFrom"}} {{ range .GetTerms "sources" }}<a style="text-decoration: none" href="{{ .RelPermalink }}" >{{- .LinkTitle -}}</a>{{ end }}</h3>
         
       
       
@@ -44,7 +44,8 @@
       {{ $related := .Site.RegularPages.Related . | first 5 }}
       
       {{ with $related }}
-      <h3>Similar Posts:</h3>
+       <h3>{{ i18n "otherPosts"}}</h3>
+
       <!--<ul>-->
         {{ range . }}
       
@@ -65,8 +66,9 @@
       </div>
       <div style="font-size:smaller">
       
-       <h3>Comments:</h3>
-        <p>You can click on the <code><</code> button in the top-right of your browser window to read and write comments on this post with <em><a href="https://web.hypothes.is/">Hypothesis</a></em>. You can read more about how I use this software <a href="/hypothesis/">here</a>.</p>
+       <!--<h3>Comments:</h3>
+        <p>You can click on the <code><</code> button in the top-right of your browser window to read and write comments on this post with <em><a href="https://web.hypothes.is/">Hypothesis</a></em>.</p>-->
+        {{ i18n "hypothesisComments" | safeHTML }}
       </div>
     </div>
 

@@ -28,14 +28,14 @@
         <h3 class="f3 athelas mt3 mb1">{{range .GetTerms "series"}}<a style="text-decoration: none;" href="{{ .RelPermalink }}"> {{- .LinkTitle -}}</a>{{end}}, {{ .Params.entry }}</h3>
        {{else}}
        {{end}}
-       <h3 class="f3 athelas mt3 mb1">Creator(s): {{ range .GetTerms "creators" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}} </a> |{{ end }}</h3>
+       <h3 class="f3 athelas mt3 mb1">{{ i18n "creatorTaxonomy"}} {{ range .GetTerms "creators" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}} </a> |{{ end }}</h3>
         {{$tf := len (.GetTerms "franchise") }}
         {{if ne $tf 0}}
         <h3 class="f3 athelas mt3 mb1">Franchise: {{ range .GetTerms "franchise" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> |{{ end }}</h3>   
         {{end}}
-       <h3 class="f3 athelas mt3 mb1">Medium: {{ range .GetTerms "media" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> |{{ end }}</h3>
-       <h3 class="f3 athelas mt3 mb1">Date Reviewed:<span> </span>{{- .Date | time.Format (default "2 January 2006" .Site.Params.date_format) -}}</h3>
-       <h3 class="f3 athelas mt3 mb1">Rating: {{ range .GetTerms "ratings" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a>{{ end }}</h3>
+       <h3 class="f3 athelas mt3 mb1">{{ i18n "mediumTaxonomy"}} {{ range .GetTerms "media" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> |{{ end }}</h3>
+       <h3 class="f3 athelas mt3 mb1">{{ i18n "dateReview"}}<span> </span>{{- .Date | time.Format (default "2 January 2006" .Site.Params.date_format) -}}</h3>
+       <h3 class="f3 athelas mt3 mb1">{{ i18n "ratingTaxonomy"}} {{ range .GetTerms "ratings" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a>{{ end }}</h3>
       
       
       {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
@@ -59,7 +59,7 @@
       {{ $related := .Site.RegularPages.Related . | first 5 }}
       
       {{ with $related }}
-      <h3>Similar Posts:</h3>
+      <h3>{{ i18n "otherPosts"}}</h3>
       <!--<ul>-->
         {{ range . }}
       
@@ -80,10 +80,9 @@
   
       </div>
       <div style="font-size:smaller">
-      
-       <h3>Comments:</h3>
-        <p>You can click on the <code><</code> button in the top-right of your browser window to read and write comments on this post with <em><a href="https://web.hypothes.is/">Hypothesis</a></em>. You can read more about how I use this software <a href="/hypothesis/">here</a>.</p>
-      </div>
+      {{ i18n "hypothesisComments" | safeHTML }}
+
+        </div>
     </div>
 
 
