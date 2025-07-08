@@ -2,7 +2,7 @@
 types: ["macro"]
 date: 2025-06-27T13:15:51-04:00
 title: "Ellul on technique and turning stones to bread"
-tags: ["Jacques Ellul","Theology and Technique","technology","technique","Temptation of Jesus"]
+tags: ["Jacques Ellul","Théologie et technique","technology","technique","Temptation of Jesus"]
 ---
 I have long felt that it was important to recognize that technological development does not improve human lives as much as social change does. Reading through Jacques Ellul's *Théologie et technique* (*Theology and Technique*), I liked the way that this passage (on p. 35) seemed to capture that idea: 
 

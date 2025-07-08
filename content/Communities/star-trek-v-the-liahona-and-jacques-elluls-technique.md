@@ -2,7 +2,7 @@
 types: ["macro"]
 date: 2025-04-13T15:30:00-04:00
 title: "Star Trek V, the Liahona, and Jacques Ellul's technique"
-tags: ["Star Trek","Star Trek: The Final Frontier","Liahona","technique","technology","Jacques Ellul","Steven Peck","Book of Mormon","The Technological Society","Theology and Technique"]
+tags: ["Star Trek","Star Trek: The Final Frontier","Liahona","technique","technology","Jacques Ellul","Steven Peck","Book of Mormon","The Technological Society","Théologie et technique"]
 ---
 
 Despite what [my recent Star Trek comics binge](/franchise/star-trek-idw/) might lead you to believe, my Star Trek fandom is actually kind of spotty in its coverage. It's not so complete that I've ever actually seen Star Trek V (though I hear I'm not missing much), but it's absolutely complete enough to be familiar with its most famous line. A being claiming to be the ultimate, galaxy-wide monotheistic deity asks for transport on the Enterprise, prompting a skeptical Kirk to ask "what does God need with a starship?"

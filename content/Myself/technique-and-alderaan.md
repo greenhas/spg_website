@@ -2,7 +2,7 @@
 types: ["macro"]
 date: 2025-03-28T10:32:03-04:00
 title: "Jacques Ellul's technique and Brian Daley's Alderaan"
-tags: ["Star Wars","Star Wars: The Original Radio Drama","Jacques Ellul","technique","The Technological Society","NPR","radio","Theology and Technique","degrowth","non-power"]
+tags: ["Star Wars","Star Wars: The Original Radio Drama","Jacques Ellul","technique","The Technological Society","NPR","radio","Théologie et technique","degrowth","non-power"]
 ---
 I recently [finished](https://spencergreenhalgh.com/work/2025-03-24-Ellul) an audiobook of Jacques Ellul's *The Technological Society* and have been finding other things to listen to now that I don't have mid-twentieth century French philosophical reflections on technique to think through anymore. Last night, I began (re)listening to the National Public Radio Star Wars radio drama—adapted by Brian Daley—while cleaning up the kitchen, and I continued listening on the way in to work today. The radio drama is interesting in so many ways! For one, it expands a two hour movie into a nearly six-hour radio serial, and so it crams in a lot of material that isn't present in the movie (or even—as far as I can tell—the original script). 
 
