@@ -35,7 +35,7 @@
         {{end}}
        <h3 class="f3 athelas mt3 mb1">{{i18n "mediumTaxonomy"}} {{ range .GetTerms "media" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> |{{ end }}</h3>
        <h3 class="f3 athelas mt3 mb1">{{i18n "dateReview"}}<span> </span>{{- .Date | time.Format (default "2 January 2006" .Site.Params.date_format) -}}</h3>
-       <h3 class="f3 athelas mt3 mb1">{i18n "ratingTaxonomy"} {{ range .GetTerms "ratings" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a>{{ end }}</h3>
+       <h3 class="f3 athelas mt3 mb1">{{i18n "ratingTaxonomy"}} {{ range .GetTerms "ratings" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a>{{ end }}</h3>
       
       
       {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
