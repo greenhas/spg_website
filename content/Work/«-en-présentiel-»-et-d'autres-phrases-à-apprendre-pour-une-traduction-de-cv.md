@@ -1,0 +1,25 @@
+---
+types: ["macro"]
+date: 2025-07-22T07:12:37-04:00
+title: "« en présentiel » et d'autres phrases à apprendre pour une traduction de CV"
+tags: ["French","France Culture"]
+---
+Ce weekend, quelqu'un m'a recommandé une épisode de la série « La science et ses mauvaises consciences » , qui fait partie de l'émission *Avec philosophie* sur France Culture. J'ai décidé de télécharger toute la série, et en écoutant la première épisode, j'ai entendu une des interlocutrices se servir de la phrase « en présentiel », après quoi elle s'est excusée pour avoir prononcé un anglicisme.
+
+Cela m'a gêné un peu, car ça faisait quelques jours que je travaillais sur [une version de mon CV en français](https://spencergreenhalgh.com/fr/cv/), une partie importante de mes efforts d'avoir un site web plus ou moins bilingue. Comme je suis professeur, l'enseignement fait évidemment partie de mon CV. Je fais beaucoup d'enseignement en ligne, et je m'étais donc servi de la phrase « en présentiel » pour distinguer les autres cours qui se déroulent dans des salles de classe. Est-ce que j'avais fait une faute ?
+
+Heureusement, je croyais me souvenir que le bouquin *Le français va très bien, merci* (que [j'avais acheté](https://spencergreenhalgh.com/fr/myself/2025-01-03-ce-nest/) à Colmar lors de mes vacances hivernales) avait mentionné cette phrase-là, et j'ai donc feuilleté le livre pour retrouver le passage en question. Voici ce qui *Les linguistes attéré(e)s* en disent : 
+
+> En France et en Afrique francophone, l'Académie française bénéficie d'une aura symbolique, d'un prestige que lui confèrent son ancienneté, son apparat (bâtiments, costumes, épées), ses membres (écrivains reconnus, politiques...). On y accède sans aucune formation à la linguistique. Le travail sur le dictionnaire est réalisé par des agrégés de lettres dont le public ignore l'identité. Il en est de même pour sa rubrique «Dire, ne pas dire», mise à jour de manière très inégale. Elle a ainsi préconisé en juillet 2020 de ne pas utiliser les mots *distanciel* et *présentiel* sous prétexte qu'ils seraient des anglicismes. Ce qu'ils ne sont pas...
+
+Comme le confirme cette dernière phrase, le mot « présentiel » n'est pas un anglicisme. En fait, quand j'ai lu ce bouquin pour la première fois, l'idée que cette phrase puisse être critiquée comme anglicisme m'a choqué, car je ne connaissais pas la phrase équivalente en anglais. (On a plutôt tendance à dire « in person » où bien « face-to-face »). Il paraît qu'il y a un mot anglais « [presential](https://en.wiktionary.org/wiki/presential) », mais je ne l'ai jamais entendu de ma vie. Ce n'est qu'en recherchant l'étymologie de la phrase française que j'ai découvert cette racine anglophone.
+
+Malgré ma confiance renouvelée, je me demande toujours si celleux qui liront la traduction de mon CV vont croire (tout comme l'animatrice à France Culture) que j'ai fait le fainéant américain en choisissant un anglicisme pour décrire certains cours, et c'est en fait ce petit souci qui a inspiré ce post de blog. 
+
+En tout cas, même si je peux défendre le choix d'écrire « en présentiel », j'avoue que c'était vraiment difficile de faire cette traduction d'une CV. Comme est souvent le cas, la difficulté vient du fait qu'au-delà des différences de langue, il y a des différences de conception entre les deux cultures.
+
+Dans ce cas-ci, on peut dire sans trop d'hésitation les universités en Francophonie sont différentes que celles aux États-Unis. Par example, alors qu'en Europe (y compris l'Europe francophone), on distingue entre trois cycles universitaires, aux États-Unis, on fait plutôt distinction entre « undergraduate » (Bachelor, c'est-à-dire, le premier cycle) et « graduate » (Master et Doctorat, c'est-à-dire le deuxième et le troisième cycle ensemble). 
+
+Comment donc préciser que je suis reconnu comme « graduate faculty » à mon université ? Est-ce que je suis « professeur du deuxième et du troisième cycle » ? C'est vachement compliqué, cela. Heureusement, les universités canadiennes ressemblent plus aux universités étatsunisiennes, et j'ai pu donc trouver la phrase « études supérieures » comme équivalent de « graduate » en anglais. Je suis donc membre de la faculté des études supérieures, et il arrive aussi que j'ai deux certificats des études supérieures (en plus de mes diplômes). 
+
+Cette solution n'est pas parfaite, car j'ai maintenant une mélange des français sur mon CV, m'étant inspiré et du français canadien et du français européen pour arriver à tout expliquer. J'espère que les lecteurs éventuels de ce document me pardonneront ce bricolage linguistique, mais je ne vois pas d'autre solution. Malgré toutes ces difficultés, il a été bien intéressant de faire cette traduction, et j'ai appris beaucoup de vocabulaire académique dont j'espère pouvoir me servir dans l'avenir. En plus, si quelqu'un critique mon usage de la phrase « en présentiel », je saurai me défendre.
