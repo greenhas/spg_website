@@ -44,7 +44,12 @@ capitalizeListTitles = false
                 identifier = "CV"
                 name = "CV"
                 url = "/CV/"
-                weight = 5            
+                weight = 5   
+            [[languages.en.menus.main]]
+                identifier = "Research"
+                name = "research"
+                url = "/research/"
+                weight = 6       
 
 
     [languages.fr]
@@ -79,6 +84,11 @@ capitalizeListTitles = false
                 name = "CV"
                 url = "/CV/"
                 weight = 5    
+            [[languages.en.menus.main]]
+                identifier = "Recherches"
+                name = "research"
+                url = "/research/"
+                weight = 6       
 
 
 [taxonomies]

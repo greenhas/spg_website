@@ -3,7 +3,7 @@ types: ["publication"]
 date: 2014-03-01
 layout: publication
 publication_types: "conference presentation"
-title: "Can portfolio-based assessments demonstrate teachers' TPACK?"
+title: "Zen and the art of portfolio maintenance: Best practices in course design for supporting long-lasting portfolios"
 co-authors: ["Josh Rosenberg","Andrea Zellner","Matt Koehler"]
 outlets: ["Society for Information Technology and Teacher Education"]
 projects: [""]
