@@ -6,7 +6,7 @@ publication_types: "journal"
 title: "Identifying multiple learning spaces within a single teacher-focused Twitter hashtag"
 co-authors: ["Josh Rosenberg","Bret Staudt Willet","Matt Koehler","Mete Akcaoglu"]
 outlets: ["Computers & Education"]
-projects: ["regional teacher Twitter hashtags"]
+projects: ["regional educational Twitter hashtags"]
 topics: ["social media","Twitter","teacher professional learning","informal learning","affinity spaces","teacher-focused Twitter hashtags"]
 methods: ["digital methods","Twitter API","computational text analysis"]
 link: "/2020-Greenhalgh-et-al-sync-async.pdf"

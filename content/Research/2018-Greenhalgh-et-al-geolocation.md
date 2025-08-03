@@ -6,8 +6,8 @@ publication_types: "journal"
 title: "Tweet, and we shall find: Using digital methods to locate participants in educational hashtags"
 co-authors: ["Bret Staudt Willet","Josh Rosenberg","Matt Koehler"]
 outlets: ["TechTrends"]
-projects: ["regional teacher Twitter hashtags"]
-topics: ["teacher professional learning","social media","Twitter","research methods","informal learning","teacher-focused Twitter hashtags"]
+projects: ["regional educational Twitter hashtags"]
+topics: ["teacher professional learning","social media","Twitter","research methodology and ethics","informal learning","teacher-focused Twitter hashtags"]
 methods: ["digital methods","Twitter API","survey","geolocation"]
 link: "/2018-Greenhalgh-et-al-geolocation.pdf"
 link_type: "preprint"

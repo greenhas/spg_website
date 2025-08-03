@@ -6,7 +6,7 @@ publication_types: "journal"
 title: "An investigation of State Educational Twitter Hashtags (SETHs) as affinity spaces"
 co-authors: ["Josh Rosenberg","Matt Koehler","Erica Hamilton","Mete Akcaoglu"]
 outlets: ["E-Learning and Digital Media"]
-projects: ["regional teacher Twitter hashtags"]
+projects: ["regional educational Twitter hashtags"]
 topics: ["social media","Twitter","affinity spaces","teacher-focused Twitter hashtags","informal learning","teacher professional learning"]
 methods: ["digital methods","Twitter API","descriptive statistics","qualitative coding"]
 link: "/2016-Rosenberg-et-al-teacher-hashtags.pdf"

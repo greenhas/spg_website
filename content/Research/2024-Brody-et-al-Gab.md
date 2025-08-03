@@ -6,7 +6,7 @@ publication_types: "journal"
 title: "Free Speech or Free to Hate?: Anti-LGBTQ+ Discourses in LGBTQ+-Affirming Spaces on Gab Social"
 co-authors: ["Evan Brody","Mehroz Sajjad"]
 outlets: ["Journal of Homosexuality"]
-projects: [""]
+projects: ["LGBTQ communities on far-right social media"]
 topics: ["far-right social media","Gab","LGBTQ+"]
 methods: ["digital methods","webscraping","critical discourse analysis"]
 link: "/2024-Brody-et-al-Gab.pdf"

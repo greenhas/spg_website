@@ -7,7 +7,7 @@ title: "Spam and educators’ Twitter use: Methodological challenges and conside
 co-authors: ["Jeff Carpenter","Bret Staudt Willet","Matt Koehler"]
 outlets: ["TechTrends"]
 projects: [""]
-topics: ["social media","Twitter","research methods","teacher professional learning","informal learning","teacher-focused Twitter hashtags"]
+topics: ["social media","Twitter","research methodology and ethics","teacher professional learning","informal learning","teacher-focused Twitter hashtags"]
 methods: ["digital methods","Twitter API"]
 link: "/2020-Carpenter-et-al-spam.pdf"
 link_type: "preprint" 

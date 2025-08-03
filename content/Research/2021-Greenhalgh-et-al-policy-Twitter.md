@@ -6,7 +6,7 @@ publication_types: "journal"
 title: "The influence of policy and context on teachers' social media use"
 co-authors: ["Josh Rosenberg","Annelise Russell"]
 outlets: ["British Journal of Educational Technology"]
-projects: ["regional teacher Twitter hashtags"]
+projects: ["regional educational Twitter hashtags"]
 topics: ["social media","teacher professional learning","Twitter","informal learning"]
 methods: ["digital methods","Twitter API","inferential statistics"]
 link: "/2021-Greenhalgh-et-al-policy-Twitter.pdf"

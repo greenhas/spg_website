@@ -3,11 +3,13 @@
   <div class="bg-white pa4 gray overflow-hidden">
     <!--{{with .CurrentSection.Title }}<span class="f6 db">{{ . }}</span>{{end}}-->
     
+    
     <h1 class="f5 near-black">
       <a href="{{ .RelPermalink }}" class="link black dim">
         {{ .Title }}
       </a>
     </h1>
+    
 
     <a href="{{ .RelPermalink }}" class="link black dim">
         <time class="f6 mv2 dib tracked" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
@@ -17,6 +19,7 @@
     </br>
         <div class="nested-links f5 lh-copy nested-copy-line-height">
       {{ .Summary }}
+      
       </div>
       <br>
       <br>

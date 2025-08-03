@@ -6,7 +6,7 @@ publication_types: "journal"
 title: "Gayservatives on Gab: LGBTQ+ communities and far right social media"
 co-authors: ["Evan Brody","Mehroz Sajjad"]
 outlets: ["Social Media + Society"]
-projects: [""]
+projects: ["LGBTQ communities on far-right social media"]
 topics: ["far-right social media","Gab","LGBTQ+"]
 methods: ["digital methods","webscraping","critical discourse analysis"]
 link: "/2022-Brody-et-al-Gab.pdf"

@@ -6,7 +6,7 @@ publication_types: "journal"
 title: "28 days later: Twitter hashtags as 'just in time' teacher professional development"
 co-authors: ["Matt Koehler"]
 outlets: ["TechTrends"]
-projects: [""]
+projects: ["educattentats Twitter hashtag"]
 topics: ["social media","Twitter","teacher-focused Twitter hashtags","teacher professional learning","France"]
 methods: ["digital methods","Twitter API","qualitative coding","descriptive statistics","network analysis","geolocation"]
 link: "/2017-Greenhalgh-Koehler-educattentats.pdf"

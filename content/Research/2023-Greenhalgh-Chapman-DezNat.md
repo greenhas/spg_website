@@ -6,7 +6,7 @@ publication_types: "journal"
 title: "'Come for the memes, stay for defending the faith': Far-right and anti-feminist red pill influences in the #DezNat Twitter hashtag"
 co-authors: ["Amy Chapman"]
 outlets: ["Journal of the Mormon Social Science Association"]
-projects: ["DezNat movement on Twitter"]
+projects: ["DezNat Twitter hashtag"]
 topics: ["Twitter","social media","Mormonism","right-wing Mormonism","Mormonism and the internet"]
 methods: ["digital methods","Twitter API","webscraping","qualitative coding"]
 link: "/2023-Greenhalgh-Chapman-DezNat.pdf"

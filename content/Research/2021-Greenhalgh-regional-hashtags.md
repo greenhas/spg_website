@@ -6,7 +6,7 @@ publication_types: "journal"
 title: "Differences between teacher-focused Twitter hashtags and implications for professional development"
 co-authors: [""]
 outlets: ["Italian Journal of Educational Technology"]
-projects: ["regional teacher Twitter hashtags"]
+projects: ["regional educational Twitter hashtags"]
 topics: ["social media","Twitter","teacher professional learning","teacher-focused Twitter hashtags"]
 methods: ["digital methods","principal components analysis","descriptive statistics"]
 link: "/2021-Greenhalgh-regional-hashtags.pdf"

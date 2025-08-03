@@ -4,9 +4,9 @@ date: 2020-01-25
 layout: publication
 publication_types: "journal"
 title: "Influences of game design and context on learners’ trying on moral identities"
-co-authors: ["ethical reflection in games"]
+co-authors: [""]
 outlets: ["Journal of Experimental Education"]
-projects: [""]
+projects: ["ethical reflection in games"]
 topics: ["games","analog games","ethics","informal learning"]
 methods: ["interview","qualitative coding"]
 link: "/2021-Greenhalgh-games-ethics.pdf"
