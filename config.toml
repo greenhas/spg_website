@@ -47,7 +47,7 @@ capitalizeListTitles = false
                 weight = 5   
             [[languages.en.menus.main]]
                 identifier = "Research"
-                name = "research"
+                name = "Research"
                 url = "/research/"
                 weight = 6       
 
@@ -84,7 +84,7 @@ capitalizeListTitles = false
                 name = "CV"
                 url = "/CV/"
                 weight = 5    
-            [[languages.en.menus.main]]
+            [[languages.fr.menus.main]]
                 identifier = "Recherches"
                 name = "research"
                 url = "/research/"
