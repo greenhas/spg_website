@@ -91,6 +91,12 @@ capitalizeListTitles = false
     rating = "ratings"
     type = "types"
     source = "sources"
+    outlet = "outlets"
+    co-author = "co-authors"
+    project = "projects"
+    topic = "topics"
+    publication_type = "publication_types"
+    method = "methods"
 
 [sitemap]
   changefreq = "monthly"
