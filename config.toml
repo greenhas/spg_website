@@ -126,11 +126,11 @@ url = "https://buttondown.com/spgreenhalgh"
 name = "scholar"
 url = "https://scholar.google.com/citations?user=o3JQjpcAAAAJ&hl=en&oi=ao"
 [[params.ananke_socials]]
-name = "bluesky"
-url = "https://bsky.app/profile/spencergreenhalgh.com"
-[[params.ananke_socials]]
 name = "mastodon"
 url = "https://mastodon.spencergreenhalgh.com/public/local"
+[[params.ananke_socials]]
+name = "bluesky"
+url = "https://bsky.app/profile/spencergreenhalgh.com"
 [[params.ananke_socials]]
 name = "microblog"
 url = "https://micro.blog/spgreenhalgh"
