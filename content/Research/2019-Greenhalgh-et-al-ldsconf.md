@@ -6,7 +6,7 @@ publication_types: "journal"
 title: "Approaches to Mormon identity and practice in the #ldsconf Twitter hashtag"
 co-authors: ["Bret Staudt Willet","Matt Koehler"]
 outlets: ["Journal of Media and Religion"]
-projects: ["#ldsconf Twitter hashtag"]
+projects: ["ldsconf Twitter hashtag"]
 topics: ["social media","Twitter","Mormonism and the internet","Mormonism"]
 methods: ["digital methods","Twitter API","qualitative coding"]
 link: "/2019-Greenhalgh-et-al-ldsconf.pdf"
