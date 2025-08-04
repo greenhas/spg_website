@@ -5,7 +5,7 @@ layout: publication
 publication_types: "conference presentation"
 title: "Gayservatives on Gab: LGBTQ+ communities and far right social media"
 co-authors: ["Evan Brody","Mehroz Sajjad"]
-outlets: ["Society for Cinema and Media Studies"]
+outlets: ["International Communication Association"]
 projects: ["LGBTQ communities on far-right social media"]
 topics: ["far-right social media","Gab","LGBTQ+"]
 methods: ["digital methods","webscraping","critical discourse analysis"]
