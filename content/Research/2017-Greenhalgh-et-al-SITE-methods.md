@@ -5,7 +5,7 @@ layout: publication
 publication_types: "conference presentation"
 title: "Avoiding madness in our methods: Considerations for Twitter research in teacher education"
 co-authors: ["Josh Rosenberg","Matt Koehler"]
-outlets: ["Society for Information Technology & Teacher Education"]
+outlets: ["Society for Information Technology and Teacher Education"]
 projects: [""]
 topics: ["research methodology and ethics","Twitter","social media"]
 methods: ["non-empirical"]
