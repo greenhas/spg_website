@@ -8,7 +8,7 @@ media: ["book","comic"]
 titles: [""]
 creators: ["Robert Kirkman","Ryan Ottley","Cory Walker"]
 series: ["Invincible"]
-franchise: ["Invincible"]
+franchise: ["Invincible","Image Universe"]
 ratings: ["❤️❤️❤️❤️🖤"]
 params:
   entry: Compendium Three
