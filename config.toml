@@ -86,7 +86,7 @@ capitalizeListTitles = false
                 weight = 5    
             [[languages.fr.menus.main]]
                 identifier = "Recherches"
-                name = "research"
+                name = "Recherches"
                 url = "/research/"
                 weight = 6       
 
