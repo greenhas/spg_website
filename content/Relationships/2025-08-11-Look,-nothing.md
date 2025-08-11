@@ -2,7 +2,7 @@
 layout: link
 types: ["link"]
 art_title: "Why A.I. Should Make Parents Rethink Posting Photos of Their Children Online"
-art_link: "https://www.nytimes.com/2025/08/11/technology/personaltech/ai-kids-photos.html"
+art_link: "https://www.nytimes.com/2025/08/11/technology/personaltech/ai-kids-photos.html?unlocked_article_code=1.dU8.eKrA.DwEjy179rcPs&smid=url-share"
 sources: ["nytimes.com"]
 date: 2025-08-11T07:43:18-04:00
 tags: ["NCII","generative AI","Clearview","parenting"]
