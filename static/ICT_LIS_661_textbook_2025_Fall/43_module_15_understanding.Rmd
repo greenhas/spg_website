@@ -1,0 +1,5 @@
+# M15U: Reflect on Your Understanding of Data Science
+
+You will complete the Module 15 Understanding activity on Canvas. Please navigate to the corresponding discussion board and respond to the following prompt:
+
+> Most weeks this semester, our *understanding* activity focused on introducing you to key ideas related either to data science itself—usually related to research, statistics, or something similar—or to key critiques of data science—usually related to paradigms, bias, or other ways of thinking. The purpose of these activities was to give you a solid grounding in how to **think** and **reflect critically** like a responsible data scientist. In this discussion board, post a 1-2 paragraph post where you reflect on what you learned from these activities, what questions you still have, and where you'll take these ideas in the futu

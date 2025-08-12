@@ -1,0 +1,280 @@
+# M8A: Descriptive Statistics
+
+This content draws on material from:
+
+* *[Statistical Inference via Data Science: A ModernDive into R and the Tidyverse](https://moderndive.com/)* by [Chester Ismay](https://chester.rbind.io/) and [Albert Y. Kim](https://rudeboybert.rbind.io/), licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* *[Introductory Statistics](https://openstax.org/details/books/introductory-statistics)* by [OpenStax](https://openstax.org/), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+Changes to the source material include addition of new material; light editing; rearranging, removing, and combining original material; adding and changing links; and adding first-person language from current author.
+
+The resulting content is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+## Introduction
+
+Although this week's focus is on the concept of descriptive statistics, our *application* walkthrough is in most ways a sequel to our Week 6 discussion of data wrangling. Indeed, we'll be returning the the `dplyr` package (though, you'll see below that we'll load it as part of `tidyverse`) and to some of its wrangling functions as a way of getting some experience with descriptive statistics.
+
+### Needed packages {-#wrangling-packages-2}
+
+Let's load all the packages needed for our wrangling practice (this assumes you've already installed them). If needed, read Section \@ref(packages) for information on how to install and load R packages.
+
+```{r, message=FALSE}
+library(tidyverse)
+library(nycflights13)
+```
+
+## `summarize` variables {#summarize}
+
+One common task when working with data frames is to compute *summary statistics*. \index{summary statistics}Summary statistics are single numerical values that summarize a large number of values. As such, they are among the most common descriptive statistics that we work with; if I ask you something about "descriptive statistics" in a class project, I'm generally asking you about summary statistics.
+
+Commonly known examples of summary statistics include the mean (also called the average) and the median (the middle value). Other examples of summary statistics that might not immediately come to mind include the *sum*, the smallest value also called the *minimum*, the largest value also called the *maximum*, and the *standard deviation*. In fact, the boxplots we worked with in Section \@ref(boxplots) are a visual summary of some key descriptive statistics, and you may want to revisit that walkthrough after completing this one. 
+
+Let's calculate two summary statistics of the `temp` temperature variable in the `weather` data frame (recall from Section \@ref(nycflights13) that the `weather` data frame is included in the `nycflights13` package). In particular, we'll calculate the mean and standard deviation.
+
+### Mean
+
+The *mean* is the most commonly reported measure of center.  It is commonly called the *average* though this term can be a little ambiguous.  The mean is the sum of all of the data elements divided by how many elements there are. If we have $n$ data points, the mean is given by: 
+
+$$Mean = \frac{x_1 + x_2 + \cdots + x_n}{n}$$
+
+### Standard Deviation
+
+An important characteristic of any set of data is the variation in the data. In some data sets, the data values are concentrated closely near the mean; in other data sets, the data values are more widely spread out from the mean. The most common measure of variation, or spread, is the *standard deviation*. The standard deviation is a number that measures how far data values are from their mean.
+
+The standard deviation:
+
+* provides a numerical measure of the overall amount of variation in a data set, and
+* can be used to determine whether a particular data value is close to or far from the mean.
+
+#### Measure of Overall Variation
+
+The standard deviation is always positive or zero. The standard deviation is small when the data are all concentrated close to the mean, exhibiting little variation or spread. The standard deviation is larger when the data values are more spread out from the mean, exhibiting more variation.
+
+Suppose that we are studying the amount of time customers wait in line at the checkout at supermarket A and supermarket B. the average wait time at both supermarkets is five minutes. At supermarket A, the standard deviation for the wait time is two minutes; at supermarket B the standard deviation for the wait time is four minutes.
+
+Because supermarket B has a higher standard deviation, we know that there is more variation in the wait times at supermarket B. Overall, wait times at supermarket B are more spread out from the average; wait times at supermarket A are more concentrated near the average.
+
+#### Determining Whether a Data Value is Close To or Far From the Mean
+
+Suppose that Rosa and Binh both shop at supermarket A. Rosa waits at the checkout counter for seven minutes and Binh waits for one minute. At supermarket A, the mean waiting time is five minutes and the standard deviation is two minutes. The standard deviation can be used to determine whether a data value is close to or far from the mean.
+
+Rosa waits for seven minutes:
+
+* Seven is two minutes longer than the average of five; two minutes is equal to one standard deviation.
+* Rosa's wait time of seven minutes is *two minutes longer than the average of five minutes*.
+* Rosa's wait time of seven minutes is *one standard deviation above the average* of five minutes.
+
+Binh waits for one minute.
+
+* One is four minutes less than the average of five; four minutes is equal to two standard deviations.
+* Binh's wait time of one minute is *four minutes less than the average of five minutes*.
+* Binh's wait time of one minute is *two standard deviations below the average of five minutes*.
+    
+As we'll discuss later on in the semester, a data value that is two standard deviations from the average is just on the borderline for what many data scientists would consider to be far from the average. Considering data to be far from the mean if it is more than two standard deviations away is more of an approximate "rule of thumb" than a rigid rule.
+
+#### Calculating the Standard Deviation
+
+If x is a number, then the difference "x – mean" is called its *deviation*. In a data set, there are as many deviations as there are items in the data set. The deviations are used to calculate the standard deviation. The procedure to calculate the standard deviation depends on whether the numbers are the entire *population* or are data from a *sample*. The calculations are similar, but not identical. 
+
+To calculate the standard deviation, we need to calculate the *variance* first. The variance is the *average of the squares of the deviations* (the x – mean values). You can think of the standard deviation as a special average of the deviations. If the numbers come from a census of the entire population and not a sample, when we calculate the average of the squared deviations to find the variance, we divide by N, the number of items in the population. If the data are from a sample rather than a population, when we calculate the average of the squared deviations, we divide by n – 1, one less than the number of items in the sample.
+
+The formula can be a little intimidating at first but it is important to remember that it is essentially a measure of how far we expect a given data value will be from its mean:
+
+$$sd = \sqrt{\frac{(x_1 - Mean)^2 + (x_2 - Mean)^2 + \cdots + (x_n - Mean)^2}{n - 1}}$$
+
+The *variance* of a variable is merely the standard deviation squared.
+
+$$variance = sd^2 = \frac{(x_1 - Mean)^2 + (x_2 - Mean)^2 + \cdots + (x_n - Mean)^2}{n - 1}$$
+
+Of course, while understanding how mean and standard deviation are calculated is important, one of the advantages of using software like R is that it will do the calculations for us!
+
+### Calculating Mean with `mean()` and Standard Deviation with `sd()`
+
+To compute these summary statistics, we need the `mean()` and `sd()` *summary functions* in R. Summary functions in R take in many values and return a single value, as illustrated in Figure \@ref(fig:summary-function). 
+
+```{r summary-function, fig.cap="Diagram illustrating a summary function in R.", echo=FALSE, purl=FALSE, fig.height=1.5}
+include_graphics("images/cheatsheets/summary.png")
+options(knitr.kable.NA = "NA")
+```
+
+More precisely, we'll use the `mean()` and `sd()` summary functions within the `summarize()` \index{dplyr!summarize()} function from the `dplyr` package. Note you can also use the British English spelling of `summarise()`. As shown in Figure \@ref(fig:sum1), the `summarize()` function takes in a data frame and returns a data frame with only one row corresponding to the summary statistics. 
+
+```{r sum1, fig.cap="Diagram of summarize() rows.", echo=FALSE, purl=FALSE, out.height="80%", out.width="80%"}
+include_graphics("images/cheatsheets/summarize1.png")
+```
+
+We'll save the results in a new data frame called `summary_temp` that will have two columns/variables: the `mean` and the `std_dev`:
+
+```{r}
+summary_temp <- weather %>% 
+  summarize(mean = mean(temp), std_dev = sd(temp))
+summary_temp
+```
+
+Why are the values returned `NA`? As we saw in Subsection \@ref(geompoint) when creating the scatterplot of departure and arrival delays for `alaska_flights`, `NA` is how R encodes *missing values* \index{missing values} where `NA` indicates "not available" or "not applicable." If a value for a particular row and a particular column does not exist, `NA` is stored instead. Values can be missing for many reasons. Perhaps the data was collected but someone forgot to enter it? Perhaps the data was not collected at all because it was too difficult to do so? Perhaps there was an erroneous value that someone entered that has been corrected to read as missing? You'll often encounter issues with missing values when working with real data.
+
+Going back to our `summary_temp` output, by default any time you try to calculate a summary statistic of a variable that has one or more `NA` missing values in R, `NA` is returned. To work around this fact, you can set the `na.rm` argument to `TRUE`, where `rm` is short for "remove"; this will ignore any `NA` missing values and only return the summary value for all non-missing values. 
+
+The code that follows computes the mean and standard deviation of all non-missing values of `temp`:
+
+```{r}
+summary_temp <- weather %>% 
+  summarize(mean = mean(temp, na.rm = TRUE), 
+            std_dev = sd(temp, na.rm = TRUE))
+summary_temp
+```
+
+Notice how the `na.rm = TRUE` \index{functions!na.rm argument} are used as arguments to the `mean()` \index{mean()} and `sd()` \index{sd()} summary functions individually, and not to the `summarize()` function. 
+
+However, one needs to be cautious whenever ignoring missing values as we've just done.This is in fact why the `na.rm` argument to any summary statistic function in R is set to `FALSE` by default. In other words, R does not ignore rows with missing values by default. R is alerting you to the presence of missing data and you should be mindful of this missingness and any potential causes of this missingness throughout your analysis.
+
+What are other summary functions we can use inside the `summarize()` verb to compute summary statistics? As seen in the diagram in Figure \@ref(fig:summary-function), you can use any function in R that takes many values and returns just one. For example: 
+
+* `min()` and `max()` return the minimum and maximum values, respectively;
+* `n()` returns a count of the number of rows in each group (why you might want to do this will make sense when we cover `group_by()` in Section \@ref(groupby).
+* `sum()` returns the total amount when adding multiple numbers
+
+We can also use `IQR()` to return the interquartile range with `summarize()`. We touched on percentiles, quartiles, and interquartile range when we recently looked at boxplots, but it's worth taking a closer look at them now.
+
+### Percentiles, Quartiles and `IQR()`
+
+*Quartiles* and *percentiles* are both measures of location—they indicate where a particular data point falls within the whole dataset. Quartiles are special percentiles. The first quartile, Q1, is the same as the 25th percentile, and the third quartile, Q3, is the same as the 75th percentile. The median, M, is called both the second quartile and the 50th percentile.
+
+To calculate quartiles and percentiles, the data must be ordered from smallest to largest. Quartiles divide ordered data into quarters. Percentiles divide ordered data into hundredths. To score in the 90th percentile of an exam does not mean, necessarily, that you received 90% on a test. It means that 90% of test scores are the same or less than your score and 10% of the test scores are the same or greater than your test score.
+
+Percentiles are useful for comparing values. For this reason, universities and colleges use percentiles extensively. One instance in which colleges and universities use percentiles is when SAT results are used to determine a minimum testing score that will be used as an acceptance factor. For example, suppose Duke accepts SAT scores at or above the 75th percentile. That translates into a score of at least 1220.
+
+Percentiles are mostly used with very large populations. Therefore, if you were to say that 90% of the test scores are less (and not the same or less) than your score, it would be acceptable because removing one particular data value is not significant. 
+
+The *median* is a number that measures the "center" of the data. You can think of the median as the "middle value," but it does not actually have to be one of the observed values. It is a number that separates ordered data into halves. Half the values are the same number or smaller than the median, and half the values are the same number or larger. For example, consider the following data.
+
+1; 11.5; 6; 7.2; 4; 8; 9; 10; 6.8; 8.3; 2; 2; 10; 1
+
+Here they are again, ordered from smallest to largest:
+
+1; 1; 2; 2; 4; 6; 6.8; 7.2; 8; 8.3; 9; 10; 10; 11.5
+
+Since there are 14 observations, the median is between the seventh value, 6.8, and the eighth value, 7.2. To find the median, add the two values together and divide by two. In this case, we add 6.8 and 7.2 to get 14; 14 divided by 2 is 7. 
+
+So, our median is seven. Half of the values are smaller than seven and half of the values are larger than seven.
+
+*Quartiles* are numbers that separate the data into quarters. Like the median, quartiles may or may not be part of the data. To find the quartiles, first find the median (or second quartile). The first quartile, Q1, is the middle value of the lower half of the data, and the third quartile, Q3, is the middle value, or median, of the upper half of the data.
+
+The *interquartile range* is a number that indicates the spread of the middle half or the middle 50% of the data. It is the difference between the third quartile (Q3) and the first quartile (Q1).
+
+IQR = Q3 – Q1
+
+The IQR can help to determine potential *outliers*. A value is suspected to be a potential outlier if it is less than (1.5)(IQR) below the first quartile or more than (1.5)(IQR) above the third quartile. Potential outliers always require further investigation.
+
+## `group_by` rows {#groupby}
+
+<!-- To get `_` to work in caption title. Found at https://github.com/rstudio/bookdown/issues/209 -->
+(ref:groupby) Diagram of group_by() and summarize().
+
+```{r groupsummarize, fig.cap="(ref:groupby)", echo=FALSE, purl=FALSE, fig.height=2.5}
+include_graphics("images/cheatsheets/group_summary.png")
+```
+
+Let's imagine that instead of a single mean temperature for the whole year, you would like 12 mean temperatures, one for each of the 12 months separately. In other words, we would like to compute the mean temperature split by month. We can do this by "grouping" temperature observations by the values of another variable, in this case by the 12 values of the variable `month`. Run the following code:
+
+<!--
+New dplyr warning message when running group_by() %>% summarize() that is not
+addressed in v1 (print edition). 
+See https://github.com/moderndive/ModernDive_book/issues/353
+
+For now we suppress this message in the book by setting 
+options(dplyr.summarise.inform = FALSE) in index.Rmd
+
+v2 TODO: Address this warning message explicitly in text and fix index.Rmd
+-->
+```{r}
+summary_monthly_temp <- weather %>% 
+  group_by(month) %>% 
+  summarize(mean = mean(temp, na.rm = TRUE), 
+            std_dev = sd(temp, na.rm = TRUE))
+summary_monthly_temp
+```
+
+This code is identical to the previous code that created `summary_temp`, but with an extra `group_by(month)` added before the `summarize()`. Grouping the `weather` dataset by `month` and then applying the `summarize()` functions yields a data frame that displays the mean and standard deviation temperature split by the 12 months of the year.
+
+It is important to note that the \index{dplyr!group\_by()} `group_by()` function doesn't change data frames by itself. Rather it changes the *meta-data*\index{meta-data}, or data about the data, specifically the grouping structure. It is only after we apply the `summarize()` function that the data frame changes. 
+
+For example, let's consider the \index{ggplot2!diamonds} `diamonds` data frame included in the `ggplot2` package. Run this code:
+
+```{r}
+diamonds
+```
+
+Observe that the first line of the output reads ``# A tibble: `r diamonds %>% nrow() %>% comma()` x `r diamonds %>% ncol()` ``. This is an example of meta-data, in this case the number of observations/rows and variables/columns in `diamonds`. The actual data itself are the subsequent table of values. Now let's pipe the `diamonds` data frame into `group_by(cut)`:
+
+```{r}
+diamonds %>% 
+  group_by(cut)
+```
+
+```{r echo=FALSE, purl=FALSE}
+# This code is used for dynamic non-static in-line text output purposes
+cut_levels <- diamonds %>%
+  select(cut) %>%
+  n_distinct()
+```
+
+Observe that now there is additional meta-data: ``# Groups: cut [`r cut_levels`]`` indicating that the grouping structure meta-data has been set based on the `r cut_levels` possible levels of the categorical variable `cut`: `"Fair"`, `"Good"`, `"Very Good"`, `"Premium"`, and `"Ideal"`. On the other hand, observe that the data has not changed: it is still a table of `r diamonds %>% nrow() %>% comma()` $\times$ `r diamonds %>% ncol()` values.
+
+Only by combining a `group_by()` with another data wrangling operation, in this case `summarize()`, will the data actually be transformed. 
+
+```{r}
+diamonds %>% 
+  group_by(cut) %>% 
+  summarize(avg_price = mean(price))
+```
+
+If you would like to remove this grouping structure meta-data, we can pipe the resulting data frame into the \index{dplyr!ungroup()} `ungroup()` function:
+
+```{r}
+diamonds %>% 
+  group_by(cut) %>% 
+  ungroup()
+```
+
+Observe how the ``# Groups: cut [`r cut_levels`]`` meta-data is no longer present. 
+
+Let's now revisit the `n()` \index{dplyr!n()} counting summary function we briefly discussed earlier. Recall that the `n()` function counts rows. This is opposed to the `sum()` summary function that returns the sum of a numerical variable. For example, suppose we'd like to count how many flights departed each of the three airports in New York City:
+
+```{r}
+by_origin <- flights %>% 
+  group_by(origin) %>% 
+  summarize(count = n())
+by_origin
+```
+
+We see that Newark (`"EWR"`) had the most flights departing in 2013 followed by `"JFK"` and lastly by LaGuardia (`"LGA"`). Note there is a subtle but important difference between `sum()` and `n()`; while `sum()` returns the sum of a numerical variable, `n()` returns a count of the number of rows/observations. 
+
+
+### Grouping by more than one variable
+
+You are not limited to grouping by one variable. Say you want to know the number of flights leaving each of the three New York City airports *for each month*. We can also group by a second variable `month` using `group_by(origin, month)`:
+
+```{r}
+by_origin_monthly <- flights %>% 
+  group_by(origin, month) %>% 
+  summarize(count = n())
+by_origin_monthly
+```
+
+Observe that there are `r by_origin_monthly %>% nrow()` rows to `by_origin_monthly` because there are 12 months for 3 airports (`EWR`, `JFK`, and `LGA`). 
+
+Why do we `group_by(origin, month)` and not `group_by(origin)` and then `group_by(month)`? Let's investigate:
+
+```{r}
+by_origin_monthly_incorrect <- flights %>% 
+  group_by(origin) %>% 
+  group_by(month) %>% 
+  summarize(count = n())
+by_origin_monthly_incorrect
+```
+
+What happened here is that the second `group_by(month)` overwrote the grouping structure meta-data of the earlier `group_by(origin)`, so that in the end we are only grouping by `month`. The lesson here is if you want to `group_by()` two or more variables, you should include all the variables at the same time in the same `group_by()` adding a comma between the variable names.
+
+## Conclusion
+
+When I first learned about grouping and summarizing variables in R, it seemed like a lot of work for benefits that weren't always clear. The more time I spend with these concepts, though, the easier they get, and the more valuable they become. These days, in fact, grouping and summarizing are one of the first things I do whenever I get a new dataset to work with. Descriptive statistics can be a great way to get a quick feel for your data, and these functions are helpful for calculating them!

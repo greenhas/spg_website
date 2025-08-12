@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>22 Module 7 Connection | Introduction to Data Science</title>
+  <meta name="description" content="22 Module 7 Connection | Introduction to Data Science" />
+  <meta name="generator" content="bookdown 0.29 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="22 Module 7 Connection | Introduction to Data Science" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="22 Module 7 Connection | Introduction to Data Science" />
+  
+  
+  
+
+<meta name="author" content="Spencer P. Greenhalgh, PhD" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="module-7-application.html"/>
+<link rel="next" href="module-8-understanding.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="module-1-understanding.html"><a href="module-1-understanding.html"><i class="fa fa-check"></i><b>2</b> Module 1 Understanding</a></li>
+<li class="chapter" data-level="3" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html"><i class="fa fa-check"></i><b>3</b> M1A: Install R and RStudio</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#introduction-1"><i class="fa fa-check"></i><b>3.1</b> Introduction</a></li>
+<li class="chapter" data-level="3.2" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#r"><i class="fa fa-check"></i><b>3.2</b> R</a></li>
+<li class="chapter" data-level="3.3" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#rstudio"><i class="fa fa-check"></i><b>3.3</b> RStudio</a></li>
+<li class="chapter" data-level="3.4" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#references"><i class="fa fa-check"></i><b>3.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="m1c-introduce-yourself-to-the-class.html"><a href="m1c-introduce-yourself-to-the-class.html"><i class="fa fa-check"></i><b>4</b> M1C: Introduce Yourself to the Class</a></li>
+<li class="chapter" data-level="5" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html"><i class="fa fa-check"></i><b>5</b> M2U: The New(?) and Shiny(?) Science of Data</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data-data-science-and-big-data"><i class="fa fa-check"></i><b>5.1</b> Data, Data Science, and Big Data</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data"><i class="fa fa-check"></i><b>5.1.1</b> Data</a></li>
+<li class="chapter" data-level="5.1.2" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data-science"><i class="fa fa-check"></i><b>5.1.2</b> Data Science</a></li>
+<li class="chapter" data-level="5.1.3" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#big-data"><i class="fa fa-check"></i><b>5.1.3</b> Big Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#the-many-skills-of-data-science"><i class="fa fa-check"></i><b>5.2</b> The Many Skills of Data Science</a></li>
+<li class="chapter" data-level="5.3" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#references-1"><i class="fa fa-check"></i><b>5.3</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>6</b> M2A: Getting Started with Data in R</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="getting-started.html"><a href="getting-started.html#introduction-2"><i class="fa fa-check"></i><b>6.1</b> Introduction</a></li>
+<li class="chapter" data-level="6.2" data-path="getting-started.html"><a href="getting-started.html#r-rstudio"><i class="fa fa-check"></i><b>6.2</b> What are R and RStudio?</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="getting-started.html"><a href="getting-started.html#using-r-via-rstudio"><i class="fa fa-check"></i><b>6.2.1</b> Using R via RStudio</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="getting-started.html"><a href="getting-started.html#code"><i class="fa fa-check"></i><b>6.3</b> How do I code in R?</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="getting-started.html"><a href="getting-started.html#programming-concepts"><i class="fa fa-check"></i><b>6.3.1</b> Basic programming concepts and terminology</a></li>
+<li class="chapter" data-level="6.3.2" data-path="getting-started.html"><a href="getting-started.html#messages"><i class="fa fa-check"></i><b>6.3.2</b> Errors, warnings, and messages</a></li>
+<li class="chapter" data-level="6.3.3" data-path="getting-started.html"><a href="getting-started.html#tips-code"><i class="fa fa-check"></i><b>6.3.3</b> Tips on learning to code</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="getting-started.html"><a href="getting-started.html#packages"><i class="fa fa-check"></i><b>6.4</b> What are R packages?</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="getting-started.html"><a href="getting-started.html#package-installation"><i class="fa fa-check"></i><b>6.4.1</b> Package installation</a></li>
+<li class="chapter" data-level="6.4.2" data-path="getting-started.html"><a href="getting-started.html#package-loading"><i class="fa fa-check"></i><b>6.4.2</b> Package loading</a></li>
+<li class="chapter" data-level="6.4.3" data-path="getting-started.html"><a href="getting-started.html#package-use"><i class="fa fa-check"></i><b>6.4.3</b> Package use</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="getting-started.html"><a href="getting-started.html#nycflights13"><i class="fa fa-check"></i><b>6.5</b> Explore your first datasets</a>
+<ul>
+<li class="chapter" data-level="6.5.1" data-path="getting-started.html"><a href="getting-started.html#nycflights13-package"><i class="fa fa-check"></i><b>6.5.1</b> <code>nycflights13</code> package</a></li>
+<li class="chapter" data-level="6.5.2" data-path="getting-started.html"><a href="getting-started.html#flights-data-frame"><i class="fa fa-check"></i><b>6.5.2</b> <code>flights</code> data frame</a></li>
+<li class="chapter" data-level="6.5.3" data-path="getting-started.html"><a href="getting-started.html#exploredataframes"><i class="fa fa-check"></i><b>6.5.3</b> Exploring data frames</a></li>
+<li class="chapter" data-level="6.5.4" data-path="getting-started.html"><a href="getting-started.html#identification-vs-measurement-variables"><i class="fa fa-check"></i><b>6.5.4</b> Identification and measurement variables</a></li>
+</ul></li>
+<li class="chapter" data-level="6.6" data-path="getting-started.html"><a href="getting-started.html#conclusion"><i class="fa fa-check"></i><b>6.6</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html"><i class="fa fa-check"></i><b>7</b> M2C: Set up GitHub</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#introduction-3"><i class="fa fa-check"></i><b>7.1</b> Introduction</a></li>
+<li class="chapter" data-level="7.2" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#gitand-githubin-data-science"><i class="fa fa-check"></i><b>7.2</b> Git—and GitHub—in Data Science</a></li>
+<li class="chapter" data-level="7.3" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#github-in-ictlis-661"><i class="fa fa-check"></i><b>7.3</b> GitHub in ICT/LIS 661</a></li>
+<li class="chapter" data-level="7.4" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#setting-up-github"><i class="fa fa-check"></i><b>7.4</b> Setting Up GitHub</a>
+<ul>
+<li class="chapter" data-level="7.4.1" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#creating-a-github-account"><i class="fa fa-check"></i><b>7.4.1</b> Creating a GitHub Account</a></li>
+<li class="chapter" data-level="7.4.2" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#setting-up-a-github-repository-for-class"><i class="fa fa-check"></i><b>7.4.2</b> Setting up a GitHub Repository for Class</a></li>
+<li class="chapter" data-level="7.4.3" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#installing-github-desktop"><i class="fa fa-check"></i><b>7.4.3</b> Installing GitHub Desktop</a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#moving-forward"><i class="fa fa-check"></i><b>7.5</b> Moving Forward</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html"><i class="fa fa-check"></i><b>8</b> M3U: Research Paradigms and Reproducibility</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#introduction-4"><i class="fa fa-check"></i><b>8.1</b> Introduction</a></li>
+<li class="chapter" data-level="8.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#reproducibility-and-paradigms"><i class="fa fa-check"></i><b>8.2</b> Reproducibility and Paradigms</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#an-example-paradigm"><i class="fa fa-check"></i><b>8.2.1</b> An Example Paradigm</a></li>
+<li class="chapter" data-level="8.2.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#another-example-paradigm"><i class="fa fa-check"></i><b>8.2.2</b> Another Example Paradigm</a></li>
+<li class="chapter" data-level="8.2.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#why-do-paradigms-matter"><i class="fa fa-check"></i><b>8.2.3</b> Why Do Paradigms Matter?</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#supporting-reproducibility"><i class="fa fa-check"></i><b>8.3</b> Supporting Reproducibility</a>
+<ul>
+<li class="chapter" data-level="8.3.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-design"><i class="fa fa-check"></i><b>8.3.1</b> Open Design</a></li>
+<li class="chapter" data-level="8.3.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-analysis"><i class="fa fa-check"></i><b>8.3.2</b> Open Analysis</a></li>
+<li class="chapter" data-level="8.3.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-publication"><i class="fa fa-check"></i><b>8.3.3</b> Open Publication</a></li>
+</ul></li>
+<li class="chapter" data-level="8.4" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#conclusion-1"><i class="fa fa-check"></i><b>8.4</b> Conclusion</a></li>
+<li class="chapter" data-level="8.5" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#references-2"><i class="fa fa-check"></i><b>8.5</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html"><i class="fa fa-check"></i><b>9</b> M3A: Using Projects and Scripts in R</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#introduction-5"><i class="fa fa-check"></i><b>9.1</b> Introduction</a></li>
+<li class="chapter" data-level="9.2" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#more-about-r-and-rstudio"><i class="fa fa-check"></i><b>9.2</b> More About R and RStudio</a></li>
+<li class="chapter" data-level="9.3" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#the-console-and-the-workspace"><i class="fa fa-check"></i><b>9.3</b> The Console and the Workspace</a></li>
+<li class="chapter" data-level="9.4" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#holding-onto-code"><i class="fa fa-check"></i><b>9.4</b> Holding Onto Code</a>
+<ul>
+<li class="chapter" data-level="9.4.1" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#rstudio-projects"><i class="fa fa-check"></i><b>9.4.1</b> RStudio Projects</a></li>
+<li class="chapter" data-level="9.4.2" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#using-scripts"><i class="fa fa-check"></i><b>9.4.2</b> Using Scripts</a></li>
+<li class="chapter" data-level="9.4.3" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#backing-up-your-project-folder"><i class="fa fa-check"></i><b>9.4.3</b> Backing Up Your Project Folder</a></li>
+</ul></li>
+<li class="chapter" data-level="9.5" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#conclusion-2"><i class="fa fa-check"></i><b>9.5</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html"><i class="fa fa-check"></i><b>10</b> M3C: Writing in R Markdown</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#introduction-6"><i class="fa fa-check"></i><b>10.1</b> Introduction</a></li>
+<li class="chapter" data-level="10.2" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#markdown-syntax"><i class="fa fa-check"></i><b>10.2</b> Markdown syntax</a>
+<ul>
+<li class="chapter" data-level="10.2.1" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#inline-formatting"><i class="fa fa-check"></i><b>10.2.1</b> Inline formatting</a></li>
+<li class="chapter" data-level="10.2.2" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#block-level-elements"><i class="fa fa-check"></i><b>10.2.2</b> Block-level elements</a></li>
+<li class="chapter" data-level="10.2.3" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#r-code-chunks"><i class="fa fa-check"></i><b>10.2.3</b> R code chunks</a></li>
+</ul></li>
+<li class="chapter" data-level="10.3" data-path="m3c-writing-in-r-markdown.html"><a href="m3c-writing-in-r-markdown.html#trying-out-r-markdown"><i class="fa fa-check"></i><b>10.3</b> Trying out R Markdown</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html"><i class="fa fa-check"></i><b>11</b> M4U: The Value of Open Data</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#introduction-7"><i class="fa fa-check"></i><b>11.1</b> Introduction</a></li>
+<li class="chapter" data-level="11.2" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#positivism-and-the-need-for-data"><i class="fa fa-check"></i><b>11.2</b> Positivism and the Need for Data</a></li>
+<li class="chapter" data-level="11.3" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#sharing-data"><i class="fa fa-check"></i><b>11.3</b> Sharing Data</a></li>
+<li class="chapter" data-level="11.4" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#sharing-data-and-privacy"><i class="fa fa-check"></i><b>11.4</b> Sharing Data and Privacy</a></li>
+<li class="chapter" data-level="11.5" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#how-to-share-data"><i class="fa fa-check"></i><b>11.5</b> How to Share Data</a></li>
+<li class="chapter" data-level="11.6" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#benefits-of-sharing-data"><i class="fa fa-check"></i><b>11.6</b> Benefits of Sharing Data</a></li>
+<li class="chapter" data-level="11.7" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#downsides-of-sharing-data"><i class="fa fa-check"></i><b>11.7</b> Downsides of Sharing Data</a></li>
+<li class="chapter" data-level="11.8" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#incentives-for-sharing-data"><i class="fa fa-check"></i><b>11.8</b> Incentives for Sharing Data</a></li>
+<li class="chapter" data-level="11.9" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#conclusion-3"><i class="fa fa-check"></i><b>11.9</b> Conclusion</a></li>
+<li class="chapter" data-level="11.10" data-path="m4u-the-value-of-open-data.html"><a href="m4u-the-value-of-open-data.html#references-3"><i class="fa fa-check"></i><b>11.10</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html"><i class="fa fa-check"></i><b>12</b> M4A: Find a Dataset Relevant To You</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#introduction-8"><i class="fa fa-check"></i><b>12.1</b> Introduction</a></li>
+<li class="chapter" data-level="12.2" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#signs-of-a-good-dataset"><i class="fa fa-check"></i><b>12.2</b> Signs of a Good Dataset</a></li>
+<li class="chapter" data-level="12.3" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#finding-a-good-dataset"><i class="fa fa-check"></i><b>12.3</b> Finding a Good Dataset</a></li>
+<li class="chapter" data-level="12.4" data-path="m4a-find-a-dataset-relevant-to-you.html"><a href="m4a-find-a-dataset-relevant-to-you.html#loading-dataset"><i class="fa fa-check"></i><b>12.4</b> Loading Your Dataset</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html"><i class="fa fa-check"></i><b>13</b> M4C: Show Your Work</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#introduction-9"><i class="fa fa-check"></i><b>13.1</b> Introduction</a></li>
+<li class="chapter" data-level="13.2" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#invisible-labor"><i class="fa fa-check"></i><b>13.2</b> Invisible Labor</a></li>
+<li class="chapter" data-level="13.3" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#the-invisible-labor-of-data-science"><i class="fa fa-check"></i><b>13.3</b> The Invisible Labor of Data Science</a></li>
+<li class="chapter" data-level="13.4" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#time-and-money"><i class="fa fa-check"></i><b>13.4</b> Time and Money</a></li>
+<li class="chapter" data-level="13.5" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#crediting-data-work"><i class="fa fa-check"></i><b>13.5</b> Crediting Data Work</a></li>
+<li class="chapter" data-level="13.6" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#crediting-emotional-labor-and-care-work"><i class="fa fa-check"></i><b>13.6</b> Crediting Emotional Labor and Care Work</a></li>
+<li class="chapter" data-level="13.7" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#show-your-work"><i class="fa fa-check"></i><b>13.7</b> Show Your Work</a></li>
+<li class="chapter" data-level="13.8" data-path="m4c-show-your-work.html"><a href="m4c-show-your-work.html#references-4"><i class="fa fa-check"></i><b>13.8</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html"><i class="fa fa-check"></i><b>14</b> M5U: Numbers Don’t Speak for Themselves</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#introduction-10"><i class="fa fa-check"></i><b>14.1</b> Introduction</a></li>
+<li class="chapter" data-level="14.2" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#bigger-is-not-always-better"><i class="fa fa-check"></i><b>14.2</b> Bigger is not Always Better</a></li>
+<li class="chapter" data-level="14.3" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#theory"><i class="fa fa-check"></i><b>14.3</b> Theory</a></li>
+<li class="chapter" data-level="14.4" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#the-importance-of-theory"><i class="fa fa-check"></i><b>14.4</b> The Importance of Theory</a></li>
+<li class="chapter" data-level="14.5" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#research-isnt-just-empirical"><i class="fa fa-check"></i><b>14.5</b> Research isn’t Just Empirical</a></li>
+<li class="chapter" data-level="14.6" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#the-importance-of-context"><i class="fa fa-check"></i><b>14.6</b> The Importance of Context</a></li>
+<li class="chapter" data-level="14.7" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#conclusion-4"><i class="fa fa-check"></i><b>14.7</b> Conclusion</a></li>
+<li class="chapter" data-level="14.8" data-path="m5u-numbers-dont-speak-for-themselves.html"><a href="m5u-numbers-dont-speak-for-themselves.html#references-5"><i class="fa fa-check"></i><b>14.8</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="15" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html"><i class="fa fa-check"></i><b>15</b> M5A: Are Ethics Enough in Data Science?</a>
+<ul>
+<li class="chapter" data-level="15.1" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#introduction-11"><i class="fa fa-check"></i><b>15.1</b> Introduction</a></li>
+<li class="chapter" data-level="15.2" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#ethics-vs.-politics"><i class="fa fa-check"></i><b>15.2</b> Ethics vs. Politics</a></li>
+<li class="chapter" data-level="15.3" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#why-politics"><i class="fa fa-check"></i><b>15.3</b> Why Politics?</a>
+<ul>
+<li class="chapter" data-level="15.3.1" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#argument-1-i-am-just-an-engineer"><i class="fa fa-check"></i><b>15.3.1</b> Argument 1: “I am Just an Engineer”</a></li>
+<li class="chapter" data-level="15.3.2" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#argument-2-we-shouldnt-take-political-stances"><i class="fa fa-check"></i><b>15.3.2</b> Argument 2: “We Shouldn’t Take Political Stances”</a></li>
+<li class="chapter" data-level="15.3.3" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#argument-3-dont-let-the-perfect-be-the-enemy-of-the-good"><i class="fa fa-check"></i><b>15.3.3</b> Argument 3: “Don’t Let the Perfect Be the Enemy of the Good”</a></li>
+</ul></li>
+<li class="chapter" data-level="15.4" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#conclusion-5"><i class="fa fa-check"></i><b>15.4</b> Conclusion</a></li>
+<li class="chapter" data-level="15.5" data-path="m5a-are-ethics-enough-in-data-science.html"><a href="m5a-are-ethics-enough-in-data-science.html#references-6"><i class="fa fa-check"></i><b>15.5</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="16" data-path="m5c-reflect-on-theoretical-and-philosophical-constraints.html"><a href="m5c-reflect-on-theoretical-and-philosophical-constraints.html"><i class="fa fa-check"></i><b>16</b> M5C: Reflect on Theoretical and Philosophical Constraints</a></li>
+<li class="chapter" data-level="17" data-path="m6u-unicorns-janitors-and-rock-stars.html"><a href="m6u-unicorns-janitors-and-rock-stars.html"><i class="fa fa-check"></i><b>17</b> M6U: Unicorns, Janitors, and Rock Stars</a>
+<ul>
+<li class="chapter" data-level="17.1" data-path="m6u-unicorns-janitors-and-rock-stars.html"><a href="m6u-unicorns-janitors-and-rock-stars.html#introduction-12"><i class="fa fa-check"></i><b>17.1</b> Introduction</a></li>
+<li class="chapter" data-level="17.2" data-path="m6u-unicorns-janitors-and-rock-stars.html"><a href="m6u-unicorns-janitors-and-rock-stars.html#intentionally-challenging-data-visualization"><i class="fa fa-check"></i><b>17.2</b> Intentionally Challenging Data Visualization</a></li>
+<li class="chapter" data-level="17.3" data-path="m6u-unicorns-janitors-and-rock-stars.html"><a href="m6u-unicorns-janitors-and-rock-stars.html#sexy-scientists-and-drab-janitors"><i class="fa fa-check"></i><b>17.3</b> Sexy Scientists and… Drab Janitors?</a></li>
+<li class="chapter" data-level="17.4" data-path="m6u-unicorns-janitors-and-rock-stars.html"><a href="m6u-unicorns-janitors-and-rock-stars.html#strangers-in-the-dataset"><i class="fa fa-check"></i><b>17.4</b> Strangers in the Dataset</a></li>
+<li class="chapter" data-level="17.5" data-path="m6u-unicorns-janitors-and-rock-stars.html"><a href="m6u-unicorns-janitors-and-rock-stars.html#sharing-work-and-sharing-credit"><i class="fa fa-check"></i><b>17.5</b> Sharing Work and Sharing Credit</a></li>
+<li class="chapter" data-level="17.6" data-path="m6u-unicorns-janitors-and-rock-stars.html"><a href="m6u-unicorns-janitors-and-rock-stars.html#conclusion-6"><i class="fa fa-check"></i><b>17.6</b> Conclusion</a></li>
+<li class="chapter" data-level="17.7" data-path="m6u-unicorns-janitors-and-rock-stars.html"><a href="m6u-unicorns-janitors-and-rock-stars.html#references-7"><i class="fa fa-check"></i><b>17.7</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="18" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html"><i class="fa fa-check"></i><b>18</b> M6A: Wrangling and Tidying Data</a>
+<ul>
+<li class="chapter" data-level="18.1" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#introduction-13"><i class="fa fa-check"></i><b>18.1</b> Introduction</a></li>
+<li class="chapter" data-level="18.2" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#wrangling"><i class="fa fa-check"></i><b>18.2</b> Wrangling</a>
+<ul>
+<li class="chapter" data-level="" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#wrangling-packages"><i class="fa fa-check"></i>Needed packages</a></li>
+<li class="chapter" data-level="18.2.1" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#piping"><i class="fa fa-check"></i><b>18.2.1</b> The pipe operator: <code>%&gt;%</code></a></li>
+<li class="chapter" data-level="18.2.2" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#filter"><i class="fa fa-check"></i><b>18.2.2</b> <code>filter</code> rows</a></li>
+<li class="chapter" data-level="18.2.3" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#mutate"><i class="fa fa-check"></i><b>18.2.3</b> <code>mutate</code> existing variables</a></li>
+<li class="chapter" data-level="18.2.4" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#arrange"><i class="fa fa-check"></i><b>18.2.4</b> <code>arrange</code> and sort rows</a></li>
+<li class="chapter" data-level="18.2.5" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#select"><i class="fa fa-check"></i><b>18.2.5</b> <code>select</code> variables</a></li>
+<li class="chapter" data-level="18.2.6" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#rename"><i class="fa fa-check"></i><b>18.2.6</b> <code>rename</code> variables</a></li>
+<li class="chapter" data-level="18.2.7" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#top_n-values-of-a-variable"><i class="fa fa-check"></i><b>18.2.7</b> <code>top_n</code> values of a variable</a></li>
+</ul></li>
+<li class="chapter" data-level="18.3" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#tidying-data"><i class="fa fa-check"></i><b>18.3</b> Tidying Data</a>
+<ul>
+<li class="chapter" data-level="" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#tidy-packages"><i class="fa fa-check"></i>Needed packages</a></li>
+<li class="chapter" data-level="18.3.1" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#csv"><i class="fa fa-check"></i><b>18.3.1</b> Importing data</a></li>
+<li class="chapter" data-level="18.3.2" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#tidy-data-ex"><i class="fa fa-check"></i><b>18.3.2</b> “Tidy” data</a></li>
+<li class="chapter" data-level="18.3.3" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#tidy-definition"><i class="fa fa-check"></i><b>18.3.3</b> Definition of “tidy” data</a></li>
+<li class="chapter" data-level="18.3.4" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#converting-to-tidy-data"><i class="fa fa-check"></i><b>18.3.4</b> Converting to “tidy” data</a></li>
+<li class="chapter" data-level="18.3.5" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#case-study-tidy"><i class="fa fa-check"></i><b>18.3.5</b> Case study: Democracy in Guatemala</a></li>
+</ul></li>
+<li class="chapter" data-level="18.4" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#tidyverse-package"><i class="fa fa-check"></i><b>18.4</b> <code>tidyverse</code> package</a></li>
+<li class="chapter" data-level="18.5" data-path="m6a-wrangling-and-tidying-data.html"><a href="m6a-wrangling-and-tidying-data.html#references-8"><i class="fa fa-check"></i><b>18.5</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="19" data-path="module-6-connection.html"><a href="module-6-connection.html"><i class="fa fa-check"></i><b>19</b> Module 6 Connection</a></li>
+<li class="chapter" data-level="20" data-path="module-7-understanding.html"><a href="module-7-understanding.html"><i class="fa fa-check"></i><b>20</b> Module 7 Understanding</a></li>
+<li class="chapter" data-level="21" data-path="module-7-application.html"><a href="module-7-application.html"><i class="fa fa-check"></i><b>21</b> Module 7 Application</a></li>
+<li class="chapter" data-level="22" data-path="module-7-connection.html"><a href="module-7-connection.html"><i class="fa fa-check"></i><b>22</b> Module 7 Connection</a></li>
+<li class="chapter" data-level="23" data-path="module-8-understanding.html"><a href="module-8-understanding.html"><i class="fa fa-check"></i><b>23</b> Module 8 Understanding</a></li>
+<li class="chapter" data-level="24" data-path="module-8-application.html"><a href="module-8-application.html"><i class="fa fa-check"></i><b>24</b> Module 8 Application</a></li>
+<li class="chapter" data-level="25" data-path="module-8-connection.html"><a href="module-8-connection.html"><i class="fa fa-check"></i><b>25</b> Module 8 Connection</a></li>
+<li class="chapter" data-level="26" data-path="module-9-understanding.html"><a href="module-9-understanding.html"><i class="fa fa-check"></i><b>26</b> Module 9 Understanding</a></li>
+<li class="chapter" data-level="27" data-path="module-9-application.html"><a href="module-9-application.html"><i class="fa fa-check"></i><b>27</b> Module 9 Application</a></li>
+<li class="chapter" data-level="28" data-path="module-9-connection.html"><a href="module-9-connection.html"><i class="fa fa-check"></i><b>28</b> Module 9 Connection</a></li>
+<li class="chapter" data-level="29" data-path="module-10-understanding.html"><a href="module-10-understanding.html"><i class="fa fa-check"></i><b>29</b> Module 10 Understanding</a></li>
+<li class="chapter" data-level="30" data-path="module-10-application.html"><a href="module-10-application.html"><i class="fa fa-check"></i><b>30</b> Module 10 Application</a></li>
+<li class="chapter" data-level="31" data-path="module-10-connection.html"><a href="module-10-connection.html"><i class="fa fa-check"></i><b>31</b> Module 10 Connection</a></li>
+<li class="chapter" data-level="32" data-path="module-11-understanding.html"><a href="module-11-understanding.html"><i class="fa fa-check"></i><b>32</b> Module 11 Understanding</a></li>
+<li class="chapter" data-level="33" data-path="module-11-application.html"><a href="module-11-application.html"><i class="fa fa-check"></i><b>33</b> Module 11 Application</a></li>
+<li class="chapter" data-level="34" data-path="module-11-connection.html"><a href="module-11-connection.html"><i class="fa fa-check"></i><b>34</b> Module 11 Connection</a></li>
+<li class="chapter" data-level="35" data-path="module-12-understanding.html"><a href="module-12-understanding.html"><i class="fa fa-check"></i><b>35</b> Module 12 Understanding</a></li>
+<li class="chapter" data-level="36" data-path="module-12-application.html"><a href="module-12-application.html"><i class="fa fa-check"></i><b>36</b> Module 12 Application</a></li>
+<li class="chapter" data-level="37" data-path="module-12-connection.html"><a href="module-12-connection.html"><i class="fa fa-check"></i><b>37</b> Module 12 Connection</a></li>
+<li class="chapter" data-level="38" data-path="module-13-understanding.html"><a href="module-13-understanding.html"><i class="fa fa-check"></i><b>38</b> Module 13 Understanding</a></li>
+<li class="chapter" data-level="39" data-path="module-13-application.html"><a href="module-13-application.html"><i class="fa fa-check"></i><b>39</b> Module 13 Application</a></li>
+<li class="chapter" data-level="40" data-path="module-13-connection.html"><a href="module-13-connection.html"><i class="fa fa-check"></i><b>40</b> Module 13 Connection</a></li>
+<li class="chapter" data-level="41" data-path="module-14-understanding.html"><a href="module-14-understanding.html"><i class="fa fa-check"></i><b>41</b> Module 14 Understanding</a></li>
+<li class="chapter" data-level="42" data-path="module-14-application.html"><a href="module-14-application.html"><i class="fa fa-check"></i><b>42</b> Module 14 Application</a></li>
+<li class="chapter" data-level="43" data-path="module-14-connection.html"><a href="module-14-connection.html"><i class="fa fa-check"></i><b>43</b> Module 14 Connection</a></li>
+<li class="chapter" data-level="44" data-path="module-15-understanding.html"><a href="module-15-understanding.html"><i class="fa fa-check"></i><b>44</b> Module 15 Understanding</a></li>
+<li class="chapter" data-level="45" data-path="module-15-application.html"><a href="module-15-application.html"><i class="fa fa-check"></i><b>45</b> Module 15 Application</a></li>
+<li class="chapter" data-level="46" data-path="module-15-connection.html"><a href="module-15-connection.html"><i class="fa fa-check"></i><b>46</b> Module 15 Connection</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduction to Data Science</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="module-7-connection" class="section level1 hasAnchor" number="22">
+<h1><span class="header-section-number">22</span> Module 7 Connection<a href="module-7-connection.html#module-7-connection" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+
+</div>
+<script src="https://hypothes.is/embed.js" async></script>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="module-7-application.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="module-8-understanding.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

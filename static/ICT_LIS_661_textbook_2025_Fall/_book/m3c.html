@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>10 M3C | Introduction to Data Science</title>
+  <meta name="description" content="10 M3C | Introduction to Data Science" />
+  <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="10 M3C | Introduction to Data Science" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="10 M3C | Introduction to Data Science" />
+  
+  
+  
+
+<meta name="author" content="Spencer P. Greenhalgh, PhD" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="m3a-using-projects-and-scripts-in-r.html"/>
+<link rel="next" href="module-4-understanding.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="module-1-understanding.html"><a href="module-1-understanding.html"><i class="fa fa-check"></i><b>2</b> Module 1 Understanding</a></li>
+<li class="chapter" data-level="3" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html"><i class="fa fa-check"></i><b>3</b> M1A: Install R and RStudio</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#introduction-1"><i class="fa fa-check"></i><b>3.1</b> Introduction</a></li>
+<li class="chapter" data-level="3.2" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#r"><i class="fa fa-check"></i><b>3.2</b> R</a></li>
+<li class="chapter" data-level="3.3" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#rstudio"><i class="fa fa-check"></i><b>3.3</b> RStudio</a></li>
+<li class="chapter" data-level="3.4" data-path="m1a-install-r-and-rstudio.html"><a href="m1a-install-r-and-rstudio.html#references"><i class="fa fa-check"></i><b>3.4</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="m1c-introduce-yourself-to-the-class.html"><a href="m1c-introduce-yourself-to-the-class.html"><i class="fa fa-check"></i><b>4</b> M1C: Introduce Yourself to the Class</a></li>
+<li class="chapter" data-level="5" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html"><i class="fa fa-check"></i><b>5</b> M2U: The New(?) and Shiny(?) Science of Data</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data-data-science-and-big-data"><i class="fa fa-check"></i><b>5.1</b> Data, Data Science, and Big Data</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data"><i class="fa fa-check"></i><b>5.1.1</b> Data</a></li>
+<li class="chapter" data-level="5.1.2" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#data-science"><i class="fa fa-check"></i><b>5.1.2</b> Data Science</a></li>
+<li class="chapter" data-level="5.1.3" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#big-data"><i class="fa fa-check"></i><b>5.1.3</b> Big Data</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#the-many-skills-of-data-science"><i class="fa fa-check"></i><b>5.2</b> The Many Skills of Data Science</a></li>
+<li class="chapter" data-level="5.3" data-path="m2u-the-new-and-shiny-science-of-data.html"><a href="m2u-the-new-and-shiny-science-of-data.html#references-1"><i class="fa fa-check"></i><b>5.3</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>6</b> M2A: Getting Started with Data in R</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="getting-started.html"><a href="getting-started.html#introduction-2"><i class="fa fa-check"></i><b>6.1</b> Introduction</a></li>
+<li class="chapter" data-level="6.2" data-path="getting-started.html"><a href="getting-started.html#r-rstudio"><i class="fa fa-check"></i><b>6.2</b> What are R and RStudio?</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="getting-started.html"><a href="getting-started.html#using-r-via-rstudio"><i class="fa fa-check"></i><b>6.2.1</b> Using R via RStudio</a></li>
+</ul></li>
+<li class="chapter" data-level="6.3" data-path="getting-started.html"><a href="getting-started.html#code"><i class="fa fa-check"></i><b>6.3</b> How do I code in R?</a>
+<ul>
+<li class="chapter" data-level="6.3.1" data-path="getting-started.html"><a href="getting-started.html#programming-concepts"><i class="fa fa-check"></i><b>6.3.1</b> Basic programming concepts and terminology</a></li>
+<li class="chapter" data-level="6.3.2" data-path="getting-started.html"><a href="getting-started.html#messages"><i class="fa fa-check"></i><b>6.3.2</b> Errors, warnings, and messages</a></li>
+<li class="chapter" data-level="6.3.3" data-path="getting-started.html"><a href="getting-started.html#tips-code"><i class="fa fa-check"></i><b>6.3.3</b> Tips on learning to code</a></li>
+</ul></li>
+<li class="chapter" data-level="6.4" data-path="getting-started.html"><a href="getting-started.html#packages"><i class="fa fa-check"></i><b>6.4</b> What are R packages?</a>
+<ul>
+<li class="chapter" data-level="6.4.1" data-path="getting-started.html"><a href="getting-started.html#package-installation"><i class="fa fa-check"></i><b>6.4.1</b> Package installation</a></li>
+<li class="chapter" data-level="6.4.2" data-path="getting-started.html"><a href="getting-started.html#package-loading"><i class="fa fa-check"></i><b>6.4.2</b> Package loading</a></li>
+<li class="chapter" data-level="6.4.3" data-path="getting-started.html"><a href="getting-started.html#package-use"><i class="fa fa-check"></i><b>6.4.3</b> Package use</a></li>
+</ul></li>
+<li class="chapter" data-level="6.5" data-path="getting-started.html"><a href="getting-started.html#nycflights13"><i class="fa fa-check"></i><b>6.5</b> Explore your first datasets</a>
+<ul>
+<li class="chapter" data-level="6.5.1" data-path="getting-started.html"><a href="getting-started.html#nycflights13-package"><i class="fa fa-check"></i><b>6.5.1</b> <code>nycflights13</code> package</a></li>
+<li class="chapter" data-level="6.5.2" data-path="getting-started.html"><a href="getting-started.html#flights-data-frame"><i class="fa fa-check"></i><b>6.5.2</b> <code>flights</code> data frame</a></li>
+<li class="chapter" data-level="6.5.3" data-path="getting-started.html"><a href="getting-started.html#exploredataframes"><i class="fa fa-check"></i><b>6.5.3</b> Exploring data frames</a></li>
+<li class="chapter" data-level="6.5.4" data-path="getting-started.html"><a href="getting-started.html#identification-vs-measurement-variables"><i class="fa fa-check"></i><b>6.5.4</b> Identification and measurement variables</a></li>
+<li class="chapter" data-level="6.5.5" data-path="getting-started.html"><a href="getting-started.html#help-files"><i class="fa fa-check"></i><b>6.5.5</b> Help files</a></li>
+</ul></li>
+<li class="chapter" data-level="6.6" data-path="getting-started.html"><a href="getting-started.html#conclusion"><i class="fa fa-check"></i><b>6.6</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html"><i class="fa fa-check"></i><b>7</b> M2C: Set up GitHub</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#introduction-3"><i class="fa fa-check"></i><b>7.1</b> Introduction</a></li>
+<li class="chapter" data-level="7.2" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#gitand-githubin-data-science"><i class="fa fa-check"></i><b>7.2</b> Git—and GitHub—in Data Science</a></li>
+<li class="chapter" data-level="7.3" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#github-in-ictlis-661"><i class="fa fa-check"></i><b>7.3</b> GitHub in ICT/LIS 661</a></li>
+<li class="chapter" data-level="7.4" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#setting-up-github"><i class="fa fa-check"></i><b>7.4</b> Setting Up GitHub</a>
+<ul>
+<li class="chapter" data-level="7.4.1" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#creating-a-github-account"><i class="fa fa-check"></i><b>7.4.1</b> Creating a GitHub Account</a></li>
+<li class="chapter" data-level="7.4.2" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#setting-up-a-github-repository-for-class"><i class="fa fa-check"></i><b>7.4.2</b> Setting up a GitHub Repository for Class</a></li>
+<li class="chapter" data-level="7.4.3" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#installing-github-desktop"><i class="fa fa-check"></i><b>7.4.3</b> Installing GitHub Desktop</a></li>
+</ul></li>
+<li class="chapter" data-level="7.5" data-path="m2c-set-up-github.html"><a href="m2c-set-up-github.html#moving-forward"><i class="fa fa-check"></i><b>7.5</b> Moving Forward</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html"><i class="fa fa-check"></i><b>8</b> M3U: Research Paradigms and Reproducibility</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#introduction-4"><i class="fa fa-check"></i><b>8.1</b> Introduction</a></li>
+<li class="chapter" data-level="8.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#reproducibility-and-paradigms"><i class="fa fa-check"></i><b>8.2</b> Reproducibility and Paradigms</a>
+<ul>
+<li class="chapter" data-level="8.2.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#an-example-paradigm"><i class="fa fa-check"></i><b>8.2.1</b> An Example Paradigm</a></li>
+<li class="chapter" data-level="8.2.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#another-example-paradigm"><i class="fa fa-check"></i><b>8.2.2</b> Another Example Paradigm</a></li>
+<li class="chapter" data-level="8.2.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#why-do-paradigms-matter"><i class="fa fa-check"></i><b>8.2.3</b> Why Do Paradigms Matter?</a></li>
+</ul></li>
+<li class="chapter" data-level="8.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#supporting-reproducibility"><i class="fa fa-check"></i><b>8.3</b> Supporting Reproducibility</a>
+<ul>
+<li class="chapter" data-level="8.3.1" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-design"><i class="fa fa-check"></i><b>8.3.1</b> Open Design</a></li>
+<li class="chapter" data-level="8.3.2" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-analysis"><i class="fa fa-check"></i><b>8.3.2</b> Open Analysis</a></li>
+<li class="chapter" data-level="8.3.3" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#open-publication"><i class="fa fa-check"></i><b>8.3.3</b> Open Publication</a></li>
+</ul></li>
+<li class="chapter" data-level="8.4" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#conclusion-1"><i class="fa fa-check"></i><b>8.4</b> Conclusion</a></li>
+<li class="chapter" data-level="8.5" data-path="m3u-research-paradigms-and-reproducibility.html"><a href="m3u-research-paradigms-and-reproducibility.html#references-2"><i class="fa fa-check"></i><b>8.5</b> References</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html"><i class="fa fa-check"></i><b>9</b> M3A: Using Projects and Scripts in R</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#introduction-5"><i class="fa fa-check"></i><b>9.1</b> Introduction</a></li>
+<li class="chapter" data-level="9.2" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#more-about-r-and-rstudio"><i class="fa fa-check"></i><b>9.2</b> More About R and RStudio</a></li>
+<li class="chapter" data-level="9.3" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#the-console-and-the-workspace"><i class="fa fa-check"></i><b>9.3</b> The Console and the Workspace</a></li>
+<li class="chapter" data-level="9.4" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#holding-onto-code"><i class="fa fa-check"></i><b>9.4</b> Holding Onto Code</a>
+<ul>
+<li class="chapter" data-level="9.4.1" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#rstudio-projects"><i class="fa fa-check"></i><b>9.4.1</b> RStudio Projects</a></li>
+<li class="chapter" data-level="9.4.2" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#using-scripts"><i class="fa fa-check"></i><b>9.4.2</b> Using Scripts</a></li>
+<li class="chapter" data-level="9.4.3" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#backing-up-your-project-folder"><i class="fa fa-check"></i><b>9.4.3</b> Backing Up Your Project Folder</a></li>
+</ul></li>
+<li class="chapter" data-level="9.5" data-path="m3a-using-projects-and-scripts-in-r.html"><a href="m3a-using-projects-and-scripts-in-r.html#conclusion-2"><i class="fa fa-check"></i><b>9.5</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="m3c.html"><a href="m3c.html"><i class="fa fa-check"></i><b>10</b> M3C</a></li>
+<li class="chapter" data-level="11" data-path="module-4-understanding.html"><a href="module-4-understanding.html"><i class="fa fa-check"></i><b>11</b> Module 4 Understanding</a></li>
+<li class="chapter" data-level="12" data-path="module-4-application.html"><a href="module-4-application.html"><i class="fa fa-check"></i><b>12</b> Module 4 Application</a></li>
+<li class="chapter" data-level="13" data-path="module-4-connection.html"><a href="module-4-connection.html"><i class="fa fa-check"></i><b>13</b> Module 4 Connection</a></li>
+<li class="chapter" data-level="14" data-path="module-5-understanding.html"><a href="module-5-understanding.html"><i class="fa fa-check"></i><b>14</b> Module 5 Understanding</a></li>
+<li class="chapter" data-level="15" data-path="module-5-application.html"><a href="module-5-application.html"><i class="fa fa-check"></i><b>15</b> Module 5 Application</a></li>
+<li class="chapter" data-level="16" data-path="module-5-connection.html"><a href="module-5-connection.html"><i class="fa fa-check"></i><b>16</b> Module 5 Connection</a></li>
+<li class="chapter" data-level="17" data-path="module-6-understanding.html"><a href="module-6-understanding.html"><i class="fa fa-check"></i><b>17</b> Module 6 Understanding</a></li>
+<li class="chapter" data-level="18" data-path="module-6-application.html"><a href="module-6-application.html"><i class="fa fa-check"></i><b>18</b> Module 6 Application</a></li>
+<li class="chapter" data-level="19" data-path="module-6-connection.html"><a href="module-6-connection.html"><i class="fa fa-check"></i><b>19</b> Module 6 Connection</a></li>
+<li class="chapter" data-level="20" data-path="module-7-understanding.html"><a href="module-7-understanding.html"><i class="fa fa-check"></i><b>20</b> Module 7 Understanding</a></li>
+<li class="chapter" data-level="21" data-path="module-7-application.html"><a href="module-7-application.html"><i class="fa fa-check"></i><b>21</b> Module 7 Application</a></li>
+<li class="chapter" data-level="22" data-path="module-7-connection.html"><a href="module-7-connection.html"><i class="fa fa-check"></i><b>22</b> Module 7 Connection</a></li>
+<li class="chapter" data-level="23" data-path="module-8-understanding.html"><a href="module-8-understanding.html"><i class="fa fa-check"></i><b>23</b> Module 8 Understanding</a></li>
+<li class="chapter" data-level="24" data-path="module-8-application.html"><a href="module-8-application.html"><i class="fa fa-check"></i><b>24</b> Module 8 Application</a></li>
+<li class="chapter" data-level="25" data-path="module-8-connection.html"><a href="module-8-connection.html"><i class="fa fa-check"></i><b>25</b> Module 8 Connection</a></li>
+<li class="chapter" data-level="26" data-path="module-9-understanding.html"><a href="module-9-understanding.html"><i class="fa fa-check"></i><b>26</b> Module 9 Understanding</a></li>
+<li class="chapter" data-level="27" data-path="module-9-application.html"><a href="module-9-application.html"><i class="fa fa-check"></i><b>27</b> Module 9 Application</a></li>
+<li class="chapter" data-level="28" data-path="module-9-connection.html"><a href="module-9-connection.html"><i class="fa fa-check"></i><b>28</b> Module 9 Connection</a></li>
+<li class="chapter" data-level="29" data-path="module-10-understanding.html"><a href="module-10-understanding.html"><i class="fa fa-check"></i><b>29</b> Module 10 Understanding</a></li>
+<li class="chapter" data-level="30" data-path="module-10-application.html"><a href="module-10-application.html"><i class="fa fa-check"></i><b>30</b> Module 10 Application</a></li>
+<li class="chapter" data-level="31" data-path="module-10-connection.html"><a href="module-10-connection.html"><i class="fa fa-check"></i><b>31</b> Module 10 Connection</a></li>
+<li class="chapter" data-level="32" data-path="module-11-understanding.html"><a href="module-11-understanding.html"><i class="fa fa-check"></i><b>32</b> Module 11 Understanding</a></li>
+<li class="chapter" data-level="33" data-path="module-11-application.html"><a href="module-11-application.html"><i class="fa fa-check"></i><b>33</b> Module 11 Application</a></li>
+<li class="chapter" data-level="34" data-path="module-11-connection.html"><a href="module-11-connection.html"><i class="fa fa-check"></i><b>34</b> Module 11 Connection</a></li>
+<li class="chapter" data-level="35" data-path="module-12-understanding.html"><a href="module-12-understanding.html"><i class="fa fa-check"></i><b>35</b> Module 12 Understanding</a></li>
+<li class="chapter" data-level="36" data-path="module-12-application.html"><a href="module-12-application.html"><i class="fa fa-check"></i><b>36</b> Module 12 Application</a></li>
+<li class="chapter" data-level="37" data-path="module-12-connection.html"><a href="module-12-connection.html"><i class="fa fa-check"></i><b>37</b> Module 12 Connection</a></li>
+<li class="chapter" data-level="38" data-path="module-13-understanding.html"><a href="module-13-understanding.html"><i class="fa fa-check"></i><b>38</b> Module 13 Understanding</a></li>
+<li class="chapter" data-level="39" data-path="module-13-application.html"><a href="module-13-application.html"><i class="fa fa-check"></i><b>39</b> Module 13 Application</a></li>
+<li class="chapter" data-level="40" data-path="module-13-connection.html"><a href="module-13-connection.html"><i class="fa fa-check"></i><b>40</b> Module 13 Connection</a></li>
+<li class="chapter" data-level="41" data-path="module-14-understanding.html"><a href="module-14-understanding.html"><i class="fa fa-check"></i><b>41</b> Module 14 Understanding</a></li>
+<li class="chapter" data-level="42" data-path="module-14-application.html"><a href="module-14-application.html"><i class="fa fa-check"></i><b>42</b> Module 14 Application</a></li>
+<li class="chapter" data-level="43" data-path="module-14-connection.html"><a href="module-14-connection.html"><i class="fa fa-check"></i><b>43</b> Module 14 Connection</a></li>
+<li class="chapter" data-level="44" data-path="module-15-understanding.html"><a href="module-15-understanding.html"><i class="fa fa-check"></i><b>44</b> Module 15 Understanding</a></li>
+<li class="chapter" data-level="45" data-path="module-15-application.html"><a href="module-15-application.html"><i class="fa fa-check"></i><b>45</b> Module 15 Application</a></li>
+<li class="chapter" data-level="46" data-path="module-15-connection.html"><a href="module-15-connection.html"><i class="fa fa-check"></i><b>46</b> Module 15 Connection</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduction to Data Science</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="m3c" class="section level1 hasAnchor" number="10">
+<h1><span class="header-section-number">10</span> M3C<a href="m3c.html#m3c" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+
+</div>
+<script src="https://hypothes.is/embed.js" async></script>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="m3a-using-projects-and-scripts-in-r.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="module-4-understanding.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

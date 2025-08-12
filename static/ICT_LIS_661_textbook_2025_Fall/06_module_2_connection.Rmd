@@ -1,0 +1,93 @@
+# M2C: Set up GitHub
+
+This chapter draws on material from:
+
+[Happy Git and GitHub for the useR](https://happygitwithr.com/index.html) by [Jenny Bryan](https://jennybryan.org/), licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/)
+
+Changes to the source material include addition of new material; light editing; rearranging and removing original material; adding and changing links; and adding first-person language from current author.
+
+The resulting content is licensed under [CC BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/)
+
+## Introduction
+
+[Git](https://git-scm.com/) is a *version control system*. Its original purpose was to help groups of developers work collaboratively on big software projects. Git manages the evolution of a set of files—called a *repository*—in a sane, highly structured way. Think of it as the more powerful cousin of the “Track Changes” features from Microsoft Word.
+
+## Git—and GitHub—in Data Science
+
+Git has been re-purposed by the data science community to manage the motley collection of files that make up typical data analytical projects, which often consist of data, figures, reports, and source code.
+
+A solo data scientist, working on a single computer, will benefit from adopting version control—but not nearly enough to justify the pain of installation and workflow upheaval. There are much easier ways to get versioned back ups of your files, if that’s all you’re worried about.
+
+This is where hosting services like [GitHub](https://github.com/), [Bitbucket](https://bitbucket.org), and [GitLab](https://about.gitlab.com/) come in. They provide a home for your Git-based projects on the internet. Think of this as Dropbox or Google Drive for code. The service acts as a distribution channel or clearinghouse for your Git-managed project. It allows other people to see your stuff, sync up with you, and perhaps even make changes. These hosting providers improve upon traditional Unix Git servers with well-designed web-based interfaces. There are clear advantages to using one of these services:
+
+First, if someone needs to see your work or if you want them to try out your code, they can easily get it from GitHub. If they use Git, they can clone or fork your repository. If they don’t use Git, they can still browse your project on GitHub like a normal website and even grab everything by downloading a zip archive.
+
+Second, if you care deeply about someone else’s project, such as an R package you use heavily, you can track its development on GitHub. You can watch the repository to get notified of major activity. You can fork it to keep your own copy. You can modify your fork to add features or fix bugs and send them back to the owner as a proposed change.
+
+## GitHub in ICT/LIS 661
+
+In this class, you will be accessing projects through GitHub. If you need feedback or help with your code, we'll also use GitHub to send it back and forth. We won't be using GitHub to its fullest extent, but this will at least give you some basic familiarity with the software. We are using GitHub—and not Bitbucket or GitLab—because GitHub is widely used in the R community, and because it's what I'm most familiar with. However, it's worth pointing out that the GitHub company has [a history of controversy](https://en.wikipedia.org/wiki/GitHub#Controversies) and that it has recently come under [increased criticism](https://sfconservancy.org/blog/2022/jun/30/give-up-github-launch/) from the same open source community that GitHub claims to serve. For the time being, I am continuing to use GitHub (personally and for this class), but I'm not thrilled about it. As we'll discuss throughout the semester, it's important to be attentive to ethics and values in data science, and I don't think this is any exception.
+
+## Setting Up GitHub
+
+The remainder of this walkthrough is focused on helping you get GitHub set up for this class. 
+
+### Creating a GitHub Account
+
+First things first, head on over to [github.com](https://github.com) and create an account. If you aren't already using GitHub and are not sure you'll be using GitHub in the future, I recommend creating an account with your *@uky.edu* address. However,you're welcome to use a GitHub account you already have or to use a personal address if you think you'll want to use this service more in the future. Here are some tips for picking a GitHub username:
+
+* Incorporate your actual name! People like to know who they’re dealing with. Also makes your username easier for people to guess or remember.
+* Reuse your username from other contexts, e.g., Bluesky or Slack. But, of course, someone with no GitHub activity will probably be squatting on that.
+* Pick a username you will be comfortable revealing to your future boss.
+* Shorter is better than longer.
+* Be as unique as possible in as few characters as possible. In some settings GitHub auto-completes or suggests usernames.
+* Make it timeless. Don’t highlight your current university, employer, or place of residence.
+* Avoid the use of upper vs. lower case to separate words. I highly recommend all lowercase. Usernames aren't case sensitive in GitHub, but using all lowercase is kinder to people who may be working with GitHub data. A better strategy for word separation is to use a hyphen (-) or underscore (_).
+
+### Setting up a GitHub Repository for Class
+
+In this next section, I've tried to be as specific as possible in providing instructions. However, past experience has shown me that what I see on my computer while walking through these steps isn't always exactly what other people see due to operating system or other differences. If something doesn't match perfectly what you see, use common sense to figure out the next best option.
+
+Once you've created a GitHub account, please navigate to [this GitHub repository](https://github.com/greenhas/ICT_LIS_661_2025), which contains some crucial files for our class. If you have your browser window open wide enough, you should see a green *Use this template* button to the right of the menu above the list of files and directories (or folders). Click that button and, if prompted, click on *Create a new repository*. 
+
+The next interface has a few different sections in it. You can ignore the first few options and then go down to where it says *Owner*: Make sure it lists your username there! 
+
+If/as you continue to work with RStudio and GitHub, you'll get a feel for what kind of directory names are most helpful to you, but I'm mandating a consistent format for selfish reasons: So that I can easily keep track of dozens of different repositories this semester. Give this project a name that follows this format:
+
+`yourlastname_yourfirstname_661`
+
+That is, my project would be named `Greenhalgh_Spencer_661`.
+
+You can skip the *Description* line, but make sure to set your repository to *Private*. This is important so that your homework for this class isn't publicly accessible!
+
+Once you've finished all the steps on this interface, GitHub will take you to the page for your repository. Find the *Settings* button near the top right of the page (if you can't see it, you may need to make your browser window larger), and click on that.
+
+Once you're in settings, navigate to *Collaborators* and then *Add people*. Then, enter my GitHub username, `greenhas`. Having access to your repository will make helping you with your code much easier in the future!
+
+### Installing GitHub Desktop
+
+Once you've done all this, navigate to [desktop.github.com](https://desktop.github.com) and download the GitHub Desktop client. Open it up and make sure to associate it with your GitHub account.
+
+There are plenty of other ways to use Git and GitHub, including the command line and RStudio itself, and if you're serious about data science, I recommend learning more about both of those options (the [Happy Git and GitHub for the useR](https://happygitwithr.com/index.html) website is helpful and thorough). You're even free to try them this semester, but remember that my instructions are always going to assume you're using this client. That's because I find GitHub Desktop to be the most user-friendly approach to GitHub, and since our goals for this class are just a basic introduction to the service, it's going to do the trick.
+
+Once you've signed in to GitHub Desktop, navigate to *File* and then *Clone Repository*. This will bring up a list of repositories that you have on GitHub for you to choose from; in this context, "clone" simply means to create a local copy of the repository on your computer.
+
+**This next part is really important.** Over the past few years, professors in technical fields have [increasingly noticed](https://www.theverge.com/22684730/students-file-folder-directory-structure-education-gen-z) that their students aren't as familiar with computers' file and folder systems as they are. When I was learning to use computers, it was **critical** that you know which files were in which folders in order to find them. In recent decades, the rise of cloud storage services (especially search-heavy ones like Google Drive), mobile operating systems, and other developments have made it so that your everyday computer user doesn't have to (and, in the case of mobile devices, maybe can't? at least not easily?) navigate through the different folders on their computer to save or retrieve files.
+
+However, if you're working with programming tasks (like we are this semester), **you do need to know where files are saved on your computer, what folders other folders are stored in, and that sort of thing**. Not paying close attention to this is going to create at least mild inconveniences for you (and me) and, if you're unlucky, more serious errors that will get in the way of your work. 
+
+I do a lot of troubleshooting and office hours meetings in this class, and a significant portion of them are related to helping students with this. Now, I'm happy to provide troubleshooting and office hours meetings (it is, after all, my job, and it's nice to have face-to-face conversations with online students), and I try not to bring this activity up in any "I told you so" kind of way, but **you can save yourself (and me!) a lot of hassle over the next several weeks if you pay close attention to these details**. If you genuinely don't know what I'm talking about, ask me for help now and save yourself some trouble in the future!
+
+Right now, for example, you should pay attention to the Local Path option. By default, GitHub Desktop will create the local copy of your files within:
+
+* a folder that has the same name as the repository, which is placed within:
+
+* either a Documents folder or the main user folder of your computer
+
+You're free to change this, but I strongly recommend sticking with the default folder name, and unless you have strong opinions about where to keep your files, it's probably a good idea to stick with the default filepath, too. Wherever you end up storing your repository folder, **pay close attention**—you'll be navigating back to it to complete your work throughout the semester.
+
+**Please, please, please** spend some time early on in this class to get to know Windows Explorer (on Windows) or Finder (on macOS). Pay very close attention to where you've saved files, where those locations "live" on your computer, and that sort of thing.
+
+## Moving Forward
+
+As things currently stand, your repository isn't really doing a whole lot, but that's okay. We'll return to GitHub next week as we learn some more about file and project management in RStudio, and practice good GitHub habits throughout the semester.

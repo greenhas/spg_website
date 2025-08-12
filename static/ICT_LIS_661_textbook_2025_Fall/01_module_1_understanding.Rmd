@@ -1,0 +1,277 @@
+# M1U: Course Syllabus
+
+The syllabus for this course is available as a PDF through Canvas. However, it is also reproduced here for the purposes of annotation. 
+
+## Overview
+
+### Course
+
+ICT/LIS 661-201: Introduction to Data Science
+
+### Instructor
+
+Spencer Greenhalgh, PhD
+
+### Contact Information
+
+* *Office*—341 Lucille Little Library Bldg.
+* *Phone*—859.218.2294
+* *Email*—spencer.greenhalgh@uky.edu
+* *Zoom*—[https://uky.zoom.us/my/greenhalgh](https://uky.zoom.us/my/greenhalgh)
+
+### Response Time
+
+During the work week (but not the weekend!), I commit to respond to all emails within 24 hours. I expect you to regularly check Canvas and email for messages from me and to respond quickly.
+
+### Office Hours
+
+I will hold office hours in person or on Zoom (see above):
+
+* Wednesday, 10am to 12pm
+* Thursday, 11am to 1pm, or
+* by appointment
+
+While you are free to come by without an appointment, I suggest that you let me know when you plan to come to office hours.
+
+### Meeting Schedule
+
+This course takes place asynchronously on Canvas
+
+## Required Materials
+
+This course uses a free custom online textbook based on Creative Commons-licensed works such as [*Data Feminism*](https://data-feminism.mitpress.mit.edu/), OpenStax's [*Introductory Statistics()](https://openstax.org/details/books/introductory-statistics), and the "ModernDive" [*Statistical Inference Via Data Science*](https://moderndive.com/) textbook. 
+
+## "Life is Difficult" Statement [inspired by [Dr. Andrew Heiss]
+
+Recent years have been characterized by a global pandemic, increased (and overdue) attention to inequalities and injustices, and stressful political tensions; we might hope that the worst of all of these has passed, but the truth is that none of them have disappeared. This can be a difficult time to be in grad school.
+
+**Despite these difficulties, I am fully committed to making sure that you learn everything you were hoping to learn from this class!** My late policy and willingness to make accommodations are generous even during normal times, and if your life is being turned upside down, I'm willing to be as flexible as you need me to be—so long as you are active in communicating with me.
+
+If you feel like you're behind, not understanding everything, or just plain stressed, **do not suffer in silence**! I'm usually quick to respond to email and more than happy to meet with you.
+
+## Basic Needs Statement [inspired by Dr. [Sara Goldrick-Rab](https://medium.com/@saragoldrickrab/basic-needs-security-and-the-syllabus-d24cc7afe8c9)]
+
+Any student who has difficulty affording or accessing food to eat every day or who lacks a safe and stable place to live and believes this may affect their performance in the course is urged to [contact the Dean of Students](http://www.uky.edu/concern/) and to explore the resources listed at the bottom of [this page](https://uknow.uky.edu/campus-news/uk-working-ensure-food-and-housing-security-among-students). Furthermore, please notify me if you are comfortable in doing so.
+
+## Course Information
+
+### Course Description
+
+This course will provide a foundation in the area of data science based on data curation and statistical analysis. The primary goal of this course is for students to learn data analysis concepts and techniques that facilitate making decisions from a rich data set. Students will investigate data concepts, metadata creation and interpretation, the general linear model, cluster analysis, and basics of information visualization. At the beginning, this course will introduce fundamentals about data and data standards and methods for organizing, curating, and preserving data for reuse. Then, we will focus on the inferential statistics: drawing conclusions and making decisions from data. This course will help students understand how to use data analysis tools, and especially, provide an opportunity to utilize an open source data analysis tool, R, for data manipulation, analysis, and visualization. Finally, in this course we will discuss diverse issues around data including technologies, behaviors, organizations, policies, and society. 
+
+### Course Objectives—"I Can Statements"
+
+The following "I can" statements will guide all of the learning and assessment activities throughout this course. Although these objectives have some overlap, activities within each module will clearly and specifically relate to a single objective, and larger assessments will implicitly ask you to demonstrate all of them. As we proceed throughout the semester, you should feel increasingly comfortable making these statements about yourself:
+
+* I can express my understanding of philosophical, ethical, statistical, research, and other concepts underpinning data science.
+* I can apply that understanding—in conjunction with R programming—to completing practical projects.
+* I can connect conceptual and practical elements of data science to disciplinary and contextual knowledge.
+
+### Course Assessment
+
+Your grade for this course will be based on 100 points: 
+
+* 90 points – 100.0 points = A
+* 80 points – 89.9 points = B
+* 70 points – 79.9 points = C
+* 0 points – 69.9 points = E
+
+These 100 points come from the following assessment activities, which should all be completed honestly and individually on Canvas:
+
+#### Projects
+
+Throughout the semester, you will complete four projects worth a total of 55 points:
+
+* Project #1: Finding and Evaluating Data (10 points)
+* Project #2: Exploring and Describing Data (10 points)
+* Project #3: Building and Evaluating Models (10 points)
+* Final Project: Reporting Data Analysis (25 points)
+
+Detailed instructions for these projects can be found on Canvas.
+
+#### Participation
+
+Throughout the semester, you will earn 45 points from a series of participation activities. During each of the fifteen modules of the semester, you will complete three reading or participation activities (each worth one point) that will help you extend or apply your understanding of course content; while these activities vary from module to module, a plurality of modules involve annotating a reading from the textbook, completing a programming walkthrough with provided data, and then adapting (some of) the code from the walkthrough to work with your own data.
+
+### Late Work Policy
+
+Officially, each assignment is due at 11:59pm on the Sunday night indicated in Canvas. Practically speaking, however, I will grade without penalty (for graded assessments) and provide feedback on (for all assessments) anything that is turned in by the time I begin reviewing that assessment. However, I will not grade or provide feedback on any work that is completed after this time unless you have made other arrangements with me. Naturally, because my schedule varies from week to week and because I try to provide feedback as quickly as possible, your best bet is to turn in your work by the official deadline or—if life has thrown you a curveball—to get in touch with me ahead of time to make other arrangements.
+
+### Prep Week
+
+[UK policies](https://ombud.uky.edu/students/academic-policies/prep-days-reading-days) limit what I can assign during Week 16 of the course. However, I am "permitted to grade student participation," "collect regularly assigned homework," and "collect projects" so long as those assignments are scheduled ahead of time and, in the case of projects, there is nothing due during Finals Week. Please note that your final project meets these requirements and is due during Week 16.
+
+
+## Course Policies
+
+All of the policies listed on [this page](https://www.uky.edu/universitysenate/acadpolicy) are in effect for this course. 
+
+## Code, Plagiarism, and Generative AI 
+
+It is common practice in data science and programming communities to borrow code from other, more knowledgeable programmers. Indeed, many of the weekly activities in this class will explicitly involve copying or adapting code from our textbook, and you might find online or other sources helpful for figuring out how to complete a specific task for your class projects. When done properly, this is not plagiarism—in fact, it is good practice in data science.
+
+**Nonetheless, you are ultimately responsible for completing assessments**, and plagiarism remains a serious concern for this course. Thus, [these rules](https://www.uky.edu/universitysenate/ao) related to academic offenses are also in effect for this course, and I will not tolerate their violation. If you consult other sources, please ensure that they support (rather than replace) your personal work, effort, initiative, and understanding. It is **your responsibility** to ensure that you understand what plagiarism is and how to avoid it; when in doubt, reach out to me with your questions.
+
+Along these lines, I **strongly discourage** you from using any generative AI tool to write code or text for you. AI-generated output can include errors, and as a general rule, if you know enough to catch those errors, you know enough to generate that output yourself; conversely, generating that output yourself will help you further develop your knowledge more than relying on a tool. If you do use any generative AI in completing your work, you **must explicitly acknowledge it** in your submission—and you will assume responsibility for any errors the tool makes.
+
+# Diversity, Equity, and Inclusion
+
+## College Statement
+
+The College of Communication and Information will build a collaborative environment for creativity, curiosity, and excellence grounded in the core values of diversity, justice, and equity. We are enriched by the diversity of cultures, perspectives, and talents in our community. We thrive together when we work to provide an equitable and welcoming experience that respects and empowers the unique contributions and circumstances of students, faculty, and staff from every race and ethnicity, nationality, gender identity and expression, sexual orientation, religion, citizenship status, age, veteran status, pregnancy and parenting status, and disability or health status. We are committed to ensuring every member of our College feels welcomed, well-served, and included. Please join us.
+
+## University Statement
+
+The University of Kentucky is committed to our core values of diversity and inclusion, mutual respect and human dignity, and a sense of community ([Governing Regulations XIV](https://www.uky.edu/regs/gr14)). We acknowledge and respect the seen and unseen diverse identities and experiences of all members of the university community (https://www.uky.edu/regs/gr14). These identities include but are not limited to those based on race, ethnicity, gender identity and expressions, ideas and perspectives, religious and cultural beliefs, sexual orientation, national origin, age, ability, and socioeconomic status. We are committed to equity and justice and providing a learning and engaging community in which every member is engaged, heard, and valued.
+
+We strive to rectify and change behavior that is inconsistent with our principles and commitment to creating a safe, equitable, and anti-racist environment. If students encounter such behavior in a course, they are encouraged to speak with the instructor of record or the [college’s diversity officer](https://www.uky.edu/inclusiveexcellence/college-diversity-inclusion-officers/), who is charged with addressing concerns about diversity, equity, and inclusiveness (https://uky.edu/inclusiveexcellence/college-diversity-inclusion-officers). Students may also contact a faculty member within the department, program director, the director of undergraduate or graduate studies, the department chair, or the dean. To submit an official report of bias, hatred, racism, or identity-based violence, visit the Bias Incident Support Services [website](https://www.uky.edu/biss/report-bias-incident).
+
+Please also consider the following resources related to diversity, equity, and inclusion:
+
+### Bias Incident Support Services 
+
+Bias Incident Support Services (BISS) provides confidential support and advocacy for any student, staff, or faculty member impacted by bias, hatred, and/or an act of identity-based violence. BISS staff aid impacted parties in accessing campus and community resources, including the Bias Incident Response Team, the University’s official reporting system for acts that negatively impact a sense of belonging. Campus and community consultation and educational opportunities centered on inclusion, diversity, equity and belonging is a resource also provided by BISS. For more detailed information please visit the BISS website (https://uky.edu/biss) or contact them via email (biss@uky.edu).
+
+### Counseling Center
+
+The UK Counseling Center (UKCC) provides a range of confidential psychological services to students enrolled in 6 credit hours or more, psychoeducational outreach programming (including QPR suicide prevention), and consultation to members of the UK community (students, faculty, staff, administrators, parents, concerned others). Please visit the UKCC’s website (https://uky.edu/counselingcenter) for more detailed information or call (859) 257-8701.
+
+### Disability Resource Center
+
+If you have a documented disability that requires academic accommodations, please inform your instructor as soon as possible during scheduled office hours. In order to receive accommodations in this course, you must provide your instructor with a Letter of Accommodation from the Disability Resource Center (DRC). The DRC coordinates campus disability services available to students with disabilities. It is located on the corner of Rose Street and Huguelet Drive in the Multidisciplinary Science Building, Suite 407. You can reach them via phone at (859) 257-2754, via email (drc@uky.edu) or visit their website (https://uky.edu/DisabilityResourceCenter).
+
+### Martin Luther King Center
+
+The Martin Luther King Center (MLKC) supports an inclusive learning environment where diversity and individual differences are understood, respected, and appreciated as a source of strength. The MLKC’s year-round programs and activities that focus on the importance of cultural awareness and cross-cultural understanding support its three primary goals: 1) sponsoring cultural and educational programming; 2) offering opportunities for student support and development; and 3) through programmatic linkages with a wide variety of civic and community agencies, promoting community outreach, engagement, and collaboration. Students can reach the MLKC via phone at (859) 257-4130, by visiting them in Gatton Student Center Suite A230, via email (mlkc@uky.edu), and by visiting the MLKC website (https://uky.edu/mlkc). 
+If there are aspects within your experience here at UK that result in barriers to your inclusion or accurate assessment of achievement, please notify the instructor as soon as possible and/or email the Office for Institutional Diversity via email (vpid@uky.edu).
+
+### Non-Discrimination / Title IX 
+
+In accordance with federal law, UK is committed to providing a safe learning, living, and working environment for all members of the University community. The University maintains a comprehensive program which protects all members from discrimination, harassment, and sexual misconduct. For complete information about UK’s prohibition on discrimination and harassment on aspects such as race, color, ethnic origin, national origin, creed, religion, political belief, sex, and sexual orientation, please see the electronic version of UK’s Administrative Regulation 6:1 (“Policy on Discrimination and Harassment”) (https://www.uky.edu/regs/ar6-1). In accordance with Title IX of the Education Amendments of 1972, the University prohibits discrimination and harassment on the basis of sex in academics, employment, and all of its programs and activities. Sexual misconduct is a form of sexual harassment in which one act is severe enough to create a hostile environment based on sex and is prohibited between members of the University community and shall not be tolerated. For more details, please see the electronic version of Administrative Regulations 6:2 (“Policy and Procedures for Addressing and Resolving Allegations of Sexual Assault, Stalking, Dating Violence, Domestic Violence, and Sexual Exploitation”) (https://www.uky.edu/regs/ar6-2). Complaints regarding violations of University policies on discrimination, harassment, and sexual misconduct are handled by the Office of Institutional Equity and Equal Opportunity (Institutional Equity), which is located in 13 Main Building and can be reached by phone at (859) 257-8927. You can also visit Institutional Equity’s website (https://www.uky.edu/eeo). 
+
+Faculty members are obligated to forward any report made by a student related to discrimination, harassment, and sexual misconduct to the Office of Institutional Equity. Students can confidentially report alleged incidences through the Violence Intervention and Prevention Center (https://www.uky.edu/vipcenter), Counseling Center (https://www.uky.edu/counselingcenter), or University Health Service (https://ukhealthcare.uky.edu/university-health-service/student-health). 
+
+Reports of discrimination, harassment, or sexual misconduct may be made to Institutional Equity [here](https://www.uky.edu/universitysenate/).
+
+### Office of LGBTQ* Resources 
+
+UK is committed to supporting students and upholding the University’s efforts to promote inclusion among our community. UK faculty and staff employees support inclusion and diversity throughout the University, including the ways in which faculty structure classroom conversations and manage those dynamics. To assist in these efforts, students are welcome to provide the names and pronouns they prefer. One easy way to do this is by using the pronoun feature of UK’s Name Change Form. (More information about the form can be found on the Office of LGBTQ*’s website (https://uky.edu/lgbtq/forms-and-resources). Otherwise, students can provide this information to instructors directly.
+
+Discrimination based on sexual orientation, gender expression, and gender identity is prohibited at UK. If you have questions about support, advocacy, and community-building services related to sexual orientation, gender expression, or gender identity, students are encouraged to visit the website of the Office of LGBTQ* Resources (https://uky.edu/lgbtq/forms-and-resources).
+
+### Veterans Resource Center (VRC) 
+
+Being both a member of the military community and a student can bring some complexities. If you are a member of the military or a military veteran or dependent, please let instructors know when these challenges arise. Drill schedules, calls to active duty, mandatory training exercises, issues with GI Bill disbursement, etc. can complicate your academic life. Let your instructor know if you experience complications.
+
+The VRC is a great resource for members of our military family. If you have questions regarding your VA benefits or other related issues, the VRC has a full complement of staff to assist you. The VRC also provides study and lounge space, as well as free printing. Please visit the VRC website (https://uky.edu/veterans), email the VRC (vetcenter@uky.edu), visit them in the basement of Erikson Hall, or call the director, Colonel Tony Dotson, at (859) 257-1148.
+
+If you are a military student serving in the National Guard or Reserve, it is in your best interest to let all of your instructors know that immediately. You might also consider sharing a copy of your training schedule. 
+
+If you are a military student who is a member of the National Guard or Military Reserve and are called to duty for one-fifth or less of this semester, provide a copy of your military orders to the Director of the Veterans Resource Center (contact information above) once you become aware of the call to duty. (Please also provide the Director with a list of all your current courses and instructors.) The Director will verify the orders with the appropriate military authority and will, on the military student's behalf, notify their instructors as to the known extent of the absence.
+
+Your absences will not be penalized and instructors will work with military students to create reasonable accommodations for making up missed assignments, quizzes, and tests.
+
+### Violence Intervention and Prevention (VIP) Center 
+
+If you experience an incident of sex- or gender-based discrimination or interpersonal violence, we encourage you to report it. While you may talk to a faculty member or TA/RA/GA, understand that as a "Responsible Employee" of the University these individuals MUST report any acts of violence (including verbal bullying and sexual harassment) to the University's Title IX Coordinator in the Institutional Equity Office. If you would like to speak with someone who may be able to afford you confidentiality, you can visit the Violence Intervention and Prevention (VIP) Center’s website (https://uky.edu/vipcenter/content/faq) (offices located in Bosworth Hall, 1st Floor; (859) 257-3574), the Counseling Center’s (CC) website (https://uky.edu/counselingcenter/student-resources), and the University Health Services (UHS) website (https://uky.edu/university-health-service/student-health/our-student-services). The VIP Center, CC, and UHS are confidential resources on campus. **The VIP Center accepts Zoom, phone, and walk-in appointments**.
+
+## Course Schedule
+
+### Module 1: Course Introduction (26 Aug - 1 Sep)
+
+* read and annotate the course syllabus
+* complete "Install R and RStudio" walkthrough
+* introduce yourself to the class
+
+### Module 2: Data Science (2 Sep - 8 Sep)
+
+* read and annotate "The New(?) and Shiny(?) Science of Data"
+* complete "Getting Started with Data in R" walkthrough
+* complete "Set up GitHub" walkthrough
+
+
+### Module 3: Reproducibility and Paradigms (9 Sep to 15 Sep)
+
+* read and annotate "Research Paradigms and Reproducibility"
+* complete "Using Projects and Scripts in R" walkthrough
+* complete "Writing in R Markdown" walkthrough
+
+
+### Module 4: Data Sharing (16 Sep - 22 Sep)
+
+* read and annotate "The Value of Open Data"
+* complete "Find a Dataset Relevant to You" walkthrough
+* read and annotate "Show Your Work"
+* **submit Project 1: Finding and Evaluating Data**
+
+### Module 5: Theory and Ethics (23 Sep - 29 Sep)
+
+* read and annotate "Numbers Don't Speak for Themselves"
+* read and annotate "Are Ethics Enough in Data Science"
+* reflect on theoretical and philosophical constraints in context
+
+### Module 6: Data Cleaning (30 Sep - 6 Oct)
+
+* read and annotate "Unicorns, Janitors, and Rock Stars"
+* complete "Wrangling and Tidying Data" walkthrough
+* practice wrangling and tidying your own data
+
+### Module 7: Data Visualization (7 Oct - 13 Oct)
+
+* read and annotate "Subjectivity in Data Visualization
+* complete "Data Visualization" walkthrough
+* practice visualizing your own data
+
+### Module 8: Descriptive Statistics (14 Oct - 20 Oct)
+
+* read and annotate "Statistics and Scientific Racism"
+* complete "Descriptive Statistics" walkthrough
+* calculate descriptive statistics for your own data
+* **submit Project 2: Exploring and Describing Data**
+
+### Module 9: Basic Regression (21 Oct - 27 Oct)
+
+* read and annotate "Basic Regression"
+* complete "Basic Regression" walkthrough
+* perform a basic regression with your own data
+
+### Module 10: Multiple Regression (28 Oct - 3 Nov)
+
+* read and annotate "Consequences of Failed Predictions"
+* complete "Multiple Regression" walkthrough
+* perform a multiple regression with your own data
+
+### Module 11: Statistical Sampling (4 Nov - 10 Nov)
+
+* read and annotate "Samples and Populations"
+* complete "Sampling" walkthrough
+* explore sampling with your own data
+
+### Module 12: Confidence Intervals (11 Nov - 17 Nov)
+
+* read and annotate "Confident About What?"
+* complete "Confidence Intervals" walkthrough
+* explore confidence intervals with your own data
+
+### Module 13: Hypothesis Testing (18 Nov - 24 Nov)
+
+* read and annotate "The Danger of False Positives"
+* complete "Hypothesis Testing" walkthrough
+* explore hypothesis testing with your own data
+
+### Module 14: Inferential Regression (25 Nov - 1 Dec)
+
+* read and annotate "Small Stories vs. Big Data"
+* complete "Inferential Regression" walkthrough
+* perform an inferential regression with your own data
+* **submit Project 3: Building and Evaluating Models**
+
+### Module 15: Course Reflection (2 Dec - 8 Dec)
+
+* reflect on your understanding of data science
+* reflect on your application of data science
+* reflect on your connection with data science
+
+### Module 16: Final Project (9 Dec - 11 Dec)
+
+* **submit Final Project: Reporting Data Analysis**
