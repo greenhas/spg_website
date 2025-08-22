@@ -62,3 +62,5 @@ if (!"skimr" %in% installed.packages()) {
                            repos = "http://cran.rstudio.com")
 }
 ```
+
+# Home Page {-}
