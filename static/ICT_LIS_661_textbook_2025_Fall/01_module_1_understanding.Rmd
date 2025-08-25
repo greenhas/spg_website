@@ -39,7 +39,7 @@ This course takes place asynchronously on Canvas
 
 ## Required Materials
 
-This course uses a free custom online textbook based on Creative Commons-licensed works such as [*Data Feminism*](https://data-feminism.mitpress.mit.edu/), OpenStax's [*Introductory Statistics()](https://openstax.org/details/books/introductory-statistics), and the "ModernDive" [*Statistical Inference Via Data Science*](https://moderndive.com/v2) textbook. 
+This course uses a free custom online textbook based on Creative Commons-licensed works such as [*Data Feminism*](https://data-feminism.mitpress.mit.edu/), OpenStax's [*Introductory Statistics*](https://openstax.org/details/books/introductory-statistics), and the "ModernDive" [*Statistical Inference Via Data Science*](https://moderndive.com/v2) textbook. 
 
 ## "Life is Difficult" Statement [inspired by [Dr. Andrew Heiss]
 
@@ -116,7 +116,7 @@ All of the policies listed on [this page](https://www.uky.edu/universitysenate/a
 
 ## Plagiarism, Cheating, and Generative AI
 
-### Plagiarism [source](https://ombud.uky.edu/students/what-plagiarism)
+### Plagiarism [[source]](https://ombud.uky.edu/students/what-plagiarism)
 
 "All academic work, written or otherwise, submitted by students to their instructors or other academic supervisors, is expected to be the result of their own thought, research or self-expression. In cases where students feel unsure about a question of plagiarism involving their work, they are obliged to consult their instructors on the matter before submission. When students submit work purporting to be their own, but which in any way borrows ideas, organization, wording or content from another source without appropriate acknowledgment of the fact, the students are guilty of plagiarism.
 
@@ -124,7 +124,7 @@ All of the policies listed on [this page](https://www.uky.edu/universitysenate/a
 
 "Students may discuss assignments among themselves or with an instructor or tutor, except where prohibited by the Instructor of Record (e.g. individual take-home exams). However, the actual work must be done by the student, and the student alone, unless collaboration is allowed by the Instructor of Record (e.g. group projects). When a student's assignment involves research in outside sources or information, the student must carefully acknowledge exactly what, where and how they have employed them. If the words of someone else are used, the student must put quotation marks around the passage in question and add an appropriate indication of its origin. Making simple changes while leaving the organization, content and phraseology intact is plagiaristic. However, nothing in this AR shall apply to those ideas which are so generally and freely circulated as to be a part of the public domain."
 
-### Cheating [source](https://ombud.uky.edu/students/what-cheating)
+### Cheating [[source]](https://ombud.uky.edu/students/what-cheating)
 
 "Cheating is defined by its general usage. It includes, but is not limited to, the wrongfully giving, taking or presenting any information or material by a student with the intent of aiding themself or another on any academic work which is considered in any way in the determination of the final grade. 
 

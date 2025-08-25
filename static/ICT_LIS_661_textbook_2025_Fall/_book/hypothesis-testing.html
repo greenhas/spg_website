@@ -165,8 +165,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="1.6" data-path="m1u-course-syllabus.html"><a href="m1u-course-syllabus.html#course-policies"><i class="fa fa-check"></i><b>1.6</b> Course Policies</a></li>
 <li class="chapter" data-level="1.7" data-path="m1u-course-syllabus.html"><a href="m1u-course-syllabus.html#plagiarism-cheating-and-generative-ai"><i class="fa fa-check"></i><b>1.7</b> Plagiarism, Cheating, and Generative AI</a>
 <ul>
-<li class="chapter" data-level="1.7.1" data-path="m1u-course-syllabus.html"><a href="m1u-course-syllabus.html#plagiarism-source"><i class="fa fa-check"></i><b>1.7.1</b> Plagiarism source</a></li>
-<li class="chapter" data-level="1.7.2" data-path="m1u-course-syllabus.html"><a href="m1u-course-syllabus.html#cheating-source"><i class="fa fa-check"></i><b>1.7.2</b> Cheating source</a></li>
+<li class="chapter" data-level="1.7.1" data-path="m1u-course-syllabus.html"><a href="m1u-course-syllabus.html#plagiarism-source"><i class="fa fa-check"></i><b>1.7.1</b> Plagiarism [source]</a></li>
+<li class="chapter" data-level="1.7.2" data-path="m1u-course-syllabus.html"><a href="m1u-course-syllabus.html#cheating-source"><i class="fa fa-check"></i><b>1.7.2</b> Cheating [source]</a></li>
 <li class="chapter" data-level="1.7.3" data-path="m1u-course-syllabus.html"><a href="m1u-course-syllabus.html#code-plagiarism-and-generative-ai"><i class="fa fa-check"></i><b>1.7.3</b> Code, Plagiarism, and Generative AI</a></li>
 </ul></li>
 <li class="chapter" data-level="1.8" data-path="m1u-course-syllabus.html"><a href="m1u-course-syllabus.html#course-schedule"><i class="fa fa-check"></i><b>1.8</b> Course Schedule</a>
@@ -1255,7 +1255,7 @@ H_0 &amp;: p_{m} - p_{f} = 0\\
 <span id="cb375-3"><a href="hypothesis-testing.html#cb375-3" tabindex="-1"></a>  <span class="fu">hypothesize</span>(<span class="at">null =</span> <span class="st">&quot;independence&quot;</span>)</span></code></pre></div>
 <pre><code>Response: decision (factor)
 Explanatory: gender (factor)
-Null Hypothesis: ind...
+Null Hypothesis: independence
 # A tibble: 48 × 2
    decision gender
    &lt;fct&gt;    &lt;fct&gt; 
@@ -1518,22 +1518,21 @@ Figure 38.16: Type I and Type II errors in hypothesis tests.
 <p>The <code>movies</code> dataset in the <code>ggplot2movies</code> package contains information on 58,788 movies that have been rated by users of IMDb.com.</p>
 <div class="sourceCode" id="cb395"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb395-1"><a href="hypothesis-testing.html#cb395-1" tabindex="-1"></a>movies</span></code></pre></div>
 <pre><code># A tibble: 58,788 × 24
-   title     year length budget rating votes    r1    r2    r3    r4    r5    r6
-   &lt;chr&gt;    &lt;int&gt;  &lt;int&gt;  &lt;int&gt;  &lt;dbl&gt; &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
- 1 $         1971    121     NA    6.4   348   4.5   4.5   4.5   4.5  14.5  24.5
- 2 $1000 a…  1939     71     NA    6      20   0    14.5   4.5  24.5  14.5  14.5
- 3 $21 a D…  1941      7     NA    8.2     5   0     0     0     0     0    24.5
- 4 $40,000   1996     70     NA    8.2     6  14.5   0     0     0     0     0  
- 5 $50,000…  1975     71     NA    3.4    17  24.5   4.5   0    14.5  14.5   4.5
- 6 $pent     2000     91     NA    4.3    45   4.5   4.5   4.5  14.5  14.5  14.5
- 7 $windle   2002     93     NA    5.3   200   4.5   0     4.5   4.5  24.5  24.5
- 8 &#39;15&#39;      2002     25     NA    6.7    24   4.5   4.5   4.5   4.5   4.5  14.5
- 9 &#39;38       1987     97     NA    6.6    18   4.5   4.5   4.5   0     0     0  
-10 &#39;49-&#39;17   1917     61     NA    6      51   4.5   0     4.5   4.5   4.5  44.5
+   title       year length budget rating votes    r1    r2    r3    r4    r5    r6    r7    r8    r9
+   &lt;chr&gt;      &lt;int&gt;  &lt;int&gt;  &lt;int&gt;  &lt;dbl&gt; &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
+ 1 $           1971    121     NA    6.4   348   4.5   4.5   4.5   4.5  14.5  24.5  24.5  14.5   4.5
+ 2 $1000 a T…  1939     71     NA    6      20   0    14.5   4.5  24.5  14.5  14.5  14.5   4.5   4.5
+ 3 $21 a Day…  1941      7     NA    8.2     5   0     0     0     0     0    24.5   0    44.5  24.5
+ 4 $40,000     1996     70     NA    8.2     6  14.5   0     0     0     0     0     0     0    34.5
+ 5 $50,000 C…  1975     71     NA    3.4    17  24.5   4.5   0    14.5  14.5   4.5   0     0     0  
+ 6 $pent       2000     91     NA    4.3    45   4.5   4.5   4.5  14.5  14.5  14.5   4.5   4.5  14.5
+ 7 $windle     2002     93     NA    5.3   200   4.5   0     4.5   4.5  24.5  24.5  14.5   4.5   4.5
+ 8 &#39;15&#39;        2002     25     NA    6.7    24   4.5   4.5   4.5   4.5   4.5  14.5  14.5  14.5   4.5
+ 9 &#39;38         1987     97     NA    6.6    18   4.5   4.5   4.5   0     0     0    34.5  14.5   4.5
+10 &#39;49-&#39;17     1917     61     NA    6      51   4.5   0     4.5   4.5   4.5  44.5  14.5   4.5   4.5
 # ℹ 58,778 more rows
-# ℹ 12 more variables: r7 &lt;dbl&gt;, r8 &lt;dbl&gt;, r9 &lt;dbl&gt;, r10 &lt;dbl&gt;, mpaa &lt;chr&gt;,
-#   Action &lt;int&gt;, Animation &lt;int&gt;, Comedy &lt;int&gt;, Drama &lt;int&gt;,
-#   Documentary &lt;int&gt;, Romance &lt;int&gt;, Short &lt;int&gt;</code></pre>
+# ℹ 9 more variables: r10 &lt;dbl&gt;, mpaa &lt;chr&gt;, Action &lt;int&gt;, Animation &lt;int&gt;, Comedy &lt;int&gt;,
+#   Drama &lt;int&gt;, Documentary &lt;int&gt;, Romance &lt;int&gt;, Short &lt;int&gt;</code></pre>
 <p>We’ll focus on a random sample of 68 movies that are classified as either “action” or “romance” movies but not both. We disregard movies that are classified as both so that we can assign all 68 movies into either category. Furthermore, since the original <code>movies</code> dataset was a little messy, we provide a pre-wrangled version of our data in the <code>movies_sample</code> data frame included in the <code>moderndive</code> package. If you’re curious, you can look at the necessary data wrangling code to do this on <a href="https://github.com/moderndive/moderndive/blob/master/data-raw/process_data_sets.R">GitHub</a>.</p>
 <div class="sourceCode" id="cb397"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb397-1"><a href="hypothesis-testing.html#cb397-1" tabindex="-1"></a>movies_sample</span></code></pre></div>
 <pre><code># A tibble: 68 × 4
@@ -1718,7 +1717,7 @@ Explanatory: genre (factor)
 <span id="cb404-3"><a href="hypothesis-testing.html#cb404-3" tabindex="-1"></a>  <span class="fu">hypothesize</span>(<span class="at">null =</span> <span class="st">&quot;independence&quot;</span>)</span></code></pre></div>
 <pre><code>Response: rating (numeric)
 Explanatory: genre (factor)
-Null Hypothesis: indep...
+Null Hypothesis: independence
 # A tibble: 68 × 2
    rating genre  
     &lt;dbl&gt; &lt;fct&gt;  
