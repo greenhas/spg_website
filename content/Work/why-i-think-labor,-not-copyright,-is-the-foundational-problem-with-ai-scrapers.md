@@ -1,0 +1,22 @@
+---
+types: ["macro"]
+date: 2025-08-15T11:33:52-04:00
+title: "why I think labor, not copyright, is the foundational problem with AI scrapers"
+tags: ["academic labor","digital labor","generative AI","research","intellectual property","copyright","Bluesky","Rebecca Giblin","Cory Doctorow","Chokepoint Capitalism"]
+---
+
+This morning on Bluesky, I saw some posts about [a class action lawsuit](https://www.lieffcabraser.com/anthropic-author-contact/) against Anthropic for their use of pirated, copyrighted materials in training their generative AI models. One of the sources of these copyrighted materials was the LibGen database, which [I took a peek at](https://spencergreenhalgh.com/work/labor-intellectual-property-generative-ai/) nearly six months ago to confirm what I was already sure to be true: that my scientific writing was also collected as training material by companies like Anthropic or Meta. I don't love that big tech companies are profiting off of my work in this way, and I'm sympathetic to the authors who are taking legal action against Anthropic. However, as I've written repeatedly over the past few years (you can find some of those thoughts—and others—by scrolling through [here](https://spencergreenhalgh.com/tags/copyright/), I don't know that copyright is the right way of responding to this kind of abuse.
+
+As a scientific—rather than literary—author, I recognize that I have a different perspective on this issue, and I'm not interested in telling authors that they're making the wrong move by joining this class action lawsuit. However, as a scientific—rather than literary—author, I think my experience can also help illustrate why I don't think that copyright is the foundational issue here. For all my hesitation about copyright as the best vector of criticism toward content scraping by generative AI companies, I did entertain the idea this morning that it might be interesting to join myself to a class action lawsuit. While skimming the page, though, I noticed something interesting in the very first sentence (my emphasis added): 
+
+> Bartz v. Anthropic PBC is a class action lawsuit under the Copyright Act brought by authors on behalf of **copyright holders** against Anthropic PBC, an AI company. 
+
+The phrase "copyright holders" reminded me of a depressing quirk in scientific publishing: That I actually do not hold the copyright to a great deal of what I've written. Despite all of the work that I've put into this kind of writing since 2013, I don't always belong to the class being represented in this lawsuit. In fact, I went back through The Atlantic's database of LibGen data to check this and confirmed that many (if not all—I didn't take the time to be totally thorough) of my articles that Meta and Anthropic presumably used as training data *don't legally belong to me* or to any of my co-authors.
+
+On a regular basis, I have to sign over my copyright to a scientific publisher before they will agree to publish my work, and that makes *them* the ones who have been mistreated according to a copyright framing of what (to be very clear) is still a really big problem. To use an analogy from Rebecca Giblin and Cory Doctorow's *Chokepoint Capitalism*:
+
+> giving more copyright to creators who are struggling against powerful buyers is like giving more lunch money to your bullied kid. The bullies who were taking his money every day will just take that too. The upshot? The bullies now have enough money to pay the principal to look the other way, and your kid still goes hungry.
+
+In short, scientific authors are already being exploited for their academic labor by scientific publishing companies, who often claim the copyright (or the distribution in the cases where they don't claim copyright) to our work. Scientific publishers make far more money from our work than we ever will. To make copyright the tool by which we defend authors against exploitation by generative AI companies may actually support and further the exploitation of scientific authors by their publishing companies.
+
+Again, I recognize that things are different for literary authors, and I also acknowledge that I don't know of any legal mechanisms to protect authors' labor in the same way that intellectual property law allows for the protection of authors' copyright. Yet, it seems clear to me that in among both communities, it is labor that is being exploited, and that we need to fix the problem of labor exploitation (and not just intellectual property) if we're really going to fix this issue.

@@ -35,7 +35,7 @@ other = "Une adresse e-mail est requise."
 other = "Envoyer"
 
 [taxonomyPageList]
-other = "Se trouvent ci-dessous les pages associés au terme taxonomique “{{ .Title }}”"
+other = "Se trouvent ci-dessous les pages associées au terme taxonomique “{{ .Title }}”"
 
 [readingTime]
 one = "une minute de lecture"
