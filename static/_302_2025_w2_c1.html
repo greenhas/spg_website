@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 302 2.1</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 302: Content Management Systems</h1>
+<h2 style=color:white>2 September 2025</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+background-color: gray
+
+class: center, middle
+
+# readings quiz
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# roll call
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# announcements
+
+---
+
+class: center, middle
+
+# no office hours on Thursday!
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# syllabus quiz recap
+
+---
+
+# ICT 302 learning objectives
+
+### LO1: I can define and describe key concepts in (web) content management.
+
+### LO2: I can describe and compare content management systems.
+
+### LO3: I can manage content using established workflows.
+
+### LO4: I can identify and employ additional technologies related to content management.
+
+### L05: I can find and use resources for self-directed learning.
+
+---
+
+class: center, middle
+
+# each learning objective-related category is worth 15% of your grade
+
+---
+
+class: center, middle
+
+# what's the ICT 302 late policy?
+
+---
+
+class: center, middle
+
+# what's the ICT 302 generative AI policy?
+
+---
+
+class: center, middle
+
+# what is "content"?
+
+---
+
+# two defining characteristics of content
+
+## According to [Barker](https://deanebarker.net/books/squirrel/the-basics/#h1), content is information that is:
+
+--
+
+* ## created by editorial process, and
+
+--
+
+* ## intended for consumption by a human audience
+
+---
+
+class: center, middle
+
+# "Content is information produced through editorial process and ultimately intended for human consumption via publication."
+
+Barker, D. (2016). *[Web Content Management](https://deanebarker.net/books/squirrel/the-basics/#h1)*. O'Reilly Media
+
+---
+
+class: center, middle
+
+## "Compare this process to the creation of the record of a retail sale. There is no editorial process involved with swiping your credit card across a terminal. Furthermore, the data created is not subjected to any other process, will not be reviewed and approved. It is not subjective, it is deterministic. The transaction happened in an instant, a historical record was created, and that’s that."
+
+Barker, D. (2016). *[Web Content Management](https://deanebarker.net/books/squirrel/the-basics/#h1)*. O'Reilly Media
+
+---
+
+class: center, middle
+
+# this gets fuzzy fast!
+
+---
+
+class: center, middle
+
+## "The creation of content pivots largely on the opinions of human editors... Despite significant advances in computing, these are not decisions a computer will make. These are messy, subjective, imperfect decisions that pour forth from the mind of a human editor sitting behind a keyboard."
+
+Barker, D. (2016). *[Web Content Management](https://deanebarker.net/books/squirrel/the-basics/#h1)*. O'Reilly Media
+
+---
+
+class: center, middle
+
+# what tools make (or suggest) editorial decisions for us?
+
+---
+
+# what does it mean to be intended for a human audience?
+
+--
+
+BoardGameGeek
+* game page: https://boardgamegeek.com/boardgame/191004/my-first-stone-age
+* API call: https://www.boardgamegeek.com/xmlapi/boardgame/191004
+
+--
+
+**UK**Now
+* [homepage](https://uknow.uky.edu/)
+* [RSS file](https://uknow.uky.edu/feeds/section/347/rss.xml)
+
+--
+
+`academictwitteR` package for R programming language
+* [get_all_tweets function](https://github.com/cjbarrie/academictwitteR/blob/master/R/get_all_tweets.R)
+* [README file](https://github.com/cjbarrie/academictwitteR#readme)
+
+--
+
+these slides!
+
+---
+
+class: middle, center
+
+# content or not?
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# discuss the readings
+
+---
+
+class: center, middle
+
+# how does [Dinosaur Comics](https://qwantz.com) pay the bills?
+
+---
+
+class: center, middle
+
+# what's the difference between Dinosaur Comics and AI slop?
+
+---
+
+class: center, middle
+
+### "He scrolls through the page... which has 112,000 followers and almost exclusively posts images of emaciated, AI-generated people, natural disasters, and starving children. He pauses on another image of a man being eaten by bugs. 'They are getting so many likes,' he says. 'They got 700 likes within 2-4 hours. They must have earned $100 from just this one photo. Facebook now pays you $100 for 1,000 likes … you must be wondering where you can get these images from. Don’t worry. I’ll show you how to create images with the help of AI.'"
+
+Koebler, J. (2024, August 6). Where Facebook's AI slop comes from. *404 Media*. https://www.404media.co/where-facebooks-ai-slop-comes-from/
+
+---
+
+class: center, middle
+
+# where do you draw the line between "money for content" and "content for money"?
+
+---
+
+class: middle, center
+
+## "G/O Media, who owns popular tech site *Gizmodo* along with a slew of other outlets, began publishing AI-generated articles last week, despite strong objections from many of the members of its staff, according to *The Washington Post*."
+
+Davis, W. (2023, July 8). *Gizmodo’s staff isn’t happy about G/O Media’s AI-generated content*. *The Verge*. https://www.theverge.com/2023/7/8/23788162/gizmodo-g-o-media-ai-generated-articles-star-wars
+
+---
+
+class: middle, center
+
+# why might G/O Media be interested in AI-generated articles?
+
+# why might the Gizmodo staff be opposed to AI-generated articles?
+
+---
+
+class: center, middle
+
+## "Yeah. There's a dehumanizing rhetoric. I think the language reveals the thought. This happened when, I used to say I was a writer I write on the internet and now the default stance is that people generate content."
+
+Anil Dash in *[Wordle and the Web We Need](https://www.eff.org/deeplinks/2022/05/podcast-episode-wordle-and-web-we-need)*
+
+---
+
+class: center, middle
+
+
+## "It is strange to have people defining themselves from the perspective of the platform when they're the artist." 
+
+## [...]
+
+## "You're a content creator only from the perspective of the people who built the platform that you're creating the content for that's whose perspective it is for many people they're an artist."
+
+Cindy Cohn in *[Wordle and the Web We Need](https://www.eff.org/deeplinks/2022/05/podcast-episode-wordle-and-web-we-need)*
+
+
+---
+background-color: gray
+
+class: center, middle
+
+# user-generated content
+
+---
+
+class: center, middle
+
+# "Content generated by non-editors, usually from the public side of the website."
+
+Deane Barker, [*Web Content Management glossary*](https://deanebarker.net/tech/glossary/user-generated-content/)
+
+---
+
+class: center, middle
+
+# what examples of user-generated content have you seen?
+
+---
+
+class: center, middle
+
+# what are the advantages of user-generated content?
+
+---
+
+class: center, middle
+
+# what are the disadvantages of user-generated content? 
+
+---
+
+# content moderation
+
+Gillespie, T. (2018). *Custodians of the internet: Platforms, content moderation, and the hidden decision that shape social media.* Yale University Press
+
+> *Social media platforms arose out of the exquisite chaos of the web. Many were designed by people who were inspired by (or at least hoping to profit from) the freedom the web promised, to host and extend all that participation, expression, and social connection.*
+
+--
+
+> *But as these platforms grew, that chaos and contention quickly found its way back onto them, and for obvious reasons: if I want to say something, whether it is inspiring or reprehensible, I want to say it where others will hear me.*
+
+--
+
+> *Social media platforms put more people in direct contact with one another, afford them new opportunities to speak and interact with a wider range of people, and organize them into networked publics.*
+
+--
+
+> *Though the benefits of this may be obvious, and even seem utopian at times, the perils are also painfully apparent, more so every day: the pornographic, the obscene, the violent, the illegal, the abusive, and the hateful.*
+
+---
+
+class: center, middle
+
+# why might you have to moderate user generated content on your websites? 
+
+---
+
+class: center, middle
+
+# how would you moderate user generated content on your website?
+
+---
+
+class: center, middle
+
+# "content moderation" and "free speech" are not the same thing! 
+
+---
+
+# content moderation and free speech *can* overlap...
+
+--
+
+> *In India, Twitter’s third largest market, the company filed a case earlier this year to contest the government’s order to remove individual pieces of content as well as whole accounts that the government considers a risk to India’s security or sovereignty.*
+
+Elliott, V. (2022, November 7). Elon Musk has put Twitter's free speech in danger. *WIRED*. https://www.wired.com/story/twitter-free-speech-musk-takeover/
+
+--
+
+## ... but content moderation is rarely a violation of free speech
+
+---
+
+# all platforms moderate
+
+--
+
+> *Platforms must moderate, while also disavowing it*
+
+Gillespie, T. (2018). *Custodians of the internet: Platforms, content moderation, and the hidden decision that shape social media.* Yale University Press
+
+--
+
+> *They show up, insist that they’re the “platform for free speech” without quite understanding what that actually means, and then they quickly discover a whole bunch of fairly fundamental ideas, institute a bunch of rapid (often sloppy) changes… and in the end, they basically all end up in the same general vicinity, with just a few small differences on the margin.*
+
+Masnick, M. (2022, November 2). Hey Elon: Let me help you speed run the content moderation learning curve. *Techdirt*. https://www.techdirt.com/2022/11/02/hey-elon-let-me-help-you-speed-run-the-content-moderation-learning-curve/
+
+---
+
+class: center, middle
+
+# even so-called "free speech" platforms moderate content protected by the U.S. First Amendment 
+
+---
+
+class: center, middle
+
+# why is content moderation so hard?
+
+---
+
+class: center, middle
+
+# let's play a game!
+ 
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		},
+     		slideNumberFormat:'%current%/%total%',
+  		});
+    </script>
+  </body>
+</html>
