@@ -1,0 +1,21 @@
+---
+types: ["macro"]
+date: 2025-09-10T15:18:21-04:00
+title: "burn down the platforms"
+tags: ["platforms","ParentSquare","research analytics","Instagram","Meta","enshittification","Enshittification (book)","RSS","algorithmic recommendation"]
+---
+I have ten minutes to rage-write this post before I join a meeting, so it may not be particularly nuanced—though I'd love to revisit these examples in the future. I recently got to listen to Cory Doctorow [read the first hour or so](https://craphound.com/podcast/2025/08/28/enshittification-episode-500/) of his forthcoming *Enshittification*, and I was struck by two things in the first couple of minutes. First, by the way that he tied enshittification to platforms, and by the way he loosely defined platforms as intermediaries. I think there's something important in both of those. 
+
+What I really want to write about right now, though, is how angry I am at platforms today. Over the course of two hours, I've had three experiences that just make me want to burn down some of the intermediaries so that we can do things more directly.
+
+## experience 1: algorithmic recommendations
+
+The most recent episode of the 404 Media podcast covers a couple of stories they've recently written about [an Instagram account that promotes Holocaust denial](https://craphound.com/podcast/2025/08/28/enshittification-episode-500/) and how [AI slop is crowding out human creators of history videos on YouTube](https://www.404media.co/ai-generated-boring-history-videos-are-flooding-youtube-and-drowning-out-real-history/). Listening to both stories, it struck me how important algorithmic recommendation is to both of these terrible things happening. I guess there's some quasi-algorithmic recommendation on this website (more than "quasi," but not at the scale that we're talking about on TikTok or Instagram), and I certainly encounter it in other places, but so much of my consumption of media is deliberate and linear (thanks, RSS!) that I forget how influential algorithmic recommendation is. I feel like things would be better if it weren't that influential
+
+## experience 2: can't point to my own website
+
+I recently learned about a university policy that forbids the university website from linking to personal websites. One of the consequences of this is that even our CVs uploaded to the university website can't link to personal websites. I tried hard to follow this rule, but I made the mistake of leaving up links to two open textbooks that happen to be uploaded to my site and links to a bunch of prepublications. I'm not sure which of these violated the rule, but I'm so, so angry that all of this personal effort that I'm putting into sharing my scholarship and teaching with others is being diminished by the university that wants me doing this scholarship and teaching. I'm also upset by extension about the dumb research analytics platform that the university really wants us to use, and I'm considering nuking my profile on that platform in retaliation. My personal website represents my research far better than an analytics platform ever could, and it's insulting to be limited in this way.
+
+## experience 3: these could have been some emails
+
+I'm not going to get into the details here, because rage-writing time is over and I need to get back to some real work. To make a long story short, I'm really bothered by doing communication via a bespoke platform when it could just be done by an email. I've had a couple of experiences today where I've needed to double check the details of a communication thread, and because those communication threads happened via those bespoke platforms, it's been a real pain in the rear to track down the details. If they had all happened via email, things would have been so much easier. Fun fact: one of those things I've had to dig into a platform for is the meeting that I had set as my original deadline. I have the time right, but the person I'm meeting isn't there. I wonder if they would be if we'd communicated by email instead.
