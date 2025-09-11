@@ -1,0 +1,19 @@
+---
+types: ["macro"]
+date: 2025-09-11T09:00:30-04:00
+title: "404 Media podcast on generative AI and epistemology"
+tags: ["epistemology","404 Media","research","YouTube","epistemology","generative AI"]
+---
+I'm a big fan of the 404 Media tech news outlet, and I also really enjoy their podcast. I especially appreciated an episode that I listened to yesterday, which I'm embedding below as a YouTube video (as an aside, I simply do not understand how YouTube has become a major podcast-listening medium, so it pains me a bit to do this, but I'm [once again](https://spencergreenhalgh.com/myself/burn-down-the-platforms/) trying to write something quickly before getting to real work, and YouTube embeds are relatively easy to do in Hugo, so that's what I'm going with.
+
+{{<youtube id="jCak5De0oaw">}}
+
+In the first segment of the podcast, Jason Koebler and Emmanuel Maiberg discuss [a piece](https://www.404media.co/ai-generated-boring-history-videos-are-flooding-youtube-and-drowning-out-real-history/) that the former wrote making the argument that "AI Generated 'Boring History' Videos are Flooding YouTube and Drowning Out Real History." I hadn't really read that piece, but as is often the case on the 404 Media podcast, I found myself appreciating their discussion of the piece even though I had skipped over it in text format.
+
+There's one point in particular that Koebler made that reminded me of some of the concerns I've been voicing recently about generative AI and epistemology. As journalists, I (genuinely!) don't know whether Koebler and Maiberg think about epistemology and knowledge production in the same way that researchers do (or ought to). However, I was pleased by how squarely Koebler hit the nail on the head with *how academic research works* and *how that is missing—or at least hidden—in (much? most? all?) generative AI output*. 
+
+Here's my sloppy copying from the YouTube transcript of the passage that really stood out to me, which begins at about 20:49 in the video above if you'd rather listen: 
+
+> And then, you know, I'm not a historian. And I've watched a lot of things, but something I really appreciate is that history feels like it's a conversation with different perspectives. And so a lot of these, the best humanmade channels will be like, "Well, this, this, like academic study or this historian says *this*, but like this other person who is also a well-renowned expert in the field says *that*, and it's not quite exactly the same. Um, so you need to like consider it from these different perspectives and then sort of decide, you know, what you believe to be the truth. Um, and I think that there's, there's absolutely none of that in here. And it, it definitely doesn't cite any its sources. Like it's, it's so funny. I'll be listening to one of these Ancient Americas, uh, videos and it will be like, oh, like, the, these, uh, Harvard, uh, anthropologists wrote a study, you know, dating these ruins to a specific time, but like these other historians say that's impossible because the migration patterns that, that were known  during this time period don't line up or whatever. And like, that's, that's obviously very vague, but, um, it's a lot of that and I find that to be extremely interesting.
+
+It's time to get back to real work, so I'm not going to take the time to unpack everything that's in there, but I don't know that I need to—that's pretty straightforward! While I know that there are potential and actual applications of generative AI that lay bare more of that epistemological work (and while there are more traditional sources of knowledge that also tend to conceal the epistemological work), I feel like this does a good job of getting at what my epistemological concerns about generative AI are.
