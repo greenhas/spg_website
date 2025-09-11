@@ -9,8 +9,8 @@ outlets: ["Global Mormon Studies"]
 projects: [""]
 topics: ["social media","Facebook","YouTube","Mormonism","Mormonism and the internet"]
 methods: ["digital methods","YouTube API","webscraping","qualitative coding"]
-link: ""
-link_type: ""
+link: "https://spencergreenhalgh.com/gms_2023_greenhalgh_tanner#1"
+link_type: "slides"
 summary: ""
 citation: '<strong>Greenhalgh</strong>, S. P. & Tanner, R. C. (2023, June). <em>Geographical and digital borders in the Community of Christ Toronto congregation</em>. Paper presented at the Global Mormon Studies 2023 conference.'
 ---

@@ -9,8 +9,8 @@ outlets: ["Society for the Scientific Study of Religion","Mormon Social Science 
 projects: [""]
 topics: ["social media","Mormonism","right-wing Mormonism","Mormonism and the internet","niche online platforms","far-right social media","Gab"]
 methods: ["digital methods","webscraping","qualitative coding"]
-link: ""
-link_type: ""
+link: "https://spencergreenhalgh.com/_mssa_2023_lds_gab.html#1"
+link_type: "slides"
 summary: ""
 citation: '<strong>Greenhalgh</strong>, S. P. (2023, October). <em>Navigating boundaries in Mormon spaces on far-right social media</em>. Paper presented at the 2023 annual meeting of the Society for the Scientific Study of Religion and the Religious Research Association.'
 ---
