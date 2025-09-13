@@ -9,8 +9,8 @@ outlets: ["Society for the Scientific Study of Religion","Mormon Social Science 
 projects: ["DezNat Twitter hashtag"]
 topics: ["Twitter","social media","Mormonism","right-wing Mormonism","Mormonism and the internet"]
 methods: ["digital methods","Twitter API","descriptive statistics"]
-link: ""
-link_type: ""
+link: "https://spencergreenhalgh.com/_mssa_2024_deznat#1"
+link_type: "slides"
 summary: ""
 citation: '<strong>Greenhalgh</strong>, S. P., & Chapman, A. (2024, October). <em>Trends and boundaries in Mormon Twitter’s reactionary #DezNat hashtag</em>. Paper presented at the 2024 annual meeting of the Society for the Scientific Study of Religion and the Religious Research Association.'
 ---
