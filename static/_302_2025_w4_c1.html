@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 302 4.1</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 302: Content Management Systems</h1>
+<h2 style=color:white>16 September 2025</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+background-color: gray
+
+class: center, middle
+
+# reading quiz
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# announcements
+
+
+---
+
+class: center, middle
+
+# Study Abroad Information Session
+## Wednesday, September 24th
+## 5pm - 6pm
+## 250 Pence Hall
+
+---
+
+class: center, middle
+
+# site visits!
+
+## LEX18: Tuesday, 23 Sep, 1pm; RSVP by 18 Sep
+
+## please contact [brooke.nowicki@uky.edu](brooke.nowicki@uky.edu) to RSVP!
+
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# lecture quiz recap
+
+---
+
+class: center, middle
+
+# quizzes are great, actually!
+
+---
+
+class: center, middle
+
+# how many steps can a content object be in at a time?
+
+---
+
+class: center, middle
+
+# what does "iterative" mean?
+
+---
+
+class: center, middle
+
+# what is the relationship between the "editorial process" and "workflow"?
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# phases and roles feedback
+
+---
+
+class: center, middle
+
+# what steps might a webpage go through from idea to publication?
+
+---
+
+class: center, middle
+
+# do these steps work for other web design/content management tasks?
+
+---
+
+class: center, middle
+
+# how might the phases you come up with inform the roles you come up with?
+
+---
+
+class: center, middle
+
+# what roles are you thinking about?
+
+---
+
+class: center, middle
+
+# your roles don't need to match Barker's!
+
+---
+
+class: center, middle
+
+# everyone needs a role, and every role needs a person
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# presentation
+
+---
+
+class: center, middle
+
+# why did disabled users join the Reddit blackout?
+
+---
+
+class: center, middle
+
+# what are some examples from the article on how content can be presented in different ways?
+
+---
+
+class: center, middle
+
+# how do you like to present content in different ways?
+
+---
+
+class: center, middle
+
+# "As I’ve said before, there’s a tendency to look at a news article that you’ve modeled using your CMS and delivered into a browser window and say, 'That’s my content.'"
+
+# "But it’s not. That’s a web page. It just happens to be displaying your news article. Your news article and the web page it rode in on are not the same thing."
+
+## Deane Barker, *[Web Content Management: Systems, Features, and Best Practices](https://deanebarker.net/books/squirrel/output-management/)*
+
+---
+
+class: center, middle
+
+# what gets combined with a content object to produce the presentation?
+
+---
+
+class: center, middle
+
+# let's compare [the presentation of a content object](https://spencergreenhalgh.com/myself/2025-08-15-this-was/) with the ["raw" content object](https://raw.githubusercontent.com/greenhas/spg_website/refs/heads/master/content/Myself/2025-08-15-This-was.md)
+
+## (here's the [template](https://raw.githubusercontent.com/greenhas/spg_website/refs/heads/master/themes/ananke_custom_2023/layouts/_default/book.html), if you're interested)
+
+---
+
+class: center, middle
+
+# "The key here is to separate your content in its pure form – its raw, naked data – from the ways in which it’s used."
+
+## Deane Barker, *[Web Content Management: Systems, Features, and Best Practices](https://deanebarker.net/books/squirrel/output-management/)*
+---
+
+# two types of separation 
+
+## (from source cited in Barker, [Examining the Separation Between Presentation and Content](https://deanebarker.net/tech/blog/examining-the-separation-between-presentation-and-content/)):
+
+--
+
+* ### "Content from its aesthetic surroundings, so the 'presentation' is the use of colors, fonts, etc."
+
+--
+
+* ### "Content from other content, so Content A is independent from Content B, and the 'presentation' is the potential combination of the two"
+
+---
+
+# why separate content from presentation?
+
+--
+
+* ## allow for multiple forms of presentation (example: [CSS Zen Garden](https://www.csszengarden.com))
+
+--
+
+* ## repackage content for different channels (example: [web ➡️ RSS ➡️ social](https://spencergreenhalgh.com/work/index.xml))
+
+--
+
+* ## modify presentation *once* (example: ["franchise" vs. "Franchise" typo](https://spencergreenhalgh.com/myself/2025-08-15-this-was/))
+
+---
+
+# how do we handle presentation in a web CMS?
+
+--
+
+## HTML (HyperText Markup Language)
+
+* `<h1>test</h1>`
+
+# test
+
+* `<strong>test</strong>`
+
+**test**
+
+* `<code>test</code>`
+
+`test`
+
+---
+
+# how do we handle presentation in a web CMS?
+
+## HTML (HyperText Markup Language)
+
+* `<h1>test</h1>`
+
+# test
+
+* `<strong>test</strong>`
+
+**test**
+
+* `<code>test</code>`
+
+<code style=color:red>test</code>
+
+---
+
+# how do we handle presentation in a web CMS?
+
+## HTML (HyperText Markup Language)
+
+* `<h1>test</h1>`
+
+# test
+
+* `<strong>test</strong>`
+
+**test**
+
+* `<code style=color:red>test</code>`
+
+<code style=color:red>test</code>
+
+---
+
+# how do we handle presentation in a web CMS?
+
+## CSS (Cascading Style Sheets)
+
+* in-line CSS:
+
+`<code style=color:red>test</code>`
+
+* CSS document:
+
+`code { `
+
+`color:red`
+
+`}`
+
+---
+
+# how do we handle presentation in a web CMS?
+
+## [templates](https://raw.githubusercontent.com/greenhas/spg_website/refs/heads/master/themes/ananke_custom_2023/layouts/_default/book.html) (with the help of [patterned content types]((https://raw.githubusercontent.com/greenhas/spg_website/refs/heads/master/content/Myself/2025-08-15-This-was.md))
+
+---
+
+# how do we handle presentation in a web CMS?
+
+## [themes](https://themes.gohugo.io/)
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		},
+     		slideNumberFormat:'%current%/%total%',
+  		});
+    </script>
+  </body>
+</html>
