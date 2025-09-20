@@ -58,8 +58,9 @@
 
 
 <style type="text/css">
+html { -webkit-text-size-adjust: 100%; }
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -69,7 +70,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -473,10 +474,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="23.2.3" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#calculating-mean-with-mean-and-standard-deviation-with-sd"><i class="fa fa-check"></i><b>23.2.3</b> Calculating Mean with <code>mean()</code> and Standard Deviation with <code>sd()</code></a></li>
 <li class="chapter" data-level="23.2.4" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#percentiles-quartiles-and-iqr"><i class="fa fa-check"></i><b>23.2.4</b> Percentiles, Quartiles and <code>IQR()</code></a></li>
 </ul></li>
-<li class="chapter" data-level="23.3" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#groupby"><i class="fa fa-check"></i><b>23.3</b> <code>group_by</code> rows</a>
-<ul>
-<li class="chapter" data-level="23.3.1" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#grouping-by-more-than-one-variable"><i class="fa fa-check"></i><b>23.3.1</b> Grouping by more than one variable</a></li>
-</ul></li>
+<li class="chapter" data-level="23.3" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#groupby"><i class="fa fa-check"></i><b>23.3</b> <code>group_by</code> rows</a></li>
 <li class="chapter" data-level="23.4" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#conclusion-10"><i class="fa fa-check"></i><b>23.4</b> Conclusion</a></li>
 </ul></li>
 <li class="chapter" data-level="24" data-path="m8c-calculate-descriptive-statistics-for-your-own-data.html"><a href="m8c-calculate-descriptive-statistics-for-your-own-data.html"><i class="fa fa-check"></i><b>24</b> M8C: Calculate Descriptive Statistics for Your Own Data</a></li>
@@ -814,19 +812,31 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>To practice loading data, start by creating a new script in RStudio. Last week, we emphasized that saving your code in scripts is <em>really</em> helpful for referencing it later. You might want to give this script a name like <code>data_loading.R</code> or something like that, to make it easy to reference in the future in case you need a refresher on how to load your own data. Please note that with future activities, I’m going to assume that you’re creating a new script for each activity and that you’re giving it a descriptive name—you won’t get advice like this in all walkthroughs! However, we’re still in the early stages of working with R, so a reminder here might be helpful!</p>
 <p>We’re going to use two packages as part of our loading process: <code>tidyverse</code> and <code>here</code>. Chances are that you don’t have these packages installed yet, so you can do that now by running <code>install.packages("tidyverse")</code> and <code>install.packages("here")</code>. I recommend running this code in the Console. I’ve put a lot of emphasis on saving code in a script, but there’s always code that is so unimportant that it doesn’t need to be saved. This includes installing packages, which is almost always a one-and-done thing that doesn’t need to be repeated (at least, not for a while). Besides, if you include installation code in the <code>.Rmd</code> files for your class projects, it creates all sorts of problems.</p>
 <p>Now, let’s go ahead and load those packages:</p>
-<div class="sourceCode" id="cb39"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb39-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb39-1" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb39-2"><a href="m4a-find-a-dataset-relevant-to-you.html#cb39-2" tabindex="-1"></a><span class="fu">library</span>(here)</span></code></pre></div>
+<div class="sourceCode" id="cb39"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb39-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb39-1" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code></pre></div>
+<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ forcats   1.0.0     ✔ readr     2.1.5
+✔ ggplot2   3.5.2     ✔ stringr   1.5.1
+✔ lubridate 1.9.4     ✔ tibble    3.3.0
+✔ purrr     1.1.0     ✔ tidyr     1.3.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ readr::col_factor() masks scales::col_factor()
+✖ purrr::discard()    masks scales::discard()
+✖ dplyr::filter()     masks stats::filter()
+✖ dplyr::lag()        masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+<div class="sourceCode" id="cb41"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb41-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb41-1" tabindex="-1"></a><span class="fu">library</span>(here)</span></code></pre></div>
+<pre><code>here() starts at /Users/spencergreenhalgh/spg_website/static/ICT_LIS_661_textbook_2025_Fall</code></pre>
 <p>We’re going to cover the <code>tidyverse</code> package in more detail in a couple of weeks, so for now, just trust me that it’s important and necessary. The <code>here</code> package, on the other hand, is worth getting into now. For any program on a computer to work with a file, it has to know where that file is so that it can access it. Modern programs on modern computers make this process so easy for us that we often don’t have to pay attention to the details of where a file is. R, on the other hand, is not so generous; it usually needs specific instructions for where to find a file before it can load it.</p>
 <p>The point of the <code>here</code> package is to make giving those specific instructions a bit easier for us. Let’s see what I mean by running the function <code>here()</code> now that we have the package of the same name loaded:</p>
-<div class="sourceCode" id="cb40"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb40-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb40-1" tabindex="-1"></a><span class="fu">here</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb43"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb43-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb43-1" tabindex="-1"></a><span class="fu">here</span>()</span></code></pre></div>
 <pre><code>[1] &quot;/Users/spencergreenhalgh/spg_website/static/ICT_LIS_661_textbook_2025_Fall&quot;</code></pre>
 <p>This is another case where the output that you see in the book is different than the output you’ll see where you run this code—and that’s the point of <code>here()</code>! What this function does is to figure out the <em>filepath</em> for the folder that contains the R project you’re working in. So, the output that I get when I run <code>here()</code> is the location of the R project associated with this textbook; it’s also formatted the way that macOS (the operating system I’m currently using) formats locations. You ought to get output that tells you the location of the R project that you set up for this class and that formats it in the way that your operating system formats locations. Think of <code>here()</code> as a shortcut that takes you to the main folder that you’re working in; that way, you only have to provide the extra detail beyond that. (At the risk of repeating myself, though, this emphasizes the importance of <strong>finding and working in the expected main folder</strong>. If you’re not doing that, <code>here()</code> won’t be as helpful.)</p>
 <p>For example, if you’ve followed the directions in the previous section, you should have your dataset for this activity saved in the <code>activity_data</code> folder. I also have a dataset—called <code>Twitter_hashtags.csv</code>—saved in my <code>activity_data</code> folder. If I run the following code, it tells R that I I’m looking inside my project folder (what the <code>here()</code> function figures out on its own) to find a subfolder called <code>activity_data</code> inside that project folder, to find a file called <code>Twitter_hashtags.csv</code> inside that subfolder. The result is the exact location of the file on my computer, providing a lot more information that I didn’t have to type out on my own!</p>
-<div class="sourceCode" id="cb42"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb42-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb42-1" tabindex="-1"></a><span class="fu">here</span>(<span class="st">&quot;activity_data&quot;</span>,<span class="st">&quot;Twitter_hashtags.csv&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb45"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb45-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb45-1" tabindex="-1"></a><span class="fu">here</span>(<span class="st">&quot;activity_data&quot;</span>,<span class="st">&quot;Twitter_hashtags.csv&quot;</span>)</span></code></pre></div>
 <pre><code>[1] &quot;/Users/spencergreenhalgh/spg_website/static/ICT_LIS_661_textbook_2025_Fall/activity_data/Twitter_hashtags.csv&quot;</code></pre>
 <p>When you run this code, it’s unlikely that your dataset is named <code>Twitter_hashtags.csv</code>, so you should replace that with the name of your file. Likewise, as we saw above, your output should also look different because the location of your project folder is different than the location of mine! No matter how different your output looks, though, you ought to notice how much shorter your <code>here()</code> argument is than the exact location that you might otherwise have to type out. That’s why <code>here()</code> is useful!</p>
 <p>In fact, let’s get to the good stuff. Now that I have the exact location of my dataset on my computer, I can put that inside the <code>read_csv()</code> function, which (as the name suggests), loads <code>.csv</code> files into RStudio. With the following code, I’m going to read my data in and save it as an object called <code>df</code> (short for dataframe—it’s a lazy-but-handy default name for the object containing your data).</p>
-<div class="sourceCode" id="cb44"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb44-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb44-1" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="fu">here</span>(<span class="st">&quot;activity_data&quot;</span>,<span class="st">&quot;Twitter_hashtags.csv&quot;</span>))</span></code></pre></div>
+<div class="sourceCode" id="cb47"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb47-1"><a href="m4a-find-a-dataset-relevant-to-you.html#cb47-1" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="fu">here</span>(<span class="st">&quot;activity_data&quot;</span>,<span class="st">&quot;Twitter_hashtags.csv&quot;</span>))</span></code></pre></div>
 <pre><code>Rows: 60 Columns: 22
 ── Column specification ────────────────────────────────────────────────────────
 Delimiter: &quot;,&quot;

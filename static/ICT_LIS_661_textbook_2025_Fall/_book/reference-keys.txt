@@ -49,7 +49,7 @@ fig:summary-function
 fig:sum1
 fig:groupsummarize
 tab:five-random-courses
-tab:unnamed-chunk-125
+tab:unnamed-chunk-126
 fig:correlation1
 fig:guess-the-correlation
 fig:numxplot1
@@ -61,7 +61,7 @@ tab:instructor-21
 fig:numxplot4
 tab:regression-points-1
 tab:model2-data-preview
-tab:unnamed-chunk-140
+tab:unnamed-chunk-141
 fig:lifeExp2007hist
 fig:catxplot0b
 fig:catxplot1
@@ -76,9 +76,9 @@ tab:recall-table
 tab:regtable-broom
 tab:regpoints-augment
 tab:model4-data-preview
-tab:unnamed-chunk-160
+tab:unnamed-chunk-161
 fig:numxcatxplot1
-tab:unnamed-chunk-163
+tab:unnamed-chunk-164
 tab:regtable-interaction
 tab:interaction-summary
 fig:numxcatx-parallel
@@ -88,7 +88,7 @@ fig:numxcatx-comparison
 fig:fitted-values
 tab:model4-points-table
 tab:model3-data-preview
-tab:unnamed-chunk-175
+tab:unnamed-chunk-176
 tab:model3-correlation
 fig:2numxplot1
 fig:3D-scatterplot
@@ -452,7 +452,6 @@ calculating-the-standard-deviation
 calculating-mean-with-mean-and-standard-deviation-with-sd
 percentiles-quartiles-and-iqr
 groupby
-grouping-by-more-than-one-variable
 conclusion-10
 m8c-calculate-descriptive-statistics-for-your-own-data
 m9u-linear-regression

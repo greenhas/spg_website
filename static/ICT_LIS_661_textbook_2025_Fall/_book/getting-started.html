@@ -58,8 +58,9 @@
 
 
 <style type="text/css">
+html { -webkit-text-size-adjust: 100%; }
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -69,7 +70,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -473,10 +474,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="23.2.3" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#calculating-mean-with-mean-and-standard-deviation-with-sd"><i class="fa fa-check"></i><b>23.2.3</b> Calculating Mean with <code>mean()</code> and Standard Deviation with <code>sd()</code></a></li>
 <li class="chapter" data-level="23.2.4" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#percentiles-quartiles-and-iqr"><i class="fa fa-check"></i><b>23.2.4</b> Percentiles, Quartiles and <code>IQR()</code></a></li>
 </ul></li>
-<li class="chapter" data-level="23.3" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#groupby"><i class="fa fa-check"></i><b>23.3</b> <code>group_by</code> rows</a>
-<ul>
-<li class="chapter" data-level="23.3.1" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#grouping-by-more-than-one-variable"><i class="fa fa-check"></i><b>23.3.1</b> Grouping by more than one variable</a></li>
-</ul></li>
+<li class="chapter" data-level="23.3" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#groupby"><i class="fa fa-check"></i><b>23.3</b> <code>group_by</code> rows</a></li>
 <li class="chapter" data-level="23.4" data-path="m8a-descriptive-statistics.html"><a href="m8a-descriptive-statistics.html#conclusion-10"><i class="fa fa-check"></i><b>23.4</b> Conclusion</a></li>
 </ul></li>
 <li class="chapter" data-level="24" data-path="m8c-calculate-descriptive-statistics-for-your-own-data.html"><a href="m8c-calculate-descriptive-statistics-for-your-own-data.html"><i class="fa fa-check"></i><b>24</b> M8C: Calculate Descriptive Statistics for Your Own Data</a></li>
@@ -944,10 +942,10 @@ Figure 5.4: Analogy of R versus R packages.
 <p>We’d all like to arrive at our destinations on time whenever possible. (Unless you secretly love hanging out at airports. If you are one of these people, pretend for a moment that you are very much anticipating being at your final destination.) Throughout this book, we’re going to analyze data related to all domestic flights departing from one of New York City’s three main airports in 2023: Newark Liberty International (EWR), John F. Kennedy International (JFK), and LaGuardia Airport (LGA). We’ll access this data using the <code>nycflights23</code> R package, which contains five datasets saved in five data frames:</p>
 <ul>
 <li><code>flights</code>: Information on all flights.</li>
-<li><code>airlines</code>: A table matching airline names and their two-letter International Air Transport Association (IATA) airline codes (also known as carrier codes) for 16 airline companies. For example, “DL” is the two-letter code for Delta.</li>
-<li><code>planes</code>: Information about each of the 3,322 physical aircraft used.</li>
-<li><code>weather</code>: Hourly meteorological data for each of the three NYC airports. This data frame has 26,115 rows, roughly corresponding to the <span class="math inline">\(365 \times 24 \times 3 = 26,280\)</span> possible hourly measurements one can observe at three locations over the course of a year.</li>
-<li><code>airports</code>: Names, codes, and locations of the 1,458 domestic destinations.</li>
+<li><code>airlines</code>: A table matching airline names and their two-letter International Air Transport Association (IATA) airline codes (also known as carrier codes) for 14 airline companies. For example, “DL” is the two-letter code for Delta.</li>
+<li><code>planes</code>: Information about each of the 4,840 physical aircraft used.</li>
+<li><code>weather</code>: Hourly meteorological data for each of the three NYC airports. This data frame has 26,207 rows, roughly corresponding to the <span class="math inline">\(365 \times 24 \times 3 = 26,280\)</span> possible hourly measurements one can observe at three locations over the course of a year.</li>
+<li><code>airports</code>: Names, codes, and locations of the 1,255 domestic destinations.</li>
 </ul>
 <p>The <code>nycflights23</code> package is an updated version of <a href="https://nycflights13.tidyverse.org/">the classic <code>nycflights13</code> R package</a>. <code>nycflights23</code> was authored by Chester Ismay using the <a href="https://anyflights.netlify.app/"><code>anyflights</code> R package</a> developed by <a href="https://www.simonpcouch.com/">Simon Couch</a>. Simon granted permission to Ismay and his colleagues to create <code>nycflights23</code> and submit the package to CRAN.</p>
 </div>
@@ -955,34 +953,33 @@ Figure 5.4: Analogy of R versus R packages.
 <h3><span class="header-section-number">5.4.2</span> <code>flights</code> data frame<a href="getting-started.html#flights-data-frame" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>We’ll begin by exploring the <code>flights</code> data frame and get an idea of its structure. Run the following code in your console, either by typing it or by cutting-and-pasting it. It displays the contents of the <code>flights</code> data frame in your console. Note that depending on the size of your monitor, the output may vary slightly.</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="getting-started.html#cb5-1" tabindex="-1"></a>flights</span></code></pre></div>
-<pre><code># A tibble: 336,776 × 22
+<pre><code># A tibble: 435,352 × 19
     year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time
    &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;
- 1  2013     1     1      517            515         2      830            819
- 2  2013     1     1      533            529         4      850            830
- 3  2013     1     1      542            540         2      923            850
- 4  2013     1     1      544            545        -1     1004           1022
- 5  2013     1     1      554            600        -6      812            837
- 6  2013     1     1      554            558        -4      740            728
- 7  2013     1     1      555            600        -5      913            854
- 8  2013     1     1      557            600        -3      709            723
- 9  2013     1     1      557            600        -3      838            846
-10  2013     1     1      558            600        -2      753            745
-# ℹ 336,766 more rows
-# ℹ 14 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,
+ 1  2023     1     1        1           2038       203      328              3
+ 2  2023     1     1       18           2300        78      228            135
+ 3  2023     1     1       31           2344        47      500            426
+ 4  2023     1     1       33           2140       173      238           2352
+ 5  2023     1     1       36           2048       228      223           2252
+ 6  2023     1     1      503            500         3      808            815
+ 7  2023     1     1      520            510        10      948            949
+ 8  2023     1     1      524            530        -6      645            710
+ 9  2023     1     1      537            520        17      926            818
+10  2023     1     1      547            545         2      845            852
+# ℹ 435,342 more rows
+# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,
 #   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,
-#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;, gain &lt;dbl&gt;, hours &lt;dbl&gt;,
-#   gain_per_hour &lt;dbl&gt;</code></pre>
+#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;</code></pre>
 <p>Let’s unpack this output:</p>
 <ul>
-<li><code>A tibble: 336,776 x 22</code>: A <code>tibble</code> is a specific kind of data frame in R. This particular data frame has
+<li><code>A tibble: 435,352 x 19</code>: A <code>tibble</code> is a specific kind of data frame in R. This particular data frame has
 <ul>
-<li><code>336,776</code> rows corresponding to different <em>observations</em>. Here, each observation is a flight.</li>
-<li><code>22</code> columns corresponding to 22 <em>variables</em> describing each observation.</li>
+<li><code>435,352</code> rows corresponding to different <em>observations</em>. Here, each observation is a flight.</li>
+<li><code>19</code> columns corresponding to 19 <em>variables</em> describing each observation.</li>
 </ul></li>
 <li><code>year</code>, <code>month</code>, <code>day</code>, <code>dep_time</code>, <code>sched_dep_time</code>, <code>dep_delay</code>, and <code>arr_time</code> are the different columns, in other words, the different variables of this dataset.</li>
-<li>We then have a preview of the first 10 rows of observations corresponding to the first 10 flights. R is only showing the first 10 rows, because if it showed all <code>336,776</code> rows, it would overwhelm your screen.</li>
-<li><code>... with 336,766 more rows` and 14 more variables:</code> indicating to us that 336,766 more rows of data and 11 more variables could not fit in this screen.</li>
+<li>We then have a preview of the first 10 rows of observations corresponding to the first 10 flights. R is only showing the first 10 rows, because if it showed all <code>435,352</code> rows, it would overwhelm your screen.</li>
+<li><code>... with 435,342 more rows` and 11 more variables:</code> indicating to us that 435,342 more rows of data and 11 more variables could not fit in this screen.</li>
 </ul>
 <p>Unfortunately, this output does not allow us to explore the data very well, but it does give a nice preview. Let’s look at some different ways to explore data frames.</p>
 </div>
@@ -1002,30 +999,27 @@ Figure 5.4: Analogy of R versus R packages.
 <p><strong>2. <code>glimpse()</code></strong>:</p>
 <p>The second way we’ll cover to explore a data frame is using the <code>glimpse()</code> function included in the <code>dplyr</code> package. Thus, you can only use the <code>glimpse()</code> function after you’ve loaded the <code>dplyr</code> package by running <code>library(dplyr)</code>. This function provides us with an alternative perspective for exploring a data frame than the <code>View()</code> function:</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="getting-started.html#cb7-1" tabindex="-1"></a><span class="fu">glimpse</span>(flights)</span></code></pre></div>
-<pre><code>Rows: 336,776
-Columns: 22
-$ year           &lt;int&gt; 2013, 2013, 2013, 2013, 2013, 2013, 2013, 2013, 2013, 2…
+<pre><code>Rows: 435,352
+Columns: 19
+$ year           &lt;int&gt; 2023, 2023, 2023, 2023, 2023, 2023, 2023, 2023, 2023, 2…
 $ month          &lt;int&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1…
 $ day            &lt;int&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1…
-$ dep_time       &lt;int&gt; 517, 533, 542, 544, 554, 554, 555, 557, 557, 558, 558, …
-$ sched_dep_time &lt;int&gt; 515, 529, 540, 545, 600, 558, 600, 600, 600, 600, 600, …
-$ dep_delay      &lt;dbl&gt; 2, 4, 2, -1, -6, -4, -5, -3, -3, -2, -2, -2, -2, -2, -1…
-$ arr_time       &lt;int&gt; 830, 850, 923, 1004, 812, 740, 913, 709, 838, 753, 849,…
-$ sched_arr_time &lt;int&gt; 819, 830, 850, 1022, 837, 728, 854, 723, 846, 745, 851,…
-$ arr_delay      &lt;dbl&gt; 11, 20, 33, -18, -25, 12, 19, -14, -8, 8, -2, -3, 7, -1…
-$ carrier        &lt;chr&gt; &quot;UA&quot;, &quot;UA&quot;, &quot;AA&quot;, &quot;B6&quot;, &quot;DL&quot;, &quot;UA&quot;, &quot;B6&quot;, &quot;EV&quot;, &quot;B6&quot;, &quot;…
-$ flight         &lt;int&gt; 1545, 1714, 1141, 725, 461, 1696, 507, 5708, 79, 301, 4…
-$ tailnum        &lt;chr&gt; &quot;N14228&quot;, &quot;N24211&quot;, &quot;N619AA&quot;, &quot;N804JB&quot;, &quot;N668DN&quot;, &quot;N394…
-$ origin         &lt;chr&gt; &quot;EWR&quot;, &quot;LGA&quot;, &quot;JFK&quot;, &quot;JFK&quot;, &quot;LGA&quot;, &quot;EWR&quot;, &quot;EWR&quot;, &quot;LGA&quot;,…
-$ dest           &lt;chr&gt; &quot;IAH&quot;, &quot;IAH&quot;, &quot;MIA&quot;, &quot;BQN&quot;, &quot;ATL&quot;, &quot;ORD&quot;, &quot;FLL&quot;, &quot;IAD&quot;,…
-$ air_time       &lt;dbl&gt; 227, 227, 160, 183, 116, 150, 158, 53, 140, 138, 149, 1…
-$ distance       &lt;dbl&gt; 1400, 1416, 1089, 1576, 762, 719, 1065, 229, 944, 733, …
-$ hour           &lt;dbl&gt; 5, 5, 5, 5, 6, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 5, 6, 6, 6…
-$ minute         &lt;dbl&gt; 15, 29, 40, 45, 0, 58, 0, 0, 0, 0, 0, 0, 0, 0, 0, 59, 0…
-$ time_hour      &lt;dttm&gt; 2013-01-01 05:00:00, 2013-01-01 05:00:00, 2013-01-01 0…
-$ gain           &lt;dbl&gt; -9, -16, -31, 17, 19, -16, -24, 11, 5, -10, 0, 1, -9, 1…
-$ hours          &lt;dbl&gt; 3.783, 3.783, 2.667, 3.050, 1.933, 2.500, 2.633, 0.883,…
-$ gain_per_hour  &lt;dbl&gt; -2.38, -4.23, -11.62, 5.57, 9.83, -6.40, -9.11, 12.45, …</code></pre>
+$ dep_time       &lt;int&gt; 1, 18, 31, 33, 36, 503, 520, 524, 537, 547, 549, 551, 5…
+$ sched_dep_time &lt;int&gt; 2038, 2300, 2344, 2140, 2048, 500, 510, 530, 520, 545, …
+$ dep_delay      &lt;dbl&gt; 203, 78, 47, 173, 228, 3, 10, -6, 17, 2, -10, -9, -7, -…
+$ arr_time       &lt;int&gt; 328, 228, 500, 238, 223, 808, 948, 645, 926, 845, 905, …
+$ sched_arr_time &lt;int&gt; 3, 135, 426, 2352, 2252, 815, 949, 710, 818, 852, 901, …
+$ arr_delay      &lt;dbl&gt; 205, 53, 34, 166, 211, -7, -1, -25, 68, -7, 4, -13, -14…
+$ carrier        &lt;chr&gt; &quot;UA&quot;, &quot;DL&quot;, &quot;B6&quot;, &quot;B6&quot;, &quot;UA&quot;, &quot;AA&quot;, &quot;B6&quot;, &quot;AA&quot;, &quot;UA&quot;, &quot;…
+$ flight         &lt;int&gt; 628, 393, 371, 1053, 219, 499, 996, 981, 206, 225, 800,…
+$ tailnum        &lt;chr&gt; &quot;N25201&quot;, &quot;N830DN&quot;, &quot;N807JB&quot;, &quot;N265JB&quot;, &quot;N17730&quot;, &quot;N925…
+$ origin         &lt;chr&gt; &quot;EWR&quot;, &quot;JFK&quot;, &quot;JFK&quot;, &quot;JFK&quot;, &quot;EWR&quot;, &quot;EWR&quot;, &quot;JFK&quot;, &quot;EWR&quot;,…
+$ dest           &lt;chr&gt; &quot;SMF&quot;, &quot;ATL&quot;, &quot;BQN&quot;, &quot;CHS&quot;, &quot;DTW&quot;, &quot;MIA&quot;, &quot;BQN&quot;, &quot;ORD&quot;,…
+$ air_time       &lt;dbl&gt; 367, 108, 190, 108, 80, 154, 192, 119, 258, 157, 164, 1…
+$ distance       &lt;dbl&gt; 2500, 760, 1576, 636, 488, 1085, 1576, 719, 1400, 1065,…
+$ hour           &lt;dbl&gt; 20, 23, 23, 21, 20, 5, 5, 5, 5, 5, 5, 6, 5, 6, 6, 6, 6,…
+$ minute         &lt;dbl&gt; 38, 0, 44, 40, 48, 0, 10, 30, 20, 45, 59, 0, 59, 0, 0, …
+$ time_hour      &lt;dttm&gt; 2023-01-01 20:00:00, 2023-01-01 23:00:00, 2023-01-01 2…</code></pre>
 <p>Observe that <code>glimpse()</code> will give you the first few entries of each variable in a row after the variable name. In addition, the <em>data type</em> (see Subsection <a href="getting-started.html#programming-concepts">5.2.1</a>) of the variable is given immediately after each variable’s name inside <code>&lt; &gt;</code>. Here, <code>int</code> and <code>dbl</code> refer to “integer” and “double,” which are computer coding terminology for quantitative/numerical variables. “Doubles” take up twice the size to store on a computer compared to integers.</p>
 <p>In contrast, <code>chr</code> refers to “character,” which is computer terminology for text data. In most forms, text data, such as the <code>carrier</code> or <code>origin</code> of a flight, are categorical variables. The <code>time_hour</code> variable is another data type: <code>dttm</code>. These types of variables represent date and time combinations. However, we won’t work with dates and times in this book; we leave this topic for other data science books like <a href="https://datasciencebook.ca/"><em>Data Science: A First Introduction</em> by Tiffany-Anne Timbers, Melissa Lee, and Trevor Campbell</a> or <a href="https://r4ds.had.co.nz/dates-and-times.html"><em>R for Data Science</em></a> <span class="citation">[@rds2016]</span>.</p>
 <p><strong>3. <code>kable()</code></strong>:</p>
@@ -1042,16 +1036,16 @@ $ gain_per_hour  &lt;dbl&gt; -2.38, -4.23, -11.62, 5.57, 9.83, -6.40, -9.11, 12.
 <h3><span class="header-section-number">5.4.4</span> Identification and measurement variables<a href="getting-started.html#identification-vs-measurement-variables" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>There is a subtle difference between the kinds of variables that you will encounter in data frames. There are <em>identification variables</em> and <em>measurement variables</em>. For example, let’s explore the <code>airports</code> data frame by showing the output of <code>glimpse(airports)</code>:</p>
 <div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="getting-started.html#cb11-1" tabindex="-1"></a><span class="fu">glimpse</span>(airports)</span></code></pre></div>
-<pre><code>Rows: 1,458
+<pre><code>Rows: 1,255
 Columns: 8
-$ faa   &lt;chr&gt; &quot;04G&quot;, &quot;06A&quot;, &quot;06C&quot;, &quot;06N&quot;, &quot;09J&quot;, &quot;0A9&quot;, &quot;0G6&quot;, &quot;0G7&quot;, &quot;0P2&quot;, &quot;…
-$ name  &lt;chr&gt; &quot;Lansdowne Airport&quot;, &quot;Moton Field Municipal Airport&quot;, &quot;Schaumbur…
-$ lat   &lt;dbl&gt; 41.1, 32.5, 42.0, 41.4, 31.1, 36.4, 41.5, 42.9, 39.8, 48.1, 39.6…
-$ lon   &lt;dbl&gt; -80.6, -85.7, -88.1, -74.4, -81.4, -82.2, -84.5, -76.8, -76.6, -…
-$ alt   &lt;dbl&gt; 1044, 264, 801, 523, 11, 1593, 730, 492, 1000, 108, 409, 875, 10…
-$ tz    &lt;dbl&gt; -5, -6, -6, -5, -5, -5, -5, -5, -5, -8, -5, -6, -5, -5, -5, -5, …
-$ dst   &lt;chr&gt; &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;U&quot;, &quot;A&quot;, &quot;A&quot;, &quot;U&quot;, &quot;A&quot;,…
-$ tzone &lt;chr&gt; &quot;America/New_York&quot;, &quot;America/Chicago&quot;, &quot;America/Chicago&quot;, &quot;Ameri…</code></pre>
+$ faa   &lt;chr&gt; &quot;AAF&quot;, &quot;AAP&quot;, &quot;ABE&quot;, &quot;ABI&quot;, &quot;ABL&quot;, &quot;ABQ&quot;, &quot;ABR&quot;, &quot;ABY&quot;, &quot;ACK&quot;, &quot;…
+$ name  &lt;chr&gt; &quot;Apalachicola Regional Airport&quot;, &quot;Andrau Airpark&quot;, &quot;Lehigh Valle…
+$ lat   &lt;dbl&gt; 29.7, 29.7, 40.7, 32.4, 67.1, 35.0, 45.4, 31.5, 41.3, 31.6, 41.0…
+$ lon   &lt;dbl&gt; -85.0, -95.6, -75.4, -99.7, -157.9, -106.6, -98.4, -84.2, -70.1,…
+$ alt   &lt;dbl&gt; 20, 79, 393, 1791, 334, 5355, 1302, 197, 47, 516, 221, 75, 18, 7…
+$ tz    &lt;dbl&gt; -5, -6, -5, -6, -9, -7, -6, -5, -5, -6, -8, -5, -10, -6, -9, -6,…
+$ dst   &lt;chr&gt; &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;, &quot;A&quot;,…
+$ tzone &lt;chr&gt; &quot;America/New_York&quot;, &quot;America/Chicago&quot;, &quot;America/New_York&quot;, &quot;Amer…</code></pre>
 <p>The variables <code>faa</code> and <code>name</code> are <em>identification variables</em> that uniquely identify each airport. <code>faa</code> provides the airport’s unique FAA code, while <code>name</code> gives its official name. These variables are used to uniquely identify each row in a data frame. The remaining variables (<code>lat</code>, <code>lon</code>, <code>alt</code>, <code>tz</code>, <code>dst</code>, <code>tzone</code>) are often called <em>measurement</em> or <em>characteristic</em> variables: variables that describe properties of each observational unit. For example, <code>lat</code> and <code>long</code> describe the latitude and longitude of each airport.</p>
 <p>Furthermore, sometimes a single variable might not be enough to uniquely identify each observational unit: combinations of variables might be needed. While it is not an absolute rule, for organizational purposes it is considered good practice to have your identification variables in the leftmost columns of your data frame.</p>
 </div>
