@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 302 5.1</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 302: Content Management Systems</h1>
+<h2 style=color:white>23 September 2025</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# reading quiz
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# lecture quiz recap
+
+---
+
+class: center, middle
+
+# "we separate [content objects] from [which] two separate things"?
+
+---
+
+---
+
+# two types of separation 
+
+## (from source cited in Barker, [Examining the Separation Between Presentation and Content](https://deanebarker.net/tech/blog/examining-the-separation-between-presentation-and-content/)):
+
+--
+
+* ### "Content from its aesthetic surroundings, so the 'presentation' is the use of colors, fonts, etc."
+
+--
+
+* ### "Content from other content, so Content A is independent from Content B, and the 'presentation' is the potential combination of the two"
+
+---
+
+class: center, middle
+
+# let's compare [the presentation of a content object](https://spencergreenhalgh.com/myself/2025-08-15-this-was/) with the ["raw" content object](https://raw.githubusercontent.com/greenhas/spg_website/refs/heads/master/content/Myself/2025-08-15-This-was.md)
+
+## (here's the [template](https://raw.githubusercontent.com/greenhas/spg_website/refs/heads/master/themes/ananke_custom_2023/layouts/_default/book.html), if you're interested)
+
+---
+
+# why separate content from presentation?
+
+--
+
+* ## allow for multiple forms of presentation (example: [CSS Zen Garden](https://www.csszengarden.com))
+
+--
+
+* ## repackage content for different channels (example: [web ➡️ RSS ➡️ social](https://spencergreenhalgh.com/work/index.xml))
+
+--
+
+* ## modify presentation *once* (example: ["franchise" vs. "Franchise" typo](https://spencergreenhalgh.com/myself/2025-08-15-this-was/))
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# announcements
+
+---
+
+class: center, middle
+
+# Study Abroad Information Session
+## Wednesday, September 24th
+## 5pm - 6pm
+## 250 Pence Hall
+
+
+
+---
+
+class: center, middle
+
+# content aggregation
+
+---
+
+class: center, middle
+
+## how would you find this comic?
+
+<a href="https://www.dorktower.com/2005/06/14/comics-archive-691/"><img src="https://spencergreenhalgh.com/DorkTower461.gif" height = 300></a>
+
+## chat with a partner
+
+---
+
+# content aggregation
+
+--
+
+> *An intentional grouping of content for the purposes of organization or presentation*
+
+Deane Barker, [Web Content Management glossary](https://deanebarker.net/tech/glossary/aggregation/)
+
+--
+
+### [content aggregation for presentation](https://spencergreenhalgh.com/work/new-edition-of-my-remixed-data-science-textbook/)
+
+--
+
+### [content aggregation for organization](https://spencergreenhalgh.com/tags/ict-661/)
+
+---
+
+# CMS features that support content aggregation
+
+--
+
+* ## menus
+
+--
+
+* ## taxonomies
+
+--
+
+* ## other?
+
+---
+
+class: center, middle
+
+# [example of taxonomies](https://spencergreenhalgh.com/research)
+
+---
+
+# serial
+
+--
+
+* ## organized "in a line"
+
+--
+
+* ## [Project Zion Podcast](https://www.projectzionpodcast.org/episodes-quick-list/)
+
+--
+
+
+* ## [YouTube playlist/music album](https://www.youtube.com/watch?v=sYRp8oP0yiw&list=OLAK5uy_n_KoKi3ioPEsTMStsk_DIjRjvSZwBbIhg)
+
+---
+
+# hierarchical
+
+--
+
+* ## organized like a family tree, with "parent" and "child" content
+
+--
+
+* ## menus and categories are especially helpful here
+
+--
+
+* ## [Project Zion Podcast](https://www.projectzionpodcast.org/series/)
+    
+--
+
+* ## [Fantasy Flight Games website](https://www.fantasyflightgames.com/en/products/#/universe)
+    
+---
+
+# tabular
+
+--
+    
+* ## organized in a table or database and then accessed through searching
+
+--
+
+* ## [Project Zion Podcast](https://www.projectzionpodcast.org/?s=Neil+DeAtley)
+
+--
+
+* ## [randombundlegame.com](https://randombundlegame.com/)
+    
+---
+
+# network
+
+--
+
+* ## organized through links between content
+
+--
+
+* ## tags are _kind of_ related to network content 
+
+--
+
+* ## [Hugo blog post](https://spencergreenhalgh.com/work/new-edition-of-my-remixed-data-science-textbook/)
+
+--
+
+* ## [Wikipedia](https://en.wikipedia.org/wiki/Cheese)
+    
+---
+
+# relational
+
+--
+
+* ## similar to hierarchical, but different content types and different relationships are more tightly defined
+
+--
+
+* ## [IMDb](https://www.imdb.com/title/tt0080297/?ref_=nv_sr_srsg_3)
+
+---
+
+# implicit vs. explicit aggregation
+
+--
+
+* ## implicit aggregation is built off of _internal_ characteristics of the content
+
+--
+
+* ## explicit aggregation is defined _externally_ to the content itself
+
+---
+
+# static vs. dynamic aggregation
+
+--
+
+* ## static aggregation is hand-picked and arbitrary
+
+--
+
+* ## dynamic aggregation is automatically-generated and based on criteria
+
+---
+
+# fixed vs. variable aggregation
+
+--
+
+* ### both of these derive from dynamic aggregations
+
+--
+
+* ### a fixed aggregation is the same every time for everyone
+
+--
+
+* ### a variable aggregation changes based on context
+
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({});
+    </script>
+  </body>
+</html>
