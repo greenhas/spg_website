@@ -1,4 +1,4 @@
-# M11A: Sampling {#sampling}
+# M11A: Sampling
 
 This content draws on material from *[Statistical Inference via Data Science: A ModernDive into R and the Tidyverse](https://moderndive.com/)* by [Chester Ismay](https://chester.rbind.io/) and [Albert Y. Kim](https://rudeboybert.rbind.io/), licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
