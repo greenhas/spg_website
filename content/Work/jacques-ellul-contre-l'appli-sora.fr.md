@@ -2,7 +2,7 @@
 types: ["macro"]
 date: 2025-10-08T10:52:02-04:00
 title: "Jacques Ellul contre l'appli Sora"
-tags: ["Sora","Jacques Ellul","OpenAI","Théologie et technique","Humiliation of the Word"]
+tags: ["Sora","Jacques Ellul","OpenAI","Théologie et technique","The Humiliation of the Word"]
 ---
 Un peu par hasard, j'ai fini récemment ma lecture de deux livres différents par Jacques Ellul : *Théologie et technique* ainsi que *Humiliation of the Word* (la traduction anglaise de *La parole humiliée*, car je vais devoir en écrire en anglais, et j'avoue en plus que mon français n'est pas toujours à la hauteur d'Ellul « en V.O. »). Ça fait plusieurs jours que j'ai envie d'écrire quelque chose sur la relation image-parole qu'il établit dans les pages de *La parole humilié*, et je compte toujours écrire ce post-là, mais en terminant *Théologie et technique*, j'ai été frappé par un passage qui ressemble beaucoup ce dont j'avais envie d'écrire dans l'autre livre. 
 
