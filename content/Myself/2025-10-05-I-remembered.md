@@ -3,11 +3,11 @@ types: ["media"]
 layout: book
 date: 2025-10-05T13:56:43-04:00
 title: "📚 bookblog: Joe Country  (❤️❤️❤️❤️🖤)"
-tags: ["Joe Country","Mick Herron","Gerard Doyle","Slow Horses","Slow Horses"]
+tags: ["Joe Country","Mick Herron","Gerard Doyle","Slough House","Slow Horses"]
 media: ["book","audiobook"]
 titles: ["Joe Country"]
 creators: ["Mick Herron","Gerard Doyle"]
-series: ["Slow Horses"]
+series: ["Slough House"]
 franchise: ["Slow Horses"]
 ratings: ["❤️❤️❤️❤️🖤"]
 params:
