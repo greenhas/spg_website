@@ -58,12 +58,6 @@ The most basic and commonly-used type of regression is *linear regression*\index
 Linear regression involves a *numerical* response and one or more regressors that can be *numerical* or *categorical*. It is called linear regression because the **statistical model** that describes the relationship between the expected response and the regressors is assumed to be linear. In particular, when the model has a single regressor, the linear regression is the equation of a line.
 Linear regression is the foundation for almost any other type of regression or related method.
 
-In Chapter \@ref(regression), we introduce linear regression with only one regressor. In Section \@ref(model1), the explanatory variable is numerical. This scenario is known as *simple linear regression*. In Section \@ref(model2), the explanatory variable is categorical.
-
-In Chapter \@ref(multiple-regression) on multiple regression, we extend these ideas and work with models with two explanatory variables.  In Section \@ref(model4), we work with two numerical explanatory variables. In Section \@ref(model3), we work with one numerical and one categorical explanatory variable and study the model with and without interactions.
-
-In Chapter \@ref(inference-for-regression) on inference for regression, we revisit the regression models and analyze the results using *statistical inference*, a method discussed in Chapters \@ref(sampling), \@ref(confidence-intervals), and \@ref(hypothesis-testing) on sampling, bootstrapping and confidence intervals, and hypothesis testing and $p$-values, respectively. The focus there is also be on using linear regression for prediction instead of explanation.
-
 We begin with regression with a single explanatory variable\index{regression!basic}. We also introduce the *correlation coefficient*, discuss "correlation versus causation," and determine whether the model *fits* the data observed.
 
 ### Needed packages {-#reg-packages}
@@ -361,7 +355,7 @@ ggplot(UN_data_m9,
 
 We do not see much for overplotting due to little to no overlap in the points. Most life expectancy entries appear to fall between 70 and 80 years, while most fertility rate entries fall between 1.5 and 3.5 births. Furthermore, while opinions may vary, it is our opinion that the relationship between fertility rate and life expectancy is "moderately negative." This is consistent with our earlier computed correlation coefficient of `r cor_m9`.
 
-We build on the scatterplot in Figure \@ref(fig:numxplot1) by adding a "best-fitting" line: of all possible lines we can draw on this scatterplot, it is the line that "best" fits through the cloud of points. We do this by adding a new `geom_smooth(method = "lm", se = FALSE)` layer to the `ggplot()` code that created the scatterplot in Figure \@ref(fig:numxplot1). The `method = "lm"` argument sets the line to be a "**l**inear **m**odel." The `se = FALSE` \index{R packages!ggplot2!geom\_smooth()} argument suppresses _standard error_ uncertainty bars. (We'll define the concept of _standard error_ later in Subsection \@ref(sampling-variation).)
+We build on the scatterplot in Figure \@ref(fig:numxplot1) by adding a "best-fitting" line: of all possible lines we can draw on this scatterplot, it is the line that "best" fits through the cloud of points. We do this by adding a new `geom_smooth(method = "lm", se = FALSE)` layer to the `ggplot()` code that created the scatterplot in Figure \@ref(fig:numxplot1). The `method = "lm"` argument sets the line to be a "**l**inear **m**odel." The `se = FALSE` \index{R packages!ggplot2!geom\_smooth()} argument suppresses _standard error_ uncertainty bars. (We'll define the concept of _standard error_ later.)
 
 ```{r numxplot3, fig.cap="Scatterplot of life expectancy and fertility rate with regression line.", message=FALSE, fig.height=ifelse(knitr::is_latex_output(), 4, 5)}
 ggplot(UN_data_m9, aes(x = life_exp, y = fert_rate)) +
@@ -1248,7 +1242,7 @@ If you are even more curious about how these and other wrapper functions work, t
 
 ## Conclusion {#reg-conclusion}
 
-In this chapter, you've studied the term _basic regression_, where you fit models that only have one explanatory variable. In Chapter \@ref(multiple-regression), we'll study *multiple regression*, where our regression models can now have more than one explanatory variable! In particular, we'll consider two scenarios: regression models with one numerical and one categorical explanatory variable and regression models with two numerical explanatory variables. This will allow you to construct more sophisticated and more powerful models, all in the hopes of better explaining your outcome variable $y$.
+In this chapter, you've studied the term _basic regression_, where you fit models that only have one explanatory variable. In the next module, we'll study *multiple regression*, where our regression models can now have more than one explanatory variable! In particular, we'll consider two scenarios: regression models with one numerical and one categorical explanatory variable and regression models with two numerical explanatory variables. This will allow you to construct more sophisticated and more powerful models, all in the hopes of better explaining your outcome variable $y$.
 
 ## References
 
