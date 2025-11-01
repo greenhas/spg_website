@@ -801,8 +801,8 @@ Linear regression is the foundation for almost any other type of regression or r
 <li>The <code>moderndive</code> package of datasets and functions for tidyverse-friendly introductory linear regression as well as a data frame summary function.</li>
 </ol>
 <p>If needed, read Section <a href="m2a-getting-started-with-data-in-r.html#packages">6.3</a> for information on how to install and load R packages.</p>
-<div class="sourceCode" id="cb160"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb160-1"><a href="m9a-basic-regression.html#cb160-1" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb160-2"><a href="m9a-basic-regression.html#cb160-2" tabindex="-1"></a><span class="fu">library</span>(moderndive)</span></code></pre></div>
+<div class="sourceCode" id="cb162"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb162-1"><a href="m9a-basic-regression.html#cb162-1" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb162-2"><a href="m9a-basic-regression.html#cb162-2" tabindex="-1"></a><span class="fu">library</span>(moderndive)</span></code></pre></div>
 </div>
 </div>
 <div id="model1" class="section level2 hasAnchor" number="27.2">
@@ -818,12 +818,12 @@ Why do some countries exhibit high fertility rates while others have significant
 <div id="model1EDA" class="section level3 hasAnchor" number="27.2.1">
 <h3><span class="header-section-number">27.2.1</span> Exploratory data analysis<a href="m9a-basic-regression.html#model1EDA" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The data on the 193 current UN member states (as of 2024) can be found in the <code>un_member_states_2024</code> data frame included in the <code>moderndive</code> package. However, to keep things simple we include only those rows that don’t have missing data with <code>na.omit()</code> and <code>select()</code> only the subset of the variables we’ll consider in this chapter, and save this data in a new data frame called <code>UN_data_m9</code>:</p>
-<div class="sourceCode" id="cb161"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb161-1"><a href="m9a-basic-regression.html#cb161-1" tabindex="-1"></a>UN_data_m9 <span class="ot">&lt;-</span> un_member_states_2024 <span class="sc">|&gt;</span></span>
-<span id="cb161-2"><a href="m9a-basic-regression.html#cb161-2" tabindex="-1"></a>  <span class="fu">select</span>(iso, </span>
-<span id="cb161-3"><a href="m9a-basic-regression.html#cb161-3" tabindex="-1"></a>         <span class="at">life_exp =</span> life_expectancy_2022, </span>
-<span id="cb161-4"><a href="m9a-basic-regression.html#cb161-4" tabindex="-1"></a>         <span class="at">fert_rate =</span> fertility_rate_2022, </span>
-<span id="cb161-5"><a href="m9a-basic-regression.html#cb161-5" tabindex="-1"></a>         <span class="at">obes_rate =</span> obesity_rate_2016)<span class="sc">|&gt;</span></span>
-<span id="cb161-6"><a href="m9a-basic-regression.html#cb161-6" tabindex="-1"></a>  <span class="fu">na.omit</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb163"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb163-1"><a href="m9a-basic-regression.html#cb163-1" tabindex="-1"></a>UN_data_m9 <span class="ot">&lt;-</span> un_member_states_2024 <span class="sc">|&gt;</span></span>
+<span id="cb163-2"><a href="m9a-basic-regression.html#cb163-2" tabindex="-1"></a>  <span class="fu">select</span>(iso, </span>
+<span id="cb163-3"><a href="m9a-basic-regression.html#cb163-3" tabindex="-1"></a>         <span class="at">life_exp =</span> life_expectancy_2022, </span>
+<span id="cb163-4"><a href="m9a-basic-regression.html#cb163-4" tabindex="-1"></a>         <span class="at">fert_rate =</span> fertility_rate_2022, </span>
+<span id="cb163-5"><a href="m9a-basic-regression.html#cb163-5" tabindex="-1"></a>         <span class="at">obes_rate =</span> obesity_rate_2016)<span class="sc">|&gt;</span></span>
+<span id="cb163-6"><a href="m9a-basic-regression.html#cb163-6" tabindex="-1"></a>  <span class="fu">na.omit</span>()</span></code></pre></div>
 <p>A crucial step before doing any kind of analysis or modeling is performing an <em>exploratory data analysis</em>, or EDA for short. EDA gives you a sense of the distributions of the individual variables in your data, whether any potential relationships exist between variables, whether there are outliers and/or missing values, and (most importantly) how to build your model. Here are three common steps in an EDA:</p>
 <ol style="list-style-type: decimal">
 <li>Most crucially, looking at the raw data values.</li>
@@ -832,7 +832,7 @@ Why do some countries exhibit high fertility rates while others have significant
 </ol>
 <p>We perform the first common step in an exploratory data analysis: looking at the raw data values. Because this step seems so trivial, unfortunately many data analysts ignore it. However, getting an early sense of what your raw data looks like can often prevent many larger issues down the road.</p>
 <p>You can do this by using RStudio’s spreadsheet viewer or by using the <code>glimpse()</code> function as introduced in Subsection <a href="m2a-getting-started-with-data-in-r.html#exploredataframes">6.4.3</a> on exploring data frames:</p>
-<div class="sourceCode" id="cb162"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb162-1"><a href="m9a-basic-regression.html#cb162-1" tabindex="-1"></a><span class="fu">glimpse</span>(UN_data_m9)</span></code></pre></div>
+<div class="sourceCode" id="cb164"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb164-1"><a href="m9a-basic-regression.html#cb164-1" tabindex="-1"></a><span class="fu">glimpse</span>(UN_data_m9)</span></code></pre></div>
 <pre><code>Rows: 181
 Columns: 4
 $ iso       &lt;chr&gt; &quot;AFG&quot;, &quot;ALB&quot;, &quot;DZA&quot;, &quot;AGO&quot;, &quot;ATG&quot;, &quot;ARG&quot;, &quot;ARM&quot;, &quot;AUS&quot;, &quot;AUT…
@@ -848,8 +848,8 @@ $ obes_rate &lt;dbl&gt; 5.5, 21.7, 27.4, 8.2, 18.9, 28.3, 20.2, 29.0, 20.1, 19.9
 <li><code>obes_rate</code>: A numerical variable representing the country’s obesity rate in 2016. This will be another explanatory variable <span class="math inline">\(x\)</span> that we use in the <em>Learning check</em> at the end of this subsection.</li>
 </ol>
 <p>An alternative way to look at the raw data values is by choosing a random sample of the rows in <code>UN_data_m9</code> by piping it into the <code>slice_sample()</code> function from the <code>dplyr</code> package. Here we set the <code>n</code> argument to be <code>5</code>, indicating that we want a random sample of 5 rows. We display the results in Table <a href="m9a-basic-regression.html#tab:random-countries">27.1</a>. Note that due to the random nature of the sampling, you will likely end up with a different subset of 5 rows.</p>
-<div class="sourceCode" id="cb164"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb164-1"><a href="m9a-basic-regression.html#cb164-1" tabindex="-1"></a>UN_data_m9 <span class="sc">|&gt;</span></span>
-<span id="cb164-2"><a href="m9a-basic-regression.html#cb164-2" tabindex="-1"></a>  <span class="fu">slice_sample</span>(<span class="at">n =</span> <span class="dv">5</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb166"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb166-1"><a href="m9a-basic-regression.html#cb166-1" tabindex="-1"></a>UN_data_m9 <span class="sc">|&gt;</span></span>
+<span id="cb166-2"><a href="m9a-basic-regression.html#cb166-2" tabindex="-1"></a>  <span class="fu">slice_sample</span>(<span class="at">n =</span> <span class="dv">5</span>)</span></code></pre></div>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
 <span id="tab:random-countries">Table 27.1: </span>A random sample of 5 out of the 193 total countries (181 without missing data)
@@ -944,11 +944,11 @@ IDN
 </tbody>
 </table>
 <p>We have looked at the raw values in our <code>UN_data_m9</code> data frame and got a preliminary sense of the data. We can now compute summary statistics. We start by computing the mean and median of our numerical outcome variable <code>fert_rate</code> and our numerical explanatory variable <code>life_exp</code>. We do this by using the <code>summarize()</code> function from <code>dplyr</code> along with the <code>mean()</code> and <code>median()</code> summary functions we saw in Section <a href="m8a-descriptive-statistics.html#summarize">24.2</a>.</p>
-<div class="sourceCode" id="cb165"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb165-1"><a href="m9a-basic-regression.html#cb165-1" tabindex="-1"></a>UN_data_m9 <span class="sc">|&gt;</span></span>
-<span id="cb165-2"><a href="m9a-basic-regression.html#cb165-2" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean_life_exp =</span> <span class="fu">mean</span>(life_exp), </span>
-<span id="cb165-3"><a href="m9a-basic-regression.html#cb165-3" tabindex="-1"></a>            <span class="at">mean_fert_rate =</span> <span class="fu">mean</span>(fert_rate),</span>
-<span id="cb165-4"><a href="m9a-basic-regression.html#cb165-4" tabindex="-1"></a>            <span class="at">median_life_exp =</span> <span class="fu">median</span>(life_exp), </span>
-<span id="cb165-5"><a href="m9a-basic-regression.html#cb165-5" tabindex="-1"></a>            <span class="at">median_fert_rate =</span> <span class="fu">median</span>(fert_rate))</span></code></pre></div>
+<div class="sourceCode" id="cb167"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb167-1"><a href="m9a-basic-regression.html#cb167-1" tabindex="-1"></a>UN_data_m9 <span class="sc">|&gt;</span></span>
+<span id="cb167-2"><a href="m9a-basic-regression.html#cb167-2" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean_life_exp =</span> <span class="fu">mean</span>(life_exp), </span>
+<span id="cb167-3"><a href="m9a-basic-regression.html#cb167-3" tabindex="-1"></a>            <span class="at">mean_fert_rate =</span> <span class="fu">mean</span>(fert_rate),</span>
+<span id="cb167-4"><a href="m9a-basic-regression.html#cb167-4" tabindex="-1"></a>            <span class="at">median_life_exp =</span> <span class="fu">median</span>(life_exp), </span>
+<span id="cb167-5"><a href="m9a-basic-regression.html#cb167-5" tabindex="-1"></a>            <span class="at">median_fert_rate =</span> <span class="fu">median</span>(fert_rate))</span></code></pre></div>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
@@ -985,9 +985,9 @@ median_fert_rate
 </table>
 <p>However, what if we want other summary statistics as well, such as the standard deviation (a measure of spread), the minimum and maximum values, and various percentiles?</p>
 <p>Typing all these summary statistic functions in <code>summarize()</code> would be long and tedious. Instead, we use the convenient <a href="https://moderndive.github.io/moderndive/reference/tidy_summary.html"><code>tidy_summary()</code></a> function in the <code>moderndive</code> package. This function takes in a data frame, summarizes it, and returns commonly used summary statistics in tidy format. We take our <code>UN_data_m9</code> data frame, <code>select()</code> only the outcome and explanatory variables <code>fert_rate</code> and <code>life_exp</code>, and pipe them into the <code>tidy_summary</code> function:</p>
-<div class="sourceCode" id="cb166"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb166-1"><a href="m9a-basic-regression.html#cb166-1" tabindex="-1"></a>UN_data_m9 <span class="sc">|&gt;</span> </span>
-<span id="cb166-2"><a href="m9a-basic-regression.html#cb166-2" tabindex="-1"></a>  <span class="fu">select</span>(fert_rate, life_exp) <span class="sc">|&gt;</span> </span>
-<span id="cb166-3"><a href="m9a-basic-regression.html#cb166-3" tabindex="-1"></a>  <span class="fu">tidy_summary</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb168"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb168-1"><a href="m9a-basic-regression.html#cb168-1" tabindex="-1"></a>UN_data_m9 <span class="sc">|&gt;</span> </span>
+<span id="cb168-2"><a href="m9a-basic-regression.html#cb168-2" tabindex="-1"></a>  <span class="fu">select</span>(fert_rate, life_exp) <span class="sc">|&gt;</span> </span>
+<span id="cb168-3"><a href="m9a-basic-regression.html#cb168-3" tabindex="-1"></a>  <span class="fu">tidy_summary</span>()</span></code></pre></div>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
@@ -1098,8 +1098,8 @@ numeric
 </tbody>
 </table>
 <p>We can also do this more directly by providing which <code>columns</code> we’d like a summary of inside the <code>tidy_summary()</code> function:</p>
-<div class="sourceCode" id="cb167"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb167-1"><a href="m9a-basic-regression.html#cb167-1" tabindex="-1"></a>UN_data_m9 <span class="sc">|&gt;</span> </span>
-<span id="cb167-2"><a href="m9a-basic-regression.html#cb167-2" tabindex="-1"></a>  <span class="fu">tidy_summary</span>(<span class="at">columns =</span> <span class="fu">c</span>(fert_rate, life_exp))</span></code></pre></div>
+<div class="sourceCode" id="cb169"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb169-1"><a href="m9a-basic-regression.html#cb169-1" tabindex="-1"></a>UN_data_m9 <span class="sc">|&gt;</span> </span>
+<span id="cb169-2"><a href="m9a-basic-regression.html#cb169-2" tabindex="-1"></a>  <span class="fu">tidy_summary</span>(<span class="at">columns =</span> <span class="fu">c</span>(fert_rate, life_exp))</span></code></pre></div>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
@@ -1244,21 +1244,21 @@ Figure 27.1: Nine different correlation coefficients.
 <p>For example, observe in the top right plot that for a correlation coefficient of -0.75 there is a negative linear relationship between <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>, but it is not as strong as the negative linear relationship between <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span> when the correlation coefficient is -0.9 or -1.</p>
 <p>The correlation coefficient can be computed using the <a href="https://moderndive.github.io/moderndive/reference/get_correlation.html"><code>get_correlation()</code></a> function in the <code>moderndive</code> package. In this case, the inputs to the function are the two numerical variables for which we want to calculate the correlation coefficient.</p>
 <p>We put the name of the outcome variable on the left-hand side of the <code>~</code> “tilde” sign, while putting the name of the explanatory variable on the right-hand side. This is known as R’s <em>formula notation</em>. We will use this same “formula” syntax with regression later in this chapter.</p>
-<div class="sourceCode" id="cb168"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb168-1"><a href="m9a-basic-regression.html#cb168-1" tabindex="-1"></a>UN_data_m9 <span class="sc">|&gt;</span> </span>
-<span id="cb168-2"><a href="m9a-basic-regression.html#cb168-2" tabindex="-1"></a>  <span class="fu">get_correlation</span>(<span class="at">formula =</span> fert_rate <span class="sc">~</span> life_exp)</span></code></pre></div>
+<div class="sourceCode" id="cb170"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb170-1"><a href="m9a-basic-regression.html#cb170-1" tabindex="-1"></a>UN_data_m9 <span class="sc">|&gt;</span> </span>
+<span id="cb170-2"><a href="m9a-basic-regression.html#cb170-2" tabindex="-1"></a>  <span class="fu">get_correlation</span>(<span class="at">formula =</span> fert_rate <span class="sc">~</span> life_exp)</span></code></pre></div>
 <pre><code># A tibble: 1 × 1
      cor
    &lt;dbl&gt;
 1 -0.812</code></pre>
 <p>An alternative way to compute correlation is to use the <code>cor()</code> summary function within a <code>summarize()</code>:</p>
-<div class="sourceCode" id="cb170"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb170-1"><a href="m9a-basic-regression.html#cb170-1" tabindex="-1"></a>UN_data_m9 <span class="sc">|&gt;</span> </span>
-<span id="cb170-2"><a href="m9a-basic-regression.html#cb170-2" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">correlation =</span> <span class="fu">cor</span>(fert_rate, life_exp))</span></code></pre></div>
+<div class="sourceCode" id="cb172"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb172-1"><a href="m9a-basic-regression.html#cb172-1" tabindex="-1"></a>UN_data_m9 <span class="sc">|&gt;</span> </span>
+<span id="cb172-2"><a href="m9a-basic-regression.html#cb172-2" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">correlation =</span> <span class="fu">cor</span>(fert_rate, life_exp))</span></code></pre></div>
 <p>In our case, the correlation coefficient of -0.812 indicates that the relationship between fertility rate and life expectancy is “moderately negative.” There is a certain amount of subjectivity in interpreting correlation coefficients, especially those that are not close to the extreme values of -1, 0, and 1.</p>
 <p>We now perform the last step in EDA: creating data visualizations. Since both the <code>fert_rate</code> and <code>life_exp</code> variables are numerical, a scatterplot is an appropriate graph to visualize this data. We do this using <code>geom_point()</code> and display the result in Figure <a href="m9a-basic-regression.html#fig:numxplot1">27.2</a>. Furthermore, we set the <code>alpha</code> value to <code>0.1</code> to check for any overplotting.</p>
-<div class="sourceCode" id="cb171"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb171-1"><a href="m9a-basic-regression.html#cb171-1" tabindex="-1"></a><span class="fu">ggplot</span>(UN_data_m9, </span>
-<span id="cb171-2"><a href="m9a-basic-regression.html#cb171-2" tabindex="-1"></a>       <span class="fu">aes</span>(<span class="at">x =</span> life_exp, <span class="at">y =</span> fert_rate)) <span class="sc">+</span></span>
-<span id="cb171-3"><a href="m9a-basic-regression.html#cb171-3" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">alpha =</span> <span class="fl">0.1</span>) <span class="sc">+</span></span>
-<span id="cb171-4"><a href="m9a-basic-regression.html#cb171-4" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Life Expectancy&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Fertility Rate&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb173"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb173-1"><a href="m9a-basic-regression.html#cb173-1" tabindex="-1"></a><span class="fu">ggplot</span>(UN_data_m9, </span>
+<span id="cb173-2"><a href="m9a-basic-regression.html#cb173-2" tabindex="-1"></a>       <span class="fu">aes</span>(<span class="at">x =</span> life_exp, <span class="at">y =</span> fert_rate)) <span class="sc">+</span></span>
+<span id="cb173-3"><a href="m9a-basic-regression.html#cb173-3" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">alpha =</span> <span class="fl">0.1</span>) <span class="sc">+</span></span>
+<span id="cb173-4"><a href="m9a-basic-regression.html#cb173-4" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Life Expectancy&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Fertility Rate&quot;</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:numxplot1"></span>
 <img src="_main_files/figure-html/numxplot1-1.png" alt="Scatterplot of relationship of life expectancy and fertility rate." width="\textwidth" />
 <p class="caption">
@@ -1267,12 +1267,12 @@ Figure 27.2: Scatterplot of relationship of life expectancy and fertility rate.
 </div>
 <p>We do not see much for overplotting due to little to no overlap in the points. Most life expectancy entries appear to fall between 70 and 80 years, while most fertility rate entries fall between 1.5 and 3.5 births. Furthermore, while opinions may vary, it is our opinion that the relationship between fertility rate and life expectancy is “moderately negative.” This is consistent with our earlier computed correlation coefficient of -0.812.</p>
 <p>We build on the scatterplot in Figure <a href="m9a-basic-regression.html#fig:numxplot1">27.2</a> by adding a “best-fitting” line: of all possible lines we can draw on this scatterplot, it is the line that “best” fits through the cloud of points. We do this by adding a new <code>geom_smooth(method = "lm", se = FALSE)</code> layer to the <code>ggplot()</code> code that created the scatterplot in Figure <a href="m9a-basic-regression.html#fig:numxplot1">27.2</a>. The <code>method = "lm"</code> argument sets the line to be a “<strong>l</strong>inear <strong>m</strong>odel.” The <code>se = FALSE</code> argument suppresses <em>standard error</em> uncertainty bars. (We’ll define the concept of <em>standard error</em> later.)</p>
-<div class="sourceCode" id="cb172"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb172-1"><a href="m9a-basic-regression.html#cb172-1" tabindex="-1"></a><span class="fu">ggplot</span>(UN_data_m9, <span class="fu">aes</span>(<span class="at">x =</span> life_exp, <span class="at">y =</span> fert_rate)) <span class="sc">+</span></span>
-<span id="cb172-2"><a href="m9a-basic-regression.html#cb172-2" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">alpha =</span> <span class="fl">0.1</span>) <span class="sc">+</span></span>
-<span id="cb172-3"><a href="m9a-basic-regression.html#cb172-3" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Life Expectancy&quot;</span>, </span>
-<span id="cb172-4"><a href="m9a-basic-regression.html#cb172-4" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">&quot;Fertility Rate&quot;</span>,</span>
-<span id="cb172-5"><a href="m9a-basic-regression.html#cb172-5" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">&quot;Relationship of life expectancy and fertility rate&quot;</span>) <span class="sc">+</span></span>
-<span id="cb172-6"><a href="m9a-basic-regression.html#cb172-6" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">&quot;lm&quot;</span>, <span class="at">se =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb174"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb174-1"><a href="m9a-basic-regression.html#cb174-1" tabindex="-1"></a><span class="fu">ggplot</span>(UN_data_m9, <span class="fu">aes</span>(<span class="at">x =</span> life_exp, <span class="at">y =</span> fert_rate)) <span class="sc">+</span></span>
+<span id="cb174-2"><a href="m9a-basic-regression.html#cb174-2" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">alpha =</span> <span class="fl">0.1</span>) <span class="sc">+</span></span>
+<span id="cb174-3"><a href="m9a-basic-regression.html#cb174-3" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Life Expectancy&quot;</span>, </span>
+<span id="cb174-4"><a href="m9a-basic-regression.html#cb174-4" tabindex="-1"></a>    <span class="at">y =</span> <span class="st">&quot;Fertility Rate&quot;</span>,</span>
+<span id="cb174-5"><a href="m9a-basic-regression.html#cb174-5" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">&quot;Relationship of life expectancy and fertility rate&quot;</span>) <span class="sc">+</span></span>
+<span id="cb174-6"><a href="m9a-basic-regression.html#cb174-6" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">&quot;lm&quot;</span>, <span class="at">se =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:numxplot3"></span>
 <img src="_main_files/figure-html/numxplot3-1.png" alt="Scatterplot of life expectancy and fertility rate with regression line." width="\textwidth" />
 <p class="caption">
@@ -1292,10 +1292,10 @@ Figure 27.3: Scatterplot of life expectancy and fertility rate with regression l
 <li>We first “fit” the linear regression model using the <code>lm()</code> function and save it in <code>demographics_model</code>.</li>
 <li>We get the regression coefficients by applying <code>coef()</code> to <code>demographics_model</code>.</li>
 </ol>
-<div class="sourceCode" id="cb173"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb173-1"><a href="m9a-basic-regression.html#cb173-1" tabindex="-1"></a><span class="co"># Fit regression model:</span></span>
-<span id="cb173-2"><a href="m9a-basic-regression.html#cb173-2" tabindex="-1"></a>demographics_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(fert_rate <span class="sc">~</span> life_exp, <span class="at">data =</span> UN_data_m9)</span>
-<span id="cb173-3"><a href="m9a-basic-regression.html#cb173-3" tabindex="-1"></a><span class="co"># Get regression coefficients</span></span>
-<span id="cb173-4"><a href="m9a-basic-regression.html#cb173-4" tabindex="-1"></a><span class="fu">coef</span>(demographics_model)</span></code></pre></div>
+<div class="sourceCode" id="cb175"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb175-1"><a href="m9a-basic-regression.html#cb175-1" tabindex="-1"></a><span class="co"># Fit regression model:</span></span>
+<span id="cb175-2"><a href="m9a-basic-regression.html#cb175-2" tabindex="-1"></a>demographics_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(fert_rate <span class="sc">~</span> life_exp, <span class="at">data =</span> UN_data_m9)</span>
+<span id="cb175-3"><a href="m9a-basic-regression.html#cb175-3" tabindex="-1"></a><span class="co"># Get regression coefficients</span></span>
+<span id="cb175-4"><a href="m9a-basic-regression.html#cb175-4" tabindex="-1"></a><span class="fu">coef</span>(demographics_model)</span></code></pre></div>
 <p>We first focus on interpreting the regression coefficients, and later revisit the code that produced it. The coefficients are the intercept <span class="math inline">\(b_0 = 12.599\)</span> and the slope <span class="math inline">\(b_1 = -0.137\)</span> for <code>life_exp</code>. Thus the equation of the regression line in Figure <a href="m9a-basic-regression.html#fig:numxplot3">27.3</a> follows:</p>
 <p><span class="math display">\[
 \begin{aligned}
@@ -1312,10 +1312,10 @@ Figure 27.3: Scatterplot of life expectancy and fertility rate with regression l
 <p>We only state that there is an <em>associated</em> increase and not necessarily a <em>causal</em> increase. Perhaps it may not be that higher life expectancies directly cause lower fertility rates. Instead, wealthier countries could tend to have stronger educational backgrounds, improved health, a higher standard of living, and have lower fertility rates, while at the same time these wealthy countries also tend to have higher life expectancies. Just because two variables are strongly associated, it does not necessarily mean that one causes the other. This is summed up in the often-quoted phrase, “correlation is not necessarily causation.” We discuss this idea further in Subsection <a href="m9a-basic-regression.html#correlation-is-not-causation">27.4.1</a>.</p>
 <p>Furthermore, we say that this associated decrease is <em>on average</em> 0.137 units of <code>fert_rate</code>, because you might have two countries whose <code>life_exp</code> values differ by 1 unit, but their difference in fertility rates may not be exactly <span class="math inline">\(-0.137\)</span>. What the slope of <span class="math inline">\(-0.137\)</span> is saying is that across all possible countries, the <em>average</em> difference in fertility rate between two countries whose life expectancies differ by one is <span class="math inline">\(-0.137\)</span>.</p>
 <p>Now that we have learned how to compute the equation for the regression line in Figure <a href="m9a-basic-regression.html#fig:numxplot3">27.3</a> using the model coefficient values and how to interpret the resulting intercept and slope, we revisit the code that generated these coefficients:</p>
-<div class="sourceCode" id="cb174"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb174-1"><a href="m9a-basic-regression.html#cb174-1" tabindex="-1"></a><span class="co"># Fit regression model:</span></span>
-<span id="cb174-2"><a href="m9a-basic-regression.html#cb174-2" tabindex="-1"></a>demographics_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(fert_rate <span class="sc">~</span> life_exp, <span class="at">data =</span> UN_data_m9)</span>
-<span id="cb174-3"><a href="m9a-basic-regression.html#cb174-3" tabindex="-1"></a><span class="co"># Get regression coefficients:</span></span>
-<span id="cb174-4"><a href="m9a-basic-regression.html#cb174-4" tabindex="-1"></a><span class="fu">coef</span>(demographics_model)</span></code></pre></div>
+<div class="sourceCode" id="cb176"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb176-1"><a href="m9a-basic-regression.html#cb176-1" tabindex="-1"></a><span class="co"># Fit regression model:</span></span>
+<span id="cb176-2"><a href="m9a-basic-regression.html#cb176-2" tabindex="-1"></a>demographics_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(fert_rate <span class="sc">~</span> life_exp, <span class="at">data =</span> UN_data_m9)</span>
+<span id="cb176-3"><a href="m9a-basic-regression.html#cb176-3" tabindex="-1"></a><span class="co"># Get regression coefficients:</span></span>
+<span id="cb176-4"><a href="m9a-basic-regression.html#cb176-4" tabindex="-1"></a><span class="fu">coef</span>(demographics_model)</span></code></pre></div>
 <p>First, we “fit” the linear regression model to the <code>data</code> using the <code>lm()</code> function and save this as <code>demographics_model</code>. When we say “fit,” we mean “find the best fitting line to this data.” <code>lm()</code> stands for “linear model” and is used as <code>lm(y ~ x, data = df_name)</code> where:</p>
 <ul>
 <li><code>y</code> is the outcome variable, followed by a tilde <code>~</code>. In our case, <code>y</code> is set to <code>fert_rate</code>.</li>
@@ -1380,8 +1380,8 @@ Figure 27.4: Example of observed value, fitted value, and residual.
 </div>
 <p>Now say we want to compute both the fitted value <span class="math inline">\(\widehat{y} = b_0 + b_1 \cdot x\)</span> and the residual <span class="math inline">\(y - \widehat{y}\)</span> for <em>all</em> 181 UN member states with complete data as of 2024. Recall that each country corresponds to one of the 181 rows in the <code>UN_data_m9</code> data frame and also one of the 181 points in the regression plot in Figure <a href="m9a-basic-regression.html#fig:numxplot4">27.4</a>.</p>
 <p>We could repeat the previous calculations we performed by hand 181 times, but that would be tedious and time consuming. Instead, we use a computer with the <code>get_regression_points()</code> function. We apply the <code>get_regression_points()</code> function to <code>demographics_model</code>, which is where we saved our <code>lm()</code> model in the previous section. In Table <a href="m9a-basic-regression.html#tab:regression-points-1">27.3</a> we present the results of only the 21st through 24th courses for brevity.</p>
-<div class="sourceCode" id="cb175"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb175-1"><a href="m9a-basic-regression.html#cb175-1" tabindex="-1"></a>regression_points <span class="ot">&lt;-</span> <span class="fu">get_regression_points</span>(demographics_model)</span>
-<span id="cb175-2"><a href="m9a-basic-regression.html#cb175-2" tabindex="-1"></a>regression_points</span></code></pre></div>
+<div class="sourceCode" id="cb177"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb177-1"><a href="m9a-basic-regression.html#cb177-1" tabindex="-1"></a>regression_points <span class="ot">&lt;-</span> <span class="fu">get_regression_points</span>(demographics_model)</span>
+<span id="cb177-2"><a href="m9a-basic-regression.html#cb177-2" tabindex="-1"></a>regression_points</span></code></pre></div>
 <table>
 <caption><span id="tab:regression-points-1">Table 27.3: </span>Regression points (for only the 21st through 24th countries)</caption>
 <thead>
@@ -1465,11 +1465,11 @@ Figure 27.5: The concept of a wrapper function.
 <div id="model2EDA" class="section level3 hasAnchor" number="27.3.1">
 <h3><span class="header-section-number">27.3.1</span> Exploratory data analysis<a href="m9a-basic-regression.html#model2EDA" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The data on the 193 countries can be found in the <code>un_member_states_2024</code> data frame included in the <code>moderndive</code> package. However, to keep things simple, we <code>select()</code> only the subset of the variables we’ll consider in this chapter and focus only on rows where we have no missing values with <code>na.omit()</code>. We’ll save this data in a new data frame called <code>gapminder2022</code>:</p>
-<div class="sourceCode" id="cb176"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb176-1"><a href="m9a-basic-regression.html#cb176-1" tabindex="-1"></a>gapminder2022 <span class="ot">&lt;-</span> un_member_states_2024 <span class="sc">|&gt;</span></span>
-<span id="cb176-2"><a href="m9a-basic-regression.html#cb176-2" tabindex="-1"></a>  <span class="fu">select</span>(country, <span class="at">life_exp =</span> life_expectancy_2022, continent, gdp_per_capita) <span class="sc">|&gt;</span> </span>
-<span id="cb176-3"><a href="m9a-basic-regression.html#cb176-3" tabindex="-1"></a>  <span class="fu">na.omit</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb178"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb178-1"><a href="m9a-basic-regression.html#cb178-1" tabindex="-1"></a>gapminder2022 <span class="ot">&lt;-</span> un_member_states_2024 <span class="sc">|&gt;</span></span>
+<span id="cb178-2"><a href="m9a-basic-regression.html#cb178-2" tabindex="-1"></a>  <span class="fu">select</span>(country, <span class="at">life_exp =</span> life_expectancy_2022, continent, gdp_per_capita) <span class="sc">|&gt;</span> </span>
+<span id="cb178-3"><a href="m9a-basic-regression.html#cb178-3" tabindex="-1"></a>  <span class="fu">na.omit</span>()</span></code></pre></div>
 <p>We perform the first common step in an exploratory data analysis: looking at the raw data values. You can do this by using RStudio’s spreadsheet viewer or by using the <code>glimpse()</code> command as introduced in Subsection <a href="m2a-getting-started-with-data-in-r.html#exploredataframes">6.4.3</a> on exploring data frames:</p>
-<div class="sourceCode" id="cb177"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb177-1"><a href="m9a-basic-regression.html#cb177-1" tabindex="-1"></a><span class="fu">glimpse</span>(gapminder2022)</span></code></pre></div>
+<div class="sourceCode" id="cb179"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb179-1"><a href="m9a-basic-regression.html#cb179-1" tabindex="-1"></a><span class="fu">glimpse</span>(gapminder2022)</span></code></pre></div>
 <pre><code>Rows: 188
 Columns: 4
 $ country        &lt;chr&gt; &quot;Afghanistan&quot;, &quot;Albania&quot;, &quot;Algeria&quot;, &quot;Andorra&quot;, &quot;Angola…
@@ -1485,7 +1485,7 @@ $ gdp_per_capita &lt;dbl&gt; 356, 6810, 4343, 41993, 3000, 19920, 13651, 7018, 6
 <li><code>gdp_per_capita</code>: A numerical variable of that country’s GDP per capita in US inflation-adjusted dollars that we’ll use as another outcome variable <span class="math inline">\(y\)</span> in the <em>Learning check</em> at the end of this subsection.</li>
 </ol>
 <p>We next look at a random sample of three out of the 188 countries in Table <a href="m9a-basic-regression.html#tab:model2-data-preview">27.4</a>.</p>
-<div class="sourceCode" id="cb179"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb179-1"><a href="m9a-basic-regression.html#cb179-1" tabindex="-1"></a>gapminder2022 <span class="sc">|&gt;</span> <span class="fu">sample_n</span>(<span class="at">size =</span> <span class="dv">3</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb181"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb181-1"><a href="m9a-basic-regression.html#cb181-1" tabindex="-1"></a>gapminder2022 <span class="sc">|&gt;</span> <span class="fu">sample_n</span>(<span class="at">size =</span> <span class="dv">3</span>)</span></code></pre></div>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
 <span id="tab:model2-data-preview">Table 27.4: </span>Random sample of 3 out of 188 countries
@@ -1552,7 +1552,7 @@ Africa
 </tbody>
 </table>
 <p>Random sampling will likely produce a different subset of 3 rows for you than what’s shown. Now that we have looked at the raw values in our <code>gapminder2022</code> data frame and got a sense of the data, we compute summary statistics. We again apply <code>tidy_summary()</code> from the <code>moderndive</code> package. Recall that this function takes in a data frame, summarizes it, and returns commonly used summary statistics. We take our <code>gapminder2022</code> data frame, <code>select()</code> only the outcome and explanatory variables <code>life_exp</code> and <code>continent</code>, and pipe them into <code>tidy_summary()</code> in Table <a href="m9a-basic-regression.html#tab:lifeexp-cont">27.5</a>:</p>
-<div class="sourceCode" id="cb180"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb180-1"><a href="m9a-basic-regression.html#cb180-1" tabindex="-1"></a>gapminder2022 <span class="sc">|&gt;</span> <span class="fu">select</span>(life_exp, continent) <span class="sc">|&gt;</span> <span class="fu">tidy_summary</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb182"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb182-1"><a href="m9a-basic-regression.html#cb182-1" tabindex="-1"></a>gapminder2022 <span class="sc">|&gt;</span> <span class="fu">select</span>(life_exp, continent) <span class="sc">|&gt;</span> <span class="fu">tidy_summary</span>()</span></code></pre></div>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
 <span id="tab:lifeexp-cont">Table 27.5: </span>Summary of life expectancy and continent variables
@@ -1808,11 +1808,11 @@ factor
 </ul>
 <p>Turning our attention to the summary statistics of the numerical variable <code>life_exp</code>, we observe that the global median life expectancy in 2022 was 75.14. Thus, half of the world’s countries (96 countries) had a life expectancy of less than 75.14. The mean life expectancy of 73.55 is lower, however. Why is the mean life expectancy lower than the median?</p>
 <p>We can answer this question by performing the last of the three common steps in an exploratory data analysis: creating data visualizations. We visualize the distribution of our outcome variable <span class="math inline">\(y\)</span> = <code>life_exp</code> in Figure <a href="m9a-basic-regression.html#fig:lifeexp2022hist">27.6</a>.</p>
-<div class="sourceCode" id="cb181"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb181-1"><a href="m9a-basic-regression.html#cb181-1" tabindex="-1"></a><span class="fu">ggplot</span>(gapminder2022, <span class="fu">aes</span>(<span class="at">x =</span> life_exp)) <span class="sc">+</span></span>
-<span id="cb181-2"><a href="m9a-basic-regression.html#cb181-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">5</span>, <span class="at">color =</span> <span class="st">&quot;white&quot;</span>) <span class="sc">+</span></span>
-<span id="cb181-3"><a href="m9a-basic-regression.html#cb181-3" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Life expectancy&quot;</span>, </span>
-<span id="cb181-4"><a href="m9a-basic-regression.html#cb181-4" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">&quot;Number of countries&quot;</span>,</span>
-<span id="cb181-5"><a href="m9a-basic-regression.html#cb181-5" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">&quot;Histogram of distribution of worldwide life expectancies&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb183"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb183-1"><a href="m9a-basic-regression.html#cb183-1" tabindex="-1"></a><span class="fu">ggplot</span>(gapminder2022, <span class="fu">aes</span>(<span class="at">x =</span> life_exp)) <span class="sc">+</span></span>
+<span id="cb183-2"><a href="m9a-basic-regression.html#cb183-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">5</span>, <span class="at">color =</span> <span class="st">&quot;white&quot;</span>) <span class="sc">+</span></span>
+<span id="cb183-3"><a href="m9a-basic-regression.html#cb183-3" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Life expectancy&quot;</span>, </span>
+<span id="cb183-4"><a href="m9a-basic-regression.html#cb183-4" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">&quot;Number of countries&quot;</span>,</span>
+<span id="cb183-5"><a href="m9a-basic-regression.html#cb183-5" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">&quot;Histogram of distribution of worldwide life expectancies&quot;</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:lifeexp2022hist"></span>
 <img src="_main_files/figure-html/lifeexp2022hist-1.png" alt="Histogram of life expectancy in 2022." width="\textwidth" />
 <p class="caption">
@@ -1821,12 +1821,12 @@ Figure 27.6: Histogram of life expectancy in 2022.
 </div>
 <p>We see that this data is <em>left-skewed</em>, also known as <em>negatively</em> skewed: there are a few countries with low life expectancy that are bringing down the mean life expectancy. However, the median is less sensitive to the effects of such outliers; hence, the median is greater than the mean in this case.</p>
 <p>Remember, however, that we want to compare life expectancies both between continents and within continents. In other words, our visualizations need to incorporate some notion of the variable <code>continent</code>. We can do this easily with a faceted histogram. Recall from Section <a href="m7a-data-visualization.html#facets">21.6</a> that facets allow us to split a visualization by the different values of another variable. We display the resulting visualization in Figure <a href="m9a-basic-regression.html#fig:catxplot0b">27.7</a> by adding a <code>facet_wrap(~ continent, nrow = 2)</code> layer.</p>
-<div class="sourceCode" id="cb182"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb182-1"><a href="m9a-basic-regression.html#cb182-1" tabindex="-1"></a><span class="fu">ggplot</span>(gapminder2022, <span class="fu">aes</span>(<span class="at">x =</span> life_exp)) <span class="sc">+</span></span>
-<span id="cb182-2"><a href="m9a-basic-regression.html#cb182-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">5</span>, <span class="at">color =</span> <span class="st">&quot;white&quot;</span>) <span class="sc">+</span></span>
-<span id="cb182-3"><a href="m9a-basic-regression.html#cb182-3" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Life expectancy&quot;</span>, </span>
-<span id="cb182-4"><a href="m9a-basic-regression.html#cb182-4" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">&quot;Number of countries&quot;</span>,</span>
-<span id="cb182-5"><a href="m9a-basic-regression.html#cb182-5" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">&quot;Histogram of distribution of worldwide life expectancies&quot;</span>) <span class="sc">+</span></span>
-<span id="cb182-6"><a href="m9a-basic-regression.html#cb182-6" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> continent, <span class="at">nrow =</span> <span class="dv">2</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb184"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb184-1"><a href="m9a-basic-regression.html#cb184-1" tabindex="-1"></a><span class="fu">ggplot</span>(gapminder2022, <span class="fu">aes</span>(<span class="at">x =</span> life_exp)) <span class="sc">+</span></span>
+<span id="cb184-2"><a href="m9a-basic-regression.html#cb184-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">5</span>, <span class="at">color =</span> <span class="st">&quot;white&quot;</span>) <span class="sc">+</span></span>
+<span id="cb184-3"><a href="m9a-basic-regression.html#cb184-3" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Life expectancy&quot;</span>, </span>
+<span id="cb184-4"><a href="m9a-basic-regression.html#cb184-4" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">&quot;Number of countries&quot;</span>,</span>
+<span id="cb184-5"><a href="m9a-basic-regression.html#cb184-5" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">&quot;Histogram of distribution of worldwide life expectancies&quot;</span>) <span class="sc">+</span></span>
+<span id="cb184-6"><a href="m9a-basic-regression.html#cb184-6" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> continent, <span class="at">nrow =</span> <span class="dv">2</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:catxplot0b"></span>
 <img src="_main_files/figure-html/catxplot0b-1.png" alt="Life expectancy in 2022 by continent (faceted)." width="\textwidth" />
 <p class="caption">
@@ -1835,10 +1835,10 @@ Figure 27.7: Life expectancy in 2022 by continent (faceted).
 </div>
 <p>Observe that unfortunately the distribution of African life expectancies is much lower than the other continents. In Europe, life expectancies tend to be higher and furthermore do not vary as much. On the other hand, both Asia and Africa have the most variation in life expectancies.</p>
 <p>Recall that an alternative method to visualize the distribution of a numerical variable split by a categorical variable is by using a side-by-side boxplot. We map the categorical variable <code>continent</code> to the <span class="math inline">\(x\)</span>-axis and the different life expectancies within each continent on the <span class="math inline">\(y\)</span>-axis in Figure <a href="m9a-basic-regression.html#fig:catxplot1">27.8</a>.</p>
-<div class="sourceCode" id="cb183"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb183-1"><a href="m9a-basic-regression.html#cb183-1" tabindex="-1"></a><span class="fu">ggplot</span>(gapminder2022, <span class="fu">aes</span>(<span class="at">x =</span> continent, <span class="at">y =</span> life_exp)) <span class="sc">+</span></span>
-<span id="cb183-2"><a href="m9a-basic-regression.html#cb183-2" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
-<span id="cb183-3"><a href="m9a-basic-regression.html#cb183-3" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Continent&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Life expectancy&quot;</span>,</span>
-<span id="cb183-4"><a href="m9a-basic-regression.html#cb183-4" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">&quot;Life expectancy by continent&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb185"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb185-1"><a href="m9a-basic-regression.html#cb185-1" tabindex="-1"></a><span class="fu">ggplot</span>(gapminder2022, <span class="fu">aes</span>(<span class="at">x =</span> continent, <span class="at">y =</span> life_exp)) <span class="sc">+</span></span>
+<span id="cb185-2"><a href="m9a-basic-regression.html#cb185-2" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
+<span id="cb185-3"><a href="m9a-basic-regression.html#cb185-3" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Continent&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Life expectancy&quot;</span>,</span>
+<span id="cb185-4"><a href="m9a-basic-regression.html#cb185-4" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">&quot;Life expectancy by continent&quot;</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:catxplot1"></span>
 <img src="_main_files/figure-html/catxplot1-1.png" alt="Life expectancy in 2022 by continent (boxplot)." width="\textwidth" />
 <p class="caption">
@@ -1847,10 +1847,10 @@ Figure 27.8: Life expectancy in 2022 by continent (boxplot).
 </div>
 <p>Some people prefer comparing the distributions of a numerical variable between different levels of a categorical variable using a boxplot instead of a faceted histogram. This is because we can make quick comparisons between the categorical variable’s levels with imaginary horizontal lines. For example, observe in Figure <a href="m9a-basic-regression.html#fig:catxplot1">27.8</a> that we can quickly convince ourselves that Europe has the highest median life expectancies by drawing an imaginary horizontal line near <span class="math inline">\(y = 81\)</span>. Furthermore, as we observed in the faceted histogram in Figure <a href="m9a-basic-regression.html#fig:catxplot0b">27.7</a>, Africa and Asia have the largest variation in life expectancy as evidenced by their large interquartile ranges (the size of the boxes).</p>
 <p>It’s important to remember, however, that the solid lines in the middle of the boxes correspond to the medians (the middle value) rather than the mean (the average). So, for example, if you look at Asia, the solid line denotes the median life expectancy of around 75 years. This tells us that half of all countries in Asia have a life expectancy below 75 years, whereas half have a life expectancy above 75 years. We compute the median and mean life expectancy for each continent with a little more data wrangling and display the results in Table <a href="m9a-basic-regression.html#tab:catxplot0">27.6</a>.</p>
-<div class="sourceCode" id="cb184"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb184-1"><a href="m9a-basic-regression.html#cb184-1" tabindex="-1"></a>life_exp_by_continent <span class="ot">&lt;-</span> gapminder2022 <span class="sc">|&gt;</span></span>
-<span id="cb184-2"><a href="m9a-basic-regression.html#cb184-2" tabindex="-1"></a>  <span class="fu">group_by</span>(continent) <span class="sc">|&gt;</span></span>
-<span id="cb184-3"><a href="m9a-basic-regression.html#cb184-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">median =</span> <span class="fu">median</span>(life_exp), <span class="at">mean =</span> <span class="fu">mean</span>(life_exp))</span>
-<span id="cb184-4"><a href="m9a-basic-regression.html#cb184-4" tabindex="-1"></a>life_exp_by_continent</span></code></pre></div>
+<div class="sourceCode" id="cb186"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb186-1"><a href="m9a-basic-regression.html#cb186-1" tabindex="-1"></a>life_exp_by_continent <span class="ot">&lt;-</span> gapminder2022 <span class="sc">|&gt;</span></span>
+<span id="cb186-2"><a href="m9a-basic-regression.html#cb186-2" tabindex="-1"></a>  <span class="fu">group_by</span>(continent) <span class="sc">|&gt;</span></span>
+<span id="cb186-3"><a href="m9a-basic-regression.html#cb186-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">median =</span> <span class="fu">median</span>(life_exp), <span class="at">mean =</span> <span class="fu">mean</span>(life_exp))</span>
+<span id="cb186-4"><a href="m9a-basic-regression.html#cb186-4" tabindex="-1"></a>life_exp_by_continent</span></code></pre></div>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
 <span id="tab:catxplot0">Table 27.6: </span>Life expectancy by continent
@@ -2041,8 +2041,8 @@ South America
 <li>We “fit” the linear regression model using <code>lm(y ~ x, data)</code> and save it in <code>life_exp_model</code>.</li>
 <li>We get the regression coefficients by applying the <code>coef()</code> function to <code>life_exp_model</code>.</li>
 </ol>
-<div class="sourceCode" id="cb185"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb185-1"><a href="m9a-basic-regression.html#cb185-1" tabindex="-1"></a>life_exp_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(life_exp <span class="sc">~</span> continent, <span class="at">data =</span> gapminder2022)</span>
-<span id="cb185-2"><a href="m9a-basic-regression.html#cb185-2" tabindex="-1"></a><span class="fu">coef</span>(life_exp_model)</span></code></pre></div>
+<div class="sourceCode" id="cb187"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb187-1"><a href="m9a-basic-regression.html#cb187-1" tabindex="-1"></a>life_exp_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(life_exp <span class="sc">~</span> continent, <span class="at">data =</span> gapminder2022)</span>
+<span id="cb187-2"><a href="m9a-basic-regression.html#cb187-2" tabindex="-1"></a><span class="fu">coef</span>(life_exp_model)</span></code></pre></div>
 <pre><code>           (Intercept)          continentAsia        continentEurope 
                  66.31                   8.64                  13.60 
 continentNorth America       continentOceania continentSouth America 
@@ -2146,7 +2146,7 @@ continentNorth America       continentOceania continentSouth America
 <li>Residuals <span class="math inline">\(y - \widehat{y}\)</span>, or the error between the observed value and the fitted value</li>
 </ol>
 <p>We obtained these values and other values using the <code>get_regression_points()</code> function from the <code>moderndive</code> package. This time, however, we add an argument setting <code>ID = "country"</code>, which uses the variable <code>country</code> in <code>gapminder2022</code> as an <em>identification variable</em> in the output. This will help contextualize our analysis by matching values to countries.</p>
-<div class="sourceCode" id="cb187"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb187-1"><a href="m9a-basic-regression.html#cb187-1" tabindex="-1"></a><span class="fu">get_regression_points</span>(life_exp_model, <span class="at">ID =</span> <span class="st">&quot;country&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb189"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb189-1"><a href="m9a-basic-regression.html#cb189-1" tabindex="-1"></a><span class="fu">get_regression_points</span>(life_exp_model, <span class="at">ID =</span> <span class="st">&quot;country&quot;</span>)</span></code></pre></div>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
 <span id="tab:model2-residuals">Table 27.8: </span>Regression points (Sample of 6 out of 142 countries)
@@ -2306,24 +2306,24 @@ Figure 27.10: Causal graph.
 <p>Establishing causation is a tricky problem and frequently takes either carefully designed experiments or methods to control for the effects of confounding variables. Both these approaches attempt, as best they can, either to take all possible confounding variables into account or negate their impact. This allows researchers to focus only on the relationship of interest: the relationship between the outcome variable Y and the treatment variable X.</p>
 <p>As you read news stories, be careful not to fall into the trap of thinking that correlation necessarily implies causation. Check out the <a href="http://www.tylervigen.com/spurious-correlations">Spurious Correlations</a> website for some comical examples of variables that are correlated, but are not causally related.</p>
 <p>Coming back to our UN member states data, a confounding variable could be the level of economic development of a country. This could affect both life expectancy and fertility rates. A proxy for looking at the level of economic development could be the Human Development Index (HDI). It measures a country’s average achievements in three basic aspects of human development: health (life expectancy), education (mean and expected years of schooling), and standard of living (gross national income per capita). This is stored in the <code>hdi_2022</code> column of <code>un_member_states_2024</code>. We explore its relationship with life expectancy and fertility rates:</p>
-<div class="sourceCode" id="cb188"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb188-1"><a href="m9a-basic-regression.html#cb188-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> un_member_states_2024, </span>
-<span id="cb188-2"><a href="m9a-basic-regression.html#cb188-2" tabindex="-1"></a>       <span class="fu">aes</span>(<span class="at">x =</span> hdi_2022, <span class="at">y =</span> life_expectancy_2022)) <span class="sc">+</span></span>
-<span id="cb188-3"><a href="m9a-basic-regression.html#cb188-3" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb188-4"><a href="m9a-basic-regression.html#cb188-4" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Human Development Index (HDI)&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Life Expectancy&quot;</span>)</span></code></pre></div>
-<p><img src="_main_files/figure-html/unnamed-chunk-161-1.png" width="\textwidth" style="display: block; margin: auto;" /></p>
-<div class="sourceCode" id="cb189"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb189-1"><a href="m9a-basic-regression.html#cb189-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> un_member_states_2024, </span>
-<span id="cb189-2"><a href="m9a-basic-regression.html#cb189-2" tabindex="-1"></a>       <span class="fu">aes</span>(<span class="at">x =</span> hdi_2022, <span class="at">y =</span> fertility_rate_2022)) <span class="sc">+</span></span>
-<span id="cb189-3"><a href="m9a-basic-regression.html#cb189-3" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb189-4"><a href="m9a-basic-regression.html#cb189-4" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Human Development Index (HDI)&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Fertility Rate&quot;</span>)</span></code></pre></div>
-<p><img src="_main_files/figure-html/unnamed-chunk-162-1.png" width="\textwidth" style="display: block; margin: auto;" /></p>
-<div class="sourceCode" id="cb190"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb190-1"><a href="m9a-basic-regression.html#cb190-1" tabindex="-1"></a>un_member_states_2024 <span class="sc">|&gt;</span> </span>
-<span id="cb190-2"><a href="m9a-basic-regression.html#cb190-2" tabindex="-1"></a>  <span class="fu">get_correlation</span>(life_expectancy_2022 <span class="sc">~</span> hdi_2022, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb190"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb190-1"><a href="m9a-basic-regression.html#cb190-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> un_member_states_2024, </span>
+<span id="cb190-2"><a href="m9a-basic-regression.html#cb190-2" tabindex="-1"></a>       <span class="fu">aes</span>(<span class="at">x =</span> hdi_2022, <span class="at">y =</span> life_expectancy_2022)) <span class="sc">+</span></span>
+<span id="cb190-3"><a href="m9a-basic-regression.html#cb190-3" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb190-4"><a href="m9a-basic-regression.html#cb190-4" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Human Development Index (HDI)&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Life Expectancy&quot;</span>)</span></code></pre></div>
+<p><img src="_main_files/figure-html/unnamed-chunk-153-1.png" width="\textwidth" style="display: block; margin: auto;" /></p>
+<div class="sourceCode" id="cb191"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb191-1"><a href="m9a-basic-regression.html#cb191-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> un_member_states_2024, </span>
+<span id="cb191-2"><a href="m9a-basic-regression.html#cb191-2" tabindex="-1"></a>       <span class="fu">aes</span>(<span class="at">x =</span> hdi_2022, <span class="at">y =</span> fertility_rate_2022)) <span class="sc">+</span></span>
+<span id="cb191-3"><a href="m9a-basic-regression.html#cb191-3" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb191-4"><a href="m9a-basic-regression.html#cb191-4" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Human Development Index (HDI)&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Fertility Rate&quot;</span>)</span></code></pre></div>
+<p><img src="_main_files/figure-html/unnamed-chunk-154-1.png" width="\textwidth" style="display: block; margin: auto;" /></p>
+<div class="sourceCode" id="cb192"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb192-1"><a href="m9a-basic-regression.html#cb192-1" tabindex="-1"></a>un_member_states_2024 <span class="sc">|&gt;</span> </span>
+<span id="cb192-2"><a href="m9a-basic-regression.html#cb192-2" tabindex="-1"></a>  <span class="fu">get_correlation</span>(life_expectancy_2022 <span class="sc">~</span> hdi_2022, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
 <pre><code># A tibble: 1 × 1
     cor
   &lt;dbl&gt;
 1 0.889</code></pre>
-<div class="sourceCode" id="cb192"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb192-1"><a href="m9a-basic-regression.html#cb192-1" tabindex="-1"></a>un_member_states_2024 <span class="sc">|&gt;</span> </span>
-<span id="cb192-2"><a href="m9a-basic-regression.html#cb192-2" tabindex="-1"></a>  <span class="fu">get_correlation</span>(fertility_rate_2022 <span class="sc">~</span> hdi_2022, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb194"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb194-1"><a href="m9a-basic-regression.html#cb194-1" tabindex="-1"></a>un_member_states_2024 <span class="sc">|&gt;</span> </span>
+<span id="cb194-2"><a href="m9a-basic-regression.html#cb194-2" tabindex="-1"></a>  <span class="fu">get_correlation</span>(fertility_rate_2022 <span class="sc">~</span> hdi_2022, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span></code></pre></div>
 <pre><code># A tibble: 1 × 1
      cor
    &lt;dbl&gt;
@@ -2353,14 +2353,14 @@ Figure 27.11: Example of observed value, fitted value, and residual.
 \sum_{i=1}^{n}(y_i - \widehat{y}_i)^2
 \]</span></p>
 <p>We use our data-wrangling tools to compute the sum of squared residuals exactly:</p>
-<div class="sourceCode" id="cb194"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb194-1"><a href="m9a-basic-regression.html#cb194-1" tabindex="-1"></a><span class="co"># Fit regression model and regression points</span></span>
-<span id="cb194-2"><a href="m9a-basic-regression.html#cb194-2" tabindex="-1"></a>demographics_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(fert_rate <span class="sc">~</span> life_exp, <span class="at">data =</span> UN_data_m9)</span>
-<span id="cb194-3"><a href="m9a-basic-regression.html#cb194-3" tabindex="-1"></a>regression_points <span class="ot">&lt;-</span> <span class="fu">get_regression_points</span>(demographics_model)</span>
-<span id="cb194-4"><a href="m9a-basic-regression.html#cb194-4" tabindex="-1"></a></span>
-<span id="cb194-5"><a href="m9a-basic-regression.html#cb194-5" tabindex="-1"></a><span class="co"># Compute sum of squared residuals</span></span>
-<span id="cb194-6"><a href="m9a-basic-regression.html#cb194-6" tabindex="-1"></a>regression_points <span class="sc">|&gt;</span></span>
-<span id="cb194-7"><a href="m9a-basic-regression.html#cb194-7" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">squared_residuals =</span> residual<span class="sc">^</span><span class="dv">2</span>) <span class="sc">|&gt;</span></span>
-<span id="cb194-8"><a href="m9a-basic-regression.html#cb194-8" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">sum_of_squared_residuals =</span> <span class="fu">sum</span>(squared_residuals))</span></code></pre></div>
+<div class="sourceCode" id="cb196"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb196-1"><a href="m9a-basic-regression.html#cb196-1" tabindex="-1"></a><span class="co"># Fit regression model and regression points</span></span>
+<span id="cb196-2"><a href="m9a-basic-regression.html#cb196-2" tabindex="-1"></a>demographics_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(fert_rate <span class="sc">~</span> life_exp, <span class="at">data =</span> UN_data_m9)</span>
+<span id="cb196-3"><a href="m9a-basic-regression.html#cb196-3" tabindex="-1"></a>regression_points <span class="ot">&lt;-</span> <span class="fu">get_regression_points</span>(demographics_model)</span>
+<span id="cb196-4"><a href="m9a-basic-regression.html#cb196-4" tabindex="-1"></a></span>
+<span id="cb196-5"><a href="m9a-basic-regression.html#cb196-5" tabindex="-1"></a><span class="co"># Compute sum of squared residuals</span></span>
+<span id="cb196-6"><a href="m9a-basic-regression.html#cb196-6" tabindex="-1"></a>regression_points <span class="sc">|&gt;</span></span>
+<span id="cb196-7"><a href="m9a-basic-regression.html#cb196-7" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">squared_residuals =</span> residual<span class="sc">^</span><span class="dv">2</span>) <span class="sc">|&gt;</span></span>
+<span id="cb196-8"><a href="m9a-basic-regression.html#cb196-8" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">sum_of_squared_residuals =</span> <span class="fu">sum</span>(squared_residuals))</span></code></pre></div>
 <pre><code>[1] 81.3</code></pre>
 <p>Any other straight line drawn in the figure would yield a sum of squared residuals greater than 81.265. This is a mathematically guaranteed fact that you can prove using calculus and linear algebra. That’s why alternative names for the linear regression line are the <em>best-fitting line</em> and the <em>least-squares line</em>.</p>
 <p>Why do we square the residuals (i.e., the arrow lengths)? So that both positive and negative deviations of the same amount are treated equally. (That being said, while taking the absolute value of the residuals would also treat both positive and negative deviations of the same amount equally, squaring the residuals is used for reasons related to calculus: taking derivatives and minimizing functions. To learn more we suggest you consult a textbook on mathematical statistics.)</p>
@@ -2373,13 +2373,13 @@ Figure 27.11: Example of observed value, fitted value, and residual.
 </ul>
 <p>What is going on behind the scenes with the <!-- `get_regression_table()` and --> <code>get_regression_points()</code> function? We mentioned in Subsection <a href="m9a-basic-regression.html#model1table">27.2.2</a> that this was an example of a <em>wrapper function</em>. Such functions take other pre-existing functions and “wrap” them into single functions that hide the user from their inner workings. This way all the user needs to worry about is what the inputs look like and what the outputs look like. In this subsection, we’ll “get under the hood” of these functions and see how the “engine” of these wrapper functions works.</p>
 <p>The <code>get_regression_points()</code> function is a wrapper function, returning information about the individual points involved in a regression model like the fitted values, observed values, and the residuals. <code>get_regression_points()</code> uses the <code>augment()</code> function in the <a href="https://broom.tidyverse.org/"><code>broom</code> package</a> <!-- instead of the `tidy()` function as with `get_regression_table()` --> to produce the data shown in Table <a href="m9a-basic-regression.html#tab:regpoints-augment">27.9</a>. Additionally, it uses <code>clean_names()</code> from the <a href="https://github.com/sfirke/janitor"><code>janitor</code> package</a> <span class="citation">[@R-janitor]</span> to clean up the variable names.</p>
-<div class="sourceCode" id="cb196"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb196-1"><a href="m9a-basic-regression.html#cb196-1" tabindex="-1"></a><span class="fu">library</span>(broom)</span>
-<span id="cb196-2"><a href="m9a-basic-regression.html#cb196-2" tabindex="-1"></a><span class="fu">library</span>(janitor)</span>
-<span id="cb196-3"><a href="m9a-basic-regression.html#cb196-3" tabindex="-1"></a>demographics_model <span class="sc">|&gt;</span></span>
-<span id="cb196-4"><a href="m9a-basic-regression.html#cb196-4" tabindex="-1"></a>  <span class="fu">augment</span>() <span class="sc">|&gt;</span></span>
-<span id="cb196-5"><a href="m9a-basic-regression.html#cb196-5" tabindex="-1"></a>  <span class="fu">mutate_if</span>(is.numeric, round, <span class="at">digits =</span> <span class="dv">3</span>) <span class="sc">|&gt;</span></span>
-<span id="cb196-6"><a href="m9a-basic-regression.html#cb196-6" tabindex="-1"></a>  <span class="fu">clean_names</span>() <span class="sc">|&gt;</span></span>
-<span id="cb196-7"><a href="m9a-basic-regression.html#cb196-7" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span><span class="fu">c</span>(<span class="st">&quot;std_resid&quot;</span>, <span class="st">&quot;hat&quot;</span>, <span class="st">&quot;sigma&quot;</span>, <span class="st">&quot;cooksd&quot;</span>, <span class="st">&quot;std_resid&quot;</span>))</span></code></pre></div>
+<div class="sourceCode" id="cb198"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb198-1"><a href="m9a-basic-regression.html#cb198-1" tabindex="-1"></a><span class="fu">library</span>(broom)</span>
+<span id="cb198-2"><a href="m9a-basic-regression.html#cb198-2" tabindex="-1"></a><span class="fu">library</span>(janitor)</span>
+<span id="cb198-3"><a href="m9a-basic-regression.html#cb198-3" tabindex="-1"></a>demographics_model <span class="sc">|&gt;</span></span>
+<span id="cb198-4"><a href="m9a-basic-regression.html#cb198-4" tabindex="-1"></a>  <span class="fu">augment</span>() <span class="sc">|&gt;</span></span>
+<span id="cb198-5"><a href="m9a-basic-regression.html#cb198-5" tabindex="-1"></a>  <span class="fu">mutate_if</span>(is.numeric, round, <span class="at">digits =</span> <span class="dv">3</span>) <span class="sc">|&gt;</span></span>
+<span id="cb198-6"><a href="m9a-basic-regression.html#cb198-6" tabindex="-1"></a>  <span class="fu">clean_names</span>() <span class="sc">|&gt;</span></span>
+<span id="cb198-7"><a href="m9a-basic-regression.html#cb198-7" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span><span class="fu">c</span>(<span class="st">&quot;std_resid&quot;</span>, <span class="st">&quot;hat&quot;</span>, <span class="st">&quot;sigma&quot;</span>, <span class="st">&quot;cooksd&quot;</span>, <span class="st">&quot;std_resid&quot;</span>))</span></code></pre></div>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
 <span id="tab:regpoints-augment">Table 27.9: </span>Regression points using augment() from broom package

@@ -527,7 +527,7 @@ regression_points |>
 
 ## Two numerical explanatory variables {#model3}
 
-We now consider regression models with two numerical explanatory variables. To illustrate this situation we explore the `ISLR2` Rpackage\index{R packages!ISLR2} for the first time in this book using its `Credit` dataset. This dataset contains  simulated information for 400 customers. For the regression model we use the  credit card balance (`Balance`) as the response variable; and the credit limit (`Limit`), and the income (`Income`) as the numerical explanatory ariables.
+We now consider regression models with two numerical explanatory variables. To illustrate this situation we explore the `ISLR2` Rpackage\index{R packages!ISLR2} for the first time in this book using its `Credit` dataset. This dataset contains  simulated information for 400 customers. For the regression model we use the  credit card balance (`Balance`) as the response variable; and the credit limit (`Limit`), and the income (`Income`) as the numerical explanatory variables.
 
 ### Exploratory data analysis {#model3EDA}
 
