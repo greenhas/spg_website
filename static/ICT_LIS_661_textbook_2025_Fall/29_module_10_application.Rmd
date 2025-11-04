@@ -34,7 +34,7 @@ options(knitr.kable.NA = "")
 set.seed(76)
 ```
 
-In Chapter \@ref(regression), we studied simple linear regression as a model that represents the relationship between two variables: an outcome variable or response $y$ and an explanatory variable or regressor $x$. Furthermore, to keep things simple, we only considered models with one explanatory $x$ variable that was either numerical in Section \@ref(model1) or categorical in Section \@ref(model2).
+In the last module, we studied simple linear regression as a model that represents the relationship between two variables: an outcome variable or response $y$ and an explanatory variable or regressor $x$. Furthermore, to keep things simple, we only considered models with one explanatory $x$ variable that was either numerical in Section \@ref(model1) or categorical in Section \@ref(model2).
 
 In this chapter, we introduce multiple linear regression, the direct extension to simple linear regression when more than one explanatory variable is taken into account to explain changes in the outcome variable. As we show in the next few sections, much of the material developed for simple linear regression translates directly into multiple linear regression, but the interpretation of the associated effect of any one explanatory variable must be made taking into account the other explanatory variables included in the model.
 
@@ -76,7 +76,7 @@ In this section, we introduce one additional regressor to this model: the catego
 
 ### Exploratory data analysis {#model4EDA}
 
-The UN member states data frame is included in the `moderndive` package. To keep things simple, we `select()` only the subset of the variables needed here, and save this data in a new data frame called `UN_data_m10`. Note that the variables used are different than the ones chosen in Chapter \@ref(regression). We also set the `income` variable to be a `factor` so that its levels show up in the expected order.
+The UN member states data frame is included in the `moderndive` package. To keep things simple, we `select()` only the subset of the variables needed here, and save this data in a new data frame called `UN_data_m10`. Note that the variables used are different than the ones chosen in a previous walkthrough. We also set the `income` variable to be a `factor` so that its levels show up in the expected order.
 
 ```{r}
 UN_data_m10 <- un_member_states_2024 |>
@@ -134,7 +134,7 @@ UN_data_m10 |>
   )
 ```
 
-Life expectancy, `life_exp`, is an estimate of how many years, on average, a person in a given country is expected to live. Fertility rate, `fert_rate`, is the average number of live births per woman of childbearing age in a country. As we did in our exploratory data analyses in Sections \@ref(model1EDA) and \@ref(model2EDA) from Chapter  \@ref(regression), we find summary statistics:
+Life expectancy, `life_exp`, is an estimate of how many years, on average, a person in a given country is expected to live. Fertility rate, `fert_rate`, is the average number of live births per woman of childbearing age in a country. As we did in our previous exploratory data analyses, we find summary statistics:
 
 ```{r eval=FALSE}
 UN_data_m10 |> 
@@ -527,7 +527,7 @@ regression_points |>
 
 ## Two numerical explanatory variables {#model3}
 
-We now consider regression models with two numerical explanatory variables. To illustrate this situation we explore the `ISLR2` Rpackage\index{R packages!ISLR2} for the first time in this book using its `Credit` dataset. This dataset contains  simulated information for 400 customers. For the regression model we use the  credit card balance (`Balance`) as the response variable; and the credit limit (`Limit`), and the income (`Income`) as the numerical explanatory ariables.
+We now consider regression models with two numerical explanatory variables. To illustrate this situation we explore the `ISLR2` Rpackage\index{R packages!ISLR2} for the first time in this book using its `Credit` dataset. This dataset contains  simulated information for 400 customers. For the regression model we use the  credit card balance (`Balance`) as the response variable; and the credit limit (`Limit`), and the income (`Income`) as the numerical explanatory variables.
 
 ### Exploratory data analysis {#model3EDA}
 
@@ -876,9 +876,9 @@ Congratulations! We've completed our introduction to modeling and are ready to s
 
 The most well-known examples of sampling in practice involve *polls*. Because asking an entire population about their opinions would be a long and arduous task, pollsters often take a smaller sample that is hopefully representative of the population. Based on the results of this sample, pollsters hope to make claims about the entire population. 
 
-Once we've covered Chapters \@ref(sampling) on sampling, \@ref(confidence-intervals) on confidence intervals, and \@ref(hypothesis-testing) on hypothesis testing, we'll revisit the regression models we studied in Chapters \@ref(regression) and \@ref(multiple-regression) in Chapter \@ref(inference-for-regression) on inference for regression. So far, we've only studied the `estimate` column of all our regression tables. The next four chapters focus on what the remaining columns mean: the standard error (`std_error`), the test `statistic`, the `p_value`, and the lower and upper bounds of confidence intervals (`lower_ci` and `upper_ci`). 
+Once we've covered sampling, confidence intervals, and hypothesis testing, we'll revisit the regression models we studied last module and this one to study inference for regression. So far, we've only studied the `estimate` column of all our regression tables. The next four chapters focus on what the remaining columns mean: the standard error (`std_error`), the test `statistic`, the `p_value`, and the lower and upper bounds of confidence intervals (`lower_ci` and `upper_ci`). 
 
-Furthermore in Chapter \@ref(inference-for-regression), we'll revisit the concept of residuals $y - \widehat{y}$ and discuss their importance when interpreting the results of a regression model. We'll perform what is known as a *residual analysis* of the `residual` variable of all `get_regression_points()` outputs. Residual analyses allow you to verify what are known as the *conditions for inference for regression*. On to Chapter \@ref(sampling) on sampling!
+Furthermore, when covering inference for regressino, we'll revisit the concept of residuals $y - \widehat{y}$ and discuss their importance when interpreting the results of a regression model. We'll perform what is known as a *residual analysis* of the `residual` variable of all `get_regression_points()` outputs. Residual analyses allow you to verify what are known as the *conditions for inference for regression*. On to sampling!
 
 ## References
 
