@@ -769,11 +769,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>As well as the more advanced <code>purrr</code>, <code>tibble</code>, <code>stringr</code>, and <code>forcats</code> packages</li>
 </ul>
 <p>If needed, read Section <a href="m2a-getting-started-with-data-in-r.html#packages">6.3</a> for information on how to install and load R packages.</p>
-<div class="sourceCode" id="cb405"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb405-1"><a href="m13-hypothesis-testing.html#cb405-1" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb405-2"><a href="m13-hypothesis-testing.html#cb405-2" tabindex="-1"></a><span class="fu">library</span>(infer)</span>
-<span id="cb405-3"><a href="m13-hypothesis-testing.html#cb405-3" tabindex="-1"></a><span class="fu">library</span>(moderndive)</span>
-<span id="cb405-4"><a href="m13-hypothesis-testing.html#cb405-4" tabindex="-1"></a><span class="fu">library</span>(nycflights13)</span>
-<span id="cb405-5"><a href="m13-hypothesis-testing.html#cb405-5" tabindex="-1"></a><span class="fu">library</span>(ggplot2movies)</span></code></pre></div>
+<div class="sourceCode" id="cb408"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb408-1"><a href="m13-hypothesis-testing.html#cb408-1" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb408-2"><a href="m13-hypothesis-testing.html#cb408-2" tabindex="-1"></a><span class="fu">library</span>(infer)</span>
+<span id="cb408-3"><a href="m13-hypothesis-testing.html#cb408-3" tabindex="-1"></a><span class="fu">library</span>(moderndive)</span>
+<span id="cb408-4"><a href="m13-hypothesis-testing.html#cb408-4" tabindex="-1"></a><span class="fu">library</span>(nycflights13)</span>
+<span id="cb408-5"><a href="m13-hypothesis-testing.html#cb408-5" tabindex="-1"></a><span class="fu">library</span>(ggplot2movies)</span></code></pre></div>
 </div>
 </div>
 <div id="ht-activity" class="section level2 hasAnchor" number="39.2">
@@ -786,9 +786,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>However, each of these 48 résumés were identical in all respects except one: the name of the applicant at the top of the résumé. Of the supervisors, 24 were randomly given résumés with stereotypically “male” names, while 24 of the supervisors were randomly given résumés with stereotypically “female” names. Since only (binary) gender varied from résumé to résumé, researchers could isolate the effect of this variable in promotion rates.</p>
 <p>As before, we’re working with a data set that assumes a binary view of gender that does not reflect the actual complexity of this phenomenon. We can still learn something about discrimination from this data, so it’s worth working with, but let’s be critical about the weaknesses of the data—and please don’t interpret this as an endorsement of a gender binary.</p>
 <p>The <code>moderndive</code> package contains the data on the 48 applicants in the <code>promotions</code> data frame. Let’s explore this data by looking at six randomly selected rows:</p>
-<div class="sourceCode" id="cb406"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb406-1"><a href="m13-hypothesis-testing.html#cb406-1" tabindex="-1"></a>promotions <span class="sc">%&gt;%</span> </span>
-<span id="cb406-2"><a href="m13-hypothesis-testing.html#cb406-2" tabindex="-1"></a>  <span class="fu">sample_n</span>(<span class="at">size =</span> <span class="dv">6</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb406-3"><a href="m13-hypothesis-testing.html#cb406-3" tabindex="-1"></a>  <span class="fu">arrange</span>(id)</span></code></pre></div>
+<div class="sourceCode" id="cb409"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb409-1"><a href="m13-hypothesis-testing.html#cb409-1" tabindex="-1"></a>promotions <span class="sc">%&gt;%</span> </span>
+<span id="cb409-2"><a href="m13-hypothesis-testing.html#cb409-2" tabindex="-1"></a>  <span class="fu">sample_n</span>(<span class="at">size =</span> <span class="dv">6</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb409-3"><a href="m13-hypothesis-testing.html#cb409-3" tabindex="-1"></a>  <span class="fu">arrange</span>(id)</span></code></pre></div>
 <pre><code># A tibble: 6 × 3
      id decision gender
   &lt;int&gt; &lt;fct&gt;    &lt;fct&gt; 
@@ -800,9 +800,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 6    46 not      female</code></pre>
 <p>The variable <code>id</code> acts as an identification variable for all 48 rows, the <code>decision</code> variable indicates whether the applicant was selected for promotion or not, while the <code>gender</code> variable indicates the gender of the name used on the résumé. Recall that this data does not pertain to 24 actual men and 24 actual women, but rather 48 identical résumés of which 24 were assigned stereotypically “male” names and 24 were assigned stereotypically “female” names.</p>
 <p>Let’s perform an exploratory data analysis of the relationship between the two categorical variables <code>decision</code> and <code>gender</code>. Recall that we saw in Subsection <a href="m7a-data-visualization.html#two-categ-barplot">21.8.3</a> that one way we can visualize such a relationship is by using a stacked barplot.</p>
-<div class="sourceCode" id="cb408"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb408-1"><a href="m13-hypothesis-testing.html#cb408-1" tabindex="-1"></a><span class="fu">ggplot</span>(promotions, <span class="fu">aes</span>(<span class="at">x =</span> gender, <span class="at">fill =</span> decision)) <span class="sc">+</span></span>
-<span id="cb408-2"><a href="m13-hypothesis-testing.html#cb408-2" tabindex="-1"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
-<span id="cb408-3"><a href="m13-hypothesis-testing.html#cb408-3" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Gender of name on résumé&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb411"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb411-1"><a href="m13-hypothesis-testing.html#cb411-1" tabindex="-1"></a><span class="fu">ggplot</span>(promotions, <span class="fu">aes</span>(<span class="at">x =</span> gender, <span class="at">fill =</span> decision)) <span class="sc">+</span></span>
+<span id="cb411-2"><a href="m13-hypothesis-testing.html#cb411-2" tabindex="-1"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
+<span id="cb411-3"><a href="m13-hypothesis-testing.html#cb411-3" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Gender of name on résumé&quot;</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:promotions-barplot"></span>
 <img src="_main_files/figure-html/promotions-barplot-1.png" alt="Barplot relating gender to promotion decision." width="\textwidth" />
 <p class="caption">
@@ -810,9 +810,9 @@ Figure 39.1: Barplot relating gender to promotion decision.
 </p>
 </div>
 <p>Observe in Figure <a href="m13-hypothesis-testing.html#fig:promotions-barplot">39.1</a> that it appears that résumés with female names were much less likely to be accepted for promotion. Let’s quantify these promotion rates by computing the proportion of résumés accepted for promotion for each group using the <code>dplyr</code> package for data wrangling. Note the use of the <code>tally()</code> function here which is a shortcut for <code>summarize(n = n())</code> to get counts.</p>
-<div class="sourceCode" id="cb409"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb409-1"><a href="m13-hypothesis-testing.html#cb409-1" tabindex="-1"></a>promotions <span class="sc">%&gt;%</span> </span>
-<span id="cb409-2"><a href="m13-hypothesis-testing.html#cb409-2" tabindex="-1"></a>  <span class="fu">group_by</span>(gender, decision) <span class="sc">%&gt;%</span> </span>
-<span id="cb409-3"><a href="m13-hypothesis-testing.html#cb409-3" tabindex="-1"></a>  <span class="fu">tally</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb412"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb412-1"><a href="m13-hypothesis-testing.html#cb412-1" tabindex="-1"></a>promotions <span class="sc">%&gt;%</span> </span>
+<span id="cb412-2"><a href="m13-hypothesis-testing.html#cb412-2" tabindex="-1"></a>  <span class="fu">group_by</span>(gender, decision) <span class="sc">%&gt;%</span> </span>
+<span id="cb412-3"><a href="m13-hypothesis-testing.html#cb412-3" tabindex="-1"></a>  <span class="fu">tally</span>()</span></code></pre></div>
 <pre><code># A tibble: 4 × 3
 # Groups:   gender [2]
   gender decision     n
@@ -952,10 +952,10 @@ Figure 39.3: Shuffling a deck of cards.
 </div>
 <p>We’ve saved one such shuffling in the <code>promotions_shuffled</code> data frame of the <code>moderndive</code> package. If you compare the original <code>promotions</code> and the shuffled <code>promotions_shuffled</code> data frames, you’ll see that while the <code>decision</code> variable is identical, the <code>gender</code> variable has changed.</p>
 <p>Let’s repeat the same exploratory data analysis we did for the original <code>promotions</code> data on our <code>promotions_shuffled</code> data frame. Let’s create a barplot visualizing the relationship between <code>decision</code> and the new shuffled <code>gender</code> variable and compare this to the original unshuffled version in Figure <a href="m13-hypothesis-testing.html#fig:promotions-barplot-permuted">39.4</a>.</p>
-<div class="sourceCode" id="cb411"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb411-1"><a href="m13-hypothesis-testing.html#cb411-1" tabindex="-1"></a><span class="fu">ggplot</span>(promotions_shuffled, </span>
-<span id="cb411-2"><a href="m13-hypothesis-testing.html#cb411-2" tabindex="-1"></a>       <span class="fu">aes</span>(<span class="at">x =</span> gender, <span class="at">fill =</span> decision)) <span class="sc">+</span></span>
-<span id="cb411-3"><a href="m13-hypothesis-testing.html#cb411-3" tabindex="-1"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span> </span>
-<span id="cb411-4"><a href="m13-hypothesis-testing.html#cb411-4" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Gender of résumé name&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb414"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb414-1"><a href="m13-hypothesis-testing.html#cb414-1" tabindex="-1"></a><span class="fu">ggplot</span>(promotions_shuffled, </span>
+<span id="cb414-2"><a href="m13-hypothesis-testing.html#cb414-2" tabindex="-1"></a>       <span class="fu">aes</span>(<span class="at">x =</span> gender, <span class="at">fill =</span> decision)) <span class="sc">+</span></span>
+<span id="cb414-3"><a href="m13-hypothesis-testing.html#cb414-3" tabindex="-1"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span> </span>
+<span id="cb414-4"><a href="m13-hypothesis-testing.html#cb414-4" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Gender of résumé name&quot;</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:promotions-barplot-permuted"></span>
 <img src="_main_files/figure-html/promotions-barplot-permuted-1.png" alt="Barplots of relationship of promotion with gender (left) and shuffled gender (right)." width="\textwidth" />
 <p class="caption">
@@ -964,9 +964,9 @@ Figure 39.4: Barplots of relationship of promotion with gender (left) and shuffl
 </div>
 <p>It appears the difference in “male names” versus “female names” promotion rates is now different. Compared to the original data in the left barplot, the new “shuffled” data in the right barplot has promotion rates that are much more similar.</p>
 <p>Let’s also compute the proportion of résumés accepted for promotion for each group:</p>
-<div class="sourceCode" id="cb412"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb412-1"><a href="m13-hypothesis-testing.html#cb412-1" tabindex="-1"></a>promotions_shuffled <span class="sc">%&gt;%</span> </span>
-<span id="cb412-2"><a href="m13-hypothesis-testing.html#cb412-2" tabindex="-1"></a>  <span class="fu">group_by</span>(gender, decision) <span class="sc">%&gt;%</span> </span>
-<span id="cb412-3"><a href="m13-hypothesis-testing.html#cb412-3" tabindex="-1"></a>  <span class="fu">tally</span>() <span class="co"># Same as summarize(n = n())</span></span></code></pre></div>
+<div class="sourceCode" id="cb415"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb415-1"><a href="m13-hypothesis-testing.html#cb415-1" tabindex="-1"></a>promotions_shuffled <span class="sc">%&gt;%</span> </span>
+<span id="cb415-2"><a href="m13-hypothesis-testing.html#cb415-2" tabindex="-1"></a>  <span class="fu">group_by</span>(gender, decision) <span class="sc">%&gt;%</span> </span>
+<span id="cb415-3"><a href="m13-hypothesis-testing.html#cb415-3" tabindex="-1"></a>  <span class="fu">tally</span>() <span class="co"># Same as summarize(n = n())</span></span></code></pre></div>
 <pre><code># A tibble: 4 × 3
 # Groups:   gender [2]
   gender decision     n
@@ -1194,8 +1194,8 @@ Figure 39.9: Hypothesis testing with the infer package.
 <h4>1. <code>specify</code> variables<a href="m13-hypothesis-testing.html#specify-variables-2" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Recall that we use the <code>specify()</code> verb to specify the response variable and, if needed, any explanatory variables for our study. In this case, since we are interested in any potential effects of gender on promotion decisions, we set <code>decision</code> as the response variable and <code>gender</code> as the explanatory variable. We do so using <code>formula = response ~ explanatory</code> where <code>response</code> is the name of the response variable in the data frame and <code>explanatory</code> is the name of the explanatory variable. So in our case it is <code>decision ~ gender</code>.</p>
 <p>Furthermore, since we are interested in the proportion of résumés <code>"promoted"</code>, and not the proportion of résumés <code>not</code> promoted, we set the argument <code>success</code> to <code>"promoted"</code>.</p>
-<div class="sourceCode" id="cb414"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb414-1"><a href="m13-hypothesis-testing.html#cb414-1" tabindex="-1"></a>promotions <span class="sc">%&gt;%</span> </span>
-<span id="cb414-2"><a href="m13-hypothesis-testing.html#cb414-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> decision <span class="sc">~</span> gender, <span class="at">success =</span> <span class="st">&quot;promoted&quot;</span>) </span></code></pre></div>
+<div class="sourceCode" id="cb417"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb417-1"><a href="m13-hypothesis-testing.html#cb417-1" tabindex="-1"></a>promotions <span class="sc">%&gt;%</span> </span>
+<span id="cb417-2"><a href="m13-hypothesis-testing.html#cb417-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> decision <span class="sc">~</span> gender, <span class="at">success =</span> <span class="st">&quot;promoted&quot;</span>) </span></code></pre></div>
 <pre><code>Response: decision (factor)
 Explanatory: gender (factor)
 # A tibble: 48 × 2
@@ -1229,9 +1229,9 @@ H_0 &amp;: p_{m} - p_{f} = 0\\
 <li><code>"independence"</code> for hypotheses involving two samples.</li>
 </ul>
 <p>In our case, since we have two samples (the résumés with “male” and “female” names), we set <code>null = "independence"</code>.</p>
-<div class="sourceCode" id="cb416"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb416-1"><a href="m13-hypothesis-testing.html#cb416-1" tabindex="-1"></a>promotions <span class="sc">%&gt;%</span> </span>
-<span id="cb416-2"><a href="m13-hypothesis-testing.html#cb416-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> decision <span class="sc">~</span> gender, <span class="at">success =</span> <span class="st">&quot;promoted&quot;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb416-3"><a href="m13-hypothesis-testing.html#cb416-3" tabindex="-1"></a>  <span class="fu">hypothesize</span>(<span class="at">null =</span> <span class="st">&quot;independence&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb419"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb419-1"><a href="m13-hypothesis-testing.html#cb419-1" tabindex="-1"></a>promotions <span class="sc">%&gt;%</span> </span>
+<span id="cb419-2"><a href="m13-hypothesis-testing.html#cb419-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> decision <span class="sc">~</span> gender, <span class="at">success =</span> <span class="st">&quot;promoted&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb419-3"><a href="m13-hypothesis-testing.html#cb419-3" tabindex="-1"></a>  <span class="fu">hypothesize</span>(<span class="at">null =</span> <span class="st">&quot;independence&quot;</span>)</span></code></pre></div>
 <pre><code>Response: decision (factor)
 Explanatory: gender (factor)
 Null Hypothesis: ind...
@@ -1262,11 +1262,11 @@ H_0 &amp;: \mu = 1993\\
 <div id="generate-replicates-2" class="section level4 unnumbered hasAnchor">
 <h4>3. <code>generate</code> replicates<a href="m13-hypothesis-testing.html#generate-replicates-2" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>After we <code>hypothesize()</code> the null hypothesis, we <code>generate()</code> replicates of “shuffled” datasets assuming the null hypothesis is true. We do this by repeating the shuffling exercise you performed in Section <a href="m13-hypothesis-testing.html#ht-activity">39.2</a> several times. Instead of merely doing it 16 times as our groups of friends did, let’s use the computer to repeat this 1000 times by setting <code>reps = 1000</code> in the <code>generate()</code> function. However, unlike for confidence intervals where we generated replicates using <code>type = "bootstrap"</code> resampling with replacement, we’ll now perform shuffles/permutations by setting <code>type = "permute"</code>. Recall that shuffles/permutations are a kind of resampling, but unlike the bootstrap method, they involve resampling <em>without</em> replacement.</p>
-<div class="sourceCode" id="cb418"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb418-1"><a href="m13-hypothesis-testing.html#cb418-1" tabindex="-1"></a>promotions_generate <span class="ot">&lt;-</span> promotions <span class="sc">%&gt;%</span> </span>
-<span id="cb418-2"><a href="m13-hypothesis-testing.html#cb418-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> decision <span class="sc">~</span> gender, <span class="at">success =</span> <span class="st">&quot;promoted&quot;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb418-3"><a href="m13-hypothesis-testing.html#cb418-3" tabindex="-1"></a>  <span class="fu">hypothesize</span>(<span class="at">null =</span> <span class="st">&quot;independence&quot;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb418-4"><a href="m13-hypothesis-testing.html#cb418-4" tabindex="-1"></a>  <span class="fu">generate</span>(<span class="at">reps =</span> <span class="dv">1000</span>, <span class="at">type =</span> <span class="st">&quot;permute&quot;</span>)</span>
-<span id="cb418-5"><a href="m13-hypothesis-testing.html#cb418-5" tabindex="-1"></a><span class="fu">nrow</span>(promotions_generate)</span></code></pre></div>
+<div class="sourceCode" id="cb421"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb421-1"><a href="m13-hypothesis-testing.html#cb421-1" tabindex="-1"></a>promotions_generate <span class="ot">&lt;-</span> promotions <span class="sc">%&gt;%</span> </span>
+<span id="cb421-2"><a href="m13-hypothesis-testing.html#cb421-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> decision <span class="sc">~</span> gender, <span class="at">success =</span> <span class="st">&quot;promoted&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb421-3"><a href="m13-hypothesis-testing.html#cb421-3" tabindex="-1"></a>  <span class="fu">hypothesize</span>(<span class="at">null =</span> <span class="st">&quot;independence&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb421-4"><a href="m13-hypothesis-testing.html#cb421-4" tabindex="-1"></a>  <span class="fu">generate</span>(<span class="at">reps =</span> <span class="dv">1000</span>, <span class="at">type =</span> <span class="st">&quot;permute&quot;</span>)</span>
+<span id="cb421-5"><a href="m13-hypothesis-testing.html#cb421-5" tabindex="-1"></a><span class="fu">nrow</span>(promotions_generate)</span></code></pre></div>
 <pre><code>[1] 48000</code></pre>
 <!-- 
 v2 TODO: Consider:
@@ -1282,12 +1282,12 @@ here since it has `decision` shuffled.
 <p>Now that we have generated 1000 replicates of “shuffles” assuming the null hypothesis is true, let’s <code>calculate()</code> the appropriate summary statistic for each of our 1000 shuffles. From Section <a href="m13-hypothesis-testing.html#understanding-ht">39.3</a>, point estimates related to hypothesis testing have a specific name: <em>test statistics</em>. Since the unknown population parameter of interest is the difference in population proportions <span class="math inline">\(p_{m} - p_{f}\)</span>, the test statistic here is the difference in sample proportions <span class="math inline">\(\widehat{p}_{m} - \widehat{p}_{f}\)</span>.</p>
 <p>For each of our 1000 shuffles, we can calculate this test statistic by setting <code>stat = "diff in props"</code>. Furthermore, since we are interested in <span class="math inline">\(\widehat{p}_{m} - \widehat{p}_{f}\)</span> we set <code>order = c("male", "female")</code>. As I stated earlier, the order of the subtraction does not matter, so long as you stay consistent throughout your analysis and tailor your interpretations accordingly.</p>
 <p>Let’s save the result in a data frame called <code>null_distribution</code>:</p>
-<div class="sourceCode" id="cb420"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb420-1"><a href="m13-hypothesis-testing.html#cb420-1" tabindex="-1"></a>null_distribution <span class="ot">&lt;-</span> promotions <span class="sc">%&gt;%</span> </span>
-<span id="cb420-2"><a href="m13-hypothesis-testing.html#cb420-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> decision <span class="sc">~</span> gender, <span class="at">success =</span> <span class="st">&quot;promoted&quot;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb420-3"><a href="m13-hypothesis-testing.html#cb420-3" tabindex="-1"></a>  <span class="fu">hypothesize</span>(<span class="at">null =</span> <span class="st">&quot;independence&quot;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb420-4"><a href="m13-hypothesis-testing.html#cb420-4" tabindex="-1"></a>  <span class="fu">generate</span>(<span class="at">reps =</span> <span class="dv">1000</span>, <span class="at">type =</span> <span class="st">&quot;permute&quot;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb420-5"><a href="m13-hypothesis-testing.html#cb420-5" tabindex="-1"></a>  <span class="fu">calculate</span>(<span class="at">stat =</span> <span class="st">&quot;diff in props&quot;</span>, <span class="at">order =</span> <span class="fu">c</span>(<span class="st">&quot;male&quot;</span>, <span class="st">&quot;female&quot;</span>))</span>
-<span id="cb420-6"><a href="m13-hypothesis-testing.html#cb420-6" tabindex="-1"></a>null_distribution</span></code></pre></div>
+<div class="sourceCode" id="cb423"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb423-1"><a href="m13-hypothesis-testing.html#cb423-1" tabindex="-1"></a>null_distribution <span class="ot">&lt;-</span> promotions <span class="sc">%&gt;%</span> </span>
+<span id="cb423-2"><a href="m13-hypothesis-testing.html#cb423-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> decision <span class="sc">~</span> gender, <span class="at">success =</span> <span class="st">&quot;promoted&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb423-3"><a href="m13-hypothesis-testing.html#cb423-3" tabindex="-1"></a>  <span class="fu">hypothesize</span>(<span class="at">null =</span> <span class="st">&quot;independence&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb423-4"><a href="m13-hypothesis-testing.html#cb423-4" tabindex="-1"></a>  <span class="fu">generate</span>(<span class="at">reps =</span> <span class="dv">1000</span>, <span class="at">type =</span> <span class="st">&quot;permute&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb423-5"><a href="m13-hypothesis-testing.html#cb423-5" tabindex="-1"></a>  <span class="fu">calculate</span>(<span class="at">stat =</span> <span class="st">&quot;diff in props&quot;</span>, <span class="at">order =</span> <span class="fu">c</span>(<span class="st">&quot;male&quot;</span>, <span class="st">&quot;female&quot;</span>))</span>
+<span id="cb423-6"><a href="m13-hypothesis-testing.html#cb423-6" tabindex="-1"></a>null_distribution</span></code></pre></div>
 <pre><code># A tibble: 1,000 × 2
    replicate       stat
        &lt;int&gt;      &lt;dbl&gt;
@@ -1304,10 +1304,10 @@ here since it has `decision` shuffled.
 # ℹ 990 more rows</code></pre>
 <p>Observe that we have 1000 values of <code>stat</code>, each representing one instance of <span class="math inline">\(\widehat{p}_{m} - \widehat{p}_{f}\)</span> in a hypothesized world of no gender discrimination. Observe as well that I chose the name of this data frame carefully: <code>null_distribution</code>. Recall once again from Section <a href="m13-hypothesis-testing.html#understanding-ht">39.3</a> that sampling distributions when the null hypothesis <span class="math inline">\(H_0\)</span> is assumed to be true have a special name: the <em>null distribution</em>.</p>
 <p>What was the <em>observed</em> difference in promotion rates? In other words, what was the <em>observed test statistic</em> <span class="math inline">\(\widehat{p}_{m} - \widehat{p}_{f}\)</span>? Recall from Section <a href="m13-hypothesis-testing.html#ht-activity">39.2</a> that we computed this observed difference by hand to be 0.875 - 0.583 = 0.292 = 29.2%. We can also compute this value using the previous <code>infer</code> code but with the <code>hypothesize()</code> and <code>generate()</code> steps removed. Let’s save this in <code>obs_diff_prop</code>:</p>
-<div class="sourceCode" id="cb422"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb422-1"><a href="m13-hypothesis-testing.html#cb422-1" tabindex="-1"></a>obs_diff_prop <span class="ot">&lt;-</span> promotions <span class="sc">%&gt;%</span> </span>
-<span id="cb422-2"><a href="m13-hypothesis-testing.html#cb422-2" tabindex="-1"></a>  <span class="fu">specify</span>(decision <span class="sc">~</span> gender, <span class="at">success =</span> <span class="st">&quot;promoted&quot;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb422-3"><a href="m13-hypothesis-testing.html#cb422-3" tabindex="-1"></a>  <span class="fu">calculate</span>(<span class="at">stat =</span> <span class="st">&quot;diff in props&quot;</span>, <span class="at">order =</span> <span class="fu">c</span>(<span class="st">&quot;male&quot;</span>, <span class="st">&quot;female&quot;</span>))</span>
-<span id="cb422-4"><a href="m13-hypothesis-testing.html#cb422-4" tabindex="-1"></a>obs_diff_prop</span></code></pre></div>
+<div class="sourceCode" id="cb425"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb425-1"><a href="m13-hypothesis-testing.html#cb425-1" tabindex="-1"></a>obs_diff_prop <span class="ot">&lt;-</span> promotions <span class="sc">%&gt;%</span> </span>
+<span id="cb425-2"><a href="m13-hypothesis-testing.html#cb425-2" tabindex="-1"></a>  <span class="fu">specify</span>(decision <span class="sc">~</span> gender, <span class="at">success =</span> <span class="st">&quot;promoted&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb425-3"><a href="m13-hypothesis-testing.html#cb425-3" tabindex="-1"></a>  <span class="fu">calculate</span>(<span class="at">stat =</span> <span class="st">&quot;diff in props&quot;</span>, <span class="at">order =</span> <span class="fu">c</span>(<span class="st">&quot;male&quot;</span>, <span class="st">&quot;female&quot;</span>))</span>
+<span id="cb425-4"><a href="m13-hypothesis-testing.html#cb425-4" tabindex="-1"></a>obs_diff_prop</span></code></pre></div>
 <pre><code>Response: decision (factor)
 Explanatory: gender (factor)
 # A tibble: 1 × 1
@@ -1319,7 +1319,7 @@ Explanatory: gender (factor)
 <h4>5. <code>visualize</code> the p-value<a href="m13-hypothesis-testing.html#visualize-the-p-value" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>The final step is to measure how surprised we are by a promotion difference of 29.2% in a hypothesized universe of no gender discrimination. If the observed difference of 0.292 is highly unlikely, then we would be inclined to reject the validity of our hypothesized universe.</p>
 <p>We start by visualizing the <em>null distribution</em> of our 1000 values of <span class="math inline">\(\widehat{p}_{m} - \widehat{p}_{f}\)</span> using <code>visualize()</code> in Figure <a href="m13-hypothesis-testing.html#fig:null-distribution-infer">39.10</a>. Recall that these are values of the difference in promotion rates assuming <span class="math inline">\(H_0\)</span> is true. This corresponds to being in our hypothesized universe of no gender discrimination.</p>
-<div class="sourceCode" id="cb424"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb424-1"><a href="m13-hypothesis-testing.html#cb424-1" tabindex="-1"></a><span class="fu">visualize</span>(null_distribution, <span class="at">bins =</span> <span class="dv">10</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb427"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb427-1"><a href="m13-hypothesis-testing.html#cb427-1" tabindex="-1"></a><span class="fu">visualize</span>(null_distribution, <span class="at">bins =</span> <span class="dv">10</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:null-distribution-infer"></span>
 <img src="_main_files/figure-html/null-distribution-infer-1.png" alt="Null distribution." width="\textwidth" />
 <p class="caption">
@@ -1329,8 +1329,8 @@ Figure 39.10: Null distribution.
 <p>Let’s now add what happened in real life to Figure <a href="m13-hypothesis-testing.html#fig:null-distribution-infer">39.10</a>, the observed difference in promotion rates of 0.875 - 0.583 = 0.292 = 29.2%. However, instead of merely adding a vertical line using <code>geom_vline()</code>, let’s use the <code>shade_p_value()</code> function with <code>obs_stat</code> set to the observed test statistic value we saved in <code>obs_diff_prop</code>.</p>
 <p>Furthermore, we’ll set the <code>direction = "right"</code> reflecting our alternative hypothesis <span class="math inline">\(H_A: p_{m} - p_{f} &gt; 0\)</span>. Recall our alternative hypothesis <span class="math inline">\(H_A\)</span> is that <span class="math inline">\(p_{m} - p_{f} &gt; 0\)</span>, stating that there is a difference in promotion rates in favor of résumés with male names. “More extreme” here corresponds to differences that are “bigger” or “more positive” or “more to the right.” Hence we set the <code>direction</code> argument of <code>shade_p_value()</code> to be <code>"right"</code>.</p>
 <p>On the other hand, had our alternative hypothesis <span class="math inline">\(H_A\)</span> been the other possible one-sided alternative <span class="math inline">\(p_{m} - p_{f} &lt; 0\)</span>, suggesting discrimination in favor of résumés with female names, we would’ve set <code>direction = "left"</code>. Had our alternative hypothesis <span class="math inline">\(H_A\)</span> been two-sided <span class="math inline">\(p_{m} - p_{f} \neq 0\)</span>, suggesting discrimination in either direction, we would’ve set <code>direction = "both"</code>.</p>
-<div class="sourceCode" id="cb425"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb425-1"><a href="m13-hypothesis-testing.html#cb425-1" tabindex="-1"></a><span class="fu">visualize</span>(null_distribution, <span class="at">bins =</span> <span class="dv">10</span>) <span class="sc">+</span> </span>
-<span id="cb425-2"><a href="m13-hypothesis-testing.html#cb425-2" tabindex="-1"></a>  <span class="fu">shade_p_value</span>(<span class="at">obs_stat =</span> obs_diff_prop, <span class="at">direction =</span> <span class="st">&quot;right&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb428"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb428-1"><a href="m13-hypothesis-testing.html#cb428-1" tabindex="-1"></a><span class="fu">visualize</span>(null_distribution, <span class="at">bins =</span> <span class="dv">10</span>) <span class="sc">+</span> </span>
+<span id="cb428-2"><a href="m13-hypothesis-testing.html#cb428-2" tabindex="-1"></a>  <span class="fu">shade_p_value</span>(<span class="at">obs_stat =</span> obs_diff_prop, <span class="at">direction =</span> <span class="st">&quot;right&quot;</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:null-distribution-infer-2"></span>
 <img src="_main_files/figure-html/null-distribution-infer-2-1.png" alt="Shaded histogram to show $p$-value." width="\textwidth" />
 <p class="caption">
@@ -1343,8 +1343,8 @@ Figure 39.11: Shaded histogram to show <span class="math inline">\(p\)</span>-va
 </blockquote>
 <p>So judging by the shaded region in Figure <a href="m13-hypothesis-testing.html#fig:null-distribution-infer-2">39.11</a>, it seems we would somewhat rarely observe differences in promotion rates of 0.292 = 29.2% or more in a hypothesized universe of no gender discrimination. In other words, the <span class="math inline">\(p\)</span>-value is somewhat small. Hence, we would be inclined to reject this hypothesized universe, or using statistical language we would “reject <span class="math inline">\(H_0\)</span>.”</p>
 <p>What fraction of the null distribution is shaded? In other words, what is the exact value of the <span class="math inline">\(p\)</span>-value? We can compute it using the <code>get_p_value()</code> function with the same arguments as the previous <code>shade_p_value()</code> code:</p>
-<div class="sourceCode" id="cb426"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb426-1"><a href="m13-hypothesis-testing.html#cb426-1" tabindex="-1"></a>null_distribution <span class="sc">%&gt;%</span> </span>
-<span id="cb426-2"><a href="m13-hypothesis-testing.html#cb426-2" tabindex="-1"></a>  <span class="fu">get_p_value</span>(<span class="at">obs_stat =</span> obs_diff_prop, <span class="at">direction =</span> <span class="st">&quot;right&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb429"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb429-1"><a href="m13-hypothesis-testing.html#cb429-1" tabindex="-1"></a>null_distribution <span class="sc">%&gt;%</span> </span>
+<span id="cb429-2"><a href="m13-hypothesis-testing.html#cb429-2" tabindex="-1"></a>  <span class="fu">get_p_value</span>(<span class="at">obs_stat =</span> obs_diff_prop, <span class="at">direction =</span> <span class="st">&quot;right&quot;</span>)</span></code></pre></div>
 <pre><code># A tibble: 1 × 1
   p_value
     &lt;dbl&gt;
@@ -1355,30 +1355,30 @@ Figure 39.11: Shaded histogram to show <span class="math inline">\(p\)</span>-va
 <div id="comparing-infer-workflows" class="section level3 hasAnchor" number="39.4.2">
 <h3><span class="header-section-number">39.4.2</span> Comparison with confidence intervals<a href="m13-hypothesis-testing.html#comparing-infer-workflows" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>One of the great things about the <code>infer</code> package is that we can jump seamlessly between conducting hypothesis tests and constructing confidence intervals with minimal changes! Recall the code from the previous section that creates the null distribution, which in turn is needed to compute the <span class="math inline">\(p\)</span>-value:</p>
-<div class="sourceCode" id="cb428"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb428-1"><a href="m13-hypothesis-testing.html#cb428-1" tabindex="-1"></a>null_distribution <span class="ot">&lt;-</span> promotions <span class="sc">%&gt;%</span> </span>
-<span id="cb428-2"><a href="m13-hypothesis-testing.html#cb428-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> decision <span class="sc">~</span> gender, <span class="at">success =</span> <span class="st">&quot;promoted&quot;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb428-3"><a href="m13-hypothesis-testing.html#cb428-3" tabindex="-1"></a>  <span class="fu">hypothesize</span>(<span class="at">null =</span> <span class="st">&quot;independence&quot;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb428-4"><a href="m13-hypothesis-testing.html#cb428-4" tabindex="-1"></a>  <span class="fu">generate</span>(<span class="at">reps =</span> <span class="dv">1000</span>, <span class="at">type =</span> <span class="st">&quot;permute&quot;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb428-5"><a href="m13-hypothesis-testing.html#cb428-5" tabindex="-1"></a>  <span class="fu">calculate</span>(<span class="at">stat =</span> <span class="st">&quot;diff in props&quot;</span>, <span class="at">order =</span> <span class="fu">c</span>(<span class="st">&quot;male&quot;</span>, <span class="st">&quot;female&quot;</span>))</span></code></pre></div>
+<div class="sourceCode" id="cb431"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb431-1"><a href="m13-hypothesis-testing.html#cb431-1" tabindex="-1"></a>null_distribution <span class="ot">&lt;-</span> promotions <span class="sc">%&gt;%</span> </span>
+<span id="cb431-2"><a href="m13-hypothesis-testing.html#cb431-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> decision <span class="sc">~</span> gender, <span class="at">success =</span> <span class="st">&quot;promoted&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb431-3"><a href="m13-hypothesis-testing.html#cb431-3" tabindex="-1"></a>  <span class="fu">hypothesize</span>(<span class="at">null =</span> <span class="st">&quot;independence&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb431-4"><a href="m13-hypothesis-testing.html#cb431-4" tabindex="-1"></a>  <span class="fu">generate</span>(<span class="at">reps =</span> <span class="dv">1000</span>, <span class="at">type =</span> <span class="st">&quot;permute&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb431-5"><a href="m13-hypothesis-testing.html#cb431-5" tabindex="-1"></a>  <span class="fu">calculate</span>(<span class="at">stat =</span> <span class="st">&quot;diff in props&quot;</span>, <span class="at">order =</span> <span class="fu">c</span>(<span class="st">&quot;male&quot;</span>, <span class="st">&quot;female&quot;</span>))</span></code></pre></div>
 <p>To create the corresponding bootstrap distribution needed to construct a 95% confidence interval for <span class="math inline">\(p_{m} - p_{f}\)</span>, we only need to make two changes. First, we remove the <code>hypothesize()</code> step since we are no longer assuming a null hypothesis <span class="math inline">\(H_0\)</span> is true. We can do this by deleting or commenting out the <code>hypothesize()</code> line of code. Second, we switch the <code>type</code> of resampling in the <code>generate()</code> step to be <code>"bootstrap"</code> instead of <code>"permute"</code>.</p>
-<div class="sourceCode" id="cb429"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb429-1"><a href="m13-hypothesis-testing.html#cb429-1" tabindex="-1"></a>bootstrap_distribution <span class="ot">&lt;-</span> promotions <span class="sc">%&gt;%</span> </span>
-<span id="cb429-2"><a href="m13-hypothesis-testing.html#cb429-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> decision <span class="sc">~</span> gender, <span class="at">success =</span> <span class="st">&quot;promoted&quot;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb429-3"><a href="m13-hypothesis-testing.html#cb429-3" tabindex="-1"></a>  <span class="co"># Change 1 - Remove hypothesize():</span></span>
-<span id="cb429-4"><a href="m13-hypothesis-testing.html#cb429-4" tabindex="-1"></a>  <span class="co"># hypothesize(null = &quot;independence&quot;) %&gt;% </span></span>
-<span id="cb429-5"><a href="m13-hypothesis-testing.html#cb429-5" tabindex="-1"></a>  <span class="co"># Change 2 - Switch type from &quot;permute&quot; to &quot;bootstrap&quot;:</span></span>
-<span id="cb429-6"><a href="m13-hypothesis-testing.html#cb429-6" tabindex="-1"></a>  <span class="fu">generate</span>(<span class="at">reps =</span> <span class="dv">1000</span>, <span class="at">type =</span> <span class="st">&quot;bootstrap&quot;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb429-7"><a href="m13-hypothesis-testing.html#cb429-7" tabindex="-1"></a>  <span class="fu">calculate</span>(<span class="at">stat =</span> <span class="st">&quot;diff in props&quot;</span>, <span class="at">order =</span> <span class="fu">c</span>(<span class="st">&quot;male&quot;</span>, <span class="st">&quot;female&quot;</span>))</span></code></pre></div>
+<div class="sourceCode" id="cb432"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb432-1"><a href="m13-hypothesis-testing.html#cb432-1" tabindex="-1"></a>bootstrap_distribution <span class="ot">&lt;-</span> promotions <span class="sc">%&gt;%</span> </span>
+<span id="cb432-2"><a href="m13-hypothesis-testing.html#cb432-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> decision <span class="sc">~</span> gender, <span class="at">success =</span> <span class="st">&quot;promoted&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb432-3"><a href="m13-hypothesis-testing.html#cb432-3" tabindex="-1"></a>  <span class="co"># Change 1 - Remove hypothesize():</span></span>
+<span id="cb432-4"><a href="m13-hypothesis-testing.html#cb432-4" tabindex="-1"></a>  <span class="co"># hypothesize(null = &quot;independence&quot;) %&gt;% </span></span>
+<span id="cb432-5"><a href="m13-hypothesis-testing.html#cb432-5" tabindex="-1"></a>  <span class="co"># Change 2 - Switch type from &quot;permute&quot; to &quot;bootstrap&quot;:</span></span>
+<span id="cb432-6"><a href="m13-hypothesis-testing.html#cb432-6" tabindex="-1"></a>  <span class="fu">generate</span>(<span class="at">reps =</span> <span class="dv">1000</span>, <span class="at">type =</span> <span class="st">&quot;bootstrap&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb432-7"><a href="m13-hypothesis-testing.html#cb432-7" tabindex="-1"></a>  <span class="fu">calculate</span>(<span class="at">stat =</span> <span class="st">&quot;diff in props&quot;</span>, <span class="at">order =</span> <span class="fu">c</span>(<span class="st">&quot;male&quot;</span>, <span class="st">&quot;female&quot;</span>))</span></code></pre></div>
 <p>Using this <code>bootstrap_distribution</code>, let’s first compute the percentile-based confidence intervals, as we did in Section <a href="confidence-intervals.html#bootstrap-process">36.2.2</a>:</p>
-<div class="sourceCode" id="cb430"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb430-1"><a href="m13-hypothesis-testing.html#cb430-1" tabindex="-1"></a>percentile_ci <span class="ot">&lt;-</span> bootstrap_distribution <span class="sc">%&gt;%</span> </span>
-<span id="cb430-2"><a href="m13-hypothesis-testing.html#cb430-2" tabindex="-1"></a>  <span class="fu">get_confidence_interval</span>(<span class="at">level =</span> <span class="fl">0.95</span>, <span class="at">type =</span> <span class="st">&quot;percentile&quot;</span>)</span>
-<span id="cb430-3"><a href="m13-hypothesis-testing.html#cb430-3" tabindex="-1"></a>percentile_ci</span></code></pre></div>
+<div class="sourceCode" id="cb433"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb433-1"><a href="m13-hypothesis-testing.html#cb433-1" tabindex="-1"></a>percentile_ci <span class="ot">&lt;-</span> bootstrap_distribution <span class="sc">%&gt;%</span> </span>
+<span id="cb433-2"><a href="m13-hypothesis-testing.html#cb433-2" tabindex="-1"></a>  <span class="fu">get_confidence_interval</span>(<span class="at">level =</span> <span class="fl">0.95</span>, <span class="at">type =</span> <span class="st">&quot;percentile&quot;</span>)</span>
+<span id="cb433-3"><a href="m13-hypothesis-testing.html#cb433-3" tabindex="-1"></a>percentile_ci</span></code></pre></div>
 <pre><code># A tibble: 1 × 2
    lower_ci upper_ci
       &lt;dbl&gt;    &lt;dbl&gt;
 1 0.0444444 0.538542</code></pre>
 <p>Using our shorthand interpretation for 95% confidence intervals from Subsection <a href="#shorthand"><strong>??</strong></a>, we are 95% “confident” that the true difference in population proportions <span class="math inline">\(p_{m} - p_{f}\)</span> is between (0.044, 0.539). Let’s visualize <code>bootstrap_distribution</code> and this percentile-based 95% confidence interval for <span class="math inline">\(p_{m} - p_{f}\)</span> in Figure <a href="m13-hypothesis-testing.html#fig:bootstrap-distribution-two-prop-percentile">39.12</a>.</p>
-<div class="sourceCode" id="cb432"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb432-1"><a href="m13-hypothesis-testing.html#cb432-1" tabindex="-1"></a><span class="fu">visualize</span>(bootstrap_distribution) <span class="sc">+</span> </span>
-<span id="cb432-2"><a href="m13-hypothesis-testing.html#cb432-2" tabindex="-1"></a>  <span class="fu">shade_confidence_interval</span>(<span class="at">endpoints =</span> percentile_ci)</span></code></pre></div>
+<div class="sourceCode" id="cb435"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb435-1"><a href="m13-hypothesis-testing.html#cb435-1" tabindex="-1"></a><span class="fu">visualize</span>(bootstrap_distribution) <span class="sc">+</span> </span>
+<span id="cb435-2"><a href="m13-hypothesis-testing.html#cb435-2" tabindex="-1"></a>  <span class="fu">shade_confidence_interval</span>(<span class="at">endpoints =</span> percentile_ci)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:bootstrap-distribution-two-prop-percentile"></span>
 <img src="_main_files/figure-html/bootstrap-distribution-two-prop-percentile-1.png" alt="Percentile-based 95\% confidence interval." width="\textwidth" />
 <p class="caption">
@@ -1387,17 +1387,17 @@ Figure 39.12: Percentile-based 95% confidence interval.
 </div>
 <p>Notice a key value that is not included in the 95% confidence interval for <span class="math inline">\(p_{m} - p_{f}\)</span>: the value 0. In other words, a difference of 0 is not included in our net, suggesting that <span class="math inline">\(p_{m}\)</span> and <span class="math inline">\(p_{f}\)</span> are truly different! Furthermore, observe how the entirety of the 95% confidence interval for <span class="math inline">\(p_{m} - p_{f}\)</span> lies above 0, suggesting that this difference is in favor of men.</p>
 <p>Since the bootstrap distribution appears to be roughly normally shaped, we can also use the standard error method as we did in Section <a href="confidence-intervals.html#bootstrap-process">36.2.2</a>. In this case, we must specify the <code>point_estimate</code> argument as the observed difference in promotion rates 0.292 = 29.2% saved in <code>obs_diff_prop</code>. This value acts as the center of the confidence interval.</p>
-<div class="sourceCode" id="cb433"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb433-1"><a href="m13-hypothesis-testing.html#cb433-1" tabindex="-1"></a>se_ci <span class="ot">&lt;-</span> bootstrap_distribution <span class="sc">%&gt;%</span> </span>
-<span id="cb433-2"><a href="m13-hypothesis-testing.html#cb433-2" tabindex="-1"></a>  <span class="fu">get_confidence_interval</span>(<span class="at">level =</span> <span class="fl">0.95</span>, <span class="at">type =</span> <span class="st">&quot;se&quot;</span>, </span>
-<span id="cb433-3"><a href="m13-hypothesis-testing.html#cb433-3" tabindex="-1"></a>                          <span class="at">point_estimate =</span> obs_diff_prop)</span>
-<span id="cb433-4"><a href="m13-hypothesis-testing.html#cb433-4" tabindex="-1"></a>se_ci</span></code></pre></div>
+<div class="sourceCode" id="cb436"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb436-1"><a href="m13-hypothesis-testing.html#cb436-1" tabindex="-1"></a>se_ci <span class="ot">&lt;-</span> bootstrap_distribution <span class="sc">%&gt;%</span> </span>
+<span id="cb436-2"><a href="m13-hypothesis-testing.html#cb436-2" tabindex="-1"></a>  <span class="fu">get_confidence_interval</span>(<span class="at">level =</span> <span class="fl">0.95</span>, <span class="at">type =</span> <span class="st">&quot;se&quot;</span>, </span>
+<span id="cb436-3"><a href="m13-hypothesis-testing.html#cb436-3" tabindex="-1"></a>                          <span class="at">point_estimate =</span> obs_diff_prop)</span>
+<span id="cb436-4"><a href="m13-hypothesis-testing.html#cb436-4" tabindex="-1"></a>se_ci</span></code></pre></div>
 <pre><code># A tibble: 1 × 2
    lower_ci upper_ci
       &lt;dbl&gt;    &lt;dbl&gt;
 1 0.0514129 0.531920</code></pre>
 <p>Let’s visualize <code>bootstrap_distribution</code> again, but now the standard error based 95% confidence interval for <span class="math inline">\(p_{m} - p_{f}\)</span> in Figure <a href="m13-hypothesis-testing.html#fig:bootstrap-distribution-two-prop-se">39.13</a>. Again, notice how the value 0 is not included in our confidence interval, again suggesting that <span class="math inline">\(p_{m}\)</span> and <span class="math inline">\(p_{f}\)</span> are truly different!</p>
-<div class="sourceCode" id="cb435"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb435-1"><a href="m13-hypothesis-testing.html#cb435-1" tabindex="-1"></a><span class="fu">visualize</span>(bootstrap_distribution) <span class="sc">+</span> </span>
-<span id="cb435-2"><a href="m13-hypothesis-testing.html#cb435-2" tabindex="-1"></a>  <span class="fu">shade_confidence_interval</span>(<span class="at">endpoints =</span> se_ci)</span></code></pre></div>
+<div class="sourceCode" id="cb438"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb438-1"><a href="m13-hypothesis-testing.html#cb438-1" tabindex="-1"></a><span class="fu">visualize</span>(bootstrap_distribution) <span class="sc">+</span> </span>
+<span id="cb438-2"><a href="m13-hypothesis-testing.html#cb438-2" tabindex="-1"></a>  <span class="fu">shade_confidence_interval</span>(<span class="at">endpoints =</span> se_ci)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:bootstrap-distribution-two-prop-se"></span>
 <img src="_main_files/figure-html/bootstrap-distribution-two-prop-se-1.png" alt="Standard error-based 95\% confidence interval." width="\textwidth" />
 <p class="caption">
@@ -1495,7 +1495,7 @@ Figure 39.16: Type I and Type II errors in hypothesis tests.
 <div id="imdb-data" class="section level3 hasAnchor" number="39.6.1">
 <h3><span class="header-section-number">39.6.1</span> IMDb ratings data<a href="m13-hypothesis-testing.html#imdb-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The <code>movies</code> dataset in the <code>ggplot2movies</code> package contains information on 58,788 movies that have been rated by users of IMDb.com.</p>
-<div class="sourceCode" id="cb436"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb436-1"><a href="m13-hypothesis-testing.html#cb436-1" tabindex="-1"></a>movies</span></code></pre></div>
+<div class="sourceCode" id="cb439"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb439-1"><a href="m13-hypothesis-testing.html#cb439-1" tabindex="-1"></a>movies</span></code></pre></div>
 <pre><code># A tibble: 58,788 × 24
    title     year length budget rating votes    r1    r2    r3    r4    r5    r6
    &lt;chr&gt;    &lt;int&gt;  &lt;int&gt;  &lt;int&gt;  &lt;dbl&gt; &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
@@ -1514,7 +1514,7 @@ Figure 39.16: Type I and Type II errors in hypothesis tests.
 #   Action &lt;int&gt;, Animation &lt;int&gt;, Comedy &lt;int&gt;, Drama &lt;int&gt;,
 #   Documentary &lt;int&gt;, Romance &lt;int&gt;, Short &lt;int&gt;</code></pre>
 <p>We’ll focus on a random sample of 68 movies that are classified as either “action” or “romance” movies but not both. We disregard movies that are classified as both so that we can assign all 68 movies into either category. Furthermore, since the original <code>movies</code> dataset was a little messy, we provide a pre-wrangled version of our data in the <code>movies_sample</code> data frame included in the <code>moderndive</code> package. If you’re curious, you can look at the necessary data wrangling code to do this on <a href="https://github.com/moderndive/moderndive/blob/master/data-raw/process_data_sets.R">GitHub</a>.</p>
-<div class="sourceCode" id="cb438"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb438-1"><a href="m13-hypothesis-testing.html#cb438-1" tabindex="-1"></a>movies_sample</span></code></pre></div>
+<div class="sourceCode" id="cb441"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb441-1"><a href="m13-hypothesis-testing.html#cb441-1" tabindex="-1"></a>movies_sample</span></code></pre></div>
 <pre><code># A tibble: 68 × 4
    title                     year rating genre  
    &lt;chr&gt;                    &lt;int&gt;  &lt;dbl&gt; &lt;chr&gt;  
@@ -1531,9 +1531,9 @@ Figure 39.16: Type I and Type II errors in hypothesis tests.
 # ℹ 58 more rows</code></pre>
 <p>The variables include the <code>title</code> and <code>year</code> the movie was filmed. Furthermore, we have a numerical variable <code>rating</code>, which is the IMDb rating out of 10 stars, and a binary categorical variable <code>genre</code> indicating if the movie was an <code>Action</code> or <code>Romance</code> movie. We are interested in whether <code>Action</code> or <code>Romance</code> movies got a higher <code>rating</code> on average.</p>
 <p>Let’s perform an exploratory data analysis of this data. Recall from Subsection <a href="m7a-data-visualization.html#geomboxplot">21.7.1</a> that a boxplot is a visualization we can use to show the relationship between a numerical and a categorical variable. Another option you saw in Section <a href="m7a-data-visualization.html#facets">21.6</a> would be to use a faceted histogram. However, in the interest of brevity, let’s only present the boxplot in Figure <a href="m13-hypothesis-testing.html#fig:action-romance-boxplot">39.17</a>.</p>
-<div class="sourceCode" id="cb440"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb440-1"><a href="m13-hypothesis-testing.html#cb440-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> movies_sample, <span class="fu">aes</span>(<span class="at">x =</span> genre, <span class="at">y =</span> rating)) <span class="sc">+</span></span>
-<span id="cb440-2"><a href="m13-hypothesis-testing.html#cb440-2" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
-<span id="cb440-3"><a href="m13-hypothesis-testing.html#cb440-3" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">&quot;IMDb rating&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb443"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb443-1"><a href="m13-hypothesis-testing.html#cb443-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> movies_sample, <span class="fu">aes</span>(<span class="at">x =</span> genre, <span class="at">y =</span> rating)) <span class="sc">+</span></span>
+<span id="cb443-2"><a href="m13-hypothesis-testing.html#cb443-2" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
+<span id="cb443-3"><a href="m13-hypothesis-testing.html#cb443-3" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">&quot;IMDb rating&quot;</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:action-romance-boxplot"></span>
 <img src="_main_files/figure-html/action-romance-boxplot-1.png" alt="Boxplot of IMDb rating vs. genre." width="\textwidth" />
 <p class="caption">
@@ -1543,9 +1543,9 @@ Figure 39.17: Boxplot of IMDb rating vs. genre.
 <p>Eyeballing Figure <a href="m13-hypothesis-testing.html#fig:action-romance-boxplot">39.17</a>, romance movies have a higher median rating. Do we have reason to believe, however, that there is a <em>significant</em> difference between the mean <code>rating</code> for action movies compared to romance movies? It’s hard to say just based on this plot. The boxplot does show that the median sample rating is higher for romance movies.</p>
 <p>However, there is a large amount of overlap between the boxes. Recall that the median isn’t necessarily the same as the mean either, depending on whether the distribution is skewed.</p>
 <p>Let’s calculate some summary statistics split by the binary categorical variable <code>genre</code>: the number of movies, the mean rating, and the standard deviation split by <code>genre</code>. We’ll do this using <code>dplyr</code> data wrangling verbs. Notice in particular how we count the number of each type of movie using the <code>n()</code> summary function.</p>
-<div class="sourceCode" id="cb441"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb441-1"><a href="m13-hypothesis-testing.html#cb441-1" tabindex="-1"></a>movies_sample <span class="sc">%&gt;%</span> </span>
-<span id="cb441-2"><a href="m13-hypothesis-testing.html#cb441-2" tabindex="-1"></a>  <span class="fu">group_by</span>(genre) <span class="sc">%&gt;%</span> </span>
-<span id="cb441-3"><a href="m13-hypothesis-testing.html#cb441-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">n =</span> <span class="fu">n</span>(), <span class="at">mean_rating =</span> <span class="fu">mean</span>(rating), <span class="at">std_dev =</span> <span class="fu">sd</span>(rating))</span></code></pre></div>
+<div class="sourceCode" id="cb444"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb444-1"><a href="m13-hypothesis-testing.html#cb444-1" tabindex="-1"></a>movies_sample <span class="sc">%&gt;%</span> </span>
+<span id="cb444-2"><a href="m13-hypothesis-testing.html#cb444-2" tabindex="-1"></a>  <span class="fu">group_by</span>(genre) <span class="sc">%&gt;%</span> </span>
+<span id="cb444-3"><a href="m13-hypothesis-testing.html#cb444-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">n =</span> <span class="fu">n</span>(), <span class="at">mean_rating =</span> <span class="fu">mean</span>(rating), <span class="at">std_dev =</span> <span class="fu">sd</span>(rating))</span></code></pre></div>
 <pre><code># A tibble: 2 × 4
   genre       n mean_rating std_dev
   &lt;chr&gt;   &lt;int&gt;       &lt;dbl&gt;   &lt;dbl&gt;
@@ -1669,8 +1669,8 @@ H_0 &amp;: \mu_a - \mu_r = 0\\
 <div id="specify-variables-3" class="section level4 unnumbered hasAnchor">
 <h4>1. <code>specify</code> variables<a href="m13-hypothesis-testing.html#specify-variables-3" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Let’s now perform all the steps of the <code>infer</code> workflow. We first <code>specify()</code> the variables of interest in the <code>movies_sample</code> data frame using the formula <code>rating ~ genre</code>. This tells <code>infer</code> that the numerical variable <code>rating</code> is the outcome variable, while the binary variable <code>genre</code> is the explanatory variable. Note that unlike previously when we were interested in proportions, since we are now interested in the mean of a numerical variable, we do not need to set the <code>success</code> argument.</p>
-<div class="sourceCode" id="cb443"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb443-1"><a href="m13-hypothesis-testing.html#cb443-1" tabindex="-1"></a>movies_sample <span class="sc">%&gt;%</span> </span>
-<span id="cb443-2"><a href="m13-hypothesis-testing.html#cb443-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> rating <span class="sc">~</span> genre)</span></code></pre></div>
+<div class="sourceCode" id="cb446"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb446-1"><a href="m13-hypothesis-testing.html#cb446-1" tabindex="-1"></a>movies_sample <span class="sc">%&gt;%</span> </span>
+<span id="cb446-2"><a href="m13-hypothesis-testing.html#cb446-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> rating <span class="sc">~</span> genre)</span></code></pre></div>
 <pre><code>Response: rating (numeric)
 Explanatory: genre (factor)
 # A tibble: 68 × 2
@@ -1692,9 +1692,9 @@ Explanatory: genre (factor)
 <div id="hypothesize-the-null-1" class="section level4 unnumbered hasAnchor">
 <h4>2. <code>hypothesize</code> the null<a href="m13-hypothesis-testing.html#hypothesize-the-null-1" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>We set the null hypothesis <span class="math inline">\(H_0: \mu_a - \mu_r = 0\)</span> by using the <code>hypothesize()</code> function. Since we have two samples, action and romance movies, we set <code>null</code> to be <code>"independence"</code> as we described in Section <a href="m13-hypothesis-testing.html#ht-infer">39.4</a>.</p>
-<div class="sourceCode" id="cb445"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb445-1"><a href="m13-hypothesis-testing.html#cb445-1" tabindex="-1"></a>movies_sample <span class="sc">%&gt;%</span> </span>
-<span id="cb445-2"><a href="m13-hypothesis-testing.html#cb445-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> rating <span class="sc">~</span> genre) <span class="sc">%&gt;%</span> </span>
-<span id="cb445-3"><a href="m13-hypothesis-testing.html#cb445-3" tabindex="-1"></a>  <span class="fu">hypothesize</span>(<span class="at">null =</span> <span class="st">&quot;independence&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb448"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb448-1"><a href="m13-hypothesis-testing.html#cb448-1" tabindex="-1"></a>movies_sample <span class="sc">%&gt;%</span> </span>
+<span id="cb448-2"><a href="m13-hypothesis-testing.html#cb448-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> rating <span class="sc">~</span> genre) <span class="sc">%&gt;%</span> </span>
+<span id="cb448-3"><a href="m13-hypothesis-testing.html#cb448-3" tabindex="-1"></a>  <span class="fu">hypothesize</span>(<span class="at">null =</span> <span class="st">&quot;independence&quot;</span>)</span></code></pre></div>
 <pre><code>Response: rating (numeric)
 Explanatory: genre (factor)
 Null Hypothesis: indep...
@@ -1717,22 +1717,22 @@ Null Hypothesis: indep...
 <h4>3. <code>generate</code> replicates<a href="m13-hypothesis-testing.html#generate-replicates-3" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>After we have set the null hypothesis, we generate “shuffled” replicates assuming the null hypothesis is true by repeating the shuffling/permutation exercise you performed in Section <a href="m13-hypothesis-testing.html#ht-activity">39.2</a>.</p>
 <p>We’ll repeat this resampling without replacement of <code>type = "permute"</code> a total of <code>reps = 1000</code> times. Feel free to run the code below to check out what the <code>generate()</code> step produces.</p>
-<div class="sourceCode" id="cb447"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb447-1"><a href="m13-hypothesis-testing.html#cb447-1" tabindex="-1"></a>movies_sample <span class="sc">%&gt;%</span> </span>
-<span id="cb447-2"><a href="m13-hypothesis-testing.html#cb447-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> rating <span class="sc">~</span> genre) <span class="sc">%&gt;%</span> </span>
-<span id="cb447-3"><a href="m13-hypothesis-testing.html#cb447-3" tabindex="-1"></a>  <span class="fu">hypothesize</span>(<span class="at">null =</span> <span class="st">&quot;independence&quot;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb447-4"><a href="m13-hypothesis-testing.html#cb447-4" tabindex="-1"></a>  <span class="fu">generate</span>(<span class="at">reps =</span> <span class="dv">1000</span>, <span class="at">type =</span> <span class="st">&quot;permute&quot;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb447-5"><a href="m13-hypothesis-testing.html#cb447-5" tabindex="-1"></a>  <span class="fu">View</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb450"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb450-1"><a href="m13-hypothesis-testing.html#cb450-1" tabindex="-1"></a>movies_sample <span class="sc">%&gt;%</span> </span>
+<span id="cb450-2"><a href="m13-hypothesis-testing.html#cb450-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> rating <span class="sc">~</span> genre) <span class="sc">%&gt;%</span> </span>
+<span id="cb450-3"><a href="m13-hypothesis-testing.html#cb450-3" tabindex="-1"></a>  <span class="fu">hypothesize</span>(<span class="at">null =</span> <span class="st">&quot;independence&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb450-4"><a href="m13-hypothesis-testing.html#cb450-4" tabindex="-1"></a>  <span class="fu">generate</span>(<span class="at">reps =</span> <span class="dv">1000</span>, <span class="at">type =</span> <span class="st">&quot;permute&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb450-5"><a href="m13-hypothesis-testing.html#cb450-5" tabindex="-1"></a>  <span class="fu">View</span>()</span></code></pre></div>
 </div>
 <div id="calculate-summary-statistics-3" class="section level4 unnumbered hasAnchor">
 <h4>4. <code>calculate</code> summary statistics<a href="m13-hypothesis-testing.html#calculate-summary-statistics-3" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Now that we have 1000 replicated “shuffles” assuming the null hypothesis <span class="math inline">\(H_0\)</span> that both <code>Action</code> and <code>Romance</code> movies on average have the same ratings on IMDb, let’s <code>calculate()</code> the appropriate summary statistic for these 1000 replicated shuffles. From Section <a href="m13-hypothesis-testing.html#understanding-ht">39.3</a>, summary statistics relating to hypothesis testing have a specific name: <em>test statistics</em>. Since the unknown population parameter of interest is the difference in population means <span class="math inline">\(\mu_{a} - \mu_{r}\)</span>, the test statistic of interest here is the difference in sample means <span class="math inline">\(\overline{x}_{a} - \overline{x}_{r}\)</span>.</p>
 <p>For each of our 1000 shuffles, we can calculate this test statistic by setting <code>stat = "diff in means"</code>. Furthermore, since we are interested in <span class="math inline">\(\overline{x}_{a} - \overline{x}_{r}\)</span>, we set <code>order = c("Action", "Romance")</code>. Let’s save the results in a data frame called <code>null_distribution_movies</code>:</p>
-<div class="sourceCode" id="cb448"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb448-1"><a href="m13-hypothesis-testing.html#cb448-1" tabindex="-1"></a>null_distribution_movies <span class="ot">&lt;-</span> movies_sample <span class="sc">%&gt;%</span> </span>
-<span id="cb448-2"><a href="m13-hypothesis-testing.html#cb448-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> rating <span class="sc">~</span> genre) <span class="sc">%&gt;%</span> </span>
-<span id="cb448-3"><a href="m13-hypothesis-testing.html#cb448-3" tabindex="-1"></a>  <span class="fu">hypothesize</span>(<span class="at">null =</span> <span class="st">&quot;independence&quot;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb448-4"><a href="m13-hypothesis-testing.html#cb448-4" tabindex="-1"></a>  <span class="fu">generate</span>(<span class="at">reps =</span> <span class="dv">1000</span>, <span class="at">type =</span> <span class="st">&quot;permute&quot;</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb448-5"><a href="m13-hypothesis-testing.html#cb448-5" tabindex="-1"></a>  <span class="fu">calculate</span>(<span class="at">stat =</span> <span class="st">&quot;diff in means&quot;</span>, <span class="at">order =</span> <span class="fu">c</span>(<span class="st">&quot;Action&quot;</span>, <span class="st">&quot;Romance&quot;</span>))</span>
-<span id="cb448-6"><a href="m13-hypothesis-testing.html#cb448-6" tabindex="-1"></a>null_distribution_movies</span></code></pre></div>
+<div class="sourceCode" id="cb451"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb451-1"><a href="m13-hypothesis-testing.html#cb451-1" tabindex="-1"></a>null_distribution_movies <span class="ot">&lt;-</span> movies_sample <span class="sc">%&gt;%</span> </span>
+<span id="cb451-2"><a href="m13-hypothesis-testing.html#cb451-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> rating <span class="sc">~</span> genre) <span class="sc">%&gt;%</span> </span>
+<span id="cb451-3"><a href="m13-hypothesis-testing.html#cb451-3" tabindex="-1"></a>  <span class="fu">hypothesize</span>(<span class="at">null =</span> <span class="st">&quot;independence&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb451-4"><a href="m13-hypothesis-testing.html#cb451-4" tabindex="-1"></a>  <span class="fu">generate</span>(<span class="at">reps =</span> <span class="dv">1000</span>, <span class="at">type =</span> <span class="st">&quot;permute&quot;</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb451-5"><a href="m13-hypothesis-testing.html#cb451-5" tabindex="-1"></a>  <span class="fu">calculate</span>(<span class="at">stat =</span> <span class="st">&quot;diff in means&quot;</span>, <span class="at">order =</span> <span class="fu">c</span>(<span class="st">&quot;Action&quot;</span>, <span class="st">&quot;Romance&quot;</span>))</span>
+<span id="cb451-6"><a href="m13-hypothesis-testing.html#cb451-6" tabindex="-1"></a>null_distribution_movies</span></code></pre></div>
 <pre><code># A tibble: 1,000 × 2
    replicate      stat
        &lt;int&gt;     &lt;dbl&gt;
@@ -1748,10 +1748,10 @@ Null Hypothesis: indep...
 10        10  0.334028
 # ℹ 990 more rows</code></pre>
 <p>Observe that we have 1000 values of <code>stat</code>, each representing one instance of <span class="math inline">\(\overline{x}_{a} - \overline{x}_{r}\)</span>. The 1000 values form the <em>null distribution</em>, which is the technical term for the sampling distribution of the difference in sample means <span class="math inline">\(\overline{x}_{a} - \overline{x}_{r}\)</span> assuming <span class="math inline">\(H_0\)</span> is true. What happened in real life? What was the observed difference in promotion rates? What was the <em>observed test statistic</em> <span class="math inline">\(\overline{x}_{a} - \overline{x}_{r}\)</span>? Recall from our earlier data wrangling, this observed difference in means was <span class="math inline">\(5.275 - 6.322 = -1.047\)</span>. We can also achieve this using the code that constructed the null distribution <code>null_distribution_movies</code> but with the <code>hypothesize()</code> and <code>generate()</code> steps removed. Let’s save this in <code>obs_diff_means</code>:</p>
-<div class="sourceCode" id="cb450"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb450-1"><a href="m13-hypothesis-testing.html#cb450-1" tabindex="-1"></a>obs_diff_means <span class="ot">&lt;-</span> movies_sample <span class="sc">%&gt;%</span> </span>
-<span id="cb450-2"><a href="m13-hypothesis-testing.html#cb450-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> rating <span class="sc">~</span> genre) <span class="sc">%&gt;%</span> </span>
-<span id="cb450-3"><a href="m13-hypothesis-testing.html#cb450-3" tabindex="-1"></a>  <span class="fu">calculate</span>(<span class="at">stat =</span> <span class="st">&quot;diff in means&quot;</span>, <span class="at">order =</span> <span class="fu">c</span>(<span class="st">&quot;Action&quot;</span>, <span class="st">&quot;Romance&quot;</span>))</span>
-<span id="cb450-4"><a href="m13-hypothesis-testing.html#cb450-4" tabindex="-1"></a>obs_diff_means</span></code></pre></div>
+<div class="sourceCode" id="cb453"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb453-1"><a href="m13-hypothesis-testing.html#cb453-1" tabindex="-1"></a>obs_diff_means <span class="ot">&lt;-</span> movies_sample <span class="sc">%&gt;%</span> </span>
+<span id="cb453-2"><a href="m13-hypothesis-testing.html#cb453-2" tabindex="-1"></a>  <span class="fu">specify</span>(<span class="at">formula =</span> rating <span class="sc">~</span> genre) <span class="sc">%&gt;%</span> </span>
+<span id="cb453-3"><a href="m13-hypothesis-testing.html#cb453-3" tabindex="-1"></a>  <span class="fu">calculate</span>(<span class="at">stat =</span> <span class="st">&quot;diff in means&quot;</span>, <span class="at">order =</span> <span class="fu">c</span>(<span class="st">&quot;Action&quot;</span>, <span class="st">&quot;Romance&quot;</span>))</span>
+<span id="cb453-4"><a href="m13-hypothesis-testing.html#cb453-4" tabindex="-1"></a>obs_diff_means</span></code></pre></div>
 <pre><code>Response: rating (numeric)
 Explanatory: genre (factor)
 # A tibble: 1 × 1
@@ -1762,8 +1762,8 @@ Explanatory: genre (factor)
 <div id="visualize-the-p-value-1" class="section level4 unnumbered hasAnchor">
 <h4>5. <code>visualize</code> the p-value<a href="m13-hypothesis-testing.html#visualize-the-p-value-1" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Lastly, in order to compute the <span class="math inline">\(p\)</span>-value, we have to assess how “extreme” the observed difference in means of -1.047 is. We do this by comparing -1.047 to our null distribution, which was constructed in a hypothesized universe of no true difference in movie ratings. Let’s visualize both the null distribution and the <span class="math inline">\(p\)</span>-value in Figure <a href="m13-hypothesis-testing.html#fig:null-distribution-movies-2">39.18</a>. Unlike our example in Subsection <a href="m13-hypothesis-testing.html#infer-workflow-ht">39.4.1</a> involving promotions, since we have a two-sided <span class="math inline">\(H_A: \mu_a - \mu_r \neq 0\)</span>, we have to allow for both possibilities for <em>more extreme</em>, so we set <code>direction = "both"</code>.</p>
-<div class="sourceCode" id="cb452"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb452-1"><a href="m13-hypothesis-testing.html#cb452-1" tabindex="-1"></a><span class="fu">visualize</span>(null_distribution_movies, <span class="at">bins =</span> <span class="dv">10</span>) <span class="sc">+</span> </span>
-<span id="cb452-2"><a href="m13-hypothesis-testing.html#cb452-2" tabindex="-1"></a>  <span class="fu">shade_p_value</span>(<span class="at">obs_stat =</span> obs_diff_means, <span class="at">direction =</span> <span class="st">&quot;both&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb455"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb455-1"><a href="m13-hypothesis-testing.html#cb455-1" tabindex="-1"></a><span class="fu">visualize</span>(null_distribution_movies, <span class="at">bins =</span> <span class="dv">10</span>) <span class="sc">+</span> </span>
+<span id="cb455-2"><a href="m13-hypothesis-testing.html#cb455-2" tabindex="-1"></a>  <span class="fu">shade_p_value</span>(<span class="at">obs_stat =</span> obs_diff_means, <span class="at">direction =</span> <span class="st">&quot;both&quot;</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:null-distribution-movies-2"></span>
 <img src="_main_files/figure-html/null-distribution-movies-2-1.png" alt="Null distribution, observed test statistic, and $p$-value." width="\textwidth" />
 <p class="caption">
@@ -1772,8 +1772,8 @@ Figure 39.18: Null distribution, observed test statistic, and <span class="math 
 </div>
 <p>Let’s go over the elements of this plot. First, the histogram is the <em>null distribution</em>. Second, the solid line is the <em>observed test statistic</em>, or the difference in sample means we observed in real life of <span class="math inline">\(5.275 - 6.322 = -1.047\)</span>. Third, the two shaded areas of the histogram form the <em><span class="math inline">\(p\)</span>-value</em>, or the probability of obtaining a test statistic just as or more extreme than the observed test statistic <em>assuming the null hypothesis <span class="math inline">\(H_0\)</span> is true</em>.</p>
 <p>What proportion of the null distribution is shaded? In other words, what is the numerical value of the <span class="math inline">\(p\)</span>-value? We use the <code>get_p_value()</code> function to compute this value:</p>
-<div class="sourceCode" id="cb453"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb453-1"><a href="m13-hypothesis-testing.html#cb453-1" tabindex="-1"></a>null_distribution_movies <span class="sc">%&gt;%</span> </span>
-<span id="cb453-2"><a href="m13-hypothesis-testing.html#cb453-2" tabindex="-1"></a>  <span class="fu">get_p_value</span>(<span class="at">obs_stat =</span> obs_diff_means, <span class="at">direction =</span> <span class="st">&quot;both&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb456"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb456-1"><a href="m13-hypothesis-testing.html#cb456-1" tabindex="-1"></a>null_distribution_movies <span class="sc">%&gt;%</span> </span>
+<span id="cb456-2"><a href="m13-hypothesis-testing.html#cb456-2" tabindex="-1"></a>  <span class="fu">get_p_value</span>(<span class="at">obs_stat =</span> obs_diff_means, <span class="at">direction =</span> <span class="st">&quot;both&quot;</span>)</span></code></pre></div>
 <pre><code># A tibble: 1 × 1
   p_value
     &lt;dbl&gt;
@@ -1787,11 +1787,11 @@ Figure 39.18: Null distribution, observed test statistic, and <span class="math 
 <h2><span class="header-section-number">39.7</span> Conclusion<a href="m13-hypothesis-testing.html#nhst-conclusion" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Now that we’ve armed ourselves with an understanding of confidence intervals from Chapter <a href="confidence-intervals.html#confidence-intervals">36</a> and hypothesis tests from this chapter, we’ll now study inference for regression in the upcoming Chapter <a href="#inference-for-regression"><strong>??</strong></a>.</p>
 <p>We’ll revisit the regression models we studied in Chapter <a href="#regression"><strong>??</strong></a> on basic regression and Chapter <a href="#multiple-regression"><strong>??</strong></a> on multiple regression. For example, recall our our regression model for an instructor’s teaching score as a function of their “beauty” score, which I’ll show again here in Table <a href="m13-hypothesis-testing.html#tab:regression-table-inference">39.7</a>.</p>
-<div class="sourceCode" id="cb455"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb455-1"><a href="m13-hypothesis-testing.html#cb455-1" tabindex="-1"></a><span class="co"># Fit regression model:</span></span>
-<span id="cb455-2"><a href="m13-hypothesis-testing.html#cb455-2" tabindex="-1"></a>score_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(score <span class="sc">~</span> bty_avg, <span class="at">data =</span> evals)</span>
-<span id="cb455-3"><a href="m13-hypothesis-testing.html#cb455-3" tabindex="-1"></a></span>
-<span id="cb455-4"><a href="m13-hypothesis-testing.html#cb455-4" tabindex="-1"></a><span class="co"># Get regression table:</span></span>
-<span id="cb455-5"><a href="m13-hypothesis-testing.html#cb455-5" tabindex="-1"></a><span class="fu">get_regression_table</span>(score_model)</span></code></pre></div>
+<div class="sourceCode" id="cb458"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb458-1"><a href="m13-hypothesis-testing.html#cb458-1" tabindex="-1"></a><span class="co"># Fit regression model:</span></span>
+<span id="cb458-2"><a href="m13-hypothesis-testing.html#cb458-2" tabindex="-1"></a>score_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(score <span class="sc">~</span> bty_avg, <span class="at">data =</span> evals)</span>
+<span id="cb458-3"><a href="m13-hypothesis-testing.html#cb458-3" tabindex="-1"></a></span>
+<span id="cb458-4"><a href="m13-hypothesis-testing.html#cb458-4" tabindex="-1"></a><span class="co"># Get regression table:</span></span>
+<span id="cb458-5"><a href="m13-hypothesis-testing.html#cb458-5" tabindex="-1"></a><span class="fu">get_regression_table</span>(score_model)</span></code></pre></div>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
 <span id="tab:regression-table-inference">Table 39.7: </span><span id="tab:regression-table-inference">Table 39.8: </span>Linear regression table

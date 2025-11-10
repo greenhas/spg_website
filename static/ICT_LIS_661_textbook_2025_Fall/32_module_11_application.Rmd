@@ -111,7 +111,7 @@ bowl |>
   summarize(prop_red = mean(color == "red"))
 ```
 
-In the rest of this chapter, we'll be using this kind of calculation frequently. subsections.
+In the rest of this chapter, we'll be using this kind of calculation frequently.
 
 ### Manual sampling {#sampling-manual}
 
