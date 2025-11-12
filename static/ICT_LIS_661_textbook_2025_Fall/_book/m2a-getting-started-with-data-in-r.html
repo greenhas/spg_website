@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>6 M2A: Getting Started with Data in R | Introduction to Data Science</title>
   <meta name="description" content="6 M2A: Getting Started with Data in R | Introduction to Data Science" />
-  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.45 and GitBook 2.6.7" />
 
   <meta property="og:title" content="6 M2A: Getting Started with Data in R | Introduction to Data Science" />
   <meta property="og:type" content="book" />
@@ -935,7 +935,7 @@ Figure 6.4: Analogy of R versus R packages.
 <h3><span class="header-section-number">6.4.2</span> <code>flights</code> data frame<a href="m2a-getting-started-with-data-in-r.html#flights-data-frame" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>We’ll begin by exploring the <code>flights</code> data frame and get an idea of its structure. Run the following code in your console, either by typing it or by cutting-and-pasting it. It displays the contents of the <code>flights</code> data frame in your console. Note that depending on the size of your monitor, the output may vary slightly.</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="m2a-getting-started-with-data-in-r.html#cb5-1" tabindex="-1"></a>flights</span></code></pre></div>
-<pre><code># A tibble: 435,352 × 19
+<pre><code># A tibble: 435,352 × 22
     year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time
    &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;
  1  2023     1     1        1           2038       203      328              3
@@ -949,19 +949,20 @@ Figure 6.4: Analogy of R versus R packages.
  9  2023     1     1      537            520        17      926            818
 10  2023     1     1      547            545         2      845            852
 # ℹ 435,342 more rows
-# ℹ 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,
+# ℹ 14 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,
 #   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,
-#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;</code></pre>
+#   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;, gain &lt;dbl&gt;, hours &lt;dbl&gt;,
+#   gain_per_hour &lt;dbl&gt;</code></pre>
 <p>Let’s unpack this output:</p>
 <ul>
-<li><code>A tibble: 435,352 x 19</code>: A <code>tibble</code> is a specific kind of data frame in R. This particular data frame has
+<li><code>A tibble: 435,352 x 22</code>: A <code>tibble</code> is a specific kind of data frame in R. This particular data frame has
 <ul>
 <li><code>435,352</code> rows corresponding to different <em>observations</em>. Here, each observation is a flight.</li>
-<li><code>19</code> columns corresponding to 19 <em>variables</em> describing each observation.</li>
+<li><code>22</code> columns corresponding to 22 <em>variables</em> describing each observation.</li>
 </ul></li>
 <li><code>year</code>, <code>month</code>, <code>day</code>, <code>dep_time</code>, <code>sched_dep_time</code>, <code>dep_delay</code>, and <code>arr_time</code> are the different columns, in other words, the different variables of this dataset.</li>
 <li>We then have a preview of the first 10 rows of observations corresponding to the first 10 flights. R is only showing the first 10 rows, because if it showed all <code>435,352</code> rows, it would overwhelm your screen.</li>
-<li><code>... with 435,342 more rows` and 11 more variables:</code> indicating to us that 435,342 more rows of data and 11 more variables could not fit in this screen.</li>
+<li><code>... with 435,342 more rows` and 14 more variables:</code> indicating to us that 435,342 more rows of data and 11 more variables could not fit in this screen.</li>
 </ul>
 <p>Unfortunately, this output does not allow us to explore the data very well, but it does give a nice preview. Let’s look at some different ways to explore data frames.</p>
 </div>
@@ -982,7 +983,7 @@ Figure 6.4: Analogy of R versus R packages.
 <p>The second way we’ll cover to explore a data frame is using the <code>glimpse()</code> function included in the <code>dplyr</code> package. Thus, you can only use the <code>glimpse()</code> function after you’ve loaded the <code>dplyr</code> package by running <code>library(dplyr)</code>. This function provides us with an alternative perspective for exploring a data frame than the <code>View()</code> function:</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="m2a-getting-started-with-data-in-r.html#cb7-1" tabindex="-1"></a><span class="fu">glimpse</span>(flights)</span></code></pre></div>
 <pre><code>Rows: 435,352
-Columns: 19
+Columns: 22
 $ year           &lt;int&gt; 2023, 2023, 2023, 2023, 2023, 2023, 2023, 2023, 2023, 2…
 $ month          &lt;int&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1…
 $ day            &lt;int&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1…
@@ -1001,7 +1002,10 @@ $ air_time       &lt;dbl&gt; 367, 108, 190, 108, 80, 154, 192, 119, 258, 157, 16
 $ distance       &lt;dbl&gt; 2500, 760, 1576, 636, 488, 1085, 1576, 719, 1400, 1065,…
 $ hour           &lt;dbl&gt; 20, 23, 23, 21, 20, 5, 5, 5, 5, 5, 5, 6, 5, 6, 6, 6, 6,…
 $ minute         &lt;dbl&gt; 38, 0, 44, 40, 48, 0, 10, 30, 20, 45, 59, 0, 59, 0, 0, …
-$ time_hour      &lt;dttm&gt; 2023-01-01 20:00:00, 2023-01-01 23:00:00, 2023-01-01 2…</code></pre>
+$ time_hour      &lt;dttm&gt; 2023-01-01 20:00:00, 2023-01-01 23:00:00, 2023-01-01 2…
+$ gain           &lt;dbl&gt; -2, 25, 13, 7, 17, 10, 11, 19, -51, 9, -14, 4, 7, 0, 4,…
+$ hours          &lt;dbl&gt; 6.12, 1.80, 3.17, 1.80, 1.33, 2.57, 3.20, 1.98, 4.30, 2…
+$ gain_per_hour  &lt;dbl&gt; -0.327, 13.889, 4.105, 3.889, 12.750, 3.896, 3.438, 9.5…</code></pre>
 <p>Observe that <code>glimpse()</code> will give you the first few entries of each variable in a row after the variable name. In addition, the <em>data type</em> (see Subsection <a href="m2a-getting-started-with-data-in-r.html#programming-concepts">6.2.1</a>) of the variable is given immediately after each variable’s name inside <code>&lt; &gt;</code>. Here, <code>int</code> and <code>dbl</code> refer to “integer” and “double,” which are computer coding terminology for quantitative/numerical variables. “Doubles” take up twice the size to store on a computer compared to integers.</p>
 <p>In contrast, <code>chr</code> refers to “character,” which is computer terminology for text data. In most forms, text data, such as the <code>carrier</code> or <code>origin</code> of a flight, are categorical variables. The <code>time_hour</code> variable is another data type: <code>dttm</code>. These types of variables represent date and time combinations. However, we won’t work with dates and times in this book; we leave this topic for other data science books like <a href="https://datasciencebook.ca/"><em>Data Science: A First Introduction</em> by Tiffany-Anne Timbers, Melissa Lee, and Trevor Campbell</a> or <a href="https://r4ds.had.co.nz/dates-and-times.html"><em>R for Data Science</em></a> <span class="citation">[@rds2016]</span>.</p>
 <p><strong>3. <code>kable()</code></strong>:</p>

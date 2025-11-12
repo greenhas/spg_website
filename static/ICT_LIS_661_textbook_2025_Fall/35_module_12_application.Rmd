@@ -169,7 +169,19 @@ and the population standard deviation, [`pop_sd()`](https://moderndive.github.io
 
 $$\sigma = \sum_{i=1}^{5000} \frac{(x_i - \mu)^2}{5000}=`r sigma`.$$
 
-We keep those numbers for future reference to determine how well our methods of estimation are doing, but remember that in real-life situations **we do not have access to the population values** and the population mean $\mu$ is unknown. All we have is the information from one random sample. In our example, we assume that all we know is the `almonds_sample_100` object stored in `moderndive`. Its `ID` variable shows the almond chosen from the bowl and its corresponding `weight`. Using this sample we calculate some sample statistics:
+Let's hold on to those numbers for future reference to determine how well our methods of estimation are doing. We'll assign those numbers to R objects with names that mirror the Greek letters that we use to refer to population means and population standard deviations. Note that this uses some syntax that we haven't really worked with in the past; however, it's the easiest way to get what we want for these purposes.
+
+```{r}
+
+mu <- mean(almonds_bowl$weight)
+mu
+sigma <- pop_sd(almonds_bowl$weight)
+sigma
+
+```
+
+
+Remember, though, that in real-life situations **we do not have access to the population values** and the population mean $\mu$ and population standard deviation $\sigma$ are unknown. All we have is the information from one random sample. In our example, we assume that all we know is the `almonds_sample_100` object stored in `moderndive`. Its `ID` variable shows the almond chosen from the bowl and its corresponding `weight`. Using this sample we calculate some sample statistics:
 
 ```{r}
 almonds_sample_100 |> 
@@ -178,7 +190,7 @@ almonds_sample_100 |>
             sample_size = n())
 ```
 
-In one of our sampling activities, we took many random samples, calculated their sample means, constructed a histogram using these sample means, and showed how the histogram is a good approximation of the sampling distribution of the sample mean. Let's redraw Figure \@ref(fig:sample-mean-100-with-normal) here as Figure \@ref(fig:sample-mean-100-with-normal-redraw).
+In one of our sampling activities, we took many random samples, calculated their sample means, constructed a histogram using these sample means, and showed how the histogram is a good approximation of the sampling distribution of the sample mean. Let's redraw Figure \@ref(fig:sample-mean-100-with-normal) here as Figure \@ref(fig:sample-mean-100-with-normal-redraw). Please note that because of some display limitations that emerged with a recent package update, $\bar x$ is displayed here (and in some future plots) as "xbar."
 
 ```{r sample-mean-100-with-normal-redraw, echo=FALSE, fig.height=ifelse(knitr::is_latex_output(), 1.9, 4), fig.cap="The distribution of the sample mean.", purl=FALSE}
 num_almonds_sample <- length(almonds_sample_100$weight)
@@ -201,9 +213,9 @@ ggplot(virtual_mean_weight_100, aes(x = mean_weight)) +
   ) +
   geom_point(aes(x=mean(almonds_sample_100$weight), y=0), color="blue") +
   geom_point(aes(x=mu, y=0), color="red") +
-  annotate(geom="text", x=mu, y=-1, label=bquote("\u03BC"),
+  annotate(geom="text", x=mu, y=-1, label="\u03BC",
            color="red") +
-  annotate(geom="text", x=mean(almonds_sample_100$weight), y=-1, label=bquote(bar(x)),
+  annotate(geom="text", x=mean(almonds_sample_100$weight), y=-1, label="xbar",
            color="blue")
 ```
 
@@ -343,9 +355,9 @@ p1 <- ggplot(data = data.frame(x = c(3.5, 3.8)), aes(x)) +
   ) +
   geom_point(aes(x=mean(almonds_sample_100$weight), y=0), color="blue") +
   geom_point(aes(x=mu, y=0), color="red") +
-  annotate(geom="text", x=mu, y=-1, label=bquote("\u03BC = 3.64"),
+  annotate(geom="text", x=mu, y=-1, label="\u03BC = 3.64",
            color="red") +
-  annotate(geom="text", x=mean(almonds_sample_100$weight), y=-1, label=bquote(bar(x) == 3.68),
+  annotate(geom="text", x=mean(almonds_sample_100$weight), y=-1, label="xbar = 3.68",
            color="blue") +
   geom_hline(yintercept = 0, col="red", lty=2)
 p1
@@ -389,7 +401,7 @@ almonds_sample_100 |>
   )
 ```
 
-The functions `mean()` and `length()` find the sample mean weight and sample size, respectively, from the sample of almonds' weights in `almonds_sample_100`. The number 1.96 corresponds to the number of standard errors needed to get a 95% area under the normal distribution and the population standard deviation `sigma` of `r sigma` was found in Subsection \@ref(revisit-almond). Figure \@ref(fig:normal-curve-2) shows this interval as a horizontal `r ifelse(is_html_output(), "blue", "solid")` line. Observe how the population mean $\mu$ is part of this interval.
+The functions `mean()` and `length()` find the sample mean weight and sample size, respectively, from the sample of almonds' weights in `almonds_sample_100`. The number 1.96 corresponds to the number of standard errors needed to get a 95% area under the normal distribution and `sd(weight)` calculates the *sigma* value that we discussed earlier. Figure \@ref(fig:normal-curve-2) shows this interval as a horizontal `r ifelse(is_html_output(), "blue", "solid")` line. Observe how the population mean $\mu$ is part of this interval.
 
 ```{r normal-curve-2, echo=FALSE, fig.cap="Is the population mean in the interval?", purl=FALSE, out.width="90%", warning=FALSE}
 df <- data.frame(x1 = lower_bound, x2 = upper_bound, y1 = 0, y2 = 0)
@@ -401,9 +413,9 @@ p1 <- ggplot(data = data.frame(x = c(3.5, 3.8)), aes(x)) +
   ) +
   geom_point(aes(x=mean(almonds_sample_100$weight), y=0), color="blue") +
   geom_point(aes(x=mu, y=0), color="red") +
-  annotate(geom="text", x=mu, y=-1, label=bquote("\u03BC"),
+  annotate(geom="text", x=mu, y=-1, label="\u03BC",
            color="red") +
-  annotate(geom="text", x=mean(almonds_sample_100$weight), y=-1, label=bquote("x\u0305"),
+  annotate(geom="text", x=mean(almonds_sample_100$weight), y=-1, label="x\u0305",
            color="blue")+
   geom_hline(yintercept = 0, col="red", lty=2) + 
   geom_segment(aes(x = x1, y = y1, xend = x2, yend = y2, colour = "segment"), data = df, col="blue")
@@ -610,11 +622,11 @@ ggplot(data = data.frame(x = c(-4, 4)), aes(x)) +
   geom_point(aes(x=0, y=0), color="red") +
   geom_point(aes(x=-1.96, y=0), color="red") +
   geom_point(aes(x=1.96, y=0), color="red") +
-  annotate(geom="text", x=-1.96, y=-0.03, label = bquote("-q"),
+  annotate(geom="text", x=-1.96, y=-0.03, label = "-q",
            color="red") +
-  annotate(geom="text", x=1.96, y=-0.03, label = bquote("q"),
+  annotate(geom="text", x=1.96, y=-0.03, label = "q",
            color="red") +
-  annotate(geom="text", x=0, y=-0.04, label = bquote("0"),
+  annotate(geom="text", x=0, y=-0.04, label = "0",
            color="red")
 ```
 
