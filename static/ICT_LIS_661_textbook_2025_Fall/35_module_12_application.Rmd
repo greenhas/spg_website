@@ -955,6 +955,7 @@ The new structure using `infer` seems slightly more complicated than the one usi
 
 - First, the `infer` verb names better align with the overall simulation-based framework you need to understand to construct confidence intervals and to conduct hypothesis tests (in the next module).
 
+- Second, you can jump back and forth seamlessly between confidence intervals and hypothesis testing with minimal changes to your code. This will become clear in the next module, when we'll compare the `infer` code for both of these inferential methods.
 
 - Third, the `infer` workflow is much simpler for conducting inference when you have *more than one variable*. Later, we'll look at *two-sample* inference\index{two-sample inference} where the sample data is collected from two groups, and this will come in handy there. 
 
