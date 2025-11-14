@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>19 M6C: Practice Wrangling and Tidying Your Own Data | Introduction to Data Science</title>
   <meta name="description" content="19 M6C: Practice Wrangling and Tidying Your Own Data | Introduction to Data Science" />
-  <meta name="generator" content="bookdown 0.45 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
 
   <meta property="og:title" content="19 M6C: Practice Wrangling and Tidying Your Own Data | Introduction to Data Science" />
   <meta property="og:type" content="book" />
@@ -650,23 +650,24 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="39" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html"><i class="fa fa-check"></i><b>39</b> M13: Hypothesis Testing</a>
 <ul>
-<li class="chapter" data-level="39.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#introduction-22"><i class="fa fa-check"></i><b>39.1</b> Introduction</a>
-<ul>
 <li class="chapter" data-level="" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#nhst-packages"><i class="fa fa-check"></i>Needed packages</a></li>
-</ul></li>
-<li class="chapter" data-level="39.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-activity"><i class="fa fa-check"></i><b>39.2</b> Promotions activity</a>
+<li class="chapter" data-level="39.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#tying-CI-hypo"><i class="fa fa-check"></i><b>39.1</b> Tying confidence intervals to hypothesis testing</a>
 <ul>
-<li class="chapter" data-level="39.2.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#does-gender-affect-promotions-at-a-bank"><i class="fa fa-check"></i><b>39.2.1</b> Does gender affect promotions at a bank?</a></li>
+<li class="chapter" data-level="39.1.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#one-sample-hyp"><i class="fa fa-check"></i><b>39.1.1</b> The one-sample hypothesis test for the population mean</a></li>
+<li class="chapter" data-level="39.1.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#hypothesis-tests-and-confidence-intervals"><i class="fa fa-check"></i><b>39.1.2</b> Hypothesis tests and confidence intervals</a></li>
+</ul></li>
+<li class="chapter" data-level="39.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-activity"><i class="fa fa-check"></i><b>39.2</b> Music popularity activity</a>
+<ul>
+<li class="chapter" data-level="39.2.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#is-metal-music-more-popular-than-deep-house-music"><i class="fa fa-check"></i><b>39.2.1</b> Is metal music more popular than deep house music?</a></li>
 <li class="chapter" data-level="39.2.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#shuffling-once"><i class="fa fa-check"></i><b>39.2.2</b> Shuffling once</a></li>
-<li class="chapter" data-level="39.2.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#shuffling-16-times"><i class="fa fa-check"></i><b>39.2.3</b> Shuffling 16 times</a></li>
-<li class="chapter" data-level="39.2.4" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-what-did-we-just-do"><i class="fa fa-check"></i><b>39.2.4</b> What did we just do?</a></li>
+<li class="chapter" data-level="39.2.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-what-did-we-just-do"><i class="fa fa-check"></i><b>39.2.3</b> What did we just do?</a></li>
 </ul></li>
 <li class="chapter" data-level="39.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#understanding-ht"><i class="fa fa-check"></i><b>39.3</b> Understanding hypothesis tests</a></li>
 <li class="chapter" data-level="39.4" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-infer"><i class="fa fa-check"></i><b>39.4</b> Conducting hypothesis tests</a>
 <ul>
 <li class="chapter" data-level="39.4.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#infer-workflow-ht"><i class="fa fa-check"></i><b>39.4.1</b> <code>infer</code> package workflow</a></li>
 <li class="chapter" data-level="39.4.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#comparing-infer-workflows"><i class="fa fa-check"></i><b>39.4.2</b> Comparison with confidence intervals</a></li>
-<li class="chapter" data-level="39.4.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#only-one-test"><i class="fa fa-check"></i><b>39.4.3</b> “There is only one test”</a></li>
+<li class="chapter" data-level="39.4.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#only-one-test"><i class="fa fa-check"></i><b>39.4.3</b> There is only one test</a></li>
 </ul></li>
 <li class="chapter" data-level="39.5" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-interpretation"><i class="fa fa-check"></i><b>39.5</b> Interpreting hypothesis tests</a>
 <ul>
@@ -674,18 +675,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="39.5.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#types-of-errors"><i class="fa fa-check"></i><b>39.5.2</b> Types of errors</a></li>
 <li class="chapter" data-level="39.5.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#choosing-alpha"><i class="fa fa-check"></i><b>39.5.3</b> How do we choose alpha?</a></li>
 </ul></li>
-<li class="chapter" data-level="39.6" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-case-study"><i class="fa fa-check"></i><b>39.6</b> Case study: Are action or romance movies rated higher?</a>
+<li class="chapter" data-level="39.6" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-case-study"><i class="fa fa-check"></i><b>39.6</b> Case study: are action or romance movies rated higher?</a>
 <ul>
 <li class="chapter" data-level="39.6.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#imdb-data"><i class="fa fa-check"></i><b>39.6.1</b> IMDb ratings data</a></li>
 <li class="chapter" data-level="39.6.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#sampling-scenario-1"><i class="fa fa-check"></i><b>39.6.2</b> Sampling scenario</a></li>
 <li class="chapter" data-level="39.6.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#conducting-the-hypothesis-test"><i class="fa fa-check"></i><b>39.6.3</b> Conducting the hypothesis test</a></li>
 </ul></li>
-<li class="chapter" data-level="39.7" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#nhst-conclusion"><i class="fa fa-check"></i><b>39.7</b> Conclusion</a></li>
+<li class="chapter" data-level="39.7" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#nhst-conclusion"><i class="fa fa-check"></i><b>39.7</b> Summary and Final Remarks</a>
+<ul>
+<li class="chapter" data-level="39.7.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#theory-hypo"><i class="fa fa-check"></i><b>39.7.1</b> Theory-based approach for two-sample hypothesis tests</a></li>
+<li class="chapter" data-level="39.7.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#when-inference-is-not-needed"><i class="fa fa-check"></i><b>39.7.2</b> When inference is not needed</a></li>
+<li class="chapter" data-level="39.7.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#problems-with-p-values"><i class="fa fa-check"></i><b>39.7.3</b> Problems with p-values</a></li>
+<li class="chapter" data-level="39.7.4" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#additional-resources-3"><i class="fa fa-check"></i><b>39.7.4</b> Additional resources</a></li>
+<li class="chapter" data-level="39.7.5" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#whats-to-come-2"><i class="fa fa-check"></i><b>39.7.5</b> What’s to come</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="40" data-path="m13c-explore-hypothesis-testing-with-your-own-data.html"><a href="m13c-explore-hypothesis-testing-with-your-own-data.html"><i class="fa fa-check"></i><b>40</b> M13C: Explore Hypothesis Testing With Your Own Data</a></li>
 <li class="chapter" data-level="41" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html"><i class="fa fa-check"></i><b>41</b> M14U: Small Stories vs. Big Data</a>
 <ul>
-<li class="chapter" data-level="41.1" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#introduction-23"><i class="fa fa-check"></i><b>41.1</b> Introduction</a></li>
+<li class="chapter" data-level="41.1" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#introduction-22"><i class="fa fa-check"></i><b>41.1</b> Introduction</a></li>
 <li class="chapter" data-level="41.2" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#the-origins-of-autoethnography"><i class="fa fa-check"></i><b>41.2</b> The Origins of Autoethnography</a></li>
 <li class="chapter" data-level="41.3" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#what-does-autoethnography-look-like"><i class="fa fa-check"></i><b>41.3</b> What does Autoethnography Look Like?</a></li>
 <li class="chapter" data-level="41.4" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#how-do-autoethnographers-measure-quality"><i class="fa fa-check"></i><b>41.4</b> How do Autoethnographers Measure Quality?</a></li>
@@ -694,7 +702,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="42" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html"><i class="fa fa-check"></i><b>42</b> M14A: Inferential Regression</a>
 <ul>
-<li class="chapter" data-level="42.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#introduction-24"><i class="fa fa-check"></i><b>42.1</b> Introduction</a>
+<li class="chapter" data-level="42.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#introduction-23"><i class="fa fa-check"></i><b>42.1</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#inf-packages"><i class="fa fa-check"></i>Needed packages</a></li>
 </ul></li>

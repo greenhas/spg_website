@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>30 M10A: Multiple Regression | Introduction to Data Science</title>
   <meta name="description" content="30 M10A: Multiple Regression | Introduction to Data Science" />
-  <meta name="generator" content="bookdown 0.45 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
 
   <meta property="og:title" content="30 M10A: Multiple Regression | Introduction to Data Science" />
   <meta property="og:type" content="book" />
@@ -650,23 +650,24 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="39" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html"><i class="fa fa-check"></i><b>39</b> M13: Hypothesis Testing</a>
 <ul>
-<li class="chapter" data-level="39.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#introduction-22"><i class="fa fa-check"></i><b>39.1</b> Introduction</a>
-<ul>
 <li class="chapter" data-level="" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#nhst-packages"><i class="fa fa-check"></i>Needed packages</a></li>
-</ul></li>
-<li class="chapter" data-level="39.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-activity"><i class="fa fa-check"></i><b>39.2</b> Promotions activity</a>
+<li class="chapter" data-level="39.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#tying-CI-hypo"><i class="fa fa-check"></i><b>39.1</b> Tying confidence intervals to hypothesis testing</a>
 <ul>
-<li class="chapter" data-level="39.2.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#does-gender-affect-promotions-at-a-bank"><i class="fa fa-check"></i><b>39.2.1</b> Does gender affect promotions at a bank?</a></li>
+<li class="chapter" data-level="39.1.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#one-sample-hyp"><i class="fa fa-check"></i><b>39.1.1</b> The one-sample hypothesis test for the population mean</a></li>
+<li class="chapter" data-level="39.1.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#hypothesis-tests-and-confidence-intervals"><i class="fa fa-check"></i><b>39.1.2</b> Hypothesis tests and confidence intervals</a></li>
+</ul></li>
+<li class="chapter" data-level="39.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-activity"><i class="fa fa-check"></i><b>39.2</b> Music popularity activity</a>
+<ul>
+<li class="chapter" data-level="39.2.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#is-metal-music-more-popular-than-deep-house-music"><i class="fa fa-check"></i><b>39.2.1</b> Is metal music more popular than deep house music?</a></li>
 <li class="chapter" data-level="39.2.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#shuffling-once"><i class="fa fa-check"></i><b>39.2.2</b> Shuffling once</a></li>
-<li class="chapter" data-level="39.2.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#shuffling-16-times"><i class="fa fa-check"></i><b>39.2.3</b> Shuffling 16 times</a></li>
-<li class="chapter" data-level="39.2.4" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-what-did-we-just-do"><i class="fa fa-check"></i><b>39.2.4</b> What did we just do?</a></li>
+<li class="chapter" data-level="39.2.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-what-did-we-just-do"><i class="fa fa-check"></i><b>39.2.3</b> What did we just do?</a></li>
 </ul></li>
 <li class="chapter" data-level="39.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#understanding-ht"><i class="fa fa-check"></i><b>39.3</b> Understanding hypothesis tests</a></li>
 <li class="chapter" data-level="39.4" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-infer"><i class="fa fa-check"></i><b>39.4</b> Conducting hypothesis tests</a>
 <ul>
 <li class="chapter" data-level="39.4.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#infer-workflow-ht"><i class="fa fa-check"></i><b>39.4.1</b> <code>infer</code> package workflow</a></li>
 <li class="chapter" data-level="39.4.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#comparing-infer-workflows"><i class="fa fa-check"></i><b>39.4.2</b> Comparison with confidence intervals</a></li>
-<li class="chapter" data-level="39.4.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#only-one-test"><i class="fa fa-check"></i><b>39.4.3</b> “There is only one test”</a></li>
+<li class="chapter" data-level="39.4.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#only-one-test"><i class="fa fa-check"></i><b>39.4.3</b> There is only one test</a></li>
 </ul></li>
 <li class="chapter" data-level="39.5" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-interpretation"><i class="fa fa-check"></i><b>39.5</b> Interpreting hypothesis tests</a>
 <ul>
@@ -674,18 +675,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="39.5.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#types-of-errors"><i class="fa fa-check"></i><b>39.5.2</b> Types of errors</a></li>
 <li class="chapter" data-level="39.5.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#choosing-alpha"><i class="fa fa-check"></i><b>39.5.3</b> How do we choose alpha?</a></li>
 </ul></li>
-<li class="chapter" data-level="39.6" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-case-study"><i class="fa fa-check"></i><b>39.6</b> Case study: Are action or romance movies rated higher?</a>
+<li class="chapter" data-level="39.6" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-case-study"><i class="fa fa-check"></i><b>39.6</b> Case study: are action or romance movies rated higher?</a>
 <ul>
 <li class="chapter" data-level="39.6.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#imdb-data"><i class="fa fa-check"></i><b>39.6.1</b> IMDb ratings data</a></li>
 <li class="chapter" data-level="39.6.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#sampling-scenario-1"><i class="fa fa-check"></i><b>39.6.2</b> Sampling scenario</a></li>
 <li class="chapter" data-level="39.6.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#conducting-the-hypothesis-test"><i class="fa fa-check"></i><b>39.6.3</b> Conducting the hypothesis test</a></li>
 </ul></li>
-<li class="chapter" data-level="39.7" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#nhst-conclusion"><i class="fa fa-check"></i><b>39.7</b> Conclusion</a></li>
+<li class="chapter" data-level="39.7" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#nhst-conclusion"><i class="fa fa-check"></i><b>39.7</b> Summary and Final Remarks</a>
+<ul>
+<li class="chapter" data-level="39.7.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#theory-hypo"><i class="fa fa-check"></i><b>39.7.1</b> Theory-based approach for two-sample hypothesis tests</a></li>
+<li class="chapter" data-level="39.7.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#when-inference-is-not-needed"><i class="fa fa-check"></i><b>39.7.2</b> When inference is not needed</a></li>
+<li class="chapter" data-level="39.7.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#problems-with-p-values"><i class="fa fa-check"></i><b>39.7.3</b> Problems with p-values</a></li>
+<li class="chapter" data-level="39.7.4" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#additional-resources-3"><i class="fa fa-check"></i><b>39.7.4</b> Additional resources</a></li>
+<li class="chapter" data-level="39.7.5" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#whats-to-come-2"><i class="fa fa-check"></i><b>39.7.5</b> What’s to come</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="40" data-path="m13c-explore-hypothesis-testing-with-your-own-data.html"><a href="m13c-explore-hypothesis-testing-with-your-own-data.html"><i class="fa fa-check"></i><b>40</b> M13C: Explore Hypothesis Testing With Your Own Data</a></li>
 <li class="chapter" data-level="41" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html"><i class="fa fa-check"></i><b>41</b> M14U: Small Stories vs. Big Data</a>
 <ul>
-<li class="chapter" data-level="41.1" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#introduction-23"><i class="fa fa-check"></i><b>41.1</b> Introduction</a></li>
+<li class="chapter" data-level="41.1" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#introduction-22"><i class="fa fa-check"></i><b>41.1</b> Introduction</a></li>
 <li class="chapter" data-level="41.2" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#the-origins-of-autoethnography"><i class="fa fa-check"></i><b>41.2</b> The Origins of Autoethnography</a></li>
 <li class="chapter" data-level="41.3" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#what-does-autoethnography-look-like"><i class="fa fa-check"></i><b>41.3</b> What does Autoethnography Look Like?</a></li>
 <li class="chapter" data-level="41.4" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#how-do-autoethnographers-measure-quality"><i class="fa fa-check"></i><b>41.4</b> How do Autoethnographers Measure Quality?</a></li>
@@ -694,7 +702,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="42" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html"><i class="fa fa-check"></i><b>42</b> M14A: Inferential Regression</a>
 <ul>
-<li class="chapter" data-level="42.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#introduction-24"><i class="fa fa-check"></i><b>42.1</b> Introduction</a>
+<li class="chapter" data-level="42.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#introduction-23"><i class="fa fa-check"></i><b>42.1</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#inf-packages"><i class="fa fa-check"></i>Needed packages</a></li>
 </ul></li>
@@ -759,9 +767,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2>Needed packages<a href="m10a-multiple-regression.html#mult-reg-packages" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>If needed, read Section <a href="m2a-getting-started-with-data-in-r.html#packages">6.3</a> for information on how to
 install and load R packages.</p>
-<div class="sourceCode" id="cb199"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb199-1"><a href="m10a-multiple-regression.html#cb199-1" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb199-2"><a href="m10a-multiple-regression.html#cb199-2" tabindex="-1"></a><span class="fu">library</span>(moderndive)</span>
-<span id="cb199-3"><a href="m10a-multiple-regression.html#cb199-3" tabindex="-1"></a><span class="fu">library</span>(ISLR2)</span></code></pre></div>
+<div class="sourceCode" id="cb196"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb196-1"><a href="m10a-multiple-regression.html#cb196-1" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb196-2"><a href="m10a-multiple-regression.html#cb196-2" tabindex="-1"></a><span class="fu">library</span>(moderndive)</span>
+<span id="cb196-3"><a href="m10a-multiple-regression.html#cb196-3" tabindex="-1"></a><span class="fu">library</span>(ISLR2)</span></code></pre></div>
 </div>
 <div id="model4" class="section level2 hasAnchor" number="30.1">
 <h2><span class="header-section-number">30.1</span> One numerical and one categorical explanatory variable<a href="m10a-multiple-regression.html#model4" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -778,18 +786,18 @@ install and load R packages.</p>
 <div id="model4EDA" class="section level3 hasAnchor" number="30.1.1">
 <h3><span class="header-section-number">30.1.1</span> Exploratory data analysis<a href="m10a-multiple-regression.html#model4EDA" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The UN member states data frame is included in the <code>moderndive</code> package. To keep things simple, we <code>select()</code> only the subset of the variables needed here, and save this data in a new data frame called <code>UN_data_m10</code>. Note that the variables used are different than the ones chosen in a previous walkthrough. We also set the <code>income</code> variable to be a <code>factor</code> so that its levels show up in the expected order.</p>
-<div class="sourceCode" id="cb200"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb200-1"><a href="m10a-multiple-regression.html#cb200-1" tabindex="-1"></a>UN_data_m10 <span class="ot">&lt;-</span> un_member_states_2024 <span class="sc">|&gt;</span></span>
-<span id="cb200-2"><a href="m10a-multiple-regression.html#cb200-2" tabindex="-1"></a>  <span class="fu">select</span>(country, </span>
-<span id="cb200-3"><a href="m10a-multiple-regression.html#cb200-3" tabindex="-1"></a>         life_expectancy_2022, </span>
-<span id="cb200-4"><a href="m10a-multiple-regression.html#cb200-4" tabindex="-1"></a>         fertility_rate_2022, </span>
-<span id="cb200-5"><a href="m10a-multiple-regression.html#cb200-5" tabindex="-1"></a>         income_group_2024)<span class="sc">|&gt;</span></span>
-<span id="cb200-6"><a href="m10a-multiple-regression.html#cb200-6" tabindex="-1"></a>  <span class="fu">na.omit</span>()<span class="sc">|&gt;</span></span>
-<span id="cb200-7"><a href="m10a-multiple-regression.html#cb200-7" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">life_exp =</span> life_expectancy_2022, </span>
-<span id="cb200-8"><a href="m10a-multiple-regression.html#cb200-8" tabindex="-1"></a>         <span class="at">fert_rate =</span> fertility_rate_2022, </span>
-<span id="cb200-9"><a href="m10a-multiple-regression.html#cb200-9" tabindex="-1"></a>         <span class="at">income =</span> income_group_2024)<span class="sc">|&gt;</span></span>
-<span id="cb200-10"><a href="m10a-multiple-regression.html#cb200-10" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">income =</span> <span class="fu">factor</span>(income, </span>
-<span id="cb200-11"><a href="m10a-multiple-regression.html#cb200-11" tabindex="-1"></a>                         <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">&quot;Low income&quot;</span>, <span class="st">&quot;Lower middle income&quot;</span>, </span>
-<span id="cb200-12"><a href="m10a-multiple-regression.html#cb200-12" tabindex="-1"></a>                                    <span class="st">&quot;Upper middle income&quot;</span>, <span class="st">&quot;High income&quot;</span>)))</span></code></pre></div>
+<div class="sourceCode" id="cb197"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb197-1"><a href="m10a-multiple-regression.html#cb197-1" tabindex="-1"></a>UN_data_m10 <span class="ot">&lt;-</span> un_member_states_2024 <span class="sc">|&gt;</span></span>
+<span id="cb197-2"><a href="m10a-multiple-regression.html#cb197-2" tabindex="-1"></a>  <span class="fu">select</span>(country, </span>
+<span id="cb197-3"><a href="m10a-multiple-regression.html#cb197-3" tabindex="-1"></a>         life_expectancy_2022, </span>
+<span id="cb197-4"><a href="m10a-multiple-regression.html#cb197-4" tabindex="-1"></a>         fertility_rate_2022, </span>
+<span id="cb197-5"><a href="m10a-multiple-regression.html#cb197-5" tabindex="-1"></a>         income_group_2024)<span class="sc">|&gt;</span></span>
+<span id="cb197-6"><a href="m10a-multiple-regression.html#cb197-6" tabindex="-1"></a>  <span class="fu">na.omit</span>()<span class="sc">|&gt;</span></span>
+<span id="cb197-7"><a href="m10a-multiple-regression.html#cb197-7" tabindex="-1"></a>  <span class="fu">rename</span>(<span class="at">life_exp =</span> life_expectancy_2022, </span>
+<span id="cb197-8"><a href="m10a-multiple-regression.html#cb197-8" tabindex="-1"></a>         <span class="at">fert_rate =</span> fertility_rate_2022, </span>
+<span id="cb197-9"><a href="m10a-multiple-regression.html#cb197-9" tabindex="-1"></a>         <span class="at">income =</span> income_group_2024)<span class="sc">|&gt;</span></span>
+<span id="cb197-10"><a href="m10a-multiple-regression.html#cb197-10" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">income =</span> <span class="fu">factor</span>(income, </span>
+<span id="cb197-11"><a href="m10a-multiple-regression.html#cb197-11" tabindex="-1"></a>                         <span class="at">levels =</span> <span class="fu">c</span>(<span class="st">&quot;Low income&quot;</span>, <span class="st">&quot;Lower middle income&quot;</span>, </span>
+<span id="cb197-12"><a href="m10a-multiple-regression.html#cb197-12" tabindex="-1"></a>                                    <span class="st">&quot;Upper middle income&quot;</span>, <span class="st">&quot;High income&quot;</span>)))</span></code></pre></div>
 <p>Recall the three common steps in an exploratory data analysis we saw in Subsection <a href="m9a-basic-regression.html#model1EDA">27.2.1</a>:</p>
 <ol style="list-style-type: decimal">
 <li>Inspecting a sample of raw values.</li>
@@ -797,7 +805,7 @@ install and load R packages.</p>
 <li>Creating data visualizations.</li>
 </ol>
 <p>We first look at the raw data values by either looking at <code>UN_data_m10</code> using RStudio’s spreadsheet viewer or by using the <code>glimpse()</code> function from the <code>dplyr</code> package:</p>
-<div class="sourceCode" id="cb201"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb201-1"><a href="m10a-multiple-regression.html#cb201-1" tabindex="-1"></a><span class="fu">glimpse</span>(UN_data_m10)</span></code></pre></div>
+<div class="sourceCode" id="cb198"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb198-1"><a href="m10a-multiple-regression.html#cb198-1" tabindex="-1"></a><span class="fu">glimpse</span>(UN_data_m10)</span></code></pre></div>
 <pre><code>Rows: 182
 Columns: 4
 $ country   &lt;chr&gt; &quot;Afghanistan&quot;, &quot;Albania&quot;, &quot;Algeria&quot;, &quot;Angola&quot;, &quot;Antigua and …
@@ -806,7 +814,7 @@ $ fert_rate &lt;dbl&gt; 4.3, 1.4, 2.7, 5.0, 1.6, 1.9, 1.6, 1.6, 1.5, 1.6, 1.4, 1
 $ income    &lt;fct&gt; Low income, Upper middle income, Lower middle income, Lower …</code></pre>
 <p>The variable <code>country</code> contains all the UN member states. R reads this variable as character, <code>&lt;chr&gt;</code>, and beyond the country identification it will not be needed for the analysis. The variables life expectancy, <code>life_exp</code>, and fertility rate, <code>fert_rate</code>, are numerical, and the variable income, <code>income</code>, is categorical. In R, categorical variables are called factors and the categories are factor levels.</p>
 <p>We also display a random sample of 10 rows of the 182 rows corresponding to different countries in Table <a href="m10a-multiple-regression.html#tab:model4-data-preview">30.1</a>. Remember due to the random nature of the sampling, you will likely end up with a different subset of 10 rows.</p>
-<div class="sourceCode" id="cb203"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb203-1"><a href="m10a-multiple-regression.html#cb203-1" tabindex="-1"></a>UN_data_m10 <span class="sc">|&gt;</span> <span class="fu">sample_n</span>(<span class="at">size =</span> <span class="dv">10</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb200"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb200-1"><a href="m10a-multiple-regression.html#cb200-1" tabindex="-1"></a>UN_data_m10 <span class="sc">|&gt;</span> <span class="fu">sample_n</span>(<span class="at">size =</span> <span class="dv">10</span>)</span></code></pre></div>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
 <span id="tab:model4-data-preview">Table 30.1: </span>A random sample of 10 out of 182 UN member states
@@ -971,9 +979,9 @@ Low income
 </tbody>
 </table>
 <p>Life expectancy, <code>life_exp</code>, is an estimate of how many years, on average, a person in a given country is expected to live. Fertility rate, <code>fert_rate</code>, is the average number of live births per woman of childbearing age in a country. As we did in our previous exploratory data analyses, we find summary statistics:</p>
-<div class="sourceCode" id="cb204"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb204-1"><a href="m10a-multiple-regression.html#cb204-1" tabindex="-1"></a>UN_data_m10 <span class="sc">|&gt;</span> </span>
-<span id="cb204-2"><a href="m10a-multiple-regression.html#cb204-2" tabindex="-1"></a>  <span class="fu">select</span>(life_exp, fert_rate, income) <span class="sc">|&gt;</span> </span>
-<span id="cb204-3"><a href="m10a-multiple-regression.html#cb204-3" tabindex="-1"></a>  <span class="fu">tidy_summary</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb201"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb201-1"><a href="m10a-multiple-regression.html#cb201-1" tabindex="-1"></a>UN_data_m10 <span class="sc">|&gt;</span> </span>
+<span id="cb201-2"><a href="m10a-multiple-regression.html#cb201-2" tabindex="-1"></a>  <span class="fu">select</span>(life_exp, fert_rate, income) <span class="sc">|&gt;</span> </span>
+<span id="cb201-3"><a href="m10a-multiple-regression.html#cb201-3" tabindex="-1"></a>  <span class="fu">tidy_summary</span>()</span></code></pre></div>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
@@ -1198,17 +1206,17 @@ factor
 <p>Recall that each row in <code>UN_data_m10</code> represents a particular country or UN member state. The <code>tidy_summary()</code> function shows a summary for the numerical variables life expectancy (<code>life_exp</code>), fertility rate (<code>fert_rate</code>), and the categorical variable income group (<code>income</code>). When the variable is numerical, the <code>tidy_summary()</code> function provides the total number of observations in the data frame, the five-number summary, the mean, and the standard deviation.</p>
 <p>For example, the first row of our summary refers to life expectancy as <code>life_exp</code>. There are 182 observations for this variable, it is a numerical variable, and the first quartile, <code>Q1</code>, is 69.4; this means that the life expectancy of 25% of the UN member states is less than 69.4 years. When a variable in the dataset is categorical, also called a <code>factor</code>, the summary shows all the categories or factor levels and the number of observations for each level. For example, income group (<code>income</code>) is a factor with four levels: <code>Low Income</code>, <code>Lower middle income</code>, <code>Upper middle income</code>, and <code>High income</code>. The summary also provides the number of states for each factor level; observe, for example, that the dataset has 56 UN member states that are considered <code>High Income</code> states.</p>
 <p>Furthermore, we can compute the correlation coefficient between our two numerical variables: <code>life_exp</code> and <code>fert_rate</code>. Recall from Subsection <a href="m9a-basic-regression.html#model1EDA">27.2.1</a> that correlation coefficients only exist between numerical variables. We observe that they are “strongly negatively” correlated.</p>
-<div class="sourceCode" id="cb205"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb205-1"><a href="m10a-multiple-regression.html#cb205-1" tabindex="-1"></a>UN_data_m10 <span class="sc">|&gt;</span> </span>
-<span id="cb205-2"><a href="m10a-multiple-regression.html#cb205-2" tabindex="-1"></a>  <span class="fu">get_correlation</span>(<span class="at">formula =</span> fert_rate <span class="sc">~</span> life_exp)</span></code></pre></div>
+<div class="sourceCode" id="cb202"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb202-1"><a href="m10a-multiple-regression.html#cb202-1" tabindex="-1"></a>UN_data_m10 <span class="sc">|&gt;</span> </span>
+<span id="cb202-2"><a href="m10a-multiple-regression.html#cb202-2" tabindex="-1"></a>  <span class="fu">get_correlation</span>(<span class="at">formula =</span> fert_rate <span class="sc">~</span> life_exp)</span></code></pre></div>
 <pre><code># A tibble: 1 × 1
-     cor
-   &lt;dbl&gt;
-1 -0.815</code></pre>
+        cor
+      &lt;dbl&gt;
+1 -0.815440</code></pre>
 <p>We are ready to create data visualizations, the last of our exploratory data analysis. Given that the outcome variable <code>fert_rate</code> and explanatory variable <code>life_exp</code> are both numerical, we can create a scatterplot to display their relationship, as we did in Figure <a href="m9a-basic-regression.html#fig:numxplot1">27.2</a>. But this time, we incorporate the categorical variable <code>income</code> by <code>mapping</code> this variable to the <code>color</code> aesthetic, thereby creating a <em>colored</em> scatterplot.</p>
-<div class="sourceCode" id="cb207"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb207-1"><a href="m10a-multiple-regression.html#cb207-1" tabindex="-1"></a><span class="fu">ggplot</span>(UN_data_m10, <span class="fu">aes</span>(<span class="at">x =</span> life_exp, <span class="at">y =</span> fert_rate, <span class="at">color =</span> income)) <span class="sc">+</span></span>
-<span id="cb207-2"><a href="m10a-multiple-regression.html#cb207-2" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb207-3"><a href="m10a-multiple-regression.html#cb207-3" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Life Expectancy&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Fertility Rate&quot;</span>, <span class="at">color =</span> <span class="st">&quot;Income group&quot;</span>) <span class="sc">+</span></span>
-<span id="cb207-4"><a href="m10a-multiple-regression.html#cb207-4" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">&quot;lm&quot;</span>, <span class="at">se =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb204"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb204-1"><a href="m10a-multiple-regression.html#cb204-1" tabindex="-1"></a><span class="fu">ggplot</span>(UN_data_m10, <span class="fu">aes</span>(<span class="at">x =</span> life_exp, <span class="at">y =</span> fert_rate, <span class="at">color =</span> income)) <span class="sc">+</span></span>
+<span id="cb204-2"><a href="m10a-multiple-regression.html#cb204-2" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb204-3"><a href="m10a-multiple-regression.html#cb204-3" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Life Expectancy&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Fertility Rate&quot;</span>, <span class="at">color =</span> <span class="st">&quot;Income group&quot;</span>) <span class="sc">+</span></span>
+<span id="cb204-4"><a href="m10a-multiple-regression.html#cb204-4" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">&quot;lm&quot;</span>, <span class="at">se =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:numxcatxplot1"></span>
 <img src="_main_files/figure-html/numxcatxplot1-1.png" alt="Colored scatterplot of life expectancy and fertility rate." width="\textwidth" />
 <p class="caption">
@@ -1263,8 +1271,8 @@ D_4 = \left\{
 <p><span class="math display">\[\hat y = \widehat{\text{fert rate}} = b_0 + b_3\]</span>
 The average fertility rate for a <code>High middle income</code> country is <span class="math inline">\(b_0 + b_3\)</span>. Observe that <span class="math inline">\(b_3\)</span> is an <em>offset</em> for life expectancy between the baseline level and the <code>High middle income</code> level. The same logic applies to the model for each possible income category.</p>
 <p>We calculate the regression coefficients using the <code>lm()</code> function and the command <code>coef()</code> to retrieve the coefficients of the linear regression:</p>
-<div class="sourceCode" id="cb208"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb208-1"><a href="m10a-multiple-regression.html#cb208-1" tabindex="-1"></a>one_factor_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(fert_rate <span class="sc">~</span> income, <span class="at">data =</span> UN_data_m10)</span>
-<span id="cb208-2"><a href="m10a-multiple-regression.html#cb208-2" tabindex="-1"></a><span class="fu">coef</span>(one_factor_model)</span></code></pre></div>
+<div class="sourceCode" id="cb205"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb205-1"><a href="m10a-multiple-regression.html#cb205-1" tabindex="-1"></a>one_factor_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(fert_rate <span class="sc">~</span> income, <span class="at">data =</span> UN_data_m10)</span>
+<span id="cb205-2"><a href="m10a-multiple-regression.html#cb205-2" tabindex="-1"></a><span class="fu">coef</span>(one_factor_model)</span></code></pre></div>
 <p>We present these results on a table with the mathematical notation used above:</p>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <thead>
@@ -1342,9 +1350,9 @@ b4
 &amp; = (b_0 + b_{04}) + (b_1 + b_{14})\cdot x\end{aligned}\]</span></p>
 <p>Observe how the intercept and the slope are different for a
 <code>High income</code> member state when compared to the baseline <code>Low income</code> member state. As an illustration, we construct this multiple linear regression for the UN member state dataset in R. We first “fit” the model using the <code>lm()</code> “linear model” function and then find the coefficients using the function <code>coef()</code>. In R, the formula used is <code>y ~ x1 + x2 + x1:x2</code> where <code>x1</code> and <code>x2</code> are the variable names in the dataset and represent the main effects while <code>x1:x2</code> is the interaction term. For simplicity, we can also write <code>y ~ x1 * x2</code> as the <code>*</code> sign accounts for both, main effects and interaction effects. R would let both <code>x1</code> and <code>x2</code> be either explanatory or numerical, and we need to make sure the dataset format is appropriate for the regression we want to run. Here is the code for our example:</p>
-<div class="sourceCode" id="cb209"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb209-1"><a href="m10a-multiple-regression.html#cb209-1" tabindex="-1"></a><span class="co"># Fit regression model and get the coefficients of the model</span></span>
-<span id="cb209-2"><a href="m10a-multiple-regression.html#cb209-2" tabindex="-1"></a>model_int <span class="ot">&lt;-</span> <span class="fu">lm</span>(fert_rate <span class="sc">~</span> life_exp <span class="sc">*</span> income, <span class="at">data =</span> UN_data_m10)</span>
-<span id="cb209-3"><a href="m10a-multiple-regression.html#cb209-3" tabindex="-1"></a><span class="fu">coef</span>(model_int)</span></code></pre></div>
+<div class="sourceCode" id="cb206"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb206-1"><a href="m10a-multiple-regression.html#cb206-1" tabindex="-1"></a><span class="co"># Fit regression model and get the coefficients of the model</span></span>
+<span id="cb206-2"><a href="m10a-multiple-regression.html#cb206-2" tabindex="-1"></a>model_int <span class="ot">&lt;-</span> <span class="fu">lm</span>(fert_rate <span class="sc">~</span> life_exp <span class="sc">*</span> income, <span class="at">data =</span> UN_data_m10)</span>
+<span id="cb206-3"><a href="m10a-multiple-regression.html#cb206-3" tabindex="-1"></a><span class="fu">coef</span>(model_int)</span></code></pre></div>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
 <span id="tab:regtable-interaction">Table 30.2: </span>Regression table for interaction model
@@ -1470,10 +1478,10 @@ b14
 <h3><span class="header-section-number">30.1.3</span> Model without interactions<a href="m10a-multiple-regression.html#model4table" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>We can simplify the previous model by removing the interaction effects. The model still represents different income groups with different regression lines by allowing different intercepts but all the lines have the same slope: they are parallel as shown in Figure <a href="m10a-multiple-regression.html#fig:numxcatx-parallel">30.2</a>.</p>
 <p>To plot parallel slopes we use the function <a href="https://moderndive.github.io/moderndive/reference/geom_parallel_slopes.html"><code>geom_parallel_slopes()</code></a> that is included in the <code>moderndive</code> package. To use this function you need to load both the <code>ggplot2</code> and <code>moderndive</code> packages. Observe how the code is identical to the one used for the model with interactions in Figure <a href="m10a-multiple-regression.html#fig:numxcatxplot1">30.1</a>, but now the <code>geom_smooth(method = "lm", se = FALSE)</code> layer is replaced with <code>geom_parallel_slopes(se = FALSE)</code>.</p>
-<div class="sourceCode" id="cb210"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb210-1"><a href="m10a-multiple-regression.html#cb210-1" tabindex="-1"></a><span class="fu">ggplot</span>(UN_data_m10, <span class="fu">aes</span>(<span class="at">x =</span> life_exp, <span class="at">y =</span> fert_rate, <span class="at">color =</span> income)) <span class="sc">+</span></span>
-<span id="cb210-2"><a href="m10a-multiple-regression.html#cb210-2" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb210-3"><a href="m10a-multiple-regression.html#cb210-3" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Life expectancy&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Fertility rate&quot;</span>, <span class="at">color =</span> <span class="st">&quot;Income group&quot;</span>) <span class="sc">+</span></span>
-<span id="cb210-4"><a href="m10a-multiple-regression.html#cb210-4" tabindex="-1"></a>  <span class="fu">geom_parallel_slopes</span>(<span class="at">se =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb207"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb207-1"><a href="m10a-multiple-regression.html#cb207-1" tabindex="-1"></a><span class="fu">ggplot</span>(UN_data_m10, <span class="fu">aes</span>(<span class="at">x =</span> life_exp, <span class="at">y =</span> fert_rate, <span class="at">color =</span> income)) <span class="sc">+</span></span>
+<span id="cb207-2"><a href="m10a-multiple-regression.html#cb207-2" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb207-3"><a href="m10a-multiple-regression.html#cb207-3" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Life expectancy&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Fertility rate&quot;</span>, <span class="at">color =</span> <span class="st">&quot;Income group&quot;</span>) <span class="sc">+</span></span>
+<span id="cb207-4"><a href="m10a-multiple-regression.html#cb207-4" tabindex="-1"></a>  <span class="fu">geom_parallel_slopes</span>(<span class="at">se =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:numxcatx-parallel"></span>
 <img src="_main_files/figure-html/numxcatx-parallel-1.png" alt="Parallel slopes model of fertility rate with life expectancy and income." width="\textwidth" />
 <p class="caption">
@@ -1487,11 +1495,11 @@ Figure 30.2: Parallel slopes model of fertility rate with life expectancy and in
 <p>Observe that the dummy variables only affect the intercept now, and the slope is fully described by <span class="math inline">\(b_1\)</span> for any income group. In the UN data example, a <code>High income</code> country, with <span class="math inline">\(D_4 = 1\)</span> and the other dummy variables equal to zero, will be represented by</p>
 <p><span class="math display">\[\widehat{y} = (b_0 + b_{04})+ b_1x.\]</span></p>
 <p>To find the coefficients for this regression in R, the formula used is <code>y ~ x1 + x2</code> where <code>x1</code> and <code>x2</code> are the variable names in the dataset and represent the main effects. Observe that the term <code>x1:x2</code> representing the interaction is no longer included. R would let both <code>x1</code> and <code>x2</code> to be either explanatory or numerical; therefore, we should always check that the variable format is appropriate for the regression we want to run. Here is the code for the UN data example:</p>
-<div class="sourceCode" id="cb211"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb211-1"><a href="m10a-multiple-regression.html#cb211-1" tabindex="-1"></a><span class="co"># Fit regression model:</span></span>
-<span id="cb211-2"><a href="m10a-multiple-regression.html#cb211-2" tabindex="-1"></a>model_no_int <span class="ot">&lt;-</span> <span class="fu">lm</span>(fert_rate <span class="sc">~</span> life_exp <span class="sc">+</span> income, <span class="at">data =</span> UN_data_m10)</span>
-<span id="cb211-3"><a href="m10a-multiple-regression.html#cb211-3" tabindex="-1"></a></span>
-<span id="cb211-4"><a href="m10a-multiple-regression.html#cb211-4" tabindex="-1"></a><span class="co"># Get the coefficients of the model</span></span>
-<span id="cb211-5"><a href="m10a-multiple-regression.html#cb211-5" tabindex="-1"></a><span class="fu">coef</span>(model_no_int)</span></code></pre></div>
+<div class="sourceCode" id="cb208"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb208-1"><a href="m10a-multiple-regression.html#cb208-1" tabindex="-1"></a><span class="co"># Fit regression model:</span></span>
+<span id="cb208-2"><a href="m10a-multiple-regression.html#cb208-2" tabindex="-1"></a>model_no_int <span class="ot">&lt;-</span> <span class="fu">lm</span>(fert_rate <span class="sc">~</span> life_exp <span class="sc">+</span> income, <span class="at">data =</span> UN_data_m10)</span>
+<span id="cb208-3"><a href="m10a-multiple-regression.html#cb208-3" tabindex="-1"></a></span>
+<span id="cb208-4"><a href="m10a-multiple-regression.html#cb208-4" tabindex="-1"></a><span class="co"># Get the coefficients of the model</span></span>
+<span id="cb208-5"><a href="m10a-multiple-regression.html#cb208-5" tabindex="-1"></a><span class="fu">coef</span>(model_no_int)</span></code></pre></div>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
 <span id="tab:regtable-parallel1">Table 30.3: </span>Regression table for a model without interactions
@@ -1763,8 +1771,8 @@ Figure 30.4: Fitted values for two new countries.
 <p>We can generalize the study of fitted values and residuals for all the
 countries in the <code>UN_data_m10</code> dataset, as shown in Table
 <a href="m10a-multiple-regression.html#tab:model4-points-table">30.5</a>.</p>
-<div class="sourceCode" id="cb212"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb212-1"><a href="m10a-multiple-regression.html#cb212-1" tabindex="-1"></a>regression_points <span class="ot">&lt;-</span> <span class="fu">get_regression_points</span>(model_int)</span>
-<span id="cb212-2"><a href="m10a-multiple-regression.html#cb212-2" tabindex="-1"></a>regression_points</span></code></pre></div>
+<div class="sourceCode" id="cb209"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb209-1"><a href="m10a-multiple-regression.html#cb209-1" tabindex="-1"></a>regression_points <span class="ot">&lt;-</span> <span class="fu">get_regression_points</span>(model_int)</span>
+<span id="cb209-2"><a href="m10a-multiple-regression.html#cb209-2" tabindex="-1"></a>regression_points</span></code></pre></div>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
 <span id="tab:model4-points-table">Table 30.5: </span>Regression points (First 10 out of 182 countries)
@@ -2002,12 +2010,12 @@ Upper middle income
 <div id="model3EDA" class="section level3 hasAnchor" number="30.2.1">
 <h3><span class="header-section-number">30.2.1</span> Exploratory data analysis<a href="m10a-multiple-regression.html#model3EDA" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>We load the <code>Credit</code> data frame and to ensure the type of behavior we have become accustomed to in using the <code>tidyverse</code>, we also convert this data frame to be a <code>tibble</code> using <code>as_tibble()</code>. We construct a new data frame <code>credit_m10</code> with only the variables needed. We do this by using the <code>select()</code> verb as we did in Subsection <a href="m6a-wrangling-and-tidying-data.html#select">18.2.7.1</a> and, in addition, we save the selecting variables with different names: <code>Balance</code> becomes <code>debt</code>, <code>Limit</code> becomes <code>credit_limit</code>, and <code>Income</code> becomes <code>income</code>:</p>
-<div class="sourceCode" id="cb213"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb213-1"><a href="m10a-multiple-regression.html#cb213-1" tabindex="-1"></a><span class="fu">library</span>(ISLR2)</span>
-<span id="cb213-2"><a href="m10a-multiple-regression.html#cb213-2" tabindex="-1"></a>credit_m10 <span class="ot">&lt;-</span> Credit <span class="sc">|&gt;</span> <span class="fu">as_tibble</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb213-3"><a href="m10a-multiple-regression.html#cb213-3" tabindex="-1"></a>  <span class="fu">select</span>(<span class="at">debt =</span> Balance, <span class="at">credit_limit =</span> Limit, </span>
-<span id="cb213-4"><a href="m10a-multiple-regression.html#cb213-4" tabindex="-1"></a>         <span class="at">income =</span> Income, <span class="at">credit_rating =</span> Rating, <span class="at">age =</span> Age)</span></code></pre></div>
+<div class="sourceCode" id="cb210"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb210-1"><a href="m10a-multiple-regression.html#cb210-1" tabindex="-1"></a><span class="fu">library</span>(ISLR2)</span>
+<span id="cb210-2"><a href="m10a-multiple-regression.html#cb210-2" tabindex="-1"></a>credit_m10 <span class="ot">&lt;-</span> Credit <span class="sc">|&gt;</span> <span class="fu">as_tibble</span>() <span class="sc">|&gt;</span> </span>
+<span id="cb210-3"><a href="m10a-multiple-regression.html#cb210-3" tabindex="-1"></a>  <span class="fu">select</span>(<span class="at">debt =</span> Balance, <span class="at">credit_limit =</span> Limit, </span>
+<span id="cb210-4"><a href="m10a-multiple-regression.html#cb210-4" tabindex="-1"></a>         <span class="at">income =</span> Income, <span class="at">credit_rating =</span> Rating, <span class="at">age =</span> Age)</span></code></pre></div>
 <p>You can observe the effect of our use of <code>select()</code> by looking at the raw values either in RStudio’s spreadsheet viewer or by using <code>glimpse()</code>.</p>
-<div class="sourceCode" id="cb214"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb214-1"><a href="m10a-multiple-regression.html#cb214-1" tabindex="-1"></a><span class="fu">glimpse</span>(credit_m10)</span></code></pre></div>
+<div class="sourceCode" id="cb211"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb211-1"><a href="m10a-multiple-regression.html#cb211-1" tabindex="-1"></a><span class="fu">glimpse</span>(credit_m10)</span></code></pre></div>
 <pre><code>Rows: 400
 Columns: 5
 $ debt          &lt;dbl&gt; 333, 903, 580, 964, 331, 1151, 203, 872, 279, 1350, 1407…
@@ -2016,7 +2024,7 @@ $ income        &lt;dbl&gt; 14.9, 106.0, 104.6, 148.9, 55.9, 80.2, 21.0, 71.4, 1
 $ credit_rating &lt;dbl&gt; 283, 483, 514, 681, 357, 569, 259, 512, 266, 491, 589, 1…
 $ age           &lt;dbl&gt; 34, 82, 71, 36, 68, 77, 37, 87, 66, 41, 30, 64, 57, 49, …</code></pre>
 <p>Furthermore, we present a random sample of five out of the 400 credit card holders in Table <a href="m10a-multiple-regression.html#tab:model3-data-preview">30.6</a>. As observed before, each time you run this code, a different subset of five rows is given.</p>
-<div class="sourceCode" id="cb216"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb216-1"><a href="m10a-multiple-regression.html#cb216-1" tabindex="-1"></a>credit_m10 <span class="sc">|&gt;</span> <span class="fu">sample_n</span>(<span class="at">size =</span> <span class="dv">5</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb213"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb213-1"><a href="m10a-multiple-regression.html#cb213-1" tabindex="-1"></a>credit_m10 <span class="sc">|&gt;</span> <span class="fu">sample_n</span>(<span class="at">size =</span> <span class="dv">5</span>)</span></code></pre></div>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
 <span id="tab:model3-data-preview">Table 30.6: </span>Random sample of 5 credit card holders
@@ -2129,7 +2137,7 @@ age
 </tbody>
 </table>
 <p>Note that income is in thousands of dollars while debt and credit limit are in dollars. We can also compute summary statistics using the <code>tidy_summary()</code> function. We only <code>select()</code> the columns of interest for our model as shown in Table <a href="m10a-multiple-regression.html#tab:credittable">30.7</a>:</p>
-<div class="sourceCode" id="cb217"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb217-1"><a href="m10a-multiple-regression.html#cb217-1" tabindex="-1"></a>credit_m10 <span class="sc">|&gt;</span> <span class="fu">select</span>(debt, credit_limit, income) <span class="sc">|&gt;</span> <span class="fu">tidy_summary</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb214"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb214-1"><a href="m10a-multiple-regression.html#cb214-1" tabindex="-1"></a>credit_m10 <span class="sc">|&gt;</span> <span class="fu">select</span>(debt, credit_limit, income) <span class="sc">|&gt;</span> <span class="fu">tidy_summary</span>()</span></code></pre></div>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
 <span id="tab:credittable">Table 30.7: </span>Summary of credit data
@@ -2278,17 +2286,17 @@ numeric
 </table>
 <p>The mean and median credit card <code>debt</code> are $520.0 and $459.5, respectively. The first quartile for <code>debt</code> is 68.8; this means that 25% of card holders had debts of $68.80 or less. Correspondingly, the mean and median credit card limit, <code>credit_limit</code>, are around $4,736 and $4,622, respectively. Note also that the third quartile of <code>income</code> is 57.5; so 75% of card holders had incomes below $57,500.</p>
 <p>We visualize the relationship of the response variable with each of the two explanatory variables using this R code. These plots are shown in Figure <a href="m10a-multiple-regression.html#fig:2numxplot1">30.5</a>.</p>
-<div class="sourceCode" id="cb218"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb218-1"><a href="m10a-multiple-regression.html#cb218-1" tabindex="-1"></a><span class="fu">ggplot</span>(credit_m10, <span class="fu">aes</span>(<span class="at">x =</span> credit_limit, <span class="at">y =</span> debt)) <span class="sc">+</span></span>
-<span id="cb218-2"><a href="m10a-multiple-regression.html#cb218-2" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb218-3"><a href="m10a-multiple-regression.html#cb218-3" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Credit limit (in $)&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Credit card debt (in $)&quot;</span>, </span>
-<span id="cb218-4"><a href="m10a-multiple-regression.html#cb218-4" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">&quot;Debt and credit limit&quot;</span>) <span class="sc">+</span></span>
-<span id="cb218-5"><a href="m10a-multiple-regression.html#cb218-5" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">&quot;lm&quot;</span>, <span class="at">se =</span> <span class="cn">FALSE</span>)</span>
-<span id="cb218-6"><a href="m10a-multiple-regression.html#cb218-6" tabindex="-1"></a></span>
-<span id="cb218-7"><a href="m10a-multiple-regression.html#cb218-7" tabindex="-1"></a><span class="fu">ggplot</span>(credit_m10, <span class="fu">aes</span>(<span class="at">x =</span> income, <span class="at">y =</span> debt)) <span class="sc">+</span></span>
-<span id="cb218-8"><a href="m10a-multiple-regression.html#cb218-8" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb218-9"><a href="m10a-multiple-regression.html#cb218-9" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Income (in $1000)&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Credit card debt (in $)&quot;</span>, </span>
-<span id="cb218-10"><a href="m10a-multiple-regression.html#cb218-10" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">&quot;Debt and income&quot;</span>) <span class="sc">+</span></span>
-<span id="cb218-11"><a href="m10a-multiple-regression.html#cb218-11" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">&quot;lm&quot;</span>, <span class="at">se =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb215"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb215-1"><a href="m10a-multiple-regression.html#cb215-1" tabindex="-1"></a><span class="fu">ggplot</span>(credit_m10, <span class="fu">aes</span>(<span class="at">x =</span> credit_limit, <span class="at">y =</span> debt)) <span class="sc">+</span></span>
+<span id="cb215-2"><a href="m10a-multiple-regression.html#cb215-2" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb215-3"><a href="m10a-multiple-regression.html#cb215-3" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Credit limit (in $)&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Credit card debt (in $)&quot;</span>, </span>
+<span id="cb215-4"><a href="m10a-multiple-regression.html#cb215-4" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">&quot;Debt and credit limit&quot;</span>) <span class="sc">+</span></span>
+<span id="cb215-5"><a href="m10a-multiple-regression.html#cb215-5" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">&quot;lm&quot;</span>, <span class="at">se =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb215-6"><a href="m10a-multiple-regression.html#cb215-6" tabindex="-1"></a></span>
+<span id="cb215-7"><a href="m10a-multiple-regression.html#cb215-7" tabindex="-1"></a><span class="fu">ggplot</span>(credit_m10, <span class="fu">aes</span>(<span class="at">x =</span> income, <span class="at">y =</span> debt)) <span class="sc">+</span></span>
+<span id="cb215-8"><a href="m10a-multiple-regression.html#cb215-8" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb215-9"><a href="m10a-multiple-regression.html#cb215-9" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">&quot;Income (in $1000)&quot;</span>, <span class="at">y =</span> <span class="st">&quot;Credit card debt (in $)&quot;</span>, </span>
+<span id="cb215-10"><a href="m10a-multiple-regression.html#cb215-10" tabindex="-1"></a>       <span class="at">title =</span> <span class="st">&quot;Debt and income&quot;</span>) <span class="sc">+</span></span>
+<span id="cb215-11"><a href="m10a-multiple-regression.html#cb215-11" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">&quot;lm&quot;</span>, <span class="at">se =</span> <span class="cn">FALSE</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:2numxplot1"></span>
 <img src="_main_files/figure-html/2numxplot1-1.png" alt="Relationship between credit card debt and credit limit/income." width="\textwidth" />
 <p class="caption">
@@ -2297,10 +2305,10 @@ Figure 30.5: Relationship between credit card debt and credit limit/income.
 </div>
 <p>The left plot in Figure <a href="m10a-multiple-regression.html#fig:2numxplot1">30.5</a> shows a positive and linear association between credit limit and credit card debt: as credit limit increases so does credit card debt. Observe also that many customers have no credit card debt and there is a cluster of points at the credit card debt value of zero. The right plot in Figure <a href="m10a-multiple-regression.html#fig:2numxplot1">30.5</a> shows also positive and somewhat linear association between income and credit card debt, but this association seems weaker and actually appears positive only for incomes larger than $50,000. For lower income values it is not clear there is any association at all.</p>
 <p>Since variables <code>debt</code>, <code>credit_limit</code>, and <code>income</code> are numerical, and more importantly, the associations between the response and explanatory variables appear to be linear or close to linear, we can also calculate the correlation coefficient between any two of these variables. Recall that the correlation coefficient is appropriate if the association between the variables is linear. One way to do this is using the <code>get_correlation()</code> command as seen in Subsection <a href="m9a-basic-regression.html#model1EDA">27.2.1</a>, once for each explanatory variable with the response <code>debt</code>:</p>
-<div class="sourceCode" id="cb219"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb219-1"><a href="m10a-multiple-regression.html#cb219-1" tabindex="-1"></a>credit_m10 <span class="sc">|&gt;</span> <span class="fu">get_correlation</span>(debt <span class="sc">~</span> credit_limit)</span>
-<span id="cb219-2"><a href="m10a-multiple-regression.html#cb219-2" tabindex="-1"></a>credit_m10 <span class="sc">|&gt;</span> <span class="fu">get_correlation</span>(debt <span class="sc">~</span> income)</span></code></pre></div>
+<div class="sourceCode" id="cb216"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb216-1"><a href="m10a-multiple-regression.html#cb216-1" tabindex="-1"></a>credit_m10 <span class="sc">|&gt;</span> <span class="fu">get_correlation</span>(debt <span class="sc">~</span> credit_limit)</span>
+<span id="cb216-2"><a href="m10a-multiple-regression.html#cb216-2" tabindex="-1"></a>credit_m10 <span class="sc">|&gt;</span> <span class="fu">get_correlation</span>(debt <span class="sc">~</span> income)</span></code></pre></div>
 <p>Alternatively, using the <code>select()</code> verb and command <code>cor()</code> we can find all correlations simultaneously by returning a <em>correlation matrix</em> as shown in Table <a href="m10a-multiple-regression.html#tab:model3-correlation">30.8</a>. This matrix shows the correlation coefficient for any pair of variables in the appropriate row/column combination.</p>
-<div class="sourceCode" id="cb220"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb220-1"><a href="m10a-multiple-regression.html#cb220-1" tabindex="-1"></a>credit_m10 <span class="sc">|&gt;</span> <span class="fu">select</span>(debt, credit_limit, income) <span class="sc">|&gt;</span> <span class="fu">cor</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb217"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb217-1"><a href="m10a-multiple-regression.html#cb217-1" tabindex="-1"></a>credit_m10 <span class="sc">|&gt;</span> <span class="fu">select</span>(debt, credit_limit, income) <span class="sc">|&gt;</span> <span class="fu">cor</span>()</span></code></pre></div>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
 <span id="tab:model3-correlation">Table 30.8: </span>Correlation coefficients between credit card debt, credit limit, and income
@@ -2373,11 +2381,11 @@ income
 <li>Observe also that the correlation coefficient between the two explanatory variables, <code>credit_limit</code> and <code>income</code>, is 0.792.</li>
 </ol>
 <p>A useful property of the correlation coefficient is that it is <em>invariant to linear transformations</em>; this means that the correlation between two variables, <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span>, will be the same as the correlation between <span class="math inline">\((a\cdot x + b)\)</span> and <span class="math inline">\(y\)</span> for any constants <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span>. To illustrate this, observe that the correlation coefficient between <code>income</code> in <em>thousands of dollars</em> and credit card <code>debt</code> was 0.464. If we now find the correlation income in <em>dollars</em>, by multiplying <code>income</code> by 1000, and credit card <code>debt</code> we get:</p>
-<div class="sourceCode" id="cb221"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb221-1"><a href="m10a-multiple-regression.html#cb221-1" tabindex="-1"></a>credit_m10 <span class="sc">|&gt;</span> <span class="fu">get_correlation</span>(debt <span class="sc">~</span> <span class="dv">1000</span> <span class="sc">*</span> income)</span></code></pre></div>
+<div class="sourceCode" id="cb218"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb218-1"><a href="m10a-multiple-regression.html#cb218-1" tabindex="-1"></a>credit_m10 <span class="sc">|&gt;</span> <span class="fu">get_correlation</span>(debt <span class="sc">~</span> <span class="dv">1000</span> <span class="sc">*</span> income)</span></code></pre></div>
 <pre><code># A tibble: 1 × 1
-    cor
-  &lt;dbl&gt;
-1 0.464</code></pre>
+       cor
+     &lt;dbl&gt;
+1 0.463656</code></pre>
 <p>The correlation is exactly the same.</p>
 <p>We return to our exploratory data analysis of the multiple regression. The plots in Figure <a href="m10a-multiple-regression.html#fig:2numxplot1">30.5</a> correspond to the response and each of the explanatory variables <em>separately</em>. In Figure <a href="m10a-multiple-regression.html#fig:3D-scatterplot">30.6</a> we show a 3-dimensional (3D) scatterplot representing the <em>joint</em> relationship of all three variables simultaneously. Each of the 400 observations in the <code>credit_m10</code> data frame are marked with a blue point where</p>
 <ol style="list-style-type: decimal">
@@ -2395,8 +2403,8 @@ Figure 30.6: 3D scatterplot and regression plane.
 <div id="model3table" class="section level3 hasAnchor" number="30.2.2">
 <h3><span class="header-section-number">30.2.2</span> Multiple regression with two numerical regressors<a href="m10a-multiple-regression.html#model3table" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>As shown in Figure <a href="m10a-multiple-regression.html#fig:3D-scatterplot">30.6</a>, the linear regression with two numerical regressors produces the “best-fitting” plane. We start with a model with no interactions for the two numerical explanatory variables <code>income</code> and <code>credit_limit</code>. In R we consider a model fit with a formula of the form <code>y ~ x1 + x2</code>. We retrieve the regression coefficients using the <code>lm()</code> function and the command <code>coef()</code> to get the coefficients of the linear regression. The regression coefficients are shown in what follows.</p>
-<div class="sourceCode" id="cb223"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb223-1"><a href="m10a-multiple-regression.html#cb223-1" tabindex="-1"></a>debt_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(debt <span class="sc">~</span> credit_limit <span class="sc">+</span> income, <span class="at">data =</span> credit_m10)</span>
-<span id="cb223-2"><a href="m10a-multiple-regression.html#cb223-2" tabindex="-1"></a><span class="fu">coef</span>(debt_model)</span></code></pre></div>
+<div class="sourceCode" id="cb220"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb220-1"><a href="m10a-multiple-regression.html#cb220-1" tabindex="-1"></a>debt_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(debt <span class="sc">~</span> credit_limit <span class="sc">+</span> income, <span class="at">data =</span> credit_m10)</span>
+<span id="cb220-2"><a href="m10a-multiple-regression.html#cb220-2" tabindex="-1"></a><span class="fu">coef</span>(debt_model)</span></code></pre></div>
 <p>We present these results in a table with the mathematical notation used above:</p>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <thead>
@@ -2461,9 +2469,9 @@ b2
 \end{aligned}
 \]</span> where <span class="math inline">\(x_1\)</span> represents credit limit and <span class="math inline">\(x_2\)</span> income.</p>
 <p>To illustrate the role of partial slopes further, observe that the right plot in Figure <a href="m10a-multiple-regression.html#fig:2numxplot1">30.5</a> shows the relationship between <code>debt</code> and <code>income</code> in isolation, a <em>positive</em> relationship, so the slope of income is positive. We can determine the value of this slope by constructing a simple linear regression using <code>income</code> as the only regressor:</p>
-<div class="sourceCode" id="cb224"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb224-1"><a href="m10a-multiple-regression.html#cb224-1" tabindex="-1"></a><span class="co"># Fit regression model and get the coefficients of the model</span></span>
-<span id="cb224-2"><a href="m10a-multiple-regression.html#cb224-2" tabindex="-1"></a>simple_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(debt <span class="sc">~</span> income, <span class="at">data =</span> credit_m10)</span>
-<span id="cb224-3"><a href="m10a-multiple-regression.html#cb224-3" tabindex="-1"></a><span class="fu">coef</span>(simple_model)</span></code></pre></div>
+<div class="sourceCode" id="cb221"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb221-1"><a href="m10a-multiple-regression.html#cb221-1" tabindex="-1"></a><span class="co"># Fit regression model and get the coefficients of the model</span></span>
+<span id="cb221-2"><a href="m10a-multiple-regression.html#cb221-2" tabindex="-1"></a>simple_model <span class="ot">&lt;-</span> <span class="fu">lm</span>(debt <span class="sc">~</span> income, <span class="at">data =</span> credit_m10)</span>
+<span id="cb221-3"><a href="m10a-multiple-regression.html#cb221-3" tabindex="-1"></a><span class="fu">coef</span>(simple_model)</span></code></pre></div>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
@@ -2526,7 +2534,7 @@ b2’
 \end{aligned}
 \]</span></p>
 <p>where <span class="math inline">\(x_1\)</span> is <code>credit_limit</code> and <span class="math inline">\(x_2\)</span> is <code>income</code>. The residuals are the difference between the observed credit card debt and the fitted credit card debt, <span class="math inline">\(y - \widehat y\)</span>, for each observation in the data set. In R, we find the fitted values, <code>debt_hat</code>, and residuals, <code>residual</code>, using the <code>get_regression_points()</code> function. In Table <a href="m10a-multiple-regression.html#tab:model3-points-table">30.9</a> we present the first 10 rows of output. Remember that the coordinates of each of the points in our 3D scatterplot in Figure <a href="m10a-multiple-regression.html#fig:3D-scatterplot">30.6</a> can be found in the <code>income</code>, <code>credit_limit</code>, and <code>debt</code> columns.</p>
-<div class="sourceCode" id="cb225"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb225-1"><a href="m10a-multiple-regression.html#cb225-1" tabindex="-1"></a><span class="fu">get_regression_points</span>(debt_model)</span></code></pre></div>
+<div class="sourceCode" id="cb222"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb222-1"><a href="m10a-multiple-regression.html#cb222-1" tabindex="-1"></a><span class="fu">get_regression_points</span>(debt_model)</span></code></pre></div>
 <table class="table" style="font-size: 16px; color: black; margin-left: auto; margin-right: auto;">
 <caption style="font-size: initial !important;">
 <span id="tab:model3-points-table">Table 30.9: </span>Regression points (First 10 credit card holders out of 400)
