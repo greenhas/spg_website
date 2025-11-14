@@ -1,13 +1,13 @@
 baseURL = 'https://spencergreenhalgh.com/'
 # languageCode = 'en-us'
 title = 'Spencer Greenhalgh'
-theme = "ananke_custom_2023"
+theme = "ananke_custom_2025"
 # themesDir = "../.."
 # resourceDir = "../resources"
 
 DefaultContentLanguage = "en"
 # SectionPagesMenu = "main"
-Paginate = 36 # this is set low for demonstrating with dummy content. Set to a higher number
+
 googleAnalytics = ""
 enableRobotsTXT = false
 capitalizeListTitles = false
