@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>21 M7A: Data Visualization | Introduction to Data Science</title>
   <meta name="description" content="21 M7A: Data Visualization | Introduction to Data Science" />
-  <meta name="generator" content="bookdown 0.45 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
 
   <meta property="og:title" content="21 M7A: Data Visualization | Introduction to Data Science" />
   <meta property="og:type" content="book" />
@@ -650,23 +650,24 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="39" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html"><i class="fa fa-check"></i><b>39</b> M13: Hypothesis Testing</a>
 <ul>
-<li class="chapter" data-level="39.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#introduction-22"><i class="fa fa-check"></i><b>39.1</b> Introduction</a>
-<ul>
 <li class="chapter" data-level="" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#nhst-packages"><i class="fa fa-check"></i>Needed packages</a></li>
-</ul></li>
-<li class="chapter" data-level="39.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-activity"><i class="fa fa-check"></i><b>39.2</b> Promotions activity</a>
+<li class="chapter" data-level="39.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#tying-CI-hypo"><i class="fa fa-check"></i><b>39.1</b> Tying confidence intervals to hypothesis testing</a>
 <ul>
-<li class="chapter" data-level="39.2.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#does-gender-affect-promotions-at-a-bank"><i class="fa fa-check"></i><b>39.2.1</b> Does gender affect promotions at a bank?</a></li>
+<li class="chapter" data-level="39.1.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#one-sample-hyp"><i class="fa fa-check"></i><b>39.1.1</b> The one-sample hypothesis test for the population mean</a></li>
+<li class="chapter" data-level="39.1.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#hypothesis-tests-and-confidence-intervals"><i class="fa fa-check"></i><b>39.1.2</b> Hypothesis tests and confidence intervals</a></li>
+</ul></li>
+<li class="chapter" data-level="39.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-activity"><i class="fa fa-check"></i><b>39.2</b> Music popularity activity</a>
+<ul>
+<li class="chapter" data-level="39.2.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#is-metal-music-more-popular-than-deep-house-music"><i class="fa fa-check"></i><b>39.2.1</b> Is metal music more popular than deep house music?</a></li>
 <li class="chapter" data-level="39.2.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#shuffling-once"><i class="fa fa-check"></i><b>39.2.2</b> Shuffling once</a></li>
-<li class="chapter" data-level="39.2.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#shuffling-16-times"><i class="fa fa-check"></i><b>39.2.3</b> Shuffling 16 times</a></li>
-<li class="chapter" data-level="39.2.4" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-what-did-we-just-do"><i class="fa fa-check"></i><b>39.2.4</b> What did we just do?</a></li>
+<li class="chapter" data-level="39.2.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-what-did-we-just-do"><i class="fa fa-check"></i><b>39.2.3</b> What did we just do?</a></li>
 </ul></li>
 <li class="chapter" data-level="39.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#understanding-ht"><i class="fa fa-check"></i><b>39.3</b> Understanding hypothesis tests</a></li>
 <li class="chapter" data-level="39.4" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-infer"><i class="fa fa-check"></i><b>39.4</b> Conducting hypothesis tests</a>
 <ul>
 <li class="chapter" data-level="39.4.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#infer-workflow-ht"><i class="fa fa-check"></i><b>39.4.1</b> <code>infer</code> package workflow</a></li>
 <li class="chapter" data-level="39.4.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#comparing-infer-workflows"><i class="fa fa-check"></i><b>39.4.2</b> Comparison with confidence intervals</a></li>
-<li class="chapter" data-level="39.4.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#only-one-test"><i class="fa fa-check"></i><b>39.4.3</b> “There is only one test”</a></li>
+<li class="chapter" data-level="39.4.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#only-one-test"><i class="fa fa-check"></i><b>39.4.3</b> There is only one test</a></li>
 </ul></li>
 <li class="chapter" data-level="39.5" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-interpretation"><i class="fa fa-check"></i><b>39.5</b> Interpreting hypothesis tests</a>
 <ul>
@@ -674,18 +675,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="39.5.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#types-of-errors"><i class="fa fa-check"></i><b>39.5.2</b> Types of errors</a></li>
 <li class="chapter" data-level="39.5.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#choosing-alpha"><i class="fa fa-check"></i><b>39.5.3</b> How do we choose alpha?</a></li>
 </ul></li>
-<li class="chapter" data-level="39.6" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-case-study"><i class="fa fa-check"></i><b>39.6</b> Case study: Are action or romance movies rated higher?</a>
+<li class="chapter" data-level="39.6" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-case-study"><i class="fa fa-check"></i><b>39.6</b> Case study: are action or romance movies rated higher?</a>
 <ul>
 <li class="chapter" data-level="39.6.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#imdb-data"><i class="fa fa-check"></i><b>39.6.1</b> IMDb ratings data</a></li>
 <li class="chapter" data-level="39.6.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#sampling-scenario-1"><i class="fa fa-check"></i><b>39.6.2</b> Sampling scenario</a></li>
 <li class="chapter" data-level="39.6.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#conducting-the-hypothesis-test"><i class="fa fa-check"></i><b>39.6.3</b> Conducting the hypothesis test</a></li>
 </ul></li>
-<li class="chapter" data-level="39.7" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#nhst-conclusion"><i class="fa fa-check"></i><b>39.7</b> Conclusion</a></li>
+<li class="chapter" data-level="39.7" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#nhst-conclusion"><i class="fa fa-check"></i><b>39.7</b> Summary and Final Remarks</a>
+<ul>
+<li class="chapter" data-level="39.7.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#theory-hypo"><i class="fa fa-check"></i><b>39.7.1</b> Theory-based approach for two-sample hypothesis tests</a></li>
+<li class="chapter" data-level="39.7.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#when-inference-is-not-needed"><i class="fa fa-check"></i><b>39.7.2</b> When inference is not needed</a></li>
+<li class="chapter" data-level="39.7.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#problems-with-p-values"><i class="fa fa-check"></i><b>39.7.3</b> Problems with p-values</a></li>
+<li class="chapter" data-level="39.7.4" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#additional-resources-3"><i class="fa fa-check"></i><b>39.7.4</b> Additional resources</a></li>
+<li class="chapter" data-level="39.7.5" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#whats-to-come-2"><i class="fa fa-check"></i><b>39.7.5</b> What’s to come</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="40" data-path="m13c-explore-hypothesis-testing-with-your-own-data.html"><a href="m13c-explore-hypothesis-testing-with-your-own-data.html"><i class="fa fa-check"></i><b>40</b> M13C: Explore Hypothesis Testing With Your Own Data</a></li>
 <li class="chapter" data-level="41" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html"><i class="fa fa-check"></i><b>41</b> M14U: Small Stories vs. Big Data</a>
 <ul>
-<li class="chapter" data-level="41.1" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#introduction-23"><i class="fa fa-check"></i><b>41.1</b> Introduction</a></li>
+<li class="chapter" data-level="41.1" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#introduction-22"><i class="fa fa-check"></i><b>41.1</b> Introduction</a></li>
 <li class="chapter" data-level="41.2" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#the-origins-of-autoethnography"><i class="fa fa-check"></i><b>41.2</b> The Origins of Autoethnography</a></li>
 <li class="chapter" data-level="41.3" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#what-does-autoethnography-look-like"><i class="fa fa-check"></i><b>41.3</b> What does Autoethnography Look Like?</a></li>
 <li class="chapter" data-level="41.4" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#how-do-autoethnographers-measure-quality"><i class="fa fa-check"></i><b>41.4</b> How do Autoethnographers Measure Quality?</a></li>
@@ -694,38 +702,53 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="42" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html"><i class="fa fa-check"></i><b>42</b> M14A: Inferential Regression</a>
 <ul>
-<li class="chapter" data-level="42.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#introduction-24"><i class="fa fa-check"></i><b>42.1</b> Introduction</a>
-<ul>
 <li class="chapter" data-level="" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#inf-packages"><i class="fa fa-check"></i>Needed packages</a></li>
-</ul></li>
-<li class="chapter" data-level="42.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-refresher"><i class="fa fa-check"></i><b>42.2</b> Regression refresher</a>
+<li class="chapter" data-level="42.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#the-simple-linear-regression-model"><i class="fa fa-check"></i><b>42.1</b> The simple linear regression model</a>
 <ul>
-<li class="chapter" data-level="42.2.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#teaching-evaluations-analysis"><i class="fa fa-check"></i><b>42.2.1</b> Teaching evaluations analysis</a></li>
-<li class="chapter" data-level="42.2.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#sampling-scenario-2"><i class="fa fa-check"></i><b>42.2.2</b> Sampling scenario</a></li>
+<li class="chapter" data-level="42.1.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#un-member-states-revisited"><i class="fa fa-check"></i><b>42.1.1</b> UN member states revisited</a></li>
+<li class="chapter" data-level="42.1.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#simple-linear-model"><i class="fa fa-check"></i><b>42.1.2</b> The model</a></li>
+<li class="chapter" data-level="42.1.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#sample-regression-inference"><i class="fa fa-check"></i><b>42.1.3</b> Using a sample for inference</a></li>
+<li class="chapter" data-level="42.1.4" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#least-squares"><i class="fa fa-check"></i><b>42.1.4</b> The method of least squares</a></li>
+<li class="chapter" data-level="42.1.5" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#properties-least-squares"><i class="fa fa-check"></i><b>42.1.5</b> Properties of the least squares estimators</a></li>
+<li class="chapter" data-level="42.1.6" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#relating-basic-regression-to-other-methods"><i class="fa fa-check"></i><b>42.1.6</b> Relating basic regression to other methods</a></li>
 </ul></li>
-<li class="chapter" data-level="42.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-interp"><i class="fa fa-check"></i><b>42.3</b> Interpreting regression tables</a>
+<li class="chapter" data-level="42.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#theory-simple-regression"><i class="fa fa-check"></i><b>42.2</b> Theory-based inference for simple linear regression</a>
 <ul>
-<li class="chapter" data-level="42.3.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-se"><i class="fa fa-check"></i><b>42.3.1</b> Standard error</a></li>
-<li class="chapter" data-level="42.3.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-test-statistic"><i class="fa fa-check"></i><b>42.3.2</b> Test statistic</a></li>
-<li class="chapter" data-level="42.3.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#p-value"><i class="fa fa-check"></i><b>42.3.3</b> p-value</a></li>
-<li class="chapter" data-level="42.3.4" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#confidence-interval"><i class="fa fa-check"></i><b>42.3.4</b> Confidence interval</a></li>
-<li class="chapter" data-level="42.3.5" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-table-computation"><i class="fa fa-check"></i><b>42.3.5</b> How does R compute the table?</a></li>
+<li class="chapter" data-level="42.2.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#framework-simple-lm"><i class="fa fa-check"></i><b>42.2.1</b> Conceptual framework</a></li>
+<li class="chapter" data-level="42.2.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#se-simple-lm"><i class="fa fa-check"></i><b>42.2.2</b> Standard errors for least-squares estimators</a></li>
+<li class="chapter" data-level="42.2.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#conf-intervals-b0-b1"><i class="fa fa-check"></i><b>42.2.3</b> Confidence intervals for the least-squares estimators</a></li>
+<li class="chapter" data-level="42.2.4" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#hypo-test-simple-lm"><i class="fa fa-check"></i><b>42.2.4</b> Hypothesis test for population slope</a></li>
+<li class="chapter" data-level="42.2.5" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-table"><i class="fa fa-check"></i><b>42.2.5</b> The regression table in R</a></li>
+<li class="chapter" data-level="42.2.6" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#model-fit"><i class="fa fa-check"></i><b>42.2.6</b> Model fit and model assumptions</a></li>
 </ul></li>
-<li class="chapter" data-level="42.4" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-conditions"><i class="fa fa-check"></i><b>42.4</b> Conditions for inference for regression</a>
+<li class="chapter" data-level="42.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#infer-regression"><i class="fa fa-check"></i><b>42.3</b> Simulation-based inference for simple linear regression</a>
 <ul>
-<li class="chapter" data-level="42.4.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#residuals-refresher"><i class="fa fa-check"></i><b>42.4.1</b> Residuals refresher</a></li>
-<li class="chapter" data-level="42.4.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#linearity-of-relationship"><i class="fa fa-check"></i><b>42.4.2</b> Linearity of relationship</a></li>
-<li class="chapter" data-level="42.4.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#independence-of-residuals"><i class="fa fa-check"></i><b>42.4.3</b> Independence of residuals</a></li>
-<li class="chapter" data-level="42.4.4" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#normality-of-residuals"><i class="fa fa-check"></i><b>42.4.4</b> Normality of residuals</a></li>
-<li class="chapter" data-level="42.4.5" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#equality-of-variance"><i class="fa fa-check"></i><b>42.4.5</b> Equality of variance</a></li>
-<li class="chapter" data-level="42.4.6" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#what-is-the-conclusion"><i class="fa fa-check"></i><b>42.4.6</b> What’s the conclusion?</a></li>
+<li class="chapter" data-level="42.3.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#infer-ci-slr"><i class="fa fa-check"></i><b>42.3.1</b> Confidence intervals for the population slope using <code>infer</code></a></li>
+<li class="chapter" data-level="42.3.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#infer-hypo-slr"><i class="fa fa-check"></i><b>42.3.2</b> Hypothesis test for population slope using <code>infer</code></a></li>
 </ul></li>
-<li class="chapter" data-level="42.5" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#infer-regression"><i class="fa fa-check"></i><b>42.5</b> Simulation-based inference for regression</a>
+<li class="chapter" data-level="42.4" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#the-multiple-linear-regression-model"><i class="fa fa-check"></i><b>42.4</b> The multiple linear regression model</a>
 <ul>
-<li class="chapter" data-level="42.5.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#confidence-interval-for-slope"><i class="fa fa-check"></i><b>42.5.1</b> Confidence interval for slope</a></li>
-<li class="chapter" data-level="42.5.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#hypothesis-test-for-slope"><i class="fa fa-check"></i><b>42.5.2</b> Hypothesis test for slope</a></li>
+<li class="chapter" data-level="42.4.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#multiple-linear-model"><i class="fa fa-check"></i><b>42.4.1</b> The model</a></li>
+<li class="chapter" data-level="42.4.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#example-coffee-quality-rating-scores"><i class="fa fa-check"></i><b>42.4.2</b> Example: coffee quality rating scores</a></li>
+<li class="chapter" data-level="42.4.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#least-squares-multiple"><i class="fa fa-check"></i><b>42.4.3</b> Least squares for multiple regression</a></li>
 </ul></li>
-<li class="chapter" data-level="42.6" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#inference-conclusion"><i class="fa fa-check"></i><b>42.6</b> Conclusion</a></li>
+<li class="chapter" data-level="42.5" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#theory-multiple-regression"><i class="fa fa-check"></i><b>42.5</b> Theory-based inference for multiple linear regression</a>
+<ul>
+<li class="chapter" data-level="42.5.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#model-dependency"><i class="fa fa-check"></i><b>42.5.1</b> Model dependency of estimators</a></li>
+<li class="chapter" data-level="42.5.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#confidence-intervals-1"><i class="fa fa-check"></i><b>42.5.2</b> Confidence intervals</a></li>
+<li class="chapter" data-level="42.5.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#hypo-test-mult-lm"><i class="fa fa-check"></i><b>42.5.3</b> Hypothesis test for a single coefficient</a></li>
+<li class="chapter" data-level="42.5.4" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#hypo-test-mult-lm-1"><i class="fa fa-check"></i><b>42.5.4</b> Hypothesis test for model comparison</a></li>
+<li class="chapter" data-level="42.5.5" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#model-fit-mult"><i class="fa fa-check"></i><b>42.5.5</b> Model fit and diagnostics</a></li>
+</ul></li>
+<li class="chapter" data-level="42.6" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#simulation-based-inference-for-multiple-linear-regression"><i class="fa fa-check"></i><b>42.6</b> Simulation-based Inference for multiple linear regression</a>
+<ul>
+<li class="chapter" data-level="42.6.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#confidence-intervals-for-the-partial-slopes-using-infer"><i class="fa fa-check"></i><b>42.6.1</b> Confidence intervals for the partial slopes using <code>infer</code></a></li>
+<li class="chapter" data-level="42.6.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#hypothesis-testing-for-the-partial-slopes-using-infer"><i class="fa fa-check"></i><b>42.6.2</b> Hypothesis testing for the partial slopes using <code>infer</code></a></li>
+</ul></li>
+<li class="chapter" data-level="42.7" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#inference-conclusion"><i class="fa fa-check"></i><b>42.7</b> Conclusion</a>
+<ul>
+<li class="chapter" data-level="42.7.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#summary-of-statistical-inference"><i class="fa fa-check"></i><b>42.7.1</b> Summary of statistical inference</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="43" data-path="m14c-perform-an-inferential-regression-with-your-own-data.html"><a href="m14c-perform-an-inferential-regression-with-your-own-data.html"><i class="fa fa-check"></i><b>43</b> M14C: Perform an Inferential Regression With Your Own Data</a></li>
 <li class="chapter" data-level="44" data-path="m15u-reflect-on-your-understanding-of-data-science.html"><a href="m15u-reflect-on-your-understanding-of-data-science.html"><i class="fa fa-check"></i><b>44</b> M15U: Reflect on Your Understanding of Data Science</a></li>
@@ -761,10 +784,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="needed-packages" class="section level3 unnumbered hasAnchor">
 <h3>Needed packages<a href="m7a-data-visualization.html#needed-packages" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Let’s load all the packages needed for this chapter (this assumes you’ve already installed them). Read Section <a href="m2a-getting-started-with-data-in-r.html#packages">6.3</a> for information on how to install and load R packages.</p>
-<div class="sourceCode" id="cb108"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb108-1"><a href="m7a-data-visualization.html#cb108-1" tabindex="-1"></a><span class="fu">library</span>(nycflights23)</span>
-<span id="cb108-2"><a href="m7a-data-visualization.html#cb108-2" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb108-3"><a href="m7a-data-visualization.html#cb108-3" tabindex="-1"></a><span class="fu">library</span>(moderndive)</span>
-<span id="cb108-4"><a href="m7a-data-visualization.html#cb108-4" tabindex="-1"></a><span class="fu">library</span>(tibble)</span></code></pre></div>
+<div class="sourceCode" id="cb105"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb105-1"><a href="m7a-data-visualization.html#cb105-1" tabindex="-1"></a><span class="fu">library</span>(nycflights23)</span>
+<span id="cb105-2"><a href="m7a-data-visualization.html#cb105-2" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb105-3"><a href="m7a-data-visualization.html#cb105-3" tabindex="-1"></a><span class="fu">library</span>(moderndive)</span>
+<span id="cb105-4"><a href="m7a-data-visualization.html#cb105-4" tabindex="-1"></a><span class="fu">library</span>(tibble)</span></code></pre></div>
 </div>
 </div>
 <div id="grammarofgraphics" class="section level2 hasAnchor" number="21.2">
@@ -987,8 +1010,8 @@ point
 <div id="geompoint" class="section level3 hasAnchor" number="21.3.1">
 <h3><span class="header-section-number">21.3.1</span> Scatterplots via <code>geom_point</code><a href="m7a-data-visualization.html#geompoint" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Let’s now go over the code that will create the desired scatterplot, while keeping in mind the grammar of graphics framework we introduced in Section <a href="m7a-data-visualization.html#grammarofgraphics">21.2</a>. Let’s take a look at the code and break it down piece-by-piece.</p>
-<div class="sourceCode" id="cb109"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb109-1"><a href="m7a-data-visualization.html#cb109-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> envoy_flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> dep_delay, <span class="at">y =</span> arr_delay)) <span class="sc">+</span> </span>
-<span id="cb109-2"><a href="m7a-data-visualization.html#cb109-2" tabindex="-1"></a>  <span class="fu">geom_point</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb106"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb106-1"><a href="m7a-data-visualization.html#cb106-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> envoy_flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> dep_delay, <span class="at">y =</span> arr_delay)) <span class="sc">+</span> </span>
+<span id="cb106-2"><a href="m7a-data-visualization.html#cb106-2" tabindex="-1"></a>  <span class="fu">geom_point</span>()</span></code></pre></div>
 <p>Within the <code>ggplot()</code> function, we specify two of the components of the grammar of graphics as arguments (i.e., inputs):</p>
 <ol style="list-style-type: decimal">
 <li>The <code>data</code> as the <code>envoy_flights</code> data frame via <code>data = envoy_flights</code>.</li>
@@ -1008,7 +1031,7 @@ Figure 21.2: Arrival delays versus departure delays for Envoy Air flights from N
 <p>Let’s turn our attention to the warning message. R is alerting us to the fact that three rows were ignored due to them being missing. For these three rows, either the value for <code>dep_delay</code> or <code>arr_delay</code> or both were missing (recorded in R as <code>NA</code>), and thus these rows were ignored in our plot.</p>
 <p>Before we continue, let’s make a few more observations about this code that created the scatterplot. Note that the <code>+</code> sign comes at the end of lines, and not at the beginning. You’ll get an error in R if you put it at the beginning of a line. When adding layers to a plot, you are encouraged to start a new line after the <code>+</code> (by pressing the Return/Enter button on your keyboard) so that the code for each layer is on a new line. As we add more and more layers to plots, you’ll see this will greatly improve the legibility of your code.</p>
 <p>To stress the importance of adding the layer specifying the <code>geom</code>etric object, consider Figure <a href="m7a-data-visualization.html#fig:nolayers">21.3</a> where no layers are added. Because the <code>geom</code>etric object was not specified, we have a blank plot that is not very useful!</p>
-<div class="sourceCode" id="cb111"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb111-1"><a href="m7a-data-visualization.html#cb111-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> envoy_flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> dep_delay, <span class="at">y =</span> arr_delay))</span></code></pre></div>
+<div class="sourceCode" id="cb108"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb108-1"><a href="m7a-data-visualization.html#cb108-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> envoy_flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> dep_delay, <span class="at">y =</span> arr_delay))</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:nolayers"></span>
 <img src="_main_files/figure-html/nolayers-1.png" alt="A plot with no layers." width="\textwidth" />
 <p class="caption">
@@ -1026,8 +1049,8 @@ Figure 21.3: A plot with no layers.
 <p><strong>Method 1: Changing the transparency</strong></p>
 <p>The first way of addressing overplotting is to change the transparency/opacity of the points by setting the <code>alpha</code> argument in <code>geom_point()</code>. We can change the <code>alpha</code> argument to be any value between <code>0</code> and <code>1</code>, where <code>0</code> sets the points to be 100% transparent and <code>1</code> sets the points to be 100% opaque. By default, <code>alpha</code> is set to <code>1</code>. In other words, if we don’t explicitly set an <code>alpha</code> value, R will use <code>alpha = 1</code>.</p>
 <p>Note how the following code is identical to the code in Section <a href="#scatterplots"><strong>??</strong></a> that created the scatterplot with overplotting, but with <code>alpha = 0.2</code> added to the <code>geom_point()</code> function:</p>
-<div class="sourceCode" id="cb112"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb112-1"><a href="m7a-data-visualization.html#cb112-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> envoy_flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> dep_delay, <span class="at">y =</span> arr_delay)) <span class="sc">+</span> </span>
-<span id="cb112-2"><a href="m7a-data-visualization.html#cb112-2" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">alpha =</span> <span class="fl">0.2</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb109"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb109-1"><a href="m7a-data-visualization.html#cb109-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> envoy_flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> dep_delay, <span class="at">y =</span> arr_delay)) <span class="sc">+</span> </span>
+<span id="cb109-2"><a href="m7a-data-visualization.html#cb109-2" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">alpha =</span> <span class="fl">0.2</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:alpha"></span>
 <img src="_main_files/figure-html/alpha-1.png" alt="Arrival vs. departure delays scatterplot with alpha = 0.2." width="\textwidth" />
 <p class="caption">
@@ -1046,8 +1069,8 @@ Figure 21.5: Regular and jittered scatterplot.
 <p>In the left-hand regular scatterplot, observe that the 4 points are superimposed on top of each other. While we know there are 4 values being plotted, this fact might not be apparent to others. In the right-hand jittered scatterplot, it is now plainly evident that this plot involves four points since each point is given a random “nudge.”</p>
 <p>Keep in mind, however, that jittering is strictly a visualization tool; even after creating a jittered scatterplot, the original values saved in the data frame remain unchanged. </p>
 <p>To create a jittered scatterplot, instead of using <code>geom_point()</code>, we use <code>geom_jitter()</code>. Observe how the following code is very similar to the code that created the scatterplot with overplotting in Subsection <a href="m7a-data-visualization.html#geompoint">21.3.1</a>, but with <code>geom_point()</code> replaced with <code>geom_jitter()</code>.</p>
-<div class="sourceCode" id="cb113"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb113-1"><a href="m7a-data-visualization.html#cb113-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> envoy_flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> dep_delay, <span class="at">y =</span> arr_delay)) <span class="sc">+</span> </span>
-<span id="cb113-2"><a href="m7a-data-visualization.html#cb113-2" tabindex="-1"></a>  <span class="fu">geom_jitter</span>(<span class="at">width =</span> <span class="dv">30</span>, <span class="at">height =</span> <span class="dv">30</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb110"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb110-1"><a href="m7a-data-visualization.html#cb110-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> envoy_flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> dep_delay, <span class="at">y =</span> arr_delay)) <span class="sc">+</span> </span>
+<span id="cb110-2"><a href="m7a-data-visualization.html#cb110-2" tabindex="-1"></a>  <span class="fu">geom_jitter</span>(<span class="at">width =</span> <span class="dv">30</span>, <span class="at">height =</span> <span class="dv">30</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:jitter"></span>
 <img src="_main_files/figure-html/jitter-1.png" alt="Arrival versus departure delays jittered scatterplot." width="\textwidth" />
 <p class="caption">
@@ -1073,9 +1096,9 @@ Figure 21.6: Arrival versus departure delays jittered scatterplot.
 <div id="geomline" class="section level3 hasAnchor" number="21.4.1">
 <h3><span class="header-section-number">21.4.1</span> Linegraphs via <code>geom_line</code><a href="m7a-data-visualization.html#geomline" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Let’s create a time series plot (as seen in Figure <a href="m7a-data-visualization.html#fig:hourlytemp">21.7</a>) of the hourly wind speeds saved in the <code>early_january_2023_weather</code> data frame by using <code>geom_line()</code> to create a linegraph, instead of using <code>geom_point()</code> like we used previously to create scatterplots:</p>
-<div class="sourceCode" id="cb114"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb114-1"><a href="m7a-data-visualization.html#cb114-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> early_january_2023_weather, </span>
-<span id="cb114-2"><a href="m7a-data-visualization.html#cb114-2" tabindex="-1"></a>       <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> time_hour, <span class="at">y =</span> wind_speed)) <span class="sc">+</span></span>
-<span id="cb114-3"><a href="m7a-data-visualization.html#cb114-3" tabindex="-1"></a>  <span class="fu">geom_line</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb111"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb111-1"><a href="m7a-data-visualization.html#cb111-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> early_january_2023_weather, </span>
+<span id="cb111-2"><a href="m7a-data-visualization.html#cb111-2" tabindex="-1"></a>       <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> time_hour, <span class="at">y =</span> wind_speed)) <span class="sc">+</span></span>
+<span id="cb111-3"><a href="m7a-data-visualization.html#cb111-3" tabindex="-1"></a>  <span class="fu">geom_line</span>()</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:hourlytemp"></span>
 <img src="_main_files/figure-html/hourlytemp-1.png" alt="Hourly wind speed in Newark for January 1-15, 2023." width="\textwidth" />
 <p class="caption">
@@ -1131,8 +1154,8 @@ Figure 21.9: Example histogram.
 <div id="geomhistogram" class="section level3 hasAnchor" number="21.5.1">
 <h3><span class="header-section-number">21.5.1</span> Histograms via <code>geom_histogram</code><a href="m7a-data-visualization.html#geomhistogram" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Let’s now present the <code>ggplot()</code> code to plot your first histogram! Unlike with scatterplots and linegraphs, there is now only one variable being mapped in <code>aes()</code>: the single numerical variable <code>wind_speed</code>. The y-aesthetic of a histogram, the count of the observations in each bin, gets computed for you automatically. Furthermore, the geometric object layer is now a <code>geom_histogram()</code>. After running the following code, you’ll see the histogram in Figure <a href="m7a-data-visualization.html#fig:weather-histogram">21.10</a> as well as warning messages. We’ll discuss the warning messages first.</p>
-<div class="sourceCode" id="cb115"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb115-1"><a href="m7a-data-visualization.html#cb115-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> weather, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> wind_speed)) <span class="sc">+</span></span>
-<span id="cb115-2"><a href="m7a-data-visualization.html#cb115-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb112"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb112-1"><a href="m7a-data-visualization.html#cb112-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> weather, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> wind_speed)) <span class="sc">+</span></span>
+<span id="cb112-2"><a href="m7a-data-visualization.html#cb112-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>()</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:weather-histogram"></span>
 <img src="_main_files/figure-html/weather-histogram-1.png" alt="Histogram of hourly wind speeds at three NYC airports." width="\textwidth" />
 <p class="caption">
@@ -1144,8 +1167,8 @@ Figure 21.10: Histogram of hourly wind speeds at three NYC airports.
 <p>The first message is telling us that the histogram was constructed using <code>bins = 30</code> for 30 equally spaced bins. This is known in computer programming as a default value; unless you override this default number of bins with a number you specify, R will choose 30 by default. We’ll see in the next section how to change the number of bins to another value than the default.</p>
 <p>The second warning message is telling us something similar to the warning message we received when we ran the code to create a scatterplot of departure and arrival delays for Envoy Air flights in Figure <a href="m7a-data-visualization.html#fig:noalpha">21.2</a>: that because some rows have missing <code>NA</code> value for <code>wind_speed</code>, they were omitted from the histogram. R is just giving us a friendly heads-up that this was the case.</p>
 <p>Now let’s unpack the resulting histogram in Figure <a href="m7a-data-visualization.html#fig:weather-histogram">21.10</a>. Observe that values above 30 mph are rather rare. However, because of the large number of bins, it’s hard to get a sense for which range of wind speeds is spanned by each bin; everything is one giant amorphous blob. So let’s add white vertical borders demarcating the bins by adding a <code>color = "white"</code> argument to <code>geom_histogram()</code> and ignore the warning about setting the number of bins to a better value:</p>
-<div class="sourceCode" id="cb118"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb118-1"><a href="m7a-data-visualization.html#cb118-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> weather, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> wind_speed)) <span class="sc">+</span></span>
-<span id="cb118-2"><a href="m7a-data-visualization.html#cb118-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">color =</span> <span class="st">&quot;white&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb115"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb115-1"><a href="m7a-data-visualization.html#cb115-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> weather, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> wind_speed)) <span class="sc">+</span></span>
+<span id="cb115-2"><a href="m7a-data-visualization.html#cb115-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">color =</span> <span class="st">&quot;white&quot;</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:weather-histogram-2"></span>
 <img src="_main_files/figure-html/weather-histogram-2-1.png" alt="Histogram of hourly wind speeds at three NYC airports with white borders." width="\textwidth" />
 <p class="caption">
@@ -1153,8 +1176,8 @@ Figure 21.11: Histogram of hourly wind speeds at three NYC airports with white b
 </p>
 </div>
 <p>We now have an easier time associating ranges of wind speeds to each of the bins in Figure <a href="m7a-data-visualization.html#fig:weather-histogram-2">21.11</a>. We can also vary the color of the bars by setting the <code>fill</code> argument. For example, you can set the bin colors to be “blue steel” by setting <code>fill = "steelblue"</code>:</p>
-<div class="sourceCode" id="cb119"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb119-1"><a href="m7a-data-visualization.html#cb119-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> weather, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> wind_speed)) <span class="sc">+</span></span>
-<span id="cb119-2"><a href="m7a-data-visualization.html#cb119-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">color =</span> <span class="st">&quot;white&quot;</span>, <span class="at">fill =</span> <span class="st">&quot;steelblue&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb116"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb116-1"><a href="m7a-data-visualization.html#cb116-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> weather, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> wind_speed)) <span class="sc">+</span></span>
+<span id="cb116-2"><a href="m7a-data-visualization.html#cb116-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">color =</span> <span class="st">&quot;white&quot;</span>, <span class="at">fill =</span> <span class="st">&quot;steelblue&quot;</span>)</span></code></pre></div>
 <p>If you’re curious, run <code>colors()</code> to see all 657 possible choice of colors in R!</p>
 </div>
 <div id="adjustbins" class="section level3 hasAnchor" number="21.5.2">
@@ -1165,11 +1188,11 @@ Figure 21.11: Histogram of hourly wind speeds at three NYC airports with white b
 <li>By adjusting the width of the bins via the <code>binwidth</code> argument to <code>geom_histogram()</code>.</li>
 </ol>
 <p>Using the first method, we have the power to specify how many bins we would like to cut the x-axis up in. As mentioned in the previous section, the default number of bins is 20. We can override this default, to say 20 bins, as follows:</p>
-<div class="sourceCode" id="cb120"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb120-1"><a href="m7a-data-visualization.html#cb120-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> weather, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> wind_speed)) <span class="sc">+</span></span>
-<span id="cb120-2"><a href="m7a-data-visualization.html#cb120-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">bins =</span> <span class="dv">20</span>, <span class="at">color =</span> <span class="st">&quot;white&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb117"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb117-1"><a href="m7a-data-visualization.html#cb117-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> weather, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> wind_speed)) <span class="sc">+</span></span>
+<span id="cb117-2"><a href="m7a-data-visualization.html#cb117-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">bins =</span> <span class="dv">20</span>, <span class="at">color =</span> <span class="st">&quot;white&quot;</span>)</span></code></pre></div>
 <p>Using the second method, instead of specifying the number of bins, we specify the width of the bins by using the <code>binwidth</code> argument in the <code>geom_histogram()</code> layer. For example, let’s set the width of each bin to be five mph.</p>
-<div class="sourceCode" id="cb121"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb121-1"><a href="m7a-data-visualization.html#cb121-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> weather, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> wind_speed)) <span class="sc">+</span></span>
-<span id="cb121-2"><a href="m7a-data-visualization.html#cb121-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">5</span>, <span class="at">color =</span> <span class="st">&quot;white&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb118"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb118-1"><a href="m7a-data-visualization.html#cb118-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> weather, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> wind_speed)) <span class="sc">+</span></span>
+<span id="cb118-2"><a href="m7a-data-visualization.html#cb118-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">5</span>, <span class="at">color =</span> <span class="st">&quot;white&quot;</span>)</span></code></pre></div>
 <p>We compare both resulting histograms side-by-side in Figure <a href="m7a-data-visualization.html#fig:hist-bins">21.12</a>.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:hist-bins"></span>
 <img src="_main_files/figure-html/hist-bins-1.png" alt="Setting histogram bins in two ways." width="\textwidth" />
@@ -1187,9 +1210,9 @@ Figure 21.12: Setting histogram bins in two ways.
 <h2><span class="header-section-number">21.6</span> Facets<a href="m7a-data-visualization.html#facets" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Before continuing with the next of the 5NG, let’s briefly introduce a new concept called <em>faceting</em>. Faceting is used when we’d like to split a particular visualization by the values of another variable. This will create multiple copies of the same type of plot with matching x and y axes, but whose content will differ.</p>
 <p>For example, suppose we were interested in looking at how the histogram of hourly wind speed recordings at the three NYC airports we saw in Figure <a href="m7a-data-visualization.html#fig:histogramexample">21.9</a> differed in each month. We could “split” this histogram by the 12 possible months in a given year. In other words, we would plot histograms of <code>wind_speed</code> for each <code>month</code> separately. We do this by adding <code>facet_wrap(~ month)</code> layer. Note the <code>~</code> is a “tilde” and can generally be found on the key next to the “1” key on US keyboards. The tilde is required and you’ll receive the error <code>Error in as.quoted(facets) : object 'month' not found</code> if you don’t include it here.</p>
-<div class="sourceCode" id="cb122"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb122-1"><a href="m7a-data-visualization.html#cb122-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> weather, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> wind_speed)) <span class="sc">+</span></span>
-<span id="cb122-2"><a href="m7a-data-visualization.html#cb122-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">5</span>, <span class="at">color =</span> <span class="st">&quot;white&quot;</span>) <span class="sc">+</span></span>
-<span id="cb122-3"><a href="m7a-data-visualization.html#cb122-3" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> month)</span></code></pre></div>
+<div class="sourceCode" id="cb119"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb119-1"><a href="m7a-data-visualization.html#cb119-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> weather, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> wind_speed)) <span class="sc">+</span></span>
+<span id="cb119-2"><a href="m7a-data-visualization.html#cb119-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">5</span>, <span class="at">color =</span> <span class="st">&quot;white&quot;</span>) <span class="sc">+</span></span>
+<span id="cb119-3"><a href="m7a-data-visualization.html#cb119-3" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> month)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:facethistogram"></span>
 <img src="_main_files/figure-html/facethistogram-1.png" alt="Faceted histogram of hourly wind speeds by month." width="\textwidth" />
 <p class="caption">
@@ -1197,9 +1220,9 @@ Figure 21.13: Faceted histogram of hourly wind speeds by month.
 </p>
 </div>
 <p>We can also specify the number of rows and columns in the grid by using the <code>nrow</code> and <code>ncol</code> arguments inside of <code>facet_wrap()</code>. For example, say we would like our faceted histogram to have 4 rows instead of 3. We simply add an <code>nrow = 4</code> argument to <code>facet_wrap(~ month)</code>.</p>
-<div class="sourceCode" id="cb123"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb123-1"><a href="m7a-data-visualization.html#cb123-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> weather, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> wind_speed)) <span class="sc">+</span></span>
-<span id="cb123-2"><a href="m7a-data-visualization.html#cb123-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">5</span>, <span class="at">color =</span> <span class="st">&quot;white&quot;</span>) <span class="sc">+</span></span>
-<span id="cb123-3"><a href="m7a-data-visualization.html#cb123-3" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> month, <span class="at">nrow =</span> <span class="dv">4</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb120"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb120-1"><a href="m7a-data-visualization.html#cb120-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> weather, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> wind_speed)) <span class="sc">+</span></span>
+<span id="cb120-2"><a href="m7a-data-visualization.html#cb120-2" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">binwidth =</span> <span class="dv">5</span>, <span class="at">color =</span> <span class="st">&quot;white&quot;</span>) <span class="sc">+</span></span>
+<span id="cb120-3"><a href="m7a-data-visualization.html#cb120-3" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> month, <span class="at">nrow =</span> <span class="dv">4</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:facethistogram2"></span>
 <img src="_main_files/figure-html/facethistogram2-1.png" alt="Faceted histogram with 4 instead of 3 rows." width="\textwidth" />
 <p class="caption">
@@ -1245,8 +1268,8 @@ Figure 21.16: Building up a boxplot of April wind speeds.
 <div id="geomboxplot" class="section level3 hasAnchor" number="21.7.1">
 <h3><span class="header-section-number">21.7.1</span> Boxplots via <code>geom_boxplot</code><a href="m7a-data-visualization.html#geomboxplot" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Let’s now create a side-by-side boxplot of hourly wind speeds split by the 12 months as we did previously with the faceted histograms. We do this by mapping the <code>month</code> variable to the x-position aesthetic, the <code>wind_speed</code> variable to the y-position aesthetic, and by adding a <code>geom_boxplot()</code> layer:</p>
-<div class="sourceCode" id="cb124"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb124-1"><a href="m7a-data-visualization.html#cb124-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> weather, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> month, <span class="at">y =</span> wind_speed)) <span class="sc">+</span></span>
-<span id="cb124-2"><a href="m7a-data-visualization.html#cb124-2" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb121"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb121-1"><a href="m7a-data-visualization.html#cb121-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> weather, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> month, <span class="at">y =</span> wind_speed)) <span class="sc">+</span></span>
+<span id="cb121-2"><a href="m7a-data-visualization.html#cb121-2" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:badbox"></span>
 <img src="_main_files/figure-html/badbox-1.png" alt="Invalid boxplot specification." width="\textwidth" />
 <p class="caption">
@@ -1257,8 +1280,8 @@ Figure 21.17: Invalid boxplot specification.
 1: Continuous x aesthetic -- did you forget aes(group=...)? </code></pre>
 <p>Observe in Figure <a href="m7a-data-visualization.html#fig:badbox">21.17</a> that this plot does not provide information about wind speed separated by month. The first warning message tells us why. It says that we have a “continuous” (or numerical variable) on the x-position aesthetic. Boxplots, however, require a categorical variable to be mapped to the x-position aesthetic.</p>
 <p>We can convert the numerical variable <code>month</code> into a <code>factor</code> categorical variable by using the <code>factor()</code> function. After applying <code>factor(month)</code>, <code>month</code> goes from having just the numerical values 1, 2, …, and 12 to having an associated ordering. With this ordering, <code>ggplot()</code> now knows how to work with this variable to produce the plot.</p>
-<div class="sourceCode" id="cb126"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb126-1"><a href="m7a-data-visualization.html#cb126-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> weather, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">factor</span>(month), <span class="at">y =</span> wind_speed)) <span class="sc">+</span></span>
-<span id="cb126-2"><a href="m7a-data-visualization.html#cb126-2" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb123"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb123-1"><a href="m7a-data-visualization.html#cb123-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> weather, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">factor</span>(month), <span class="at">y =</span> wind_speed)) <span class="sc">+</span></span>
+<span id="cb123-2"><a href="m7a-data-visualization.html#cb123-2" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>()</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:monthtempbox"></span>
 <img src="_main_files/figure-html/monthtempbox-1.png" alt="Side-by-side boxplot of wind speed split by month." width="\textwidth" />
 <p class="caption">
@@ -1284,10 +1307,10 @@ Figure 21.18: Side-by-side boxplot of wind speed split by month.
 <h2><span class="header-section-number">21.8</span> 5NG#5: Barplots<a href="m7a-data-visualization.html#geombar" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Both histograms and boxplots are tools to visualize the distribution of numerical variables. Another commonly desired task is to visualize the distribution of a categorical variable. This is a simpler task, as we are simply counting different categories within a categorical variable, also known as the <em>levels</em> of the categorical variable. Often the best way to visualize these different counts, also known as <em>frequencies</em>, is with barplots (also called barcharts).</p>
 <p>One complication, however, is how your data is represented. Is the categorical variable of interest “pre-counted” or not? For example, run the following code that manually creates two data frames representing a collection of fruit: 3 apples and 2 oranges.</p>
-<div class="sourceCode" id="cb127"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb127-1"><a href="m7a-data-visualization.html#cb127-1" tabindex="-1"></a>fruits <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">fruit =</span> <span class="fu">c</span>(<span class="st">&quot;apple&quot;</span>, <span class="st">&quot;apple&quot;</span>, <span class="st">&quot;orange&quot;</span>, <span class="st">&quot;apple&quot;</span>, <span class="st">&quot;orange&quot;</span>))</span>
-<span id="cb127-2"><a href="m7a-data-visualization.html#cb127-2" tabindex="-1"></a>fruits_counted <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
-<span id="cb127-3"><a href="m7a-data-visualization.html#cb127-3" tabindex="-1"></a>  <span class="at">fruit =</span> <span class="fu">c</span>(<span class="st">&quot;apple&quot;</span>, <span class="st">&quot;orange&quot;</span>),</span>
-<span id="cb127-4"><a href="m7a-data-visualization.html#cb127-4" tabindex="-1"></a>  <span class="at">number =</span> <span class="fu">c</span>(<span class="dv">3</span>, <span class="dv">2</span>))</span></code></pre></div>
+<div class="sourceCode" id="cb124"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb124-1"><a href="m7a-data-visualization.html#cb124-1" tabindex="-1"></a>fruits <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">fruit =</span> <span class="fu">c</span>(<span class="st">&quot;apple&quot;</span>, <span class="st">&quot;apple&quot;</span>, <span class="st">&quot;orange&quot;</span>, <span class="st">&quot;apple&quot;</span>, <span class="st">&quot;orange&quot;</span>))</span>
+<span id="cb124-2"><a href="m7a-data-visualization.html#cb124-2" tabindex="-1"></a>fruits_counted <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb124-3"><a href="m7a-data-visualization.html#cb124-3" tabindex="-1"></a>  <span class="at">fruit =</span> <span class="fu">c</span>(<span class="st">&quot;apple&quot;</span>, <span class="st">&quot;orange&quot;</span>),</span>
+<span id="cb124-4"><a href="m7a-data-visualization.html#cb124-4" tabindex="-1"></a>  <span class="at">number =</span> <span class="fu">c</span>(<span class="dv">3</span>, <span class="dv">2</span>))</span></code></pre></div>
 <p>We see both the <code>fruits</code> and <code>fruits_counted</code> data frames represent the same collection of fruit. Whereas <code>fruits</code> just lists the fruit individually…</p>
 <pre><code># A tibble: 5 × 1
   fruit 
@@ -1307,8 +1330,8 @@ Figure 21.18: Side-by-side boxplot of wind speed split by month.
 <div id="barplots-via-geom_bar-or-geom_col" class="section level3 hasAnchor" number="21.8.1">
 <h3><span class="header-section-number">21.8.1</span> Barplots via <code>geom_bar</code> or <code>geom_col</code><a href="m7a-data-visualization.html#barplots-via-geom_bar-or-geom_col" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Let’s generate barplots using these two different representations of the same basket of fruit: 3 apples and 2 oranges. Using the <code>fruits</code> data frame where all 5 fruits are listed individually in 5 rows, we map the <code>fruit</code> variable to the x-position aesthetic and add a <code>geom_bar()</code> layer:</p>
-<div class="sourceCode" id="cb130"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb130-1"><a href="m7a-data-visualization.html#cb130-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> fruits, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> fruit)) <span class="sc">+</span></span>
-<span id="cb130-2"><a href="m7a-data-visualization.html#cb130-2" tabindex="-1"></a>  <span class="fu">geom_bar</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb127"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb127-1"><a href="m7a-data-visualization.html#cb127-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> fruits, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> fruit)) <span class="sc">+</span></span>
+<span id="cb127-2"><a href="m7a-data-visualization.html#cb127-2" tabindex="-1"></a>  <span class="fu">geom_bar</span>()</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:geombar"></span>
 <img src="_main_files/figure-html/geombar-1.png" alt="Barplot when counts are not pre-counted." width="\textwidth" />
 <p class="caption">
@@ -1316,8 +1339,8 @@ Figure 21.19: Barplot when counts are not pre-counted.
 </p>
 </div>
 <p>However, using the <code>fruits_counted</code> data frame where the fruits have been “pre-counted,” we once again map the <code>fruit</code> variable to the x-position aesthetic. Here, we also map the <code>count</code> variable to the y-position aesthetic, and add a <code>geom_col()</code> layer instead.</p>
-<div class="sourceCode" id="cb131"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb131-1"><a href="m7a-data-visualization.html#cb131-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> fruits_counted, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> fruit, <span class="at">y =</span> number)) <span class="sc">+</span></span>
-<span id="cb131-2"><a href="m7a-data-visualization.html#cb131-2" tabindex="-1"></a>  <span class="fu">geom_col</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb128"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb128-1"><a href="m7a-data-visualization.html#cb128-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> fruits_counted, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> fruit, <span class="at">y =</span> number)) <span class="sc">+</span></span>
+<span id="cb128-2"><a href="m7a-data-visualization.html#cb128-2" tabindex="-1"></a>  <span class="fu">geom_col</span>()</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:geomcol"></span>
 <img src="_main_files/figure-html/geomcol-1.png" alt="Barplot when counts are pre-counted." width="\textwidth" />
 <p class="caption">
@@ -1331,8 +1354,8 @@ Figure 21.20: Barplot when counts are pre-counted.
 </ul>
 <p>Let’s now go back to the <code>flights</code> data frame in the <code>nycflights23</code> package and visualize the distribution of the categorical variable <code>carrier</code>. In other words, let’s visualize the number of domestic flights out of New York City each airline company flew in 2023. Recall from Subsection <a href="m2a-getting-started-with-data-in-r.html#exploredataframes">6.4.3</a> when you first explored the <code>flights</code> data frame, you saw that each row corresponds to a flight. In other words, the <code>flights</code> data frame is more like the <code>fruits</code> data frame than the <code>fruits_counted</code> data frame because the flights have not been pre-counted by <code>carrier</code>. Thus we should use <code>geom_bar()</code> instead of <code>geom_col()</code> to create a barplot. Much like a <code>geom_histogram()</code>, there is only one variable in the <code>aes()</code> aesthetic mapping: the variable <code>carrier</code> gets mapped to the <code>x</code>-position. As a difference though, histograms have bars that touch whereas bar graphs have white space between the bars going from left to right.</p>
 
-<div class="sourceCode" id="cb132"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb132-1"><a href="m7a-data-visualization.html#cb132-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> carrier)) <span class="sc">+</span></span>
-<span id="cb132-2"><a href="m7a-data-visualization.html#cb132-2" tabindex="-1"></a>  <span class="fu">geom_bar</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb129"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb129-1"><a href="m7a-data-visualization.html#cb129-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> carrier)) <span class="sc">+</span></span>
+<span id="cb129-2"><a href="m7a-data-visualization.html#cb129-2" tabindex="-1"></a>  <span class="fu">geom_bar</span>()</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:flightsbar"></span>
 <img src="_main_files/figure-html/flightsbar-1.png" alt="Number of flights departing NYC in 2023 by airline using geom_bar()." width="\textwidth" />
 <p class="caption">
@@ -1492,11 +1515,11 @@ Figure 21.22: The dreaded pie chart.
 <h3><span class="header-section-number">21.8.3</span> Two categorical variables<a href="m7a-data-visualization.html#two-categ-barplot" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Barplots are a very common way to visualize the frequency of different categories, or levels, of a single categorical variable. Another use of barplots is to visualize the <em>joint</em> distribution of two categorical variables at the same time.</p>
 <p>Let’s examine the <em>joint</em> distribution of outgoing domestic flights from NYC by <code>carrier</code> as well as <code>origin</code>, in other words, the number of flights for each <code>carrier</code> and <code>origin</code> combination. This corresponds to the number of American Airlines flights from <code>JFK</code>, the number of American Airlines flights from <code>LGA</code>, the number of American Airlines flights from <code>EWR</code>, the number of Endeavor Air flights from <code>JFK</code>, and so on. Recall the <code>ggplot()</code> code that created the barplot of <code>carrier</code> frequency in Figure <a href="m7a-data-visualization.html#fig:flightsbar">21.21</a>:</p>
-<div class="sourceCode" id="cb133"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb133-1"><a href="m7a-data-visualization.html#cb133-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> carrier)) <span class="sc">+</span> </span>
-<span id="cb133-2"><a href="m7a-data-visualization.html#cb133-2" tabindex="-1"></a>  <span class="fu">geom_bar</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb130"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb130-1"><a href="m7a-data-visualization.html#cb130-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> carrier)) <span class="sc">+</span> </span>
+<span id="cb130-2"><a href="m7a-data-visualization.html#cb130-2" tabindex="-1"></a>  <span class="fu">geom_bar</span>()</span></code></pre></div>
 <p>We can now map the additional variable <code>origin</code> by adding a <code>fill = origin</code> inside the <code>aes()</code> aesthetic mapping.</p>
-<div class="sourceCode" id="cb134"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb134-1"><a href="m7a-data-visualization.html#cb134-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> carrier, <span class="at">fill =</span> origin)) <span class="sc">+</span></span>
-<span id="cb134-2"><a href="m7a-data-visualization.html#cb134-2" tabindex="-1"></a>  <span class="fu">geom_bar</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb131"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb131-1"><a href="m7a-data-visualization.html#cb131-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> carrier, <span class="at">fill =</span> origin)) <span class="sc">+</span></span>
+<span id="cb131-2"><a href="m7a-data-visualization.html#cb131-2" tabindex="-1"></a>  <span class="fu">geom_bar</span>()</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:flights-stacked-bar"></span>
 <img src="_main_files/figure-html/flights-stacked-bar-1.png" alt="Stacked barplot of flight amount by carrier and origin." width="\textwidth" />
 <p class="caption">
@@ -1505,8 +1528,8 @@ Figure 21.23: Stacked barplot of flight amount by carrier and origin.
 </div>
 <p>Figure <a href="m7a-data-visualization.html#fig:flights-stacked-bar">21.23</a> is an example of a <em>stacked barplot</em>. While simple to make, in certain aspects it is not ideal. For example, it is difficult to compare the heights of the different colors between the bars, corresponding to comparing the number of flights from each <code>origin</code> airport between the carriers.</p>
 <p>Before we continue, let’s address some common points of confusion among new R users. First, the <code>fill</code> aesthetic corresponds to the color used to fill the bars, while the <code>color</code> aesthetic corresponds to the color of the outline of the bars. This is identical to how we added color to our histogram in Subsection <a href="m7a-data-visualization.html#geomhistogram">21.5.1</a>: we set the outline of the bars to white by setting <code>color = "white"</code> and the colors of the bars to blue steel by setting <code>fill = "steelblue"</code>. Observe in Figure <a href="m7a-data-visualization.html#fig:flights-stacked-bar-color">21.24</a> that mapping <code>origin</code> to <code>color</code> and not <code>fill</code> yields grey bars with different colored outlines.</p>
-<div class="sourceCode" id="cb135"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb135-1"><a href="m7a-data-visualization.html#cb135-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> carrier, <span class="at">color =</span> origin)) <span class="sc">+</span></span>
-<span id="cb135-2"><a href="m7a-data-visualization.html#cb135-2" tabindex="-1"></a>  <span class="fu">geom_bar</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb132"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb132-1"><a href="m7a-data-visualization.html#cb132-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> carrier, <span class="at">color =</span> origin)) <span class="sc">+</span></span>
+<span id="cb132-2"><a href="m7a-data-visualization.html#cb132-2" tabindex="-1"></a>  <span class="fu">geom_bar</span>()</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:flights-stacked-bar-color"></span>
 <img src="_main_files/figure-html/flights-stacked-bar-color-1.png" alt="Stacked barplot with color aesthetic used instead of fill." width="\textwidth" />
 <p class="caption">
@@ -1514,11 +1537,11 @@ Figure 21.24: Stacked barplot with color aesthetic used instead of fill.
 </p>
 </div>
 <p>Second, note that <code>fill</code> is another aesthetic mapping much like <code>x</code>-position; thus we were careful to include it within the parentheses of the <code>aes()</code> mapping. The following code, where the <code>fill</code> aesthetic is specified outside the <code>aes()</code> mapping will yield an error. This is a fairly common error that new <code>ggplot</code> users make:</p>
-<div class="sourceCode" id="cb136"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb136-1"><a href="m7a-data-visualization.html#cb136-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> carrier), <span class="at">fill =</span> origin) <span class="sc">+</span></span>
-<span id="cb136-2"><a href="m7a-data-visualization.html#cb136-2" tabindex="-1"></a>  <span class="fu">geom_bar</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb133"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb133-1"><a href="m7a-data-visualization.html#cb133-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> carrier), <span class="at">fill =</span> origin) <span class="sc">+</span></span>
+<span id="cb133-2"><a href="m7a-data-visualization.html#cb133-2" tabindex="-1"></a>  <span class="fu">geom_bar</span>()</span></code></pre></div>
 <p>An alternative to stacked barplots are <em>side-by-side barplots</em>, also known as <em>dodged barplots</em>, as seen in Figure <a href="m7a-data-visualization.html#fig:flights-dodged-bar-color">21.25</a>. The code to create a side-by-side barplot is identical to the code to create a stacked barplot, but with a <code>position = "dodge"</code> argument added to <code>geom_bar()</code>. In other words, we are overriding the default barplot type, which is a <em>stacked</em> barplot, and specifying it to be a side-by-side barplot instead.</p>
-<div class="sourceCode" id="cb137"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb137-1"><a href="m7a-data-visualization.html#cb137-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> carrier, <span class="at">fill =</span> origin)) <span class="sc">+</span></span>
-<span id="cb137-2"><a href="m7a-data-visualization.html#cb137-2" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">position =</span> <span class="st">&quot;dodge&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb134"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb134-1"><a href="m7a-data-visualization.html#cb134-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> carrier, <span class="at">fill =</span> origin)) <span class="sc">+</span></span>
+<span id="cb134-2"><a href="m7a-data-visualization.html#cb134-2" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">position =</span> <span class="st">&quot;dodge&quot;</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:flights-dodged-bar-color"></span>
 <img src="_main_files/figure-html/flights-dodged-bar-color-1.png" alt="Side-by-side barplot comparing number of flights by carrier and origin." width="\textwidth" />
 <p class="caption">
@@ -1526,9 +1549,9 @@ Figure 21.25: Side-by-side barplot comparing number of flights by carrier and or
 </p>
 </div>
 <p>Lastly, another type of barplot is a <em>faceted barplot</em>. Recall in Section <a href="m7a-data-visualization.html#facets">21.6</a> we visualized the distribution of hourly wind speeds at the 3 NYC airports <em>split</em> by month using facets. We apply the same principle to our barplot visualizing the frequency of <code>carrier</code> split by <code>origin</code>. Instead of mapping <code>origin</code> to <code>fill</code> we include it as the variable to create small multiples of the plot across the levels of <code>origin</code> in Figure <a href="m7a-data-visualization.html#fig:facet-bar-vert">21.26</a>.</p>
-<div class="sourceCode" id="cb138"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb138-1"><a href="m7a-data-visualization.html#cb138-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> carrier)) <span class="sc">+</span></span>
-<span id="cb138-2"><a href="m7a-data-visualization.html#cb138-2" tabindex="-1"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
-<span id="cb138-3"><a href="m7a-data-visualization.html#cb138-3" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> origin, <span class="at">ncol =</span> <span class="dv">1</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb135"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb135-1"><a href="m7a-data-visualization.html#cb135-1" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> carrier)) <span class="sc">+</span></span>
+<span id="cb135-2"><a href="m7a-data-visualization.html#cb135-2" tabindex="-1"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
+<span id="cb135-3"><a href="m7a-data-visualization.html#cb135-3" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> origin, <span class="at">ncol =</span> <span class="dv">1</span>)</span></code></pre></div>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:facet-bar-vert"></span>
 <img src="_main_files/figure-html/facet-bar-vert-1.png" alt="Faceted barplot comparing the number of flights by carrier and origin." width="\textwidth" />
 <p class="caption">
@@ -1658,13 +1681,13 @@ Stacked, side-by-side, and faceted barplots show the joint distribution of 2 cat
 <div id="function-argument-specification" class="section level3 hasAnchor" number="21.9.2">
 <h3><span class="header-section-number">21.9.2</span> Function argument specification<a href="m7a-data-visualization.html#function-argument-specification" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Let’s go over some important points about specifying the arguments (i.e., inputs) to functions. Run the following two segments of code:</p>
-<div class="sourceCode" id="cb139"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb139-1"><a href="m7a-data-visualization.html#cb139-1" tabindex="-1"></a><span class="co"># Segment 1:</span></span>
-<span id="cb139-2"><a href="m7a-data-visualization.html#cb139-2" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> carrier)) <span class="sc">+</span></span>
-<span id="cb139-3"><a href="m7a-data-visualization.html#cb139-3" tabindex="-1"></a>  <span class="fu">geom_bar</span>()</span>
-<span id="cb139-4"><a href="m7a-data-visualization.html#cb139-4" tabindex="-1"></a></span>
-<span id="cb139-5"><a href="m7a-data-visualization.html#cb139-5" tabindex="-1"></a><span class="co"># Segment 2:</span></span>
-<span id="cb139-6"><a href="m7a-data-visualization.html#cb139-6" tabindex="-1"></a><span class="fu">ggplot</span>(flights, <span class="fu">aes</span>(<span class="at">x =</span> carrier)) <span class="sc">+</span></span>
-<span id="cb139-7"><a href="m7a-data-visualization.html#cb139-7" tabindex="-1"></a>  <span class="fu">geom_bar</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb136"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb136-1"><a href="m7a-data-visualization.html#cb136-1" tabindex="-1"></a><span class="co"># Segment 1:</span></span>
+<span id="cb136-2"><a href="m7a-data-visualization.html#cb136-2" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> flights, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> carrier)) <span class="sc">+</span></span>
+<span id="cb136-3"><a href="m7a-data-visualization.html#cb136-3" tabindex="-1"></a>  <span class="fu">geom_bar</span>()</span>
+<span id="cb136-4"><a href="m7a-data-visualization.html#cb136-4" tabindex="-1"></a></span>
+<span id="cb136-5"><a href="m7a-data-visualization.html#cb136-5" tabindex="-1"></a><span class="co"># Segment 2:</span></span>
+<span id="cb136-6"><a href="m7a-data-visualization.html#cb136-6" tabindex="-1"></a><span class="fu">ggplot</span>(flights, <span class="fu">aes</span>(<span class="at">x =</span> carrier)) <span class="sc">+</span></span>
+<span id="cb136-7"><a href="m7a-data-visualization.html#cb136-7" tabindex="-1"></a>  <span class="fu">geom_bar</span>()</span></code></pre></div>
 <p>You’ll notice that both code segments create the same barplot, even though in the second segment we omitted the <code>data =</code> and <code>mapping =</code> code argument names. This is because the <code>ggplot()</code> function by default assumes that the <code>data</code> argument comes first and the <code>mapping</code> argument comes second. As long as you specify the data frame in question first and the <code>aes()</code> mapping second, you can omit the explicit statement of the argument names <code>data =</code> and <code>mapping =</code>.</p>
 <p>Going forward for the rest of this book, all <code>ggplot()</code> code will be like the second segment: with the <code>data =</code> and <code>mapping =</code> explicit naming of the argument omitted with the default ordering of arguments respected. We’ll do this for brevity’s sake; it’s common to see this style when reviewing other R users’ code.</p>
 </div>

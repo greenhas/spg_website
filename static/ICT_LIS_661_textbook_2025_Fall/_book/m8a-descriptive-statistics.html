@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>24 M8A: Descriptive Statistics | Introduction to Data Science</title>
   <meta name="description" content="24 M8A: Descriptive Statistics | Introduction to Data Science" />
-  <meta name="generator" content="bookdown 0.45 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
 
   <meta property="og:title" content="24 M8A: Descriptive Statistics | Introduction to Data Science" />
   <meta property="og:type" content="book" />
@@ -650,23 +650,24 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="39" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html"><i class="fa fa-check"></i><b>39</b> M13: Hypothesis Testing</a>
 <ul>
-<li class="chapter" data-level="39.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#introduction-22"><i class="fa fa-check"></i><b>39.1</b> Introduction</a>
-<ul>
 <li class="chapter" data-level="" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#nhst-packages"><i class="fa fa-check"></i>Needed packages</a></li>
-</ul></li>
-<li class="chapter" data-level="39.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-activity"><i class="fa fa-check"></i><b>39.2</b> Promotions activity</a>
+<li class="chapter" data-level="39.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#tying-CI-hypo"><i class="fa fa-check"></i><b>39.1</b> Tying confidence intervals to hypothesis testing</a>
 <ul>
-<li class="chapter" data-level="39.2.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#does-gender-affect-promotions-at-a-bank"><i class="fa fa-check"></i><b>39.2.1</b> Does gender affect promotions at a bank?</a></li>
+<li class="chapter" data-level="39.1.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#one-sample-hyp"><i class="fa fa-check"></i><b>39.1.1</b> The one-sample hypothesis test for the population mean</a></li>
+<li class="chapter" data-level="39.1.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#hypothesis-tests-and-confidence-intervals"><i class="fa fa-check"></i><b>39.1.2</b> Hypothesis tests and confidence intervals</a></li>
+</ul></li>
+<li class="chapter" data-level="39.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-activity"><i class="fa fa-check"></i><b>39.2</b> Music popularity activity</a>
+<ul>
+<li class="chapter" data-level="39.2.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#is-metal-music-more-popular-than-deep-house-music"><i class="fa fa-check"></i><b>39.2.1</b> Is metal music more popular than deep house music?</a></li>
 <li class="chapter" data-level="39.2.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#shuffling-once"><i class="fa fa-check"></i><b>39.2.2</b> Shuffling once</a></li>
-<li class="chapter" data-level="39.2.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#shuffling-16-times"><i class="fa fa-check"></i><b>39.2.3</b> Shuffling 16 times</a></li>
-<li class="chapter" data-level="39.2.4" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-what-did-we-just-do"><i class="fa fa-check"></i><b>39.2.4</b> What did we just do?</a></li>
+<li class="chapter" data-level="39.2.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-what-did-we-just-do"><i class="fa fa-check"></i><b>39.2.3</b> What did we just do?</a></li>
 </ul></li>
 <li class="chapter" data-level="39.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#understanding-ht"><i class="fa fa-check"></i><b>39.3</b> Understanding hypothesis tests</a></li>
 <li class="chapter" data-level="39.4" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-infer"><i class="fa fa-check"></i><b>39.4</b> Conducting hypothesis tests</a>
 <ul>
 <li class="chapter" data-level="39.4.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#infer-workflow-ht"><i class="fa fa-check"></i><b>39.4.1</b> <code>infer</code> package workflow</a></li>
 <li class="chapter" data-level="39.4.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#comparing-infer-workflows"><i class="fa fa-check"></i><b>39.4.2</b> Comparison with confidence intervals</a></li>
-<li class="chapter" data-level="39.4.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#only-one-test"><i class="fa fa-check"></i><b>39.4.3</b> “There is only one test”</a></li>
+<li class="chapter" data-level="39.4.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#only-one-test"><i class="fa fa-check"></i><b>39.4.3</b> There is only one test</a></li>
 </ul></li>
 <li class="chapter" data-level="39.5" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-interpretation"><i class="fa fa-check"></i><b>39.5</b> Interpreting hypothesis tests</a>
 <ul>
@@ -674,18 +675,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="39.5.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#types-of-errors"><i class="fa fa-check"></i><b>39.5.2</b> Types of errors</a></li>
 <li class="chapter" data-level="39.5.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#choosing-alpha"><i class="fa fa-check"></i><b>39.5.3</b> How do we choose alpha?</a></li>
 </ul></li>
-<li class="chapter" data-level="39.6" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-case-study"><i class="fa fa-check"></i><b>39.6</b> Case study: Are action or romance movies rated higher?</a>
+<li class="chapter" data-level="39.6" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#ht-case-study"><i class="fa fa-check"></i><b>39.6</b> Case study: are action or romance movies rated higher?</a>
 <ul>
 <li class="chapter" data-level="39.6.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#imdb-data"><i class="fa fa-check"></i><b>39.6.1</b> IMDb ratings data</a></li>
 <li class="chapter" data-level="39.6.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#sampling-scenario-1"><i class="fa fa-check"></i><b>39.6.2</b> Sampling scenario</a></li>
 <li class="chapter" data-level="39.6.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#conducting-the-hypothesis-test"><i class="fa fa-check"></i><b>39.6.3</b> Conducting the hypothesis test</a></li>
 </ul></li>
-<li class="chapter" data-level="39.7" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#nhst-conclusion"><i class="fa fa-check"></i><b>39.7</b> Conclusion</a></li>
+<li class="chapter" data-level="39.7" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#nhst-conclusion"><i class="fa fa-check"></i><b>39.7</b> Summary and Final Remarks</a>
+<ul>
+<li class="chapter" data-level="39.7.1" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#theory-hypo"><i class="fa fa-check"></i><b>39.7.1</b> Theory-based approach for two-sample hypothesis tests</a></li>
+<li class="chapter" data-level="39.7.2" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#when-inference-is-not-needed"><i class="fa fa-check"></i><b>39.7.2</b> When inference is not needed</a></li>
+<li class="chapter" data-level="39.7.3" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#problems-with-p-values"><i class="fa fa-check"></i><b>39.7.3</b> Problems with p-values</a></li>
+<li class="chapter" data-level="39.7.4" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#additional-resources-3"><i class="fa fa-check"></i><b>39.7.4</b> Additional resources</a></li>
+<li class="chapter" data-level="39.7.5" data-path="m13-hypothesis-testing.html"><a href="m13-hypothesis-testing.html#whats-to-come-2"><i class="fa fa-check"></i><b>39.7.5</b> What’s to come</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="40" data-path="m13c-explore-hypothesis-testing-with-your-own-data.html"><a href="m13c-explore-hypothesis-testing-with-your-own-data.html"><i class="fa fa-check"></i><b>40</b> M13C: Explore Hypothesis Testing With Your Own Data</a></li>
 <li class="chapter" data-level="41" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html"><i class="fa fa-check"></i><b>41</b> M14U: Small Stories vs. Big Data</a>
 <ul>
-<li class="chapter" data-level="41.1" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#introduction-23"><i class="fa fa-check"></i><b>41.1</b> Introduction</a></li>
+<li class="chapter" data-level="41.1" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#introduction-22"><i class="fa fa-check"></i><b>41.1</b> Introduction</a></li>
 <li class="chapter" data-level="41.2" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#the-origins-of-autoethnography"><i class="fa fa-check"></i><b>41.2</b> The Origins of Autoethnography</a></li>
 <li class="chapter" data-level="41.3" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#what-does-autoethnography-look-like"><i class="fa fa-check"></i><b>41.3</b> What does Autoethnography Look Like?</a></li>
 <li class="chapter" data-level="41.4" data-path="m14u-small-stories-vs.-big-data.html"><a href="m14u-small-stories-vs.-big-data.html#how-do-autoethnographers-measure-quality"><i class="fa fa-check"></i><b>41.4</b> How do Autoethnographers Measure Quality?</a></li>
@@ -694,38 +702,53 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="42" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html"><i class="fa fa-check"></i><b>42</b> M14A: Inferential Regression</a>
 <ul>
-<li class="chapter" data-level="42.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#introduction-24"><i class="fa fa-check"></i><b>42.1</b> Introduction</a>
-<ul>
 <li class="chapter" data-level="" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#inf-packages"><i class="fa fa-check"></i>Needed packages</a></li>
-</ul></li>
-<li class="chapter" data-level="42.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-refresher"><i class="fa fa-check"></i><b>42.2</b> Regression refresher</a>
+<li class="chapter" data-level="42.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#the-simple-linear-regression-model"><i class="fa fa-check"></i><b>42.1</b> The simple linear regression model</a>
 <ul>
-<li class="chapter" data-level="42.2.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#teaching-evaluations-analysis"><i class="fa fa-check"></i><b>42.2.1</b> Teaching evaluations analysis</a></li>
-<li class="chapter" data-level="42.2.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#sampling-scenario-2"><i class="fa fa-check"></i><b>42.2.2</b> Sampling scenario</a></li>
+<li class="chapter" data-level="42.1.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#un-member-states-revisited"><i class="fa fa-check"></i><b>42.1.1</b> UN member states revisited</a></li>
+<li class="chapter" data-level="42.1.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#simple-linear-model"><i class="fa fa-check"></i><b>42.1.2</b> The model</a></li>
+<li class="chapter" data-level="42.1.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#sample-regression-inference"><i class="fa fa-check"></i><b>42.1.3</b> Using a sample for inference</a></li>
+<li class="chapter" data-level="42.1.4" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#least-squares"><i class="fa fa-check"></i><b>42.1.4</b> The method of least squares</a></li>
+<li class="chapter" data-level="42.1.5" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#properties-least-squares"><i class="fa fa-check"></i><b>42.1.5</b> Properties of the least squares estimators</a></li>
+<li class="chapter" data-level="42.1.6" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#relating-basic-regression-to-other-methods"><i class="fa fa-check"></i><b>42.1.6</b> Relating basic regression to other methods</a></li>
 </ul></li>
-<li class="chapter" data-level="42.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-interp"><i class="fa fa-check"></i><b>42.3</b> Interpreting regression tables</a>
+<li class="chapter" data-level="42.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#theory-simple-regression"><i class="fa fa-check"></i><b>42.2</b> Theory-based inference for simple linear regression</a>
 <ul>
-<li class="chapter" data-level="42.3.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-se"><i class="fa fa-check"></i><b>42.3.1</b> Standard error</a></li>
-<li class="chapter" data-level="42.3.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-test-statistic"><i class="fa fa-check"></i><b>42.3.2</b> Test statistic</a></li>
-<li class="chapter" data-level="42.3.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#p-value"><i class="fa fa-check"></i><b>42.3.3</b> p-value</a></li>
-<li class="chapter" data-level="42.3.4" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#confidence-interval"><i class="fa fa-check"></i><b>42.3.4</b> Confidence interval</a></li>
-<li class="chapter" data-level="42.3.5" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-table-computation"><i class="fa fa-check"></i><b>42.3.5</b> How does R compute the table?</a></li>
+<li class="chapter" data-level="42.2.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#framework-simple-lm"><i class="fa fa-check"></i><b>42.2.1</b> Conceptual framework</a></li>
+<li class="chapter" data-level="42.2.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#se-simple-lm"><i class="fa fa-check"></i><b>42.2.2</b> Standard errors for least-squares estimators</a></li>
+<li class="chapter" data-level="42.2.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#conf-intervals-b0-b1"><i class="fa fa-check"></i><b>42.2.3</b> Confidence intervals for the least-squares estimators</a></li>
+<li class="chapter" data-level="42.2.4" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#hypo-test-simple-lm"><i class="fa fa-check"></i><b>42.2.4</b> Hypothesis test for population slope</a></li>
+<li class="chapter" data-level="42.2.5" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-table"><i class="fa fa-check"></i><b>42.2.5</b> The regression table in R</a></li>
+<li class="chapter" data-level="42.2.6" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#model-fit"><i class="fa fa-check"></i><b>42.2.6</b> Model fit and model assumptions</a></li>
 </ul></li>
-<li class="chapter" data-level="42.4" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#regression-conditions"><i class="fa fa-check"></i><b>42.4</b> Conditions for inference for regression</a>
+<li class="chapter" data-level="42.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#infer-regression"><i class="fa fa-check"></i><b>42.3</b> Simulation-based inference for simple linear regression</a>
 <ul>
-<li class="chapter" data-level="42.4.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#residuals-refresher"><i class="fa fa-check"></i><b>42.4.1</b> Residuals refresher</a></li>
-<li class="chapter" data-level="42.4.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#linearity-of-relationship"><i class="fa fa-check"></i><b>42.4.2</b> Linearity of relationship</a></li>
-<li class="chapter" data-level="42.4.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#independence-of-residuals"><i class="fa fa-check"></i><b>42.4.3</b> Independence of residuals</a></li>
-<li class="chapter" data-level="42.4.4" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#normality-of-residuals"><i class="fa fa-check"></i><b>42.4.4</b> Normality of residuals</a></li>
-<li class="chapter" data-level="42.4.5" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#equality-of-variance"><i class="fa fa-check"></i><b>42.4.5</b> Equality of variance</a></li>
-<li class="chapter" data-level="42.4.6" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#what-is-the-conclusion"><i class="fa fa-check"></i><b>42.4.6</b> What’s the conclusion?</a></li>
+<li class="chapter" data-level="42.3.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#infer-ci-slr"><i class="fa fa-check"></i><b>42.3.1</b> Confidence intervals for the population slope using <code>infer</code></a></li>
+<li class="chapter" data-level="42.3.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#infer-hypo-slr"><i class="fa fa-check"></i><b>42.3.2</b> Hypothesis test for population slope using <code>infer</code></a></li>
 </ul></li>
-<li class="chapter" data-level="42.5" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#infer-regression"><i class="fa fa-check"></i><b>42.5</b> Simulation-based inference for regression</a>
+<li class="chapter" data-level="42.4" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#the-multiple-linear-regression-model"><i class="fa fa-check"></i><b>42.4</b> The multiple linear regression model</a>
 <ul>
-<li class="chapter" data-level="42.5.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#confidence-interval-for-slope"><i class="fa fa-check"></i><b>42.5.1</b> Confidence interval for slope</a></li>
-<li class="chapter" data-level="42.5.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#hypothesis-test-for-slope"><i class="fa fa-check"></i><b>42.5.2</b> Hypothesis test for slope</a></li>
+<li class="chapter" data-level="42.4.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#multiple-linear-model"><i class="fa fa-check"></i><b>42.4.1</b> The model</a></li>
+<li class="chapter" data-level="42.4.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#example-coffee-quality-rating-scores"><i class="fa fa-check"></i><b>42.4.2</b> Example: coffee quality rating scores</a></li>
+<li class="chapter" data-level="42.4.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#least-squares-multiple"><i class="fa fa-check"></i><b>42.4.3</b> Least squares for multiple regression</a></li>
 </ul></li>
-<li class="chapter" data-level="42.6" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#inference-conclusion"><i class="fa fa-check"></i><b>42.6</b> Conclusion</a></li>
+<li class="chapter" data-level="42.5" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#theory-multiple-regression"><i class="fa fa-check"></i><b>42.5</b> Theory-based inference for multiple linear regression</a>
+<ul>
+<li class="chapter" data-level="42.5.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#model-dependency"><i class="fa fa-check"></i><b>42.5.1</b> Model dependency of estimators</a></li>
+<li class="chapter" data-level="42.5.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#confidence-intervals-1"><i class="fa fa-check"></i><b>42.5.2</b> Confidence intervals</a></li>
+<li class="chapter" data-level="42.5.3" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#hypo-test-mult-lm"><i class="fa fa-check"></i><b>42.5.3</b> Hypothesis test for a single coefficient</a></li>
+<li class="chapter" data-level="42.5.4" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#hypo-test-mult-lm-1"><i class="fa fa-check"></i><b>42.5.4</b> Hypothesis test for model comparison</a></li>
+<li class="chapter" data-level="42.5.5" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#model-fit-mult"><i class="fa fa-check"></i><b>42.5.5</b> Model fit and diagnostics</a></li>
+</ul></li>
+<li class="chapter" data-level="42.6" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#simulation-based-inference-for-multiple-linear-regression"><i class="fa fa-check"></i><b>42.6</b> Simulation-based Inference for multiple linear regression</a>
+<ul>
+<li class="chapter" data-level="42.6.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#confidence-intervals-for-the-partial-slopes-using-infer"><i class="fa fa-check"></i><b>42.6.1</b> Confidence intervals for the partial slopes using <code>infer</code></a></li>
+<li class="chapter" data-level="42.6.2" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#hypothesis-testing-for-the-partial-slopes-using-infer"><i class="fa fa-check"></i><b>42.6.2</b> Hypothesis testing for the partial slopes using <code>infer</code></a></li>
+</ul></li>
+<li class="chapter" data-level="42.7" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#inference-conclusion"><i class="fa fa-check"></i><b>42.7</b> Conclusion</a>
+<ul>
+<li class="chapter" data-level="42.7.1" data-path="m14a-inferential-regression.html"><a href="m14a-inferential-regression.html#summary-of-statistical-inference"><i class="fa fa-check"></i><b>42.7.1</b> Summary of statistical inference</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="43" data-path="m14c-perform-an-inferential-regression-with-your-own-data.html"><a href="m14c-perform-an-inferential-regression-with-your-own-data.html"><i class="fa fa-check"></i><b>43</b> M14C: Perform an Inferential Regression With Your Own Data</a></li>
 <li class="chapter" data-level="44" data-path="m15u-reflect-on-your-understanding-of-data-science.html"><a href="m15u-reflect-on-your-understanding-of-data-science.html"><i class="fa fa-check"></i><b>44</b> M15U: Reflect on Your Understanding of Data Science</a></li>
@@ -763,8 +786,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="wrangling-packages-2" class="section level3 unnumbered hasAnchor">
 <h3>Needed packages<a href="m8a-descriptive-statistics.html#wrangling-packages-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Let’s load all the packages needed for our wrangling practice (this assumes you’ve already installed them). If needed, read Section <a href="m2a-getting-started-with-data-in-r.html#packages">6.3</a> for information on how to install and load R packages.</p>
-<div class="sourceCode" id="cb140"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb140-1"><a href="m8a-descriptive-statistics.html#cb140-1" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb140-2"><a href="m8a-descriptive-statistics.html#cb140-2" tabindex="-1"></a><span class="fu">library</span>(nycflights23)</span></code></pre></div>
+<div class="sourceCode" id="cb137"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb137-1"><a href="m8a-descriptive-statistics.html#cb137-1" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb137-2"><a href="m8a-descriptive-statistics.html#cb137-2" tabindex="-1"></a><span class="fu">library</span>(nycflights23)</span></code></pre></div>
 </div>
 </div>
 <div id="summarize" class="section level2 hasAnchor" number="24.2">
@@ -836,9 +859,9 @@ Figure 24.2: Diagram of summarize() rows.
 </p>
 </div>
 <p>We’ll save the results in a new data frame called <code>summary_windspeed</code> that will have two columns/variables: the <code>mean</code> and the <code>std_dev</code>:</p>
-<div class="sourceCode" id="cb141"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb141-1"><a href="m8a-descriptive-statistics.html#cb141-1" tabindex="-1"></a>summary_windspeed <span class="ot">&lt;-</span> weather <span class="sc">|&gt;</span> </span>
-<span id="cb141-2"><a href="m8a-descriptive-statistics.html#cb141-2" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(wind_speed), <span class="at">std_dev =</span> <span class="fu">sd</span>(wind_speed))</span>
-<span id="cb141-3"><a href="m8a-descriptive-statistics.html#cb141-3" tabindex="-1"></a>summary_windspeed</span></code></pre></div>
+<div class="sourceCode" id="cb138"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb138-1"><a href="m8a-descriptive-statistics.html#cb138-1" tabindex="-1"></a>summary_windspeed <span class="ot">&lt;-</span> weather <span class="sc">|&gt;</span> </span>
+<span id="cb138-2"><a href="m8a-descriptive-statistics.html#cb138-2" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(wind_speed), <span class="at">std_dev =</span> <span class="fu">sd</span>(wind_speed))</span>
+<span id="cb138-3"><a href="m8a-descriptive-statistics.html#cb138-3" tabindex="-1"></a>summary_windspeed</span></code></pre></div>
 <pre><code># A tibble: 1 × 2
    mean std_dev
   &lt;dbl&gt;   &lt;dbl&gt;
@@ -846,14 +869,14 @@ Figure 24.2: Diagram of summarize() rows.
 <p>Why are the values returned <code>NA</code>? <code>NA</code> is how R encodes <em>missing values</em> where <code>NA</code> indicates “not available” or “not applicable.” If a value for a particular row and a particular column does not exist, <code>NA</code> is stored instead. Values can be missing for many reasons. Perhaps the data was collected but someone forgot to enter it. Perhaps the data was not collected at all because it was too difficult to do so. Perhaps there was an erroneous value that someone entered that has been corrected to read as missing. You’ll often encounter issues with missing values when working with real data.</p>
 <p>Going back to our <code>summary_windspeed</code> output, by default any time you try to calculate a summary statistic of a variable that has one or more <code>NA</code> missing values in R, <code>NA</code> is returned. To work around this fact, you can set the <code>na.rm</code> argument to <code>TRUE</code>, where <code>rm</code> is short for “remove”; this will ignore any <code>NA</code> missing values and only return the summary value for all non-missing values.</p>
 <p>The code that follows computes the mean and standard deviation of all non-missing values of <code>temp</code>:</p>
-<div class="sourceCode" id="cb143"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb143-1"><a href="m8a-descriptive-statistics.html#cb143-1" tabindex="-1"></a>summary_windspeed <span class="ot">&lt;-</span> weather <span class="sc">|&gt;</span> </span>
-<span id="cb143-2"><a href="m8a-descriptive-statistics.html#cb143-2" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(wind_speed, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), </span>
-<span id="cb143-3"><a href="m8a-descriptive-statistics.html#cb143-3" tabindex="-1"></a>            <span class="at">std_dev =</span> <span class="fu">sd</span>(wind_speed, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb143-4"><a href="m8a-descriptive-statistics.html#cb143-4" tabindex="-1"></a>summary_windspeed</span></code></pre></div>
+<div class="sourceCode" id="cb140"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb140-1"><a href="m8a-descriptive-statistics.html#cb140-1" tabindex="-1"></a>summary_windspeed <span class="ot">&lt;-</span> weather <span class="sc">|&gt;</span> </span>
+<span id="cb140-2"><a href="m8a-descriptive-statistics.html#cb140-2" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(wind_speed, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), </span>
+<span id="cb140-3"><a href="m8a-descriptive-statistics.html#cb140-3" tabindex="-1"></a>            <span class="at">std_dev =</span> <span class="fu">sd</span>(wind_speed, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb140-4"><a href="m8a-descriptive-statistics.html#cb140-4" tabindex="-1"></a>summary_windspeed</span></code></pre></div>
 <pre><code># A tibble: 1 × 2
-   mean std_dev
-  &lt;dbl&gt;   &lt;dbl&gt;
-1  9.43    5.27</code></pre>
+     mean std_dev
+    &lt;dbl&gt;   &lt;dbl&gt;
+1 9.43405 5.26836</code></pre>
 <p>Notice how the <code>na.rm = TRUE</code> are used as arguments to the <code>mean()</code> and <code>sd()</code> summary functions individually, and not to the <code>summarize()</code> function.</p>
 <p>However, one needs to be cautious whenever ignoring missing values as we’ve just done. There are consequences to blindly sweeping rows with missing values “under the rug.” This is why the <code>na.rm</code> argument to any summary statistic function in R is set to <code>FALSE</code> by default. In other words, R does not ignore rows with missing values by default. R is alerting you to the presence of missing data and you should be mindful of this missingness and any potential causes of this missingness throughout your analysis.</p>
 <p>What are other summary functions we can use inside the <code>summarize()</code> verb to compute summary statistics? As seen in the diagram in Figure <a href="m8a-descriptive-statistics.html#fig:summary-function">24.1</a>, you can use any function in R that takes many values and returns just one. Here are just a few:</p>
@@ -894,30 +917,30 @@ Figure 24.3: Diagram of group_by() and summarize().
 </p>
 </div>
 <p>Let’s imagine that instead of a single mean wind speed for the whole year, we would like 12 mean temperatures, one for each of the 12 months separately. In other words, we would like to compute the mean wind speed split by month as shown via generic diagram in Figure <a href="m8a-descriptive-statistics.html#fig:groupsummarize">24.3</a>. We can do this by “grouping” temperature observations by the values of another variable, in this case by the 12 values of the variable <code>month</code>:</p>
-<div class="sourceCode" id="cb145"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb145-1"><a href="m8a-descriptive-statistics.html#cb145-1" tabindex="-1"></a>summary_monthly_windspeed <span class="ot">&lt;-</span> weather <span class="sc">|&gt;</span> </span>
-<span id="cb145-2"><a href="m8a-descriptive-statistics.html#cb145-2" tabindex="-1"></a>  <span class="fu">group_by</span>(month) <span class="sc">|&gt;</span> </span>
-<span id="cb145-3"><a href="m8a-descriptive-statistics.html#cb145-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(wind_speed, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), </span>
-<span id="cb145-4"><a href="m8a-descriptive-statistics.html#cb145-4" tabindex="-1"></a>            <span class="at">std_dev =</span> <span class="fu">sd</span>(wind_speed, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
-<span id="cb145-5"><a href="m8a-descriptive-statistics.html#cb145-5" tabindex="-1"></a>summary_monthly_windspeed</span></code></pre></div>
+<div class="sourceCode" id="cb142"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb142-1"><a href="m8a-descriptive-statistics.html#cb142-1" tabindex="-1"></a>summary_monthly_windspeed <span class="ot">&lt;-</span> weather <span class="sc">|&gt;</span> </span>
+<span id="cb142-2"><a href="m8a-descriptive-statistics.html#cb142-2" tabindex="-1"></a>  <span class="fu">group_by</span>(month) <span class="sc">|&gt;</span> </span>
+<span id="cb142-3"><a href="m8a-descriptive-statistics.html#cb142-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(wind_speed, <span class="at">na.rm =</span> <span class="cn">TRUE</span>), </span>
+<span id="cb142-4"><a href="m8a-descriptive-statistics.html#cb142-4" tabindex="-1"></a>            <span class="at">std_dev =</span> <span class="fu">sd</span>(wind_speed, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb142-5"><a href="m8a-descriptive-statistics.html#cb142-5" tabindex="-1"></a>summary_monthly_windspeed</span></code></pre></div>
 <pre><code># A tibble: 12 × 3
-   month  mean std_dev
-   &lt;int&gt; &lt;dbl&gt;   &lt;dbl&gt;
- 1     1 10.3     6.01
- 2     2 10.9     6.60
- 3     3 12.4     6.36
- 4     4 10.0     5.02
- 5     5  8.88    4.45
- 6     6  8.52    4.42
- 7     7  7.96    4.36
- 8     8  8.83    4.34
- 9     9  8.92    4.66
-10    10  8.21    4.71
-11    11  9.48    4.81
-12    12  8.77    5.03</code></pre>
+   month     mean std_dev
+   &lt;int&gt;    &lt;dbl&gt;   &lt;dbl&gt;
+ 1     1 10.3198  6.00550
+ 2     2 10.8724  6.59719
+ 3     3 12.3510  6.35710
+ 4     4 10.0135  5.01567
+ 5     5  8.88232 4.44858
+ 6     6  8.52267 4.42009
+ 7     7  7.95770 4.35501
+ 8     8  8.82896 4.34232
+ 9     9  8.92012 4.65816
+10    10  8.21426 4.71273
+11    11  9.48388 4.81262
+12    12  8.76809 5.03388</code></pre>
 <p>This code is identical to the previous code that created <code>summary_windspeed</code>, but with an extra <code>group_by(month)</code> added before the <code>summarize()</code>. Grouping the <code>weather</code> dataset by <code>month</code> and then applying the <code>summarize()</code> functions yields a data frame that displays the mean and standard deviation wind speed split by the 12 months of the year.</p>
 <p>It is important to note that the <code>group_by()</code> function doesn’t change data frames by itself. Rather it changes the <em>meta-data</em>, or data about the data, specifically the grouping structure. Only after applying the <code>summarize()</code> function does the data frame change.</p>
 <p>As another example, consider the <code>diamonds</code> data frame included in the <code>ggplot2</code> package:</p>
-<div class="sourceCode" id="cb147"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb147-1"><a href="m8a-descriptive-statistics.html#cb147-1" tabindex="-1"></a>diamonds</span></code></pre></div>
+<div class="sourceCode" id="cb144"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb144-1"><a href="m8a-descriptive-statistics.html#cb144-1" tabindex="-1"></a>diamonds</span></code></pre></div>
 <pre><code># A tibble: 53,940 × 10
    carat cut       color clarity depth table price     x     y     z
    &lt;dbl&gt; &lt;ord&gt;     &lt;ord&gt; &lt;ord&gt;   &lt;dbl&gt; &lt;dbl&gt; &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
@@ -933,8 +956,8 @@ Figure 24.3: Diagram of group_by() and summarize().
 10  0.23 Very Good H     VS1      59.4    61   338  4     4.05  2.39
 # ℹ 53,930 more rows</code></pre>
 <p>Observe that the first line of the output reads <code># A tibble: 53,940 x 10</code>. This is an example of meta-data, in this case the number of observations/rows and variables/columns in <code>diamonds</code>. The actual data itself are the subsequent table of values. Now let’s pipe the <code>diamonds</code> data frame into <code>group_by(cut)</code>:</p>
-<div class="sourceCode" id="cb149"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb149-1"><a href="m8a-descriptive-statistics.html#cb149-1" tabindex="-1"></a>diamonds <span class="sc">|&gt;</span> </span>
-<span id="cb149-2"><a href="m8a-descriptive-statistics.html#cb149-2" tabindex="-1"></a>  <span class="fu">group_by</span>(cut)</span></code></pre></div>
+<div class="sourceCode" id="cb146"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb146-1"><a href="m8a-descriptive-statistics.html#cb146-1" tabindex="-1"></a>diamonds <span class="sc">|&gt;</span> </span>
+<span id="cb146-2"><a href="m8a-descriptive-statistics.html#cb146-2" tabindex="-1"></a>  <span class="fu">group_by</span>(cut)</span></code></pre></div>
 <pre><code># A tibble: 53,940 × 10
 # Groups:   cut [5]
    carat cut       color clarity depth table price     x     y     z
@@ -951,21 +974,21 @@ Figure 24.3: Diagram of group_by() and summarize().
 10  0.23 Very Good H     VS1      59.4    61   338  4     4.05  2.39
 # ℹ 53,930 more rows</code></pre>
 <p>Observe that now there is additional meta-data: <code># Groups: cut [5]</code> indicating that the grouping structure meta-data has been set based on the 5 possible levels of the categorical variable <code>cut</code>: <code>"Fair"</code>, <code>"Good"</code>, <code>"Very Good"</code>, <code>"Premium"</code>, and <code>"Ideal"</code>. On the other hand, observe that the data has not changed: it is still a table of 53,940 <span class="math inline">\(\times\)</span> 10 values. Only by combining a <code>group_by()</code> with another data-wrangling operation, in this case <code>summarize()</code>, will the data actually be transformed.</p>
-<div class="sourceCode" id="cb151"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb151-1"><a href="m8a-descriptive-statistics.html#cb151-1" tabindex="-1"></a>diamonds <span class="sc">|&gt;</span> </span>
-<span id="cb151-2"><a href="m8a-descriptive-statistics.html#cb151-2" tabindex="-1"></a>  <span class="fu">group_by</span>(cut) <span class="sc">|&gt;</span> </span>
-<span id="cb151-3"><a href="m8a-descriptive-statistics.html#cb151-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">avg_price =</span> <span class="fu">mean</span>(price))</span></code></pre></div>
+<div class="sourceCode" id="cb148"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb148-1"><a href="m8a-descriptive-statistics.html#cb148-1" tabindex="-1"></a>diamonds <span class="sc">|&gt;</span> </span>
+<span id="cb148-2"><a href="m8a-descriptive-statistics.html#cb148-2" tabindex="-1"></a>  <span class="fu">group_by</span>(cut) <span class="sc">|&gt;</span> </span>
+<span id="cb148-3"><a href="m8a-descriptive-statistics.html#cb148-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">avg_price =</span> <span class="fu">mean</span>(price))</span></code></pre></div>
 <pre><code># A tibble: 5 × 2
   cut       avg_price
   &lt;ord&gt;         &lt;dbl&gt;
-1 Fair          4359.
-2 Good          3929.
-3 Very Good     3982.
-4 Premium       4584.
-5 Ideal         3458.</code></pre>
+1 Fair        4358.76
+2 Good        3928.86
+3 Very Good   3981.76
+4 Premium     4584.26
+5 Ideal       3457.54</code></pre>
 <p>If you would like to remove this grouping structure meta-data, we can pipe the resulting data frame into the <code>ungroup()</code> function:</p>
-<div class="sourceCode" id="cb153"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb153-1"><a href="m8a-descriptive-statistics.html#cb153-1" tabindex="-1"></a>diamonds <span class="sc">|&gt;</span> </span>
-<span id="cb153-2"><a href="m8a-descriptive-statistics.html#cb153-2" tabindex="-1"></a>  <span class="fu">group_by</span>(cut) <span class="sc">|&gt;</span> </span>
-<span id="cb153-3"><a href="m8a-descriptive-statistics.html#cb153-3" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb150"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb150-1"><a href="m8a-descriptive-statistics.html#cb150-1" tabindex="-1"></a>diamonds <span class="sc">|&gt;</span> </span>
+<span id="cb150-2"><a href="m8a-descriptive-statistics.html#cb150-2" tabindex="-1"></a>  <span class="fu">group_by</span>(cut) <span class="sc">|&gt;</span> </span>
+<span id="cb150-3"><a href="m8a-descriptive-statistics.html#cb150-3" tabindex="-1"></a>  <span class="fu">ungroup</span>()</span></code></pre></div>
 <pre><code># A tibble: 53,940 × 10
    carat cut       color clarity depth table price     x     y     z
    &lt;dbl&gt; &lt;ord&gt;     &lt;ord&gt; &lt;ord&gt;   &lt;dbl&gt; &lt;dbl&gt; &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
@@ -982,10 +1005,10 @@ Figure 24.3: Diagram of group_by() and summarize().
 # ℹ 53,930 more rows</code></pre>
 <p>Observe how the <code># Groups: cut [5]</code> meta-data is no longer present.</p>
 <p>Let’s now revisit the <code>n()</code> counting summary function we briefly introduced previously. Recall that the <code>n()</code> function counts rows. This is opposed to the <code>sum()</code> summary function that returns the sum of a numerical variable. For example, suppose we’d like to count how many flights departed each of the three airports in New York City:</p>
-<div class="sourceCode" id="cb155"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb155-1"><a href="m8a-descriptive-statistics.html#cb155-1" tabindex="-1"></a>by_origin <span class="ot">&lt;-</span> flights <span class="sc">|&gt;</span> </span>
-<span id="cb155-2"><a href="m8a-descriptive-statistics.html#cb155-2" tabindex="-1"></a>  <span class="fu">group_by</span>(origin) <span class="sc">|&gt;</span> </span>
-<span id="cb155-3"><a href="m8a-descriptive-statistics.html#cb155-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>())</span>
-<span id="cb155-4"><a href="m8a-descriptive-statistics.html#cb155-4" tabindex="-1"></a>by_origin</span></code></pre></div>
+<div class="sourceCode" id="cb152"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb152-1"><a href="m8a-descriptive-statistics.html#cb152-1" tabindex="-1"></a>by_origin <span class="ot">&lt;-</span> flights <span class="sc">|&gt;</span> </span>
+<span id="cb152-2"><a href="m8a-descriptive-statistics.html#cb152-2" tabindex="-1"></a>  <span class="fu">group_by</span>(origin) <span class="sc">|&gt;</span> </span>
+<span id="cb152-3"><a href="m8a-descriptive-statistics.html#cb152-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>())</span>
+<span id="cb152-4"><a href="m8a-descriptive-statistics.html#cb152-4" tabindex="-1"></a>by_origin</span></code></pre></div>
 <pre><code># A tibble: 3 × 2
   origin  count
   &lt;chr&gt;   &lt;int&gt;
@@ -996,9 +1019,9 @@ Figure 24.3: Diagram of group_by() and summarize().
 <div id="grouping-by-more-than-one-variable" class="section level4 unnumbered hasAnchor">
 <h4>Grouping by more than one variable<a href="m8a-descriptive-statistics.html#grouping-by-more-than-one-variable" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>You are not limited to grouping by one variable. Say you want to know the number of flights leaving each of the three New York City airports <em>for each month</em>. We can also group by a second variable <code>month</code> using <code>group_by(origin, month)</code>:</p>
-<div class="sourceCode" id="cb157"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb157-1"><a href="m8a-descriptive-statistics.html#cb157-1" tabindex="-1"></a>by_origin_monthly <span class="ot">&lt;-</span> flights <span class="sc">|&gt;</span> </span>
-<span id="cb157-2"><a href="m8a-descriptive-statistics.html#cb157-2" tabindex="-1"></a>  <span class="fu">group_by</span>(origin, month) <span class="sc">|&gt;</span> </span>
-<span id="cb157-3"><a href="m8a-descriptive-statistics.html#cb157-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>())</span></code></pre></div>
+<div class="sourceCode" id="cb154"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb154-1"><a href="m8a-descriptive-statistics.html#cb154-1" tabindex="-1"></a>by_origin_monthly <span class="ot">&lt;-</span> flights <span class="sc">|&gt;</span> </span>
+<span id="cb154-2"><a href="m8a-descriptive-statistics.html#cb154-2" tabindex="-1"></a>  <span class="fu">group_by</span>(origin, month) <span class="sc">|&gt;</span> </span>
+<span id="cb154-3"><a href="m8a-descriptive-statistics.html#cb154-3" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>())</span></code></pre></div>
 <p>Note that an additional message appears here specifying the grouping done. The <code>.groups</code> argument to <code>summarize()</code> has four options: <code>drop_last</code>, <code>drop</code>, <code>keep</code>, and <code>rowwise</code>:</p>
 <ul>
 <li><code>drop_last</code> drops the last grouping variable,</li>
@@ -1007,7 +1030,7 @@ Figure 24.3: Diagram of group_by() and summarize().
 <li><code>rowwise</code> turns each row into a group.</li>
 </ul>
 <p>In most circumstances, the default is <code>drop_last</code> which drops the last grouping variable. The message is informing us that the default behavior is to drop the last grouping variable, which in this case is <code>month</code>.</p>
-<div class="sourceCode" id="cb158"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb158-1"><a href="m8a-descriptive-statistics.html#cb158-1" tabindex="-1"></a>by_origin_monthly</span></code></pre></div>
+<div class="sourceCode" id="cb155"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb155-1"><a href="m8a-descriptive-statistics.html#cb155-1" tabindex="-1"></a>by_origin_monthly</span></code></pre></div>
 <pre><code># A tibble: 36 × 3
 # Groups:   origin [3]
    origin month count
@@ -1024,11 +1047,11 @@ Figure 24.3: Diagram of group_by() and summarize().
 10 EWR       10 11805
 # ℹ 26 more rows</code></pre>
 <p>Observe that there are 36 rows to <code>by_origin_monthly</code> because there are 12 months for 3 airports (<code>EWR</code>, <code>JFK</code>, and <code>LGA</code>). Why do we <code>group_by(origin, month)</code> and not <code>group_by(origin)</code> and then <code>group_by(month)</code>? Let’s investigate:</p>
-<div class="sourceCode" id="cb160"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb160-1"><a href="m8a-descriptive-statistics.html#cb160-1" tabindex="-1"></a>by_origin_monthly_incorrect <span class="ot">&lt;-</span> flights <span class="sc">|&gt;</span> </span>
-<span id="cb160-2"><a href="m8a-descriptive-statistics.html#cb160-2" tabindex="-1"></a>  <span class="fu">group_by</span>(origin) <span class="sc">|&gt;</span> </span>
-<span id="cb160-3"><a href="m8a-descriptive-statistics.html#cb160-3" tabindex="-1"></a>  <span class="fu">group_by</span>(month) <span class="sc">|&gt;</span> </span>
-<span id="cb160-4"><a href="m8a-descriptive-statistics.html#cb160-4" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>())</span>
-<span id="cb160-5"><a href="m8a-descriptive-statistics.html#cb160-5" tabindex="-1"></a>by_origin_monthly_incorrect</span></code></pre></div>
+<div class="sourceCode" id="cb157"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb157-1"><a href="m8a-descriptive-statistics.html#cb157-1" tabindex="-1"></a>by_origin_monthly_incorrect <span class="ot">&lt;-</span> flights <span class="sc">|&gt;</span> </span>
+<span id="cb157-2"><a href="m8a-descriptive-statistics.html#cb157-2" tabindex="-1"></a>  <span class="fu">group_by</span>(origin) <span class="sc">|&gt;</span> </span>
+<span id="cb157-3"><a href="m8a-descriptive-statistics.html#cb157-3" tabindex="-1"></a>  <span class="fu">group_by</span>(month) <span class="sc">|&gt;</span> </span>
+<span id="cb157-4"><a href="m8a-descriptive-statistics.html#cb157-4" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>())</span>
+<span id="cb157-5"><a href="m8a-descriptive-statistics.html#cb157-5" tabindex="-1"></a>by_origin_monthly_incorrect</span></code></pre></div>
 <pre><code># A tibble: 12 × 2
    month count
    &lt;int&gt; &lt;int&gt;
