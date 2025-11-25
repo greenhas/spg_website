@@ -1,0 +1,13 @@
+---
+types: ["macro"]
+date: 2025-11-25T08:48:54-05:00
+title: "organizing feeds by genre, not content"
+tags: ["RSS","Reeder","Mastodon","Bluesky","Cory Doctorow"]
+---
+Over the weekend, I decided to plunge back into following a bunch of social accounts on Mastodon and Bluesky that I had previously removed from Reeder to avoid information overwhelm. Sensitive to the possibility that information overwhelm would come back with all of these new follows, I tried using Reeder's filter feature to do something I'd never thought about before: organizing feeds by genre instead of by content.
+
+That is, I've previously used folders in Reeder (and plenty of other RSS apps) to organize feeds into the different subjects that I'm interested in and then catching up on feeds one subject at a time. However, this time, I used Reeder's filters to organize by feed type—or genre. That is, I have all true RSS feeds accessible through one filter and all social feeds accessible through another. The idea here is that I'm more interested in at least reviewing all of the true RSS feeds (blogs, news sites, etc.), but with social, I'll be more willing to hit Reeder's "go to top" button and skip over a bunch of posts that I missed overnight or during a busy day.
+
+I've also leaned into the keyword filtering that Reeder offers to intentionally cut out particular kinds of posts that I don't care for. Cory Doctorow has a lot of great things to say, but I'm not interested in his long threads that reproduce posts that I get through his main site RSS anyway. Fortunately, he formats those threads in such a way that I can filter them out using the right keywords. Likewise, I'm not entirely uninterested in the political perspectives of the people I follow on social, but I'd much rather consume long-form political content through RSS than quick takes on social media. Similarly, if I follow journalists from my favorite news outlets, I don't necessarily want to see their posts where they link to the websites that I'm already subscribing through via RSS. Those get added to the keyword filter as well.
+
+We'll see how this all works out. The keyword filtering is clearly not perfect (boosts or reposts seem to sneak through), and segregating feeds by genre assumes that I actually will be willing to skip over social content instead of letting my completionist instincts take over and lead to another bout of information overwhelm. However, I'm tentatively optimistic!
