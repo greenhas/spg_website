@@ -1,7 +1,7 @@
 baseURL = 'https://spencergreenhalgh.com/'
 # languageCode = 'en-us'
 title = 'Spencer Greenhalgh'
-theme = "ananke_custom_2023"
+theme = "ananke_custom_2025"
 # themesDir = "../.."
 # resourceDir = "../resources"
 
@@ -11,6 +11,9 @@ DefaultContentLanguage = "en"
 googleAnalytics = ""
 enableRobotsTXT = false
 capitalizeListTitles = false
+
+[pagination]
+    pagerSize = 25
 
 [languages]
     [languages.en]
@@ -122,33 +125,87 @@ capitalizeListTitles = false
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = ""
   recent_posts_number = 2
+  
+  [params.ananke.social]
+  
+    [ananke.social.networks.scholar]
+                slug = "scholar"
+                label = "Google Scholar"
+                icon = "graduation-cap"
+                profile = false
+                share = false
+                
+     [ananke.social.networks.newsletter]
+                slug = "newsletter"
+                label = "newsletter"
+                icon = "newspaper"
+                profile = false
+                share = false
+                
+     [ananke.social.networks.microblog]
+                slug = "microblog"
+                label = "Micro.blog"
+                icon = "microblog"
+                profile = false
+                share = false
 
-[[params.ananke_socials]]
-name = "email"
-url = "mailto:spencer.greenhalgh@posteo.net"
-[[params.ananke_socials]]
-name = "rss_square"
-url = "https://spencergreenhalgh.com/index.xml"
-[[params.ananke_socials]]
-name = "newsletter"
-url = "https://buttondown.com/spgreenhalgh"
-[[params.ananke_socials]]
-name = "scholar"
-url = "https://scholar.google.com/citations?user=o3JQjpcAAAAJ&hl=en&oi=ao"
-[[params.ananke_socials]]
-name = "mastodon"
-url = "https://mastodon.spencergreenhalgh.com/public/local"
-[[params.ananke_socials]]
-name = "bluesky"
-url = "https://bsky.app/profile/spencergreenhalgh.com"
-[[params.ananke_socials]]
-name = "microblog"
-url = "https://micro.blog/spgreenhalgh"
+  
+    [params.ananke.social.follow]
+        new_window_icon = true
+        networks = [
+        "email",
+        "newsletter",
+        "rss",
+        "scholar",
+        "mastodon",
+        "bluesky",
+        "microblog"
+        ]
+        
+        [params.ananke.social.bluesky]
+            profilelink = "https://bsky.app/profile/spencergreenhalgh.com"
+            
+        [params.ananke.social.email]
+            profilelink = "mailto:spencer.greenhalgh@posteo.net"
 
+        [params.ananke.social.rss]
+            profilelink = "https://spencergreenhalgh.com/index.xml"
+            
+        [params.ananke.social.mastodon]
+            profilelink = "https://mastodon.spencergreenhalgh.com/public/local"
+            
+        [params.ananke.social.scholar]
+            profilelink = "https://scholar.google.com/citations?user=o3JQjpcAAAAJ&hl=en&oi=ao"
+            
+                            
+        [params.ananke.social.newsletter]
+            profilelink = "https://scholar.google.com/citations?user=o3JQjpcAAAAJ&hl=en&oi=ao"
+            
+           
+            
+    
 
-
-
-
-
+     
+    [[params.ananke_socials]]
+    name = "email"
+    url = "mailto:spencer.greenhalgh@posteo.net"
+    [[params.ananke_socials]]
+    name = "rss_square"
+    url = "https://spencergreenhalgh.com/index.xml"
+    [[params.ananke_socials]]
+    name = "newsletter"
+    url = "https://buttondown.com/spgreenhalgh"
+    [[params.ananke_socials]]
+    name = "scholar"
+    url = "https://scholar.google.com/citations?user=o3JQjpcAAAAJ&hl=en&oi=ao"
+    [[params.ananke_socials]]
+    name = "mastodon"
+    url = "https://mastodon.spencergreenhalgh.com/public/local"
+    [[params.ananke_socials]]
+    name = "bluesky"
+    url = "https://bsky.app/profile/spencergreenhalgh.com"
+    [[params.ananke_socials]]
+    name = "microblog"
+    url = "https://micro.blog/spgreenhalgh"
 
 
