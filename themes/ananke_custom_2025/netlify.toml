@@ -2,6 +2,7 @@
 publish = "./exampleSite/public/"
 command = "npm run deploy"
 [build.environment]
+DART_SASS_VERSION = "1.93.2"
 HUGO_VERSION = "0.152.0"
 HUGO_ENV = "production"
 GO_VERSION = "1.23"
