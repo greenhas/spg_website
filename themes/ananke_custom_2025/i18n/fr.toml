@@ -35,42 +35,15 @@ other = "Une adresse e-mail est requise."
 other = "Envoyer"
 
 [taxonomyPageList]
-other = "Se trouvent ci-dessous les pages associées au terme taxonomique “{{ .Title }}”"
+other = "Ci-dessous se trouvent les pages utilisant le terme taxonomique “{{ .Title }}”"
 
 [readingTime]
-one = "une minute de lecture"
+one = "Une minute de lecture"
 other = "{{ .Count }} minutes de lecture"
 
 [wordCount]
-one = "un mot"
+one = "Un mot"
 other = "{{ .Count }} mots"
 
 [pageTitle]
 other = "{{ .Name }} page"
-
-[hypothesisComments]
-other = "<h3>commentaires:</h3><p>Cliquez sur le bouton <code><</code> (en haut et à droite) pour lire et faire des commentaires avec <em><a href='https://web.hypothes.is/'>Hypothesis</a></em>.</p>"
-
-[otherPosts]
-other = "d'autres posts :"
-
-[creatorTaxonomy]
-other = "auteur.ice.s :"
-
-[mediumTaxonomy]
-other = "genre.s d'œuvre : "
-
-[dateReview]
-other = "date de l'avis :"
-
-[ratingTaxonomy]
-other = "mon avis : "
-
-[dateLink]
-other = "date de mon lien:"
-
-[storyLink]
-other = "lien vers l'article"
-
-[storyFrom]
-other = "qui est originaire de"

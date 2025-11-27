@@ -1,37 +1,14 @@
-{{ $featured_image := partial "func/GetFeaturedImage.html" . }}
-<div class="relative w-100 mb4 bg-white nested-copy-line-height">
-  <div class="bg-white pa4 gray overflow-hidden">
-    <!--{{with .CurrentSection.Title }}<span class="f6 db">{{ . }}</span>{{end}}-->
-    
-    
-    <h1 class="f5 near-black">
+<div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    {{with .CurrentSection.Title }}<span class="f6 db">{{ . }}</span>{{end}}
+    <h1 class="f3 near-black">
       <a href="{{ .RelPermalink }}" class="link black dim">
         {{ .Title }}
       </a>
     </h1>
-    
-
-    <a href="{{ .RelPermalink }}" class="link black dim">
-        <time class="f6 mv2 dib tracked" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
-            {{- .Date | time.Format (default "2 January 2006" .Site.Params.date_format) -}}
-            </time>
-    </a>
-        <div class="nested-links f5 lh-copy nested-copy-line-height">
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
       {{ .Summary }}
-      
-      </div>
-      <br>
-      <br>
-        <!--{{ if $featured_image }}
-          {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
-        <div style = "margin: auto" class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3-ns" "pr3-ns" }} mb4 mb0-ns w-100 w-40-ns">
-          <a href="{{.RelPermalink}}" class="db grow">
-            <img src="{{ $featured_image }}" class="img" alt="image from {{ .Title }}">
-          </a>
-        </div>
-      {{ end }}-->
     </div>
-    
+    <a href="{{.RelPermalink}}" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">{{ $.Param "read_more_copy" | compare.Default (lang.Translate "readMore") }}</a>
   </div>
-  
 </div>

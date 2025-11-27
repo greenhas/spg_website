@@ -9,7 +9,7 @@
   {{ $section := collections.Where $.Site.RegularPages "Section" "in" $mainSections }}
   {{ $section_count := len $section }}
 
-  <!--{{ if and ($show_recent_posts) (compare.Ge $section_count 1) }}
+  {{ if and ($show_recent_posts) (compare.Ge $section_count 1) }}
     <div class="pa3 pa4-ns w-100 w-70-ns center">
       {{ $n_posts := $.Param "recent_posts_number" | compare.Default 3 }}
 
@@ -37,6 +37,6 @@
       {{ end }}
 
     </div>
-  {{ end }}-->
+  {{ end }}
 {{ end }}
 
