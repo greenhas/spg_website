@@ -1,6 +1,5 @@
-
-types: ["macro"]
 ---
+types: ["macro"]
 date: 2023-11-17T08:25:03-05:00
 title: "songs that should be hymns but aren't (yet?)"
 tags: ["Les Cowboys fringants","Peace Salaam Shalom","Exploring Community of Christ Basic Beliefs","Community of Christ","hope","Karl Tremblay","existential dread","faith transition"]

@@ -35,15 +35,44 @@ other = "An email address is required."
 other = "Send"
 
 [taxonomyPageList]
-other = "Below you will find pages that utilize the taxonomy term “{{ .Title }}”"
+other = "Below are posts associated with the “{{ .Title }}” {{ .Data.Singular }}."
 
 [readingTime]
-one = "One minute read"
+one = "one minute read"
 other = "{{ .Count }} minutes read"
 
 [wordCount]
-one = "One word"
+one = "one word"
 other = "{{ .Count }} words"
 
 [pageTitle]
 other = "{{ .Name }} page"
+
+[hypothesisComments]
+other = "<h3>comments:</h3><p>You can click on the <code><</code> button in the top-right of your browser window to read and write comments on this post with <em><a href='https://web.hypothes.is/'>Hypothesis</a></em>.</p>"
+
+[otherPosts]
+other = "similar posts:"
+
+[creatorTaxonomy]
+other = "creator(s):"
+
+[mediumTaxonomy]
+other = "medium(s): "
+
+[dateReview]
+other = "date reviewed: "
+
+[ratingTaxonomy]
+other = "rating: "
+
+[dateLink]
+other = "date linked:"
+
+[storyLink]
+other = "link to article"
+
+[storyFrom]
+other = "from"
+
+

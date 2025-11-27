@@ -13,37 +13,29 @@
           CurrentSection allows us to use the section title instead of inferring from the folder.
           https://gohugo.io/variables/page/#section-variables-and-methods
           */}}
-        <a href="/{{ .CurrentSection.Title }}" class="no-underline black sans-serif">{{ .CurrentSection.Title }}</a> | {{ range .GetTerms "types" }}
+        {{ .CurrentSection.Title }} | {{ range .GetTerms "types" }}
      <a href="{{ .RelPermalink }}" class="no-underline black sans-serif">
        {{- .LinkTitle -}}
      </a>
    {{end}}
       </aside>
-      <h1 class="f1 athelas mt3 mb1">
+      <!--<h1 class="f1 athelas mt3 mb1">
         {{- .Title -}}
-      </h1>
-      {{ with .Params.author | default .Site.Params.author }}
-      <p class="tracked">
-        {{ $.Render "by" }} <strong>
-        {{- if reflect.IsSlice . -}}
-            {{ delimit . ", " | markdownify }}
-        {{- else -}}
-            {{ . | markdownify }}
-        {{- end -}}
-        </strong>
-      </p>
-      {{ end }}
-      {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
-      {{ if not .Date.IsZero }}
-      <time class="f6 mv4 dib tracked" {{ printf `datetime="%s"` (.Date.Format "2006-01-02T15:04:05Z07:00") | safeHTMLAttr }}>
-        {{- .Date | time.Format (default "2 January 2006" .Site.Params.date_format) -}}
-      </time>
-      {{end}}
+      </h1>-->
+        <h2 class="f2 athelas mt3 mb1">{{.Params.art_title}}</h2>
+        <h3 class="f3 athelas mt3 mb1">{{ i18n "dateLink"}} {{- .Date | time.Format (default " 2 January 2006" .Site.Params.date_format) -}}</h3>
+        <h3 class="f3 athelas mt3 mb1">source: <a style="text-decoration: none" href="{{ .Params.art_link }}">{{i18n "storyLink"}}</a>, {{i18n "storyFrom"}} {{ range .GetTerms "sources" }}<a style="text-decoration: none" href="{{ .RelPermalink }}" >{{- .LinkTitle -}}</a>{{ end }}</h3>
+        
       
-        <span class="f6 mv4 dib tracked"> - {{ i18n "readingTime" .ReadingTime }} </span>
-        <span class="f6 mv4 dib tracked"> - {{ i18n "wordCount" .WordCount }} </span>
+      
+
+    
+  </ul>
+
+    
       
     </header>
+    
     <div class="e-content nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }}">
       {{- .Content -}}        
       {{- partial "tags.html" . -}}
@@ -51,7 +43,8 @@
       {{ $related := .Site.RegularPages.Related . | first 5 }}
       
       {{ with $related }}
-      <h3>{{ i18n "otherPosts"}}</h3>
+       <h3>{{ i18n "otherPosts"}}</h3>
+
       <!--<ul>-->
         {{ range . }}
       
@@ -63,6 +56,7 @@
             
         {{ end }}
         {{ end }}
+
     <!--</ul>-->
 
           
