@@ -1,5 +1,9 @@
 {
 	"subject": "acct:spgreenhalgh@spencergreenhalgh.com",
+	
+	"aliases": [
+      "https://spencergreenhalgh.com/@spgreenhalgh"
+    ],
 
 	"links": [
 		{
