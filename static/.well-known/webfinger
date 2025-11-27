@@ -1,1 +1,11 @@
-placeholder
+{
+	"subject": "acct:spgreenhalgh@spencergreenhalgh.com",
+
+	"links": [
+		{
+			"rel": "self",
+			"type": "application/activity+json",
+			"href": "https://spencergreenhalgh.com/actor"
+		}
+	]
+}
