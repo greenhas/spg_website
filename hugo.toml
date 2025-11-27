@@ -1,7 +1,7 @@
 baseURL = 'https://spencergreenhalgh.com/'
 # languageCode = 'en-us'
 title = 'Spencer Greenhalgh'
-theme = "ananke_custom_2023"
+theme = "ananke_custom_2025"
 # themesDir = "../.."
 # resourceDir = "../resources"
 
@@ -185,27 +185,4 @@ capitalizeListTitles = false
             
     
 
-     
-    [[params.ananke_socials]]
-    name = "email"
-    url = "mailto:spencer.greenhalgh@posteo.net"
-    [[params.ananke_socials]]
-    name = "rss_square"
-    url = "https://spencergreenhalgh.com/index.xml"
-    [[params.ananke_socials]]
-    name = "newsletter"
-    url = "https://buttondown.com/spgreenhalgh"
-    [[params.ananke_socials]]
-    name = "scholar"
-    url = "https://scholar.google.com/citations?user=o3JQjpcAAAAJ&hl=en&oi=ao"
-    [[params.ananke_socials]]
-    name = "mastodon"
-    url = "https://mastodon.spencergreenhalgh.com/public/local"
-    [[params.ananke_socials]]
-    name = "bluesky"
-    url = "https://bsky.app/profile/spencergreenhalgh.com"
-    [[params.ananke_socials]]
-    name = "microblog"
-    url = "https://micro.blog/spgreenhalgh"
-
-
+  
