@@ -128,30 +128,29 @@ capitalizeListTitles = false
   
   [params.ananke.social]
   
-    [ananke.social.networks.scholar]
+    [params.ananke.social.networks.scholar]
                 slug = "scholar"
                 label = "Google Scholar"
-                icon = "graduation-cap"
-                profile = false
-                share = false
-                
-     [ananke.social.networks.newsletter]
-                slug = "newsletter"
-                label = "newsletter"
-                icon = "newspaper"
-                profile = false
-                share = false
-                
-     [ananke.social.networks.microblog]
-                slug = "microblog"
-                label = "Micro.blog"
-                icon = "microblog"
+                icon = "scholar"
                 profile = false
                 share = false
 
-  
+             
+     [params.ananke.social.networks.newsletter]
+                slug = "newsletter"
+                label = "newsletter"
+                icon = "newsletter"
+                profile = false
+                share = false
+                
+     [params.ananke.social.networks.microblog]
+                slug = "microblog"
+                label = "Micro.blog"
+                icon = "microdotblog"
+                profile = false
+                share = false
+
     [params.ananke.social.follow]
-        new_window_icon = true
         networks = [
         "email",
         "newsletter",
@@ -177,33 +176,11 @@ capitalizeListTitles = false
         [params.ananke.social.scholar]
             profilelink = "https://scholar.google.com/citations?user=o3JQjpcAAAAJ&hl=en&oi=ao"
             
-                            
+        [params.ananke.social.microblog]
+            profilelink = "https://micro.blog/spgreenhalgh"
+                           
         [params.ananke.social.newsletter]
-            profilelink = "https://scholar.google.com/citations?user=o3JQjpcAAAAJ&hl=en&oi=ao"
+            profilelink = "https://buttondown.com/spgreenhalgh"
             
-           
-               
-    [[params.ananke_socials]]
-    name = "email"
-    url = "mailto:spencer.greenhalgh@posteo.net"
-    [[params.ananke_socials]]
-    name = "rss_square"
-    url = "https://spencergreenhalgh.com/index.xml"
-    [[params.ananke_socials]]
-    name = "newsletter"
-    url = "https://buttondown.com/spgreenhalgh"
-    [[params.ananke_socials]]
-    name = "scholar"
-    url = "https://scholar.google.com/citations?user=o3JQjpcAAAAJ&hl=en&oi=ao"
-    [[params.ananke_socials]]
-    name = "mastodon"
-    url = "https://mastodon.spencergreenhalgh.com/public/local"
-    [[params.ananke_socials]]
-    name = "bluesky"
-    url = "https://bsky.app/profile/spencergreenhalgh.com"
-    [[params.ananke_socials]]
-    name = "microblog"
-    url = "https://micro.blog/spgreenhalgh"
-    
 
   
