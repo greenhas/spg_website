@@ -1,15 +1,11 @@
 {
 	"subject": "acct:spgreenhalgh@spencergreenhalgh.com",
-	
-	"aliases": [
-      "https://spencergreenhalgh.com/@spgreenhalgh"
-    ],
 
 	"links": [
 		{
 			"rel": "self",
 			"type": "application/activity+json",
-			"href": "https://spencergreenhalgh.com/actor"
+			"href": "https://spencergreenhalgh.com/spgreenhalgh"
 		}
 	]
 }
