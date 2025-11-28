@@ -1,0 +1,17 @@
+{
+	"@context": [
+		"https://www.w3.org/ns/activitystreams",
+		"https://w3id.org/security/v1"
+	],
+
+	"id": "https://spencergreenhalgh.com/actor",
+	"type": "Person",
+	"preferredUsername": "spgreenhalgh",
+	"inbox": "https://spencergreenhalgh.com/inbox",
+
+	"publicKey": {
+		"id": "https://spencergreenhalgh.com/actor#main-key",
+		"owner": "https://spencergreenhalgh.com/actor",
+		"publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAorm7a1+ixMJjRD3VBn22\nIMrrYDAXOA3lPwVMed1LpoCAXD2BUzg8L/tM2Rkz3UCDz7omt4NzkRjHaJ+s+Fu+\nXnAK2fxboe8n6Lav0njzVbPQy4i6zq+uMX4M8jXULdwzt8+Pg7grzz0xguVtUsDg\nrrjL1c57TZMCpYtQW/8LI0N5dqII9L2ABOkECuVQ27eJCk/+wD/fAVUUMPROE0n1\ncCbAovgnyaL6ppPOYoSPdnEckg42qHrzguHVzqi7a/Tz4ciP8y3hCaFeftxy15gt\n0UvEM//BgJpnsZvQQIFtcXDa7DnLCVTwjbt08byVyjTZ/T9PHaz/fU98ioZVekpu\nowIDAQAB\n-----END PUBLIC KEY-----"
+	}
+}
