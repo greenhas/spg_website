@@ -8,6 +8,6 @@ J'écoute souvent Les Cowboys Fringants, et j'ai [déjà écrit](https://spencer
 
 Pourtant, j'ai été étonné ce week-end par combien la chanson « L'Amérique pleure » semblait évoquer directement le Black Friday et tous les problèmes de la culture américaine auxquels je suis particulièrement sensible pendant le Thanksgiving. Les personnes qui doivent travailler pendant les fêtes pour permettre aux autres de fêter (tiens, on pourrait invoquer aussi « Santé » de Stromae), les « excès de [notre] époque », les bouchons sur les autoroutes, et ainsi de suite. En voici la vidéo : 
 
-{{<youtube id="RDsYRp8oP0yiw">}}
+{{<youtube id="sYRp8oP0yiw">}}
 
 Bon, il faut que je retourne au travail (pour « jouer la game », comme le chante Karl), mais j'espère continuer dans les années à venir à reconnaître dans « L'amérique pleure » un hymne contre le Black Friday et tous ses maux.
