@@ -110,6 +110,10 @@ capitalizeListTitles = false
     topic = "topics"
     publication_type = "publication_types"
     method = "methods"
+    brand = "brands"
+    blend = "blends"
+    tea_type = "tea_types"
+    tea_rating = "tea_ratings"
 
 [sitemap]
   changefreq = "monthly"
