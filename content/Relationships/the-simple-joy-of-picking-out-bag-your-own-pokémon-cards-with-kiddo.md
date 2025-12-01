@@ -1,0 +1,13 @@
+---
+types: ["macro"]
+date: 2025-12-01T08:44:44-05:00
+title: "the simple joy of picking out 'bag your own' Pokémon cards with kiddo"
+tags: ["Pokémon","parenting","Pokémon TCG"]
+---
+There's a used bookstore near my in-laws that I enjoy stopping by when we're visiting. One of the best offerings of this store (at least in kiddo's mind) is the bin full of Pokémon cards up near the comics. The deal is that you can stuff a provided plastic bag (the kind that comes in board games to hold components) as full as you dare, take it up to the register, and they'll just charge you a flat five bucks, no matter how many cards you fit into the bag. (You can also fill a larger box for a higher fee, or you can stuff a bag full of Magic cards from the next bin over, but our interest has always been in bagging our own Pokémon cards). 
+
+It's not that we play the Pokémon TCG all that often. Kiddo learned how to play from her uncle a few years ago, and she got a "learn how to play" set for Christmas about a year later, but we play that even less often than we play *Let's Go, Pikachu!*, so it's kind of surprising that kiddo takes so much interest in the bin. What's more, neither of us knows enough to know what cards would actually be competitive, and it's pretty likely that any actually competitive cards would have disappeared from the bin long before we ever get there.
+
+That's not the point, though. Our goal is to find fun Pokémon, cute Pokémon, Pokémon we like, and whatever strikes our fancy—to spend 30-45 minutes sifting through a bin full of cards, to talk to the other folks looking through cards, to help them look for the kinds of cards they think are interesting, and to thank them when they find something for us. I'm starting to build up a decent collection of Gastly, Haunter, and Gengar cards (even if I think the latter are all Dark-type, and I'm genuinely not sure if we have enough Dark Energy cards to field a deck to play them), and we might be close to building a deck for kiddo made up of all pig-like Pokémon, even though I have no idea how well it would play, even in a casual, family setting.
+
+I can't tell you the last time we've gotten these cards out to play, and I do think we ought to make sure that we're getting our money's worth out of this fun time together. In the meantime, though, I've just been pleased with how fun it is to occasionally spend time with kiddo sharing an interest together and doing something low-stakes but really fun.
