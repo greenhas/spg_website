@@ -1,5 +1,6 @@
 ---
 title: "Reviews"
+type: "page"
 featured_image: "/hearts.png"
 ---
 
