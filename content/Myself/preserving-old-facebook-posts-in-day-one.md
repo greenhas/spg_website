@@ -1,0 +1,17 @@
+---
+types: ["macro"]
+date: 2025-12-08T16:22:16-05:00
+title: "preserving old Facebook posts in Day One"
+tags: ["Facebook","Day One","journaling","Automattic","R","Twitter","homophobia","Apple"]
+---
+For over 7 years now, I've been using the Day One app on iOS and macOS to keep my journal. Journaling has been important to me since I was a teenager, and being able to do it on a phone or a computer just makes it more likely that it's going to happen. My dependence on Day One isn't without issues: I've gotten warier of Automattic over the past couple of years, I'd like to one day extricate myself from the Apple ecosystem altogether, and I do think that there's something I miss by typing rather than handwriting my journal entries. Nonetheless, it's a good app, and I'm not likely to jump ship until I've finished digitizing all of my older journals and memorabilia so that I can have some PDF, Markdown, and JSON exports of all of my journals to convert into something more homebrew and platform-independent.
+
+One of the things that I (mostly) like about using Day One as my journal is the way that I can easily integrate my public digital life into my more private journal entries. All of my short-form blogging except for linkblogging gets automatically dumped into Day One at the end of the Siri Shortcuts that trigger each post, and I also copy the text of any long-form blogging (like this post) into a Day One entry before going to GitHub Desktop to publish things. This is, also, not without complication, but my digital writing is important to me and captures aspects of my life that I might not ever write down otherwise. I like the idea of validating and preserving that writing.
+
+It occurred to me some time ago that if I was dumping all of my self-hosted digital writing into Day One, I probably ought to dig into the Facebook archive that I downloaded in 2018 shortly before quitting the platform and see if I could import all of that in Day One. I started messing around with that about a week ago. I used R to import the JSON file containing my posts, `filter`ed out a bunch of overly banal (happy birthday wishes to others) or imperfectly preserved (posts with photos) activity, and then prepared a CSV of 1700 or so remaining posts that I was able to import to Day One.
+
+As much fun as I had figuring this out on a technical level, I also have mixed feelings about the project. Some of the posts may not have been worth saving, which is true in a couple of ways. First, a bunch of URLs are now broken, and I probably could have gotten away with ditching all of the posts with links in them. Second, my Facebook account (which I used from 2010 to 2018) represents a (sometimes very) different person than who I am now. Early 2010s Spencer was homophobic in a way that I will never stop being ashamed of and even 2017-2018 Spencer had an enthusiasm for the religion he then practiced in a way that now feels kind of foreign to me. Are these traces of my life worth preserving?
+
+I think so. Past me is also captured in old, handwritten journal entries that I don't plan to tear out and burn just because I've become a different person since writing them. I appreciate journaling (and blogging) as a kind of mindful—even spiritual—practice, but I also really appreciate it as a personal history. I may not always like that history, but I want to hold onto it.
+
+Next project: convert my Twitter archive into Day One entries. This will probably be even more interesting, both from a technical standpoint and for what it tells me about my past self.
