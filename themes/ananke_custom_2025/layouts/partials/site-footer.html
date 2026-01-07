@@ -1,8 +1,8 @@
-<footer class="{{ .Site.Params.background_color_class | compare.Default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="{{ .Site.Home.Permalink }}" >
-    &copy; {{ with .Site.Copyright | compare.Default .Site.Title }} {{ . | safe.HTML }} {{ now.Format "2006"}} {{ end }}
-  </a>
-    <div>{{ partials.IncludeCached "social/follow.html" . }}</div>
+<footer class="{{ .Site.Params.background_color_class | default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
+    
+    <div class="f4 fw4 no-underline white-70 dn dib-ns pv2 ph3"> Unless otherwise noted, the content on this website is by Spencer Greenhalgh and licensed under <a class="f4 fw4 hover-white white-70 dn dib-ns" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</div>
+    
+    <div class="f4 fw4 no-underline white-70 pv2 ph3">{{ partial "social-follow.html" . }}</div>
   </div>
+  <link rel="webmention" href="https://micro.blog/webmention">
 </footer>
