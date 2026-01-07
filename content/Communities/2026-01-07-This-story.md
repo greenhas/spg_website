@@ -8,4 +8,4 @@ date: 2026-01-07T17:48:10-05:00
 tags: ["ICE","DHS","Donald Trump","Minneapolis"]
 title: "🔗 linkblog: DHS Is Lying To You About ICE Shooting a Woman"
 ---
-This story is making me panicky, and I'm honestly trying to not read any more about it, but this is important.
+This shooting is making me panicky, and I'm honestly trying to not read any more about it, but this is important.
