@@ -3,9 +3,9 @@ types: ["publication"]
 date: 2018-10-01
 layout: publication
 publication_types: "conference presentation"
-title: "A tweet by any other frame: Three approaches to studying educator interactions on Twitter"
+title: "Won't you be my neighbor? How education stakeholders use hyperlinks to build information neighborhoods on Twitter"
 co-authors: ["Bret Staudt Willet","Josh Rosenberg","Matt Koehler"]
-outlets: ["Society for Information Technology and Teacher Education"]
+outlets: ["Association for Educational Communications and Technology"]
 projects: [""]
 topics: ["social media","Twitter","teacher professional learning","informal learning"]
 methods: ["digital methods","Twitter API"]
