@@ -53,7 +53,7 @@
     
     <div class="e-content nested-copy-line-height lh-copy {{ $.Param "post_content_classes"  | default "serif"}} f4 nested-links {{ $.Param "text_color" | default "mid-gray" }} {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl4-l" "pr4-l" }}">
       {{- .Content -}}        
-      <!--{{- partial "tags.html" . -}}-->
+      {{- partial "tags.html" . -}}
       <div style="font-size:smaller">
       {{ $related := .Site.RegularPages.Related . | first 5 }}
       
