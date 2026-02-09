@@ -8,7 +8,7 @@ media: ["radio"]
 titles: ["The Wondrous Box"]
 creators: ["Juliet Boyd"]
 series: ["Doctor Who Short Trips"]
-franchise: ["Doctor Who","Doctor Who Short Trips"]
+franchise: ["Doctor Who","Doctor Who Big Finish"]
 ratings: ["❤️❤️🖤🖤🖤"]
 params:
   entry: Volume 3, Story 4
