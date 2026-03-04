@@ -3,7 +3,7 @@ types: ["media"]
 layout: book
 date: 2022-07-27T00:00:00-05:00
 title: "📚 bookblog: The Caledonian Gambit (❤️❤️❤️❤️🖤)"
-tags: ["The Caledonian Gambit","Dan Moren","The Incomparable","Total Party Kill","Dungeons & Dragons"]
+tags: ["The Caledonian Gambit","Dan Moren","The Incomparable","Total Party Kill","Dungeons and Dragons"]
 media: ["book"]
 titles: ["The Caledonian Gambit"]
 creators: ["Dan Moren"]
