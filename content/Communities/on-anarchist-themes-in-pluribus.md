@@ -2,7 +2,7 @@
 types: ["macro"]
 date: 2026-03-09T09:07:31-04:00
 title: "on anarchist themes in Pluribus"
-tags: ["Pluribus","anarchism","degrowth","climate crisis","Superman: Red Son"."hope"]
+tags: ["Pluribus","anarchism","degrowth","climate crisis","Superman: Red Son","hope"]
 ---
 
 This post takes for granted that one is familiar with the first season of the Apple TV+ show Pluribus—I don't make any effort to explain the premise of the show or to avoid any spoilers about it.
