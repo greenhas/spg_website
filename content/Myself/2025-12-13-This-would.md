@@ -4,7 +4,6 @@ layout: tea
 date: 2025-12-13T08:30:38-05:00
 title: "☕ teablog: Whittard, Masala Chai  (❤️❤️❤️❤️🖤)"
 tags: ["black tea","Whittard Tea Advent Calendar","Whittard","Masala Chai"]
-titles: ["Whittard"]
 brands: ["Whittard"]
 blends: ["Masala Chai"]
 tea_types: ["black"]

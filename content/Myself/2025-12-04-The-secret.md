@@ -4,7 +4,6 @@ layout: tea
 date: 2025-12-04T19:08:26-05:00
 title: "☕ teablog: The Republic of Tea, S'mores  (❤️❤️❤️❤️❤️)"
 tags: ["herbal tea","s'mores","The Republic of Tea","S'mores"]
-titles: ["The Republic of Tea"]
 brands: ["The Republic of Tea"]
 blends: ["S'mores"]
 tea_types: ["herbal"]

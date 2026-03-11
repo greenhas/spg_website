@@ -4,7 +4,6 @@ layout: tea
 date: 2025-12-11T07:07:54-05:00
 title: "☕ teablog: Whittard, Darjeeling  (❤️❤️❤️❤️❤️)"
 tags: ["black tea","Whittard Tea Advent Calendar","Whittard","Darjeeling"]
-titles: ["Whittard"]
 brands: ["Whittard"]
 blends: ["Darjeeling"]
 tea_types: ["black"]

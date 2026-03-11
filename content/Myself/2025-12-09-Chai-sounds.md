@@ -4,7 +4,6 @@ layout: tea
 date: 2025-12-09T06:59:08-05:00
 title: "☕ teablog: Whittard, Coconut Chai  (❤️❤️❤️🖤🖤)"
 tags: ["black tea","Whittard Tea Advent Calendar","Whittard","Coconut Chai"]
-titles: ["Whittard"]
 brands: ["Whittard"]
 blends: ["Coconut Chai"]
 tea_types: ["black"]
