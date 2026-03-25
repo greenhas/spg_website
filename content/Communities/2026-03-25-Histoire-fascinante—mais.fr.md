@@ -6,6 +6,6 @@ art_link: "https://www.rts.ch/info/monde/2026/article/jessica-foster-la-fausse-s
 sources: ["rts.ch"]
 date: 2026-03-25T06:58:19-04:00
 tags: ["generative AI","Instagram","OnlyFans","MAGA","Donald Trump"]
-title: "🔗 linkblog: Jessica Foster, la citoyenne-soldate "parfaite" du camp MAGA qui n'existe pas | RTS"
+title: "🔗 linkblog: Jessica Foster, la citoyenne-soldate 'parfaite' du camp MAGA qui n'existe pas | RTS"
 ---
 Histoire fascinante—mais inquiétante.
