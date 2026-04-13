@@ -2,7 +2,7 @@
 types: ["macro"]
 date: 2026-04-13T08:59:29-04:00
 title: "on mowing lawns and climate catastrophe"
-tags: ["electric cars","climate change","climate catastrophe","degrowth","cars","public transi","bike commuting"]
+tags: ["electric cars","climate change","climate catastrophe","degrowth","cars","public transit","bike commuting"]
 ---
 
 A few months after moving into our current home, we found ourselves needing to buy our own lawnmower for the first time. We learned that electric lawnmowers were a thing and figured that taking that route might be the most responsible thing to do from an environmental perspective, especially once we realized we could buy a string trimmer from the same company and use the same batteries for both. Both purchases have served us well, but our first battery didn't last as long as we'd hoped, and with a second one currently on the fritz, I'm starting to suspect that the amount of e-waste that we've generated so far is outweighing any environmental benefit that we've created by not using gasoline to mow our lawns.
