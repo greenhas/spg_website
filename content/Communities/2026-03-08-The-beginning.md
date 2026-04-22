@@ -8,7 +8,7 @@ media: ["book",""]
 titles: ["Autonomous"]
 creators: ["Annalee Newitz"]
 series: [""]
-franchise: [""]
+franchise: ["Autonomous"]
 ratings: ["❤️❤️❤️❤️🖤"]
 params:
   entry: 
