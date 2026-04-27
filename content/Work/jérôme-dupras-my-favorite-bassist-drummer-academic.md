@@ -1,7 +1,7 @@
 ---
 types: ["macro"]
 date: 2026-03-30T10:35:08-04:00
-title: "Jérôme Dupras, my favorite bassist-drummerfav-academic"
+title: "Jérôme Dupras, my favorite bassist-drummer-academic"
 tags: ["Les cowboys fringants","Jérôme Dupras","academia"]
 ---
 *Les Cowboys fringants* is a Québécois folk rock band that has gotten a lot of my attention over the past five years (though I've enjoyed their music for even longer than that. I have a bunch of their albums, but over the past few months, I've taken to listening to some of their concerts that have been recorded. I do this while I'm working, so I'm usually listening to the sound rather than watch the visuals, but I do enjoy taking the occasional peek at what's happening on stage, too.
