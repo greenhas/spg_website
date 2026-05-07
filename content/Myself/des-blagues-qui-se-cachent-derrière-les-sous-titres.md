@@ -1,0 +1,17 @@
+---
+types: ["macro"]
+date: 2026-05-07T07:42:54-04:00
+title: "des blagues qui se cachent derrière les sous-titres"
+tags: ["Un village français","French"]
+---
+Mon français est assez fort, mais pas hyper, hyper fort quand-même. Il y a certaines expériences, comme les appels téléphoniques et les films, qui me rappellent surtout mes lacunes linguistiques. Je suis maintenant en train de regarder la cinquième saison d'*Un village français*, et comme je la regarde grâce à un service américain de vidéo à la demande, la seule version de cette série qui m'est disponible est celle qui a des sous-titres en anglais imposés sur la vidéo—on n'a même pas la possibilité de regarder sans sous-titres. Même si j'aurais préféré des sous-titres en français, il est vrai que ça m'aide beaucoup, avoir les sous-titres pour surmonter les faiblesses qui restent dans mon français.
+
+Pourtant, tout le monde sait qu'il y a beaucoup qui se perd dans la traduction, et si j'ai parfois besoin des sous-titres pour mieux comprendre le sens d'une conversation entre deux personnages, je suis assez fort pour souvent constater quand quelque chose cloche dans les choix des traducteurs. Les choix de traduction pour les gros mots font souvent réfléchir, car il est vrai que ce n'est pas forcément le sens exact d'un gros mot qui compte, mais plutôt sa force dans le contexte, et il faut donc beaucoup de nuance et de compréhension pour bien les traduire. Si ces choix là ne sont pas forcément des fautes de traduction, il existent quand-même d'autres choix qui sont peut-être nécessaire mais quand-même décevants pour ce qui est caché derrière les sous-titres.
+
+Hier soir, je regardais la sixième épisode de la cinquième saison d'*Un village français*, qui a une scène vraiment drôle, où quatre prisonniers font un procès pour un cafard dans leur cellule. La voici : 
+
+{{<youtube id="YuqQ0ulWieM">}}
+
+J'ai vite vu qu'il y avait des choses qui ne se traduisaient pas bien. Déjà, il y avait plusieurs jeux de mot du genre « avoir le cafard », « cafarder », etc., et là, j'avoue que ce ne sont pas des expressions que je connaissais, et j'étais donc bien reconnaissant pour les sous-titres, même si j'ai du consulter un dictionnaire après pour vraiment apprécier la scène. Ce qui m'a vraiment marqué, pourtant, c'était quand Anselme, un des prisonniers, demande pour le cafard « la mort par écrasement manuel spontané, monsieur le juge ». Cette ligne est traduite en anglais par "death by crushing" qui saisit plus ou moins le sens de la phrase en français mais qui est beaucoup moins drôle. Justement, ce petit procès se déroulait lieu parce qu'on avait demandé à Anselme pourquoi il écrasait les cafards dans leur cellule à la main et spontanément, et c'est là d'où vient la force de la blague. La réduire à "death by crushing" en sous-titres n'est pas forcément faux, mais ça fait pas rire comme j'ai ri quand j'ai entendu la phrase originale.
+
+Bon, je ne dis rien de nouveau ici, car il est bien connu combien on perd dans la traduction, mais la phrase « écrasement manuel spontané » me semble si drôle que je n'ai pas pu m'empêcher de dire combien il est triste que les traducteurs ne l'ont pas gardée—et combien je suis content d'avoir pu surmonter ces fautes de traduction pour pouvoir rire comme la blague le méritait.
