@@ -3,7 +3,7 @@ types: ["media"]
 layout: book
 date: 2025-03-20T07:59:42-04:00
 title: "📚 bookblog: Frieren: Beyond Journey's End, Volume 2  (❤️❤️❤️🖤🖤)"
-tags: ["","Kanehito Yamada,Tsukasa Abe"]
+tags: ["Kanehito Yamada","Tsukasa Abe"]
 media: ["book","comic","manga"]
 titles: [""]
 creators: ["Kanehito Yamada","Tsukasa Abe"]
