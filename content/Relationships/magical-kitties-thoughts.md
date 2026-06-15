@@ -1,6 +1,6 @@
 ---
 types: ["macro"]
-date: 2026-05-14T16:00:40-05:00
+date: 2026-06-14T16:00:40-05:00
 title: "what I'm learning about TTRPGs from playing Magical Kitties Save the Day with kiddo and her camp friends"
 tags: ["TTRPGs","Magical Kitties Save the Day","Reunion","Land of Eem","FATE"]
 ---
