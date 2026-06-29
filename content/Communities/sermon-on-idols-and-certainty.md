@@ -23,17 +23,17 @@ I had another chance to preach for the Beyond the Walls ministry based out of To
 >
 > So, Paul's arguing with other people seems to be motivated by a concern about idols. This makes sense: Anyone who's spent even a little bit of time with the Bible probably knows that its authors just do not like idols. Paul is drawing on generations of tradition in his arguments. However, even this tradition is not as straightforward as it seems. Yes, the Bible insists that idols are bad, but that insistence might be hiding something.
 >
->I magine that on your first Sunday attending a new congregation, the pastor stands up, gives some announcements, and then says "in this congregation, people of all genders are valued.” You might be excited to hear that—it might come off as a sign that this is a truly inclusive congregation.
+> Imagine that on your first Sunday attending a new congregation, the pastor stands up, gives some announcements, and then says "in this congregation, people of all genders are valued.” You might be excited to hear that—it might come off as a sign that this is a truly inclusive congregation.
 >
 > Imagine, though, that every Sunday for the next six months, the pastor stands up, gives some announcements, and then says "in this congregation, people of all genders are valued,” maybe with added insistence each time. If the pastor feels the need to repeat this phrase every week, it could instead be a sign that there are actually problems with inclusion in the congregation, and that the pastor is trying to change the congregation, not describe the congregation.
 >
 > Many scholars have suggested that something similar is going on in the Bible, that the repeated insistence that God's people do not worship idols is a pretty good sign was an effort to change things, not describe how things were. In other words, these authors may have been trying to shift from a religion that valued idols to a religion that firmly rejected them.
 >
->I don't bring this up to criticize our spiritual ancestors but rather to ask some important questions: What value did they once find in idols, and if they did find value in idols, why did they eventually reject them in the way that Paul does in Athens?
+> I don't bring this up to criticize our spiritual ancestors but rather to ask some important questions: What value did they once find in idols, and if they did find value in idols, why did they eventually reject them in the way that Paul does in Athens?
 >
 > To explore these questions, let’s go to one of the most famous stories about idols in the Bible. In Exodus 32:1, we read: “When the people saw that Moses delayed to come down from the mountain, the people gathered around Aaron and said to him, ‘Come, make gods for us, who shall go before us; as for this Moses, the man who brought us up out of the land of Egypt, we do not know what has become of him.’”
 >
->Notice the uncertainty that drives this question. Moses is supposedly up on the mountain talking to God, but Moses is late getting back, and the people don’t know what has happened to him. Rather than this uncertain God whom they can’t see and who apparently can’t stick to a schedule, they long for a God who is more visible and more certain.
+> Notice the uncertainty that drives this question. Moses is supposedly up on the mountain talking to God, but Moses is late getting back, and the people don’t know what has happened to him. Rather than this uncertain God whom they can’t see and who apparently can’t stick to a schedule, they long for a God who is more visible and more certain.
 >
 > So, let’s read what happens next, in verses 3 and 4: “all the people took off the gold rings from their ears and brought them to Aaron. He took these from them, formed them in a mold, and cast an image of a calf, and they said, ‘These are your gods, O Israel, who brought you up out of the land of Egypt!’”
 >
