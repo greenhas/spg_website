@@ -1,0 +1,15 @@
+---
+types: ["macro"]
+date: 2026-06-24T09:39:01-04:00
+title: "rediscovering the library as workplace"
+tags: ["writing","parenting","grad school","libraries","WordPress","bike commuting","mental health"]
+---
+Kiddo is at a half-day summer camp this week, which is freeing up my mornings for work. However, the camp is across town from where we live, so rather than driving all the way home for a couple of hours of work, I've been driving to a nearby branch of the Lexington Public Library to set up my laptop and get some work done there. It has been really nice!
+
+When I was in grad school, I often made the library a workplace. For a while, I had a semi-regular "Spencer writes in the library" series going on my WordPress blog. I would pick a different place each week to set up shop, focus on writing, and then blog about my experience there. I might have a backup of that site that I could dig some of those posts out of (or rather, I do have a backup that I might be able to dig posts out of—I feel like I've done that before, but it feels opaque as I glance at it today). It has been fun to recapture that feeling of working at the library as a third place between home office and campus office.
+
+In fact, I think I should do this sort of thing more often. Because I'm a bike commuter, getting to my campus office is a long, sometimes sweaty process. Because I try to use my professional flexibility to make room for more present and intentional parenting, I tend to prioritize working from home whenever I can rather than making it to campus to work. During May 2026, though, I felt like this meant rarely getting out of the house during the critical weeks where my semester had ended but kiddo's hadn't yet. This didn't seem to be great for my mental health, which cancelled out a lot of "productivity gains" (ugh) that I had been hoping for. 
+
+If a 40-minute bike ride and ten minute change of clothes on either end of the workday doesn't feel like a great investment when I'm trying to clear my professional checklist to make time for kiddo, and if rarely leaving the house so that I don't need to invest that time doesn't feel great for my mental health, maybe rediscovering the library as a workplace offers a compromise position. Biking to the closest branch of the Lexington Public Library would only take 10 or so minutes, and I wouldn't feel the pressure there that I would at the office to change from bike commuting clothes to something more professional.
+
+I've got another "critical week" coming up in August where kiddo will be in school but my semester won't have started yet. I think I ought to look into the library as a workplace then, to better balance mental health and time to work. Before I even get there, I want to think about how to use the library as a workplace over the summer, while kiddo is at camp, or maybe letting her roam and read during a morning that I need to get a few things done.
