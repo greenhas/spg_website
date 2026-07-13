@@ -1,0 +1,11 @@
+---
+types: ["macro"]
+date: 2026-07-13T09:28:31-04:00
+title: "conference presentation on Jacques Ellul and Mormonism"
+tags: ["Jacques Ellul","presentations","conferences","International Jacques Ellul Society","Mormonism","The Humiliation of the Word","image vs. word","Dialogue journal"]
+---
+Later this week, I'll be presenting for the first time at the International Jacques Ellul Society. My paper is called *Image and Word in Mormonism's Foundational Media Events*, and I'll be using Ellul's *image* and *word* framework in *The Humiliation of the Word* as an explanatory framework for how the founding events of Mormonism can be understood by scholars and believers as either the sure-and-certain *image* or the ambiguous and fleeting *word*. Perhaps unsurprisingly, Latter-day Saints and their leaders tend to prefer the *image* over the *word*, and I think Ellul's writing helps understand why this is (beyond the obvious reasons)
+
+I'm quite excited about this, given how much Ellul has affected my scholarly (and, frankly, personal) thinking in the short time that I've been reading him. In fact, over the past couple of weeks, as I've been putting final touches on my paper and slides (and doing other reading), I've been thinking that I'd like to use this as a starting point for a broader project on what I'm tentatively calling the "Latter-day Saint technical apparatus." I've got another paper in mind for [an upcoming special issue](https://www.dialoguejournal.com/diablogue/call-for-papers-dialogue-special-issue-on-the-latter-day-saint-temple/) from *Dialogue: A Journal of Mormon Thought*, and we'll see if I can find time in the next three months to put that together.
+
+Anyway, for anyone outside of IJES who might be interested, I've created a [new entry](https://spencergreenhalgh.com/research/2026-greenhalgh-ellul-mormonism/) in the [Research section](https://spencergreenhalgh.com/research/) of my website that has some information about the presentation and a link to the slides that I'll be using.

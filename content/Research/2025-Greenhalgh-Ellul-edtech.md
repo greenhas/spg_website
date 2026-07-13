@@ -7,7 +7,7 @@ title: "Ellulian provocations for educational technology and higher education"
 co-authors: [""]
 outlets: ["Journal of Computing in Higher Education"]
 projects: [""]
-topics: ["ethics","critical educational technology","Ellulian technique","research methodology and ethics"]
+topics: ["ethics","critical educational technology","Jacques Ellul","research methodology and ethics"]
 methods: ["non-empirical"]
 link: "/2025-Greenhalgh-Ellul-edtech.pdf"
 link_type: "preprint" 

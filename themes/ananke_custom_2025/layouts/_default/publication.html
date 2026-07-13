@@ -32,7 +32,7 @@
         {{if ne $ca 0}}
         <h3 class="f3 athelas mt3 mb1">co-author(s): {{ range .GetTerms "co-authors" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}} </a> |{{ end }}</h3>
         {{end}}
-        <h3 class="f3 athelas mt3 mb1">{{range .GetTerms "publication_types"}}{{- .LinkTitle -}}{{end}}: {{range .GetTerms "outlets"}}<a style="text-decoration: none;" href="{{ .RelPermalink }}">{{- .LinkTitle -}}<a>{{end}}</h3>
+        <h3 class="f3 athelas mt3 mb1">{{range .GetTerms "publication_types"}}{{- .LinkTitle -}}{{end}}: {{range .GetTerms "outlets"}}<a style="text-decoration: none;" href="{{ .RelPermalink }}">{{- .LinkTitle -}}<a> |{{end}}</h3>
         <h3 class="f3 athelas mt3 mb1">research topics: {{ range .GetTerms "topics" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> |{{ end }}</h3>
         <h3 class="f3 athelas mt3 mb1">research methods: {{ range .GetTerms "methods" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> |{{ end }}</h3>
 
