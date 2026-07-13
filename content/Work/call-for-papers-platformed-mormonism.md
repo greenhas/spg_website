@@ -1,0 +1,11 @@
+---
+types: ["macro"]
+date: 2026-07-13T15:08:04-04:00
+title: "Call for Papers: Platformed Mormonism"
+tags: ["JMSSA","MSSA","Rosemary Avance","Spencer Stewart","Mormonism","Mormon Studies","online Mormonism"]
+---
+This CFP has been [up on the journal website](https://jmssa.org/cfp-platformed-mormonism/) for a while now, but with our second "rolling deadline" of September 1st coming up soon, I thought it was time to start sharing it a little more personally. In short, I'm thrilled to joining Spencer Stewart and Rosemary Avance in editing a special issue of the Journal of the Mormon Social Science Association on *Platformed Mormonism*. Here's a quick blurb on the issue, and please check out the link above for more details: 
+
+> The Journal of the Mormon Social Science Association (JMSSA) is accepting submissions for a special issue exploring the intersection of Mormon traditions and digital platforms. Papers accepted for the special issue will receive an honorarium of up to USD 1,000. We welcome interdisciplinary perspectives that explore how the technological, architectural, and political structures of digital platforms are not only governing how Mormonism is perceived, represented, and encountered by the broader public but also mediating and reshaping belief, practice, and community across various Mormon traditions. We welcome both scholarly/empirical studies and shorter reflective submissions.
+
+As I suggested above, we have a set of rolling deadlines, the next of which is September 1st, 2026, with two more on December 1st, 2026 and March 1, 2027. We encourage submitting to the earliest deadline that makes sense for the authors, but anything submitted by the March 1st deadline will be considered for the special issue. I also want to emphasize two points from the blurb above: First, that we're accepting both longer, empirical submission and shorter, reflective submissions; and second, that papers accepted in both formats will receive honoraria. If the blurb or the longer CFP don't answer your questions, please feel free to reach out to me specifically!
