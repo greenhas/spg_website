@@ -2,9 +2,9 @@
 types: ["tea"]
 layout: tea
 date: 2026-04-28T10:58:50-04:00
-title: "☕ teablog: Harmey & Sons, Cookies & Cream  (❤️❤️❤️❤️🖤)"
+title: "☕ teablog: Harney & Sons, Cookies & Cream  (❤️❤️❤️❤️🖤)"
 tags: ["black tea","Harmey & Sons","Cookies & Cream"]
-brands: ["Harmey & Sons"]
+brands: ["Harney & Sons"]
 blends: ["Cookies & Cream"]
 tea_types: ["black"]
 tea_ratings: ["❤️❤️❤️❤️🖤"]
