@@ -1,9 +1,9 @@
 {
-	"subject": "acct:spgreenhalgh@spencergreenhalgh.com",
+	"subject": "acct:blog@spencergreenhalgh.com",
 	"aliases": [],
 	"links": {
 		"rel": "self",
 		"type": "application/activity+json",
-		"href": "https://spencergreenhalgh.com/spgreenhalgh/actor.json"
+		"href": "https://spencergreenhalgh.com/blog/actor.json"
 	}
 }
