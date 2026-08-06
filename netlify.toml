@@ -12,6 +12,6 @@ command = """\
   """
   
 [[headers]]
-for = "/spgreenhalgh/*"
+for = "/blog/*"
 [headers.values]
 Content-Type = "application/activity+json"
