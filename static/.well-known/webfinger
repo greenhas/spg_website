@@ -1,9 +1,16 @@
 {
-	"subject": "acct:blog@spencergreenhalgh.com",
-	"aliases": [],
+	"subject": "acct:spencer@spencergreenhalgh.com",
+	"aliases": [
+		"https://spencergreenhalgh.com/@spencer
+	],
 	"links": {
 		"rel": "self",
 		"type": "application/activity+json",
-		"href": "https://spencergreenhalgh.com/blog/actor.json"
+		"href": "https://spencergreenhalgh.com/@spencer"
+	},
+	{
+		"rel": "http://webfinger.net/rel/profile-page",
+		"type": "text/html",
+		"href": "https://spencergreenhalgh.com/"
 	}
 }
