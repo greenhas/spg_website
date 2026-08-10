@@ -7,10 +7,5 @@
 		"rel": "self",
 		"type": "application/activity+json",
 		"href": "https://spencergreenhalgh.com/@spencer"
-	},
-	{
-		"rel": "http://webfinger.net/rel/profile-page",
-		"type": "text/html",
-		"href": "https://spencergreenhalgh.com/"
 	}
 }
