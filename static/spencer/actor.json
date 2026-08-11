@@ -2,8 +2,8 @@
     "@context": "https://www.w3.org/ns/activitystreams",
     "id": "https://spencergreenhalgh.com/@spencer",
     "type": "Person",
-    "following": "https://hachyderm.io/users/mapache/following",
-    "followers": "https://hachyderm.io/users/mapache/followers",
+    "following": "https://spencergreenhalgh.com/spencer/following.json",
+    "followers": "https://spencergreenhalgh.com/spencer/followers.json",
     "inbox": "https://spencergreenhalgh.com/spencer/inbox.json",
     "outbox": "ttps://spencergreenhalgh.com/spencer/outbox.json",
     "preferredUsername": "spencer",
@@ -28,12 +28,5 @@
       "id": "https://spencergreenhalgh.com/@spencer#main-key",
       "owner": "https://spencergreenhalgh.com/@spencer",
       "publicKeyPem": "-----BEGIN PUBLIC KEY----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAorm7a1+ixMJjRD3VBn22\nIMrrYDAXOA3lPwVMed1LpoCAXD2BUzg8L/tM2Rkz3UCDz7omt4NzkRjHaJ+s+Fu+\nXnAK2fxboe8n6Lav0njzVbPQy4i6zq+uMX4M8jXULdwzt8+Pg7grzz0xguVtUsDg\nrrjL1c57TZMCpYtQW/8LI0N5dqII9L2ABOkECuVQ27eJCk/+wD/fAVUUMPROE0n1\ncCbAovgnyaL6ppPOYoSPdnEckg42qHrzguHVzqi7a/Tz4ciP8y3hCaFeftxy15gt\n0UvEM//BgJpnsZvQQIFtcXDa7DnLCVTwjbt08byVyjTZ/T9PHaz/fU98ioZVekpu\nowIDAQAB\n-----END PUBLIC KEY-----"
-    },
-    "attachment": [
-      {
-        "type": "PropertyValue",
-        "name": "Blog",
-        "value": "<a href=\"https://spencergreenhalgh.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\" translate=\"no\"><span class=\"invisible\">https://</span><span class=\"\">maho.dev</span><span class=\"invisible\"></span></a>"
-      }
-    ]
+    }
 }
