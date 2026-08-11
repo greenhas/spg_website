@@ -10,3 +10,8 @@ command = """\
   git config core.quotepath false && \
   hugo --gc --minify --baseURL "${URL}"
   """
+  
+[[headers]]
+for = "/spencer/*"
+[headers.values]
+Content-Type = "application/activity+json"
