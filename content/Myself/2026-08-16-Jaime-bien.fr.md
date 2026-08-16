@@ -2,7 +2,7 @@
 types: ["media"]
 layout: radio
 date: 2026-08-16T07:54:20-04:00
-title: "🎙️ radioblog:   (❤️❤️❤️❤️🖤)"
+title: "🎙️ radioblog: 57, rue de Varenne, Saison 1 (❤️❤️❤️❤️🖤)"
 tags: ["","François Pérache"]
 media: ["radio"]
 titles: [""]
