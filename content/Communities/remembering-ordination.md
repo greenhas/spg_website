@@ -2,7 +2,7 @@
 types: ["macro"]
 date: 2026-08-16T13:03:24-04:00
 title: "remembering ordination"
-tags: ["ordination","priesthood","ministry"."Church of Jesus Christ of Latter-day Saints","Community of Christ","Charles Neff"]
+tags: ["ordination","priesthood","ministry","Church of Jesus Christ of Latter-day Saints","Community of Christ","Charles Neff"]
 ---
 
 I recently passed the second anniversary of my ordination in Community of Christ, and there are a couple of memories from that moment that feel significant enough to write down—and significant enough for them to affect the way that I think about my ministry. I don't know that I'm doing great with ministry, but I am trying, and as I continue to try, these memories associated with the actual event of ordination are ones that I want to keep in mind.
