@@ -8,4 +8,4 @@ Love to get unsolicited AI-generated parenting advice from the communication pla
 
 ![Screenshot of a ParentSquare email reading "Continue Conversation at Home
 Try asking your child: What did you hear about how to let the school know if your ride home changes
-today? Why do you think it's important for the chool to know exactly how you're getting ome each day? Powered by ParentSquare Intelligence"](/2026-04-13-ParentSquare-AI.JPEG)
+today? Why do you think it's important for the school to know exactly how you're getting home each day? Powered by ParentSquare Intelligence"](/2026-04-13-ParentSquare-AI.JPEG)

@@ -1,14 +1,11 @@
 {
-	"subject": "acct:spgreenhalgh@spencergreenhalgh.com",
-	"aliases" [
-		"https://spencergreenhalgh.com/@spgreenhalgh
+	"subject": "acct:spencer@spencergreenhalgh.com",
+	"aliases": [
+		"https://spencergreenhalgh.com/@spencer
 	],
-
-	"links": [
-		{
-			"rel": "self",
-			"type": "application/activity+json",
-			"href": "https://spencergreenhalgh.com/@spgreenhalgh"
-		}
-	]
+	"links": {
+		"rel": "self",
+		"type": "application/activity+json",
+		"href": "https://spencergreenhalgh.com/@spencer"
+	}
 }
