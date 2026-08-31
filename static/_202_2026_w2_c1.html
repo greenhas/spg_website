@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 202 2.1</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 202: Technologies for Information Services</h1>
+<h2 style=color:white>A+, Chapter 22: Virtualization</h2>
+<h2 style=color:white>1 September 2026</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# updates and looking ahead
+
+---
+
+# this week
+
+## Tuesday: readings and lecture
+
+* read syllabus (before Tuesday lecture)
+* read A+, Chapter 22: Virtualization (before Tuesday lecture)
+* take quiz (by Wednesday evening)
+
+## Thursday: reflection and application
+
+* reflect on the social power of cloud computing companies (by Wednesday evening)
+* set up a virtual machine for ICT 202 (by Sunday evening)
+
+---
+
+class: center, middle
+
+# 5 Across: startup pitch series by Awesome, Inc.
+
+### Wednesday, September 9th, 5pm - 7pm (The Mane on Main)
+
+### Wednesday, October 14th, 5pm - 7pm (The Main on Main)
+
+### Wednesday, December 2nd, 5pm - 7pm (Kentucky Theatre)
+
+#### Register [here](https://awesomeinc.org/events/5across/) (ICT discount code available—contact me!)
+
+
+---
+
+class: center, middle
+
+# calling roll
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# A+, Chapter 22: Virtualization
+
+---
+
+class: center, middle
+
+# virtualization
+
+---
+
+class: center, middle
+
+## "take an existing component... and make it more flexible by replacing it with a layer of software that... behaves the same"
+
+(Meyers et al., 2023, p. 927)
+
+---
+
+class: center, middle
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="600" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/960px-Von_Neumann_Architecture.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
+### from 1945!!
+
+---
+
+class: center, middle
+
+<a title="Freekhou5, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:A_double_toggle_light_switch.jpg"><img width="650" alt="A double toggle light switch" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/A_double_toggle_light_switch.jpg/960px-A_double_toggle_light_switch.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+---
+
+class: center, middle
+
+<a title="U.S. Navy photo by Photographer&#039;s Mate Airman Javier Capella, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg"><img width="760" alt="US Navy 051129-N-0685C-007 Quartermaster Seaman Ryan Ruona signals with semaphore flags during a replenishment at sea" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg/960px-US_Navy_051129-N-0685C-007_Quartermaster_Seaman_Ryan_Ruona_signals_with_semaphore_flags_during_a_replenishment_at_sea.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
+---
+
+class: center, middle
+
+<a title="Denelson83, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Semaphore_Signals_A-Z.jpg"><img width="750" alt="An alphabet in Semaphore." src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Semaphore_Signals_A-Z.jpg/960px-Semaphore_Signals_A-Z.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
+---
+
+class: center, middle
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="600" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/960px-Von_Neumann_Architecture.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
+---
+
+class: center, middle
+
+# let's simulate a computer!
+
+---
+
+# the rules
+
+* ### groups of 4
+
+* ### your "computer code" may only contain the numbers 0-9
+
+* ### each number must represent a concept or a command
+
+* ### (you may—and should—skip over nitty-gritty commands, like the location of data)
+
+* ### develop some "code" for asking the computer to calculate the sum of 2 and 2
+
+---
+
+class: center, middle
+
+<a title="Golftheman, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Operating_system_placement.svg"><img width="330" alt="Basic hierarchy of data and control flow within a computer system." src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Operating_system_placement.svg/330px-Operating_system_placement.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
+---
+
+class: center, middle
+
+<a title="Premeditated, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Laptop_collage.jpg"><img width="750" alt="Laptop collage" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Laptop_collage.jpg/960px-Laptop_collage.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
+
+---
+
+class: center, middle
+
+<a title="JulianVilla26 (GPL &lt;http://www.gnu.org/licenses/gpl.html&gt; or GPL &lt;http://www.gnu.org/licenses/gpl.html&gt;), via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Ubuntu_19.04_%22Disco_Dingo%22.png"><img width="750" alt="Ubuntu 19.04 &quot;Disco Dingo&quot;" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Ubuntu_19.04_%22Disco_Dingo%22.png/960px-Ubuntu_19.04_%22Disco_Dingo%22.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
+
+---
+
+class: center, middle
+
+# hardware virtualization
+
+---
+
+class: center, middle
+
+<a title="ujmoser, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Alternative_virtual_machine_host.svg"><img width="400" alt="Alternative virtual machine host" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Alternative_virtual_machine_host.svg/500px-Alternative_virtual_machine_host.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
+---
+
+class: center, middle
+
+<a title="Software:
+The OpenIndiana Project, KDE developers, MATE developers, htop developers, and QEMU team Wallpaper: Ken Vermette (KDE), The OpenIndiana Project (MATE) Screenshot:  VulcanSphere (CDDL &lt;http://opensource.org/licenses/CDDL-1.0&gt;, GPL &lt;http://www.gnu.org/licenses/gpl.html&gt; or LGPL &lt;http://www.gnu.org/licenses/lgpl.html&gt;), via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:QEMU_6.2_screenshot.png"><img width="750" alt="QEMU 6.2 screenshot" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/QEMU_6.2_screenshot.png/960px-QEMU_6.2_screenshot.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
+---
+
+class: center, middle
+
+<a title="Bill Bradford, CC BY 2.0 &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:370_on_Hercules_on_OS_X.jpg"><img width="750" alt="370 on Hercules on OS X" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/370_on_Hercules_on_OS_X.jpg/960px-370_on_Hercules_on_OS_X.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
+---
+
+class: center, middle
+
+<a title="Pittigrilli, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Emulator_of_HP-41CX_on_iPhone_6s.jpg"><img width="500" alt="iPhone 6s with emulator app for the pocket calculator HP-41CX" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Emulator_of_HP-41CX_on_iPhone_6s.jpg/500px-Emulator_of_HP-41CX_on_iPhone_6s.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
+---
+
+class: center, middle
+
+<a title="The original uploader was Robert Kropf at German Wikipedia., CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:HP-41CX.jpg"><img width="750" alt="HP-41CX" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/HP-41CX.jpg/960px-HP-41CX.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
+
+---
+
+class: center, middle
+
+<a title="John Howard Palevich, Apache License 2.0 &lt;http://www.apache.org/licenses/LICENSE-2.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:RetroArch_running_Dandy_(Atari_800).png"><img width="750" alt="The 1983 video game Dandy (Atari 800 version) being emulated with RetroArch on Windows 11." src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/RetroArch_running_Dandy_%28Atari_800%29.png/330px-RetroArch_running_Dandy_%28Atari_800%29.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
+---
+
+class: center, middle
+
+<a title="Kapooht, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Von_Neumann_Architecture.svg"><img width="600" alt="Von Neumann Architecture" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Von_Neumann_Architecture.svg/960px-Von_Neumann_Architecture.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
+---
+
+class: center, middle
+
+<a title="John Aplessed, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Hardware_Virtualization_(copy).svg"><img width="500" alt="Hardware Virtualization (copy)" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Hardware_Virtualization_%28copy%29.svg/500px-Hardware_Virtualization_%28copy%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
+---
+
+# benefits of virtualization
+
+--
+
+* ## saving resources
+
+--
+
+* ## simplifying system management and security
+
+---
+
+# purposes of virtual machines
+
+--
+
+* ## sandboxing
+
+--
+
+* ## development testing
+
+--
+
+* ## application virtualization
+
+---
+
+class: center, middle
+
+<a title="Masem, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Steam_machine_front.jpg"><img width="750" alt="Photograph of the front side of Valve&#039;s Steam Machine (released in 2026)" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Steam_machine_front.jpg/960px-Steam_machine_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
+---
+
+class: center, middle
+
+# the cloud
+
+---
+
+class: center, middle
+
+<a title="Scsami, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Hyperviseur.svg"><img width="500" alt="Hyperviseur" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Hyperviseur.svg/500px-Hyperviseur.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
+---
+
+class: center, middle
+
+# `XaaS`
+
+---
+
+class: center, middle
+
+# Infrastructure as a Service: `IaaS`
+
+## Amazon Web Services
+
+---
+
+class: center, middle
+
+# Platform as a Service: `PaaS`
+
+## Netlify
+
+---
+
+class: center, middle
+
+# Software as a Service: `SaaS`
+
+## Google Workspaces
+
+---
+
+class: center, middle
+
+# SaaS vs. subscription software
+
+---
+
+class: center, middle
+
+# web apps vs. SaaS
+
+---
+
+class: center, middle
+
+<a title="Scsami, CC0, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Hyperviseur.svg"><img width="500" alt="Hyperviseur" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Hyperviseur.svg/500px-Hyperviseur.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"></a>
+
+---
+
+class: center, middle
+
+# different types of cloud
+
+---
+
+class: center, middle
+
+# public cloud
+
+---
+
+class: center, middle
+
+# private cloud
+
+---
+
+class: center, middle
+
+# community cloud
+
+---
+
+class: center, middle
+
+# hybrid cloud
+
+
+</textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		}
+  		});
+    </script>
+  </body>
+</html>
