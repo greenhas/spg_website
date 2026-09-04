@@ -1,0 +1,31 @@
+---
+types: ["macro"]
+date: 2026-09-04T09:47:27-04:00
+title: "Graeber and Wengrow's indigenous critique, technical progress, and the Book of Mormon"
+tags: ["David Graeber","David Wengrow","Book of Mormon","The Dawn of Everything: A New History of Humanity","Jacques Ellul","Latter-day Saint technical system"]
+---
+I am repeatedly on record as being a fan of the Book of Mormon despite believing it's ahistorical and despite recognizing how deeply problematic some of its ideas are. If there's one problematic idea that I'm not totally sure can be redeemed even with a critical, willing-to-push-back reading of the text, it's the appropriation of Indigenous history into the core narrative of the Book of Mormon.
+
+Recently [rereading](https://spencergreenhalgh.com/work/2026-07-24-i-wasnt/) Graeber and Wengrow's *The Dawn of Everything* drew my attention some specific aspects of this relationship that I think are particularly interesting (and troubling). They are also professionally interesting to me since Graeber and Wengrow are fundamentally pushing back on narratives of technical progress. In fact, I nearly wrote this post for my "Work" sub-blog but am too lazy this morning to do the scaffolding needed to make the Book of Mormon narrative accessible to those not familiar with it; I recognize that someone can also read my "Communities" posts without being super familiar with the Book of Mormon, but I'm going to roll the dice on that one and answer questions as they come up.
+
+In short, Graeber and Wengrow argue that narratives of technical progress are a response to Indigenous Americans' critiques of European cultures and norms. Faced with the possibility of happy, thriving societies in the Americas that didn't resemble their own (and who were happy to critique their own), European intellectuals responded to their *indigenous critique* by advancing a theory of inevitable technical progress that framed European societies as inherently superior (because they are further along that trajectory of progress) and framed the seeming advantages of American Indigenous societies as obstacles that must be overcome for progress. Here's one example the two Davids give, referencing the French economist A. R. J. Turgot: 
+
+> Yes, Turgot acknowledged, 'we all love the idea of freedom and equality' — in principle. But we must consider a larger context. In reality, he ventured, the freedom and equality of savages is not a sign of their superiority; it's a sign of inferiority, since it is only possible in a society where each household is largely self-sufficient and, therefore, where everyone is equally poor. As societies evolve, Turgot reasoned, technology advances. Natural differences in talents and capacities between individuals (which have always existed) become more significant, and eventually they form the basis for an ever more complex division of labour. We progress from simple societies like those of the Wendat to our own complex 'commercial civilization', in which the poverty and dispossession of some — however lamentable it may be — is nonetheless the necessary condition for the prosperity of society as a whole.
+
+As I was going through the Book of Mormon this morning to advance a side project of mine, I was struck how this passage in Alma 20 (CofC chapter divisions; also too lazy to look up the LDS equivalent) echoes this logic. Note the way that the European-coded Nephites are framed as technically superior to the Indigenous-coded Lamanites: 
+
+> 19 And Moroni took all the command, and the government of their wars. And he was only twenty-five years old when he was appointed chief captain over the armies of the Nephites.
+> 
+> 20 He met the Lamanites in the borders of Jershon, and his people were armed with swords, and with cimeters, and all manner of weapons of war.
+> 
+> 21 And the armies of the Lamanites saw that the people of Nephi, had been prepared by Moroni with breastplates, and with arm shields, and also shields to defend their heads; and also they were dressed with thick clothing.
+> 
+> 22 Now the army of Zerahemnah was not prepared with any such thing.
+> 
+> 23 They had only their swords, and their cimeters, their bows and their arrows, their stones and their slings; and they were naked, save it were a skin which was girded about their loins; all were naked, save it were the Zoramites and the Amalekites.
+>
+> 24 But they were not armed with breastplates nor shields; therefore they were exceedingly afraid of the armies of the Nephites because of their armor, notwithstanding their number being so much greater than the Nephites.
+
+Here, like other places in the Book of Mormon, technical superiority is equated with being righteous and favored by God. I'm far from the first person to notice the way that the Lamanites are (often, but not universally) coded as primitive savages—or how problematic this coding is given the book's suggestion that the Lamanites are the ancestors of Indigenous Americans. Sheepishly, though, I have to confess that it's only (re)reading Graeber and Wengrow that has helped me see just how much this is true—and how often the Book of Mormon draws on 18th and 19th century ideas about Indigenous Americans in telling its stories.
+
+This is important to me for three reasons. First, if I am going to make a case for the continued value of the Book of Mormon, I need to actively confront my settler colonial roots, listen to indigenous critiques of the Book of Mormon, and figure out what is worth redeeming and what isn't. Second, though, I think that the Book of Mormon's incorporation of narratives of technical progress makes it an interesting site for theological reflection: Not to accept at face value what the text has to say about technology and technical progress, but to start a conversation with the text as we figure out our own theologies. Third, in my professional life, if narratives of technical progress are baked into the founding text of Mormonism, that is worth looking more into if/as I continue to explore the relationship between Mormonism and technology. 

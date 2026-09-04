@@ -2,7 +2,7 @@
 types: ["macro"]
 date: 2025-08-26T17:39:06-04:00
 title: "religious institutions, religious community, and religion-as-platform"
-tags: ["Rosemary Avance","Mediated Mormons","online Mormonism","SSSR 2026","SSSR","MSSA","platforms","religion","Mormonism","Church of Jesus Christ of Latter-day Saints","affinity spaces"]
+tags: ["Rosemary Avance","Mediated Mormons: Shifting Religious Identities in the Digital Age","online Mormonism","SSSR 2026","SSSR","MSSA","platforms","religion","Mormonism","Church of Jesus Christ of Latter-day Saints","affinity spaces"]
 ---
 
 I am very excited that Rosemary Avance is coming to one of the Mormon Social Science Association sessions at this year's Society for the Scientific Study of Religion to speak on her book *Mediated Mormons*. I've just started the book in preparation for the session, and I was struck by the questions that make up the first two lines of the introduction:
