@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ICT 302 3.1</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      
+      
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+background-color: black
+
+<h1 style=color:white>ICT 302: Content Management Systems</h1>
+<h2 style=color:white>8 September 2026</h2>
+<h2 style=color:white>Dr. Spencer Greenhalgh</h2>
+
+---
+background-color: gray
+
+class: center, middle
+
+# readings quiz
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# announcements
+
+---
+
+class: center, middle
+
+# last week of flip-flopped instructors!
+
+---
+
+class: center, middle
+
+# CI Research and Creative Experience Expo
+
+## September 8, 11am - 1pm
+## Gatton Student Center Social Staircase
+
+---
+
+class: center, middle
+
+# 5 Across: startup pitch series by Awesome, Inc.
+
+### Wednesday, September 9th, 5pm - 7pm (The Mane on Main)
+
+### Wednesday, October 14th, 5pm - 7pm (The Main on Main)
+
+### Wednesday, December 2nd, 5pm - 7pm (Kentucky Theatre)
+
+#### Register [here](https://awesomeinc.org/events/5across/) (ICT discount code available—contact me!)
+
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# lecture quiz recap
+
+---
+
+class: center, middle
+
+# what are the two key characteristics of content? 
+
+---
+
+class: center, middle
+
+## what are some obvious examples of content?
+
+## what are some fuzzy examples of (not-)content?
+
+## what are some obvious examples of not-content
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# content modeling, revisited
+
+---
+
+class: center, middle
+
+# content models and content types
+
+---
+
+## all terms from Barker's [*Web Content Management* book](https://deanebarker.net/books/squirrel/) or [Flying Squirrel Book glossary](https://deanebarker.net/tech/glossary/):
+
+* ### content model: "collection of *content types*, *attributes*, *relationships*, and *datatypes*" ([source](https://deanebarker.net/tech/glossary/content-model/))
+
+    * ### content type: "the 'pattern' for a piece of content, or the definition of the information a particular type of content requires to be considered valid" ([source](https://deanebarker.net/books/squirrel/content-modeling/))
+    
+    * ### attribute: "the smallest unit of information in your content model, and it represents a single piece of information about a content object" ([source](https://deanebarker.net/books/squirrel/content-modeling/))    
+
+    * ### datatype: "specification for the type of data which can be stored in an attribute" ([source](https://deanebarker.net/tech/glossary/datatype/))
+    
+---
+
+## all terms from Barker's [*Web Content Management* book](https://deanebarker.net/books/squirrel/) or [Flying Squirrel Book glossary](https://deanebarker.net/tech/glossary/):
+
+* ### content model: "collection of *content types*, *attributes*, *relationships*, and *datatypes*" ([source](https://deanebarker.net/tech/glossary/content-model/)) **on Dr. Greenhalgh's website**
+
+    * ### content type: [short post](https://spencergreenhalgh.com/work/2024-06-14-summer-is/) [(code)](https://raw.githubusercontent.com/greenhas/spg_website/refs/heads/master/content/Work/2024-06-14-Summer-is.md), [photopost](https://spencergreenhalgh.com/work/2026-03-16-wired-placeholder/) [(code)](https://raw.githubusercontent.com/greenhas/spg_website/refs/heads/master/content/Work/2026-03-16-WIRED-placeholder.md), [longpost](https://spencergreenhalgh.com/work/doubling-down-on-hugo-in-ict-302/) [(code)](https://raw.githubusercontent.com/greenhas/spg_website/refs/heads/master/content/Work/doubling-down-on-hugo-in-ict-302.md), [linkpost](https://spencergreenhalgh.com/work/2024-10-13-i-am/), [(code)](https://raw.githubusercontent.com/greenhas/spg_website/refs/heads/master/content/Work/2024-10-13-I-am.md) 
+    
+    * ### attribute: what attributes exist in all these content types? which ones vary?
+
+    * ### datatype: what are some examples of datatypes in these content types?
+    
+---
+
+class: center, middle
+
+# *content type* is defined by the *pattern* of content, not by the content in the pattern
+
+## [professional photopost](https://spencergreenhalgh.com/work/2026-03-16-wired-placeholder/) [(code)](https://raw.githubusercontent.com/greenhas/spg_website/refs/heads/master/content/Work/2026-03-16-WIRED-placeholder.md) vs. [just-for-fun photopost](https://spencergreenhalgh.com/myself/2026-08-28-tapestry-trains/) [(code)](https://raw.githubusercontent.com/greenhas/spg_website/refs/heads/master/content/Myself/2026-08-28-Tapestry-trains.md)
+
+---
+
+class: center, middle
+
+# it can get tricky when a content type has optional elements
+
+## [movie review 1](https://spencergreenhalgh.com/myself/2026-08-10-i-hate/) [(code)](https://raw.githubusercontent.com/greenhas/spg_website/refs/heads/master/content/Myself/2026-08-10-I-hate.md) vs. [movie review 2](https://spencergreenhalgh.com/relationships/2026-08-24-this-movie/) [(code)](https://raw.githubusercontent.com/greenhas/spg_website/refs/heads/master/content/Relationships/2026-08-24-This-movie.md) 
+
+## (technically, my photoposts probably aren't a separate content type, even if I think of them that way)
+
+---
+
+class: center, middle
+
+# let's think through some content models
+
+---
+
+class: center, middle
+
+# first: the more access you have to content creation in a system, the easier it is to tell what the content types, attributes, and datatypes are
+
+---
+
+class: center, middle
+
+# Instagram: what content types? what attributes? what datatypes? 
+
+---
+
+class: center, middle
+
+# Canvas: what content types? what attributes? what datatypes? 
+
+---
+
+background-color: gray
+
+class: center, middle
+
+# what is content? 
+
+---
+
+class: center, middle
+
+# editorial process:
+
+## “The process by which content is created. The editorial process is iterative and highly subjective. Editorial process is what separates content from simple data or information.”​
+​
+Deane Barker, the [Web Content Management glossary​](https://deanebarker.net/tech/glossary/editorial-process/)
+
+---
+
+class: center, middle
+
+# What does “iterative” mean? What does “highly subjective” mean?​
+
+## How does generative AI provide a tempting alternative to both?
+
+---
+
+class: center, middle
+
+# "content" isn't the work that we do, it's the result of that work​
+
+## (however, this is why "AI slop as business model" is so exciting for some people)
+
+---
+
+class: center, middle
+
+# “content” jobs are defined more by the editorial process than by the result​
+
+---
+
+class: center, middle
+
+# what editorial processes do you follow?
+
+---
+
+class: center, middle
+
+# how did we see the editorial process play out in the making of the original Star Wars movie? 
+
+---
+
+class: center, middle
+
+# why is there so much focus on the editorial process?
+
+---
+
+class: center, middle
+
+# when editorial processes *go wrong*
+
+---
+
+# when editorial process goes wrong!
+
+November 17, 2020 *New York Times* [story](https://www.nytimes.com/2020/11/17/world/europe/france-website-obituaries.html) by Aurelien Breeden: 
+
+--
+
+> *For a brief moment this week, startled readers of a French news site had to grapple with the apparent demise of Queen Elizabeth II of England; Pelé, the Brazilian soccer legend; Clint Eastwood; Brigitte Bardot; and dozens of other celebrities and world leaders.*
+
+--
+
+> *As it turned out, the website of Radio France Internationale had mistakenly published about 100 prewritten obituaries for prominent figures.*
+
+--
+
+> *Several hours after the obituaries first ran on Monday, the public radio station, which broadcasts in France and abroad, apologized and started taking the reports offline. It said unedited drafts had been accidentally published as it moved its website to a new content management system. Online platforms like Google and Yahoo News then automatically picked up some of the articles.*
+
+---
+
+# when editorial process goes wrong!
+
+August 8, 2022 *The Onion* [article](https://www.theonion.com/note-do-not-run-until-fucking-queen-is-dead-or-people-1849511595): 
+
+--
+
+> *LONDON—After 70[?] years as the ruling monarch of the United Kingdom and [CHECK HOW MANY COUNTRIES SHE’S IN CHARGE OF OR ELSE TWITTER PEDANTS WILL GET MAD] Queen Elizabeth died [PEACEFULLY OR PAINFULLY—COPY WHATEVER BBC OBIT SAYS] in [TK LOCATION] at the age of 89. A child [ONLY? CHECK IF BROTHERS AND SISTERS] of King George VI and [LOOK UP MOTHER’S NAME], she ascended to the throne in 19[TK DO NOT GET THIS WRONG OR PEOPLE WILL BE MAD] following the death of her father, and during her reign presided over such events as the Troubles in Ireland, decolonization in Africa [NOTE: CAN IT BE THAT RECENT? DOUBLE-CHECK], and Brexit.*
+
+---
+
+# when editorial process goes wrong!
+
+February 28, 2022 *The Scotsman* [story](https://www.scotsman.com/news/world/russian-news-agency-appears-to-accidentally-publish-article-claiming-victory-3590253): 
+
+--
+
+> *It is the blunder feared by every news outlet that has pre-prepared articles written in the event of a sudden breaking story.*
+
+--
+
+> *For Russian state-run news agency RIA-Novosti, the error was arguably worse than many similar bloopers, when it published a comment piece [two days after the invasion] proclaiming Russian victory in the conflict between Ukraine and Russia.*
+
+---
+
+# when editorial process goes wrong!
+
+--
+
+July 6, 2023 *The Verge* [story](https://www.theverge.com/2023/7/6/23785645/go-media-ai-generated-articles-gizmodo-av-club-artificial-intelligence-bots):
+
+--
+
+> *G/O’s early experiments with AI tools began on Wednesday through a couple of articles appearing on Gizmodo and The AV Club credited to the publications’ respective bots. And almost immediately, there were embarrassing mistakes.*
+
+--
+
+> *The Gizmodo bot’s first story, “A Chronological List of Star Wars Movies & TV Shows,” contained factual errors about the in-universe chronology of the franchise, something fans were quick to point out.*
+
+--
+
+> *James Whitbrook, a deputy editor of *io9*, where the story appeared, tweeted that he was unaware the article would be published until shortly before. Whitbrook also said that “no one at *io9* played a part in its editing or publication.”*
+
+---
+
+# when editorial process goes wrong!
+
+[my Google Scholar page](https://scholar.google.com/citations?user=o3JQjpcAAAAJ&hl=en&oi=ao)
+
+---
+# workflow
+
+--
+
+> *An framework to move content through a defined set or map of specific steps, activities, or tasks.*
+
+--
+
+> *The content can only be “in” one such state for a particular workflow at a time. When that state resolves, content will “move” to another state, and continue until the workflow ends.*
+
+Deane Barker, [Flying Squirrel Glossary](https://flyingsquirrelbook.com/glossary/term/workflow/)
+
+---
+
+class: center, middle
+
+# who can provide an example of workflow? 
+
+---
+
+class: center, middle
+
+# ICT 302/315 groups!
+
+---
+
+## group 1: Michel Garcia Villasenor, Elizabeth Angell, Josh Pendanjila, Mbake Kekia
+
+## group 2: Chris Glover, Zach Burch, Will Cioci, Kai Clouse
+
+## group 3: Xander Ray, Rocco La Vista, Luke Nestor, Sunhok Chea
+
+## group 4: Riley Harper, James Wallace, Harry Wallace, Dylan Capps
+
+## group 5: Zakia Sahla, Jayden McBride, Connor Suddarth, Colin Fedders
+
+---
+
+class: center, middle
+
+# role
+
+## "… an organizational term meaning a collection of responsibilities…​
+​
+## "… The usage of the term ‘role’ abstracts a collection of responsibilities away from a specific person. Responsibilities belong to the role not the person, though a specific person might hold that role at any given time.”​
+​
+Deane Barker, the [Web Content Management glossary​](https://deanebarker.net/tech/glossary/role/)
+
+---
+
+# roles in content management
+
+> *There simply is no single skill of “cooking.” If you say, “I can cook!” what are you saying? It’s not like you stand there and then just…cook. It’s not binary like you’re just “cooking” or “not cooking.”*
+
+Deane Barker, ["Content Management is an Emergent Skill"](https://deanebarker.net/tech/blog/content-management-is-emergent-skill/)
+
+---
+
+# roles in content management
+
+--
+
+Barker's [megalist](https://deanebarker.net/tech/blog/content-management-is-emergent-skill/):
+
+* content strategy
+* content modeling
+* content production and operations
+* content administration and operations
+* content abstracting and labeling
+* localization
+* information architecture
+* text formatting
+* rich media management and manipulation
+* marketing technology management
+* content governance and standards
+* project and product management
+* analytics
+* compliance and legal issues
+* delivery formats and channels
+* delivery formats and channels
+* form and interface design
+* workflow theory
+
+---
+# roles in content management
+
+--
+## five roles in Barker's *Web Content Management*:
+
+--
+
+* ### editors
+* ### site planners
+* ### developers 
+* ### administrators
+* ### stakeholders
+
+--
+
+# 🎩🧢👒🎓
+
+---
+
+class: center, middle
+
+# Barker organizes roles around different users of a content management system
+
+---
+
+class: center, middle
+
+# what is a content management system?
+
+---
+
+# editors
+
+
+> *A CMS user responsible for performing editorial process to create, edit, or otherwise manage content. An editor creates, manages, edits, approves, and publishes content. This is considered the core user of a CMS. Most CMS functionality is based around editors.*
+
+Deane Barker, [Flying Squirrel Glossary](https://flyingsquirrelbook.com/glossary/term/editor/)
+
+--
+
+### subtypes:
+
+* power editor
+* approver
+* community manager / content moderator
+* marketer
+
+---
+
+# site planners
+
+--
+
+> *Site planners are responsible for designing the website the CMS will manage. Most of their involvement will be prior to launch, with sporadic further involvement as the site develops and changes over time.* 
+
+Deane Barker, *Web Content Management: Systems, Features, and Best Practices*, p. 56
+
+---
+
+# developers
+
+--
+
+> *The role responsible for installing, configuring, extending, and templating a CMS implementation.*
+
+Deane Barker, [Flying Squirrel Glossary](https://flyingsquirrelbook.com/glossary/term/developer/)
+
+--
+
+### subtypes:
+
+* front-end developers (work with HTML/CSS and templates)
+* back-end developers (work with the CMS itself and extensions)
+
+---
+
+# administrator
+
+--
+
+> *A role responsible for managing the settings, users, permissions, and other configurable functionality of a CMS. This role manages the system itself, not the content within it.*
+
+--
+
+> *The person in the administrator role is often also a power editor, and occasionally one of the implementing developers.*
+
+Deane Barker, [Flying Squirrel Glossary](https://flyingsquirrelbook.com/glossary/term/administrator/)
+
+---
+
+# stakeholder
+
+--
+
+> *A role which does not interact directly with the CMS but is primarily concerned with the results the CMS is intended to bring about.*
+
+Deane Barker, [Flying Squirrel Glossary](https://flyingsquirrelbook.com/glossary/term/stakeholder/)
+
+
+
+
+
+
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    	var slideshow = remark.create({
+     		navigation: {
+     			scroll: false,
+     		},
+     		slideNumberFormat:'%current%/%total%',
+  		});
+    </script>
+  </body>
+</html>
