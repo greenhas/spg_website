@@ -2,9 +2,9 @@
 types: ["tea"]
 layout: tea
 date: 2026-07-16T11:13:51-04:00
-title: "☕ teablog: Druids Garden Tea Company, Vanilla Cherry Chai  (❤️❤️❤️❤️❤️)"
-tags: ["black tea","Druids Garden Tea Company","Vanilla Cherry Chai"]
-brands: ["Druids Garden Tea Company"]
+title: "☕ teablog: Druid's Garden Tea Company, Vanilla Cherry Chai  (❤️❤️❤️❤️❤️)"
+tags: ["black tea","Druid's Garden Tea Company","Vanilla Cherry Chai"]
+brands: ["Druid's Garden Tea Company"]
 blends: ["Vanilla Cherry Chai"]
 tea_types: ["black"]
 tea_ratings: ["❤️❤️❤️❤️❤️"]
