@@ -1,0 +1,21 @@
+---
+types: ["macro"]
+date: 2026-09-30T10:15:29-04:00
+title: "Ellul's ethic of non-power and (generative) AI"
+tags: ["non-power","Jacques Ellul","AI","generative AI","Mark Zuckerberg","degrowth"]
+---
+One of the most unintuitive things about Jacques Ellul's thinking (for me, at least) is the way that it is built on skepticism of efficacy and efficiency. Maybe getting things done isn't always good. Maybe doing things more efficiently isn't always better. As someone spending a big chunk of his week overhauling his productivity systems so that he feels more on top of things, these propositions feel *wrong* when I first read them.
+
+I'm glad I discovered Ellul in the era of AI, though, because I think it's this phenomenon more than anything else that shows how an Ellulian skepticism is actually necessary. After all, "why wouldn't we want to do more, more efficiently?" feels like the rallying cry for most of the AI companies out there. Mark Zuckerberg's recent "[The Future is for Everyone](https://about.fb.com/news/2026/08/the-future-is-for-everyone/)" manifesto captures a lot of this with phrases like "[p]utting power in people’s hands," "each person will become more capable," and "help you accomplish more than you could otherwise" (and these just in the first few paragraphs, because I don't care to read the whole thing right now).
+
+And yet, the question "why wouldn't we want to do more, more efficiently?" also seems to me to be related to some of the worrying things that AI models have gotten up to recently. Consider this, from [*Ars Technica*'s coverage](https://arstechnica.com/ai/2026/09/heres-what-actually-happened-in-openais-australian-govt-server-hack/) of recent concerns about an OpenAI agent's interactions with an Australian government website: 
+
+> In [a newly published blog post](https://openai.com/index/how-we-will-do-better-for-australia/), OpenAI says the June incident started when the company asked “an experimental, internal-only OpenAI model” to research government spending statistics in the Australian state of Victoria. When the model ran into trouble finding that data using the publicly published statistics that it was supposed to reference, “it took actions that we had not authorized it to take” to find an answer, OpenAI said.
+
+This, in turn, reminds me of an Ellul quote that I've already blogged, from (the 2016 translation of) 1948's *Presence in the Modern World*:
+
+> In reality, what justifies the means today is whatever succeeds. Whatever is effective, whatever possesses in itself an “efficiency,” is justified. By applying means, a result is produced. This result is judged by these simplistic criteria of “more”: larger, faster, more precise, and so on. Simply by applying this criterion, the means is declared good. What succeeds is good, what fails is bad.
+
+The same "larger, faster, more precise" that is the selling point of AI strikes me as the other side of the coin of the "whatever succeeds" that AI agents seem to have internalized whenever they mess with government websites or otherwise breach containment. And sure, "actions that we had not authorized it to take" is a tacit admission on OpenAI's part that "more, more efficiently" isn't good in 100% of cases. Yet, it seems to me that it remains the underpinning philosophy of the current AI boom, whether we're talking about sales pitches by companies, mandates to adopt by employers, or anything else.
+
+This is where Ellul's unintuitive skepticism seems to pay off. His elaboration of an ethic of *non-power*, of "being capable of doing something and deciding against it" (as he described in 1980's *The Power of Technique and the Ethics of Non-Power*) seems well suited for our time. After all, Ellul's argument is not fundamentally that we shouldn't "do things" or "do things efficiently." It's that we need to carefully consider what deserves doing, and ask ourselves what the costs are of doing things "more efficiently." Using that as a starting point would really change the conversation.
