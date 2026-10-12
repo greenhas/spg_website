@@ -2,7 +2,7 @@
 types: ["macro"]
 date: 2026-10-05T10:19:20-04:00
 title: "does AI help us work less or work more?"
-tags: ["degrowth","Nicholas Georgescu-Roegen","AI","generative AI"]
+tags: ["degrowth","Nicholas Georgescu-Roegen","AI","generative AI","Exploring Degrowth: A Critical Guide"]
 ---
 
 I just started reading a([nother](https://spencergreenhalgh.com/communities/2025-11-14-theres-a/)) book on degrowth, an idea that's caught my interest over the past year or so. Although the book was published in 2020, there's one passage that feels like it captures a lot of 2026's discourses around AI. The passage is a quote from the Romanian economist Nicholas Georgescu-Roegen, which reads: 

@@ -1,0 +1,18 @@
+---
+types: ["macro"]
+date: 2026-10-12T09:44:49-04:00
+title: "on little acts of radicalism"
+tags: ["The Big Short","generative AI","AI","Twitter","Elon Musk","anarchism","degrowth","The Good Place","Lex Friedman"]
+---
+
+I aspire to a level of radicalism that I know I may never attain. I like reading books on anarchism and degrowth, and the ideals that they present really resonate with me, but I struggle to extricate myself from existing systems in order to show a personal commitment to new ones. Very obviously, I am not alone in this: Very few of us have the commitment to live like Doug Forcett, the character from *The Good Place* who carefully calculates the ethical ramifications of every action he takes. In fact, one of the most interesting things that the show does with Forcett is turn him from a one-off gag in the first season to an actual character who is overwhelmed by the ethical burden of these calculations and serves as an example of how systems need to change, not just people.
+
+Yet, systems can only change when people make efforts to change them, and while political action is a necessary component to that, I think there are personal actions that are also important. I wish I were better at both categories! I [recently watched](https://spencergreenhalgh.com/2026-10-12-My-Experience) the movie *The Big Short*, and one of the uncomfortable things that's occurred to me in the days that I've been stewing over the movie is that however upset I might get over stock markets, financial systems, and all the rest, my retirement money is tied up in all of that. It's easy for me to pine for a different world where economies are built on different principles than they currently are, but am I willing to risk my savings to do so?
+
+This is just one of many ways that I fail to "live into being" the world that I would like to see emerge, but the point of this post isn't self-flagellation. Rather, it's the importance of little acts of radicalism while waiting for the courage or ability to push for bigger changes. [Lex Friedman](https://lexontech.org/x-is-bad-though) wrote a post yesterday about sticking to guns and not going back to X/Twitter because Elon Musk is worth resisting, even if there are opportunities that we miss out on there. I appreciate that Friedman acknowledges that this stands in tension with the fact that he owns a couple of Teslas—it's *hard* to be radical, even in little ways. I agree with Lex, though: It's worth finding little things to be radical about, even if we're complicit in other ways.
+
+I sometimes think to myself that this is one of the reasons that I feel so insistent about not using generative AI. I'm super tied into tech systems that make me feel complicit. Don't love Google as a company, but I willingly use their products. Don't love Microsoft as a company, but I have to use their products for work. My iPhone was built with exploited labor, and I hate that, but I'm not quite ready to step away from the conveniences of the Apple ecosystem. 
+
+Generative AI, though? I may not be able to resist it forever (especially given the work that it's taking to find and turn off all the switches in macOS 27, ugh), but this is a new technology that I'm not already entangled in. If I feel like generative AI is built on an unethical foundation (and I do), one little radical act I can do is to choose not to tangle myself up in it.
+
+These little acts don't absolve me of not doing more to bring about systemic change, but neither do my systemic entanglements make me an unredeemable monster. Being deliberate about little choices isn't enough to build a better world, but it's exercising a muscle that I hope will be more developed in the future.
