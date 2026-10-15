@@ -14,4 +14,4 @@ params:
   entry: Volume 3
 ---
 
-I'n pickier about this volume because it's harder to follow up on a good premise than to set it up, but it hasn't entirely jumped the shark, and I'm still enjoying it.
+I'm pickier about this volume because it's harder to follow up on a good premise than to set it up, but it hasn't entirely jumped the shark, and I'm still enjoying it.

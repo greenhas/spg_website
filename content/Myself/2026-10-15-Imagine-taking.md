@@ -3,7 +3,7 @@ types: ["media"]
 layout: book
 date: 2026-10-15T08:57:03-04:00
 title: "📚 bookblog: Galactic, #1  (❤️❤️❤️❤️🖤)"
-tags: ["","Curt Pires","Amilcar Pinna","Lee Loughridge","Micah Myers","Galactic",""]
+tags: ["Star Wars","Curt Pires","Amilcar Pinna","Lee Loughridge","Micah Myers","Galactic"]
 media: ["book","comic"]
 titles: [""]
 creators: ["Curt Pires","Amilcar Pinna","Lee Loughridge","Micah Myers"]
