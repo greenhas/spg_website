@@ -166,7 +166,7 @@ capitalizeListTitles = false
         ]
         
         [params.ananke.social.bluesky]
-            profilelink = "https://bsky.app/profile/spencergreenhalgh.com"
+            profilelink = "https://bsky.app/profile/spgreenhalgh.bsky.social"
             
         [params.ananke.social.email]
             profilelink = "mailto:spencer.greenhalgh@posteo.net"
