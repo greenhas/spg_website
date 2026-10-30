@@ -1,6 +1,6 @@
 ---
 types: ["publication"]
-date: 2026-10-130
+date: 2026-10-30
 layout: publication
 publication_types: "conference presentation"
 title: "Jacques Ellul, platforms, and Latter Day Saint technical responses to COVID-19"
