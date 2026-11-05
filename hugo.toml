@@ -1,5 +1,4 @@
 baseURL = 'https://spencergreenhalgh.com/'
-# languageCode = 'en-us'
 title = 'Spencer Greenhalgh'
 theme = "ananke_custom_2025"
 # themesDir = "../.."
@@ -12,15 +11,18 @@ googleAnalytics = ""
 enableRobotsTXT = false
 capitalizeListTitles = false
 
+[security]
+  allowContent = ['! ^text/org$']
+
 [pagination]
     pagerSize = 25
 
 [languages]
     [languages.en]
        disabled = false
-        languageCode = 'en'
-        languageDirection = 'ltr'
-        languageName = '[en]'
+        Locale = 'en'
+        Direction = 'ltr'
+        Label = '[en]'
         weight = 1
         [languages.en.menus]
             [[languages.en.menus.main]]
@@ -57,9 +59,9 @@ capitalizeListTitles = false
 
     [languages.fr]
         disabled = false
-        languageCode = 'fr'
-        languageDirection = 'ltr'
-        languageName = '[fr]'
+        Locale = 'fr'
+        direction = 'ltr'
+        Label = '[fr]'
         weight = 2
         [languages.fr.menus]
             [[languages.fr.menus.main]]
