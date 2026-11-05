@@ -1,6 +1,5 @@
 ---
 types: ["photo"]
-
 date: 2026-10-29T14:59:21-06:00
 tags: ["Patrick Stewart","Star Trek","Star Trek: The Next Generation"]
 featured_image: "/2026-10-29-RIP-Patrick-Stewart.JPEG"
