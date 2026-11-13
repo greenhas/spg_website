@@ -1,8 +1,11 @@
 baseURL = 'https://spencergreenhalgh.com/'
 title = 'Spencer Greenhalgh'
-theme = "ananke_custom_2025"
-# themesDir = "../.."
-# resourceDir = "../resources"
+
+[module]
+	[[module.imports]]
+    	path = "spg_custom"
+  	[[module.imports]]
+    	path = "github.com/zetxek/systemone"
 
 DefaultContentLanguage = "en"
 # SectionPagesMenu = "main"

@@ -1,0 +1,50 @@
+{{ define "main" }}
+{{- $home := .Site.Params.home -}}
+{{- $headline := (or $home.headline .Site.Title) -}}
+{{- $highlight := $home.highlight -}}
+{{- $parts := slice -}}
+{{- if $highlight -}}
+  {{- $parts = split $headline $highlight -}}
+{{- end -}}
+<section class="hero container">
+  <span class="section-label hero__eyebrow">{{ i18n "homeEyebrow" | default "00 / Index" }}</span>
+  <h1 class="hero__title u-display-xl">
+    {{- if eq (len $parts) 2 -}}
+      {{- index $parts 0 -}}<mark>{{ $highlight }}</mark>{{- index $parts 1 -}}
+    {{- else -}}
+      {{- $headline -}}
+    {{- end -}}
+  </h1>
+  {{- with $home.description }}
+  <p class="hero__deck">{{ . }}</p>
+  {{- end }}
+  {{- with $home.actions }}
+  <div class="hero__actions">
+    {{- range first 2 . }}
+    <a class="button {{ if eq .variant "secondary" }}button--secondary{{ else }}button--primary{{ end }}" href="{{ .url }}">{{ .label }}</a>
+    {{- end }}
+  </div>
+  {{- end }}
+</section>
+<article class = "container">
+	<div class="prose"{{ if eq site.Params.design.prose "mono" }} data-prose="mono"{{ end }}>{{.Content}}</div>
+</article>
+
+{{- $posts := where site.RegularPages "Section" "posts" }}
+{{- with $posts }}
+
+<section class="container">
+  <span class="section-label">{{ i18n "latestLabel" | default "01 / Latest" }}</span>
+  <ul class="post-index">
+    {{- range first 6 (sort . "Date" "desc") }}
+    <li class="post-index__item">
+      {{- if not .Date.IsZero }}
+      <time class="post-index__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+      {{- end }}
+      <p class="post-index__title u-h3-style"><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+    </li>
+    {{- end }}
+  </ul>
+</section>
+{{- end }}
+{{ end }}
