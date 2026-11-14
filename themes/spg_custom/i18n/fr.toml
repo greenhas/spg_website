@@ -1,3 +1,6 @@
+[tagList]
+other = "Mots-clés :"
+
 [creativeCommons]
 other = "Sauf indication contraire, le contenu de ce site a été créé par Spencer Greenhalgh et est disponible sous une license CC BY 4.0."
 
@@ -65,7 +68,7 @@ other = "Activate to change."
 other = "auto"
 
 [appearanceLight]
-other = "light"
+other = "clair"
 
 [appearanceDark]
-other = "dark"
+other = "sombre"

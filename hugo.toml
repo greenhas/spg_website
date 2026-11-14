@@ -1,5 +1,6 @@
 baseURL = 'https://spencergreenhalgh.com/'
 title = 'Spencer Greenhalgh'
+summaryLength = 1
 
 
 [module]
@@ -14,6 +15,7 @@ DefaultContentLanguage = "en"
 googleAnalytics = ""
 enableRobotsTXT = false
 capitalizeListTitles = false
+
 
 [security]
   allowContent = ['! ^text/org$']

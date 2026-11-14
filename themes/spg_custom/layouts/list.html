@@ -16,10 +16,25 @@
     {{- range sort . "Date" "desc" }}
     <li class="post-index__item">
       {{- if not .Date.IsZero }}
-      <time class="post-index__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format (compare.Default "2 January 2006" .Site.Params.date_format) }}</time>
+      <span class="post-index__date"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format (compare.Default "2 January 2006" .Site.Params.date_format) }}</time> | {{.Params.Types}}</span>
       {{- end }}
       <p class="post-index__title u-h3-style"><a href="{{ .Permalink }}">{{ .Title }}</a></p>
-      <p>{{.Summary}}</p>
+     
+      <div style="margin: 1em" class="prose"{{ if eq site.Params.design.prose "mono" }} data-prose="mono"{{ end }}>
+    {{ .Summary }}</div>
+  
+  	{{if compare.Lt (math.Add (.Summary | len) 1) (.Content | len)}}
+  		<a class="button button--secondary" href="{{ .Permalink }}">Read whole post</a>
+  		<br><br>
+  	{{end}}
+ 
+  {{ if .Params.tags }}
+       <span class="prose">{{ i18n "tagList" }}  
+          {{ range .Params.tags }}
+          <a href="/tags/{{ . | urlize }}">{{ . }}</a> 
+          {{ end }}
+       </span>
+        {{ end }}
     </li>
     {{- end }}
   </ul>
