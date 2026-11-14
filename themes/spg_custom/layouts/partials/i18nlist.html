@@ -1,0 +1,10 @@
+{{ if .IsTranslated }}
+<h4>{{ lang.Translate "translations" }}</h4>
+<ul class="primary-nav">
+    {{ range .Translations }}
+    <li>
+        <a href="{{ .RelPermalink }}">{{ .Language.Locale }}</a>
+    </li>
+    {{ end}}
+</ul>
+{{ end }}

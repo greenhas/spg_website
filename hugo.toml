@@ -1,6 +1,7 @@
 baseURL = 'https://spencergreenhalgh.com/'
 title = 'Spencer Greenhalgh'
 
+
 [module]
 	[[module.imports]]
     	path = "spg_custom"
@@ -23,7 +24,7 @@ capitalizeListTitles = false
 [languages]
     [languages.en]
        disabled = false
-        Locale = 'en'
+        Locale = '🇺🇸 [en]'
         Direction = 'ltr'
         Label = '[en]'
         weight = 1
@@ -62,7 +63,7 @@ capitalizeListTitles = false
 
     [languages.fr]
         disabled = false
-        Locale = 'fr'
+        Locale = '🇫🇷 [fr]'
         direction = 'ltr'
         Label = '[fr]'
         weight = 2

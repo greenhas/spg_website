@@ -1,0 +1,28 @@
+{{ define "main" }}
+<header class="hero container">
+  <span class="section-label hero__eyebrow">{{ i18n "sectionEyebrow" | default "00 / Index" }}</span>
+  <h1 class="hero__title">{{ .Title }}</h1>
+  {{- with .Description }}
+ 
+
+  <p class="hero__deck">{{ . }}</p>
+  {{- end }}
+  <p class="meta">{{ len .Pages }} {{ i18n "entries" | default "entries" }}</p>
+</header>
+{{- with .Pages }}
+<section class="container">
+  <span class="section-label">{{ i18n "entriesLabel" | default "01 / Entries" }}</span>
+  <ul class="post-index">
+    {{- range sort . "Date" "desc" }}
+    <li class="post-index__item">
+      {{- if not .Date.IsZero }}
+      <time class="post-index__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format (compare.Default "2 January 2006" .Site.Params.date_format) }}</time>
+      {{- end }}
+      <p class="post-index__title u-h3-style"><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+      <p>{{.Summary}}</p>
+    </li>
+    {{- end }}
+  </ul>
+</section>
+{{- end }}
+{{ end }}

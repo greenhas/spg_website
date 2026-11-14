@@ -1,0 +1,71 @@
+[creativeCommons]
+other = "Unless otherwise noted, the content on this website is by Spencer Greenhalgh and licensed under CC BY 4.0."
+
+[skipToContent]
+other = "Skip to content"
+
+[primaryNavigation]
+other = "Primary"
+
+[rssFeed]
+other = "RSS feed"
+
+[footerLabel]
+other = "99 / End"
+
+[footerNavigation]
+other = "Footer"
+
+[homeEyebrow]
+other = "00 / Index"
+
+[latestLabel]
+other = "01 / Latest"
+
+[articleLabel]
+other = "00 / Article"
+
+[pageLabel]
+other = "00 / Page"
+
+[sectionEyebrow]
+other = "00 / Index"
+
+[entriesLabel]
+other = "01 / Entries"
+
+[entries]
+other = "entries"
+
+[notFoundEyebrow]
+other = "04 / Not found"
+
+[notFoundTitle]
+other = "Page not found"
+
+[notFoundHeading]
+other = "Page not found."
+
+[notFoundExplanation]
+other = "The page you were looking for doesn't exist, or it has moved."
+
+[notFoundHome]
+other = "Home"
+
+[notFoundPosts]
+other = "Posts"
+
+[appearanceToggleName]
+other = "Appearance"
+
+[appearanceToggleAction]
+other = "Activate to change."
+
+[appearanceAuto]
+other = "auto"
+
+[appearanceLight]
+other = "light"
+
+[appearanceDark]
+other = "dark"
