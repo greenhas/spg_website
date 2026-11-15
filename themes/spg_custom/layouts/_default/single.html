@@ -14,9 +14,9 @@
       {{- if not .Date.IsZero }}
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
       {{- end }}
-      {{ range sort .Params.tags }}
+      {{ if .Params.tags }}{{ range sort .Params.tags }}
       <span><a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="/tags/{{ . | urlize }}">{{ . }}</a></span>
-      {{- end }}
+      {{- end }}{{end}}
     </p>
     {{- end }}
   </header>
