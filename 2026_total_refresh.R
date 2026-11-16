@@ -31,6 +31,8 @@ for(i in 1:length(file_list)){ # 1:length(file_list)
           temp_file[j] |> 
           str_split("blog:")
         
+        title_spot <- j
+        
         temp_title <- temp_title[[1]][1]
       }
       temp_titles <- ""
@@ -97,14 +99,14 @@ for(i in 1:length(file_list)){ # 1:length(file_list)
   }
     if(temp_series == ""){
       
-      temp_file[5] <- paste0(temp_title,'blog: ',temp_titles,' (',temp_ratings,')"')
+      temp_file[title_spot] <- paste0(temp_title,'blog: ',temp_titles,' (',temp_ratings,')"')
     
       
       # print("blank")
     }
     if(temp_series != ""){
       
-      temp_file[5] <- paste0(temp_title,'blog: ',temp_series,temp_entry,': ', temp_titles,' (',temp_ratings,')"')
+      temp_file[title_spot] <- paste0(temp_title,'blog: ',temp_series,temp_entry,': ', temp_titles,' (',temp_ratings,')"')
       
       # print("blank")
     }
