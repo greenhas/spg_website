@@ -5,7 +5,7 @@
     <span class="section-label hero__eyebrow">
       {{- if $isPost }}{{ i18n "articleLabel" | default "00 / Article" }}{{ else }}{{ i18n "pageLabel" | default "00 / Page" }}{{ end -}}
     </span>
-    <h1 class="hero__title">{{ .Title }}</h1>
+    <!--<h1 class="hero__title">{{ .Title }}</h1>-->
     {{- with .Description }}
     <p class="hero__deck">{{ . }}</p>
     {{- end }}

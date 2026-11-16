@@ -4,5 +4,5 @@
       {{- end }}
       {{range .Params.Types}}<a href="/types/{{ . | urlize }}">{{ . }}post</a> {{end}}
       {{ if .Params.tags }}{{ range sort .Params.tags }}
-      <span><a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="/tags/{{ . | urlize }}">{{ . }}</a></span>
+      <span><a href="/tags/{{ . | urlize }}">{{ . }}</a></span>
       {{- end }}{{end}}

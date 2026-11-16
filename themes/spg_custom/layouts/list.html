@@ -21,7 +21,11 @@
           		<a href="/tags/{{ . | urlize }}">{{ . }}</a> |
           	{{ end }}</span>
         {{end}}
+        
+      {{if eq .Params.layout "link"}}  
+      {{else}}
       <p class="post-index__title u-h3-style"><a href="{{ .Permalink}}">{{ .Title }}</a></p>
+      {{end}}
      
 
 
