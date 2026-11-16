@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-09-17T14:26:27-04:00
-title: "📚 bookblog: The Development of LDS Temple Worship 1846-2000, A Documentary History  (❤️❤️❤️❤️🖤)"
-tags: ["The Development of LDS Temple Worship 1846-2000, A Documentary History","Devery Anderson","LDS technical system","",""]
+title: "📚 bookblog: The Development of LDS Temple Worship 1846-2000, A Documentary History (❤️❤️❤️❤️🖤)"
+tags: ["The Development of LDS Temple Worship 1846-2000, A Documentary History","Devery Anderson","LDS technical system"]
 media: ["book",""]
 titles: ["The Development of LDS Temple Worship 1846-2000, A Documentary History"]
-creators: ["Devery Anderson"]
+artists: ["Devery Anderson"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

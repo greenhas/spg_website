@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-04-21T00:00:00-05:00
 title: "📚 bookblog: La présidente, Tome 1 (❤️❤️❤️🖤🖤)"
-tags: ["Marine Le Pen","France","Rassemblement national","Kindle"]
+tags: ["Marine Le Pen","France","Rassemblement national","Kindle","François Durpaire","Farid Boudjellal","La présidente"]
 media: ["book","comic","bande dessinée"]
 titles: [""]
-creators: ["François Durpaire","Farid Boudjellal"]
+artists: ["François Durpaire","Farid Boudjellal"]
 series: ["La présidente"]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

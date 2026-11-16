@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-02-08T00:00:00-05:00
 title: "📚 bookblog: Running for Local Office for Dummies (❤️❤️❤️🖤🖤)"
-tags: ["Running for Local Office for Dummies","Dan Gookin"]
+tags: ["Running for Local Office for Dummies","Dan Gookin","Dan Gookinn","For Dummies"]
 media: ["book"]
 titles: ["Running for Local Office for Dummies"]
-creators: ["Dan Gookinn"]
+artists: ["Dan Gookinn"]
 series: [""]
 franchise: ["For Dummies"]
 ratings: ["❤️❤️❤️🖤🖤"]

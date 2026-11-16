@@ -1,0 +1,70 @@
+{{ define "main" }}
+<header class="hero container">
+  <span class="section-label hero__eyebrow">{{ i18n "sectionEyebrow" | default "00 / Index" }}</span>
+  <h1 class="hero__title">{{ .Title }}</h1>
+  {{- with .Description }}
+ 
+
+  <p class="hero__deck">{{ . }}</p>
+  {{- end }}
+  <p class="meta">{{ len .Pages }} {{ i18n "entries" | default "entries" }}</p>
+</header>
+{{- with .Pages }}
+<section class="container">
+  <span class="section-label">{{ i18n "entriesLabel" | default "01 / Entries" }}</span>
+  <ul class="post-index">
+    {{- range sort . "Date" "desc" }}
+    <li class="post-index__item">   
+      <span class="post-index__date"><time datetime="{{ .Date.Format "2006-01-02" }}"><a href="{{ .Permalink}}">{{ .Date | time.Format (compare.Default "2 January 2006" .Site.Params.date_format) }}</a></time> | {{range .Params.Types}}<a href="/types/{{ . | urlize }}">{{ . }}post</a> {{end}} | 
+      	{{ if .Params.tags }}
+        	{{ range sort .Params.tags }}
+          		<a href="/tags/{{ . | urlize }}">{{ . }}</a> |
+          	{{ end }}</span>
+        {{end}}
+        
+      {{if eq .Params.layout "link"}}  
+      {{else}}
+      <p class="post-index__title u-h3-style"><a href="{{ .Permalink}}">{{ .Title }}</a></p>
+      {{end}}
+     
+
+
+     {{ if .Params.featured_image }}
+     <div style="margin: 1em" class = "prose"{{ if eq site.Params.design.prose "mono" }} data-prose="mono"{{ end }}>
+    	<table>
+     		<tr>
+     			<td width = 50%>
+     				<a href="{{.Params.featured_image}}"><img alt="{{.Params.alt_text}}" width = 90% src="{{.Params.featured_image}}"></a>
+     			</td>
+     			<td width = 60%>
+     				{{ .Summary }}
+     				<br>
+     				<a style="color: var(--ink); text-decoration: none;" class="reset button button--secondary" href="{{ .Permalink }}">Read whole post</a></p>
+     			</td>
+     		</tr>
+     	</table>
+    </div>
+     
+     {{else}}
+     
+     
+      	<div style="margin: 1em" class="prose"{{ if eq site.Params.design.prose "mono" }} data-prose="mono"{{ end }}>    		
+    		{{ .Summary }}</div>
+    		{{if compare.Lt (math.Add (.Summary | len) 1) (.Content | len)}}
+  				<a class="button button--secondary" href="{{ .Permalink }}">Read whole post</a>
+  				<br><br>
+  			{{else}}
+  		  		{{if eq .Params.layout "link"}}
+  					<div class = "container">
+  					<p>{{i18n "linkResponse1"}} "<a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{.Params.art_link}}">{{.Params.art_title}}</a>," {{i18n "linkResponse2"}} {{range .Params.Sources}}<a href="/types/{{ . | urlize }}">{{ . }}</a>. {{end}}</p>
+  					</div>
+  					<br>
+    			{{end}}
+  			{{end}}
+        {{end}}
+    </li>
+    {{- end }}
+  </ul>
+</section>
+{{- end }}
+{{ end }}

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-04-06T00:00:00-05:00
-title: "📚 bookblog: The Era of Restoration (❤️❤️❤️❤️🖤)"
-tags: ["Mark Scherer","The Journey of a People","Mormonism","Community of Christ","The Church of Jesus Christ of Latter-day Saints"]
+title: "📚 bookblog: The Journey of a People, Book 1: The Era of Restoration, 1820-1844 (❤️❤️❤️❤️🖤)"
+tags: ["Mark Scherer","The Journey of a People","Mormonism","Community of Christ","The Church of Jesus Christ of Latter-day Saints","The Era of Restoration, 1820-1844"]
 media: ["book"]
 titles: ["The Era of Restoration, 1820-1844"]
-creators: ["Mark Scherer"]
+artists: ["Mark Scherer"]
 series: ["The Journey of a People"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

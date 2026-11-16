@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2023-02-03T22:08:23-05:00
-title: "📚 bookblog: ❤️❤️❤️🖤🖤 for Swisstory: The Untold, Bloody, and Absolutely Real History of Switzerland, by Laurie Theurer"
-tags: ["Swisstory","Laurie Theurer","Switzerland","Mix & Remix"]
+title: "📚 bookblog: Swisstory: The Untold, Bloody, and Absolutely Real History of Switzerland (❤️❤️❤️🖤🖤)"
+tags: ["Swisstory","Laurie Theurer","Switzerland","Mix & Remix","Swisstory: The Untold, Bloody, and Absolutely Real History of Switzerland"]
 media: ["book"]
 titles: ["Swisstory: The Untold, Bloody, and Absolutely Real History of Switzerland"]
-creators: ["Laurie Theurer"]
+artists: ["Laurie Theurer"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

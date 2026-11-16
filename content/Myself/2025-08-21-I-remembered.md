@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-08-21T15:21:12-04:00
-title: "📚 bookblog: Dead Lions  (❤️❤️❤️❤️🖤)"
-tags: ["Dead Lions","Mick Herron","Gerard Doyle","Slough House","Slough House"]
+title: "📚 bookblog: Slough House, Book 2: Dead Lions (❤️❤️❤️❤️🖤)"
+tags: ["Dead Lions","Mick Herron","Gerard Doyle","Slough House"]
 media: ["book","audiobook"]
 titles: ["Dead Lions"]
-creators: ["Mick Herron","Gerard Doyle"]
+artists: ["Mick Herron","Gerard Doyle"]
 series: ["Slough House"]
 franchise: ["Slough House"]
 ratings: ["❤️❤️❤️❤️🖤"]

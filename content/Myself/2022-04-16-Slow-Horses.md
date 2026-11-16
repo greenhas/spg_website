@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-04-22T00:00:00-05:00
-title: "📚 bookblog: Slow Horses (❤️❤️❤️❤️🖤)"
+title: "📚 bookblog: Slough House, Book 1: Slow Horses (❤️❤️❤️❤️🖤)"
 tags: ["Slow Horses","Mick Herron","Slough House","John Le Carré","public libraries","libraries","Libby"]
 media: ["book"]
 titles: ["Slow Horses"]
-creators: ["Mick Herron"]
+artists: ["Mick Herron"]
 series: ["Slough House"]
 franchise: ["Slough House"]
 ratings: ["❤️❤️❤️❤️🖤"]

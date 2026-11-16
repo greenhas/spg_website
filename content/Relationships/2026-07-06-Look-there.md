@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: movie
+types: ["review"]
+layout: media
 date: 2026-07-06T08:22:25-04:00
 title: "🍿 movieblog: Toy Story 5 (❤️❤️❤️🖤🖤)"
-tags: ["Toy Story 5"]
+tags: ["Toy Story 5","Toy Story","Pixar"]
 media: ["movie"]
 titles: ["Toy Story 5"]
 series: ["Toy Story"]

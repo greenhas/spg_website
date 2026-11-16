@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-03-25T20:42:23-04:00
-title: "📚 bookblog: Star Trek: Waypoint, Special #1  (❤️❤️❤️❤️❤️)"
-tags: ["","Brandon Easton","Josh Hood","Dave Baker","Jackson Lanzing","Collin Kelly","Sonny Liew","Matthew Dow Smith","Star Trek","comics"]
+title: "📚 bookblog: Star Trek: Waypoint, Special #1 (❤️❤️❤️❤️❤️)"
+tags: ["Brandon Easton","Josh Hood","Dave Baker","Jackson Lanzing","Collin Kelly","Sonny Liew","Matthew Dow Smith","Star Trek","comics","Star Trek: Waypoint","Star Trek IDW"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Brandon Easton","Josh Hood","Dave Baker","Jackson Lanzing","Collin Kelly","Sonny Liew","Matthew Dow Smith"]
+artists: ["Brandon Easton","Josh Hood","Dave Baker","Jackson Lanzing","Collin Kelly","Sonny Liew","Matthew Dow Smith"]
 series: ["Star Trek: Waypoint"]
 franchise: ["Star Trek","Star Trek IDW"]
 ratings: ["❤️❤️❤️❤️❤️"]

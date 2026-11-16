@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-05-20T19:33:10-04:00
-title: "📚 bookblog: On the Origin of PCs  (❤️❤️❤️🖤🖤)"
-tags: ["On the Origin of PCs","Rich Burlew","Order of the Stick"]
+title: "📚 bookblog: The Order of the Stick, Book 0: On the Origin of PCs (❤️❤️❤️🖤🖤)"
+tags: ["On the Origin of PCs","Rich Burlew","Order of the Stick","The Order of the Stick","Dungeons & Dragons"]
 media: ["book","comic","webcomic"]
 titles: ["On the Origin of PCs"]
-creators: ["Rich Burlew"]
+artists: ["Rich Burlew"]
 series: ["The Order of the Stick"]
 franchise: ["Dungeons & Dragons"]
 ratings: ["❤️❤️❤️🖤🖤"]

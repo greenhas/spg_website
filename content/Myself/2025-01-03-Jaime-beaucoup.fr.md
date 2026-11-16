@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-01-03T12:52:46+01:00
-title: "📚 bookblog: ❤️❤️❤️❤️🖤 pour Shenzhen, par Guy Delisle"
-tags: ["Shenzhen","Guy Delisle","Chroniques birmanes","bd","comics","China"]
+title: "📚 bookblog: Shenzen (❤️❤️❤️❤️🖤)"
+tags: ["Shenzhen","Guy Delisle","Chroniques birmanes","bd","comics","China","Shenzen"]
 media: ["book","comic","bande dessinée","graphic novel"]
 titles: ["Shenzen"]
-creators: ["Guy Delisle"]
+artists: ["Guy Delisle"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-10-03T08:47:29-04:00
-title: "📚 bookblog: Seed of Destruction  (❤️❤️❤️🖤🖤)"
-tags: ["Seed of Destruction","Mike Mignola","Atomic Robo","Hellboy","Hellboy"]
+title: "📚 bookblog: Hellboy, Omnibus Volume 1: Seed of Destruction (❤️❤️❤️🖤🖤)"
+tags: ["Seed of Destruction","Mike Mignola","Atomic Robo","Hellboy"]
 media: ["book","comic"]
 titles: ["Seed of Destruction"]
-creators: ["Mike Mignola"]
+artists: ["Mike Mignola"]
 series: ["Hellboy"]
 franchise: ["Hellboy"]
 ratings: ["❤️❤️❤️🖤🖤"]

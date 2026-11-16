@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2026-03-04T09:44:08-05:00
-title: "🎙️ radioblog: Night of the Vashta Nerada  (❤️❤️❤️❤️❤️)"
-tags: ["Night of the Vashta Nerada","John Dorney"]
+title: "🎙️ radioblog: Doctor Who: Classic Doctors New Monsters, Volume 2, Story 1: Night of the Vashta Nerada (❤️❤️❤️❤️❤️)"
+tags: ["Night of the Vashta Nerada","John Dorney","Doctor Who: Classic Doctors New Monsters","Doctor Who","Doctor Who Big Finish"]
 media: ["radio"]
 titles: ["Night of the Vashta Nerada"]
-creators: ["John Dorney"]
+artists: ["John Dorney"]
 series: ["Doctor Who: Classic Doctors New Monsters"]
 franchise: ["Doctor Who","Doctor Who Big Finish"]
 ratings: ["❤️❤️❤️❤️❤️"]

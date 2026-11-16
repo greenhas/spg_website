@@ -1,6 +1,6 @@
 ---
-types: ["media"]
-layout: movie
+types: ["review"]
+layout: media
 date: 2026-08-05T14:57:21-04:00
 title: "🍿 movieblog: The Imitation Game (❤️❤️❤️🖤🖤)"
 tags: ["The Imitation Game","Alan Turing"]

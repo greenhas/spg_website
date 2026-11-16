@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-10-15T19:39:58-04:00
-title: "📚 bookblog: Road of Bones  (❤️❤️❤️🖤🖤)"
-tags: ["Road of Bones","Ricy Douek","Alex Cormack","Justin Birch","gulag","Soviet Union","",""]
+title: "📚 bookblog: Road of Bones (❤️❤️❤️🖤🖤)"
+tags: ["Road of Bones","Ricy Douek","Alex Cormack","Justin Birch","gulag","Soviet Union"]
 media: ["book","comic"]
 titles: ["Road of Bones"]
-creators: ["Ricy Douek","Alex Cormack","Justin Birch"]
+artists: ["Ricy Douek","Alex Cormack","Justin Birch"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

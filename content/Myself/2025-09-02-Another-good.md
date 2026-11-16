@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-09-02T15:08:47-04:00
-title: "📚 bookblog: Real Tigers  (❤️❤️❤️❤️🖤)"
-tags: ["Real Tigers","Mick Herron","Gerard Doyle","Slough House","Slough House"]
+title: "📚 bookblog: Slough House, Book 3: Real Tigers (❤️❤️❤️❤️🖤)"
+tags: ["Real Tigers","Mick Herron","Gerard Doyle","Slough House"]
 media: ["book","audiobook"]
 titles: ["Real Tigers"]
-creators: ["Mick Herron","Gerard Doyle"]
+artists: ["Mick Herron","Gerard Doyle"]
 series: ["Slough House"]
 franchise: ["Slough House"]
 ratings: ["❤️❤️❤️❤️🖤"]

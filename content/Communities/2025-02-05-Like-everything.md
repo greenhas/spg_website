@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-02-05T21:23:08-05:00
-title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Debt: The First 5,000 Years, by David Graeber"
-tags: ["Debt: The First 5,000 Years","David Graeber","abstraction","abstract","money","debt","morality","ethics"]
+title: "📚 bookblog: Debt: The First 5,000 Years (❤️❤️❤️❤️🖤)"
+tags: ["Debt: The First 5,000 Years","David Graeber","abstraction","abstract","money","debt","morality","ethics","Grover Gardner"]
 media: ["book","audiobook"]
 titles: ["Debt: The First 5,000 Years"]
-creators: ["David Graeber","Grover Gardner"]
+artists: ["David Graeber","Grover Gardner"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

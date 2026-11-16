@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-05-04T00:00:00-05:00
 title: "📚 bookblog: La présidente, Tome 3 (❤️❤️❤️🖤🖤)"
-tags: ["Marine Le Pen","France","Rassemblement national","far right"]
+tags: ["Marine Le Pen","France","Rassemblement national","far right","François Durpaire","Farid Boudjellal","La présidente"]
 media: ["book","comic","bande dessinée"]
 titles: [""]
-creators: ["François Durpaire","Farid Boudjellal"]
+artists: ["François Durpaire","Farid Boudjellal"]
 series: ["La présidente"]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

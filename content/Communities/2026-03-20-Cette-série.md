@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: tv
+types: ["review"]
+layout: media
 date: 2026-03-20T09:18:39-04:00
-title: "📺 tvblog: Un village français Saison 3 (❤️❤️❤️❤️🖤)"
-tags: [""]
+title: "📺 tvblog: Un village français, Saison 3 (❤️❤️❤️❤️🖤)"
+tags: ["Un village français"]
 media: ["tv"]
 series: ["Un village français"]
 franchise: [""]

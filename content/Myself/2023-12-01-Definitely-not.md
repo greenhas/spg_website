@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2023-12-01T22:00:47-05:00
-title: "📚 bookblog: ❤️❤️❤️🖤🖤 for Ultimate Spider-Man: Vol. 14, Warriors, by Brian Michael Bendis and Mark Bagley"
-tags: ["Ultimate Spider-Man","Brian Michael Davis","Mark Bagley","comics","misogyny","sexism"]
+title: "📚 bookblog: Ultimate Spider-Man, Volume 14: Warriors (❤️❤️❤️🖤🖤)"
+tags: ["Ultimate Spider-Man","Brian Michael Davis","Mark Bagley","comics","misogyny","sexism","Brian Michael Bendis","Marvel","Ultimate Marvel (2000)","Spider-Man","Warriors"]
 media: ["book","comic"]
 titles: ["Warriors"]
-creators: ["Brian Michael Bendis","Mark Bagley"]
+artists: ["Brian Michael Bendis","Mark Bagley"]
 series: ["Ultimate Spider-Man"]
 franchise: ["Marvel","Ultimate Marvel (2000)","Spider-Man"]
 ratings: ["❤️❤️❤️🖤🖤"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-06-25T13:30:29-05:00
-title: "📚 bookblog: Reminding Myself That Despite What That Sign on the Highway Says, Hell Isn't Real  (❤️❤️❤️❤️🖤)"
-tags: ["Reminding Myself That Despite What That Sign on the Highway Says, Hell Isn't Real","David Willis","Dumbing of Age",""]
+title: "📚 bookblog: Dumbing of Age, Collection 14: Reminding Myself That Despite What That Sign on the Highway Says, Hell Isn't Real (❤️❤️❤️❤️🖤)"
+tags: ["Reminding Myself That Despite What That Sign on the Highway Says, Hell Isn't Real","David Willis","Dumbing of Age"]
 media: ["book","comic","webcomic"]
 titles: ["Reminding Myself That Despite What That Sign on the Highway Says, Hell Isn't Real"]
-creators: ["David Willis"]
+artists: ["David Willis"]
 series: ["Dumbing of Age"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-07-02T00:00:00-05:00
-title: "📚 bookblog: The Era of Reorganization (❤️❤️❤️🖤🖤)"
-tags: ["Mark Scherer","The Journey of a People","Mormonism","Community of Christ","Joseph Smith III: Pragmatic Prophet"]
+title: "📚 bookblog: The Journey of a People, Book 2: The Era of Reorganization, 1844-1946 (❤️❤️❤️🖤🖤)"
+tags: ["Mark Scherer","The Journey of a People","Mormonism","Community of Christ","Joseph Smith III: Pragmatic Prophet","The Era of Reorganization, 1844-1946"]
 media: ["book"]
 titles: ["The Era of Reorganization, 1844-1946"]
-creators: ["Mark Scherer"]
+artists: ["Mark Scherer"]
 series: ["The Journey of a People"]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

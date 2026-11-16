@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: tv
+types: ["review"]
+layout: media
 date: 2025-02-22T21:47:30-05:00
 tags: ["Star Trek: Lower Decks","Star Trek"]
-title: "📺 tvblog: ❤️❤️❤️❤️🖤 for Star Trek: Lower Decks (Season 2)"
+title: "📺 tvblog: Star Trek: Lower Decks, Season 2 (❤️❤️❤️❤️🖤)"
 media: ["tv"]
 series: ["Star Trek: Lower Decks"]
 franchise: ["Star Trek","Star Trek: Lower Decks"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-03-20T00:00:00-05:00
 title: "📚 bookblog: The Giant Joshua (❤️❤️❤️❤️🖤)"
 tags: ["Mormonism","The Giant Joshua","Maurine Whipple","Mormon pioneers"]
 media: ["book"]
 titles: ["The Giant Joshua"]
-creators: ["Maurine Whipple"]
+artists: ["Maurine Whipple"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

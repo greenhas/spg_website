@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-02-06T00:00:00-05:00
-title: "📚 bookblog: Out of the Dark (❤️❤️🖤🖤🖤)"
+title: "📚 bookblog: Out of the Dark,  Book 1: Out of the Dark (❤️❤️🖤🖤🖤)"
 tags: ["David Weber","Out of the Dark","gun violence","Harry Turtledove","Worldwar","non-violence"]
 media: ["book"]
 titles: ["Out of the Dark"]
-creators: ["David Weber"]
+artists: ["David Weber"]
 series: ["Out of the Dark"]
 franchise: [""]
 ratings: ["❤️❤️🖤🖤🖤"]

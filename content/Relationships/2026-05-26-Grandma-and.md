@@ -1,6 +1,6 @@
 ---
-types: ["media"]
-layout: movie
+types: ["review"]
+layout: media
 date: 2026-05-26T10:19:59-04:00
 title: "🍿 movieblog: The Sheep Detectives (❤️❤️❤️❤️❤️)"
 tags: ["The Sheep Detectives"]

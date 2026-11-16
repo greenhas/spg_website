@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-10-27T11:12:23-04:00
-title: "📚 bookblog: The Big Short  (❤️❤️❤️❤️🖤)"
-tags: ["The Big Short","Michael Lewis","2008 financial crisis","technique","Jacques Ellul","",""]
+title: "📚 bookblog: The Big Short (❤️❤️❤️❤️🖤)"
+tags: ["The Big Short","Michael Lewis","2008 financial crisis","technique","Jacques Ellul"]
 media: ["book","audiobook"]
 titles: ["The Big Short"]
-creators: ["Michael Lewis"]
+artists: ["Michael Lewis"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

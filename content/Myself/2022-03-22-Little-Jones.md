@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-03-22T00:00:00-05:00
-title: "📚 bookblog: Little Jones (❤️❤️🖤🖤🖤)"
-tags: ["XIII","The Mongoose","Yann","Éric Henninot"]
+title: "📚 bookblog: XIII Mystery,  Volume 3: Little Jones (❤️❤️🖤🖤🖤)"
+tags: ["XIII","The Mongoose","Yann","Éric Henninot","XIII Mystery","Little Jones"]
 media: ["book","comic","bande dessinée"]
 titles: ["Little Jones"]
-creators: ["Yann","Éric Henninot"]
+artists: ["Yann","Éric Henninot"]
 series: ["XIII Mystery"]
 franchise: ["XIII"]
 ratings: ["❤️❤️🖤🖤🖤"]

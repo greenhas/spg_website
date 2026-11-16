@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-08-05T14:48:06-04:00
-title: "📚 bookblog: Invincible, Compendium Three  (❤️❤️❤️❤️🖤)"
-tags: ["","Robert Kirkman","Ryan Ottley","Cory Walker","Invincible","Invincible"]
+title: "📚 bookblog: Invincible, Compendium Three (❤️❤️❤️❤️🖤)"
+tags: ["Robert Kirkman","Ryan Ottley","Cory Walker","Invincible","Image Universe"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Robert Kirkman","Ryan Ottley","Cory Walker"]
+artists: ["Robert Kirkman","Ryan Ottley","Cory Walker"]
 series: ["Invincible"]
 franchise: ["Invincible","Image Universe"]
 ratings: ["❤️❤️❤️❤️🖤"]

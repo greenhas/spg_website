@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2024-07-09T12:35:21-04:00
-title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Just Put Down the Ukulele Only Then Can the Healing Begin  (A Seventh Dumbing of Age Collection), by David Willis"
+title: "📚 bookblog: Dumbing of Age, Volume 7: Just Put Down the Ukulele Only Then Can the Healing Begin (❤️❤️❤️❤️🖤)"
 tags: ["Just Put Down the Ukulele Only Then Can the Healing Begin","David Willis","Dumbing of Age"]
 media: ["book","comic","webcomic"]
 titles: ["Just Put Down the Ukulele Only Then Can the Healing Begin"]
-creators: ["David Willis"]
+artists: ["David Willis"]
 series: ["Dumbing of Age"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

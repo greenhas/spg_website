@@ -1,5 +1,5 @@
 ---
-types: ["tea"]
+types: ["review"]
 layout: tea
 date: 2026-05-22T12:00:22-04:00
 title: "☕ teablog: Elmwood Inn, Hojicha  (❤️❤️❤️❤️🖤)"
@@ -7,7 +7,7 @@ tags: ["green tea","Elmwood Inn","Hojicha"]
 brands: ["Elmwood Inn"]
 blends: ["Hojicha"]
 tea_types: ["green"]
-tea_ratings: ["❤️❤️❤️❤️🖤"]
+ratings: ["❤️❤️❤️❤️🖤"]
 ---
 
 This purchase felt like a real gamble. I'm not sure I actually like green tea, and while I have had one yummy hojicha latte, that's not a lot to base a long-lasting purchase on.

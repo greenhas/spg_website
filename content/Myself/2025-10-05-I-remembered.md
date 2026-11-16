@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-10-05T13:56:43-04:00
-title: "📚 bookblog: Joe Country  (❤️❤️❤️❤️🖤)"
+title: "📚 bookblog: Slough House, Book 6: Joe Country (❤️❤️❤️❤️🖤)"
 tags: ["Joe Country","Mick Herron","Gerard Doyle","Slough House","Slow Horses"]
 media: ["book","audiobook"]
 titles: ["Joe Country"]
-creators: ["Mick Herron","Gerard Doyle"]
+artists: ["Mick Herron","Gerard Doyle"]
 series: ["Slough House"]
 franchise: ["Slow Horses"]
 ratings: ["❤️❤️❤️❤️🖤"]

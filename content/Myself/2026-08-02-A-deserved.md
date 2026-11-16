@@ -1,6 +1,6 @@
 ---
-types: ["media"]
-layout: movie
+types: ["review"]
+layout: media
 date: 2026-08-02T16:37:37-04:00
 title: "🍿 movieblog: Airplane! (❤️❤️❤️❤️🖤)"
 tags: ["Airplane!"]

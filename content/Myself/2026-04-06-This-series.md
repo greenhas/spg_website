@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2026-04-06T19:24:01-04:00
-title: "🎙️ radioblog: Silent Majority  (❤️❤️❤️❤️❤️)"
-tags: ["Silent Majority","John Dorney","United Kingdom"]
+title: "🎙️ radioblog: UNIT: Silenced, Story 3: Silent Majority (❤️❤️❤️❤️❤️)"
+tags: ["Silent Majority","John Dorney","United Kingdom","UNIT: Silenced","Doctor Who","Doctor Who Big Finish"]
 media: ["radio"]
 titles: ["Silent Majority"]
-creators: ["John Dorney"]
+artists: ["John Dorney"]
 series: ["UNIT: Silenced"]
 franchise: ["Doctor Who","Doctor Who Big Finish"]
 ratings: ["❤️❤️❤️❤️❤️"]

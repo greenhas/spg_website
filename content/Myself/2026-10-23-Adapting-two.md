@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: tv
+types: ["review"]
+layout: media
 date: 2026-10-23T22:28:38-04:00
-title: "📺 tvblog: Slow Horses Season 6 (❤️❤️❤️🖤🖤)"
-tags: [""]
+title: "📺 tvblog: Slow Horses, Season 6 (❤️❤️❤️🖤🖤)"
+tags: ["Slow Horses","Slough House"]
 media: ["tv"]
 series: ["Slow Horses"]
 franchise: ["Slough House"]

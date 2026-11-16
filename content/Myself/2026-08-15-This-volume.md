@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-08-15T18:54:50-04:00
-title: "📚 bookblog: Thorne in the Flesh  (❤️❤️❤️❤️❤️)"
-tags: ["Thorne in the Flesh","Rob Guillory","Farmhand",""]
+title: "📚 bookblog: Farmhand, Volume 2: Thorne in the Flesh (❤️❤️❤️❤️❤️)"
+tags: ["Thorne in the Flesh","Rob Guillory","Farmhand"]
 media: ["book","comic"]
 titles: ["Thorne in the Flesh"]
-creators: ["Rob Guillory"]
+artists: ["Rob Guillory"]
 series: ["Farmhand"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

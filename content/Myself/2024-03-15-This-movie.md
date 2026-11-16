@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: movie
+types: ["review"]
+layout: media
 date: 2024-03-15T22:40:58-04:00
 tags: ["Dune"]
-title: "🍿 movieblog: ❤️❤️❤️❤️🖤 for Dune"
+title: "🍿 movieblog: Dune (❤️❤️❤️❤️🖤)"
 media: ["movie"]
 titles: ["Dune"]
 series: ["Dune"]

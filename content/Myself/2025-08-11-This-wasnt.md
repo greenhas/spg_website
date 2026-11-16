@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-08-11T14:17:03-04:00
-title: "📚 bookblog: Rogue Protocol  (❤️❤️❤️🖤🖤)"
+title: "📚 bookblog: The Murderbot Diaries, Book 3: Rogue Protocol (❤️❤️❤️🖤🖤)"
 tags: ["Rogue Protocol","Martha Wells","Kevin R. Free","The Murderbot Diaries","Murderbot"]
 media: ["book","audiobook"]
 titles: ["Rogue Protocol"]
-creators: ["Martha Wells","Kevin R. Free"]
+artists: ["Martha Wells","Kevin R. Free"]
 series: ["The Murderbot Diaries"]
 franchise: ["Murderbot"]
 ratings: ["❤️❤️❤️🖤🖤"]

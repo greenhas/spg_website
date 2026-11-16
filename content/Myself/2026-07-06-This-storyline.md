@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-07-06T08:17:12-04:00
-title: "📚 bookblog: I'm a Trash Goblin Who Craves Mess  (❤️❤️❤️❤️🖤)"
-tags: ["I'm a Trash Goblin Who Craves Mess","David Willis","Dumbing of Age",""]
+title: "📚 bookblog: Dumbing of Age, Collection 15: I'm a Trash Goblin Who Craves Mess (❤️❤️❤️❤️🖤)"
+tags: ["I'm a Trash Goblin Who Craves Mess","David Willis","Dumbing of Age"]
 media: ["book","comic","webcomic"]
 titles: ["I'm a Trash Goblin Who Craves Mess"]
-creators: ["David Willis"]
+artists: ["David Willis"]
 series: ["Dumbing of Age"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

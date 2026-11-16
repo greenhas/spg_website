@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-10-22T11:02:25-04:00
-title: "📚 bookblog: Tag & Bink Were Here  (❤️❤️❤️🖤🖤)"
-tags: ["Tag & Bink Were Here","Kevin Rubio","Lucas Marangon","","Star Wars","Star Wars Expanded Universe"]
+title: "📚 bookblog: Tag & Bink Were Here (❤️❤️❤️🖤🖤)"
+tags: ["Tag & Bink Were Here","Kevin Rubio","Lucas Marangon","Star Wars","Star Wars Expanded Universe"]
 media: ["book","comic"]
 titles: ["Tag & Bink Were Here"]
-creators: ["Kevin Rubio","Lucas Marangon"]
+artists: ["Kevin Rubio","Lucas Marangon"]
 series: [""]
 franchise: ["Star Wars","Star Wars Expanded Universe"]
 ratings: ["❤️❤️❤️🖤🖤"]

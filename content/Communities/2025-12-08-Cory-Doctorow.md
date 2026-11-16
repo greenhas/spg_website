@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-12-08T21:39:44-05:00
-title: "📚 bookblog: Boys Weekend  (❤️❤️❤️❤️❤️)"
-tags: ["Boys Weekend","Mattie Lubchansky","Cory Doctorow","",""]
+title: "📚 bookblog: Boys Weekend (❤️❤️❤️❤️❤️)"
+tags: ["Boys Weekend","Mattie Lubchansky","Cory Doctorow"]
 media: ["book","comic","graphic novel"]
 titles: ["Boys Weekend"]
-creators: ["Mattie Lubchansky"]
+artists: ["Mattie Lubchansky"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

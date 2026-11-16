@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: tv
+types: ["review"]
+layout: media
 date: 2025-05-13T10:49:02-04:00
-title: "📺 tvblog: Star Trek: Lower Decks Season 4 (❤️❤️❤️❤️🖤)"
-tags: [""]
+title: "📺 tvblog: Star Trek: Lower Decks, Season 4 (❤️❤️❤️❤️🖤)"
+tags: ["Star Trek: Lower Decks","Star Trek"]
 media: ["tv"]
 series: ["Star Trek: Lower Decks"]
 franchise: ["Star Trek","Star Trek: Lower Decks"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-04-22T00:00:00-05:00
 title: "📚 bookblog: Understanding Comics (❤️❤️❤️❤️🖤)"
 tags: ["Understanding Comics","Scott McCloud","Tapisserie de Bayeux"]
 media: ["book","comic","graphic novel"]
 titles: ["Understanding Comics"]
-creators: ["Scott McCloud"]
+artists: ["Scott McCloud"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

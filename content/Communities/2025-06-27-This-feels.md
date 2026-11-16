@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-06-27T07:36:42-04:00
-title: "📚 bookblog: Ice Age  (❤️❤️❤️🖤🖤)"
-tags: ["Ice Age","Stephen Graham Jones","Riccardo Burchielli","Patricio Delpeche","Emily Schnall","Joana Lafuente","Earthdivers",""]
+title: "📚 bookblog: Earthdivers, Volume 2: Ice Age (❤️❤️❤️🖤🖤)"
+tags: ["Ice Age","Stephen Graham Jones","Riccardo Burchielli","Patricio Delpeche","Emily Schnall","Joana Lafuente","Earthdivers"]
 media: ["book","comic"]
 titles: ["Ice Age"]
-creators: ["Stephen Graham Jones","Riccardo Burchielli","Patricio Delpeche","Emily Schnall","Joana Lafuente"]
+artists: ["Stephen Graham Jones","Riccardo Burchielli","Patricio Delpeche","Emily Schnall","Joana Lafuente"]
 series: ["Earthdivers"]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

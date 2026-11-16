@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2026-02-10T17:33:03-05:00
-title: "🎙️ radioblog: Lost in the Wakefield Triangle  (❤️❤️🖤🖤🖤)"
-tags: ["Lost in the Wakefield Triangle","Vin Marsden Hendrick"]
+title: "🎙️ radioblog: Doctor Who Short Trips, Volume 4, Story 3: Lost in the Wakefield Triangle (❤️❤️🖤🖤🖤)"
+tags: ["Lost in the Wakefield Triangle","Vin Marsden Hendrick","Doctor Who Short Trips","Doctor Who","Doctor Who Big Finish"]
 media: ["radio"]
 titles: ["Lost in the Wakefield Triangle"]
-creators: ["Vin Marsden Hendrick"]
+artists: ["Vin Marsden Hendrick"]
 series: ["Doctor Who Short Trips"]
 franchise: ["Doctor Who","Doctor Who Big Finish"]
 ratings: ["❤️❤️🖤🖤🖤"]

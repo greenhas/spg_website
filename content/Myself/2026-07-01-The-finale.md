@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-07-01T21:45:48-04:00
-title: "📚 bookblog: Rebirth  (❤️❤️❤️🖤🖤)"
-tags: ["Rebirth","Mirka Andolfo","Unnatural",""]
+title: "📚 bookblog: Unnatural, Volume 3: Rebirth (❤️❤️❤️🖤🖤)"
+tags: ["Rebirth","Mirka Andolfo","Unnatural"]
 media: ["book","comic","bande dessinée"]
 titles: ["Rebirth"]
-creators: ["Mirka Andolfo"]
+artists: ["Mirka Andolfo"]
 series: ["Unnatural"]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

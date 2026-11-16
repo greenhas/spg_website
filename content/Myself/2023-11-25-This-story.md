@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2023-11-25T12:51:23-05:00
-title: "📚 bookblog: ❤️❤️❤️🖤🖤 for Ultimate Spider-Man: Vol. 9, Ultimate Six, by Brian Michael Bendis"
-tags: ["Ultimate Spider-Man","Brian Michael Bendis","comics","Mark Bagley"]
+title: "📚 bookblog: Ultimate Spider-Man, Volume 9: Ultimate Six (❤️❤️❤️🖤🖤)"
+tags: ["Ultimate Spider-Man","Brian Michael Bendis","comics","Mark Bagley","Marvel","Ultimate Marvel (2000)","Spider-Man","Ultimate Six"]
 media: ["book","comic"]
 titles: ["Ultimate Six"]
-creators: ["Brian Michael Bendis"]
+artists: ["Brian Michael Bendis"]
 series: ["Ultimate Spider-Man"]
 franchise: ["Marvel","Ultimate Marvel (2000)","Spider-Man"]
 ratings: ["❤️❤️❤️🖤🖤"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2023-11-13T08:48:02-05:00
-title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Power from on High: The Development of Mormon Priesthood, by Gregory A. Prince"
-tags: ["Power from on High","Gregory A. Prince","Mormonism","priesthood","Community of Christ","Church of Jesus Christ of Latter-day Saints"]
+title: "📚 bookblog: Power from on High: The Development of Mormon Priesthood (❤️❤️❤️❤️🖤)"
+tags: ["Power from on High","Gregory A. Prince","Mormonism","priesthood","Community of Christ","Church of Jesus Christ of Latter-day Saints","Power from on High: The Development of Mormon Priesthood"]
 media: ["book"]
 titles: ["Power from on High: The Development of Mormon Priesthood"]
-creators: ["Gregory A. Prince"]
+artists: ["Gregory A. Prince"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

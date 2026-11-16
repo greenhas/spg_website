@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-05-20T00:00:00-05:00
-title: "📚 bookblog: Slough House (❤️❤️❤️❤️🖤)"
+title: "📚 bookblog: Slough House, Book 7: Slough House (❤️❤️❤️❤️🖤)"
 tags: ["Mick Herron","Slough House"]
 media: ["book"]
 titles: ["Slough House"]
-creators: ["Mick Herron"]
+artists: ["Mick Herron"]
 series: ["Slough House"]
 franchise: ["Slough House"]
 ratings: ["❤️❤️❤️❤️🖤"]

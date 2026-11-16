@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: tv
+types: ["review"]
+layout: media
 date: 2026-02-22T08:10:09-05:00
-title: "📺 tvblog: The Diplomat Season 3 (❤️❤️❤️🖤🖤)"
-tags: [""]
+title: "📺 tvblog: The Diplomat, Season 3 (❤️❤️❤️🖤🖤)"
+tags: ["The Diplomat"]
 media: ["tv"]
 series: ["The Diplomat"]
 franchise: [""]

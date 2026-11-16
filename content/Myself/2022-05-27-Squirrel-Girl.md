@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-05-27T00:00:00-05:00
 title: "📚 bookblog: The Unbeatable Squirrel Girl 2015, issues 1-8 (❤️❤️❤️❤️🖤)"
-tags: ["Ryan North","Erica Henderson","The Unbeatable Squirrel Girl","hoopla"]
+tags: ["Ryan North","Erica Henderson","The Unbeatable Squirrel Girl","hoopla","The Unbeatable Squirrel Girl 2015","Marvel","Squirrel Girl"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Ryan North","Erica Henderson"]
+artists: ["Ryan North","Erica Henderson"]
 series: ["The Unbeatable Squirrel Girl 2015"]
 franchise: ["Marvel","Squirrel Girl"]
 ratings: ["❤️❤️❤️❤️🖤"]

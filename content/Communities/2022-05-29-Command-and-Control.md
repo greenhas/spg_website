@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-05-29T00:00:00-05:00
 title: "📚 bookblog: Command and Control (❤️❤️❤️❤️🖤)"
 tags: ["nuclear weapons","Command and Control","Eric Schlosser"]
 media: ["book"]
 titles: ["Command and Control"]
-creators: ["Eric Schlosser"]
+artists: ["Eric Schlosser"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-10-22T21:21:40-04:00
-title: "📚 bookblog: Resident Alien, Omnibus 1  (❤️❤️❤️❤️❤️)"
-tags: ["","Peter Hogan","Steve Parkhouse","hoopla","Alan Tudyk","Resident Alien","Resident Alien"]
+title: "📚 bookblog: Resident Alien, Omnibus 1 (❤️❤️❤️❤️❤️)"
+tags: ["Peter Hogan","Steve Parkhouse","hoopla","Alan Tudyk","Resident Alien"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Peter Hogan","Steve Parkhouse"]
+artists: ["Peter Hogan","Steve Parkhouse"]
 series: ["Resident Alien"]
 franchise: ["Resident Alien"]
 ratings: ["❤️❤️❤️❤️❤️"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2026-02-02T12:13:40-05:00
-title: "🎙️ radioblog: Rise and Fall  (❤️❤️❤️🖤🖤)"
-tags: ["Rise and Fall","George Mann"]
+title: "🎙️ radioblog: Doctor Who Short Trips, Volume 1, Story 1: Rise and Fall (❤️❤️❤️🖤🖤)"
+tags: ["Rise and Fall","George Mann","Doctor Who Short Trips","Doctor Who","Doctor Who Big Finish"]
 media: ["radio"]
 titles: ["Rise and Fall"]
-creators: ["George Mann"]
+artists: ["George Mann"]
 series: ["Doctor Who Short Trips"]
 franchise: ["Doctor Who","Doctor Who Big Finish"]
 ratings: ["❤️❤️❤️🖤🖤"]

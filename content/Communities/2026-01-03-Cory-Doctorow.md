@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: movie
+types: ["review"]
+layout: media
 date: 2026-01-03T22:48:41-05:00
-title: "🍿 movieblog: Glass Onion: A Knives Out Mystery (❤️❤️❤️❤️❤️)"
-tags: ["Glass Onion: A Knives Out Mystery","The Verge","Cory Doctorow"]
+title: "🍿 movieblog: Knives Out, Movie 2: Glass Onion: A Knives Out Mystery (❤️❤️❤️❤️❤️)"
+tags: ["Glass Onion: A Knives Out Mystery","The Verge","Cory Doctorow","Knives Out"]
 media: ["movie"]
 titles: ["Glass Onion: A Knives Out Mystery"]
 series: ["Knives Out"]

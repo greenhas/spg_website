@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-02-03T22:03:55-05:00
-title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Frieren: Beyond Journey's End (Volume 1), by Kanehito Yamada and Tsukasa Abe"
+title: "📚 bookblog: Frieren: Beyond Journey's End, Volume 1 (❤️❤️❤️❤️🖤)"
 tags: ["Frieren: Beyond Journey's End","Kanehito Yamada","Tsukasa Abe","manga","anime","Dungeons and Dragons","Star Wars","fantasy","The Incomparable","John Siracusa"]
 media: ["book","comic","manga"]
 titles: [""]
-creators: ["Kanehito Yamada","Tsukasa Abe"]
+artists: ["Kanehito Yamada","Tsukasa Abe"]
 series: ["Frieren: Beyond Journey's End"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

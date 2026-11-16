@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-05-08T00:00:00-05:00
-title: "📚 bookblog: Spook Street (❤️❤️❤️❤️🖤)"
+title: "📚 bookblog: Slough House, Book 4: Spook Street (❤️❤️❤️❤️🖤)"
 tags: ["Spook Street","Mick Herron","Slough House","Mammoth Cave","John Le Carré"]
 media: ["book"]
 titles: ["Spook Street"]
-creators: ["Mick Herron"]
+artists: ["Mick Herron"]
 series: ["Slough House"]
 franchise: ["Slough House"]
 ratings: ["❤️❤️❤️❤️🖤"]

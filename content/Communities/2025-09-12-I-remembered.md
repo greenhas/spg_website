@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-09-12T08:52:46-04:00
-title: "📚 bookblog: 1st Nephi: A Brief Theological Introduction  (❤️❤️❤️❤️🖤)"
-tags: ["1st Nephi: A Brief Theological Introduction","Joseph Spencer","Book of Mormon","supersessionism","2nd Nephi: A Brief Theological Introduction","theology","The Book of Mormon: Brief Theological Introductions",""]
+title: "📚 bookblog: The Book of Mormon: Brief Theological Introductions, Book 1: 1st Nephi: A Brief Theological Introduction (❤️❤️❤️❤️🖤)"
+tags: ["1st Nephi: A Brief Theological Introduction","Joseph Spencer","Book of Mormon","supersessionism","2nd Nephi: A Brief Theological Introduction","theology","The Book of Mormon: Brief Theological Introductions"]
 media: ["book",""]
 titles: ["1st Nephi: A Brief Theological Introduction"]
-creators: ["Joseph Spencer"]
+artists: ["Joseph Spencer"]
 series: ["The Book of Mormon: Brief Theological Introductions"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

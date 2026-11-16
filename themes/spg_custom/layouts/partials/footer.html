@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <div>
+      <span class="section-label site-footer__label">{{ i18n "footerLabel" | default "99 / End" }}</span>
+      <p class="site-footer__copyright">{{ i18n "creativeCommons" }}</p>
+    </div>
+    <nav class="site-footer__links" aria-label="{{ i18n "footerNavigation" | default "Footer" }}">
+      {{- range .Site.Menus.footer }}
+      <a href="{{ .URL }}">{{ .Name }}</a>
+      {{- end }}
+    </nav>
+  </div>
+</footer>

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-05-01T00:00:00-05:00
-title: "📚 bookblog: Real Lions (❤️❤️❤️❤️🖤)"
+title: "📚 bookblog: Slough House, Book 3: Real Lions (❤️❤️❤️❤️🖤)"
 tags: ["Real Lions","Mick Herron","Slough House","Dead Lions"]
 media: ["book"]
 titles: ["Real Lions"]
-creators: ["Mick Herron"]
+artists: ["Mick Herron"]
 series: ["Slough House"]
 franchise: ["Slough House"]
 ratings: ["❤️❤️❤️❤️🖤"]

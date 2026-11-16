@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2024-11-30T09:20:24-05:00
-title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Spill, by Cory Doctorow"
-tags: ["Spill","Cory Doctorow","Little Brother series","activism"]
+title: "📚 bookblog: Spill (❤️❤️❤️❤️🖤)"
+tags: ["Spill","Cory Doctorow","Little Brother series","activism","Little Brother"]
 media: ["book"]
 titles: ["Spill"]
-creators: ["Cory Doctorow"]
+artists: ["Cory Doctorow"]
 series: [""]
 franchise: ["Little Brother"]
 ratings: ["❤️❤️❤️❤️🖤"]

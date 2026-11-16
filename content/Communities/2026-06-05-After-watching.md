@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-06-05T12:11:39-07:00
-title: "📚 bookblog: The General: Charles de Gaulle and the France He Saved  (❤️❤️❤️❤️🖤)"
-tags: ["The General: Charles de Gaulle and the France He Saved","Jonathan Fenby","Charles de Gaulle","Un village français","World War II","",""]
+title: "📚 bookblog: The General: Charles de Gaulle and the France He Saved (❤️❤️❤️❤️🖤)"
+tags: ["The General: Charles de Gaulle and the France He Saved","Jonathan Fenby","Charles de Gaulle","Un village français","World War II"]
 media: ["book",""]
 titles: ["The General: Charles de Gaulle and the France He Saved"]
-creators: ["Jonathan Fenby"]
+artists: ["Jonathan Fenby"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

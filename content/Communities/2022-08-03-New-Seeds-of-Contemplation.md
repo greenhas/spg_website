@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-08-03T00:00:00-05:00
 title: "📚 bookblog: New Seeds of Contemplation (❤️❤️❤️❤️🖤)"
 tags: ["Thomas Merton","New Seeds of Contemplation","contemplation","mindfulness","Kentucky","non-theism","faith transition"]
 media: ["book"]
 titles: ["New Seeds of Contemplation"]
-creators: ["Thomas Merton"]
+artists: ["Thomas Merton"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

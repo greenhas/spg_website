@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-03-19T10:42:11-04:00
-title: "📚 bookblog: More and More and More: An All-Consuming History of Energy  (❤️❤️❤️❤️🖤)"
-tags: ["More and More and More: An All-Consuming History of Energy","Jean-Baptiste Fressoz","Cory Doctorow","climate catastrophe","degrowth","climate change","energy transition","",""]
+title: "📚 bookblog: More and More and More: An All-Consuming History of Energy (❤️❤️❤️❤️🖤)"
+tags: ["More and More and More: An All-Consuming History of Energy","Jean-Baptiste Fressoz","Cory Doctorow","climate catastrophe","degrowth","climate change","energy transition"]
 media: ["book",""]
 titles: ["More and More and More: An All-Consuming History of Energy"]
-creators: ["Jean-Baptiste Fressoz"]
+artists: ["Jean-Baptiste Fressoz"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

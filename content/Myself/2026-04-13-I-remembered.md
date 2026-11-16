@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: tv
+types: ["review"]
+layout: media
 date: 2026-04-13T09:32:25-04:00
-title: "📺 tvblog: Tinker, Tailor, Soldier, Spy  (❤️❤️❤️❤️🖤)"
-tags: [""]
+title: "📺 tvblog: Tinker, Tailor, Soldier, Spy,  (❤️❤️❤️❤️🖤)"
+tags: ["Tinker, Tailor, Soldier, Spy","Smileyverse"]
 media: ["tv"]
 series: ["Tinker, Tailor, Soldier, Spy"]
 franchise: ["Smileyverse"]

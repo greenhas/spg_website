@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-03-08T14:50:49-04:00
-title: "📚 bookblog: Autonomous  (❤️❤️❤️❤️🖤)"
-tags: ["Autonomous","Annalee Newitz","",""]
+title: "📚 bookblog: Autonomous (❤️❤️❤️❤️🖤)"
+tags: ["Autonomous","Annalee Newitz"]
 media: ["book",""]
 titles: ["Autonomous"]
-creators: ["Annalee Newitz"]
+artists: ["Annalee Newitz"]
 series: [""]
 franchise: ["Autonomous"]
 ratings: ["❤️❤️❤️❤️🖤"]

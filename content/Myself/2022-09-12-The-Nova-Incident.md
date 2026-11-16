@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-09-12T00:00:00-05:00
-title: "📚 bookblog: The Nova Incident (❤️❤️❤️❤️🖤)"
-tags: ["The Nova Incident","Dan Moren","TTRPGs"]
+title: "📚 bookblog: Galactic Cold War, Book 4: The Nova Incident (❤️❤️❤️❤️🖤)"
+tags: ["The Nova Incident","Dan Moren","TTRPGs","Galactic Cold War"]
 media: ["book"]
 titles: ["The Nova Incident"]
-creators: ["Dan Moren"]
+artists: ["Dan Moren"]
 series: ["Galactic Cold War"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

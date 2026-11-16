@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-03-21T20:24:11-04:00
-title: "📚 bookblog: Star Trek 2011-2016, Volume 11  (❤️❤️❤️🖤🖤)"
-tags: ["","Mike Johnson","Rachel Stott","Tony Shasteen","Scott Tipton","David Tipton","Sharp Brothers","Star Trek","comics"]
+title: "📚 bookblog: Star Trek 2011-2016, Volume 11 (❤️❤️❤️🖤🖤)"
+tags: ["Mike Johnson","Rachel Stott","Tony Shasteen","Scott Tipton","David Tipton","Sharp Brothers","Star Trek","comics","Star Trek 2011-2016","Kelvinverse","Star Trek IDW"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Mike Johnson","Rachel Stott","Tony Shasteen","Scott Tipton","David Tipton","Sharp Brothers"]
+artists: ["Mike Johnson","Rachel Stott","Tony Shasteen","Scott Tipton","David Tipton","Sharp Brothers"]
 series: ["Star Trek 2011-2016"]
 franchise: ["Star Trek","Kelvinverse","Star Trek IDW"]
 ratings: ["❤️❤️❤️🖤🖤"]

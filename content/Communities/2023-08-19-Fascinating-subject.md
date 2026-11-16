@@ -1,8 +1,8 @@
 ---
-types: ["media"]
-layout: movie
+types: ["review"]
+layout: media
 date: 2023-08-19T15:55:14-04:00
-title: "🍿 movieblog: ❤️❤️❤️❤️❤️ for Oppenheimer"
+title: "🍿 movieblog: Oppenheimer (❤️❤️❤️❤️❤️)"
 tags: ["Oppenheimer","nuclear weapons","J. Robert Oppenheimer","Christopher Nolan"]
 media: ["movie"]
 titles: ["Oppenheimer"]

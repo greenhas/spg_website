@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2025-03-04T12:53:27-05:00
-title: "🎙️ radioblog: When the Wind Blows  (❤️❤️❤️❤️🖤)"
+title: "🎙️ radioblog: When the Wind Blows (❤️❤️❤️❤️🖤)"
 tags: ["When the Wind Blows","Raymond Briggs","nuclear weapons","Wallace and Gromit","radio"]
 media: ["radio"]
 titles: ["When the Wind Blows"]
-creators: ["Raymond Briggs"]
+artists: ["Raymond Briggs"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

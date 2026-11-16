@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2026-02-02T12:18:27-05:00
-title: "🎙️ radioblog: A True Gentleman  (❤️❤️❤️❤️🖤)"
-tags: ["A True Gentleman","Jamie Hailstone"]
+title: "🎙️ radioblog: Doctor Who Short Trips, Volume 1, Story 3: A True Gentleman (❤️❤️❤️❤️🖤)"
+tags: ["A True Gentleman","Jamie Hailstone","Doctor Who Short Trips","Doctor Who","Doctor Who Big Finish"]
 media: ["radio"]
 titles: ["A True Gentleman"]
-creators: ["Jamie Hailstone"]
+artists: ["Jamie Hailstone"]
 series: ["Doctor Who Short Trips"]
 franchise: ["Doctor Who","Doctor Who Big Finish"]
 ratings: ["❤️❤️❤️❤️🖤"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-11-29T18:27:26-05:00
-title: "📚 bookblog: A. D. After Death  (❤️❤️❤️🖤🖤)"
-tags: ["A. D. After Death","Scott Snyder","Jeff Lemire","",""]
+title: "📚 bookblog: A. D. After Death (❤️❤️❤️🖤🖤)"
+tags: ["A. D. After Death","Scott Snyder","Jeff Lemire"]
 media: ["book","comic"]
 titles: ["A. D. After Death"]
-creators: ["Scott Snyder","Jeff Lemire"]
+artists: ["Scott Snyder","Jeff Lemire"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

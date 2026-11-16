@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: tv
+types: ["review"]
+layout: media
 date: 2025-11-05T12:26:52-05:00
-title: "📺 tvblog: Slow Horses Season 5 (❤️❤️❤️🖤🖤)"
-tags: [""]
+title: "📺 tvblog: Slow Horses, Season 5 (❤️❤️❤️🖤🖤)"
+tags: ["Slow Horses","Slough House"]
 media: ["tv"]
 series: ["Slow Horses"]
 franchise: ["Slough House"]

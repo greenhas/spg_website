@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2023-09-16T07:57:12-04:00
-title: "📚 bookblog: ❤️❤️❤️🖤🖤 for Fables: The Deluxe Edition (Book One), by Bill Willingham"
+title: "📚 bookblog: Fables, Deluxe Edition Book 1 (❤️❤️❤️🖤🖤)"
 tags: ["Fables","Bill Willingham","comics","public domain"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Bill Willingham"]
+artists: ["Bill Willingham"]
 series: ["Fables"]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

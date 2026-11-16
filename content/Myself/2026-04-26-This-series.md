@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-04-26T08:06:45-04:00
-title: "📚 bookblog: Welcome, Nowhere  (❤️❤️❤️❤️❤️)"
-tags: ["Welcome, Nowhere","Rick Remender","Matteo Scalera","Dean White","Black Science",""]
+title: "📚 bookblog: Black Science, Volume 2: Welcome, Nowhere (❤️❤️❤️❤️❤️)"
+tags: ["Welcome, Nowhere","Rick Remender","Matteo Scalera","Dean White","Black Science"]
 media: ["book","comic"]
 titles: ["Welcome, Nowhere"]
-creators: ["Rick Remender","Matteo Scalera","Dean White"]
+artists: ["Rick Remender","Matteo Scalera","Dean White"]
 series: ["Black Science"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

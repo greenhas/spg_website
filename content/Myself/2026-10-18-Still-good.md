@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-10-18T21:28:13-04:00
-title: "📚 bookblog: Singularities  (❤️❤️❤️❤️🖤)"
-tags: ["Singularities","Jeff Lemire","Dustin Nguyen","generative AI","AI","digital labor","Descender",""]
+title: "📚 bookblog: Descender, Volume 3: Singularities (❤️❤️❤️❤️🖤)"
+tags: ["Singularities","Jeff Lemire","Dustin Nguyen","generative AI","AI","digital labor","Descender"]
 media: ["book","comic"]
 titles: ["Singularities"]
-creators: ["Jeff Lemire","Dustin Nguyen"]
+artists: ["Jeff Lemire","Dustin Nguyen"]
 series: ["Descender"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-05-26T10:39:26-04:00
-title: "📚 bookblog: Forbidden Realms and Hidden Truths  (❤️❤️❤️❤️🖤)"
-tags: ["Forbidden Realms and Hidden Truths","Rick Remender","Matteo Scalera","Moreno Dinisio","Black Science",""]
+title: "📚 bookblog: Black Science, Volume 6: Forbidden Realms and Hidden Truths (❤️❤️❤️❤️🖤)"
+tags: ["Forbidden Realms and Hidden Truths","Rick Remender","Matteo Scalera","Moreno Dinisio","Black Science"]
 media: ["book","comic"]
 titles: ["Forbidden Realms and Hidden Truths"]
-creators: ["Rick Remender","Matteo Scalera","Moreno Dinisio"]
+artists: ["Rick Remender","Matteo Scalera","Moreno Dinisio"]
 series: ["Black Science"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

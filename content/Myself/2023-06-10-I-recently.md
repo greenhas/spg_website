@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2023-06-10T22:39:25-04:00
-title: "📚 bookblog: ❤️❤️❤️🖤🖤 for Ex Machina (Book 1), by Brian K. Vaughn and Tony Harris"
+title: "📚 bookblog: Ex Machina, Book 1 (❤️❤️❤️🖤🖤)"
 tags: ["Ex Machina","Brian K. Vaughan","Tony Harris"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Brian K. Vaughan","Tony Harris"]
+artists: ["Brian K. Vaughan","Tony Harris"]
 series: ["Ex Machina"]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

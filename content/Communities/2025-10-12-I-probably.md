@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-10-12T12:54:20-04:00
-title: "📚 bookblog: Alma 1-29: A Brief Theological Introduction  (❤️❤️❤️❤️🖤)"
-tags: ["Alma 1-29: A Brief Theological Introduction","Kylie Nielson Turley","The Book of Mormon: Brief Theological Introductions",""]
+title: "📚 bookblog: The Book of Mormon: Brief Theological Introductions, Book 6: Alma 1-29: A Brief Theological Introduction (❤️❤️❤️❤️🖤)"
+tags: ["Alma 1-29: A Brief Theological Introduction","Kylie Nielson Turley","The Book of Mormon: Brief Theological Introductions"]
 media: ["book",""]
 titles: ["Alma 1-29: A Brief Theological Introduction"]
-creators: ["Kylie Nielson Turley"]
+artists: ["Kylie Nielson Turley"]
 series: ["The Book of Mormon: Brief Theological Introductions"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

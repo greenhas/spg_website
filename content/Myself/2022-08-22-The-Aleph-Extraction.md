@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-08-22T00:00:00-05:00
-title: "📚 bookblog: The Aleph Extraction (❤️❤️❤️❤️🖤)"
-tags: ["The Aleph Extraction","Dan Moren"]
+title: "📚 bookblog: Galactic Cold War, Book 3: The Aleph Extraction (❤️❤️❤️❤️🖤)"
+tags: ["The Aleph Extraction","Dan Moren","Galactic Cold War"]
 media: ["book"]
 titles: ["The Aleph Extraction"]
-creators: ["Dan Moren"]
+artists: ["Dan Moren"]
 series: ["Galactic Cold War"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

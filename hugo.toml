@@ -1,8 +1,13 @@
 baseURL = 'https://spencergreenhalgh.com/'
 title = 'Spencer Greenhalgh'
-theme = "ananke_custom_2025"
-# themesDir = "../.."
-# resourceDir = "../resources"
+summaryLength = 1
+
+
+[module]
+	[[module.imports]]
+    	path = "spg_custom"
+  	[[module.imports]]
+    	path = "github.com/zetxek/systemone"
 
 DefaultContentLanguage = "en"
 # SectionPagesMenu = "main"
@@ -10,6 +15,7 @@ DefaultContentLanguage = "en"
 googleAnalytics = ""
 enableRobotsTXT = false
 capitalizeListTitles = false
+
 
 [security]
   allowContent = ['! ^text/org$']
@@ -20,7 +26,7 @@ capitalizeListTitles = false
 [languages]
     [languages.en]
        disabled = false
-        Locale = 'en'
+        Locale = '🇺🇸 [en]'
         Direction = 'ltr'
         Label = '[en]'
         weight = 1
@@ -59,7 +65,7 @@ capitalizeListTitles = false
 
     [languages.fr]
         disabled = false
-        Locale = 'fr'
+        Locale = '🇫🇷 [fr]'
         direction = 'ltr'
         Label = '[fr]'
         weight = 2
@@ -99,7 +105,7 @@ capitalizeListTitles = false
 [taxonomies]
     tag = "tags"
     medium = "media"
-    creator = "creators"
+    artist = "artists"
     series = "series"
     franchise = "franchise"
     title = "titles"

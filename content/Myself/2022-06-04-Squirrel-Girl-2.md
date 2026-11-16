@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-06-01T01:00:00-05:00
 title: "📚 bookblog: The Unbeatable Squirrel Girl 2015-2019, issues 47-50 (❤️❤️❤️❤️🖤)"
-tags: ["Ryan North","Derek Charm","The Unbeatable Squirrel Girl"]
+tags: ["Ryan North","Derek Charm","The Unbeatable Squirrel Girl","The Unbeatable Squirrel Girl 2015-2019","Marvel","Squirrel Girl"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Ryan North","Derek Charm"]
+artists: ["Ryan North","Derek Charm"]
 series: ["The Unbeatable Squirrel Girl 2015-2019"]
 franchise: ["Marvel","Squirrel Girl"]
 ratings: ["❤️❤️❤️❤️🖤"]

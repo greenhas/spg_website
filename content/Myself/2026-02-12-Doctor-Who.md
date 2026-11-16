@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2026-02-12T10:02:54-05:00
-title: "🎙️ radioblog: The Ravagers  (❤️❤️❤️❤️🖤)"
-tags: ["The Ravagers","Nicholas Briggs","Christopher Eccleston"]
+title: "🎙️ radioblog: Doctor Who: The Ninth Doctor Adventures, Series 1, Volume 1: The Ravagers (❤️❤️❤️❤️🖤)"
+tags: ["The Ravagers","Nicholas Briggs","Christopher Eccleston","Doctor Who: The Ninth Doctor Adventures","Doctor Who","Doctor Who Big Finish"]
 media: ["radio"]
 titles: ["The Ravagers"]
-creators: ["Nicholas Briggs"]
+artists: ["Nicholas Briggs"]
 series: ["Doctor Who: The Ninth Doctor Adventures"]
 franchise: ["Doctor Who","Doctor Who Big Finish"]
 ratings: ["❤️❤️❤️❤️🖤"]

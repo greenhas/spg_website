@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2023-01-20T22:41:29-05:00
-title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Terms and Conditions, by R. Sikoryak"
+title: "📚 bookblog: Terms and Conditions (❤️❤️❤️❤️🖤)"
 tags: ["Terms and Conditions","R. Sikoryak","Terms and Conditions (comic)","terms of service","Apple","Steve Jobs"]
 media: ["book"]
 titles: ["Terms and Conditions"]
-creators: ["R. Sikoryak"]
+artists: ["R. Sikoryak"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

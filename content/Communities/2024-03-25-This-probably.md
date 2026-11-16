@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2024-03-25T13:59:04-04:00
-title: "📚 bookblog: ❤️❤️❤️🖤🖤 for The New Testament: A Translation, by David Bentley Hart"
-tags: ["The New Testament","David Bentley Hart","audiobooks"]
+title: "📚 bookblog: The New Testament: A Translation (❤️❤️❤️🖤🖤)"
+tags: ["The New Testament","David Bentley Hart","audiobooks","The New Testament: A Translation"]
 media: ["book","audiobook"]
 titles: ["The New Testament: A Translation"]
-creators: ["David Bentley Hart"]
+artists: ["David Bentley Hart"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-07-02T00:00:00-05:00
 title: "📚 bookblog: Superman's Pal Jimmy Olsen: Who Killed Jimmy Olsen? (❤️❤️❤️❤️❤️)"
-tags: ["Matt Fraction","Steve Lieber","Superman's Pal Jimmy Olsen: Who Killed Jimmy Olsen?","Superman","Jimmy Olsen","TVTropes","Ryan North","The Unbeatable Squirrel Girl","comics","Silver Age"]
+tags: ["Matt Fraction","Steve Lieber","Superman's Pal Jimmy Olsen: Who Killed Jimmy Olsen?","Superman","Jimmy Olsen","TVTropes","Ryan North","The Unbeatable Squirrel Girl","comics","Silver Age","DC"]
 media: ["book"]
 titles: ["Superman's Pal Jimmy Olsen: Who Killed Jimmy Olsen?"]
-creators: ["Matt Fraction","Steve Lieber"]
+artists: ["Matt Fraction","Steve Lieber"]
 series: [""]
 franchise: ["DC","Superman"]
 ratings: ["❤️❤️❤️❤️❤️"]

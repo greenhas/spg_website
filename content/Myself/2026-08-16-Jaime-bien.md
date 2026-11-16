@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2026-08-16T07:54:20-04:00
 title: "🎙️ radioblog: 57, rue de Varenne, Saison 1 (❤️❤️❤️❤️🖤)"
-tags: ["","François Pérache"]
+tags: ["François Pérache","57, rue de Varenne"]
 media: ["radio"]
 titles: [""]
-creators: ["François Pérache"]
+artists: ["François Pérache"]
 series: ["57, rue de Varenne"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-02-19T00:00:00-05:00
 title: "📚 bookblog: American Born Chinese (❤️❤️❤️❤️❤️)"
 tags: ["American Born Chinese","Gene Luen Yang","anti-racism","Superman Smashes the Klan"]
 media: ["book","comic","graphic novel"]
 titles: ["American Born Chinese"]
-creators: ["Gene Luen Yang"]
+artists: ["Gene Luen Yang"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

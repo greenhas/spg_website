@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-10-22T10:14:10-04:00
-title: "📚 bookblog: Bad Actors  (❤️❤️❤️❤️❤️)"
+title: "📚 bookblog: Slough House, Book 8: Bad Actors (❤️❤️❤️❤️❤️)"
 tags: ["Bad Actors","Mick Herron","Gerard Doyle","DOGE","Project 2025","Slough House","Slow Horses"]
 media: ["book","audiobook"]
 titles: ["Bad Actors"]
-creators: ["Mick Herron","Gerard Doyle"]
+artists: ["Mick Herron","Gerard Doyle"]
 series: ["Slough House"]
 franchise: ["Slow Horses"]
 ratings: ["❤️❤️❤️❤️❤️"]

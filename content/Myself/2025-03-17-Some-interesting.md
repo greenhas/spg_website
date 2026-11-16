@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-03-17T17:43:08-04:00
-title: "📚 bookblog: Star Trek 2011-2016, Volume 6  (❤️❤️❤️❤️🖤)"
-tags: ["After Darkness","Mike Johnson","Erfan Fajar","Claudia Balboni","Agri Karuniawan","Star Trek"]
+title: "📚 bookblog: Star Trek 2011-2016, Volume 6: After Darkness (❤️❤️❤️❤️🖤)"
+tags: ["After Darkness","Mike Johnson","Erfan Fajar","Claudia Balboni","Agri Karuniawan","Star Trek","Star Trek 2011-2016","Kelvinverse","Star Trek IDW"]
 media: ["book","comic"]
 titles: ["After Darkness"]
-creators: ["Mike Johnson","Erfan Fajar","Claudia Balboni","Agri Karuniawan"]
+artists: ["Mike Johnson","Erfan Fajar","Claudia Balboni","Agri Karuniawan"]
 series: ["Star Trek 2011-2016"]
 franchise: ["Star Trek","Kelvinverse","Star Trek IDW"]
 ratings: ["❤️❤️❤️❤️🖤"]

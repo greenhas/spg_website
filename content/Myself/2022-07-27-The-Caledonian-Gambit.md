@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-07-27T00:00:00-05:00
-title: "📚 bookblog: The Caledonian Gambit (❤️❤️❤️❤️🖤)"
-tags: ["The Caledonian Gambit","Dan Moren","The Incomparable","Total Party Kill","Dungeons and Dragons"]
+title: "📚 bookblog: Galactic Cold War, Book 1: The Caledonian Gambit (❤️❤️❤️❤️🖤)"
+tags: ["The Caledonian Gambit","Dan Moren","The Incomparable","Total Party Kill","Dungeons and Dragons","Galactic Cold War"]
 media: ["book"]
 titles: ["The Caledonian Gambit"]
-creators: ["Dan Moren"]
+artists: ["Dan Moren"]
 series: ["Galactic Cold War"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

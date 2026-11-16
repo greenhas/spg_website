@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2024-09-29T20:50:24-04:00
-title: "📚 bookblog: ❤️❤️❤️❤️❤️ for Vigilant, by Cory Doctorow"
-tags: ["Vigilant","Cory Doctorow","Proctorio","surveillance","privacy","edtech","WannaCry"]
+title: "📚 bookblog: Vigilant (❤️❤️❤️❤️❤️)"
+tags: ["Vigilant","Cory Doctorow","Proctorio","surveillance","privacy","edtech","WannaCry","Little Brother"]
 media: ["book"]
 titles: ["Vigilant"]
-creators: ["Cory Doctorow"]
+artists: ["Cory Doctorow"]
 series: [""]
 franchise: ["Little Brother"]
 ratings: ["❤️❤️❤️❤️❤️"]

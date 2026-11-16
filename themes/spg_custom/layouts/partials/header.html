@@ -1,0 +1,35 @@
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__brand" href="{{ .Site.Home.Permalink }}">{{ .Site.Title }}</a>
+    {{ partials.Include "i18nlist.html" . }}
+    {{ partial "nav.html" . }}
+    {{- if (site.Params.features.appearanceToggle | default true) }}
+    {{- $name := i18n "appearanceToggleName" | default "Appearance" }}
+    {{- $action := i18n "appearanceToggleAction" | default "Activate to change." }}
+    {{- $auto := i18n "appearanceAuto" | default "auto" }}
+    {{- $light := i18n "appearanceLight" | default "light" }}
+    {{- $dark := i18n "appearanceDark" | default "dark" }}
+    <button
+      type="button"
+      id="appearance-toggle"
+      class="appearance-toggle"
+      hidden
+      data-appearance-name="{{ $name }}"
+      data-appearance-action="{{ $action }}"
+      data-appearance-label-auto="{{ $auto }}"
+      data-appearance-label-light="{{ $light }}"
+      data-appearance-label-dark="{{ $dark }}"
+      aria-label="{{ $name }}: {{ $auto }}. {{ $action }}"
+    >{{ $auto }}</button>
+    {{- end }}
+    {{- with .Site.Home.OutputFormats.Get "RSS" }}
+    <a class="site-header__rss" href="{{ .Permalink }}" aria-label="{{ i18n "rssFeed" | default "RSS feed" }}">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+        <circle cx="3.5" cy="12.5" r="1.5" fill="currentColor" stroke="none" />
+        <path d="M1 7a8 8 0 0 1 8 8" />
+        <path d="M1 1a14 14 0 0 1 14 14" />
+      </svg>
+    </a>
+    {{- end }}
+  </div>
+</header>

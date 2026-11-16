@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-07-13T13:40:20-04:00
-title: "📚 bookblog: Gaytheist: Coming Out of My Orthodox Childhood  (❤️❤️❤️❤️❤️)"
-tags: ["Gaytheist: Coming Out of My Orthodox Childhood","Lonnie Mann","Ryan Gates","",""]
+title: "📚 bookblog: Gaytheist: Coming Out of My Orthodox Childhood (❤️❤️❤️❤️❤️)"
+tags: ["Gaytheist: Coming Out of My Orthodox Childhood","Lonnie Mann","Ryan Gates"]
 media: ["book","comic","graphic novel"]
 titles: ["Gaytheist: Coming Out of My Orthodox Childhood"]
-creators: ["Lonnie Mann","Ryan Gates"]
+artists: ["Lonnie Mann","Ryan Gates"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

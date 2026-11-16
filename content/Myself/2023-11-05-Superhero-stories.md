@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2023-11-05T19:56:56-05:00
-title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Ultimate Spider-Man: Vol. 5, Public Scrutiny, by Brian Michael Bendis and Mark Bagley"
-tags: ["Ultimate Spider-Man","Spider-Man","Brian Michael Bendis","Mark Bagley"]
+title: "📚 bookblog: Ultimate Spider-Man, Volume 5: Public Scrutiny (❤️❤️❤️❤️🖤)"
+tags: ["Ultimate Spider-Man","Spider-Man","Brian Michael Bendis","Mark Bagley","Marvel","Ultimate Marvel (2000)","Public Scrutiny"]
 media: ["book","comic"]
 titles: ["Public Scrutiny"]
-creators: ["Brian Michael Bendis","Mark Bagley"]
+artists: ["Brian Michael Bendis","Mark Bagley"]
 series: ["Ultimate Spider-Man"]
 franchise: ["Marvel","Ultimate Marvel (2000)","Spider-Man"]
 ratings: ["❤️❤️❤️❤️🖤"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-10-20T21:30:22-04:00
-title: "📚 bookblog: Rise of the Robots  (❤️❤️❤️❤️🖤)"
-tags: ["Rise of the Robots","Jeff Lemire","Dustin Nguyen","Descender",""]
+title: "📚 bookblog: Descender, Volume 5: Rise of the Robots (❤️❤️❤️❤️🖤)"
+tags: ["Rise of the Robots","Jeff Lemire","Dustin Nguyen","Descender"]
 media: ["book","comic"]
 titles: ["Rise of the Robots"]
-creators: ["Jeff Lemire","Dustin Nguyen"]
+artists: ["Jeff Lemire","Dustin Nguyen"]
 series: ["Descender"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

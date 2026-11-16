@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-03-09T16:36:04-04:00
-title: "📚 bookblog: Tooth and Claw  (❤️❤️❤️❤️🖤)"
-tags: ["Tooth and Claw","Kurt Busiek","Benjamin Dewey","The Autumnlands",""]
+title: "📚 bookblog: The Autumnlands, Volume 1: Tooth and Claw (❤️❤️❤️❤️🖤)"
+tags: ["Tooth and Claw","Kurt Busiek","Benjamin Dewey","The Autumnlands"]
 media: ["book","comic"]
 titles: ["Tooth and Claw"]
-creators: ["Kurt Busiek","Benjamin Dewey"]
+artists: ["Kurt Busiek","Benjamin Dewey"]
 series: ["The Autumnlands"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

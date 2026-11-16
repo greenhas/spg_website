@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: tv
+types: ["review"]
+layout: media
 date: 2024-10-11T21:42:15-04:00
-tags: ["Slow Horses"]
-title: "📺 tvblog: ❤️❤️❤️❤️❤️ for Slow Horses (Season 4)"
+tags: ["Slow Horses","Slough House"]
+title: "📺 tvblog: Slow Horses, Season 4 (❤️❤️❤️❤️❤️)"
 media: ["tv"]
 series: ["Slow Horses"]
 franchise: ["Slough House"]

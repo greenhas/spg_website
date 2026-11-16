@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-06-08T16:56:19-04:00
-title: "📚 bookblog: Hopscotch Mélange  (❤️❤️❤️🖤🖤)"
-tags: ["Hopscotch Mélange","W. Maxwell Prince","Martín Morazzo","Chris O'Halloran","Ice Cream Man",""]
+title: "📚 bookblog: Ice Cream Man, Volume 3: Hopscotch Mélange (❤️❤️❤️🖤🖤)"
+tags: ["Hopscotch Mélange","W. Maxwell Prince","Martín Morazzo","Chris O'Halloran","Ice Cream Man"]
 media: ["book","comic"]
 titles: ["Hopscotch Mélange"]
-creators: ["W. Maxwell Prince","Martín Morazzo","Chris O'Halloran"]
+artists: ["W. Maxwell Prince","Martín Morazzo","Chris O'Halloran"]
 series: ["Ice Cream Man"]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

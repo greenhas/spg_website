@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-04-08T10:55:19-04:00
-title: "📚 bookblog: Her Hugs Are Traps  (❤️❤️❤️❤️🖤)"
-tags: ["Her Hugs Are Traps","David Willis","Dumbing of Ages",""]
+title: "📚 bookblog: Dumbing of Ages, Collection 12: Her Hugs Are Traps (❤️❤️❤️❤️🖤)"
+tags: ["Her Hugs Are Traps","David Willis","Dumbing of Ages"]
 media: ["book","comic","webcomic"]
 titles: ["Her Hugs Are Traps"]
-creators: ["David Willis"]
+artists: ["David Willis"]
 series: ["Dumbing of Ages"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

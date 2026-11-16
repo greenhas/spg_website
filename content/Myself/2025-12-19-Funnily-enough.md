@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-12-19T10:14:15-05:00
-title: "📚 bookblog: Paper Girls, Volume 1  (❤️❤️❤️❤️🖤)"
-tags: ["","Brian K. Vaughan","Cliff Chiang","Paper Girls",""]
+title: "📚 bookblog: Paper Girls, Volume 1 (❤️❤️❤️❤️🖤)"
+tags: ["Brian K. Vaughan","Cliff Chiang","Paper Girls"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Brian K. Vaughan","Cliff Chiang"]
+artists: ["Brian K. Vaughan","Cliff Chiang"]
 series: ["Paper Girls"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

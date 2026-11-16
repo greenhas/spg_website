@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-10-25T10:14:09-04:00
-title: "📚 bookblog: The Book of Life  (❤️❤️❤️❤️❤️)"
-tags: ["The Book of Life","Peter Hogan","Steve Parkhouse","Resident Alien","Resident Alien"]
+title: "📚 bookblog: Resident Alien, Book 8: The Book of Life (❤️❤️❤️❤️❤️)"
+tags: ["The Book of Life","Peter Hogan","Steve Parkhouse","Resident Alien"]
 media: ["book","comic"]
 titles: ["The Book of Life"]
-creators: ["Peter Hogan","Steve Parkhouse"]
+artists: ["Peter Hogan","Steve Parkhouse"]
 series: ["Resident Alien"]
 franchise: ["Resident Alien"]
 ratings: ["❤️❤️❤️❤️❤️"]

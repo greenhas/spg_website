@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-02-23T21:36:03-05:00
-title: "📚 bookblog: Trois montres d'argent (❤️❤️❤️🖤🖤)"
-tags: ["Trois montres d'argent","William Vance","Jean Van Hamme"]
+title: "📚 bookblog: XIII, Tome 11: Trois montres d'argent (❤️❤️❤️🖤🖤)"
+tags: ["Trois montres d'argent","William Vance","Jean Van Hamme","XIII"]
 media: ["book","comic","bande dessinée"]
 titles: ["Trois montres d'argent"]
-creators: ["William Vance","Jean Van Hamme"]
+artists: ["William Vance","Jean Van Hamme"]
 series: ["XIII"]
 franchise: ["XIII"]
 ratings: ["❤️❤️❤️🖤🖤"]

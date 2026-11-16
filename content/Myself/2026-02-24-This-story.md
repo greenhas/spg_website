@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2026-02-24T11:53:38-05:00
-title: "🎙️ radioblog: World of Damnation  (❤️❤️🖤🖤🖤)"
-tags: ["World of Damnation","Matt Fitton"]
+title: "🎙️ radioblog: Doctor Who: Ravenous, Volume 1, Story 3: World of Damnation (❤️❤️🖤🖤🖤)"
+tags: ["World of Damnation","Matt Fitton","Doctor Who: Ravenous","Doctor Who","Doctor Who Big Finish"]
 media: ["radio"]
 titles: ["World of Damnation"]
-creators: ["Matt Fitton"]
+artists: ["Matt Fitton"]
 series: ["Doctor Who: Ravenous"]
 franchise: ["Doctor Who","Doctor Who Big Finish"]
 ratings: ["❤️❤️🖤🖤🖤"]

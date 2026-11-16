@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-11-23T21:34:31-05:00
-title: "📚 bookblog: Alma 30-63: A Brief Theological Introduction  (❤️❤️❤️❤️🖤)"
-tags: ["Alma 30-63: A Brief Theological Introduction","Mark Wrathall","The Book of Mormon: Brief Theological Introductions",""]
+title: "📚 bookblog: The Book of Mormon: Brief Theological Introductions, Book 7: Alma 30-63: A Brief Theological Introduction (❤️❤️❤️❤️🖤)"
+tags: ["Alma 30-63: A Brief Theological Introduction","Mark Wrathall","The Book of Mormon: Brief Theological Introductions"]
 media: ["book",""]
 titles: ["Alma 30-63: A Brief Theological Introduction"]
-creators: ["Mark Wrathall"]
+artists: ["Mark Wrathall"]
 series: ["The Book of Mormon: Brief Theological Introductions"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: tv
+types: ["review"]
+layout: media
 date: 2024-04-02T10:41:20-04:00
 tags: ["Borgen","The West Wing","proportional representation"]
-title: "📺 tvblog: ❤️❤️❤️❤️🖤 for Borgen (Season 1)"
+title: "📺 tvblog: Borgen, Season 1 (❤️❤️❤️❤️🖤)"
 media: ["tv"]
 series: ["Borgen"]
 franchise: [""]

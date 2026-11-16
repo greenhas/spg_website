@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-07-01T18:03:33-04:00
-title: "📚 bookblog: Awakening  (❤️❤️❤️❤️🖤)"
-tags: ["Awakening","Mirka Andolfo","Unnatural",""]
+title: "📚 bookblog: Unnatural, Volume 1: Awakening (❤️❤️❤️❤️🖤)"
+tags: ["Awakening","Mirka Andolfo","Unnatural"]
 media: ["book","comic","bande dessinée"]
 titles: ["Awakening"]
-creators: ["Mirka Andolfo"]
+artists: ["Mirka Andolfo"]
 series: ["Unnatural"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

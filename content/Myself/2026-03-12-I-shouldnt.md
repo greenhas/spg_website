@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2026-03-12T09:41:54-04:00
-title: "🎙️ radioblog: The Carrionite Curse  (❤️❤️❤️❤️🖤)"
-tags: ["The Carrionite Curse","Simon Guerrier"]
+title: "🎙️ radioblog: Doctor Who: Classic Doctors New Monsters, Volume 2: The Carrionite Curse (❤️❤️❤️❤️🖤)"
+tags: ["The Carrionite Curse","Simon Guerrier","Doctor Who: Classic Doctors New Monsters","Doctor Who","Doctor Who Big Finish"]
 media: ["radio"]
 titles: ["The Carrionite Curse"]
-creators: ["Simon Guerrier"]
+artists: ["Simon Guerrier"]
 series: ["Doctor Who: Classic Doctors New Monsters"]
 franchise: ["Doctor Who","Doctor Who Big Finish"]
 ratings: ["❤️❤️❤️❤️🖤"]

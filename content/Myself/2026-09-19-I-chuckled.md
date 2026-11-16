@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-09-19T08:08:15-04:00
-title: "📚 bookblog: Dark Horse Heroes, Omnibus 1  (❤️❤️🖤🖤🖤)"
-tags: ["","Mike Richardson","Jerry Prosser","Barbara Kesel","Chris Warner","Randy Stradley","Dark Horse Heroes","Dark Horse"]
+title: "📚 bookblog: Dark Horse Heroes, Omnibus 1 (❤️❤️🖤🖤🖤)"
+tags: ["Mike Richardson","Jerry Prosser","Barbara Kesel","Chris Warner","Randy Stradley","Dark Horse Heroes","Dark Horse"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Mike Richardson","Jerry Prosser","Barbara Kesel","Chris Warner","Randy Stradley"]
+artists: ["Mike Richardson","Jerry Prosser","Barbara Kesel","Chris Warner","Randy Stradley"]
 series: ["Dark Horse Heroes"]
 franchise: ["Dark Horse"]
 ratings: ["❤️❤️🖤🖤🖤"]

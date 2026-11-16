@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-07-24T00:00:00-05:00
-title: "📚 bookblog: The Era of Worldwide Community (❤️❤️❤️❤️❤️)"
-tags: ["Mark Scherer","The Journey of a People","Mormonism","Community of Christ"]
+title: "📚 bookblog: The Journey of a People, Book 3: The Era of Worldwide Community, 1946-2015 (❤️❤️❤️❤️❤️)"
+tags: ["Mark Scherer","The Journey of a People","Mormonism","Community of Christ","The Era of Worldwide Community, 1946-2015"]
 media: ["book"]
 titles: ["The Era of Worldwide Community, 1946-2015"]
-creators: ["Mark Scherer"]
+artists: ["Mark Scherer"]
 series: ["The Journey of a People"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

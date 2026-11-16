@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-03-22T02:00:00-05:00
-title: "📚 bookblog: Steve Rowland (❤️❤️❤️🖤🖤)"
-tags: ["XIII","Steve Rowland","Fabien Nury","Richard Guérineau"]
+title: "📚 bookblog: XIII Mystery,  Volume 5: Steve Rowland (❤️❤️❤️🖤🖤)"
+tags: ["XIII","Steve Rowland","Fabien Nury","Richard Guérineau","XIII Mystery"]
 media: ["book","comic","bande dessinée"]
 titles: ["Steve Rowland"]
-creators: ["Fabien Nury","Richard Guérineau"]
+artists: ["Fabien Nury","Richard Guérineau"]
 series: ["XIII Mystery"]
 franchise: ["XIII"]
 ratings: ["❤️❤️❤️🖤🖤"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-03-22T01:00:00-05:00
-title: "📚 bookblog: Colonel Amos (❤️❤️❤️🖤🖤)"
-tags: ["XIII","Colonel Amos","Alcante","François Boucq"]
+title: "📚 bookblog: XIII Mystery,  Volume 4: Colonel Amos (❤️❤️❤️🖤🖤)"
+tags: ["XIII","Colonel Amos","Alcante","François Boucq","XIII Mystery"]
 media: ["book","comic","bande dessinée"]
 titles: ["Colonel Amos"]
-creators: ["Alcante","François Boucq"]
+artists: ["Alcante","François Boucq"]
 series: ["XIII Mystery"]
 franchise: ["XIII"]
 ratings: ["❤️❤️❤️🖤🖤"]

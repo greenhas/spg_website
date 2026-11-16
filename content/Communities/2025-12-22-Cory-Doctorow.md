@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-12-22T07:27:56-05:00
-title: "📚 bookblog: Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism  (❤️❤️❤️❤️🖤)"
-tags: ["Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism","Sarah Wynn-Williams","Mark Zuckerberg","Sheryl Sandberg","Meta","Facebook","",""]
+title: "📚 bookblog: Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism (❤️❤️❤️❤️🖤)"
+tags: ["Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism","Sarah Wynn-Williams","Mark Zuckerberg","Sheryl Sandberg","Meta","Facebook"]
 media: ["book","audiobook"]
 titles: ["Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism"]
-creators: ["Sarah Wynn-Williams"]
+artists: ["Sarah Wynn-Williams"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

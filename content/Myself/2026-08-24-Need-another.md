@@ -1,5 +1,5 @@
 ---
-types: ["tea"]
+types: ["review"]
 layout: tea
 date: 2026-08-24T15:47:29-04:00
 title: "☕ teablog: Elmwood Inn, Southern Pecan  (❤️❤️❤️❤️🖤)"
@@ -7,7 +7,7 @@ tags: ["black tea","Elmwood Inn","Southern Pecan"]
 brands: ["Elmwood Inn"]
 blends: ["Southern Pecan"]
 tea_types: ["black"]
-tea_ratings: ["❤️❤️❤️❤️🖤"]
+ratings: ["❤️❤️❤️❤️🖤"]
 ---
 
 Need another cup of this before I make up my mind definitively, but that's part of the fun story behind this blend.
