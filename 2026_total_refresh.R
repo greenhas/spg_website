@@ -127,7 +127,7 @@ for(i in 1:length(file_list)){ # 1:length(file_list)
     }
     if(temp_series != ""){
       
-      temp_file[title_spot] <- paste0(temp_title,'blog: ',temp_series,temp_entry,': ', temp_titles,' (',temp_ratings,')"')
+      temp_file[title_spot] <- paste0(temp_title,'blog: ',temp_series,",",temp_entry,': ', temp_titles,' (',temp_ratings,')"')
       
       # print("blank")
     }
