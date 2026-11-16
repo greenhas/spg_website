@@ -3,7 +3,7 @@ types: ["review"]
 layout: media
 date: 2024-06-19T11:23:53-04:00
 tags: ["Inside Out 2","Inside Out","Pixar"]
-title: "🍿 movieblog: Inside Out, 2: Inside Out 2 (❤️❤️❤️🖤🖤)"
+title: "🍿 movieblog: Inside Out 2 (❤️❤️❤️🖤🖤)"
 media: ["movie"]
 titles: ["Inside Out 2"]
 series: ["Inside Out"]

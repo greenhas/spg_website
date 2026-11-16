@@ -2,7 +2,7 @@
 types: ["review"]
 layout: media
 date: 2026-09-08T21:04:01-04:00
-title: "🍿 movieblog: Spider-Verse, movie 2: Across the Spider-Verse (❤️❤️❤️❤️❤️)"
+title: "🍿 movieblog: Across the Spider-Verse (❤️❤️❤️❤️❤️)"
 tags: ["Across the Spider-Verse","anarchism","David Graeber","fandom","Spider-Verse","Marvel","Spider-Man"]
 media: ["movie"]
 titles: ["Across the Spider-Verse"]

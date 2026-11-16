@@ -2,7 +2,7 @@
 types: ["review"]
 layout: media
 date: 2026-01-20T14:02:59-05:00
-title: "🍿 movieblog: Astérix et Obélix, film 2: Astérix et Obélix: Mission Cléopâtre (❤️❤️❤️❤️🖤)"
+title: "🍿 movieblog: Astérix et Obélix: Mission Cléopâtre (❤️❤️❤️❤️🖤)"
 tags: ["Astérix et Obélix: Mission Cléopâtre","Astérix et Obélix","Astérix"]
 media: ["movie"]
 titles: ["Astérix et Obélix: Mission Cléopâtre"]

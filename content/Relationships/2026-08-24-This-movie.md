@@ -2,7 +2,7 @@
 types: ["review"]
 layout: media
 date: 2026-08-24T16:24:05-04:00
-title: "🍿 movieblog: Spider-Verse, movie 1: Spider-Man: Into the Spider-Verse (❤️❤️❤️❤️❤️)"
+title: "🍿 movieblog: Spider-Man: Into the Spider-Verse (❤️❤️❤️❤️❤️)"
 tags: ["Spider-Man: Into the Spider-Verse","Spider-Verse","Marvel","Spider-Man"]
 media: ["movie"]
 titles: ["Spider-Man: Into the Spider-Verse"]
