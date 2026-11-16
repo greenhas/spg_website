@@ -12,7 +12,14 @@ for(i in 1:length(file_list)){ # 1:length(file_list)
   print(temp_file[2])
   if(temp_file[2] == 'layout: link'){
     
-    temp_file[9] <- 'title: ""'
+    for(j in 1:length(temp_file)){
+      # print(j)
+      test_word <- word(temp_file[j],1)
+      
+      if(test_word == "title:"){
+        
+        temp_file[j] <- 'title: ""'
+      }
     
   }
   
