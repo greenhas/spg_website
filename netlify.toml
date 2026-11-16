@@ -1,17 +1,55 @@
-[build.environment]
-DART_SASS_VERSION = "1.97.1"
-GO_VERSION = "1.25.5"
-HUGO_VERSION = "0.153.2"
-NODE_VERSION = "24.12.0"
-
 [build]
-publish = "public"
-command = """\
-  git config core.quotepath false && \
-  hugo --gc --minify --baseURL "${URL}"
-  """
-  
+  publish = "public"
+  command = "npm ls && hugo --gc --minify"
+
+  [build.environment]
+    HUGO_VERSION = "0.167.0"
+
+[context.production.environment]
+  HUGO_ENV           = "production"
+  HUGO_ENABLEGITINFO = "true"
+
+[context.split1]
+  command = "npm ls && hugo --gc --minify --enableGitInfo"
+
+  [context.split1.environment]
+    HUGO_ENV = "production"
+
+[context.deploy-preview]
+  command = "npm ls && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL --enableGitInfo"
+
+[context.branch-deploy]
+  command = "npm ls && hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+[context.next.environment]
+  HUGO_ENABLEGITINFO = "true"
+
 [[headers]]
-for = "/spencer/*"
-[headers.values]
-Content-Type = "application/activity+json"
+  for = "/*.jpg"
+
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "/*.png"
+
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "/*.css"
+
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "/*.js"
+
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
+
+[[headers]]
+  for = "/*.ttf"
+
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
