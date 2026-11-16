@@ -2,15 +2,19 @@ library(tidyverse)
 
 file_list <- list.files("/Users/spencergreenhalgh/spg_website/content/Myself", pattern = ".md", full.names = TRUE)
 
-file_list[1512]
-
-
-for(i in 1515:1515){ # 1:length(file_list)
+for(i in 1:length(file_list)){ # 1:length(file_list)
   
   temp_file <- read_lines(file_list[i])
   post_type <- temp_file[2]
   
   # fix tea posts
+  
+  if(post_type == 'types: ["tea"]'){
+    
+    temp_file[2] <- 'types: ["review"]'
+    temp_file[10] <- temp_file[10] |> str_remove(("tea_"))
+    
+  }
   
   # fix media posts
   
@@ -19,7 +23,7 @@ for(i in 1515:1515){ # 1:length(file_list)
     temp_file[2] <- 'types: ["review"]'
     
     for(j in 1:length(temp_file)){
-      print(j)
+      # print(j)
       test_word <- word(temp_file[j],1)
       
       if(test_word == "title:"){
@@ -36,6 +40,28 @@ for(i in 1515:1515){ # 1:length(file_list)
           str_split('"')
         
         temp_titles <- temp_titles[[1]][2]
+      }
+      if(test_word == "creators:"){
+        
+        temp_file[j] <- temp_file[j] |> str_replace(pattern = "creators", replacement = "artists")
+        
+        temp_artists <- temp_file[j] |> 
+          # str_remove_all('\"') |> 
+          str_remove('artists: \\["') |>
+          str_remove('"\\]') |>
+          str_split('","')
+        
+        temp_artists <- temp_artists[[1]][!temp_artists[[1]] == ""]
+      }
+      if(test_word == "franchise:"){
+    
+        temp_franchise <- temp_file[j] |> 
+          str_remove_all('\"') |> 
+          str_remove("franchise: \\[") |>
+          str_remove("\\]") |>
+          str_split(",")
+        
+        temp_franchise <- temp_franchise[[1]][!temp_franchise[[1]] == ""]
       }
       
       if(test_word == "series:"){
@@ -54,8 +80,9 @@ for(i in 1515:1515){ # 1:length(file_list)
       temp_ratings <- temp_ratings[[1]][2]
     }
       
+      
     if(test_word == "params:"){
-      print("snagged!")
+      # print("snagged!")
       temp_entry <- 
         temp_file[j + 1] |> 
         str_split(":")
@@ -80,16 +107,24 @@ for(i in 1515:1515){ # 1:length(file_list)
     }
     
     temp_tags <- temp_file[6] |> 
-      str_remove_all('\"') |> 
-      str_remove("tags: \\[") |>
-      str_remove("\\]") #|>
-      # str_split(",")
+      # str_remove_all('\"') |> 
+      str_remove('tags: \\["') |>
+      str_remove('"\\]') |>
+      str_split('","')
     
-    # temp_file[5]
+    temp_tags <- temp_tags[[1]][!temp_tags[[1]] == ""]
+    
+    temp_tags <- c(temp_tags, temp_artists, temp_series, temp_franchise, temp_titles) |> unique()
+    
+    temp_tags <- temp_tags[!temp_tags == ""]
+    
+    temp_file[6] <- paste0('tags: \["',str_flatten(temp_tags,collapse ='","'),'"\]')
+    
+
       
     
   }
-
+  temp_file |> write_lines(file_list[i])
 }
   
 
