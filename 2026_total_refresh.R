@@ -36,7 +36,7 @@ for(i in 1:length(file_list)){ # 1:length(file_list)
       
       if(test_word == "layout:"){
         
-        temp_file[j] <- "layout:"
+        temp_file[j] <- "layout: media"
       }
       
       if(test_word == "title:"){
