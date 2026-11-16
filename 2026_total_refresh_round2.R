@@ -1,17 +1,18 @@
 library(tidyverse)
 
-file_list <- list.files("/Users/spencergreenhalgh/spg_website/content/Communities", pattern = ".md", full.names = TRUE)
+file_list <- list.files("/Users/spencergreenhalgh/spg_website/content/Myself", pattern = ".md", full.names = TRUE)
 
-for(i in 1583:1583){ # 1:length(file_list)
+for(i in 1:length(file_list)){ # 1:length(file_list)
   
   temp_file <- read_lines(file_list[i])
   
   
   # fix linkposts
   
+  print(temp_file[2])
   if(temp_file[2] == 'layout: link'){
     
-    temp_file[9] == 'title: ""'
+    temp_file[9] <- 'title: ""'
     
   }
   
