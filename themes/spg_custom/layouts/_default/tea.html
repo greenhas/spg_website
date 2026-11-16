@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{- $isPost := eq .Section "myself" "relationships" "work" "communities" -}}
+<article class="container">
+  <header class="hero">
+    <span class="section-label hero__eyebrow">
+      {{- if $isPost }}{{ i18n "articleLabel" | default "00 / Article" }}{{ else }}{{ i18n "pageLabel" | default "00 / Page" }}{{ end -}}
+    </span>
+    <!--<h1 class="hero__title">{{ .Title }}</h1>-->
+    {{- with .Description }}
+    <p class="hero__deck">{{ . }}</p>
+    {{- end }}
+    {{- if $isPost }}
+    <p class="meta">
+      {{- if not .Date.IsZero }}
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+      {{- end }}
+      {{ if .Params.tags }}{{ range sort .Params.tags }}
+      <span><a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="/tags/{{ . | urlize }}">{{ . }}</a></span>
+      {{- end }}{{end}}
+    </p>
+    {{- end }}
+    <br>
+    <div>
+   <h1>{{range .GetTerms "brands"}}<a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink }}"> {{- .LinkTitle -}}</a>{{end}}, {{range .GetTerms "blends"}}<a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink }}"> {{- .LinkTitle -}}</a>{{end}}</h3>
+       <h2 class="f3 athelas mt3 mb1">type: {{ range .GetTerms "tea_types" }} <a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink }}" > {{- .LinkTitle | strings.ToLower}}</a>{{ end }}</h3>
+       <h2 class="f3 athelas mt3 mb1">{{ i18n "ratingTaxonomy"}} {{ range .GetTerms "ratings" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a>{{ end }}</h3>
+  </header>
+  <div class="prose"{{ if eq site.Params.design.prose "mono" }} data-prose="mono"{{ end }}>
+    {{ .Content }}
+  </div>
+   </article>
+{{ partial "recommendations.html" . }}  
+{{ end }}

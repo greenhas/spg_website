@@ -1,5 +1,5 @@
 [readMore]
-other = "read the rest"
+other = "see whole post"
 
 [seriesTaxonomy]
 other = "series: "
@@ -34,6 +34,12 @@ other = "99 / End"
 [footerNavigation]
 other = "Footer"
 
+[linkResponse1]
+other = "In response to "
+
+[linkResponse2]
+other = "on"
+
 [homeEyebrow]
 other = "00 / Index"
 
@@ -44,7 +50,7 @@ other = "01 / Latest"
 other = "00 / Article"
 
 [recommendationLabel]
-other = "80 / Recommended Next Read"
+other = "80 / Similar Articles"
 
 [pageLabel]
 other = "00 / Page"
