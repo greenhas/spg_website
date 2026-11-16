@@ -3,7 +3,7 @@ types: ["media"]
 layout: book
 date: 2026-08-15T18:54:50-04:00
 title: "📚 bookblog: Thorne in the Flesh  (❤️❤️❤️❤️❤️)"
-tags: ["Thorne in the Flesh","Rob Guillory","Farmhand",""]
+tags: ["","","Thorne in the Flesh","Rob Guillory","Farmhand",""]
 media: ["book","comic"]
 titles: ["Thorne in the Flesh"]
 creators: ["Rob Guillory"]
