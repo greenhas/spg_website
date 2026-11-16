@@ -1,6 +1,6 @@
 ---
-types: ["media"]
-layout: movie
+types: ["review"]
+layout: media
 date: 2026-04-26T08:17:39-04:00
 title: "🍿 movieblog: Wuthering Heights (2026) (❤️❤️❤️❤️🖤)"
 tags: ["Wuthering Heights (2026)"]

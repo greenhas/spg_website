@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-03-02T10:38:29-05:00
-title: "📚 bookblog: La source des secrets  (❤️❤️❤️❤️❤️)"
-tags: ["La source des secrets","Jérôme Pelissier","Carine Hinder","Bergères guerrières","Brume",""]
+title: "📚 bookblog: Brume, Tome 3: La source des secrets (❤️❤️❤️❤️❤️)"
+tags: ["La source des secrets","Jérôme Pelissier","Carine Hinder","Bergères guerrières","Brume"]
 media: ["book","comic","bande dessinée"]
 titles: ["La source des secrets"]
-creators: ["Jérôme Pelissier","Carine Hinder"]
+artists: ["Jérôme Pelissier","Carine Hinder"]
 series: ["Brume"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

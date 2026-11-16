@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-02-22T08:14:40-05:00
-title: "📚 bookblog: L'abîme  (❤️❤️❤️❤️❤️)"
-tags: ["L'abîme","Jonathan Garnier","Amélie Fléchais","Bergères guerrières",""]
+title: "📚 bookblog: Bergères guerrières, Tome 4: L'abîme (❤️❤️❤️❤️❤️)"
+tags: ["L'abîme","Jonathan Garnier","Amélie Fléchais","Bergères guerrières"]
 media: ["book","comic","bande dessinée"]
 titles: ["L'abîme"]
-creators: ["Jonathan Garnier","Amélie Fléchais"]
+artists: ["Jonathan Garnier","Amélie Fléchais"]
 series: ["Bergères guerrières"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

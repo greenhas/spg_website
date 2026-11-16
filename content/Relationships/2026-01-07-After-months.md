@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: movie
+types: ["review"]
+layout: media
 date: 2026-01-07T11:18:33-05:00
-title: "🍿 movieblog: A New Hope (❤️❤️❤️❤️❤️)"
-tags: ["A New Hope"]
+title: "🍿 movieblog: Skywalker Saga, Episode IV: A New Hope (❤️❤️❤️❤️❤️)"
+tags: ["A New Hope","Skywalker Saga","Star Wars"]
 media: ["movie"]
 titles: ["A New Hope"]
 series: ["Skywalker Saga"]

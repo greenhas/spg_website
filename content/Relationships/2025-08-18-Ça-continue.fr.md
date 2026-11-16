@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-08-18T20:12:53-04:00
-title: "📚 bookblog: La forêt des âmes perdues  (❤️❤️❤️❤️❤️)"
-tags: ["La forêt des âmes perdues","Jérôme Pelissier","Carine Hinder","Brume",""]
+title: "📚 bookblog: Brume, Tome 2: La forêt des âmes perdues (❤️❤️❤️❤️❤️)"
+tags: ["La forêt des âmes perdues","Jérôme Pelissier","Carine Hinder","Brume"]
 media: ["book","comic","bande dessinée"]
 titles: ["La forêt des âmes perdues"]
-creators: ["Jérôme Pelissier","Carine Hinder"]
+artists: ["Jérôme Pelissier","Carine Hinder"]
 series: ["Brume"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-02-07T15:35:01-05:00
-title: "📚 bookblog: La menace  (❤️❤️❤️❤️❤️)"
-tags: ["La menace","Jonathan Garnier","Amélie Fléchais","Bergères guerrières",""]
+title: "📚 bookblog: Bergères guerrières, Tome 2: La menace (❤️❤️❤️❤️❤️)"
+tags: ["La menace","Jonathan Garnier","Amélie Fléchais","Bergères guerrières"]
 media: ["book","comic","bande dessinée"]
 titles: ["La menace"]
-creators: ["Jonathan Garnier","Amélie Fléchais"]
+artists: ["Jonathan Garnier","Amélie Fléchais"]
 series: ["Bergères guerrières"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

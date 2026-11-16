@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-02-12T09:59:55-05:00
-title: "📚 bookblog: Le périple  (❤️❤️❤️❤️❤️)"
-tags: ["Le périple","Jonathan Garnier","Amélie Fléchais","Bergères guerrières",""]
+title: "📚 bookblog: Bergères guerrières, Tome 3: Le périple (❤️❤️❤️❤️❤️)"
+tags: ["Le périple","Jonathan Garnier","Amélie Fléchais","Bergères guerrières"]
 media: ["book","comic","bande dessinée"]
 titles: ["Le périple"]
-creators: ["Jonathan Garnier","Amélie Fléchais"]
+artists: ["Jonathan Garnier","Amélie Fléchais"]
 series: ["Bergères guerrières"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]
