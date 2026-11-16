@@ -10,14 +10,7 @@
     <p class="hero__deck">{{ . }}</p>
     {{- end }}
     {{- if $isPost }}
-    <p class="meta">
-      {{- if not .Date.IsZero }}
-      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
-      {{- end }}
-      {{range .Params.Types}}<a href="/types/{{ . | urlize }}">{{ . }}post</a> {{end}}
-      {{ if .Params.tags }}{{ range sort .Params.tags }}
-      <span><a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="/tags/{{ . | urlize }}">{{ . }}</a></span>
-      {{- end }}{{end}}
+    {{ partial "meta.html" . }}
     </p>
     {{- end }}
   </header>
@@ -26,7 +19,7 @@
   </div>
   <div class = "container">
   <br>
-  <p>{{i18n "linkResponse1"}} <a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="/tags/{{ . | urlize }}" href="{{.Params.art_link}}">{{.Params.art_title}}</a> {{i18n "linkResponse2"}} {{range .Params.Sources}}<a href="/types/{{ . | urlize }}">{{ . }}</a>. {{end}}</p>
+  <p>{{i18n "linkResponse1"}} "<a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="/tags/{{ . | urlize }}" href="{{.Params.art_link}}">{{.Params.art_title}}</a>," {{i18n "linkResponse2"}} {{range .Params.Sources}}<a href="/types/{{ . | urlize }}">{{ . }}</a>. {{end}}</p>
   </div>
   
 

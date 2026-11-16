@@ -10,19 +10,16 @@
     <p class="hero__deck">{{ . }}</p>
     {{- end }}
     {{- if $isPost }}
-    <p class="meta">
-      {{- if not .Date.IsZero }}
-      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
-      {{- end }}
-      {{range .Params.Types}}<a href="/types/{{ . | urlize }}">{{ . }}post</a> {{end}}
-      {{ if .Params.tags }}{{ range sort .Params.tags }}
-      <span><a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="/tags/{{ . | urlize }}">{{ . }}</a></span>
-      {{- end }}{{end}}
-    </p>
+    {{ partial "meta.html" . }}
     {{- end }}
   </header>
   <div class="prose"{{ if eq site.Params.design.prose "mono" }} data-prose="mono"{{ end }}>
     {{ .Content }}
+    {{if .Params.featured_image}}
+    <div class = "container">
+    <a href="{{.Params.featured_image}}"><img alt="{{.Params.alt_text}}" width = 80% src="{{.Params.featured_image}}"></a>
+    </div>
+    {{end}}
   </div>
   
 

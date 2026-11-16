@@ -11,7 +11,7 @@
       
         {{ range . }}
            		<p><strong>{{ .Title}}</strong></p>
-                <p>{{ .Summary }}</p></p> <a href="{{ .RelPermalink }}">[{{ i18n "readMore"}}]</a><p>
+                {{ .Summary }}<p><a href="{{ .RelPermalink }}">[{{ i18n "readMore"}}]</a></p>
             
             
         {{ end }}
