@@ -23,5 +23,10 @@
   <div class="prose"{{ if eq site.Params.design.prose "mono" }} data-prose="mono"{{ end }}>
     {{ .Content }}
   </div>
+  
+
+
    </article>
+{{ partial "recommendations.html" . }}
+   
 {{ end }}

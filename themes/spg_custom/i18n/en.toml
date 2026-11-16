@@ -1,3 +1,18 @@
+[readMore]
+other = "read more"
+
+[seriesTaxonomy]
+other = "series: "
+
+[creatorTaxonomy]
+other = "artists: "
+
+[mediumTaxonomy]
+other = "categories: "
+
+[ratingTaxonomy]
+other = "rating: "
+
 [tagList]
 other = "Tags:"
 
@@ -27,6 +42,9 @@ other = "01 / Latest"
 
 [articleLabel]
 other = "00 / Article"
+
+[recommendationLabel]
+other = "80 / Similar Posts"
 
 [pageLabel]
 other = "00 / Page"

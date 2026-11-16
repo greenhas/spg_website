@@ -22,7 +22,7 @@
           <a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="/tags/{{ . | urlize }}">{{ . }}</a> |
           {{ end }}</span>
       {{- end }}
-      <p class="post-index__title u-h3-style">{{ .Title }}</p>
+      <p class="post-index__title u-h3-style"><a href="{{ .Permalink}}">{{ .Title }}</a></p>
      
       <div style="margin: 1em" class="prose"{{ if eq site.Params.design.prose "mono" }} data-prose="mono"{{ end }}>
     {{ .Summary }}</div>

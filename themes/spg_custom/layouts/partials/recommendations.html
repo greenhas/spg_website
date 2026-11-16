@@ -1,0 +1,27 @@
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <div>
+      <span class="section-label site-footer__label">{{ i18n "recommendationLabel"}}</span>
+      
+    
+    <div class="container prose">
+      {{ $related := .Site.RegularPages.Related . | first 5 }}
+      
+      {{ with $related }}
+      
+        {{ range . }}
+      
+           
+                <p>{{ .Summary }} <a href="{{ .RelPermalink }}">[{{ i18n "readMore"}}]</a><p>
+            
+            
+        {{ end }}
+        
+        {{ end }}
+        
+        </div>
+      
+      
+    </div>
+  </div>
+</footer>

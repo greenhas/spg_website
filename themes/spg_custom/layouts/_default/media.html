@@ -21,22 +21,26 @@
     {{- end }}
     <br>
     <div>
-    <h2>{{range .GetTerms "titles"}}<a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink }}">{{- .LinkTitle -}}<a>{{end}}</h2>
-       {{ if .Params.series }}
-        <h3>{{range .GetTerms "series"}}<a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink }}"> {{- .LinkTitle -}}</a>{{end}}, {{ .Params.entry }}</h3>
-       {{else}}
+    <h1>{{range .GetTerms "titles"}}<a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink }}">{{- .LinkTitle -}}<a>{{end}}</h2>
+    	{{$ts := len (.GetTerms "series") }}
+        {{if ne $ts 0}}
+        <h2>{{range .GetTerms "series"}}<a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink }}">{{- .LinkTitle -}}</a>{{end}}, {{ .Params.entry }}</h3>
        {{end}}
-       <h3 class>{{ i18n "creatorTaxonomy"}} {{ range .GetTerms "creators" }} <a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink }}" > {{- .LinkTitle -}} </a> |{{ end }}</h3>
+       {{$tc := len (.GetTerms "creators") }}
+        {{if ne $tc 0}}
+       <h2 class>{{ i18n "creatorTaxonomy"}} {{ range .GetTerms "creators" }} <a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink }}" > {{- .LinkTitle -}} </a> |{{ end }}</h3>
+       {{end}}
         {{$tf := len (.GetTerms "franchise") }}
         {{if ne $tf 0}}
         <h3>franchise: {{ range .GetTerms "franchise" }} <a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> |{{ end }}</h3>   
         {{end}}
-       <h3>{{ i18n "mediumTaxonomy"}} {{ range .GetTerms "media" }} <a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> |{{ end }}</h3>
-       <h3 class="f3 athelas mt3 mb1">{{ i18n "ratingTaxonomy"}} {{ range .GetTerms "ratings" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a>{{ end }}</h3>
+       <h2>{{ i18n "mediumTaxonomy"}} {{ range .GetTerms "media" }} <a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink }}" > {{- .LinkTitle | strings.ToLower}}</a> |{{ end }}</h3>
+       <h2 class="f3 athelas mt3 mb1">{{ i18n "ratingTaxonomy"}} {{ range .GetTerms "ratings" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle }}</a>{{ end }}</h3>
        </div>
   </header>
   <div class="prose"{{ if eq site.Params.design.prose "mono" }} data-prose="mono"{{ end }}>
     {{ .Content }}
   </div>
    </article>
+{{ partial "recommendations.html" . }}  
 {{ end }}
