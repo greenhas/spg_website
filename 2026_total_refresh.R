@@ -75,7 +75,7 @@ for(i in 1:length(file_list)){ # 1:length(file_list)
           str_remove('"\\]') |>
           str_split('","')
         
-        temp_tags <- temp_tags[[1]][!temp_tags[[1]] == ""]
+        temp_tags <- temp_tags[[1]]
       }
       
       if(test_word == "franchise:"){
