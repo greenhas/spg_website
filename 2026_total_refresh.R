@@ -22,10 +22,18 @@ for(i in 1:length(file_list)){ # 1:length(file_list)
     
     temp_file[2] <- 'types: ["review"]'
     
+    temp_title <- ""
+    temp_titles <- ""
+    temp_artists <- ""
+    temp_tags <- ""
+    temp_franchise <- ""
+    temp_series <- ""
+    temp_ratings <- ""
+    temp_entry <- ""
     for(j in 1:length(temp_file)){
       # print(j)
       test_word <- word(temp_file[j],1)
-      temp_title <- ""
+      
       if(test_word == "title:"){
         temp_title <- 
           temp_file[j] |> 
@@ -35,7 +43,7 @@ for(i in 1:length(file_list)){ # 1:length(file_list)
         
         temp_title <- temp_title[[1]][1]
       }
-      temp_titles <- ""
+      
       if(test_word == "titles:"){
         temp_titles <- 
           temp_file[j] |>
@@ -43,7 +51,7 @@ for(i in 1:length(file_list)){ # 1:length(file_list)
         
         temp_titles <- temp_titles[[1]][2]
       }
-      temp_artists <- ""
+     
       if(test_word == "creators:"){
         
         temp_file[j] <- temp_file[j] |> str_replace(pattern = "creators", replacement = "artists")
@@ -56,7 +64,7 @@ for(i in 1:length(file_list)){ # 1:length(file_list)
         
         temp_artists <- temp_artists[[1]][!temp_artists[[1]] == ""]
       }
-      temp_tags <- ""
+      
       if(test_word == "tags:"){
         
         tags_spot <- j
@@ -69,7 +77,7 @@ for(i in 1:length(file_list)){ # 1:length(file_list)
         
         temp_tags <- temp_tags[[1]][!temp_tags[[1]] == ""]
       }
-      temp_franchise <- ""
+      
       if(test_word == "franchise:"){
     
         temp_franchise <- temp_file[j] |> 
@@ -80,7 +88,7 @@ for(i in 1:length(file_list)){ # 1:length(file_list)
         
         temp_franchise <- temp_franchise[[1]][!temp_franchise[[1]] == ""]
       }
-      temp_series <- ""
+      
       if(test_word == "series:"){
         temp_series <- 
           temp_file[j] |>
@@ -89,7 +97,7 @@ for(i in 1:length(file_list)){ # 1:length(file_list)
         temp_series <- temp_series[[1]][2]
       }
       
-    temp_ratings <- ""
+    
     if(test_word == "ratings:"){
       temp_ratings <- 
         temp_file[j] |>
@@ -98,7 +106,7 @@ for(i in 1:length(file_list)){ # 1:length(file_list)
       temp_ratings <- temp_ratings[[1]][2]
     }
       
-    temp_entry <- ""
+    
     if(test_word == "params:"){
       # print("snagged!")
       temp_entry <- 
