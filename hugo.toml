@@ -105,7 +105,7 @@ capitalizeListTitles = false
 [taxonomies]
     tag = "tags"
     medium = "media"
-    creator = "creators"
+    artist = "artists"
     series = "series"
     franchise = "franchise"
     title = "titles"

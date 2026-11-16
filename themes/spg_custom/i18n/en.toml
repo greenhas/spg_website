@@ -4,7 +4,7 @@ other = "read the rest"
 [seriesTaxonomy]
 other = "series: "
 
-[creatorTaxonomy]
+[artistTaxonomy]
 other = "artists: "
 
 [mediumTaxonomy]

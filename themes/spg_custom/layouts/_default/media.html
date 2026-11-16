@@ -26,9 +26,9 @@
         {{if ne $ts 0}}
         <h2>{{range .GetTerms "series"}}<a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink }}">{{- .LinkTitle -}}</a>{{end}}, {{ .Params.entry }}</h3>
        {{end}}
-       {{$tc := len (.GetTerms "creators") }}
+       {{$tc := len (.GetTerms "artists") }}
         {{if ne $tc 0}}
-       <h2 class>{{ i18n "creatorTaxonomy"}} {{ range .GetTerms "creators" }} <a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink }}" > {{- .LinkTitle -}} </a> |{{ end }}</h3>
+       <h2 class>{{ i18n "artistTaxonomy"}} {{ range .GetTerms "artists" }} <a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink }}" > {{- .LinkTitle -}} </a> |{{ end }}</h3>
        {{end}}
         {{$tf := len (.GetTerms "franchise") }}
         {{if ne $tf 0}}
