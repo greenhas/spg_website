@@ -56,6 +56,19 @@ for(i in 1:length(file_list)){ # 1:length(file_list)
         
         temp_artists <- temp_artists[[1]][!temp_artists[[1]] == ""]
       }
+      temp_tags <- ""
+      if(test_word == "tags:"){
+        
+        tags_spot <- j
+        
+        temp_tags <- temp_file[j] |> 
+          # str_remove_all('\"') |> 
+          str_remove('tags: \\["') |>
+          str_remove('"\\]') |>
+          str_split('","')
+        
+        temp_tags <- temp_tags[[1]][!temp_tags[[1]] == ""]
+      }
       temp_franchise <- ""
       if(test_word == "franchise:"){
     
@@ -111,19 +124,13 @@ for(i in 1:length(file_list)){ # 1:length(file_list)
       # print("blank")
     }
     
-    temp_tags <- temp_file[6] |> 
-      # str_remove_all('\"') |> 
-      str_remove('tags: \\["') |>
-      str_remove('"\\]') |>
-      str_split('","')
-    
-    temp_tags <- temp_tags[[1]][!temp_tags[[1]] == ""]
+   
     
     temp_tags <- c(temp_tags, temp_artists, temp_series, temp_franchise, temp_titles) |> unique()
     
     temp_tags <- temp_tags[!temp_tags == ""]
     
-    temp_file[6] <- paste0('tags: ["',str_flatten(temp_tags,collapse ='","'),'"]')
+    temp_file[tags_spot] <- paste0('tags: ["',str_flatten(temp_tags,collapse ='","'),'"]')
     
 
       
