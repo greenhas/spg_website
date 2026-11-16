@@ -21,7 +21,7 @@
     {{- end }}
     <br>
     <div>
-    <h1>{{range .GetTerms "titles"}}<a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink }}">{{- .LinkTitle -}}<a>{{end}}</h2>
+    <h1>{{range .GetTerms "titles"}}<a href="{{ .RelPermalink }}">{{- .LinkTitle -}}<a>{{end}}</h2>
     	{{$ts := len (.GetTerms "series") }}
         {{if ne $ts 0}}
         <h2>{{range .GetTerms "series"}}<a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink }}">{{- .LinkTitle -}}</a>{{end}}, {{ .Params.entry }}</h3>

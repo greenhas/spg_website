@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2024-09-11T21:10:14-07:00
-title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Extremely Hardcore: Inside Elon Musk's Twitter, by Zoë Schiffer"
-tags: ["Extremely Hardcore","Zoë Schiffer","Elon Musk","Twitter","research"]
+title: "📚 bookblog: Extremely Hardcore: Inside Elon Musk's Twitter (❤️❤️❤️❤️🖤)"
+tags: ["Extremely Hardcore","Zoë Schiffer","Elon Musk","Twitter","research","Extremely Hardcore: Inside Elon Musk's Twitter"]
 media: ["book"]
 titles: ["Extremely Hardcore: Inside Elon Musk's Twitter"]
-creators: ["Zoë Schiffer"]
+artists: ["Zoë Schiffer"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

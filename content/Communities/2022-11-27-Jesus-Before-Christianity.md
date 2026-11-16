@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-11-27T00:00:00-05:00
 title: "📚 bookblog: Jesus Before Christianity (❤️❤️❤️🖤🖤)"
 tags: ["Albert Nolan","Jesus Before Christianity","historical Jesus"]
 media: ["book"]
 titles: ["Jesus Before Christianity"]
-creators: ["Albert Nolan"]
+artists: ["Albert Nolan"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

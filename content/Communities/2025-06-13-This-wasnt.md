@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-06-13T08:39:03-04:00
-title: "📚 bookblog: The Mormon Jesus: A Biography  (❤️❤️❤️❤️🖤)"
+title: "📚 bookblog: The Mormon Jesus: A Biography (❤️❤️❤️❤️🖤)"
 tags: ["The Mormon Jesus: A Biography","John Turner","Jesus","Mormonism","polygamy"]
 media: ["book",""]
 titles: ["The Mormon Jesus: A Biography"]
-creators: ["John Turner"]
+artists: ["John Turner"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

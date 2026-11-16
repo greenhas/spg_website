@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-05-26T10:26:44-04:00
-title: "📚 bookblog: A Documentary History of the Book of Mormon  (❤️❤️❤️❤️🖤)"
-tags: ["A Documentary History of the Book of Mormon","Larry Morris","Mormonism","Jacques Ellul","Three Witnesses","Eight Witnesses","Book of Mormon","First Vision","",""]
+title: "📚 bookblog: A Documentary History of the Book of Mormon (❤️❤️❤️❤️🖤)"
+tags: ["A Documentary History of the Book of Mormon","Larry Morris","Mormonism","Jacques Ellul","Three Witnesses","Eight Witnesses","Book of Mormon","First Vision"]
 media: ["book",""]
 titles: ["A Documentary History of the Book of Mormon"]
-creators: ["Larry Morris"]
+artists: ["Larry Morris"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2024-11-19T13:23:45-05:00
-title: "📚 bookblog: ❤️❤️❤️❤️❤️ for The Future, by Naomi Alderman"
-tags: ["The Future","Naomi Alderman","Sodom","Abraham","Lot","audiobooks","Big Tech","billionaires","wealth"]
+title: "📚 bookblog: The Future (❤️❤️❤️❤️❤️)"
+tags: ["The Future","Naomi Alderman","Sodom","Abraham","Lot","audiobooks","Big Tech","billionaires","wealth","Guinevere Turner","Natalie Naudus","Jeremy Bobb","Santino Fontana","Graham Halstead","Lorelei King","Fred Sanders"]
 media: ["book","audiobook"]
 titles: ["The Future"]
-creators: ["Naomi Alderman","Guinevere Turner","Natalie Naudus","Jeremy Bobb","Santino Fontana","Graham Halstead","Lorelei King","Fred Sanders"]
+artists: ["Naomi Alderman","Guinevere Turner","Natalie Naudus","Jeremy Bobb","Santino Fontana","Graham Halstead","Lorelei King","Fred Sanders"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

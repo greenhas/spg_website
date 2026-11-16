@@ -1,6 +1,6 @@
 ---
-types: ["media"]
-layout: movie
+types: ["review"]
+layout: media
 date: 2026-10-12T10:00:01-04:00
 title: "🍿 movieblog: The Big Short (❤️❤️❤️❤️🖤)"
 tags: ["The Big Short","Cory Doctorow","2008 financial crisis","For the Win","Latter-day Saint missionaries"]

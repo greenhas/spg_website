@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-09-18T00:00:00-05:00
 title: "📚 bookblog: Brigham Young: Pioneer Prophet (❤️❤️❤️❤️❤️)"
 tags: ["John Turner","Brigham Young: Pioneer Prophet","Brigham Young","faith transition","Community of Christ"]
 media: ["book"]
 titles: ["Brigham Young: Pioneer Prophet"]
-creators: ["John Turner"]
+artists: ["John Turner"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

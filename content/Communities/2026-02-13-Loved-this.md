@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-02-13T21:33:23-05:00
-title: "📚 bookblog: The Terraformers  (❤️❤️❤️❤️❤️)"
-tags: ["The Terraformers","Annalee Newitz","Walkaway","Braiding Sweetgrass","Cory Doctorow","Robin Wall Kimmerer","The Disposessed","Ursula LeGuin","",""]
+title: "📚 bookblog: The Terraformers (❤️❤️❤️❤️❤️)"
+tags: ["The Terraformers","Annalee Newitz","Walkaway","Braiding Sweetgrass","Cory Doctorow","Robin Wall Kimmerer","The Disposessed","Ursula LeGuin"]
 media: ["book",""]
 titles: ["The Terraformers"]
-creators: ["Annalee Newitz"]
+artists: ["Annalee Newitz"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

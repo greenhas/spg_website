@@ -1,6 +1,6 @@
 ---
-types: ["media"]
-layout: movie
+types: ["review"]
+layout: media
 date: 2026-11-05T16:37:05-05:00
 title: "🍿 movieblog: Blücher (❤️❤️❤️❤️🖤)"
 tags: ["Blücher","World War II"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-01-31T00:00:00-05:00
 title: "📚 bookblog: My Friend Dahmer (❤️❤️❤️❤️🖤)"
 tags: ["Jeffrey Dahmer","My Friend Dahmer","Derf Backderf"]
 media: ["book","comic","graphic novel"]
 titles: ["My Friend Dahmer"]
-creators: ["Derf Backderf"]
+artists: ["Derf Backderf"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

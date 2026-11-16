@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-08-28T00:00:00-05:00
 title: "📚 bookblog: Tom the Dancing Bug Awakens (❤️❤️❤️🖤🖤)"
-tags: ["Ruben Bolling","Tom the Dancing Bug Awakens","Boing Boing"]
+tags: ["Ruben Bolling","Tom the Dancing Bug Awakens","Boing Boing","Tom the Dancing Bug"]
 media: ["book","comic"]
 titles: ["Tom the Dancing Bug Awakens"]
-creators: ["Ruben Bolling"]
+artists: ["Ruben Bolling"]
 series: [""]
 franchise: ["Tom the Dancing Bug"]
 ratings: ["❤️❤️❤️🖤🖤"]

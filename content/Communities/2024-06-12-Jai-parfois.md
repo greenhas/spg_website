@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2024-06-12T21:19:46-04:00
-title: "📚 bookblog: ❤️❤️❤️❤️❤️ pour La réinvention du nom de Dieu, par Gérard Siegwalt"
+title: "📚 bookblog: La réinvention du nom de Dieu (❤️❤️❤️❤️❤️)"
 tags: ["La réinvention du nom de Dieu","Gérard Siegwalt"]
 media: ["book"]
 titles: ["La réinvention du nom de Dieu"]
-creators: ["Gérard Siegwalt"]
+artists: ["Gérard Siegwalt"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

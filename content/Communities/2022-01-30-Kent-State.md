@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-01-30T00:00:00-05:00
 title: "📚 bookblog: Kent State (❤️❤️❤️❤️🖤)"
 tags: ["Kent State","Derf Backderf","non-violence"]
 media: ["book","comic","graphic novel"]
 titles: ["Kent State"]
-creators: ["Derf Backderf"]
+artists: ["Derf Backderf"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

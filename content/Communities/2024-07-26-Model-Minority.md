@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2024-07-26T16:43:11-04:00
-title: "📚 bookblog: ❤️❤️❤️❤️❤️ for Model Minority, by Cory Doctorow"
-tags: ["Model Minority","Cory Doctorow","Radicalized (collection)","Superman","Batman","predictive policing","police brutality","police technology"]
+title: "📚 bookblog: Radicalized, Novella 2: Model Minority (❤️❤️❤️❤️❤️)"
+tags: ["Model Minority","Cory Doctorow","Radicalized (collection)","Superman","Batman","predictive policing","police brutality","police technology","Radicalized"]
 media: ["book"]
 titles: ["Model Minority"]
-creators: ["Cory Doctorow"]
+artists: ["Cory Doctorow"]
 series: ["Radicalized"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

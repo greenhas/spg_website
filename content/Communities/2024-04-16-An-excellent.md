@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2024-04-16T21:49:54-04:00
-title: "📚 bookblog: ❤️❤️❤️❤️❤️ for American Zion: A New History of Mormonism, by Benjamin E. Park"
-tags: ["American Zion","Benjamin E. Park","Mormonism","The Church of Jesus Christ of Latter-day Saints"]
+title: "📚 bookblog: American Zion: A New History of Mormonism (❤️❤️❤️❤️❤️)"
+tags: ["American Zion","Benjamin E. Park","Mormonism","The Church of Jesus Christ of Latter-day Saints","American Zion: A New History of Mormonism"]
 media: ["book"]
 titles: ["American Zion: A New History of Mormonism"]
-creators: ["Benjamin E. Park"]
+artists: ["Benjamin E. Park"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

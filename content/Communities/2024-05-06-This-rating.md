@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2024-05-06T14:34:37-04:00
-title: "📚 bookblog: ❤️❤️❤️🖤🖤 for A Way of Life: Understanding Our Christian Faith, by Tony Chvala-Smith"
-tags: ["A Way of Life","Tony Chvala-Smith","Community of Christ","theology"]
+title: "📚 bookblog: A Way of Life: Understanding Our Christian Faith (❤️❤️❤️🖤🖤)"
+tags: ["A Way of Life","Tony Chvala-Smith","Community of Christ","theology","A Way of Life: Understanding Our Christian Faith"]
 media: ["book"]
 titles: ["A Way of Life: Understanding Our Christian Faith"]
-creators: ["Tony Chvala-Smith"]
+artists: ["Tony Chvala-Smith"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

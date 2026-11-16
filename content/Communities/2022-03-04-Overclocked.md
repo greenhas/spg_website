@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-03-20T00:00:00-05:00
 title: "📚 bookblog: Overclocked: Stories of the Future Present (❤️❤️❤️🖤🖤)"
 tags: ["Cory Doctorow","Overclocked: Stories of the Future Present","Little Brother series","Radicalized (collection)","Edward Snowden","Cambridge Analytica"]
 media: ["book"]
 titles: ["Overclocked: Stories of the Future Present"]
-creators: ["Cory Doctorow"]
+artists: ["Cory Doctorow"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-12-11T09:51:00-05:00
-title: "📚 bookblog: Apple in China  (❤️❤️❤️❤️🖤)"
-tags: ["Apple in China","Patrick McGee","Fred Sanders","China","Apple","Jacques Ellul","",""]
+title: "📚 bookblog: Apple in China (❤️❤️❤️❤️🖤)"
+tags: ["Apple in China","Patrick McGee","Fred Sanders","China","Apple","Jacques Ellul"]
 media: ["book","audiobook"]
 titles: ["Apple in China"]
-creators: ["Patrick McGee","Fred Sanders"]
+artists: ["Patrick McGee","Fred Sanders"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

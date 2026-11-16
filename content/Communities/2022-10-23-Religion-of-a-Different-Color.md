@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-10-23T00:00:00-05:00
 title: "📚 bookblog: Religion of a Different Color (❤️❤️❤️❤️🖤)"
 tags: ["Paul Reeve","Religion of a Different Color","Mormonism"]
 media: ["book"]
 titles: ["Religion of a Different Color"]
-creators: ["Paul Reeve"]
+artists: ["Paul Reeve"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

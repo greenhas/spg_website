@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: tv
+types: ["review"]
+layout: media
 date: 2026-06-11T14:51:07-04:00
-title: "📺 tvblog: Un village français Saison 6 (❤️❤️❤️❤️❤️)"
-tags: ["World War II"]
+title: "📺 tvblog: Un village français, Saison 6 (❤️❤️❤️❤️❤️)"
+tags: ["World War II","Un village français"]
 media: ["tv"]
 series: ["Un village français"]
 franchise: [""]

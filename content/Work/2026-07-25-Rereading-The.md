@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-07-25T20:29:15-04:00
-title: "📚 bookblog: The Ultimate Hidden Truth of the World...  (❤️❤️❤️❤️❤️)"
-tags: ["The Ultimate Hidden Truth of the World...","David Graeber","Jacques Servin","Savitri D","Jacques Ellul","anarchism","The Dawn of Everything: A New History of Humanity","Bullshit Jobs","",""]
+title: "📚 bookblog: The Ultimate Hidden Truth of the World... (❤️❤️❤️❤️❤️)"
+tags: ["The Ultimate Hidden Truth of the World...","David Graeber","Jacques Servin","Savitri D","Jacques Ellul","anarchism","The Dawn of Everything: A New History of Humanity","Bullshit Jobs"]
 media: ["book","audiobook"]
 titles: ["The Ultimate Hidden Truth of the World..."]
-creators: ["David Graeber","Jacques Servin","Savitri D"]
+artists: ["David Graeber","Jacques Servin","Savitri D"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]
