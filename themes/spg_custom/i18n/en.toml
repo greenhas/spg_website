@@ -1,5 +1,5 @@
 [readMore]
-other = "read more"
+other = "read the rest"
 
 [seriesTaxonomy]
 other = "series: "
@@ -44,7 +44,7 @@ other = "01 / Latest"
 other = "00 / Article"
 
 [recommendationLabel]
-other = "80 / Similar Posts"
+other = "80 / Previews of Similar Posts"
 
 [pageLabel]
 other = "00 / Page"
