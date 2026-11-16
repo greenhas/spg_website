@@ -34,6 +34,11 @@ for(i in 1:length(file_list)){ # 1:length(file_list)
       # print(j)
       test_word <- word(temp_file[j],1)
       
+      if(test_word == "layout:"){
+        
+        temp_file[j] <- "layout:"
+      }
+      
       if(test_word == "title:"){
         temp_title <- 
           temp_file[j] |> 
