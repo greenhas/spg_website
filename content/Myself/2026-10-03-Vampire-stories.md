@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-10-03T22:22:27-04:00
-title: "📚 bookblog: Carmilla: The First Vampire  (❤️❤️❤️❤️🖤)"
-tags: ["Carmilla: The First Vampire","Amy Chu","Soo Lee","",""]
+title: "📚 bookblog: Carmilla: The First Vampire (❤️❤️❤️❤️🖤)"
+tags: ["Carmilla: The First Vampire","Amy Chu","Soo Lee"]
 media: ["book","comic"]
 titles: ["Carmilla: The First Vampire"]
-creators: ["Amy Chu","Soo Lee"]
+artists: ["Amy Chu","Soo Lee"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

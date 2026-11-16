@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-12-10T13:06:42-05:00
-title: "📚 bookblog: Daisy Chains  (❤️❤️❤️🖤🖤)"
-tags: ["Daisy Chains","Joe Casey","Piotr Kowalski","Sex",""]
+title: "📚 bookblog: Sex, Book Four: Daisy Chains (❤️❤️❤️🖤🖤)"
+tags: ["Daisy Chains","Joe Casey","Piotr Kowalski","Sex"]
 media: ["book","comic"]
 titles: ["Daisy Chains"]
-creators: ["Joe Casey","Piotr Kowalski"]
+artists: ["Joe Casey","Piotr Kowalski"]
 series: ["Sex"]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

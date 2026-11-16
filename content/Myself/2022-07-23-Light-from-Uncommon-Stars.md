@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-07-23T00:00:00-05:00
 title: "📚 bookblog: Light from Uncommon Stars (❤️❤️❤️❤️❤️)"
 tags: ["Light from Uncommon Stars","Ryka Aoki","The Incomparable","LGBTQ"]
 media: ["book"]
 titles: ["Light from Uncommon Stars"]
-creators: ["Ryka Aoki"]
+artists: ["Ryka Aoki"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

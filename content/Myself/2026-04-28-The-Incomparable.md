@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-04-28T10:34:04-04:00
-title: "📚 bookblog: Penric's Demon  (❤️❤️❤️❤️🖤)"
+title: "📚 bookblog: Penric and Desdemona, Book 1: Penric's Demon (❤️❤️❤️❤️🖤)"
 tags: ["Penric's Demon","Lois McMaster Bujold","Grover Gardner","The Incomparable","Penric and Desdemona","The World of the Five Gods"]
 media: ["book","audiobook"]
 titles: ["Penric's Demon"]
-creators: ["Lois McMaster Bujold","Grover Gardner"]
+artists: ["Lois McMaster Bujold","Grover Gardner"]
 series: ["Penric and Desdemona"]
 franchise: ["The World of the Five Gods"]
 ratings: ["❤️❤️❤️❤️🖤"]

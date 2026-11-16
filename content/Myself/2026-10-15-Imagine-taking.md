@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-10-15T08:57:03-04:00
-title: "📚 bookblog: Galactic, issue 1  (❤️❤️❤️❤️🖤)"
+title: "📚 bookblog: Galactic, issue 1 (❤️❤️❤️❤️🖤)"
 tags: ["Star Wars","Curt Pires","Amilcar Pinna","Lee Loughridge","Micah Myers","Galactic"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Curt Pires","Amilcar Pinna","Lee Loughridge","Micah Myers"]
+artists: ["Curt Pires","Amilcar Pinna","Lee Loughridge","Micah Myers"]
 series: ["Galactic"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

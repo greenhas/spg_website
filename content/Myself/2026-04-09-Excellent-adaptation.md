@@ -1,6 +1,6 @@
 ---
-types: ["media"]
-layout: movie
+types: ["review"]
+layout: media
 date: 2026-04-09T11:17:21-04:00
 title: "🍿 movieblog: Project Hail Mary (❤️❤️❤️❤️❤️)"
 tags: ["Project Hail Mary","Superman"]

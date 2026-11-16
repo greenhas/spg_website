@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2023-12-16T20:12:42-05:00
-title: "📚 bookblog: ❤️❤️❤️❤️🖤 for Ultimate Spider-Man: Vol. 4, Death of Spider-Man, by Brian Michael Bendis and Mark Bagley"
-tags: ["Ultimate Spider-Man","Brian Michael Bendis","comics","Spider-Man","Miles Morales","Saga"]
+title: "📚 bookblog: Ultimate Spider-Man, Volume 4: Death of Spider-Man (❤️❤️❤️❤️🖤)"
+tags: ["Ultimate Spider-Man","Brian Michael Bendis","comics","Spider-Man","Miles Morales","Saga","Mark Bagley","Marvel","Ultimate Marvel (2000)","Death of Spider-Man"]
 media: ["book","comic"]
 titles: ["Death of Spider-Man"]
-creators: ["Brian Michael Bendis","Mark Bagley"]
+artists: ["Brian Michael Bendis","Mark Bagley"]
 series: ["Ultimate Spider-Man"]
 franchise: ["Marvel","Ultimate Marvel (2000)","Spider-Man"]
 ratings: ["❤️❤️❤️❤️🖤"]

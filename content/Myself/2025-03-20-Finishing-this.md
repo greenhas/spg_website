@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-03-20T21:34:34-04:00
-title: "📚 bookblog: Queen & Country, Definitive Edition, Volume 03  (❤️❤️❤️🖤🖤)"
-tags: ["","Greg Rucka","The Sandbaggers","pregnancy"]
+title: "📚 bookblog: Queen & Country, Definitive Edition, Volume 03 (❤️❤️❤️🖤🖤)"
+tags: ["Greg Rucka","The Sandbaggers","pregnancy","Queen & Country"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Greg Rucka"]
+artists: ["Greg Rucka"]
 series: ["Queen & Country"]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

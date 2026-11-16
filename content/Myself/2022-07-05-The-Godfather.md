@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-07-05T00:00:00-05:00
 title: "📚 bookblog: The Godfather (❤️❤️❤️❤️🖤)"
 tags: ["The Godfather","Mario Puzo"]
 media: ["book"]
 titles: ["The Godfather"]
-creators: ["Mario Puzo"]
+artists: ["Mario Puzo"]
 series: [""]
 franchise: ["The Godfather"]
 ratings: ["❤️❤️❤️❤️🖤"]

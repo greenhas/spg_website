@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: tv
+types: ["review"]
+layout: media
 date: 2026-04-22T09:33:39-04:00
-title: "📺 tvblog: Smiley's People  (❤️❤️❤️❤️❤️)"
-tags: [""]
+title: "📺 tvblog: Smiley's People,  (❤️❤️❤️❤️❤️)"
+tags: ["Smiley's People","Smileyverse"]
 media: ["tv"]
 series: ["Smiley's People"]
 franchise: ["Smileyverse"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-10-16T19:56:10-04:00
-title: "📚 bookblog: Tin Stars  (❤️❤️❤️❤️🖤)"
-tags: ["Tin Stars","Jeff Lemire","Dustin Nguyen","generative AI","AI","Descender",""]
+title: "📚 bookblog: Descender, Volume 1: Tin Stars (❤️❤️❤️❤️🖤)"
+tags: ["Tin Stars","Jeff Lemire","Dustin Nguyen","generative AI","AI","Descender"]
 media: ["book","comic"]
 titles: ["Tin Stars"]
-creators: ["Jeff Lemire","Dustin Nguyen"]
+artists: ["Jeff Lemire","Dustin Nguyen"]
 series: ["Descender"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

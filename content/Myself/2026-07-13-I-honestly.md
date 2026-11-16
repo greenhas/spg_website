@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-07-13T08:54:56-04:00
-title: "📚 bookblog: Dungeon Crawler Carl  (❤️❤️❤️❤️🖤)"
-tags: ["Dungeon Crawler Carl","Matt Dinniman","fanfiction","Dungeon Crawler Carl","Dungeon Crawler Carl"]
+title: "📚 bookblog: Dungeon Crawler Carl, Book 1: Dungeon Crawler Carl (❤️❤️❤️❤️🖤)"
+tags: ["Dungeon Crawler Carl","Matt Dinniman","fanfiction"]
 media: ["book",""]
 titles: ["Dungeon Crawler Carl"]
-creators: ["Matt Dinniman"]
+artists: ["Matt Dinniman"]
 series: ["Dungeon Crawler Carl"]
 franchise: ["Dungeon Crawler Carl"]
 ratings: ["❤️❤️❤️❤️🖤"]

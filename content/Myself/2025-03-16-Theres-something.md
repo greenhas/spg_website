@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-03-16T12:48:03-04:00
-title: "📚 bookblog: Star Trek 2011-2016, Volume 3  (❤️❤️❤️❤️🖤)"
-tags: ["","Mike Johnson","Stephen Molnar","Claudia Balboni","Star Trek","fanservice","comics"]
+title: "📚 bookblog: Star Trek 2011-2016, Volume 3 (❤️❤️❤️❤️🖤)"
+tags: ["Mike Johnson","Stephen Molnar","Claudia Balboni","Star Trek","fanservice","comics","Star Trek 2011-2016","Kelvinverse","Star Trek IDW"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Mike Johnson","Stephen Molnar","Claudia Balboni"]
+artists: ["Mike Johnson","Stephen Molnar","Claudia Balboni"]
 series: ["Star Trek 2011-2016"]
 franchise: ["Star Trek","Kelvinverse","Star Trek IDW"]
 ratings: ["❤️❤️❤️❤️🖤"]

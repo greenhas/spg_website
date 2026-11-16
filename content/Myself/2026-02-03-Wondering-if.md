@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2026-02-03T19:28:24-05:00
-title: "🎙️ radioblog: Running Out of Time  (❤️❤️❤️🖤🖤)"
-tags: ["Running Out of Time","Dorothy Koomson"]
+title: "🎙️ radioblog: Doctor Who Short Trips, Volume 1, Story 8: Running Out of Time (❤️❤️❤️🖤🖤)"
+tags: ["Running Out of Time","Dorothy Koomson","Doctor Who Short Trips","Doctor Who","Doctor Who Big Finish"]
 media: ["radio"]
 titles: ["Running Out of Time"]
-creators: ["Dorothy Koomson"]
+artists: ["Dorothy Koomson"]
 series: ["Doctor Who Short Trips"]
 franchise: ["Doctor Who","Doctor Who Big Finish"]
 ratings: ["❤️❤️❤️🖤🖤"]

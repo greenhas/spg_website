@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-12-30T10:49:21-05:00
-title: "📚 bookblog: As You Wish: Inconceivable Tales From the Making of The Princess Bride  (❤️❤️❤️❤️🖤)"
-tags: ["As You Wish: Inconceivable Tales From the Making of The Princess Bride","Cary Elwes","Joe Layden","The Princess Bride","",""]
+title: "📚 bookblog: As You Wish: Inconceivable Tales From the Making of The Princess Bride (❤️❤️❤️❤️🖤)"
+tags: ["As You Wish: Inconceivable Tales From the Making of The Princess Bride","Cary Elwes","Joe Layden","The Princess Bride"]
 media: ["book","audiobook"]
 titles: ["As You Wish: Inconceivable Tales From the Making of The Princess Bride"]
-creators: ["Cary Elwes","Joe Layden"]
+artists: ["Cary Elwes","Joe Layden"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

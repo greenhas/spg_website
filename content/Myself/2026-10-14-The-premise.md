@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-10-14T10:46:08-04:00
-title: "📚 bookblog: Coyotes, Volume 1  (❤️❤️❤️❤️🖤)"
-tags: ["","Sean Lewis","Caitlin Yarsky","feminism","Coyotes",""]
+title: "📚 bookblog: Coyotes, Volume 1 (❤️❤️❤️❤️🖤)"
+tags: ["Sean Lewis","Caitlin Yarsky","feminism","Coyotes"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Sean Lewis","Caitlin Yarsky"]
+artists: ["Sean Lewis","Caitlin Yarsky"]
 series: ["Coyotes"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

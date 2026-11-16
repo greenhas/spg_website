@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-05-14T00:00:00-05:00
-title: "📚 bookblog: Joe Country (❤️❤️❤️❤️🖤)"
+title: "📚 bookblog: Slough House, Book 6: Joe Country (❤️❤️❤️❤️🖤)"
 tags: ["Joe Country","Mick Herron","Slough House"]
 media: ["book"]
 titles: ["Joe Country"]
-creators: ["Mick Herron"]
+artists: ["Mick Herron"]
 series: ["Slough House"]
 franchise: ["Slough House"]
 ratings: ["❤️❤️❤️❤️🖤"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-11-05T16:42:55-05:00
-title: "📚 bookblog: Injection, Volume 1  (❤️❤️❤️🖤🖤)"
-tags: ["","Warren Ellis","Declan Shalvey","Jordie Bellaire","Injection",""]
+title: "📚 bookblog: Injection, Volume 1 (❤️❤️❤️🖤🖤)"
+tags: ["Warren Ellis","Declan Shalvey","Jordie Bellaire","Injection"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Warren Ellis","Declan Shalvey","Jordie Bellaire"]
+artists: ["Warren Ellis","Declan Shalvey","Jordie Bellaire"]
 series: ["Injection"]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

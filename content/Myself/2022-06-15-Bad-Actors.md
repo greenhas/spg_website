@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-06-15T00:00:00-05:00
-title: "📚 bookblog: Bad Actors (❤️❤️❤️❤️🖤)"
-tags: ["Mick Herron","Bad Actors"]
+title: "📚 bookblog: Slough House, Book 8: Bad Actors (❤️❤️❤️❤️🖤)"
+tags: ["Mick Herron","Bad Actors","Slough House"]
 media: ["book"]
 titles: ["Bad Actors"]
-creators: ["Mick Herron"]
+artists: ["Mick Herron"]
 series: ["Slough House"]
 franchise: ["Slough House"]
 ratings: ["❤️❤️❤️❤️🖤"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-10-06T09:07:41-04:00
-title: "📚 bookblog: Electric Love  (❤️❤️❤️❤️❤️)"
-tags: ["Electric Love","Boulet","Haxo",""]
+title: "📚 bookblog: Haxo, Episode 01: Electric Love (❤️❤️❤️❤️❤️)"
+tags: ["Electric Love","Boulet","Haxo"]
 media: ["book","comic","bande dessinée"]
 titles: ["Electric Love"]
-creators: ["Boulet"]
+artists: ["Boulet"]
 series: ["Haxo"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

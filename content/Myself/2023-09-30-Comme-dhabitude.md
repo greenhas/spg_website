@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2023-09-30T18:50:34-04:00
-title: "📚 bookblog: ❤️❤️❤️❤️🖤 pour Josephine Baker, par Catel & Bocquet"
+title: "📚 bookblog: Josephine Baker (❤️❤️❤️❤️🖤)"
 tags: ["Josephine Baker","Catel Muller","José-Louis Bocquet","bd","comics"]
 media: ["book","comic","bande dessinée","graphic novel"]
 titles: ["Josephine Baker"]
-creators: ["Catel Muller","José-Louis Bocquet"]
+artists: ["Catel Muller","José-Louis Bocquet"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

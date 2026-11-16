@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2023-02-11T17:06:11-05:00
-title: "📚 bookblog: ❤️❤️❤️🖤🖤 for Mech Cadet Yu (Volume 1), by Greg Pak"
+title: "📚 bookblog: Mech Cadet Yu, Volume 1 (❤️❤️❤️🖤🖤)"
 tags: ["Mech Cadet Yu","Greg Pak","comics","mecha"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Greg Pak"]
+artists: ["Greg Pak"]
 series: ["Mech Cadet Yu"]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

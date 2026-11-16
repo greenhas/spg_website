@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2026-03-01T15:47:20-05:00
-title: "🎙️ radioblog: Theatre of War  (❤️❤️❤️❤️🖤)"
-tags: ["Theatre of War","Justin Richards"]
+title: "🎙️ radioblog: Doctor Who: The Novel Adaptations, Story 7: Theatre of War (❤️❤️❤️❤️🖤)"
+tags: ["Theatre of War","Justin Richards","Doctor Who: The Novel Adaptations","Doctor Who","Doctor Who Big Finish"]
 media: ["radio"]
 titles: ["Theatre of War"]
-creators: ["Justin Richards"]
+artists: ["Justin Richards"]
 series: ["Doctor Who: The Novel Adaptations"]
 franchise: ["Doctor Who","Doctor Who Big Finish"]
 ratings: ["❤️❤️❤️❤️🖤"]

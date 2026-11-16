@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-03-22T22:08:23-04:00
-title: "📚 bookblog: The Primate Directive  (❤️❤️❤️❤️🖤)"
-tags: ["The Primate Directive","Scott Tipton","David Tipton","Rachael Stott","Star Trek","Planet of the Apes"]
+title: "📚 bookblog: The Primate Directive (❤️❤️❤️❤️🖤)"
+tags: ["The Primate Directive","Scott Tipton","David Tipton","Rachael Stott","Star Trek","Planet of the Apes","Star Trek TOS","Star Trek IDW"]
 media: ["book","comic"]
 titles: ["The Primate Directive"]
-creators: ["Scott Tipton","David Tipton","Rachael Stott"]
+artists: ["Scott Tipton","David Tipton","Rachael Stott"]
 series: [""]
 franchise: ["Star Trek","Star Trek TOS","Star Trek IDW","Planet of the Apes"]
 ratings: ["❤️❤️❤️❤️🖤"]

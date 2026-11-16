@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-05-13T00:00:00-05:00
-title: "📚 bookblog: London Rules (❤️❤️❤️❤️🖤)"
+title: "📚 bookblog: Slough House, Book 5: London Rules (❤️❤️❤️❤️🖤)"
 tags: ["London Rules","Mick Herron","Slough House"]
 media: ["book"]
 titles: ["London Rules"]
-creators: ["Mick Herron"]
+artists: ["Mick Herron"]
 series: ["Slough House"]
 franchise: ["Slough House"]
 ratings: ["❤️❤️❤️❤️🖤"]

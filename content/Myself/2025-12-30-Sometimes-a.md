@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-12-30T21:30:55-05:00
-title: "📚 bookblog: The Devil's Devil  (❤️❤️❤️❤️❤️)"
-tags: ["The Devil's Devil","Charles Soule","Ryan Browne","Ryan North","Curse Words",""]
+title: "📚 bookblog: Curse Words, Volume 1: The Devil's Devil (❤️❤️❤️❤️❤️)"
+tags: ["The Devil's Devil","Charles Soule","Ryan Browne","Ryan North","Curse Words"]
 media: ["book","comic"]
 titles: ["The Devil's Devil"]
-creators: ["Charles Soule","Ryan Browne"]
+artists: ["Charles Soule","Ryan Browne"]
 series: ["Curse Words"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

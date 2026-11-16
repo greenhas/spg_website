@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-04-13T09:34:56-04:00
-title: "📚 bookblog: Automatic Noodle  (❤️❤️❤️❤️🖤)"
-tags: ["Automatic Noodle","Annalee Newitz","David Graeber","Apple","platforms","platform independence","",""]
+title: "📚 bookblog: Automatic Noodle (❤️❤️❤️❤️🖤)"
+tags: ["Automatic Noodle","Annalee Newitz","David Graeber","Apple","platforms","platform independence"]
 media: ["book",""]
 titles: ["Automatic Noodle"]
-creators: ["Annalee Newitz"]
+artists: ["Annalee Newitz"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

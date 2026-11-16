@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-04-20T00:00:00-05:00
-title: "📚 bookblog: Dead Lions (❤️❤️❤️❤️🖤)"
+title: "📚 bookblog: Slough House, Book 2: Dead Lions (❤️❤️❤️❤️🖤)"
 tags: ["Dead Lions","Mick Herron","Slough House","John Le Carré"]
 media: ["book"]
 titles: ["Dead Lions"]
-creators: ["Mick Herron"]
+artists: ["Mick Herron"]
 series: ["Slough House"]
 franchise: ["Slough House"]
 ratings: ["❤️❤️❤️❤️🖤"]

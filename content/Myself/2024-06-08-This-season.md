@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: tv
+types: ["review"]
+layout: media
 date: 2024-06-08T21:10:34-04:00
 tags: ["Pushing Daisies"]
-title: "📺 tvblog: ❤️❤️❤️🖤🖤 for Pushing Daisies (Season 2)"
+title: "📺 tvblog: Pushing Daisies, Season 2 (❤️❤️❤️🖤🖤)"
 media: ["tv"]
 series: ["Pushing Daisies"]
 franchise: [""]

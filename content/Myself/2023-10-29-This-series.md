@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2023-10-29T20:38:36-04:00
-title: "📚 bookblog: ❤️❤️❤️❤️🖤 for The Long War, by Terry Pratchett and Stephen Baxter"
+title: "📚 bookblog: The Long Earth, Book 2: The Long War (❤️❤️❤️❤️🖤)"
 tags: ["The Long War","The Long Earth","Terry Pratchett","Stephen Baxter"]
 media: ["book","audiobook"]
 titles: ["The Long War"]
-creators: ["Terry Pratchett","Stephen Baxter"]
+artists: ["Terry Pratchett","Stephen Baxter"]
 series: ["The Long Earth"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

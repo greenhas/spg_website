@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-08-19T00:00:00-05:00
 title: "📚 bookblog: An Adventure History of France (❤️❤️❤️❤️🖤)"
 tags: ["An Adventure History of France","Graham Robb","France","Gauls","Astérix","The Discovery of France"]
 media: ["book"]
 titles: ["An Adventure History of France"]
-creators: ["Graham Robb"]
+artists: ["Graham Robb"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

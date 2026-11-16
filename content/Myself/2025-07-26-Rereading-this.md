@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-07-26T19:44:47-04:00
-title: "📚 bookblog: All Systems Red  (❤️❤️❤️❤️❤️)"
+title: "📚 bookblog: The Murderbot Diaries, Book 1: All Systems Red (❤️❤️❤️❤️❤️)"
 tags: ["All Systems Red","Martha Wells","The Murderbot Diaries","Murderbot"]
 media: ["book",""]
 titles: ["All Systems Red"]
-creators: ["Martha Wells"]
+artists: ["Martha Wells"]
 series: ["The Murderbot Diaries"]
 franchise: ["Murderbot"]
 ratings: ["❤️❤️❤️❤️❤️"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-09-09T20:09:25-04:00
-title: "📚 bookblog: Ice Cream Man, Volume Ten  (❤️❤️❤️❤️🖤)"
-tags: ["","W. Maxwell Prince","Martín Morazzo","Ice Cream Man",""]
+title: "📚 bookblog: Ice Cream Man, Volume Ten (❤️❤️❤️❤️🖤)"
+tags: ["W. Maxwell Prince","Martín Morazzo","Ice Cream Man"]
 media: ["book","comic"]
 titles: [""]
-creators: ["W. Maxwell Prince","Martín Morazzo"]
+artists: ["W. Maxwell Prince","Martín Morazzo"]
 series: ["Ice Cream Man"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

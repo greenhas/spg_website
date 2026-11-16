@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2024-02-28T21:17:00-05:00
-title: "📚 bookblog: ❤️❤️❤️🖤🖤 for Queen & Country Definitive Edition, Volume 04, by Greg Rucka"
+title: "📚 bookblog: Queen & Country, Definitive Edition Volume 04 (❤️❤️❤️🖤🖤)"
 tags: ["Queen & Country","Greg Rucka","Antony Johnston","The Sandbaggers"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Greg Rucka"]
+artists: ["Greg Rucka"]
 series: ["Queen & Country"]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

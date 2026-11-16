@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-08-19T00:00:00-05:00
 title: "📚 bookblog: An Atlas of Extinct Countries (❤️❤️❤️❤️🖤)"
 tags: ["An Atlas of Extinct Countries","Gideon Defoe","The Pirates!","Aardman"]
 media: ["book"]
 titles: ["An Atlas of Extinct Countries"]
-creators: ["Gideon Defoe"]
+artists: ["Gideon Defoe"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-05-19T11:53:48-04:00
-title: "📚 bookblog: The Adventures of Mary Darling  (❤️❤️❤️❤️🖤)"
-tags: ["The Adventures of Mary Darling","Pat Murphy","pirates","David Graeber","racism","sexism","colonialism"]
+title: "📚 bookblog: The Adventures of Mary Darling (❤️❤️❤️❤️🖤)"
+tags: ["The Adventures of Mary Darling","Pat Murphy","pirates","David Graeber","racism","sexism","colonialism","Peter Pan","Sherlock Holmes"]
 media: ["book",""]
 titles: ["The Adventures of Mary Darling"]
-creators: ["Pat Murphy"]
+artists: ["Pat Murphy"]
 series: [""]
 franchise: ["Peter Pan","Sherlock Holmes"]
 ratings: ["❤️❤️❤️❤️🖤"]

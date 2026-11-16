@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2023-09-24T21:46:59-04:00
-title: "📚 bookblog: ❤️❤️❤️❤️🖤 pour Civilizations, par Laurent Binet"
+title: "📚 bookblog: Civilizations (❤️❤️❤️❤️🖤)"
 tags: ["Civilizations","Laurent Binet","alternate history"]
 media: ["book"]
 titles: ["Civilizations"]
-creators: ["Laurent Binet"]
+artists: ["Laurent Binet"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

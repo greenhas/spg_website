@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-03-22T03:00:00-05:00
-title: "📚 bookblog: Billy Stockton (❤️❤️🖤🖤🖤)"
-tags: ["XIII","Billy Stockton","Laurent-Frédéric Bollée","Steve Cuzor","Batman","Batman: The Animated Series","The Dark Knight"]
+title: "📚 bookblog: XIII Mystery,  Volume 6: Billy Stockton (❤️❤️🖤🖤🖤)"
+tags: ["XIII","Billy Stockton","Laurent-Frédéric Bollée","Steve Cuzor","Batman","Batman: The Animated Series","The Dark Knight","XIII Mystery"]
 media: ["book","comic","bande dessinée"]
 titles: ["Billy Stockton"]
-creators: ["Laurent-Frédéric Bollée","Steve Cuzor"]
+artists: ["Laurent-Frédéric Bollée","Steve Cuzor"]
 series: ["XIII Mystery"]
 franchise: ["XIII"]
 ratings: ["❤️❤️🖤🖤🖤"]

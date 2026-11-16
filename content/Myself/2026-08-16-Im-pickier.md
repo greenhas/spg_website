@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-08-16T07:47:31-04:00
-title: "📚 bookblog: Roots of All Evil  (❤️❤️❤️❤️🖤)"
-tags: ["Roots of All Evil","Rob Guillory","Farmhand",""]
+title: "📚 bookblog: Farmhand, Volume 3: Roots of All Evil (❤️❤️❤️❤️🖤)"
+tags: ["Roots of All Evil","Rob Guillory","Farmhand"]
 media: ["book","comic"]
 titles: ["Roots of All Evil"]
-creators: ["Rob Guillory"]
+artists: ["Rob Guillory"]
 series: ["Farmhand"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

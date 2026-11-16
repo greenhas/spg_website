@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2025-03-03T15:44:30-05:00
-title: "🎙️ radioblog: Mort  (❤️❤️❤️❤️🖤)"
-tags: ["Mort","Terry Pratchett,Robin Brooks"]
+title: "🎙️ radioblog: Terry Pratchett: The BBC Radio Drama Collection, Dramatisation 1: Mort (❤️❤️❤️❤️🖤)"
+tags: ["Mort","Terry Pratchett,Robin Brooks","Terry Pratchett","Robin Brooks","Terry Pratchett: The BBC Radio Drama Collection","Discworld"]
 media: ["radio"]
 titles: ["Mort"]
-creators: ["Terry Pratchett","Robin Brooks"]
+artists: ["Terry Pratchett","Robin Brooks"]
 series: ["Terry Pratchett: The BBC Radio Drama Collection"]
 franchise: ["Discworld"]
 ratings: ["❤️❤️❤️❤️🖤"]

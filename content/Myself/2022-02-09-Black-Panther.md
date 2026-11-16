@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-02-09T00:00:00-05:00
-title: "📚 bookblog: Black Panther: The Complete Collection, Volume 1 (❤️❤️❤️🖤🖤)"
-tags: ["Black Panther","Christopher Priest","All of the Marvels"]
+title: "📚 bookblog: Black Panther: The Complete Collection,  Volume 1 (❤️❤️❤️🖤🖤)"
+tags: ["Black Panther","Christopher Priest","All of the Marvels","Black Panther: The Complete Collection","Marvel"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Christopher Priest"]
+artists: ["Christopher Priest"]
 series: ["Black Panther: The Complete Collection"]
 franchise: ["Black Panther","Marvel"]
 ratings: ["❤️❤️❤️🖤🖤"]

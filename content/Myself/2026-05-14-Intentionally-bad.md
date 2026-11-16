@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: tv
+types: ["review"]
+layout: media
 date: 2026-05-14T09:06:59-04:00
-title: "📺 tvblog: Garth Marenghi's Darkplace  (❤️❤️❤️❤️❤️)"
-tags: [""]
+title: "📺 tvblog: Garth Marenghi's Darkplace,  (❤️❤️❤️❤️❤️)"
+tags: ["Garth Marenghi's Darkplace"]
 media: ["tv"]
 series: ["Garth Marenghi's Darkplace"]
 franchise: [""]

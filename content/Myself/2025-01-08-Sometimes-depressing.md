@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-01-08T07:41:02-05:00
-title: "📚 bookblog: ❤️❤️❤️❤️❤️ for Saga (Volume 7), by Fiona Staples and Brian K. Vaughan"
+title: "📚 bookblog: Saga, Volume 7 (❤️❤️❤️❤️❤️)"
 tags: ["Saga","comics","Fiona Staples","Brian K. Vaughan"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Fiona Staples","Brian K. Vaughan"]
+artists: ["Fiona Staples","Brian K. Vaughan"]
 series: ["Saga"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

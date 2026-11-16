@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2023-05-11T13:11:47-04:00
-title: "📚 bookblog: ❤️❤️❤️❤️❤️ for Astro City (MetroBook 2), by Kurt Busiek, Brent Anderson, and Alex Ross"
+title: "📚 bookblog: Astro City, MetroBook 2 (❤️❤️❤️❤️❤️)"
 tags: ["Astro City","comics","Alex Ross","Kurt Busiek","Brent Anderson","tropes","superheroes"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Kurt Busiek","Brent Anderson","Alex Ross"]
+artists: ["Kurt Busiek","Brent Anderson","Alex Ross"]
 series: ["Astro City"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

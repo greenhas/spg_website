@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2025-04-20T21:05:24-04:00
-title: "🎙️ radioblog: Tinker, Tailor, Soldier, Spy  (❤️❤️❤️❤️❤️)"
-tags: ["Tinker, Tailor, Soldier, Spy","John Le Carré","Shaun McKenna","Alec Guinness"]
+title: "🎙️ radioblog: The Complete George Smiley Radio Dramas, Dramatisation 5: Tinker, Tailor, Soldier, Spy (❤️❤️❤️❤️❤️)"
+tags: ["Tinker, Tailor, Soldier, Spy","John Le Carré","Shaun McKenna","Alec Guinness","The Complete George Smiley Radio Dramas","Smileyverse"]
 media: ["radio"]
 titles: ["Tinker, Tailor, Soldier, Spy"]
-creators: ["John Le Carré","Shaun McKenna"]
+artists: ["John Le Carré","Shaun McKenna"]
 series: ["The Complete George Smiley Radio Dramas"]
 franchise: ["Smileyverse"]
 ratings: ["❤️❤️❤️❤️❤️"]

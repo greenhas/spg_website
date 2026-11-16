@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-03-16T09:38:10-04:00
-title: "📚 bookblog: Star Trek 2011-2016, Volume 2  (❤️❤️❤️❤️🖤)"
-tags: ["","Mike Johnson","Joe Corroney","Joe Phillips","Star Trek","comics"]
+title: "📚 bookblog: Star Trek 2011-2016, Volume 2 (❤️❤️❤️❤️🖤)"
+tags: ["Mike Johnson","Joe Corroney","Joe Phillips","Star Trek","comics","Star Trek 2011-2016","Kelvinverse","Star Trek IDW"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Mike Johnson","Joe Corroney","Joe Phillips"]
+artists: ["Mike Johnson","Joe Corroney","Joe Phillips"]
 series: ["Star Trek 2011-2016"]
 franchise: ["Star Trek","Kelvinverse","Star Trek IDW"]
 ratings: ["❤️❤️❤️❤️🖤"]

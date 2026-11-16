@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-02-05T00:00:00-05:00
 title: "📚 bookblog: All of the Marvels (❤️❤️❤️❤️❤️)"
-tags: ["comics"]
+tags: ["comics","Douglas Wolk","Marvel","All of the Marvels"]
 media: ["book"]
 titles: ["All of the Marvels"]
-creators: ["Douglas Wolk"]
+artists: ["Douglas Wolk"]
 series: [""]
 franchise: ["Marvel"]
 ratings: ["❤️❤️❤️❤️❤️"]

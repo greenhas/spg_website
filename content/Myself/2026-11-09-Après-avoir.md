@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-11-09T16:48:06-05:00
-title: "📚 bookblog: Caelum incognito  (❤️❤️❤️❤️❤️)"
-tags: ["Caelum incognito","Boulet","Aseyn","Haxo","Bolchoi Arena",""]
+title: "📚 bookblog: Bolchoi Arena, Tome 1: Caelum incognito (❤️❤️❤️❤️❤️)"
+tags: ["Caelum incognito","Boulet","Aseyn","Haxo","Bolchoi Arena"]
 media: ["book","comic","bande dessinée"]
 titles: ["Caelum incognito"]
-creators: ["Boulet","Aseyn"]
+artists: ["Boulet","Aseyn"]
 series: ["Bolchoi Arena"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

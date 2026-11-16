@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-02-03T15:43:30-05:00
-title: "📚 bookblog: Une forêt  (❤️❤️❤️❤️🖤)"
-tags: ["Une forêt","Jean-Yves Jouannais","Donald Trump","denazification","",""]
+title: "📚 bookblog: Une forêt (❤️❤️❤️❤️🖤)"
+tags: ["Une forêt","Jean-Yves Jouannais","Donald Trump","denazification"]
 media: ["book",""]
 titles: ["Une forêt"]
-creators: ["Jean-Yves Jouannais"]
+artists: ["Jean-Yves Jouannais"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

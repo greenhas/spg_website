@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-12-13T19:42:33-05:00
-title: "📚 bookblog: Reflexology  (❤️❤️🖤🖤🖤)"
-tags: ["Reflexology","Joe Casey","Piotr Kowalski","Sex",""]
+title: "📚 bookblog: Sex, Book Five: Reflexology (❤️❤️🖤🖤🖤)"
+tags: ["Reflexology","Joe Casey","Piotr Kowalski","Sex"]
 media: ["book","comic"]
 titles: ["Reflexology"]
-creators: ["Joe Casey","Piotr Kowalski"]
+artists: ["Joe Casey","Piotr Kowalski"]
 series: ["Sex"]
 franchise: [""]
 ratings: ["❤️❤️🖤🖤🖤"]

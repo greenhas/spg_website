@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-05-26T10:33:46-04:00
-title: "📚 bookblog: True Atonement  (❤️❤️❤️❤️❤️)"
-tags: ["True Atonement","Rick Remender","Matteo Scalera","Moreno Dinisio","Black Science",""]
+title: "📚 bookblog: Black Science, Volume 5: True Atonement (❤️❤️❤️❤️❤️)"
+tags: ["True Atonement","Rick Remender","Matteo Scalera","Moreno Dinisio","Black Science"]
 media: ["book","comic"]
 titles: ["True Atonement"]
-creators: ["Rick Remender","Matteo Scalera","Moreno Dinisio"]
+artists: ["Rick Remender","Matteo Scalera","Moreno Dinisio"]
 series: ["Black Science"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

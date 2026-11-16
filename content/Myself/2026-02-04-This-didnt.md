@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2026-02-04T11:50:09-05:00
-title: "🎙️ radioblog: 1963  (❤️❤️❤️❤️🖤)"
-tags: ["1963","Niall Boyce"]
+title: "🎙️ radioblog: Doctor Who Short Trips, Volume 2, Story 1: 1963 (❤️❤️❤️❤️🖤)"
+tags: ["1963","Niall Boyce","Doctor Who Short Trips","Doctor Who","Doctor Who Big Finish"]
 media: ["radio"]
 titles: ["1963"]
-creators: ["Niall Boyce"]
+artists: ["Niall Boyce"]
 series: ["Doctor Who Short Trips"]
 franchise: ["Doctor Who","Doctor Who Big Finish"]
 ratings: ["❤️❤️❤️❤️🖤"]

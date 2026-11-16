@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-03-21T00:00:00-05:00
-title: "📚 bookblog: The Mongoose (❤️❤️❤️🖤🖤)"
-tags: ["XIII","The Mongoose","Xavier Danson","Ralph Meyer"]
+title: "📚 bookblog: XIII Mystery,  Volume 1: The Mongoose (❤️❤️❤️🖤🖤)"
+tags: ["XIII","The Mongoose","Xavier Danson","Ralph Meyer","XIII Mystery"]
 media: ["book","comic","bande dessinée"]
 titles: ["The Mongoose"]
-creators: ["Xavier Danson","Ralph Meyer"]
+artists: ["Xavier Danson","Ralph Meyer"]
 series: ["XIII Mystery"]
 franchise: ["XIII"]
 ratings: ["❤️❤️❤️🖤🖤"]

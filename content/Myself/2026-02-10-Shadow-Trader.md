@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2026-02-10T17:33:07-05:00
-title: "🎙️ radioblog: The Shadow Trader  (❤️❤️❤️❤️🖤)"
-tags: ["The Shadow Trader","Charles Williams"]
+title: "🎙️ radioblog: Doctor Who Short Trips, Volume 4, Story 7: The Shadow Trader (❤️❤️❤️❤️🖤)"
+tags: ["The Shadow Trader","Charles Williams","Doctor Who Short Trips","Doctor Who","Doctor Who Big Finish"]
 media: ["radio"]
 titles: ["The Shadow Trader"]
-creators: ["Charles Williams"]
+artists: ["Charles Williams"]
 series: ["Doctor Who Short Trips"]
 franchise: ["Doctor Who","Doctor Who Big Finish"]
 ratings: ["❤️❤️❤️❤️🖤"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-10-19T21:23:41-04:00
-title: "📚 bookblog: Orbital Mechanics  (❤️❤️❤️❤️🖤)"
-tags: ["Orbital Mechanics","Jeff Lemire","Dustin Nguyen","Descender",""]
+title: "📚 bookblog: Descender, Volume 4: Orbital Mechanics (❤️❤️❤️❤️🖤)"
+tags: ["Orbital Mechanics","Jeff Lemire","Dustin Nguyen","Descender"]
 media: ["book","comic"]
 titles: ["Orbital Mechanics"]
-creators: ["Jeff Lemire","Dustin Nguyen"]
+artists: ["Jeff Lemire","Dustin Nguyen"]
 series: ["Descender"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

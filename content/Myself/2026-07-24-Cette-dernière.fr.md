@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: tv
+types: ["review"]
+layout: media
 date: 2026-07-24T16:37:35-04:00
-title: "📺 tvblog: Un village français Saison 7 (❤️❤️❤️❤️🖤)"
-tags: [""]
+title: "📺 tvblog: Un village français, Saison 7 (❤️❤️❤️❤️🖤)"
+tags: ["Un village français"]
 media: ["tv"]
 series: ["Un village français"]
 franchise: [""]

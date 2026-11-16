@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2026-02-10T17:33:02-05:00
-title: "🎙️ radioblog: Penny Wise, Pound Foolish  (❤️❤️❤️🖤🖤)"
-tags: ["Penny Wise, Pound Foolish","Foster Marks","Jacques Ellul"]
+title: "🎙️ radioblog: Doctor Who Short Trips, Volume 4, Story 2: Penny Wise, Pound Foolish (❤️❤️❤️🖤🖤)"
+tags: ["Penny Wise, Pound Foolish","Foster Marks","Jacques Ellul","Doctor Who Short Trips","Doctor Who","Doctor Who Big Finish"]
 media: ["radio"]
 titles: ["Penny Wise, Pound Foolish"]
-creators: ["Foster Marks"]
+artists: ["Foster Marks"]
 series: ["Doctor Who Short Trips"]
 franchise: ["Doctor Who","Doctor Who Big Finish"]
 ratings: ["❤️❤️❤️🖤🖤"]

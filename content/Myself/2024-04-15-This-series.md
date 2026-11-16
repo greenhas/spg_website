@@ -1,11 +1,11 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2024-04-15T13:28:32-04:00
 tags: ["Cabin Pressure","Benedict Cumberbatch","John Finnemore"]
-title: "🎙️ radioblog: ❤️❤️❤️❤️❤️ for Cabin Pressure (Series 3)"
+title: "🎙️ radioblog: Cabin Pressure, Series 3 (❤️❤️❤️❤️❤️)"
 media: ["radio"]
-creators: ["John Finnemore"]
+artists: ["John Finnemore"]
 series: ["Cabin Pressure"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

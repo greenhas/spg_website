@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2026-02-05T21:57:36-05:00
-title: "🎙️ radioblog: Critical Mass  (❤️❤️❤️🖤🖤)"
-tags: ["Critical Mass","James Moran"]
+title: "🎙️ radioblog: Doctor Who Short Trips, Volume 2, Story 7: Critical Mass (❤️❤️❤️🖤🖤)"
+tags: ["Critical Mass","James Moran","Doctor Who Short Trips","Doctor Who","Doctor Who Big Finish"]
 media: ["radio"]
 titles: ["Critical Mass"]
-creators: ["James Moran"]
+artists: ["James Moran"]
 series: ["Doctor Who Short Trips"]
 franchise: ["Doctor Who","Doctor Who Big Finish"]
 ratings: ["❤️❤️❤️🖤🖤"]

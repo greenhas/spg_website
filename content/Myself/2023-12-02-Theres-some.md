@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2023-12-02T12:18:18-05:00
-title: "📚 bookblog: ❤️❤️❤️🖤🖤 for Ultimate Spider-Man: Vol. 15, Silver Sable, by Brian Michael Bendis and Mark Bagley"
-tags: ["Ultimate Spider-Man","comics","Brian Michael Bendis","Mark Bagley"]
+title: "📚 bookblog: Ultimate Spider-Man, Volume 15: Silver Sable (❤️❤️❤️🖤🖤)"
+tags: ["Ultimate Spider-Man","comics","Brian Michael Bendis","Mark Bagley","Marvel","Ultimate Marvel (2000)","Spider-Man","Silver Sable"]
 media: ["book","comic"]
 titles: ["Silver Sable"]
-creators: ["Brian Michael Bendis","Mark Bagley"]
+artists: ["Brian Michael Bendis","Mark Bagley"]
 series: ["Ultimate Spider-Man"]
 franchise: ["Marvel","Ultimate Marvel (2000)","Spider-Man"]
 ratings: ["❤️❤️❤️🖤🖤"]

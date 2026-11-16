@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2026-02-04T11:51:46-05:00
-title: "🎙️ radioblog: The Way Forward  (❤️❤️❤️❤️❤️)"
-tags: ["The Way Forward","Steve Case","Monty Python"]
+title: "🎙️ radioblog: Doctor Who Short Trips, Volume 2, Story 2: The Way Forward (❤️❤️❤️❤️❤️)"
+tags: ["The Way Forward","Steve Case","Monty Python","Doctor Who Short Trips","Doctor Who","Doctor Who Big Finish"]
 media: ["radio"]
 titles: ["The Way Forward"]
-creators: ["Steve Case"]
+artists: ["Steve Case"]
 series: ["Doctor Who Short Trips"]
 franchise: ["Doctor Who","Doctor Who Big Finish"]
 ratings: ["❤️❤️❤️❤️❤️"]

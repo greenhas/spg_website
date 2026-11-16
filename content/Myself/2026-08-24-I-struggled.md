@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-08-24T16:21:34-04:00
-title: "📚 bookblog: Empowered, Volume 1  (❤️❤️🖤🖤🖤)"
-tags: ["","Adam Warren","fanservice","Empowered",""]
+title: "📚 bookblog: Empowered, Volume 1 (❤️❤️🖤🖤🖤)"
+tags: ["Adam Warren","fanservice","Empowered"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Adam Warren"]
+artists: ["Adam Warren"]
 series: ["Empowered"]
 franchise: [""]
 ratings: ["❤️❤️🖤🖤🖤"]

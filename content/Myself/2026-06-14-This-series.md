@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-06-14T18:52:28-05:00
-title: "📚 bookblog: Reagan Youth  (❤️❤️🖤🖤🖤)"
-tags: ["Reagan Youth","Rick Remender","Wes Craig","Deadly Class",""]
+title: "📚 bookblog: Deadly Class, Volume 1: Reagan Youth (❤️❤️🖤🖤🖤)"
+tags: ["Reagan Youth","Rick Remender","Wes Craig","Deadly Class"]
 media: ["book","comic"]
 titles: ["Reagan Youth"]
-creators: ["Rick Remender","Wes Craig"]
+artists: ["Rick Remender","Wes Craig"]
 series: ["Deadly Class"]
 franchise: [""]
 ratings: ["❤️❤️🖤🖤🖤"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-09-07T00:00:00-05:00
 title: "📚 bookblog: Still Just a Geek (❤️❤️❤️❤️❤️)"
 tags: ["Still Just a Geek","Wil Wheaton","EFF","mental health"]
 media: ["book"]
 titles: ["Still Just a Geek"]
-creators: ["Wil Wheaton"]
+artists: ["Wil Wheaton"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]

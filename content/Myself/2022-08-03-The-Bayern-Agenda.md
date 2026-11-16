@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-07-27T00:00:00-05:00
-title: "📚 bookblog: The Bayern Agenda (❤️❤️❤️❤️🖤)"
-tags: ["The Bayern Agenda","Dan Moren","Community of Christ","non-violence","peace","TTRPGs"]
+title: "📚 bookblog: Galactic Cold War, Book 2: The Bayern Agenda (❤️❤️❤️❤️🖤)"
+tags: ["The Bayern Agenda","Dan Moren","Community of Christ","non-violence","peace","TTRPGs","Galactic Cold War"]
 media: ["book"]
 titles: ["The Bayern Agenda"]
-creators: ["Dan Moren"]
+artists: ["Dan Moren"]
 series: ["Galactic Cold War"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

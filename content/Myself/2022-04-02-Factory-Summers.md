@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-04-02T00:00:00-05:00
 title: "📚 bookblog: Factory Summers (❤️❤️❤️❤️🖤)"
 tags: ["XIII","Guy Delisle","Factory Summers","Pyongyang"]
 media: ["book","comic","bande dessinée","graphic novel"]
 titles: ["Factory Summers"]
-creators: ["Guy Delisle"]
+artists: ["Guy Delisle"]
 series: [""]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]

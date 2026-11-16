@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2026-11-12T14:13:57-05:00
-title: "📚 bookblog: The Missionary, Issues 1-3  (❤️❤️❤️🖤🖤)"
-tags: ["","Ryan Stegman","Jason Howard","Mormonism","The Missionary",""]
+title: "📚 bookblog: The Missionary, Issues 1-3 (❤️❤️❤️🖤🖤)"
+tags: ["Ryan Stegman","Jason Howard","Mormonism","The Missionary"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Ryan Stegman","Jason Howard"]
+artists: ["Ryan Stegman","Jason Howard"]
 series: ["The Missionary"]
 franchise: [""]
 ratings: ["❤️❤️❤️🖤🖤"]

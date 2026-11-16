@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: tv
+types: ["review"]
+layout: media
 date: 2023-11-06T10:21:05-05:00
 tags: ["Lupin"]
-title: "📺 tvblog: ❤️❤️❤️🖤🖤 pour Lupin (Partie 3)"
+title: "📺 tvblog: Lupin, Partie 3 (❤️❤️❤️🖤🖤)"
 media: ["tv"]
 series: ["Lupin"]
 franchise: [""]

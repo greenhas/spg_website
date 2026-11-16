@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2026-03-27T09:29:21-04:00
-title: "🎙️ radioblog: Expiry Dating  (❤️❤️❤️❤️❤️)"
-tags: ["Expiry Dating","James Goss","Peter Davison","Colin Baker","David Tennant","Alex Kingston"]
+title: "🎙️ radioblog: Doctor Who: The Tenth Doctor and River Song, Story 1: Expiry Dating (❤️❤️❤️❤️❤️)"
+tags: ["Expiry Dating","James Goss","Peter Davison","Colin Baker","David Tennant","Alex Kingston","Doctor Who: The Tenth Doctor and River Song","Doctor Who","Doctor Who Big Finish"]
 media: ["radio"]
 titles: ["Expiry Dating"]
-creators: ["James Goss"]
+artists: ["James Goss"]
 series: ["Doctor Who: The Tenth Doctor and River Song"]
 franchise: ["Doctor Who","Doctor Who Big Finish"]
 ratings: ["❤️❤️❤️❤️❤️"]

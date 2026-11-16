@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2022-04-01T00:00:00-05:00
-title: "📚 bookblog: Black Panther: A Nation Under Our Feet, Book One (❤️❤️❤️🖤🖤)"
-tags: ["XIII","Black Panther","Black Panther: A Nation Under Our Feet","Ta-Nehisi Coates","Brian Stelfreeze","Christopher Priest","All of the Marvels"]
+title: "📚 bookblog: Black Panther: A Nation Under Our Feet,  Book 1 (❤️❤️❤️🖤🖤)"
+tags: ["XIII","Black Panther","Black Panther: A Nation Under Our Feet","Ta-Nehisi Coates","Brian Stelfreeze","Christopher Priest","All of the Marvels","Marvel"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Ta-Nehisi Coates","Brian Stelfreeze"]
+artists: ["Ta-Nehisi Coates","Brian Stelfreeze"]
 series: ["Black Panther: A Nation Under Our Feet"]
 franchise: ["Black Panther","Marvel"]
 ratings: ["❤️❤️❤️🖤🖤"]

@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2026-03-11T08:43:21-04:00
-title: "🎙️ radioblog: Empire of the Racnoss  (❤️❤️❤️❤️🖤)"
-tags: ["Empire of the Racnoss","Scott Handcock"]
+title: "🎙️ radioblog: Doctor Who: Classic Doctors New Monsters, Volume 2, Story 2: Empire of the Racnoss (❤️❤️❤️❤️🖤)"
+tags: ["Empire of the Racnoss","Scott Handcock","Doctor Who: Classic Doctors New Monsters","Doctor Who","Doctor Who Big Finish"]
 media: ["radio"]
 titles: ["Empire of the Racnoss"]
-creators: ["Scott Handcock"]
+artists: ["Scott Handcock"]
 series: ["Doctor Who: Classic Doctors New Monsters"]
 franchise: ["Doctor Who","Doctor Who Big Finish"]
 ratings: ["❤️❤️❤️❤️🖤"]

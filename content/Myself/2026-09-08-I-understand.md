@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: movie
+types: ["review"]
+layout: media
 date: 2026-09-08T18:06:47-04:00
-title: "🍿 movieblog: Judgment Day (❤️❤️❤️🖤🖤)"
-tags: ["Judgment Day","AI","generative AI","Mormonism"]
+title: "🍿 movieblog: Terminator, 2: Judgment Day (❤️❤️❤️🖤🖤)"
+tags: ["Judgment Day","AI","generative AI","Mormonism","Terminator"]
 media: ["movie"]
 titles: ["Judgment Day"]
 series: ["Terminator"]

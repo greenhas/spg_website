@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2026-02-07T15:53:40-05:00
-title: "🎙️ radioblog: Murmurs of Earth  (❤️❤️❤️🖤🖤)"
-tags: ["Murmurs of Earth","M Deacon","J Middleton","C Wraight"]
+title: "🎙️ radioblog: Doctor Who Short Trips, Volume 3, Story 6: Murmurs of Earth (❤️❤️❤️🖤🖤)"
+tags: ["Murmurs of Earth","M Deacon","J Middleton","C Wraight","Doctor Who Short Trips","Doctor Who","Doctor Who Big Finish"]
 media: ["radio"]
 titles: ["Murmurs of Earth"]
-creators: ["M Deacon","J Middleton","C Wraight"]
+artists: ["M Deacon","J Middleton","C Wraight"]
 series: ["Doctor Who Short Trips"]
 franchise: ["Doctor Who","Doctor Who Big Finish"]
 ratings: ["❤️❤️❤️🖤🖤"]

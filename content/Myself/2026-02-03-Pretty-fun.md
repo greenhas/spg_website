@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2026-02-03T15:48:58-05:00
-title: "🎙️ radioblog: The Wings of a Butterfly  (❤️❤️❤️❤️🖤)"
-tags: ["The Wings of a Butterfly","Colin Baker"]
+title: "🎙️ radioblog: Doctor Who Short Trips, Volume 1, Story 6: The Wings of a Butterfly (❤️❤️❤️❤️🖤)"
+tags: ["The Wings of a Butterfly","Colin Baker","Doctor Who Short Trips","Doctor Who","Doctor Who Big Finish"]
 media: ["radio"]
 titles: ["The Wings of a Butterfly"]
-creators: ["Colin Baker"]
+artists: ["Colin Baker"]
 series: ["Doctor Who Short Trips"]
 franchise: ["Doctor Who","Doctor Who Big Finish"]
 ratings: ["❤️❤️❤️❤️🖤"]

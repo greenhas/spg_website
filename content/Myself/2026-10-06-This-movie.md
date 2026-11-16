@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: movie
+types: ["review"]
+layout: media
 date: 2026-10-06T09:00:14-04:00
 title: "🍿 movieblog: Monty Python and the Holy Grail (❤️❤️❤️❤️❤️)"
-tags: ["Monty Python and the Holy Grail","John Cleese"]
+tags: ["Monty Python and the Holy Grail","John Cleese","Monty Python"]
 media: ["movie"]
 titles: ["Monty Python and the Holy Grail"]
 series: [""]

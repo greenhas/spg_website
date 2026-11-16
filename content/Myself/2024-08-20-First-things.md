@@ -1,9 +1,9 @@
 ---
-types: ["media"]
-layout: tv
+types: ["review"]
+layout: media
 date: 2024-08-20T20:52:43-04:00
 tags: ["The Ipcress File"]
-title: "📺 tvblog: ❤️❤️❤️❤️🖤 for The Ipcress File "
+title: "📺 tvblog: The Ipcress File, (❤️❤️❤️❤️🖤)"
 media: ["tv"]
 series: ["The Ipcress File"]
 franchise: [""]

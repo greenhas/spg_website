@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: radio
+types: ["review"]
+layout: media
 date: 2025-03-16T21:03:14-04:00
-title: "🎙️ radioblog: Guards! Guards!  (❤️❤️❤️🖤🖤)"
-tags: ["Guards! Guards!","Terry Pratchett,Michael Butt"]
+title: "🎙️ radioblog: Terry Pratchett: The BBC Radio Drama Collection, Dramatisation 3: Guards! Guards! (❤️❤️❤️🖤🖤)"
+tags: ["Guards! Guards!","Terry Pratchett,Michael Butt","Terry Pratchett","Michael Butt","Terry Pratchett: The BBC Radio Drama Collection","Discworld"]
 media: ["radio"]
 titles: ["Guards! Guards!"]
-creators: ["Terry Pratchett","Michael Butt"]
+artists: ["Terry Pratchett","Michael Butt"]
 series: ["Terry Pratchett: The BBC Radio Drama Collection"]
 franchise: ["Discworld"]
 ratings: ["❤️❤️❤️🖤🖤"]

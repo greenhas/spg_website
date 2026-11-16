@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-03-15T22:32:23-04:00
 title: "📚 bookblog: Star Trek 2011-2016, Volume 1 (❤️❤️❤️❤️🖤)"
-tags: ["Mike Johnson","Stephen Molnar","Joe Phillips","Humble Bundle","IDW"]
+tags: ["Mike Johnson","Stephen Molnar","Joe Phillips","Humble Bundle","IDW","Star Trek 2011-2016","Star Trek","Kelvinverse","Star Trek IDW"]
 media: ["book","comic"]
 titles: [""]
-creators: ["Mike Johnson","Stephen Molnar","Joe Phillips"]
+artists: ["Mike Johnson","Stephen Molnar","Joe Phillips"]
 series: ["Star Trek 2011-2016"]
 franchise: ["Star Trek","Kelvinverse","Star Trek IDW"]
 ratings: ["❤️❤️❤️❤️🖤"]

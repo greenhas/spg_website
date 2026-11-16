@@ -1,12 +1,12 @@
 ---
-types: ["media"]
-layout: book
+types: ["review"]
+layout: media
 date: 2025-12-07T16:31:29-05:00
-title: "📚 bookblog: Supercool  (❤️❤️❤️❤️🖤)"
-tags: ["Supercool","Joe Casey","Piotr Kowalski","Sex",""]
+title: "📚 bookblog: Sex, Book Two: Supercool (❤️❤️❤️❤️🖤)"
+tags: ["Supercool","Joe Casey","Piotr Kowalski","Sex"]
 media: ["book","comic"]
 titles: ["Supercool"]
-creators: ["Joe Casey","Piotr Kowalski"]
+artists: ["Joe Casey","Piotr Kowalski"]
 series: ["Sex"]
 franchise: [""]
 ratings: ["❤️❤️❤️❤️🖤"]
