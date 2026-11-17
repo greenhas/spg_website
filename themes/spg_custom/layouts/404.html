@@ -1,0 +1,14 @@
+{{ define "main" }}
+<section class="hero container">
+  <span class="section-label hero__eyebrow">{{ i18n "notFoundEyebrow" | default "04 / Not found" }}</span>
+  <h1 class="hero__title u-display-xl">404</h1>
+  <p class="notfound-heading">{{ i18n "notFoundHeading" | default "Page not found." }}</p>
+  <p class="hero__deck">The page you were looking for definitely doesn't exist, or it has moved.</p>
+  <div class="hero__actions">
+    <a class="button button--primary" href="{{ site.Home.Permalink }}">{{ i18n "notFoundHome" | default "Home" }}</a>
+    {{- with site.GetPage "/posts" }}
+    <a class="button button--secondary" href="{{ .Permalink }}">{{ i18n "notFoundPosts" | default "Posts" }}</a>
+    {{- end }}
+  </div>
+</section>
+{{ end }}
