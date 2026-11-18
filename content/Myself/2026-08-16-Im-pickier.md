@@ -8,7 +8,7 @@ media: ["book","comic"]
 titles: ["Roots of All Evil"]
 artists: ["Rob Guillory"]
 series: ["Farmhand"]
-franchise: [""]
+franchise: ["Farmhand"]
 ratings: ["❤️❤️❤️❤️🖤"]
 params:
   entry: Volume 3
