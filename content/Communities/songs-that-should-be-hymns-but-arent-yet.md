@@ -18,7 +18,7 @@ Here's a music video of the song itself:
 
 {{< youtube id="lYyqwoQdTQI">}}
 
-Even though this post has been on my mind since last weekend, I've felt especially urgent about writing it since [learning yesterday morning](https://spencergreenhalgh.com/myself/2023-11-16-quelle-tristesse/) that Karly Tremblay, the lead singer of *Les cowboys fringants*, had died the day before of prostate cancer at the age of 47. That seemed to add new meaning to these lines from the song: 
+Even though this post has been on my mind since last weekend, I've felt especially urgent about writing it since [learning yesterday morning](https://spencergreenhalgh.com/myself/2023-11-16-quelle-tristesse/) that Karl Tremblay, the lead singer of *Les cowboys fringants*, had died the day before of prostate cancer at the age of 47. That seemed to add new meaning to these lines from the song: 
 
 > Malgré nos vies qui s'emballent dans une époque folle  
 > Où un rien nous détourne du simple instant présent  
