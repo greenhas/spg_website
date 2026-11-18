@@ -11,4 +11,4 @@ franchise: [""]
 ratings: ["❤️❤️❤️❤️❤️"]
 ---
 
-Blending electronic and traditional music is a lot of fun, and this makes for good work music, though I wish the album were longer so as to avoid some repetition. Still hits the spot.ew
+Blending electronic and traditional music is a lot of fun, and this makes for good work music, though I wish the album were longer so as to avoid some repetition. Still hits the spot.
