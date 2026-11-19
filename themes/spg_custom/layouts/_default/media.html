@@ -32,7 +32,7 @@
        {{end}}
         {{$tf := len (.GetTerms "franchise") }}
         {{if ne $tf 0}}
-        <h3>franchise: {{ range .GetTerms "franchise" }} <a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> |{{ end }}</h3>   
+        <h2>franchise: {{ range .GetTerms "franchise" }} <a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink }}" > {{- .LinkTitle -}}</a> |{{ end }}</h2>   
         {{end}}
        <h2>{{ i18n "mediumTaxonomy"}} {{ range .GetTerms "media" }} <a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink }}" > {{- .LinkTitle | strings.ToLower}}</a> |{{ end }}</h3>
        <h2 class="f3 athelas mt3 mb1">{{ i18n "ratingTaxonomy"}} {{ range .GetTerms "ratings" }} <a style="text-decoration: none" href="{{ .RelPermalink }}" > {{- .LinkTitle }}</a>{{ end }}</h3>
