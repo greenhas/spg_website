@@ -1,0 +1,22 @@
+{{ define "main" }}
+<header class="hero container">
+  <span class="section-label hero__eyebrow">{{ i18n "sectionEyebrow" | default "00 / Index" }}</span>
+  <h1 class="hero__title">{{ .Title }}</h1>
+  {{- with .Description }}
+  <p class="hero__deck">{{ . }}</p>
+  {{- end }}
+  <p class="meta">{{ len .Pages }} {{ i18n "entries" | default "entries" }}</p>
+</header>
+
+<section class="container">
+  <span class="section-label">{{ i18n "entriesLabel" | default "01 / Entries" }}</span>
+  <ul class="post-index">
+    {{range .Data.Terms.ByCount }}
+    <li class="post-index__item">
+      <p class="post-index__title u-h3-style"><a href="{{ .Page.RelPermalink }}">{{ .Page.LinkTitle }} ({{ .Count }})</p>
+    </li>
+    {{- end }}
+  </ul>
+</section>
+
+{{ end }}
