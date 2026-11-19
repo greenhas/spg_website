@@ -22,7 +22,7 @@
           	{{ end }}</span>
         {{end}}
         
-      {{if eq .Params.layout "link"}}  
+      {{if compare.Eq .Params.layout "link" "media" "tea"}}  
       {{else}}
       <p class="post-index__title u-h3-style"><a href="{{ .Permalink}}">{{ .Title }}</a></p>
       {{end}}
@@ -50,15 +50,53 @@
      
       	<div style="margin: 1em" class="prose"{{ if eq site.Params.design.prose "mono" }} data-prose="mono"{{ end }}>    		
     		{{ .Summary }}</div>
+    		
+    		
+    		
+    		
+    		
     		{{if compare.Lt (math.Add (.Summary | len) 1) (.Content | len)}}
   				<a class="button button--secondary" href="{{ .Permalink }}">Read whole post</a>
   				<br><br>
+  				
+  				
   			{{else}}
   		  		{{if eq .Params.layout "link"}}
   					<div class = "container">
   					<p>{{i18n "linkResponse1"}} "<a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{.Params.art_link}}">{{.Params.art_title}}</a>," {{i18n "linkResponse2"}} {{range .Params.Sources}}<a href="/types/{{ . | urlize }}">{{ . }}</a>. {{end}}</p>
   					</div>
   					<br>
+    			{{end}}
+    			{{if eq .Params.layout "media"}}
+  					<div class = "container">
+  					<p>{{i18n "review1"}} ({{range .Params.Ratings}}{{.}}{{end}}) of
+  					
+  					{{$ts := len (.GetTerms "series") }}
+        			{{if ne $ts 0}}
+  						{{range .GetTerms "series"}}
+  						<a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{ .RelPermalink}}">{{.LinkTitle}}</a>{{end}},
+  					{{end}}
+  					{{$te := len (.GetTerms "series") }}
+        			{{if ne $te 0}}
+        			{{.Params.entry}}
+        			{{$tt := len (.GetTerms "titles") }}
+        			{{if ne $tt 0}}
+        			:
+        			{{end}}
+        			
+        			{{end}}
+  					{{range .Params.Titles}}{{.}}{{end}}</p>
+  					</div>
+  					<br>
+  					<a class="button button--secondary" href="{{ .Permalink }}">Read whole post</a>
+  				<br><br>
+    			{{end}}
+    			{{if eq .Params.layout "tea"}}
+  					<div class = "container">
+  					<p>{{i18n "review1"}} ({{range .Params.Ratings}}{{.}}{{end}}) of {{range .GetTerms "brands"}}<a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{.RelPermalink}}">{{.LinkTitle}}</a>{{end}}, {{range .Params.Blends}}{{.}}{{end}}</div>
+  					<br>
+  					<a class="button button--secondary" href="{{ .Permalink }}">Read whole post</a>
+  				<br><br>
     			{{end}}
   			{{end}}
         {{end}}
