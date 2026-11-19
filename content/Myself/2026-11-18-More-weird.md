@@ -11,4 +11,4 @@ franchise: ["Farmhand"]
 ratings: ["❤️❤️❤️❤️❤️"]
 ---
 
-More weird comic series deserve weird soundtracks to go with them. I liked this so much when I first bought it that I bought the rest of the Skies Speak catalog (at pay what you want prices, so I'm not that generous). It is excellent background music.ew
+More weird comic series deserve weird soundtracks to go with them. I liked this so much when I first bought it that I bought the rest of the Skies Speak catalog (at pay what you want prices, so I'm not that generous). It is excellent background music.
