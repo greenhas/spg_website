@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{{- $appearance := .Site.Params.design.appearance | default "auto" -}}
+{{- if not (in (slice "auto" "light" "dark") $appearance) }}{{ $appearance = "auto" }}{{ end -}}
+<html lang="{{ .Site.Language.Lang | default "en" }}" dir="{{ .Site.Language.Direction | default "ltr" }}"{{ if ne $appearance "auto" }} data-appearance="{{ $appearance }}"{{ end }}>
+<head>
+<script src="https://hypothes.is/embed.js" async></script>
+{{ partial "head.html" . }}
+</head>
+<body>
+{{ partial "skip-link.html" . }}
+{{ partial "header.html" . }}
+<main id="main">
+{{ block "main" . }}{{ end }}
+</main>
+{{ partial "footer.html" . }}
+</body>
+</html>

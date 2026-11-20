@@ -11,34 +11,43 @@ other = "Skip to content"
 other = "Primary"
 
 [rssFeed]
-other = "RSS feed"
+other = "flux RSS"
 
 [footerLabel]
-other = "99 / End"
+other = "99 / Fin"
 
 [footerNavigation]
-other = "Footer"
+other = "Bas de Page"
 
 [homeEyebrow]
-other = "00 / Index"
+other = "00 / Indice"
 
 [latestLabel]
-other = "01 / Latest"
+other = "01 / Plus Récent"
 
 [articleLabel]
 other = "00 / Article"
+
+[commentLabel]
+other = "90 / Faire un Commentaire avec Hypothesis"
+
+[hypothesisComments]
+other = "<p>Cliquez sur le bouton <code><</code> (en haut et à droite) pour lire et faire des commentaires avec <em><a href='https://web.hypothes.is/'>Hypothesis</a></em>.</p>"
+
+[recommendationLabel]
+other = "95 / Articles Similaires"
 
 [pageLabel]
 other = "00 / Page"
 
 [sectionEyebrow]
-other = "00 / Index"
+other = "00 / Indice"
 
 [entriesLabel]
-other = "01 / Entries"
+other = "01 / Posts"
 
 [entries]
-other = "entries"
+other = "posts"
 
 [notFoundEyebrow]
 other = "04 / Not found"

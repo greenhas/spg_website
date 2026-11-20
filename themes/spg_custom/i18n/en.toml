@@ -52,8 +52,14 @@ other = "01 / Latest"
 [articleLabel]
 other = "00 / Article"
 
+[commentLabel]
+other = "90 / Comment with Hypothesis"
+
+[hypothesisComments]
+other = "<p>You can click on the <code><</code> button in the top-right of your browser window to read and write comments on this post with <em><a href='https://web.hypothes.is/'>Hypothesis</a></em>.</p>"
+
 [recommendationLabel]
-other = "80 / Similar Articles"
+other = "95 / Similar Articles"
 
 [pageLabel]
 other = "00 / Page"
