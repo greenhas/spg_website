@@ -19,7 +19,7 @@
   </div>
   <div class = "container">
   <br>
-  <p>{{i18n "linkResponse1"}} "<a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="/tags/{{ . | urlize }}" href="{{.Params.art_link}}">{{.Params.art_title}}</a>," {{i18n "linkResponse2"}} {{range .Params.Sources}}<a href="/types/{{ . | urlize }}">{{ . }}</a>. {{end}}</p>
+  <p>{{i18n "linkResponse1"}} "<a style ="color: var(--link); text-decoration: underline; text-decoration-thickness: var(--link-underline-width);text-underline-offset: var(--link-underline-offset)" href="{{.Params.art_link}}">{{.Params.art_title}}</a>," {{i18n "linkResponse2"}} {{range .Params.Sources}}<a href="/types/{{ . | urlize }}">{{ . }}</a>. {{end}}</p>
   </div>
   
 
